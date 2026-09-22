@@ -2,28 +2,60 @@ backend:
   name: git-gateway
   branch: main
 
-media_folder: 'src/assets/images'
-public_folder: '/_astro'
+i18n:
+  structure: folder
+  locales: [vi, en]
+  default_locale: vi
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
 
 collections:
-  - name: 'post'
-    label: 'Post'
-    folder: 'src/data/post'
+  # 1. Insights & Knowledge Hub (Gồm toàn bộ danh mục SEO chìm)
+  - name: "insights"
+    label: "Insights & Knowledge Hub"
+    folder: "src/content/insights"
     create: true
+    i18n: true
+    slug: "{{locale}}/{{slug}}"
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Excerpt', name: 'excerpt', widget: 'string' }
-      - { label: 'Category', name: 'category', widget: 'string' }
-      - {
-          label: 'Tags',
-          name: 'tags',
-          widget: 'list',
-          allow_add: true,
-          allow_delete: true,
-          collapsed: false,
-          field: { label: 'Tag', name: 'tag', widget: 'string' },
-        }
-      - { label: 'Image', name: 'image', widget: 'string' }
-      - { label: 'Publish Date', name: 'publishDate', widget: 'datetime', required: false }
-      - { label: 'Author', name: 'author', widget: 'string' }
-      - { label: 'Content', name: 'body', widget: 'markdown' }
+      - { label: "Title", name: "title", widget: "string", i18n: true }
+      - { label: "Description", name: "description", widget: "text", i18n: true }
+      - label: "Pillar / Category"
+        name: "category"
+        widget: "select"
+        options: ["operations", "erp", "ai", "knowledge", "compliance", "industry"]
+        i18n: duplicate
+      - { label: "Publish Date", name: "publishDate", widget: "datetime", i18n: duplicate }
+      - { label: "Author", name: "author", widget: "string", default: "OKELAS Advisory", i18n: duplicate }
+      - { label: "Content", name: "body", widget: "markdown", i18n: true }
+
+  # 2. Readiness Assessments (Cấu hình cho các bài chẩn đoán)
+  - name: "assessments"
+    label: "Readiness Assessments"
+    folder: "src/content/assessments"
+    create: true
+    i18n: true
+    slug: "{{locale}}/{{slug}}"
+    fields:
+      - { label: "Assessment Title", name: "title", widget: "string", i18n: true }
+      - { label: "Target Pillar", name: "pillar", widget: "select", options: ["erp", "digitalization", "ai", "knowledge"] }
+      - label: "Diagnostic Questions"
+        name: "questions"
+        widget: "list"
+        fields:
+          - { label: "Question Text", name: "question", widget: "string", i18n: true }
+          - label: "Options & Scores"
+            name: "options"
+            widget: "list"
+            fields:
+              - { label: "Option Label", name: "label", widget: "string", i18n: true }
+              - { label: "Score (1-5)", name: "score", widget: "number", value_type: "int" }
+      - label: "Maturity Tiers / Recommendations"
+        name: "tiers"
+        widget: "list"
+        fields:
+          - { label: "Tier Name", name: "tier_name", widget: "string", i18n: true } # e.g. "Ad-hoc / Document-Centric"
+          - { label: "Min Score", name: "min_score", widget: "number" }
+          - { label: "Max Score", name: "max_score", widget: "number" }
+          - { label: "Advisory Next Steps", name: "recommendation", widget: "markdown", i18n: true }
