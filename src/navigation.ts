@@ -1,168 +1,62 @@
-import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
-
 export const headerData = {
   links: [
     {
-      text: 'Homes',
+      text: 'Why OKELAS',
       links: [
-        {
-          text: 'SaaS',
-          href: getPermalink('/homes/saas'),
-        },
-        {
-          text: 'Startup',
-          href: getPermalink('/homes/startup'),
-        },
-        {
-          text: 'Mobile App',
-          href: getPermalink('/homes/mobile-app'),
-        },
-        {
-          text: 'Personal',
-          href: getPermalink('/homes/personal'),
-        },
+        { text: 'The Problem', href: '/why/the-problem' },
+        { text: 'From Documents to Operations', href: '/why/documents-to-operations' },
+        { text: 'Knowledge as Infrastructure', href: '/why/knowledge-as-infrastructure' },
+        { text: 'Progressive eQMS', href: '/why/progressive-eqms' },
+        { text: 'Why Before ERP', href: '/why/why-before-erp' },
+        { text: 'Why Before AI', href: '/why/why-before-ai' },
       ],
     },
     {
-      text: 'Pages',
+      text: 'Solutions',
       links: [
-        {
-          text: 'Features (Anchor Link)',
-          href: getPermalink('/#features'),
-        },
-        {
-          text: 'Services',
-          href: getPermalink('/services'),
-        },
-        {
-          text: 'Pricing',
-          href: getPermalink('/pricing'),
-        },
-        {
-          text: 'About us',
-          href: getPermalink('/about'),
-        },
-        {
-          text: 'Contact',
-          href: getPermalink('/contact'),
-        },
-        {
-          text: 'Terms',
-          href: getPermalink('/terms'),
-        },
-        {
-          text: 'Privacy policy',
-          href: getPermalink('/privacy'),
-        },
+        { text: 'Digitalize Operations', href: '/solutions/digitalize-operations' },
+        { text: 'Standardize Processes', href: '/solutions/standardize-processes' },
+        { text: 'Progressive eQMS', href: '/solutions/progressive-eqms' },
+        { text: 'ERP Readiness (Pre-ERP)', href: '/solutions/erp-readiness' },
+        { text: 'AI Readiness', href: '/solutions/ai-readiness' },
+        { text: 'Knowledge & Copilot', href: '/solutions/knowledge-copilot' },
+        { text: 'Workflow Automation', href: '/solutions/workflow-automation' },
       ],
     },
     {
-      text: 'Landing',
+      text: 'Readiness',
       links: [
-        {
-          text: 'Lead Generation',
-          href: getPermalink('/landing/lead-generation'),
-        },
-        {
-          text: 'Long-form Sales',
-          href: getPermalink('/landing/sales'),
-        },
-        {
-          text: 'Click-Through',
-          href: getPermalink('/landing/click-through'),
-        },
-        {
-          text: 'Product Details (or Services)',
-          href: getPermalink('/landing/product'),
-        },
-        {
-          text: 'Coming Soon or Pre-Launch',
-          href: getPermalink('/landing/pre-launch'),
-        },
-        {
-          text: 'Subscription',
-          href: getPermalink('/landing/subscription'),
-        },
+        { text: 'ERP Readiness Assessment', href: '/readiness/erp' },
+        { text: 'Digitalization Readiness', href: '/readiness/digitalization' },
+        { text: 'AI Readiness Assessment', href: '/readiness/ai' },
+        { text: 'Knowledge Readiness', href: '/readiness/knowledge' },
       ],
     },
     {
-      text: 'Blog',
+      text: 'Insights',
       links: [
-        {
-          text: 'Blog List',
-          href: getBlogPermalink(),
-        },
-        {
-          text: 'Article',
-          href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
-        },
-        {
-          text: 'Article (with MDX)',
-          href: getPermalink('markdown-elements-demo-post', 'post'),
-        },
-        {
-          text: 'Category Page',
-          href: getPermalink('tutorials', 'category'),
-        },
-        {
-          text: 'Tag Page',
-          href: getPermalink('astro', 'tag'),
-        },
+        { text: 'Business & Operations', href: '/insights/operations' },
+        { text: 'ERP & Pre-ERP Strategy', href: '/insights/erp' },
+        { text: 'AI & Organizational Knowledge', href: '/insights/ai' },
+        { text: 'Quality & Compliance (eQMS)', href: '/insights/compliance' },
+        { text: 'Industry Insights', href: '/insights/industries' },
+      ],
+    },
+    {
+      text: 'About',
+      links: [
+        { text: 'About OKELAS', href: '/about' },
+        { text: 'Our Approach', href: '/about/approach' },
+        { text: 'Technology Architecture', href: '/about/technology' },
+        { text: 'Contact Advisory', href: '/contact' },
       ],
     },
   ],
-  actions: [{ text: 'Download', href: 'https://github.com/arthelokyo/astrowind', target: '_blank' }],
-};
-
-export const footerData = {
-  links: [
+  actions: [
     {
-      title: 'Product',
-      links: [
-        { text: 'Features', href: getPermalink('/#features') },
-        { text: 'Pricing', href: getPermalink('/pricing') },
-        { text: 'Services', href: getPermalink('/services') },
-        { text: 'Blog', href: getBlogPermalink() },
-      ],
-    },
-    {
-      title: 'Demos',
-      links: [
-        { text: 'SaaS', href: getPermalink('/homes/saas') },
-        { text: 'Startup', href: getPermalink('/homes/startup') },
-        { text: 'Mobile App', href: getPermalink('/homes/mobile-app') },
-        { text: 'Personal', href: getPermalink('/homes/personal') },
-        { text: 'Landing pages', href: getPermalink('/landing/lead-generation') },
-      ],
-    },
-    {
-      title: 'Resources',
-      links: [
-        { text: 'Documentation', href: 'https://github.com/arthelokyo/astrowind#readme' },
-        { text: 'Skills for AI agents', href: 'https://github.com/arthelokyo/astrowind/tree/main/.agents/skills' },
-        { text: 'Releases', href: 'https://github.com/arthelokyo/astrowind/releases' },
-        { text: 'Discussions', href: 'https://github.com/arthelokyo/astrowind/discussions' },
-      ],
-    },
-    {
-      title: 'Company',
-      links: [
-        { text: 'About', href: getPermalink('/about') },
-        { text: 'Contact', href: getPermalink('/contact') },
-        { text: 'Report an issue', href: 'https://github.com/arthelokyo/astrowind/issues' },
-        { text: 'License', href: 'https://github.com/arthelokyo/astrowind/blob/main/LICENSE.md' },
-      ],
+      text: 'Assess Your Business →',
+      href: '/readiness',
+      variant: 'primary', // Nút được highlighted nổi bật
     },
   ],
-  secondaryLinks: [
-    { text: 'Terms', href: getPermalink('/terms') },
-    { text: 'Privacy Policy', href: getPermalink('/privacy') },
-  ],
-  socialLinks: [
-    { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
-    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/arthelokyo/astrowind' },
-  ],
-  footNote: `
-    Made by <a class="text-blue-600 underline dark:text-muted" href="https://arthelokyo.com"> Arthelokyo</a> · All rights reserved.
-  `,
 };
