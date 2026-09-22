@@ -1,34 +1,38 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: OKELAS
+  site: 'https://okelas.com'
   base: '/'
   trailingSlash: false
 
   googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M
 
-# Default SEO metadata
+# Default SEO metadata (Brand-level fallback)
 metadata:
   title:
-    default: AstroWind
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: 'OKELAS — Organization Knowledge Operating System'
+    template: '%s — OKELAS'
+
+  description: 'OKELAS helps organizations standardize processes, structure organizational knowledge, digitize operations, and prepare for ERP and AI.'
+
   robots:
     index: true
     follow: true
+
   openGraph:
-    site_name: AstroWind
+    site_name: OKELAS
     images:
       - url: '~/assets/images/default.png'
         width: 1200
         height: 628
     type: website
+
   twitter:
-    handle: '@arthelokyo'
-    site: '@arthelokyo'
+    handle: '@okelas'
+    site: '@okelas'
     cardType: summary_large_image
 
 i18n:
-  language: en
+  language: vi
   textDirection: ltr
 
 apps:
@@ -38,27 +42,27 @@ apps:
 
     post:
       isEnabled: true
-      permalink: '/%slug%' # Variables: %slug%, %year%, %month%, %day%, %hour%, %minute%, %second%, %category%
+      permalink: '/insights/%slug%' 
       robots:
         index: true
 
     list:
       isEnabled: true
-      pathname: 'blog' # Blog main path, you can change this to "articles" (/articles)
+      pathname: 'insights' 
       robots:
         index: true
 
     category:
       isEnabled: true
-      pathname: 'category' # Category main path /category/some-category, you can change this to "group" (/group/some-category)
+      pathname: 'category'
       robots:
         index: true
 
     tag:
       isEnabled: true
-      pathname: 'tag' # Tag main path /tag/some-tag, you can change this to "topics" (/topics/some-category)
+      pathname: 'tag'
       robots:
-        index: false
+        index: false # Ngăn tạo thin-content pages cho các tag ít bài
 
     isRelatedPostsEnabled: true
     relatedPostsCount: 4
@@ -66,7 +70,7 @@ apps:
 analytics:
   vendors:
     googleAnalytics:
-      id: null # or "G-XXXXXXXXXX"
+      id: null # Điền ID GA4 dạng "G-XXXXXXXXXX" khi deploy chính thức
 
 ui:
-  theme: 'system' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
+  theme: 'system'
