@@ -17,7 +17,7 @@ export const headerData = {
         { text: 'Digitalize Operations', href: '/solutions/digitalize-operations' },
         { text: 'Standardize Processes', href: '/solutions/standardize-processes' },
         { text: 'Progressive eQMS', href: '/solutions/progressive-eqms' },
-        { text: 'ERP Readiness (Pre-ERP)', href: '/solutions/erp-readiness' },
+        { text: 'ERP Readiness', href: '/solutions/erp-readiness' },
         { text: 'AI Readiness', href: '/solutions/ai-readiness' },
         { text: 'Knowledge & Copilot', href: '/solutions/knowledge-copilot' },
         { text: 'Workflow Automation', href: '/solutions/workflow-automation' },
@@ -26,9 +26,9 @@ export const headerData = {
     {
       text: 'Readiness',
       links: [
-        { text: 'ERP Readiness Assessment', href: '/readiness/erp' },
+        { text: 'ERP Readiness', href: '/readiness/erp' },
         { text: 'Digitalization Readiness', href: '/readiness/digitalization' },
-        { text: 'AI Readiness Assessment', href: '/readiness/ai' },
+        { text: 'AI Readiness', href: '/readiness/ai' },
         { text: 'Knowledge Readiness', href: '/readiness/knowledge' },
       ],
     },
@@ -36,10 +36,10 @@ export const headerData = {
       text: 'Insights',
       links: [
         { text: 'Business & Operations', href: '/insights/operations' },
-        { text: 'ERP & Pre-ERP Strategy', href: '/insights/erp' },
-        { text: 'AI & Organizational Knowledge', href: '/insights/ai' },
-        { text: 'Quality & Compliance (eQMS)', href: '/insights/compliance' },
-        { text: 'Industry Insights', href: '/insights/industries' },
+        { text: 'ERP', href: '/insights/erp' },
+        { text: 'AI', href: '/insights/ai' },
+        { text: 'Compliance', href: '/insights/compliance' },
+        { text: 'Industry', href: '/insights/industries' },
       ],
     },
     {
@@ -47,16 +47,61 @@ export const headerData = {
       links: [
         { text: 'About OKELAS', href: '/about' },
         { text: 'Our Approach', href: '/about/approach' },
-        { text: 'Technology Architecture', href: '/about/technology' },
+        { text: 'Technology', href: '/about/technology' },
+        { text: 'Partners', href: '/about/partners' },
+        { text: 'Contact', href: '/contact' },
+      ],
+    },
+  ],
+  actions: [{ text: 'Assess Your Business →', href: '/readiness' }],
+};
+
+// --- Bổ sung đoạn footerData dưới đây ---
+export const footerData = {
+  links: [
+    {
+      title: 'Solutions',
+      links: [
+        { text: 'Digitalize Operations', href: '/solutions/digitalize-operations' },
+        { text: 'Standardize Processes', href: '/solutions/standardize-processes' },
+        { text: 'Progressive eQMS', href: '/solutions/progressive-eqms' },
+        { text: 'ERP Readiness', href: '/solutions/erp-readiness' },
+      ],
+    },
+    {
+      title: 'Readiness',
+      links: [
+        { text: 'ERP Readiness Assessment', href: '/readiness/erp' },
+        { text: 'Digitalization Assessment', href: '/readiness/digitalization' },
+        { text: 'AI Readiness Assessment', href: '/readiness/ai' },
+      ],
+    },
+    {
+      title: 'Insights',
+      links: [
+        { text: 'Business & Operations', href: '/insights/operations' },
+        { text: 'ERP Strategy', href: '/insights/erp' },
+        { text: 'AI & Knowledge', href: '/insights/ai' },
+        { text: 'Compliance (eQMS)', href: '/insights/compliance' },
+      ],
+    },
+    {
+      title: 'Company',
+      links: [
+        { text: 'About OKELAS', href: '/about' },
+        { text: 'Our Approach', href: '/about/approach' },
         { text: 'Contact Advisory', href: '/contact' },
       ],
     },
   ],
-  actions: [
-    {
-      text: 'Assess Your Business →',
-      href: '/readiness',
-      variant: 'primary', // Nút được highlighted nổi bật
-    },
+  secondaryLinks: [
+    { text: 'Terms', href: '/terms' },
+    { text: 'Privacy Policy', href: '/privacy' },
   ],
+  socialLinks: [
+    { ariaLabel: 'LinkedIn', icon: 'tabler:brand-linkedin', href: '#' },
+  ],
+  footNote: `
+    © ${new Date().getFullYear()} OKELAS · Organizational Knowledge Operating System.
+  `,
 };
