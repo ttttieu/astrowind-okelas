@@ -1,0 +1,85 @@
+---
+import { Icon } from 'astro-icon/components';
+import { I18N } from 'astrowind:config';
+
+export interface Props {
+  label?: string;
+  class?: string;
+  iconClass?: string;
+}
+
+const {
+  label = 'Toggle between Vietnamese and English',
+  class:
+    className = 'text-muted dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center',
+  iconClass = 'w-5 h-5 lg:w-5 lg:h-5',
+} = Astro.props;
+
+const currentLanguage = I18N?.language || 'vi';
+const isVietnamese = currentLanguage === 'vi';
+---
+
+<aw-language-switcher>
+  <button
+    type="button"
+    class={className}
+    aria-label={label}
+    data-aw-toggle-language
+    data-current-lang={currentLanguage}
+  >
+    <span class:list={['relative block', iconClass]}>
+      <Icon
+        name="tabler:world"
+        class="absolute inset-0 h-full w-full transition-[opacity,transform] duration-200 motion-reduce:transition-none"
+      />
+    </span>
+    <span class="ml-2 hidden lg:inline text-sm font-medium">
+      {isVietnamese ? 'VI' : 'EN'}
+    </span>
+  </button>
+</aw-language-switcher>
+
+<style>
+  aw-language-switcher {
+    display: contents;
+  }
+</style>
+
+<script>
+  class AwLanguageSwitcher extends HTMLElement {
+    connectedCallback() {
+      const button = this.querySelector('[data-aw-toggle-language]');
+      const currentLang = button?.getAttribute('data-current-lang') || 'vi';
+
+      button?.addEventListener('click', () => {
+        const newLang = currentLang === 'vi' ? 'en' : 'vi';
+        localStorage.language = newLang;
+
+        // Get current URL and navigate to language-prefixed version
+        const currentPath = window.location.pathname;
+        let newPath = currentPath;
+
+        // Remove existing language prefix if present
+        if (currentPath.startsWith('/vi/')) {
+          newPath = currentPath.replace(/^\/vi/, '');
+        } else if (currentPath.startsWith('/en/')) {
+          newPath = currentPath.replace(/^\/en/, '');
+        }
+
+        // Add new language prefix (only if not root)
+        if (newPath !== '/' && newLang !== 'vi') {
+          newPath = `/${newLang}${newPath}`;
+        } else if (newPath !== '/' && newLang === 'vi') {
+          newPath = newPath.startsWith('/') ? newPath : `/${newPath}`;
+        }
+
+        // Navigate to the new language-prefixed path
+        window.location.href = newPath || '/';
+      });
+    }
+  }
+
+  if (!customElements.get('aw-language-switcher')) {
+    customElements.define('aw-language-switcher', AwLanguageSwitcher);
+  }
+</script>
