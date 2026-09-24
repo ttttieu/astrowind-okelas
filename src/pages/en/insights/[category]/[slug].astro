@@ -3,7 +3,7 @@ import { getCollection, render } from 'astro:content';
 import InsightArticleLayout from '~/layouts/InsightArticleLayout.astro';
 
 export async function getStaticPaths() {
-  const articles = await getCollection('insights', ({ data }) => !data.draft && data.lang === 'vi');
+  const articles = await getCollection('insights', ({ data }) => !data.draft && data.lang === 'en');
   return articles.map((article) => ({
     params: {
       category: article.data.category,
