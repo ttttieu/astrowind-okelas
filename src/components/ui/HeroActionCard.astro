@@ -20,7 +20,7 @@ const {
 } = Astro.props;
 
 const isPrimary = variant === 'primary';
-const baseStyles = 'group relative flex items-center gap-4 h-20 px-6 rounded-lg transition-all duration-300 cursor-pointer';
+const baseStyles = 'group relative flex items-center gap-3 h-auto py-4 px-5 rounded-lg transition-all duration-300 cursor-pointer';
 const primaryStyles = 'bg-blue-600 hover:bg-blue-700 shadow-md hover:shadow-lg';
 const secondaryStyles = 'bg-white border border-slate-200 hover:border-slate-300 hover:shadow-md';
 const textPrimary = 'text-white';
@@ -32,25 +32,25 @@ const textSecondary = 'text-slate-900';
   class:list={[
     baseStyles,
     isPrimary ? primaryStyles : secondaryStyles,
-    'motion-safe:transform motion-safe:hover:scale-105',
+    'motion-safe:transform motion-safe:hover:shadow-lg',
   ]}
   aria-label={ariaLabel || `${title}: ${description}`}
 >
   <!-- Left: Icon/Image Container -->
   {
     icon && (
-      <div class="flex-shrink-0 w-12 h-12 flex items-center justify-center">
-        <Icon name={icon} class:list={['w-8 h-8', isPrimary ? 'text-white' : 'text-blue-600']} />
+      <div class="flex-shrink-0 w-10 h-10 flex items-center justify-center">
+        <Icon name={icon} class:list={['w-6 h-6', isPrimary ? 'text-white' : 'text-blue-600']} />
       </div>
     )
   }
 
-  <!-- Middle: Text Content -->
-  <div class="flex-1 min-w-0">
-    <p class:list={['text-sm font-bold tracking-widest uppercase leading-tight', isPrimary ? textPrimary : textSecondary]}>
+  <!-- Middle: Text Content (Left-aligned) -->
+  <div class="flex-1 min-w-0 text-left">
+    <p class:list={['text-xs font-bold tracking-wider uppercase leading-tight', isPrimary ? textPrimary : textSecondary]}>
       {title}
     </p>
-    <p class:list={['text-xs mt-1 leading-tight', isPrimary ? 'text-blue-50' : 'text-slate-600']}>
+    <p class:list={['text-xs mt-0.5 leading-tight', isPrimary ? 'text-blue-100' : 'text-slate-600']}>
       {description}
     </p>
   </div>
@@ -60,7 +60,7 @@ const textSecondary = 'text-slate-900';
     <Icon
       name="tabler:arrow-right"
       class:list={[
-        'w-5 h-5 transition-transform duration-300 motion-safe:group-hover:translate-x-1',
+        'w-4 h-4 transition-transform duration-300 motion-safe:group-hover:translate-x-0.5',
         isPrimary ? 'text-white' : 'text-slate-600',
       ]}
     />
