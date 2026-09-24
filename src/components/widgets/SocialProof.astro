@@ -40,7 +40,7 @@ const badges = layout === 'badges';
       items.map(({ label, value, icon, image, href, rating, color }) => {
         const Item = href ? 'a' : 'div';
         return (
-          <li class:list={badges ? '' : 'flex justify-center'}>
+          <li class:list={badges ? '' : 'w-full flex justify-center'}>
             <Item
               href={href}
               target={href ? '_blank' : undefined}
