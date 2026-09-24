@@ -33,25 +33,24 @@ export default defineConfig({
     defaultStrategy: 'viewport',
   },
 
-  // Native Fonts API: self-hosts + subsets + preloads Inter and generates
-  // metric-adjusted fallbacks. Injected via <Font /> in Layout.astro and
-  // consumed through the `--font-inter` CSS variable in CustomStyles.astro.
-  // Noto Sans added for Vietnamese character support in FAQ and content sections.
+  // Native Fonts API: self-hosts + subsets + preloads fonts from Google Fonts
+  // with Vietnamese support. Injected via <Font /> in Layout.astro and
+  // consumed through CSS variables in CustomStyles.astro.
   fonts: [
     {
-      provider: fontProviders.fontsource(),
+      provider: fontProviders.google(),
       name: 'Inter',
       cssVariable: '--font-inter',
-      weights: ['100 900'],
+      weights: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
       styles: ['normal'],
-      subsets: ['latin'],
+      subsets: ['latin', 'vietnamese'],
       fallbacks: ['sans-serif'],
     },
     {
-      provider: fontProviders.fontsource(),
-      name: 'Noto Sans',
-      cssVariable: '--font-noto-sans',
-      weights: ['400', '700'],
+      provider: fontProviders.google(),
+      name: 'Roboto',
+      cssVariable: '--font-roboto',
+      weights: ['400', '500', '700'],
       styles: ['normal'],
       subsets: ['latin', 'vietnamese'],
       fallbacks: ['sans-serif'],
