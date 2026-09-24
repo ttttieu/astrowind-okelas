@@ -1,23 +1,25 @@
-﻿---
+---
 import Layout from '~/layouts/PageLayout.astro';
 
 import Hero from '~/components/widgets/Hero.astro';
 import Features from '~/components/widgets/Features.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import Steps from '~/components/widgets/Steps.astro';
-import Content from '~/components/widgets/Content.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 import SocialProof from '~/components/widgets/SocialProof.astro';
 import StructuredData from '~/components/common/StructuredData.astro';
 import HeroActionCard from '~/components/ui/HeroActionCard.astro';
-import { SITE, METADATA, I18N } from 'astrowind:config';
+import { SITE, METADATA } from 'astrowind:config';
 import favIconSvg from '~/assets/favicons/favicon.svg';
 
 const metadata = {
-  title: 'OKELAS -- Organizational Knowledge Operating System',
-  description: 'Bridge the gap between static knowledge and daily operations. Standardize processes, structure knowledge, and prepare for ERP & AI.',
+  title: 'OKELAS -- Hệ điều hành Tri thức Vận hành cho Doanh nghiệp Sản xuất',
+  description: 'Kết nối tri thức tĩnh với vận hành hàng ngày. Chuẩn hóa quy trình, cấu trúc hóa tri thức tổ chức, và sẵn sàng cho ERP & AI.',
   ignoreTitleTemplate: true,
+  openGraph: {
+    locale: 'vi',
+  },
 };
 
 // Structured data for the site and its publisher, built only from
@@ -32,7 +34,7 @@ const structuredData = [
     '@id': `${SITE?.site}/#website`,
     name: SITE?.name,
     url: SITE?.site,
-    inLanguage: I18N?.language,
+    inLanguage: 'vi',
     publisher: { '@id': organizationId },
   },
   {
@@ -52,34 +54,34 @@ const structuredData = [
   <!-- Hero Widget ******************* -->
 
   <Hero
-    tagline="Organizational Knowledge Operating System"
+    tagline="Organization Knowledge Operating System"
     image={{ src: '~/assets/images/hero-image.png', alt: 'OKELAS Architecture Overview' }}
   >
     <Fragment slot="title">
-      Your company is creating more information, <span class="text-accent dark:text-white">but not necessarily becoming more capable.</span>
+      Doanh nghiệp bạn đang tạo ra nhiều thông tin hơn — <span class="text-accent dark:text-white">nhưng chưa chắc đã vận hành tốt hơn.</span>
     </Fragment>
 
     <Fragment slot="subtitle">
-      AI helps a 50-person company generate documents like a 500-person enterprise. But documents alone don't build operational capability. OKELAS turns organizational knowledge into operational capability -- connecting processes, workflows, records and AI-ready knowledge in one progressive operating system.
+      AI có thể giúp một doanh nghiệp 50 người tạo ra lượng văn bản tương đương một doanh nghiệp 500 người. Nhưng điều đó không có nghĩa doanh nghiệp có thể xử lý khối lượng công việc tương ứng. OKELAS biến tri thức tổ chức thành năng lực vận hành thực sự — kết nối quy trình, workflow, hồ sơ và tri thức sẵn sàng cho AI trong một hệ điều hành vận hành có thể xây dựng từng bước.
     </Fragment>
 
     <Fragment slot="actions">
       <div class="w-full max-w-[1640px] m-auto grid grid-cols-1 sm:grid-cols-2 gap-3 intersect-once intersect-quarter motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade">
         <HeroActionCard
-          title="Assess Business Readiness"
-          description="Evaluate your company's preparedness for operational capability."
+          title="Đánh giá Doanh nghiệp"
+          description="Xem doanh nghiệp bạn đã sẵn sàng đến đâu để nâng cao năng lực vận hành."
           href="/readiness"
           icon="tabler:clipboard-check"
           variant="primary"
-          ariaLabel="Assess Business Readiness: Evaluate your company's preparedness for operational capability"
+          ariaLabel="Đánh giá Doanh nghiệp: Xem doanh nghiệp bạn đã sẵn sàng đến đâu để nâng cao năng lực vận hành"
         />
         <HeroActionCard
-          title="Why Capability First"
-          description="Explore the crucial link between strong processes and capability."
+          title="Vì sao Năng lực Vận hành Phải Đi Trước"
+          description="Tìm hiểu mối liên hệ giữa quy trình chuẩn hóa và năng lực vận hành thực sự."
           href="/why/why-before-erp"
           variant="secondary"
           icon="tabler:trending-up"
-          ariaLabel="Why Capability First: Explore the crucial link between strong processes and capability"
+          ariaLabel="Vì sao Năng lực Vận hành Phải Đi Trước: Tìm hiểu mối liên hệ giữa quy trình chuẩn hóa và năng lực vận hành thực sự"
         />
       </div>
     </Fragment>
@@ -91,10 +93,10 @@ const structuredData = [
     id="proof"
     classes={{ container: '!pb-14 md:!pb-20' }}
     items={[
-      { value: 'ERP', label: 'Readiness matters before implementation', icon: 'tabler:database', color: 'text-amber-500' },
-      { value: 'eQMS', label: 'Progressive Quality & Knowledge Framework', icon: 'tabler:certificate', color: 'text-emerald-500' },
-      { value: 'AI-Ready', label: 'Structured Knowledge Graph Backend', icon: 'tabler:cpu', color: 'text-sky-500' },
-      { value: 'Workflow', label: 'Intelligent Workflows for Operational Performance', icon: 'tabler:route-2', color: 'text-blue-500' },
+      { value: 'ERP', label: 'Sẵn sàng trước khi triển khai', icon: 'tabler:database', color: 'text-amber-500' },
+      { value: 'eQMS', label: 'Khung Chất lượng & Tri thức Từng bước', icon: 'tabler:certificate', color: 'text-emerald-500' },
+      { value: 'AI-Ready', label: 'Nền tảng tri thức có cấu trúc, sẵn sàng cho AI', icon: 'tabler:cpu', color: 'text-sky-500' },
+      { value: 'Workflow', label: 'Workflow thông minh giúp vận hành hiệu quả hơn', icon: 'tabler:route-2', color: 'text-blue-500' },
     ]}
   />
 
@@ -102,35 +104,35 @@ const structuredData = [
 
   <Features2
     id="readiness-gateway"
-    tagline="Diagnostic-Led Advisory"
-    title="Assess Your Organizational Readiness"
-    subtitle="Before investing in expensive software implementations, evaluate your current operational maturity."
+    tagline="Tư vấn Bắt đầu từ Chẩn đoán Thực tế"
+    title="Tự Đánh giá Mức độ Sẵn sàng của Doanh nghiệp"
+    subtitle="Trước khi đầu tư vào một hệ thống phần mềm tốn kém, hãy đánh giá đúng mức độ trưởng thành vận hành hiện tại của doanh nghiệp."
     columns={2}
     classes={{ container: 'max-w-3xl' }}
     items={[
       {
         title: 'ERP Readiness Audit',
-        description: 'Check if your processes and data are sufficiently standardized to avoid high-cost ERP implementation failures.',
+        description: 'Kiểm tra xem quy trình và dữ liệu của bạn đã đủ chuẩn hóa để tránh rủi ro triển khai ERP tốn kém hay chưa.',
         icon: 'tabler:database-search',
-        callToAction: { text: 'Audit ERP Readiness →', href: '/readiness/erp' },
+        callToAction: { text: 'Đánh giá Mức độ Sẵn sàng ERP →', href: '/readiness/erp' },
       },
       {
         title: 'Digitalization Assessment',
-        description: 'Distinguish between genuine operational digitalization and merely digitizing document chaos.',
+        description: 'Phân biệt giữa số hóa vận hành thực sự và việc chỉ đơn thuần chuyển tài liệu giấy thành file PDF.',
         icon: 'tabler:file-code-2',
-        callToAction: { text: 'Evaluate Digitalization →', href: '/readiness/digitalization' },
+        callToAction: { text: 'Đánh giá Mức độ Số hóa →', href: '/readiness/digitalization' },
       },
       {
         title: 'AI Readiness Test',
-        description: 'Determine if your internal domain data is clean and structured enough to power private AI Copilots.',
+        description: 'Xác định dữ liệu nội bộ của doanh nghiệp đã đủ sạch và có cấu trúc để vận hành AI Copilot riêng hay chưa.',
         icon: 'tabler:brain',
-        callToAction: { text: 'Test AI Readiness →', href: '/readiness/ai' },
+        callToAction: { text: 'Kiểm tra Mức độ Sẵn sàng AI →', href: '/readiness/ai' },
       },
       {
         title: 'Knowledge Infrastructure Check',
-        description: 'Evaluate whether critical operational knowledge lives in employee heads or structured systems.',
+        description: 'Đánh giá xem tri thức vận hành quan trọng đang nằm trong đầu nhân sự hay đã được cấu trúc hóa trong hệ thống.',
         icon: 'tabler:sitemap',
-        callToAction: { text: 'Check Knowledge Gap →', href: '/readiness/knowledge' },
+        callToAction: { text: 'Kiểm tra Khoảng trống Tri thức →', href: '/readiness/knowledge' },
       },
     ]}
   />
@@ -139,38 +141,38 @@ const structuredData = [
 
   <Features
     id="solutions"
-    tagline="Our Core Offerings"
-    title="The OKELAS Operating Framework"
-    subtitle="This isn't a features list, and it isn't a fixed sequence -- it's the set of capabilities a manufacturing SME typically needs, in whatever order the business actually needs them."
+    tagline="Giải pháp Cốt lõi"
+    title="Khung Vận hành OKELAS"
+    subtitle="Đây không phải một danh sách tính năng, cũng không phải một trình tự bắt buộc — đây là tập hợp năng lực mà một doanh nghiệp sản xuất vừa và nhỏ thường cần, theo đúng thứ tự mà doanh nghiệp thực sự cần đến."
     items={[
       {
-        title: 'Digitalize Operations',
-        description: 'Convert scattered manuals and unspoken routines into clear, interactive digital workflows.',
+        title: 'Số hóa Vận hành',
+        description: 'Chuyển đổi các quy trình rời rạc, chưa được ghi lại thành các workflow số hóa rõ ràng, có thể tương tác được.',
         icon: 'tabler:transform',
       },
       {
-        title: 'Standardize Processes',
-        description: 'Establish clear SOPs, role assignments, and validation checkpoints across all departments.',
+        title: 'Chuẩn hóa Quy trình',
+        description: 'Thiết lập SOP rõ ràng, phân định vai trò và các điểm kiểm soát xuyên suốt các phòng ban.',
         icon: 'tabler:checkup-list',
       },
       {
         title: 'Progressive eQMS',
-        description: 'Build audit-ready compliance and records management structured around your actual daily work. Start where the business has the most immediate need -- digital records, ISO compliance, workflows or knowledge -- then progressively build toward a connected operational knowledge system.',
+        description: 'Xây dựng hệ thống hồ sơ và tuân thủ sẵn sàng cho audit, được cấu trúc theo đúng công việc hàng ngày thực tế. Bắt đầu từ nơi doanh nghiệp cần nhất — hồ sơ điện tử, tuân thủ ISO, workflow hay tri thức — rồi phát triển dần thành một hệ thống tri thức vận hành liên kết.',
         icon: 'tabler:shield-check',
       },
       {
-        title: 'ERP Readiness Layer',
-        description: 'Cleanse master data and validate operational logic before connecting heavy enterprise systems.',
+        title: 'Lớp Sẵn sàng ERP',
+        description: 'Làm sạch dữ liệu nền và kiểm chứng logic vận hành trước khi kết nối với các hệ thống ERP quy mô lớn.',
         icon: 'tabler:building-factory-2',
       },
       {
-        title: 'Knowledge & AI Copilot',
-        description: 'Feed accurate, domain-specific organizational knowledge directly to context-aware AI assistants.',
+        title: 'Tri thức & AI Copilot',
+        description: 'Cung cấp tri thức tổ chức chính xác, đúng lĩnh vực trực tiếp cho các trợ lý AI hiểu ngữ cảnh doanh nghiệp.',
         icon: 'tabler:robot',
       },
       {
-        title: 'Intelligent Workflow',
-        description: 'Make established workflows faster, more adaptive and more capable by connecting process, knowledge, evidence and AI.',
+        title: 'Workflow Thông minh',
+        description: 'Làm cho các workflow đã có trở nên nhanh hơn, linh hoạt hơn và hiệu quả hơn bằng cách kết nối quy trình, tri thức, evidence và AI.',
         icon: 'tabler:route-2',
       },
     ]}
@@ -179,33 +181,33 @@ const structuredData = [
   <!-- Steps Widget ****************** -->
 
  <Steps
-    title="A Progressive Path to Operational Capability"
-    subtitle="Start where the business needs it most. Progressively build the rest -- there's no fixed order."
+    title="Một Lộ trình Từng bước Hướng tới Năng lực Vận hành"
+    subtitle="Bắt đầu từ nơi doanh nghiệp cần nhất. Xây dựng phần còn lại theo từng bước — không có một trình tự bắt buộc."
     items={[
       {
-        title: '<span class="font-medium">Standardize Operations</span>',
-        description: 'Extract tacit expert knowledge and document actual daily routines into unified, executable standards.',
+        title: '<span class="font-medium">Chuẩn hóa Vận hành</span>',
+        description: 'Trích xuất tri thức ngầm của chuyên gia và ghi lại quy trình thực tế hàng ngày thành các chuẩn thống nhất, có thể thực thi được.',
         icon: 'tabler:file-text',
       },
       {
-        title: '<span class="font-medium">Organize Knowledge</span>',
-        description: 'Structure static documents into a dynamic Knowledge Graph linked directly to roles and workflows.',
+        title: '<span class="font-medium">Tổ chức Tri thức</span>',
+        description: 'Cấu trúc hóa tài liệu tĩnh thành một Knowledge Graph động, liên kết trực tiếp với vai trò và workflow.',
         icon: 'tabler:topology-complex',
       },
       {
-        title: '<span class="font-medium">Digitize Records & Proof</span>',
-        description: 'Automate real-time record capture for complete compliance, audit readiness, and quality assurance.',
+        title: '<span class="font-medium">Số hóa Hồ sơ & Bằng chứng</span>',
+        description: 'Tự động hóa việc ghi nhận hồ sơ theo thời gian thực để đảm bảo tuân thủ, sẵn sàng cho audit và đảm bảo chất lượng.',
         icon: 'tabler:report-analytics',
       },
       {
-        title: '<span class="font-medium">Scale with ERP & AI</span>',
-        description: 'Connect structured operational data seamlessly into ERP systems or deploy internal AI Copilots with confidence.',
+        title: '<span class="font-medium">Mở rộng cùng ERP & AI</span>',
+        description: 'Kết nối liền mạch dữ liệu vận hành có cấu trúc vào hệ thống ERP, hoặc triển khai AI Copilot nội bộ một cách tự tin.',
         icon: 'tabler:rocket',
       },
     ]}
     image={{
       src: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=987&q=80',
-      alt: 'OKELAS Operational Capability Map',
+      alt: 'Bản đồ Năng lực Vận hành OKELAS',
     }}
   />
 
@@ -216,35 +218,35 @@ const structuredData = [
 
   <FAQs
     id="faqs"
-    title="Frequently Asked Questions"
-    subtitle="Questions people ask before starting a readiness conversation with OKELAS."
-    tagline="FAQs"
+    title="Câu hỏi Thường gặp"
+    subtitle="Những câu hỏi thường được đặt ra trước khi bắt đầu trao đổi về mức độ sẵn sàng với OKELAS."
+    tagline="Câu hỏi Thường gặp"
     schema
     items={[
       {
-        title: 'What is OKELAS?',
+        title: 'OKELAS là gì?',
         description:
-          'OKELAS is an Organization Knowledge Operating System for manufacturing SMEs. It helps a company move from operations that depend on documents, individual memory and personal experience toward operations built on process, workflow, evidence and organizational knowledge.',
+          'OKELAS là một Organization Knowledge Operating System dành cho các doanh nghiệp sản xuất vừa và nhỏ. OKELAS giúp doanh nghiệp chuyển từ vận hành phụ thuộc vào tài liệu, trí nhớ cá nhân và kinh nghiệm của từng người, sang vận hành dựa trên quy trình, workflow, evidence và tri thức tổ chức.',
       },
       {
-        title: 'Is OKELAS an ERP system?',
+        title: 'OKELAS có phải là một hệ thống ERP không?',
         description:
-          'No. OKELAS is not a replacement for ERP. It prepares a company\'s processes, data and knowledge so that an ERP system -- including ERPNext, which OKELAS can integrate with -- can actually deliver value once implemented.',
+          'Không. OKELAS không thay thế ERP. OKELAS chuẩn bị quy trình, dữ liệu và tri thức của doanh nghiệp để một hệ thống ERP — bao gồm cả ERPNext, nền tảng mà OKELAS có thể tích hợp — thực sự tạo ra giá trị sau khi triển khai.',
       },
       {
-        title: 'Do we need AI to start with OKELAS?',
+        title: 'Doanh nghiệp có cần AI mới bắt đầu được với OKELAS không?',
         description:
-          'No. Many companies start with process standardization and knowledge structuring before any AI component is introduced. AI Copilots and agents are most useful once there is organizational context for them to work with.',
+          'Không. Nhiều doanh nghiệp bắt đầu bằng việc chuẩn hóa quy trình và cấu trúc hóa tri thức trước khi đưa bất kỳ thành phần AI nào vào. AI Copilot và agent chỉ thực sự hữu ích khi đã có organizational context để chúng hoạt động dựa trên đó.',
       },
       {
-        title: 'How is the readiness assessment used?',
+        title: 'Bài đánh giá mức độ sẵn sàng được sử dụng như thế nào?',
         description:
-          'Each assessment (ERP, AI, Digitalization, Knowledge) gives you a maturity level and the specific gaps behind it -- usable on its own, whether or not you engage OKELAS afterward.',
+          'Mỗi bài đánh giá (ERP, AI, Digitalization, Knowledge) cho bạn biết mức độ trưởng thành hiện tại và những khoảng trống cụ thể phía sau nó — có giá trị sử dụng ngay cả khi bạn không liên hệ với OKELAS sau đó.',
       },
       {
-        title: 'Can OKELAS work with an existing ERP or QMS?',
+        title: 'OKELAS có thể hoạt động cùng một hệ thống ERP hoặc QMS đã có sẵn không?',
         description:
-          'Yes. OKELAS is designed to sit alongside existing systems, structuring the process and knowledge layer around them rather than requiring replacement.',
+          'Có. OKELAS được thiết kế để tồn tại song song với các hệ thống hiện có, cấu trúc hóa lớp quy trình và tri thức xung quanh chúng thay vì yêu cầu thay thế.',
       },
     ]}
   />
@@ -256,18 +258,18 @@ const structuredData = [
     actions={[
       {
         variant: 'primary',
-        text: 'Start Readiness Assessment',
+        text: 'Bắt đầu Đánh giá Mức độ Sẵn sàng',
         href: '/readiness',
         icon: 'tabler:clipboard-check',
       },
     ]}
   >
     <Fragment slot="title">
-      Ready to turn organizational knowledge into operational capability?
+      Sẵn sàng Biến Tri thức Tổ chức thành Năng lực Vận hành?
     </Fragment>
 
     <Fragment slot="subtitle">
-      Take our 3-minute diagnostic assessment to pinpoint your process gaps and see what to standardize next.
+      Thực hiện bài đánh giá chẩn đoán 3 phút để xác định chính xác khoảng trống trong quy trình của bạn, và biết bước tiếp theo cần chuẩn hóa là gì.
     </Fragment>
   </CallToAction>
 </Layout>

@@ -1,0 +1,272 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Hero from '~/components/widgets/Hero.astro';
+import Features from '~/components/widgets/Features.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+import Steps from '~/components/widgets/Steps.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import SocialProof from '~/components/widgets/SocialProof.astro';
+import StructuredData from '~/components/common/StructuredData.astro';
+import HeroActionCard from '~/components/ui/HeroActionCard.astro';
+import { SITE, METADATA } from 'astrowind:config';
+import favIconSvg from '~/assets/favicons/favicon.svg';
+
+const metadata = {
+  title: 'OKELAS -- Organizational Knowledge Operating System',
+  description: 'Bridge the gap between static knowledge and daily operations. Standardize processes, structure knowledge, and prepare for ERP & AI.',
+  ignoreTitleTemplate: true,
+};
+
+// Structured data for the site and its publisher, built only from
+// `src/config.yaml` (`site.name`, `site.site`, `metadata.twitter.handle`), so
+// it is correct for any site made with the template. Blog posts add
+// BlogPosting on their own; the FAQs widget adds FAQPage.
+const organizationId = `${SITE?.site}/#organization`;
+const structuredData = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    '@id': `${SITE?.site}/#website`,
+    name: SITE?.name,
+    url: SITE?.site,
+    inLanguage: 'en',
+    publisher: { '@id': organizationId },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    '@id': organizationId,
+    name: SITE?.name,
+    url: SITE?.site,
+    logo: new URL(favIconSvg.src, SITE?.site).toString(),
+    ...(METADATA?.twitter?.handle ? { sameAs: [`https://x.com/${METADATA.twitter.handle.replace(/^@/, '')}`] } : {}),
+  },
+];
+---
+
+<Layout metadata={metadata}>
+  <StructuredData slot="head" schema={structuredData} />
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    tagline="Organizational Knowledge Operating System"
+    image={{ src: '~/assets/images/hero-image.png', alt: 'OKELAS Architecture Overview' }}
+  >
+    <Fragment slot="title">
+      Your company is creating more information, <span class="text-accent dark:text-white">but not necessarily becoming more capable.</span>
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      AI helps a 50-person company generate documents like a 500-person enterprise. But documents alone don't build operational capability. OKELAS turns organizational knowledge into operational capability -- connecting processes, workflows, records and AI-ready knowledge in one progressive operating system.
+    </Fragment>
+
+    <Fragment slot="actions">
+      <div class="w-full max-w-[1640px] m-auto grid grid-cols-1 sm:grid-cols-2 gap-3 intersect-once intersect-quarter motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade">
+        <HeroActionCard
+          title="Assess Business Readiness"
+          description="Evaluate your company's preparedness for operational capability."
+          href="/en/readiness"
+          icon="tabler:clipboard-check"
+          variant="primary"
+          ariaLabel="Assess Business Readiness: Evaluate your company's preparedness for operational capability"
+        />
+        <HeroActionCard
+          title="Why Capability First"
+          description="Explore the crucial link between strong processes and capability."
+          href="/en/why/why-before-erp"
+          variant="secondary"
+          icon="tabler:trending-up"
+          ariaLabel="Why Capability First: Explore the crucial link between strong processes and capability"
+        />
+      </div>
+    </Fragment>
+  </Hero>
+
+  <!-- SocialProof Widget ************ -->
+
+ <SocialProof
+    id="proof"
+    classes={{ container: '!pb-14 md:!pb-20' }}
+    items={[
+      { value: 'ERP', label: 'Readiness matters before implementation', icon: 'tabler:database', color: 'text-amber-500' },
+      { value: 'eQMS', label: 'Progressive Quality & Knowledge Framework', icon: 'tabler:certificate', color: 'text-emerald-500' },
+      { value: 'AI-Ready', label: 'Structured Knowledge Graph Backend', icon: 'tabler:cpu', color: 'text-sky-500' },
+      { value: 'Workflow', label: 'Intelligent Workflows for Operational Performance', icon: 'tabler:route-2', color: 'text-blue-500' },
+    ]}
+  />
+
+  <!-- Features2 ************* -->
+
+  <Features2
+    id="readiness-gateway"
+    tagline="Diagnostic-Led Advisory"
+    title="Assess Your Organizational Readiness"
+    subtitle="Before investing in expensive software implementations, evaluate your current operational maturity."
+    columns={2}
+    classes={{ container: 'max-w-3xl' }}
+    items={[
+      {
+        title: 'ERP Readiness Audit',
+        description: 'Check if your processes and data are sufficiently standardized to avoid high-cost ERP implementation failures.',
+        icon: 'tabler:database-search',
+        callToAction: { text: 'Audit ERP Readiness →', href: '/en/readiness/erp' },
+      },
+      {
+        title: 'Digitalization Assessment',
+        description: 'Distinguish between genuine operational digitalization and merely digitizing document chaos.',
+        icon: 'tabler:file-code-2',
+        callToAction: { text: 'Evaluate Digitalization →', href: '/en/readiness/digitalization' },
+      },
+      {
+        title: 'AI Readiness Test',
+        description: 'Determine if your internal domain data is clean and structured enough to power private AI Copilots.',
+        icon: 'tabler:brain',
+        callToAction: { text: 'Test AI Readiness →', href: '/en/readiness/ai' },
+      },
+      {
+        title: 'Knowledge Infrastructure Check',
+        description: 'Evaluate whether critical operational knowledge lives in employee heads or structured systems.',
+        icon: 'tabler:sitemap',
+        callToAction: { text: 'Check Knowledge Gap →', href: '/en/readiness/knowledge' },
+      },
+    ]}
+  />
+
+  <!-- Features Widget *************** -->
+
+  <Features
+    id="solutions"
+    tagline="Our Core Offerings"
+    title="The OKELAS Operating Framework"
+    subtitle="This isn't a features list, and it isn't a fixed sequence -- it's the set of capabilities a manufacturing SME typically needs, in whatever order the business actually needs them."
+    items={[
+      {
+        title: 'Digitalize Operations',
+        description: 'Convert scattered manuals and unspoken routines into clear, interactive digital workflows.',
+        icon: 'tabler:transform',
+      },
+      {
+        title: 'Standardize Processes',
+        description: 'Establish clear SOPs, role assignments, and validation checkpoints across all departments.',
+        icon: 'tabler:checkup-list',
+      },
+      {
+        title: 'Progressive eQMS',
+        description: 'Build audit-ready compliance and records management structured around your actual daily work. Start where the business has the most immediate need -- digital records, ISO compliance, workflows or knowledge -- then progressively build toward a connected operational knowledge system.',
+        icon: 'tabler:shield-check',
+      },
+      {
+        title: 'ERP Readiness Layer',
+        description: 'Cleanse master data and validate operational logic before connecting heavy enterprise systems.',
+        icon: 'tabler:building-factory-2',
+      },
+      {
+        title: 'Knowledge & AI Copilot',
+        description: 'Feed accurate, domain-specific organizational knowledge directly to context-aware AI assistants.',
+        icon: 'tabler:robot',
+      },
+      {
+        title: 'Intelligent Workflow',
+        description: 'Make established workflows faster, more adaptive and more capable by connecting process, knowledge, evidence and AI.',
+        icon: 'tabler:route-2',
+      },
+    ]}
+  />
+
+  <!-- Steps Widget ****************** -->
+
+ <Steps
+    title="A Progressive Path to Operational Capability"
+    subtitle="Start where the business needs it most. Progressively build the rest -- there's no fixed order."
+    items={[
+      {
+        title: '<span class="font-medium">Standardize Operations</span>',
+        description: 'Extract tacit expert knowledge and document actual daily routines into unified, executable standards.',
+        icon: 'tabler:file-text',
+      },
+      {
+        title: '<span class="font-medium">Organize Knowledge</span>',
+        description: 'Structure static documents into a dynamic Knowledge Graph linked directly to roles and workflows.',
+        icon: 'tabler:topology-complex',
+      },
+      {
+        title: '<span class="font-medium">Digitize Records & Proof</span>',
+        description: 'Automate real-time record capture for complete compliance, audit readiness, and quality assurance.',
+        icon: 'tabler:report-analytics',
+      },
+      {
+        title: '<span class="font-medium">Scale with ERP & AI</span>',
+        description: 'Connect structured operational data seamlessly into ERP systems or deploy internal AI Copilots with confidence.',
+        icon: 'tabler:rocket',
+      },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=987&q=80',
+      alt: 'OKELAS Operational Capability Map',
+    }}
+  />
+
+
+
+
+  <!-- FAQs Widget ******************* -->
+
+  <FAQs
+    id="faqs"
+    title="Frequently Asked Questions"
+    subtitle="Questions people ask before starting a readiness conversation with OKELAS."
+    tagline="FAQs"
+    schema
+    items={[
+      {
+        title: 'What is OKELAS?',
+        description:
+          'OKELAS is an Organization Knowledge Operating System for manufacturing SMEs. It helps a company move from operations that depend on documents, individual memory and personal experience toward operations built on process, workflow, evidence and organizational knowledge.',
+      },
+      {
+        title: 'Is OKELAS an ERP system?',
+        description:
+          'No. OKELAS is not a replacement for ERP. It prepares a company\'s processes, data and knowledge so that an ERP system -- including ERPNext, which OKELAS can integrate with -- can actually deliver value once implemented.',
+      },
+      {
+        title: 'Do we need AI to start with OKELAS?',
+        description:
+          'No. Many companies start with process standardization and knowledge structuring before any AI component is introduced. AI Copilots and agents are most useful once there is organizational context for them to work with.',
+      },
+      {
+        title: 'How is the readiness assessment used?',
+        description:
+          'Each assessment (ERP, AI, Digitalization, Knowledge) gives you a maturity level and the specific gaps behind it -- usable on its own, whether or not you engage OKELAS afterward.',
+      },
+      {
+        title: 'Can OKELAS work with an existing ERP or QMS?',
+        description:
+          'Yes. OKELAS is designed to sit alongside existing systems, structuring the process and knowledge layer around them rather than requiring replacement.',
+      },
+    ]}
+  />
+
+
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Start Readiness Assessment',
+        href: '/en/readiness',
+        icon: 'tabler:clipboard-check',
+      },
+    ]}
+  >
+    <Fragment slot="title">
+      Ready to turn organizational knowledge into operational capability?
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      Take our 3-minute diagnostic assessment to pinpoint your process gaps and see what to standardize next.
+    </Fragment>
+  </CallToAction>
+</Layout>
