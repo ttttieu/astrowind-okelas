@@ -1,6 +1,6 @@
 ---
-title: "Tá»« tri thá»©c cÃ¡ nhÃ¢n Ä‘áº¿n tri thá»©c tá»• chá»©c â€” bÃ i toÃ¡n khÃ´ng thá»ƒ nÃ© trong sáº£n xuáº¥t"
-description: "Khi nhÃ¢n viÃªn giá»i nghá»‰ viá»‡c, há» mang Ä‘i thá»© gÃ¬? BÃ i viáº¿t phÃ¢n tÃ­ch bÃ i toÃ¡n tri thá»©c tá»• chá»©c trong doanh nghiá»‡p sáº£n xuáº¥t vÃ  cÃ¡ch tiáº¿p cáº­n cÃ³ há»‡ thá»‘ng."
+title: "Từ tri thức cá nhân đến tri thức tổ chức — bài toán không thể né trong sản xuất"
+description: "Khi nhân viên giỏi nghỉ việc, họ mang đi thứ gì? Bài viết phân tích bài toán tri thức tổ chức trong doanh nghiệp sản xuất và cách tiếp cận có hệ thống."
 publishDate: 2026-09-24T00:00:00Z
 translationId: km-pillar-individual-to-organizational
 lang: vi
@@ -13,15 +13,13 @@ funnelStage:
 audience:
   - CEO
   - COO
-  - HR Director
   - Operations Director
-primaryKeyword: "quáº£n lÃ½ tri thá»©c doanh nghiá»‡p sáº£n xuáº¥t"
+primaryKeyword: "tri thức tổ chức doanh nghiệp"
 secondaryKeywords:
-  - "knowledge management"
-  - "tri thá»©c tá»• chá»©c"
-  - "máº¥t tri thá»©c khi nhÃ¢n sá»± nghá»‰"
-  - "tacit knowledge"
-  - "SOP doanh nghiá»‡p"
+  - "quản lý tri thức sản xuất"
+  - "tri thức cá nhân"
+  - "organizational knowledge"
+  - "knowledge management manufacturing"
 assessmentHref: /readiness/knowledge
 draft: false
 ---

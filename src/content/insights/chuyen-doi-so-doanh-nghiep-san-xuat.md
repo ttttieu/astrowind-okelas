@@ -1,6 +1,6 @@
 ---
-title: "Chuyá»ƒn Ä‘á»•i sá»‘ vá»›i Manufacturing SME â€” thá»±c sá»± lÃ  gÃ¬ vÃ  báº¯t Ä‘áº§u tá»« Ä‘Ã¢u"
-description: "Chuyá»ƒn Ä‘á»•i sá»‘ khÃ´ng pháº£i lÃ  mua pháº§n má»m hay sá»‘ hÃ³a tÃ i liá»‡u. BÃ i viáº¿t giáº£i thÃ­ch chuyá»ƒn Ä‘á»•i sá»‘ thá»±c sá»± cÃ³ nghÄ©a lÃ  gÃ¬ vá»›i manufacturing SME â€” vÃ  lá»™ trÃ¬nh phÃ¹ há»£p."
+title: "Chuyển đổi số với Manufacturing SME — thực sự là gì và bắt đầu từ đâu"
+description: "Chuyển đổi số không phải là mua phần mềm hay số hóa tài liệu. Bài viết giải thích chuyển đổi số thực sự có nghĩa là gì với manufacturing SME — và lộ trình phù hợp."
 publishDate: 2026-09-24T00:00:00Z
 translationId: biz-ops-pillar-digital-transformation
 lang: vi
@@ -14,11 +14,11 @@ audience:
   - CEO
   - COO
   - General Director
-primaryKeyword: "chuyá»ƒn Ä‘á»•i sá»‘ doanh nghiá»‡p sáº£n xuáº¥t vá»«a vÃ  nhá»"
+primaryKeyword: "chuyển đổi số doanh nghiệp sản xuất vừa và nhỏ"
 secondaryKeywords:
   - "digital transformation SME"
-  - "sá»‘ hÃ³a sáº£n xuáº¥t"
-  - "chuyá»ƒn Ä‘á»•i sá»‘ thá»±c sá»± lÃ  gÃ¬"
+  - "số hóa sản xuất"
+  - "chuyển đổi số thực sự là gì"
   - "digitalization manufacturing"
 assessmentHref: /readiness/digitalization
 draft: false

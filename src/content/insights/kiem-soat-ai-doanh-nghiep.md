@@ -1,6 +1,6 @@
 ---
-title: "AI Ä‘Æ°á»£c phÃ©p lÃ m Ä‘áº¿n Ä‘Ã¢u â€” vÃ  táº¡i sao doanh nghiá»‡p cáº§n má»™t control layer"
-description: "Khi AI tá»« chatbot trá»Ÿ thÃ nh agent cÃ³ kháº£ nÄƒng tá»± hÃ nh Ä‘á»™ng, cÃ¢u há»i khÃ´ng cÃ²n lÃ  AI biáº¿t gÃ¬ mÃ  lÃ  AI Ä‘Æ°á»£c phÃ©p lÃ m gÃ¬. BÃ i viáº¿t phÃ¢n tÃ­ch váº¥n Ä‘á» kiá»ƒm soÃ¡t AI trong doanh nghiá»‡p."
+title: "AI được phép làm đến đâu — và tại sao doanh nghiệp cần một control layer"
+description: "Khi AI từ chatbot trở thành agent có khả năng tự hành động, câu hỏi không còn là AI biết gì mà là AI được phép làm gì. Bài viết phân tích vấn đề kiểm soát AI trong doanh nghiệp."
 publishDate: 2026-09-24T00:00:00Z
 translationId: ai-pillar-control-layer
 lang: vi
@@ -14,13 +14,13 @@ audience:
   - CEO
   - CIO
   - COO
-primaryKeyword: "kiá»ƒm soÃ¡t AI doanh nghiá»‡p"
+primaryKeyword: "kiểm soát AI doanh nghiệp"
 secondaryKeywords:
   - "AI control layer"
-  - "AI agent kiá»ƒm soÃ¡t"
-  - "quyá»n háº¡n AI"
-  - "AI governance doanh nghiá»‡p"
-  - "AI Ä‘Æ°á»£c phÃ©p lÃ m gÃ¬"
+  - "AI agent kiểm soát"
+  - "quyền hạn AI"
+  - "AI governance doanh nghiệp"
+  - "AI được phép làm gì"
 assessmentHref: /readiness/ai
 draft: false
 ---

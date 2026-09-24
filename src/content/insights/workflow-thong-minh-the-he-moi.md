@@ -1,6 +1,6 @@
 ---
-title: "Workflow tháº¿ há»‡ má»›i: khi AI vÃ  organizational knowledge thay Ä‘á»•i cÃ¡ch cÃ´ng viá»‡c váº­n hÃ nh"
-description: "Workflow khÃ´ng pháº£i khÃ¡i niá»‡m má»›i. NhÆ°ng AI, event-driven architecture vÃ  organizational knowledge Ä‘ang má»Ÿ ra má»™t tháº¿ há»‡ workflow má»›i â€” nhanh hÆ¡n, linh hoáº¡t hÆ¡n vÃ  thÃ´ng minh hÆ¡n."
+title: "Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành"
+description: "Workflow không phải khái niệm mới. Nhưng AI, event-driven architecture và organizational knowledge đang mở ra một thế hệ workflow mới — nhanh hơn, linh hoạt hơn và thông minh hơn."
 publishDate: 2026-09-24T00:00:00Z
 translationId: biz-ops-pillar-workflow
 lang: vi
@@ -14,14 +14,13 @@ audience:
   - CEO
   - COO
   - Operations Director
-  - CIO
-primaryKeyword: "workflow thÃ´ng minh doanh nghiá»‡p"
+primaryKeyword: "workflow thế hệ mới"
 secondaryKeywords:
-  - "intelligent workflow"
-  - "workflow automation"
   - "AI workflow"
-  - "tá»‘i Æ°u workflow"
-  - "workflow doanh nghiá»‡p sáº£n xuáº¥t"
+  - "intelligent workflow"
+  - "event-driven workflow"
+  - "workflow automation"
+  - "process automation"
 assessmentHref: /readiness/digitalization
 draft: false
 ---

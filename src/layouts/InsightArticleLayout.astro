@@ -27,8 +27,7 @@ export interface Props {
   readTime?: string;
 
   // --- Executive Takeaway (block 4, optional) ---
-  // Only rendered for Analysis / Pillar articles (~1500+ words).
-  // Pass bullets as an array of strings via the executiveTakeaway slot.
+  // Only rendered if explicitly enabled. Pass bullets as an array of strings via the executiveTakeaway slot.
   showExecutiveTakeaway?: boolean;
 
   // --- Self-assessment block (block 6) ---
@@ -57,7 +56,7 @@ const {
   author,
   publishDate,
   readTime,
-  showExecutiveTakeaway = contentType === 'Pillar' || contentType === 'Analysis',
+  showExecutiveTakeaway = false,
   selfAssessmentHref,
   selfAssessmentAssessmentName,
   ctaPrimaryText,

@@ -1,6 +1,6 @@
 ---
-title: "Táº¡i sao dá»± Ã¡n ERP khÃ´ng Ä‘áº¡t má»¥c tiÃªu â€” vÃ  váº¥n Ä‘á» thá»±c sá»± khÃ´ng náº±m á»Ÿ pháº§n má»m"
-description: "Nhiá»u doanh nghiá»‡p sáº£n xuáº¥t Ä‘áº§u tÆ° ERP nhÆ°ng khÃ´ng Ä‘áº¡t má»¥c tiÃªu. BÃ i viáº¿t phÃ¢n tÃ­ch cÃ¡c nguyÃªn nhÃ¢n thá»±c sá»± â€” vÃ  cÃ¡ch tá»± Ä‘Ã¡nh giÃ¡ trÆ°á»›c khi báº¯t Ä‘áº§u."
+title: "Tại sao dự án ERP không đạt mục tiêu — và vấn đề thực sự không nằm ở phần mềm"
+description: "Nhiều doanh nghiệp sản xuất đầu tư ERP nhưng không đạt mục tiêu. Bài viết phân tích các nguyên nhân thực sự — và cách tự đánh giá trước khi bắt đầu."
 publishDate: 2026-09-24T00:00:00Z
 translationId: erp-pillar-why-fail
 lang: vi
@@ -15,13 +15,13 @@ audience:
   - General Director
   - COO
   - CFO
-primaryKeyword: "táº¡i sao dá»± Ã¡n ERP tháº¥t báº¡i"
+primaryKeyword: "tại sao dự án ERP thất bại"
 secondaryKeywords:
-  - "ERP tháº¥t báº¡i nguyÃªn nhÃ¢n"
-  - "triá»ƒn khai ERP khÃ´ng thÃ nh cÃ´ng"
-  - "rá»§i ro ERP"
-  - "ERP implementation Viá»‡t Nam"
-  - "doanh nghiá»‡p sáº£n xuáº¥t ERP"
+  - "ERP thất bại nguyên nhân"
+  - "triển khai ERP không thành công"
+  - "rủi ro ERP"
+  - "ERP implementation Việt Nam"
+  - "doanh nghiệp sản xuất ERP"
   - "ERP readiness"
 assessmentHref: /readiness/erp
 draft: false
