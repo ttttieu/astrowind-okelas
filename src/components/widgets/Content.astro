@@ -63,7 +63,7 @@ const aspectSize = {
   />
   <div class="mx-auto max-w-7xl px-0 py-4 md:px-2">
     <div class={`md:flex ${isReversed ? 'md:flex-row-reverse' : ''} md:gap-16`}>
-      <div class="md:basis-1/2 self-center">
+      <div class:list={[image ? 'md:basis-1/2' : 'w-full', 'self-center']}>
         {content && <div class="mb-12 text-lg dark:text-slate-400" set:html={content} />}
 
         {
