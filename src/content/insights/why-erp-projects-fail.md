@@ -1,6 +1,6 @@
 ---
-title: "Why ERP Projects Fail â€” and What the Software Cannot Fix"
-description: "Most ERP projects underperform not because of the software, but because of deeper organizational readiness gaps. Here is what to look for â€” and how to assess where your business actually stands."
+title: "Why ERP Projects Fail — and What the Software Cannot Fix"
+description: "Most ERP projects underperform not because of the software, but because of deeper organizational readiness gaps. Here is what to look for — and how to assess where your business actually stands."
 publishDate: 2026-09-24T00:00:00Z
 translationId: erp-pillar-why-fail
 lang: en
