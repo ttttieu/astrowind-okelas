@@ -25,7 +25,6 @@ secondaryKeywords:
 assessmentHref: /readiness/ai
 draft: false
 ---
-# AI Readiness: Why AI Alone Won't Make Your Organization More Intelligent
 
 ---
 

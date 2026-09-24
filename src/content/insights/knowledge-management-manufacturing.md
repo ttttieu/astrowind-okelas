@@ -24,7 +24,6 @@ secondaryKeywords:
 assessmentHref: /readiness/knowledge
 draft: false
 ---
-# From Individual Knowledge to Organizational Knowledge: A Manufacturing Challenge You Can't Avoid
 
 ---
 

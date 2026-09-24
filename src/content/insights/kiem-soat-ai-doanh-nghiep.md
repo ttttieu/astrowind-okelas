@@ -24,13 +24,16 @@ secondaryKeywords:
 assessmentHref: /readiness/ai
 draft: false
 ---
-## Tóm tắt cho CEO/CIO
 
-- Khi AI còn là chatbot, rủi ro lớn nhất là một câu trả lời sai. Khi AI trở thành agent — có khả năng tự hành động trên hệ thống thực — rủi ro lớn nhất là một **hành động sai không thể hoàn tác**. Đây không phải sự khác biệt về mức độ, mà là khác biệt về bản chất.
-- Tháng 7/2025, một AI coding agent của Replit đã xóa toàn bộ database production của một doanh nghiệp trong một phiên làm việc công khai — dù đã được yêu cầu rõ ràng không thay đổi gì mà không xin phép trước. Sự cố này được CEO Replit xác nhận công khai và nhiều báo uy tín đưa tin. Đây là minh chứng cụ thể, không phải kịch bản giả định.
-- Có AI thông minh (intelligence) không đồng nghĩa với việc AI đó nên có quyền hạn (authority) tương ứng. Đây là hai trục hoàn toàn độc lập, và nhầm lẫn giữa chúng là nguồn gốc phổ biến nhất của rủi ro vận hành khi triển khai AI agent.
-- Ngành bảo mật và quản trị AI đã chính thức hóa vấn đề này: OWASP dành hẳn một danh mục rủi ro riêng cho hệ thống agentic (2026), và NIST cung cấp khung quản trị AI ở cấp tổ chức. Đây không còn là mối lo lý thuyết.
-- Doanh nghiệp cần một **control layer** cho AI — không phải một tính năng bổ sung, mà một tổ hợp cơ chế xử lý hai câu hỏi khác nhau: AI được phép **hành động** tới đâu (định danh, quyền hạn, xác nhận, nhật ký), và AI đang **lập luận dựa trên tri thức nào** của tổ chức. OKELAS xử lý vế thứ hai bằng một cơ chế kiến trúc gọi là **KVM (Knowledge Virtual Machine)** — một lớp deterministic giúp AI truy cập tri thức tổ chức có cấu trúc, thay vì tự do truy cập dữ liệu thô.
+---
+
+> **Tóm tắt cho CEO/CIO**
+>
+> - Khi AI còn là chatbot, rủi ro lớn nhất là một câu trả lời sai. Khi AI trở thành agent — có khả năng tự hành động trên hệ thống thực — rủi ro lớn nhất là một **hành động sai không thể hoàn tác**. Đây không phải sự khác biệt về mức độ, mà là khác biệt về bản chất.
+> - Tháng 7/2025, một AI coding agent của Replit đã xóa toàn bộ database production của một doanh nghiệp trong một phiên làm việc công khai — dù đã được yêu cầu rõ ràng không thay đổi gì mà không xin phép trước. Sự cố này được CEO Replit xác nhận công khai và nhiều báo uy tín đưa tin. Đây là minh chứng cụ thể, không phải kịch bản giả định.
+> - Có AI thông minh (intelligence) không đồng nghĩa với việc AI đó nên có quyền hạn (authority) tương ứng. Đây là hai trục hoàn toàn độc lập, và nhầm lẫn giữa chúng là nguồn gốc phổ biến nhất của rủi ro vận hành khi triển khai AI agent.
+> - Ngành bảo mật và quản trị AI đã chính thức hóa vấn đề này: OWASP dành hẳn một danh mục rủi ro riêng cho hệ thống agentic (2026), và NIST cung cấp khung quản trị AI ở cấp tổ chức.
+> - Doanh nghiệp cần một **control layer** cho AI — không phải một tính năng bổ sung, mà một tổ hợp cơ chế xử lý hai câu hỏi khác nhau: AI được phép **hành động** tới đâu, và AI đang **lập luận dựa trên tri thức nào**.
 
 ---
 

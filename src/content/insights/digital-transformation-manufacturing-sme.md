@@ -23,7 +23,6 @@ secondaryKeywords:
 assessmentHref: /readiness/digitalization
 draft: false
 ---
-# Digital Transformation for Manufacturing SMEs: What It Really Means
 
 ---
 
