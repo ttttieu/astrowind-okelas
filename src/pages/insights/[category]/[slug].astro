@@ -28,6 +28,8 @@ const clusterLabel: Record<string, string> = {
 <InsightArticleLayout
   title={article.data.title}
   description={article.data.description}
+  translationId={article.data.translationId}
+  lang={article.data.lang}
   contentType={article.data.contentType}
   cluster={clusterLabel[article.data.category] as any}
   funnelStage={article.data.funnelStage?.[0]}

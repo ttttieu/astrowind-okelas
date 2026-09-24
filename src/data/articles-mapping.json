@@ -1,0 +1,82 @@
+{
+  "articles": [
+    {
+      "translationId": "erp-pillar-why-fail",
+      "vi": {
+        "slug": "tai-sao-du-an-erp-that-bai",
+        "category": "erp",
+        "url": "/insights/erp/tai-sao-du-an-erp-that-bai"
+      },
+      "en": {
+        "slug": "why-erp-projects-fail",
+        "category": "erp",
+        "url": "/en/insights/erp/why-erp-projects-fail"
+      }
+    },
+    {
+      "translationId": "ai-pillar-organizational-readiness",
+      "vi": {
+        "slug": "ai-readiness-doanh-nghiep",
+        "category": "ai",
+        "url": "/insights/ai/ai-readiness-doanh-nghiep"
+      },
+      "en": {
+        "slug": "organizational-ai-readiness",
+        "category": "ai",
+        "url": "/en/insights/ai/organizational-ai-readiness"
+      }
+    },
+    {
+      "translationId": "ai-pillar-control-layer",
+      "vi": {
+        "slug": "kiem-soat-ai-doanh-nghiep",
+        "category": "ai",
+        "url": "/insights/ai/kiem-soat-ai-doanh-nghiep"
+      },
+      "en": {
+        "slug": "enterprise-ai-control-layer",
+        "category": "ai",
+        "url": "/en/insights/ai/enterprise-ai-control-layer"
+      }
+    },
+    {
+      "translationId": "biz-ops-pillar-digital-transformation",
+      "vi": {
+        "slug": "chuyen-doi-so-doanh-nghiep-san-xuat",
+        "category": "business-operations",
+        "url": "/insights/business-operations/chuyen-doi-so-doanh-nghiep-san-xuat"
+      },
+      "en": {
+        "slug": "digital-transformation-manufacturing-sme",
+        "category": "business-operations",
+        "url": "/en/insights/business-operations/digital-transformation-manufacturing-sme"
+      }
+    },
+    {
+      "translationId": "biz-ops-pillar-workflow",
+      "vi": {
+        "slug": "workflow-thong-minh-the-he-moi",
+        "category": "business-operations",
+        "url": "/insights/business-operations/workflow-thong-minh-the-he-moi"
+      },
+      "en": {
+        "slug": "intelligent-workflow-next-generation",
+        "category": "business-operations",
+        "url": "/en/insights/business-operations/intelligent-workflow-next-generation"
+      }
+    },
+    {
+      "translationId": "km-pillar-individual-to-organizational",
+      "vi": {
+        "slug": "quan-ly-tri-thuc-doanh-nghiep-san-xuat",
+        "category": "knowledge-management",
+        "url": "/insights/knowledge-management/quan-ly-tri-thuc-doanh-nghiep-san-xuat"
+      },
+      "en": {
+        "slug": "knowledge-management-manufacturing",
+        "category": "knowledge-management",
+        "url": "/en/insights/knowledge-management/knowledge-management-manufacturing"
+      }
+    }
+  ]
+}

@@ -1,11 +1,14 @@
 ---
 import { Icon } from 'astro-icon/components';
 import { I18N } from 'astrowind:config';
+import articlesMapping from '~/data/articles-mapping.json';
 
 export interface Props {
   label?: string;
   class?: string;
   iconClass?: string;
+  translationId?: string;
+  lang?: 'en' | 'vi';
 }
 
 const {
@@ -13,12 +16,23 @@ const {
   class:
     className = 'text-muted dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center',
   iconClass = 'w-5 h-5 lg:w-5 lg:h-5',
+  translationId,
+  lang,
 } = Astro.props;
 
 // Detect current language from URL path or config
 const currentPath = Astro.url.pathname;
-const currentLanguage = currentPath.startsWith('/en') ? 'en' : 'vi';
+const currentLanguage = lang || (currentPath.startsWith('/en') ? 'en' : 'vi');
 const isVietnamese = currentLanguage === 'vi';
+
+// Build translation mapping for client-side script
+const translationMap: Record<string, Record<string, string>> = {};
+for (const article of articlesMapping.articles) {
+  translationMap[article.translationId] = {
+    vi: article.vi.url,
+    en: article.en.url,
+  };
+}
 ---
 
 <aw-language-switcher>
@@ -28,6 +42,8 @@ const isVietnamese = currentLanguage === 'vi';
     aria-label={label}
     data-aw-toggle-language
     data-current-lang={currentLanguage}
+    data-translation-id={translationId}
+    data-translation-map={JSON.stringify(translationMap)}
   >
     <span class:list={['relative block', iconClass]}>
       <Icon
@@ -50,7 +66,7 @@ const isVietnamese = currentLanguage === 'vi';
 <script>
   class AwLanguageSwitcher extends HTMLElement {
     connectedCallback() {
-      const button = this.querySelector('[data-aw-toggle-language]');
+      const button = this.querySelector('[data-aw-toggle-language]') as HTMLButtonElement;
 
       button?.addEventListener('click', () => {
         // Detect current language from URL path
@@ -60,7 +76,26 @@ const isVietnamese = currentLanguage === 'vi';
 
         localStorage.language = newLang;
 
-        // Build the new path based on current path and target language
+        // Check if this is a translated article from data attributes
+        let translationId = button.dataset.translationId || document.documentElement.dataset.translationId;
+        let translationMapStr = button.dataset.translationMap;
+
+        if (translationId && translationMapStr) {
+          try {
+            const translationMap = JSON.parse(translationMapStr);
+            if (translationMap[translationId]) {
+              const targetUrl = translationMap[translationId][newLang];
+              if (targetUrl) {
+                window.location.href = targetUrl;
+                return;
+              }
+            }
+          } catch (e) {
+            console.error('Failed to parse translation map:', e);
+          }
+        }
+
+        // Fallback: Toggle /en prefix for non-article pages
         let newPath = currentPath;
 
         // Remove existing /en/ prefix if present
