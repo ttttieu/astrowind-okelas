@@ -35,8 +35,6 @@ const clusterLabel: Record<string, string> = {
   funnelStage={article.data.funnelStage?.[0]}
   publishDate={article.data.publishDate?.toISOString().slice(0, 10)}
   selfAssessmentHref={article.data.assessmentHref}
-  ctaPrimaryText="Take the Readiness Assessment"
-  ctaPrimaryHref={article.data.assessmentHref}
 >
   <Content />
 </InsightArticleLayout>

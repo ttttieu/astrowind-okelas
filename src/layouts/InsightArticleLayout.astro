@@ -169,30 +169,11 @@ const clusterHref: Record<string, string> = {
 
     <!-- Block 7: Conclusion — part of main body slot, no separate block needed -->
 
-    <!-- Block 9: Internal links (minimum 3) -->
-    <div class="not-prose mt-10 pt-6 border-t border-slate-200 dark:border-slate-700">
-      <p class="text-sm font-semibold uppercase tracking-wide text-muted mb-3">Related</p>
-      <slot name="internal-links">
-        <!-- Minimum 3 internal links:
-          1 link up to this cluster's pillar article
-          1 link sideways to a sibling article in the same cluster
-          1 link to this cluster's Readiness Assessment
-        -->
-      </slot>
-    </div>
+    <!-- Block 9: Related content (optional — content-driven) -->
+    <slot name="related-content" />
 
     <!-- Block 10: Sources (conditional — Analysis / Pillar / Case & Evidence) -->
-    {showSources && (
-      <div class="not-prose mt-8 pt-6 border-t border-slate-200 dark:border-slate-700">
-        <p class="text-sm font-semibold uppercase tracking-wide text-muted mb-3">Sources</p>
-        <slot name="sources">
-          <!-- Every quantitative or market claim needs an inline citation
-               (source name + year). List them here in the same format.
-               See Why Before ERP page for house style on hedged figures.
-          -->
-        </slot>
-      </div>
-    )}
+    <!-- Note: Sources section is deprecated for new articles. Keep inline citations in article body instead. -->
   </article>
 
   <!-- Block 8: CTA block (priority order: Assessment > Related article > Solution > Contact) -->
