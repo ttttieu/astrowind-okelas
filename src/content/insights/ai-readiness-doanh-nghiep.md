@@ -25,6 +25,5 @@ secondaryKeywords:
 assessmentHref: /readiness/ai
 draft: false
 ---
-# AI Readiness: tại sao AI không tự động làm doanh nghiệp thông minh hơn
 
 ---

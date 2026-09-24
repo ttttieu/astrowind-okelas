@@ -23,7 +23,6 @@ secondaryKeywords:
 assessmentHref: /readiness/knowledge
 draft: false
 ---
-# Từ tri thức cá nhân đến tri thức tổ chức — bài toán không thể né trong sản xuất
 
 ---
 

@@ -26,7 +26,6 @@ secondaryKeywords:
 assessmentHref: /readiness/erp
 draft: false
 ---
-## PILLAR-1 | Tại sao dự án ERP không đạt mục tiêu — và vấn đề thực sự không nằm ở phần mềm
 
 ### Thông tin chung
 

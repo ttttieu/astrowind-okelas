@@ -23,7 +23,6 @@ secondaryKeywords:
 assessmentHref: /readiness/digitalization
 draft: false
 ---
-# Chuyển đổi số với Manufacturing SME — thực sự là gì và bắt đầu từ đâu
 
 ---
 
