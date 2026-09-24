@@ -34,7 +34,7 @@ In an ERP project, data migration is the process of moving data from existing sy
 
 The description sounds straightforward: export data, clean it, load it into the new system.
 
-In practice, data migration is consistently identified by ERP implementation specialists as one of the highest-risk components of any project, and one of the most systematically underestimated in terms of time and effort required. Many projects run over budget and schedule not because of technical problems with the software, but because the organization's data was more complex and lower quality than anticipated.
+In practice, data migration is widely recognized as one of the highest-risk components of an ERP implementation, and one of the most systematically underestimated in terms of time and effort required. Many projects run over budget and schedule not because of technical problems with the software, but because the organization's data was more complex and lower quality than anticipated.
 
 More fundamentally: poor data does not get cleaned by moving it into ERP. It becomes the foundation of every inventory alert, every purchase order, every financial report the system generates. A single incorrect record in master data can produce cascading errors across operations for months after go-live.
 
@@ -148,6 +148,14 @@ If several of these answers are "no" or "uncertain," that is a signal to allocat
 **Next in the series: [Scope Creep in ERP — When the Project Keeps Growing Beyond the Plan]**
 
 **→ [Complete the ERP Readiness Assessment for a structured evaluation of data readiness alongside other implementation dimensions]**
+
+→ **[Explore ERP Readiness Solutions](/solutions/erp-readiness)**
+
+*For context on process standardization as a prerequisite for data readiness, see: [Process Standardization Before ERP](/insights/erp/process-standardization-before-erp)*
+
+*To understand scope management in ERP projects, see: [ERP Scope Creep — When the Project Keeps Growing Beyond the Plan](/insights/erp/erp-scope-creep)*
+
+*For the foundational perspective on why ERP projects fail, see: [Why ERP Projects Fail](/insights/erp/why-erp-projects-fail)*
 
 ---
 

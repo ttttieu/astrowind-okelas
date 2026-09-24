@@ -117,6 +117,14 @@ Whether your ERP is already running or you are preparing for implementation, con
 
 **→ [Complete the ERP Readiness Assessment for a structured evaluation of customization risk and other implementation dimensions]**
 
+→ **[Explore ERP Readiness Solutions](/solutions/erp-readiness)**
+
+*For scope management context, see: [ERP Scope Creep — When the Project Grows Faster Than the Budget](/insights/erp/erp-scope-creep)*
+
+*To understand governance after customization decisions, see: [ERP Governance — Who Is Responsible When ERP Does Not Work?](/insights/erp/erp-governance)*
+
+*For the foundational perspective, see: [Why ERP Projects Fail](/insights/erp/why-erp-projects-fail)*
+
 ---
 
 *This article is part of a series on ERP readiness for manufacturing SMEs.*

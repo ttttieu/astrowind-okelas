@@ -136,6 +136,14 @@ If you are currently in an ERP project:
 
 **→ [Complete the ERP Readiness Assessment for a structured view of scope readiness and other implementation dimensions]**
 
+→ **[Explore ERP Readiness Solutions](/solutions/erp-readiness)**
+
+*For the foundation on data readiness, see: [ERP Data Readiness](/insights/erp/erp-data-readiness)*
+
+*To understand customization risks after scope creep, see: [ERP Customization Risks — The Line Between Flexibility and Technical Debt](/insights/erp/erp-customization-risks)*
+
+*For the foundational perspective, see: [Why ERP Projects Fail](/insights/erp/why-erp-projects-fail)*
+
 ---
 
 *This article is part of a series on ERP readiness for manufacturing SMEs.*

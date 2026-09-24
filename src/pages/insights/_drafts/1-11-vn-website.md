@@ -64,7 +64,7 @@ Một doanh nghiệp chế biến thực phẩm với khoảng 120 nhân sự ho
 
 Sáu tháng sau go-live, bức tranh thực tế:
 
-**Module kho:** Nhân viên kho đang nhập liệu vào ERP sau mỗi ca — nhưng cũng duy trì một file Excel riêng để theo dõi tồn kho thực tế vì "ERP hay bị sai số". Số liệu tồn kho trong ERP và trong file Excel thường chênh lệch 5–15%.
+**Module kho:** Nhân viên kho đang nhập liệu vào ERP sau mỗi ca — nhưng cũng duy trì một file Excel riêng để theo dõi tồn kho thực tế vì "ERP hay bị sai số". Số liệu tồn kho trong ERP và trong file Excel có thể chênh lệch tới 5–15% trong các ví dụ tổng hợp.
 
 **Module sản xuất:** Lệnh sản xuất được tạo trong ERP, nhưng kế hoạch sản xuất thực tế vẫn do quản lý sàn quyết định bằng kinh nghiệm. Kết quả sản xuất không được cập nhật vào ERP theo thời gian thực — thường được nhập hàng loạt vào cuối ngày hoặc cuối tuần.
 
@@ -105,6 +105,20 @@ Closing the adoption gap không phải là một dự án mới — nó là giai
 **Thiết lập governance rõ ràng.** System Owner, Master Data Manager, Change Request Process, và các cơ chế giám sát chất lượng định kỳ — những thứ này cần được thiết lập nếu chưa có.
 
 **Xây dựng ERP knowledge.** Một trong những thách thức ít được nhận ra nhất: sau go-live, tổ chức cần có "bộ nhớ" về cách hệ thống được cấu hình, tại sao các quyết định đó được đưa ra, và cách các module liên kết với nhau. Khi nhân sự thay đổi, kiến thức này thường mất đi — và với nó là khả năng duy trì và phát triển hệ thống.
+
+---
+
+## Doanh nghiệp bạn có đang như thế này?
+
+- Một số nhân viên vẫn giữ một file Excel "ngầm" mà họ tin tưởng hơn cả hệ thống ERP
+- Báo cáo xuất ra từ ERP luôn cần kiểm tra thủ công lại trước khi ai đó tin dùng số liệu
+- Nhân viên mới được đồng nghiệp chỉ "cách làm thật sự" của quy trình, thay vì học theo workflow đã ghi trong ERP
+- Một số module hoặc trường dữ liệu trong ERP gần như trống hoặc chỉ điền dữ liệu cho có
+- Khi có sự cố, phản xạ đầu tiên là mở file Excel ra kiểm tra, không phải mở hệ thống
+- Mức độ sử dụng ERP giảm rõ rệt vào giai đoạn cao điểm, quay lại làm thủ công như cũ
+- Chưa ai từng đo xem ERP có thực sự giảm sai sót hay rút ngắn thời gian xử lý kể từ khi go-live hay không
+
+Nếu doanh nghiệp bạn có từ 3/7 dấu hiệu trở lên, ERP đã được triển khai — nhưng chưa được áp dụng thật sự. Khoảng cách đó, chứ không phải giới hạn của phần mềm, mới thường là yếu tố quyết định khoản đầu tư có sinh lời hay không.
 
 ---
 

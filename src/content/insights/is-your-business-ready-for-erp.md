@@ -104,8 +104,27 @@ The most common preparation steps:
 
 ---
 
+## Does this describe your organization?
+
+- Different departments describe "the same process" differently when asked
+- Master data (SKUs, vendors, customers) lives in more than one spreadsheet, and the numbers don't always match
+- No one owns process documentation — SOPs exist but nobody is responsible for keeping them current
+- Multiple attempts to introduce new software (of any kind) have quietly reverted back to Excel within a year
+- Leadership can't agree on what "done" looks like for a digital transformation project
+- Approval workflows exist on paper but get bypassed under time pressure
+- Nobody can produce a single, agreed inventory count without a phone call or a meeting
+- The last "big" software project ran over budget or missed its original goals, and no one fully knows why
+
+If your business shows 4 or more of these 8 signs, the gap holding back ERP success may not be the software — it's organizational readiness.
+
+---
+
 For a more complete picture across data readiness, governance, accounting, and manufacturing-specific dimensions, use the assessment below to get a structured view of where your organization stands.
 
 → **[Complete the ERP Readiness Assessment](/readiness/erp)**
 
+→ **[Explore ERP Readiness Solutions](/solutions/erp-readiness)**
+
 *For a deeper analysis of why most ERP projects underperform and what the root causes actually are, see: [Why ERP Projects Fail — and What the Software Cannot Fix](/insights/erp/why-erp-projects-fail)*
+
+*For an overview of how process standardization fits into the broader ERP readiness picture, see: [Process Standardization Before ERP](/insights/erp/process-standardization-before-erp)*

@@ -138,6 +138,14 @@ If several items are unchecked, that is a signal to allocate more time and resou
 
 **→ [Complete the ERP Readiness Assessment for a structured evaluation of accounting readiness alongside other implementation dimensions]**
 
+→ **[Explore ERP Readiness Solutions](/solutions/erp-readiness)**
+
+*For customization and user adoption related to accounting, see: [ERP User Adoption](/insights/erp/erp-user-adoption)*
+
+*To understand manufacturing-specific accounting requirements, see: [Manufacturing Readiness — How Is ERP for Production Different?](/insights/erp/manufacturing-readiness)*
+
+*For the foundational perspective, see: [Why ERP Projects Fail](/insights/erp/why-erp-projects-fail)*
+
 ---
 
 *This article is part of a series on ERP readiness for manufacturing SMEs.*

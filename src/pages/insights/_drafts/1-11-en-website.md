@@ -64,7 +64,7 @@ A food processing company with approximately 120 employees completes an ERP impl
 
 Six months after go-live, the actual picture:
 
-**Warehouse module:** Warehouse staff enter data into ERP after each shift — but also maintain a separate Excel file to track actual inventory because "ERP often has discrepancies." Inventory figures in ERP and in the Excel file differ by 5–15%.
+**Warehouse module:** Warehouse staff enter data into ERP after each shift — but also maintain a separate Excel file to track actual inventory because "ERP often has discrepancies." Inventory figures in ERP and in the Excel file differ by as much as 5–15% in composite examples.
 
 **Production module:** Production orders are created in ERP, but actual production planning is still determined by floor managers based on experience. Production results are not updated into ERP in real time — they are typically entered in batches at the end of the day or end of the week.
 
@@ -105,6 +105,20 @@ Closing the adoption gap is not a new project — it is the next phase of the ER
 **Clear governance structure.** System Owner, Master Data Manager, Change Request Process, and periodic quality monitoring mechanisms — if these are not in place, they need to be established.
 
 **ERP knowledge management.** One of the least recognized challenges: after go-live, the organization needs a "memory" of how the system was configured, why those decisions were made, and how modules connect to each other. When staff turn over, this knowledge is typically lost — and with it, the organization's ability to maintain and develop the system.
+
+---
+
+## Does this describe your organization?
+
+- Some employees keep a personal Excel "shadow system" they trust more than the ERP
+- Reports generated from ERP require manual double-checking before anyone trusts the numbers
+- New hires get taught the "real way" processes work by a colleague, not by the ERP-documented workflow
+- Certain modules or fields in the ERP are mostly empty or filled with placeholder data
+- When something goes wrong, the first instinct is to check the spreadsheet, not the system
+- Usage of the ERP drops noticeably during busy periods, reverting to old manual methods
+- Nobody has measured whether the ERP actually reduced errors or cycle time since go-live
+
+If your business shows 3 or more of these 7 signs, ERP was implemented — but not yet adopted. That gap, not a software limitation, is usually what determines whether the investment pays off.
 
 ---
 

@@ -34,7 +34,7 @@ Trong một dự án ERP, data migration là quá trình chuyển dữ liệu t�
 
 Nghe có vẻ đơn giản: xuất dữ liệu ra, làm sạch, nhập vào hệ thống mới.
 
-Trên thực tế, data migration thường được các chuyên gia triển khai ERP xếp vào nhóm công việc rủi ro cao nhất và bị đánh giá thấp nhất về thời gian và nguồn lực cần thiết. Nhiều dự án bị kéo dài hoặc vượt ngân sách không phải vì vấn đề kỹ thuật với phần mềm, mà vì dữ liệu của doanh nghiệp phức tạp và kém chất lượng hơn dự kiến.
+Trên thực tế, data migration được coi rộng rãi là một trong những công việc rủi ro cao nhất của triển khai ERP, và thường bị đánh giá thấp nhất về thời gian và nguồn lực cần thiết. Nhiều dự án bị kéo dài hoặc vượt ngân sách không phải vì vấn đề kỹ thuật với phần mềm, mà vì dữ liệu của doanh nghiệp phức tạp và kém chất lượng hơn dự kiến.
 
 Điều quan trọng hơn: dữ liệu không sạch không tự biến mất khi bạn chuyển vào ERP. Nó trở thành nền tảng của mọi báo cáo, mọi cảnh báo tồn kho, mọi đơn mua hàng được tạo ra từ hệ thống. Một con số sai trong master data có thể tạo ra sai sót dây chuyền trong vận hành nhiều tháng sau go-live.
 
