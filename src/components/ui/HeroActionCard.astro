@@ -1,0 +1,68 @@
+---
+import { Icon } from 'astro-icon/components';
+
+export interface Props {
+  title: string;
+  description: string;
+  href: string;
+  icon?: string;
+  variant?: 'primary' | 'secondary';
+  ariaLabel?: string;
+}
+
+const {
+  title,
+  description,
+  href,
+  icon,
+  variant = 'primary',
+  ariaLabel,
+} = Astro.props;
+
+const isPrimary = variant === 'primary';
+const baseStyles = 'group relative flex items-center gap-4 h-20 px-6 rounded-lg transition-all duration-300 cursor-pointer';
+const primaryStyles = 'bg-blue-600 hover:bg-blue-700 shadow-md hover:shadow-lg';
+const secondaryStyles = 'bg-white border border-slate-200 hover:border-slate-300 hover:shadow-md';
+const textPrimary = 'text-white';
+const textSecondary = 'text-slate-900';
+---
+
+<a
+  href={href}
+  class:list={[
+    baseStyles,
+    isPrimary ? primaryStyles : secondaryStyles,
+    'motion-safe:transform motion-safe:hover:scale-105',
+  ]}
+  aria-label={ariaLabel || `${title}: ${description}`}
+>
+  <!-- Left: Icon/Image Container -->
+  {
+    icon && (
+      <div class="flex-shrink-0 w-12 h-12 flex items-center justify-center">
+        <Icon name={icon} class:list={['w-8 h-8', isPrimary ? 'text-white' : 'text-blue-600']} />
+      </div>
+    )
+  }
+
+  <!-- Middle: Text Content -->
+  <div class="flex-1 min-w-0">
+    <p class:list={['text-sm font-bold tracking-widest uppercase leading-tight', isPrimary ? textPrimary : textSecondary]}>
+      {title}
+    </p>
+    <p class:list={['text-xs mt-1 leading-tight', isPrimary ? 'text-blue-50' : 'text-slate-600']}>
+      {description}
+    </p>
+  </div>
+
+  <!-- Right: Arrow Icon -->
+  <div class="flex-shrink-0">
+    <Icon
+      name="tabler:arrow-right"
+      class:list={[
+        'w-5 h-5 transition-transform duration-300 motion-safe:group-hover:translate-x-1',
+        isPrimary ? 'text-white' : 'text-slate-600',
+      ]}
+    />
+  </div>
+</a>

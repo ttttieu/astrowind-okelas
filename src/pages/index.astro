@@ -10,6 +10,7 @@ import FAQs from '~/components/widgets/FAQs.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 import SocialProof from '~/components/widgets/SocialProof.astro';
 import StructuredData from '~/components/common/StructuredData.astro';
+import HeroActionCard from '~/components/ui/HeroActionCard.astro';
 import { SITE, METADATA, I18N } from 'astrowind:config';
 import favIconSvg from '~/assets/favicons/favicon.svg';
 
@@ -52,15 +53,6 @@ const structuredData = [
 
   <Hero
     tagline="Organizational Knowledge Operating System"
-    actions={[
-      {
-        variant: 'primary',
-        text: 'Assess Your Business Readiness',
-        href: '/readiness',
-        icon: 'tabler:clipboard-check',
-      },
-      { text: 'Why Operational Capability Comes First', href: '/why/why-before-erp' },
-    ]}
     image={{ src: '~/assets/images/hero-image.png', alt: 'OKELAS Architecture Overview' }}
   >
     <Fragment slot="title">
@@ -69,6 +61,27 @@ const structuredData = [
 
     <Fragment slot="subtitle">
       AI helps a 50-person company generate documents like a 500-person enterprise. But documents alone don't build operational capability. OKELAS turns organizational knowledge into operational capability -- connecting processes, workflows, records and AI-ready knowledge in one progressive operating system.
+    </Fragment>
+
+    <Fragment slot="actions">
+      <div class="max-w-2xl sm:max-w-3xl m-auto grid grid-cols-1 sm:grid-cols-2 gap-4 intersect-once intersect-quarter motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade">
+        <HeroActionCard
+          title="Assess Business Readiness"
+          description="Evaluate your company's preparedness for operational capability."
+          href="/readiness"
+          icon="tabler:clipboard-check"
+          variant="primary"
+          ariaLabel="Assess Business Readiness: Evaluate your company's preparedness for operational capability"
+        />
+        <HeroActionCard
+          title="Why Capability First"
+          description="Explore the crucial link between strong processes and capability."
+          href="/why/why-before-erp"
+          variant="secondary"
+          icon="tabler:trending-up"
+          ariaLabel="Why Capability First: Explore the crucial link between strong processes and capability"
+        />
+      </div>
     </Fragment>
   </Hero>
 
