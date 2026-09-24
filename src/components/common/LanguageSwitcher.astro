@@ -15,7 +15,9 @@ const {
   iconClass = 'w-5 h-5 lg:w-5 lg:h-5',
 } = Astro.props;
 
-const currentLanguage = I18N?.language || 'vi';
+// Detect current language from URL path or config
+const currentPath = Astro.url.pathname;
+const currentLanguage = currentPath.startsWith('/en') ? 'en' : 'vi';
 const isVietnamese = currentLanguage === 'vi';
 ---
 
@@ -49,31 +51,35 @@ const isVietnamese = currentLanguage === 'vi';
   class AwLanguageSwitcher extends HTMLElement {
     connectedCallback() {
       const button = this.querySelector('[data-aw-toggle-language]');
-      const currentLang = button?.getAttribute('data-current-lang') || 'vi';
 
       button?.addEventListener('click', () => {
+        // Detect current language from URL path
+        const currentPath = window.location.pathname;
+        const currentLang = currentPath.startsWith('/en') ? 'en' : 'vi';
         const newLang = currentLang === 'vi' ? 'en' : 'vi';
+
         localStorage.language = newLang;
 
-        // Get current URL and navigate to language-prefixed version
-        const currentPath = window.location.pathname;
+        // Build the new path based on current path and target language
         let newPath = currentPath;
 
-        // Remove existing language prefix if present
-        if (currentPath.startsWith('/vi/')) {
-          newPath = currentPath.replace(/^\/vi/, '');
-        } else if (currentPath.startsWith('/en/')) {
+        // Remove existing /en/ prefix if present
+        if (currentPath.startsWith('/en/')) {
           newPath = currentPath.replace(/^\/en/, '');
+        } else if (currentPath === '/en') {
+          newPath = '/';
         }
 
-        // Add new language prefix (only if not root)
-        if (newPath !== '/' && newLang !== 'vi') {
-          newPath = `/${newLang}${newPath}`;
-        } else if (newPath !== '/' && newLang === 'vi') {
-          newPath = newPath.startsWith('/') ? newPath : `/${newPath}`;
+        // Add /en/ prefix if switching to English (and not at root)
+        if (newLang === 'en') {
+          if (newPath === '/') {
+            newPath = '/en/';
+          } else if (!newPath.startsWith('/en')) {
+            newPath = `/en${newPath}`;
+          }
         }
 
-        // Navigate to the new language-prefixed path
+        // Navigate to the new path
         window.location.href = newPath || '/';
       });
     }
