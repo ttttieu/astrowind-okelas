@@ -1,6 +1,19 @@
 {
   "articles": [
     {
+      "translationId": "erp-opening-readiness-assessment",
+      "vi": {
+        "slug": "doanh-nghiep-san-sang-trien-khai-erp",
+        "category": "erp",
+        "url": "/insights/erp/doanh-nghiep-san-sang-trien-khai-erp"
+      },
+      "en": {
+        "slug": "is-your-business-ready-for-erp",
+        "category": "erp",
+        "url": "/en/insights/erp/is-your-business-ready-for-erp"
+      }
+    },
+    {
       "translationId": "erp-pillar-why-fail",
       "vi": {
         "slug": "tai-sao-du-an-erp-that-bai",
