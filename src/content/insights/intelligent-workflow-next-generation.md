@@ -25,13 +25,16 @@ secondaryKeywords:
 assessmentHref: /readiness/digitalization
 draft: false
 ---
-## Executive Summary
 
-- Most manufacturing SMEs already have "digital workflow" — but much of it is still paper process wrapped in an electronic form and a chain of approval emails. That is not next-generation workflow.
-- Next-generation workflow isn't defined by having workflow software. It's defined by three capabilities: **reacting to events**, **carrying organizational context**, and **giving AI a controlled place to act on part of the work**.
-- McKinsey's 2025 research found that redesigning the workflow itself — not bolting AI onto an existing process — is what separates organizations that get real value from AI from those that don't.
-- Gartner forecasts agentic AI taking on a growing share of day-to-day operational decisions in the coming years — a technology trend forecast, not a description of where most companies already are.
-- For a manufacturing SME, the real question isn't "should we put AI in our workflow." It's: **is our workflow standardized and evidence-backed enough for AI to participate safely?**
+---
+
+> **Executive Summary**
+>
+> - Most manufacturing SMEs already have "digital workflow" — but much of it is still paper process wrapped in an electronic form and a chain of approval emails. That is not next-generation workflow.
+> - Next-generation workflow isn't defined by having workflow software. It's defined by three capabilities: **reacting to events**, **carrying organizational context**, and **giving AI a controlled place to act on part of the work**.
+> - McKinsey's 2025 research found that redesigning the workflow itself — not bolting AI onto an existing process — is what separates organizations that get real value from AI from those that don't.
+> - Gartner forecasts agentic AI taking on a growing share of day-to-day operational decisions in the coming years — a technology trend forecast, not a description of where most companies already are.
+> - For a manufacturing SME, the real question isn't "should we put AI in our workflow." It's: **is our workflow standardized and evidence-backed enough for AI to participate safely?**
 
 ---
 

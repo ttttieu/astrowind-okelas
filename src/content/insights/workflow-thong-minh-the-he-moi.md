@@ -24,13 +24,16 @@ secondaryKeywords:
 assessmentHref: /readiness/digitalization
 draft: false
 ---
-## Tóm tắt cho CEO
 
-- Phần lớn doanh nghiệp đã có "workflow số" — nhưng phần lớn trong số đó vẫn chỉ là quy trình giấy được chuyển thành form điện tử và một chuỗi email approval. Đó chưa phải workflow thế hệ mới.
-- Workflow thế hệ mới không được định nghĩa bởi việc có phần mềm workflow, mà bởi ba năng lực: **phản ứng theo sự kiện (event-driven)**, **có ngữ cảnh tổ chức (organizational context)**, và **có khả năng để AI tham gia xử lý một phần công việc, có kiểm soát**.
-- Nghiên cứu của McKinsey (2025) chỉ ra rằng việc thiết kế lại workflow — không phải việc "gắn thêm AI" vào quy trình cũ — mới là yếu tố quyết định doanh nghiệp có thu được giá trị thực từ AI hay không.
-- Gartner dự báo agentic AI sẽ tham gia ngày càng sâu vào việc ra quyết định vận hành trong vài năm tới — nhưng đây là dự báo xu hướng, không phải hiện trạng đã xảy ra ở mọi doanh nghiệp.
-- Với manufacturing SME, câu hỏi không phải "có nên dùng AI trong workflow không", mà là: **workflow hiện tại có đủ chuẩn hóa và có đủ evidence để AI tham gia một cách an toàn chưa?**
+---
+
+> **Tóm tắt cho CEO**
+>
+> - Phần lớn doanh nghiệp đã có "workflow số" — nhưng phần lớn trong số đó vẫn chỉ là quy trình giấy được chuyển thành form điện tử và một chuỗi email approval. Đó chưa phải workflow thế hệ mới.
+> - Workflow thế hệ mới không được định nghĩa bởi việc có phần mềm workflow, mà bởi ba năng lực: **phản ứng theo sự kiện (event-driven)**, **có ngữ cảnh tổ chức (organizational context)**, và **có khả năng để AI tham gia xử lý một phần công việc, có kiểm soát**.
+> - Nghiên cứu của McKinsey (2025) chỉ ra rằng việc thiết kế lại workflow — không phải việc "gắn thêm AI" vào quy trình cũ — mới là yếu tố quyết định doanh nghiệp có thu được giá trị thực từ AI hay không.
+> - Gartner dự báo agentic AI sẽ tham gia ngày càng sâu vào việc ra quyết định vận hành trong vài năm tới — nhưng đây là dự báo xu hướng, không phải hiện trạng đã xảy ra ở mọi doanh nghiệp.
+> - Với manufacturing SME, câu hỏi không phải "có nên dùng AI trong workflow không", mà là: **workflow hiện tại có đủ chuẩn hóa và có đủ evidence để AI tham gia một cách an toàn chưa?**
 
 ---
 
