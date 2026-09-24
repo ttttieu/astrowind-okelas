@@ -52,7 +52,71 @@ File name & slug MUST be in lowercase kebab-case without Vietnamese accents (e.g
 
 Keep tag pages set to robots: index: false in site config to avoid thin-content issues.
 
-## 6. Safety & Verification Workflow
+## 6. Pillar Article Format Standard
+All pillar articles in `src/content/insights/` MUST follow this strict format:
+
+**File Structure:**
+```
+---
+[frontmatter only - no metadata tables]
+---
+
+---
+
+> **Tóm tắt cho CEO** / **Executive Summary**
+>
+> - Bullet point 1
+> - Bullet point 2
+> - Bullet point 3
+
+---
+
+## Main Section (H2)
+
+Content starts here with H2/H3 hierarchy only.
+
+### Subsection (H3)
+
+No H1 headings in body — title comes from frontmatter only.
+```
+
+**Common Issues to Avoid:**
+1. ❌ H2 summary sections (`## Tóm tắt`) — must be blockquote format (`> **Tóm tắt**`)
+2. ❌ Duplicate H1 headings in body matching frontmatter title
+3. ❌ Metadata/information tables (Thông tin chung, SEO sections) — remove before publishing
+4. ❌ Missing summary sections — all pillars must have one
+5. ❌ Character encoding errors (mojibake like `â€"`) — use proper em-dash `—`
+6. ❌ Missing article content — must include full body text after summary
+7. ❌ Inconsistent summary blockquote style — always use `> **Title**` format
+
+**Frontmatter Schema for Pillars:**
+```yaml
+---
+title: "Article Title with Proper — Em-Dash"
+description: "Clear description text"
+publishDate: 2026-09-24T00:00:00Z
+translationId: pillar-name-identifier
+lang: en / vi
+category: [business-operations | ai | erp | compliance | knowledge-management]
+contentType: Pillar
+funnelStage:
+  - Awareness
+  - Understanding
+  - Consideration
+audience: [CEO, COO, CIO, etc]
+primaryKeyword: "main keyword"
+secondaryKeywords: ["keyword1", "keyword2"]
+assessmentHref: /readiness/[assessment-type]
+draft: false
+---
+```
+
+**Routing & Localization:**
+- Vietnamese pillars: `/insights/{category}/{vi-slug}` (bare route)
+- English pillars: `/en/insights/{category}/{en-slug}` (prefixed route)
+- Bilingual linkage uses `translationId` field for language switcher (not just URL prefix toggling)
+
+## 7. Safety & Verification Workflow
 Before finalizing any task, Claude Code CLI must perform the following:
 
 Validate all new frontmatter schemas against src/content/config.ts.
