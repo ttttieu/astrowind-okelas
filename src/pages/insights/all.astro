@@ -1,0 +1,76 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Content from '~/components/widgets/Content.astro';
+import { getArticlesByCategory } from '~/lib/insights';
+
+const metadata = {
+  title: 'Toàn bộ Insights — OKELAS',
+  description: 'Duyệt tất cả bài viết đã đăng, sắp xếp theo chủ đề. Lưu lại trang này nếu bạn muốn quay lại đọc tiếp sau.',
+};
+
+const { categories, grouped } = await getArticlesByCategory('vi');
+
+// Badge colors
+const typeBadgeClass: Record<string, string> = {
+  Opening: 'bg-sky-100 text-sky-800 dark:bg-sky-900 dark:text-sky-200',
+  Analysis: 'bg-violet-100 text-violet-800 dark:bg-violet-900 dark:text-violet-200',
+  'Case & Evidence': 'bg-amber-100 text-amber-800 dark:bg-amber-900 dark:text-amber-200',
+  Pillar: 'bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200',
+};
+---
+
+<Layout metadata={metadata}>
+  <HeroText
+    tagline="Insights"
+    title="Toàn bộ Insights"
+    subtitle="Duyệt tất cả bài viết đã đăng, sắp xếp theo chủ đề. Lưu lại trang này nếu bạn muốn quay lại đọc tiếp sau."
+  />
+
+  <div class="relative not-prose scroll-mt-[72px]">
+    <div class="relative mx-auto max-w-4xl px-4 md:px-6 py-12 md:py-16 lg:py-20">
+      {Object.entries(categories).map(([key, categoryName]) => {
+        const articles = grouped[key] || [];
+        return (
+          <div key={key} class="mb-12">
+            <h2 class="text-2xl font-bold mb-6 text-slate-900 dark:text-white">{categoryName}</h2>
+            {articles.length === 0 ? (
+              <p class="text-muted italic">Chưa có bài viết — quay lại sớm.</p>
+            ) : (
+              <ul class="space-y-4">
+                {articles.map((article) => (
+                  <li key={article.id} class="flex items-start gap-4 group">
+                    <a
+                      href={`/insights/${article.data.category}/${article.id}`}
+                      class="flex-1 hover:underline"
+                    >
+                      <div class="font-semibold text-slate-900 dark:text-white group-hover:text-primary transition-colors">
+                        {article.data.title}
+                      </div>
+                    </a>
+                    <div class="flex flex-wrap gap-2 justify-end">
+                      <span
+                        class:list={[
+                          'px-2 py-1 rounded text-xs font-semibold whitespace-nowrap',
+                          typeBadgeClass[article.data.contentType] ??
+                            'bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300',
+                        ]}
+                      >
+                        {article.data.contentType}
+                      </span>
+                      {article.data.funnelStage?.[0] && (
+                        <span class="px-2 py-1 rounded text-xs font-medium bg-gray-50 text-gray-500 dark:bg-gray-800 dark:text-gray-400 whitespace-nowrap">
+                          {article.data.funnelStage[0]}
+                        </span>
+                      )}
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </div>
+        );
+      })}
+    </div>
+  </div>
+</Layout>

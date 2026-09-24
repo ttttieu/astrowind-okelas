@@ -127,4 +127,4 @@ Nếu bạn muốn đánh giá đầy đủ hơn — bao gồm cả chiều dữ
 
 *Và nếu bạn muốn hiểu sâu hơn tại sao phần lớn ERP không đạt kỳ vọng và vấn đề thực sự nằm ở đâu, xem: [Tại sao dự án ERP không đạt mục tiêu — và vấn đề thực sự không nằm ở phần mềm](/insights/erp/tai-sao-du-an-erp-that-bai)*
 
-*Để hiểu rõ hơn về quy trình chuẩn hóa và vai trò của nó trong sẵn sàng ERP, xem: [Quy trình chưa chuẩn hóa — rủi ro lớn nhất trước khi triển khai ERP](/insights/erp/quy-trinh-chuan-hoa-trc-erp)*
+*Để hiểu rõ hơn về quy trình chuẩn hóa và vai trò của nó trong sẵn sàng ERP, xem: [Quy trình chưa chuẩn hóa — rủi ro lớn nhất trước khi triển khai ERP](/insights/erp/chuan-hoa-quy-trinh-truoc-erp)*

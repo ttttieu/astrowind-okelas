@@ -11,7 +11,7 @@ const metadata = {
     "Why ERP projects succeed or fail, and what \"ERP readiness\" concretely means before you sign a contract.",
 };
 
-const { grouped } = await getArticlesByCategory('vi');
+const { grouped } = await getArticlesByCategory('en');
 const erpArticles = grouped.erp || [];
 
 // Badge colors
@@ -34,7 +34,7 @@ const typeBadgeClass: Record<string, string> = {
         <strong>Start here — Pillar article:</strong>
       </p>
       <ul class="mt-2 space-y-1">
-        <li><a href="/insights/erp/tai-sao-du-an-erp-that-bai" class="text-primary hover:underline">Why ERP Projects Fail — and What the Software Cannot Fix →</a></li>
+        <li><a href="/en/insights/erp/why-erp-projects-fail" class="text-primary hover:underline">Why ERP Projects Fail — and What the Software Cannot Fix →</a></li>
       </ul>
 
       <p class="mt-5">
@@ -56,7 +56,7 @@ const typeBadgeClass: Record<string, string> = {
         {erpArticles.map((article) => (
           <li key={article.id} class="flex items-start gap-4 group">
             <a
-              href={`/insights/${article.data.category}/${article.id}`}
+              href={`/en/insights/${article.data.category}/${article.id}`}
               class="flex-1 hover:underline"
             >
               <div class="font-medium text-slate-900 dark:text-white group-hover:text-primary transition-colors">

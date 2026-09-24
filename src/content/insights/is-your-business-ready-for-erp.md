@@ -125,6 +125,6 @@ For a more complete picture across data readiness, governance, accounting, and m
 
 → **[Explore ERP Readiness Solutions](/solutions/erp-readiness)**
 
-*For a deeper analysis of why most ERP projects underperform and what the root causes actually are, see: [Why ERP Projects Fail — and What the Software Cannot Fix](/insights/erp/why-erp-projects-fail)*
+*For a deeper analysis of why most ERP projects underperform and what the root causes actually are, see: [Why ERP Projects Fail — and What the Software Cannot Fix](/en/insights/erp/why-erp-projects-fail)*
 
-*For an overview of how process standardization fits into the broader ERP readiness picture, see: [Process Standardization Before ERP](/insights/erp/process-standardization-before-erp)*
+*For an overview of how process standardization fits into the broader ERP readiness picture, see: [Process Standardization Before ERP](/en/insights/erp/process-standardization-before-erp)*
