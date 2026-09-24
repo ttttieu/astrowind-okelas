@@ -1,0 +1,98 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Insights — OKELAS',
+  description:
+    'Organized by the problems manufacturing leaders actually run into — ERP, AI, knowledge management, operations, and compliance.',
+};
+---
+
+<Layout metadata={metadata}>
+  <HeroText
+    tagline="Insights"
+    title="Insights"
+    subtitle="This isn't a blog you scroll through by publish date. It's organized around the problems manufacturing leaders actually run into — ERP, AI, knowledge management, day-to-day operations, and compliance — so you can go straight to what's relevant instead of digging through a feed. Every piece is written to be useful on its own, whether or not you ever talk to us afterward."
+  />
+
+  <section class="relative not-prose scroll-mt-[72px]">
+    <div class="relative mx-auto max-w-7xl px-4 md:px-6 py-12 md:py-16 lg:py-20">
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <a
+          href="/insights/business-operations"
+          class="flex flex-col p-6 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900 hover:border-blue-500 dark:hover:border-blue-400 hover:shadow-md transition-all"
+        >
+          <h2 class="text-xl font-semibold mb-3 text-slate-900 dark:text-white">Business & Operations</h2>
+          <p class="text-muted text-base flex-1">
+            Digitalization, process standardization, workflow and the operational habits that quietly determine whether
+            any of the above actually works.
+          </p>
+          <span class="mt-4 text-primary font-medium text-sm">Explore →</span>
+        </a>
+
+        <a
+          href="/insights/knowledge-management"
+          class="flex flex-col p-6 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900 hover:border-blue-500 dark:hover:border-blue-400 hover:shadow-md transition-all"
+        >
+          <h2 class="text-xl font-semibold mb-3 text-slate-900 dark:text-white">Knowledge Management</h2>
+          <p class="text-muted text-base flex-1">
+            What happens to a company's knowledge when the people who hold it leave, and what it takes to make that
+            knowledge survive them.
+          </p>
+          <span class="mt-4 text-primary font-medium text-sm">Explore →</span>
+        </a>
+
+        <a
+          href="/insights/erp"
+          class="flex flex-col p-6 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900 hover:border-blue-500 dark:hover:border-blue-400 hover:shadow-md transition-all"
+        >
+          <h2 class="text-xl font-semibold mb-3 text-slate-900 dark:text-white">ERP</h2>
+          <p class="text-muted text-base flex-1">
+            Why ERP projects succeed or fail, and what "ready" actually means before you sign a contract.
+          </p>
+          <span class="mt-4 text-primary font-medium text-sm">Explore →</span>
+        </a>
+
+        <a
+          href="/insights/ai"
+          class="flex flex-col p-6 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900 hover:border-blue-500 dark:hover:border-blue-400 hover:shadow-md transition-all"
+        >
+          <h2 class="text-xl font-semibold mb-3 text-slate-900 dark:text-white">AI</h2>
+          <p class="text-muted text-base flex-1">
+            What separates AI that generates content from AI that an operations team can actually trust with a decision.
+          </p>
+          <span class="mt-4 text-primary font-medium text-sm">Explore →</span>
+        </a>
+
+        <a
+          href="/insights/compliance"
+          class="flex flex-col p-6 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900 hover:border-blue-500 dark:hover:border-blue-400 hover:shadow-md transition-all"
+        >
+          <h2 class="text-xl font-semibold mb-3 text-slate-900 dark:text-white">Compliance</h2>
+          <p class="text-muted text-base flex-1">
+            ISO, GMP, and building an audit-ready operation without a multi-year software project.
+          </p>
+          <span class="mt-4 text-primary font-medium text-sm">Explore →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Take a 3-minute readiness assessment',
+        href: '/readiness',
+        icon: 'tabler:arrow-right',
+      },
+    ]}
+  >
+    <Fragment slot="title">Not sure where to start?</Fragment>
+    <Fragment slot="subtitle">
+      Answer a few questions about your current operations and we'll point you to what's most relevant.
+    </Fragment>
+  </CallToAction>
+</Layout>

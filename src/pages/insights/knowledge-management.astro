@@ -1,0 +1,66 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Content from '~/components/widgets/Content.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Knowledge Management — OKELAS Insights',
+  description:
+    'What it actually takes to move knowledge out of people\'s heads and into something the organization can rely on, search, and hand to an AI system.',
+};
+---
+
+<Layout metadata={metadata}>
+  <HeroText tagline="Insights" title="Knowledge Management" />
+
+  <Content
+    content={`
+      <p>When an experienced employee leaves, most companies lose more than a headcount — they lose judgment calls that were never written down. This category is about what it actually takes to move knowledge out of people's heads and into something the organization can rely on, search, and hand to an AI system without losing what made it valuable in the first place.</p>
+
+      <p class="mt-6">
+        <strong>Start here:</strong>
+        <a href="/why/knowledge-as-infrastructure" class="text-primary hover:underline ml-1">Knowledge as Infrastructure — why we don't treat knowledge as a filing cabinet →</a>
+      </p>
+
+      <p class="mt-3">
+        <strong>Assess it:</strong>
+        <a href="/readiness/knowledge" class="text-primary hover:underline ml-1">Take the Knowledge Readiness Assessment →</a>
+      </p>
+
+      <div class="mt-8">
+        <p class="font-semibold mb-3">Topics we're covering here <span class="font-normal text-muted">(more added regularly):</span></p>
+        <ul class="space-y-2 text-muted">
+          <li>Organizational knowledge — what it is once you get specific about it</li>
+          <li>Tacit → explicit knowledge — the conversion that most companies skip</li>
+          <li>Knowledge sharing — why "put it on the shared drive" doesn't count</li>
+          <li>Knowledge retention — the real cost of a key employee leaving</li>
+          <li>Knowledge infrastructure — building for reuse, not just storage</li>
+          <li>Knowledge management + AI — what an AI system needs from your knowledge to be useful</li>
+        </ul>
+      </div>
+    `}
+  />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Knowledge Readiness Assessment',
+        href: '/readiness/knowledge',
+        icon: 'tabler:clipboard-check',
+      },
+      {
+        variant: 'secondary',
+        text: 'Knowledge & Copilot',
+        href: '/solutions/knowledge-copilot',
+        icon: 'tabler:arrow-right',
+      },
+    ]}
+  >
+    <Fragment slot="title">How dependent is your organization on specific people?</Fragment>
+    <Fragment slot="subtitle">
+      The Knowledge Readiness Assessment helps identify where knowledge lives — and what happens if the people holding it leave.
+    </Fragment>
+  </CallToAction>
+</Layout>

@@ -1,0 +1,206 @@
+---
+/**
+ * InsightArticleLayout — structural scaffold for OKELAS Insights articles.
+ *
+ * Fields declared here correspond to the content collection schema in
+ * src/content/config.ts. Editorial values (contentType, cluster, funnelStage)
+ * must be set in each article's frontmatter — this layout does not infer them.
+ *
+ * Template spec reference: okelas-insights-hub-content.md section 7
+ */
+import Layout from '~/layouts/PageLayout.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+export interface Props {
+  // --- SEO ---
+  title: string;
+  description?: string;
+
+  // --- Editorial tags (tags row, block 1) ---
+  contentType: 'Opening' | 'Analysis' | 'Case & Evidence' | 'Pillar';
+  cluster: 'Business & Operations' | 'Knowledge Management' | 'ERP' | 'AI' | 'Compliance';
+  funnelStage?: 'Awareness' | 'Understanding' | 'Consideration';
+
+  // --- Byline (block 2) ---
+  author?: string;
+  publishDate?: string;
+  readTime?: string;
+
+  // --- Executive Takeaway (block 4, optional) ---
+  // Only rendered for Analysis / Pillar articles (~1500+ words).
+  // Pass bullets as an array of strings via the executiveTakeaway slot.
+  showExecutiveTakeaway?: boolean;
+
+  // --- Self-assessment block (block 6) ---
+  selfAssessmentHref?: string;
+  selfAssessmentAssessmentName?: string;
+
+  // --- CTA block (block 8) ---
+  ctaPrimaryText?: string;
+  ctaPrimaryHref?: string;
+  ctaSecondaryText?: string;
+  ctaSecondaryHref?: string;
+  ctaTertiaryText?: string;
+  ctaTertiaryHref?: string;
+
+  // --- Sources block (block 10, optional) ---
+  // Only for Analysis / Pillar / Case & Evidence types.
+  showSources?: boolean;
+}
+
+const {
+  title,
+  description,
+  contentType,
+  cluster,
+  funnelStage,
+  author,
+  publishDate,
+  readTime,
+  showExecutiveTakeaway = contentType === 'Pillar' || contentType === 'Analysis',
+  selfAssessmentHref,
+  selfAssessmentAssessmentName,
+  ctaPrimaryText,
+  ctaPrimaryHref,
+  ctaSecondaryText,
+  ctaSecondaryHref,
+  ctaTertiaryText,
+  ctaTertiaryHref,
+  showSources = contentType !== 'Opening',
+} = Astro.props;
+
+// Badge color map by content type
+const typeBadgeClass: Record<string, string> = {
+  Opening: 'bg-sky-100 text-sky-800 dark:bg-sky-900 dark:text-sky-200',
+  Analysis: 'bg-violet-100 text-violet-800 dark:bg-violet-900 dark:text-violet-200',
+  'Case & Evidence': 'bg-amber-100 text-amber-800 dark:bg-amber-900 dark:text-amber-200',
+  Pillar: 'bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200',
+};
+
+const clusterHref: Record<string, string> = {
+  'Business & Operations': '/insights/business-operations',
+  'Knowledge Management': '/insights/knowledge-management',
+  ERP: '/insights/erp',
+  AI: '/insights/ai',
+  Compliance: '/insights/compliance',
+};
+---
+
+<Layout metadata={{ title, description }}>
+  <article class="mx-auto max-w-4xl px-4 md:px-6 py-12 md:py-16 lg:py-20 prose dark:prose-invert max-w-none">
+
+    <!-- Block 1: Tags row -->
+    <div class="not-prose flex flex-wrap gap-2 mb-6">
+      <span class:list={['px-3 py-1 rounded-full text-xs font-semibold', typeBadgeClass[contentType] ?? 'bg-gray-100 text-gray-700']}>
+        {contentType}
+      </span>
+      <a
+        href={clusterHref[cluster]}
+        class="px-3 py-1 rounded-full text-xs font-semibold bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors"
+      >
+        {cluster}
+      </a>
+      {funnelStage && (
+        <span class="px-3 py-1 rounded-full text-xs font-medium bg-gray-50 text-gray-500 dark:bg-gray-800 dark:text-gray-400">
+          {funnelStage}
+        </span>
+      )}
+    </div>
+
+    <!-- Block 2: H1 + byline -->
+    <h1 class="text-4xl md:text-5xl font-bold tracking-tight mb-4">{title}</h1>
+    {(author || publishDate || readTime) && (
+      <p class="not-prose text-sm text-muted mb-8 flex flex-wrap gap-3">
+        {author && <span>{author}</span>}
+        {publishDate && <span>{publishDate}</span>}
+        {readTime && <span>{readTime} read</span>}
+      </p>
+    )}
+
+    <!-- Block 3: Opening — main article body starts here -->
+    <!-- Block 4: Executive Takeaway (conditional — Analysis / Pillar only) -->
+    {showExecutiveTakeaway && (
+      <div class="not-prose my-8 p-5 rounded-lg border-l-4 border-primary bg-blue-50 dark:bg-blue-950/30">
+        <p class="text-sm font-semibold text-primary uppercase tracking-wide mb-3">Executive Takeaway</p>
+        <slot name="executive-takeaway">
+          <!-- Populate with 3–5 bullet points. Example:
+            <ul>
+              <li>First key insight for the executive reader.</li>
+              <li>Second insight that justifies reading further.</li>
+            </ul>
+          -->
+        </slot>
+      </div>
+    )}
+
+    <!-- Block 5: Main body -->
+    <slot />
+
+    <!-- Block 6: Self-assessment block -->
+    {selfAssessmentHref && (
+      <div class="not-prose my-10 p-6 rounded-lg bg-slate-50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700">
+        <p class="font-semibold text-lg mb-3">Does this describe your organization?</p>
+        <slot name="self-assessment">
+          <!-- List 4–8 signs. Format:
+            "If your business shows [N] of these [M] signs, the gap may not be
+            the software — it's organizational readiness."
+          -->
+        </slot>
+        {selfAssessmentAssessmentName && selfAssessmentHref && (
+          <a href={selfAssessmentHref} class="inline-flex items-center mt-4 text-primary font-medium hover:underline">
+            Take the {selfAssessmentAssessmentName} →
+          </a>
+        )}
+      </div>
+    )}
+
+    <!-- Block 7: Conclusion — part of main body slot, no separate block needed -->
+
+    <!-- Block 9: Internal links (minimum 3) -->
+    <div class="not-prose mt-10 pt-6 border-t border-slate-200 dark:border-slate-700">
+      <p class="text-sm font-semibold uppercase tracking-wide text-muted mb-3">Related</p>
+      <slot name="internal-links">
+        <!-- Minimum 3 internal links:
+          1 link up to this cluster's pillar article
+          1 link sideways to a sibling article in the same cluster
+          1 link to this cluster's Readiness Assessment
+        -->
+      </slot>
+    </div>
+
+    <!-- Block 10: Sources (conditional — Analysis / Pillar / Case & Evidence) -->
+    {showSources && (
+      <div class="not-prose mt-8 pt-6 border-t border-slate-200 dark:border-slate-700">
+        <p class="text-sm font-semibold uppercase tracking-wide text-muted mb-3">Sources</p>
+        <slot name="sources">
+          <!-- Every quantitative or market claim needs an inline citation
+               (source name + year). List them here in the same format.
+               See Why Before ERP page for house style on hedged figures.
+          -->
+        </slot>
+      </div>
+    )}
+  </article>
+
+  <!-- Block 8: CTA block (priority order: Assessment > Related article > Solution > Contact) -->
+  {ctaPrimaryHref && (
+    <CallToAction
+      actions={[
+        ...(ctaPrimaryText && ctaPrimaryHref
+          ? [{ variant: 'primary' as const, text: ctaPrimaryText, href: ctaPrimaryHref, icon: 'tabler:clipboard-check' }]
+          : []),
+        ...(ctaSecondaryText && ctaSecondaryHref
+          ? [{ variant: 'secondary' as const, text: ctaSecondaryText, href: ctaSecondaryHref, icon: 'tabler:arrow-right' }]
+          : []),
+        ...(ctaTertiaryText && ctaTertiaryHref
+          ? [{ variant: 'secondary' as const, text: ctaTertiaryText, href: ctaTertiaryHref, icon: 'tabler:arrow-right' }]
+          : []),
+      ]}
+    >
+      <Fragment slot="title">Next step</Fragment>
+      <Fragment slot="subtitle">
+        <slot name="cta-subtitle" />
+      </Fragment>
+    </CallToAction>
+  )}
+</Layout>

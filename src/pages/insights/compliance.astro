@@ -1,0 +1,65 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Content from '~/components/widgets/Content.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Compliance — OKELAS Insights',
+  description:
+    "ISO, GMP, and building an audit-ready operation progressively — without treating compliance software as a one-time, all-or-nothing project.",
+};
+---
+
+<Layout metadata={metadata}>
+  <HeroText tagline="Insights" title="Compliance" />
+
+  <Content
+    content={`
+      <p>For manufacturing businesses under ISO or GMP, compliance work often means weeks spent preparing for a single audit — chasing signatures, reconciling logs, proving something happened the way the record says it did. This category is about building audit-ready operations progressively, without treating compliance software as a one-time, all-or-nothing project.</p>
+
+      <p class="mt-6">
+        <strong>Start here:</strong>
+        <a href="/why/progressive-eqms" class="text-primary hover:underline ml-1">Progressive eQMS — why we don't start with a complete system →</a>
+      </p>
+
+      <p class="mt-3">
+        <strong>Assess it:</strong>
+        <a href="/readiness/digitalization" class="text-primary hover:underline ml-1">Take the Digitalization Readiness Assessment →</a>
+        <span class="text-muted text-sm ml-2">(evidence and traceability topics here also connect closely to <a href="/readiness/knowledge" class="text-primary hover:underline">Knowledge Readiness →</a>)</span>
+      </p>
+
+      <div class="mt-8">
+        <p class="font-semibold mb-3">Topics we're covering here <span class="font-normal text-muted">(more added regularly):</span></p>
+        <ul class="space-y-2 text-muted">
+          <li>ISO — practical implications for how records and processes get managed</li>
+          <li>GMP — what changes operationally, not just on paper</li>
+          <li>Progressive eQMS — starting small without giving up the end goal</li>
+          <li>Audit readiness — what actually reduces prep time, beyond "digitize everything"</li>
+        </ul>
+      </div>
+    `}
+  />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Digitalization Readiness Assessment',
+        href: '/readiness/digitalization',
+        icon: 'tabler:clipboard-check',
+      },
+      {
+        variant: 'secondary',
+        text: 'Progressive eQMS Solution',
+        href: '/solutions/progressive-eqms',
+        icon: 'tabler:arrow-right',
+      },
+    ]}
+  >
+    <Fragment slot="title">How audit-ready is your operation?</Fragment>
+    <Fragment slot="subtitle">
+      The Digitalization Readiness Assessment identifies where evidence gaps and process gaps are — before an auditor does.
+    </Fragment>
+  </CallToAction>
+</Layout>

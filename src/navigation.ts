@@ -35,11 +35,11 @@ export const headerData = {
     {
       text: 'Insights',
       links: [
-        { text: 'Business & Operations', href: '/insights/operations' },
+        { text: 'Business & Operations', href: '/insights/business-operations' },
+        { text: 'Knowledge Management', href: '/insights/knowledge-management' },
         { text: 'ERP', href: '/insights/erp' },
         { text: 'AI', href: '/insights/ai' },
         { text: 'Compliance', href: '/insights/compliance' },
-        { text: 'Industry', href: '/insights/industries' },
       ],
     },
     {
@@ -79,10 +79,11 @@ export const footerData = {
     {
       title: 'Insights',
       links: [
-        { text: 'Business & Operations', href: '/insights/operations' },
-        { text: 'ERP Strategy', href: '/insights/erp' },
-        { text: 'AI & Knowledge', href: '/insights/ai' },
-        { text: 'Compliance (eQMS)', href: '/insights/compliance' },
+        { text: 'Business & Operations', href: '/insights/business-operations' },
+        { text: 'Knowledge Management', href: '/insights/knowledge-management' },
+        { text: 'ERP', href: '/insights/erp' },
+        { text: 'AI', href: '/insights/ai' },
+        { text: 'Compliance', href: '/insights/compliance' },
       ],
     },
     {

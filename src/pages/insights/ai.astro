@@ -1,0 +1,65 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Content from '~/components/widgets/Content.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'AI — OKELAS Insights',
+  description:
+    "What separates AI that generates content from AI that an operations team can actually trust with a decision — readiness, agentic AI, Copilots, and organizational AI.",
+};
+---
+
+<Layout metadata={metadata}>
+  <HeroText tagline="Insights" title="AI" />
+
+  <Content
+    content={`
+      <p>AI can now help a small team produce output that used to take a much larger one. That's not the same as the organization becoming more capable — and for a lot of businesses, the gap between "we use AI" and "AI is actually useful in daily operations" is bigger than it looks. This category is about closing that gap: readiness, agentic AI, Copilots, and what it takes for AI to understand a specific business instead of just answering questions fluently.</p>
+
+      <p class="mt-6">
+        <strong>Start here:</strong>
+        <a href="/why/why-before-ai" class="text-primary hover:underline ml-1">Why Before AI — what readiness means before deploying AI →</a>
+      </p>
+
+      <p class="mt-3">
+        <strong>Assess it:</strong>
+        <a href="/readiness/ai" class="text-primary hover:underline ml-1">Take the AI Readiness Assessment →</a>
+      </p>
+
+      <div class="mt-8">
+        <p class="font-semibold mb-3">Topics we're covering here <span class="font-normal text-muted">(more added regularly):</span></p>
+        <ul class="space-y-2 text-muted">
+          <li>AI readiness — the conditions that determine whether AI is actually useful yet</li>
+          <li>AI in operations — where it helps today, and where it's still not reliable enough</li>
+          <li>Copilot — what makes an AI assistant trustworthy for real operational questions</li>
+          <li>Agentic AI — what changes when AI doesn't just answer, but acts</li>
+          <li>Organizational AI — the difference between AI that's smart and AI that understands your business</li>
+        </ul>
+      </div>
+    `}
+  />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'AI Readiness Assessment',
+        href: '/readiness/ai',
+        icon: 'tabler:clipboard-check',
+      },
+      {
+        variant: 'secondary',
+        text: 'AI Readiness Solution',
+        href: '/solutions/ai-readiness',
+        icon: 'tabler:arrow-right',
+      },
+    ]}
+  >
+    <Fragment slot="title">Is your organization ready for AI?</Fragment>
+    <Fragment slot="subtitle">
+      The AI Readiness Assessment evaluates the six conditions that determine whether AI can deliver real operational value — or just generate output faster.
+    </Fragment>
+  </CallToAction>
+</Layout>
