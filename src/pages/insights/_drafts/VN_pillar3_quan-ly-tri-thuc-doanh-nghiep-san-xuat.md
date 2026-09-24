@@ -31,9 +31,6 @@ internal_links:
   - /dieu-kien-trien-khai-ai-van-hanh
 ---
 
-# Từ tri thức cá nhân đến tri thức tổ chức — bài toán không thể né trong sản xuất
-
----
 
 > **Tóm tắt cho CEO**
 >

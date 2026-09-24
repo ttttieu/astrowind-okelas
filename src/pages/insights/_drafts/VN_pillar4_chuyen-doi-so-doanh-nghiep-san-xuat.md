@@ -29,9 +29,6 @@ internal_links:
   - /tai-sao-erp-khong-phai-transformation
   - /quan-ly-tri-thuc-doanh-nghiep-san-xuat
 ---
-
-# Chuyển đổi số với Manufacturing SME — thực sự là gì và bắt đầu từ đâu
-
 ---
 
 > **Tóm tắt cho CEO**

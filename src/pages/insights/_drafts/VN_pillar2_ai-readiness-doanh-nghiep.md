@@ -31,9 +31,6 @@ internal_links:
   - /sau-erp-khai-thac-du-lieu
 ---
 
-# AI Readiness: tại sao AI không tự động làm doanh nghiệp thông minh hơn
-
----
 
 > **Tóm tắt cho CEO**
 >
