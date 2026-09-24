@@ -41,7 +41,7 @@ const insightsCollection = defineCollection({
     ]),
     contentType: z.enum(['Opening', 'Analysis', 'Case & Evidence', 'Pillar']),
     funnelStage: z
-      .enum(['Awareness', 'Understanding', 'Consideration'])
+      .array(z.enum(['Awareness', 'Understanding', 'Consideration']))
       .optional(),
 
     // Audience (free-form tags, not validated)

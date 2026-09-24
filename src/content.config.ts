@@ -2,6 +2,34 @@ import { defineCollection } from 'astro:content';
 import { z } from 'astro/zod';
 import { glob } from 'astro/loaders';
 
+const insightsCollection = defineCollection({
+  loader: glob({ pattern: ['*.md', '*.mdx'], base: 'src/content/insights' }),
+  schema: z.object({
+    title: z.string(),
+    description: z.string().optional(),
+    publishDate: z.date().optional(),
+    updatedDate: z.date().optional(),
+    image: z.string().optional(),
+    translationId: z.string(),
+    lang: z.enum(['en', 'vi']),
+    category: z.enum([
+      'business-operations',
+      'knowledge-management',
+      'erp',
+      'ai',
+      'compliance',
+    ]),
+    contentType: z.enum(['Opening', 'Analysis', 'Case & Evidence', 'Pillar']),
+    funnelStage: z.array(z.enum(['Awareness', 'Understanding', 'Consideration'])).optional(),
+    audience: z.array(z.string()).optional(),
+    primaryKeyword: z.string().optional(),
+    secondaryKeywords: z.array(z.string()).optional(),
+    assessmentHref: z.string().optional(),
+    internalLinks: z.array(z.string()).optional(),
+    draft: z.boolean().default(false),
+  }),
+});
+
 const metadataDefinition = () =>
   z
     .object({
@@ -70,4 +98,5 @@ const postCollection = defineCollection({
 
 export const collections = {
   post: postCollection,
+  insights: insightsCollection,
 };
