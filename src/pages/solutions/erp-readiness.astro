@@ -1,0 +1,72 @@
+---
+// NOTE (internal): This page and the "ERP Readiness" entry under the Readiness menu
+// intentionally point to the same assessment (/readiness/erp). One is the service/approach
+// framing for Solutions visitors; the other is the direct diagnostic entry point.
+// This overlap is by design -- do not merge or redirect.
+
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'ERP Readiness -- OKELAS',
+  description:
+    'ERP implementations have a well-documented pattern of running over budget and past deadline. OKELAS validates operational logic and cleanses master data before you connect a heavy enterprise system.',
+};
+---
+
+<Layout metadata={metadata}>
+  <HeroText
+    tagline="Solutions"
+    title="ERP Readiness"
+    subtitle="Will this become an expensive, disruptive mess? It's a reasonable fear -- and a solvable one."
+  />
+
+  <Features3
+    columns={1}
+    classes={{ container: 'max-w-3xl' }}
+    items={[
+      {
+        title: 'The problem',
+        description:
+          'Leadership teams considering ERP are often really asking a narrower question without saying it out loud: "Will this become an expensive, disruptive mess?" It\'s a reasonable fear -- ERP implementations have a well-documented pattern of running over budget and past deadline.',
+        icon: 'tabler:alert-circle',
+      },
+      {
+        title: 'Why it happens',
+        description:
+          'The most consistently cited root cause across ERP industry research isn\'t the software -- it\'s unstandardized process and unclean data going into the new system. An ERP platform automates whatever process you feed it, including a broken one.',
+        icon: 'tabler:zoom-question',
+      },
+      {
+        title: 'How OKELAS approaches it',
+        description:
+          'OKELAS validates operational logic and cleanses master data before you connect a heavy enterprise system -- surfacing the process gaps and data issues that would otherwise turn up mid-implementation, when they\'re far more expensive to fix. This isn\'t a replacement for your ERP vendor or implementation partner; it\'s the readiness work that makes their job succeed.',
+        icon: 'tabler:bulb',
+      },
+      {
+        title: 'Quick self-check',
+        description:
+          'Could you produce a single, agreed answer to "how many SKUs do we have" right now, from one source, without a phone call?',
+        icon: 'tabler:checkbox',
+      },
+    ]}
+  />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Take the ERP Readiness Assessment',
+        href: '/readiness/erp',
+        icon: 'tabler:clipboard-check',
+      },
+    ]}
+  >
+    <Fragment slot="title">Next step</Fragment>
+    <Fragment slot="subtitle">
+      Find out exactly where your process and data gaps are before committing to an ERP project.
+    </Fragment>
+  </CallToAction>
+</Layout>

@@ -1,0 +1,73 @@
+---
+// NOTE (internal): Nav label is "Workflow Automation" but this page content uses
+// "Intelligent Workflow" -- consistent with the homepage offering card rename.
+// The nav label in src/navigation.ts still reads "Workflow Automation" and needs
+// a separate decision before changing (it may affect URL slug references elsewhere).
+// FLAG: confirm nav label alignment before next deploy.
+
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Intelligent Workflow -- OKELAS',
+  description:
+    'The workflow already exists. OKELAS makes established workflows faster, more adaptive and more capable by connecting process, knowledge, evidence and AI.',
+};
+---
+
+<Layout metadata={metadata}>
+  <HeroText
+    tagline="Solutions"
+    title="Intelligent Workflow"
+    subtitle="The workflow already exists. The problem is it's slow, manual, and hits a ceiling as the business grows."
+  />
+
+  <Features3
+    columns={1}
+    classes={{ container: 'max-w-3xl' }}
+    items={[
+      {
+        title: 'The problem',
+        description:
+          'Approvals happen, tasks move, records get filed. But it\'s slow -- manual handoffs, someone has to remember to follow up, and the same workflow that worked at 50 employees starts creaking at 150.',
+        icon: 'tabler:alert-circle',
+      },
+      {
+        title: 'Why it happens',
+        description:
+          'A workflow that only moves tasks from one step to the next, without any connection to the knowledge, evidence or context behind those tasks, hits a ceiling. It can be faster, but it can\'t get smarter -- every exception still needs a human to stop and figure out what to do.',
+        icon: 'tabler:zoom-question',
+      },
+      {
+        title: 'How OKELAS approaches it',
+        description:
+          'OKELAS makes established workflows faster, more adaptive and more capable by connecting process, knowledge, evidence and AI -- so a workflow doesn\'t just move a task forward, it carries the context needed to handle routine exceptions without escalating every one of them.',
+        icon: 'tabler:bulb',
+      },
+      {
+        title: 'Quick self-check',
+        description:
+          'In your busiest weekly workflow, how many steps exist purely so a person can "check if it\'s okay to proceed" -- and how often is the answer actually yes?',
+        icon: 'tabler:checkbox',
+      },
+    ]}
+  />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Take the Digitalization Readiness Assessment',
+        href: '/readiness/digitalization',
+        icon: 'tabler:clipboard-check',
+      },
+    ]}
+  >
+    <Fragment slot="title">Next step</Fragment>
+    <Fragment slot="subtitle">
+      Find out which workflow bottlenecks are process gaps versus capability gaps.
+    </Fragment>
+  </CallToAction>
+</Layout>

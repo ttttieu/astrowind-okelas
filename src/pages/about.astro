@@ -1,0 +1,47 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Content from '~/components/widgets/Content.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'About OKELAS',
+  description:
+    'OKELAS is an Organization Knowledge Operating System for manufacturing SMEs -- the layer that ties people, process, documents, events and evidence together.',
+};
+---
+
+<Layout metadata={metadata}>
+  <HeroText
+    tagline="Company"
+    title="About OKELAS"
+    subtitle="An Organization Knowledge Operating System for manufacturing SMEs."
+  />
+
+  <Content
+    classes={{ container: 'max-w-3xl' }}
+    content={`
+      <p>OKELAS helps a company move from operating on documents, individual memory and personal experience toward operating on process, workflow, evidence and organizational knowledge.</p>
+
+      <p>That's a different starting point than most software categories aim for. OKELAS isn't a document management system, a QMS, an ERP, or an AI chatbot -- though it can connect to or work alongside all of them. It's the layer that ties people, process, documents, events and evidence together, so a business has one consistent understanding of how it actually operates -- something ERP alone (which manages transactions) and generic AI alone (which lacks that context) can't provide on their own.</p>
+
+      <p>OKELAS can include a Core knowledge layer, a Copilot/Agent layer that works inside real workflows rather than as a standalone chatbot, and -- for businesses ready for it -- ERPNext with an ERP Knowledge Graph and sandbox environment. Not every company needs every layer on day one. The starting point is always the same: understand how the business actually runs before adding more software on top of it.</p>
+    `}
+  />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'See Our Approach',
+        href: '/about/approach',
+        icon: 'tabler:arrow-right',
+      },
+    ]}
+  >
+    <Fragment slot="title">Next step</Fragment>
+    <Fragment slot="subtitle">
+      Learn how OKELAS engagements typically start -- and why they begin with a diagnostic, not a proposal.
+    </Fragment>
+  </CallToAction>
+</Layout>

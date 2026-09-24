@@ -1,0 +1,51 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Content from '~/components/widgets/Content.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Our Approach -- OKELAS',
+  description:
+    'We don\'t start with software. We start with how a business actually operates -- and why ERP and AI create real value only once the process and knowledge underneath them are ready.',
+};
+---
+
+<Layout metadata={metadata}>
+  <HeroText
+    tagline="Company"
+    title="Our Approach"
+    subtitle="We don't start with software. We start with how a business actually operates."
+  />
+
+  <Content
+    classes={{ container: 'max-w-3xl' }}
+    content={`
+      <p>Which is usually messier, more improvised, and more dependent on a handful of people than an org chart suggests.</p>
+
+      <p><strong>Solve the operational problem with the smallest sufficient system.</strong> We don't assume a manufacturing SME needs an enterprise-scale platform to get value. Many of the highest-impact fixes are small: a workflow that's documented instead of assumed, a checkpoint that catches an error before it reaches a customer, a record that exists so an audit doesn't require reconstructing memory.</p>
+
+      <p>That's also why we don't treat ERP or AI as the finish line. ERP manages transactions; it doesn't automatically create organizational understanding. AI can generate answers quickly; it doesn't automatically understand your business. Both create real value -- but only once the process and knowledge underneath them are ready to support it.</p>
+
+      <p>Our engagements typically start with a readiness assessment, not a sales pitch, because the honest answer to "should we do this now" is sometimes "not yet, and here's what to fix first."</p>
+
+      <p>We work on-premise or in the cloud depending on what a business's compliance and cost requirements call for -- we don't default to assuming every company should run AI on a public cloud or carry a stack of SaaS subscriptions it doesn't need.</p>
+    `}
+  />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Assess Your Readiness',
+        href: '/readiness',
+        icon: 'tabler:clipboard-check',
+      },
+    ]}
+  >
+    <Fragment slot="title">Next step</Fragment>
+    <Fragment slot="subtitle">
+      The fastest way to start is a readiness assessment -- three minutes, actionable output either way.
+    </Fragment>
+  </CallToAction>
+</Layout>

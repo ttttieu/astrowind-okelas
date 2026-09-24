@@ -1,0 +1,72 @@
+---
+// NOTE (internal): This page and the "AI Readiness" entry under the Readiness menu
+// intentionally point to the same assessment (/readiness/ai). One is the service/approach
+// framing for Solutions visitors; the other is the direct diagnostic entry point.
+// This overlap is by design -- do not merge or redirect.
+
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'AI Readiness -- OKELAS',
+  description:
+    'Many businesses have access to AI tools. Far fewer can say their organization is actually ready for AI to be useful in daily operations. OKELAS builds the knowledge foundation an AI Copilot needs before deployment.',
+};
+---
+
+<Layout metadata={metadata}>
+  <HeroText
+    tagline="Solutions"
+    title="AI Readiness"
+    subtitle="Having access to AI tools is not the same as being ready for AI to be useful in daily operations."
+  />
+
+  <Features3
+    columns={1}
+    classes={{ container: 'max-w-3xl' }}
+    items={[
+      {
+        title: 'The problem',
+        description:
+          'Many businesses already have access to AI tools. Far fewer can say their organization is actually ready for AI to be useful in daily operations -- the tools exist, but the answers they give aren\'t grounded in how the business actually works.',
+        icon: 'tabler:alert-circle',
+      },
+      {
+        title: 'Why it happens',
+        description:
+          'AI readiness gets mistaken for data readiness alone. But an AI system also needs organizational context -- process clarity, structured knowledge, and governance -- to move from generating plausible text to producing something an operations team can actually act on and trust.',
+        icon: 'tabler:zoom-question',
+      },
+      {
+        title: 'How OKELAS approaches it',
+        description:
+          'OKELAS assesses and builds the knowledge foundation and governance an AI Copilot needs before deployment -- so answers come with context and evidence, not just fluent language. This groundwork also determines whether an AI initiative should start now or after specific gaps are closed.',
+        icon: 'tabler:bulb',
+      },
+      {
+        title: 'Quick self-check',
+        description:
+          'If your AI assistant gave a confidently wrong answer about your own operations tomorrow, would anyone catch it before a decision was made on it?',
+        icon: 'tabler:checkbox',
+      },
+    ]}
+  />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Take the AI Readiness Assessment',
+        href: '/readiness/ai',
+        icon: 'tabler:clipboard-check',
+      },
+    ]}
+  >
+    <Fragment slot="title">Next step</Fragment>
+    <Fragment slot="subtitle">
+      Find out whether your organization is ready for AI -- and what to build first if not.
+    </Fragment>
+  </CallToAction>
+</Layout>
