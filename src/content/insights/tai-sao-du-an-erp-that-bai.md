@@ -27,38 +27,7 @@ assessmentHref: /readiness/erp
 draft: false
 ---
 
-### Thông tin chung
-
-| Trường | Nội dung |
-|---|---|
-| Content type | Pillar |
-| Funnel stage | Awareness → Understanding → Consideration |
-| Audience | CEO, General Director, COO, CFO của manufacturing SME |
-| Business painpoint | ERP đã triển khai nhưng không tạo ra kết quả như kỳ vọng; hoặc đang cân nhắc ERP và lo ngại rủi ro |
-| Target length | 3.000–4.000 từ |
-| Evidence required | Có — nghiên cứu về ERP failure, báo cáo ngành |
-| Assessment link | ERP Readiness Assessment |
-| CTA | ERP Readiness Assessment |
-| LinkedIn | Có |
-| Fanpage | Có |
-
 ---
-
-### SEO — Tiếng Việt
-
-| Trường | Nội dung |
-|---|---|
-| Primary keyword | tại sao dự án ERP thất bại |
-| Secondary keywords | ERP thất bại nguyên nhân, triển khai ERP không thành công, rủi ro ERP, ERP implementation Việt Nam, doanh nghiệp sản xuất ERP, ERP readiness |
-| Search intent | Informational — CEO/COO đang nghiên cứu rủi ro trước khi quyết định hoặc sau khi ERP không đạt kỳ vọng |
-| URL slug | `/tai-sao-du-an-erp-that-bai` |
-| SEO title | Tại sao dự án ERP thất bại — và vấn đề không nằm ở phần mềm |
-| Meta description | Nhiều doanh nghiệp sản xuất đầu tư ERP nhưng không đạt mục tiêu. Bài viết phân tích các nguyên nhân thực sự — và cách tự đánh giá trước khi bắt đầu. |
-| H1 | Tại sao dự án ERP không đạt mục tiêu |
-
----
-
-# Tại sao dự án ERP không đạt mục tiêu
 
 > **Tóm tắt cho CEO / BOD**
 >

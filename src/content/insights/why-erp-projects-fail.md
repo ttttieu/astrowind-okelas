@@ -25,38 +25,8 @@ secondaryKeywords:
 assessmentHref: /readiness/erp
 draft: false
 ---
-## PILLAR-1 (EN) | Why ERP Projects Fail — and Why the Software Is Rarely the Real Problem
-
-### General Information
-
-| Field | Content |
-|---|---|
-| Content type | Pillar |
-| Funnel stage | Awareness → Understanding → Consideration |
-| Audience | CEO, General Director, COO, CFO of manufacturing SMEs |
-| Business painpoint | ERP implemented but not delivering expected results; or evaluating ERP and concerned about risks |
-| Target length | 2,500–3,500 words |
-| Evidence required | Yes — ERP failure research, industry reports |
-| Assessment link | ERP Readiness Assessment |
-| CTA | ERP Readiness Assessment |
 
 ---
-
-### SEO — English
-
-| Field | Content |
-|---|---|
-| Primary keyword | why ERP projects fail |
-| Secondary keywords | ERP implementation failure reasons, ERP project risks, ERP failure manufacturing, ERP readiness assessment, ERP implementation challenges SME |
-| Search intent | Informational — business owners and operations leaders researching ERP risks before starting or after an underperforming implementation |
-| URL slug | `/why-erp-projects-fail` |
-| SEO title | Why ERP Projects Fail — and Why the Software Is Rarely the Real Problem |
-| Meta description | Most ERP projects underperform not because of the software, but because of deeper organizational readiness gaps. Here is what to look for — and how to assess where your business actually stands. |
-| H1 | Why ERP Projects Fail — and What the Software Cannot Fix |
-
----
-
-# Why ERP Projects Fail — and What the Software Cannot Fix
 
 > **Executive Summary**
 >
