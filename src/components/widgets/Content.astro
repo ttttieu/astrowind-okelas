@@ -62,8 +62,8 @@ const aspectSize = {
     }}
   />
   <div class="mx-auto max-w-7xl px-0 py-4 md:px-2">
-    <div class={`md:flex ${isReversed ? 'md:flex-row-reverse' : ''} md:gap-16`}>
-      <div class:list={[image ? 'md:basis-1/2' : 'w-full', 'self-center']}>
+    <div class:list={image ? [`md:flex md:gap-16`, isReversed ? 'md:flex-row-reverse' : ''] : []}>
+      <div class:list={[image ? 'md:basis-1/2' : '', 'self-center']}>
         {content && <div class="mb-12 text-lg dark:text-slate-400" set:html={content} />}
 
         {
@@ -116,28 +116,26 @@ const aspectSize = {
           )
         }
       </div>
-      <div class="mt-10 md:mt-0 md:basis-1/2">
-        {
-          image && (
-            <div class="relative m-auto max-w-4xl">
-              {typeof image === 'string' ? (
-                <Fragment set:html={image} />
-              ) : (
-                <Image
-                  class:list={['mx-auto w-full rounded-lg bg-gray-500 shadow-lg', aspectClass]}
-                  width={aspectSize.width}
-                  height={aspectSize.height}
-                  widths={[400, 640, 960]}
-                  sizes="(max-width: 767px) 100vw, 640px"
-                  layout="constrained"
-                  format="webp"
-                  {...imageProps}
-                />
-              )}
-            </div>
-          )
-        }
-      </div>
+      {image && (
+        <div class="mt-10 md:mt-0 md:basis-1/2">
+          <div class="relative m-auto max-w-4xl">
+            {typeof image === 'string' ? (
+              <Fragment set:html={image} />
+            ) : (
+              <Image
+                class:list={['mx-auto w-full rounded-lg bg-gray-500 shadow-lg', aspectClass]}
+                width={aspectSize.width}
+                height={aspectSize.height}
+                widths={[400, 640, 960]}
+                sizes="(max-width: 767px) 100vw, 640px"
+                layout="constrained"
+                format="webp"
+                {...imageProps}
+              />
+            )}
+          </div>
+        </div>
+      )}
     </div>
   </div>
 </WidgetWrapper>
