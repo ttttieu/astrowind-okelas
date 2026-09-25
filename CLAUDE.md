@@ -166,6 +166,49 @@ draft: false
   - Vietnamese: `/insights/{category}/{slug}`
   - English: `/en/insights/{category}/{slug}`
 
+### Link Policy for English Articles
+
+**CRITICAL RULE:** All internal links in English-language article content MUST include `/en` prefix.
+
+#### Apply to:
+- **Markdown body content** — links in article text
+- **Frontmatter fields** — `assessmentHref`, CTA links, cluster links
+- **Page content components** — links in Content widgets, CallToAction blocks, self-assessment blocks
+
+#### Examples of correct link format:
+
+**❌ Incorrect (missing /en):**
+```markdown
+[Assessment](/readiness/erp)
+[Solution](/solutions/erp-readiness)
+[Why article](/why/why-before-erp)
+```
+
+**✅ Correct (with /en):**
+```markdown
+[Assessment](/en/readiness/erp)
+[Solution](/en/solutions/erp-readiness)  
+[Why article](/en/why/why-before-erp)
+```
+
+#### Frontmatter examples:
+```yaml
+---
+lang: en
+assessmentHref: /en/readiness/erp  # ← Always include /en
+---
+```
+
+#### Why this rule exists:
+- Layout components automatically add `/en` prefix to dynamically-generated links (menu, footer, CTA buttons)
+- Article content links are rendered as-is from markdown/frontmatter — no automatic transformation
+- Without `/en` prefix in article links, users are redirected from English (`/en/insights/...`) to Vietnamese (`/insights/...`)
+- This breaks language consistency and user experience
+
+#### When to break this rule:
+- **Never.** Article links must ALWAYS have `/en` prefix for English content
+- If linking to external sites or root paths that are language-agnostic, use full URLs instead
+
 ### Verification Checklist
 When implementing language-aware features:
 - [ ] Logo link tested on both `/` and `/en` versions
@@ -175,6 +218,9 @@ When implementing language-aware features:
 - [ ] Clicking menu items from `/en` stays in `/en` prefix
 - [ ] Language switcher updates after page navigation
 - [ ] New English pages exist at `/en/{section}/` if creating English-only sections
+- [ ] **All links in English article content have `/en` prefix** (markdown body, frontmatter, CTA links)
+- [ ] For English-language `.md` files: verify `lang: en` and all internal links use `/en/*` format
+- [ ] Test article page on `/en/insights/{category}/{slug}` — verify all links maintain `/en` context
 - [ ] Build completes without errors: `npm run build`
 
 ## 8. Safety & Verification Workflow
