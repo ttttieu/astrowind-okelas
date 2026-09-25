@@ -155,6 +155,84 @@
         "category": "erp",
         "url": "/en/insights/erp/erp-user-adoption"
       }
+    },
+    {
+      "translationId": "accounting-readiness-erp",
+      "vi": {
+        "slug": "ke-toan-san-sang-erp",
+        "category": "erp",
+        "url": "/insights/erp/ke-toan-san-sang-erp"
+      },
+      "en": {
+        "slug": "accounting-readiness-erp",
+        "category": "erp",
+        "url": "/en/insights/erp/accounting-readiness-erp"
+      }
+    },
+    {
+      "translationId": "erp-manufacturing-readiness",
+      "vi": {
+        "slug": "erp-cho-doanh-nghiep-san-xuat",
+        "category": "erp",
+        "url": "/insights/erp/erp-cho-doanh-nghiep-san-xuat"
+      },
+      "en": {
+        "slug": "erp-for-manufacturing-companies",
+        "category": "erp",
+        "url": "/en/insights/erp/erp-for-manufacturing-companies"
+      }
+    },
+    {
+      "translationId": "erp-excel-parallel-systems",
+      "vi": {
+        "slug": "co-erp-van-dung-excel",
+        "category": "erp",
+        "url": "/insights/erp/co-erp-van-dung-excel"
+      },
+      "en": {
+        "slug": "erp-still-using-excel",
+        "category": "erp",
+        "url": "/en/insights/erp/erp-still-using-excel"
+      }
+    },
+    {
+      "translationId": "erp-governance-ownership",
+      "vi": {
+        "slug": "quan-tri-erp-governance",
+        "category": "erp",
+        "url": "/insights/erp/quan-tri-erp-governance"
+      },
+      "en": {
+        "slug": "erp-governance",
+        "category": "erp",
+        "url": "/en/insights/erp/erp-governance"
+      }
+    },
+    {
+      "translationId": "erp-implementation-vs-adoption-gap",
+      "vi": {
+        "slug": "khoang-cach-trien-khai-va-ap-dung-erp",
+        "category": "erp",
+        "url": "/insights/erp/khoang-cach-trien-khai-va-ap-dung-erp"
+      },
+      "en": {
+        "slug": "erp-implementation-vs-adoption",
+        "category": "erp",
+        "url": "/en/insights/erp/erp-implementation-vs-adoption"
+      }
+    },
+    {
+      "translationId": "erp-data-utilization-reporting",
+      "vi": {
+        "slug": "khai-thac-du-lieu-erp",
+        "category": "erp",
+        "url": "/insights/erp/khai-thac-du-lieu-erp"
+      },
+      "en": {
+        "slug": "how-to-use-erp-data",
+        "category": "erp",
+        "url": "/en/insights/erp/how-to-use-erp-data"
+      }
     }
   ]
 }
