@@ -73,9 +73,10 @@ const typeBadgeClass: Record<string, string> = {
     `}
   />
 
-  <div class="relative not-prose">
-    <div class="mx-auto max-w-3xl px-4 md:px-6 py-8 md:py-12">
-      <h2 class="text-2xl font-bold mb-6 text-slate-900 dark:text-white">All ERP articles</h2>
+  <div class="relative not-prose scroll-mt-[72px]">
+    <div class="relative mx-auto max-w-7xl px-4 sm:px-6 py-8 md:py-12">
+      <div>
+        <h2 class="text-2xl font-bold mb-6 text-slate-900 dark:text-white">All ERP articles</h2>
       <ul class="space-y-4">
         {erpArticles.map((article) => (
           <li key={article.id} class="flex items-start gap-4 group">
@@ -106,6 +107,7 @@ const typeBadgeClass: Record<string, string> = {
           </li>
         ))}
       </ul>
+      </div>
     </div>
   </div>
 
