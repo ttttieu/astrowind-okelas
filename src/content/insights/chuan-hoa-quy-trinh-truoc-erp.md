@@ -1,6 +1,6 @@
 ---
 title: "Quy trình chưa chuẩn hóa — rủi ro lớn nhất trước khi triển khai ERP"
-description: "ERP không thể tự chuẩn hóa quy trình của doanh nghiệp. Bài viết phân tích tại sao process readiness là điều kiện tiên quyết — và cách đánh giá mức độ sẵn sàng."
+description: "ERP không thể tự chuẩn hóa quy trình của doanh nghiệp. Bài viết phân tích tại sao process readiness là điều kiện tiên quyết — và cách đánh giá mức độ sẵn sàng. |"
 publishDate: 2026-09-24T00:00:00Z
 translationId: process-standardization-erp
 lang: vi
@@ -12,16 +12,26 @@ audience:
   - CEO
   - COO
   - Operations Director
-primaryKeyword: "chuẩn hóa quy trình trước khi triển khai ERP"
+primaryKeyword: "chuẩn hóa quy trình trước khi triển khai ERP |"
 secondaryKeywords:
   - "quy trình doanh nghiệp sản xuất"
   - "process readiness ERP"
   - "tài liệu hóa quy trình"
-  - "SOP trước ERP"
+  - "SOP trước ERP |"
 draft: false
 ---
 
 ---
+
+## Giới thiệu
+
+→ **[Khám phá các giải pháp ERP Readiness](/solutions/erp-readiness)**
+
+*Để hiểu được tại sao quy trình chưa chuẩn hóa là rủi ro lớn nhất, hãy bắt đầu từ: [Doanh nghiệp bạn đã thực sự sẵn sàng triển khai ERP chưa?](/insights/erp/doanh-nghiep-san-sang-trien-khai-erp)*
+
+*Để khám phá chiều dữ liệu của sẵn sàng ERP, xem: [Data readiness trước ERP — tại sao dữ liệu "sạch" khó hơn bạn nghĩ](/insights/erp/data-readiness-trien-khai-erp)*
+
+*Để hiểu toàn bộ cảnh quan về lý do hầu hết các dự án ERP không đạt kỳ vọng, xem bài viết nền tảng: [Tại sao dự án ERP không đạt mục tiêu — và vấn đề thực sự không nằm ở phần mềm](/insights/erp/tai-sao-du-an-erp-that-bai)*
 
 > **Tóm tắt cho CEO / COO**
 >
@@ -135,7 +145,9 @@ Cụ thể hơn:
 
 ## Tự đánh giá: quy trình doanh nghiệp bạn đang ở đâu?
 
-Một bài kiểm tra nhanh: chọn một quy trình vận hành quan trọng trong phạm vi ERP bạn đang cân nhắc — ví dụ quy trình nhập kho, phê duyệt mua hàng, hoặc xử lý đơn hàng khách hàng.
+Một bài kiểm tra nhanh:
+
+Chọn một quy trình vận hành quan trọng trong phạm vi ERP bạn đang cân nhắc — ví dụ quy trình nhập kho, phê duyệt mua hàng, hoặc xử lý đơn hàng khách hàng.
 
 Sau đó tự hỏi:
 
@@ -148,13 +160,9 @@ Nếu nhiều câu trả lời là "không" hoặc "không chắc" — đó là 
 
 → *Xem thêm: [Tại sao SOP có nhưng không được thực thi — và cách thực sự thay đổi điều đó]*
 
-**Bước tiếp theo trong chuỗi: [Data readiness — tại sao dữ liệu "sạch" khó hơn doanh nghiệp nghĩ](/insights/erp/data-readiness-trien-khai-erp)**
+**Bước tiếp theo trong chuỗi: [Data readiness — tại sao dữ liệu "sạch" khó hơn doanh nghiệp nghĩ]**
 
-**→ [Khám phá các giải pháp ERP Readiness](/solutions/erp-readiness)**
-
-*Để hiểu được tại sao quy trình chưa chuẩn hóa là rủi ro lớn nhất, hãy bắt đầu từ: [Doanh nghiệp bạn đã thực sự sẵn sàng triển khai ERP chưa?](/insights/erp/doanh-nghiep-san-sang-trien-khai-erp)*
-
-*Để hiểu toàn bộ cảnh quan về lý do hầu hết các dự án ERP không đạt kỳ vọng, xem bài viết nền tảng: [Tại sao dự án ERP không đạt mục tiêu — và vấn đề thực sự không nằm ở phần mềm](/insights/erp/tai-sao-du-an-erp-that-bai)*
+**→ [Làm ERP Readiness Assessment để đánh giá đầy đủ hơn về process readiness và các chiều sẵn sàng khác]**
 
 ---
 
@@ -164,3 +172,4 @@ Nếu nhiều câu trả lời là "không" hoặc "không chắc" — đó là 
 - [Tại sao dự án ERP không đạt mục tiêu — pillar]
 - [Doanh nghiệp bạn đã thực sự sẵn sàng triển khai ERP chưa?]
 - [Data readiness: tại sao dữ liệu "sạch" khó hơn doanh nghiệp nghĩ]
+- [SOP có nhưng không được thực thi — tại sao?]

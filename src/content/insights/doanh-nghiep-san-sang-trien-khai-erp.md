@@ -1,6 +1,6 @@
 ---
 title: "Doanh nghiệp bạn đã thực sự sẵn sàng triển khai ERP chưa?"
-description: "Trước khi chọn phần mềm ERP, có 8 câu hỏi quan trọng hơn mà CEO cần tự trả lời. Bài viết giúp bạn tự đánh giá mức độ sẵn sàng."
+description: "Trước khi chọn phần mềm ERP, có 8 câu hỏi quan trọng hơn mà CEO cần tự trả lời. Bài viết giúp bạn tự đánh giá mức độ sẵn sàng. |"
 publishDate: 2026-09-24T00:00:00Z
 translationId: erp-opening-readiness-assessment
 lang: vi
@@ -12,27 +12,15 @@ audience:
   - CEO
   - COO
   - General Director
-primaryKeyword: "sẵn sàng triển khai ERP"
+primaryKeyword: "sẵn sàng triển khai ERP |"
 secondaryKeywords:
   - "chuẩn bị triển khai ERP"
   - "ERP readiness"
   - "doanh nghiệp có nên dùng ERP"
-  - "điều kiện triển khai ERP"
+  - "điều kiện triển khai ERP |"
 assessmentHref: /readiness/erp
 draft: false
 ---
-
----
-
-> **Tóm tắt cho CEO**
->
-> - Nhiều CEO bắt đầu với câu hỏi "nên chọn phần mềm nào?" — nhưng câu hỏi quan trọng hơn là doanh nghiệp đã sẵn sàng để ERP tạo ra giá trị chưa.
-> - Thành công của ERP phụ thuộc vào bốn điều kiện: quy trình rõ ràng, dữ liệu sạch, nhân viên sẵn sàng thay đổi, và quản trị tốt. Khi thiếu những điều kiện này, ERP chỉ khuếch đại những hỗn loạn hiện tại.
-> - Sử dụng 8 câu hỏi để tự đánh giá mức độ sẵn sàng — trước khi chọn phần mềm.
-
----
-
-## ERP không phải bước đầu tiên
 
 Nhiều CEO bắt đầu hành trình ERP bằng câu hỏi: *"Nên chọn phần mềm nào?"*
 
@@ -41,6 +29,10 @@ Nhiều CEO bắt đầu hành trình ERP bằng câu hỏi: *"Nên chọn phầ
 Câu hỏi cần trả lời trước — và thường bị bỏ qua — là: **doanh nghiệp đã thực sự sẵn sàng để ERP tạo ra giá trị chưa?**
 
 Không phải sẵn sàng về ngân sách. Không phải sẵn sàng về ý chí. Mà sẵn sàng về tổ chức — quy trình, dữ liệu, con người và quản trị.
+
+---
+
+## ERP không phải bước đầu tiên
 
 ERP là một hệ thống vận hành dựa trên quy trình. Nó ghi nhận giao dịch, kết nối dữ liệu giữa các bộ phận và tạo ra báo cáo — nhưng chỉ khi doanh nghiệp đã có quy trình đủ rõ để cấu hình vào hệ thống, dữ liệu đủ sạch để tin cậy, và con người sẵn sàng thay đổi cách làm việc.
 
@@ -102,14 +94,12 @@ Những bước chuẩn bị phổ biến nhất:
 - Chỉ định người chịu trách nhiệm nội bộ cho dự án và cho hệ thống sau go-live.
 - Có kế hoạch communication rõ ràng với nhân viên trước khi bắt đầu.
 
+→ *Xem thêm: [Quy trình chưa chuẩn hóa — rủi ro lớn nhất trước khi triển khai ERP]*
+
 ---
 
 Nếu bạn muốn đánh giá đầy đủ hơn — bao gồm cả chiều dữ liệu, quản trị, kế toán và đặc thù sản xuất — bộ câu hỏi dưới đây sẽ giúp bạn có bức tranh cụ thể hơn về mức độ sẵn sàng của doanh nghiệp.
 
-→ **[Làm ERP Readiness Assessment](/readiness/erp)**
+**→ [Làm ERP Readiness Assessment]**
 
-→ **[Khám phá các giải pháp ERP Readiness](/solutions/erp-readiness)**
-
-*Và nếu bạn muốn hiểu sâu hơn tại sao phần lớn ERP không đạt kỳ vọng và vấn đề thực sự nằm ở đâu, xem: [Tại sao dự án ERP không đạt mục tiêu — và vấn đề thực sự không nằm ở phần mềm](/insights/erp/tai-sao-du-an-erp-that-bai)*
-
-*Để hiểu rõ hơn về quy trình chuẩn hóa và vai trò của nó trong sẵn sàng ERP, xem: [Quy trình chưa chuẩn hóa — rủi ro lớn nhất trước khi triển khai ERP](/insights/erp/chuan-hoa-quy-trinh-truoc-erp)*
+*Và nếu bạn muốn hiểu sâu hơn tại sao phần lớn ERP không đạt kỳ vọng và vấn đề thực sự nằm ở đâu: [Tại sao dự án ERP không đạt mục tiêu — và vấn đề thực sự không nằm ở phần mềm]*

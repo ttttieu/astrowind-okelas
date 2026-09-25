@@ -1,6 +1,6 @@
 ---
-title: "ERP User Adoption: Why People — Not Software — Determine ERP Success"
-description: "Most ERP failures come down to people, not technology. Learn why employees resist ERP systems and what change management approaches actually work in manufacturing environments."
+title: "ERP User Adoption: The Human Factor That Determines Whether ERP Succeeds"
+description: "Most ERP failures come down to people, not technology. Learn why employees resist ERP systems and what change management approaches actually work in manufacturing environments. |"
 publishDate: 2026-09-24T00:00:00Z
 translationId: erp-user-adoption
 lang: en
@@ -12,15 +12,13 @@ audience:
   - COO
   - HR Director
   - Operations Manager
-primaryKeyword: "ERP user adoption"
+primaryKeyword: "ERP user adoption |"
 secondaryKeywords:
   - "ERP change management"
   - "why employees resist ERP"
   - "ERP training strategy"
-  - "ERP adoption challenges"
+  - "ERP adoption challenges |"
 draft: false
----
-
 ---
 
 > **Executive Summary**
@@ -90,6 +88,26 @@ All three patterns have the same consequence: ERP does not reflect operational r
 
 ---
 
+## Common ERP Training Mistakes
+
+Training is typically treated as the solution to user adoption problems. But most training as actually implemented does not address the real problem.
+
+**Training happens too late.** Many projects train end users immediately before go-live — one or two weeks before the system officially launches. At that point, deadline pressure is high, there is insufficient time for practice, and users have no opportunity for follow-up after training ends.
+
+The result: users go live with low confidence and no clear path for support when they encounter problems.
+
+**Training is delivered as a software demonstration.** The implementation partner shows how the system works in a demo environment. Users watch and nod. But watching a process being performed in a demo environment is entirely different from performing it yourself in a real work context.
+
+People do not learn by watching. They learn by doing, making mistakes, and receiving correction.
+
+**Training is disconnected from actual work.** Users are taught how to create a Purchase Order in the demo system, but are not guided through the organization's specific process — who needs to approve it, when it needs to be created, what documentation needs to be attached.
+
+The result is users who understand the software technically but do not know how to use it in the context of their actual job.
+
+**No support after training ends.** Even with good training, users will encounter situations not covered in training once they begin using the real system. Without a clear support channel — who to ask, how to reach them, what response time to expect — users resolve problems on their own, which usually means avoiding the system.
+
+---
+
 ## Change Management Is Not Software Training
 
 This is the most important distinction that most ERP projects fail to make.
@@ -123,9 +141,15 @@ Elements of change management that actually work:
 - Is leadership committed to using ERP as a decision-making tool after go-live — not just treating it as an IT system?
 - Is there a clear support channel for users who encounter problems after go-live?
 
-→ **[Explore ERP Readiness Solutions](/en/solutions/erp-readiness)**
+→ *Related: [When a Key Employee Leaves, What Do They Take With Them? — on knowledge retention]*
 
-*For customization impacts on user adoption, see: [ERP Customization: When Flexibility Becomes Long-Term Risk](/en/insights/erp/erp-customization-risks)*
+**→ [Complete the ERP Readiness Assessment to evaluate your organization's change management preparation]**
+
+→ **[Explore ERP Readiness Solutions](/solutions/erp-readiness)**
+
+*For customization impacts on user adoption, see: [ERP Customization Risks](/en/insights/erp/erp-customization-risks)*
+
+*To understand accounting readiness after adoption challenges, see: [Accounting Readiness for ERP — A CFO's Preparation Checklist](/en/insights/erp/accounting-readiness-erp)*
 
 *For the foundational perspective, see: [Why ERP Projects Fail](/en/insights/erp/why-erp-projects-fail)*
 
@@ -136,4 +160,4 @@ Elements of change management that actually work:
 **Related articles:**
 - [Why ERP Projects Fail — and What the Software Cannot Fix]
 - [Process Standardization Before ERP: The Step Most Companies Skip]
-- [ERP Governance: Who Is Responsible When Your ERP Stops Working Properly?]
+- [When a Key Employee Leaves, What Do They Take With Them?]

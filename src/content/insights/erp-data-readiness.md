@@ -1,6 +1,6 @@
 ---
-title: "ERP Data Readiness: Why 'Clean Data' Is Harder Than You Think"
-description: "Data migration is one of the most expensive and underestimated risks in ERP projects. Here's why your current data is probably not ready — and what to do about it."
+title: "ERP Data Readiness: The Hidden Complexity of \"Clean Data\""
+description: "Data migration is one of the most expensive and underestimated risks in ERP projects. Here's why your current data is probably not ready — and what to do about it. |"
 publishDate: 2026-09-24T00:00:00Z
 translationId: erp-data-readiness
 lang: en
@@ -12,15 +12,13 @@ audience:
   - COO
   - CFO
   - Operations Director
-primaryKeyword: "ERP data readiness"
+primaryKeyword: "ERP data readiness |"
 secondaryKeywords:
   - "ERP data migration challenges"
   - "clean data for ERP"
   - "ERP data preparation"
-  - "data quality ERP implementation"
+  - "data quality ERP implementation |"
 draft: false
----
-
 ---
 
 > **Executive Summary**
@@ -149,15 +147,17 @@ Questions to assess your current data readiness:
 
 If several of these answers are "no" or "uncertain," that is a signal to allocate significantly more time and resources to the data preparation phase — before the ERP project formally begins.
 
-→ *Related: [Why Data Governance Is Cheaper Than Data Cleanup — and Why Most Organizations Don't See It Until go-live]*
+**Next in the series: [Scope Creep in ERP — When the Project Keeps Growing Beyond the Plan]**
 
-**Next in the series: [ERP Scope Creep — How Extra Requirements Destroy Timeline and Budget](/en/insights/erp/erp-scope-creep)**
+**→ [Complete the ERP Readiness Assessment for a structured evaluation of data readiness alongside other implementation dimensions]**
 
-**→ [Explore ERP Readiness Solutions](/en/solutions/erp-readiness)**
+→ **[Explore ERP Readiness Solutions](/solutions/erp-readiness)**
 
-*For context on why data readiness is a prerequisite, see: [Is Your Business Actually Ready for ERP?](/en/insights/erp/is-your-business-ready-for-erp)*
+*For context on process standardization as a prerequisite for data readiness, see: [Process Standardization Before ERP](/en/insights/erp/process-standardization-before-erp)*
 
-*For the foundational perspective, see: [Why ERP Projects Fail](/en/insights/erp/why-erp-projects-fail)*
+*To understand scope management in ERP projects, see: [ERP Scope Creep — When the Project Keeps Growing Beyond the Plan](/en/insights/erp/erp-scope-creep)*
+
+*For the foundational perspective on why ERP projects fail, see: [Why ERP Projects Fail](/en/insights/erp/why-erp-projects-fail)*
 
 ---
 
@@ -166,4 +166,4 @@ If several of these answers are "no" or "uncertain," that is a signal to allocat
 **Related articles:**
 - [Why ERP Projects Fail — and What the Software Cannot Fix]
 - [Process Standardization Before ERP: The Step Most Companies Skip]
-- [ERP Scope Creep: How Extra Requirements Destroy Timeline and Budget]
+- [Scope Creep in ERP: When the Project Keeps Growing]

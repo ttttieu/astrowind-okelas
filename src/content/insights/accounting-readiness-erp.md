@@ -1,6 +1,6 @@
 ---
-title: "Accounting Readiness for ERP: What CFOs Need to Prepare Before Go-Live"
-description: "Financial data quality is one of the most overlooked ERP risks. This guide covers what CFOs need to audit and fix before any ERP implementation begins."
+title: "Accounting Readiness for ERP: A CFO's Preparation Checklist"
+description: "Financial data quality is one of the most overlooked ERP risks. This guide covers what CFOs need to audit and fix before any ERP implementation begins. |"
 publishDate: 2026-09-24T00:00:00Z
 translationId: accounting-readiness-erp
 lang: en
@@ -12,15 +12,13 @@ audience:
   - CFO
   - Accounting Manager
   - Finance Director
-primaryKeyword: "accounting readiness ERP"
+primaryKeyword: "accounting readiness ERP |"
 secondaryKeywords:
   - "ERP financial data preparation"
   - "chart of accounts ERP"
   - "CFO ERP implementation"
-  - "finance ERP readiness"
+  - "finance ERP readiness |"
 draft: false
----
-
 ---
 
 > **Executive Summary**
@@ -62,41 +60,91 @@ Understanding why accounting readiness matters starts with knowing what ERP requ
 
 The Chart of Accounts is one of the most consequential long-term decisions in ERP financial configuration. A well-designed CoA from the start makes reporting, cost analysis, and audit compliance straightforward for years. A poorly designed one creates persistent problems.
 
-In many organizations, the current Chart of Accounts has evolved organically over decades — accounts have been added when new transactions arose, but few have been removed. The result is a bloated CoA with hundreds of accounts, many of which are rarely used or inconsistently applied.
+**The most common problems with existing CoAs:**
 
-When moving to ERP, this is the moment to audit and clean up the CoA. Which accounts are actually used? Which ones could be consolidated? Which accounts lack clear ownership or definition? This cleanup work takes time — but it is far better to do it before ERP goes live than to burden the new system with the mistakes and inconsistencies of the old one.
+*Too few accounts, insufficient detail.* Many SMEs operate with a minimal CoA — sufficient for tax compliance but not detailed enough to analyze costs by product, department, or distribution channel. When this CoA is carried into ERP, the system may run technically, but management reporting lacks the granularity to be genuinely useful.
+
+*Too many accounts, no structure.* At the opposite extreme, some organizations have accumulated a large number of accounts over many years — adding new accounts for each new requirement, never retiring old ones. The CoA becomes a long, unstructured list that is difficult to maintain and difficult to explain.
+
+*Inconsistent application.* The same type of transaction — for example, inbound freight costs — is recorded in different accounts depending on who is doing the entry or when it occurs. When this inconsistency is migrated into ERP, it is amplified, and cost reporting becomes unreliable.
+
+*CoA not aligned with required reporting dimensions.* The business wants ERP to enable cost analysis by product line, by distribution channel, by production facility — but the existing CoA has no structure to support those dimensions. Changing the CoA after data has been loaded is substantially more complex than designing it correctly at the start.
+
+**Practical guidance:** Before the ERP project begins, the CFO should convene a session with the CEO and department heads to answer: *What business questions do we need financial reporting to answer?* The answer to that question should drive the required CoA structure.
 
 ---
 
-## Self-Assessment: Accounting Readiness
+## Which Accounting Records Need Preparation Before Migration?
 
-Before starting an ERP implementation, finance should audit:
+Beyond the CoA, specific categories of accounting data need to be reviewed and prepared before migration:
+
+**Opening balances.** These are the starting point for the entire accounting system in ERP. All accounts — cash, accounts receivable, accounts payable, inventory, fixed assets, equity — need accurate balances at the cutover date. Errors here will persist throughout the system's operational life.
+
+*Key question:* Are the balances at the planned cutover date prepared and fully reconciled? Who is accountable for confirming their accuracy?
+
+**Accounts Receivable.** The list of outstanding customer balances — customer name, invoice number, amount, due date. Common problems include: duplicate customer records, invoices partially paid but not correctly recorded, and old uncollectible balances that remain on the books.
+
+**Accounts Payable.** Outstanding balances owed to vendors. Common problems include: invoices not reconciled against goods receipts, payment terms not correctly recorded, and vendors with negative balances due to historical data entry errors.
+
+**Fixed Assets.** The register of capital assets with original cost, accumulated depreciation, and net book value. Many organizations have asset registers that have not been updated in years — assets that have been disposed of but remain on the books, or assets in use that have never been properly recorded.
+
+**Inventory — accounting records reconciled to physical counts.** Inventory values in the accounting system must match the physical count after stocktaking. Any discrepancies need to be adjusted and recorded before the cutover date — not left for ERP to absorb.
+
+---
+
+## Cost Allocation in Manufacturing — A Specific Complexity
+
+This is particularly important for manufacturing businesses — and typically the most complex accounting preparation challenge.
+
+Manufacturing ERP calculates product cost from three components: direct material cost, direct labor cost, and manufacturing overhead. How overhead is allocated to individual products or production batches depends on the cost accounting method the business chooses.
+
+Questions that many manufacturing SME CFOs do not have clear answers to:
+
+- Which costing method does the business use — Standard Costing, Actual Costing, or another approach?
+- On what basis is overhead allocated — machine hours, labor hours, a fixed percentage, or another driver?
+- Is this allocation rate calculated and updated on a regular basis?
+
+If these questions do not have clear, documented answers — or if different people in the organization give different answers — this needs to be resolved before configuring the manufacturing and accounting modules in ERP.
+
+---
+
+## Pre-ERP Accounting Readiness Checklist
+
+Use this checklist to self-assess before beginning an ERP project:
 
 **Chart of Accounts:**
-- Is the current CoA documented and clearly defined?
-- How many accounts exist, and how many are actively used?
-- Are there inconsistencies in how the same type of transaction is recorded across the business?
-- Is there an owner/custodian for CoA changes?
-
-**Cost Allocation:**
-- How are production costs currently allocated to products or cost centers?
-- Is the methodology documented?
-- Is it applied consistently, or do different business units use different approaches?
+☐ Is the current CoA sufficiently detailed to analyze costs across the dimensions the business needs (product, department, channel)?
+☐ Are there duplicate accounts or inactive accounts that need to be removed?
+☐ Is the same type of transaction consistently recorded in the same account?
+☐ Has the CoA been designed to support the management reporting requirements the business expects from ERP?
 
 **Opening Balances:**
-- Are current GL balances reconciled to bank statements, subledgers, and internal records?
-- When is the cutover date likely to be, and will GL be fully closed and reconciled by that date?
-- Who has authority to approve opening balances for load into the new system?
+☐ Have account balances been prepared at the planned cutover date?
+☐ Have these balances been reconciled and confirmed by an authorized person?
+☐ Have accounts receivable and payable been reviewed to remove invalid or uncollectible items?
 
-**Accounting Processes:**
-- What accounting processes need to be in place before ERP can reliably generate financial data? (examples: month-end close procedures, reconciliation processes, intercompany eliminations)
-- Are these documented?
+**Inventory and Assets:**
+☐ Has accounting inventory been reconciled against a recent physical count?
+☐ Has the fixed asset register been reviewed and updated recently?
 
-If the answer to most of these questions is "unclear" or "not documented," accounting readiness work needs to begin now — not during ERP implementation.
+**Manufacturing Costing (if applicable):**
+☐ Has the costing methodology been defined and documented?
+☐ Are the overhead allocation basis and rate clearly established?
 
-→ **[Explore ERP Readiness Solutions](/en/solutions/erp-readiness)**
+**Accounting Periods:**
+☐ Has the fiscal year and period structure been defined and confirmed for ERP configuration?
 
-*For data quality preparation context, see: [ERP Data Readiness — Why "Clean Data" Is Harder Than You Think](/en/insights/erp/erp-data-readiness)*
+If several items are unchecked, that is a signal to allocate more time and resources to financial preparation — and for the CFO to engage in the ERP project earlier than is typical.
+
+→ *Related: [ERP Data Readiness: The Hidden Complexity of "Clean Data"]*
+
+**→ [Complete the ERP Readiness Assessment for a structured evaluation of accounting readiness alongside other implementation dimensions]**
+
+→ **[Explore ERP Readiness Solutions](/solutions/erp-readiness)**
+
+*For customization and user adoption related to accounting, see: [ERP User Adoption](/en/insights/erp/erp-user-adoption)*
+
+*To understand manufacturing-specific accounting requirements, see: [Manufacturing Readiness — How Is ERP for Production Different?](/en/insights/erp/erp-for-manufacturing-companies)*
 
 *For the foundational perspective, see: [Why ERP Projects Fail](/en/insights/erp/why-erp-projects-fail)*
 
@@ -106,5 +154,5 @@ If the answer to most of these questions is "unclear" or "not documented," accou
 
 **Related articles:**
 - [Why ERP Projects Fail — and What the Software Cannot Fix]
-- [ERP Data Readiness — Why "Clean Data" Is Harder Than You Think]
-- [ERP Governance: Who Is Responsible When Your ERP Stops Working Properly?]
+- [ERP Data Readiness: The Hidden Complexity of "Clean Data"]
+- [Manufacturing Readiness: How Is ERP for Production Different?]

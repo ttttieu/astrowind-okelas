@@ -1,6 +1,6 @@
 ---
-title: "ERP Governance: Who Is Responsible When Your ERP Stops Working Properly?"
-description: "After go-live, who owns ERP? Who decides whether to upgrade or maintain? Who balances business demands against system stability? Unclear ownership is why many ERPs deteriorate after implementation."
+title: "ERP Governance: Defining Responsibility After Go-Live"
+description: "ERP doesn't run itself. Many organizations go live without a clear governance structure — and that's why data quality and system performance deteriorate over time. |"
 publishDate: 2026-09-24T00:00:00Z
 translationId: erp-governance-ownership
 lang: en
@@ -12,96 +12,139 @@ audience:
   - CEO
   - CIO
   - COO
-primaryKeyword: "ERP governance ownership"
+primaryKeyword: "ERP governance |"
 secondaryKeywords:
-  - "ERP steering committee"
-  - "ERP system owner"
-  - "ERP decision authority"
-  - "post-implementation ERP management"
+  - "ERP ownership structure"
+  - "who owns ERP"
+  - "ERP system management"
+  - "ERP maintenance responsibility"
+  - "post-ERP governance |"
 draft: false
----
-
 ---
 
 > **Executive Summary**
 >
-> - Most organizations treat ERP implementation as a time-limited project and then abandon governance structures when it ends. This is when problems begin.
-> - After go-live, the system needs an owner — someone with authority and accountability for system performance, strategic decisions, and conflict resolution when business demands clash with system stability.
-> - Governance failures create typical post-ERP symptoms: conflicting priorities (IT wants stability; business wants features), perpetual customization debt, system neglect, and deteriorating data quality.
-> - Effective ERP governance requires clarity on: who makes trade-off decisions, how changes are prioritized, what constitutes acceptable risk, and what the system owner's actual authority is.
+> - ERP does not run itself after go-live — it requires defined roles, processes, and decision rights to maintain quality and value over time.
+> - Many organizations have detailed implementation plans but no governance plan for what comes after.
+> - The result: data quality deteriorates, problems go unresolved, and the system gradually becomes something no one wants to own.
+> - Governance does not need to be complex — but it does need to be explicit about roles, processes, and decisions.
 
 ---
 
-## Why Governance Matters After Go-Live
+## Introduction
 
-During implementation, governance is straightforward: the project manager owns success, the steering committee provides oversight, and goals are clear. When go-live approaches, everyone assumes the system will take care of itself. It doesn't.
+→ **[Explore ERP Readiness Solutions](/solutions/erp-readiness)**
 
-**ERP is not a product you buy and forget.** It is an operating system for your business. It degrades without active stewardship — customizations break during upgrades, data quality declines if not actively managed, users find workarounds, and the system gradually becomes less trustworthy.
+*For broader context on user adoption and its impact on governance, see: [ERP User Adoption — Why People Determine Whether ERP Succeeds](/en/insights/erp/erp-user-adoption)*
 
-Post-implementation governance determines whether the system continues to work *for* the business or becomes an obstacle the business works *around*.
+*For the post-go-live phase, see: [ERP Implementation vs. Adoption — Why Go-Live Is Just the Beginning](/en/insights/erp/erp-implementation-vs-adoption)*
 
----
-
-## The Governance Vacuum
-
-Many organizations experience the same pattern:
-
-**During implementation:** Governance is clear. The project has a sponsor, steering committee, project manager. Goals are explicit. Decisions flow through established channels.
-
-**After go-live:** Governance structures dissolve. The steering committee stops meeting. The project manager moves to the next project. The CFO and COO assume IT will maintain the system. IT assumes the business will behave as trained. The system owner — often a mid-level business analyst or IT manager — has responsibility but no authority.
-
-**Six months later:** Problems surface. A critical workflow is broken by a recent system update. A business unit has been using workarounds for months. Data integrity is degrading. The question "Who decides what to do about this?" produces confusion — the system owner can recommend; IT can implement; the business can tolerate or escalate.
-
-Without clear governance, the natural outcome is that *nobody* owns the system. It becomes a shared nuisance that everyone resents but nobody has authority to fix.
+*For the foundational perspective, see: [Why ERP Projects Fail](/en/insights/erp/why-erp-projects-fail)*
 
 ---
 
-## Dimensions of ERP Governance
+## ERP Does Not Run Itself
 
-**Strategic direction.** Does the organization have a multi-year plan for the system — upgrade schedule, cloud migration strategy, investment in new modules? Or is the system managed tactically, crisis to crisis?
+There is a common implicit assumption in many ERP projects: once the system has gone live and the implementation partner has left, ERP will sustain its own value.
 
-**Operational oversight.** Who monitors system health? Who investigates performance issues? Who ensures data quality audits are happening? Who owns the system changelog?
+That assumption is wrong.
 
-**Change authority.** When business stakeholders request customizations, enhancements, or configuration changes, who decides whether to approve them? By what criteria? Who enforces standards?
+ERP is a living system — it reflects the organization as it operates. When the organization changes — new products, modified processes, new staff, restructuring — the system needs to be updated accordingly. When data is not maintained correctly, data quality deteriorates over time. When problems arise and no one is accountable for resolving them, they accumulate.
 
-**Conflict resolution.** When IT needs system stability and the business wants rapid feature deployment, who decides the tradeoff? This needs to be clear in advance, not debated during a crisis.
+Nothing naturally prevents these things from happening — except governance.
 
-**Investment decisions.** Upgrades, new modules, cloud migration, staff training — who decides the ERP budget? How much is reserved for maintenance vs. new capabilities?
-
-**Risk ownership.** If a workaround is being used instead of the standard system process, who accepts the risk? Who documents it?
+Governance, in the ERP context, is the structure of roles, processes, and decision rights that keeps the system accurately reflecting operational reality after go-live.
 
 ---
 
-## Components of Effective Governance
+## Warning Signs of a Governance Gap
 
-**A system owner with real authority.** Not just a business analyst who coordinates. Someone with actual decision-making power, budget accountability, and access to executive leadership for escalation.
+These signals typically appear between six and eighteen months after go-live — once the energy of a new project has faded and no structure has replaced it.
 
-**A governance structure that persists.** A formal steering committee that meets regularly (quarterly minimum), includes business and IT leadership, and makes binding decisions about priorities and investments.
+**Master data quality deteriorates progressively.** New products are created outside standard naming conventions, duplicate vendor records accumulate, customer information goes stale. No one is assigned responsibility for maintaining master data quality — and there is no clear process for adding, modifying, or retiring records.
 
-**Clear criteria for decision-making.** How are change requests prioritized? What criteria determine whether something is worth customizing? What is the risk threshold for deferring upgrades?
+**Problems are reported but not resolved systematically.** A user encounters an error or an inefficiency, reports it to their manager, the manager escalates to IT, IT lacks the authority or knowledge to resolve it, the issue drifts. No ticket system, no SLA, no accountable final owner.
 
-**Documented accountability.** Who owns data quality? Who owns performance monitoring? Who owns the upgrade roadmap? These should be explicit roles with clear responsibilities.
+**Change requests are not managed.** When operations change and ERP configuration needs to be updated, it is unclear who decides, who implements, and who validates. Some changes are made directly without documentation — and no one knows what state the system is in relative to its original configuration.
 
-**Regular health reviews.** Quarterly or semi-annual assessments of system performance, data quality, user satisfaction, customization debt, and alignment with business strategy.
+**User access is not controlled.** New employees are granted permissions based on their manager's verbal request without a defined framework. Employees who leave do not have their accounts deactivated promptly. No one periodically reviews who has access to what in the system.
+
+**No one knows how well the system is actually working.** There is no regular reporting on data quality, system utilization, or outstanding issues. Leadership has no reliable way to assess whether ERP is serving the business effectively — unless something goes visibly wrong.
+
+---
+
+## Key Roles After Go-Live
+
+Governance does not mean creating a new department. In an SME, the roles below can typically be assigned to existing people — what matters is that they are explicitly defined, not assumed.
+
+### ERP System Owner
+
+The person with ultimate business-side responsibility for the ERP system. This does not need to be a technical role — in fact, the ideal System Owner is someone who understands the business deeply and has sufficient authority to make decisions about the system.
+
+Responsibilities:
+- Make decisions on significant configuration changes.
+- Approve requests for new features or customizations.
+- Accountable to leadership for system effectiveness.
+- Ensure governance processes are followed.
+
+### Master Data Manager
+
+The person responsible for the quality and consistency of foundational data in the system — product catalog, vendor list, customer records, chart of accounts.
+
+In a smaller organization, this role can be assigned to someone in IT or operations who has sufficient business knowledge. The important thing is that there is a specific named person — not "everyone is responsible," which in practice means no one is.
+
+### Key Users / Super Users
+
+Each major department should have at least one Key User — someone who understands the system more deeply than average, serves as the internal first point of contact when colleagues encounter problems, and channels user change requests up to the ERP System Owner.
+
+Key Users do not replace IT support, but they significantly reduce the burden on IT and accelerate resolution of everyday issues.
+
+### IT / System Administrator
+
+Responsible for the technical layer: infrastructure, backups, security, user account management, and implementing configuration changes approved by the System Owner. For cloud-hosted ERP, this role may be lighter — but there still needs to be a clearly designated person.
+
+---
+
+## A Lightweight Governance Model for SMEs
+
+Governance is not bureaucracy. For an SME, a practical governance structure can be built around five elements:
+
+**Change Management Process.** Any request to modify the system — new feature, configuration change, new report — goes through a defined path: who requests it, who assesses the impact, who approves it, who implements it, who validates the result. Not a complex process — but a consistent one. Not "whoever wants to make a change just does it."
+
+**Master Data Governance.** Clear rules for creating, modifying, and retiring master data records. Who can request a change, who approves, who executes. A periodic quality review — quarterly, for example — to clean up outdated or duplicate records before they accumulate.
+
+**User Access Management.** A defined process for granting access to new employees (based on role, not individual requests) and revoking access when employees leave. An annual review of who has what access in the system.
+
+**Periodic Health Check.** At minimum quarterly, the ERP System Owner reviews: is data being maintained correctly, what are the outstanding issues, at what level is the system actually being used, and are there operational changes that need to be reflected in ERP configuration?
+
+**Clear Escalation Path.** When a user encounters a problem, they know who to contact, through which channel, and what response time to expect. Not "ask your manager, who asks IT, who asks the implementation partner, who asks back for more information."
+
+---
+
+## Governance Starts Before Go-Live
+
+One of the most common mistakes: treating governance as something to establish after go-live.
+
+The reality: governance needs to be planned — and partially established — *before* go-live. At minimum, defining who will be the System Owner, who will be the Master Data Manager, and what the Change Request process will be.
+
+The reason: from the first weeks after go-live, decisions about the system will be made — with or without governance. Without governance, those decisions are made ad hoc, inconsistently, and usually without documentation. Undoing those decisions later is costly and disruptive.
 
 ---
 
 ## Self-Assessment
 
-- Does your organization have a named individual who owns ERP performance and has authority to make decisions about the system?
-- Is there a steering committee that meets regularly to review ERP performance and make strategic decisions? Does it include both business and IT leadership?
-- How are change requests prioritized? Is there a formal process or is every request negotiated separately?
-- What happens when IT recommends deferring an upgrade for stability and the business demands it proceeds? Who makes the call?
-- Do you have a post-implementation roadmap for the system — planned upgrades, planned investments, planned enhancements? Or is the system managed tactically?
-- How much technical debt (customizations, workarounds) exists in your ERP, and who owns the plan to address it?
+- Is there a clearly designated ERP System Owner — someone with decision-making authority over the system who is accountable to leadership?
+- Is there a specific named person responsible for master data quality?
+- When users encounter a problem with ERP, do they know who to contact and how?
+- Is there a defined process for handling configuration change requests?
+- When an employee leaves the organization, how and how quickly is their ERP access revoked?
+- When was the last time anyone reviewed the quality of data in the ERP system?
 
-→ **[Explore ERP Readiness Solutions](/en/solutions/erp-readiness)**
+If several answers are "unclear" or "we haven't established that" — those are governance gaps that need to be filled, regardless of how long ago go-live was.
 
-*To understand post-implementation adoption: [ERP User Adoption: Why People — Not Software — Determine ERP Success](/en/insights/erp/erp-user-adoption)*
+**Next in the series: [After ERP — How to Actually Use the Data You Now Have]**
 
-*To understand customization risks: [ERP Customization: When Flexibility Becomes Long-Term Risk](/en/insights/erp/erp-customization-risks)*
-
-*For the foundational perspective: [Why ERP Projects Fail](/en/insights/erp/why-erp-projects-fail)*
+**→ [Complete the ERP Readiness Assessment for a structured evaluation of governance readiness and other implementation dimensions]**
 
 ---
 
@@ -109,5 +152,5 @@ Without clear governance, the natural outcome is that *nobody* owns the system. 
 
 **Related articles:**
 - [Why ERP Projects Fail — and What the Software Cannot Fix]
-- [ERP User Adoption: Why People — Not Software — Determine ERP Success]
-- [ERP Customization: When Flexibility Becomes Long-Term Risk]
+- [ERP Customization: The Line Between Flexibility and Technical Debt]
+- [After ERP: How to Actually Use the Data You Now Have]
