@@ -12,7 +12,31 @@ const metadata = {
 };
 
 const { grouped } = await getArticlesByCategory('vi');
-const erpArticles = grouped.erp || [];
+let erpArticles = grouped.erp || [];
+
+// Define article order: pillar first, then 1.1 to 1.12
+const articleOrder: Record<string, number> = {
+  'tai-sao-du-an-erp-that-bai': 0, // PILLAR
+  'doanh-nghiep-san-sang-trien-khai-erp': 1, // 1.1
+  'chuan-hoa-quy-trinh-truoc-erp': 2, // 1.2
+  'data-readiness-trien-khai-erp': 3, // 1.3
+  'scope-creep-trong-du-an-erp': 4, // 1.4
+  'customization-erp-rui-ro': 5, // 1.5
+  'user-adoption-erp': 6, // 1.6
+  'ke-toan-san-sang-erp': 7, // 1.7
+  'erp-cho-doanh-nghiep-san-xuat': 8, // 1.8
+  'co-erp-van-dung-excel': 9, // 1.9
+  'quan-tri-erp-governance': 10, // 1.10
+  'khoang-cach-trien-khai-va-ap-dung-erp': 11, // 1.11
+  'khai-thac-du-lieu-erp': 12, // 1.12
+};
+
+// Sort articles by order
+erpArticles.sort((a, b) => {
+  const orderA = articleOrder[a.id] ?? 999;
+  const orderB = articleOrder[b.id] ?? 999;
+  return orderA - orderB;
+});
 
 // Badge colors
 const typeBadgeClass: Record<string, string> = {

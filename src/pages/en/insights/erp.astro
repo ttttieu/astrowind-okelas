@@ -12,7 +12,31 @@ const metadata = {
 };
 
 const { grouped } = await getArticlesByCategory('en');
-const erpArticles = grouped.erp || [];
+let erpArticles = grouped.erp || [];
+
+// Define article order: pillar first, then 1.1 to 1.12
+const articleOrder: Record<string, number> = {
+  'why-erp-projects-fail': 0, // PILLAR
+  'is-your-business-ready-for-erp': 1, // 1.1
+  'process-standardization-before-erp': 2, // 1.2
+  'erp-data-readiness': 3, // 1.3
+  'erp-scope-creep': 4, // 1.4
+  'erp-customization-risks': 5, // 1.5
+  'erp-user-adoption': 6, // 1.6
+  'accounting-readiness-erp': 7, // 1.7
+  'erp-for-manufacturing-companies': 8, // 1.8
+  'erp-still-using-excel': 9, // 1.9
+  'erp-governance': 10, // 1.10
+  'erp-implementation-vs-adoption': 11, // 1.11
+  'how-to-use-erp-data': 12, // 1.12
+};
+
+// Sort articles by order
+erpArticles.sort((a, b) => {
+  const orderA = articleOrder[a.id] ?? 999;
+  const orderB = articleOrder[b.id] ?? 999;
+  return orderA - orderB;
+});
 
 // Badge colors
 const typeBadgeClass: Record<string, string> = {
