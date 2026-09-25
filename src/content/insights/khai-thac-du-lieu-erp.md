@@ -1,6 +1,6 @@
 ---
-title: "Khai Thác Dữ Liệu ERP — Từ Báo Cáo Đến Ra Quyết Định"
-description: "Có dữ liệu sạch trong ERP là không đủ. Các tổ chức cần các quy trình có cấu trúc để trích xuất thông tin chi tiết và sử dụng dữ liệu để thúc đẩy quyết định. Điều này đòi hỏi hiểu những gì các báo cáo ERP có thể và không thể làm."
+title: "Sau ERP: doanh nghiệp cần làm gì để khai thác dữ liệu ERP?"
+description: "ERP tạo ra rất nhiều dữ liệu. Nhưng hầu hết doanh nghiệp chỉ dùng ERP để nhập liệu, không phải để phân tích và ra quyết định. Bài viết chỉ ra cách tiếp cận."
 publishDate: 2026-09-24T00:00:00Z
 translationId: erp-data-utilization-reporting
 lang: vi
@@ -9,15 +9,16 @@ contentType: Analysis
 funnelStage:
   - Consideration
 audience:
-  - CFO
-  - Operations Director
-  - Finance Manager
-primaryKeyword: "ERP dữ liệu báo cáo phân tích"
+  - CEO
+  - COO
+  - CIO
+primaryKeyword: "khai thác dữ liệu ERP"
 secondaryKeywords:
-  - "các thực tiễn tốt nhất báo cáo ERP"
-  - "trích xuất thông tin chi tiết từ ERP"
-  - "bảng điều khiển phân tích ERP"
-  - "quyết định dựa trên dữ liệu ERP"
+  - "phân tích dữ liệu ERP"
+  - "ERP reporting "
+  - "BI từ ERP"
+  - "ERP và AI"
+  - "dữ liệu ERP ra quyết định"
 draft: false
 ---
 
