@@ -90,6 +90,19 @@
         "category": "knowledge-management",
         "url": "/en/insights/knowledge-management/knowledge-management-manufacturing"
       }
+    },
+    {
+      "translationId": "process-standardization-erp",
+      "vi": {
+        "slug": "chuan-hoa-quy-trinh-truoc-erp",
+        "category": "erp",
+        "url": "/insights/erp/chuan-hoa-quy-trinh-truoc-erp"
+      },
+      "en": {
+        "slug": "process-standardization-before-erp",
+        "category": "erp",
+        "url": "/en/insights/erp/process-standardization-before-erp"
+      }
     }
   ]
 }
