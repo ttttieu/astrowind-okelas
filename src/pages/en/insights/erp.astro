@@ -79,10 +79,10 @@ const typeBadgeClass: Record<string, string> = {
         <h2 class="text-2xl font-bold mb-6 text-slate-900 dark:text-white">All ERP articles</h2>
       <ul class="space-y-4">
         {erpArticles.map((article) => (
-          <li key={article.id} class="flex items-start gap-4 group">
+          <li key={article.id} class="grid grid-cols-[1fr_auto_auto] gap-4 items-start group">
             <a
               href={`/en/insights/${article.data.category}/${article.id}`}
-              class="flex-1 hover:underline"
+              class="hover:underline min-w-0"
             >
               <div class="font-medium text-slate-900 dark:text-white group-hover:text-primary transition-colors">
                 {article.data.title}
