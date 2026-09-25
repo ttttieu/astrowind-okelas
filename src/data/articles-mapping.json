@@ -103,6 +103,19 @@
         "category": "erp",
         "url": "/en/insights/erp/process-standardization-before-erp"
       }
+    },
+    {
+      "translationId": "erp-data-readiness",
+      "vi": {
+        "slug": "data-readiness-trien-khai-erp",
+        "category": "erp",
+        "url": "/insights/erp/data-readiness-trien-khai-erp"
+      },
+      "en": {
+        "slug": "erp-data-readiness",
+        "category": "erp",
+        "url": "/en/insights/erp/erp-data-readiness"
+      }
     }
   ]
 }
