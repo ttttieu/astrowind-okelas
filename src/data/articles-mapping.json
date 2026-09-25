@@ -116,6 +116,45 @@
         "category": "erp",
         "url": "/en/insights/erp/erp-data-readiness"
       }
+    },
+    {
+      "translationId": "erp-scope-creep",
+      "vi": {
+        "slug": "scope-creep-trong-du-an-erp",
+        "category": "erp",
+        "url": "/insights/erp/scope-creep-trong-du-an-erp"
+      },
+      "en": {
+        "slug": "erp-scope-creep",
+        "category": "erp",
+        "url": "/en/insights/erp/erp-scope-creep"
+      }
+    },
+    {
+      "translationId": "erp-customization-risks",
+      "vi": {
+        "slug": "customization-erp-rui-ro",
+        "category": "erp",
+        "url": "/insights/erp/customization-erp-rui-ro"
+      },
+      "en": {
+        "slug": "erp-customization-risks",
+        "category": "erp",
+        "url": "/en/insights/erp/erp-customization-risks"
+      }
+    },
+    {
+      "translationId": "erp-user-adoption",
+      "vi": {
+        "slug": "user-adoption-erp",
+        "category": "erp",
+        "url": "/insights/erp/user-adoption-erp"
+      },
+      "en": {
+        "slug": "erp-user-adoption",
+        "category": "erp",
+        "url": "/en/insights/erp/erp-user-adoption"
+      }
     }
   ]
 }
