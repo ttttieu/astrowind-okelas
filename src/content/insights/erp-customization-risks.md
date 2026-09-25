@@ -114,7 +114,7 @@ Before accepting any customization request, ask these five questions:
 - How many people in the organization fully understand each major customization?
 - For upcoming ERP projects: are there plans to limit customization? How will customization decisions be made and by whom?
 
-→ **[Explore ERP Readiness Solutions](/solutions/erp-readiness)**
+→ **[Explore ERP Readiness Solutions](/en/solutions/erp-readiness)**
 
 *For context on process readiness as a prerequisite to customization decisions, see: [Process Standardization Before ERP](/en/insights/erp/process-standardization-before-erp)*
 

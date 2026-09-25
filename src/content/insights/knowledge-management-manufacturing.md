@@ -234,7 +234,7 @@ Organizations that continue leaving knowledge in people's heads will continue pa
 
 **Which maturity level does your organization most closely resemble?**
 
-→ [Take the KM Maturity Assessment](/readiness/knowledge) — evaluate knowledge management maturity and identify the priority areas for improvement.
+→ [Take the KM Maturity Assessment](/en/readiness/knowledge) — evaluate knowledge management maturity and identify the priority areas for improvement.
 
 ---
 

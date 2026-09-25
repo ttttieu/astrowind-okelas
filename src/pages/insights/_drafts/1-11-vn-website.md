@@ -28,6 +28,20 @@ draft: true
 
 ---
 
+## Giới thiệu
+
+→ **[Khám phá các giải pháp ERP Readiness](/solutions/erp-readiness)**
+
+*Để hiểu về data quality và governance như là tiền đề: [ERP Governance: ai chịu trách nhiệm khi ERP không hoạt động đúng?](/insights/erp/quan-tri-erp-governance)*
+
+*Bài tiếp theo trong chuỗi: [Sau ERP: doanh nghiệp cần làm gì để khai thác dữ liệu ERP?](/insights/erp/khai-thac-du-lieu-erp)*
+
+*Để hiểu điều gì xảy ra khi ERP không được adopted: [Doanh nghiệp đã có ERP nhưng vẫn chạy bằng Excel — tại sao?](/insights/erp/co-erp-van-dung-excel)*
+
+*Để hiểu lý do cơ bản, xem: [Tại sao dự án ERP không đạt mục tiêu — và vấn đề thực sự không nằm ở phần mềm](/insights/erp/tai-sao-du-an-erp-that-bai)*
+
+---
+
 ## Implementation kết thúc khi nào?
 
 Trong hầu hết dự án ERP, thời điểm "kết thúc" được xác định khá rõ ràng: ngày go-live, khi hệ thống chính thức đi vào vận hành và nhà triển khai bàn giao.

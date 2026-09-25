@@ -161,6 +161,14 @@ Before starting an ERP project, manufacturing businesses should answer these que
 
 **→ [Complete the ERP Readiness Assessment for a structured evaluation of manufacturing readiness alongside other implementation dimensions]**
 
+→ **[Explore ERP Readiness Solutions](/solutions/erp-readiness)**
+
+*For user adoption and change management challenges specific to manufacturing, see: [ERP User Adoption](/en/insights/erp/erp-user-adoption)*
+
+*To understand Excel dependency issues, see: [You Have ERP, But Your Team Still Runs on Excel — Here's Why](/en/insights/erp/erp-still-using-excel)*
+
+*For the foundational perspective, see: [Why ERP Projects Fail](/en/insights/erp/why-erp-projects-fail)*
+
 ---
 
 *This article is part of a series on ERP readiness for manufacturing SMEs.*

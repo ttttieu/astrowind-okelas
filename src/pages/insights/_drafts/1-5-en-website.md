@@ -119,11 +119,11 @@ Whether your ERP is already running or you are preparing for implementation, con
 
 → **[Explore ERP Readiness Solutions](/solutions/erp-readiness)**
 
-*For scope management context, see: [ERP Scope Creep — When the Project Grows Faster Than the Budget](/insights/erp/erp-scope-creep)*
+*For scope management context, see: [ERP Scope Creep — When the Project Grows Faster Than the Budget](/en/insights/erp/erp-scope-creep)*
 
-*To understand governance after customization decisions, see: [ERP Governance — Who Is Responsible When ERP Does Not Work?](/insights/erp/erp-governance)*
+*To understand user adoption impacts after customization, see: [ERP User Adoption — The Human Factor That Determines Whether ERP Succeeds](/en/insights/erp/erp-user-adoption)*
 
-*For the foundational perspective, see: [Why ERP Projects Fail](/insights/erp/why-erp-projects-fail)*
+*For the foundational perspective, see: [Why ERP Projects Fail](/en/insights/erp/why-erp-projects-fail)*
 
 ---
 

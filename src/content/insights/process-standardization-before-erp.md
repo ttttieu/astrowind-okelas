@@ -144,7 +144,7 @@ If several of these answers are "no" or "not sure" — those are gaps to address
 
 **Next in the series: [ERP Data Readiness — Why "Clean Data" Is Harder Than Organizations Expect](/en/insights/erp/erp-data-readiness)**
 
-**→ [Explore ERP Readiness Solutions](/solutions/erp-readiness)**
+**→ [Explore ERP Readiness Solutions](/en/solutions/erp-readiness)**
 
 *For context on why process standardization is critical before ERP begins, see the opening article: [Is Your Business Actually Ready for ERP?](/en/insights/erp/is-your-business-ready-for-erp)*
 

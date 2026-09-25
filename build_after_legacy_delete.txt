@@ -1,0 +1,81 @@
+
+> @arthelokyo/astrowind@1.0.0-beta.66 build
+> astro build
+
+[2m21:24:31[22m [34m[astrowind][39m Astrowind `./src/config.yaml` has been loaded.
+[2m21:24:31[22m [34m[content][39m Syncing content
+[33m[1m21:24:31[22m [WARN] [glob-loader][39m No files found matching "*.md,*.mdx" in directory "src\data\post"
+[2m21:24:31[22m [34m[content][39m Synced content
+[2m21:24:31[22m [34m[types][39m Generated [2m710ms[22m
+[2m21:24:31[22m [34m[build][39m output: [34m"static"[39m
+[2m21:24:31[22m [34m[build][39m mode: [34m"static"[39m
+[2m21:24:31[22m [34m[build][39m directory: [34mD:\projects\okelas-com\dist\[39m
+[2m21:24:31[22m [34m[build][39m Collecting build info...
+[2m21:24:31[22m [34m[build][39m [32m✓ Completed in 813ms.[39m
+[2m21:24:31[22m [34m[build][39m Building static entrypoints...
+[2m21:24:33[22m [34m[astro-icon][39m Loaded icons from src/assets/icons, flat-color-icons, tabler
+[2m21:24:33[22m [34m[assets][39m Copying fonts (4 files)...
+[2m21:24:33[22m [34m[vite][39m [32m✓ built in 1.73s[39m
+[2m21:24:33[22m [34m[vite][39m [32m✓ built in 93ms[39m
+[2m21:24:33[22m [34m[build][39m Rearranging server assets...
+
+[42m[30m generating static routes [39m[49m
+[2m21:24:33[22m   [34m├─[39m [2m/404.html[22m [2m(+29ms)[22m 
+[2m21:24:33[22m   [34m├─[39m [2m/about/approach/index.html[22m [2m(+72ms)[22m 
+[2m21:24:34[22m   [34m├─[39m [2m/about/index.html[22m [2m(+8ms)[22m 
+[2m21:24:34[22m   [34m├─[39m [2m/contact/index.html[22m [2m(+8ms)[22m 
+[2m21:24:34[22m   [34m├─[39m [2m/en/insights/business-operations/digital-transformation-manufacturing-sme/index.html[22m [2m(+7ms)[22m 
+[2m21:24:34[22m   [34m├─[39m [2m/en/insights/ai/enterprise-ai-control-layer/index.html[22m [2m(+8ms)[22m 
+[2m21:24:34[22m   [34m├─[39m [2m/en/insights/business-operations/intelligent-workflow-next-generation/index.html[22m [2m(+5ms)[22m 
+[2m21:24:34[22m   [34m├─[39m [2m/en/insights/erp/is-your-business-ready-for-erp/index.html[22m [2m(+5ms)[22m 
+[2m21:24:34[22m   [34m├─[39m [2m/en/insights/knowledge-management/knowledge-management-manufacturing/index.html[22m [2m(+7ms)[22m 
+[2m21:24:34[22m   [34m├─[39m [2m/en/insights/ai/organizational-ai-readiness/index.html[22m [2m(+6ms)[22m 
+[2m21:24:34[22m   [34m├─[39m [2m/en/insights/erp/why-erp-projects-fail/index.html[22m [2m(+4ms)[22m 
+[2m21:24:34[22m   [34m├─[39m [2m/en/index.html[22m [2m(+22ms)[22m 
+[2m21:24:34[22m   [34m├─[39m [2m/insights/ai/index.html[22m [2m(+7ms)[22m 
+[2m21:24:34[22m   [34m├─[39m [2m/insights/business-operations/index.html[22m [2m(+6ms)[22m 
+[2m21:24:34[22m   [34m├─[39m [2m/insights/compliance/index.html[22m [2m(+6ms)[22m 
+[2m21:24:34[22m   [34m├─[39m [2m/insights/erp/index.html[22m [2m(+7ms)[22m 
+[2m21:24:34[22m   [34m├─[39m [2m/insights/knowledge-management/index.html[22m [2m(+6ms)[22m 
+[2m21:24:34[22m   [34m├─[39m [2m/insights/ai/ai-readiness-doanh-nghiep/index.html[22m [2m(+6ms)[22m 
+[2m21:24:34[22m   [34m├─[39m [2m/insights/business-operations/chuyen-doi-so-doanh-nghiep-san-xuat/index.html[22m [2m(+4ms)[22m 
+[2m21:24:34[22m   [34m├─[39m [2m/insights/erp/doanh-nghiep-san-sang-trien-khai-erp/index.html[22m [2m(+3ms)[22m 
+[2m21:24:34[22m   [34m├─[39m [2m/insights/ai/kiem-soat-ai-doanh-nghiep/index.html[22m [2m(+3ms)[22m 
+[2m21:24:34[22m   [34m├─[39m [2m/insights/knowledge-management/quan-ly-tri-thuc-doanh-nghiep-san-xuat/index.html[22m [2m(+4ms)[22m 
+[2m21:24:34[22m   [34m├─[39m [2m/insights/erp/tai-sao-du-an-erp-that-bai/index.html[22m [2m(+4ms)[22m 
+[2m21:24:34[22m   [34m├─[39m [2m/insights/business-operations/workflow-thong-minh-the-he-moi/index.html[22m [2m(+3ms)[22m 
+[2m21:24:34[22m   [34m├─[39m [2m/insights/index.html[22m [2m(+5ms)[22m 
+[2m21:24:34[22m   [34m├─[39m [2m/privacy/index.html[22m [2m(+7ms)[22m 
+[2m21:24:34[22m   [34m├─[39m [2m/solutions/ai-readiness/index.html[22m [2m(+8ms)[22m 
+[2m21:24:34[22m   [34m├─[39m [2m/solutions/digitalize-operations/index.html[22m [2m(+6ms)[22m 
+[2m21:24:34[22m   [34m├─[39m [2m/solutions/erp-readiness/index.html[22m [2m(+6ms)[22m 
+[2m21:24:34[22m   [34m├─[39m [2m/solutions/knowledge-copilot/index.html[22m [2m(+6ms)[22m 
+[2m21:24:34[22m   [34m├─[39m [2m/solutions/progressive-eqms/index.html[22m [2m(+6ms)[22m 
+[2m21:24:34[22m   [34m├─[39m [2m/solutions/standardize-processes/index.html[22m [2m(+10ms)[22m 
+[2m21:24:34[22m   [34m├─[39m [2m/solutions/workflow-automation/index.html[22m [2m(+6ms)[22m 
+[2m21:24:34[22m   [34m├─[39m [2m/terms/index.html[22m [2m(+6ms)[22m 
+[2m21:24:34[22m   [34m├─[39m [2m/why/documents-to-operations/index.html[22m [2m(+6ms)[22m 
+[2m21:24:34[22m   [34m├─[39m [2m/why/knowledge-as-infrastructure/index.html[22m [2m(+6ms)[22m 
+[2m21:24:34[22m   [34m├─[39m [2m/why/progressive-eqms/index.html[22m [2m(+6ms)[22m 
+[2m21:24:34[22m   [34m├─[39m [2m/why/the-problem/index.html[22m [2m(+6ms)[22m 
+[2m21:24:34[22m   [34m├─[39m [2m/why/why-before-ai/index.html[22m [2m(+6ms)[22m 
+[2m21:24:34[22m   [34m├─[39m [2m/why/why-before-erp/index.html[22m [2m(+6ms)[22m 
+[2m21:24:34[22m   [34m├─[39m [2m/index.html[22m [2m(+11ms)[22m 
+[2m21:24:34[22m [32m✓ Completed in 543ms.
+[39m
+[42m[30m generating optimized images [39m[49m
+[2m21:24:34[22m   [32m▶[39m /_astro/okelas-diagram.DXTuC2Pb_Pwot5.webp [2m(reused cache entry)[22m [2m(+1ms)[22m [2m(1/5)[22m
+[2m21:24:34[22m   [32m▶[39m /_astro/default.CW5EadUx_Z1lMN82.jpg [2m(reused cache entry)[22m [2m(+2ms)[22m [2m(2/5)[22m
+[2m21:24:34[22m   [32m▶[39m /_astro/okelas-diagram.DXTuC2Pb_1n9TYg.webp [2m(reused cache entry)[22m [2m(+1ms)[22m [2m(3/5)[22m
+[2m21:24:34[22m   [32m▶[39m /_astro/okelas-diagram.DXTuC2Pb_ZbDvY.webp [2m(reused cache entry)[22m [2m(+1ms)[22m [2m(4/5)[22m
+[2m21:24:34[22m   [32m▶[39m /_astro/okelas-diagram.DXTuC2Pb_1OIpls.webp [2m(reused cache entry)[22m [2m(+1ms)[22m [2m(5/5)[22m
+[2m21:24:34[22m [32m✓ Completed in 6ms.
+[39m
+[2m21:24:34[22m [34m[build][39m [32m✓ Completed in 2.46s.[39m
+[2m21:24:34[22m [34m[@astrojs/sitemap][39m `sitemap-index.xml` created at `dist`
+[2m21:24:38[22m [34m[build][39m Waiting for integration [1m"astro-compress"[22m, hook [1m"astro:build:done"[22m...
+✓ Successfully compressed a total of 42 HTML files for 76.73 KB.
+✓ Successfully compressed a total of 1 JavaScript file for 20 Bytes.
+[2m21:24:38[22m [34m[astrowind][39m Updating `robots.txt` with `sitemap-index.xml` ...
+[2m21:24:38[22m [34m[build][39m 41 page(s) built in [1m7.18s[22m
+[2m21:24:38[22m [34m[build][39m [1mComplete![22m

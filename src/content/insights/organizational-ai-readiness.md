@@ -333,7 +333,7 @@ The answer to that question determines the right AI strategy for your organizati
 
 Where is your organization in the AI readiness journey? Which conditions are already in place, and which are still missing?
 
-**→ [Take the AI Readiness Assessment](/readiness/ai)**
+**→ [Take the AI Readiness Assessment](/en/readiness/ai)**
 
 The assessment takes approximately 8–10 minutes and requires no technical background. Results indicate your organization's current readiness level and the priority conditions to address before expanding AI across operations.
 

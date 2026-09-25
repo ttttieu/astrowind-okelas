@@ -37,6 +37,18 @@ draft: true
 
 # Quy trình chưa chuẩn hóa — rủi ro lớn nhất trước khi triển khai ERP
 
+---
+
+## Giới thiệu
+
+→ **[Khám phá các giải pháp ERP Readiness](/solutions/erp-readiness)**
+
+*Để hiểu được tại sao quy trình chưa chuẩn hóa là rủi ro lớn nhất, hãy bắt đầu từ: [Doanh nghiệp bạn đã thực sự sẵn sàng triển khai ERP chưa?](/insights/erp/doanh-nghiep-san-sang-trien-khai-erp)*
+
+*Để khám phá chiều dữ liệu của sẵn sàng ERP, xem: [Data readiness trước ERP — tại sao dữ liệu "sạch" khó hơn bạn nghĩ](/insights/erp/data-readiness-trien-khai-erp)*
+
+*Để hiểu toàn bộ cảnh quan về lý do hầu hết các dự án ERP không đạt kỳ vọng, xem bài viết nền tảng: [Tại sao dự án ERP không đạt mục tiêu — và vấn đề thực sự không nằm ở phần mềm](/insights/erp/tai-sao-du-an-erp-that-bai)*
+
 > **Tóm tắt cho CEO / COO**
 >
 > - ERP không thể tự chuẩn hóa quy trình — nó chỉ có thể vận hành theo quy trình đã được định nghĩa.

@@ -28,6 +28,20 @@ draft: true
 
 ---
 
+## Introduction
+
+→ **[Explore ERP Readiness Solutions](/solutions/erp-readiness)**
+
+*For perspective on data quality and governance as prerequisites: [ERP Governance — Who Is Responsible When Your ERP Stops Working Properly?](/en/insights/erp/erp-governance)*
+
+*Next in the series: [After ERP: Turning ERP Data Into Organizational Intelligence](/en/insights/erp/how-to-use-erp-data)*
+
+*For what happens when ERP is not adopted: [You Have ERP, But Your Team Still Runs on Excel — Here's Why](/en/insights/erp/erp-still-using-excel)*
+
+*For the foundational perspective, see: [Why ERP Projects Fail](/en/insights/erp/why-erp-projects-fail)*
+
+---
+
 ## When Does Implementation Actually End?
 
 In most ERP projects, the "end" is clearly defined: go-live day, when the system officially enters operation and the implementation partner hands over.

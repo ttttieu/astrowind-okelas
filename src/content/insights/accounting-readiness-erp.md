@@ -94,7 +94,7 @@ Before starting an ERP implementation, finance should audit:
 
 If the answer to most of these questions is "unclear" or "not documented," accounting readiness work needs to begin now — not during ERP implementation.
 
-→ **[Explore ERP Readiness Solutions](/solutions/erp-readiness)**
+→ **[Explore ERP Readiness Solutions](/en/solutions/erp-readiness)**
 
 *For data quality preparation context, see: [ERP Data Readiness — Why "Clean Data" Is Harder Than You Think](/en/insights/erp/erp-data-readiness)*
 

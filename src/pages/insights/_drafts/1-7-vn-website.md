@@ -19,6 +19,18 @@ draft: true
 
 # Accounting Readiness trước ERP — những gì CFO cần biết
 
+---
+
+## Giới thiệu
+
+→ **[Khám phá các giải pháp ERP Readiness](/solutions/erp-readiness)**
+
+*Để xem tác động customization và user adoption liên quan tới kế toán, xem: [ERP và con người: tại sao user adoption quyết định thành bại](/insights/erp/user-adoption-erp)*
+
+*Để hiểu những yêu cầu kế toán đặc thù cho sản xuất, xem: [Manufacturing readiness: ERP cho doanh nghiệp sản xuất khác gì?](/insights/erp/erp-cho-doanh-nghiep-san-xuat)*
+
+*Để hiểu lý do cơ bản, xem: [Tại sao dự án ERP không đạt mục tiêu — và vấn đề thực sự không nằm ở phần mềm](/insights/erp/tai-sao-du-an-erp-that-bai)*
+
 > **Tóm tắt cho CFO / CEO / Kế toán trưởng**
 >
 > - Module tài chính và kế toán trong ERP thường là phần gây chậm tiến độ nhất và ít được chuẩn bị nhất.

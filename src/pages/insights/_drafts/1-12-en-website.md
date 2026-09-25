@@ -28,6 +28,18 @@ draft: true
 
 ---
 
+## Introduction
+
+→ **[Explore ERP Readiness Solutions](/solutions/erp-readiness)**
+
+*For governance structure required to maintain ERP and data: [ERP Governance — Who Is Responsible When Your ERP Stops Working Properly?](/en/insights/erp/erp-governance)*
+
+*For the adoption phase that precedes data utilization: [ERP Implementation vs. Adoption — Why Go-Live Is Just the Beginning](/en/insights/erp/erp-implementation-vs-adoption)*
+
+*For the foundational perspective, see: [Why ERP Projects Fail](/en/insights/erp/why-erp-projects-fail)*
+
+---
+
 ## What Data Is Your ERP Already Generating?
 
 Every day, in an organization with a functioning ERP, the system records hundreds to thousands of events:

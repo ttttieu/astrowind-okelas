@@ -28,6 +28,18 @@ draft: true
 
 ---
 
+## Giới thiệu
+
+→ **[Khám phá các giải pháp ERP Readiness](/solutions/erp-readiness)**
+
+*Để hiểu broader context về user adoption và impact của nó trên governance: [ERP và con người — tại sao user adoption quyết định thành bại](/insights/erp/user-adoption-erp)*
+
+*Để hiểu giai đoạn sau go-live: [Từ ERP Implementation đến ERP Adoption — khoảng cách ít ai nói tới](/insights/erp/khoang-cach-trien-khai-va-ap-dung-erp)*
+
+*Để hiểu lý do cơ bản, xem: [Tại sao dự án ERP không đạt mục tiêu — và vấn đề thực sự không nằm ở phần mềm](/insights/erp/tai-sao-du-an-erp-that-bai)*
+
+---
+
 ## ERP không tự vận hành
 
 Có một giả định ngầm phổ biến trong nhiều dự án ERP: khi hệ thống đã go-live và nhà triển khai rời đi, ERP sẽ tự vận hành và duy trì giá trị của nó.

@@ -19,6 +19,18 @@ draft: true
 
 # Scope Creep trong ERP — khi dự án cứ lớn dần mà không ai kiểm soát được
 
+---
+
+## Giới thiệu
+
+→ **[Khám phá các giải pháp ERP Readiness](/solutions/erp-readiness)**
+
+*Để hiểu nền tảng về sẵn sàng dữ liệu, xem: [Data readiness trước ERP — tại sao dữ liệu "sạch" khó hơn bạn nghĩ](/insights/erp/data-readiness-trien-khai-erp)*
+
+*Để hiểu rủi ro của customization sau scope creep, xem: [Customization ERP: ranh giới giữa linh hoạt và rủi ro](/insights/erp/customization-erp-rui-ro)*
+
+*Để hiểu lý do cơ bản, xem: [Tại sao dự án ERP không đạt mục tiêu — và vấn đề thực sự không nằm ở phần mềm](/insights/erp/tai-sao-du-an-erp-that-bai)*
+
 > **Tóm tắt cho CEO / Project Owner**
 >
 > - Scope creep xảy ra khi phạm vi dự án mở rộng dần ngoài kế hoạch ban đầu mà không có quyết định rõ ràng và không có đánh giá tác động.

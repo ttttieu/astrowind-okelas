@@ -80,38 +80,82 @@ Cùng một nhà cung cấp tồn tại dưới dạng hai hoặc ba bản ghi r
 
 Đây không phải tình huống bất thường. Trong nhiều SME, dữ liệu chủ nhà cung cấp có thể chứa một tỷ lệ đáng kể các bản ghi trùng lặp hoặc lỗi thời — được hình thành tự nhiên trong sự vắng mặt của các quy trình quản lý dữ liệu chủ rõ ràng.
 
-### Bản ghi không đầy đủ
+### Dữ liệu không đầy đủ
 
-Thông tin quan trọng bị thiếu từ các bản ghi. Nhà cung cấp thiếu mã số thuế hoặc điều khoản thanh toán. Sản phẩm thiếu dữ liệu chi phí hoặc đơn vị tính chuẩn. Bản ghi khách hàng thiếu địa chỉ hoặc thông tin thanh toán.
+Bản ghi tồn tại nhưng thiếu các trường bắt buộc trong ERP. Ví dụ: sản phẩm có tên và giá nhưng không có đơn vị tính chuẩn hóa. Nhà cung cấp có tên nhưng không có mã số thuế hoặc điều khoản thanh toán. Khách hàng có thông tin liên hệ nhưng không có địa chỉ giao hàng được phân loại rõ ràng.
 
-Hệ thống có thể không yêu cầu các trường này để hoạt động hàng ngày, vì vậy sự vắng mặt của chúng không bao giờ được nhận thấy cho đến khi cấu hình ERP yêu cầu dữ liệu đầy đủ.
+Những trường này trông như chi tiết nhỏ — cho đến khi ERP từ chối tạo giao dịch vì thiếu dữ liệu bắt buộc.
 
-### Lịch sử không được duy trì
+### Dữ liệu nằm ở nhiều nơi và không đồng nhất
 
-Dữ liệu chưa được duy trì tích cực trong nhiều tháng hoặc năm. Bản ghi nhà cung cấp đề cập đến những nhân viên đã rời công ty. Thông tin khách hàng phản ánh các mối quan hệ đã kết thúc. Danh mục sản phẩm chứa SKU lỗi thời.
+Danh mục sản phẩm của bộ phận kinh doanh khác với danh mục của bộ phận kho. Số liệu tồn kho trên sổ sách kế toán khác với số liệu của phần mềm quản lý kho. Thông tin khách hàng vừa nằm trong CRM, vừa nằm trong file Excel của từng nhân viên kinh doanh, vừa nằm trong phần mềm kế toán.
 
-Một tổ chức thường ngạc nhiên khi phát hiện ra rằng 20-30% dữ liệu chủ của nó lỗi thời hoặc đề cập đến các thực thể không còn tồn tại.
+Câu hỏi đơn giản nhưng thường không có câu trả lời ngay: *Phiên bản nào là đúng?*
 
-### Dữ liệu trong nhiều hệ thống mà không có nguồn chân lý duy nhất
+### Định nghĩa không nhất quán
 
-Thông tin sản phẩm nằm trong hệ thống tiền thân của ERP, nhưng định giá nằm trong cơ sở dữ liệu thanh toán riêng. Thông tin khách hàng được chia sẻ giữa hệ thống CRM và bản ghi kế toán. Không có thực thể nào có thẩm quyền, và các hệ thống khác nhau có thông tin mâu thuẫn.
+Đây là vấn đề tinh tế hơn. Ví dụ: "tồn kho" trong bộ phận kho có thể bao gồm hàng đang trên đường về, trong khi "tồn kho" trong kế toán chỉ tính hàng đã vào kho thực tế. "Khách hàng" trong hệ thống kinh doanh có thể bao gồm cả khách hàng tiềm năng, trong khi ERP chỉ muốn khách hàng đã có giao dịch.
 
-Vấn đề này thường chỉ xuất hiện khi cố gắng di chuyển — khi ai đó phải quyết định nguồn nào đáng tin cậy.
+Khi những định nghĩa này không được làm rõ trước khi migration, dữ liệu được chuyển vào ERP theo cách không ai thực sự hiểu rõ — và vấn đề chỉ được phát hiện khi báo cáo bắt đầu cho ra con số không ai tin.
+
+### Tồn kho sổ sách không khớp thực tế
+
+Đây là vấn đề đặc biệt nghiêm trọng với doanh nghiệp sản xuất. Nếu số tồn kho trên sổ sách không khớp với số tồn kho thực tế trên sàn nhà xưởng, đưa số liệu đó vào ERP là đưa sai lệch vào nền tảng của hệ thống vận hành.
+
+Không ít doanh nghiệp phát hiện sai lệch tồn kho lớn lần đầu tiên trong quá trình chuẩn bị data migration cho ERP — sau nhiều năm vận hành mà không ai kiểm đếm đối chiếu đầy đủ.
 
 ---
 
-## Các Bước Chuẩn Bị Dữ Liệu Quan Trọng
+## Chi phí ẩn của data migration kém chuẩn bị
 
-Trước khi go-live, doanh nghiệp phải:
+Vấn đề data migration thường không xuất hiện như một rủi ro rõ ràng trong kế hoạch dự án. Nó ẩn dưới dạng các chi phí và hậu quả khác:
 
-1. **Chọn dữ liệu chủ nhỏ nhất để dùng làm thí điểm** — ví dụ, danh mục sản phẩm cho một dòng sản phẩm — và thực hiện di chuyển thử nghiệm hoàn chỉnh.
-2. **Phát hiện và ghi lại các vấn đề chất lượng** — thời gian thực, nỗ lực, chi phí cần thiết.
-3. **Áp dụng bài học từ thí điểm** cho quy mô hoàn chỉnh.
-4. **Lập kế hoạch làm sạch dữ liệu** như một dự án riêng biệt, không phải như một hoạt động bên trong ERP.
+**Kéo dài timeline.** Làm sạch dữ liệu mất nhiều thời gian hơn dự kiến là nguyên nhân phổ biến khiến go-live bị lùi so với kế hoạch. Mỗi tuần kéo dài là chi phí nhân sự, chi phí triển khai, và chi phí cơ hội.
 
-→ *Xem thêm: [Tại sao Dữ liệu Governance Rẻ Hơn Dữ liệu Cleanup — và Tại Sao Hầu Hết Doanh Nghiệp Không Thấy Điều Đó Cho Đến go-live]*
+**Quyết định kinh doanh dựa trên dữ liệu sai.** Sau go-live, nếu báo cáo tồn kho, công nợ hay chi phí không chính xác, ban lãnh đạo hoặc không dùng báo cáo ERP để ra quyết định — quay về cách làm cũ — hoặc ra quyết định dựa trên dữ liệu sai.
 
-**Bước tiếp theo trong chuỗi: [Scope creep trong ERP — khi dự án cứ lớn dần mà không ai kiểm soát được](/insights/erp/scope-creep-trong-du-an-erp)**
+**Chi phí sửa chữa sau go-live cao hơn nhiều so với làm đúng từ đầu.** Sửa master data sau khi hệ thống đã chạy phức tạp hơn nhiều so với làm sạch trước migration, vì mỗi bản ghi lỗi có thể đã được dùng trong nhiều giao dịch thực tế.
+
+**Mất niềm tin vào hệ thống.** Khi người dùng phát hiện báo cáo ERP không đáng tin cậy, họ dừng dùng hệ thống như công cụ ra quyết định. Đây là một trong những hậu quả khó phục hồi nhất sau go-live.
+
+---
+
+## Checklist data readiness — trước khi bắt đầu ERP
+
+Đây là các câu hỏi để tự đánh giá mức độ sẵn sàng của dữ liệu:
+
+**Danh mục sản phẩm / SKU:**
+- Danh mục có được duy trì tập trung không, hay nằm rải rác ở nhiều nơi?
+- Có bao nhiêu mã sản phẩm đã không còn được dùng nhưng vẫn tồn tại trong hệ thống?
+- Mỗi sản phẩm có đủ thông tin: đơn vị tính, nhóm hàng, giá, và BOM (nếu có sản xuất)?
+
+**Nhà cung cấp và khách hàng:**
+- Có bản ghi trùng lặp không?
+- Thông tin bắt buộc (mã số thuế, điều khoản thanh toán) có đầy đủ không?
+- Ai chịu trách nhiệm duy trì và cập nhật những danh mục này?
+
+**Tồn kho:**
+- Số tồn kho trên sổ sách có được đối chiếu với thực tế định kỳ không?
+- Sai lệch hiện tại ở mức nào?
+- Khi nào lần cuối kiểm kê toàn bộ được thực hiện?
+
+**Kế toán:**
+- Chart of accounts có được thiết kế phù hợp với yêu cầu báo cáo của doanh nghiệp chưa?
+- Số dư đầu kỳ đã sẵn sàng để migrate chưa?
+
+**Quy trình quản lý dữ liệu:**
+- Có quy trình rõ ràng để thêm, chỉnh sửa và vô hiệu hóa bản ghi master data không?
+- Có một người hoặc một bộ phận chịu trách nhiệm chất lượng dữ liệu không?
+
+Nếu nhiều câu trả lời là "không" hoặc "không chắc", đây là chỉ báo cần phân bổ thêm thời gian và nguồn lực cho giai đoạn chuẩn bị data — trước khi bắt đầu dự án ERP.
+
+→ *Xem thêm: [Tại sao SOP có nhưng không được thực thi — và cách thực sự thay đổi điều đó]*
+
+**Bước tiếp theo trong chuỗi: [Scope creep trong ERP — khi dự án ngày càng lớn hơn dự kiến]**
+
+→ *Xem thêm: [Tại sao SOP có nhưng không được thực thi — và cách thực sự thay đổi điều đó]*
+
+**Bước tiếp theo trong chuỗi: [Scope creep trong ERP — khi dự án ngày càng lớn hơn dự kiến](/insights/erp/scope-creep-trong-du-an-erp)**
 
 **→ [Khám phá các giải pháp ERP Readiness](/solutions/erp-readiness)**
 
@@ -126,4 +170,4 @@ Trước khi go-live, doanh nghiệp phải:
 **Bài liên quan:**
 - [Tại sao dự án ERP không đạt mục tiêu — pillar]
 - [Quy trình chưa chuẩn hóa — rủi ro lớn nhất trước khi triển khai ERP]
-- [Scope creep trong ERP — khi dự án cứ lớn dần mà không ai kiểm soát được]
+- [Scope creep trong ERP — khi dự án ngày càng lớn hơn dự kiến]

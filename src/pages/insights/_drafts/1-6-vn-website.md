@@ -19,6 +19,18 @@ draft: true
 
 # ERP và con người: tại sao user adoption quyết định thành bại
 
+---
+
+## Giới thiệu
+
+→ **[Khám phá các giải pháp ERP Readiness](/solutions/erp-readiness)**
+
+*Để xem tác động của customization lên user adoption, xem: [Customization ERP: ranh giới giữa linh hoạt và rủi ro](/insights/erp/customization-erp-rui-ro)*
+
+*Để hiểu kế toán sẵn sàng sau thách thức adoption, xem: [Accounting Readiness trước ERP — những gì CFO cần biết](/insights/erp/ke-toan-san-sang-erp)*
+
+*Để hiểu lý do cơ bản, xem: [Tại sao dự án ERP không đạt mục tiêu — và vấn đề thực sự không nằm ở phần mềm](/insights/erp/tai-sao-du-an-erp-that-bai)*
+
 > **Tóm tắt cho CEO / HR Director / Operations Director**
 >
 > - Phần mềm ERP không tự thay đổi hành vi của con người — và nếu con người không thay đổi cách làm việc, ERP không tạo ra giá trị.

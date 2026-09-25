@@ -117,7 +117,7 @@ If your business shows 3 or more of these 7 signs, ERP was implemented — but n
 
 ---
 
-→ **[Take the ERP Readiness Assessment](/readiness/erp)**
+→ **[Take the ERP Readiness Assessment](/en/readiness/erp)**
 
 *For adoption challenges, see: [ERP User Adoption: Why People — Not Software — Determine ERP Success](/en/insights/erp/erp-user-adoption)*
 

@@ -65,6 +65,11 @@ const linksWithLanguage = links.map((link) => ({
   })),
 }));
 
+const actionsWithLanguage = actions.map((action) => ({
+  ...action,
+  href: addLanguagePrefix(action.href || ''),
+}));
+
 // Get home URL that respects current language
 const homeUrl = currentLanguage === 'en' ? '/en' : '/';
 
@@ -194,9 +199,9 @@ const persistKey = `header-${Array.from(
             }
           </div>
           {
-            actions?.length ? (
+            actionsWithLanguage?.length ? (
               <span class="ml-4 rtl:ml-0 rtl:mr-4">
-                {actions.map((btnProps) => (
+                {actionsWithLanguage.map((btnProps) => (
                   <Button {...btnProps} class="ml-2 py-2.5 px-5.5 lg:px-6 font-semibold shadow-none text-sm w-auto" />
                 ))}
               </span>

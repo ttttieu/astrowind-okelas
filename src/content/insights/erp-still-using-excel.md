@@ -100,7 +100,7 @@ If your business shows 3 or more of these 7 signs, Excel isn't a leftover habit 
 
 ---
 
-→ **[Explore ERP Readiness Solutions](/solutions/erp-readiness)**
+→ **[Explore ERP Readiness Solutions](/en/solutions/erp-readiness)**
 
 *To understand data preparation: [ERP Data Readiness — Why "Clean Data" Is Harder Than You Think](/en/insights/erp/erp-data-readiness)*
 

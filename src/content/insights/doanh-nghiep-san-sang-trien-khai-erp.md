@@ -104,22 +104,7 @@ Những bước chuẩn bị phổ biến nhất:
 
 ---
 
-## Doanh nghiệp bạn có đang như thế này?
-
-- Các phòng ban khác nhau mô tả "cùng một quy trình" theo những cách khác nhau khi được hỏi
-- Dữ liệu nền (SKU, nhà cung cấp, khách hàng) nằm rải rác ở nhiều file Excel, và số liệu không phải lúc nào cũng khớp nhau
-- Không ai thực sự chịu trách nhiệm cập nhật SOP — tài liệu có nhưng không ai giữ nó luôn mới
-- Đã từng có nỗ lực đưa phần mềm mới vào (bất kỳ loại nào) nhưng lặng lẽ quay lại dùng Excel sau chưa đầy một năm
-- Ban lãnh đạo không thống nhất được thế nào là "hoàn thành" cho một dự án chuyển đổi số
-- Quy trình phê duyệt có trên giấy nhưng thường bị bỏ qua khi gấp thời gian
-- Không ai có thể đưa ra một con số tồn kho thống nhất mà không cần gọi điện hỏi hoặc họp lại
-- Dự án phần mềm lớn gần nhất từng vượt ngân sách hoặc không đạt mục tiêu ban đầu, và không ai thực sự hiểu vì sao
-
-Nếu doanh nghiệp bạn có từ 4/8 dấu hiệu trở lên, khoảng cách cản trở ERP thành công có thể không nằm ở phần mềm — mà ở mức độ sẵn sàng của tổ chức.
-
----
-
-Nếu bạn muốn đánh giá đầy đủ hơn — bao gồm cả chiều dữ liệu, quản trị, kế toán và đặc thù sản xuất — hãy sử dụng bộ câu hỏi dưới đây để có bức tranh cụ thể hơn về mức độ sẵn sàng của doanh nghiệp.
+Nếu bạn muốn đánh giá đầy đủ hơn — bao gồm cả chiều dữ liệu, quản trị, kế toán và đặc thù sản xuất — bộ câu hỏi dưới đây sẽ giúp bạn có bức tranh cụ thể hơn về mức độ sẵn sàng của doanh nghiệp.
 
 → **[Làm ERP Readiness Assessment](/readiness/erp)**
 

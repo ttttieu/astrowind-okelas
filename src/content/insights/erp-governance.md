@@ -95,7 +95,7 @@ Without clear governance, the natural outcome is that *nobody* owns the system. 
 - Do you have a post-implementation roadmap for the system — planned upgrades, planned investments, planned enhancements? Or is the system managed tactically?
 - How much technical debt (customizations, workarounds) exists in your ERP, and who owns the plan to address it?
 
-→ **[Explore ERP Readiness Solutions](/solutions/erp-readiness)**
+→ **[Explore ERP Readiness Solutions](/en/solutions/erp-readiness)**
 
 *To understand post-implementation adoption: [ERP User Adoption: Why People — Not Software — Determine ERP Success](/en/insights/erp/erp-user-adoption)*
 

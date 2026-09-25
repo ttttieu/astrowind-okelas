@@ -10,6 +10,7 @@
  */
 import Layout from '~/layouts/PageLayout.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
+import { trimSlash } from '~/utils/permalinks';
 
 export interface Props {
   // --- SEO ---
@@ -74,6 +75,17 @@ const {
   showSources = contentType !== 'Opening',
 } = Astro.props;
 
+// Detect current language from URL and add /en prefix if needed
+const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
+const currentLanguage = currentPath.startsWith('/en') ? 'en' : 'vi';
+
+const addLanguagePrefix = (href: string): string => {
+  if (currentLanguage === 'en' && !href.startsWith('/en')) {
+    return `/en${href}`;
+  }
+  return href;
+};
+
 // Badge color map by content type
 const typeBadgeClass: Record<string, string> = {
   Opening: 'bg-sky-100 text-sky-800 dark:bg-sky-900 dark:text-sky-200',
@@ -82,13 +94,23 @@ const typeBadgeClass: Record<string, string> = {
   Pillar: 'bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200',
 };
 
-const clusterHref: Record<string, string> = {
+const clusterHrefBase: Record<string, string> = {
   'Business & Operations': '/insights/business-operations',
   'Knowledge Management': '/insights/knowledge-management',
   ERP: '/insights/erp',
   AI: '/insights/ai',
   Compliance: '/insights/compliance',
 };
+
+const clusterHref: Record<string, string> = Object.fromEntries(
+  Object.entries(clusterHrefBase).map(([key, value]) => [key, addLanguagePrefix(value)])
+);
+
+// Add language prefix to CTA hrefs
+const ctaPrimaryHrefWithLang = ctaPrimaryHref ? addLanguagePrefix(ctaPrimaryHref) : undefined;
+const ctaSecondaryHrefWithLang = ctaSecondaryHref ? addLanguagePrefix(ctaSecondaryHref) : undefined;
+const ctaTertiaryHrefWithLang = ctaTertiaryHref ? addLanguagePrefix(ctaTertiaryHref) : undefined;
+const selfAssessmentHrefWithLang = selfAssessmentHref ? addLanguagePrefix(selfAssessmentHref) : undefined;
 ---
 
 <Layout metadata={{ title, description }}>
@@ -159,8 +181,8 @@ const clusterHref: Record<string, string> = {
             the software — it's organizational readiness."
           -->
         </slot>
-        {selfAssessmentAssessmentName && selfAssessmentHref && (
-          <a href={selfAssessmentHref} class="inline-flex items-center mt-4 text-primary font-medium hover:underline">
+        {selfAssessmentAssessmentName && selfAssessmentHrefWithLang && (
+          <a href={selfAssessmentHrefWithLang} class="inline-flex items-center mt-4 text-primary font-medium hover:underline">
             Take the {selfAssessmentAssessmentName} →
           </a>
         )}
@@ -177,17 +199,17 @@ const clusterHref: Record<string, string> = {
   </article>
 
   <!-- Block 8: CTA block (priority order: Assessment > Related article > Solution > Contact) -->
-  {ctaPrimaryHref && (
+  {ctaPrimaryHrefWithLang && (
     <CallToAction
       actions={[
-        ...(ctaPrimaryText && ctaPrimaryHref
-          ? [{ variant: 'primary' as const, text: ctaPrimaryText, href: ctaPrimaryHref, icon: 'tabler:clipboard-check' }]
+        ...(ctaPrimaryText && ctaPrimaryHrefWithLang
+          ? [{ variant: 'primary' as const, text: ctaPrimaryText, href: ctaPrimaryHrefWithLang, icon: 'tabler:clipboard-check' }]
           : []),
-        ...(ctaSecondaryText && ctaSecondaryHref
-          ? [{ variant: 'secondary' as const, text: ctaSecondaryText, href: ctaSecondaryHref, icon: 'tabler:arrow-right' }]
+        ...(ctaSecondaryText && ctaSecondaryHrefWithLang
+          ? [{ variant: 'secondary' as const, text: ctaSecondaryText, href: ctaSecondaryHrefWithLang, icon: 'tabler:arrow-right' }]
           : []),
-        ...(ctaTertiaryText && ctaTertiaryHref
-          ? [{ variant: 'secondary' as const, text: ctaTertiaryText, href: ctaTertiaryHref, icon: 'tabler:arrow-right' }]
+        ...(ctaTertiaryText && ctaTertiaryHrefWithLang
+          ? [{ variant: 'secondary' as const, text: ctaTertiaryText, href: ctaTertiaryHrefWithLang, icon: 'tabler:arrow-right' }]
           : []),
       ]}
     >

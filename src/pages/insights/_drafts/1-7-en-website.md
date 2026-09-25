@@ -140,11 +140,11 @@ If several items are unchecked, that is a signal to allocate more time and resou
 
 → **[Explore ERP Readiness Solutions](/solutions/erp-readiness)**
 
-*For customization and user adoption related to accounting, see: [ERP User Adoption](/insights/erp/erp-user-adoption)*
+*For customization and user adoption related to accounting, see: [ERP User Adoption](/en/insights/erp/erp-user-adoption)*
 
-*To understand manufacturing-specific accounting requirements, see: [Manufacturing Readiness — How Is ERP for Production Different?](/insights/erp/manufacturing-readiness)*
+*To understand manufacturing-specific accounting requirements, see: [Manufacturing Readiness — How Is ERP for Production Different?](/en/insights/erp/erp-for-manufacturing-companies)*
 
-*For the foundational perspective, see: [Why ERP Projects Fail](/insights/erp/why-erp-projects-fail)*
+*For the foundational perspective, see: [Why ERP Projects Fail](/en/insights/erp/why-erp-projects-fail)*
 
 ---
 

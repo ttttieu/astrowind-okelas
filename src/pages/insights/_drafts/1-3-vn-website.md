@@ -19,6 +19,18 @@ draft: true
 
 # Data readiness: tại sao dữ liệu "sạch" khó hơn doanh nghiệp nghĩ
 
+---
+
+## Giới thiệu
+
+→ **[Khám phá các giải pháp ERP Readiness](/solutions/erp-readiness)**
+
+*Để hiểu bối cảnh của quy trình chuẩn hóa là điều kiện tiên quyết cho sẵn sàng dữ liệu, xem: [Quy trình chưa chuẩn hóa — rủi ro lớn nhất trước khi triển khai ERP](/insights/erp/chuan-hoa-quy-trinh-truoc-erp)*
+
+*Để hiểu quản lý scope trong các dự án ERP, xem: [Scope creep trong ERP — khi dự án cứ lớn dần mà không ai kiểm soát được](/insights/erp/scope-creep-trong-du-an-erp)*
+
+*Để hiểu rõ lý do tại sao hầu hết các dự án ERP không đạt kỳ vọng, xem: [Tại sao dự án ERP không đạt mục tiêu — và vấn đề thực sự không nằm ở phần mềm](/insights/erp/tai-sao-du-an-erp-that-bai)*
+
 > **Tóm tắt cho CEO / CFO / IT Manager**
 >
 > - Data migration không phải bài toán kỹ thuật thuần túy — nó là bài toán kinh doanh.

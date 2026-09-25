@@ -82,62 +82,78 @@ This is not an unusual situation. In many SMEs, vendor master data may contain a
 
 ### Incomplete records
 
-Critical information is missing from records. Vendors lack tax ID or payment terms. Products lack cost data or standard units of measure. Customer records are missing addresses or billing information.
+Records exist but are missing fields that ERP requires. A product has a name and a price but no standardized unit of measure. A vendor has a name but no tax identification number or payment terms. A customer has a contact but no formally classified shipping address.
 
-The system may not require these fields for day-to-day operations, so their absence was never noticed until ERP configuration requires complete data.
+These look like minor details until ERP refuses to process a transaction because a mandatory field is empty.
 
-### Unmaintained history
+### Data scattered across multiple systems and sources
 
-The data has not been actively maintained for months or years. Vendor records refer to employees who have left the company. Customer information reflects relationships that have ended. Product catalogs contain obsolete SKUs.
+The product list used by sales differs from the product list used by the warehouse. Inventory figures in the accounting system differ from figures in the warehouse management tool. Customer information exists partly in a CRM, partly in spreadsheets maintained by individual sales staff, and partly in the accounting software.
 
-An organization is often surprised to discover that 20-30% of its master data is outdated or refers to entities that no longer exist.
+The question is simple but rarely has an immediate answer: *which version is correct?*
 
-### Data in multiple systems with no single source of truth
+### Inconsistent definitions
 
-Product information is in the ERP's predecessor system, but pricing is in a separate billing database. Customer information is split between the CRM system and accounting records. No one entity is authoritative, and different systems have contradictory information.
+This is a subtler problem. For example: "inventory" in the warehouse team's system might include goods in transit, while "inventory" in accounting only counts goods physically received. "Customers" in the sales system might include prospects, while ERP should only contain entities with actual transaction history.
 
-This problem typically emerges only when attempting to migrate — when someone must decide which source to trust.
+When these definitions are not resolved before migration, data enters ERP in a form that no one fully understands — and the problem only surfaces when reports start producing numbers that no one can explain.
 
----
+### Inventory records that do not match physical reality
 
-## The Hidden Cost of Data Migration
+This is a particularly serious issue for manufacturing companies. If recorded inventory does not reflect what is actually on the floor, loading that data into ERP means building the operational system on a false starting point.
 
-In a typical ERP project, data migration has three distinct phases, each with cost and time implications:
-
-**Extraction (Weeks 1-4)**
-
-Data is extracted from existing systems in its current state. This phase is typically straightforward and takes less time than anticipated. The surprise comes in the next phase.
-
-**Transformation and cleaning (Weeks 4-12+)**
-
-Data is transformed into the structure that the ERP requires. This is where the true cost emerges. Organizations discover the quality issues outlined above. Duplicates must be identified and consolidated. Incomplete records must be researched and filled in. Contradictions between systems must be resolved.
-
-This phase typically takes 2–3 times longer than initially planned. The delay is almost always due to discovery of data problems, not technical problems.
-
-**Validation and cutover (Weeks 12-16)**
-
-Data is loaded into the ERP in a test environment, validated, and then loaded into production. This phase is typically shorter but is blocked if data quality issues from the transformation phase are not resolved.
-
-**The cost of delay**: Each week of data cleanup work is a week of delayed go-live. Go-live delays incur costs throughout the organization — extended project team expenses, temporary parallel-running of old and new systems, delayed benefit realization.
+It is not uncommon for organizations to discover significant inventory discrepancies for the first time during ERP data migration preparation — after years of operations without a full physical count and reconciliation.
 
 ---
 
-## Self-Assessment: How Ready Is Your Data?
+## The Real Cost of Inadequate Data Preparation
 
-A practical starting point: select your three largest or most critical master data categories (products, vendors, and customers typically) and audit them:
+Data migration problems rarely appear as explicit risks in a project plan. They surface as other costs and consequences:
 
-- **How many duplicate or redundant records exist?** A sample audit of 100 vendors and 100 products often reveals 15-30% duplicates or near-duplicates.
-- **What percentage of records have complete information?** Spot-check 20 records across each category for completeness.
-- **When was the data last actively maintained?** When were duplicate vendor records last consolidated? When were obsolete products retired from the catalog?
-- **Is there a single authoritative source for this data?** Or does the information come from multiple systems with occasional contradictions?
+**Timeline delays.** Data cleaning taking longer than expected is one of the most common reasons go-live dates are pushed. Every week of delay carries personnel costs, implementation fees, and opportunity costs.
 
-If 20% or more of audited records have quality issues, a dedicated data cleanup project should be planned — not as part of ERP implementation, but as a separate, prerequisite initiative.
+**Business decisions made on wrong data.** After go-live, if inventory, accounts receivable, or cost reports are inaccurate, leadership either stops using ERP reports for decisions — reverting to previous methods — or makes decisions based on incorrect data. Neither outcome is acceptable.
+
+**Post go-live correction is substantially more expensive than pre-migration preparation.** Fixing master data after the system is live is significantly more complex than cleaning it before migration, because each incorrect record may already be referenced in multiple real transactions.
+
+**Loss of confidence in the system.** When users discover that ERP reports are unreliable, they stop using the system as a decision-making tool. This is one of the most difficult outcomes to recover from after go-live, because it requires rebuilding both the data and the organizational trust in the system simultaneously.
+
+---
+
+## Data Readiness Checklist — Before Starting ERP
+
+Questions to assess your current data readiness:
+
+**Product catalog / SKUs:**
+- Is the product catalog maintained centrally, or scattered across multiple sources?
+- How many product codes exist that are no longer in use but remain in the system?
+- Does each product have complete information: unit of measure, product group, pricing, and BOM where applicable?
+
+**Vendors and customers:**
+- Are there duplicate records?
+- Is mandatory information (tax identification, payment terms) complete for all active records?
+- Who is responsible for maintaining and updating these records?
+
+**Inventory:**
+- Is inventory on the books reconciled against physical counts on a regular basis?
+- What is the current level of discrepancy?
+- When was the last complete physical inventory count conducted?
+
+**Accounting:**
+- Is the chart of accounts designed to support the reporting requirements of the business?
+- Are opening balances ready to migrate?
+
+**Data governance:**
+- Is there a clear process for adding, modifying, and deactivating master data records?
+- Is there a named person or team accountable for data quality?
+
+If several of these answers are "no" or "uncertain," that is a signal to allocate significantly more time and resources to the data preparation phase — before the ERP project formally begins.
 
 → *Related: [Why Data Governance Is Cheaper Than Data Cleanup — and Why Most Organizations Don't See It Until go-live]*
 
 **Next in the series: [ERP Scope Creep — How Extra Requirements Destroy Timeline and Budget](/en/insights/erp/erp-scope-creep)**
 
-**→ [Explore ERP Readiness Solutions](/solutions/erp-readiness)**
+**→ [Explore ERP Readiness Solutions](/en/solutions/erp-readiness)**
 
 *For context on why data readiness is a prerequisite, see: [Is Your Business Actually Ready for ERP?](/en/insights/erp/is-your-business-ready-for-erp)*
 

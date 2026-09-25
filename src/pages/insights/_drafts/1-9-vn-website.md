@@ -39,6 +39,20 @@ Khoảng cách giữa hai trạng thái này thường rộng hơn nhiều so v�
 
 ---
 
+## Giới thiệu
+
+→ **[Khám phá các giải pháp ERP Readiness](/solutions/erp-readiness)**
+
+*Để hiểu perspective về change management, xem: [ERP và con người — tại sao user adoption quyết định thành bại](/insights/erp/user-adoption-erp)*
+
+*Bài tiếp theo trong chuỗi: [ERP Governance: ai chịu trách nhiệm khi ERP không hoạt động đúng?](/insights/erp/quan-tri-erp-governance)*
+
+*Để hiểu sâu hơn khoảng cách implementation vs adoption: [Từ ERP Implementation đến ERP Adoption — khoảng cách ít ai nói tới](/insights/erp/khoang-cach-trien-khai-va-ap-dung-erp)*
+
+*Để hiểu lý do cơ bản, xem: [Tại sao dự án ERP không đạt mục tiêu — và vấn đề thực sự không nằm ở phần mềm](/insights/erp/tai-sao-du-an-erp-that-bai)*
+
+---
+
 ## Ba nguyên nhân phổ biến nhất
 
 **1. ERP được cấu hình không phản ánh quy trình thực tế**

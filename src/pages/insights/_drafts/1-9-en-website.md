@@ -39,6 +39,20 @@ The distance between these two states is typically much wider than the project s
 
 ---
 
+## Introduction
+
+→ **[Explore ERP Readiness Solutions](/solutions/erp-readiness)**
+
+*For change management perspectives on this problem, see: [ERP User Adoption — Why People Determine Whether ERP Succeeds](/en/insights/erp/erp-user-adoption)*
+
+*Next in the series: [ERP Governance — Who Is Responsible When Your ERP Stops Working Properly?](/en/insights/erp/erp-governance)*
+
+*For a deeper look at implementation vs. adoption: [ERP Implementation vs. Adoption — Why Go-Live Is Just the Beginning](/en/insights/erp/erp-implementation-vs-adoption)*
+
+*For the foundational perspective, see: [Why ERP Projects Fail](/en/insights/erp/why-erp-projects-fail)*
+
+---
+
 ## Three Reasons ERP Does Not Stick
 
 **1. The system was configured for a process that doesn't match operational reality**

@@ -151,11 +151,11 @@ If several of these answers are "no" or "uncertain," that is a signal to allocat
 
 → **[Explore ERP Readiness Solutions](/solutions/erp-readiness)**
 
-*For context on process standardization as a prerequisite for data readiness, see: [Process Standardization Before ERP](/insights/erp/process-standardization-before-erp)*
+*For context on process standardization as a prerequisite for data readiness, see: [Process Standardization Before ERP](/en/insights/erp/process-standardization-before-erp)*
 
-*To understand scope management in ERP projects, see: [ERP Scope Creep — When the Project Keeps Growing Beyond the Plan](/insights/erp/erp-scope-creep)*
+*To understand scope management in ERP projects, see: [ERP Scope Creep — When the Project Keeps Growing Beyond the Plan](/en/insights/erp/erp-scope-creep)*
 
-*For the foundational perspective on why ERP projects fail, see: [Why ERP Projects Fail](/insights/erp/why-erp-projects-fail)*
+*For the foundational perspective on why ERP projects fail, see: [Why ERP Projects Fail](/en/insights/erp/why-erp-projects-fail)*
 
 ---
 

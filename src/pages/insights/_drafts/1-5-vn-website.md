@@ -19,6 +19,18 @@ draft: true
 
 # Customization ERP: ranh giới giữa linh hoạt và rủi ro
 
+---
+
+## Giới thiệu
+
+→ **[Khám phá các giải pháp ERP Readiness](/solutions/erp-readiness)**
+
+*Để xem bối cảnh quản lý scope, xem: [Scope creep trong ERP — khi dự án cứ lớn dần mà không ai kiểm soát được](/insights/erp/scope-creep-trong-du-an-erp)*
+
+*Để hiểu tác động user adoption sau customization, xem: [ERP và con người: tại sao user adoption quyết định thành bại](/insights/erp/user-adoption-erp)*
+
+*Để hiểu lý do cơ bản, xem: [Tại sao dự án ERP không đạt mục tiêu — và vấn đề thực sự không nằm ở phần mềm](/insights/erp/tai-sao-du-an-erp-that-bai)*
+
 > **Tóm tắt cho CEO / CIO / IT Manager**
 >
 > - Customization và configuration là hai thứ khác nhau — và sự phân biệt này có hậu quả dài hạn quan trọng.

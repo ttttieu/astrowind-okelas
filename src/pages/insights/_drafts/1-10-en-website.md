@@ -28,6 +28,18 @@ draft: true
 
 ---
 
+## Introduction
+
+→ **[Explore ERP Readiness Solutions](/solutions/erp-readiness)**
+
+*For broader context on user adoption and its impact on governance, see: [ERP User Adoption — Why People Determine Whether ERP Succeeds](/en/insights/erp/erp-user-adoption)*
+
+*For the post-go-live phase, see: [ERP Implementation vs. Adoption — Why Go-Live Is Just the Beginning](/en/insights/erp/erp-implementation-vs-adoption)*
+
+*For the foundational perspective, see: [Why ERP Projects Fail](/en/insights/erp/why-erp-projects-fail)*
+
+---
+
 ## ERP Does Not Run Itself
 
 There is a common implicit assumption in many ERP projects: once the system has gone live and the implementation partner has left, ERP will sustain its own value.

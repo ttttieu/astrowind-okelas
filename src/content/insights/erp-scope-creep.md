@@ -163,7 +163,7 @@ If you answer "no" to more than one of these, scope creep is likely to be a prob
 
 **Next in the series: [ERP Customization: The Line Between Flexibility and Technical Debt](/en/insights/erp/erp-customization-risks)**
 
-**→ [Explore ERP Readiness Solutions](/solutions/erp-readiness)**
+**→ [Explore ERP Readiness Solutions](/en/solutions/erp-readiness)**
 
 *For context on why requirements are difficult to pin down early, see: [Is Your Business Actually Ready for ERP?](/en/insights/erp/is-your-business-ready-for-erp)*
 

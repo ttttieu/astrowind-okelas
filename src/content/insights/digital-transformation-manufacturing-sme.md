@@ -204,7 +204,7 @@ These small steps, done correctly and in the right sequence, are real digital tr
 
 **Where is your organization in the digitalization journey — and what is the next economically meaningful step?**
 
-→ [Take the Digitalization Level Assessment](/readiness/digitalization) to identify your current position and the appropriate next steps.
+→ [Take the Digitalization Level Assessment](/en/readiness/digitalization) to identify your current position and the appropriate next steps.
 
 ---
 

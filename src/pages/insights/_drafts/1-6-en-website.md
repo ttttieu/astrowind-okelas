@@ -145,11 +145,11 @@ Elements of change management that actually work:
 
 → **[Explore ERP Readiness Solutions](/solutions/erp-readiness)**
 
-*For customization impacts on user adoption, see: [ERP Customization Risks](/insights/erp/erp-customization-risks)*
+*For customization impacts on user adoption, see: [ERP Customization Risks](/en/insights/erp/erp-customization-risks)*
 
-*To understand governance after adoption challenges, see: [ERP Governance — Who Is Responsible When ERP Does Not Work?](/insights/erp/erp-governance)*
+*To understand accounting readiness after adoption challenges, see: [Accounting Readiness for ERP — A CFO's Preparation Checklist](/en/insights/erp/accounting-readiness-erp)*
 
-*For the foundational perspective, see: [Why ERP Projects Fail](/insights/erp/why-erp-projects-fail)*
+*For the foundational perspective, see: [Why ERP Projects Fail](/en/insights/erp/why-erp-projects-fail)*
 
 ---
 

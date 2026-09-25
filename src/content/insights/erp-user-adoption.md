@@ -123,7 +123,7 @@ Elements of change management that actually work:
 - Is leadership committed to using ERP as a decision-making tool after go-live — not just treating it as an IT system?
 - Is there a clear support channel for users who encounter problems after go-live?
 
-→ **[Explore ERP Readiness Solutions](/solutions/erp-readiness)**
+→ **[Explore ERP Readiness Solutions](/en/solutions/erp-readiness)**
 
 *For customization impacts on user adoption, see: [ERP Customization: When Flexibility Becomes Long-Term Risk](/en/insights/erp/erp-customization-risks)*
 

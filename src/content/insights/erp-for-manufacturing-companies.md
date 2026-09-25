@@ -72,7 +72,7 @@ Manufacturing is not a standard business process. It has constraints and workflo
 - How much customization was required by your current system to handle your actual processes?
 - If you move to a new ERP, can you afford the customization cost, or do you need to standardize your processes to fit the software?
 
-→ **[Explore ERP Readiness Solutions](/solutions/erp-readiness)**
+→ **[Explore ERP Readiness Solutions](/en/solutions/erp-readiness)**
 
 *To understand manufacturing process readiness: [Process Standardization Before ERP: The Step Most Companies Skip](/en/insights/erp/process-standardization-before-erp)*
 

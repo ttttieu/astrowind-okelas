@@ -145,11 +145,11 @@ If several of these answers are "no" or "not sure" — those are gaps to address
 
 → **[Explore ERP Readiness Solutions](/solutions/erp-readiness)**
 
-*For context on why process standardization is critical before ERP begins, see the opening article: [Is Your Business Actually Ready for ERP?](/insights/erp/is-your-business-ready-for-erp)*
+*For context on why process standardization is critical before ERP begins, see the opening article: [Is Your Business Actually Ready for ERP?](/en/insights/erp/is-your-business-ready-for-erp)*
 
-*To dive deeper into the data side of ERP readiness, see: [ERP Data Readiness — Why "Clean Data" Is Harder Than Organizations Expect](/insights/erp/erp-data-readiness)*
+*To dive deeper into the data side of ERP readiness, see: [ERP Data Readiness — Why "Clean Data" Is Harder Than Organizations Expect](/en/insights/erp/erp-data-readiness)*
 
-*For the full landscape of why most ERP projects underperform, see the foundational pillar: [Why ERP Projects Fail](/insights/erp/why-erp-projects-fail)*
+*For the full landscape of why most ERP projects underperform, see the foundational pillar: [Why ERP Projects Fail](/en/insights/erp/why-erp-projects-fail)*
 
 ---
 

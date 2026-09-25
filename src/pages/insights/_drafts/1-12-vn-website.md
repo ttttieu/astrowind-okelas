@@ -28,6 +28,18 @@ draft: true
 
 ---
 
+## Giới thiệu
+
+→ **[Khám phá các giải pháp ERP Readiness](/solutions/erp-readiness)**
+
+*Để hiểu về cấu trúc governance cần thiết để duy trì ERP và dữ liệu: [ERP Governance: ai chịu trách nhiệm khi ERP không hoạt động đúng?](/insights/erp/quan-tri-erp-governance)*
+
+*Để hiểu giai đoạn adoption mà trước khi khai thác dữ liệu: [Từ ERP Implementation đến ERP Adoption — khoảng cách ít ai nói tới](/insights/erp/khoang-cach-trien-khai-va-ap-dung-erp)*
+
+*Để hiểu lý do cơ bản, xem: [Tại sao dự án ERP không đạt mục tiêu — và vấn đề thực sự không nằm ở phần mềm](/insights/erp/tai-sao-du-an-erp-that-bai)*
+
+---
+
 ## ERP đang tạo ra dữ liệu gì?
 
 Mỗi ngày, trong một doanh nghiệp có ERP đang hoạt động, hệ thống ghi nhận hàng trăm đến hàng ngàn sự kiện:

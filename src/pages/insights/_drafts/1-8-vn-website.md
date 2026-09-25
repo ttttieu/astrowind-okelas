@@ -19,6 +19,18 @@ draft: true
 
 # Manufacturing Readiness: ERP cho doanh nghiệp sản xuất khác gì?
 
+---
+
+## Giới thiệu
+
+→ **[Khám phá các giải pháp ERP Readiness](/solutions/erp-readiness)**
+
+*Để xem thách thức user adoption và change management đặc thù cho sản xuất, xem: [ERP và con người: tại sao user adoption quyết định thành bại](/insights/erp/user-adoption-erp)*
+
+*Để hiểu vấn đề Excel dependency, xem: [Doanh nghiệp đã có ERP nhưng vẫn chạy bằng Excel — tại sao?](/insights/erp/co-erp-van-dung-excel)*
+
+*Để hiểu lý do cơ bản, xem: [Tại sao dự án ERP không đạt mục tiêu — và vấn đề thực sự không nằm ở phần mềm](/insights/erp/tai-sao-du-an-erp-that-bai)*
+
 > **Tóm tắt cho CEO / COO / Production Manager**
 >
 > - ERP cho sản xuất có những yêu cầu đặc thù mà ERP thương mại hay dịch vụ không có hoặc không xử lý đủ tốt.

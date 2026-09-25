@@ -138,11 +138,11 @@ If you are currently in an ERP project:
 
 → **[Explore ERP Readiness Solutions](/solutions/erp-readiness)**
 
-*For the foundation on data readiness, see: [ERP Data Readiness](/insights/erp/erp-data-readiness)*
+*For the foundation on data readiness, see: [ERP Data Readiness](/en/insights/erp/erp-data-readiness)*
 
-*To understand customization risks after scope creep, see: [ERP Customization Risks — The Line Between Flexibility and Technical Debt](/insights/erp/erp-customization-risks)*
+*To understand customization risks after scope creep, see: [ERP Customization Risks — The Line Between Flexibility and Technical Debt](/en/insights/erp/erp-customization-risks)*
 
-*For the foundational perspective, see: [Why ERP Projects Fail](/insights/erp/why-erp-projects-fail)*
+*For the foundational perspective, see: [Why ERP Projects Fail](/en/insights/erp/why-erp-projects-fail)*
 
 ---
 

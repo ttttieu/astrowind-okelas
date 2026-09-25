@@ -95,7 +95,7 @@ Most manufacturing organizations operate in Phase 2 or early Phase 3, often with
 - Who has responsibility for ensuring analytical data is correct?
 - What percentage of operational decisions are made based on ERP data vs. spreadsheets or intuition?
 
-→ **[Explore ERP Readiness Solutions](/solutions/erp-readiness)**
+→ **[Explore ERP Readiness Solutions](/en/solutions/erp-readiness)**
 
 *For data preparation, see: [ERP Data Readiness — Why "Clean Data" Is Harder Than You Think](/en/insights/erp/erp-data-readiness)*
 
