@@ -24,6 +24,8 @@ draft: false
 
 ---
 
+# After ERP: Turning ERP Data Into Organizational Intelligence
+
 > **Executive Summary**
 >
 > - ERP generates a large volume of operational data every day — but most of it is used only for transaction recording, not for analysis and decision-making.

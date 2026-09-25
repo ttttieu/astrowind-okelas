@@ -1,6 +1,6 @@
 ---
-title: "ERP Implementation vs. Adoption: Why Go-Live Is Just the Beginning"
-description: "Go-live is not the finish line. Many organizations confuse completing implementation with actually realizing value from ERP. Here's what the gap looks like — and how to close it. |"
+title: "Khoảng Cách Triển Khai và Áp Dụng ERP — Yếu Tố Quyết Định Thành Công"
+description: "Một ERP có thể được triển khai kỹ thuật và vẫn thất bại về hoạt động. Triển khai là làm cho hệ thống hoạt động. Áp dụng là làm cho tổ chức sử dụng nó đúng cách. Hầu hết thất bại là các vấn đề áp dụng, không phải các vấn đề triển khai."
 publishDate: 2026-09-24T00:00:00Z
 translationId: erp-implementation-vs-adoption-gap
 lang: vi
@@ -13,151 +13,123 @@ audience:
   - COO
   - Operations Director
   - Project Manager
-primaryKeyword: "ERP implementation vs adoption |"
+primaryKeyword: "khoảng cách triển khai áp dụng ERP"
 secondaryKeywords:
-  - "ERP post go-live challenges"
-  - "ERP value realization"
-  - "ERP adoption after implementation"
-  - "maximizing ERP investment |"
+  - "thách thức triển khai ERP"
+  - "các yếu tố thành công áp dụng ERP"
+  - "kháng cự người dùng ERP"
+  - "quản lý ERP sau triển khai"
 draft: false
 ---
 
-> **Executive Summary**
+---
+
+> **Tóm tắt cho CEO**
 >
-> - Implementation ends when the system works technically. Adoption is when the system actually changes how the business operates and makes decisions.
-> - The gap between these two points is typically much wider than post-go-live announcements suggest.
-> - Most factors creating this gap are not technical problems — they are organizational, data, process, and governance problems.
-> - Closing the gap requires a deliberate post-go-live roadmap — not waiting for the system to "settle in."
+> - Triển khai (kỹ thuật go-live) và áp dụng (sử dụng kinh doanh bền vững) là các vấn đề khác nhau đòi hỏi các giải pháp khác nhau.
+> - Một ERP được triển khai thành công mà không được áp dụng tạo ra rác dữ liệu và tạo ra tê liệt ra quyết định, không phải lợi thế cạnh tranh.
+> - Các thất bại áp dụng không phải là các thất bại kỹ thuật — chúng là các thất bại tổ chức có gốc rễ trong change management không rõ ràng, những ưu tiên không phù hợp, và thiếu độ hiển thị của lãnh đạo.
+> - Các tổ chức thành công với ERP coi áp dụng là một kỷ luật vận hành nhiều năm, không phải một sự kiện đào tạo kết thúc ở go-live.
 
 ---
 
-## Introduction
+## Khoảng Cách Triển Khai/Áp Dụng
 
-→ **[Explore ERP Readiness Solutions](/solutions/erp-readiness)**
+**Triển khai ERP** = quá trình thực thi kỹ thuật triển khai phần mềm, cấu hình nó, kiểm tra nó, di chuyển dữ liệu, và go-live theo lịch trình và ngân sách.
 
-*For perspective on data quality and governance as prerequisites: [ERP Governance — Who Is Responsible When Your ERP Stops Working Properly?](/en/insights/erp/erp-governance)*
+**Áp dụng ERP** = thay đổi bền vững trong cách tổ chức thực sự tiến hành hoạt động — người dùng sử dụng hệ thống một cách chính xác, quyết định được đưa ra bằng dữ liệu hệ thống, workaround được bỏ bê, và hệ thống trở thành nguồn sự thật duy nhất.
 
-*Next in the series: [After ERP: Turning ERP Data Into Organizational Intelligence](/en/insights/erp/how-to-use-erp-data)*
+**Khoảng cách giữa hai điều này là nơi hầu hết các thất bại ERP xảy ra.**
 
-*For what happens when ERP is not adopted: [You Have ERP, But Your Team Still Runs on Excel — Here's Why](/en/insights/erp/erp-still-using-excel)*
+Hoàn toàn có thể triển khai thành công một ERP và vẫn có một triển khai thất bại. Hệ thống hoạt động. Dữ liệu chảy chính xác. Báo cáo chính xác. Nhưng tổ chức không sử dụng nó theo cách nó được thiết kế. Mọi người duy trì bảng tính song song. Các quy trình công việc quan trọng chạy bên ngoài hệ thống. Lãnh đạo ra quyết định từ Excel, không phải bảng điều khiển ERP.
 
-*For the foundational perspective, see: [Why ERP Projects Fail](/en/insights/erp/why-erp-projects-fail)*
+Ngược lại, một triển khai kỹ thuật có lỗi đôi khi có thể được mang đến thành công bởi kỷ luật áp dụng mạnh mẽ — người dùng thích ứng, làm việc xung quanh những hạn chế kỹ thuật, và hệ thống dần dần cải thiện.
 
----
-
-## When Does Implementation Actually End?
-
-In most ERP projects, the "end" is clearly defined: go-live day, when the system officially enters operation and the implementation partner hands over.
-
-But if you ask directly: *"After go-live, has the business actually been able to leverage ERP?"* — the answer is almost always more complicated.
-
-Go-live is the completion point of implementation. It is not the starting point of adoption.
-
-And the confusion between these two moments — treating go-live as the finish line rather than the beginning of a new phase — is the underlying cause of many situations where organizations "have ERP" but ERP has not actually changed how they operate.
+Dự báo mạnh nhất về thành công ERP dài hạn không phải là triển khai hoàn hảo. Nó là áp dụng bền vững.
 
 ---
 
-## What Adoption Actually Looks Like
+## Tại Sao Các Thất Bại Áp Dụng Xảy Ra
 
-To understand the gap, adoption needs to be defined not by login rates or transaction volumes — but by real changes in how the business operates and makes decisions.
+**Áp dụng được khung như đào tạo, không phải thay đổi.** Các tổ chức ngân sách cho đào tạo phần mềm — cách nhập đơn đặt hàng mua, cách chạy báo cáo. Họ ngân sách cho hỗ trợ IT trong quá trình học tập. Sau đó họ giả định áp dụng hoàn thành. Áp dụng không phải đào tạo. Mọi người có thể được đào tạo về phần mềm và vẫn chọn không sử dụng nó nếu các ưu tiên sai hoặc thay đổi quá khó.
 
-ERP adoption has occurred when:
+**Quản lý thay đổi được coi là giao tiếp, không phải lãnh đạo.** Lãnh đạo gửi một memo: "Chúng tôi có một ERP mới. Vui lòng sử dụng nó." Áp dụng đòi hỏi cam kết lãnh đạo rõ ràng — quản lý điều hành sử dụng hệ thống rõ ràng, quyết định được đưa ra dựa trên dữ liệu hệ thống, workaround được bỏ bê một cách tích cực, và người dùng đang gặp khó khăn nhận được hỗ trợ thực.
 
-- Reports from ERP are used to make actual business decisions — not just for compliance checks or periodic reporting.
-- Operational processes genuinely run through ERP — with no parallel system of spreadsheets or email handling the same transactions.
-- Data in the system is reliable enough that the CEO, COO, or CFO can use it to answer a specific business question without needing to verify it elsewhere.
-- When an operational problem arises, people look for the answer in the system first — rather than calling an experienced colleague.
-- Organizational knowledge about processes and operations is stored in the system, not held in the minds of a small group of people.
+**Các cột mốc áp dụng không được đo.** Nếu thành công chỉ được đo là "ngày go-live được đáp ứng" và "hệ thống ổn định", áp dụng là vô hình. Bao nhiêu phần trăm người dùng thực sự sử dụng hệ thống cho các quy trình công việc chính của họ? Bao nhiêu dữ liệu được nhập lại thủ công bên ngoài hệ thống? Bao nhiêu quyết định vẫn được đưa ra từ spreadsheet? Những câu hỏi này thường không được hỏi.
 
-By this definition, most organizations achieve implementation — but have not achieved adoption in its full sense.
+**Các ưu tiên không được căn chỉnh với áp dụng.** Các cá nhân và bộ phận không được khen thưởng cho áp dụng thành công. IT được khen thưởng vì ổn định (điều thường có nghĩa là đóng băng hệ thống). Các nhà quản lý kinh doanh được khen thưởng vì đạt được các mục tiêu hoạt động (mà họ có thể đạt được nhanh hơn với workaround). Cấu trúc phần thưởng không tăng cường hành vi mong muốn.
+
+**Hỗ trợ sau go-live yếu.** Đối tác triển khai rời đi. Nhóm nội bộ kiệt sức. Người dùng gặp khó khăn trong quá trình học tập nhưng không được hỗ trợ đã ngừng cố gắng và quay trở lại các phương pháp cũ. Sáu tháng ra, không có một chương trình tích cực để xác định và tập hợp lại các người dùng đang gặp khó khăn.
 
 ---
 
-## An Illustrative Scenario: What the Gap Looks Like in Practice
+## Áp Dụng Hiệu Quả Trông Như Thế Nào
 
-*Note: The following is a composite illustrative scenario, not a specific customer case.*
+**Cam kết lãnh đạo rõ ràng và sớm.** CEO, CFO, và COO sử dụng hệ thống một cách rõ ràng cho công việc riêng của họ. Họ đặt câu hỏi dựa trên dữ liệu hệ thống. Họ ra quyết định bằng cách sử dụng báo cáo hệ thống. Họ công khai từ chối chấp nhận quyết định dựa trên spreadsheet. Đây là tín hiệu áp dụng mạnh nhất mà một tổ chức có thể gửi.
 
-A food processing company with approximately 120 employees completes an ERP implementation after nine months. The system goes live with procurement, warehouse, production, sales, and accounting modules. The project is declared successful.
+**Quản lý thay đổi tích cực.** Một nhóm chuyên dụng tập trung vào áp dụng — không phải đào tạo, mà thay đổi. Xác định các rào cản đối với áp dụng. Hỗ trợ người dùng gặp khó khăn. Giao tiếp tiến bộ và chiến thắng. Công nhân và giải quyết workaround. Điều này tiếp tục ít nhất 12-24 tháng sau go-live.
 
-Six months after go-live, the actual picture:
+**Các số liệu áp dụng quan trọng.** Phần trăm người dùng hàng ngày, sử dụng dữ liệu hệ thống theo bộ phận, số lượng workaround tích cực, các xu hướng chất lượng dữ liệu, quyết định dựa trên dữ liệu hệ thống so với spreadsheet. Những điều này được theo dõi và giải quyết.
 
-**Warehouse module:** Warehouse staff enter data into ERP after each shift — but also maintain a separate Excel file to track actual inventory because "ERP often has discrepancies." Inventory figures in ERP and in the Excel file differ by as much as 5–15% in composite examples.
+**Trách nhiệm về áp dụng.** Các trưởng bộ phận được đo lường trên áp dụng trong các khu vực của họ. IT được đo lường không chỉ về thời gian hoạt động của hệ thống mà về sự hài lòng của người dùng và việc sử dụng hệ thống thực tế.
 
-**Production module:** Production orders are created in ERP, but actual production planning is still determined by floor managers based on experience. Production results are not updated into ERP in real time — they are typically entered in batches at the end of the day or end of the week.
-
-**Accounting module:** The chief accountant exports data from ERP into Excel each month to produce financial reports in the format leadership is accustomed to reading. ERP reports are not used directly.
-
-**Management reporting:** The CEO still receives reports via email from each department each week — not from an ERP dashboard.
-
-In this scenario, ERP is functioning as a parallel data storage system — not as the actual operational backbone of the business. The cost of maintaining the system is being incurred, but the expected value has not been realized.
+**Cải tiến liên tục.** Sau go-live, hệ thống không được đóng băng. Những thay đổi được thực hiện dựa trên phản hồi của người dùng. Các vấn đề hiệu suất được giải quyết. Các quy trình công việc khó hiểu được tinh chỉnh. Hệ thống được cải thiện vì nó được sử dụng tích cực và các vấn đề được nêu lên.
 
 ---
 
-## Why the Gap Exists
+## Kiểm Tra Áp Dụng 12 Tháng
 
-Looking back from the scenario above, the causes are typically interrelated:
+Nếu ERP đã thành công trong áp dụng, đây là những dấu hiệu ở 12 tháng sau go-live:
 
-**Data was not reliable enough at go-live.** When going live with insufficiently cleaned data, early discrepancies create distrust in the system — and users revert to familiar methods for safety.
+- Bảng tính cho các quy trình vận hành đã được bỏ bê; bảng tính cho phân tích tồn tại (thích hợp)
+- Người dùng gặp khó khăn đã được xác định và hiện đang sản xuất; không ai ẩn nấp khỏi hệ thống
+- Lãnh đạo đưa ra quyết định dựa trên dữ liệu hệ thống; báo cáo dựa trên spreadsheet đã giảm
+- Chất lượng dữ liệu cao đủ để tin tưởng; các chu kỳ recon đã rút ngắn hoặc trở thành không cần thiết
+- Sự hài lòng của người dùng là tích cực; hệ thống được coi là giúp đỡ, không cố ý làm tổn thương
+- Workaround đã được nêu lên và được giải quyết hoặc được chính thức chấp nhận với rủi ro được ghi chép
 
-**Configured processes don't match operational reality.** When the system requires employees to work in ways that don't fit their actual job context, they find workarounds — and the system gradually becomes something they enter data into as a formality rather than actually use.
-
-**No clear post-go-live roadmap.** The project had a detailed implementation plan — but no "phase 2" plan to continue improving adoption, address gaps discovered after go-live, and expand utilization.
-
-**Absent governance.** When no one is accountable for maintaining data quality and system configuration after go-live, small problems accumulate into larger ones over time.
-
-**ERP data is not being utilized.** ERP is storing a large volume of operational data — but if the organization has no way to query, analyze, and present that data in useful ways, the data exists without generating insight.
-
----
-
-## What the Post Go-Live Roadmap Should Include
-
-Closing the adoption gap is not a new project — it is the next phase of the ERP journey, with different objectives and methods from the implementation phase.
-
-**An honest current-state assessment.** Six to twelve months after go-live is an appropriate time for a straightforward evaluation: where is the system being used correctly, where are the gaps, and where is the largest gap? This assessment needs to look at both data (quality and completeness) and user behavior (who is using what and how).
-
-**Systematic data quality remediation.** If ERP data is not reliable, this must be the first priority — because every other adoption improvement depends on data quality.
-
-**Reporting and dashboards that leadership will actually use.** Default ERP reports are usually not what leadership needs. Investing in building reports aligned with how decisions are actually made — and getting leadership to use those reports instead of requesting manual summaries from departments — is one of the highest-leverage actions available.
-
-**Clear governance structure.** System Owner, Master Data Manager, Change Request Process, and periodic quality monitoring mechanisms — if these are not in place, they need to be established.
-
-**ERP knowledge management.** One of the least recognized challenges: after go-live, the organization needs a "memory" of how the system was configured, why those decisions were made, and how modules connect to each other. When staff turn over, this knowledge is typically lost — and with it, the organization's ability to maintain and develop the system.
+Nếu những điều này không đúng ở 12 tháng, áp dụng đang thất bại. Các bản sửa lỗi kỹ thuật tại thời điểm đó sẽ không giải quyết vấn đề. Tổ chức cần quay trở lại các nguyên tắc quản lý thay đổi cơ bản.
 
 ---
 
-## Does this describe your organization?
+## Tự Đánh Giá
 
-- Some employees keep a personal Excel "shadow system" they trust more than the ERP
-- Reports generated from ERP require manual double-checking before anyone trusts the numbers
-- New hires get taught the "real way" processes work by a colleague, not by the ERP-documented workflow
-- Certain modules or fields in the ERP are mostly empty or filled with placeholder data
-- When something goes wrong, the first instinct is to check the spreadsheet, not the system
-- Usage of the ERP drops noticeably during busy periods, reverting to old manual methods
-- Nobody has measured whether the ERP actually reduced errors or cycle time since go-live
-
-If your business shows 3 or more of these 7 signs, ERP was implemented — but not yet adopted. That gap, not a software limitation, is usually what determines whether the investment pays off.
+- Bạn vẫn sử dụng spreadsheet để ra quyết định vận hành mà ERP nên xử lý? Nếu vậy, tại sao?
+- Lãnh đạo của bạn đã thay đổi rõ ràng cách họ làm việc và sử dụng hệ thống chưa?
+- Bao nhiêu phần trăm người dùng của bạn tích cực sử dụng hệ thống hàng ngày cho các quy trình công việc chính của họ?
+- Bạn dành bao nhiêu thời gian để nhập lại dữ liệu giữa các hệ thống hoặc sửa chữa sự không nhất quán dữ liệu?
+- Bạn vẫn sử dụng workaround cho các quy trình ERP được cho là chuẩn hóa?
+- Bạn có một cấu trúc governance áp dụng chính thức 6+ tháng sau go-live?
 
 ---
 
-## From ERP to Organizational Intelligence
+## Doanh nghiệp bạn có đang như thế này?
 
-Full ERP adoption is not the ultimate destination — it is the foundation for the next phase.
+- Một số nhân viên vẫn giữ một file Excel "ngầm" mà họ tin tưởng hơn cả hệ thống ERP
+- Báo cáo xuất ra từ ERP luôn cần kiểm tra thủ công lại trước khi ai đó tin dùng số liệu
+- Nhân viên mới được đồng nghiệp chỉ "cách làm thật sự" của quy trình, thay vì học theo workflow đã ghi trong ERP
+- Một số module hoặc trường dữ liệu trong ERP gần như trống hoặc chỉ điền dữ liệu cho có
+- Khi có sự cố, phản xạ đầu tiên là mở file Excel ra kiểm tra, không phải mở hệ thống
+- Mức độ sử dụng ERP giảm rõ rệt vào giai đoạn cao điểm, quay lại làm thủ công như cũ
+- Chưa ai từng đo xem ERP có thực sự giảm sai sót hay rút ngắn thời gian xử lý kể từ khi go-live hay không
 
-When ERP data is sufficiently high quality, processes are accurately reflected, and the system is genuinely used for operations and decision-making — the business can begin to leverage that data at a deeper level: trend analysis, forecasting, decision support, and AI integration.
-
-But all of those capabilities require ERP adoption as a prerequisite. Without it, data exists but cannot be trusted enough to act on.
-
-→ *Related: [After ERP — How to Actually Use the Data You Now Have]*
-
-→ *Related: [Organizational AI — When AI Understands Your Business Rather Than Just Answering Questions]*
-
-**→ If your organization has completed ERP implementation but has not yet seen the results you expected — [contact OKELAS to discuss what the right roadmap looks like for your situation].**
+Nếu doanh nghiệp bạn có từ 3/7 dấu hiệu trở lên, ERP đã được triển khai — nhưng chưa được áp dụng thật sự. Khoảng cách đó, chứ không phải giới hạn của phần mềm, mới thường là yếu tố quyết định khoản đầu tư có sinh lời hay không.
 
 ---
 
-*This article is part of a series on ERP readiness and ERP adoption for manufacturing SMEs.*
+→ **[Khám phá các giải pháp ERP Readiness](/solutions/erp-readiness)**
 
-**Related articles:**
-- [Why ERP Projects Fail — and What the Software Cannot Fix]
-- [You Have ERP, But Your Team Still Runs on Excel. Here's Why.]
-- [After ERP: How to Actually Use the Data You Now Have]
+*Để áp dụng thách thức, xem: [ERP và Con Người — Tại Sao User Adoption Quyết Định Thành Bại](/insights/erp/user-adoption-erp)*
+
+*Để hướng dẫn quản lý thay đổi, xem: [Quy Trình Chưa Chuẩn Hóa — Rủi Ro Lớn Nhất Trước Khi Triển Khai ERP](/insights/erp/chuan-hoa-quy-trinh-truoc-erp)*
+
+*Để có quan điểm cơ bản: [Tại Sao Dự Án ERP Không Đạt Mục Tiêu](/insights/erp/tai-sao-du-an-erp-that-bai)*
+
+---
+
+*Bài viết này là một phần của chuỗi chuyên đề về ERP readiness cho doanh nghiệp sản xuất SME.*
+
+**Bài liên quan:**
+- [Tại Sao Dự Án ERP Không Đạt Mục Tiêu — và Vấn Đề Thực Sự Không Nằm Ở Phần Mềm]
+- [ERP Governance: Ai Chịu Trách Nhiệm Khi ERP Không Hoạt Động Đúng?]
+- [ERP và Con Người — Tại Sao User Adoption Quyết Định Thành Bại]
