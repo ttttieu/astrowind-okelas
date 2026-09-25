@@ -96,7 +96,7 @@ for (const article of articlesMapping.articles) {
 
         // Check if this is a translated article from data attributes
         let translationId = button.dataset.translationId || document.documentElement.dataset.translationId;
-        let translationMapStr = button.dataset.translationMap;
+        let translationMapStr = button.dataset.translationMap || document.documentElement.dataset.translationMap;
 
         if (translationId && translationMapStr) {
           try {
