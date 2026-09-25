@@ -1,0 +1,67 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Standardize Processes -- OKELAS',
+  description:
+    'SOPs exist. They\'re just not followed the same way twice. OKELAS establishes clear SOPs, explicit role assignments, and validation checkpoints across departments.',
+};
+---
+
+<Layout metadata={metadata}>
+  <HeroText
+    tagline="Solutions"
+    title="Standardize Processes"
+    subtitle="SOPs exist. They're just not followed the same way twice."
+  />
+
+  <Features3
+    columns={1}
+    
+    items={[
+      {
+        title: 'The problem',
+        description:
+          'One shift does it one way, another shift does it differently, and nobody can say with confidence which version is "the" process.',
+        icon: 'tabler:alert-circle',
+      },
+      {
+        title: 'Why it happens',
+        description:
+          'Documentation alone doesn\'t create consistency. Without clear role ownership and validation checkpoints, an SOP is a suggestion, not a standard -- and the moment a new hire, a busy day, or a supervisor change enters the picture, the gap between "documented" and "done" reappears.',
+        icon: 'tabler:zoom-question',
+      },
+      {
+        title: 'How OKELAS approaches it',
+        description:
+          'OKELAS establishes clear SOPs, explicit role assignments, and validation checkpoints across departments -- connected to the actual workflow, not filed away in a binder. This is also the step most ERP and eQMS projects skip, which is why so many run into trouble after go-live rather than before it.',
+        icon: 'tabler:bulb',
+      },
+      {
+        title: 'Quick self-check',
+        description:
+          'Ask three people from three different shifts to describe the same process. If you get three different answers, standardization -- not software -- is the gap to close first.',
+        icon: 'tabler:checkbox',
+      },
+    ]}
+  />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Take the ERP Readiness Assessment',
+        href: '/readiness/erp',
+        icon: 'tabler:clipboard-check',
+      },
+    ]}
+  >
+    <Fragment slot="title">Next step</Fragment>
+    <Fragment slot="subtitle">
+      See how process standardization affects your ERP readiness score.
+    </Fragment>
+  </CallToAction>
+</Layout>

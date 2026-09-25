@@ -1,0 +1,45 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Content from '~/components/widgets/Content.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: "Knowledge as Infrastructure, Not a Filing Cabinet -- OKELAS",
+  description: "Most companies treat knowledge management as a place to put things. OKELAS treats organizational knowledge as infrastructure -- something other systems and people build on top of.",
+};
+---
+
+<Layout metadata={metadata}>
+  <HeroText
+    tagline="Why OKELAS"
+    title="Knowledge as Infrastructure, Not a Filing Cabinet"
+  />
+
+  <Content
+    
+    content={`
+      <p>Most companies treat "knowledge management" as a place to put things -- a shared drive, a wiki, a folder structure everyone means to clean up eventually. That framing quietly limits what knowledge can do. A filing cabinet doesn't help anyone make a decision; it just holds things until someone goes looking.</p>
+
+      <p>OKELAS treats organizational knowledge as infrastructure instead -- something other systems and people build on top of, the same way they build on top of a network or a database. That means knowledge has to move through a chain: <strong>tacit knowledge &rarr; explicit knowledge &rarr; structured organizational knowledge &rarr; operational knowledge &rarr; AI-usable knowledge.</strong> Most companies get partway through this chain and stop -- an SOP gets written down (explicit), but it's never connected to who actually does the work, when, or what evidence proves it happened (operational). At that point, it's still just a filed document, not infrastructure.</p>
+
+      <p>This is also why we build around a Knowledge Graph rather than a plain document repository. Knowledge tied to people, processes, events and evidence can answer a different kind of question than a document search can -- not just "where's the SOP for this," but "who's responsible, when was it last followed, and what's the evidence it worked." For AI specifically, this is the difference between a Copilot that answers fluently and one that can <strong>explain, cite evidence, and trace</strong> its answer back to something real in your operation -- which matters considerably more in an ISO or GMP environment than a confident-sounding guess.</p>
+    `}
+  />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Take the Knowledge Readiness Assessment',
+        href: '/readiness/knowledge',
+        icon: 'tabler:clipboard-check',
+      },
+    ]}
+  >
+    <Fragment slot="title">Next</Fragment>
+    <Fragment slot="subtitle">
+      Find out how much of your operational knowledge is truly infrastructure versus filing.
+    </Fragment>
+  </CallToAction>
+</Layout>

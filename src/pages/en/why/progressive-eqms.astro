@@ -1,0 +1,51 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Content from '~/components/widgets/Content.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: "Why We Don't Start With a Complete System -- OKELAS",
+  description: "Compliance software is usually sold as a complete package. OKELAS takes the opposite approach -- starting wherever the immediate pain is worst, proving value, then extending outward.",
+};
+---
+
+<Layout metadata={metadata}>
+  <HeroText
+    tagline="Why OKELAS"
+    title="Why We Don't Start With a Complete System"
+  />
+
+  <Content
+    
+    content={`
+      <p>Compliance software is usually sold as a complete package: buy the full eQMS, implement every module, then go live. For a manufacturing SME already under ISO or GMP pressure, that's a large commitment to make before proving any of it actually fits how the business runs.</p>
+
+      <p>We take the opposite approach on purpose. "Progressive" isn't a marketing word here -- it describes the actual sequence most of our compliance-focused engagements follow: paper and shared drives, toward digital records, toward a proper eQMS, toward connected process-and-evidence, toward knowledge the business (and eventually AI) can use. A business doesn't need to commit to the whole chain to get value from the first link.</p>
+
+      <p>In practice, this means starting wherever the immediate pain is worst -- digitizing one record type that's causing audit headaches, standardizing one approval workflow, or structuring one SOP category -- and only extending outward once that piece is proven. The risk we're avoiding isn't "the eQMS doesn't work." It's the far more common failure mode: a full system gets purchased, partially configured, and then quietly runs alongside the same Excel sheets it was supposed to replace, because nobody had the bandwidth to migrate everything at once.</p>
+    `}
+  />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'See Progressive eQMS as a Service',
+        href: '/solutions/progressive-eqms',
+        icon: 'tabler:arrow-right',
+      },
+      {
+        variant: 'secondary',
+        text: 'Read More on Compliance',
+        href: '/insights/compliance',
+        icon: 'tabler:book',
+      },
+    ]}
+  >
+    <Fragment slot="title">Next</Fragment>
+    <Fragment slot="subtitle">
+      See how the progressive approach works in practice -- or read the broader analysis on compliance strategy.
+    </Fragment>
+  </CallToAction>
+</Layout>

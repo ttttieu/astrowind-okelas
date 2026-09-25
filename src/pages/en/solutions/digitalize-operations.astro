@@ -1,0 +1,67 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Digitalize Operations -- OKELAS',
+  description:
+    "Most manufacturing SMEs don't lack information -- they lack a shared, current version of it. OKELAS turns scattered manuals and unspoken routines into clear, interactive digital workflows.",
+};
+---
+
+<Layout metadata={metadata}>
+  <HeroText
+    tagline="Solutions"
+    title="Digitalize Operations"
+    subtitle="Most manufacturing SMEs don't lack information -- they lack a shared, current version of it."
+  />
+
+  <Features3
+    columns={1}
+    
+    items={[
+      {
+        title: 'The problem',
+        description:
+          'Instructions live in someone\'s head, a laminated sheet on the shop floor, or a WhatsApp message from three months ago. When that person is out, the process either stops or gets improvised.',
+        icon: 'tabler:alert-circle',
+      },
+      {
+        title: 'Why it happens',
+        description:
+          'Digitalization often gets reduced to "put it on a computer" -- scanning paper into PDFs, or moving a spreadsheet from a shared drive to another shared drive. That changes the format, not the operation. The routine itself stays unwritten, unowned and undocumented.',
+        icon: 'tabler:zoom-question',
+      },
+      {
+        title: 'How OKELAS approaches it',
+        description:
+          'OKELAS turns scattered manuals and unspoken routines into clear, interactive digital workflows -- not a one-time documentation project, but a structure that stays current because it\'s built around how the work actually happens, not how it\'s supposed to happen on paper.',
+        icon: 'tabler:bulb',
+      },
+      {
+        title: 'Quick self-check',
+        description:
+          'If a key operator left tomorrow, could someone else run their process from what\'s written down -- or only from what they remember?',
+        icon: 'tabler:checkbox',
+      },
+    ]}
+  />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Take the Digitalization Readiness Assessment',
+        href: '/readiness/digitalization',
+        icon: 'tabler:clipboard-check',
+      },
+    ]}
+  >
+    <Fragment slot="title">Next step</Fragment>
+    <Fragment slot="subtitle">
+      Find out where your operations stand and what to digitalize first.
+    </Fragment>
+  </CallToAction>
+</Layout>

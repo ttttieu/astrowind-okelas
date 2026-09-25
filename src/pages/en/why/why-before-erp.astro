@@ -1,0 +1,47 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Content from '~/components/widgets/Content.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: "Why Readiness Comes Before ERP -- OKELAS",
+  description: "Industry estimates on ERP failure rates vary widely, but one finding is consistent: the leading cause is process and organizational readiness, not the software. OKELAS addresses that gap before a heavy system connects to it.",
+};
+---
+
+<Layout metadata={metadata}>
+  <HeroText
+    tagline="Why OKELAS"
+    title="Why Readiness Comes Before ERP"
+  />
+
+  <Content
+    
+    content={`
+      <p>If you're evaluating ERP, you've probably already come across a version of this: a large share of ERP projects -- industry estimates commonly cited range as high as 50--75%, though the number varies considerably depending on how "failure" is defined, the survey population, and the year -- don't deliver what they were expected to. The figures are inconsistent enough that no single number should be taken at face value. What's more consistent across studies is the leading cause cited: process and organizational readiness, not the software itself.</p>
+
+      <p>That tracks with what we see directly. An ERP system automates whatever process you give it -- including an inconsistent one. Feed it clean, standardized process and data, and it does what it's supposed to. Feed it a patchwork of shift-specific workarounds and un-reconciled spreadsheets, and it faithfully automates the patchwork, usually at a much higher price than the manual version cost to run.</p>
+
+      <p>This is why OKELAS engagements aimed at ERP start with readiness -- standardizing process, cleansing master data, validating operational logic -- before a heavy system gets connected to any of it. It's cheaper and far less disruptive to find a process gap during a readiness assessment than three months into implementation.</p>
+
+      <p><strong>One important clarification:</strong> this doesn't mean OKELAS only matters before ERP. Once ERP is live, the same knowledge layer becomes what turns raw ERP transaction data into an ERP Knowledge Graph, a support Copilot, or an implementation assistant -- the "before" and "after" roles use the same underlying foundation. Readiness is where most companies need to start; it isn't the only place OKELAS is useful.</p>
+    `}
+  />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Take the ERP Readiness Assessment',
+        href: '/readiness/erp',
+        icon: 'tabler:clipboard-check',
+      },
+    ]}
+  >
+    <Fragment slot="title">Next</Fragment>
+    <Fragment slot="subtitle">
+      Find out exactly where your process and data gaps are before committing to an ERP project.
+    </Fragment>
+  </CallToAction>
+</Layout>

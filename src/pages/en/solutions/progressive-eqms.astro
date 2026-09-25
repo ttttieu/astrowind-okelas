@@ -1,0 +1,67 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Progressive eQMS -- OKELAS',
+  description:
+    'Build audit-ready compliance and records management structured around your actual daily work. Start where the need is most immediate, progressively extend from there.',
+};
+---
+
+<Layout metadata={metadata}>
+  <HeroText
+    tagline="Solutions"
+    title="Progressive eQMS"
+    subtitle="Audit preparation shouldn't eat weeks of a quality team's time every cycle."
+  />
+
+  <Features3
+    columns={1}
+    
+    items={[
+      {
+        title: 'The problem',
+        description:
+          'For manufacturing businesses under ISO or GMP, audit preparation can eat weeks of a quality team\'s time -- chasing signatures, reconciling paper logs, reconstructing what happened from memory when a record is missing.',
+        icon: 'tabler:alert-circle',
+      },
+      {
+        title: 'Why it happens',
+        description:
+          'A "complete" eQMS system is often positioned as an all-or-nothing implementation, which is expensive and slow to justify for an SME. So compliance work stays manual because the alternative looks like a multi-year software project.',
+        icon: 'tabler:zoom-question',
+      },
+      {
+        title: 'How OKELAS approaches it',
+        description:
+          'OKELAS builds audit-ready compliance and records management structured around your actual daily work -- starting wherever the need is most immediate (digital records, a specific ISO clause, an approval workflow) and progressively extending toward a connected operational knowledge system. No requirement to buy the full system before proving the first piece works.',
+        icon: 'tabler:bulb',
+      },
+      {
+        title: 'Quick self-check',
+        description:
+          'When was your last audit, and how many hours did preparation take versus the audit itself?',
+        icon: 'tabler:checkbox',
+      },
+    ]}
+  />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Take the Digitalization Readiness Assessment',
+        href: '/readiness/digitalization',
+        icon: 'tabler:clipboard-check',
+      },
+    ]}
+  >
+    <Fragment slot="title">Next step</Fragment>
+    <Fragment slot="subtitle">
+      Find out how ready your operations are for digital records and compliance workflows.
+    </Fragment>
+  </CallToAction>
+</Layout>

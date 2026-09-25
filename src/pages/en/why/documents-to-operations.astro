@@ -1,0 +1,47 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Content from '~/components/widgets/Content.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: "From Documents to Operations -- OKELAS",
+  description: "OKELAS started from a basic question: what actually happens between a document existing and a decision getting made correctly? The full sequence: Process to Workflow to Event to Evidence to Knowledge to Decision to Action.",
+};
+---
+
+<Layout metadata={metadata}>
+  <HeroText
+    tagline="Why OKELAS"
+    title="From Documents to Operations"
+  />
+
+  <Content
+    
+    content={`
+      <p>OKELAS didn't start as "let's build an AI chatbot." It started from a more basic, less exciting question: what actually happens between a document existing and a decision getting made correctly?</p>
+
+      <p>Most businesses go through a recognizable sequence, whether they name it or not. Paper becomes Word files and spreadsheets. Spreadsheets get digitized into a shared drive or a basic DMS -- paperless, but not yet organized. Some businesses take the next step into a proper eQMS, where records and approvals are structured. Fewer take the step after that: connecting process, workflow and evidence so that what happened is provably traceable, not just filed. And fewer still reach the final stage, where that structured operational history becomes something a person -- or an AI system -- can query, reason over, and act on.</p>
+
+      <p>Digitalization projects often stop at "paperless" and call it transformation. It isn't. Scanning a form doesn't make the process behind it any more consistent -- it just makes the inconsistency easier to store.</p>
+
+      <p>OKELAS is built around the full sequence: <strong>Process &rarr; Workflow &rarr; Event &rarr; Evidence &rarr; Knowledge &rarr; Decision &rarr; Action.</strong> Each stage only creates value once the one before it is solid. That's also why OKELAS doesn't assume every company should start at the same point -- a business already running a decent eQMS has a different starting point than one still running on shared spreadsheets, and the honest first move is figuring out which stage you're actually at.</p>
+    `}
+  />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Take the Digitalization Readiness Assessment',
+        href: '/readiness/digitalization',
+        icon: 'tabler:clipboard-check',
+      },
+    ]}
+  >
+    <Fragment slot="title">Next</Fragment>
+    <Fragment slot="subtitle">
+      Find out which stage your operations are actually at.
+    </Fragment>
+  </CallToAction>
+</Layout>

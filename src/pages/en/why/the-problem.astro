@@ -1,0 +1,47 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Content from '~/components/widgets/Content.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: "The Problem OKELAS Was Built to Solve",
+  description: "Most manufacturing SMEs aren't short on information -- they're short on the ability to turn that information into consistent action. That gap is getting wider because of AI.",
+};
+---
+
+<Layout metadata={metadata}>
+  <HeroText
+    tagline="Why OKELAS"
+    title="The Problem OKELAS Was Built to Solve"
+  />
+
+  <Content
+    
+    content={`
+      <p>Most manufacturing SMEs aren't short on information. If anything, they're drowning in it -- SOPs, spreadsheets, WhatsApp threads, inspection photos, emails with the "final_final_v3" version attached. What they're short on is the ability to turn that information into consistent action.</p>
+
+      <p>That gap is getting wider, not narrower, because of AI. A 50-person company can now generate documents at a pace that used to require 500 people. But generating more documents faster doesn't mean the business can process more decisions, catch more errors, or run more consistently. Documents were never the bottleneck -- coordination was.</p>
+
+      <p>This shows up as a familiar list of frustrations, rarely named as one problem: SOPs that exist but aren't followed the same way twice; a key employee leaving and taking undocumented judgment with them; audit preparation eating weeks; five different systems that don't talk to each other; an AI tool that answers fluently but doesn't actually know how your business runs.</p>
+
+      <p>These aren't five separate problems. They're symptoms of the same one: <strong>operational knowledge that exists, but isn't structured well enough to be used consistently -- by people or by AI.</strong> That's the specific problem OKELAS is built around, not "digital transformation" in the abstract.</p>
+    `}
+  />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'From Documents to Operations',
+        href: '/why/documents-to-operations',
+        icon: 'tabler:arrow-right',
+      },
+    ]}
+  >
+    <Fragment slot="title">Next</Fragment>
+    <Fragment slot="subtitle">
+      How OKELAS traces this back to its roots.
+    </Fragment>
+  </CallToAction>
+</Layout>

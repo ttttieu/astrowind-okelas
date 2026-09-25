@@ -1,0 +1,47 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Content from '~/components/widgets/Content.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: "Why Readiness Comes Before AI -- OKELAS",
+  description: "AI tools are easy to try and hard to trust with anything that matters operationally. The gap is usually not the AI model -- it's what the AI has to work with.",
+};
+---
+
+<Layout metadata={metadata}>
+  <HeroText
+    tagline="Why OKELAS"
+    title="Why Readiness Comes Before AI"
+  />
+
+  <Content
+    
+    content={`
+      <p>AI tools are easy to try and hard to trust with anything that matters operationally -- and for good reason. A 50-person company can now produce AI-generated content at a rate that used to require ten times the headcount. That's a genuine capability increase in output. It is not the same thing as a genuine increase in the company's ability to process more decisions correctly, which is what "becoming more capable" actually requires.</p>
+
+      <p>The gap is usually not the AI model -- it's what the AI has to work with. A system fed clean data but no organizational context can produce fluent, plausible-sounding answers that are still wrong about how your specific operation actually runs. AI readiness means having the process clarity, structured knowledge, and governance in place for an AI system's answers to be grounded in something real, not just statistically likely.</p>
+
+      <p>This is why an AI initiative that starts with "which tool should we buy" usually runs into trouble later, while one that starts with "is our knowledge and process structured enough for AI to use" tends to hold up. The second question is less exciting to answer, but it's the one that determines whether an AI Copilot becomes something operations teams actually trust with real decisions.</p>
+
+      <p><strong>One important clarification, same as with ERP:</strong> readiness work doesn't stop mattering once an AI system is deployed. Governance, evidence, and explainability (see <a href="/why/knowledge-as-infrastructure">Knowledge as Infrastructure</a>) remain the foundation an AI Copilot runs on for as long as it's in use -- this is a starting point, not a one-time gate you pass through and never revisit.</p>
+    `}
+  />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Take the AI Readiness Assessment',
+        href: '/readiness/ai',
+        icon: 'tabler:clipboard-check',
+      },
+    ]}
+  >
+    <Fragment slot="title">Next</Fragment>
+    <Fragment slot="subtitle">
+      Find out whether your organization is ready for AI -- and what to build first if not.
+    </Fragment>
+  </CallToAction>
+</Layout>

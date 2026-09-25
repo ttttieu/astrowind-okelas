@@ -1,0 +1,67 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Knowledge & AI Copilot -- OKELAS',
+  description:
+    'When a senior operator leaves, a business often doesn\'t just lose a person -- it loses years of undocumented judgment. OKELAS structures what your best people know into something durable, searchable, and usable by both people and AI.',
+};
+---
+
+<Layout metadata={metadata}>
+  <HeroText
+    tagline="Solutions"
+    title="Knowledge & AI Copilot"
+    subtitle="When an experienced employee leaves, a business often doesn't just lose a person -- it loses years of undocumented judgment calls."
+  />
+
+  <Features3
+    columns={1}
+    
+    items={[
+      {
+        title: 'The problem',
+        description:
+          'When a senior operator or long-tenured employee leaves, a business often doesn\'t just lose a person -- it loses years of undocumented judgment calls: which supplier to trust in a pinch, which shortcut is safe and which isn\'t. Separately, AI assistants can answer fluently but still get the specifics of your operation wrong, because they were never given your operation\'s actual context.',
+        icon: 'tabler:alert-circle',
+      },
+      {
+        title: 'Why it happens',
+        description:
+          'Most of what an experienced employee knows was never written down because it didn\'t need to be -- it lived in their head and in daily practice. And most AI deployments feed a model generic instructions or a pile of unstructured documents, not a structured, current picture of how the organization actually runs.',
+        icon: 'tabler:zoom-question',
+      },
+      {
+        title: 'How OKELAS approaches it',
+        description:
+          'OKELAS feeds accurate, domain-specific organizational knowledge directly to context-aware AI assistants -- structuring what your best people know into something durable, searchable, and usable by both people and AI, with evidence behind every answer rather than a plausible-sounding guess.',
+        icon: 'tabler:bulb',
+      },
+      {
+        title: 'Quick self-check',
+        description:
+          'Name one process where, if your most experienced person were unreachable for a week, the business would genuinely struggle. Is that knowledge written down anywhere today?',
+        icon: 'tabler:checkbox',
+      },
+    ]}
+  />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Take the Knowledge Readiness Assessment',
+        href: '/readiness/knowledge',
+        icon: 'tabler:clipboard-check',
+      },
+    ]}
+  >
+    <Fragment slot="title">Next step</Fragment>
+    <Fragment slot="subtitle">
+      Find out how much critical knowledge lives in people's heads versus structured systems.
+    </Fragment>
+  </CallToAction>
+</Layout>

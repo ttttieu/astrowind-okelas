@@ -65,8 +65,26 @@ for (const article of articlesMapping.articles) {
 
 <script>
   class AwLanguageSwitcher extends HTMLElement {
+    private updateButtonState() {
+      const button = this.querySelector('[data-aw-toggle-language]') as HTMLButtonElement;
+      if (!button) return;
+
+      const currentPath = window.location.pathname;
+      const currentLang = currentPath.startsWith('/en') ? 'en' : 'vi';
+      const isVietnamese = currentLang === 'vi';
+      const textSpan = button.querySelector('span.ml-2');
+
+      if (textSpan) {
+        textSpan.textContent = isVietnamese ? 'EN' : 'VI';
+      }
+    }
+
     connectedCallback() {
       const button = this.querySelector('[data-aw-toggle-language]') as HTMLButtonElement;
+
+      // Update button state on page load
+      this.updateButtonState();
+      document.addEventListener('astro:page-load', () => this.updateButtonState());
 
       button?.addEventListener('click', () => {
         // Detect current language from URL path

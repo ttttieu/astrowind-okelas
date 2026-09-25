@@ -46,6 +46,27 @@ const {
 } = Astro.props;
 
 const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
+const currentLanguage = currentPath.startsWith('/en') ? 'en' : 'vi';
+
+// Add language prefix to links if on English version
+const addLanguagePrefix = (href: string): string => {
+  if (currentLanguage === 'en' && !href.startsWith('/en')) {
+    return `/en${href}`;
+  }
+  return href;
+};
+
+const linksWithLanguage = links.map((link) => ({
+  ...link,
+  href: addLanguagePrefix(link.href || ''),
+  links: link.links?.map((sublink) => ({
+    ...sublink,
+    href: addLanguagePrefix(sublink.href || ''),
+  })),
+}));
+
+// Get home URL that respects current language
+const homeUrl = currentLanguage === 'en' ? '/en' : '/';
 
 // Compare paths without trailing slashes so the active link is detected
 // regardless of the `trailingSlash` setting (`getPermalink()` emits `/contact/`
@@ -89,7 +110,7 @@ const persistKey = `header-${Array.from(
       ]}
     >
       <div class:list={[{ 'mr-auto rtl:mr-0 rtl:ml-auto': position === 'right' }, 'flex justify-between']}>
-        <a class="flex items-center" href={getHomePermalink()}>
+        <a class="flex items-center" href={homeUrl}>
           <Logo />
         </a>
         <div class="flex items-center lg:hidden">
@@ -104,7 +125,7 @@ const persistKey = `header-${Array.from(
           class="flex flex-col lg:flex-row lg:self-center w-full lg:w-auto text-xl lg:text-[0.9375rem] tracking-[0.01rem] font-medium lg:justify-center"
         >
           {
-            links.map(({ text, href, links }) => (
+            linksWithLanguage.map(({ text, href, links }) => (
               <li class={links?.length ? 'dropdown' : ''}>
                 {links?.length ? (
                   <>
