@@ -116,13 +116,74 @@ draft: false
 - English pillars: `/en/insights/{category}/{en-slug}` (prefixed route)
 - Bilingual linkage uses `translationId` field for language switcher (not just URL prefix toggling)
 
-## 7. Safety & Verification Workflow
+## 7. Language-Aware Routing & Navigation Principles
+
+### Core Principle
+**All navigation (logo, menu links, buttons) MUST respect the current language and maintain language context during navigation.**
+
+### URL Language Detection
+- **Language indicator**: URL pathname prefix
+  - English: URL starts with `/en` → English version
+  - Vietnamese: URL does not start with `/en` → Vietnamese version
+  - Example: `/en/insights/erp` (English) vs. `/insights/erp` (Vietnamese)
+
+### Navigation Rules
+
+#### Logo Link
+- **Vietnamese version (/)**: Logo links to `/`
+- **English version (/en)**: Logo links to `/en`
+- **Rule**: Always preserve current language when clicking logo
+
+#### Menu Links
+- **Server-side logic** (`src/components/widgets/Header.astro`):
+  1. Detect current language from URL pathname: `const currentLanguage = currentPath.startsWith('/en') ? 'en' : 'vi';`
+  2. Transform all menu links to include `/en` prefix if on English version
+  3. Use helper function: `const addLanguagePrefix = (href: string) => currentLanguage === 'en' && !href.startsWith('/en') ? `/en${href}` : href;`
+  4. Apply to ALL menu sections: Why OKELAS, Solutions, Readiness, Insights, About
+
+#### Language Switcher Button
+- **Display logic**: 
+  - On Vietnamese pages: show "EN" (switch to English option)
+  - On English pages: show "VI" (switch to Vietnamese option)
+- **State update** (`src/components/common/LanguageSwitcher.astro`):
+  - Must listen to `astro:page-load` event for client-side navigation (header persists across view transitions)
+  - Update button text: `updateButtonState()` method
+  - Detect language from `window.location.pathname`
+
+### Page Structure Requirements
+
+#### For English-only Pages (Why OKELAS, Solutions, Readiness, etc.)
+- **Create alias pages** at `/en/{section}/` that mirror Vietnamese versions
+- Example structure:
+  - Vietnamese: `src/pages/why/the-problem.astro`
+  - English alias: `src/pages/en/why/the-problem.astro` (copy of Vietnamese file)
+- **Why**: Enables language-aware routing to work correctly without duplication or conditional rendering
+
+#### For Bilingual Content (Insights)
+- Maintain separate source files:
+  - `src/content/insights/` with `lang: vi` or `lang: en` frontmatter
+- Routing handled automatically:
+  - Vietnamese: `/insights/{category}/{slug}`
+  - English: `/en/insights/{category}/{slug}`
+
+### Verification Checklist
+When implementing language-aware features:
+- [ ] Logo link tested on both `/` and `/en` versions
+- [ ] All menu links tested from both language versions
+- [ ] Language switcher button displays correct text (EN ↔ VI)
+- [ ] Clicking logo from `/en` stays on `/en` (not revert to `/`)
+- [ ] Clicking menu items from `/en` stays in `/en` prefix
+- [ ] Language switcher updates after page navigation
+- [ ] New English pages exist at `/en/{section}/` if creating English-only sections
+- [ ] Build completes without errors: `npm run build`
+
+## 8. Safety & Verification Workflow
 Before finalizing any task, Claude Code CLI must perform the following:
 
-Validate all new frontmatter schemas against src/content/config.ts.
-
-Run npm run astro check and npm run build to confirm there are zero build or TypeScript errors.
-
-Ensure no unauthorized files were modified via git status.
+- Validate all new frontmatter schemas against `src/content/config.ts`
+- Run `npm run astro check` and `npm run build` to confirm zero build or TypeScript errors
+- Ensure no unauthorized files were modified via `git status`
+- For language-aware features: verify routing works on both `/` and `/en` versions
+- Test build with `npm run build` after any navigation/routing changes
 
 See [AGENTS.md](./AGENTS.md) for all project documentation and AI agent instructions.
