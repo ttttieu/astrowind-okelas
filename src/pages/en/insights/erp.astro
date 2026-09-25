@@ -88,22 +88,20 @@ const typeBadgeClass: Record<string, string> = {
                 {article.data.title}
               </div>
             </a>
-            <div class="flex flex-wrap gap-2 justify-start">
-              <span
-                class:list={[
-                  'px-2 py-1 rounded text-xs font-semibold whitespace-nowrap',
-                  typeBadgeClass[article.data.contentType] ??
-                    'bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300',
-                ]}
-              >
-                {article.data.contentType}
+            <span
+              class:list={[
+                'px-2 py-1 rounded text-xs font-semibold whitespace-nowrap',
+                typeBadgeClass[article.data.contentType] ??
+                  'bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300',
+              ]}
+            >
+              {article.data.contentType}
+            </span>
+            {article.data.funnelStage?.[0] && (
+              <span class="px-2 py-1 rounded text-xs font-medium bg-gray-50 text-gray-500 dark:bg-gray-800 dark:text-gray-400 whitespace-nowrap">
+                {article.data.funnelStage[0]}
               </span>
-              {article.data.funnelStage?.[0] && (
-                <span class="px-2 py-1 rounded text-xs font-medium bg-gray-50 text-gray-500 dark:bg-gray-800 dark:text-gray-400 whitespace-nowrap">
-                  {article.data.funnelStage[0]}
-                </span>
-              )}
-            </div>
+            )}
           </li>
         ))}
       </ul>
