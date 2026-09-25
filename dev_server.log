@@ -1,0 +1,15 @@
+
+> @arthelokyo/astrowind@1.0.0-beta.66 dev
+> astro dev
+
+Another astro dev server is already running.
+
+  URL:  http://localhost:4321
+  PID:  3984
+
+Run `astro dev stop` to stop it, or use `astro dev --force` to replace it.
+  [1mLocation:[22m
+    [4mD:\projects\okelas-com\node_modules\astro\dist\cli\dev\index.js:156:13[24m
+  [1mStack trace:[22m
+[2m    at dev (file:///D:/projects/okelas-com/node_modules/astro/dist/cli/dev/index.js:156:13)
+    at async runCommand (file:///D:/projects/okelas-com/node_modules/astro/dist/cli/index.js:183:22)[22m

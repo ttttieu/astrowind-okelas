@@ -1,6 +1,6 @@
 ---
-title: "ERP and Excel: Why Spreadsheets Survive After Go-Live"
-description: "After an ERP goes live, most organizations still use spreadsheets alongside the system. This is not a failure — it's often rational. Understanding why reveals what ERP actually can and cannot do."
+title: "Doanh nghiệp đã có ERP nhưng vẫn chạy bằng Excel — tại sao?"
+description: "Nhiều doanh nghiệp đầu tư ERP nhưng nhân viên vẫn làm việc bằng Excel. Đây không phải vấn đề phần mềm — đây là dấu hiệu của một vấn đề sâu hơn. |"
 publishDate: 2026-09-24T00:00:00Z
 translationId: erp-excel-parallel-systems
 lang: en
@@ -12,107 +12,97 @@ audience:
   - CFO
   - Operations Director
   - Finance Manager
-primaryKeyword: "ERP Excel parallel systems"
+primaryKeyword: "có ERP vẫn dùng Excel |"
 secondaryKeywords:
-  - "why spreadsheets survive ERP"
-  - "ERP vs spreadsheets"
-  - "parallel system management"
-  - "shadow IT ERP"
+  - "ERP không hiệu quả"
+  - "ERP adoption thấp"
+  - "ERP không được dùng"
+  - "sau khi triển khai ERP |"
 draft: false
 ---
 
----
+Hãy thử một bài kiểm tra nhanh.
 
-> **Executive Summary**
->
-> - Most organizations continue using spreadsheets after ERP go-live. This is the norm, not the exception.
-> - Spreadsheets persist because they solve a genuine problem that ERP cannot: rapid, flexible analysis and reporting on business-specific logic that changes frequently.
-> - ERP is designed for standardized, repeatable processes. Spreadsheets are designed for ad hoc analysis and what-if scenarios. These are different tools solving different problems.
-> - Rather than viewing spreadsheets as a failure or "shadow IT," understanding why they persist reveals what your ERP is actually good for — and what it isn't.
+Doanh nghiệp bạn đã triển khai ERP. Hệ thống đang chạy. Nhân viên có tài khoản. Nhưng nếu bạn bước vào phòng của bất kỳ bộ phận nào — kế toán, kinh doanh, kho, sản xuất — và nhìn vào màn hình của họ, bạn thấy gì?
+
+Nếu câu trả lời là Excel, email và một vài file Word — bạn không đơn độc.
 
 ---
 
-## Why Spreadsheets Don't Disappear
+## ERP được cài không có nghĩa là được dùng
 
-**ERP excels at transaction processing — moving data through standardized workflows consistently.** Enter a purchase order, it flows through approval, procurement, goods receipt, invoice matching, payment. The system enforces rules and maintains audit trails.
+Đây là khoảng cách mà ít dự án ERP nào thừa nhận công khai: *installed* và *adopted* là hai thứ hoàn toàn khác nhau.
 
-**Spreadsheets excel at flexible analysis — asking questions the system wasn't designed to answer.** "What if we moved 10% of our volume to Plant B?" "Which customers are most profitable if we include freight but exclude returns?" "How would our gross margin change if material cost went up 5%?" These are legitimate business questions that change weekly. Building them into ERP as formal reports or workflows is prohibitively expensive. Throwing data into a spreadsheet and playing with assumptions is instant.
+ERP đã cài có nghĩa là phần mềm hoạt động, dữ liệu có thể được nhập vào, và báo cáo có thể được tạo ra.
 
----
+ERP đã được adopt có nghĩa là hệ thống thực sự phản ánh cách doanh nghiệp vận hành — không phải chỉ là nơi nhập liệu sau khi công việc thực tế đã xong ở chỗ khác.
 
-## The Types of Spreadsheets That Outlive ERP
-
-**Reporting and analysis spreadsheets.** Finance pulls data from ERP, then manipulates it in Excel to answer specific business questions. This is not a failure — it's the intended use of spreadsheets. ERP provides clean data; Excel provides flexibility. The problem arises only if the spreadsheet becomes the source of truth that the organization relies on for decisions and the data in it diverges from ERP.
-
-**Operational workarounds.** The operation needs to track something that ERP doesn't track well, or needs to coordinate a process that ERP enforces poorly. A warehouse maintains an Excel sheet of inventory positions because the ERP warehouse module doesn't give them the views they need. A planning team maintains a spreadsheet master schedule because the ERP planning module doesn't model their specific production constraints. These are cries for help — the spreadsheet works; the system doesn't.
-
-**What-if planning and scenario modeling.** Business planning requires exploring alternatives: different demand scenarios, pricing strategies, production allocations. Spreadsheets are the natural tool for this. You change one assumption and watch the downstream impact cascade through the model. ERP is not designed for speculative scenarios; it's designed for recording what actually happened.
-
-**External coordination.** A supplier sends a forecast. A customer sends an order. They arrive in various formats — email, CSV, phone call. Before the data enters ERP, someone has to normalize it, check it, merge it with internal data. Spreadsheets are the staging ground. After ERP processes the transaction, someone may also export the resulting data to send back out to partners in the format they expect. Spreadsheets bridge the gap between external partners and the internal system.
+Khoảng cách giữa hai trạng thái này thường rộng hơn nhiều so với những gì dự án ERP được công bố là "thành công" phản ánh.
 
 ---
 
-## When Spreadsheets Are a Symptom of Problems
+## Giới thiệu
 
-Spreadsheets are appropriate for ad hoc analysis and external coordination. But sometimes they indicate that **the ERP implementation missed the mark.**
+→ **[Khám phá các giải pháp ERP Readiness](/solutions/erp-readiness)**
 
-**If your operational spreadsheets are doing more work than your ERP.** If warehouse staff spend more time updating an Excel sheet than using the ERP warehouse module, that's a sign the ERP configuration doesn't match the operational reality. This is not "people are resistant to change" — it's "the system doesn't support how we actually work."
+*Để hiểu perspective về change management, xem: [ERP và con người — tại sao user adoption quyết định thành bại](/insights/erp/user-adoption-erp)*
 
-**If your spreadsheets are slowly becoming systems.** A planning spreadsheet starts as a one-time analysis. Then it gets reused weekly, then daily. Formulas get more complex. Multiple people edit it. Version control breaks down. The spreadsheet that was meant to be temporary has become a critical system nobody dares modify because nobody fully understands it anymore. This is when ad hoc tools become liabilities.
+*Bài tiếp theo trong chuỗi: [ERP Governance: ai chịu trách nhiệm khi ERP không hoạt động đúng?](/insights/erp/quan-tri-erp-governance)*
 
-**If data regularly diverges between the spreadsheet and ERP.** If your "real" inventory numbers live in Excel because you don't trust ERP's counts, something is broken — either ERP is misconfigured, or your processes don't match ERP's assumptions, or data is not being entered correctly. This divergence indicates a deeper problem that needs to be fixed, not worked around.
+*Để hiểu sâu hơn khoảng cách implementation vs adoption: [Từ ERP Implementation đến ERP Adoption — khoảng cách ít ai nói tới](/insights/erp/khoang-cach-trien-khai-va-ap-dung-erp)*
 
----
-
-## The Right Question to Ask
-
-Don't ask: "Why are we still using spreadsheets after ERP go-live?" 
-
-Ask instead: "Which spreadsheets are legitimate tools for analysis, and which are symptoms of a system that isn't working?"
-
-Spreadsheets for ad hoc reporting and what-if analysis — keep them. They're doing their job.
-
-Operational spreadsheets that are doing the actual work because ERP doesn't support it well — those need investigation. Either the ERP needs to be reconfigured, or the operational process needs to be standardized so ERP can handle it.
+*Để hiểu lý do cơ bản, xem: [Tại sao dự án ERP không đạt mục tiêu — và vấn đề thực sự không nằm ở phần mềm](/insights/erp/tai-sao-du-an-erp-that-bai)*
 
 ---
 
-## Self-Assessment
+## Ba nguyên nhân phổ biến nhất
 
-- How many spreadsheets is your organization currently maintaining after ERP go-live?
-- Which ones are for analysis and what-if scenarios (legitimate)? Which ones are operational workarounds?
-- For each operational spreadsheet, why does it exist — what task is it doing that ERP doesn't do well?
-- How often is data manually entered or re-entered between systems?
-- If you lost access to these spreadsheets, how many operational decisions would be affected immediately?
+**1. ERP được cấu hình không phản ánh quy trình thực tế**
 
----
+Khi hệ thống không khớp với cách công việc thực sự diễn ra, nhân viên không từ bỏ công việc — họ từ bỏ hệ thống. Excel không từ chối yêu cầu ngoại lệ, không bắt buộc phải tuân theo quy trình phê duyệt nhiều bước, và không hiển thị thông báo lỗi khi dữ liệu không đầy đủ.
 
-## Does this describe your organization?
+Nó linh hoạt theo cách mà ERP không thể — và với người dùng đang bị áp lực vận hành, linh hoạt đó có giá trị ngay lập tức.
 
-- At least one department maintains its own "shadow" spreadsheet that people trust more than the ERP report for the same number
-- A specific report gets pulled into Excel every week to be "fixed" or reformatted before anyone actually uses it
-- Nobody can say exactly which spreadsheets are still in active use across the company
-- Some spreadsheets started as a temporary workaround during go-live and have quietly become permanent
-- Finance reconciles ERP totals against a separate spreadsheet before closing the books, every cycle
-- A key spreadsheet is maintained by one person, and nobody else fully understands how it works
-- When ERP and the spreadsheet disagree, the spreadsheet is usually treated as the "real" number
+**2. Không có đủ lý do cá nhân để thay đổi**
 
-If your business shows 3 or more of these 7 signs, Excel isn't a leftover habit — it's compensating for something ERP still isn't doing well enough. That gap is worth naming before deciding whether to fix the spreadsheet or fix the process.
+Người dùng cuối thay đổi hành vi khi họ thấy lợi ích rõ ràng từ góc độ của chính họ — không phải từ góc độ của doanh nghiệp hay của CEO.
+
+Nếu ERP làm công việc của họ phức tạp hơn mà không mang lại lợi ích rõ ràng cho họ, và không có ai thực sự yêu cầu họ dùng đúng cách — con đường ít kháng cự nhất là tiếp tục làm theo cách cũ.
+
+**3. Dữ liệu trong ERP không đáng tin — và mọi người biết điều đó**
+
+Đây là một vòng lặp tự củng cố khó phá vỡ: khi không đủ người nhập dữ liệu đúng vào ERP, dữ liệu trong hệ thống không chính xác → người khác không tin vào dữ liệu đó → họ dùng Excel riêng để lưu thông tin quan trọng → càng ít dữ liệu đúng trong ERP.
+
+Vòng lặp này không tự biến mất theo thời gian. Nếu không có can thiệp chủ động, nó thường ổn định ở trạng thái: ERP tồn tại song song với một hệ thống thực tế không chính thức chạy bằng spreadsheet.
 
 ---
 
-→ **[Explore ERP Readiness Solutions](/en/solutions/erp-readiness)**
+## Đây là triệu chứng hay nguyên nhân?
 
-*To understand data preparation: [ERP Data Readiness — Why "Clean Data" Is Harder Than You Think](/en/insights/erp/erp-data-readiness)*
+Câu hỏi quan trọng hơn không phải "tại sao nhân viên vẫn dùng Excel" — mà là: *Excel đang thay thế phần nào của ERP?*
 
-*To see adoption challenges: [ERP User Adoption: Why People — Not Software — Determine ERP Success](/en/insights/erp/erp-user-adoption)*
+Nếu Excel đang làm thay công việc của module kho — vấn đề có thể nằm ở cách module kho được cấu hình, hoặc quy trình nhập kho không phù hợp với thực tế vận hành.
 
-*For the foundational perspective: [Why ERP Projects Fail](/en/insights/erp/why-erp-projects-fail)*
+Nếu Excel đang làm thay công việc báo cáo tài chính — vấn đề có thể là dữ liệu trong ERP không đủ tin cậy để dùng trong quyết định thực tế.
+
+Nếu Excel đang được dùng để lưu thông tin mà hệ thống không có chỗ để nhập — vấn đề có thể là scope ERP chưa bao phủ đủ nghiệp vụ thực tế.
+
+Excel đang thay thế ERP ở đâu là câu hỏi giúp xác định vấn đề thực sự nằm ở đâu — và từ đó mới có thể giải quyết đúng chỗ.
 
 ---
 
-*This article is part of a series on ERP readiness for manufacturing SMEs.*
+## Bước tiếp theo
 
-**Related articles:**
-- [Why ERP Projects Fail — and What the Software Cannot Fix]
-- [ERP for Manufacturing: Why Off-the-Shelf Software Often Fails in Production]
-- [ERP Governance: Who Is Responsible When Your ERP Stops Working Properly?]
+Nếu doanh nghiệp bạn đang ở trong tình huống này, có hai hướng cần xem xét:
+
+**Tìm hiểu nguyên nhân trước khi tìm giải pháp.** Triển khai lại ERP, thay phần mềm, hoặc bắt buộc nhân viên dùng hệ thống mà không giải quyết nguyên nhân gốc rễ thường chỉ tạo ra xung đột mà không giải quyết vấn đề.
+
+**Xem xét cả hai chiều: hệ thống lẫn tổ chức.** ERP không phản ánh đúng quy trình thực tế là vấn đề của hệ thống. Nhân viên không thấy lý do để thay đổi là vấn đề của tổ chức. Phần lớn trường hợp, cả hai tồn tại cùng lúc.
+
+→ *Xem thêm: [ERP và con người — tại sao user adoption quyết định thành bại]*
+
+→ *Xem thêm: [Tại sao Excel và email trở thành hệ thống vận hành ngầm của doanh nghiệp]*
+
+**→ [Làm ERP Readiness Assessment để xác định những khoảng cách còn lại sau triển khai]**
+
+*Và nếu bạn muốn hiểu khoảng cách giữa "ERP đã triển khai" và "ERP thực sự tạo ra giá trị": [Từ ERP implementation đến ERP adoption — khoảng cách ít ai nói tới]*
