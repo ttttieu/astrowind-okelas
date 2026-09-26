@@ -10,45 +10,44 @@ import Features3 from '~/components/widgets/Features3.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'ERP Readiness -- OKELAS',
+  title: 'ERP Readiness — OKELAS',
   description:
-    'ERP implementations have a well-documented pattern of running over budget and past deadline. OKELAS validates operational logic and cleanses master data before you connect a heavy enterprise system.',
+    'Các dự án ERP nổi tiếng với việc vượt ngân sách và trễ tiến độ. OKELAS xác thực lại logic vận hành và làm sạch master data trước khi bạn kết nối một hệ thống enterprise nặng.',
 };
 ---
 
-<Layout metadata={metadata}>
+<Layout metadata={metadata} translationId="erp-readiness">
   <HeroText
-    tagline="Solutions"
+    tagline="Giải Pháp"
     title="ERP Readiness"
-    subtitle="Will this become an expensive, disruptive mess? It's a reasonable fear -- and a solvable one."
+    subtitle="Liệu chuyện này có biến thành một mớ hỗn độn tốn kém và gây xáo trộn? Đó là một nỗi lo chính đáng — và cũng là một nỗi lo có thể giải quyết được."
   />
 
   <Features3
     columns={1}
-    
     items={[
       {
-        title: 'The problem',
+        title: 'Vấn đề',
         description:
-          'Leadership teams considering ERP are often really asking a narrower question without saying it out loud: "Will this become an expensive, disruptive mess?" It\'s a reasonable fear -- ERP implementations have a well-documented pattern of running over budget and past deadline.',
+          'Ban lãnh đạo khi cân nhắc ERP thực ra thường đang tự hỏi một câu hẹp hơn, chỉ là không nói thẳng ra: "Liệu chuyện này có biến thành một mớ hỗn độn tốn kém và gây xáo trộn không?" Đó là một nỗi lo chính đáng — các dự án triển khai ERP vốn nổi tiếng với việc vượt ngân sách và trễ tiến độ.',
         icon: 'tabler:alert-circle',
       },
       {
-        title: 'Why it happens',
+        title: 'Vì sao nó xảy ra',
         description:
-          'The most consistently cited root cause across ERP industry research isn\'t the software -- it\'s unstandardized process and unclean data going into the new system. An ERP platform automates whatever process you feed it, including a broken one.',
+          'Nguyên nhân gốc rễ được nhắc tới nhất quán nhất trong các nghiên cứu ngành ERP không phải là phần mềm — mà là quy trình chưa được chuẩn hóa và dữ liệu chưa sạch khi đưa vào hệ thống mới. Một nền tảng ERP sẽ tự động hóa bất kỳ quy trình nào bạn đưa vào nó — kể cả một quy trình đang có vấn đề.',
         icon: 'tabler:zoom-question',
       },
       {
-        title: 'How OKELAS approaches it',
+        title: 'Cách OKELAS tiếp cận',
         description:
-          'OKELAS validates operational logic and cleanses master data before you connect a heavy enterprise system -- surfacing the process gaps and data issues that would otherwise turn up mid-implementation, when they\'re far more expensive to fix. This isn\'t a replacement for your ERP vendor or implementation partner; it\'s the readiness work that makes their job succeed.',
+          'OKELAS xác thực lại logic vận hành và làm sạch master data trước khi bạn kết nối một hệ thống enterprise nặng vào đó — đưa ra ánh sáng những lỗ hổng quy trình và vấn đề dữ liệu mà nếu không, sẽ chỉ lộ ra giữa chừng quá trình triển khai, khi việc sửa chúng tốn kém hơn rất nhiều. Đây không phải là thay thế cho nhà cung cấp ERP hay đối tác triển khai của bạn — đây là công việc readiness giúp cho công việc của họ thành công.',
         icon: 'tabler:bulb',
       },
       {
-        title: 'Quick self-check',
+        title: 'Tự kiểm tra nhanh',
         description:
-          'Could you produce a single, agreed answer to "how many SKUs do we have" right now, from one source, without a phone call?',
+          'Ngay lúc này, bạn có thể đưa ra một câu trả lời duy nhất, thống nhất cho câu hỏi "chúng ta đang có bao nhiêu SKU", từ một nguồn duy nhất, mà không cần gọi điện hỏi ai không?',
         icon: 'tabler:checkbox',
       },
     ]}
@@ -58,15 +57,15 @@ const metadata = {
     actions={[
       {
         variant: 'primary',
-        text: 'Take the ERP Readiness Assessment',
+        text: 'Thực Hiện Đánh Giá Readiness ERP',
         href: '/readiness/erp',
         icon: 'tabler:clipboard-check',
       },
     ]}
   >
-    <Fragment slot="title">Next step</Fragment>
+    <Fragment slot="title">Bước Tiếp Theo</Fragment>
     <Fragment slot="subtitle">
-      Find out exactly where your process and data gaps are before committing to an ERP project.
+      Xác định chính xác lỗ hổng quy trình và dữ liệu của bạn trước khi cam kết cho dự án ERP.
     </Fragment>
   </CallToAction>
 </Layout>

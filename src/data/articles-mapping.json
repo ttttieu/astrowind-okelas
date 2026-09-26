@@ -350,6 +350,19 @@
         "category": "solutions",
         "url": "/en/solutions/progressive-eqms"
       }
+    },
+    {
+      "translationId": "erp-readiness",
+      "vi": {
+        "slug": "erp-readiness",
+        "category": "solutions",
+        "url": "/solutions/erp-readiness"
+      },
+      "en": {
+        "slug": "erp-readiness",
+        "category": "solutions",
+        "url": "/en/solutions/erp-readiness"
+      }
     }
   ]
 }
