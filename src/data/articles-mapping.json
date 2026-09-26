@@ -272,6 +272,19 @@
         "category": "why",
         "url": "/en/why/knowledge-as-infrastructure"
       }
+    },
+    {
+      "translationId": "progressive-eqms",
+      "vi": {
+        "slug": "tai-sao-khong-bat-dau-hoan-chinh",
+        "category": "why",
+        "url": "/why/tai-sao-khong-bat-dau-hoan-chinh"
+      },
+      "en": {
+        "slug": "progressive-eqms",
+        "category": "why",
+        "url": "/en/why/progressive-eqms"
+      }
     }
   ]
 }

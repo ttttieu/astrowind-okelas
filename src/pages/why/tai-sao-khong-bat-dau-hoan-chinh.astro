@@ -1,0 +1,50 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Content from '~/components/widgets/Content.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: "Vì Sao Chúng Tôi Không Bắt Đầu Bằng Một Hệ Thống Hoàn Chỉnh — OKELAS",
+  description: "Phần mềm compliance thường được bán như một gói trọn vẹn. OKELAS chọn cách tiếp cận ngược lại — bắt đầu từ chỗ đau nhất, chứng minh giá trị, rồi mở rộng.",
+};
+---
+
+<Layout metadata={metadata} translationId="progressive-eqms">
+  <HeroText
+    tagline="Vì Sao Có OKELAS"
+    title="Vì Sao Chúng Tôi Không Bắt Đầu Bằng Một Hệ Thống Hoàn Chỉnh"
+  />
+
+  <Content
+    content={`
+      <p>Phần mềm compliance thường được bán như một gói trọn vẹn: mua trọn bộ eQMS, triển khai toàn bộ module, rồi mới go-live. Với một doanh nghiệp sản xuất vừa và nhỏ đang chịu áp lực ISO hoặc GMP, đó là một cam kết rất lớn phải đưa ra trước khi kịp chứng minh nó có thực sự phù hợp với cách doanh nghiệp đang vận hành hay không.</p>
+
+      <p>Chúng tôi chọn cách tiếp cận ngược lại, một cách có chủ đích. "Progressive" ở đây không phải một từ marketing — nó mô tả đúng trình tự thực tế mà phần lớn các dự án hướng tới compliance của OKELAS đi qua: từ giấy tờ và ổ đĩa dùng chung, tiến tới hồ sơ số, tiến tới một eQMS bài bản, tiến tới process và evidence được kết nối với nhau, và cuối cùng là tri thức mà doanh nghiệp — và sau này là AI — có thể sử dụng được. Doanh nghiệp không cần cam kết với toàn bộ chuỗi này ngay từ đầu mới nhận được giá trị từ mắt xích đầu tiên.</p>
+
+      <p>Trong thực tế, điều này có nghĩa là bắt đầu từ chỗ đang đau nhất — số hóa một loại hồ sơ đang gây đau đầu mỗi lần audit, chuẩn hóa một quy trình phê duyệt, hoặc cấu trúc lại một nhóm SOP cụ thể — và chỉ mở rộng ra khi mắt xích đó đã chứng minh được hiệu quả. Rủi ro mà chúng tôi đang tránh không phải là "eQMS không hoạt động". Đó là một kiểu thất bại phổ biến hơn nhiều: một hệ thống đầy đủ được mua về, cấu hình dở dang, rồi âm thầm chạy song song với chính những file Excel mà nó lẽ ra phải thay thế — chỉ vì không ai đủ nguồn lực để migrate mọi thứ cùng một lúc.</p>
+    `}
+  />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Khám Phá eQMS Tiến Tiến',
+        href: '/solutions/progressive-eqms',
+        icon: 'tabler:arrow-right',
+      },
+      {
+        variant: 'secondary',
+        text: 'Đọc Thêm Về Compliance',
+        href: '/insights/compliance',
+        icon: 'tabler:book',
+      },
+    ]}
+  >
+    <Fragment slot="title">Tiếp Theo</Fragment>
+    <Fragment slot="subtitle">
+      Xem cách tiếp cận tiến tiến hoạt động trong thực tế — hoặc đọc phân tích rộng hơn về chiến lược compliance.
+    </Fragment>
+  </CallToAction>
+</Layout>
