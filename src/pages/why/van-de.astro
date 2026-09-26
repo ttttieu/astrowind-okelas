@@ -1,0 +1,46 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Content from '~/components/widgets/Content.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: "Vấn đề Mà OKELAS Sinh Ra Để Giải Quyết",
+  description: "Phần lớn doanh nghiệp sản xuất vừa và nhỏ không thiếu thông tin -- họ đang ngập trong đó. Cái họ thiếu là khả năng biến toàn bộ thông tin đó thành hành động nhất quán.",
+};
+---
+
+<Layout metadata={metadata}>
+  <HeroText
+    tagline="Vì Sao Có OKELAS"
+    title="Vấn đề Mà OKELAS Sinh Ra Để Giải Quyết"
+  />
+
+  <Content
+    content={`
+      <p>Phần lớn doanh nghiệp sản xuất vừa và nhỏ không thiếu thông tin. Ngược lại, họ đang ngập trong đó — SOP, file Excel, tin nhắn Zalo/WhatsApp, ảnh chụp kiểm tra, email đính kèm bản "final_final_v3". Cái họ thiếu là khả năng biến toàn bộ thông tin đó thành hành động nhất quán.</p>
+
+      <p>Khoảng cách này đang ngày càng rộng ra, không hẹp lại — vì AI. Một doanh nghiệp 50 người giờ có thể tạo ra khối lượng văn bản ngang một doanh nghiệp 500 người. Nhưng tạo văn bản nhanh hơn không có nghĩa doanh nghiệp xử lý được nhiều quyết định hơn, phát hiện lỗi tốt hơn, hay vận hành nhất quán hơn. Tài liệu chưa bao giờ là điểm nghẽn. Điểm nghẽn luôn là sự phối hợp.</p>
+
+      <p>Vấn đề này thể hiện qua một danh sách quen thuộc, mà hiếm khi được gọi đúng tên là cùng một gốc: SOP có nhưng mỗi lần thực thi lại khác nhau; một nhân sự chủ chốt nghỉ việc và mang theo phán đoán, kinh nghiệm chưa từng được ghi lại; chuẩn bị audit tốn hàng tuần; năm hệ thống phần mềm không nói chuyện được với nhau; một công cụ AI trả lời rất trôi chảy nhưng thực ra không hiểu doanh nghiệp bạn đang vận hành như thế nào.</p>
+
+      <p>Đây không phải năm vấn đề riêng lẻ. Đó là năm biểu hiện của cùng một vấn đề: <strong>tri thức vận hành đang tồn tại, nhưng chưa được cấu trúc đủ tốt để dùng được một cách nhất quán — dù là bởi con người hay bởi AI.</strong> Đây chính là vấn đề cụ thể mà OKELAS được xây dựng để giải quyết, chứ không phải "chuyển đổi số" một cách chung chung.</p>
+    `}
+  />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Từ Tài Liệu Đến Vận Hành',
+        href: '/why/documents-to-operations',
+        icon: 'tabler:arrow-right',
+      },
+    ]}
+  >
+    <Fragment slot="title">Tiếp Theo</Fragment>
+    <Fragment slot="subtitle">
+      OKELAS truy nguyên vấn đề này như thế nào.
+    </Fragment>
+  </CallToAction>
+</Layout>
