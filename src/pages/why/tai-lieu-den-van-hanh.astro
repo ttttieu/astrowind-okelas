@@ -1,0 +1,46 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Content from '~/components/widgets/Content.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: "Từ Tài Liệu Đến Vận Hành — OKELAS",
+  description: "OKELAS bắt đầu từ câu hỏi cơ bản: giữa lúc một tài liệu tồn tại và lúc một quyết định được đưa ra đúng, thực sự đã xảy ra những gì? Chuỗi đầy đủ: Process → Workflow → Event → Evidence → Knowledge → Decision → Action.",
+};
+---
+
+<Layout metadata={metadata} translationId="documents-to-operations">
+  <HeroText
+    tagline="Vì Sao Có OKELAS"
+    title="Từ Tài Liệu Đến Vận Hành"
+  />
+
+  <Content
+    content={`
+      <p>OKELAS không bắt đầu từ ý tưởng "xây một chatbot AI". Nó bắt đầu từ một câu hỏi cơ bản hơn nhiều, và không hề hào nhoáng: giữa lúc một tài liệu tồn tại và lúc một quyết định được đưa ra đúng, thực sự đã xảy ra những gì?</p>
+
+      <p>Phần lớn doanh nghiệp đều đi qua một trình tự khá quen thuộc, dù có gọi tên nó hay không. Giấy tờ trở thành file Word, file Excel. File Excel được số hóa lên một ổ đĩa dùng chung hoặc một hệ thống DMS đơn giản — không còn giấy, nhưng chưa được tổ chức. Một số doanh nghiệp tiến thêm một bước, lên eQMS bài bản, nơi hồ sơ và phê duyệt được cấu trúc rõ ràng. Ít doanh nghiệp hơn đi tiếp bước sau đó: kết nối process, workflow và evidence, để những gì đã xảy ra có thể chứng minh được là có thật, chứ không chỉ là được lưu trữ. Và càng ít doanh nghiệp hơn nữa chạm tới giai đoạn cuối cùng, nơi toàn bộ lịch sử vận hành đã được cấu trúc đó trở thành thứ mà một con người — hoặc một hệ thống AI — có thể truy vấn, suy luận và hành động dựa trên đó.</p>
+
+      <p>Nhiều dự án chuyển đổi số dừng lại ở "không còn giấy" và gọi đó là chuyển đổi. Không phải vậy. Scan một biểu mẫu không làm cho quy trình phía sau nó nhất quán hơn — nó chỉ khiến sự thiếu nhất quán đó dễ lưu trữ hơn mà thôi.</p>
+
+      <p>OKELAS được xây dựng xoay quanh toàn bộ chuỗi này: <strong>Process → Workflow → Event → Evidence → Knowledge → Decision → Action.</strong> Mỗi giai đoạn chỉ tạo ra giá trị khi giai đoạn trước nó đã vững. Đây cũng là lý do OKELAS không mặc định mọi doanh nghiệp phải bắt đầu từ cùng một điểm — một doanh nghiệp đã vận hành eQMS tương đối tốt có điểm xuất phát khác hẳn một doanh nghiệp vẫn đang chạy bằng file Excel dùng chung. Và bước đi đầu tiên trung thực nhất là xác định rõ: doanh nghiệp mình thực sự đang ở giai đoạn nào.</p>
+    `}
+  />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Tri Thức Là Cơ Sở Hạ Tầng',
+        href: '/why/knowledge-as-infrastructure',
+        icon: 'tabler:arrow-right',
+      },
+    ]}
+  >
+    <Fragment slot="title">Tiếp Theo</Fragment>
+    <Fragment slot="subtitle">
+      Cách OKELAS truy nguyên vấn đề này.
+    </Fragment>
+  </CallToAction>
+</Layout>

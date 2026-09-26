@@ -246,6 +246,19 @@
         "category": "why",
         "url": "/en/why/the-problem"
       }
+    },
+    {
+      "translationId": "documents-to-operations",
+      "vi": {
+        "slug": "tai-lieu-den-van-hanh",
+        "category": "why",
+        "url": "/why/tai-lieu-den-van-hanh"
+      },
+      "en": {
+        "slug": "documents-to-operations",
+        "category": "why",
+        "url": "/en/why/documents-to-operations"
+      }
     }
   ]
 }
