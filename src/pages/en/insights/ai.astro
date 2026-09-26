@@ -1,0 +1,135 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Content from '~/components/widgets/Content.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import { getArticlesByCategory } from '~/lib/insights';
+
+const metadata = {
+  title: 'AI — OKELAS Insights',
+  description:
+    "What separates AI that generates content from AI that an operations team can actually trust with a decision — readiness, agentic AI, Copilots, and organizational AI.",
+};
+
+const { grouped } = await getArticlesByCategory('en');
+let aiArticles = grouped.ai || [];
+
+// Define article order: pillars first, then analysis articles
+const articleOrder: Record<string, number> = {
+  'organizational-ai-readiness': 0, // PILLAR 1
+  'enterprise-ai-control-layer': 1, // PILLAR 2
+  'ai-productivity-paradox': 2, // 2.1
+  'ai-productivity-vs-organizational-intelligence': 3, // 2.2
+  'rag-limitations-enterprise-ai': 4, // 2.3
+  'ai-readiness-checklist': 5, // 2.4
+  'data-without-context-ai-problem': 6, // 2.5
+  'ai-agents-for-business': 7, // 2.6
+  'evidence-based-ai': 8, // 2.7
+  'ai-implementation-roadmap-manufacturing': 9, // 2.8
+  'ai-compliance-iso-gmp-manufacturing': 10, // 2.9
+  'organizational-ai': 11, // 2.10
+};
+
+// Sort articles by order
+aiArticles.sort((a, b) => {
+  const orderA = articleOrder[a.id] ?? 999;
+  const orderB = articleOrder[b.id] ?? 999;
+  return orderA - orderB;
+});
+
+// Badge colors
+const typeBadgeClass: Record<string, string> = {
+  Opening: 'bg-sky-100 text-sky-800 dark:bg-sky-900 dark:text-sky-200',
+  Analysis: 'bg-violet-100 text-violet-800 dark:bg-violet-900 dark:text-violet-200',
+  'Case & Evidence': 'bg-amber-100 text-amber-800 dark:bg-amber-900 dark:text-amber-200',
+  Pillar: 'bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200',
+};
+---
+
+<Layout metadata={metadata}>
+  <HeroText tagline="Insights" title="AI" />
+
+  <Content
+    content={`
+      <p>AI can now help a small team produce output that used to take a much larger one. But that's not the same as the organization becoming more capable — and for a lot of businesses, the gap between "we use AI" and "AI is actually useful in daily operations" is bigger than it looks. This category is about closing that gap: readiness, agentic AI, Copilots, and what it takes for AI to understand a specific business instead of just answering questions fluently.</p>
+
+      <p class="mt-6">
+        <strong>Start here — Pillar articles:</strong>
+      </p>
+      <ul class="mt-2 space-y-1">
+        <li><a href="/en/insights/ai/organizational-ai-readiness" class="text-primary hover:underline">AI Readiness: Why AI Alone Won't Make Your Organization More Intelligent →</a></li>
+        <li><a href="/en/insights/ai/enterprise-ai-control-layer" class="text-primary hover:underline">How Far Should AI Be Allowed to Go? The Enterprise Case for an AI Control Layer →</a></li>
+      </ul>
+
+      <p class="mt-5">
+        <strong>Why OKELAS perspective:</strong>
+        <a href="/en/why/why-before-ai" class="text-primary hover:underline ml-1">Why Before AI — what readiness means before deploying AI →</a>
+      </p>
+
+      <p class="mt-3">
+        <strong>Assess it:</strong>
+        <a href="/en/readiness/ai" class="text-primary hover:underline ml-1">Take the AI Readiness Assessment →</a>
+      </p>
+
+      <div class="mt-8">
+        <p class="font-semibold mb-3">Topics we're covering here <span class="font-normal text-muted">(more added regularly):</span></p>
+        <ul class="space-y-2 text-muted">
+          <li>AI readiness — the conditions that determine whether AI is actually useful yet</li>
+          <li>AI in operations — where it helps today, and where it's still not reliable enough</li>
+          <li>Copilot — what makes an AI assistant trustworthy for real operational questions</li>
+          <li>Agentic AI — what changes when AI doesn't just answer, but acts</li>
+          <li>Organizational AI — the difference between AI that's smart and AI that understands your business</li>
+        </ul>
+      </div>
+    `}
+  />
+
+  <div class="relative not-prose scroll-mt-[72px]">
+    <div class="relative mx-auto px-4 sm:px-6 py-8 md:py-12" style="max-width: 900.5px;">
+      <div>
+        <h2 class="text-2xl font-bold mb-6 text-slate-900 dark:text-white">All AI articles</h2>
+      <ul class="space-y-4">
+        {aiArticles.map((article) => (
+          <li key={article.id} class="flex items-start gap-4 group">
+            <a
+              href={`/en/insights/${article.data.category}/${article.id}`}
+              class="flex-1 hover:underline"
+            >
+              <div class="font-medium text-slate-900 dark:text-white group-hover:text-primary transition-colors">
+                {article.data.title}
+              </div>
+            </a>
+            {article.data.funnelStage?.[0] && (
+              <span class="px-2 py-1 rounded text-xs font-medium bg-gray-50 text-gray-500 dark:bg-gray-800 dark:text-gray-400 whitespace-nowrap">
+                {article.data.funnelStage[0]}
+              </span>
+            )}
+          </li>
+        ))}
+      </ul>
+      </div>
+    </div>
+  </div>
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'AI Readiness Assessment',
+        href: '/en/readiness/ai',
+        icon: 'tabler:clipboard-check',
+      },
+      {
+        variant: 'secondary',
+        text: 'AI Readiness Solution',
+        href: '/en/solutions/ai-readiness',
+        icon: 'tabler:arrow-right',
+      },
+    ]}
+  >
+    <Fragment slot="title">Is your organization ready for AI?</Fragment>
+    <Fragment slot="subtitle">
+      The AI Readiness Assessment evaluates the six conditions that determine whether AI can deliver real operational value — or just generate output faster.
+    </Fragment>
+  </CallToAction>
+</Layout>
