@@ -29,12 +29,14 @@ const articleOrder: Record<string, number> = {
   'organizational-ai-doanh-nghiep': 10, // 2.10
 };
 
-// Sort articles by order
-aiArticles.sort((a, b) => {
-  const orderA = articleOrder[a.id] ?? 999;
-  const orderB = articleOrder[b.id] ?? 999;
-  return orderA - orderB;
-});
+// Filter articles to only include those in articleOrder, then sort by order
+aiArticles = aiArticles
+  .filter((article) => article.id in articleOrder)
+  .sort((a, b) => {
+    const orderA = articleOrder[a.id] ?? 999;
+    const orderB = articleOrder[b.id] ?? 999;
+    return orderA - orderB;
+  });
 
 // Badge colors
 const typeBadgeClass: Record<string, string> = {
