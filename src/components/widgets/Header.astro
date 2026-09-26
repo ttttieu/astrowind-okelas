@@ -13,6 +13,7 @@ import type { CallToAction } from '~/types';
 interface Link {
   text?: string;
   href?: string;
+  hrefEn?: string;
   ariaLabel?: string;
   icon?: string;
 }
@@ -48,26 +49,28 @@ const {
 const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
 const currentLanguage = currentPath.startsWith('/en') ? 'en' : 'vi';
 
-// Add language prefix to links if on English version
-const addLanguagePrefix = (href: string): string => {
-  if (currentLanguage === 'en' && !href.startsWith('/en')) {
-    return `/en${href}`;
+// Add language prefix to links if on English version, or use hrefEn if available
+const addLanguagePrefix = (link: Link): string => {
+  const href = link.href || '';
+  if (currentLanguage === 'en') {
+    // Use hrefEn if specified for English, otherwise add /en prefix
+    return link.hrefEn || (href.startsWith('/en') ? href : `/en${href}`);
   }
   return href;
 };
 
 const linksWithLanguage = links.map((link) => ({
   ...link,
-  href: addLanguagePrefix(link.href || ''),
+  href: addLanguagePrefix(link),
   links: link.links?.map((sublink) => ({
     ...sublink,
-    href: addLanguagePrefix(sublink.href || ''),
+    href: addLanguagePrefix(sublink),
   })),
 }));
 
 const actionsWithLanguage = actions.map((action) => ({
   ...action,
-  href: addLanguagePrefix(action.href || ''),
+  href: addLanguagePrefix(action),
 }));
 
 // Get home URL that respects current language

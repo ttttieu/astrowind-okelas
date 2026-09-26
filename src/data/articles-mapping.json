@@ -233,6 +233,19 @@
         "category": "erp",
         "url": "/en/insights/erp/how-to-use-erp-data"
       }
+    },
+    {
+      "translationId": "why-the-problem",
+      "vi": {
+        "slug": "van-de",
+        "category": "why",
+        "url": "/why/van-de"
+      },
+      "en": {
+        "slug": "the-problem",
+        "category": "why",
+        "url": "/en/why/the-problem"
+      }
     }
   ]
 }

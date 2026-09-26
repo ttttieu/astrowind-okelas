@@ -9,12 +9,13 @@ import type { MetaData } from '~/types';
 
 export interface Props {
   metadata?: MetaData;
+  translationId?: string;
 }
 
-const { metadata } = Astro.props;
+const { metadata, translationId } = Astro.props;
 ---
 
-<Layout metadata={metadata}>
+<Layout metadata={metadata} translationId={translationId}>
   <slot name="head" slot="head" />
   <slot name="announcement" />
   {Astro.slots.has('header') ? <slot name="header" /> : <Header {...headerData} isSticky showRssFeed={false} showToggleTheme />}

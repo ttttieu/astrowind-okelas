@@ -3,7 +3,7 @@ export const headerData = {
     {
       text: 'Why OKELAS',
       links: [
-        { text: 'The Problem', href: '/why/the-problem' },
+        { text: 'The Problem', href: '/why/van-de', hrefEn: '/en/why/the-problem' },
         { text: 'From Documents to Operations', href: '/why/documents-to-operations' },
         { text: 'Knowledge as Infrastructure', href: '/why/knowledge-as-infrastructure' },
         { text: 'Progressive eQMS', href: '/why/progressive-eqms' },
