@@ -432,9 +432,9 @@
     {
       "translationId": "ai-productivity-vs-organizational-intelligence",
       "vi": {
-        "slug": "ai-productivity-vs-organizational-intelligence-vi",
+        "slug": "ai-nang-suat-va-tri-thuc-tong-the",
         "category": "ai",
-        "url": "/insights/ai/ai-productivity-vs-organizational-intelligence-vi"
+        "url": "/insights/ai/ai-nang-suat-va-tri-thuc-tong-the"
       },
       "en": {
         "slug": "ai-productivity-vs-organizational-intelligence",
@@ -445,14 +445,27 @@
     {
       "translationId": "rag-limitations-enterprise-ai",
       "vi": {
-        "slug": "rag-limitations-enterprise-ai-vi",
+        "slug": "rag-la-gi-han-che-ai",
         "category": "ai",
-        "url": "/insights/ai/rag-limitations-enterprise-ai-vi"
+        "url": "/insights/ai/rag-la-gi-han-che-ai"
       },
       "en": {
         "slug": "rag-limitations-enterprise-ai",
         "category": "ai",
         "url": "/en/insights/ai/rag-limitations-enterprise-ai"
+      }
+    },
+    {
+      "translationId": "ai-readiness-checklist",
+      "vi": {
+        "slug": "dieu-kien-trien-khai-ai-van-hanh",
+        "category": "ai",
+        "url": "/insights/ai/dieu-kien-trien-khai-ai-van-hanh"
+      },
+      "en": {
+        "slug": "ai-readiness-checklist",
+        "category": "ai",
+        "url": "/en/insights/ai/ai-readiness-checklist"
       }
     }
   ]
