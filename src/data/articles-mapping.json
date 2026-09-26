@@ -428,6 +428,19 @@
         "category": "ai",
         "url": "/en/insights/ai/ai-productivity-paradox"
       }
+    },
+    {
+      "translationId": "ai-productivity-vs-organizational-intelligence",
+      "vi": {
+        "slug": "ai-productivity-vs-organizational-intelligence-vi",
+        "category": "ai",
+        "url": "/insights/ai/ai-productivity-vs-organizational-intelligence-vi"
+      },
+      "en": {
+        "slug": "ai-productivity-vs-organizational-intelligence",
+        "category": "ai",
+        "url": "/en/insights/ai/ai-productivity-vs-organizational-intelligence"
+      }
     }
   ]
 }
