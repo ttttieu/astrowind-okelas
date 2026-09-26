@@ -2,7 +2,7 @@
 name = "okelas-assessment"
 version = "1.0.0"
 description = "OKELAS Assessment API for Vercel deployment"
-requires-python = ">=3.10"
+requires-python = ">=3.12"
 dependencies = [
     "fastapi>=0.110",
     "uvicorn[standard]>=0.29",
