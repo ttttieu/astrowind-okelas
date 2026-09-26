@@ -441,6 +441,19 @@
         "category": "ai",
         "url": "/en/insights/ai/ai-productivity-vs-organizational-intelligence"
       }
+    },
+    {
+      "translationId": "rag-limitations-enterprise-ai",
+      "vi": {
+        "slug": "rag-limitations-enterprise-ai-vi",
+        "category": "ai",
+        "url": "/insights/ai/rag-limitations-enterprise-ai-vi"
+      },
+      "en": {
+        "slug": "rag-limitations-enterprise-ai",
+        "category": "ai",
+        "url": "/en/insights/ai/rag-limitations-enterprise-ai"
+      }
     }
   ]
 }
