@@ -376,6 +376,19 @@
         "category": "solutions",
         "url": "/en/solutions/ai-readiness"
       }
+    },
+    {
+      "translationId": "knowledge-copilot",
+      "vi": {
+        "slug": "knowledge-copilot",
+        "category": "solutions",
+        "url": "/solutions/knowledge-copilot"
+      },
+      "en": {
+        "slug": "knowledge-copilot",
+        "category": "solutions",
+        "url": "/en/solutions/knowledge-copilot"
+      }
     }
   ]
 }

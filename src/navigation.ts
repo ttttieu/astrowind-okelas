@@ -19,7 +19,7 @@ export const headerData = {
         { text: 'Progressive eQMS', href: '/solutions/progressive-eqms', hrefEn: '/en/solutions/progressive-eqms' },
         { text: 'ERP Readiness', href: '/solutions/erp-readiness', hrefEn: '/en/solutions/erp-readiness' },
         { text: 'AI Readiness', href: '/solutions/ai-readiness', hrefEn: '/en/solutions/ai-readiness' },
-        { text: 'Knowledge & Copilot', href: '/solutions/knowledge-copilot' },
+        { text: 'Knowledge & Copilot', href: '/solutions/knowledge-copilot', hrefEn: '/en/solutions/knowledge-copilot' },
         { text: 'Workflow Automation', href: '/solutions/workflow-automation' },
       ],
     },
