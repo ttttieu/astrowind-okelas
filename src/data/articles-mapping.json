@@ -532,6 +532,19 @@
         "category": "ai",
         "url": "/en/insights/ai/ai-compliance-iso-gmp-manufacturing"
       }
+    },
+    {
+      "translationId": "organizational-ai",
+      "vi": {
+        "slug": "organizational-ai-doanh-nghiep",
+        "category": "ai",
+        "url": "/insights/ai/organizational-ai-doanh-nghiep"
+      },
+      "en": {
+        "slug": "organizational-ai",
+        "category": "ai",
+        "url": "/en/insights/ai/organizational-ai"
+      }
     }
   ]
 }
