@@ -5,7 +5,7 @@ export const headerData = {
       links: [
         { text: 'The Problem', href: '/why/van-de', hrefEn: '/en/why/the-problem' },
         { text: 'From Documents to Operations', href: '/why/tai-lieu-den-van-hanh', hrefEn: '/en/why/documents-to-operations' },
-        { text: 'Knowledge as Infrastructure', href: '/why/knowledge-as-infrastructure' },
+        { text: 'Knowledge as Infrastructure', href: '/why/tri-thuc-la-ha-tang', hrefEn: '/en/why/knowledge-as-infrastructure' },
         { text: 'Progressive eQMS', href: '/why/progressive-eqms' },
         { text: 'Why Before ERP', href: '/why/why-before-erp' },
         { text: 'Why Before AI', href: '/why/why-before-ai' },

@@ -1,0 +1,44 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Content from '~/components/widgets/Content.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: "Tri Thức Là Hạ Tầng, Không Phải Tủ Hồ Sơ — OKELAS",
+  description: "Tri thức tổ chức là hạ tầng mà các hệ thống khác và con người có thể xây dựng lên trên, chứ không chỉ là một nơi để lưu trữ tài liệu.",
+};
+---
+
+<Layout metadata={metadata} translationId="knowledge-as-infrastructure">
+  <HeroText
+    tagline="Vì Sao Có OKELAS"
+    title="Tri Thức Là Hạ Tầng, Không Phải Tủ Hồ Sơ"
+  />
+
+  <Content
+    content={`
+      <p>Phần lớn doanh nghiệp coi "quản lý tri thức" đơn giản là một chỗ để cất đồ — một ổ đĩa dùng chung, một wiki, một cấu trúc folder mà ai cũng định bụng sẽ dọn dẹp lại một ngày nào đó. Cách hiểu này, dù không cố ý, đã tự giới hạn những gì tri thức có thể làm được. Một tủ hồ sơ không giúp ai ra quyết định cả — nó chỉ giữ đồ ở đó cho tới khi có người đi tìm.</p>
+
+      <p>OKELAS coi tri thức tổ chức là hạ tầng, thay vì một chỗ lưu trữ — thứ mà các hệ thống khác và con người có thể xây dựng lên trên, giống cách người ta xây trên một hạ tầng mạng hay một cơ sở dữ liệu. Điều đó có nghĩa tri thức phải đi qua một chuỗi: <strong>tri thức ẩn (tacit) → tri thức hiện (explicit) → tri thức tổ chức có cấu trúc → tri thức vận hành → tri thức mà AI dùng được.</strong> Phần lớn doanh nghiệp mới đi được nửa chuỗi này rồi dừng lại — một SOP được viết ra (đã thành explicit), nhưng chưa bao giờ được gắn với việc ai thực sự làm công việc đó, làm khi nào, và bằng chứng nào cho thấy nó đã thực sự xảy ra (operational). Tới bước đó, nó vẫn chỉ là một tài liệu được lưu trữ, chưa phải hạ tầng.</p>
+
+      <p>Đây cũng là lý do OKELAS xây dựng dựa trên Knowledge Graph, thay vì một kho lưu trữ tài liệu thông thường. Tri thức được gắn với con người, quy trình, sự kiện và bằng chứng có thể trả lời một loại câu hỏi hoàn toàn khác so với tìm kiếm tài liệu — không chỉ là "SOP cho việc này ở đâu", mà là "ai chịu trách nhiệm, lần gần nhất quy trình này được thực hiện đúng là khi nào, và bằng chứng nào cho thấy nó đã hiệu quả." Với AI, đây chính là ranh giới giữa một Copilot trả lời trôi chảy và một Copilot có thể giải thích, trích dẫn bằng chứng, và truy vết câu trả lời của mình về một điều gì đó có thật trong vận hành của doanh nghiệp — điều này quan trọng hơn nhiều trong môi trường ISO hay GMP so với một câu trả lời nghe có vẻ chắc chắn nhưng thực ra chỉ là đoán.</p>
+    `}
+  />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Khám Phá Mức Độ Sẵn Sàng Quản Lý Tri Thức',
+        href: '/readiness/knowledge',
+        icon: 'tabler:clipboard-check',
+      },
+    ]}
+  >
+    <Fragment slot="title">Tiếp Theo</Fragment>
+    <Fragment slot="subtitle">
+      Xác định doanh nghiệp bạn có bao nhiêu tri thức vận hành là hạ tầng thực sự, và bao nhiêu vẫn chỉ là tủ hồ sơ.
+    </Fragment>
+  </CallToAction>
+</Layout>

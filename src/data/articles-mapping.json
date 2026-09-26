@@ -259,6 +259,19 @@
         "category": "why",
         "url": "/en/why/documents-to-operations"
       }
+    },
+    {
+      "translationId": "knowledge-as-infrastructure",
+      "vi": {
+        "slug": "tri-thuc-la-ha-tang",
+        "category": "why",
+        "url": "/why/tri-thuc-la-ha-tang"
+      },
+      "en": {
+        "slug": "knowledge-as-infrastructure",
+        "category": "why",
+        "url": "/en/why/knowledge-as-infrastructure"
+      }
     }
   ]
 }
