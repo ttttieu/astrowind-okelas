@@ -1,0 +1,66 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Số Hóa Vận Hành — OKELAS',
+  description:
+    'Phần lớn doanh nghiệp sản xuất vừa và nhỏ không thiếu thông tin — họ thiếu một phiên bản thông tin chung và cập nhật. OKELAS biến các tài liệu hướng dẫn rải rác thành các workflow số rõ ràng.',
+};
+---
+
+<Layout metadata={metadata} translationId="digitalize-operations">
+  <HeroText
+    tagline="Giải Pháp"
+    title="Số Hóa Vận Hành"
+    subtitle="Phần lớn doanh nghiệp sản xuất vừa và nhỏ không thiếu thông tin — họ thiếu một phiên bản thông tin chung và cập nhật."
+  />
+
+  <Features3
+    columns={1}
+    items={[
+      {
+        title: 'Vấn đề',
+        description:
+          'Hướng dẫn công việc nằm trong đầu một người, trên tờ giấy ép plastic dán ở xưởng, hoặc trong một tin nhắn Zalo/WhatsApp từ ba tháng trước. Khi người đó nghỉ phép hoặc nghỉ việc, quy trình hoặc dừng lại, hoặc bị làm tùy hứng theo trí nhớ của người khác.',
+        icon: 'tabler:alert-circle',
+      },
+      {
+        title: 'Vì sao nó xảy ra',
+        description:
+          'Số hóa thường bị hiểu đơn giản là "đưa lên máy tính" — scan giấy tờ thành PDF, hoặc chuyển một file Excel từ ổ đĩa dùng chung này sang ổ đĩa dùng chung khác. Cách làm đó thay đổi định dạng, chứ không thay đổi cách vận hành. Bản thân quy trình vẫn chưa được viết ra rõ ràng, chưa có ai chịu trách nhiệm, và chưa được ghi nhận đầy đủ.',
+        icon: 'tabler:zoom-question',
+      },
+      {
+        title: 'Cách OKELAS tiếp cận',
+        description:
+          'OKELAS biến các tài liệu hướng dẫn rải rác và những thói quen chưa từng được nói ra thành các workflow số rõ ràng, có tương tác — không phải một dự án ghi chép tài liệu làm một lần rồi thôi, mà là một cấu trúc luôn được cập nhật, vì nó được xây dựng dựa trên cách công việc thực sự diễn ra, chứ không phải cách nó được cho là phải diễn ra trên giấy.',
+        icon: 'tabler:bulb',
+      },
+      {
+        title: 'Tự kiểm tra nhanh',
+        description:
+          'Nếu một vận hành viên chủ chốt nghỉ việc vào ngày mai, liệu người khác có thể tiếp quản công việc của họ dựa trên những gì đã được ghi lại — hay chỉ dựa vào những gì họ còn nhớ được?',
+        icon: 'tabler:checkbox',
+      },
+    ]}
+  />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Thực Hiện Đánh Giá Readiness Số Hóa',
+        href: '/readiness/digitalization',
+        icon: 'tabler:clipboard-check',
+      },
+    ]}
+  >
+    <Fragment slot="title">Bước Tiếp Theo</Fragment>
+    <Fragment slot="subtitle">
+      Xác định vận hành hiện tại của bạn ở đâu và cần số hóa cái gì trước.
+    </Fragment>
+  </CallToAction>
+</Layout>

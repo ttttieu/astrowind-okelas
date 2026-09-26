@@ -311,6 +311,19 @@
         "category": "why",
         "url": "/en/why/why-before-ai"
       }
+    },
+    {
+      "translationId": "digitalize-operations",
+      "vi": {
+        "slug": "so-hoa-van-hanh",
+        "category": "solutions",
+        "url": "/solutions/so-hoa-van-hanh"
+      },
+      "en": {
+        "slug": "digitalize-operations",
+        "category": "solutions",
+        "url": "/en/solutions/digitalize-operations"
+      }
     }
   ]
 }
