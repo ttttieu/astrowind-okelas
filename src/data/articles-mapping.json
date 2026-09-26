@@ -506,6 +506,19 @@
         "category": "ai",
         "url": "/en/insights/ai/evidence-based-ai"
       }
+    },
+    {
+      "translationId": "ai-implementation-roadmap-manufacturing",
+      "vi": {
+        "slug": "lo-trinh-ai-thuc-te-manufacturing-sme",
+        "category": "ai",
+        "url": "/insights/ai/lo-trinh-ai-thuc-te-manufacturing-sme"
+      },
+      "en": {
+        "slug": "ai-implementation-roadmap-manufacturing",
+        "category": "ai",
+        "url": "/en/insights/ai/ai-implementation-roadmap-manufacturing"
+      }
     }
   ]
 }
