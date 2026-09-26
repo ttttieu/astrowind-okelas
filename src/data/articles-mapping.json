@@ -480,6 +480,19 @@
         "category": "ai",
         "url": "/en/insights/ai/data-without-context-ai-problem"
       }
+    },
+    {
+      "translationId": "ai-agents-for-business",
+      "vi": {
+        "slug": "ai-agent-doanh-nghiep",
+        "category": "ai",
+        "url": "/insights/ai/ai-agent-doanh-nghiep"
+      },
+      "en": {
+        "slug": "ai-agents-for-business",
+        "category": "ai",
+        "url": "/en/insights/ai/ai-agents-for-business"
+      }
     }
   ]
 }
