@@ -20,12 +20,22 @@ from __future__ import annotations
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
-from ._assessment.models import (
-    AssessmentSubmission,
-    PublicAssessmentResult,
-    PublicResultRelatedLink,
-)
-from ._assessment.okelas_client import ValidationError, build_okelas_client
+try:
+    # Vercel Python Runtime (api/ is a package)
+    from _assessment.models import (
+        AssessmentSubmission,
+        PublicAssessmentResult,
+        PublicResultRelatedLink,
+    )
+    from _assessment.okelas_client import ValidationError, build_okelas_client
+except ImportError:
+    # Fallback for relative imports (local dev with specific PYTHONPATH)
+    from ._assessment.models import (
+        AssessmentSubmission,
+        PublicAssessmentResult,
+        PublicResultRelatedLink,
+    )
+    from ._assessment.okelas_client import ValidationError, build_okelas_client
 
 app = FastAPI(
     title="OKELAS Assessment API",
@@ -108,7 +118,10 @@ async def get_questions(assessment_id: str) -> dict:
         else:
             # HttpOkelasCoreClient trong production nên có endpoint riêng để
             # lấy config câu hỏi từ OKELAS Core; đây là fallback đọc file cục bộ.
-            from ._assessment.workflow_engine import LocalWorkflowEngine
+            try:
+                from _assessment.workflow_engine import LocalWorkflowEngine
+            except ImportError:
+                from ._assessment.workflow_engine import LocalWorkflowEngine
 
             config = LocalWorkflowEngine().get_question_config(assessment_id)
     except ValidationError as exc:

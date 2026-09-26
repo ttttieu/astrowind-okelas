@@ -34,8 +34,14 @@ from typing import Any
 
 import httpx
 
-from .workflow_engine import LocalWorkflowEngine, ValidationError  # noqa: F401
-from .submission_store import store_submission
+try:
+    # Vercel Python Runtime
+    from workflow_engine import LocalWorkflowEngine, ValidationError  # noqa: F401
+    from submission_store import store_submission
+except ImportError:
+    # Local dev / relative imports
+    from .workflow_engine import LocalWorkflowEngine, ValidationError  # noqa: F401
+    from .submission_store import store_submission
 
 
 class OkelasCoreClient(ABC):
