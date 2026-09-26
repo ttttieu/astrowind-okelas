@@ -298,6 +298,19 @@
         "category": "why",
         "url": "/en/why/why-before-erp"
       }
+    },
+    {
+      "translationId": "why-before-ai",
+      "vi": {
+        "slug": "tai-sao-readiness-truoc-ai",
+        "category": "why",
+        "url": "/why/tai-sao-readiness-truoc-ai"
+      },
+      "en": {
+        "slug": "why-before-ai",
+        "category": "why",
+        "url": "/en/why/why-before-ai"
+      }
     }
   ]
 }

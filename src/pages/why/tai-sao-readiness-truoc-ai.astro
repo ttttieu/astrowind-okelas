@@ -1,0 +1,46 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Content from '~/components/widgets/Content.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: "Vì Sao Readiness Phải Đến Trước AI — OKELAS",
+  description: "Công cụ AI dễ dùng thử nhưng khó tin tưởng với những việc thực sự quan trọng. Khoảng cách thường không nằm ở mô hình AI — nó nằm ở những gì AI có để làm việc cùng.",
+};
+---
+
+<Layout metadata={metadata} translationId="why-before-ai">
+  <HeroText
+    tagline="Vì Sao Có OKELAS"
+    title="Vì Sao Readiness Phải Đến Trước AI"
+  />
+
+  <Content
+    content={`
+      <p>Công cụ AI thì dễ dùng thử, nhưng khó để tin tưởng giao cho bất cứ việc gì thực sự quan trọng trong vận hành — và điều đó có lý do chính đáng. Một doanh nghiệp 50 người giờ có thể tạo ra nội dung bằng AI với tốc độ mà trước đây cần gấp mười lần số nhân sự đó. Đây là một sự gia tăng thật về mặt sản lượng đầu ra. Nhưng nó không giống với việc năng lực xử lý quyết định đúng của doanh nghiệp thực sự tăng lên — mà đó mới là điều "trở nên có năng lực hơn" thực sự đòi hỏi.</p>
+
+      <p>Khoảng cách này thường không nằm ở mô hình AI — nó nằm ở việc AI có gì để làm việc cùng. Một hệ thống được cho ăn dữ liệu sạch nhưng không có organizational context vẫn có thể đưa ra những câu trả lời nghe rất trôi chảy, có vẻ hợp lý, nhưng thực chất sai về cách vận hành cụ thể của doanh nghiệp bạn. AI readiness nghĩa là có đủ sự rõ ràng về quy trình, tri thức đã được cấu trúc, và cơ chế quản trị (governance) để câu trả lời của một hệ thống AI được neo vào điều gì đó có thật, chứ không chỉ là điều có khả năng đúng về mặt thống kê.</p>
+
+      <p>Đây là lý do một sáng kiến AI bắt đầu bằng câu hỏi "nên mua công cụ nào" thường gặp trục trặc về sau, trong khi một sáng kiến bắt đầu bằng câu hỏi "tri thức và quy trình của mình đã đủ cấu trúc để AI dùng được chưa" thường bền vững hơn. Câu hỏi thứ hai trả lời kém hấp dẫn hơn nhiều, nhưng chính nó mới quyết định một AI Copilot có trở thành thứ mà các bộ phận vận hành thực sự tin tưởng giao phó quyết định thật hay không.</p>
+
+      <p><strong>Một điểm cần làm rõ, tương tự như với ERP:</strong> công việc readiness không dừng lại một khi hệ thống AI đã được triển khai. Governance, evidence, và khả năng giải thích (xem <a href="/why/tri-thuc-la-ha-tang">Tri Thức Là Hạ Tầng, Không Phải Tủ Hồ Sơ</a>) vẫn là nền tảng mà một AI Copilot dựa vào trong suốt thời gian nó được sử dụng — đây là điểm khởi đầu, không phải một cánh cổng đi qua một lần rồi không cần quay lại.</p>
+    `}
+  />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Thực Hiện Đánh Giá Readiness AI',
+        href: '/readiness/ai',
+        icon: 'tabler:clipboard-check',
+      },
+    ]}
+  >
+    <Fragment slot="title">Tiếp Theo</Fragment>
+    <Fragment slot="subtitle">
+      Xác định tổ chức bạn đã sẵn sàng cho AI hay chưa — và cần xây dựng gì trước.
+    </Fragment>
+  </CallToAction>
+</Layout>
