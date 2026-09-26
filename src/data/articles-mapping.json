@@ -519,6 +519,19 @@
         "category": "ai",
         "url": "/en/insights/ai/ai-implementation-roadmap-manufacturing"
       }
+    },
+    {
+      "translationId": "ai-compliance-iso-gmp-manufacturing",
+      "vi": {
+        "slug": "ai-iso-gmp-compliance",
+        "category": "ai",
+        "url": "/insights/ai/ai-iso-gmp-compliance"
+      },
+      "en": {
+        "slug": "ai-compliance-iso-gmp-manufacturing",
+        "category": "ai",
+        "url": "/en/insights/ai/ai-compliance-iso-gmp-manufacturing"
+      }
     }
   ]
 }

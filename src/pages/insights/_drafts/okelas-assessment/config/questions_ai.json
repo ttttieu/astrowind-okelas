@@ -1,0 +1,113 @@
+{
+  "assessment_id": "ai_readiness",
+  "title": "AI Readiness Assessment",
+  "intro": "Bộ câu hỏi này giúp bạn tự đánh giá mức độ sẵn sàng của doanh nghiệp để AI thực sự tạo ra giá trị trong vận hành, không chỉ dừng ở việc \"có dùng ChatGPT\".",
+  "dimensions": [
+    "data_readiness",
+    "process_clarity",
+    "knowledge_structure",
+    "governance",
+    "integration",
+    "workflow_readiness"
+  ],
+  "questions": [
+    {
+      "id": "AI-1",
+      "dimension": "data_readiness",
+      "claim_type": "enforcement",
+      "scored": true,
+      "text": "Nếu cần lấy dữ liệu để trả lời một câu hỏi vận hành cụ thể (ví dụ: doanh thu theo khách hàng 6 tháng qua), việc này mất bao lâu và cần bao nhiêu người?",
+      "options": [
+        { "key": "A", "score": 1, "text": "Mất nhiều ngày, phải tổng hợp thủ công từ nhiều nguồn" },
+        { "key": "B", "score": 2, "text": "Mất vài giờ, cần 1-2 người tổng hợp" },
+        { "key": "C", "score": 3, "text": "Có thể lấy trong vài phút từ một hệ thống" },
+        { "key": "D", "score": 4, "text": "Có thể tự tra cứu ngay lập tức, không cần nhờ ai" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "Không chắc — cần hỏi lại bộ phận phụ trách" }
+      ]
+    },
+    {
+      "id": "AI-2",
+      "dimension": "process_clarity",
+      "claim_type": "existence",
+      "scored": true,
+      "text": "Nếu một nhân viên mới vào làm một công việc lặp lại hàng ngày, họ học cách làm từ đâu?",
+      "options": [
+        { "key": "A", "score": 1, "text": "Học bằng cách quan sát/hỏi người khác, không có tài liệu" },
+        { "key": "B", "score": 2, "text": "Có tài liệu hướng dẫn cơ bản nhưng còn thiếu" },
+        { "key": "C", "score": 3, "text": "Có tài liệu hướng dẫn khá đầy đủ, dùng được ngay" },
+        { "key": "D", "score": 4, "text": "Có tài liệu hướng dẫn đầy đủ và được cập nhật thường xuyên" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "Không chắc — cần hỏi lại bộ phận phụ trách" }
+      ]
+    },
+    {
+      "id": "AI-3",
+      "dimension": "knowledge_structure",
+      "claim_type": "existence",
+      "scored": true,
+      "text": "Tri thức/kinh nghiệm quan trọng của doanh nghiệp (cách xử lý tình huống, lý do quyết định...) hiện đang nằm ở đâu?",
+      "options": [
+        { "key": "A", "score": 1, "text": "Chủ yếu trong đầu một vài người có kinh nghiệm lâu năm" },
+        { "key": "B", "score": 2, "text": "Có ghi chép nhưng rải rác, không ai tổng hợp lại" },
+        { "key": "C", "score": 3, "text": "Có tổng hợp ở một số chỗ, nhưng chưa dễ tìm" },
+        { "key": "D", "score": 4, "text": "Có hệ thống lưu trữ có cấu trúc, dễ tìm kiếm và tra cứu" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "Không chắc — cần hỏi lại bộ phận phụ trách" }
+      ]
+    },
+    {
+      "id": "AI-4",
+      "dimension": "governance",
+      "claim_type": "existence",
+      "scored": true,
+      "text": "Hiện có quy định nào về việc nhân viên được/không được dùng công cụ AI (ChatGPT và tương tự) trong công việc không?",
+      "options": [
+        { "key": "A", "score": 1, "text": "Chưa có quy định gì, ai dùng thế nào tuỳ ý" },
+        { "key": "B", "score": 2, "text": "Có nhắc nhở miệng nhưng chưa văn bản hoá" },
+        { "key": "C", "score": 3, "text": "Có quy định cơ bản bằng văn bản" },
+        { "key": "D", "score": 4, "text": "Có quy định rõ ràng và được phổ biến/kiểm tra định kỳ" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "Không chắc — cần hỏi lại bộ phận phụ trách" }
+      ]
+    },
+    {
+      "id": "AI-5",
+      "dimension": "integration",
+      "claim_type": "existence_currency",
+      "scored": true,
+      "text": "Các phần mềm/hệ thống đang dùng trong doanh nghiệp (kế toán, bán hàng, kho...) có tự động chia sẻ dữ liệu với nhau không?",
+      "options": [
+        { "key": "A", "score": 1, "text": "Không, phải nhập tay lại giữa các hệ thống" },
+        { "key": "B", "score": 2, "text": "Có kết nối một phần, còn phải nhập tay bổ sung" },
+        { "key": "C", "score": 3, "text": "Phần lớn đã kết nối tự động" },
+        { "key": "D", "score": 4, "text": "Kết nối tự động toàn diện, dữ liệu đồng bộ theo thời gian thực" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "Không chắc — cần hỏi lại bộ phận phụ trách" }
+      ]
+    },
+    {
+      "id": "AI-6",
+      "dimension": "workflow_readiness",
+      "claim_type": "enforcement",
+      "scored": true,
+      "text": "Các bước xử lý một công việc (ví dụ: duyệt đơn hàng, duyệt chi phí) hiện có được định nghĩa rõ ai làm gì, theo thứ tự nào không?",
+      "options": [
+        { "key": "A", "score": 1, "text": "Không rõ ràng, xử lý tuỳ tình huống" },
+        { "key": "B", "score": 2, "text": "Có định nghĩa cơ bản nhưng hay có ngoại lệ" },
+        { "key": "C", "score": 3, "text": "Định nghĩa khá rõ, ít ngoại lệ" },
+        { "key": "D", "score": 4, "text": "Định nghĩa rõ ràng, được tuân thủ nhất quán" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "Không chắc — cần hỏi lại bộ phận phụ trách" }
+      ]
+    },
+    {
+      "id": "AI-7",
+      "dimension": "reflection",
+      "claim_type": "perception",
+      "scored": false,
+      "type": "open_text",
+      "text": "Nếu một công cụ AI hiểu được toàn bộ tri thức và quy trình của doanh nghiệp bạn ngay hôm nay, nó có đủ thông tin đúng để trả lời thay bạn không? Tại sao?"
+    }
+  ],
+  "levels": [
+    { "level": 1, "min": 1.0, "max": 1.7, "label": "Chưa sẵn sàng", "description": "Nền tảng dữ liệu/quy trình/tri thức chưa đủ để AI tạo giá trị ở cấp tổ chức. Ưu tiên trước tiên là củng cố nền tảng vận hành, chưa phải công cụ AI." },
+    { "level": 2, "min": 1.8, "max": 2.5, "label": "Đang hình thành", "description": "Có một số điều kiện ban đầu nhưng còn rời rạc. AI có thể hỗ trợ ở quy mô cá nhân nhưng chưa tạo được organizational intelligence." },
+    { "level": 3, "min": 2.6, "max": 3.3, "label": "Khá sẵn sàng", "description": "Phần lớn điều kiện đã có. Có thể bắt đầu thí điểm các use case AI cụ thể có kiểm soát." },
+    { "level": 4, "min": 3.4, "max": 4.0, "label": "Sẵn sàng", "description": "Doanh nghiệp có nền tảng đủ tốt để triển khai AI ở cấp tổ chức, với evidence và governance rõ ràng." }
+  ]
+}

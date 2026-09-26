@@ -1,0 +1,98 @@
+{
+  "assessment_id": "digitalization_level",
+  "title": "Digitalization Level Assessment",
+  "intro": "Bộ câu hỏi này giúp bạn xác định doanh nghiệp đang ở giai đoạn nào trên hành trình từ giấy tờ đến vận hành số — không nhằm ép mọi doanh nghiệp lên mức cao nhất, mà để tìm bước tiếp theo có ý nghĩa kinh tế.",
+  "dimensions": [
+    "document_management",
+    "process_digitization",
+    "workflow_automation",
+    "data_integration",
+    "knowledge_layer"
+  ],
+  "questions": [
+    {
+      "id": "DIG-1",
+      "dimension": "document_management",
+      "claim_type": "existence",
+      "scored": true,
+      "text": "Tài liệu quan trọng của doanh nghiệp (hợp đồng, hồ sơ, biểu mẫu) hiện đang được lưu trữ như thế nào?",
+      "options": [
+        { "key": "A", "score": 1, "text": "Chủ yếu bản giấy hoặc file rời rạc trên máy cá nhân" },
+        { "key": "B", "score": 2, "text": "Đã số hoá (scan/lưu file) nhưng chưa có hệ thống quản lý chung" },
+        { "key": "C", "score": 3, "text": "Có hệ thống lưu trữ chung, có phân quyền cơ bản" },
+        { "key": "D", "score": 4, "text": "Có hệ thống quản lý tài liệu đầy đủ (phân quyền, lịch sử phiên bản, tìm kiếm)" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "Không chắc — cần hỏi lại bộ phận phụ trách" }
+      ]
+    },
+    {
+      "id": "DIG-2",
+      "dimension": "process_digitization",
+      "claim_type": "enforcement",
+      "scored": true,
+      "text": "Các bước xử lý công việc hàng ngày (đặt hàng, duyệt chi, nhập kho...) hiện chạy chủ yếu qua đâu?",
+      "options": [
+        { "key": "A", "score": 1, "text": "Giấy tờ, email, hoặc trao đổi miệng" },
+        { "key": "B", "score": 2, "text": "Một phần qua phần mềm, một phần vẫn qua email/giấy song song" },
+        { "key": "C", "score": 3, "text": "Phần lớn qua phần mềm, ít trường hợp ngoại lệ" },
+        { "key": "D", "score": 4, "text": "Toàn bộ qua hệ thống, có ghi nhận và theo dõi được" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "Không chắc — cần hỏi lại bộ phận phụ trách" }
+      ]
+    },
+    {
+      "id": "DIG-3",
+      "dimension": "workflow_automation",
+      "claim_type": "existence_enforcement",
+      "scored": true,
+      "text": "Khi một công việc cần nhiều người duyệt/xử lý tuần tự (ví dụ: duyệt đơn mua hàng), việc chuyển tiếp giữa các bước diễn ra thế nào?",
+      "options": [
+        { "key": "A", "score": 1, "text": "Người thực hiện phải tự nhắc/chuyển tiếp thủ công (gọi điện, nhắn tin)" },
+        { "key": "B", "score": 2, "text": "Có nhắc qua email nhưng vẫn cần theo dõi thủ công" },
+        { "key": "C", "score": 3, "text": "Hệ thống tự động nhắc/chuyển bước tiếp theo" },
+        { "key": "D", "score": 4, "text": "Tự động hoàn toàn, có thể theo dõi tiến độ theo thời gian thực" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "Không chắc — cần hỏi lại bộ phận phụ trách" }
+      ]
+    },
+    {
+      "id": "DIG-4",
+      "dimension": "data_integration",
+      "claim_type": "existence_currency",
+      "scored": true,
+      "text": "Nếu cần một báo cáo kết hợp dữ liệu từ 2 bộ phận khác nhau (ví dụ: bán hàng và kho), việc này có cần nhập/ghép dữ liệu thủ công không?",
+      "options": [
+        { "key": "A", "score": 1, "text": "Có, phải ghép thủ công từ nhiều file khác nhau" },
+        { "key": "B", "score": 2, "text": "Cần ghép thủ công một phần" },
+        { "key": "C", "score": 3, "text": "Hệ thống hỗ trợ ghép phần lớn, chỉnh sửa ít" },
+        { "key": "D", "score": 4, "text": "Tự động hoàn toàn, không cần thao tác thủ công" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "Không chắc — cần hỏi lại bộ phận phụ trách" }
+      ]
+    },
+    {
+      "id": "DIG-5",
+      "dimension": "knowledge_layer",
+      "claim_type": "existence",
+      "scored": true,
+      "text": "Khi có một quyết định quan trọng từng được đưa ra trước đây (ví dụ: vì sao chọn nhà cung cấp A thay vì B), thông tin/lý do đó có thể tra cứu lại được không?",
+      "options": [
+        { "key": "A", "score": 1, "text": "Không, chỉ có thể hỏi lại người từng tham gia quyết định" },
+        { "key": "B", "score": 2, "text": "Có ghi chép nhưng khó tìm lại" },
+        { "key": "C", "score": 3, "text": "Có thể tìm lại được, mất một ít thời gian" },
+        { "key": "D", "score": 4, "text": "Có thể tra cứu ngay, kèm đầy đủ bối cảnh/lý do quyết định" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "Không chắc — cần hỏi lại bộ phận phụ trách" }
+      ]
+    },
+    {
+      "id": "DIG-6",
+      "dimension": "reflection",
+      "claim_type": "perception",
+      "scored": false,
+      "type": "open_text",
+      "text": "Nếu phải mô tả doanh nghiệp mình đang ở đâu trên hành trình \"từ giấy tờ đến vận hành số\", bạn sẽ mô tả bằng một câu như thế nào?"
+    }
+  ],
+  "levels": [
+    { "level": 1, "min": 1.0, "max": 1.7, "label": "Mức 1 — Giấy tờ/thủ công", "description": "Phần lớn quy trình vẫn vận hành thủ công. Bước hợp lý tiếp theo là số hoá tài liệu và quy trình cốt lõi." },
+    { "level": 2, "min": 1.8, "max": 2.5, "label": "Mức 2 — Số hoá rời rạc", "description": "Đã có phần mềm nhưng chưa liên thông, dữ liệu vẫn phải ghép thủ công." },
+    { "level": 3, "min": 2.6, "max": 3.3, "label": "Mức 3 — Tích hợp một phần", "description": "Các hệ thống bắt đầu liên thông, workflow được tự động hoá một phần." },
+    { "level": 4, "min": 3.4, "max": 4.0, "label": "Mức 4 — Vận hành số có tri thức", "description": "Dữ liệu, quy trình và tri thức đã liên thông tốt, sẵn sàng cho lớp AI/agent hỗ trợ vận hành." }
+  ]
+}

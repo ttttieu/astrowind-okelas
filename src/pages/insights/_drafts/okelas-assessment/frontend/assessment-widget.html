@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>OKELAS Readiness Assessment</title>
+<!--
+  Widget này gọi 2 endpoint của backend (xem ../backend/main.py):
+    GET  /api/assessment/{id}/questions
+    POST /api/assessment/submit
+  Đổi API_BASE bên dưới cho khớp domain thật khi nhúng vào okelas.com.
+  Widget KHÔNG tự tính điểm/level ở phía client — toàn bộ hiển thị kết quả
+  lấy nguyên văn từ response của backend (vốn lấy từ OKELAS Core).
+-->
+<style>
+  :root{
+    --ink:#1c2320;
+    --ink-soft:#4b544f;
+    --paper:#ffffff;
+    --paper-tint:#f4f5f2;
+    --line:#d8dcd6;
+    --accent:#1f5d50;
+    --accent-soft:#e4efec;
+    --radius:2px;
+    --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+    --sans: "IBM Plex Sans", "Segoe UI", Helvetica, Arial, sans-serif;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; background:var(--paper-tint); color:var(--ink);
+    font-family:var(--sans); line-height:1.55;
+  }
+  .shell{max-width:680px; margin:0 auto; padding:40px 20px 80px;}
+  .brand{font-family:var(--sans); font-size:13px; letter-spacing:.04em; color:var(--ink-soft); margin-bottom:6px;}
+  h1{font-family:var(--serif); font-weight:600; font-size:28px; margin:0 0 8px; color:var(--ink);}
+  .sub{color:var(--ink-soft); margin:0 0 28px; font-size:15px; max-width:56ch;}
+
+  .picker{display:grid; grid-template-columns:1fr 1fr; gap:12px;}
+  @media (max-width:520px){ .picker{grid-template-columns:1fr;} }
+  .picker button{
+    text-align:left; padding:18px; border:1px solid var(--line); background:var(--paper);
+    border-radius:var(--radius); cursor:pointer; font-family:var(--sans);
+  }
+  .picker button:hover{border-color:var(--accent);}
+  .picker button .t{font-weight:600; font-size:15px; display:block; margin-bottom:4px;}
+  .picker button .d{font-size:13px; color:var(--ink-soft);}
+
+  .card{background:var(--paper); border:1px solid var(--line); border-radius:var(--radius); padding:28px;}
+  .progress-track{height:3px; background:var(--line); margin-bottom:22px; border-radius:2px; overflow:hidden;}
+  .progress-fill{height:100%; background:var(--accent); transition:width .25s ease;}
+  .q-count{font-size:12px; color:var(--ink-soft); margin-bottom:10px;}
+  .q-text{font-family:var(--serif); font-size:19px; line-height:1.4; margin:0 0 20px;}
+
+  .opt{
+    display:block; width:100%; text-align:left; padding:13px 16px; margin-bottom:8px;
+    border:1px solid var(--line); background:var(--paper); border-radius:var(--radius);
+    cursor:pointer; font-family:var(--sans); font-size:14.5px; color:var(--ink);
+  }
+  .opt:hover{border-color:var(--accent); background:var(--accent-soft);}
+  .opt.selected{border-color:var(--accent); background:var(--accent-soft); font-weight:600;}
+  .opt.uncertain{color:var(--ink-soft); font-style:italic;}
+
+  textarea{
+    width:100%; min-height:110px; padding:12px; border:1px solid var(--line);
+    border-radius:var(--radius); font-family:var(--sans); font-size:14.5px; resize:vertical;
+  }
+
+  .nav{display:flex; justify-content:space-between; margin-top:22px;}
+  .btn{
+    padding:10px 20px; border-radius:var(--radius); font-family:var(--sans); font-size:14px;
+    cursor:pointer; border:1px solid var(--line); background:var(--paper); color:var(--ink);
+  }
+  .btn.primary{background:var(--accent); border-color:var(--accent); color:#fff;}
+  .btn.primary:disabled{opacity:.4; cursor:not-allowed;}
+  .btn.ghost{border-color:transparent; color:var(--ink-soft);}
+
+  .result-level{
+    display:inline-block; padding:4px 12px; background:var(--accent-soft); color:var(--accent);
+    font-size:13px; font-weight:600; border-radius:20px; margin-bottom:14px;
+  }
+  .result-title{font-family:var(--serif); font-size:24px; margin:0 0 10px;}
+  .result-desc{color:var(--ink-soft); font-size:15px; margin-bottom:24px;}
+  .related{margin-top:24px; border-top:1px solid var(--line); padding-top:18px;}
+  .related h3{font-size:13px; text-transform:none; color:var(--ink-soft); margin:0 0 10px; font-weight:600;}
+  .related a{display:block; font-size:14.5px; color:var(--ink); text-decoration:none; margin-bottom:8px; padding-left:14px; border-left:2px solid var(--line);}
+  .related a:hover{border-left-color:var(--accent); color:var(--accent);}
+
+  .honeypot{position:absolute; left:-9999px; opacity:0;}
+  .msg-error{color:#a33; font-size:14px; margin-top:12px;}
+  .hint{font-size:12.5px; color:var(--ink-soft); margin-top:16px;}
+</style>
+</head>
+<body>
+<div class="shell" id="app"></div>
+
+<script>
+(function(){
+  "use strict";
+
+  // ---- cấu hình: đổi khi tích hợp thật vào okelas.com --------------------
+  var API_BASE = "/api";
+
+  var ASSESSMENTS = [
+    { id: "erp_readiness", title: "ERP Readiness", desc: "Doanh nghiệp đã sẵn sàng triển khai ERP chưa?" },
+    { id: "ai_readiness", title: "AI Readiness", desc: "AI có thực sự tạo ra giá trị trong vận hành chưa?" },
+    { id: "km_maturity", title: "Knowledge Management Maturity", desc: "Tri thức tổ chức đang phụ thuộc cá nhân đến đâu?" },
+    { id: "digitalization_level", title: "Digitalization Level", desc: "Doanh nghiệp đang ở giai đoạn số hoá nào?" }
+  ];
+
+  var state = {
+    screen: "pick",       // pick | question | submitting | result | error
+    assessmentId: null,
+    config: null,         // { title, intro, questions }
+    answers: {},          // question_id -> { selected_key } | { open_text }
+    index: 0,
+    startedAt: null,
+    result: null,
+    errorMsg: null
+  };
+
+  var root = document.getElementById("app");
+
+  function render(){
+    if(state.screen === "pick") return renderPicker();
+    if(state.screen === "question") return renderQuestion();
+    if(state.screen === "submitting") return renderSubmitting();
+    if(state.screen === "result") return renderResult();
+    if(state.screen === "error") return renderError();
+  }
+
+  function renderPicker(){
+    var html = ''
+      + '<div class="brand">OKELAS &middot; Self-Assessment</div>'
+      + '<h1>Doanh nghiệp bạn đang ở đâu?</h1>'
+      + '<p class="sub">Chọn một chủ đề để tự đánh giá. Mỗi bộ mất khoảng 3–4 phút, không cần cung cấp thông tin liên hệ để xem kết quả.</p>'
+      + '<div class="picker">';
+    ASSESSMENTS.forEach(function(a){
+      html += '<button data-id="'+a.id+'"><span class="t">'+a.title+'</span><span class="d">'+a.desc+'</span></button>';
+    });
+    html += '</div>';
+    root.innerHTML = html;
+    root.querySelectorAll(".picker button").forEach(function(btn){
+      btn.addEventListener("click", function(){ startAssessment(btn.getAttribute("data-id")); });
+    });
+  }
+
+  function startAssessment(id){
+    state.assessmentId = id;
+    state.answers = {};
+    state.index = 0;
+    state.startedAt = Date.now();
+    state.screen = "question";
+    state.config = null;
+    render();
+    fetch(API_BASE + "/assessment/" + id + "/questions")
+      .then(function(r){ if(!r.ok) throw new Error("load_failed"); return r.json(); })
+      .then(function(cfg){ state.config = cfg; render(); })
+      .catch(function(){ state.screen = "error"; state.errorMsg = "Không tải được bộ câu hỏi. Vui lòng thử lại."; render(); });
+  }
+
+  function renderQuestion(){
+    if(!state.config){
+      root.innerHTML = '<div class="brand">OKELAS &middot; Self-Assessment</div><p>Đang tải...</p>';
+      return;
+    }
+    var q = state.config.questions[state.index];
+    var total = state.config.questions.length;
+    var pct = Math.round((state.index / total) * 100);
+    var current = state.answers[q.id];
+
+    var html = ''
+      + '<div class="brand">OKELAS &middot; ' + state.config.title + '</div>'
+      + '<div class="card">'
+      + '  <div class="progress-track"><div class="progress-fill" style="width:'+pct+'%"></div></div>'
+      + '  <div class="q-count">Câu ' + (state.index+1) + ' / ' + total + '</div>'
+      + '  <p class="q-text">' + escapeHtml(q.text) + '</p>';
+
+    if(q.type === "open_text"){
+      html += '<textarea id="open-text-input" placeholder="Câu trả lời của bạn (không bắt buộc)...">' + escapeHtml((current && current.open_text) || "") + '</textarea>';
+    } else {
+      q.options.forEach(function(opt){
+        var isUncertain = opt.key === "E";
+        var isSelected = current && current.selected_key === opt.key;
+        html += '<button class="opt '+(isSelected?"selected":"")+' '+(isUncertain?"uncertain":"")+'" data-key="'+opt.key+'">' + escapeHtml(opt.text) + '</button>';
+      });
+    }
+
+    html += '  <div class="nav">'
+      + '    <button class="btn ghost" id="btn-back" '+(state.index===0?"disabled":"")+'>&larr; Quay lại</button>'
+      + '    <button class="btn primary" id="btn-next">' + (state.index === total-1 ? "Xem kết quả" : "Tiếp tục") + '</button>'
+      + '  </div>'
+      + '  <p class="hint">Không có câu trả lời "đúng" hay "sai" — hãy chọn tình huống gần nhất với thực tế hiện tại.</p>'
+      + '</div>';
+
+    root.innerHTML = html;
+
+    if(q.type === "open_text"){
+      var ta = document.getElementById("open-text-input");
+      ta.addEventListener("input", function(){
+        state.answers[q.id] = { open_text: ta.value };
+      });
+    } else {
+      root.querySelectorAll(".opt").forEach(function(btn){
+        btn.addEventListener("click", function(){
+          state.answers[q.id] = { selected_key: btn.getAttribute("data-key") };
+          render();
+        });
+      });
+    }
+
+    document.getElementById("btn-back").addEventListener("click", function(){
+      if(state.index > 0){ state.index--; render(); }
+    });
+    document.getElementById("btn-next").addEventListener("click", function(){
+      if(state.index < total - 1){
+        state.index++;
+        render();
+      } else {
+        submitAssessment();
+      }
+    });
+  }
+
+  function renderSubmitting(){
+    root.innerHTML = '<div class="brand">OKELAS &middot; Self-Assessment</div><p>Đang xử lý kết quả...</p>';
+  }
+
+  function submitAssessment(){
+    state.screen = "submitting";
+    render();
+
+    var answersArray = [];
+    state.config.questions.forEach(function(q){
+      var a = state.answers[q.id] || {};
+      answersArray.push({
+        question_id: q.id,
+        selected_key: a.selected_key || null,
+        open_text: a.open_text || null
+      });
+    });
+
+    var payload = {
+      assessment_id: state.assessmentId,
+      respondent: {},              // để trống trên public flow — không ép để lại thông tin
+      answers: answersArray,
+      elapsed_seconds: Math.round((Date.now() - state.startedAt) / 1000),
+      honeypot: ""                  // luôn rỗng khi gửi từ người dùng thật
+    };
+
+    fetch(API_BASE + "/assessment/submit", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload)
+    })
+    .then(function(r){
+      if(!r.ok) return r.json().then(function(e){ throw new Error(e.detail || "submit_failed"); });
+      return r.json();
+    })
+    .then(function(res){
+      state.result = res;
+      state.screen = "result";
+      render();
+    })
+    .catch(function(err){
+      state.screen = "error";
+      state.errorMsg = "Không gửi được câu trả lời. Vui lòng thử lại. (" + err.message + ")";
+      render();
+    });
+  }
+
+  function renderResult(){
+    var res = state.result;
+    var html = '<div class="brand">OKELAS &middot; ' + escapeHtml(state.config.title) + '</div>';
+
+    if(res.level === null || res.level === undefined){
+      html += '<div class="card">'
+        + '<p class="result-title">Chưa đủ dữ liệu để đưa ra kết quả</p>'
+        + '<p class="result-desc">' + escapeHtml(res.insufficient_data_message || "") + '</p>'
+        + '<button class="btn primary" id="btn-restart">Làm lại từ đầu</button>'
+        + '</div>';
+    } else {
+      html += '<div class="card">'
+        + '<span class="result-level">Mức ' + res.level + '</span>'
+        + '<h2 class="result-title">' + escapeHtml(res.label) + '</h2>'
+        + '<p class="result-desc">' + escapeHtml(res.description) + '</p>';
+
+      if(res.related_links && res.related_links.length){
+        html += '<div class="related"><h3>Đọc thêm</h3>';
+        res.related_links.forEach(function(l){
+          html += '<a href="' + l.url + '" target="_blank" rel="noopener">' + escapeHtml(l.title) + '</a>';
+        });
+        html += '</div>';
+      }
+
+      html += '<button class="btn ghost" id="btn-restart" style="margin-top:18px;">Làm bộ câu hỏi khác</button>'
+        + '</div>';
+    }
+
+    root.innerHTML = html;
+    document.getElementById("btn-restart").addEventListener("click", function(){
+      state.screen = "pick"; state.result = null; render();
+    });
+  }
+
+  function renderError(){
+    root.innerHTML = '<div class="brand">OKELAS &middot; Self-Assessment</div>'
+      + '<div class="card"><p class="msg-error">' + escapeHtml(state.errorMsg || "Có lỗi xảy ra.") + '</p>'
+      + '<button class="btn primary" id="btn-retry">Thử lại</button></div>';
+    document.getElementById("btn-retry").addEventListener("click", function(){
+      state.screen = "pick"; render();
+    });
+  }
+
+  function escapeHtml(s){
+    return String(s == null ? "" : s)
+      .replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+  }
+
+  render();
+})();
+</script>
+</body>
+</html>

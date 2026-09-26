@@ -1,6 +1,9 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
+  "python": {
+    "version": "3.11"
+  },
   "headers": [
     {
       "source": "/_astro/(.*)",

@@ -1,0 +1,98 @@
+{
+  "assessment_id": "km_maturity",
+  "title": "Knowledge Management Maturity Assessment",
+  "intro": "Bộ câu hỏi này giúp bạn tự đánh giá mức độ tổ chức tri thức của doanh nghiệp — và mức độ phụ thuộc vào một vài cá nhân chủ chốt.",
+  "dimensions": [
+    "knowledge_capture",
+    "sop_quality",
+    "process_documentation",
+    "knowledge_accessibility",
+    "retention_risk"
+  ],
+  "questions": [
+    {
+      "id": "KM-1",
+      "dimension": "knowledge_capture",
+      "claim_type": "existence",
+      "scored": true,
+      "text": "Trong số các quy trình/kinh nghiệm quan trọng của doanh nghiệp, bao nhiêu phần đã được ghi lại thành tài liệu?",
+      "options": [
+        { "key": "A", "score": 1, "text": "Rất ít, phần lớn chỉ tồn tại trong đầu người thực hiện" },
+        { "key": "B", "score": 2, "text": "Một phần nhỏ, chủ yếu là những việc đơn giản" },
+        { "key": "C", "score": 3, "text": "Phần lớn đã được ghi lại" },
+        { "key": "D", "score": 4, "text": "Gần như toàn bộ, kể cả các tình huống xử lý phức tạp" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "Không chắc — cần hỏi lại bộ phận phụ trách" }
+      ]
+    },
+    {
+      "id": "KM-2",
+      "dimension": "sop_quality",
+      "claim_type": "currency",
+      "scored": true,
+      "text": "Các SOP/tài liệu hướng dẫn hiện có — lần gần nhất được xem lại/cập nhật là khi nào?",
+      "options": [
+        { "key": "A", "score": 1, "text": "Không nhớ / chưa từng cập nhật từ khi tạo ra" },
+        { "key": "B", "score": 2, "text": "Cập nhật không thường xuyên, chỉ khi có sự cố" },
+        { "key": "C", "score": 3, "text": "Cập nhật định kỳ nhưng không theo lịch cố định" },
+        { "key": "D", "score": 4, "text": "Có lịch rà soát định kỳ và được tuân thủ" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "Không chắc — cần hỏi lại bộ phận phụ trách" }
+      ]
+    },
+    {
+      "id": "KM-3",
+      "dimension": "process_documentation",
+      "claim_type": "enforcement",
+      "scored": true,
+      "text": "Một người hoàn toàn mới có thể tự làm đúng một quy trình quan trọng chỉ bằng cách đọc tài liệu hiện có, không cần ai hướng dẫn thêm không?",
+      "options": [
+        { "key": "A", "score": 1, "text": "Không thể, bắt buộc phải có người kèm" },
+        { "key": "B", "score": 2, "text": "Làm được phần cơ bản, phần khó vẫn cần hỏi" },
+        { "key": "C", "score": 3, "text": "Làm được hầu hết, chỉ cần hỏi tình huống hiếm gặp" },
+        { "key": "D", "score": 4, "text": "Có thể tự làm đúng hoàn toàn chỉ từ tài liệu" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "Không chắc — cần hỏi lại bộ phận phụ trách" }
+      ]
+    },
+    {
+      "id": "KM-4",
+      "dimension": "knowledge_accessibility",
+      "claim_type": "enforcement",
+      "scored": true,
+      "text": "Khi cần tìm một thông tin/quy định cụ thể đã có từ trước, việc tìm kiếm thường mất bao lâu?",
+      "options": [
+        { "key": "A", "score": 1, "text": "Rất lâu hoặc phải hỏi trực tiếp người biết" },
+        { "key": "B", "score": 2, "text": "Mất khá nhiều thời gian tìm trong nhiều nơi" },
+        { "key": "C", "score": 3, "text": "Tìm được trong vài phút" },
+        { "key": "D", "score": 4, "text": "Tìm được ngay lập tức qua một hệ thống tra cứu" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "Không chắc — cần hỏi lại bộ phận phụ trách" }
+      ]
+    },
+    {
+      "id": "KM-5",
+      "dimension": "retention_risk",
+      "claim_type": "perception_enforcement",
+      "scored": true,
+      "text": "Nếu một nhân sự chủ chốt (nhiều kinh nghiệm) nghỉ việc đột ngột trong tuần tới, điều gì sẽ xảy ra với công việc họ phụ trách?",
+      "options": [
+        { "key": "A", "score": 1, "text": "Ảnh hưởng nghiêm trọng, nhiều việc không ai biết cách xử lý" },
+        { "key": "B", "score": 2, "text": "Ảnh hưởng đáng kể, cần thời gian dài để người khác nắm lại" },
+        { "key": "C", "score": 3, "text": "Ảnh hưởng ở mức trung bình, có thể xử lý được sau một thời gian ngắn" },
+        { "key": "D", "score": 4, "text": "Ảnh hưởng rất ít, công việc đã được tài liệu hoá đủ để người khác tiếp nhận ngay" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "Không chắc — cần hỏi lại bộ phận phụ trách" }
+      ]
+    },
+    {
+      "id": "KM-6",
+      "dimension": "reflection",
+      "claim_type": "perception",
+      "scored": false,
+      "type": "open_text",
+      "text": "Bạn có thể kể tên một tình huống cụ thể mà doanh nghiệp từng \"phải làm lại từ đầu\" một việc vì không tìm lại được cách đã làm trước đó không?"
+    }
+  ],
+  "levels": [
+    { "level": 1, "min": 1.0, "max": 1.7, "label": "Phụ thuộc cá nhân", "description": "Tri thức vận hành chủ yếu nằm trong đầu một vài người. Rủi ro nghỉ việc/mất kinh nghiệm ở mức cao." },
+    { "level": 2, "min": 1.8, "max": 2.5, "label": "Bắt đầu ghi nhận", "description": "Đã có một số tài liệu hoá nhưng chưa hệ thống, chưa được cập nhật hoặc thực thi nhất quán." },
+    { "level": 3, "min": 2.6, "max": 3.3, "label": "Có cấu trúc", "description": "Tri thức đã được tổ chức khá tốt, cần cải thiện khả năng truy xuất và duy trì cập nhật." },
+    { "level": 4, "min": 3.4, "max": 4.0, "label": "Tổ chức hoá", "description": "Tri thức đã trở thành tài sản tổ chức, ít phụ thuộc cá nhân, có thể truy xuất và tái sử dụng tốt." }
+  ]
+}

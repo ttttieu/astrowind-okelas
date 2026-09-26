@@ -1,0 +1,96 @@
+{
+  "workflow_id": "assessment_intake",
+  "version": "1.0",
+  "description": "Workflow duy nhất xử lý một submission assessment, từ raw answers đến output công khai + Evidence record. Đây là nguồn duy nhất chứa logic tính điểm/level/flag — website và bất kỳ instance OKELAS nào (internal 'OKELAS of OKELAS' hoặc on-prem khách hàng) đều load và thực thi CHÍNH file này, không có bản sao logic riêng nào khác. Mô tả theo Process → Workflow → Event → Evidence → Knowledge (01_Context §2).",
+
+  "trigger": {
+    "event_type": "assessment.submission.received",
+    "source": "public_website_widget"
+  },
+
+  "input_schema": {
+    "assessment_id": "string — một trong: erp_readiness | ai_readiness | km_maturity | digitalization_level",
+    "respondent": {
+      "org_name": "string, optional",
+      "role": "string, optional (CEO/BOD/Operations/IT/Quality...)",
+      "contact": "string, optional — chỉ thu thập nếu người dùng chủ động để lại"
+    },
+    "answers": [
+      { "question_id": "string", "selected_key": "string|null", "open_text": "string|null" }
+    ],
+    "submitted_at": "iso8601 timestamp",
+    "elapsed_seconds": "number — thời gian hoàn thành, dùng cho reliability flag"
+  },
+
+  "steps": [
+    {
+      "step": "validate_submission",
+      "type": "rule",
+      "description": "Kiểm tra đủ số câu bắt buộc đã có answer (scored=true) và assessment_id hợp lệ với config tương ứng. Không kiểm tra nội dung đúng/sai — đây là input tự khai, không phải bài kiểm tra.",
+      "on_fail": "reject_with_message"
+    },
+    {
+      "step": "compute_dimension_scores",
+      "type": "rule",
+      "description": "Với mỗi question có scored=true và selected_key khác E (uncertain), lấy score tương ứng trong config. Không tính điểm cho câu chọn E — ghi vào uncertain_dimensions.",
+      "formula": "dimension_score = score của câu hỏi thuộc dimension đó (một dimension có thể có nhiều câu — lấy trung bình các câu cùng dimension nếu có)"
+    },
+    {
+      "step": "compute_overall_average",
+      "type": "rule",
+      "formula": "overall_average = trung bình cộng toàn bộ dimension_score đã tính được (bỏ qua uncertain_dimensions)"
+    },
+    {
+      "step": "classify_level",
+      "type": "rule",
+      "description": "Tra bảng 'levels' trong config của assessment_id tương ứng theo overall_average.",
+      "precondition": "chỉ thực hiện nếu số lượng uncertain_dimensions <= 1 (theo ngưỡng ở 05_Question_Sets §6.2)",
+      "on_precondition_fail": {
+        "level": null,
+        "message": "Chưa đủ dữ liệu để đánh giá đầy đủ — khuyến nghị người phụ trách vận hành trực tiếp cùng thực hiện."
+      }
+    },
+    {
+      "step": "detect_straight_lining_flag",
+      "type": "rule",
+      "description": "Nếu tất cả câu scored=true đều chọn key 'D' (mức cao nhất) → flag = straight_lining_high. Áp dụng đối xứng nếu tất cả đều chọn 'A' → flag = straight_lining_low.",
+      "reference": "04_Verification_Framework §2.2; 05_Question_Sets §6.3"
+    },
+    {
+      "step": "detect_contradiction_signal",
+      "type": "flag_for_review",
+      "description": "So sánh overall_average với nội dung câu open_text (reflection question). Đây KHÔNG phải bước phân tích ngôn ngữ tự động — chỉ đơn thuần đính kèm nguyên văn open_text vào output cùng overall_average, để bước sau (consultant, con người) tự đánh giá có mâu thuẫn hay không. Không suy diễn nội dung open_text bằng rule hoặc model tại bước này.",
+      "reference": "04_Verification_Framework §2.4 — Gap Signal chỉ được tạo bởi con người dựa trên evidence thật, không tự động hoá phần diễn giải"
+    },
+    {
+      "step": "generate_public_output",
+      "type": "rule",
+      "description": "Build response trả về ngay cho website: level, label, description (lấy nguyên văn từ config, không tự sinh thêm câu chữ), gợi ý bài viết liên quan (internal link theo 03_Pillar_Map §5), không có CTA ép buộc liên hệ OKELAS.",
+      "reference": "05_Question_Sets §6.4"
+    },
+    {
+      "step": "create_evidence_record",
+      "type": "system_action",
+      "description": "Ghi toàn bộ submission (raw answers, dimension_scores, overall_average, flags, open_text nguyên văn) thành một Evidence gắn với Process 'Customer Assessment Intake'. Đây là bản ghi duy nhất, không có bản sao 'phân tích riêng' nào khác được tạo thêm.",
+      "entity": "Evidence",
+      "linked_process": "customer_assessment_intake"
+    },
+    {
+      "step": "create_task_if_flagged",
+      "type": "conditional_system_action",
+      "condition": "có bất kỳ flag nào trong {straight_lining_high, straight_lining_low, uncertain_dimensions >= 2} HOẶC overall_average >= 3.0 nhưng open_text có dấu hiệu mô tả vấn đề cụ thể (đánh giá bởi con người, không tự động)",
+      "action": "Tạo Task cho consultant trong OKELAS workflow 'Consultant Assessment Follow-up' (ngoài phạm vi workflow này — workflow này chỉ tạo Task, không tự chẩn đoán hay rẽ nhánh decision tree, đúng nguyên tắc 'OKELAS of OKELAS không chạy thêm phân tích')."
+    }
+  ],
+
+  "outputs": {
+    "to_website": "generate_public_output result — level, description, related content, không CTA ép buộc",
+    "to_okelas_core": "Evidence record + optional Task — được xử lý tiếp bởi các workflow khác (Consultant Workflow, Decision Tree per cluster) vốn đã tồn tại như process/workflow phục vụ khách hàng, KHÔNG phải logic riêng cho nội bộ"
+  },
+
+  "explicit_non_scope": [
+    "Không tự động diễn giải open_text bằng NLP/AI tại bước này",
+    "Không tự rẽ nhánh decision tree (đó là workflow riêng, chạy sau, dùng chung với on-prem khách hàng)",
+    "Không tạo kết luận/khuyến nghị vượt quá nội dung đã định nghĩa sẵn trong config levels"
+  ]
+}

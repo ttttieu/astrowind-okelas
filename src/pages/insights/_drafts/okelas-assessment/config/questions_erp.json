@@ -1,0 +1,128 @@
+{
+  "assessment_id": "erp_readiness",
+  "title": "ERP Readiness Assessment",
+  "intro": "Bộ câu hỏi này giúp bạn tự đánh giá mức độ sẵn sàng của doanh nghiệp trước khi triển khai ERP. Không có câu trả lời \"đúng\" hay \"sai\" — hãy chọn tình huống mô tả gần nhất với thực tế hiện tại của doanh nghiệp bạn.",
+  "dimensions": [
+    "process_existence",
+    "process_enforcement",
+    "data",
+    "people",
+    "scope",
+    "governance",
+    "accounting_manufacturing"
+  ],
+  "questions": [
+    {
+      "id": "ERP-1",
+      "dimension": "process_existence",
+      "claim_type": "existence",
+      "scored": true,
+      "text": "Các quy trình quan trọng nhất của doanh nghiệp (bán hàng, sản xuất, kho, mua hàng...) hiện đang được vận hành như thế nào?",
+      "options": [
+        { "key": "A", "score": 1, "text": "Chủ yếu theo kinh nghiệm cá nhân của từng người, chưa có tài liệu mô tả" },
+        { "key": "B", "score": 2, "text": "Một số quy trình có tài liệu, nhưng chưa đầy đủ hoặc đã lâu chưa cập nhật" },
+        { "key": "C", "score": 3, "text": "Phần lớn quy trình chính đã có tài liệu mô tả rõ ràng" },
+        { "key": "D", "score": 4, "text": "Quy trình chính đã tài liệu hoá đầy đủ và được rà soát định kỳ" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "Không chắc — cần hỏi lại bộ phận phụ trách" }
+      ]
+    },
+    {
+      "id": "ERP-2",
+      "dimension": "process_enforcement",
+      "claim_type": "enforcement",
+      "scored": true,
+      "text": "Khi hai người khác nhau cùng thực hiện một quy trình quan trọng (ví dụ: xử lý đơn hàng, xuất kho), kết quả và cách làm có giống nhau không?",
+      "options": [
+        { "key": "A", "score": 1, "text": "Thường khác nhau đáng kể, tuỳ người" },
+        { "key": "B", "score": 2, "text": "Có khác biệt nhưng không lớn" },
+        { "key": "C", "score": 3, "text": "Về cơ bản giống nhau" },
+        { "key": "D", "score": 4, "text": "Giống nhau, có cơ chế kiểm tra để đảm bảo điều đó" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "Không chắc — cần hỏi lại bộ phận phụ trách" }
+      ]
+    },
+    {
+      "id": "ERP-3",
+      "dimension": "data",
+      "claim_type": "existence_currency",
+      "scored": true,
+      "text": "Dữ liệu về khách hàng, vật tư, sản phẩm hiện đang được lưu và quản lý ra sao?",
+      "options": [
+        { "key": "A", "score": 1, "text": "Rải rác ở nhiều nơi (Excel, giấy, trong đầu nhân viên), chưa thống nhất" },
+        { "key": "B", "score": 2, "text": "Có tập trung một phần, nhưng còn trùng lặp/thiếu/không nhất quán" },
+        { "key": "C", "score": 3, "text": "Tập trung ở một hệ thống, độ chính xác khá tốt" },
+        { "key": "D", "score": 4, "text": "Tập trung, được rà soát và cập nhật định kỳ theo quy định rõ ràng" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "Không chắc — cần hỏi lại bộ phận phụ trách" }
+      ]
+    },
+    {
+      "id": "ERP-4",
+      "dimension": "people",
+      "claim_type": "perception",
+      "scored": true,
+      "text": "Nếu doanh nghiệp thay đổi cách làm việc (ví dụ: bắt buộc nhập liệu vào hệ thống thay vì làm theo thói quen cũ), phản ứng phổ biến của nhân sự sẽ là gì?",
+      "options": [
+        { "key": "A", "score": 1, "text": "Phản đối/né tránh, nhiều khả năng quay lại cách làm cũ sau một thời gian" },
+        { "key": "B", "score": 2, "text": "Miễn cưỡng làm theo nếu bị yêu cầu, không chủ động" },
+        { "key": "C", "score": 3, "text": "Chấp nhận và làm theo khi được giải thích rõ lý do" },
+        { "key": "D", "score": 4, "text": "Chủ động đề xuất cải tiến cách làm mới" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "Không chắc — cần hỏi lại bộ phận phụ trách" }
+      ]
+    },
+    {
+      "id": "ERP-5",
+      "dimension": "scope",
+      "claim_type": "existence",
+      "scored": true,
+      "text": "Nếu quyết định triển khai ERP, phạm vi triển khai (bộ phận nào, quy trình nào, giai đoạn nào) hiện đã được xác định đến đâu?",
+      "options": [
+        { "key": "A", "score": 1, "text": "Chưa xác định, mới dừng ở ý tưởng chung" },
+        { "key": "B", "score": 2, "text": "Đã có ý tưởng nhưng chưa văn bản hoá" },
+        { "key": "C", "score": 3, "text": "Đã có văn bản mô tả phạm vi cơ bản" },
+        { "key": "D", "score": 4, "text": "Đã có văn bản chi tiết, được thống nhất giữa các bộ phận liên quan" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "Không chắc — cần hỏi lại bộ phận phụ trách" }
+      ]
+    },
+    {
+      "id": "ERP-6",
+      "dimension": "governance",
+      "claim_type": "existence",
+      "scored": true,
+      "text": "Nếu triển khai ERP xảy ra vấn đề (dữ liệu sai, quy trình không khớp phần mềm), ai là người có trách nhiệm và thẩm quyền quyết định xử lý?",
+      "options": [
+        { "key": "A", "score": 1, "text": "Chưa rõ, sẽ phải bàn lại khi phát sinh" },
+        { "key": "B", "score": 2, "text": "Có người phụ trách nhưng không có thẩm quyền quyết định rõ ràng" },
+        { "key": "C", "score": 3, "text": "Có người phụ trách với thẩm quyền rõ ràng" },
+        { "key": "D", "score": 4, "text": "Có cơ chế/quy trình xử lý vấn đề đã được thống nhất trước" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "Không chắc — cần hỏi lại bộ phận phụ trách" }
+      ]
+    },
+    {
+      "id": "ERP-7",
+      "dimension": "accounting_manufacturing",
+      "claim_type": "enforcement",
+      "scored": true,
+      "text": "Các nghiệp vụ kế toán hoặc sản xuất đặc thù của doanh nghiệp hiện có đang vận hành theo cách khó chuẩn hoá (ví dụ: nhiều ngoại lệ, xử lý thủ công riêng từng trường hợp) không?",
+      "options": [
+        { "key": "A", "score": 1, "text": "Có rất nhiều ngoại lệ/xử lý riêng, khó mô tả thành quy tắc chung" },
+        { "key": "B", "score": 2, "text": "Có một số ngoại lệ đáng kể" },
+        { "key": "C", "score": 3, "text": "Ít ngoại lệ, phần lớn theo quy tắc chung" },
+        { "key": "D", "score": 4, "text": "Gần như không có ngoại lệ, nghiệp vụ đã được chuẩn hoá" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "Không chắc — cần hỏi lại bộ phận phụ trách" }
+      ]
+    },
+    {
+      "id": "ERP-8",
+      "dimension": "reflection",
+      "claim_type": "perception",
+      "scored": false,
+      "type": "open_text",
+      "text": "Nhìn lại các câu trả lời trên: điều gì khiến bạn ngạc nhiên nhất về tình trạng thực tế của doanh nghiệp mình?"
+    }
+  ],
+  "levels": [
+    { "level": 1, "min": 1.0, "max": 1.7, "label": "Mới bắt đầu", "description": "Doanh nghiệp chưa có nền tảng quy trình/dữ liệu đủ ổn định để ERP tạo ra giá trị ngay. Bước hợp lý tiếp theo là chuẩn hoá quy trình trước khi nghĩ tới phần mềm." },
+    { "level": 2, "min": 1.8, "max": 2.5, "label": "Đang hình thành", "description": "Đã có một số nền tảng nhưng còn thiếu tính nhất quán. Rủi ro lớn nhất nếu triển khai ERP ngay là scope creep và dữ liệu không sạch." },
+    { "level": 3, "min": 2.6, "max": 3.3, "label": "Khá sẵn sàng", "description": "Phần lớn điều kiện đã có. Cần rà soát kỹ các điểm còn yếu trước khi chốt phạm vi triển khai." },
+    { "level": 4, "min": 3.4, "max": 4.0, "label": "Sẵn sàng", "description": "Doanh nghiệp có nền tảng tốt để ERP implementation đạt hiệu quả cao. Trọng tâm lúc này là chọn đúng phạm vi và lộ trình." }
+  ]
+}
