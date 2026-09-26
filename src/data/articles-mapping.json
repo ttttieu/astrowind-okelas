@@ -402,6 +402,19 @@
         "category": "solutions",
         "url": "/en/solutions/workflow-automation"
       }
+    },
+    {
+      "translationId": "organizational-ai-readiness",
+      "vi": {
+        "slug": "ai-readiness-doanh-nghiep",
+        "category": "ai",
+        "url": "/insights/ai/ai-readiness-doanh-nghiep"
+      },
+      "en": {
+        "slug": "organizational-ai-readiness",
+        "category": "ai",
+        "url": "/en/insights/ai/organizational-ai-readiness"
+      }
     }
   ]
 }
