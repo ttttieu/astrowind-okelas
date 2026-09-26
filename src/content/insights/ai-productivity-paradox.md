@@ -7,6 +7,7 @@ category: 'ai'
 tags: ['AI Productivity', 'Organizational Capacity', 'AI Implementation', 'Business Value']
 translationId: 'ai-productivity-paradox'
 lang: 'en'
+contentType: 'Opening'
 funnelStage:
   - Awareness
 audience: ['CEO', 'COO', 'Operations Director']
