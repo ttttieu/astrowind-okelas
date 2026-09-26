@@ -363,6 +363,19 @@
         "category": "solutions",
         "url": "/en/solutions/erp-readiness"
       }
+    },
+    {
+      "translationId": "ai-readiness",
+      "vi": {
+        "slug": "ai-readiness",
+        "category": "solutions",
+        "url": "/solutions/ai-readiness"
+      },
+      "en": {
+        "slug": "ai-readiness",
+        "category": "solutions",
+        "url": "/en/solutions/ai-readiness"
+      }
     }
   ]
 }

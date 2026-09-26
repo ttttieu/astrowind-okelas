@@ -10,45 +10,44 @@ import Features3 from '~/components/widgets/Features3.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'AI Readiness -- OKELAS',
+  title: 'AI Readiness — OKELAS',
   description:
-    'Many businesses have access to AI tools. Far fewer can say their organization is actually ready for AI to be useful in daily operations. OKELAS builds the knowledge foundation an AI Copilot needs before deployment.',
+    'Nhiều doanh nghiệp đã có sẵn công cụ AI. Ít doanh nghiệp hơn hẳn có thể tự tin nói tổ chức họ thực sự sẵn sàng AI hữu ích trong vận hành hàng ngày. OKELAS xây dựng nền tảng tri thức mà AI Copilot cần trước triển khai.',
 };
 ---
 
-<Layout metadata={metadata}>
+<Layout metadata={metadata} translationId="ai-readiness">
   <HeroText
-    tagline="Solutions"
+    tagline="Giải Pháp"
     title="AI Readiness"
-    subtitle="Having access to AI tools is not the same as being ready for AI to be useful in daily operations."
+    subtitle="Có sẵn công cụ AI trong tay không đồng nghĩa với việc đã sẵn sàng để AI thực sự hữu ích trong vận hành hàng ngày."
   />
 
   <Features3
     columns={1}
-    
     items={[
       {
-        title: 'The problem',
+        title: 'Vấn đề',
         description:
-          'Many businesses already have access to AI tools. Far fewer can say their organization is actually ready for AI to be useful in daily operations -- the tools exist, but the answers they give aren\'t grounded in how the business actually works.',
+          'Nhiều doanh nghiệp đã có sẵn công cụ AI để dùng. Nhưng ít doanh nghiệp hơn hẳn có thể tự tin nói rằng tổ chức mình thực sự sẵn sàng để AI hữu ích trong vận hành hàng ngày — công cụ thì có, nhưng câu trả lời nó đưa ra lại không neo vào cách doanh nghiệp thực sự vận hành.',
         icon: 'tabler:alert-circle',
       },
       {
-        title: 'Why it happens',
+        title: 'Vì sao nó xảy ra',
         description:
-          'AI readiness gets mistaken for data readiness alone. But an AI system also needs organizational context -- process clarity, structured knowledge, and governance -- to move from generating plausible text to producing something an operations team can actually act on and trust.',
+          'AI readiness thường bị hiểu nhầm chỉ là data readiness. Nhưng một hệ thống AI còn cần đến organizational context — sự rõ ràng về quy trình, tri thức đã được cấu trúc, và cơ chế quản trị — để chuyển từ việc tạo ra văn bản nghe có vẻ hợp lý sang việc tạo ra thứ mà một đội vận hành thực sự có thể hành động và tin tưởng được.',
         icon: 'tabler:zoom-question',
       },
       {
-        title: 'How OKELAS approaches it',
+        title: 'Cách OKELAS tiếp cận',
         description:
-          'OKELAS assesses and builds the knowledge foundation and governance an AI Copilot needs before deployment -- so answers come with context and evidence, not just fluent language. This groundwork also determines whether an AI initiative should start now or after specific gaps are closed.',
+          'OKELAS đánh giá và xây dựng nền tảng tri thức cùng cơ chế quản trị mà một AI Copilot cần có trước khi triển khai — để mỗi câu trả lời đi kèm với ngữ cảnh và bằng chứng, chứ không chỉ là ngôn ngữ trôi chảy. Công việc nền tảng này cũng chính là căn cứ để xác định một sáng kiến AI nên bắt đầu ngay bây giờ, hay nên chờ xử lý xong một số lỗ hổng cụ thể trước đã.',
         icon: 'tabler:bulb',
       },
       {
-        title: 'Quick self-check',
+        title: 'Tự kiểm tra nhanh',
         description:
-          'If your AI assistant gave a confidently wrong answer about your own operations tomorrow, would anyone catch it before a decision was made on it?',
+          'Nếu ngày mai trợ lý AI của bạn đưa ra một câu trả lời sai nhưng nghe rất chắc chắn về chính hoạt động vận hành của doanh nghiệp bạn, liệu có ai phát hiện ra điều đó trước khi một quyết định được đưa ra dựa trên câu trả lời ấy không?',
         icon: 'tabler:checkbox',
       },
     ]}
@@ -58,15 +57,15 @@ const metadata = {
     actions={[
       {
         variant: 'primary',
-        text: 'Take the AI Readiness Assessment',
+        text: 'Thực Hiện Đánh Giá Readiness AI',
         href: '/readiness/ai',
         icon: 'tabler:clipboard-check',
       },
     ]}
   >
-    <Fragment slot="title">Next step</Fragment>
+    <Fragment slot="title">Bước Tiếp Theo</Fragment>
     <Fragment slot="subtitle">
-      Find out whether your organization is ready for AI -- and what to build first if not.
+      Tìm hiểu tổ chức bạn đã sẵn sàng cho AI hay chưa — và cần xây dựng cái gì trước tiên nếu chưa.
     </Fragment>
   </CallToAction>
 </Layout>
