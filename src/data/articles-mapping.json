@@ -337,6 +337,19 @@
         "category": "solutions",
         "url": "/en/solutions/standardize-processes"
       }
+    },
+    {
+      "translationId": "progressive-eqms",
+      "vi": {
+        "slug": "progressive-eqms",
+        "category": "solutions",
+        "url": "/solutions/progressive-eqms"
+      },
+      "en": {
+        "slug": "progressive-eqms",
+        "category": "solutions",
+        "url": "/en/solutions/progressive-eqms"
+      }
     }
   ]
 }

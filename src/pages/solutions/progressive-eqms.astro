@@ -5,45 +5,44 @@ import Features3 from '~/components/widgets/Features3.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'Progressive eQMS -- OKELAS',
+  title: 'Progressive eQMS — OKELAS',
   description:
-    'Build audit-ready compliance and records management structured around your actual daily work. Start where the need is most immediate, progressively extend from there.',
+    'Xây dựng hệ thống compliance sẵn sàng cho audit, cấu trúc xoay quanh công việc hàng ngày của bạn. Bắt đầu từ chỗ cần gấp nhất, rồi mở rộng dần dần.',
 };
 ---
 
-<Layout metadata={metadata}>
+<Layout metadata={metadata} translationId="progressive-eqms">
   <HeroText
-    tagline="Solutions"
+    tagline="Giải Pháp"
     title="Progressive eQMS"
-    subtitle="Audit preparation shouldn't eat weeks of a quality team's time every cycle."
+    subtitle="Chuẩn bị audit không nên ngốn hàng tuần thời gian của đội quality mỗi chu kỳ."
   />
 
   <Features3
     columns={1}
-    
     items={[
       {
-        title: 'The problem',
+        title: 'Vấn đề',
         description:
-          'For manufacturing businesses under ISO or GMP, audit preparation can eat weeks of a quality team\'s time -- chasing signatures, reconciling paper logs, reconstructing what happened from memory when a record is missing.',
+          'Với các doanh nghiệp sản xuất chịu áp lực ISO hoặc GMP, việc chuẩn bị audit có thể ngốn hàng tuần thời gian của đội quality — chạy đi xin từng chữ ký, đối chiếu sổ ghi chép giấy, và dựng lại xem điều gì đã xảy ra từ trí nhớ khi một hồ sơ bị thất lạc.',
         icon: 'tabler:alert-circle',
       },
       {
-        title: 'Why it happens',
+        title: 'Vì sao nó xảy ra',
         description:
-          'A "complete" eQMS system is often positioned as an all-or-nothing implementation, which is expensive and slow to justify for an SME. So compliance work stays manual because the alternative looks like a multi-year software project.',
+          'Một hệ thống eQMS "đầy đủ" thường được định vị như một dự án triển khai kiểu tất-cả-hoặc-không-gì-cả — vừa tốn kém, vừa khó biện minh nhanh với một doanh nghiệp SME. Vì vậy công việc compliance vẫn cứ làm thủ công, bởi phương án thay thế trông giống như một dự án phần mềm kéo dài nhiều năm.',
         icon: 'tabler:zoom-question',
       },
       {
-        title: 'How OKELAS approaches it',
+        title: 'Cách OKELAS tiếp cận',
         description:
-          'OKELAS builds audit-ready compliance and records management structured around your actual daily work -- starting wherever the need is most immediate (digital records, a specific ISO clause, an approval workflow) and progressively extending toward a connected operational knowledge system. No requirement to buy the full system before proving the first piece works.',
+          'OKELAS xây dựng hệ thống compliance và quản lý hồ sơ sẵn sàng cho audit, được cấu trúc xoay quanh chính công việc hàng ngày của bạn — bắt đầu từ chỗ đang cần gấp nhất (hồ sơ số, một điều khoản ISO cụ thể, một quy trình phê duyệt), rồi mở rộng dần dần tới một hệ thống tri thức vận hành được kết nối đầy đủ. Không có yêu cầu phải mua trọn bộ hệ thống trước khi kịp chứng minh mắt xích đầu tiên đã hoạt động.',
         icon: 'tabler:bulb',
       },
       {
-        title: 'Quick self-check',
+        title: 'Tự kiểm tra nhanh',
         description:
-          'When was your last audit, and how many hours did preparation take versus the audit itself?',
+          'Lần audit gần nhất của bạn là khi nào, và thời gian chuẩn bị chiếm bao nhiêu giờ so với chính buổi audit đó?',
         icon: 'tabler:checkbox',
       },
     ]}
@@ -53,15 +52,15 @@ const metadata = {
     actions={[
       {
         variant: 'primary',
-        text: 'Take the Digitalization Readiness Assessment',
+        text: 'Thực Hiện Đánh Giá Readiness Số Hóa',
         href: '/readiness/digitalization',
         icon: 'tabler:clipboard-check',
       },
     ]}
   >
-    <Fragment slot="title">Next step</Fragment>
+    <Fragment slot="title">Bước Tiếp Theo</Fragment>
     <Fragment slot="subtitle">
-      Find out how ready your operations are for digital records and compliance workflows.
+      Tìm hiểu mức độ sẵn sàng của vận hành bạn cho hồ sơ số và các workflow compliance.
     </Fragment>
   </CallToAction>
 </Layout>
