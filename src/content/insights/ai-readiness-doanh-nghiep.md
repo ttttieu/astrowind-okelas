@@ -3,7 +3,7 @@ title: "AI Readiness — Tại Sao AI Không Tự Động Làm Doanh Nghiệp Th
 description: "Nhiều doanh nghiệp đã dùng AI nhưng không thấy kết quả ở cấp tổ chức. Bài viết phân tích điều kiện thực sự để AI tạo ra giá trị trong vận hành."
 publishDate: 2025-09-24T00:00:00Z
 image: '~/assets/images/insights/ai-readiness-doanh-nghiep.png'
-category: 'AI'
+category: 'ai'
 tags: ['AI Readiness', 'Organizational Intelligence', 'AI Implementation', 'Manufacturing']
 translationId: 'organizational-ai-readiness'
 lang: 'vi'

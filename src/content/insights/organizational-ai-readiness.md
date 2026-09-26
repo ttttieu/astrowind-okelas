@@ -3,7 +3,7 @@ title: "Organizational AI Readiness — Why AI Alone Won't Make Your Organizatio
 description: "Many businesses have deployed AI tools but seen little organizational improvement. This article examines the real conditions that determine whether AI creates lasting operational value."
 publishDate: 2025-09-24T00:00:00Z
 image: '~/assets/images/insights/organizational-ai-readiness.png'
-category: 'AI'
+category: 'ai'
 tags: ['AI Readiness', 'Organizational Intelligence', 'AI Implementation', 'Manufacturing']
 translationId: 'organizational-ai-readiness'
 lang: 'en'
