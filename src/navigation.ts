@@ -15,7 +15,7 @@ export const headerData = {
       text: 'Solutions',
       links: [
         { text: 'Digitalize Operations', href: '/solutions/so-hoa-van-hanh', hrefEn: '/en/solutions/digitalize-operations' },
-        { text: 'Standardize Processes', href: '/solutions/standardize-processes' },
+        { text: 'Standardize Processes', href: '/solutions/chuan-hoa-quy-trinh', hrefEn: '/en/solutions/standardize-processes' },
         { text: 'Progressive eQMS', href: '/solutions/progressive-eqms' },
         { text: 'ERP Readiness', href: '/solutions/erp-readiness' },
         { text: 'AI Readiness', href: '/solutions/ai-readiness' },

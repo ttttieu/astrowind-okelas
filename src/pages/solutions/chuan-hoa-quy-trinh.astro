@@ -1,0 +1,66 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Chuẩn Hóa Quy Trình — OKELAS',
+  description:
+    'SOP thì có. Chỉ là không lần nào giống lần nào. OKELAS thiết lập các SOP rõ ràng, phân công vai trò cụ thể, và các điểm kiểm tra xuyên suốt.',
+};
+---
+
+<Layout metadata={metadata} translationId="standardize-processes">
+  <HeroText
+    tagline="Giải Pháp"
+    title="Chuẩn Hóa Quy Trình"
+    subtitle="SOP thì có. Chỉ là không lần nào giống lần nào."
+  />
+
+  <Features3
+    columns={1}
+    items={[
+      {
+        title: 'Vấn đề',
+        description:
+          'Ca này làm một kiểu, ca kia làm một kiểu khác, và không ai dám chắc phiên bản nào mới là "quy trình chuẩn".',
+        icon: 'tabler:alert-circle',
+      },
+      {
+        title: 'Vì sao nó xảy ra',
+        description:
+          'Chỉ có tài liệu thôi thì không tạo ra sự nhất quán. Nếu không có phân công trách nhiệm rõ ràng theo từng vai trò và các điểm kiểm tra (validation checkpoint), một SOP chỉ là một gợi ý, chứ không phải một chuẩn mực bắt buộc — và ngay khi có nhân viên mới, một ngày bận rộn, hay một lần đổi ca trưởng, khoảng cách giữa "đã ghi trong tài liệu" và "thực tế đã làm" lại xuất hiện trở lại.',
+        icon: 'tabler:zoom-question',
+      },
+      {
+        title: 'Cách OKELAS tiếp cận',
+        description:
+          'OKELAS thiết lập các SOP rõ ràng, phân công vai trò cụ thể, và các điểm kiểm tra xuyên suốt giữa các phòng ban — được gắn liền với workflow thực tế, chứ không phải nằm im trong một cuốn bìa còng. Đây cũng chính là bước mà phần lớn các dự án ERP và eQMS bỏ qua — và đó là lý do vì sao nhiều dự án gặp trục trặc sau khi go-live, chứ không phải trước đó.',
+        icon: 'tabler:bulb',
+      },
+      {
+        title: 'Tự kiểm tra nhanh',
+        description:
+          'Hãy thử hỏi ba người ở ba ca khác nhau mô tả lại cùng một quy trình. Nếu bạn nhận được ba câu trả lời khác nhau, thì chuẩn hóa — chứ không phải phần mềm — mới là khoảng trống cần xử lý trước tiên.',
+        icon: 'tabler:checkbox',
+      },
+    ]}
+  />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Thực Hiện Đánh Giá Readiness ERP',
+        href: '/readiness/erp',
+        icon: 'tabler:clipboard-check',
+      },
+    ]}
+  >
+    <Fragment slot="title">Bước Tiếp Theo</Fragment>
+    <Fragment slot="subtitle">
+      Xem chuẩn hóa quy trình ảnh hưởng như thế nào đến điểm readiness ERP của bạn.
+    </Fragment>
+  </CallToAction>
+</Layout>

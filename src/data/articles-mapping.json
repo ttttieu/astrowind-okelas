@@ -324,6 +324,19 @@
         "category": "solutions",
         "url": "/en/solutions/digitalize-operations"
       }
+    },
+    {
+      "translationId": "standardize-processes",
+      "vi": {
+        "slug": "chuan-hoa-quy-trinh",
+        "category": "solutions",
+        "url": "/solutions/chuan-hoa-quy-trinh"
+      },
+      "en": {
+        "slug": "standardize-processes",
+        "category": "solutions",
+        "url": "/en/solutions/standardize-processes"
+      }
     }
   ]
 }
