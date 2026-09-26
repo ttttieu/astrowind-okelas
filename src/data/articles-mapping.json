@@ -285,6 +285,19 @@
         "category": "why",
         "url": "/en/why/progressive-eqms"
       }
+    },
+    {
+      "translationId": "why-before-erp",
+      "vi": {
+        "slug": "tai-sao-readiness-truoc-erp",
+        "category": "why",
+        "url": "/why/tai-sao-readiness-truoc-erp"
+      },
+      "en": {
+        "slug": "why-before-erp",
+        "category": "why",
+        "url": "/en/why/why-before-erp"
+      }
     }
   ]
 }

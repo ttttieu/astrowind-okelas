@@ -7,7 +7,7 @@ export const headerData = {
         { text: 'From Documents to Operations', href: '/why/tai-lieu-den-van-hanh', hrefEn: '/en/why/documents-to-operations' },
         { text: 'Knowledge as Infrastructure', href: '/why/tri-thuc-la-ha-tang', hrefEn: '/en/why/knowledge-as-infrastructure' },
         { text: 'Progressive eQMS', href: '/why/tai-sao-khong-bat-dau-hoan-chinh', hrefEn: '/en/why/progressive-eqms' },
-        { text: 'Why Before ERP', href: '/why/why-before-erp' },
+        { text: 'Why Before ERP', href: '/why/tai-sao-readiness-truoc-erp', hrefEn: '/en/why/why-before-erp' },
         { text: 'Why Before AI', href: '/why/why-before-ai' },
       ],
     },

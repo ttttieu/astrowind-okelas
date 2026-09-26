@@ -1,0 +1,46 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Content from '~/components/widgets/Content.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: "Vì Sao Readiness Phải Đến Trước ERP — OKELAS",
+  description: "Phần lớn dự án ERP thất bại không phải do phần mềm, mà do quy trình và mức độ sẵn sàng của tổ chức. OKELAS giải quyết vấn đề này trước khi kết nối một hệ thống nặng vào bất kỳ phần nào.",
+};
+---
+
+<Layout metadata={metadata} translationId="why-before-erp">
+  <HeroText
+    tagline="Vì Sao Có OKELAS"
+    title="Vì Sao Readiness Phải Đến Trước ERP"
+  />
+
+  <Content
+    content={`
+      <p>Nếu bạn đang cân nhắc triển khai ERP, có lẽ bạn đã từng nghe một phiên bản của điều này: một phần đáng kể các dự án ERP — các ước tính trong ngành thường được trích dẫn dao động cao tới 50–75%, dù con số này thay đổi rất nhiều tùy cách định nghĩa "thất bại", phạm vi khảo sát và thời điểm nghiên cứu — không đạt được kỳ vọng ban đầu. Các con số này đủ không nhất quán để không nên coi bất kỳ con số đơn lẻ nào là tuyệt đối chính xác. Điều nhất quán hơn giữa các nghiên cứu là nguyên nhân hàng đầu được nêu ra: mức độ sẵn sàng của quy trình và tổ chức, chứ không phải bản thân phần mềm.</p>
+
+      <p>Điều này khớp với những gì chúng tôi quan sát trực tiếp. Một hệ thống ERP sẽ tự động hóa bất kỳ quy trình nào bạn đưa vào nó — kể cả một quy trình thiếu nhất quán. Đưa vào đó một quy trình và dữ liệu sạch, chuẩn hóa, nó sẽ vận hành đúng như kỳ vọng. Đưa vào đó một mớ chắp vá gồm các cách làm riêng theo từng ca, cùng những file Excel chưa từng được đối chiếu với nhau, nó sẽ trung thành tự động hóa chính mớ chắp vá đó — thường với chi phí cao hơn nhiều so với khi vận hành thủ công.</p>
+
+      <p>Đây là lý do các dự án của OKELAS hướng tới ERP luôn bắt đầu bằng readiness — chuẩn hóa quy trình, làm sạch master data, xác thực lại logic vận hành — trước khi kết nối một hệ thống nặng vào bất kỳ phần nào trong số đó. Phát hiện một lỗ hổng quy trình ngay trong giai đoạn đánh giá readiness bao giờ cũng rẻ hơn và ít xáo trộn hơn nhiều so với phát hiện ra nó sau ba tháng đã đi vào triển khai.</p>
+
+      <p><strong>Một điểm cần làm rõ:</strong> điều này không có nghĩa OKELAS chỉ có giá trị trước ERP. Một khi ERP đã vận hành, cùng một lớp tri thức đó chính là thứ biến dữ liệu giao dịch thô của ERP thành ERP Knowledge Graph, một Copilot hỗ trợ, hay một trợ lý triển khai — vai trò "trước" và "sau" đều dùng chung một nền tảng cốt lõi. Readiness là điểm mà phần lớn doanh nghiệp cần bắt đầu; nhưng đó không phải là nơi duy nhất OKELAS có thể hữu ích.</p>
+    `}
+  />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Thực Hiện Đánh Giá Readiness ERP',
+        href: '/readiness/erp',
+        icon: 'tabler:clipboard-check',
+      },
+    ]}
+  >
+    <Fragment slot="title">Tiếp Theo</Fragment>
+    <Fragment slot="subtitle">
+      Xác định chính xác lỗ hổng quy trình và dữ liệu của bạn trước khi cam kết cho dự án ERP.
+    </Fragment>
+  </CallToAction>
+</Layout>
