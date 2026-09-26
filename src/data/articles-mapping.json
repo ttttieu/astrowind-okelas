@@ -467,6 +467,19 @@
         "category": "ai",
         "url": "/en/insights/ai/ai-readiness-checklist"
       }
+    },
+    {
+      "translationId": "data-without-context-ai",
+      "vi": {
+        "slug": "du-lieu-khong-co-context-ai",
+        "category": "ai",
+        "url": "/insights/ai/du-lieu-khong-co-context-ai"
+      },
+      "en": {
+        "slug": "data-without-context-ai-problem",
+        "category": "ai",
+        "url": "/en/insights/ai/data-without-context-ai-problem"
+      }
     }
   ]
 }
