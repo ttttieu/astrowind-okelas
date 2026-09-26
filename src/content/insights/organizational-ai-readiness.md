@@ -24,10 +24,6 @@ assessmentHref: '/en/readiness/ai'
 draft: false
 ---
 
-# AI Readiness: Why AI Alone Won't Make Your Organization More Intelligent
-
----
-
 > **Executive Summary**
 >
 > - Most organizations are confusing *AI productivity* (individuals working faster) with *organizational intelligence* (the organization making better decisions). These are fundamentally different outcomes.

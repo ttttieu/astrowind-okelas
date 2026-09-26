@@ -415,6 +415,19 @@
         "category": "ai",
         "url": "/en/insights/ai/organizational-ai-readiness"
       }
+    },
+    {
+      "translationId": "ai-productivity-paradox",
+      "vi": {
+        "slug": "ai-productivity-paradox-vi",
+        "category": "ai",
+        "url": "/insights/ai/ai-productivity-paradox-vi"
+      },
+      "en": {
+        "slug": "ai-productivity-paradox",
+        "category": "ai",
+        "url": "/en/insights/ai/ai-productivity-paradox"
+      }
     }
   ]
 }
