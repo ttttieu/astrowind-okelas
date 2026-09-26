@@ -20,7 +20,7 @@ export const headerData = {
         { text: 'ERP Readiness', href: '/solutions/erp-readiness', hrefEn: '/en/solutions/erp-readiness' },
         { text: 'AI Readiness', href: '/solutions/ai-readiness', hrefEn: '/en/solutions/ai-readiness' },
         { text: 'Knowledge & Copilot', href: '/solutions/knowledge-copilot', hrefEn: '/en/solutions/knowledge-copilot' },
-        { text: 'Workflow Automation', href: '/solutions/workflow-automation' },
+        { text: 'Workflow Automation', href: '/solutions/workflow-automation', hrefEn: '/en/solutions/workflow-automation' },
       ],
     },
     {

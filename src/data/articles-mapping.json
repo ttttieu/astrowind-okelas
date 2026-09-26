@@ -389,6 +389,19 @@
         "category": "solutions",
         "url": "/en/solutions/knowledge-copilot"
       }
+    },
+    {
+      "translationId": "workflow-automation",
+      "vi": {
+        "slug": "workflow-automation",
+        "category": "solutions",
+        "url": "/solutions/workflow-automation"
+      },
+      "en": {
+        "slug": "workflow-automation",
+        "category": "solutions",
+        "url": "/en/solutions/workflow-automation"
+      }
     }
   ]
 }

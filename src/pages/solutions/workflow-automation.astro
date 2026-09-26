@@ -11,45 +11,44 @@ import Features3 from '~/components/widgets/Features3.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'Intelligent Workflow -- OKELAS',
+  title: 'Intelligent Workflow — OKELAS',
   description:
-    'The workflow already exists. OKELAS makes established workflows faster, more adaptive and more capable by connecting process, knowledge, evidence and AI.',
+    'Workflow thì đã có sẵn rồi. OKELAS giúp các workflow đã thiết lập trở nên nhanh hơn, linh hoạt hơn và có năng lực hơn bằng cách kết nối process, tri thức, bằng chứng và AI với nhau.',
 };
 ---
 
-<Layout metadata={metadata}>
+<Layout metadata={metadata} translationId="workflow-automation">
   <HeroText
-    tagline="Solutions"
+    tagline="Giải Pháp"
     title="Intelligent Workflow"
-    subtitle="The workflow already exists. The problem is it's slow, manual, and hits a ceiling as the business grows."
+    subtitle="Workflow thì đã có sẵn rồi. Vấn đề là nó chậm, thủ công, và chạm trần khi doanh nghiệp lớn lên."
   />
 
   <Features3
     columns={1}
-    
     items={[
       {
-        title: 'The problem',
+        title: 'Vấn đề',
         description:
-          'Approvals happen, tasks move, records get filed. But it\'s slow -- manual handoffs, someone has to remember to follow up, and the same workflow that worked at 50 employees starts creaking at 150.',
+          'Phê duyệt vẫn diễn ra, công việc vẫn được chuyển tiếp, hồ sơ vẫn được lưu trữ. Nhưng mọi thứ chậm — bàn giao thủ công, phải có người nhớ để theo dõi tiếp, và chính cái workflow từng chạy tốt khi doanh nghiệp có 50 nhân sự bắt đầu "kêu cót két" khi lên tới 150.',
         icon: 'tabler:alert-circle',
       },
       {
-        title: 'Why it happens',
+        title: 'Vì sao nó xảy ra',
         description:
-          'A workflow that only moves tasks from one step to the next, without any connection to the knowledge, evidence or context behind those tasks, hits a ceiling. It can be faster, but it can\'t get smarter -- every exception still needs a human to stop and figure out what to do.',
+          'Một workflow chỉ đơn thuần chuyển công việc từ bước này sang bước khác, mà không có bất kỳ kết nối nào với tri thức, bằng chứng hay bối cảnh đứng sau những công việc đó, sẽ sớm chạm trần. Nó có thể chạy nhanh hơn, nhưng không thể "thông minh hơn" — mọi ngoại lệ vẫn cần một con người dừng lại để tìm hướng xử lý.',
         icon: 'tabler:zoom-question',
       },
       {
-        title: 'How OKELAS approaches it',
+        title: 'Cách OKELAS tiếp cận',
         description:
-          'OKELAS makes established workflows faster, more adaptive and more capable by connecting process, knowledge, evidence and AI -- so a workflow doesn\'t just move a task forward, it carries the context needed to handle routine exceptions without escalating every one of them.',
+          'OKELAS giúp các workflow đã thiết lập trở nên nhanh hơn, linh hoạt hơn và có năng lực hơn bằng cách kết nối process, tri thức, bằng chứng và AI với nhau — để một workflow không chỉ đơn giản là đẩy công việc đi tiếp, mà còn mang theo đủ context cần thiết để xử lý những ngoại lệ thường gặp mà không cần đẩy lên cấp cao mỗi lần.',
         icon: 'tabler:bulb',
       },
       {
-        title: 'Quick self-check',
+        title: 'Tự kiểm tra nhanh',
         description:
-          'In your busiest weekly workflow, how many steps exist purely so a person can "check if it\'s okay to proceed" -- and how often is the answer actually yes?',
+          'Trong workflow bận rộn nhất hàng tuần của bạn, có bao nhiêu bước tồn tại chỉ để một người "kiểm tra xem có ổn để tiếp tục không" — và trong số đó, bao nhiêu lần câu trả lời thực ra luôn là có?',
         icon: 'tabler:checkbox',
       },
     ]}
@@ -59,15 +58,15 @@ const metadata = {
     actions={[
       {
         variant: 'primary',
-        text: 'Take the Digitalization Readiness Assessment',
+        text: 'Thực Hiện Đánh Giá Readiness Số Hóa',
         href: '/readiness/digitalization',
         icon: 'tabler:clipboard-check',
       },
     ]}
   >
-    <Fragment slot="title">Next step</Fragment>
+    <Fragment slot="title">Bước Tiếp Theo</Fragment>
     <Fragment slot="subtitle">
-      Find out which workflow bottlenecks are process gaps versus capability gaps.
+      Tìm hiểu những tắc nghẽn workflow nào là lỗi process versus lỗi năng lực.
     </Fragment>
   </CallToAction>
 </Layout>
