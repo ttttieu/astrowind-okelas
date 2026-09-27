@@ -21,8 +21,6 @@ assessmentHref: '/readiness/digitalization'
 draft: false
 ---
 
-# Doanh nghiệp của bạn đang ở giai đoạn số hóa nào?
-
 Số hóa không phải là câu hỏi có-hay-không.
 
 Không có doanh nghiệp nào "chưa số hóa gì cả" và cũng không có doanh nghiệp nào "đã số hóa hoàn toàn". Tất cả đều đang ở đâu đó trên một hành trình liên tục — và biết mình đang ở đâu là bước đầu tiên để quyết định bước tiếp theo.

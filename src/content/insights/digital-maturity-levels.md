@@ -21,8 +21,6 @@ assessmentHref: '/en/readiness/digitalization'
 draft: false
 ---
 
-# The 5 Stages of Business Digitalization: Where Are You?
-
 Digitalization isn't a yes-or-no question.
 
 No business is "completely undigitalized" and no business is "fully digitalized." Every organization sits somewhere on a continuous journey — and knowing where you are is the first step to deciding what comes next.
