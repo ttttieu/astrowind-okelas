@@ -701,6 +701,19 @@
         "category": "business-operations",
         "url": "/en/insights/business-operations/paperless-vs-digital-transformation"
       }
+    },
+    {
+      "translationId": "biz-ops-software-not-digitalization",
+      "vi": {
+        "slug": "nhieu-phan-mem-chua-so-hoa",
+        "category": "business-operations",
+        "url": "/insights/business-operations/nhieu-phan-mem-chua-so-hoa"
+      },
+      "en": {
+        "slug": "software-tools-not-digitalization",
+        "category": "business-operations",
+        "url": "/en/insights/business-operations/software-tools-not-digitalization"
+      }
     }
   ]
 }
