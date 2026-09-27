@@ -1,26 +1,25 @@
----
+﻿---
 title: "Digital Transformation for Manufacturing SMEs: What It Really Means"
-description: "Digital transformation is not about buying software or scanning documents. This article reframes what digitalization actually means for manufacturing SMEs â€” and what a practical roadmap looks like."
-publishDate: 2026-09-24T00:00:00Z
-translationId: biz-ops-pillar-digital-transformation
-lang: en
-category: business-operations
-contentType: Pillar
+description: "Digital transformation is not about buying software or scanning documents. This article reframes what digitalization actually means for manufacturing SMEs — and what a practical roadmap looks like."
+publishDate: 2025-09-24T00:00:00Z
+image: '~/assets/images/insights/digital-transformation-sme.png'
+category: 'business-operations'
+tags: ['Digital Transformation', 'Digitalization', 'Manufacturing SME', 'Strategy']
+translationId: 'digital-transformation-sme'
+lang: 'en'
+contentType: 'Pillar'
 funnelStage:
   - Awareness
   - Understanding
   - Consideration
-audience:
-  - CEO
-  - COO
-  - General Director
-primaryKeyword: "digital transformation manufacturing SME"
+audience: ['CEO', 'COO', 'General Director']
+primaryKeyword: 'digital transformation manufacturing SME'
 secondaryKeywords:
   - "what is digital transformation manufacturing"
   - "digitalization small manufacturers"
   - "manufacturing SME digital strategy"
   - "digital transformation roadmap"
-assessmentHref: /readiness/digitalization
+assessmentHref: '/en/readiness/digitalization'
 draft: false
 ---
 
@@ -204,30 +203,10 @@ These small steps, done correctly and in the right sequence, are real digital tr
 
 **Where is your organization in the digitalization journey — and what is the next economically meaningful step?**
 
-→ [Take the Digitalization Level Assessment](/en/readiness/digitalization) to identify your current position and the appropriate next steps.
+→ [Take the Digitalization Assessment](/en/readiness/digitalization) to identify your current position and the appropriate next steps.
 
 ---
 
-## Further reading in this cluster
-
-**On the stages:**
-- [Which Digitalization Stage Is Your Business At?](/digitalization-stages-assessment)
-- [Paperless Is Not Digital Transformation — Here's the Difference](/paperless-vs-digital-transformation)
-- [Why Having More Software Doesn't Mean You've Digitalized](/more-software-not-digitalized)
-
-**On the roadmap:**
-- [From DMS to eQMS to Knowledge OS — A Practical Progression](/dms-to-eqms-to-knowledge-os)
-- [What Is Progressive eQMS — and Why Not to Start With a Complete System](/progressive-eqms)
-- [The Next Economically Meaningful Step — A Self-Assessment Framework for CEOs](/next-economically-meaningful-step)
-
-**On cost and risk:**
-- [The Real Cost of Not Digitalizing — What Organizations Don't Calculate](/true-cost-of-not-digitalizing)
-- [The Large Digital Transformation Project Trap — Why Many Businesses Fail](/large-digital-transformation-trap)
-
-**Cross-cluster:**
-- [Why ERP Is Not Transformation](/why-erp-is-not-transformation) *(Cluster 1 — ERP)*
-- [From Individual Knowledge to Organizational Knowledge](/knowledge-management-manufacturing) *(Cluster 3 — KM)*
+*The terms "digital transformation" and "digitalization" are used in a practical operational sense, not according to formal academic or policy definitions. The five stages presented are a directional framework developed by OKELAS based on direct experience with manufacturing SMEs — not a standardized model from any research organization.*
 
 ---
-
-*The terms "digital transformation" and "digitalization" are used in a practical operational sense, not according to formal academic or policy definitions. The five stages presented are a directional framework developed by OKELAS based on direct experience with manufacturing SMEs — not a standardized model from any research organization. Failure rate statistics for digital transformation projects mentioned at the opening are referenced as a general observation from various industry reports — not directly cited because definitions of "failure" and survey scope vary considerably across sources.*

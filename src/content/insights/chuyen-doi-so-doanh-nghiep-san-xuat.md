@@ -1,26 +1,25 @@
----
+﻿---
 title: "Chuyển đổi số với Manufacturing SME — thực sự là gì và bắt đầu từ đâu"
 description: "Chuyển đổi số không phải là mua phần mềm hay số hóa tài liệu. Bài viết giải thích chuyển đổi số thực sự có nghĩa là gì với manufacturing SME — và lộ trình phù hợp."
-publishDate: 2026-09-24T00:00:00Z
-translationId: biz-ops-pillar-digital-transformation
-lang: vi
-category: business-operations
-contentType: Pillar
+publishDate: 2025-09-24T00:00:00Z
+image: '~/assets/images/insights/digital-transformation-sme.png'
+category: 'business-operations'
+tags: ['Chuyển đổi số', 'Số hóa', 'Manufacturing SME', 'Chiến lược']
+translationId: 'digital-transformation-sme'
+lang: 'vi'
+contentType: 'Pillar'
 funnelStage:
   - Awareness
   - Understanding
   - Consideration
-audience:
-  - CEO
-  - COO
-  - General Director
-primaryKeyword: "chuyển đổi số doanh nghiệp sản xuất vừa và nhỏ"
+audience: ['CEO', 'COO', 'General Director']
+primaryKeyword: 'chuyển đổi số doanh nghiệp sản xuất vừa và nhỏ'
 secondaryKeywords:
   - "digital transformation SME"
   - "số hóa sản xuất"
   - "chuyển đổi số thực sự là gì"
   - "digitalization manufacturing"
-assessmentHref: /readiness/digitalization
+assessmentHref: '/readiness/digitalization'
 draft: false
 ---
 
@@ -204,30 +203,10 @@ Những bước nhỏ đó, được thực hiện đúng và theo thứ tự đ
 
 **Doanh nghiệp của bạn đang ở đâu trong hành trình số hóa — và bước tiếp theo có nghĩa kinh tế nhất là gì?**
 
-→ [Làm Digitalization Level Assessment](/readiness/digitalization) để xác định vị trí hiện tại và bước đi phù hợp.
+→ [Làm Digitalization Assessment](/readiness/digitalization) để xác định vị trí hiện tại và bước đi phù hợp.
 
 ---
 
-## Đọc thêm trong cluster này
-
-**Về các giai đoạn:**
-- [Doanh nghiệp của bạn đang ở giai đoạn số hóa nào?](/doanh-nghiep-dang-o-giai-doan-so-hoa-nao)
-- [Paperless không phải chuyển đổi số — đây là sự khác biệt](/paperless-khong-phai-chuyen-doi-so)
-- [Tại sao nhiều phần mềm không có nghĩa là doanh nghiệp đã số hóa](/nhieu-phan-mem-khong-phai-da-so-hoa)
-
-**Về lộ trình:**
-- [Từ DMS đến eQMS đến Knowledge OS — lộ trình thực tế](/tu-dms-den-eqms-den-knowledge-os)
-- [Progressive eQMS là gì — tại sao không bắt đầu bằng hệ thống hoàn chỉnh](/progressive-eqms)
-- [Bước tiếp theo có nghĩa kinh tế là gì — framework tự đánh giá cho CEO](/buoc-tiep-theo-co-nghia-kinh-te)
-
-**Về chi phí và rủi ro:**
-- [Chi phí thực sự của việc không số hóa — những gì doanh nghiệp thường không tính](/chi-phi-khong-so-hoa)
-- [Bẫy của "dự án chuyển đổi số lớn" — tại sao nhiều doanh nghiệp thất bại](/bay-du-an-chuyen-doi-so-lon)
-
-**Cross-cluster:**
-- [Tại sao ERP không phải transformation](/tai-sao-erp-khong-phai-transformation) *(Cluster 1 — ERP)*
-- [Từ tri thức cá nhân đến tri thức tổ chức](/quan-ly-tri-thuc-doanh-nghiep-san-xuat) *(Cluster 3 — KM)*
+*Thuật ngữ "chuyển đổi số" và "số hóa" trong bài được dùng theo nghĩa thực hành, không theo định nghĩa học thuật hay chính sách. Các giai đoạn được trình bày là framework định hướng của OKELAS dựa trên kinh nghiệm thực tế với manufacturing SME.*
 
 ---
-
-*Thuật ngữ "chuyển đổi số" và "số hóa" trong bài được dùng theo nghĩa thực hành, không theo định nghĩa học thuật hay chính sách. Các giai đoạn được trình bày là framework định hướng của OKELAS dựa trên kinh nghiệm thực tế với manufacturing SME — không phải mô hình chuẩn hóa của bất kỳ tổ chức nghiên cứu nào. Số liệu về tỷ lệ thất bại của dự án chuyển đổi số được nhắc đến ở đầu bài là quan sát từ các báo cáo ngành khác nhau — không được trích dẫn trực tiếp vì định nghĩa "thất bại" và phạm vi khảo sát thay đổi đáng kể giữa các nguồn.*
