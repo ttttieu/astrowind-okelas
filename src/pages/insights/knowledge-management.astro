@@ -3,11 +3,44 @@ import Layout from '~/layouts/PageLayout.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
 import Content from '~/components/widgets/Content.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
+import { getArticlesByCategory } from '~/lib/insights';
 
 const metadata = {
   title: 'Knowledge Management — OKELAS Insights',
   description:
-    'What it actually takes to move knowledge out of people\'s heads and into something the organization can rely on, search, and hand to an AI system.',
+    'Làm sao đưa tri thức ra khỏi đầu một vài người, biến nó thành thứ tổ chức có thể tra cứu, sử dụng lại và giao cho hệ thống AI.',
+};
+
+const { grouped } = await getArticlesByCategory('vi');
+let kmArticles = grouped['knowledge-management'] || [];
+
+// Define article order: pillar first, then 3.1 to 3.9
+const articleOrder: Record<string, number> = {
+  'quan-ly-tri-thuc-doanh-nghiep-san-xuat': 0, // PILLAR
+  'nhan-su-nghi-viec-mang-di-tri-thuc': 1, // 3.1
+  'sop-khong-duoc-thuc-thi': 2, // 3.2
+  'ai-tao-qua-nhieu-tai-lieu': 3, // 3.3
+  'tacit-knowledge-explicit-knowledge': 4, // 3.4
+  'excel-email-he-thong-van-hanh-ngam': 5, // 3.5
+  'chi-phi-mat-tri-thuc-san-xuat': 6, // 3.6
+  'dms-va-knowledge-management': 7, // 3.7
+  'knowledge-graph-doanh-nghiep': 8, // 3.8
+  'chuan-bi-audit-iso-mat-nhieu-thoi-gian': 9, // 3.9
+};
+
+// Sort articles by order
+kmArticles.sort((a, b) => {
+  const orderA = articleOrder[a.id] ?? 999;
+  const orderB = articleOrder[b.id] ?? 999;
+  return orderA - orderB;
+});
+
+// Badge colors
+const typeBadgeClass: Record<string, string> = {
+  Opening: 'bg-sky-100 text-sky-800 dark:bg-sky-900 dark:text-sky-200',
+  Analysis: 'bg-violet-100 text-violet-800 dark:bg-violet-900 dark:text-violet-200',
+  'Case & Evidence': 'bg-amber-100 text-amber-800 dark:bg-amber-900 dark:text-amber-200',
+  Pillar: 'bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200',
 };
 ---
 
@@ -16,45 +49,72 @@ const metadata = {
 
   <Content
     content={`
-      <p>When an experienced employee leaves, most companies lose more than a headcount — they lose judgment calls that were never written down. This category is about what it actually takes to move knowledge out of people's heads and into something the organization can rely on, search, and hand to an AI system without losing what made it valuable in the first place.</p>
+      <p>Khi một nhân sự nhiều kinh nghiệm nghỉ việc, thứ doanh nghiệp mất không chỉ là một vị trí cần tuyển lại. Đó là hàng loạt phán đoán, cách xử lý tình huống, quyết định nhỏ mà người đó tích lũy qua năm tháng — và chưa bao giờ được ghi lại ở đâu cả. Chuyên mục này bàn về việc làm sao đưa tri thức đó ra khỏi đầu một vài người, biến nó thành thứ tổ chức có thể tra cứu, sử dụng lại và giao cho cả hệ thống AI khai thác — mà không đánh mất phần giá trị cốt lõi trong đó.</p>
 
       <p class="mt-6">
-        <strong>Start here — Pillar article:</strong>
+        <strong>Bắt đầu từ đây — Bài viết Pillar:</strong>
       </p>
       <ul class="mt-2 space-y-1">
-        <li><a href="/insights/knowledge-management/quan-ly-tri-thuc-doanh-nghiep-san-xuat" class="text-primary hover:underline">From Individual Knowledge to Organizational Knowledge: A Manufacturing Challenge You Can't Avoid →</a></li>
+        <li><a href="/insights/knowledge-management/quan-ly-tri-thuc-doanh-nghiep-san-xuat" class="text-primary hover:underline">Từ tri thức cá nhân đến tri thức tổ chức — bài toán mà doanh nghiệp sản xuất không thể né →</a></li>
       </ul>
 
       <p class="mt-5">
-        <strong>Why OKELAS perspective:</strong>
-        <a href="/why/knowledge-as-infrastructure" class="text-primary hover:underline ml-1">Knowledge as Infrastructure — why we don't treat knowledge as a filing cabinet →</a>
+        <strong>Góc nhìn của OKELAS:</strong>
+        <a href="/why/knowledge-as-infrastructure" class="text-primary hover:underline ml-1">Tri thức là hạ tầng — vì sao chúng tôi không xem tri thức như một tủ hồ sơ →</a>
       </p>
 
       <p class="mt-3">
-        <strong>Assess it:</strong>
-        <a href="/readiness/knowledge" class="text-primary hover:underline ml-1">Take the Knowledge Readiness Assessment →</a>
+        <strong>Tự đánh giá:</strong>
+        <a href="/readiness/knowledge-management" class="text-primary hover:underline ml-1">Làm bài Knowledge Readiness Assessment →</a>
       </p>
 
       <div class="mt-8">
-        <p class="font-semibold mb-3">Topics we're covering here <span class="font-normal text-muted">(more added regularly):</span></p>
+        <p class="font-semibold mb-3">Các chủ đề đang được khai thác <span class="font-normal text-muted">(sẽ tiếp tục cập nhật):</span></p>
         <ul class="space-y-2 text-muted">
-          <li>Organizational knowledge — what it is once you get specific about it</li>
-          <li>Tacit → explicit knowledge — the conversion that most companies skip</li>
-          <li>Knowledge sharing — why "put it on the shared drive" doesn't count</li>
-          <li>Knowledge retention — the real cost of a key employee leaving</li>
-          <li>Knowledge infrastructure — building for reuse, not just storage</li>
-          <li>Knowledge management + AI — what an AI system needs from your knowledge to be useful</li>
+          <li>Tri thức tổ chức — khi định nghĩa được cụ thể hóa thay vì chỉ là khái niệm chung chung</li>
+          <li>Từ tri thức ngầm sang tri thức tường minh — bước chuyển mà phần lớn doanh nghiệp bỏ qua</li>
+          <li>Chia sẻ tri thức — vì sao "để lên thư mục chung" không giải quyết được vấn đề</li>
+          <li>Giữ chân tri thức — chi phí thực sự khi một nhân sự chủ chốt ra đi</li>
+          <li>Hạ tầng tri thức — xây để tái sử dụng, không chỉ để lưu trữ</li>
+          <li>Quản lý tri thức và AI — một hệ thống AI cần gì từ tri thức của doanh nghiệp để thực sự hữu ích</li>
         </ul>
       </div>
     `}
   />
+
+  <div class="relative not-prose scroll-mt-[72px]">
+    <div class="relative mx-auto px-4 sm:px-6 py-8 md:py-12" style="max-width: 900.5px;">
+      <div>
+        <h2 class="text-2xl font-bold mb-6 text-slate-900 dark:text-white">Tất cả bài viết về Knowledge Management</h2>
+      <ul class="space-y-4">
+        {kmArticles.map((article) => (
+          <li key={article.id} class="flex items-start gap-4 group">
+            <a
+              href={`/insights/${article.data.category}/${article.id}`}
+              class="flex-1 hover:underline"
+            >
+              <div class="font-medium text-slate-900 dark:text-white group-hover:text-primary transition-colors">
+                {article.data.title}
+              </div>
+            </a>
+            {article.data.funnelStage?.[0] && (
+              <span class="px-2 py-1 rounded text-xs font-medium bg-gray-50 text-gray-500 dark:bg-gray-800 dark:text-gray-400 whitespace-nowrap">
+                {article.data.funnelStage[0]}
+              </span>
+            )}
+          </li>
+        ))}
+      </ul>
+      </div>
+    </div>
+  </div>
 
   <CallToAction
     actions={[
       {
         variant: 'primary',
         text: 'Knowledge Readiness Assessment',
-        href: '/readiness/knowledge',
+        href: '/readiness/knowledge-management',
         icon: 'tabler:clipboard-check',
       },
       {
@@ -65,9 +125,9 @@ const metadata = {
       },
     ]}
   >
-    <Fragment slot="title">How dependent is your organization on specific people?</Fragment>
+    <Fragment slot="title">Doanh nghiệp phụ thuộc vào những người cụ thể đến mức nào?</Fragment>
     <Fragment slot="subtitle">
-      The Knowledge Readiness Assessment helps identify where knowledge lives — and what happens if the people holding it leave.
+      Bài Knowledge Readiness Assessment giúp xác định tri thức nằm ở đâu — và điều gì sẽ xảy ra nếu những người giữ nó rời đi.
     </Fragment>
   </CallToAction>
 </Layout>
