@@ -610,6 +610,19 @@
         "category": "knowledge-management",
         "url": "/en/insights/knowledge-management/tacit-vs-explicit-knowledge"
       }
+    },
+    {
+      "translationId": "excel-shadow-it-systems",
+      "vi": {
+        "slug": "excel-email-he-thong-van-hanh-ngam",
+        "category": "knowledge-management",
+        "url": "/insights/knowledge-management/excel-email-he-thong-van-hanh-ngam"
+      },
+      "en": {
+        "slug": "excel-shadow-it",
+        "category": "knowledge-management",
+        "url": "/en/insights/knowledge-management/excel-shadow-it"
+      }
     }
   ]
 }
