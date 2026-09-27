@@ -5,7 +5,7 @@ publishDate: 2025-09-24T00:00:00Z
 image: '~/assets/images/insights/digital-transformation-sme.png'
 category: 'business-operations'
 tags: ['Digital Transformation', 'Digitalization', 'Manufacturing SME', 'Strategy']
-translationId: 'digital-transformation-sme'
+translationId: 'biz-ops-pillar-digital-transformation'
 lang: 'en'
 contentType: 'Pillar'
 funnelStage:
@@ -204,6 +204,28 @@ These small steps, done correctly and in the right sequence, are real digital tr
 **Where is your organization in the digitalization journey — and what is the next economically meaningful step?**
 
 → [Take the Digitalization Assessment](/en/readiness/digitalization) to identify your current position and the appropriate next steps.
+
+---
+
+## Further reading in this cluster
+
+**On the stages:**
+- [Which Digitalization Stage Is Your Business At?](/en/insights/business-operations/digitalization-stages-assessment)
+- [Paperless Is Not Digital Transformation — Here's the Difference](/en/insights/business-operations/paperless-vs-digital-transformation)
+- [Why Having More Software Doesn't Mean You've Digitalized](/en/insights/business-operations/more-software-not-digitalized)
+
+**On the roadmap:**
+- [From DMS to eQMS to Knowledge OS — A Practical Progression](/en/insights/business-operations/dms-to-eqms-to-knowledge-os)
+- [What Is Progressive eQMS — and Why Not to Start With a Complete System](/en/solutions/progressive-eqms)
+- [The Next Economically Meaningful Step — A Self-Assessment Framework for CEOs](/en/insights/business-operations/next-economically-meaningful-step)
+
+**On cost and risk:**
+- [The Real Cost of Not Digitalizing — What Organizations Don't Calculate](/en/insights/business-operations/true-cost-of-not-digitalizing)
+- [The Large Digital Transformation Project Trap — Why Many Businesses Fail](/en/insights/business-operations/large-digital-transformation-trap)
+
+**Cross-cluster:**
+- [Why ERP Is Not Transformation](/en/insights/erp/why-erp-is-not-transformation) *(Cluster 1 — ERP)*
+- [From Individual Knowledge to Organizational Knowledge](/en/insights/knowledge-management/knowledge-management-manufacturing) *(Cluster 3 — KM)*
 
 ---
 

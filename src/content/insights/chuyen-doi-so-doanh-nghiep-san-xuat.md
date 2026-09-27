@@ -5,7 +5,7 @@ publishDate: 2025-09-24T00:00:00Z
 image: '~/assets/images/insights/digital-transformation-sme.png'
 category: 'business-operations'
 tags: ['Chuyển đổi số', 'Số hóa', 'Manufacturing SME', 'Chiến lược']
-translationId: 'digital-transformation-sme'
+translationId: 'biz-ops-pillar-digital-transformation'
 lang: 'vi'
 contentType: 'Pillar'
 funnelStage:
@@ -207,6 +207,28 @@ Những bước nhỏ đó, được thực hiện đúng và theo thứ tự đ
 
 ---
 
-*Thuật ngữ "chuyển đổi số" và "số hóa" trong bài được dùng theo nghĩa thực hành, không theo định nghĩa học thuật hay chính sách. Các giai đoạn được trình bày là framework định hướng của OKELAS dựa trên kinh nghiệm thực tế với manufacturing SME.*
+## Đọc thêm trong cluster này
+
+**Về các giai đoạn:**
+- [Doanh nghiệp của bạn đang ở giai đoạn số hóa nào?](/insights/business-operations/doanh-nghiep-dang-o-giai-doan-so-hoa-nao)
+- [Paperless không phải chuyển đổi số — đây là sự khác biệt](/insights/business-operations/paperless-khong-phai-chuyen-doi-so)
+- [Tại sao nhiều phần mềm không có nghĩa là doanh nghiệp đã số hóa](/insights/business-operations/nhieu-phan-mem-khong-phai-da-so-hoa)
+
+**Về lộ trình:**
+- [Từ DMS đến eQMS đến Knowledge OS — lộ trình thực tế](/insights/business-operations/tu-dms-den-eqms-den-knowledge-os)
+- [Progressive eQMS là gì — tại sao không bắt đầu bằng hệ thống hoàn chỉnh](/solutions/progressive-eqms)
+- [Bước tiếp theo có nghĩa kinh tế là gì — framework tự đánh giá cho CEO](/insights/business-operations/buoc-tiep-theo-co-nghia-kinh-te)
+
+**Về chi phí và rủi ro:**
+- [Chi phí thực sự của việc không số hóa — những gì doanh nghiệp thường không tính](/insights/business-operations/chi-phi-khong-so-hoa)
+- [Bẫy của "dự án chuyển đổi số lớn" — tại sao nhiều doanh nghiệp thất bại](/insights/business-operations/bay-du-an-chuyen-doi-so-lon)
+
+**Cross-cluster:**
+- [Tại sao ERP không phải transformation](/insights/erp/tai-sao-erp-khong-phai-transformation) *(Cluster 1 — ERP)*
+- [Từ tri thức cá nhân đến tri thức tổ chức](/insights/knowledge-management/quan-ly-tri-thuc-doanh-nghiep-san-xuat) *(Cluster 3 — KM)*
+
+---
+
+*Thuật ngữ "chuyển đổi số" và "số hóa" trong bài được dùng theo nghĩa thực hành, không theo định nghĩa học thuật hay chính sách. Các giai đoạn được trình bày là framework định hướng của OKELAS dựa trên kinh nghiệm thực tế với manufacturing SME — không phải mô hình chuẩn hóa của bất kỳ tổ chức nghiên cứu nào.*
 
 ---
