@@ -688,6 +688,19 @@
         "category": "business-operations",
         "url": "/en/insights/business-operations/digital-maturity-levels"
       }
+    },
+    {
+      "translationId": "biz-ops-paperless-vs-digital",
+      "vi": {
+        "slug": "paperless-khong-phai-chuyen-doi-so",
+        "category": "business-operations",
+        "url": "/insights/business-operations/paperless-khong-phai-chuyen-doi-so"
+      },
+      "en": {
+        "slug": "paperless-vs-digital-transformation",
+        "category": "business-operations",
+        "url": "/en/insights/business-operations/paperless-vs-digital-transformation"
+      }
     }
   ]
 }
