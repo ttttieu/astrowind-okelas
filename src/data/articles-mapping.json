@@ -766,6 +766,19 @@
         "category": "business-operations",
         "url": "/en/insights/business-operations/cost-of-not-digitalizing"
       }
+    },
+    {
+      "translationId": "biz-ops-digital-transformation-failure",
+      "vi": {
+        "slug": "du-an-chuyen-doi-so-that-bai",
+        "category": "business-operations",
+        "url": "/insights/business-operations/du-an-chuyen-doi-so-that-bai"
+      },
+      "en": {
+        "slug": "digital-transformation-project-failure",
+        "category": "business-operations",
+        "url": "/en/insights/business-operations/digital-transformation-project-failure"
+      }
     }
   ]
 }
