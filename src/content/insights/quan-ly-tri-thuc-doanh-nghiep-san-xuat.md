@@ -1,29 +1,24 @@
----
+﻿---
 title: "Từ tri thức cá nhân đến tri thức tổ chức — bài toán không thể né trong sản xuất"
-description: "Khi nhân viên giỏi nghỉ việc, họ mang đi thứ gì? Bài viết phân tích bài toán tri thức tổ chức trong doanh nghiệp sản xuất và cách tiếp cận có hệ thống."
-publishDate: 2026-09-24T00:00:00Z
-translationId: km-pillar-individual-to-organizational
-lang: vi
-category: knowledge-management
-contentType: Pillar
+description: "Khi nhân viên giỏi nghỉ việc, họ mang đi thứ gì? Bài toán tri thức tổ chức trong doanh nghiệp sản xuất và cách tiếp cận có hệ thống."
+publishDate: 2025-09-24T00:00:00Z
+image: '~/assets/images/insights/knowledge-management-manufacturing.png'
+category: 'knowledge-management'
+tags: ['Knowledge Management', 'Manufacturing', 'Organizational Learning', 'Tacit Knowledge']
+translationId: 'knowledge-management-manufacturing'
+lang: 'vi'
+contentType: 'Pillar'
 funnelStage:
   - Awareness
-  - Understanding
-  - Consideration
-audience:
-  - CEO
-  - COO
-  - Operations Director
-primaryKeyword: "tri thức tổ chức doanh nghiệp"
+audience: ['CEO', 'COO', 'Operations Director', 'HR Director']
+primaryKeyword: 'quản lý tri thức doanh nghiệp sản xuất'
 secondaryKeywords:
-  - "quản lý tri thức sản xuất"
-  - "tri thức cá nhân"
-  - "organizational knowledge"
-  - "knowledge management manufacturing"
-assessmentHref: /readiness/knowledge
+  - "tri thức tổ chức sản xuất"
+  - "ghi nhận tri thức ngầm"
+  - "giữ chân tri thức nhân sự"
+  - "knowledge management SME"
+assessmentHref: '/readiness/knowledge-management'
 draft: false
----
-
 ---
 
 > **Tóm tắt cho CEO**
@@ -233,27 +228,16 @@ Doanh nghiệp nào tiếp tục để tri thức nằm trong đầu người s�
 
 **Doanh nghiệp của bạn đang ở cấp độ nào?**
 
-→ [Làm KM Maturity Assessment](/readiness/knowledge) — đánh giá mức độ trưởng thành về knowledge management và xác định ưu tiên cải thiện.
+→ [Làm Knowledge Management Readiness Assessment](/readiness/knowledge-management) — đánh giá mức độ trưởng thành về knowledge management và xác định ưu tiên cải thiện.
 
 ---
 
-## Đọc thêm
+**Đọc thêm:**
 
-**Trong cluster Knowledge Management:**
-- [Khi nhân sự chủ chốt nghỉ việc, họ mang đi thứ gì?](/nhan-su-nghi-viec-mat-gi)
-- [SOP có nhưng không được thực thi — tại sao?](/sop-co-nhung-khong-duoc-thuc-thi)
-- [Document explosion: AI tạo ra nhiều tài liệu hơn, doanh nghiệp quản lý được không?](/document-explosion-ai)
-- [Tacit knowledge và explicit knowledge — tại sao cần phân biệt](/tacit-knowledge-va-explicit-knowledge)
-- [Tại sao Excel và email trở thành hệ thống vận hành ngầm](/excel-email-he-thong-van-hanh-ngam)
-- [Knowledge loss trong sản xuất — chi phí ẩn mà doanh nghiệp không tính](/knowledge-loss-san-xuat)
-- [Từ DMS đến Knowledge Management — sự khác biệt quan trọng](/tu-dms-den-knowledge-management)
-- [Knowledge graph trong doanh nghiệp — không phải công nghệ, là cách tổ chức tri thức](/knowledge-graph-trong-doanh-nghiep)
-- [Audit preparation: tại sao doanh nghiệp chuẩn bị mất nhiều tuần](/audit-preparation)
-
-**Cross-cluster:**
-- [Quy trình chưa chuẩn hóa — rủi ro lớn nhất trước khi triển khai ERP](/chuan-bi-erp-process-readiness) *(Cluster 1 — ERP)*
-- [AI readiness: 6 điều kiện để AI thực sự có ích trong vận hành](/dieu-kien-trien-khai-ai-van-hanh) *(Cluster 2 — AI Readiness)*
+- [AI Readiness: tại sao AI không tự động làm doanh nghiệp thông minh hơn](/insights/ai/ai-readiness-doanh-nghiep) *(AI Readiness Pillar)*
+- [Chuan hóa quy trình trước ERP: tại sao nền tảng phải đến trước](/insights/erp/chuan-hoa-quy-trinh-truoc-erp) *(ERP Readiness)*
+- [Chuyển đổi số doanh nghiệp sản xuất: lộ trình thực tế](/insights/business-operations/chuyen-doi-so-doanh-nghiep-san-xuat) *(Business Operations)*
 
 ---
 
-*Tình huống minh họa trong bài là tình huống tổng hợp từ đặc điểm chung của doanh nghiệp sản xuất SME, không phải case study của một doanh nghiệp cụ thể. Các cấp độ trưởng thành knowledge management được trình bày là framework định hướng của OKELAS, không phải mô hình học thuật chuẩn hóa. Một số nghiên cứu về knowledge management và organizational learning được tham chiếu trong quá trình phát triển nội dung, bao gồm công trình của Nonaka & Takeuchi về tacit/explicit knowledge và các nghiên cứu về knowledge retention trong manufacturing organizations.*
+*Bài viết trình bày framework về cấp độ trưởng thành knowledge management theo quan điểm OKELAS từ kinh nghiệm làm việc với doanh nghiệp sản xuất SME. Tình huống minh họa là tình huống tổng hợp từ đặc điểm chung, không phải case study của một doanh nghiệp cụ thể. Phân biệt giữa tacit/explicit knowledge được phát triển dựa trên các nghiên cứu nền tảng về organizational learning, đặc biệt là framework của Nonaka & Takeuchi.*

@@ -545,6 +545,19 @@
         "category": "ai",
         "url": "/en/insights/ai/organizational-ai"
       }
+    },
+    {
+      "translationId": "knowledge-management-manufacturing",
+      "vi": {
+        "slug": "quan-ly-tri-thuc-doanh-nghiep-san-xuat",
+        "category": "knowledge-management",
+        "url": "/insights/knowledge-management/quan-ly-tri-thuc-doanh-nghiep-san-xuat"
+      },
+      "en": {
+        "slug": "knowledge-management-manufacturing",
+        "category": "knowledge-management",
+        "url": "/en/insights/knowledge-management/knowledge-management-manufacturing"
+      }
     }
   ]
 }
