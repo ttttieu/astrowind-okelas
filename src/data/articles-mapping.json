@@ -675,6 +675,19 @@
         "category": "knowledge-management",
         "url": "/en/insights/knowledge-management/why-audit-preparation-takes-so-long"
       }
+    },
+    {
+      "translationId": "biz-ops-digitalization-stages",
+      "vi": {
+        "slug": "giai-doan-so-hoa-doanh-nghiep",
+        "category": "business-operations",
+        "url": "/insights/business-operations/giai-doan-so-hoa-doanh-nghiep"
+      },
+      "en": {
+        "slug": "digital-maturity-levels",
+        "category": "business-operations",
+        "url": "/en/insights/business-operations/digital-maturity-levels"
+      }
     }
   ]
 }
