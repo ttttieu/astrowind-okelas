@@ -558,6 +558,19 @@
         "category": "knowledge-management",
         "url": "/en/insights/knowledge-management/knowledge-management-manufacturing"
       }
+    },
+    {
+      "translationId": "knowledge-loss-when-employees-leave",
+      "vi": {
+        "slug": "nhan-su-nghi-viec-mang-di-tri-thuc",
+        "category": "knowledge-management",
+        "url": "/insights/knowledge-management/nhan-su-nghi-viec-mang-di-tri-thuc"
+      },
+      "en": {
+        "slug": "knowledge-loss-when-employees-leave",
+        "category": "knowledge-management",
+        "url": "/en/insights/knowledge-management/knowledge-loss-when-employees-leave"
+      }
     }
   ]
 }
