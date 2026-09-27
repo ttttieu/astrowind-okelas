@@ -623,6 +623,19 @@
         "category": "knowledge-management",
         "url": "/en/insights/knowledge-management/excel-shadow-it"
       }
+    },
+    {
+      "translationId": "hidden-cost-knowledge-loss",
+      "vi": {
+        "slug": "chi-phi-mat-tri-thuc-san-xuat",
+        "category": "knowledge-management",
+        "url": "/insights/knowledge-management/chi-phi-mat-tri-thuc-san-xuat"
+      },
+      "en": {
+        "slug": "cost-of-knowledge-loss",
+        "category": "knowledge-management",
+        "url": "/en/insights/knowledge-management/cost-of-knowledge-loss"
+      }
     }
   ]
 }
