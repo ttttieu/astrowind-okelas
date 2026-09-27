@@ -597,6 +597,19 @@
         "category": "knowledge-management",
         "url": "/en/insights/knowledge-management/ai-document-explosion"
       }
+    },
+    {
+      "translationId": "tacit-vs-explicit-knowledge",
+      "vi": {
+        "slug": "tacit-knowledge-explicit-knowledge",
+        "category": "knowledge-management",
+        "url": "/insights/knowledge-management/tacit-knowledge-explicit-knowledge"
+      },
+      "en": {
+        "slug": "tacit-vs-explicit-knowledge",
+        "category": "knowledge-management",
+        "url": "/en/insights/knowledge-management/tacit-vs-explicit-knowledge"
+      }
     }
   ]
 }
