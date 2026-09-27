@@ -584,6 +584,19 @@
         "category": "knowledge-management",
         "url": "/en/insights/knowledge-management/why-sops-are-not-followed"
       }
+    },
+    {
+      "translationId": "ai-document-explosion",
+      "vi": {
+        "slug": "ai-tao-qua-nhieu-tai-lieu",
+        "category": "knowledge-management",
+        "url": "/insights/knowledge-management/ai-tao-qua-nhieu-tai-lieu"
+      },
+      "en": {
+        "slug": "ai-document-explosion",
+        "category": "knowledge-management",
+        "url": "/en/insights/knowledge-management/ai-document-explosion"
+      }
     }
   ]
 }
