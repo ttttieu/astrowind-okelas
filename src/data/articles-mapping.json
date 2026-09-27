@@ -662,6 +662,19 @@
         "category": "knowledge-management",
         "url": "/en/insights/knowledge-management/knowledge-graph-for-business"
       }
+    },
+    {
+      "translationId": "audit-preparation-readiness",
+      "vi": {
+        "slug": "chuan-bi-audit-iso-mat-nhieu-thoi-gian",
+        "category": "knowledge-management",
+        "url": "/insights/knowledge-management/chuan-bi-audit-iso-mat-nhieu-thoi-gian"
+      },
+      "en": {
+        "slug": "why-audit-preparation-takes-so-long",
+        "category": "knowledge-management",
+        "url": "/en/insights/knowledge-management/why-audit-preparation-takes-so-long"
+      }
     }
   ]
 }
