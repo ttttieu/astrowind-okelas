@@ -11,22 +11,22 @@ const metadata = {
     'Digitalization, process standardization, workflow and the operational habits that determine whether any system actually works once in place.',
 };
 
-const { grouped } = await getArticlesByCategory('vi');
+const { grouped } = await getArticlesByCategory('en');
 let bizOpsArticles = grouped['business-operations'] || [];
 
 // Define article order: 2 pillars first, then 4.1 to 4.9
 const articleOrder: Record<string, number> = {
-  'chuyen-doi-so-doanh-nghiep-san-xuat': 0, // PILLAR 1
-  'workflow-thong-minh-the-he-moi': 1, // PILLAR 2
-  'giai-doan-so-hoa-doanh-nghiep': 2, // 4.1
-  'paperless-khong-phai-chuyen-doi-so': 3, // 4.2
-  'nhieu-phan-mem-chua-so-hoa': 4, // 4.3
-  'lo-trinh-dms-eqms-knowledge-os': 5, // 4.4
-  'so-hoa-ho-so-iso-gmp': 6, // 4.5
-  'progressive-eqms-la-gi': 7, // 4.6
-  'chi-phi-khong-so-hoa': 8, // 4.7
-  'du-an-chuyen-doi-so-that-bai': 9, // 4.8
-  'buoc-tiep-theo-so-hoa-co-nghia-kinh-te': 10, // 4.9
+  'digital-transformation-manufacturing-sme': 0, // PILLAR 1
+  'intelligent-workflow-next-generation': 1, // PILLAR 2
+  'digital-maturity-levels': 2, // 4.1
+  'paperless-vs-digital-transformation': 3, // 4.2
+  'software-tools-not-digitalization': 4, // 4.3
+  'dms-eqms-knowledge-os-roadmap': 5, // 4.4
+  'iso-gmp-document-management-digitalization': 6, // 4.5
+  'progressive-eqms-implementation': 7, // 4.6
+  'cost-of-not-digitalizing': 8, // 4.7
+  'digital-transformation-project-failure': 9, // 4.8
+  'next-step-digitalization-roi': 10, // 4.9
 };
 
 // Sort articles by order
@@ -53,21 +53,21 @@ const typeBadgeClass: Record<string, string> = {
       <p>Most operational problems don't announce themselves as "we need to digitalize" or "we need better workflows." They show up as a supervisor doing the same fix for the third time this month, or a process that worked fine at 50 people and is starting to break at 150. This category covers digitalization, process standardization, workflow design, and the operational habits that determine whether any system — ERP, AI, or otherwise — actually works once it's in place.</p>
 
       <p class="mt-6">
-        <strong>Bắt đầu từ đây — Bài viết Pillar:</strong>
+        <strong>Start here — Pillar articles:</strong>
       </p>
       <ul class="mt-2 space-y-1">
-        <li><a href="/insights/business-operations/chuyen-doi-so-doanh-nghiep-san-xuat" class="text-primary hover:underline">Chuyển đổi số với doanh nghiệp sản xuất — thực sự là gì →</a></li>
-        <li><a href="/insights/business-operations/workflow-thong-minh-the-he-moi" class="text-primary hover:underline">Workflow thế hệ mới — khi AI và Tri thức Tổ chức thay đổi cách làm việc →</a></li>
+        <li><a href="/en/insights/business-operations/digital-transformation-manufacturing-sme" class="text-primary hover:underline">Digital Transformation for Manufacturing SMEs — What It Actually Means →</a></li>
+        <li><a href="/en/insights/business-operations/intelligent-workflow-next-generation" class="text-primary hover:underline">Next-Generation Workflow — When AI and Organizational Knowledge Change How Work Operates →</a></li>
       </ul>
 
       <p class="mt-5">
-        <strong>Góc nhìn OKELAS:</strong>
-        <a href="/why/tai-lieu-den-van-hanh" class="text-primary hover:underline ml-1">Từ Tài liệu đến Vận hành →</a>
+        <strong>Why OKELAS perspective:</strong>
+        <a href="/en/why/documents-to-operations" class="text-primary hover:underline ml-1">From Documents to Operations →</a>
       </p>
 
       <p class="mt-3">
-        <strong>Đánh giá ngay:</strong>
-        <a href="/readiness/digitalization" class="text-primary hover:underline ml-1">Hoàn thành Đánh giá Sẵn sàng Số hóa →</a>
+        <strong>Assess it:</strong>
+        <a href="/en/readiness/digitalization" class="text-primary hover:underline ml-1">Take the Digitalization Readiness Assessment →</a>
       </p>
     `}
   />
@@ -75,12 +75,12 @@ const typeBadgeClass: Record<string, string> = {
   <div class="relative not-prose scroll-mt-[72px]">
     <div class="relative mx-auto px-4 sm:px-6 py-8 md:py-12" style="max-width: 900.5px;">
       <div>
-        <h2 class="text-2xl font-bold mb-6 text-slate-900 dark:text-white">Tất cả bài viết về Business & Operations</h2>
+        <h2 class="text-2xl font-bold mb-6 text-slate-900 dark:text-white">All Business & Operations articles</h2>
       <ul class="space-y-4">
         {bizOpsArticles.map((article) => (
           <li key={article.id} class="flex items-start gap-4 group">
             <a
-              href={`/insights/${article.data.category}/${article.id}`}
+              href={`/en/insights/${article.data.category}/${article.id}`}
               class="flex-1 hover:underline"
             >
               <div class="font-medium text-slate-900 dark:text-white group-hover:text-primary transition-colors">
@@ -104,20 +104,20 @@ const typeBadgeClass: Record<string, string> = {
       {
         variant: 'primary',
         text: 'Digitalization Readiness Assessment',
-        href: '/readiness/digitalization',
+        href: '/en/readiness/digitalization',
         icon: 'tabler:clipboard-check',
       },
       {
         variant: 'secondary',
         text: 'Digitalize Operations',
-        href: '/solutions/so-hoa-van-hanh',
+        href: '/en/solutions/digitalize-operations',
         icon: 'tabler:arrow-right',
       },
     ]}
   >
-    <Fragment slot="title">Doanh nghiệp của bạn đang ở đâu?</Fragment>
+    <Fragment slot="title">Where is your operation right now?</Fragment>
     <Fragment slot="subtitle">
-      Hoàn thành đánh giá để hiểu rõ vị trí hiện tại và bước tiếp theo có ý nghĩa kinh tế là gì.
+      Take the assessment to understand where you stand and what the next meaningful step looks like for your business.
     </Fragment>
   </CallToAction>
 </Layout>
