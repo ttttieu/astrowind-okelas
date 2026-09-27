@@ -649,6 +649,19 @@
         "category": "knowledge-management",
         "url": "/en/insights/knowledge-management/dms-vs-knowledge-management"
       }
+    },
+    {
+      "translationId": "knowledge-graph-business-structure",
+      "vi": {
+        "slug": "knowledge-graph-doanh-nghiep",
+        "category": "knowledge-management",
+        "url": "/insights/knowledge-management/knowledge-graph-doanh-nghiep"
+      },
+      "en": {
+        "slug": "knowledge-graph-for-business",
+        "category": "knowledge-management",
+        "url": "/en/insights/knowledge-management/knowledge-graph-for-business"
+      }
     }
   ]
 }
