@@ -779,6 +779,19 @@
         "category": "business-operations",
         "url": "/en/insights/business-operations/digital-transformation-project-failure"
       }
+    },
+    {
+      "translationId": "biz-ops-next-step-digitalization",
+      "vi": {
+        "slug": "buoc-tiep-theo-so-hoa-co-nghia-kinh-te",
+        "category": "business-operations",
+        "url": "/insights/business-operations/buoc-tiep-theo-so-hoa-co-nghia-kinh-te"
+      },
+      "en": {
+        "slug": "next-step-digitalization-roi",
+        "category": "business-operations",
+        "url": "/en/insights/business-operations/next-step-digitalization-roi"
+      }
     }
   ]
 }
