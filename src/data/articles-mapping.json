@@ -636,6 +636,19 @@
         "category": "knowledge-management",
         "url": "/en/insights/knowledge-management/cost-of-knowledge-loss"
       }
+    },
+    {
+      "translationId": "dms-knowledge-management-distinction",
+      "vi": {
+        "slug": "dms-va-knowledge-management",
+        "category": "knowledge-management",
+        "url": "/insights/knowledge-management/dms-va-knowledge-management"
+      },
+      "en": {
+        "slug": "dms-vs-knowledge-management",
+        "category": "knowledge-management",
+        "url": "/en/insights/knowledge-management/dms-vs-knowledge-management"
+      }
     }
   ]
 }
