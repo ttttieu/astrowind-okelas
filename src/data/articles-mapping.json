@@ -753,6 +753,19 @@
         "category": "business-operations",
         "url": "/en/insights/business-operations/progressive-eqms-implementation"
       }
+    },
+    {
+      "translationId": "biz-ops-cost-of-not-digitalizing",
+      "vi": {
+        "slug": "chi-phi-khong-so-hoa",
+        "category": "business-operations",
+        "url": "/insights/business-operations/chi-phi-khong-so-hoa"
+      },
+      "en": {
+        "slug": "cost-of-not-digitalizing",
+        "category": "business-operations",
+        "url": "/en/insights/business-operations/cost-of-not-digitalizing"
+      }
     }
   ]
 }
