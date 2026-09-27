@@ -571,6 +571,19 @@
         "category": "knowledge-management",
         "url": "/en/insights/knowledge-management/knowledge-loss-when-employees-leave"
       }
+    },
+    {
+      "translationId": "why-sops-are-not-followed",
+      "vi": {
+        "slug": "sop-khong-duoc-thuc-thi",
+        "category": "knowledge-management",
+        "url": "/insights/knowledge-management/sop-khong-duoc-thuc-thi"
+      },
+      "en": {
+        "slug": "why-sops-are-not-followed",
+        "category": "knowledge-management",
+        "url": "/en/insights/knowledge-management/why-sops-are-not-followed"
+      }
     }
   ]
 }
