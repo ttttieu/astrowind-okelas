@@ -727,6 +727,19 @@
         "category": "business-operations",
         "url": "/en/insights/business-operations/dms-eqms-knowledge-os-roadmap"
       }
+    },
+    {
+      "translationId": "biz-ops-iso-gmp-records-management",
+      "vi": {
+        "slug": "so-hoa-ho-so-iso-gmp",
+        "category": "business-operations",
+        "url": "/insights/business-operations/so-hoa-ho-so-iso-gmp"
+      },
+      "en": {
+        "slug": "iso-gmp-document-management-digitalization",
+        "category": "business-operations",
+        "url": "/en/insights/business-operations/iso-gmp-document-management-digitalization"
+      }
     }
   ]
 }
