@@ -740,6 +740,19 @@
         "category": "business-operations",
         "url": "/en/insights/business-operations/iso-gmp-document-management-digitalization"
       }
+    },
+    {
+      "translationId": "biz-ops-progressive-eqms-implementation",
+      "vi": {
+        "slug": "progressive-eqms-la-gi",
+        "category": "business-operations",
+        "url": "/insights/business-operations/progressive-eqms-la-gi"
+      },
+      "en": {
+        "slug": "progressive-eqms-implementation",
+        "category": "business-operations",
+        "url": "/en/insights/business-operations/progressive-eqms-implementation"
+      }
     }
   ]
 }
