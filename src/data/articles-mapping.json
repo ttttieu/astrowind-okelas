@@ -714,6 +714,19 @@
         "category": "business-operations",
         "url": "/en/insights/business-operations/software-tools-not-digitalization"
       }
+    },
+    {
+      "translationId": "biz-ops-dms-eqms-knowledge-os",
+      "vi": {
+        "slug": "lo-trinh-dms-eqms-knowledge-os",
+        "category": "business-operations",
+        "url": "/insights/business-operations/lo-trinh-dms-eqms-knowledge-os"
+      },
+      "en": {
+        "slug": "dms-eqms-knowledge-os-roadmap",
+        "category": "business-operations",
+        "url": "/en/insights/business-operations/dms-eqms-knowledge-os-roadmap"
+      }
     }
   ]
 }
