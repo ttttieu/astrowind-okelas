@@ -66,6 +66,19 @@
       }
     },
     {
+      "translationId": "article-5-7-workflow-next-level",
+      "vi": {
+        "slug": "workflow-co-the-nhanh-hon",
+        "category": "workflow",
+        "url": "/insights/workflow/workflow-co-the-nhanh-hon"
+      },
+      "en": {
+        "slug": "workflow-improvement-next-level",
+        "category": "workflow",
+        "url": "/en/insights/workflow/workflow-improvement-next-level"
+      }
+    },
+    {
       "translationId": "article-5-6-automation-vs-intelligent",
       "vi": {
         "slug": "workflow-automation-vs-intelligent",
