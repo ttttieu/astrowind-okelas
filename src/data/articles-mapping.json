@@ -948,6 +948,19 @@
         "category": "workflow",
         "url": "/en/insights/workflow/ai-agent-and-workflow"
       }
+    },
+    {
+      "translationId": "article-5-14-decide-vs-execute",
+      "vi": {
+        "slug": "ai-agent-quyet-dinh-workflow-thuc-thi",
+        "category": "workflow",
+        "url": "/insights/workflow/ai-agent-quyet-dinh-workflow-thuc-thi"
+      },
+      "en": {
+        "slug": "ai-agent-decision-workflow-execution",
+        "category": "workflow",
+        "url": "/en/insights/workflow/ai-agent-decision-workflow-execution"
+      }
     }
   ]
 }
