@@ -66,6 +66,19 @@
       }
     },
     {
+      "translationId": "article-5-8-event-driven-workflow",
+      "vi": {
+        "slug": "event-driven-workflow-la-gi",
+        "category": "workflow",
+        "url": "/insights/workflow/event-driven-workflow-la-gi"
+      },
+      "en": {
+        "slug": "event-driven-workflow",
+        "category": "workflow",
+        "url": "/en/insights/workflow/event-driven-workflow"
+      }
+    },
+    {
       "translationId": "article-5-7-workflow-next-level",
       "vi": {
         "slug": "workflow-co-the-nhanh-hon",
