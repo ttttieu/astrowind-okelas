@@ -66,16 +66,16 @@
       }
     },
     {
-      "translationId": "biz-ops-pillar-workflow",
+      "translationId": "workflow-pillar-next-gen",
       "vi": {
         "slug": "workflow-thong-minh-the-he-moi",
-        "category": "business-operations",
-        "url": "/insights/business-operations/workflow-thong-minh-the-he-moi"
+        "category": "workflow",
+        "url": "/insights/workflow/workflow-thong-minh-the-he-moi"
       },
       "en": {
         "slug": "intelligent-workflow-next-generation",
-        "category": "business-operations",
-        "url": "/en/insights/business-operations/intelligent-workflow-next-generation"
+        "category": "workflow",
+        "url": "/en/insights/workflow/intelligent-workflow-next-generation"
       }
     },
     {
