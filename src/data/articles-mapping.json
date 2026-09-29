@@ -909,6 +909,19 @@
         "category": "business-operations",
         "url": "/en/insights/business-operations/digital-transformation-project-failure"
       }
+    },
+    {
+      "translationId": "article-5-11-self-classifying-workflow",
+      "vi": {
+        "slug": "workflow-tu-phan-loai-dinh-tuyen",
+        "category": "workflow",
+        "url": "/insights/workflow/workflow-tu-phan-loai-dinh-tuyen"
+      },
+      "en": {
+        "slug": "intelligent-workflow-routing",
+        "category": "workflow",
+        "url": "/en/insights/workflow/intelligent-workflow-routing"
+      }
     }
   ]
 }
