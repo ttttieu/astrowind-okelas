@@ -66,6 +66,19 @@
       }
     },
     {
+      "translationId": "article-5-2-digitized-vs-optimized",
+      "vi": {
+        "slug": "so-hoa-workflow-vs-toi-uu-workflow",
+        "category": "workflow",
+        "url": "/insights/workflow/so-hoa-workflow-vs-toi-uu-workflow"
+      },
+      "en": {
+        "slug": "digitized-vs-optimized-workflow",
+        "category": "workflow",
+        "url": "/en/insights/workflow/digitized-vs-optimized-workflow"
+      }
+    },
+    {
       "translationId": "article-5-1-workflow-still-slow",
       "vi": {
         "slug": "co-workflow-van-lam-viec-cham",
