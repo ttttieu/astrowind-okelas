@@ -974,6 +974,19 @@
         "category": "workflow",
         "url": "/en/insights/workflow/workflow-rules-vs-ai-reasoning"
       }
+    },
+    {
+      "translationId": "article-5-16-agentic-workflow",
+      "vi": {
+        "slug": "tu-automation-den-agentic-workflow",
+        "category": "workflow",
+        "url": "/insights/workflow/tu-automation-den-agentic-workflow"
+      },
+      "en": {
+        "slug": "agentic-workflow",
+        "category": "workflow",
+        "url": "/en/insights/workflow/agentic-workflow"
+      }
     }
   ]
 }
