@@ -66,6 +66,19 @@
       }
     },
     {
+      "translationId": "article-5-9-request-approval-to-event-action",
+      "vi": {
+        "slug": "tu-request-approval-sang-event-action",
+        "category": "workflow",
+        "url": "/insights/workflow/tu-request-approval-sang-event-action"
+      },
+      "en": {
+        "slug": "request-approval-to-event-action-workflow",
+        "category": "workflow",
+        "url": "/en/insights/workflow/request-approval-to-event-action-workflow"
+      }
+    },
+    {
       "translationId": "article-5-8-event-driven-workflow",
       "vi": {
         "slug": "event-driven-workflow-la-gi",
