@@ -1013,6 +1013,19 @@
         "category": "workflow",
         "url": "/en/insights/workflow/ai-employee-in-workflow"
       }
+    },
+    {
+      "translationId": "article-5-20-workflow-journey",
+      "vi": {
+        "slug": "hanh-trinh-workflow-doanh-nghiep",
+        "category": "workflow",
+        "url": "/insights/workflow/hanh-trinh-workflow-doanh-nghiep"
+      },
+      "en": {
+        "slug": "workflow-maturity-levels",
+        "category": "workflow",
+        "url": "/en/insights/workflow/workflow-maturity-levels"
+      }
     }
   ]
 }
