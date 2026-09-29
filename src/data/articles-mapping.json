@@ -66,6 +66,19 @@
       }
     },
     {
+      "translationId": "article-5-5-visibility-gap",
+      "vi": {
+        "slug": "theo-doi-cong-viec-email-excel",
+        "category": "workflow",
+        "url": "/insights/workflow/theo-doi-cong-viec-email-excel"
+      },
+      "en": {
+        "slug": "email-spreadsheet-work-tracking",
+        "category": "workflow",
+        "url": "/en/insights/workflow/email-spreadsheet-work-tracking"
+      }
+    },
+    {
       "translationId": "article-5-4-human-bottleneck",
       "vi": {
         "slug": "workflow-phu-thuoc-con-nguoi",
