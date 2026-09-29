@@ -987,6 +987,19 @@
         "category": "workflow",
         "url": "/en/insights/workflow/agentic-workflow"
       }
+    },
+    {
+      "translationId": "article-5-17-ai-as-participant",
+      "vi": {
+        "slug": "ai-participant-trong-workflow",
+        "category": "workflow",
+        "url": "/insights/workflow/ai-participant-trong-workflow"
+      },
+      "en": {
+        "slug": "ai-as-workflow-participant",
+        "category": "workflow",
+        "url": "/en/insights/workflow/ai-as-workflow-participant"
+      }
     }
   ]
 }
