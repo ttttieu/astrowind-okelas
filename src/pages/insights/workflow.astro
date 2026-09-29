@@ -1,0 +1,131 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Content from '~/components/widgets/Content.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import { getArticlesByCategory } from '~/lib/insights';
+
+const metadata = {
+  title: 'Workflow — OKELAS Insights',
+  description:
+    'Từ workflow số hóa đến agentic workflow — chuỗi bài viết về thiết kế, tối ưu và ứng dụng AI vào vận hành quy trình cho doanh nghiệp sản xuất SME.',
+};
+
+const { grouped } = await getArticlesByCategory('vi');
+let workflowArticles = grouped.workflow || [];
+
+// Define article order: pillar first, then 5.1 to 5.20 (5.19 is assessment, not an article)
+const articleOrder: Record<string, number> = {
+  'workflow-thong-minh-the-he-moi': 0,            // PILLAR
+  'co-workflow-van-lam-viec-cham': 1,              // 5.1
+  'so-hoa-workflow-vs-toi-uu-workflow': 2,         // 5.2
+  'approval-workflow-den-end-to-end': 3,           // 5.3
+  'workflow-phu-thuoc-con-nguoi': 4,               // 5.4
+  'theo-doi-cong-viec-email-excel': 5,             // 5.5
+  'workflow-automation-vs-intelligent-workflow': 6, // 5.6
+  'workflow-co-the-nhanh-hon': 7,                  // 5.7
+  'event-driven-workflow-la-gi': 8,                // 5.8
+  'tu-request-approval-sang-event-action': 9,      // 5.9
+  'ai-tich-hop-vao-workflow': 10,                  // 5.10
+  'workflow-tu-phan-loai-dinh-tuyen': 11,          // 5.11
+  'workflow-biet-context-to-chuc': 12,             // 5.12
+  'ai-agent-va-workflow': 13,                      // 5.13
+  'ai-agent-quyet-dinh-workflow-thuc-thi': 14,     // 5.14
+  'workflow-rule-ai-reasoning': 15,                // 5.15
+  'tu-automation-den-agentic-workflow': 16,        // 5.16
+  'ai-participant-trong-workflow': 17,             // 5.17
+  'ai-employee-ho-tro-tung-buoc-workflow': 18,     // 5.18
+  'hanh-trinh-workflow-doanh-nghiep': 19,          // 5.20
+};
+
+// Sort articles by order
+workflowArticles.sort((a, b) => {
+  const orderA = articleOrder[a.id] ?? 999;
+  const orderB = articleOrder[b.id] ?? 999;
+  return orderA - orderB;
+});
+
+// Badge colors
+const typeBadgeClass: Record<string, string> = {
+  Opening: 'bg-sky-100 text-sky-800 dark:bg-sky-900 dark:text-sky-200',
+  Analysis: 'bg-violet-100 text-violet-800 dark:bg-violet-900 dark:text-violet-200',
+  'Case & Evidence': 'bg-amber-100 text-amber-800 dark:bg-amber-900 dark:text-amber-200',
+  Pillar: 'bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200',
+};
+---
+
+<Layout metadata={metadata}>
+  <HeroText tagline="Insights" title="Workflow" />
+
+  <Content
+    content={`
+      <p>Workflow là nền tảng vận hành — nhưng phần lớn doanh nghiệp đang dùng workflow ở mức thấp hơn nhiều so với mức có thể. Chuỗi bài này đi từ những câu hỏi nền tảng — tại sao workflow số hóa vẫn chậm, tại sao automation không đủ — đến các nguyên tắc thiết kế workflow có AI tham gia như một participant được quản trị đầy đủ.</p>
+
+      <p class="mt-6">
+        <strong>Bắt đầu từ đây — Bài viết Pillar:</strong>
+      </p>
+      <ul class="mt-2 space-y-1">
+        <li><a href="/insights/workflow/workflow-thong-minh-the-he-moi" class="text-primary hover:underline">Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành →</a></li>
+      </ul>
+
+      <p class="mt-5">
+        <strong>Tự đánh giá nhanh:</strong>
+        <a href="/insights/workflow/hanh-trinh-workflow-doanh-nghiep" class="text-primary hover:underline ml-1">Doanh nghiệp đang ở đâu trên hành trình workflow? →</a>
+      </p>
+
+      <p class="mt-3">
+        <strong>Đánh giá ngay:</strong>
+        <a href="/readiness/workflow" class="text-primary hover:underline ml-1">Hoàn thành Workflow Readiness Assessment →</a>
+      </p>
+    `}
+  />
+
+  <div class="relative not-prose scroll-mt-[72px]">
+    <div class="relative mx-auto px-4 sm:px-6 py-8 md:py-12" style="max-width: 900.5px;">
+      <div>
+        <h2 class="text-2xl font-bold mb-6 text-slate-900 dark:text-white">Tất cả bài viết về Workflow</h2>
+      <ul class="space-y-4">
+        {workflowArticles.map((article) => (
+          <li key={article.id} class="flex items-start gap-4 group">
+            <a
+              href={`/insights/${article.data.category}/${article.id}`}
+              class="flex-1 hover:underline"
+            >
+              <div class="font-medium text-slate-900 dark:text-white group-hover:text-primary transition-colors">
+                {article.data.title}
+              </div>
+            </a>
+            {article.data.funnelStage?.[0] && (
+              <span class="px-2 py-1 rounded text-xs font-medium bg-gray-50 text-gray-500 dark:bg-gray-800 dark:text-gray-400 whitespace-nowrap">
+                {article.data.funnelStage[0]}
+              </span>
+            )}
+          </li>
+        ))}
+      </ul>
+      </div>
+    </div>
+  </div>
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Workflow Readiness Assessment',
+        href: '/readiness/workflow',
+        icon: 'tabler:clipboard-check',
+      },
+      {
+        variant: 'secondary',
+        text: 'Giải pháp Workflow Automation',
+        href: '/solutions/workflow-automation',
+        icon: 'tabler:arrow-right',
+      },
+    ]}
+  >
+    <Fragment slot="title">Workflow của doanh nghiệp bạn đang ở mức nào?</Fragment>
+    <Fragment slot="subtitle">
+      Workflow Readiness Assessment đánh giá 10 khía cạnh vận hành — cho kết quả cụ thể về mức độ trưởng thành và bước tiếp theo có ý nghĩa nhất.
+    </Fragment>
+  </CallToAction>
+</Layout>

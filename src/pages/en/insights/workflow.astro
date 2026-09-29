@@ -1,0 +1,131 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Content from '~/components/widgets/Content.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import { getArticlesByCategory } from '~/lib/insights';
+
+const metadata = {
+  title: 'Workflow — OKELAS Insights',
+  description:
+    'From digitized workflow to agentic workflow — a series on designing, optimizing, and applying AI to operational processes for manufacturing SMEs.',
+};
+
+const { grouped } = await getArticlesByCategory('en');
+let workflowArticles = grouped.workflow || [];
+
+// Define article order: pillar first, then 5.1 to 5.20 (5.19 is assessment, not an article)
+const articleOrder: Record<string, number> = {
+  'intelligent-workflow-next-generation': 0,       // PILLAR
+  'workflow-digitized-still-slow': 1,              // 5.1
+  'digitized-vs-optimized-workflow': 2,            // 5.2
+  'approval-to-end-to-end-workflow': 3,            // 5.3
+  'workflow-human-bottleneck': 4,                  // 5.4
+  'email-spreadsheet-work-tracking': 5,            // 5.5
+  'workflow-automation-vs-intelligent': 6,         // 5.6
+  'workflow-improvement-next-level': 7,            // 5.7
+  'event-driven-workflow': 8,                      // 5.8
+  'request-approval-to-event-action-workflow': 9,  // 5.9
+  'where-ai-fits-in-workflow': 10,                 // 5.10
+  'intelligent-workflow-routing': 11,              // 5.11
+  'context-aware-workflow': 12,                    // 5.12
+  'ai-agent-and-workflow': 13,                     // 5.13
+  'ai-agent-decision-workflow-execution': 14,      // 5.14
+  'workflow-rules-vs-ai-reasoning': 15,            // 5.15
+  'agentic-workflow': 16,                          // 5.16
+  'ai-as-workflow-participant': 17,                // 5.17
+  'ai-employee-in-workflow': 18,                   // 5.18
+  'workflow-maturity-levels': 19,                  // 5.20
+};
+
+// Sort articles by order
+workflowArticles.sort((a, b) => {
+  const orderA = articleOrder[a.id] ?? 999;
+  const orderB = articleOrder[b.id] ?? 999;
+  return orderA - orderB;
+});
+
+// Badge colors
+const typeBadgeClass: Record<string, string> = {
+  Opening: 'bg-sky-100 text-sky-800 dark:bg-sky-900 dark:text-sky-200',
+  Analysis: 'bg-violet-100 text-violet-800 dark:bg-violet-900 dark:text-violet-200',
+  'Case & Evidence': 'bg-amber-100 text-amber-800 dark:bg-amber-900 dark:text-amber-200',
+  Pillar: 'bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200',
+};
+---
+
+<Layout metadata={metadata}>
+  <HeroText tagline="Insights" title="Workflow" />
+
+  <Content
+    content={`
+      <p>Workflow is the foundation of operations — but most organizations are running it at a much lower level than they could. This series moves from foundational questions — why digitized workflow is still slow, why automation isn't enough — to the design principles behind workflow where AI participates as a fully governed participant.</p>
+
+      <p class="mt-6">
+        <strong>Start here — Pillar article:</strong>
+      </p>
+      <ul class="mt-2 space-y-1">
+        <li><a href="/en/insights/workflow/intelligent-workflow-next-generation" class="text-primary hover:underline">Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates →</a></li>
+      </ul>
+
+      <p class="mt-5">
+        <strong>Quick self-assessment:</strong>
+        <a href="/en/insights/workflow/workflow-maturity-levels" class="text-primary hover:underline ml-1">Where Does Your Organization Stand on the Workflow Journey? →</a>
+      </p>
+
+      <p class="mt-3">
+        <strong>Assess it:</strong>
+        <a href="/en/readiness/workflow" class="text-primary hover:underline ml-1">Take the Workflow Readiness Assessment →</a>
+      </p>
+    `}
+  />
+
+  <div class="relative not-prose scroll-mt-[72px]">
+    <div class="relative mx-auto px-4 sm:px-6 py-8 md:py-12" style="max-width: 900.5px;">
+      <div>
+        <h2 class="text-2xl font-bold mb-6 text-slate-900 dark:text-white">All Workflow articles</h2>
+      <ul class="space-y-4">
+        {workflowArticles.map((article) => (
+          <li key={article.id} class="flex items-start gap-4 group">
+            <a
+              href={`/en/insights/${article.data.category}/${article.id}`}
+              class="flex-1 hover:underline"
+            >
+              <div class="font-medium text-slate-900 dark:text-white group-hover:text-primary transition-colors">
+                {article.data.title}
+              </div>
+            </a>
+            {article.data.funnelStage?.[0] && (
+              <span class="px-2 py-1 rounded text-xs font-medium bg-gray-50 text-gray-500 dark:bg-gray-800 dark:text-gray-400 whitespace-nowrap">
+                {article.data.funnelStage[0]}
+              </span>
+            )}
+          </li>
+        ))}
+      </ul>
+      </div>
+    </div>
+  </div>
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Workflow Readiness Assessment',
+        href: '/en/readiness/workflow',
+        icon: 'tabler:clipboard-check',
+      },
+      {
+        variant: 'secondary',
+        text: 'Workflow Automation Solution',
+        href: '/en/solutions/workflow-automation',
+        icon: 'tabler:arrow-right',
+      },
+    ]}
+  >
+    <Fragment slot="title">Where is your organization on the workflow journey?</Fragment>
+    <Fragment slot="subtitle">
+      The Workflow Readiness Assessment evaluates 10 dimensions of your operations — returning a specific maturity level with actionable gaps and next steps.
+    </Fragment>
+  </CallToAction>
+</Layout>
