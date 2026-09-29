@@ -8,17 +8,17 @@ import { getArticlesByCategory } from '~/lib/insights';
 const metadata = {
   title: 'Digitalization — OKELAS Insights',
   description:
-    'Từ số hóa tài liệu đến vận hành số — chuỗi bài viết về chuyển đổi số thực tế cho doanh nghiệp sản xuất SME, từ các giai đoạn đến lộ trình và cạm bẫy cần tránh.',
+    'From document digitization to digital operations — a series on what real digitalization means for manufacturing SMEs, the stages, the roadmap, and the traps to avoid.',
 };
 
-const { grouped } = await getArticlesByCategory('vi');
+const { grouped } = await getArticlesByCategory('en');
 let digitalizationArticles = grouped['business-operations'] || [];
 
 // Sort by translationId — uses article.data (frontmatter), not article.id (filename format varies)
 const articleOrder: Record<string, number> = {
   'biz-ops-pillar-digital-transformation': 0,     // PILLAR
   'biz-ops-digitalization-stages': 1,              // 4.1
-  'biz-ops-software-not-digitalization': 2,        // 4.2
+  'biz-ops-software-not-digitalization': 2,        // 4.2 (VI-only, no EN)
   'biz-ops-paperless-vs-digital': 3,               // 4.3
   'biz-ops-dms-eqms-knowledge-os': 4,              // 4.4
   'biz-ops-iso-gmp-records-management': 5,         // 4.5
@@ -40,23 +40,23 @@ digitalizationArticles.sort((a, b) => {
 
   <Content
     content={`
-      <p>Số hóa không phải là mua phần mềm — mà là thay đổi cách doanh nghiệp ghi nhận, chia sẻ và sử dụng thông tin trong vận hành. Chuỗi bài này đi từ những câu hỏi nền tảng — chuyển đổi số thực sự là gì, tại sao nhiều phần mềm chưa đủ — đến lộ trình cụ thể từng bước: DMS, eQMS, Knowledge OS và cách tiếp cận progressive phù hợp với SME.</p>
+      <p>Digitalization isn't about buying software — it's about changing how your organization captures, shares, and uses information in operations. This series moves from foundational questions — what digitalization actually means, why more software isn't the answer — to a concrete step-by-step roadmap: DMS, eQMS, Knowledge OS, and a progressive approach that fits manufacturing SMEs.</p>
 
       <p class="mt-6">
-        <strong>Bắt đầu từ đây — Bài viết Pillar:</strong>
+        <strong>Start here — Pillar article:</strong>
       </p>
       <ul class="mt-2 space-y-1">
-        <li><a href="/insights/business-operations/chuyen-doi-so-doanh-nghiep-san-xuat" class="text-primary hover:underline">Chuyển đổi số với Manufacturing SME — thực sự là gì và bắt đầu từ đâu →</a></li>
+        <li><a href="/en/insights/business-operations/digital-transformation-manufacturing-sme" class="text-primary hover:underline">Digital Transformation for Manufacturing SMEs: What It Really Means →</a></li>
       </ul>
 
       <p class="mt-5">
-        <strong>Tự đánh giá nhanh:</strong>
-        <a href="/insights/business-operations/giai-doan-so-hoa-doanh-nghiep" class="text-primary hover:underline ml-1">Doanh nghiệp đang ở giai đoạn số hóa nào? →</a>
+        <strong>Quick self-assessment:</strong>
+        <a href="/en/insights/business-operations/digital-maturity-levels" class="text-primary hover:underline ml-1">The 5 Stages of Business Digitalization: Where Are You? →</a>
       </p>
 
       <p class="mt-3">
-        <strong>Đánh giá ngay:</strong>
-        <a href="/readiness/digitalization" class="text-primary hover:underline ml-1">Hoàn thành Digitalization Readiness Assessment →</a>
+        <strong>Assess it:</strong>
+        <a href="/en/readiness/digitalization" class="text-primary hover:underline ml-1">Take the Digitalization Readiness Assessment →</a>
       </p>
     `}
   />
@@ -64,12 +64,12 @@ digitalizationArticles.sort((a, b) => {
   <div class="relative not-prose scroll-mt-[72px]">
     <div class="relative mx-auto px-4 sm:px-6 py-8 md:py-12" style="max-width: 900.5px;">
       <div>
-        <h2 class="text-2xl font-bold mb-6 text-slate-900 dark:text-white">Tất cả bài viết về Digitalization</h2>
+        <h2 class="text-2xl font-bold mb-6 text-slate-900 dark:text-white">All Digitalization articles</h2>
       <ul class="space-y-4">
         {digitalizationArticles.map((article) => (
           <li key={article.id} class="flex items-start gap-4 group">
             <a
-              href={`/insights/${article.data.category}/${article.id}`}
+              href={`/en/insights/${article.data.category}/${article.id}`}
               class="flex-1 hover:underline"
             >
               <div class="font-medium text-slate-900 dark:text-white group-hover:text-primary transition-colors">
@@ -93,20 +93,20 @@ digitalizationArticles.sort((a, b) => {
       {
         variant: 'primary',
         text: 'Digitalization Readiness Assessment',
-        href: '/readiness/digitalization',
+        href: '/en/readiness/digitalization',
         icon: 'tabler:clipboard-check',
       },
       {
         variant: 'secondary',
-        text: 'Giải pháp Số hóa Vận hành',
-        href: '/solutions/so-hoa-van-hanh',
+        text: 'Digitalize Operations',
+        href: '/en/solutions/digitalize-operations',
         icon: 'tabler:arrow-right',
       },
     ]}
   >
-    <Fragment slot="title">Doanh nghiệp đang ở giai đoạn số hóa nào?</Fragment>
+    <Fragment slot="title">What stage of digitalization is your organization at?</Fragment>
     <Fragment slot="subtitle">
-      Digitalization Readiness Assessment đánh giá mức độ trưởng thành số hóa — cho kết quả cụ thể và bước tiếp theo có ý nghĩa nhất với doanh nghiệp bạn.
+      The Digitalization Readiness Assessment evaluates your digital maturity level — returning specific results and the most meaningful next step for your business.
     </Fragment>
   </CallToAction>
 </Layout>
