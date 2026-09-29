@@ -66,6 +66,19 @@
       }
     },
     {
+      "translationId": "article-5-10-where-ai-fits-workflow",
+      "vi": {
+        "slug": "ai-tich-hop-vao-workflow",
+        "category": "workflow",
+        "url": "/insights/workflow/ai-tich-hop-vao-workflow"
+      },
+      "en": {
+        "slug": "where-ai-fits-in-workflow",
+        "category": "workflow",
+        "url": "/en/insights/workflow/where-ai-fits-in-workflow"
+      }
+    },
+    {
       "translationId": "article-5-9-request-approval-to-event-action",
       "vi": {
         "slug": "tu-request-approval-sang-event-action",
