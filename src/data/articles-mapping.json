@@ -1000,6 +1000,19 @@
         "category": "workflow",
         "url": "/en/insights/workflow/ai-as-workflow-participant"
       }
+    },
+    {
+      "translationId": "article-5-18-ai-employee",
+      "vi": {
+        "slug": "ai-employee-ho-tro-tung-buoc-workflow",
+        "category": "workflow",
+        "url": "/insights/workflow/ai-employee-ho-tro-tung-buoc-workflow"
+      },
+      "en": {
+        "slug": "ai-employee-in-workflow",
+        "category": "workflow",
+        "url": "/en/insights/workflow/ai-employee-in-workflow"
+      }
     }
   ]
 }
