@@ -66,6 +66,19 @@
       }
     },
     {
+      "translationId": "article-5-3-approval-to-e2e",
+      "vi": {
+        "slug": "approval-workflow-den-end-to-end",
+        "category": "workflow",
+        "url": "/insights/workflow/approval-workflow-den-end-to-end"
+      },
+      "en": {
+        "slug": "approval-to-end-to-end-workflow",
+        "category": "workflow",
+        "url": "/en/insights/workflow/approval-to-end-to-end-workflow"
+      }
+    },
+    {
       "translationId": "article-5-2-digitized-vs-optimized",
       "vi": {
         "slug": "so-hoa-workflow-vs-toi-uu-workflow",
