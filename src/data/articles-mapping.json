@@ -66,6 +66,19 @@
       }
     },
     {
+      "translationId": "article-5-4-human-bottleneck",
+      "vi": {
+        "slug": "workflow-phu-thuoc-con-nguoi",
+        "category": "workflow",
+        "url": "/insights/workflow/workflow-phu-thuoc-con-nguoi"
+      },
+      "en": {
+        "slug": "workflow-human-bottleneck",
+        "category": "workflow",
+        "url": "/en/insights/workflow/workflow-human-bottleneck"
+      }
+    },
+    {
       "translationId": "article-5-3-approval-to-e2e",
       "vi": {
         "slug": "approval-workflow-den-end-to-end",
