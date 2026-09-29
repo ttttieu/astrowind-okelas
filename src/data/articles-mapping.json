@@ -961,6 +961,19 @@
         "category": "workflow",
         "url": "/en/insights/workflow/ai-agent-decision-workflow-execution"
       }
+    },
+    {
+      "translationId": "article-5-15-rules-vs-reasoning",
+      "vi": {
+        "slug": "workflow-rule-ai-reasoning",
+        "category": "workflow",
+        "url": "/insights/workflow/workflow-rule-ai-reasoning"
+      },
+      "en": {
+        "slug": "workflow-rules-vs-ai-reasoning",
+        "category": "workflow",
+        "url": "/en/insights/workflow/workflow-rules-vs-ai-reasoning"
+      }
     }
   ]
 }
