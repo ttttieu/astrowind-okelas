@@ -935,6 +935,19 @@
         "category": "workflow",
         "url": "/en/insights/workflow/context-aware-workflow"
       }
+    },
+    {
+      "translationId": "article-5-13-agent-vs-workflow",
+      "vi": {
+        "slug": "ai-agent-va-workflow",
+        "category": "workflow",
+        "url": "/insights/workflow/ai-agent-va-workflow"
+      },
+      "en": {
+        "slug": "ai-agent-and-workflow",
+        "category": "workflow",
+        "url": "/en/insights/workflow/ai-agent-and-workflow"
+      }
     }
   ]
 }
