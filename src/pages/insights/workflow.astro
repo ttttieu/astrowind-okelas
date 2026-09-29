@@ -14,34 +14,34 @@ const metadata = {
 const { grouped } = await getArticlesByCategory('vi');
 let workflowArticles = grouped.workflow || [];
 
-// Define article order: pillar first, then 5.1 to 5.20 (5.19 is assessment, not an article)
+// Sort by translationId — uses article.data (frontmatter), not article.id (filename format varies)
 const articleOrder: Record<string, number> = {
-  'workflow-thong-minh-the-he-moi': 0,            // PILLAR
-  'co-workflow-van-lam-viec-cham': 1,              // 5.1
-  'so-hoa-workflow-vs-toi-uu-workflow': 2,         // 5.2
-  'approval-workflow-den-end-to-end': 3,           // 5.3
-  'workflow-phu-thuoc-con-nguoi': 4,               // 5.4
-  'theo-doi-cong-viec-email-excel': 5,             // 5.5
-  'workflow-automation-vs-intelligent-workflow': 6, // 5.6
-  'workflow-co-the-nhanh-hon': 7,                  // 5.7
-  'event-driven-workflow-la-gi': 8,                // 5.8
-  'tu-request-approval-sang-event-action': 9,      // 5.9
-  'ai-tich-hop-vao-workflow': 10,                  // 5.10
-  'workflow-tu-phan-loai-dinh-tuyen': 11,          // 5.11
-  'workflow-biet-context-to-chuc': 12,             // 5.12
-  'ai-agent-va-workflow': 13,                      // 5.13
-  'ai-agent-quyet-dinh-workflow-thuc-thi': 14,     // 5.14
-  'workflow-rule-ai-reasoning': 15,                // 5.15
-  'tu-automation-den-agentic-workflow': 16,        // 5.16
-  'ai-participant-trong-workflow': 17,             // 5.17
-  'ai-employee-ho-tro-tung-buoc-workflow': 18,     // 5.18
-  'hanh-trinh-workflow-doanh-nghiep': 19,          // 5.20
+  'workflow-pillar-next-gen': 0,                       // PILLAR
+  'article-5-1-workflow-still-slow': 1,                // 5.1
+  'article-5-2-digitized-vs-optimized': 2,             // 5.2
+  'article-5-3-approval-to-e2e': 3,                    // 5.3
+  'article-5-4-human-bottleneck': 4,                   // 5.4
+  'article-5-5-visibility-gap': 5,                     // 5.5
+  'article-5-6-automation-vs-intelligent': 6,          // 5.6
+  'article-5-7-workflow-next-level': 7,                // 5.7
+  'article-5-8-event-driven-workflow': 8,              // 5.8
+  'article-5-9-request-approval-to-event-action': 9,  // 5.9
+  'article-5-10-where-ai-fits-workflow': 10,           // 5.10
+  'article-5-11-self-classifying-workflow': 11,        // 5.11
+  'article-5-12-context-aware-workflow': 12,           // 5.12
+  'article-5-13-agent-vs-workflow': 13,                // 5.13
+  'article-5-14-decide-vs-execute': 14,                // 5.14
+  'article-5-15-rules-vs-reasoning': 15,               // 5.15
+  'article-5-16-agentic-workflow': 16,                 // 5.16
+  'article-5-17-ai-as-participant': 17,                // 5.17
+  'article-5-18-ai-employee': 18,                      // 5.18
+  'article-5-20-workflow-journey': 19,                 // 5.20
 };
 
-// Sort articles by order
+// Sort articles by series order using translationId from frontmatter
 workflowArticles.sort((a, b) => {
-  const orderA = articleOrder[a.id] ?? 999;
-  const orderB = articleOrder[b.id] ?? 999;
+  const orderA = articleOrder[a.data.translationId] ?? 999;
+  const orderB = articleOrder[b.data.translationId] ?? 999;
   return orderA - orderB;
 });
 
