@@ -66,6 +66,19 @@
       }
     },
     {
+      "translationId": "article-5-1-workflow-still-slow",
+      "vi": {
+        "slug": "co-workflow-van-lam-viec-cham",
+        "category": "workflow",
+        "url": "/insights/workflow/co-workflow-van-lam-viec-cham"
+      },
+      "en": {
+        "slug": "workflow-digitized-still-slow",
+        "category": "workflow",
+        "url": "/en/insights/workflow/workflow-digitized-still-slow"
+      }
+    },
+    {
       "translationId": "workflow-pillar-next-gen",
       "vi": {
         "slug": "workflow-thong-minh-the-he-moi",
