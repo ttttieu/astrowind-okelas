@@ -44,8 +44,9 @@ export default function handler(req, res) {
   }
 
   try {
-    const { pathname, query } = new URL(req.url, `http://${req.headers.host}`);
-    const language = query.language || 'vi';
+    const url = new URL(req.url, `http://${req.headers.host}`);
+    const pathname = url.pathname;
+    const language = url.searchParams.get('language') || 'vi';
 
     console.log(`[assessment] ${req.method} ${pathname}`);
 
