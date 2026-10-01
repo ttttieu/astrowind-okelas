@@ -76,7 +76,7 @@ const { assessmentId, language } = Astro.props;
       const response = await fetch(url);
       if (!response.ok) {
         const errorText = await response.text();
-        throw new Error(`HTTP ${response.status}: ${errorText}`);
+        throw new Error('HTTP ' + response.status + ': ' + errorText);
       }
       const data = await response.json();
       this.questions = data.questions || [];
@@ -283,7 +283,7 @@ const { assessmentId, language } = Astro.props;
         });
 
         if (!response.ok) {
-          throw new Error(`HTTP ${response.status}`);
+          throw new Error('HTTP ' + response.status);
         }
 
         const result = await response.json();
@@ -475,7 +475,7 @@ const { assessmentId, language } = Astro.props;
         });
 
         if (!response.ok) {
-          throw new Error(`HTTP ${response.status}`);
+          throw new Error('HTTP ' + response.status);
         }
 
         const msg = this.language === 'vi'
