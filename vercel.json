@@ -5,6 +5,10 @@
   "trailingSlash": false,
   "routes": [
     {
+      "src": "/test-node",
+      "dest": "/api/test-node"
+    },
+    {
       "src": "/test-health",
       "dest": "/api/test-health"
     },
