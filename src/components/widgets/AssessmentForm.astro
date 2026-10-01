@@ -407,8 +407,8 @@ const { assessmentId, language } = Astro.props;
           </p>
           <p class="text-sm text-blue-700 dark:text-blue-300 bg-blue-100 dark:bg-blue-900/40 rounded-lg px-4 py-2 mb-6">
             ${this.language === 'vi'
-              ? 'Tất cả thông tin bên dưới đều là <strong>tùy chọn</strong>. Chỉ điền nếu anh/chị muốn OKELAS team liên hệ để sắp xếp một buổi khảo sát thực địa, lên báo cáo chi tiết và lộ trình 90 ngày cho doanh nghiệp.'
-              : 'All fields below are <strong>optional</strong>. Fill in only if you want the OKELAS team to reach out and arrange a detailed on-site assessment, full report, and 90-day roadmap for your organization.'}
+              ? 'Tất cả thông tin bên dưới đều là tùy chọn. Chỉ điền nếu anh/chị muốn OKELAS team liên hệ để sắp xếp một buổi khảo sát thực địa, lên báo cáo chi tiết và lộ trình 90 ngày cho doanh nghiệp.'
+              : 'All fields below are optional. Fill in only if you want the OKELAS team to reach out and arrange a detailed on-site assessment, full report, and 90-day roadmap for your organization.'}
           </p>
 
           <div class="space-y-4">
@@ -444,6 +444,7 @@ const { assessmentId, language } = Astro.props;
             </button>
           </div>
         </div>
+      `;
 
       container.innerHTML = html;
 
@@ -498,12 +499,7 @@ const { assessmentId, language } = Astro.props;
 
     showError(message) {
       const container = document.getElementById('questions-container');
-      container.innerHTML = `
-        <div class="bg-red-50 border border-red-200 rounded-lg p-6">
-          <h3 class="text-red-900 font-semibold mb-2">Error</h3>
-          <p class="text-red-700">${message}</p>
-        </div>
-      `;
+      container.innerHTML = '<div class="bg-red-50 border border-red-200 rounded-lg p-6"><h3 class="text-red-900 font-semibold mb-2">Error</h3><p class="text-red-700">' + message + '</p></div>';
     }
   }
 
