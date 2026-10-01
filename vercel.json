@@ -3,12 +3,6 @@
   "outputDirectory": "dist",
   "cleanUrls": true,
   "trailingSlash": false,
-  "functions": {
-    "api/index.py": {
-      "runtime": "python@3.12",
-      "maxDuration": 30
-    }
-  },
   "headers": [
     {
       "source": "/_astro/(.*)",
