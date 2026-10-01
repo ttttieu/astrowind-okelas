@@ -1,4 +1,9 @@
 """Minimal test function to verify Python serverless works on Vercel."""
 
 def handler(request):
-    return {"status": "ok", "message": "Test function works"}
+    """Vercel's native Python handler format."""
+    return {
+        "statusCode": 200,
+        "headers": {"Content-Type": "application/json"},
+        "body": '{"status": "ok", "message": "Python handler works"}'
+    }
