@@ -18,6 +18,7 @@ const insightsCollection = defineCollection({
       'erp',
       'ai',
       'compliance',
+      'workflow',
     ]),
     contentType: z.enum(['Opening', 'Analysis', 'Case & Evidence', 'Pillar']),
     funnelStage: z.array(z.enum(['Awareness', 'Understanding', 'Consideration'])).optional(),

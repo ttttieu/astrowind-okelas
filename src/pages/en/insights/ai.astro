@@ -12,31 +12,55 @@ const metadata = {
 };
 
 const { grouped } = await getArticlesByCategory('en');
-let aiArticles = grouped.ai || [];
+const aiArticles = grouped.ai || [];
 
-// Define article order: pillar 2 first, then analysis articles 2.1 - 2.10
-const articleOrder: Record<string, number> = {
-  'organizational-ai-readiness': 0, // PILLAR 2
-  'ai-productivity-paradox': 1, // 2.1
-  'ai-productivity-vs-organizational-intelligence': 2, // 2.2
-  'rag-limitations-enterprise-ai': 3, // 2.3
-  'ai-readiness-checklist': 4, // 2.4
-  'data-without-context-ai-problem': 5, // 2.5
-  'ai-agents-for-business': 6, // 2.6
-  'evidence-based-ai': 7, // 2.7
-  'ai-implementation-roadmap-manufacturing': 8, // 2.8
-  'ai-compliance-iso-gmp-manufacturing': 9, // 2.9
-  'organizational-ai': 10, // 2.10
+// Pillar 2: AI Readiness series
+const pillar2Order: Record<string, number> = {
+  'organizational-ai-readiness': 0,
+  'ai-productivity-paradox': 1,
+  'ai-productivity-vs-organizational-intelligence': 2,
+  'rag-limitations-enterprise-ai': 3,
+  'ai-readiness-checklist': 4,
+  'data-without-context-ai-problem': 5,
+  'ai-agents-for-business': 6,
+  'evidence-based-ai': 7,
+  'ai-implementation-roadmap-manufacturing': 8,
+  'ai-compliance-iso-gmp-manufacturing': 9,
+  'organizational-ai': 10,
 };
 
-// Filter articles to only include those in articleOrder, then sort by order
-aiArticles = aiArticles
-  .filter((article) => article.id in articleOrder)
-  .sort((a, b) => {
-    const orderA = articleOrder[a.id] ?? 999;
-    const orderB = articleOrder[b.id] ?? 999;
-    return orderA - orderB;
-  });
+// Pillar 6: AI Control Layer series
+const pillar6Order: Record<string, number> = {
+  'enterprise-ai-control-layer': 0,
+  'ai-beyond-chatbot-agentic': 1,
+  'frontier-ai-capabilities-business': 2,
+  'agentic-ai-vs-ai-assistant': 3,
+  'ai-autonomy-control-problem': 4,
+  'ai-bypassing-restrictions-research': 5,
+  'multi-agent-ai-system-risks': 6,
+  'ai-transparency-audit-trail': 7,
+  'ai-agent-cybersecurity-enterprise': 8,
+  'should-ai-agent-have-full-access': 9,
+  'ai-agent-error-vs-chatbot-error': 10,
+  'ai-authority-vs-intelligence': 11,
+  'least-privilege-ai-agent': 12,
+  'enterprise-ai-control-layer-architecture': 13,
+  'kvm-knowledge-vault-manager': 14,
+  'ai-reasoning-vs-organizational-truth': 15,
+  'ai-agent-authority-profile': 16,
+  'ai-employee-identity-authority-audit': 17,
+  'ai-safety-frontier-enterprise-lessons': 18,
+  'frontier-ai-safety-enterprise-ai-control': 19,
+  'kvm-enterprise-ai-control-layer': 20,
+};
+
+const pillar2Articles = aiArticles
+  .filter((article) => article.id in pillar2Order)
+  .sort((a, b) => (pillar2Order[a.id] ?? 999) - (pillar2Order[b.id] ?? 999));
+
+const pillar6Articles = aiArticles
+  .filter((article) => article.id in pillar6Order)
+  .sort((a, b) => (pillar6Order[a.id] ?? 999) - (pillar6Order[b.id] ?? 999));
 
 // Badge colors
 const typeBadgeClass: Record<string, string> = {
@@ -52,61 +76,71 @@ const typeBadgeClass: Record<string, string> = {
 
   <Content
     content={`
-      <p>AI can now help a small team produce output that used to take a much larger one. But that's not the same as the organization becoming more capable — and for a lot of businesses, the gap between "we use AI" and "AI is actually useful in daily operations" is bigger than it looks. This category is about closing that gap: readiness, agentic AI, Copilots, and what it takes for AI to understand a specific business instead of just answering questions fluently.</p>
+      <p>AI can now help a small team produce output that used to take a much larger one. But that's not the same as the organization becoming more capable — and for a lot of businesses, the gap between "we use AI" and "AI is actually useful in daily operations" is bigger than it looks. This section covers two series: readiness (the conditions that determine whether AI is actually useful) and AI control (when AI agents start acting, not just answering).</p>
 
       <p class="mt-6">
-        <strong>Start here — Pillar article:</strong>
-      </p>
-      <ul class="mt-2 space-y-1">
-        <li><a href="/en/insights/ai/organizational-ai-readiness" class="text-primary hover:underline">AI Readiness: Why AI Alone Won't Make Your Organization More Intelligent →</a></li>
-      </ul>
-
-      <p class="mt-5">
-        <strong>Why OKELAS perspective:</strong>
-        <a href="/en/why/ai-readiness-foundation" class="text-primary hover:underline ml-1">Why Before AI — what readiness means before deploying AI →</a>
+        <strong>Series 1 — AI Readiness:</strong>
+        <a href="/en/insights/ai/organizational-ai-readiness" class="text-primary hover:underline ml-1">Why AI Alone Won't Make Your Organization More Intelligent →</a>
       </p>
 
       <p class="mt-3">
+        <strong>Series 2 — AI Control Layer:</strong>
+        <a href="/en/insights/ai/enterprise-ai-control-layer" class="text-primary hover:underline ml-1">What Should AI Be Allowed to Do? Why Enterprise AI Needs a Control Layer →</a>
+      </p>
+
+      <p class="mt-5">
         <strong>Assess it:</strong>
         <a href="/en/readiness/ai" class="text-primary hover:underline ml-1">Take the AI Readiness Assessment →</a>
       </p>
-
-      <div class="mt-8">
-        <p class="font-semibold mb-3">Topics we're covering here <span class="font-normal text-muted">(more added regularly):</span></p>
-        <ul class="space-y-2 text-muted">
-          <li>AI readiness — the conditions that determine whether AI is actually useful yet</li>
-          <li>AI in operations — where it helps today, and where it's still not reliable enough</li>
-          <li>Copilot — what makes an AI assistant trustworthy for real operational questions</li>
-          <li>Agentic AI — what changes when AI doesn't just answer, but acts</li>
-          <li>Organizational AI — the difference between AI that's smart and AI that understands your business</li>
-        </ul>
-      </div>
     `}
   />
 
   <div class="relative not-prose scroll-mt-[72px]">
     <div class="relative mx-auto px-4 sm:px-6 py-8 md:py-12" style="max-width: 900.5px;">
       <div>
-        <h2 class="text-2xl font-bold mb-6 text-slate-900 dark:text-white">All AI articles</h2>
-      <ul class="space-y-4">
-        {aiArticles.map((article) => (
-          <li key={article.id} class="flex items-start gap-4 group">
-            <a
-              href={`/en/insights/${article.data.category}/${article.id}`}
-              class="flex-1 hover:underline"
-            >
-              <div class="font-medium text-slate-900 dark:text-white group-hover:text-primary transition-colors">
-                {article.data.title}
-              </div>
-            </a>
-            {article.data.funnelStage?.[0] && (
-              <span class="px-2 py-1 rounded text-xs font-medium bg-gray-50 text-gray-500 dark:bg-gray-800 dark:text-gray-400 whitespace-nowrap">
-                {article.data.funnelStage[0]}
-              </span>
-            )}
-          </li>
-        ))}
-      </ul>
+        <h2 class="text-2xl font-bold mb-2 text-slate-900 dark:text-white">Series 1: AI Readiness</h2>
+        <p class="text-muted mb-6">The conditions that determine whether AI is actually useful in operations — or just fast at generating output.</p>
+        <ul class="space-y-4 mb-12">
+          {pillar2Articles.map((article) => (
+            <li key={article.id} class="flex items-start gap-4 group">
+              <a
+                href={`/en/insights/${article.data.category}/${article.id}`}
+                class="flex-1 hover:underline"
+              >
+                <div class="font-medium text-slate-900 dark:text-white group-hover:text-primary transition-colors">
+                  {article.data.title}
+                </div>
+              </a>
+              {article.data.funnelStage?.[0] && (
+                <span class="px-2 py-1 rounded text-xs font-medium bg-gray-50 text-gray-500 dark:bg-gray-800 dark:text-gray-400 whitespace-nowrap">
+                  {article.data.funnelStage[0]}
+                </span>
+              )}
+            </li>
+          ))}
+        </ul>
+
+        <h2 class="text-2xl font-bold mb-2 text-slate-900 dark:text-white">Series 2: AI Control Layer</h2>
+        <p class="text-muted mb-6">When AI agents start acting instead of just answering — who controls them, within what scope, and how.</p>
+        <ul class="space-y-4">
+          {pillar6Articles.map((article) => (
+            <li key={article.id} class="flex items-start gap-4 group">
+              <a
+                href={`/en/insights/${article.data.category}/${article.id}`}
+                class="flex-1 hover:underline"
+              >
+                <div class="font-medium text-slate-900 dark:text-white group-hover:text-primary transition-colors">
+                  {article.data.title}
+                </div>
+              </a>
+              {article.data.funnelStage?.[0] && (
+                <span class="px-2 py-1 rounded text-xs font-medium bg-gray-50 text-gray-500 dark:bg-gray-800 dark:text-gray-400 whitespace-nowrap">
+                  {article.data.funnelStage[0]}
+                </span>
+              )}
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   </div>
