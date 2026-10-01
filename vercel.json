@@ -5,6 +5,10 @@
   "trailingSlash": false,
   "routes": [
     {
+      "src": "/test-health",
+      "dest": "/api/test-health.py"
+    },
+    {
       "src": "/api",
       "dest": "/api/index.py"
     },
