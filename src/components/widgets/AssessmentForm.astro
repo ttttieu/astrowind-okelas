@@ -445,24 +445,7 @@ const { assessmentId, language } = Astro.props;
           </div>
         </div>
 
-        <div class="bg-white rounded-lg p-8 border border-gray-200 mt-8">
-          <h3 class="text-xl font-semibold text-gray-900 mb-4">
-            ${this.language === 'vi' ? 'Tìm hiểu thêm' : 'Related Articles'}
-          </h3>
-          <div class="space-y-3">
-      `;
-
-      result.related_links?.forEach(link => {
-        html += `
-          <a href="${link.url}" class="block p-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition">
-            <h4 class="font-semibold text-blue-600 hover:underline">${link.title}</h4>
-          </a>
-        `;
-      });
-
       html += `
-          </div>
-        </div>
       `;
 
       container.innerHTML = html;
