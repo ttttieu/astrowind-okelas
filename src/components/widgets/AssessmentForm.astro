@@ -165,7 +165,7 @@ const { assessmentId, language } = Astro.props;
 
     createQuestionElement(question, index) {
       const questionDiv = document.createElement('div');
-      questionDiv.className = 'border rounded-lg p-6 bg-white shadow-sm';
+      questionDiv.className = 'border border-gray-200 dark:border-gray-700 rounded-lg p-6 bg-white dark:bg-gray-800 shadow-sm';
       questionDiv.id = `question-${question.id}`;
 
       let innerHTML = `
@@ -191,7 +191,7 @@ const { assessmentId, language } = Astro.props;
         question.options?.forEach((option) => {
           const uniqueId = `${question.id}-${option.key}`;
           innerHTML += `
-            <label class="flex items-start gap-3 p-3 border border-gray-200 rounded-lg cursor-pointer hover:bg-gray-50 transition">
+            <label class="flex items-start gap-3 p-3 border border-gray-200 dark:border-gray-600 rounded-lg cursor-pointer hover:bg-gray-50 dark:hover:bg-gray-700 transition">
               <input
                 type="radio"
                 name="question-${question.id}"
@@ -200,7 +200,7 @@ const { assessmentId, language } = Astro.props;
                 class="mt-1 w-4 h-4 text-blue-600 cursor-pointer"
               />
               <div class="flex-1">
-                <span class="font-medium text-gray-900">${option.text}</span>
+                <span class="font-medium text-gray-900 dark:text-gray-100">${option.text}</span>
               </div>
             </label>
           `;
