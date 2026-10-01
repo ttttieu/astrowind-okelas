@@ -68,7 +68,16 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-okelas_client = build_okelas_client()
+# Lazy-load client to avoid import failures at startup
+_okelas_client = None
+
+def get_okelas_client():
+    global _okelas_client
+    if _okelas_client is None:
+        print("[assessment.py] Initializing okelas_client...")
+        _okelas_client = build_okelas_client()
+        print("[assessment.py] okelas_client initialized successfully")
+    return _okelas_client
 
 # Bài viết liên quan theo assessment — tham chiếu 03_Pillar_Map §5
 # "Mapping bài viết → assessment". Slug là placeholder, cập nhật khi có
@@ -128,10 +137,12 @@ async def get_questions(assessment_id: str) -> dict:
     try:
         config = None
 
+        client = get_okelas_client()
+
         # Try to use okelas_client if it has get_question_config method
-        if hasattr(okelas_client, "get_question_config"):
+        if hasattr(client, "get_question_config"):
             try:
-                config = okelas_client.get_question_config(assessment_id)  # type: ignore[attr-defined]
+                config = client.get_question_config(assessment_id)  # type: ignore[attr-defined]
             except Exception as e:
                 print(f"[DEBUG] okelas_client.get_question_config failed: {e}")
                 config = None
@@ -252,4 +263,10 @@ async def submit_contact(request_data: dict) -> dict:
 
 @app.get("/health")
 async def health() -> dict:
-    return {"status": "ok"}
+    """Simple health check - no dependencies."""
+    return {"status": "ok", "service": "assessment-api"}
+
+@app.get("/api/health")
+async def api_health() -> dict:
+    """API health check at /api/health."""
+    return {"status": "ok", "message": "Assessment API is running"}

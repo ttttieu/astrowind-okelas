@@ -58,10 +58,9 @@ class LocalWorkflowEngine:
     """Diễn giải workflow_intake JSON. Không chứa logic ẩn ngoài file JSON."""
 
     def __init__(self) -> None:
-        self.workflow_def: dict[str, Any] = json.loads(
-            WORKFLOW_DEF_PATH.read_text(encoding="utf-8")
-        )
+        self.workflow_def: dict[str, Any] | None = None  # Lazy-load
         self._question_config_cache: dict[str, dict[str, Any]] = {}
+        print(f"[LocalWorkflowEngine] Initialized. Will lazy-load from {WORKFLOW_DEF_PATH}")
 
     # -- config loading -----------------------------------------------------
 
