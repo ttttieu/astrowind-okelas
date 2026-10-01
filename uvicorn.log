@@ -1,0 +1,50 @@
+[index.py] Trying absolute import: from api.assessment import app
+[assessment.py] Starting imports...
+[assessment.py] Trying: from _assessment.models import ...
+[assessment.py] Absolute import failed: No module named '_assessment'
+[assessment.py] Trying: from ._assessment.models import ...
+[assessment.py] Trying: from ._assessment.okelas_client import ...
+[assessment.py] SUCCESS: relative imports worked
+[index.py] SUCCESS: absolute import worked
+[submit] Processing erp_readiness with 12 answers
+[assessment.py] Initializing okelas_client...
+[assessment.py] okelas_client initialized successfully
+[submit] Client obtained: LocalSimulatorClient
+[submit] Result received: level=3
+[submit] Response created successfully
+INFO:     127.0.0.1:56279 - "POST /api/assessment/submit HTTP/1.1" 200 OK
+[submit] Processing erp_readiness with 12 answers
+[submit] Client obtained: LocalSimulatorClient
+[submit] Result received: level=3
+[submit] Response created successfully
+INFO:     127.0.0.1:56283 - "POST /api/assessment/submit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56285 - "GET /api/assessment/erp_readiness/questions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59057 - "GET /api/assessment/erp_readiness/questions HTTP/1.1" 200 OK
+  [index.py] Python path: ['D:\\projects\\okelas-com', 'D:\\projects\\okelas-com', 'C:\\Users\\a\\AppData\\Local\\Python\\pythoncore-3.14-64\\python314.zip', 'C:\\Users\\a\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs', 'C:\\Users\\a\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib', 'C:\\Users\\a\\AppData\\Local\\Python\\bin', 'C:\\Users\\a\\AppData\\Local\\Python\\pythoncore-3.14-64', 'C:\\Users\\a\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages']
+[index.py] Current dir: D:\projects\okelas-com
+[index.py] __file__: D:\projects\okelas-com\api\index.py
+[index.py] Added to sys.path: D:\projects\okelas-com\api
+[index.py] Trying: from .assessment import app
+[assessment.py] Starting imports...
+[assessment.py] Trying: from _assessment.models import ...
+[assessment.py] Trying: from _assessment.okelas_client import ...
+[assessment.py] SUCCESS: absolute imports from _assessment/ worked
+[index.py] SUCCESS: relative import worked
+[index.py] App successfully loaded: FastAPI
+[index.py] api_dir: D:\projects\okelas-com\api
+[index.py] sys.path[0]: D:\projects\okelas-com
+[index.py] cwd: D:\projects\okelas-com
+[index.py] Added to sys.path: D:\projects\okelas-com\api
+[index.py] Attempting: from .assessment import app
+[assessment.py] Starting imports...
+[assessment.py] Trying: from _assessment.models import ...
+[assessment.py] Trying: from _assessment.okelas_client import ...
+[assessment.py] SUCCESS: absolute imports from _assessment/ worked
+ [assessment.py] Starting imports...
+[assessment.py] Trying: from _assessment.models import ...
+[assessment.py] Trying: from _assessment.okelas_client import ...
+[assessment.py] SUCCESS: absolute imports from _assessment/ worked
+[assessment.py] Initializing okelas_client...
+[assessment.py] okelas_client initialized successfully
+INFO:     127.0.0.1:54472 - "GET /api/assessment/erp_readiness/questions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54472 - "GET /favicon.ico HTTP/1.1" 404 Not Found
