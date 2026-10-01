@@ -3,42 +3,64 @@
  * Handler format (working format from test-node.js)
  */
 
-import fs from 'fs';
-import path from 'path';
-import { fileURLToPath } from 'url';
-
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
+// Minimal test data - replace with file loading once deployment works
+const TEST_CONFIG = {
+  erp_readiness: {
+    vi: {
+      assessment_id: 'erp_readiness',
+      title: 'Đánh giá sẵn sàng ERP',
+      intro: 'Phiếu khảo sát này giúp bạn đánh giá khả năng sẵn sàng của tổ chức trước khi triển khai ERP.',
+      questions: [
+        {
+          id: 'Q0-CONTEXT',
+          text: 'Tổ chức của bạn ở giai đoạn nào với ERP?',
+          type: 'context',
+          options: [
+            { key: 'A', text: 'Chưa có ERP, đang xem xét' },
+            { key: 'B', text: 'Đã quyết định triển khai' }
+          ]
+        }
+      ]
+    },
+    en: {
+      assessment_id: 'erp_readiness',
+      title: 'ERP Readiness Assessment',
+      intro: 'This questionnaire helps you assess your organization\'s readiness before implementing ERP.',
+      questions: [
+        {
+          id: 'Q0-CONTEXT',
+          text: 'At which stage is your organization with ERP?',
+          type: 'context',
+          options: [
+            { key: 'A', text: 'No ERP yet, considering whether to implement' },
+            { key: 'B', text: 'Decided to implement, looking for solutions' }
+          ]
+        }
+      ]
+    }
+  }
+};
 
 function loadQuestions(assessmentId, language = 'vi') {
-  const filename = language === 'en'
-    ? `questions_${assessmentId}_en.json`
-    : `questions_${assessmentId}.json`;
+  const lang = language === 'en' ? 'en' : 'vi';
+  const config = TEST_CONFIG[assessmentId]?.[lang];
 
-  const filepath = path.join(__dirname, 'config', filename);
-
-  console.log(`[loadQuestions] __dirname=${__dirname}`);
-  console.log(`[loadQuestions] looking for: ${filepath}`);
-  console.log(`[loadQuestions] exists: ${fs.existsSync(filepath)}`);
-
-  try {
-    const data = fs.readFileSync(filepath, 'utf-8');
-    const config = JSON.parse(data);
-
-    return {
-      assessment_id: config.assessment_id,
-      title: config.title,
-      intro: config.intro,
-      questions: config.questions.map(q => ({
-        id: q.id,
-        text: q.text,
-        type: q.type || 'single_select',
-        options: (q.options || []).map(o => ({ key: o.key, text: o.text }))
-      }))
-    };
-  } catch (error) {
-    console.error(`[loadQuestions] Error loading ${filepath}:`, error.message);
-    throw error;
+  if (!config) {
+    console.error(`[loadQuestions] Config not found: ${assessmentId} (${lang})`);
+    throw new Error(`Assessment ${assessmentId} not found`);
   }
+
+  return {
+    assessment_id: config.assessment_id,
+    title: config.title,
+    intro: config.intro,
+    questions: config.questions.map(q => ({
+      id: q.id,
+      text: q.text,
+      type: q.type || 'single_select',
+      options: (q.options || []).map(o => ({ key: o.key, text: o.text }))
+    }))
+  };
 }
 
 export default function handler(req, res) {
