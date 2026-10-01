@@ -8,6 +8,12 @@
       "maxDuration": 30
     }
   },
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api"
+    }
+  ],
   "headers": [
     {
       "source": "/_astro/(.*)",
