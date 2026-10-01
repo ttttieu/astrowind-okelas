@@ -1,7 +1,7 @@
 ---
 /**
  * Interactive Assessment Form Component
- * Renders full ERP Readiness Assessment (11 questions)
+ * Renders full ERP Readiness Assessment (13 questions)
  * Collects answers, submits to API, displays results with optional contact form
  */
 
@@ -98,8 +98,8 @@ const { assessmentId, language } = Astro.props;
         <p class="text-gray-700">${this.intro}</p>
         <p class="text-sm text-gray-600 mt-3">
           ${this.language === 'vi'
-            ? '⏱️ Khoảng 6 phút | 11 câu hỏi | Không có câu trả lời đúng hay sai'
-            : '⏱️ About 6 minutes | 11 questions | No right or wrong answers'}
+            ? '⏱️ Khoảng 6 phút | 13 câu hỏi | Không có câu trả lời đúng hay sai'
+            : '⏱️ About 6 minutes | 13 questions | No right or wrong answers'}
         </p>
       `;
       container.appendChild(introDiv);
