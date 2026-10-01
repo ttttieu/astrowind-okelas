@@ -1,4 +1,4 @@
-{
+﻿{
   "articles": [
     {
       "translationId": "erp-opening-readiness-assessment",
@@ -66,16 +66,146 @@
       }
     },
     {
-      "translationId": "biz-ops-pillar-workflow",
+      "translationId": "article-5-10-where-ai-fits-workflow",
+      "vi": {
+        "slug": "ai-tich-hop-vao-workflow",
+        "category": "workflow",
+        "url": "/insights/workflow/ai-tich-hop-vao-workflow"
+      },
+      "en": {
+        "slug": "where-ai-fits-in-workflow",
+        "category": "workflow",
+        "url": "/en/insights/workflow/where-ai-fits-in-workflow"
+      }
+    },
+    {
+      "translationId": "article-5-9-request-approval-to-event-action",
+      "vi": {
+        "slug": "tu-request-approval-sang-event-action",
+        "category": "workflow",
+        "url": "/insights/workflow/tu-request-approval-sang-event-action"
+      },
+      "en": {
+        "slug": "request-approval-to-event-action-workflow",
+        "category": "workflow",
+        "url": "/en/insights/workflow/request-approval-to-event-action-workflow"
+      }
+    },
+    {
+      "translationId": "article-5-8-event-driven-workflow",
+      "vi": {
+        "slug": "event-driven-workflow-la-gi",
+        "category": "workflow",
+        "url": "/insights/workflow/event-driven-workflow-la-gi"
+      },
+      "en": {
+        "slug": "event-driven-workflow",
+        "category": "workflow",
+        "url": "/en/insights/workflow/event-driven-workflow"
+      }
+    },
+    {
+      "translationId": "article-5-7-workflow-next-level",
+      "vi": {
+        "slug": "workflow-co-the-nhanh-hon",
+        "category": "workflow",
+        "url": "/insights/workflow/workflow-co-the-nhanh-hon"
+      },
+      "en": {
+        "slug": "workflow-improvement-next-level",
+        "category": "workflow",
+        "url": "/en/insights/workflow/workflow-improvement-next-level"
+      }
+    },
+    {
+      "translationId": "article-5-6-automation-vs-intelligent",
+      "vi": {
+        "slug": "workflow-automation-vs-intelligent",
+        "category": "workflow",
+        "url": "/insights/workflow/workflow-automation-vs-intelligent"
+      },
+      "en": {
+        "slug": "workflow-automation-vs-intelligent-workflow",
+        "category": "workflow",
+        "url": "/en/insights/workflow/workflow-automation-vs-intelligent-workflow"
+      }
+    },
+    {
+      "translationId": "article-5-5-visibility-gap",
+      "vi": {
+        "slug": "theo-doi-cong-viec-email-excel",
+        "category": "workflow",
+        "url": "/insights/workflow/theo-doi-cong-viec-email-excel"
+      },
+      "en": {
+        "slug": "email-spreadsheet-work-tracking",
+        "category": "workflow",
+        "url": "/en/insights/workflow/email-spreadsheet-work-tracking"
+      }
+    },
+    {
+      "translationId": "article-5-4-human-bottleneck",
+      "vi": {
+        "slug": "workflow-phu-thuoc-con-nguoi",
+        "category": "workflow",
+        "url": "/insights/workflow/workflow-phu-thuoc-con-nguoi"
+      },
+      "en": {
+        "slug": "workflow-human-bottleneck",
+        "category": "workflow",
+        "url": "/en/insights/workflow/workflow-human-bottleneck"
+      }
+    },
+    {
+      "translationId": "article-5-3-approval-to-e2e",
+      "vi": {
+        "slug": "approval-workflow-den-end-to-end",
+        "category": "workflow",
+        "url": "/insights/workflow/approval-workflow-den-end-to-end"
+      },
+      "en": {
+        "slug": "approval-to-end-to-end-workflow",
+        "category": "workflow",
+        "url": "/en/insights/workflow/approval-to-end-to-end-workflow"
+      }
+    },
+    {
+      "translationId": "article-5-2-digitized-vs-optimized",
+      "vi": {
+        "slug": "so-hoa-workflow-vs-toi-uu-workflow",
+        "category": "workflow",
+        "url": "/insights/workflow/so-hoa-workflow-vs-toi-uu-workflow"
+      },
+      "en": {
+        "slug": "digitized-vs-optimized-workflow",
+        "category": "workflow",
+        "url": "/en/insights/workflow/digitized-vs-optimized-workflow"
+      }
+    },
+    {
+      "translationId": "article-5-1-workflow-still-slow",
+      "vi": {
+        "slug": "co-workflow-van-lam-viec-cham",
+        "category": "workflow",
+        "url": "/insights/workflow/co-workflow-van-lam-viec-cham"
+      },
+      "en": {
+        "slug": "workflow-digitized-still-slow",
+        "category": "workflow",
+        "url": "/en/insights/workflow/workflow-digitized-still-slow"
+      }
+    },
+    {
+      "translationId": "workflow-pillar-next-gen",
       "vi": {
         "slug": "workflow-thong-minh-the-he-moi",
-        "category": "business-operations",
-        "url": "/insights/business-operations/workflow-thong-minh-the-he-moi"
+        "category": "workflow",
+        "url": "/insights/workflow/workflow-thong-minh-the-he-moi"
       },
       "en": {
         "slug": "intelligent-workflow-next-generation",
-        "category": "business-operations",
-        "url": "/en/insights/business-operations/intelligent-workflow-next-generation"
+        "category": "workflow",
+        "url": "/en/insights/workflow/intelligent-workflow-next-generation"
       }
     },
     {
@@ -791,6 +921,383 @@
         "slug": "next-step-digitalization-roi",
         "category": "business-operations",
         "url": "/en/insights/business-operations/next-step-digitalization-roi"
+      }
+    },
+    {
+      "translationId": "article-5-11-self-classifying-workflow",
+      "vi": {
+        "slug": "workflow-tu-phan-loai-dinh-tuyen",
+        "category": "workflow",
+        "url": "/insights/workflow/workflow-tu-phan-loai-dinh-tuyen"
+      },
+      "en": {
+        "slug": "intelligent-workflow-routing",
+        "category": "workflow",
+        "url": "/en/insights/workflow/intelligent-workflow-routing"
+      }
+    },
+    {
+      "translationId": "article-5-12-context-aware-workflow",
+      "vi": {
+        "slug": "workflow-biet-context-to-chuc",
+        "category": "workflow",
+        "url": "/insights/workflow/workflow-biet-context-to-chuc"
+      },
+      "en": {
+        "slug": "context-aware-workflow",
+        "category": "workflow",
+        "url": "/en/insights/workflow/context-aware-workflow"
+      }
+    },
+    {
+      "translationId": "article-5-13-agent-vs-workflow",
+      "vi": {
+        "slug": "ai-agent-va-workflow",
+        "category": "workflow",
+        "url": "/insights/workflow/ai-agent-va-workflow"
+      },
+      "en": {
+        "slug": "ai-agent-and-workflow",
+        "category": "workflow",
+        "url": "/en/insights/workflow/ai-agent-and-workflow"
+      }
+    },
+    {
+      "translationId": "article-5-14-decide-vs-execute",
+      "vi": {
+        "slug": "ai-agent-quyet-dinh-workflow-thuc-thi",
+        "category": "workflow",
+        "url": "/insights/workflow/ai-agent-quyet-dinh-workflow-thuc-thi"
+      },
+      "en": {
+        "slug": "ai-agent-decision-workflow-execution",
+        "category": "workflow",
+        "url": "/en/insights/workflow/ai-agent-decision-workflow-execution"
+      }
+    },
+    {
+      "translationId": "article-5-15-rules-vs-reasoning",
+      "vi": {
+        "slug": "workflow-rule-ai-reasoning",
+        "category": "workflow",
+        "url": "/insights/workflow/workflow-rule-ai-reasoning"
+      },
+      "en": {
+        "slug": "workflow-rules-vs-ai-reasoning",
+        "category": "workflow",
+        "url": "/en/insights/workflow/workflow-rules-vs-ai-reasoning"
+      }
+    },
+    {
+      "translationId": "article-5-16-agentic-workflow",
+      "vi": {
+        "slug": "tu-automation-den-agentic-workflow",
+        "category": "workflow",
+        "url": "/insights/workflow/tu-automation-den-agentic-workflow"
+      },
+      "en": {
+        "slug": "agentic-workflow",
+        "category": "workflow",
+        "url": "/en/insights/workflow/agentic-workflow"
+      }
+    },
+    {
+      "translationId": "article-5-17-ai-as-participant",
+      "vi": {
+        "slug": "ai-participant-trong-workflow",
+        "category": "workflow",
+        "url": "/insights/workflow/ai-participant-trong-workflow"
+      },
+      "en": {
+        "slug": "ai-as-workflow-participant",
+        "category": "workflow",
+        "url": "/en/insights/workflow/ai-as-workflow-participant"
+      }
+    },
+    {
+      "translationId": "article-5-18-ai-employee",
+      "vi": {
+        "slug": "ai-employee-ho-tro-tung-buoc-workflow",
+        "category": "workflow",
+        "url": "/insights/workflow/ai-employee-ho-tro-tung-buoc-workflow"
+      },
+      "en": {
+        "slug": "ai-employee-in-workflow",
+        "category": "workflow",
+        "url": "/en/insights/workflow/ai-employee-in-workflow"
+      }
+    },
+    {
+      "translationId": "article-5-20-workflow-journey",
+      "vi": {
+        "slug": "hanh-trinh-workflow-doanh-nghiep",
+        "category": "workflow",
+        "url": "/insights/workflow/hanh-trinh-workflow-doanh-nghiep"
+      },
+      "en": {
+        "slug": "workflow-maturity-levels",
+        "category": "workflow",
+        "url": "/en/insights/workflow/workflow-maturity-levels"
+      }
+    },
+    {
+      "translationId": "article-6-1-beyond-chatbot",
+      "vi": {
+        "slug": "ai-vuot-khoi-chatbot",
+        "category": "ai",
+        "url": "/insights/ai/ai-vuot-khoi-chatbot"
+      },
+      "en": {
+        "slug": "ai-beyond-chatbot-agentic",
+        "category": "ai",
+        "url": "/en/insights/ai/ai-beyond-chatbot-agentic"
+      }
+    },
+    {
+      "translationId": "article-6-2-frontier-capabilities",
+      "vi": {
+        "slug": "ai-giai-quyet-bai-toan-phuc-tap",
+        "category": "ai",
+        "url": "/insights/ai/ai-giai-quyet-bai-toan-phuc-tap"
+      },
+      "en": {
+        "slug": "frontier-ai-capabilities-business",
+        "category": "ai",
+        "url": "/en/insights/ai/frontier-ai-capabilities-business"
+      }
+    },
+    {
+      "translationId": "article-6-3-agentic-vs-assistant",
+      "vi": {
+        "slug": "agentic-ai-vs-ai-assistant-vi",
+        "category": "ai",
+        "url": "/insights/ai/agentic-ai-vs-ai-assistant-vi"
+      },
+      "en": {
+        "slug": "agentic-ai-vs-ai-assistant",
+        "category": "ai",
+        "url": "/en/insights/ai/agentic-ai-vs-ai-assistant"
+      }
+    },
+    {
+      "translationId": "article-6-4-autonomy-control-problem",
+      "vi": {
+        "slug": "ai-tu-chu-control-problem",
+        "category": "ai",
+        "url": "/insights/ai/ai-tu-chu-control-problem"
+      },
+      "en": {
+        "slug": "ai-autonomy-control-problem",
+        "category": "ai",
+        "url": "/en/insights/ai/ai-autonomy-control-problem"
+      }
+    },
+    {
+      "translationId": "article-6-5-ai-circumventing-limits",
+      "vi": {
+        "slug": "ai-vuot-qua-gioi-han-nghien-cuu",
+        "category": "ai",
+        "url": "/insights/ai/ai-vuot-qua-gioi-han-nghien-cuu"
+      },
+      "en": {
+        "slug": "ai-bypassing-restrictions-research",
+        "category": "ai",
+        "url": "/en/insights/ai/ai-bypassing-restrictions-research"
+      }
+    },
+    {
+      "translationId": "article-6-6-multi-agent-systems",
+      "vi": {
+        "slug": "multi-agent-ai-phoi-hop",
+        "category": "ai",
+        "url": "/insights/ai/multi-agent-ai-phoi-hop"
+      },
+      "en": {
+        "slug": "multi-agent-ai-system-risks",
+        "category": "ai",
+        "url": "/en/insights/ai/multi-agent-ai-system-risks"
+      }
+    },
+    {
+      "translationId": "article-6-7-ai-transparency",
+      "vi": {
+        "slug": "ai-khong-minh-bach-hanh-dong",
+        "category": "ai",
+        "url": "/insights/ai/ai-khong-minh-bach-hanh-dong"
+      },
+      "en": {
+        "slug": "ai-transparency-audit-trail",
+        "category": "ai",
+        "url": "/en/insights/ai/ai-transparency-audit-trail"
+      }
+    },
+    {
+      "translationId": "article-6-8-ai-agent-cybersecurity",
+      "vi": {
+        "slug": "ai-agent-va-cybersecurity",
+        "category": "ai",
+        "url": "/insights/ai/ai-agent-va-cybersecurity"
+      },
+      "en": {
+        "slug": "ai-agent-cybersecurity-enterprise",
+        "category": "ai",
+        "url": "/en/insights/ai/ai-agent-cybersecurity-enterprise"
+      }
+    },
+    {
+      "translationId": "article-6-9-should-ai-have-authority",
+      "vi": {
+        "slug": "trao-quyen-ai-agent-doanh-nghiep",
+        "category": "ai",
+        "url": "/insights/ai/trao-quyen-ai-agent-doanh-nghiep"
+      },
+      "en": {
+        "slug": "should-ai-agent-have-full-access",
+        "category": "ai",
+        "url": "/en/insights/ai/should-ai-agent-have-full-access"
+      }
+    },
+    {
+      "translationId": "article-6-10-chatbot-vs-agent-error",
+      "vi": {
+        "slug": "chatbot-sai-khac-agent-sai",
+        "category": "ai",
+        "url": "/insights/ai/chatbot-sai-khac-agent-sai"
+      },
+      "en": {
+        "slug": "ai-agent-error-vs-chatbot-error",
+        "category": "ai",
+        "url": "/en/insights/ai/ai-agent-error-vs-chatbot-error"
+      }
+    },
+    {
+      "translationId": "article-6-11-authority-vs-intelligence",
+      "vi": {
+        "slug": "ai-authority-vs-intelligence-vi",
+        "category": "ai",
+        "url": "/insights/ai/ai-authority-vs-intelligence-vi"
+      },
+      "en": {
+        "slug": "ai-authority-vs-intelligence",
+        "category": "ai",
+        "url": "/en/insights/ai/ai-authority-vs-intelligence"
+      }
+    },
+    {
+      "translationId": "article-6-12-least-privilege",
+      "vi": {
+        "slug": "least-privilege-cho-ai",
+        "category": "ai",
+        "url": "/insights/ai/least-privilege-cho-ai"
+      },
+      "en": {
+        "slug": "least-privilege-ai-agent",
+        "category": "ai",
+        "url": "/en/insights/ai/least-privilege-ai-agent"
+      }
+    },
+    {
+      "translationId": "article-6-13-control-layer-architecture",
+      "vi": {
+        "slug": "ai-control-layer-doanh-nghiep",
+        "category": "ai",
+        "url": "/insights/ai/ai-control-layer-doanh-nghiep"
+      },
+      "en": {
+        "slug": "enterprise-ai-control-layer-architecture",
+        "category": "ai",
+        "url": "/en/insights/ai/enterprise-ai-control-layer-architecture"
+      }
+    },
+    {
+      "translationId": "article-6-14-what-is-kvm",
+      "vi": {
+        "slug": "kvm-la-gi",
+        "category": "ai",
+        "url": "/insights/ai/kvm-la-gi"
+      },
+      "en": {
+        "slug": "kvm-knowledge-vault-manager",
+        "category": "ai",
+        "url": "/en/insights/ai/kvm-knowledge-vault-manager"
+      }
+    },
+    {
+      "translationId": "article-6-15-reasoning-vs-truth",
+      "vi": {
+        "slug": "ai-ly-luan-vs-su-that-to-chuc",
+        "category": "ai",
+        "url": "/insights/ai/ai-ly-luan-vs-su-that-to-chuc"
+      },
+      "en": {
+        "slug": "ai-reasoning-vs-organizational-truth",
+        "category": "ai",
+        "url": "/en/insights/ai/ai-reasoning-vs-organizational-truth"
+      }
+    },
+    {
+      "translationId": "article-6-16-agent-authority-profile",
+      "vi": {
+        "slug": "ho-so-quyen-han-ai-agent",
+        "category": "ai",
+        "url": "/insights/ai/ho-so-quyen-han-ai-agent"
+      },
+      "en": {
+        "slug": "ai-agent-authority-profile",
+        "category": "ai",
+        "url": "/en/insights/ai/ai-agent-authority-profile"
+      }
+    },
+    {
+      "translationId": "article-6-17-employee-analogy",
+      "vi": {
+        "slug": "ai-employee-tu-assistant",
+        "category": "ai",
+        "url": "/insights/ai/ai-employee-tu-assistant"
+      },
+      "en": {
+        "slug": "ai-employee-identity-authority-audit",
+        "category": "ai",
+        "url": "/en/insights/ai/ai-employee-identity-authority-audit"
+      }
+    },
+    {
+      "translationId": "article-6-18-frontier-safety-enterprise",
+      "vi": {
+        "slug": "ai-safety-frontier-va-doanh-nghiep",
+        "category": "ai",
+        "url": "/insights/ai/ai-safety-frontier-va-doanh-nghiep"
+      },
+      "en": {
+        "slug": "ai-safety-frontier-enterprise-lessons",
+        "category": "ai",
+        "url": "/en/insights/ai/ai-safety-frontier-enterprise-lessons"
+      }
+    },
+    {
+      "translationId": "article-6-19-frontier-vs-enterprise",
+      "vi": {
+        "slug": "frontier-safety-vs-enterprise-control",
+        "category": "ai",
+        "url": "/insights/ai/frontier-safety-vs-enterprise-control"
+      },
+      "en": {
+        "slug": "frontier-ai-safety-enterprise-ai-control",
+        "category": "ai",
+        "url": "/en/insights/ai/frontier-ai-safety-enterprise-ai-control"
+      }
+    },
+    {
+      "translationId": "article-6-20-kvm-conclusion",
+      "vi": {
+        "slug": "kvm-control-layer-ai-doanh-nghiep",
+        "category": "ai",
+        "url": "/insights/ai/kvm-control-layer-ai-doanh-nghiep"
+      },
+      "en": {
+        "slug": "kvm-enterprise-ai-control-layer",
+        "category": "ai",
+        "url": "/en/insights/ai/kvm-enterprise-ai-control-layer"
       }
     }
   ]

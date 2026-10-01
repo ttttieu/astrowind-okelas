@@ -1,10 +1,10 @@
 ---
 title: "Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates"
-description: "Workflow isn't a new concept. But AI, event-driven architecture and organizational knowledge are enabling a new generation of workflows â€” faster, more flexible and genuinely intelligent."
-publishDate: 2026-09-24T00:00:00Z
-translationId: biz-ops-pillar-workflow
+description: "Workflow isn't a new concept. But AI, event-driven architecture and organizational knowledge are enabling a new generation of workflows — faster, more flexible and genuinely intelligent."
+publishDate: 2026-09-23T00:00:00Z
+translationId: workflow-pillar-next-gen
 lang: en
-category: business-operations
+category: workflow
 contentType: Pillar
 funnelStage:
   - Awareness
@@ -22,7 +22,7 @@ secondaryKeywords:
   - "event-driven workflow"
   - "agentic workflow"
   - "workflow optimization"
-assessmentHref: /readiness/digitalization
+assessmentHref: /readiness/workflow
 draft: false
 ---
 
@@ -50,7 +50,7 @@ This article isn't about a specific workflow tool. It's about **an architectural
 
 ## 1. Where Traditional Workflow Runs Out of Road
 
-**Claim:** Most workflow in small and mid-sized manufacturers is still designed as a "linear, human-initiated chain of steps" — even after digitization.
+Most workflow in small and mid-sized manufacturers is still designed as a "linear, human-initiated chain of steps" — even after digitization.
 
 **What this looks like in practice:**
 
@@ -99,7 +99,9 @@ The core difference from traditional workflow:
 
 Making event-driven workflow work isn't primarily a technology problem — it depends on the **organization's ability to define and recognize events consistently**. If a company doesn't yet have a clear definition of "what counts as a quality event that needs action" or "what threshold counts as abnormal," deploying event-driven technology will mostly generate noise: too many alerts, with no way to tell which ones actually matter.
 
-That's why event-driven workflow isn't a starting point — it's a destination reached after process readiness and data readiness are already in reasonably good shape (see our related coverage of process readiness in the ERP cluster).
+That's why event-driven workflow isn't a starting point — it's a destination reached after process readiness and data readiness are already in reasonably good shape.
+
+→ *Related: [Process Readiness: The Biggest Risk Before ERP Implementation]*
 
 ---
 
@@ -117,6 +119,8 @@ There are four places AI can participate, in order of increasing risk:
 Gartner's *Top Strategic Technology Trends for 2025: Agentic AI* report makes a notable forecast: by 2028, roughly a third of enterprise software applications are expected to include agentic AI, and at least 15% of day-to-day work decisions are expected to be made autonomously through agentic AI, up from close to zero in 2024 (Gartner, 2025). That's a technology trend forecast from a research firm, not a measurement of where most companies stand today — but it signals where enterprise software vendors are directing their investment.
 
 For a manufacturing SME, the real question isn't "should we get to level 4." It's: **which level are we actually at, and is the next step appropriate given our current process standardization and evidence maturity?** A company that hasn't standardized levels 1 and 2 but wants to jump to level 4 usually creates operational risk, not value.
+
+→ *Related: [What Is an AI Agent — and What Can It Actually Do in Operations?]*
 
 ---
 
@@ -138,6 +142,8 @@ McKinsey's *State of AI 2025* research makes a relevant observation here: redesi
 
 A related Deloitte survey on generative AI adoption shows a similarly divided picture: only about 34% of surveyed organizations say they are truly reimagining how they operate, about 30% are redesigning key processes around AI, while about 37% are still using AI at a surface level with little or no change to existing processes (Deloitte, State of Generative AI in the Enterprise). That line is exactly the line between "having AI" and "operating more intelligently because of AI."
 
+→ *Related: [AI Agents in Workflow: Where Automation Ends and Agentic AI Begins]*
+
 ---
 
 ## 6. A Workflow Maturity Roadmap
@@ -158,7 +164,7 @@ For most manufacturing SMEs, the honest current position sits somewhere between 
 
 ---
 
-## Quick Self-Assessment
+## Self-Assessment: Where Does Your Organization Stand?
 
 If your company shows **5 or more of the 8 signs** below, the issue is likely not a missing workflow tool — it's the architecture and maturity of the workflow you already have:
 
@@ -171,6 +177,8 @@ If your company shows **5 or more of the 8 signs** below, the issue is likely no
 7. You've tried AI somewhere in the business, but it isn't attached to a specific workflow.
 8. You have no way to explain a three-month-old operational decision, with evidence, if someone asks.
 
+**→ Complete the [Workflow Readiness Assessment] to understand which level your organization is actually at — and what the next economically sensible step looks like.**
+
 ---
 
 ## Conclusion
@@ -179,6 +187,15 @@ The real question was never "does the company have workflow." Most already do. T
 
 This is also why OKELAS treats workflow not as a standalone software feature, but as part of **Process → Workflow → Event → Evidence → Knowledge → Decision → Action** — where workflow only becomes genuinely intelligent once it's connected to organizational knowledge and evidence, not simply once it runs faster.
 
-## Next Step
+---
 
-If you want to know which level your company's workflow is actually at on the maturity path above — and what the next economically sensible step looks like, rather than the next trend-driven step — start with the **Workflow Readiness Assessment**.
+*This article is part of a series on workflow, AI adoption, and operational management for manufacturing SMEs.*
+
+**Related articles:**
+- [What Is an AI Agent — and What Can It Actually Do in Operations?]
+- [AI Agents in Workflow: Where Automation Ends and Agentic AI Begins]
+- [Process Readiness: The Biggest Risk Before ERP Implementation]
+- [Event-Driven Workflow: How Organizations React to Events Instead of Waiting]
+- [Organizational Knowledge and Workflow: Why Most AI Fails Without It]
+
+**→ [Complete the Workflow Readiness Assessment]**

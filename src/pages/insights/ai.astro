@@ -12,31 +12,55 @@ const metadata = {
 };
 
 const { grouped } = await getArticlesByCategory('vi');
-let aiArticles = grouped.ai || [];
+const aiArticles = grouped.ai || [];
 
-// Define article order: pillar 2 first, then analysis articles 2.1 - 2.10
-const articleOrder: Record<string, number> = {
-  'ai-readiness-doanh-nghiep': 0, // PILLAR 2
-  'ai-tang-nang-suat-doanh-nghiep': 1, // 2.1
-  'ai-nang-suat-va-tri-thuc-tong-the': 2, // 2.2
-  'rag-la-gi-han-che-ai': 3, // 2.3
-  'dieu-kien-trien-khai-ai-van-hanh': 4, // 2.4
-  'du-lieu-khong-co-context-ai': 5, // 2.5
-  'ai-agent-doanh-nghiep': 6, // 2.6
-  'evidence-based-ai-kiem-chung': 7, // 2.7
-  'lo-trinh-ai-thuc-te-manufacturing-sme': 8, // 2.8
-  'ai-iso-gmp-compliance': 9, // 2.9
-  'organizational-ai-doanh-nghiep': 10, // 2.10
+// Pillar 2: AI Readiness series
+const pillar2Order: Record<string, number> = {
+  'ai-readiness-doanh-nghiep': 0,
+  'ai-tang-nang-suat-doanh-nghiep': 1,
+  'ai-nang-suat-va-tri-thuc-tong-the': 2,
+  'rag-la-gi-han-che-ai': 3,
+  'dieu-kien-trien-khai-ai-van-hanh': 4,
+  'du-lieu-khong-co-context-ai': 5,
+  'ai-agent-doanh-nghiep': 6,
+  'evidence-based-ai-kiem-chung': 7,
+  'lo-trinh-ai-thuc-te-manufacturing-sme': 8,
+  'ai-iso-gmp-compliance': 9,
+  'organizational-ai-doanh-nghiep': 10,
 };
 
-// Filter articles to only include those in articleOrder, then sort by order
-aiArticles = aiArticles
-  .filter((article) => article.id in articleOrder)
-  .sort((a, b) => {
-    const orderA = articleOrder[a.id] ?? 999;
-    const orderB = articleOrder[b.id] ?? 999;
-    return orderA - orderB;
-  });
+// Pillar 6: AI Control Layer series
+const pillar6Order: Record<string, number> = {
+  'kiem-soat-ai-doanh-nghiep': 0,
+  'ai-vuot-khoi-chatbot': 1,
+  'ai-giai-quyet-bai-toan-phuc-tap': 2,
+  'agentic-ai-vs-ai-assistant-vi': 3,
+  'ai-tu-chu-control-problem': 4,
+  'ai-vuot-qua-gioi-han-nghien-cuu': 5,
+  'multi-agent-ai-phoi-hop': 6,
+  'ai-khong-minh-bach-hanh-dong': 7,
+  'ai-agent-va-cybersecurity': 8,
+  'trao-quyen-ai-agent-doanh-nghiep': 9,
+  'chatbot-sai-khac-agent-sai': 10,
+  'ai-authority-vs-intelligence-vi': 11,
+  'least-privilege-cho-ai': 12,
+  'ai-control-layer-doanh-nghiep': 13,
+  'kvm-la-gi': 14,
+  'ai-ly-luan-vs-su-that-to-chuc': 15,
+  'ho-so-quyen-han-ai-agent': 16,
+  'ai-employee-tu-assistant': 17,
+  'ai-safety-frontier-va-doanh-nghiep': 18,
+  'frontier-safety-vs-enterprise-control': 19,
+  'kvm-control-layer-ai-doanh-nghiep': 20,
+};
+
+const pillar2Articles = aiArticles
+  .filter((article) => article.id in pillar2Order)
+  .sort((a, b) => (pillar2Order[a.id] ?? 999) - (pillar2Order[b.id] ?? 999));
+
+const pillar6Articles = aiArticles
+  .filter((article) => article.id in pillar6Order)
+  .sort((a, b) => (pillar6Order[a.id] ?? 999) - (pillar6Order[b.id] ?? 999));
 
 // Badge colors
 const typeBadgeClass: Record<string, string> = {
@@ -52,61 +76,71 @@ const typeBadgeClass: Record<string, string> = {
 
   <Content
     content={`
-      <p>AI có thể giúp một nhóm nhỏ tạo ra output mà trước đây cần một nhóm lớn hơn. Nhưng điều đó không giống với việc tổ chức trở nên khả năng hơn — và với nhiều doanh nghiệp, khoảng cách giữa "chúng tôi dùng AI" và "AI thực sự hữu ích trong vận hành hàng ngày" lớn hơn vẻ bề ngoài. Phần này về việc đóng khoảng cách đó: readiness, agentic AI, Copilots, và những gì cần để AI hiểu một doanh nghiệp cụ thể thay vì chỉ trả lời câu hỏi trôi chảy.</p>
+      <p>AI có thể giúp một nhóm nhỏ tạo ra output mà trước đây cần một nhóm lớn hơn. Nhưng điều đó không giống với việc tổ chức trở nên khả năng hơn — và với nhiều doanh nghiệp, khoảng cách giữa "chúng tôi dùng AI" và "AI thực sự hữu ích trong vận hành hàng ngày" lớn hơn vẻ bề ngoài. Phần này bao gồm hai chuỗi bài viết: readiness (điều kiện để AI thực sự hữu ích) và AI control (khi AI agent bắt đầu hành động, không chỉ trả lời).</p>
 
       <p class="mt-6">
-        <strong>Bắt đầu từ đây — Bài viết Pillar:</strong>
-      </p>
-      <ul class="mt-2 space-y-1">
-        <li><a href="/insights/ai/ai-readiness-doanh-nghiep" class="text-primary hover:underline">AI Readiness: tại sao AI không tự động làm doanh nghiệp thông minh hơn →</a></li>
-      </ul>
-
-      <p class="mt-5">
-        <strong>Góc nhìn OKELAS:</strong>
-        <a href="/why/tai-sao-readiness-truoc-ai" class="text-primary hover:underline ml-1">Tại sao readiness trước AI — nó có nghĩa gì trong thực tế →</a>
+        <strong>Chuỗi 1 — AI Readiness:</strong>
+        <a href="/insights/ai/ai-readiness-doanh-nghiep" class="text-primary hover:underline ml-1">Tại sao AI không tự động làm doanh nghiệp thông minh hơn →</a>
       </p>
 
       <p class="mt-3">
+        <strong>Chuỗi 2 — AI Control Layer:</strong>
+        <a href="/insights/ai/kiem-soat-ai-doanh-nghiep" class="text-primary hover:underline ml-1">AI được phép làm đến đâu? Tại sao doanh nghiệp cần một control layer →</a>
+      </p>
+
+      <p class="mt-5">
         <strong>Đánh giá ngay:</strong>
         <a href="/readiness/ai" class="text-primary hover:underline ml-1">Hoàn thành Đánh giá AI Readiness →</a>
       </p>
-
-      <div class="mt-8">
-        <p class="font-semibold mb-3">Các chủ đề chúng tôi đang bao quát <span class="font-normal text-muted">(tiếp tục bổ sung):</span></p>
-        <ul class="space-y-2 text-muted">
-          <li>AI readiness — những điều kiện quyết định AI có thực sự hữu ích hay không</li>
-          <li>AI trong vận hành — ứng dụng nào hiệu quả hôm nay, ứng dụng nào chưa đáng tin cậy</li>
-          <li>AI Copilot — yếu tố nào làm cho trợ lý AI đáng tin cậy trong quyết định vận hành thực tế</li>
-          <li>Agentic AI — điều gì thay đổi khi AI không chỉ trả lời, mà còn hành động</li>
-          <li>Organizational AI — sự khác biệt giữa AI thông minh và AI hiểu doanh nghiệp</li>
-        </ul>
-      </div>
     `}
   />
 
   <div class="relative not-prose scroll-mt-[72px]">
     <div class="relative mx-auto px-4 sm:px-6 py-8 md:py-12" style="max-width: 900.5px;">
       <div>
-        <h2 class="text-2xl font-bold mb-6 text-slate-900 dark:text-white">Tất cả bài viết về AI</h2>
-      <ul class="space-y-4">
-        {aiArticles.map((article) => (
-          <li key={article.id} class="flex items-start gap-4 group">
-            <a
-              href={`/insights/${article.data.category}/${article.id}`}
-              class="flex-1 hover:underline"
-            >
-              <div class="font-medium text-slate-900 dark:text-white group-hover:text-primary transition-colors">
-                {article.data.title}
-              </div>
-            </a>
-            {article.data.funnelStage?.[0] && (
-              <span class="px-2 py-1 rounded text-xs font-medium bg-gray-50 text-gray-500 dark:bg-gray-800 dark:text-gray-400 whitespace-nowrap">
-                {article.data.funnelStage[0]}
-              </span>
-            )}
-          </li>
-        ))}
-      </ul>
+        <h2 class="text-2xl font-bold mb-2 text-slate-900 dark:text-white">Chuỗi 1: AI Readiness</h2>
+        <p class="text-muted mb-6">Những điều kiện quyết định AI có thực sự hữu ích trong vận hành hay không.</p>
+        <ul class="space-y-4 mb-12">
+          {pillar2Articles.map((article) => (
+            <li key={article.id} class="flex items-start gap-4 group">
+              <a
+                href={`/insights/${article.data.category}/${article.id}`}
+                class="flex-1 hover:underline"
+              >
+                <div class="font-medium text-slate-900 dark:text-white group-hover:text-primary transition-colors">
+                  {article.data.title}
+                </div>
+              </a>
+              {article.data.funnelStage?.[0] && (
+                <span class="px-2 py-1 rounded text-xs font-medium bg-gray-50 text-gray-500 dark:bg-gray-800 dark:text-gray-400 whitespace-nowrap">
+                  {article.data.funnelStage[0]}
+                </span>
+              )}
+            </li>
+          ))}
+        </ul>
+
+        <h2 class="text-2xl font-bold mb-2 text-slate-900 dark:text-white">Chuỗi 2: AI Control Layer</h2>
+        <p class="text-muted mb-6">Khi AI agent bắt đầu hành động thay vì chỉ trả lời — ai kiểm soát, phạm vi nào, và làm sao.</p>
+        <ul class="space-y-4">
+          {pillar6Articles.map((article) => (
+            <li key={article.id} class="flex items-start gap-4 group">
+              <a
+                href={`/insights/${article.data.category}/${article.id}`}
+                class="flex-1 hover:underline"
+              >
+                <div class="font-medium text-slate-900 dark:text-white group-hover:text-primary transition-colors">
+                  {article.data.title}
+                </div>
+              </a>
+              {article.data.funnelStage?.[0] && (
+                <span class="px-2 py-1 rounded text-xs font-medium bg-gray-50 text-gray-500 dark:bg-gray-800 dark:text-gray-400 whitespace-nowrap">
+                  {article.data.funnelStage[0]}
+                </span>
+              )}
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   </div>

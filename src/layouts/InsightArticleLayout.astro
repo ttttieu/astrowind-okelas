@@ -23,7 +23,7 @@ export interface Props {
 
   // --- Editorial tags (tags row, block 1) ---
   contentType: 'Opening' | 'Analysis' | 'Case & Evidence' | 'Pillar';
-  cluster: 'Business & Operations' | 'Knowledge Management' | 'ERP' | 'AI' | 'Compliance';
+  cluster: 'Business & Operations' | 'Knowledge Management' | 'ERP' | 'AI' | 'Compliance' | 'Workflow';
   funnelStage?: 'Awareness' | 'Understanding' | 'Consideration';
 
   // --- Byline (block 2) ---
@@ -100,6 +100,7 @@ const clusterHrefBase: Record<string, string> = {
   ERP: '/insights/erp',
   AI: '/insights/ai',
   Compliance: '/insights/compliance',
+  Workflow: '/insights/workflow',
 };
 
 const clusterHref: Record<string, string> = Object.fromEntries(
