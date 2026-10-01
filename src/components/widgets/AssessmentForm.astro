@@ -323,31 +323,61 @@ const { assessmentId, language } = Astro.props;
             </div>
           </div>
 
-          ${result.archetype ? `
-            <p class="text-sm text-gray-600 mt-4">
-              <strong>${this.language === 'vi' ? 'Nhóm:' : 'Profile:'}</strong> ${result.archetype}
-            </p>
+          ${result.archetype_label ? `
+            <div class="mt-4 p-4 bg-white bg-opacity-60 rounded-lg border border-blue-100">
+              <p class="text-sm font-semibold text-gray-800 mb-1">
+                ${this.language === 'vi' ? 'Hồ sơ doanh nghiệp:' : 'Business Profile:'} ${result.archetype_label}
+              </p>
+              <p class="text-sm text-gray-600">${result.archetype_description || ''}</p>
+            </div>
           ` : ''}
         </div>
 
         ${result.dimension_scores && Object.keys(result.dimension_scores).length > 0 ? `
           <div class="bg-white rounded-lg p-8 border border-gray-200 mt-8">
             <h3 class="text-xl font-semibold text-gray-900 mb-6">
-              ${this.language === 'vi' ? 'Đánh giá theo thứ nguyên' : 'Dimension Scores'}
+              ${this.language === 'vi' ? 'Đánh giá theo 6 thành phần' : 'Assessment by 6 Dimensions'}
             </h3>
-            <div class="space-y-6">
-              ${Object.entries(result.dimension_scores).map(([key, score]) => `
+            <div class="space-y-5">
+              ${Object.entries(result.dimension_scores).map(([key, dim]) => {
+                const levelColors = ['bg-red-500', 'bg-orange-400', 'bg-yellow-400', 'bg-green-500'];
+                const levelColor = dim.level ? levelColors[dim.level - 1] : 'bg-gray-300';
+                const barWidth = dim.level ? (dim.level / 4) * 100 : 0;
+                const scoreText = dim.score !== null ? dim.score.toFixed(2) : '—';
+                return `
                 <div>
-                  <div class="flex justify-between mb-2">
-                    <span class="text-sm font-medium text-gray-700">${key.replace(/_/g, ' ')}</span>
-                    <span class="text-sm font-semibold text-gray-900">${score.toFixed(1)}/5.0</span>
+                  <div class="flex justify-between items-start mb-1">
+                    <span class="text-sm font-medium text-gray-800">${dim.name || key}</span>
+                    <span class="text-xs font-semibold px-2 py-0.5 rounded-full ml-2 whitespace-nowrap
+                      ${dim.level === 4 ? 'bg-green-100 text-green-800' :
+                        dim.level === 3 ? 'bg-yellow-100 text-yellow-800' :
+                        dim.level === 2 ? 'bg-orange-100 text-orange-800' :
+                        dim.level === 1 ? 'bg-red-100 text-red-800' : 'bg-gray-100 text-gray-600'}">
+                      ${dim.label || '—'}
+                    </span>
                   </div>
                   <div class="w-full bg-gray-200 rounded-full h-2">
-                    <div class="bg-blue-600 h-2 rounded-full" style="width: ${(score / 5) * 100}%"></div>
+                    <div class="${levelColor} h-2 rounded-full transition-all" style="width: ${barWidth}%"></div>
                   </div>
-                </div>
-              `).join('')}
+                </div>`;
+              }).join('')}
             </div>
+          </div>
+        ` : ''}
+
+        ${result.recommendations && result.recommendations.length > 0 ? `
+          <div class="bg-green-50 rounded-lg p-6 border border-green-200 mt-8">
+            <h3 class="text-lg font-semibold text-green-900 mb-3">
+              ${this.language === 'vi' ? '3 việc nên làm trong 90 ngày tới' : '3 Actions for the Next 90 Days'}
+            </h3>
+            <ol class="space-y-3">
+              ${result.recommendations.map((rec, i) => `
+                <li class="text-sm text-green-900 flex gap-2">
+                  <span class="font-bold shrink-0">${i + 1}.</span>
+                  <span>${rec}</span>
+                </li>
+              `).join('')}
+            </ol>
           </div>
         ` : ''}
 
@@ -393,10 +423,15 @@ const { assessmentId, language } = Astro.props;
         ${result.flags && result.flags.length > 0 ? `
           <div class="bg-amber-50 rounded-lg p-6 border border-amber-200 mt-8">
             <h3 class="text-lg font-semibold text-amber-900 mb-3">
-              ⚠️ ${this.language === 'vi' ? 'Lưu ý quan trọng' : 'Key Considerations'}
+              ${this.language === 'vi' ? 'Điểm nghẽn cần xử lý trước' : 'Critical Blockers to Address First'}
             </h3>
-            <ul class="space-y-2 text-amber-900 text-sm">
-              ${result.flags.map(flag => `<li>• ${this.explainFlag(flag)}</li>`).join('')}
+            <ul class="space-y-3">
+              ${result.flags.map(flag => `
+                <li class="text-sm text-amber-900">
+                  <span class="font-semibold">${flag.label || flag.code}:</span>
+                  <span class="ml-1">${flag.explanation || ''}</span>
+                </li>
+              `).join('')}
             </ul>
           </div>
         ` : ''}
