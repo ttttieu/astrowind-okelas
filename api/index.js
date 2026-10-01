@@ -15,20 +15,30 @@ function loadQuestions(assessmentId, language = 'vi') {
     : `questions_${assessmentId}.json`;
 
   const filepath = path.join(__dirname, 'config', filename);
-  const data = fs.readFileSync(filepath, 'utf-8');
-  const config = JSON.parse(data);
 
-  return {
-    assessment_id: config.assessment_id,
-    title: config.title,
-    intro: config.intro,
-    questions: config.questions.map(q => ({
-      id: q.id,
-      text: q.text,
-      type: q.type || 'single_select',
-      options: (q.options || []).map(o => ({ key: o.key, text: o.text }))
-    }))
-  };
+  console.log(`[loadQuestions] __dirname=${__dirname}`);
+  console.log(`[loadQuestions] looking for: ${filepath}`);
+  console.log(`[loadQuestions] exists: ${fs.existsSync(filepath)}`);
+
+  try {
+    const data = fs.readFileSync(filepath, 'utf-8');
+    const config = JSON.parse(data);
+
+    return {
+      assessment_id: config.assessment_id,
+      title: config.title,
+      intro: config.intro,
+      questions: config.questions.map(q => ({
+        id: q.id,
+        text: q.text,
+        type: q.type || 'single_select',
+        options: (q.options || []).map(o => ({ key: o.key, text: o.text }))
+      }))
+    };
+  } catch (error) {
+    console.error(`[loadQuestions] Error loading ${filepath}:`, error.message);
+    throw error;
+  }
 }
 
 export default function handler(req, res) {
