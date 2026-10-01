@@ -186,7 +186,6 @@ async def get_questions(assessment_id: str) -> dict:
 
 @app.post("/api/assessment/submit", response_model=PublicAssessmentResult)
 async def submit_assessment(submission: AssessmentSubmission) -> PublicAssessmentResult:
-    # Chống spam cơ bản: honeypot field phải rỗng.
     if submission.honeypot:
         raise HTTPException(status_code=400, detail="Invalid submission")
 
@@ -194,25 +193,49 @@ async def submit_assessment(submission: AssessmentSubmission) -> PublicAssessmen
     answers_dict = [a.model_dump() for a in submission.answers]
 
     try:
-        result = await okelas_client.submit_assessment_intake(
+        print(f"[submit] Processing {submission.assessment_id} with {len(answers_dict)} answers")
+        client = get_okelas_client()
+        print(f"[submit] Client obtained: {type(client).__name__}")
+
+        result = await client.submit_assessment_intake(
             assessment_id=submission.assessment_id,
             respondent=respondent_dict,
             answers=answers_dict,
             submitted_at=submission.submitted_at.isoformat(),
             elapsed_seconds=submission.elapsed_seconds,
         )
-    except ValidationError as exc:
-        raise HTTPException(status_code=422, detail=str(exc)) from exc
+        print(f"[submit] Result received: level={result.get('level')}")
 
-    return PublicAssessmentResult(
-        assessment_id=submission.assessment_id,
-        level=result.get("level"),
-        label=result.get("label"),
-        description=result.get("description"),
-        insufficient_data_message=result.get("insufficient_data_message"),
-        related_links=RELATED_LINKS.get(submission.assessment_id, []),
-        submission_id=result["submission_id"],
-    )
+    except ValidationError as exc:
+        print(f"[submit] ValidationError: {exc}")
+        raise HTTPException(status_code=422, detail=str(exc)) from exc
+    except Exception as exc:
+        import traceback
+        print(f"[submit] ERROR: {type(exc).__name__}: {exc}")
+        traceback.print_exc()
+        raise HTTPException(status_code=500, detail=f"Assessment failed: {str(exc)}") from exc
+
+    try:
+        response = PublicAssessmentResult(
+            assessment_id=submission.assessment_id,
+            level=result.get("level"),
+            label=result.get("label"),
+            description=result.get("description"),
+            insufficient_data_message=result.get("insufficient_data_message"),
+            related_links=RELATED_LINKS.get(submission.assessment_id, []),
+            submission_id=result["submission_id"],
+            archetype=result.get("archetype"),
+            critical_flags=result.get("critical_flags", []),
+            dimension_scores=result.get("dimension_scores", {}),
+            flags=result.get("flags", []),
+        )
+        print(f"[submit] Response created successfully")
+        return response
+    except Exception as exc:
+        import traceback
+        print(f"[submit] Response creation ERROR: {type(exc).__name__}: {exc}")
+        traceback.print_exc()
+        raise HTTPException(status_code=500, detail=f"Response creation failed: {str(exc)}") from exc
 
 
 @app.post("/api/assessment/contact")
