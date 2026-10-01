@@ -17,25 +17,38 @@ Không được thêm bất kỳ phép tính điểm/level nào trực tiếp tr
 
 from __future__ import annotations
 
+import sys
+import traceback
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
+# Debug imports
+print("[assessment.py] Starting imports...")
+
 try:
     # Vercel Python Runtime (api/ is a package)
+    print("[assessment.py] Trying: from _assessment.models import ...")
     from _assessment.models import (
         AssessmentSubmission,
         PublicAssessmentResult,
         PublicResultRelatedLink,
     )
+    print("[assessment.py] Trying: from _assessment.okelas_client import ...")
     from _assessment.okelas_client import ValidationError, build_okelas_client
-except ImportError:
+    print("[assessment.py] SUCCESS: absolute imports from _assessment/ worked")
+except ImportError as e:
+    print(f"[assessment.py] Absolute import failed: {e}")
+    traceback.print_exc()
     # Fallback for relative imports (local dev with specific PYTHONPATH)
+    print("[assessment.py] Trying: from ._assessment.models import ...")
     from ._assessment.models import (
         AssessmentSubmission,
         PublicAssessmentResult,
         PublicResultRelatedLink,
     )
+    print("[assessment.py] Trying: from ._assessment.okelas_client import ...")
     from ._assessment.okelas_client import ValidationError, build_okelas_client
+    print("[assessment.py] SUCCESS: relative imports worked")
 
 app = FastAPI(
     title="OKELAS Assessment API",
