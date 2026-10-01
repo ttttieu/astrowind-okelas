@@ -1,0 +1,183 @@
+// ERP Readiness Assessment - English
+export default {
+  "assessment_id": "erp_readiness",
+  "title": "ERP Readiness Assessment",
+  "intro": "This questionnaire helps you assess your organization's readiness before implementing ERP. There are no \"right\" or \"wrong\" answers — please select the situation that best describes your current business reality.",
+  "questions": [
+    {
+      "id": "Q0-CONTEXT",
+      "type": "context",
+      "scored": false,
+      "text": "At which stage is your organization with ERP?",
+      "options": [
+        { "key": "A", "text": "No ERP yet, considering whether to implement" },
+        { "key": "B", "text": "Decided to implement, looking for solutions/partners" },
+        { "key": "C", "text": "Currently implementing" },
+        { "key": "D", "text": "Live but results below expectations" },
+        { "key": "E", "text": "Live and operating well, want to optimize" }
+      ]
+    },
+    {
+      "id": "Q1-PROCESS-EXISTENCE",
+      "dimension": "process_existence",
+      "claim_type": "existence",
+      "scored": true,
+      "text": "If you ask 3 employees doing the same critical task — for example, receiving raw materials or approving purchase requests — how would they describe the process?",
+      "options": [
+        { "key": "A", "score": 1, "text": "Each person does it differently, depending on who's responsible and the situation" },
+        { "key": "B", "score": 2, "text": "Same main steps, but differ significantly on exceptions and approvers" },
+        { "key": "C", "score": 3, "text": "Basically the same; documented process exists but not regularly updated" },
+        { "key": "D", "score": 4, "text": "Same; process is documented, updated, and matches actual practice" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "I'm not sure" }
+      ]
+    },
+    {
+      "id": "Q2-PROCESS-ENFORCEMENT",
+      "dimension": "process_enforcement",
+      "claim_type": "enforcement",
+      "scored": true,
+      "text": "If a key person (warehouse manager, accounting chief, production manager, QA lead, etc.) quit suddenly next week, what would happen?",
+      "options": [
+        { "key": "A", "score": 1, "text": "Some operations halt — the way things work is mostly in their head" },
+        { "key": "B", "score": 2, "text": "Still runs but many errors for months; replacement has to figure it out" },
+        { "key": "C", "score": 3, "text": "Documentation/handover exists; replacement takes weeks to grasp it" },
+        { "key": "D", "score": 4, "text": "Replacement can follow existing procedures, templates, and records with minimal disruption" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "I'm not sure" }
+      ]
+    },
+    {
+      "id": "Q3-DATA-MASTER",
+      "dimension": "data_foundation",
+      "claim_type": "existence_currency",
+      "scored": true,
+      "text": "How are master data — product codes, materials, suppliers, customers — currently managed?",
+      "options": [
+        { "key": "A", "score": 1, "text": "Each department has its own list; same product called different names by sales, warehouse, finance" },
+        { "key": "B", "score": 2, "text": "One master list but many duplicates, obsolete codes, missing info" },
+        { "key": "C", "score": 3, "text": "Relatively unified, someone owns it, but no clear rules for creating/updating codes" },
+        { "key": "D", "score": 4, "text": "Unified; someone is accountable with clear rules for creating, updating, retiring codes" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "I'm not sure" }
+      ]
+    },
+    {
+      "id": "Q4-DATA-ALIGNMENT",
+      "dimension": "data_foundation",
+      "claim_type": "enforcement",
+      "scored": true,
+      "text": "In management meetings, do inventory, production, and payable figures from different departments align?",
+      "options": [
+        { "key": "A", "score": 1, "text": "Often misaligned; lots of time debating which number is correct" },
+        { "key": "B", "score": 2, "text": "Usually off; someone manually reconciles before each meeting" },
+        { "key": "C", "score": 3, "text": "Generally aligned; small differences that can be explained" },
+        { "key": "D", "score": 4, "text": "Aligned, single source; inventory is reconciled monthly with physical counts" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "I'm not sure" }
+      ]
+    },
+    {
+      "id": "Q5-BOM-ROUTING",
+      "dimension": "accounting_manufacturing",
+      "claim_type": "existence_currency",
+      "scored": true,
+      "text": "Where do material specifications (BOM/recipe) and manufacturing sequences currently live?",
+      "options": [
+        { "key": "A", "score": 1, "text": "Mainly in production manager's or senior worker's head" },
+        { "key": "B", "score": 2, "text": "Documented but doesn't match actual practice, or multiple versions exist" },
+        { "key": "C", "score": 3, "text": "Documented for most products, but updates aren't consistent" },
+        { "key": "D", "score": 4, "text": "Documented for main products, version-controlled, someone is accountable" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "I'm not sure — doesn't apply (we don't manufacture)" }
+      ]
+    },
+    {
+      "id": "Q6-COSTING",
+      "dimension": "accounting_manufacturing",
+      "claim_type": "perception",
+      "scored": true,
+      "text": "Do you know the actual cost and profit margin for each main product line?",
+      "options": [
+        { "key": "A", "score": 1, "text": "No — only know overall company profit/loss" },
+        { "key": "B", "score": 2, "text": "Have estimates based on experience or old data" },
+        { "key": "C", "score": 3, "text": "Calculate it but compile manually, delayed after close" },
+        { "key": "D", "score": 4, "text": "Yes, using consistent cost allocation, updated monthly" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "I'm not sure — accounting team handles this" }
+      ]
+    },
+    {
+      "id": "Q7-OBJECTIVES",
+      "dimension": "scope_objectives",
+      "claim_type": "existence",
+      "scored": true,
+      "text": "For your ERP project (planned or underway), have you defined what \"success\" means?",
+      "options": [
+        { "key": "A", "score": 1, "text": "No — vague goals like \"better management\", \"digital transformation\"" },
+        { "key": "B", "score": 2, "text": "Yes, but technical: complete modules, go-live on time" },
+        { "key": "C", "score": 3, "text": "Yes, business goals (lower inventory, control costs) but not measurable" },
+        { "key": "D", "score": 4, "text": "Yes, measurable business goals with timeline and owner" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "I'm not sure" }
+      ]
+    },
+    {
+      "id": "Q8-SCOPE",
+      "dimension": "scope_objectives",
+      "claim_type": "existence",
+      "scored": true,
+      "text": "How is the initial ERP phase (planned or executed) being approached?",
+      "options": [
+        { "key": "A", "score": 1, "text": "Big bang all departments at once; software must match our way of working" },
+        { "key": "B", "score": 2, "text": "Multiple modules quickly; customize software where gaps exist" },
+        { "key": "C", "score": 3, "text": "Focus on a few core modules, but unclear who decides on scope changes" },
+        { "key": "D", "score": 4, "text": "Phase 1 is small, documented; ready to adapt to software standards; scope changes go through impact review" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "I'm not sure" }
+      ]
+    },
+    {
+      "id": "Q9-LEADERSHIP",
+      "dimension": "people_change",
+      "claim_type": "perception",
+      "scored": true,
+      "text": "What is leadership's role in the ERP project (planned or underway)?",
+      "options": [
+        { "key": "A", "score": 1, "text": "Hand it to IT or the vendor; leadership approves budget and gets status reports" },
+        { "key": "B", "score": 2, "text": "One leader is responsible but very busy, often absent at critical decisions" },
+        { "key": "C", "score": 3, "text": "Leadership involved in big decisions; department heads lack clear authority and time" },
+        { "key": "D", "score": 4, "text": "Someone with authority dedicates regular time; department heads have clear responsibility and time" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "I'm not sure" }
+      ]
+    },
+    {
+      "id": "Q10-CHANGE-HISTORY",
+      "dimension": "people_change",
+      "claim_type": "enforcement",
+      "scored": true,
+      "text": "Last time your organization changed how it works (new software, new process, new forms), how did the team react?",
+      "options": [
+        { "key": "A", "score": 1, "text": "Complied briefly then went back to old ways — or no major change recently" },
+        { "key": "B", "score": 2, "text": "Accepted when required, but still use Excel, paper, old ways in parallel" },
+        { "key": "C", "score": 3, "text": "Adapted over time, needed repeated leadership reminders" },
+        { "key": "D", "score": 4, "text": "Adapted well because they understood why, had guidance, and were monitored" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "I'm not sure" }
+      ]
+    },
+    {
+      "id": "Q11-GOVERNANCE",
+      "dimension": "governance_ownership",
+      "claim_type": "existence",
+      "scored": true,
+      "text": "For current systems and processes (accounting software, ISO procedures, shared Excel files), who decides on changes and who's accountable?",
+      "options": [
+        { "key": "A", "score": 1, "text": "Unclear — whoever needs it fixes it, or it waits for leadership" },
+        { "key": "B", "score": 2, "text": "Concentrates on a few (usually IT or finance head), no formal process" },
+        { "key": "C", "score": 3, "text": "Each system has an owner, but changes aren't evaluated for impact or tracked" },
+        { "key": "D", "score": 4, "text": "Clear owner; changes go through propose–evaluate–approve–record" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "I'm not sure" }
+      ]
+    },
+    {
+      "id": "Q12-REFLECTION",
+      "dimension": null,
+      "claim_type": null,
+      "scored": false,
+      "type": "open_text",
+      "text": "Looking back at your answers: what surprised you most about your organization's actual readiness?"
+    }
+  ]
+};

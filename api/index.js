@@ -3,50 +3,23 @@
  * Handler format (working format from test-node.js)
  */
 
-// Minimal test data - replace with file loading once deployment works
-const TEST_CONFIG = {
+// Assessment configurations embedded for Vercel deployment
+// (File system access not available in Vercel functions)
+import CONFIG_VI from './config-vi.js';
+import CONFIG_EN from './config-en.js';
+
+const CONFIGS = {
   erp_readiness: {
-    vi: {
-      assessment_id: 'erp_readiness',
-      title: 'Đánh giá sẵn sàng ERP',
-      intro: 'Phiếu khảo sát này giúp bạn đánh giá khả năng sẵn sàng của tổ chức trước khi triển khai ERP.',
-      questions: [
-        {
-          id: 'Q0-CONTEXT',
-          text: 'Tổ chức của bạn ở giai đoạn nào với ERP?',
-          type: 'context',
-          options: [
-            { key: 'A', text: 'Chưa có ERP, đang xem xét' },
-            { key: 'B', text: 'Đã quyết định triển khai' }
-          ]
-        }
-      ]
-    },
-    en: {
-      assessment_id: 'erp_readiness',
-      title: 'ERP Readiness Assessment',
-      intro: 'This questionnaire helps you assess your organization\'s readiness before implementing ERP.',
-      questions: [
-        {
-          id: 'Q0-CONTEXT',
-          text: 'At which stage is your organization with ERP?',
-          type: 'context',
-          options: [
-            { key: 'A', text: 'No ERP yet, considering whether to implement' },
-            { key: 'B', text: 'Decided to implement, looking for solutions' }
-          ]
-        }
-      ]
-    }
+    vi: CONFIG_VI,
+    en: CONFIG_EN
   }
 };
 
 function loadQuestions(assessmentId, language = 'vi') {
   const lang = language === 'en' ? 'en' : 'vi';
-  const config = TEST_CONFIG[assessmentId]?.[lang];
+  const config = CONFIGS[assessmentId]?.[lang];
 
   if (!config) {
-    console.error(`[loadQuestions] Config not found: ${assessmentId} (${lang})`);
     throw new Error(`Assessment ${assessmentId} not found`);
   }
 
