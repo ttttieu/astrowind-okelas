@@ -6,52 +6,63 @@ import CallToAction from '~/components/widgets/CallToAction.astro';
 import { getArticlesByCategory } from '~/lib/insights';
 
 const metadata = {
-  title: 'Digitalization — OKELAS Insights',
+  title: 'Business & Operations — OKELAS Insights',
   description:
-    'From document digitization to digital operations — a series on what real digitalization means for manufacturing SMEs, the stages, the roadmap, and the traps to avoid.',
+    'Digitalization, process standardization, workflow and the operational habits that determine whether any system actually works once in place.',
 };
 
 const { grouped } = await getArticlesByCategory('en');
-let digitalizationArticles = grouped['business-operations'] || [];
+let bizOpsArticles = grouped['business-operations'] || [];
 
-// Sort by translationId — uses article.data (frontmatter), not article.id (filename format varies)
+// Define article order: 2 pillars first, then 4.1 to 4.9
 const articleOrder: Record<string, number> = {
-  'biz-ops-pillar-digital-transformation': 0,     // PILLAR
-  'biz-ops-digitalization-stages': 1,              // 4.1
-  'biz-ops-software-not-digitalization': 2,        // 4.2 (VI-only, no EN)
-  'biz-ops-paperless-vs-digital': 3,               // 4.3
-  'biz-ops-dms-eqms-knowledge-os': 4,              // 4.4
-  'biz-ops-iso-gmp-records-management': 5,         // 4.5
-  'biz-ops-cost-of-not-digitalizing': 6,           // 4.6
-  'biz-ops-digital-transformation-failure': 7,     // 4.7
-  'biz-ops-progressive-eqms-implementation': 8,   // 4.8
+  'digital-transformation-manufacturing-sme': 0, // PILLAR 1
+  'intelligent-workflow-next-generation': 1, // PILLAR 2
+  'digital-maturity-levels': 2, // 4.1
+  'paperless-vs-digital-transformation': 3, // 4.2
+  'software-tools-not-digitalization': 4, // 4.3
+  'dms-eqms-knowledge-os-roadmap': 5, // 4.4
+  'iso-gmp-document-management-digitalization': 6, // 4.5
+  'progressive-eqms-implementation': 7, // 4.6
+  'cost-of-not-digitalizing': 8, // 4.7
+  'digital-transformation-project-failure': 9, // 4.8
+  'next-step-digitalization-roi': 10, // 4.9
 };
 
-// Sort articles by series order using translationId from frontmatter
-digitalizationArticles.sort((a, b) => {
-  const orderA = articleOrder[a.data.translationId] ?? 999;
-  const orderB = articleOrder[b.data.translationId] ?? 999;
+// Sort articles by order
+bizOpsArticles.sort((a, b) => {
+  const orderA = articleOrder[a.id] ?? 999;
+  const orderB = articleOrder[b.id] ?? 999;
   return orderA - orderB;
 });
+
+// Badge colors
+const typeBadgeClass: Record<string, string> = {
+  Opening: 'bg-sky-100 text-sky-800 dark:bg-sky-900 dark:text-sky-200',
+  Analysis: 'bg-violet-100 text-violet-800 dark:bg-violet-900 dark:text-violet-200',
+  'Case & Evidence': 'bg-amber-100 text-amber-800 dark:bg-amber-900 dark:text-amber-200',
+  Pillar: 'bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200',
+};
 ---
 
 <Layout metadata={metadata}>
-  <HeroText tagline="Insights" title="Digitalization" />
+  <HeroText tagline="Insights" title="Business & Operations" />
 
   <Content
     content={`
-      <p>Digitalization isn't about buying software — it's about changing how your organization captures, shares, and uses information in operations. This series moves from foundational questions — what digitalization actually means, why more software isn't the answer — to a concrete step-by-step roadmap: DMS, eQMS, Knowledge OS, and a progressive approach that fits manufacturing SMEs.</p>
+      <p>Most operational problems don't announce themselves as "we need to digitalize" or "we need better workflows." They show up as a supervisor doing the same fix for the third time this month, or a process that worked fine at 50 people and is starting to break at 150. This category covers digitalization, process standardization, workflow design, and the operational habits that determine whether any system — ERP, AI, or otherwise — actually works once it's in place.</p>
 
       <p class="mt-6">
-        <strong>Start here — Pillar article:</strong>
+        <strong>Start here — Pillar articles:</strong>
       </p>
       <ul class="mt-2 space-y-1">
-        <li><a href="/en/insights/business-operations/digital-transformation-manufacturing-sme" class="text-primary hover:underline">Digital Transformation for Manufacturing SMEs: What It Really Means →</a></li>
+        <li><a href="/en/insights/business-operations/digital-transformation-manufacturing-sme" class="text-primary hover:underline">Digital Transformation for Manufacturing SMEs — What It Actually Means →</a></li>
+        <li><a href="/en/insights/business-operations/intelligent-workflow-next-generation" class="text-primary hover:underline">Next-Generation Workflow — When AI and Organizational Knowledge Change How Work Operates →</a></li>
       </ul>
 
       <p class="mt-5">
-        <strong>Quick self-assessment:</strong>
-        <a href="/en/insights/business-operations/digital-maturity-levels" class="text-primary hover:underline ml-1">The 5 Stages of Business Digitalization: Where Are You? →</a>
+        <strong>Why OKELAS perspective:</strong>
+        <a href="/en/why/documents-to-operations" class="text-primary hover:underline ml-1">From Documents to Operations →</a>
       </p>
 
       <p class="mt-3">
@@ -64,9 +75,9 @@ digitalizationArticles.sort((a, b) => {
   <div class="relative not-prose scroll-mt-[72px]">
     <div class="relative mx-auto px-4 sm:px-6 py-8 md:py-12" style="max-width: 900.5px;">
       <div>
-        <h2 class="text-2xl font-bold mb-6 text-slate-900 dark:text-white">All Digitalization articles</h2>
+        <h2 class="text-2xl font-bold mb-6 text-slate-900 dark:text-white">All Business & Operations articles</h2>
       <ul class="space-y-4">
-        {digitalizationArticles.map((article) => (
+        {bizOpsArticles.map((article) => (
           <li key={article.id} class="flex items-start gap-4 group">
             <a
               href={`/en/insights/${article.data.category}/${article.id}`}
@@ -104,9 +115,9 @@ digitalizationArticles.sort((a, b) => {
       },
     ]}
   >
-    <Fragment slot="title">What stage of digitalization is your organization at?</Fragment>
+    <Fragment slot="title">Where is your operation right now?</Fragment>
     <Fragment slot="subtitle">
-      The Digitalization Readiness Assessment evaluates your digital maturity level — returning specific results and the most meaningful next step for your business.
+      Take the assessment to understand where you stand and what the next meaningful step looks like for your business.
     </Fragment>
   </CallToAction>
 </Layout>
