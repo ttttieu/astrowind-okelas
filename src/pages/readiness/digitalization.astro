@@ -1,0 +1,57 @@
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Content from '~/components/widgets/Content.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Digitalization Readiness Assessment — OKELAS',
+  description:
+    'Đánh giá mức độ sẵn sàng số hóa của doanh nghiệp. Xác định giai đoạn hiện tại và bước tiếp theo có ý nghĩa kinh tế.',
+};
+---
+
+<Layout metadata={metadata}>
+  <HeroText
+    tagline="Readiness Assessment"
+    title="Digitalization Readiness"
+    subtitle="Hiểu rõ mức độ trưởng thành số hóa của bạn và bước tiếp theo có ý nghĩa"
+  />
+
+  <Content
+    content={`
+      <p>Digitalization Readiness Assessment đánh giá mức độ trưởng thành số hóa của tổ chức bạn từ năm giai đoạn khác nhau, giúp bạn hiểu rõ vị trí hiện tại và định nghĩa bước tiếp theo có ý nghĩa kinh tế.</p>
+
+      <p class="mt-4">Assessment sẽ xác định:</p>
+      <ul class="mt-3 space-y-2">
+        <li>✓ Giai đoạn số hóa hiện tại của bạn</li>
+        <li>✓ Những điểm mạnh và khoảng trống chính</li>
+        <li>✓ Những rủi ro và cơ hội tiềm ẩn</li>
+        <li>✓ Lộ trình ưu tiên cho bước tiếp theo</li>
+      </ul>
+
+      <p class="mt-6"><strong>Bắt đầu assessment ngay để hiểu rõ vị trí của bạn.</strong></p>
+    `}
+  />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Liên hệ để bắt đầu',
+        href: '/contact',
+        icon: 'tabler:mail',
+      },
+      {
+        variant: 'secondary',
+        text: 'Tìm hiểu thêm',
+        href: '/solutions/digitalize-operations',
+        icon: 'tabler:arrow-right',
+      },
+    ]}
+  >
+    <Fragment slot="title">Số hóa ở đâu?</Fragment>
+    <Fragment slot="subtitle">
+      Đánh giá mức độ trưởng thành số hóa của bạn và xác định bước tiếp theo phù hợp nhất.
+    </Fragment>
+  </CallToAction>
+</Layout>

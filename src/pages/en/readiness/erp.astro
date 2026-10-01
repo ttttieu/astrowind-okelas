@@ -1,0 +1,57 @@
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Content from '~/components/widgets/Content.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'ERP Readiness Assessment — OKELAS',
+  description:
+    'Assess your organization\'s readiness before implementing an ERP system. Identify critical process gaps and data issues before they become expensive problems.',
+};
+---
+
+<Layout metadata={metadata}>
+  <HeroText
+    tagline="Readiness Assessment"
+    title="ERP Readiness"
+    subtitle="Identify exactly where your process and data gaps are before committing to an ERP project"
+  />
+
+  <Content
+    content={`
+      <p>The ERP Readiness Assessment evaluates your organization's preparation for enterprise resource planning implementation. This critical step prevents cost overruns and timeline slippage.</p>
+
+      <p class="mt-4">The assessment will:</p>
+      <ul class="mt-3 space-y-2">
+        <li>✓ Identify gaps in current process logic</li>
+        <li>✓ Evaluate master data quality and integrity</li>
+        <li>✓ Surface hidden risks and problem areas</li>
+        <li>✓ Provide a concrete roadmap to readiness</li>
+      </ul>
+
+      <p class="mt-6"><strong>Contact us to start your ERP Readiness Assessment today.</strong></p>
+    `}
+  />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Get Started',
+        href: '/en/contact',
+        icon: 'tabler:mail',
+      },
+      {
+        variant: 'secondary',
+        text: 'Learn More',
+        href: '/en/solutions/erp-readiness',
+        icon: 'tabler:arrow-right',
+      },
+    ]}
+  >
+    <Fragment slot="title">Ready for ERP?</Fragment>
+    <Fragment slot="subtitle">
+      Let us help you identify exactly what needs preparation before implementation.
+    </Fragment>
+  </CallToAction>
+</Layout>
