@@ -1,8 +1,7 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
-import Content from '~/components/widgets/Content.astro';
-import CallToAction from '~/components/widgets/CallToAction.astro';
+import AssessmentForm from '~/components/widgets/AssessmentForm.astro';
 
 const metadata = {
   title: "ERP Readiness Assessment - OKELAS",
@@ -17,41 +16,5 @@ const metadata = {
     subtitle="Xác định rõ ràng những khoảng trống quy trình và vấn đề dữ liệu trước khi triển khai"
   />
 
-  <Content
-    content={`
-      <p>ERP Readiness Assessment giúp bạn đánh giá độ sẵn sàng của tổ chức trước khi triển khai hệ thống ERP. Đây là bước quan trọng để tránh những rủi ro và chi phí vượt quá dự toán.</p>
-
-      <p class="mt-4">Assessment này sẽ:</p>
-      <ul class="mt-3 space-y-2">
-        <li>✓ Xác định các khoảng trống trong quy trình hiện tại</li>
-        <li>✓ Đánh giá chất lượng và tính toàn vẹn của dữ liệu master</li>
-        <li>✓ Phát hiện các rủi ro tiềm ẩn</li>
-        <li>✓ Cung cấp lộ trình cụ thể để chuẩn bị</li>
-      </ul>
-
-      <p class="mt-6"><strong>Liên hệ với chúng tôi để bắt đầu assessment của bạn.</strong></p>
-    `}
-  />
-
-  <CallToAction
-    actions={[
-      {
-        variant: 'primary',
-        text: 'Liên hệ để bắt đầu',
-        href: '/contact',
-        icon: 'tabler:mail',
-      },
-      {
-        variant: 'secondary',
-        text: 'Tìm hiểu thêm',
-        href: '/solutions/erp-readiness',
-        icon: 'tabler:arrow-right',
-      },
-    ]}
-  >
-    <Fragment slot="title">Sẵn sàng cho ERP?</Fragment>
-    <Fragment slot="subtitle">
-      Hãy để chúng tôi giúp bạn xác định chính xác những gì cần chuẩn bị trước khi triển khai.
-    </Fragment>
-  </CallToAction>
+  <AssessmentForm assessmentId="erp_readiness" language="vi" />
 </Layout>

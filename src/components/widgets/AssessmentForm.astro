@@ -1,0 +1,386 @@
+---
+/**
+ * Interactive Assessment Form Component
+ * Renders full ERP Readiness Assessment (11 questions)
+ * Collects answers, submits to API, displays results with optional contact form
+ */
+
+interface Props {
+  assessmentId: string;
+  language: 'vi' | 'en';
+}
+
+const { assessmentId, language } = Astro.props;
+---
+
+<div class="assessment-container max-w-4xl mx-auto px-4 py-12">
+  <div id="assessment-form" class="space-y-8">
+    <!-- Loading state (hidden by default, shown by JS) -->
+    <div id="loading-state" class="hidden text-center py-12">
+      <div class="inline-flex items-center gap-3">
+        <div class="animate-spin rounded-full h-6 w-6 border-2 border-primary border-t-transparent"></div>
+        <span class="text-gray-600">
+          {language === 'vi' ? 'Đang tải câu hỏi...' : 'Loading questions...'}
+        </span>
+      </div>
+    </div>
+
+    <!-- Questions container -->
+    <div id="questions-container" class="space-y-8">
+      <!-- Questions will be rendered here by JavaScript -->
+    </div>
+
+    <!-- Results container (hidden until submission) -->
+    <div id="results-container" class="hidden space-y-8">
+      <!-- Results will be rendered here -->
+    </div>
+  </div>
+</div>
+
+<script define:vars={{ assessmentId, language }}>
+  class AssessmentForm {
+    constructor(assessmentId, language) {
+      this.assessmentId = assessmentId;
+      this.language = language;
+      this.questions = [];
+      this.answers = {};
+      this.startTime = Date.now();
+      this.respondentInfo = {
+        org_name: null,
+        role: null,
+        contact: null
+      };
+      this.init();
+    }
+
+    async init() {
+      try {
+        await this.fetchQuestions();
+        this.renderQuestions();
+      } catch (error) {
+        console.error('Failed to load assessment:', error);
+        this.showError('Failed to load assessment questions');
+      }
+    }
+
+    async fetchQuestions() {
+      const response = await fetch(`/api/assessment/${this.assessmentId}/questions`);
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const data = await response.json();
+      this.questions = data.questions || [];
+      this.intro = data.intro;
+      this.title = data.title;
+    }
+
+    renderQuestions() {
+      const container = document.getElementById('questions-container');
+      if (!container) return;
+
+      container.innerHTML = '';
+
+      // Add intro section
+      const introDiv = document.createElement('div');
+      introDiv.className = 'bg-blue-50 border-l-4 border-blue-500 p-6 rounded';
+      introDiv.innerHTML = `
+        <h2 class="text-xl font-semibold text-gray-900 mb-3">${this.title}</h2>
+        <p class="text-gray-700">${this.intro}</p>
+        <p class="text-sm text-gray-600 mt-3">
+          ${this.language === 'vi'
+            ? '⏱️ Khoảng 6 phút | 11 câu hỏi | Không có câu trả lời đúng hay sai'
+            : '⏱️ About 6 minutes | 11 questions | No right or wrong answers'}
+        </p>
+      `;
+      container.appendChild(introDiv);
+
+      // Render each question
+      this.questions.forEach((question, idx) => {
+        const questionDiv = this.createQuestionElement(question, idx);
+        container.appendChild(questionDiv);
+      });
+
+      // Add submit button
+      const submitBtn = document.createElement('button');
+      submitBtn.id = 'submit-btn';
+      submitBtn.className = 'w-full mt-8 px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition';
+      submitBtn.textContent = this.language === 'vi' ? 'Xem kết quả' : 'View Results';
+      submitBtn.addEventListener('click', () => this.handleSubmit());
+      container.appendChild(submitBtn);
+    }
+
+    createQuestionElement(question, index) {
+      const questionDiv = document.createElement('div');
+      questionDiv.className = 'border rounded-lg p-6 bg-white shadow-sm';
+      questionDiv.id = `question-${question.id}`;
+
+      let innerHTML = `
+        <div class="flex items-start gap-2 mb-4">
+          <span class="text-sm font-semibold text-blue-600 bg-blue-100 px-3 py-1 rounded-full">Q${index + 1}</span>
+          <h3 class="text-lg font-semibold text-gray-900 flex-1">${question.text}</h3>
+        </div>
+      `;
+
+      if (question.type === 'open_text') {
+        // Open text question (reflection)
+        innerHTML += `
+          <textarea
+            id="answer-${question.id}"
+            class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+            rows="4"
+            placeholder="${this.language === 'vi' ? 'Nhập suy nghĩ của bạn...' : 'Share your thoughts...'}"
+          ></textarea>
+        `;
+      } else if (question.type === 'single_select' || !question.type) {
+        // Multiple choice question
+        innerHTML += '<div class="space-y-3">';
+        question.options?.forEach((option) => {
+          const uniqueId = `${question.id}-${option.key}`;
+          innerHTML += `
+            <label class="flex items-start gap-3 p-3 border border-gray-200 rounded-lg cursor-pointer hover:bg-gray-50 transition">
+              <input
+                type="radio"
+                name="question-${question.id}"
+                value="${option.key}"
+                id="${uniqueId}"
+                class="mt-1 w-4 h-4 text-blue-600 cursor-pointer"
+              />
+              <div class="flex-1">
+                <span class="font-medium text-gray-900">${option.text}</span>
+              </div>
+            </label>
+          `;
+        });
+        innerHTML += '</div>';
+
+        // Add event listeners for radio buttons
+        setTimeout(() => {
+          document.querySelectorAll(`input[name="question-${question.id}"]`).forEach((input) => {
+            input.addEventListener('change', (e) => {
+              this.answers[question.id] = e.target.value;
+            });
+          });
+        }, 0);
+      }
+
+      questionDiv.innerHTML = innerHTML;
+      return questionDiv;
+    }
+
+    async handleSubmit() {
+      // Validate required questions (Q1-Q11, not Q0 which is context)
+      const scoredQuestions = this.questions.filter(q => !q.id.includes('context'));
+      const unanswered = scoredQuestions.filter(q => !this.answers[q.id]);
+
+      if (unanswered.length > 0) {
+        alert(this.language === 'vi'
+          ? 'Vui lòng trả lời tất cả câu hỏi'
+          : 'Please answer all questions');
+        return;
+      }
+
+      // Show loading state
+      document.getElementById('questions-container').classList.add('hidden');
+      document.getElementById('loading-state').classList.remove('hidden');
+
+      try {
+        const elapsedSeconds = (Date.now() - this.startTime) / 1000;
+
+        // Prepare submission
+        const answers = this.questions.map(q => ({
+          question_id: q.id,
+          selected_key: this.answers[q.id] || null,
+          open_text: q.type === 'open_text' ? (this.answers[q.id] || null) : null
+        }));
+
+        const submission = {
+          assessment_id: this.assessmentId,
+          respondent: this.respondentInfo,
+          answers: answers,
+          submitted_at: new Date().toISOString(),
+          elapsed_seconds: elapsedSeconds,
+          honeypot: '' // Anti-spam
+        };
+
+        // Submit to backend
+        const response = await fetch('/api/assessment/submit', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(submission)
+        });
+
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}`);
+        }
+
+        const result = await response.json();
+        this.displayResults(result);
+
+      } catch (error) {
+        console.error('Submission error:', error);
+        this.showError(this.language === 'vi'
+          ? 'Lỗi khi gửi assessment'
+          : 'Error submitting assessment');
+        document.getElementById('loading-state').classList.add('hidden');
+        document.getElementById('questions-container').classList.remove('hidden');
+      }
+    }
+
+    displayResults(result) {
+      document.getElementById('loading-state').classList.add('hidden');
+      document.getElementById('questions-container').classList.add('hidden');
+
+      const container = document.getElementById('results-container');
+      container.classList.remove('hidden');
+
+      let html = `
+        <div class="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg p-8 border border-blue-200">
+          <h2 class="text-3xl font-bold text-gray-900 mb-2">
+            ${this.language === 'vi' ? 'Kết quả đánh giá của bạn' : 'Your Assessment Results'}
+          </h2>
+          <p class="text-gray-700 mb-6">${result.description || ''}</p>
+
+          <div class="mb-8">
+            <div class="inline-block px-6 py-2 bg-blue-600 text-white font-bold rounded-full text-lg">
+              ${result.label || 'Đang xử lý'}
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg p-8 border border-gray-200">
+          <h3 class="text-xl font-semibold text-gray-900 mb-4">
+            ${this.language === 'vi' ? 'Tìm hiểu thêm' : 'Learn More'}
+          </h3>
+          <div class="space-y-3">
+      `;
+
+      result.related_links?.forEach(link => {
+        html += `
+          <a href="${link.url}" class="block p-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition">
+            <h4 class="font-semibold text-blue-600 hover:underline">${link.title}</h4>
+          </a>
+        `;
+      });
+
+      html += `
+          </div>
+        </div>
+
+        <div class="bg-blue-50 rounded-lg p-8 border border-blue-200 mt-8">
+          <h3 class="text-xl font-semibold text-gray-900 mb-4">
+            ${this.language === 'vi' ? 'Nhận báo cáo chi tiết' : 'Get Detailed Report'}
+          </h3>
+          <p class="text-gray-700 mb-6">
+            ${this.language === 'vi'
+              ? 'Để nhận báo cáo đầy đủ với khuyến nghị chi tiết cho 90 ngày tới, vui lòng để lại thông tin liên hệ.'
+              : 'To receive a detailed report with specific recommendations for the next 90 days, please provide your contact information.'}
+          </p>
+
+          <div class="space-y-4">
+            <input
+              type="text"
+              id="org_name"
+              placeholder="${this.language === 'vi' ? 'Tên công ty' : 'Company name'}"
+              class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+            />
+            <input
+              type="text"
+              id="role"
+              placeholder="${this.language === 'vi' ? 'Vị trí / chức vụ' : 'Your role / position'}"
+              class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+            />
+            <input
+              type="email"
+              id="contact"
+              placeholder="${this.language === 'vi' ? 'Email' : 'Email'}"
+              class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              required
+            />
+            <button
+              id="contact-submit-btn"
+              class="w-full px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition"
+            >
+              ${this.language === 'vi' ? 'Gửi yêu cầu' : 'Submit Request'}
+            </button>
+          </div>
+        </div>
+      `;
+
+      container.innerHTML = html;
+
+      // Add event listener for contact form submission
+      document.getElementById('contact-submit-btn').addEventListener('click', () => {
+        this.handleContactSubmit(result.submission_id);
+      });
+    }
+
+    async handleContactSubmit(submissionId) {
+      const orgName = document.getElementById('org_name').value;
+      const role = document.getElementById('role').value;
+      const contact = document.getElementById('contact').value;
+
+      if (!contact) {
+        alert(this.language === 'vi' ? 'Vui lòng nhập email' : 'Please enter email');
+        return;
+      }
+
+      try {
+        const response = await fetch('/api/assessment/contact', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            submission_id: submissionId,
+            assessment_id: this.assessmentId,
+            org_name: orgName,
+            role: role,
+            contact: contact,
+            submitted_at: new Date().toISOString()
+          })
+        });
+
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}`);
+        }
+
+        const msg = this.language === 'vi'
+          ? 'Cảm ơn! Chúng tôi sẽ liên hệ sớm.'
+          : 'Thank you! We will contact you soon.';
+        alert(msg);
+
+        // Disable button and show success state
+        document.getElementById('contact-submit-btn').disabled = true;
+        document.getElementById('contact-submit-btn').textContent =
+          this.language === 'vi' ? '✓ Đã gửi' : '✓ Sent';
+
+      } catch (error) {
+        console.error('Contact submission error:', error);
+        alert(this.language === 'vi'
+          ? 'Lỗi khi gửi thông tin'
+          : 'Error sending information');
+      }
+    }
+
+    showError(message) {
+      const container = document.getElementById('questions-container');
+      container.innerHTML = `
+        <div class="bg-red-50 border border-red-200 rounded-lg p-6">
+          <h3 class="text-red-900 font-semibold mb-2">Error</h3>
+          <p class="text-red-700">${message}</p>
+        </div>
+      `;
+    }
+  }
+
+  // Initialize assessment form when DOM is ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => {
+      new AssessmentForm(assessmentId, language);
+    });
+  } else {
+    new AssessmentForm(assessmentId, language);
+  }
+</script>
+
+<style>
+  .assessment-container {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  }
+</style>

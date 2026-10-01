@@ -1,8 +1,7 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
-import Content from '~/components/widgets/Content.astro';
-import CallToAction from '~/components/widgets/CallToAction.astro';
+import AssessmentForm from '~/components/widgets/AssessmentForm.astro';
 
 const metadata = {
   title: "Digitalization Readiness Assessment - OKELAS",
@@ -17,41 +16,5 @@ const metadata = {
     subtitle="Understand your digital maturity stage and identify the most meaningful next step"
   />
 
-  <Content
-    content={`
-      <p>The Digitalization Readiness Assessment evaluates your organization's digital maturity across five distinct stages, helping you understand where you stand and what your most impactful next move should be.</p>
-
-      <p class="mt-4">The assessment will identify:</p>
-      <ul class="mt-3 space-y-2">
-        <li>✓ Your current digitalization maturity stage</li>
-        <li>✓ Key strengths and critical gaps</li>
-        <li>✓ Hidden risks and untapped opportunities</li>
-        <li>✓ A prioritized roadmap for your next steps</li>
-      </ul>
-
-      <p class="mt-6"><strong>Start your assessment today to understand your position and path forward.</strong></p>
-    `}
-  />
-
-  <CallToAction
-    actions={[
-      {
-        variant: 'primary',
-        text: 'Get Started',
-        href: '/en/contact',
-        icon: 'tabler:mail',
-      },
-      {
-        variant: 'secondary',
-        text: 'Learn More',
-        href: '/en/solutions/digitalize-operations',
-        icon: 'tabler:arrow-right',
-      },
-    ]}
-  >
-    <Fragment slot="title">Where are you in digitalization?</Fragment>
-    <Fragment slot="subtitle">
-      Evaluate your digital maturity and identify the most appropriate next step for your organization.
-    </Fragment>
-  </CallToAction>
+  <AssessmentForm assessmentId="digitalization_level" language="en" />
 </Layout>
