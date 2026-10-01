@@ -171,7 +171,7 @@ const { assessmentId, language } = Astro.props;
       let innerHTML = `
         <div class="flex items-start gap-2 mb-4">
           <span class="text-sm font-semibold text-blue-600 bg-blue-100 px-3 py-1 rounded-full">Q${index + 1}</span>
-          <h3 class="text-lg font-semibold text-gray-900 flex-1">${question.text}</h3>
+          <h3 class="text-lg font-semibold text-gray-900 dark:text-gray-100 flex-1">${question.text}</h3>
         </div>
       `;
 
@@ -180,7 +180,7 @@ const { assessmentId, language } = Astro.props;
         innerHTML += `
           <textarea
             id="answer-${question.id}"
-            class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+            class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white text-gray-900 placeholder-gray-400 dark:bg-gray-800 dark:text-gray-100 dark:border-gray-600 dark:placeholder-gray-500"
             rows="4"
             placeholder="${this.language === 'vi' ? 'Nhập suy nghĩ của bạn...' : 'Share your thoughts...'}"
           ></textarea>
@@ -396,14 +396,19 @@ const { assessmentId, language } = Astro.props;
           </div>
         ` : ''}
 
-        <div class="bg-blue-50 rounded-lg p-8 border border-blue-200 mt-8">
-          <h3 class="text-xl font-semibold text-gray-900 mb-2">
+        <div class="bg-blue-50 dark:bg-slate-800 rounded-lg p-8 border border-blue-200 dark:border-blue-700 mt-8">
+          <h3 class="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
             ${this.language === 'vi' ? 'Đặt lịch đánh giá thực địa' : 'Schedule an On-Site Assessment'}
           </h3>
-          <p class="text-gray-700 mb-6">
+          <p class="text-gray-700 dark:text-gray-300 mb-4">
             ${this.language === 'vi'
               ? 'Báo cáo này phản ánh góc nhìn của anh/chị. Bước tiếp theo: đánh giá chi tiết cùng OKELAS — trưởng các phòng ban trả lời bộ câu hỏi riêng, anh/chị nhận bản đồ lệch nhận thức và lộ trình chuẩn bị theo thứ tự ưu tiên.'
               : 'This report reflects your perspective. Next step: a detailed on-site assessment with OKELAS — department heads answer their own question set, and you receive a perception-gap map with a prioritized preparation roadmap.'}
+          </p>
+          <p class="text-sm text-blue-700 dark:text-blue-300 bg-blue-100 dark:bg-blue-900/40 rounded-lg px-4 py-2 mb-6">
+            ${this.language === 'vi'
+              ? 'Tất cả thông tin bên dưới đều là <strong>tùy chọn</strong>. Chỉ điền nếu anh/chị muốn OKELAS team liên hệ để sắp xếp một buổi khảo sát thực địa, lên báo cáo chi tiết và lộ trình 90 ngày cho doanh nghiệp.'
+              : 'All fields below are <strong>optional</strong>. Fill in only if you want the OKELAS team to reach out and arrange a detailed on-site assessment, full report, and 90-day roadmap for your organization.'}
           </p>
 
           <div class="space-y-4">
@@ -411,20 +416,25 @@ const { assessmentId, language } = Astro.props;
               type="text"
               id="org_name"
               placeholder="${this.language === 'vi' ? 'Tên công ty' : 'Company name'}"
-              class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              class="w-full p-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500"
             />
             <input
               type="text"
               id="role"
               placeholder="${this.language === 'vi' ? 'Vị trí / chức vụ' : 'Your role / position'}"
-              class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              class="w-full p-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500"
+            />
+            <input
+              type="text"
+              id="fullname"
+              placeholder="${this.language === 'vi' ? 'Họ và tên' : 'Full name'}"
+              class="w-full p-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500"
             />
             <input
               type="tel"
               id="contact"
               placeholder="${this.language === 'vi' ? 'Số điện thoại' : 'Phone number'}"
-              class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-              required
+              class="w-full p-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500"
             />
             <button
               id="contact-submit-btn"
@@ -466,12 +476,8 @@ const { assessmentId, language } = Astro.props;
     async handleContactSubmit(submissionId) {
       const orgName = document.getElementById('org_name').value;
       const role = document.getElementById('role').value;
+      const fullname = document.getElementById('fullname').value;
       const contact = document.getElementById('contact').value;
-
-      if (!contact) {
-        alert(this.language === 'vi' ? 'Vui lòng nhập số điện thoại' : 'Please enter your phone number');
-        return;
-      }
 
       try {
         const response = await fetch('/api/assessment/contact', {
@@ -482,6 +488,7 @@ const { assessmentId, language } = Astro.props;
             assessment_id: this.assessmentId,
             org_name: orgName,
             role: role,
+            fullname: fullname,
             contact: contact,
             submitted_at: new Date().toISOString()
           })
