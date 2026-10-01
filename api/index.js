@@ -81,31 +81,46 @@ export default function handler(req, res) {
         const submission = req.body || {};
         const answers = submission.answers || [];
 
-        // Simple scoring: average of scored questions
-        let totalScore = 0;
-        let scoredCount = 0;
+        // Calculate dimension scores
+        const config = loadQuestions(submission.assessment_id, language);
+        const dimensionScores = {};
+        const dimensions = ['process_existence', 'process_enforcement', 'data_foundation',
+                           'people_change', 'scope_objectives', 'governance_ownership',
+                           'accounting_manufacturing'];
 
-        for (const answer of answers) {
-          const config = loadQuestions(submission.assessment_id, language);
-          const question = config.questions.find(q => q.id === answer.question_id);
+        for (const dim of dimensions) {
+          const dimQuestions = config.questions.filter(q => q.dimension === dim && q.scored !== false);
+          if (dimQuestions.length === 0) continue;
 
-          if (question && answer.selected_key) {
-            const option = question.options.find(o => o.key === answer.selected_key);
-            if (option && option.score) {
-              totalScore += option.score;
-              scoredCount++;
+          let dimTotal = 0;
+          let dimCount = 0;
+
+          for (const answer of answers) {
+            const question = dimQuestions.find(q => q.id === answer.question_id);
+            if (question && answer.selected_key) {
+              const option = question.options.find(o => o.key === answer.selected_key);
+              if (option && option.score !== null && option.score !== undefined) {
+                dimTotal += option.score;
+                dimCount++;
+              }
             }
           }
+
+          dimensionScores[dim] = dimCount > 0 ? dimTotal / dimCount : 0;
         }
 
-        const avgScore = scoredCount > 0 ? totalScore / scoredCount : 0;
+        // Calculate overall score (average of all dimension scores)
+        const dimensionValues = Object.values(dimensionScores);
+        const overallScore = dimensionValues.length > 0
+          ? dimensionValues.reduce((a, b) => a + b, 0) / dimensionValues.length
+          : 0;
 
         // Map to levels (1-4 scale)
         let levelIndex = 0;
-        if (avgScore < 1.8) levelIndex = 0;       // 1.0-1.7: Early Stage
-        else if (avgScore < 2.6) levelIndex = 1;  // 1.8-2.5: Developing
-        else if (avgScore < 3.4) levelIndex = 2;  // 2.6-3.3: Fairly Ready
-        else levelIndex = 3;                        // 3.4-4.0: Ready
+        if (overallScore < 1.8) levelIndex = 0;       // 1.0-1.7: Early Stage
+        else if (overallScore < 2.6) levelIndex = 1;  // 1.8-2.5: Developing
+        else if (overallScore < 3.4) levelIndex = 2;  // 2.6-3.3: Fairly Ready
+        else levelIndex = 3;                           // 3.4-4.0: Ready
 
         const labels = {
           en: ['Early Stage', 'Developing', 'Fairly Ready', 'Ready'],
@@ -138,8 +153,9 @@ export default function handler(req, res) {
           related_links: [],
           submission_id: `sub_${Date.now()}`,
           critical_flags: [],
-          dimension_scores: {},
-          flags: []
+          dimension_scores: dimensionScores,
+          flags: [],
+          overall_score: overallScore
         });
       } catch (error) {
         console.error('[submit] Error:', error);
