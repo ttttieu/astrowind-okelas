@@ -1,6 +1,6 @@
 /**
  * Assessment API - Vercel Serverless Function
- * Uses the proper Vercel fetch handler format
+ * Handler format (working format from test-node.js)
  */
 
 import fs from 'fs';
@@ -31,73 +31,46 @@ function loadQuestions(assessmentId, language = 'vi') {
   };
 }
 
-export async function GET(request) {
+export default function handler(req, res) {
+  // CORS headers
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+  res.setHeader('Content-Type', 'application/json');
+
+  if (req.method === 'OPTIONS') {
+    res.status(200).end();
+    return;
+  }
+
   try {
-    const url = new URL(request.url);
-    const pathname = url.pathname;
-    const searchParams = url.searchParams;
+    const { pathname, query } = new URL(req.url, `http://${req.headers.host}`);
+    const language = query.language || 'vi';
+
+    console.log(`[assessment] ${req.method} ${pathname}`);
 
     // Health check
-    if (pathname === '/api/health' || pathname === '/api/health/') {
-      return new Response(
-        JSON.stringify({ status: 'ok', message: 'Assessment API is running' }),
-        {
-          status: 200,
-          headers: { 'Content-Type': 'application/json' }
-        }
-      );
+    if (pathname === '/api/health') {
+      return res.status(200).json({ status: 'ok', message: 'Assessment API is running' });
     }
 
-    // Get questions: /api/assessment/erp_readiness/questions
-    if (pathname.match(/^\/api\/assessment\/[^/]+\/questions\/?$/)) {
-      const match = pathname.match(/\/api\/assessment\/([^/]+)\/questions/);
-      const assessmentId = match ? match[1] : null;
-      const language = searchParams.get('language') || 'vi';
-
-      if (!assessmentId) {
-        return new Response(
-          JSON.stringify({ error: 'Assessment ID required' }),
-          { status: 400, headers: { 'Content-Type': 'application/json' } }
-        );
-      }
+    // Get questions
+    const qMatch = pathname.match(/^\/api\/assessment\/([^/]+)\/questions\/?$/);
+    if (qMatch && req.method === 'GET') {
+      const assessmentId = qMatch[1];
+      console.log(`[assessment] Loading ${assessmentId} in ${language}`);
 
       try {
         const config = loadQuestions(assessmentId, language);
-        return new Response(
-          JSON.stringify(config),
-          { status: 200, headers: { 'Content-Type': 'application/json' } }
-        );
+        return res.status(200).json(config);
       } catch (error) {
-        return new Response(
-          JSON.stringify({ error: `Assessment ${assessmentId} not found` }),
-          { status: 404, headers: { 'Content-Type': 'application/json' } }
-        );
+        console.error(`[assessment] Failed to load ${assessmentId}:`, error);
+        return res.status(404).json({ error: `Assessment ${assessmentId} not found` });
       }
     }
 
-    return new Response(
-      JSON.stringify({ error: 'Not found', path: pathname }),
-      { status: 404, headers: { 'Content-Type': 'application/json' } }
-    );
-  } catch (error) {
-    console.error('[GET] Error:', error);
-    return new Response(
-      JSON.stringify({ error: error.message }),
-      { status: 500, headers: { 'Content-Type': 'application/json' } }
-    );
-  }
-}
-
-export async function POST(request) {
-  try {
-    const url = new URL(request.url);
-    const pathname = url.pathname;
-    const searchParams = url.searchParams;
-
-    if (pathname === '/api/assessment/submit' || pathname === '/api/assessment/submit/') {
-      const language = searchParams.get('language') || 'vi';
-      const body = await request.json();
-
+    // Submit assessment
+    if (pathname === '/api/assessment/submit' && req.method === 'POST') {
       const labels = {
         en: ['Early Stage', 'Developing', 'Fairly Ready', 'Ready'],
         vi: ['Mới bắt đầu', 'Đang hình thành', 'Khá sẵn sàng', 'Sẵn sàng']
@@ -121,32 +94,24 @@ export async function POST(request) {
       const lang = language === 'en' ? 'en' : 'vi';
       const levelIndex = Math.floor(Math.random() * 4);
 
-      return new Response(
-        JSON.stringify({
-          assessment_id: body?.assessment_id || 'unknown',
-          level: levelIndex + 1,
-          label: labels[lang][levelIndex],
-          description: descriptions[lang][levelIndex],
-          insufficient_data_message: lang === 'en' ? 'Insufficient data.' : 'Chưa đủ dữ liệu.',
-          related_links: [],
-          submission_id: `sub_${Date.now()}`,
-          critical_flags: [],
-          dimension_scores: {},
-          flags: []
-        }),
-        { status: 200, headers: { 'Content-Type': 'application/json' } }
-      );
+      return res.status(200).json({
+        assessment_id: 'erp_readiness',
+        level: levelIndex + 1,
+        label: labels[lang][levelIndex],
+        description: descriptions[lang][levelIndex],
+        insufficient_data_message: lang === 'en' ? 'Insufficient data.' : 'Chưa đủ dữ liệu.',
+        related_links: [],
+        submission_id: `sub_${Date.now()}`,
+        critical_flags: [],
+        dimension_scores: {},
+        flags: []
+      });
     }
 
-    return new Response(
-      JSON.stringify({ error: 'Not found', path: pathname }),
-      { status: 404, headers: { 'Content-Type': 'application/json' } }
-    );
+    // 404
+    res.status(404).json({ error: 'Not found', path: pathname });
   } catch (error) {
-    console.error('[POST] Error:', error);
-    return new Response(
-      JSON.stringify({ error: error.message }),
-      { status: 500, headers: { 'Content-Type': 'application/json' } }
-    );
+    console.error('[handler] Error:', error);
+    res.status(500).json({ error: error.message });
   }
 }
