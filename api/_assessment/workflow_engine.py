@@ -36,20 +36,22 @@ class LocalWorkflowEngine:
         self.workflow_def: dict[str, Any] | None = None
         self._question_config_cache: dict[str, dict[str, Any]] = {}
 
-    def _load_question_config(self, assessment_id: str) -> dict[str, Any]:
-        if assessment_id in self._question_config_cache:
-            return self._question_config_cache[assessment_id]
+    def _load_question_config(self, assessment_id: str, language: str = "vi") -> dict[str, Any]:
+        cache_key = f"{assessment_id}_{language}"
+        if cache_key in self._question_config_cache:
+            return self._question_config_cache[cache_key]
 
         filename_map = {
-            "erp_readiness": "questions_erp.json",
-            "ai_readiness": "questions_ai.json",
-            "km_maturity": "questions_km.json",
-            "digitalization_level": "questions_dig.json",
+            "erp_readiness": "questions_erp",
+            "ai_readiness": "questions_ai",
+            "km_maturity": "questions_km",
+            "digitalization_level": "questions_dig",
         }
-        filename = filename_map.get(assessment_id)
-        if not filename:
+        base_filename = filename_map.get(assessment_id)
+        if not base_filename:
             raise ValidationError(f"assessment_id không hợp lệ: {assessment_id}")
 
+        filename = f"{base_filename}_en.json" if language == "en" else f"{base_filename}.json"
         path = CONFIG_DIR / filename
         if not path.exists():
             raise FileNotFoundError(f"Question config file not found: {path}")
@@ -60,11 +62,11 @@ class LocalWorkflowEngine:
         except json.JSONDecodeError as e:
             raise ValidationError(f"Invalid JSON in {filename}: {e}") from e
 
-        self._question_config_cache[assessment_id] = config
+        self._question_config_cache[cache_key] = config
         return config
 
-    def get_question_config(self, assessment_id: str) -> dict[str, Any]:
-        return self._load_question_config(assessment_id)
+    def get_question_config(self, assessment_id: str, language: str = "vi") -> dict[str, Any]:
+        return self._load_question_config(assessment_id, language)
 
     def _validate_submission(
         self, config: dict[str, Any], answers: list[dict[str, Any]]

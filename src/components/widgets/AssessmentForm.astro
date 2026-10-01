@@ -70,7 +70,8 @@ const { assessmentId, language } = Astro.props;
     }
 
     async fetchQuestions() {
-      const url = `/api/assessment/${this.assessmentId}/questions`;
+      const lang = this.language === 'en' ? 'en' : 'vi';
+      const url = `/api/assessment/${this.assessmentId}/questions?language=${lang}`;
       console.log(`[Assessment] Fetching from: ${url}`);
       const response = await fetch(url);
       if (!response.ok) {
@@ -103,6 +104,19 @@ const { assessmentId, language } = Astro.props;
       `;
       container.appendChild(introDiv);
 
+      // Add guidance about "I'm not sure" option
+      const guidanceDiv = document.createElement('div');
+      guidanceDiv.className = 'bg-amber-50 border-l-4 border-amber-500 p-6 rounded mb-8';
+      guidanceDiv.innerHTML = `
+        <p class="text-amber-900 text-sm">
+          <strong>💡 ${this.language === 'vi' ? 'Lưu ý:' : 'Note:'}</strong>
+          ${this.language === 'vi'
+            ? ' Nếu bạn chọn "Tôi chưa nắm rõ" cho bất kỳ câu hỏi nào, đó cũng là một phản hồi hợp lệ và quan trọng. Nó giúp xác định các lĩnh vực cần khám phá thêm.'
+            : ' If you select "I\'m not sure" for any question, that\'s also a valid and important response. It helps identify areas that need further exploration.'}
+        </p>
+      `;
+      container.appendChild(guidanceDiv);
+
       // Render each question
       this.questions.forEach((question, idx) => {
         const questionDiv = this.createQuestionElement(question, idx);
@@ -116,6 +130,37 @@ const { assessmentId, language } = Astro.props;
       submitBtn.textContent = this.language === 'vi' ? 'Xem kết quả' : 'View Results';
       submitBtn.addEventListener('click', () => this.handleSubmit());
       container.appendChild(submitBtn);
+    }
+
+    explainFlag(flag) {
+      const explanations = {
+        'F1': {
+          vi: 'Quy trình kinh doanh chưa được chuẩn hoá - cần tiêu chuẩn hoá trước khi triển khai ERP',
+          en: 'Business processes are not yet standardized - process standardization should precede ERP implementation'
+        },
+        'F2': {
+          vi: 'Dữ liệu nền (danh mục, master data) chưa đạt tiêu chuẩn - cần dọn dẹp và quản lý chặt chẽ',
+          en: 'Master data foundation is weak - data cleanup and governance must be addressed first'
+        },
+        'F3': {
+          vi: 'Phạm vi triển khai và mục tiêu chưa rõ ràng - cần xác định cụ thể thành công nghĩa là gì',
+          en: 'Project scope and success criteria are unclear - must be clearly defined before implementation'
+        },
+        'F4': {
+          vi: 'Cam kết của lãnh đạo chưa đủ mạnh - ERP cần sự hỗ trợ rõ ràng từ Ban lãnh đạo',
+          en: 'Leadership commitment is insufficient - ERP implementation requires strong executive sponsorship'
+        },
+        'F5': {
+          vi: 'Tổ chức chưa sẵn sàng cho thay đổi - cần xây dựng kế hoạch quản lý thay đổi chi tiết',
+          en: 'Organization is not ready for change - a detailed change management plan is essential'
+        },
+        'straight_lining_low': {
+          vi: 'Các câu trả lời có mô tả hành vi hoặc cách hiểu chưa nhất quán - hãy xem xét lại các câu hỏi',
+          en: 'Your answers show patterns that may need review - consider revisiting your responses for consistency'
+        }
+      };
+
+      return explanations[flag]?.[this.language] || flag;
     }
 
     createQuestionElement(question, index) {
@@ -140,8 +185,8 @@ const { assessmentId, language } = Astro.props;
             placeholder="${this.language === 'vi' ? 'Nhập suy nghĩ của bạn...' : 'Share your thoughts...'}"
           ></textarea>
         `;
-      } else if (question.type === 'single_select' || !question.type) {
-        // Multiple choice question
+      } else if (question.type === 'single_select' || question.type === 'context' || !question.type) {
+        // Multiple choice question (including context type)
         innerHTML += '<div class="space-y-3">';
         question.options?.forEach((option) => {
           const uniqueId = `${question.id}-${option.key}`;
@@ -177,9 +222,14 @@ const { assessmentId, language } = Astro.props;
     }
 
     async handleSubmit() {
-      // Validate required questions (Q1-Q11, not Q0 which is context)
-      const scoredQuestions = this.questions.filter(q => !q.id.includes('context'));
-      const unanswered = scoredQuestions.filter(q => !this.answers[q.id]);
+      // Validate required questions (exclude context and open_text questions)
+      const requiredQuestions = this.questions.filter(q =>
+        !q.id.includes('context') && q.type !== 'open_text'
+      );
+      const unanswered = requiredQuestions.filter(q => {
+        const checked = document.querySelector(`input[name="question-${q.id}"]:checked`);
+        return !checked;
+      });
 
       if (unanswered.length > 0) {
         alert(this.language === 'vi'
@@ -195,12 +245,25 @@ const { assessmentId, language } = Astro.props;
       try {
         const elapsedSeconds = (Date.now() - this.startTime) / 1000;
 
-        // Prepare submission
-        const answers = this.questions.map(q => ({
-          question_id: q.id,
-          selected_key: this.answers[q.id] || null,
-          open_text: q.type === 'open_text' ? (this.answers[q.id] || null) : null
-        }));
+        // Prepare submission - collect from DOM instead of this.answers
+        const answers = this.questions.map(q => {
+          let selectedKey = null;
+          let openText = null;
+
+          if (q.type === 'open_text') {
+            const textarea = document.getElementById(`answer-${q.id}`);
+            openText = textarea && textarea.value ? textarea.value : null;
+          } else {
+            const checked = document.querySelector(`input[name="question-${q.id}"]:checked`);
+            selectedKey = checked && checked.value ? checked.value : null;
+          }
+
+          return {
+            question_id: q.id,
+            selected_key: selectedKey,
+            open_text: openText
+          };
+        });
 
         const submission = {
           assessment_id: this.assessmentId,
@@ -211,8 +274,9 @@ const { assessmentId, language } = Astro.props;
           honeypot: '' // Anti-spam
         };
 
-        // Submit to backend
-        const response = await fetch('/api/assessment/submit', {
+        // Submit to backend with language parameter
+        const lang = this.language === 'en' ? 'en' : 'vi';
+        const response = await fetch(`/api/assessment/submit?language=${lang}`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(submission)
@@ -242,38 +306,50 @@ const { assessmentId, language } = Astro.props;
       const container = document.getElementById('results-container');
       container.classList.remove('hidden');
 
+      const hasLevel = result.level !== null && result.level !== undefined;
+
       let html = `
-        <div class="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg p-8 border border-blue-200">
+        <div class="bg-gradient-to-r ${hasLevel ? 'from-blue-50 to-indigo-50 border-blue-200' : 'from-amber-50 to-orange-50 border-amber-200'} rounded-lg p-8 border">
           <h2 class="text-3xl font-bold text-gray-900 mb-2">
             ${this.language === 'vi' ? 'Kết quả đánh giá của bạn' : 'Your Assessment Results'}
           </h2>
-          <p class="text-gray-700 mb-6">${result.description || ''}</p>
+          <p class="text-gray-700 mb-6">
+            ${result.description || result.insufficient_data_message || (this.language === 'vi' ? 'Đánh giá đã hoàn thành' : 'Assessment complete')}
+          </p>
 
           <div class="mb-8">
-            <div class="inline-block px-6 py-2 bg-blue-600 text-white font-bold rounded-full text-lg">
-              ${result.label || 'Đang xử lý'}
+            <div class="inline-block px-6 py-2 ${hasLevel ? 'bg-blue-600' : 'bg-amber-600'} text-white font-bold rounded-full text-lg">
+              ${hasLevel ? (result.label || 'Level ' + result.level) : (this.language === 'vi' ? 'Cần Khám Phá Thêm' : 'Needs Exploration')}
             </div>
           </div>
+
+          ${result.archetype ? `
+            <p class="text-sm text-gray-600 mt-4">
+              <strong>${this.language === 'vi' ? 'Nhóm:' : 'Profile:'}</strong> ${result.archetype}
+            </p>
+          ` : ''}
         </div>
 
-        <div class="bg-white rounded-lg p-8 border border-gray-200">
-          <h3 class="text-xl font-semibold text-gray-900 mb-4">
-            ${this.language === 'vi' ? 'Tìm hiểu thêm' : 'Learn More'}
-          </h3>
-          <div class="space-y-3">
-      `;
-
-      result.related_links?.forEach(link => {
-        html += `
-          <a href="${link.url}" class="block p-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition">
-            <h4 class="font-semibold text-blue-600 hover:underline">${link.title}</h4>
-          </a>
-        `;
-      });
-
-      html += `
+        ${result.dimension_scores && Object.keys(result.dimension_scores).length > 0 ? `
+          <div class="bg-white rounded-lg p-8 border border-gray-200 mt-8">
+            <h3 class="text-xl font-semibold text-gray-900 mb-6">
+              ${this.language === 'vi' ? 'Đánh giá theo thứ nguyên' : 'Dimension Scores'}
+            </h3>
+            <div class="space-y-6">
+              ${Object.entries(result.dimension_scores).map(([key, score]) => `
+                <div>
+                  <div class="flex justify-between mb-2">
+                    <span class="text-sm font-medium text-gray-700">${key.replace(/_/g, ' ')}</span>
+                    <span class="text-sm font-semibold text-gray-900">${score.toFixed(1)}/5.0</span>
+                  </div>
+                  <div class="w-full bg-gray-200 rounded-full h-2">
+                    <div class="bg-blue-600 h-2 rounded-full" style="width: ${(score / 5) * 100}%"></div>
+                  </div>
+                </div>
+              `).join('')}
+            </div>
           </div>
-        </div>
+        ` : ''}
 
         <div class="bg-blue-50 rounded-lg p-8 border border-blue-200 mt-8">
           <h3 class="text-xl font-semibold text-gray-900 mb-4">
@@ -311,6 +387,36 @@ const { assessmentId, language } = Astro.props;
             >
               ${this.language === 'vi' ? 'Gửi yêu cầu' : 'Submit Request'}
             </button>
+          </div>
+        </div>
+
+        ${result.flags && result.flags.length > 0 ? `
+          <div class="bg-amber-50 rounded-lg p-6 border border-amber-200 mt-8">
+            <h3 class="text-lg font-semibold text-amber-900 mb-3">
+              ⚠️ ${this.language === 'vi' ? 'Lưu ý quan trọng' : 'Key Considerations'}
+            </h3>
+            <ul class="space-y-2 text-amber-900 text-sm">
+              ${result.flags.map(flag => `<li>• ${this.explainFlag(flag)}</li>`).join('')}
+            </ul>
+          </div>
+        ` : ''}
+
+        <div class="bg-white rounded-lg p-8 border border-gray-200 mt-8">
+          <h3 class="text-xl font-semibold text-gray-900 mb-4">
+            ${this.language === 'vi' ? 'Tìm hiểu thêm' : 'Related Articles'}
+          </h3>
+          <div class="space-y-3">
+      `;
+
+      result.related_links?.forEach(link => {
+        html += `
+          <a href="${link.url}" class="block p-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition">
+            <h4 class="font-semibold text-blue-600 hover:underline">${link.title}</h4>
+          </a>
+        `;
+      });
+
+      html += `
           </div>
         </div>
       `;

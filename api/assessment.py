@@ -82,7 +82,7 @@ def get_okelas_client():
 # Bài viết liên quan theo assessment — tham chiếu 03_Pillar_Map §5
 # "Mapping bài viết → assessment". Slug là placeholder, cập nhật khi có
 # đường dẫn thật trên website.
-RELATED_LINKS: dict[str, list[PublicResultRelatedLink]] = {
+RELATED_LINKS_VI: dict[str, list[PublicResultRelatedLink]] = {
     "erp_readiness": [
         PublicResultRelatedLink(
             title="Doanh nghiệp bạn đã thực sự sẵn sàng triển khai ERP chưa?",
@@ -125,9 +125,52 @@ RELATED_LINKS: dict[str, list[PublicResultRelatedLink]] = {
     ],
 }
 
+RELATED_LINKS_EN: dict[str, list[PublicResultRelatedLink]] = {
+    "erp_readiness": [
+        PublicResultRelatedLink(
+            title="Is your enterprise truly ready for ERP implementation?",
+            url="/knowledge/erp-readiness-danh-gia-ban-dau",
+        ),
+        PublicResultRelatedLink(
+            title="Unstandardized processes — the biggest risk before ERP deployment",
+            url="/knowledge/quy-trinh-chua-chuan-hoa-rui-ro-erp",
+        ),
+    ],
+    "ai_readiness": [
+        PublicResultRelatedLink(
+            title="AI helps employees write faster, but can your organization handle more?",
+            url="/knowledge/ai-nang-suat-vs-organizational-intelligence",
+        ),
+        PublicResultRelatedLink(
+            title="AI readiness: 6 conditions for AI to truly benefit operations",
+            url="/knowledge/ai-readiness-6-dieu-kien",
+        ),
+    ],
+    "km_maturity": [
+        PublicResultRelatedLink(
+            title="When key people leave, what walks out with them?",
+            url="/knowledge/nhan-su-nghi-viec-mang-di-tri-thuc",
+        ),
+        PublicResultRelatedLink(
+            title="SOPs exist but aren't followed — why?",
+            url="/knowledge/sop-khong-duoc-thuc-thi",
+        ),
+    ],
+    "digitalization_level": [
+        PublicResultRelatedLink(
+            title="What digital stage is your enterprise at?",
+            url="/knowledge/doanh-nghiep-dang-o-giai-doan-so-hoa-nao",
+        ),
+        PublicResultRelatedLink(
+            title="Paperless isn't digital transformation — here's the difference",
+            url="/knowledge/paperless-khong-phai-chuyen-doi-so",
+        ),
+    ],
+}
+
 
 @app.get("/api/assessment/{assessment_id}/questions")
-async def get_questions(assessment_id: str) -> dict:
+async def get_questions(assessment_id: str, language: str = "vi") -> dict:
     """Trả về config câu hỏi cho frontend render (title, intro, questions).
 
     Không trả về bảng 'levels' — người dùng không cần biết ngưỡng điểm khi
@@ -142,7 +185,7 @@ async def get_questions(assessment_id: str) -> dict:
         # Try to use okelas_client if it has get_question_config method
         if hasattr(client, "get_question_config"):
             try:
-                config = client.get_question_config(assessment_id)  # type: ignore[attr-defined]
+                config = client.get_question_config(assessment_id, language)  # type: ignore[attr-defined]
             except Exception as e:
                 print(f"[DEBUG] okelas_client.get_question_config failed: {e}")
                 config = None
@@ -155,7 +198,7 @@ async def get_questions(assessment_id: str) -> dict:
                 from ._assessment.workflow_engine import LocalWorkflowEngine
 
             engine = LocalWorkflowEngine()
-            config = engine.get_question_config(assessment_id)
+            config = engine.get_question_config(assessment_id, language)
 
     except ValidationError as exc:
         raise HTTPException(status_code=404, detail=f"Invalid assessment: {str(exc)}") from exc
@@ -185,7 +228,7 @@ async def get_questions(assessment_id: str) -> dict:
 
 
 @app.post("/api/assessment/submit", response_model=PublicAssessmentResult)
-async def submit_assessment(submission: AssessmentSubmission) -> PublicAssessmentResult:
+async def submit_assessment(submission: AssessmentSubmission, language: str = "vi") -> PublicAssessmentResult:
     if submission.honeypot:
         raise HTTPException(status_code=400, detail="Invalid submission")
 
@@ -216,13 +259,47 @@ async def submit_assessment(submission: AssessmentSubmission) -> PublicAssessmen
         raise HTTPException(status_code=500, detail=f"Assessment failed: {str(exc)}") from exc
 
     try:
+        related_links_dict = RELATED_LINKS_EN if language == "en" else RELATED_LINKS_VI
+
+        # Translate label and description for English
+        label = result.get("label")
+        description = result.get("description")
+        insufficient_data_message = result.get("insufficient_data_message")
+
+        if language == "en":
+            # Map Vietnamese labels to English
+            label_map = {
+                "Mới bắt đầu": "Early Stage",
+                "Đang hình thành": "Developing",
+                "Khá sẵn sàng": "Fairly Ready",
+                "Sẵn sàng": "Ready",
+                "Sẵn sàng có điều kiện": "Conditionally Ready",
+            }
+
+            description_map = {
+                "Doanh nghiệp chưa có nền tảng quy trình/dữ liệu đủ ổn định để ERP tạo ra giá trị ngay. Bước hợp lý tiếp theo là chuẩn hoá quy trình trước khi nghĩ tới phần mềm.":
+                    "Your organization lacks the process and data foundation to make ERP valuable immediately. Next logical step: standardize processes before evaluating software.",
+                "Đã có một số nền tảng nhưng còn thiếu tính nhất quán. Rủi ro lớn nhất nếu triển khai ERP ngay là scope creep và dữ liệu không sạch.":
+                    "Some foundation exists but consistency is lacking. Biggest risk if you implement ERP now: scope creep and messy data.",
+                "Phần lớn điều kiện đã có. Cần rà soát kỹ các điểm còn yếu trước khi chốt phạm vi triển khai.":
+                    "Most conditions are met. Before finalizing scope, carefully address remaining gaps.",
+                "Doanh nghiệp có nền tảng tốt để ERP implementation đạt hiệu quả cao. Trọng tâm lúc này là chọn đúng phạm vi vì lộ trình.":
+                    "Your organization has a solid foundation for successful ERP implementation. Now focus on right scope and timeline.",
+                "Chưa đủ dữ liệu để đánh giá đầy đủ.":
+                    "Insufficient data for complete assessment.",
+            }
+
+            label = label_map.get(label, label)
+            description = description_map.get(description, description)
+            insufficient_data_message = "Insufficient data for complete assessment."
+
         response = PublicAssessmentResult(
             assessment_id=submission.assessment_id,
             level=result.get("level"),
-            label=result.get("label"),
-            description=result.get("description"),
-            insufficient_data_message=result.get("insufficient_data_message"),
-            related_links=RELATED_LINKS.get(submission.assessment_id, []),
+            label=label,
+            description=description,
+            insufficient_data_message=insufficient_data_message,
+            related_links=related_links_dict.get(submission.assessment_id, []),
             submission_id=result["submission_id"],
             archetype=result.get("archetype"),
             critical_flags=result.get("critical_flags", []),
