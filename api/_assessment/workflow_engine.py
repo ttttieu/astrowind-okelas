@@ -35,9 +35,17 @@ from pathlib import Path
 from typing import Any
 
 # Adjust paths for Vercel deployment structure
+# __file__ is /api/_assessment/workflow_engine.py
+# parent.parent is /api/
 BASE_DIR = Path(__file__).parent.parent
 CONFIG_DIR = BASE_DIR / "config"
 WORKFLOW_DEF_PATH = BASE_DIR / "workflow-definitions" / "assessment_intake_workflow.json"
+
+# Debug: verify paths exist
+if not CONFIG_DIR.exists():
+    print(f"[WARNING] CONFIG_DIR does not exist: {CONFIG_DIR}")
+if not WORKFLOW_DEF_PATH.exists():
+    print(f"[WARNING] WORKFLOW_DEF_PATH does not exist: {WORKFLOW_DEF_PATH}")
 
 UNCERTAIN_THRESHOLD = 2  # >= ngưỡng này -> không tính level (05_Question_Sets §6.2)
 
@@ -72,7 +80,19 @@ class LocalWorkflowEngine:
             raise ValidationError(f"assessment_id không hợp lệ: {assessment_id}")
 
         path = CONFIG_DIR / filename
-        config = json.loads(path.read_text(encoding="utf-8"))
+        if not path.exists():
+            raise FileNotFoundError(
+                f"Question config file not found: {path} (CONFIG_DIR={CONFIG_DIR})"
+            )
+
+        try:
+            content = path.read_text(encoding="utf-8")
+            config = json.loads(content)
+        except json.JSONDecodeError as e:
+            raise ValidationError(f"Invalid JSON in {filename}: {e}") from e
+        except Exception as e:
+            raise ValidationError(f"Error reading {filename}: {e}") from e
+
         self._question_config_cache[assessment_id] = config
         return config
 

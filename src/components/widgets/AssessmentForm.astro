@@ -55,17 +55,28 @@ const { assessmentId, language } = Astro.props;
 
     async init() {
       try {
+        console.log(`[Assessment] Loading ${this.assessmentId} in ${this.language}`);
         await this.fetchQuestions();
+        console.log(`[Assessment] Loaded ${this.questions.length} questions`);
         this.renderQuestions();
       } catch (error) {
-        console.error('Failed to load assessment:', error);
-        this.showError('Failed to load assessment questions');
+        console.error('[Assessment] Failed to load:', error);
+        this.showError(
+          this.language === 'vi'
+            ? `Lỗi khi tải assessment: ${error instanceof Error ? error.message : String(error)}`
+            : `Failed to load assessment: ${error instanceof Error ? error.message : String(error)}`
+        );
       }
     }
 
     async fetchQuestions() {
-      const response = await fetch(`/api/assessment/${this.assessmentId}/questions`);
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const url = `/api/assessment/${this.assessmentId}/questions`;
+      console.log(`[Assessment] Fetching from: ${url}`);
+      const response = await fetch(url);
+      if (!response.ok) {
+        const errorText = await response.text();
+        throw new Error(`HTTP ${response.status}: ${errorText}`);
+      }
       const data = await response.json();
       this.questions = data.questions || [];
       this.intro = data.intro;

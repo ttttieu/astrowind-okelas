@@ -113,19 +113,33 @@ async def get_questions(assessment_id: str) -> dict:
     ánh đúng thực tế (giữ đúng tinh thần giảm overclaim ở 05_Question_Sets §1).
     """
     try:
+        config = None
+
+        # Try to use okelas_client if it has get_question_config method
         if hasattr(okelas_client, "get_question_config"):
-            config = okelas_client.get_question_config(assessment_id)  # type: ignore[attr-defined]
-        else:
-            # HttpOkelasCoreClient trong production nên có endpoint riêng để
-            # lấy config câu hỏi từ OKELAS Core; đây là fallback đọc file cục bộ.
+            try:
+                config = okelas_client.get_question_config(assessment_id)  # type: ignore[attr-defined]
+            except Exception as e:
+                print(f"[DEBUG] okelas_client.get_question_config failed: {e}")
+                config = None
+
+        # Fallback to LocalWorkflowEngine
+        if config is None:
             try:
                 from _assessment.workflow_engine import LocalWorkflowEngine
             except ImportError:
                 from ._assessment.workflow_engine import LocalWorkflowEngine
 
-            config = LocalWorkflowEngine().get_question_config(assessment_id)
+            engine = LocalWorkflowEngine()
+            config = engine.get_question_config(assessment_id)
+
     except ValidationError as exc:
-        raise HTTPException(status_code=404, detail=str(exc)) from exc
+        raise HTTPException(status_code=404, detail=f"Invalid assessment: {str(exc)}") from exc
+    except FileNotFoundError as exc:
+        raise HTTPException(status_code=500, detail=f"Question config file not found: {str(exc)}") from exc
+    except Exception as exc:
+        print(f"[ERROR] get_questions failed: {type(exc).__name__}: {exc}")
+        raise HTTPException(status_code=500, detail=f"Failed to load questions: {str(exc)}") from exc
 
     return {
         "assessment_id": config["assessment_id"],
