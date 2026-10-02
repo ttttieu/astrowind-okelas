@@ -1163,7 +1163,6 @@ export default async function handler(req, res) {
         } = body;
 
         if (!assessment_id) return res.status(400).json({ error: 'assessment_id required' });
-        if (!contact && !email) return res.status(400).json({ error: 'contact or email required' });
 
         const lead = {
           submission_id: submission_id || null,
