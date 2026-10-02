@@ -50,6 +50,7 @@ const { assessmentId, language } = Astro.props;
         role: null,
         contact: null
       };
+      this.resultData = null;
       this.init();
     }
 
@@ -446,6 +447,7 @@ const { assessmentId, language } = Astro.props;
         </div>
       `;
 
+      this.resultData = result;
       container.innerHTML = html;
 
       // Add event listener for contact form submission
@@ -460,6 +462,9 @@ const { assessmentId, language } = Astro.props;
       const fullname = document.getElementById('fullname').value;
       const contact = document.getElementById('contact').value;
 
+      // UTM params from landing URL
+      const utmParams = new URLSearchParams(window.location.search);
+
       try {
         const response = await fetch('/api/assessment/contact', {
           method: 'POST',
@@ -471,7 +476,16 @@ const { assessmentId, language } = Astro.props;
             role: role,
             fullname: fullname,
             contact: contact,
-            submitted_at: new Date().toISOString()
+            submitted_at: new Date().toISOString(),
+            language: this.language,
+            // Assessment result context for Telegram alert
+            assessment_level: this.resultData?.level ?? null,
+            assessment_label: this.resultData?.label ?? null,
+            assessment_archetype: this.resultData?.archetype ?? null,
+            // UTM tracking
+            utm_source: utmParams.get('utm_source') || null,
+            utm_medium: utmParams.get('utm_medium') || null,
+            utm_campaign: utmParams.get('utm_campaign') || null,
           })
         });
 

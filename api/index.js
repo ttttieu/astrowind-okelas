@@ -794,6 +794,113 @@ function getAI90DayRecs(dims, flags, lang) {
 
 // ─── End AI Readiness scoring ─────────────────────────────────────────────────
 
+// ─── Database helpers (Supabase REST — no npm dependency) ────────────────────
+
+async function dbInsertLead(lead) {
+  const url = process.env.SUPABASE_URL;
+  const key = process.env.SUPABASE_SERVICE_KEY;
+  if (!url || !key) {
+    console.warn('[db] Supabase not configured — lead not persisted');
+    return null;
+  }
+  const res = await fetch(`${url}/rest/v1/leads`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      apikey: key,
+      Authorization: `Bearer ${key}`,
+      Prefer: 'return=representation',
+    },
+    body: JSON.stringify(lead),
+  });
+  if (!res.ok) {
+    const msg = await res.text();
+    throw new Error(`DB insert ${res.status}: ${msg}`);
+  }
+  const rows = await res.json();
+  return Array.isArray(rows) ? rows[0] : rows;
+}
+
+async function dbGetLeads(status = 'PENDING', limit = 50) {
+  const url = process.env.SUPABASE_URL;
+  const key = process.env.SUPABASE_SERVICE_KEY;
+  if (!url || !key) throw new Error('Supabase not configured');
+  const res = await fetch(
+    `${url}/rest/v1/leads?status=eq.${encodeURIComponent(status)}&order=created_at.asc&limit=${limit}`,
+    { headers: { apikey: key, Authorization: `Bearer ${key}` } }
+  );
+  if (!res.ok) throw new Error(`DB query ${res.status}`);
+  return await res.json();
+}
+
+async function dbAckLeads(leadIds) {
+  const url = process.env.SUPABASE_URL;
+  const key = process.env.SUPABASE_SERVICE_KEY;
+  if (!url || !key) throw new Error('Supabase not configured');
+  const res = await fetch(`${url}/rest/v1/leads?id=in.(${leadIds.join(',')})`, {
+    method: 'PATCH',
+    headers: {
+      'Content-Type': 'application/json',
+      apikey: key,
+      Authorization: `Bearer ${key}`,
+      Prefer: 'return=representation',
+    },
+    body: JSON.stringify({ status: 'PROCESSED', processed_at: new Date().toISOString() }),
+  });
+  if (!res.ok) throw new Error(`DB ack ${res.status}`);
+  return await res.json();
+}
+
+// ─── Telegram notification (fire-and-forget) ──────────────────────────────────
+
+function sendTelegramAlert(lead) {
+  const token = process.env.TELEGRAM_BOT_TOKEN;
+  const chatId = process.env.TELEGRAM_CHAT_ID;
+  if (!token || !chatId) return;
+
+  const h = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+  const typeName = lead.assessment_id === 'erp_readiness' ? 'ERP Readiness' : 'AI Readiness';
+  const levelText = lead.assessment_level
+    ? `L${lead.assessment_level} — ${h(lead.assessment_label)}`
+    : '—';
+  const source = lead.utm_source
+    ? `${h(lead.utm_source)}${lead.utm_medium ? '/' + h(lead.utm_medium) : ''}`
+    : 'direct';
+  const time = new Date(lead.created_at || new Date()).toLocaleString('vi-VN', {
+    timeZone: 'Asia/Ho_Chi_Minh',
+    day: '2-digit', month: '2-digit', year: 'numeric',
+    hour: '2-digit', minute: '2-digit',
+  });
+
+  const text =
+    `🔔 <b>Lead mới — ${h(typeName)}</b>\n\n` +
+    `👤 ${h(lead.fullname || '—')}\n` +
+    `🏢 ${h(lead.org_name || '—')} · ${h(lead.role || '—')}\n` +
+    `📞 <code>${h(lead.contact || '—')}</code>\n\n` +
+    `📊 ${h(levelText)}\n` +
+    `🔑 ${h(lead.assessment_archetype || '—')}\n\n` +
+    `🌐 ${lead.language === 'en' ? 'EN' : 'VI'} · 📍 ${h(source)}\n` +
+    `🕐 ${h(time)} · ⏳ PENDING`;
+
+  fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ chat_id: chatId, text, parse_mode: 'HTML' }),
+  }).catch((err) => console.error('[telegram]', err.message));
+}
+
+// ─── Internal API auth ────────────────────────────────────────────────────────
+
+function isInternalAuthorized(req) {
+  const secret = process.env.INTERNAL_SECRET_TOKEN;
+  if (!secret) return false;
+  const auth = (req.headers['authorization'] || '').trim();
+  return auth === `Bearer ${secret}`;
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+
 function loadQuestions(assessmentId, language) {
   const lang = language === 'en' ? 'en' : 'vi';
   const config = CONFIGS[assessmentId]?.[lang];
@@ -1044,23 +1151,82 @@ export default function handler(req, res) {
       }
     }
 
-    // Contact submission
+    // Contact submission → lead queue
     if (pathname === '/api/assessment/contact' && req.method === 'POST') {
       try {
-        const contactData = req.body || {};
-        console.log('[contact] Received:', contactData);
+        const body = req.body || {};
+        const {
+          submission_id, assessment_id, org_name, role, fullname, contact, email,
+          language: bodyLang,
+          assessment_level, assessment_label, assessment_archetype,
+          utm_source, utm_medium, utm_campaign,
+        } = body;
+
+        if (!assessment_id) return res.status(400).json({ error: 'assessment_id required' });
+        if (!contact && !email) return res.status(400).json({ error: 'contact or email required' });
+
+        const lead = {
+          submission_id: submission_id || null,
+          assessment_id,
+          org_name: org_name || null,
+          role: role || null,
+          fullname: fullname || null,
+          contact: contact || null,
+          email: email || null,
+          language: bodyLang || language || 'vi',
+          assessment_level: assessment_level != null ? Number(assessment_level) : null,
+          assessment_label: assessment_label || null,
+          assessment_archetype: assessment_archetype || null,
+          utm_source: utm_source || null,
+          utm_medium: utm_medium || null,
+          utm_campaign: utm_campaign || null,
+        };
+
+        const saved = await dbInsertLead(lead);
+        sendTelegramAlert({ ...lead, created_at: new Date().toISOString(), ...saved });
+
         return res.status(200).json({
           status: 'success',
           message: language === 'en' ? 'Contact information received' : 'Đã nhận thông tin liên hệ',
-          submission_id: contactData.submission_id,
-          org_name: contactData.org_name,
-          role: contactData.role,
-          contact: contactData.contact,
-          assessment_id: contactData.assessment_id,
-          submitted_at: contactData.submitted_at,
+          lead_id: saved?.id || null,
         });
       } catch (error) {
-        return res.status(500).json({ error: 'Failed to process contact request' });
+        console.error('[contact] Error:', error);
+        return res.status(500).json({ error: 'Failed to save contact: ' + error.message });
+      }
+    }
+
+    // Internal: get pending leads (polled by internal server during business hours)
+    if (pathname === '/api/internal/leads' && req.method === 'GET') {
+      if (!isInternalAuthorized(req)) return res.status(401).json({ error: 'Unauthorized' });
+      try {
+        const status = url.searchParams.get('status') || 'PENDING';
+        const limit = Math.min(parseInt(url.searchParams.get('limit') || '50', 10), 200);
+        const leads = await dbGetLeads(status, limit);
+        return res.status(200).json({ leads, count: leads.length });
+      } catch (error) {
+        console.error('[internal/leads] Error:', error);
+        return res.status(500).json({ error: error.message });
+      }
+    }
+
+    // Internal: acknowledge (mark as PROCESSED) a batch of leads
+    if (pathname === '/api/internal/leads/ack' && req.method === 'POST') {
+      if (!isInternalAuthorized(req)) return res.status(401).json({ error: 'Unauthorized' });
+      try {
+        const { lead_ids } = req.body || {};
+        if (!Array.isArray(lead_ids) || lead_ids.length === 0) {
+          return res.status(400).json({ error: 'lead_ids array required' });
+        }
+        const updated = await dbAckLeads(lead_ids);
+        return res.status(200).json({
+          status: 'success',
+          updated: Array.isArray(updated) ? updated.length : lead_ids.length,
+          processed_at: new Date().toISOString(),
+        });
+      } catch (error) {
+        console.error('[internal/leads/ack] Error:', error);
+        return res.status(500).json({ error: error.message });
       }
     }
 
