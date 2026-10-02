@@ -5,24 +5,22 @@ import Hero from '~/components/widgets/Hero.astro';
 import Features from '~/components/widgets/Features.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import Steps from '~/components/widgets/Steps.astro';
-import FAQs from '~/components/widgets/FAQs.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
-import SocialProof from '~/components/widgets/SocialProof.astro';
 import StructuredData from '~/components/common/StructuredData.astro';
 import HeroActionCard from '~/components/ui/HeroActionCard.astro';
 import { SITE, METADATA } from 'astrowind:config';
 import favIconSvg from '~/assets/favicons/favicon.svg';
 
 const metadata = {
-  title: 'OKELAS -- Organizational Knowledge Operating System',
-  description: 'Bridge the gap between static knowledge and daily operations. Standardize processes, structure knowledge, and prepare for ERP & AI.',
+  title: 'OKELAS — Organizational Knowledge Management for Manufacturing SMEs',
+  description:
+    'OKELAS connects processes, workflows, events and evidence into shared operational knowledge for small and mid-sized manufacturers. Start with a business readiness assessment.',
   ignoreTitleTemplate: true,
+  openGraph: {
+    locale: 'en',
+  },
 };
 
-// Structured data for the site and its publisher, built only from
-// `src/config.yaml` (`site.name`, `site.site`, `metadata.twitter.handle`), so
-// it is correct for any site made with the template. Blog posts add
-// BlogPosting on their own; the FAQs widget adds FAQPage.
 const organizationId = `${SITE?.site}/#organization`;
 const structuredData = [
   {
@@ -41,232 +39,603 @@ const structuredData = [
     name: SITE?.name,
     url: SITE?.site,
     logo: new URL(favIconSvg.src, SITE?.site).toString(),
-    ...(METADATA?.twitter?.handle ? { sameAs: [`https://x.com/${METADATA.twitter.handle.replace(/^@/, '')}`] } : {}),
+    ...(METADATA?.twitter?.handle
+      ? { sameAs: [`https://x.com/${METADATA.twitter.handle.replace(/^@/, '')}`] }
+      : {}),
   },
 ];
 ---
 
 <Layout metadata={metadata}>
   <StructuredData slot="head" schema={structuredData} />
-  <!-- Hero Widget ******************* -->
 
+  <!-- Hero -->
   <Hero
-    tagline="Organizational Knowledge Operating System"
+    tagline="Organization Knowledge Operating System for Manufacturers"
     image={{ src: '~/assets/images/okelas-diagram.png', alt: 'OKELAS Architecture Overview' }}
   >
     <Fragment slot="title">
-      Your company is creating more information, <span class="text-accent dark:text-white">but not necessarily becoming more capable.</span>
+      Your computer runs on an operating system. <span class="text-accent dark:text-white"
+        >Your company runs on a few people's memory.</span
+      >
     </Fragment>
 
     <Fragment slot="subtitle">
-      AI helps a 50-person company generate documents like a 500-person enterprise. But documents alone don't build operational capability. OKELAS turns organizational knowledge into operational capability -- connecting processes, workflows, records and AI-ready knowledge in one progressive operating system.
+      OKELAS connects people, processes, documents, events and evidence into one shared operating context, so
+      information becomes decisions and action instead of staying scattered across files, systems and individual
+      experience.
     </Fragment>
 
     <Fragment slot="actions">
-      <div class="w-full max-w-[1640px] m-auto grid grid-cols-1 sm:grid-cols-2 gap-3 intersect-once intersect-quarter motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade">
+      <div
+        class="w-full max-w-[1640px] m-auto grid grid-cols-1 sm:grid-cols-2 gap-3 intersect-once intersect-quarter motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade"
+      >
         <HeroActionCard
-          title="Assess Business Readiness"
-          description="Evaluate your company's preparedness for operational capability."
+          title="Assess Your Business"
+          description="Start with a readiness assessment across six operational pillars."
           href="/en/readiness"
           icon="tabler:clipboard-check"
           variant="primary"
-          ariaLabel="Assess Business Readiness: Evaluate your company's preparedness for operational capability"
+          ariaLabel="Assess Your Business: Readiness assessment across six operational pillars"
         />
         <HeroActionCard
-          title="Why Capability First"
-          description="Explore the crucial link between strong processes and capability."
-          href="/en/why/why-before-erp"
+          title="What is OKELAS?"
+          description="You don't configure OKELAS from a blank screen. You configure it from the organization you already have."
+          href="#what-is-okelas"
           variant="secondary"
-          icon="tabler:trending-up"
-          ariaLabel="Why Capability First: Explore the crucial link between strong processes and capability"
+          icon="tabler:info-circle"
+          ariaLabel="What is OKELAS?"
         />
       </div>
     </Fragment>
   </Hero>
 
-  <!-- SocialProof Widget ************ -->
+  <!-- Problem Section -->
+  <section id="problem" class="mx-auto max-w-7xl px-4 sm:px-6 py-12 md:py-16 lg:py-20">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="text-3xl font-bold tracking-tight sm:text-4xl mb-6 font-heading">
+        You Don't Lack Software. You Lack a Shared Context.
+      </h2>
+      <p class="text-lg text-muted mb-6">
+        Most small and mid-sized manufacturers already run accounting software and have an ERP or plan to adopt one.
+        Many also maintain ISO/GMP systems with hundreds of SOPs and forms, and their people have started using AI.
+        Even so, the same situations keep coming back:
+      </p>
+      <ul class="space-y-3 text-muted mb-8 pl-2">
+        <li class="flex gap-3 items-start">
+          <span class="text-accent shrink-0 mt-1">—</span>SOPs exist, but each shift follows them a little
+          differently.
+        </li>
+        <li class="flex gap-3 items-start">
+          <span class="text-accent shrink-0 mt-1">—</span>A key person leaves, and the department spends months
+          relearning what they knew.
+        </li>
+        <li class="flex gap-3 items-start">
+          <span class="text-accent shrink-0 mt-1">—</span>Audit preparation takes weeks of chasing records.
+        </li>
+        <li class="flex gap-3 items-start">
+          <span class="text-accent shrink-0 mt-1">—</span>The ERP is live, but the numbers that matter are still in
+          spreadsheets and email.
+        </li>
+        <li class="flex gap-3 items-start">
+          <span class="text-accent shrink-0 mt-1">—</span>Answering "Why did this batch go wrong?" takes three
+          departments.
+        </li>
+        <li class="flex gap-3 items-start">
+          <span class="text-accent shrink-0 mt-1">—</span>People write faster with AI, but work doesn't move any
+          faster.
+        </li>
+      </ul>
+      <p class="text-lg text-muted">
+        These problems look separate, but most of them share one root cause. <strong class="text-default"
+          >Your company's information is spread across systems, files and people's heads. Nothing connects it into a
+          shared understanding of how the business actually operates.</strong
+        >
+      </p>
+    </div>
+  </section>
 
- <SocialProof
-    id="proof"
-    classes={{ container: '!pb-14 md:!pb-20' }}
-    items={[
-      { value: 'ERP', label: 'Readiness matters before implementation', icon: 'tabler:database', color: 'text-amber-500' },
-      { value: 'eQMS', label: 'Progressive Quality & Knowledge Framework', icon: 'tabler:certificate', color: 'text-emerald-500' },
-      { value: 'AI-Ready', label: 'Structured Knowledge Graph Backend', icon: 'tabler:cpu', color: 'text-sky-500' },
-      { value: 'Workflow', label: 'Intelligent Workflows for Operational Performance', icon: 'tabler:route-2', color: 'text-blue-500' },
-    ]}
-  />
+  <!-- OS Analogy Section -->
+  <section id="os-analogy" class="bg-gray-50 dark:bg-slate-900/50">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 py-12 md:py-16 lg:py-20">
+      <div class="max-w-3xl mx-auto">
+        <h2 class="text-3xl font-bold tracking-tight sm:text-4xl mb-6 font-heading">
+          A Simple Analogy: The Operating System
+        </h2>
+        <p class="text-lg text-muted mb-4">
+          Your computer runs Windows or macOS. Nobody buys a computer for its operating system. Without one, though,
+          applications can't share files, and they can't tell who the user is or who is allowed to do what. The
+          operating system is the <strong class="text-default">common environment</strong> that lets everything work
+          together.
+        </p>
+        <p class="text-lg text-muted mb-4">
+          Your company has applications too: ERP, accounting, quality systems, spreadsheets, documents, email, chat
+          groups and AI tools. It also has hardware: people, machines and plants.
+        </p>
+        <p class="text-lg text-muted mb-4">
+          What's usually missing is the layer in between. In that layer, processes, permissions, documents, events and
+          evidence are understood the same way by everyone.
+        </p>
+        <p class="text-lg text-muted mb-8">
+          Without that layer, <strong class="text-default">people become the operating system.</strong> They remember,
+          remind, forward, reconcile and re-explain. The business keeps running, but it depends on the memory and
+          goodwill of a few individuals. When those people are busy, on leave or gone, everything slows down.
+        </p>
+        <p class="text-xl font-semibold text-accent">OKELAS is that missing layer.</p>
+      </div>
+    </div>
+  </section>
 
-  <!-- Features2 ************* -->
+  <!-- What is OKELAS Section -->
+  <section id="what-is-okelas" class="mx-auto max-w-7xl px-4 sm:px-6 py-12 md:py-16 lg:py-20">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="text-3xl font-bold tracking-tight sm:text-4xl mb-6 font-heading">What Is OKELAS?</h2>
+      <blockquote
+        class="border-l-4 border-accent pl-6 py-4 mb-8 bg-blue-50 dark:bg-blue-900/10 rounded-r-lg not-italic"
+      >
+        <p class="text-lg">
+          <strong
+            >OKELAS is an Organization Knowledge Operating System for small and mid-sized manufacturers.</strong
+          > Many companies operate on scattered documents and personal experience. OKELAS helps them operate on
+          processes, workflows, evidence and organizational knowledge instead.
+        </p>
+      </blockquote>
+      <p class="text-lg text-muted mb-6">
+        Put simply, OKELAS connects links in a chain that today sit in different places:
+      </p>
+      <div class="overflow-x-auto mb-8 rounded-xl border border-gray-200 dark:border-slate-700">
+        <table class="w-full border-collapse text-sm">
+          <thead>
+            <tr class="bg-gray-100 dark:bg-slate-800">
+              <th class="px-4 py-3 text-left font-semibold border-b border-gray-200 dark:border-slate-700">Link</th>
+              <th class="px-4 py-3 text-left font-semibold border-b border-gray-200 dark:border-slate-700"
+                >What it means</th
+              >
+              <th class="px-4 py-3 text-left font-semibold border-b border-gray-200 dark:border-slate-700"
+                >Where it usually lives today</th
+              >
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-gray-100 dark:border-slate-800 hover:bg-gray-50 dark:hover:bg-slate-800/50">
+              <td class="px-4 py-3 font-medium">Process</td>
+              <td class="px-4 py-3 text-muted">How work <em>should</em> be done</td>
+              <td class="px-4 py-3 text-muted">SOP files, ISO manuals</td>
+            </tr>
+            <tr class="border-b border-gray-100 dark:border-slate-800 hover:bg-gray-50 dark:hover:bg-slate-800/50">
+              <td class="px-4 py-3 font-medium">Workflow</td>
+              <td class="px-4 py-3 text-muted"
+                >How work <em>actually</em> moves: who does it, which step it's at, who approves</td
+              >
+              <td class="px-4 py-3 text-muted">Email, chat, verbal reminders</td>
+            </tr>
+            <tr class="border-b border-gray-100 dark:border-slate-800 hover:bg-gray-50 dark:hover:bg-slate-800/50">
+              <td class="px-4 py-3 font-medium">Event</td>
+              <td class="px-4 py-3 text-muted">What happened, when and where</td>
+              <td class="px-4 py-3 text-muted">Logs, shift reports, spreadsheets</td>
+            </tr>
+            <tr class="border-b border-gray-100 dark:border-slate-800 hover:bg-gray-50 dark:hover:bg-slate-800/50">
+              <td class="px-4 py-3 font-medium">Evidence</td>
+              <td class="px-4 py-3 text-muted">Records that prove the work was done right</td>
+              <td class="px-4 py-3 text-muted">Folders, paper, personal laptops</td>
+            </tr>
+            <tr class="border-b border-gray-100 dark:border-slate-800 hover:bg-gray-50 dark:hover:bg-slate-800/50">
+              <td class="px-4 py-3 font-medium">Knowledge</td>
+              <td class="px-4 py-3 text-muted">What the organization has learned and can reuse</td>
+              <td class="px-4 py-3 text-muted">Experienced people's heads</td>
+            </tr>
+            <tr class="hover:bg-gray-50 dark:hover:bg-slate-800/50">
+              <td class="px-4 py-3 font-medium">Decision → Action</td>
+              <td class="px-4 py-3 text-muted">Who decides, on what basis, and what happens next</td>
+              <td class="px-4 py-3 text-muted">Meetings, messages</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="text-lg text-muted mb-8">
+        Once these links are connected, a company doesn't just <em>store</em> information. It <em>understands</em> that
+        information and <em>uses</em> it in day-to-day operations. That is what organizational knowledge management
+        looks like in practice on the factory floor.
+      </p>
+      <div class="rounded-xl bg-gray-50 dark:bg-slate-800/50 p-6 border border-gray-200 dark:border-slate-700">
+        <p class="text-sm font-semibold text-accent mb-4">
+          An illustrative example <span class="text-muted font-normal"
+            >(hypothetical scenario, not a customer case)</span
+          >: a production batch is found to be out of specification.
+        </p>
+        <div class="grid sm:grid-cols-2 gap-4 text-sm">
+          <div class="rounded-lg bg-red-50 dark:bg-red-900/10 p-4 border border-red-200 dark:border-red-800/30">
+            <p class="font-semibold text-red-600 dark:text-red-400 mb-2">Without a shared operating layer:</p>
+            <p class="text-muted">
+              QA opens a spreadsheet, calls the shift lead, hunts for inspection records and asks whoever handled the
+              issue last time. The resolution ends up in an email that few people will ever find again.
+            </p>
+          </div>
+          <div class="rounded-lg bg-green-50 dark:bg-green-900/10 p-4 border border-green-200 dark:border-green-800/30">
+            <p class="font-semibold text-green-600 dark:text-green-400 mb-2">With the OKELAS approach:</p>
+            <p class="text-muted">
+              The event is recorded and linked to the batch, the process step, the current SOP version, the
+              responsible person and the related records. Whoever handles it knows the next step and who must approve.
+              The resolution becomes organizational knowledge for next time.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- What OKELAS is NOT -->
   <Features2
-    id="readiness-gateway"
-    tagline="Diagnostic-Led Advisory"
-    title="Assess Your Organizational Readiness"
-    subtitle="Before investing in expensive software implementations, evaluate your current operational maturity."
+    id="what-not"
+    tagline="To be clear"
+    title="What OKELAS Is Not"
+    subtitle="OKELAS is not the following."
     columns={2}
-    classes={{ container: 'max-w-3xl' }}
+    isDark={false}
+    classes={{ container: 'max-w-5xl' }}
     items={[
       {
-        title: 'ERP Readiness Audit',
-        description: 'Check if your processes and data are sufficiently standardized to avoid high-cost ERP implementation failures.',
-        icon: 'tabler:database-search',
-        callToAction: { text: 'Audit ERP Readiness →', href: '/en/readiness/erp' },
+        title: 'Not an AI chatbot',
+        description:
+          'AI is one layer in OKELAS, not its center. OKELAS does not work as a general-purpose chat assistant.',
+        icon: 'tabler:message-off',
       },
       {
-        title: 'Digitalization Assessment',
-        description: 'Distinguish between genuine operational digitalization and merely digitizing document chaos.',
+        title: 'Not a document repository',
+        description:
+          'Storing documents is not the same as managing knowledge. OKELAS connects knowledge to real operations.',
+        icon: 'tabler:folder-off',
+      },
+      {
+        title: 'Not an ERP or an ERP replacement',
+        description:
+          'An ERP records transactions. OKELAS holds the understanding around those transactions: process, context, evidence and knowledge. OKELAS doesn\'t compete with ERP — it helps companies prepare for their ERP, understand it and get more out of it.',
+        icon: 'tabler:database-off',
+      },
+      {
+        title: 'Not a heavyweight enterprise system',
+        description:
+          'OKELAS is built for small and mid-sized manufacturers. You start with a specific problem and grow from there.',
+        icon: 'tabler:building-skyscraper',
+      },
+    ]}
+  />
+
+  <!-- Why AI Age -->
+  <section id="why-ai" class="bg-gray-50 dark:bg-slate-900/50">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 py-12 md:py-16 lg:py-20">
+      <div class="max-w-3xl mx-auto">
+        <h2 class="text-3xl font-bold tracking-tight sm:text-4xl mb-6 font-heading">
+          Why This Matters More in the Age of AI
+        </h2>
+        <p class="text-lg text-muted mb-6">Companies are starting to run into a paradox:</p>
+        <blockquote
+          class="border-l-4 border-accent pl-6 py-4 mb-8 bg-blue-50 dark:bg-blue-900/10 rounded-r-lg not-italic"
+        >
+          <p class="text-lg font-medium">
+            AI can help a 50-person company produce the paperwork of a 500-person company. That doesn't mean the
+            50-person company can handle the workload of 500.
+          </p>
+        </blockquote>
+        <p class="text-lg text-muted mb-4">
+          Reports, emails, proposals and documents get produced faster. But if processes, responsibilities, approvals
+          and evidence stay fragmented, more information just means more to read, reconcile and search through.
+        </p>
+        <p class="text-lg text-muted mb-4">
+          The question is no longer <em>"How do we create information faster?"</em> It is <em
+            >"Does the organization turn information into process, decisions and action?"</em
+          >
+        </p>
+        <p class="text-lg text-muted">
+          That's why AI is not the center of OKELAS. AI works <strong class="text-default"
+            >inside the organization's context</strong
+          >: it understands the process, finds the right evidence, supports the workflow and leaves a trace that can be
+          checked. A good answer isn't just correct. It can be <strong class="text-default"
+            >explained, backed by evidence and traced</strong
+          >.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Assessment - 6 Pillars -->
+  <Features2
+    id="assessment"
+    tagline="Diagnostic-Led Advisory"
+    title="Assess First. Improve Immediately. Configure from Reality."
+    subtitle="Every organization starts from a different operational state. So OKELAS doesn't start by installing software. It starts with a business readiness assessment across six pillars — each one shows what you can fix now and becomes the baseline for configuring OKELAS around how your company really works."
+    columns={2}
+    items={[
+      {
+        title: '01 — Digitalization',
+        description:
+          'Which processes and data are still handled manually? Find where digitizing pays off first.',
         icon: 'tabler:file-code-2',
-        callToAction: { text: 'Evaluate Digitalization →', href: '/en/readiness/digitalization' },
+        callToAction: { text: 'Start assessment →', href: '/en/readiness/digitalization' },
       },
       {
-        title: 'AI Readiness Test',
-        description: 'Determine if your internal domain data is clean and structured enough to power private AI Copilots.',
-        icon: 'tabler:brain',
-        callToAction: { text: 'Test AI Readiness →', href: '/en/readiness/ai' },
-      },
-      {
-        title: 'Knowledge Infrastructure Check',
-        description: 'Evaluate whether critical operational knowledge lives in employee heads or structured systems.',
-        icon: 'tabler:sitemap',
-        callToAction: { text: 'Check Knowledge Gap →', href: '/en/readiness/knowledge' },
-      },
-    ]}
-  />
-
-  <!-- Features Widget *************** -->
-
-  <Features
-    id="solutions"
-    tagline="Our Core Offerings"
-    title="The OKELAS Operating Framework"
-    subtitle="This isn't a features list, and it isn't a fixed sequence -- it's the set of capabilities a manufacturing SME typically needs, in whatever order the business actually needs them."
-    items={[
-      {
-        title: 'Digitalize Operations',
-        description: 'Convert scattered manuals and unspoken routines into clear, interactive digital workflows.',
-        icon: 'tabler:transform',
-      },
-      {
-        title: 'Standardize Processes',
-        description: 'Establish clear SOPs, role assignments, and validation checkpoints across all departments.',
-        icon: 'tabler:checkup-list',
-      },
-      {
-        title: 'Progressive eQMS',
-        description: 'Build audit-ready compliance and records management structured around your actual daily work. Start where the business has the most immediate need -- digital records, ISO compliance, workflows or knowledge -- then progressively build toward a connected operational knowledge system.',
-        icon: 'tabler:shield-check',
-      },
-      {
-        title: 'ERP Readiness Layer',
-        description: 'Cleanse master data and validate operational logic before connecting heavy enterprise systems.',
-        icon: 'tabler:building-factory-2',
-      },
-      {
-        title: 'Knowledge & AI Copilot',
-        description: 'Feed accurate, domain-specific organizational knowledge directly to context-aware AI assistants.',
-        icon: 'tabler:robot',
-      },
-      {
-        title: 'Intelligent Workflow',
-        description: 'Make established workflows faster, more adaptive and more capable by connecting process, knowledge, evidence and AI.',
+        title: '02 — Workflow',
+        description:
+          'Who does work pass through, and where does it stall? Spot bottlenecks, repeated data entry and approval gaps.',
         icon: 'tabler:route-2',
+        callToAction: { text: 'Read more →', href: '/en/insights/workflow' },
+      },
+      {
+        title: '03 — Knowledge',
+        description:
+          'Where does knowledge live, and who does it depend on? Reduce dependence on individuals and loose files.',
+        icon: 'tabler:sitemap',
+        callToAction: { text: 'Start assessment →', href: '/en/readiness/knowledge' },
+      },
+      {
+        title: '04 — ERP Readiness',
+        description:
+          'Are processes, data and people ready for ERP? Avoid implementing ERP on weak foundations.',
+        icon: 'tabler:database-search',
+        callToAction: { text: 'Start assessment →', href: '/en/readiness/erp' },
+      },
+      {
+        title: '05 — AI Readiness',
+        description:
+          'Which AI uses are realistic with today\'s data and processes? Focus on AI that can actually work.',
+        icon: 'tabler:brain',
+        callToAction: { text: 'Start assessment →', href: '/en/readiness/ai' },
+      },
+      {
+        title: '06 — Quality / eQMS',
+        description:
+          'How mature are your records, evidence and quality discipline? Strengthen ISO/GMP compliance and operational discipline.',
+        icon: 'tabler:shield-check',
+        callToAction: { text: 'See solution →', href: '/en/solutions/progressive-eqms' },
       },
     ]}
   />
 
-  <!-- Steps Widget ****************** -->
-
- <Steps
-    title="A Progressive Path to Operational Capability"
-    subtitle="Start where the business needs it most. Progressively build the rest -- there's no fixed order."
+  <!-- Closed Loop / Steps -->
+  <Steps
+    id="closed-loop"
+    title="From Assessment to Operating System: A Closed Loop"
+    subtitle="Assessment results don't end up in a report on a shelf. They become a model of the organization itself — the baseline for configuring OKELAS around the way the company actually operates. Once OKELAS is running, real operating data flows back into the assessments."
     items={[
       {
-        title: '<span class="font-medium">Standardize Operations</span>',
-        description: 'Extract tacit expert knowledge and document actual daily routines into unified, executable standards.',
-        icon: 'tabler:file-text',
+        title: '<span class="font-medium">Assess</span>',
+        description:
+          'Evaluate current operational state across six pillars: Digitalization, Workflow, Knowledge, ERP, AI, Quality.',
+        icon: 'tabler:clipboard-check',
       },
       {
-        title: '<span class="font-medium">Organize Knowledge</span>',
-        description: 'Structure static documents into a dynamic Knowledge Graph linked directly to roles and workflows.',
+        title: '<span class="font-medium">Improve</span>',
+        description:
+          'Act on what you can fix immediately — whether or not you ever use OKELAS.',
+        icon: 'tabler:trending-up',
+      },
+      {
+        title: '<span class="font-medium">Configure</span>',
+        description:
+          'Assessment results become the baseline for configuring OKELAS around how the company really works.',
+        icon: 'tabler:settings',
+      },
+      {
+        title: '<span class="font-medium">Operate → Measure → Reassess</span>',
+        description:
+          'Assessment is not a one-off exercise but a loop: Assess → Improve → Configure → Operate → Measure → Reassess. OKELAS is built from the way the company actually operates.',
+        icon: 'tabler:refresh',
+      },
+    ]}
+  />
+
+  <!-- Components -->
+  <Features
+    id="components"
+    tagline="Components"
+    title="Components: Use What You Need, Configure as You Grow"
+    subtitle="No company needs everything on day one. Depending on maturity and needs, you can start from your most pressing problem."
+    items={[
+      {
+        title: 'OKELAS Core',
+        description:
+          'The foundation for processes, workflows, events, evidence, permissions and knowledge relationships across the organization.',
+        icon: 'tabler:layout-grid',
+      },
+      {
+        title: 'Knowledge Graph',
+        description:
+          'The layer that links knowledge to people, processes, documents, events and decisions, so knowledge can be queried, verified and explained.',
         icon: 'tabler:topology-complex',
       },
       {
-        title: '<span class="font-medium">Digitize Records & Proof</span>',
-        description: 'Automate real-time record capture for complete compliance, audit readiness, and quality assurance.',
-        icon: 'tabler:report-analytics',
+        title: 'Copilot / Agent',
+        description:
+          'AI that works within the organization\'s context, with defined tasks, permissions and evidence. It is not a general-purpose chatbot.',
+        icon: 'tabler:robot',
       },
       {
-        title: '<span class="font-medium">Scale with ERP & AI</span>',
-        description: 'Connect structured operational data seamlessly into ERP systems or deploy internal AI Copilots with confidence.',
-        icon: 'tabler:rocket',
+        title: 'ERPNext + ERP Knowledge Graph',
+        description:
+          'ERPNext serves as the transactional backbone where it fits. The ERP Knowledge Graph maps the ERP\'s structure, business rules and customizations to support implementation and day-to-day use.',
+        icon: 'tabler:building-factory-2',
+      },
+      {
+        title: 'ERP Sandbox',
+        description:
+          'A safe environment for testing changes and customizations before they touch the live ERP.',
+        icon: 'tabler:flask',
+      },
+      {
+        title: 'Start from your problem',
+        description:
+          'Begin with Digitalize Operations, Standardize Processes, Progressive eQMS or ERP Readiness — wherever the business needs it most.',
+        icon: 'tabler:route',
       },
     ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=987&q=80',
-      alt: 'OKELAS Operational Capability Map',
-    }}
   />
 
+  <!-- Principles -->
+  <section id="principles" class="bg-gray-50 dark:bg-slate-900/50">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 py-12 md:py-16 lg:py-20">
+      <div class="max-w-3xl mx-auto">
+        <p class="text-sm font-semibold uppercase tracking-widest text-accent mb-3">How we work</p>
+        <h2 class="text-3xl font-bold tracking-tight sm:text-4xl mb-8 font-heading">Principles We Hold To</h2>
+        <ul class="space-y-6">
+          <li class="flex gap-4 items-start">
+            <span class="shrink-0 w-2 h-2 mt-2.5 rounded-full bg-accent"></span>
+            <div>
+              <p class="font-semibold mb-1">Smallest sufficient system.</p>
+              <p class="text-muted">
+                We use the smallest system that solves the problem and don't build large systems just to showcase
+                technology.
+              </p>
+            </div>
+          </li>
+          <li class="flex gap-4 items-start">
+            <span class="shrink-0 w-2 h-2 mt-2.5 rounded-full bg-accent"></span>
+            <div>
+              <p class="font-semibold mb-1">On-premise by default.</p>
+              <p class="text-muted">
+                OKELAS is deployed on-premise by default, so your data and knowledge stay on your own infrastructure.
+                You don't have to move data to the cloud or take on a stack of SaaS subscriptions. This matters
+                especially for companies with sensitive data or compliance requirements.
+              </p>
+            </div>
+          </li>
+          <li class="flex gap-4 items-start">
+            <span class="shrink-0 w-2 h-2 mt-2.5 rounded-full bg-accent"></span>
+            <div>
+              <p class="font-semibold mb-1">Price / performance.</p>
+              <p class="text-muted">
+                Costs must match the value delivered. Infrastructure, licensing, implementation, maintenance and AI
+                costs are all sized for small and mid-sized companies.
+              </p>
+            </div>
+          </li>
+          <li class="flex gap-4 items-start">
+            <span class="shrink-0 w-2 h-2 mt-2.5 rounded-full bg-accent"></span>
+            <div>
+              <p class="font-semibold mb-1">Explain → Evidence → Trace.</p>
+              <p class="text-muted">
+                Every answer should be explainable, backed by evidence and traceable. This matters especially under
+                ISO and GMP.
+              </p>
+            </div>
+          </li>
+          <li class="flex gap-4 items-start">
+            <span class="shrink-0 w-2 h-2 mt-2.5 rounded-full bg-accent"></span>
+            <div>
+              <p class="font-semibold mb-1">One step at a time.</p>
+              <p class="text-muted">
+                Move from digital documents to workflow, then to knowledge, then to AI. Each step must make economic
+                sense on its own.
+              </p>
+            </div>
+          </li>
+        </ul>
+        <p class="mt-8 text-sm">
+          <a href="/en/about/approach" class="text-accent hover:underline">→ Our Approach</a>
+        </p>
+      </div>
+    </div>
+  </section>
 
+  <!-- Who it's for -->
+  <section id="who-for" class="mx-auto max-w-7xl px-4 sm:px-6 py-12 md:py-16 lg:py-20">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="text-3xl font-bold tracking-tight sm:text-4xl mb-6 font-heading">Who It's For</h2>
+      <p class="text-lg text-muted mb-6">
+        OKELAS is built for CEOs, owners and leadership teams of small and mid-sized manufacturers, especially
+        companies that:
+      </p>
+      <ul class="space-y-3 text-muted pl-2">
+        <li class="flex gap-3 items-start">
+          <span class="text-accent shrink-0 mt-1">—</span>operate in food, processing, seafood, tea or other
+          ISO/GMP-regulated industries;
+        </li>
+        <li class="flex gap-3 items-start">
+          <span class="text-accent shrink-0 mt-1">—</span>have many SOPs, forms and records but struggle to get them
+          followed consistently;
+        </li>
+        <li class="flex gap-3 items-start">
+          <span class="text-accent shrink-0 mt-1">—</span>are preparing for ERP, or already run an ERP without
+          well-organized processes and knowledge;
+        </li>
+        <li class="flex gap-3 items-start">
+          <span class="text-accent shrink-0 mt-1">—</span>want to use AI but aren't sure their data and processes are
+          ready.
+        </li>
+      </ul>
+    </div>
+  </section>
 
-
-  <!-- FAQs Widget ******************* -->
-
-  <FAQs
-    id="faqs"
-    title="Frequently Asked Questions"
-    subtitle="Questions people ask before starting a readiness conversation with OKELAS."
-    tagline="FAQs"
-    schema
+  <!-- Knowledge Hub / Insights -->
+  <Features2
+    id="insights"
+    tagline="Insights Library"
+    title="Learn Before You Decide"
+    subtitle="Our Insights library is written for manufacturing leaders and organized around the same six pillars as the assessment. Read → Understand → Assess → Discover → Engage."
+    columns={2}
+    isDark={false}
     items={[
       {
-        title: 'What is OKELAS?',
-        description:
-          'OKELAS is an Organization Knowledge Operating System for manufacturing SMEs. It helps a company move from operations that depend on documents, individual memory and personal experience toward operations built on process, workflow, evidence and organizational knowledge.',
+        title: 'Digitalization',
+        description: 'Operational problems rarely announce themselves as "we need to digitalize."',
+        icon: 'tabler:device-laptop',
+        callToAction: { text: 'Read more →', href: '/en/insights/business-operations' },
       },
       {
-        title: 'Is OKELAS an ERP system?',
-        description:
-          'No. OKELAS is not a replacement for ERP. It prepares a company\'s processes, data and knowledge so that an ERP system -- including ERPNext, which OKELAS can integrate with -- can actually deliver value once implemented.',
+        title: 'Workflow',
+        description: 'How work really moves through the company, and why it stalls.',
+        icon: 'tabler:route-2',
+        callToAction: { text: 'Read more →', href: '/en/insights/workflow' },
       },
       {
-        title: 'Do we need AI to start with OKELAS?',
+        title: 'Knowledge Management',
         description:
-          'No. Many companies start with process standardization and knowledge structuring before any AI component is introduced. AI Copilots and agents are most useful once there is organizational context for them to work with.',
+          'Getting knowledge out of a few people\'s heads so the organization can find it, reuse it and hand it to AI systems.',
+        icon: 'tabler:brain',
+        callToAction: { text: 'Read more →', href: '/en/insights/knowledge-management' },
       },
       {
-        title: 'How is the readiness assessment used?',
-        description:
-          'Each assessment (ERP, AI, Digitalization, Knowledge) gives you a maturity level and the specific gaps behind it -- usable on its own, whether or not you engage OKELAS afterward.',
+        title: 'ERP',
+        description: 'Why ERP projects miss their goals, and why the real problem usually isn\'t the software.',
+        icon: 'tabler:database',
+        callToAction: { text: 'Read more →', href: '/en/insights/erp' },
       },
       {
-        title: 'Can OKELAS work with an existing ERP or QMS?',
-        description:
-          'Yes. OKELAS is designed to sit alongside existing systems, structuring the process and knowledge layer around them rather than requiring replacement.',
+        title: 'AI',
+        description: 'Why AI doesn\'t automatically make an organization smarter.',
+        icon: 'tabler:cpu',
+        callToAction: { text: 'Read more →', href: '/en/insights/ai' },
+      },
+      {
+        title: 'Compliance',
+        description: 'How to prepare for ISO/GMP audits without weeks of chasing records.',
+        icon: 'tabler:certificate',
+        callToAction: { text: 'Read more →', href: '/en/insights/compliance' },
       },
     ]}
   />
 
-
-  <!-- CallToAction Widget *********** -->
-
+  <!-- Final CTA -->
   <CallToAction
     actions={[
       {
         variant: 'primary',
-        text: 'Start Readiness Assessment',
+        text: 'Assess Your Business',
         href: '/en/readiness',
         icon: 'tabler:clipboard-check',
       },
+      {
+        variant: 'secondary',
+        text: 'ERP Readiness Assessment',
+        href: '/en/readiness/erp',
+      },
     ]}
   >
-    <Fragment slot="title">
-      Ready to turn organizational knowledge into operational capability?
-    </Fragment>
+    <Fragment slot="title">Where Does Your Business Stand?</Fragment>
 
     <Fragment slot="subtitle">
-      Take our 3-minute diagnostic assessment to pinpoint your process gaps and see what to standardize next.
+      You don't need to start with a big project. Start by seeing clearly how your company actually operates.<br
+      /><br />
+      <em>Don't start with software. Start with how your business really runs.</em>
     </Fragment>
   </CallToAction>
 </Layout>
