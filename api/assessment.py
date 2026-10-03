@@ -319,46 +319,20 @@ async def submit_assessment(submission: AssessmentSubmission, language: str = "v
 async def submit_contact(request_data: dict) -> dict:
     """
     Accept contact information from assessment respondents who want the full report.
-
-    Payload:
-    {
-        "submission_id": "...",
-        "assessment_id": "erp_readiness",
-        "org_name": "Company Name",
-        "role": "CEO / COO / ...",
-        "contact": "email@example.com",
-        "submitted_at": "2026-10-01T..."
-    }
-
-    This endpoint:
-    1. Validates the submission_id (optional, depends on OKELAS Core)
-    2. Stores the contact request for sales/support followup
-    3. Can optionally trigger email or webhook to internal server
+    All fields (fullname, contact/phone, org_name, role) are optional.
+    Primary handler is api/index.js (Node); this Python endpoint is a fallback.
     """
-    try:
-        submission_id = request_data.get("submission_id")
-        assessment_id = request_data.get("assessment_id")
-        org_name = request_data.get("org_name")
-        role = request_data.get("role")
-        contact = request_data.get("contact")
-        submitted_at = request_data.get("submitted_at")
+    submission_id = request_data.get("submission_id")
+    assessment_id = request_data.get("assessment_id")
 
-        # Validate email
-        if not contact or "@" not in contact:
-            raise HTTPException(status_code=422, detail="Invalid email address")
+    if not assessment_id:
+        raise HTTPException(status_code=400, detail="assessment_id required")
 
-        # TODO: Store contact request in database or send to internal server
-        # For now, just acknowledge receipt
-        # Example: could call okelas_client.store_contact_request(...)
-        # or send webhook to internal CRM/sales system
-
-        return {
-            "status": "success",
-            "message": "Contact information received. We will contact you soon.",
-            "submission_id": submission_id,
-        }
-    except Exception as exc:
-        raise HTTPException(status_code=500, detail=str(exc)) from exc
+    return {
+        "status": "success",
+        "message": "Contact information received. We will contact you soon.",
+        "submission_id": submission_id,
+    }
 
 
 @app.get("/health")

@@ -851,12 +851,15 @@ async function dbAckLeads(leadIds) {
   return await res.json();
 }
 
-// ─── Telegram notification (fire-and-forget) ──────────────────────────────────
+// ─── Telegram notification (awaited — must complete before Vercel terminates) ──
 
-function sendTelegramAlert(lead) {
+async function sendTelegramAlert(lead) {
   const token = process.env.TELEGRAM_BOT_TOKEN;
   const chatId = process.env.TELEGRAM_CHAT_ID;
-  if (!token || !chatId) return;
+  if (!token || !chatId) {
+    console.warn('[telegram] TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID not set — skipping');
+    return;
+  }
 
   const h = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
@@ -883,11 +886,15 @@ function sendTelegramAlert(lead) {
     `🌐 ${lead.language === 'en' ? 'EN' : 'VI'} · 📍 ${h(source)}\n` +
     `🕐 ${h(time)} · ⏳ PENDING`;
 
-  fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
+  const tgRes = await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ chat_id: chatId, text, parse_mode: 'HTML' }),
-  }).catch((err) => console.error('[telegram]', err.message));
+  });
+  if (!tgRes.ok) {
+    const errBody = await tgRes.text().catch(() => '');
+    console.error(`[telegram] Failed ${tgRes.status}: ${errBody}`);
+  }
 }
 
 // ─── Internal API auth ────────────────────────────────────────────────────────
@@ -1153,46 +1160,52 @@ export default async function handler(req, res) {
 
     // Contact submission → lead queue
     if (pathname === '/api/assessment/contact' && req.method === 'POST') {
+      const body = req.body || {};
+      const {
+        submission_id, assessment_id, org_name, role, fullname, contact,
+        language: bodyLang,
+        assessment_level, assessment_label, assessment_archetype,
+        utm_source, utm_medium, utm_campaign,
+      } = body;
+
+      if (!assessment_id) return res.status(400).json({ error: 'assessment_id required' });
+
+      const lead = {
+        submission_id: submission_id || null,
+        assessment_id,
+        org_name: org_name || null,
+        role: role || null,
+        fullname: fullname || null,
+        contact: contact || null,
+        language: bodyLang || language || 'vi',
+        assessment_level: assessment_level != null ? Number(assessment_level) : null,
+        assessment_label: assessment_label || null,
+        assessment_archetype: assessment_archetype || null,
+        utm_source: utm_source || null,
+        utm_medium: utm_medium || null,
+        utm_campaign: utm_campaign || null,
+      };
+
+      // Save to Supabase — failure is logged but does NOT block Telegram
+      let saved = null;
       try {
-        const body = req.body || {};
-        const {
-          submission_id, assessment_id, org_name, role, fullname, contact, email,
-          language: bodyLang,
-          assessment_level, assessment_label, assessment_archetype,
-          utm_source, utm_medium, utm_campaign,
-        } = body;
-
-        if (!assessment_id) return res.status(400).json({ error: 'assessment_id required' });
-
-        const lead = {
-          submission_id: submission_id || null,
-          assessment_id,
-          org_name: org_name || null,
-          role: role || null,
-          fullname: fullname || null,
-          contact: contact || null,
-          email: email || null,
-          language: bodyLang || language || 'vi',
-          assessment_level: assessment_level != null ? Number(assessment_level) : null,
-          assessment_label: assessment_label || null,
-          assessment_archetype: assessment_archetype || null,
-          utm_source: utm_source || null,
-          utm_medium: utm_medium || null,
-          utm_campaign: utm_campaign || null,
-        };
-
-        const saved = await dbInsertLead(lead);
-        sendTelegramAlert({ ...lead, created_at: new Date().toISOString(), ...saved });
-
-        return res.status(200).json({
-          status: 'success',
-          message: language === 'en' ? 'Contact information received' : 'Đã nhận thông tin liên hệ',
-          lead_id: saved?.id || null,
-        });
-      } catch (error) {
-        console.error('[contact] Error:', error);
-        return res.status(500).json({ error: 'Failed to save contact: ' + error.message });
+        saved = await dbInsertLead(lead);
+      } catch (dbErr) {
+        console.error('[contact] DB error (non-fatal):', dbErr.message);
       }
+
+      // Telegram is awaited so Vercel does not terminate before the request completes
+      try {
+        await sendTelegramAlert({ ...lead, created_at: new Date().toISOString(), ...(saved || {}) });
+      } catch (tgErr) {
+        console.error('[contact] Telegram error (non-fatal):', tgErr.message);
+      }
+
+      return res.status(200).json({
+        status: 'success',
+        message: language === 'en' ? 'Contact information received' : 'Đã nhận thông tin liên hệ',
+        lead_id: saved?.id || null,
+      });
     }
 
     // Internal: get pending leads (polled by internal server during business hours)
