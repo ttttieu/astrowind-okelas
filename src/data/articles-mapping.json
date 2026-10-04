@@ -870,6 +870,19 @@
         "category": "compliance",
         "url": "/en/insights/compliance/effective-capa-iso-9001"
       }
+    },
+    {
+      "translationId": "nonconformance-iso-9001-management",
+      "vi": {
+        "slug": "nonconformance-iso-9001",
+        "category": "compliance",
+        "url": "/insights/compliance/nonconformance-iso-9001"
+      },
+      "en": {
+        "slug": "nonconformance-iso-9001-management",
+        "category": "compliance",
+        "url": "/en/insights/compliance/nonconformance-iso-9001-management"
+      }
     }
   ]
 }
