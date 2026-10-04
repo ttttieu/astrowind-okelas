@@ -974,6 +974,19 @@
         "category": "compliance",
         "url": "/en/insights/compliance/eqms-evidence-traceability"
       }
+    },
+    {
+      "translationId": "eqms-to-knowledge-os",
+      "vi": {
+        "slug": "tu-eqms-den-knowledge-os",
+        "category": "compliance",
+        "url": "/insights/compliance/tu-eqms-den-knowledge-os"
+      },
+      "en": {
+        "slug": "eqms-to-knowledge-os",
+        "category": "compliance",
+        "url": "/en/insights/compliance/eqms-to-knowledge-os"
+      }
     }
   ]
 }
