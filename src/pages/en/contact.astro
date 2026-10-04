@@ -1,7 +1,7 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
-import ContactUs from '~/components/widgets/Contact.astro';
+import ContactForm from '~/components/widgets/ContactForm.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
@@ -15,39 +15,19 @@ const metadata = {
   <HeroText
     tagline="Company"
     title="Talk to OKELAS"
-    subtitle="Most conversations with us start with a question, not a commitment: "Are we actually ready for this?""
+    subtitle="Most conversations with us start with a question, not a commitment."
   />
 
-  <ContactUs
-    id="form"
-    title="Start a conversation"
-    subtitle="If you already know roughly where the gap is, the fastest way to start is the relevant readiness assessment — it takes about three minutes and gives you something useful whether or not you talk to us afterward. If you're not sure where to start, tell us the problem you're seeing on the floor or in the numbers, not the solution you think you need — that's usually the more useful starting point for us too."
-    inputs={[
-      {
-        type: 'text',
-        name: 'name',
-        label: 'Name',
-      },
-      {
-        type: 'email',
-        name: 'email',
-        label: 'Email',
-      },
-      {
-        type: 'text',
-        name: 'company',
-        label: 'Company',
-      },
-    ]}
-    textarea={{
-      label: 'What problem are you seeing?',
-    }}
-    disclaimer={{
-      label:
-        'By submitting this form, you agree to the collection of your contact information for the purpose of this enquiry.',
-    }}
-    description="We typically respond within one business day."
-  />
+  <section class="py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="max-w-2xl mx-auto text-center mb-8">
+        <p class="text-gray-700 dark:text-gray-300 text-lg leading-relaxed">
+          If you already know roughly where the gap is, the fastest way to start is the relevant readiness assessment — it takes about three minutes and gives you something useful whether or not you talk to us afterward. If you're not sure where to start, tell us the problem you're seeing on the floor or in the numbers — that's usually the more useful starting point for us too.
+        </p>
+      </div>
+      <ContactForm language="en" />
+    </div>
+  </section>
 
   <CallToAction
     actions={[

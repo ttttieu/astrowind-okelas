@@ -1769,6 +1769,49 @@ async function sendTelegramAlert(lead) {
   }
 }
 
+async function sendContactFormTelegramAlert(lead) {
+  const token = process.env.TELEGRAM_BOT_TOKEN;
+  const chatId = process.env.TELEGRAM_CHAT_ID;
+  if (!token || !chatId) {
+    console.warn('[telegram] TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID not set — skipping');
+    return;
+  }
+
+  const h = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+  const source = lead.utm_source
+    ? `${h(lead.utm_source)}${lead.utm_medium ? '/' + h(lead.utm_medium) : ''}`
+    : 'direct';
+  const time = new Date(lead.created_at || new Date()).toLocaleString('vi-VN', {
+    timeZone: 'Asia/Ho_Chi_Minh',
+    day: '2-digit', month: '2-digit', year: 'numeric',
+    hour: '2-digit', minute: '2-digit',
+  });
+
+  const msgSnippet = lead.message
+    ? `\n💬 ${h(String(lead.message).slice(0, 300))}${lead.message.length > 300 ? '…' : ''}\n`
+    : '';
+
+  const text =
+    `📬 <b>Lead mới — Liên Hệ Trực Tiếp</b>\n\n` +
+    `👤 ${h(lead.fullname || '—')}\n` +
+    `🏢 ${h(lead.org_name || '—')}\n` +
+    `📧 <code>${h(lead.email || '—')}</code>\n` +
+    msgSnippet +
+    `\n🌐 ${lead.language === 'en' ? 'EN' : 'VI'} · 📍 ${h(source)}\n` +
+    `🕐 ${h(time)} · ⏳ PENDING`;
+
+  const tgRes = await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ chat_id: chatId, text, parse_mode: 'HTML' }),
+  });
+  if (!tgRes.ok) {
+    const errBody = await tgRes.text().catch(() => '');
+    console.error(`[telegram] Failed ${tgRes.status}: ${errBody}`);
+  }
+}
+
 // ─── Internal API auth ────────────────────────────────────────────────────────
 
 function isInternalAuthorized(req) {
@@ -2291,6 +2334,54 @@ export default async function handler(req, res) {
         console.error('[internal/leads/ack] Error:', error);
         return res.status(500).json({ error: error.message });
       }
+    }
+
+    // Direct contact form → lead queue + Telegram
+    if (pathname === '/api/contact' && req.method === 'POST') {
+      const body = req.body || {};
+      const {
+        name, email, company, message,
+        language: bodyLang,
+        utm_source, utm_medium, utm_campaign,
+      } = body;
+
+      if (!email && !name) {
+        return res.status(400).json({ error: 'name or email required' });
+      }
+
+      const lang = bodyLang || language || 'vi';
+
+      const lead = {
+        submission_id: null,
+        assessment_id: 'contact',
+        fullname: name || null,
+        email: email || null,
+        org_name: company || null,
+        contact: message ? message.slice(0, 500) : null, // message stored in contact field
+        language: lang,
+        utm_source: utm_source || null,
+        utm_medium: utm_medium || null,
+        utm_campaign: utm_campaign || null,
+      };
+
+      let saved = null;
+      try {
+        saved = await dbInsertLead(lead);
+      } catch (dbErr) {
+        console.error('[contact-form] DB error (non-fatal):', dbErr.message);
+      }
+
+      try {
+        await sendContactFormTelegramAlert({ ...lead, message, created_at: new Date().toISOString(), ...(saved || {}) });
+      } catch (tgErr) {
+        console.error('[contact-form] Telegram error (non-fatal):', tgErr.message);
+      }
+
+      return res.status(200).json({
+        status: 'success',
+        message: lang === 'en' ? 'Contact information received' : 'Đã nhận thông tin liên hệ',
+        lead_id: saved?.id || null,
+      });
     }
 
     return res.status(404).json({ error: 'Not found', path: pathname });

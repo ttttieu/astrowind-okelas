@@ -1,7 +1,7 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
-import ContactUs from '~/components/widgets/Contact.astro';
+import ContactForm from '~/components/widgets/ContactForm.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
@@ -15,39 +15,19 @@ const metadata = {
   <HeroText
     tagline="Giới Thiệu"
     title="Liên Hệ OKELAS"
-    subtitle="Hầu hết cuộc trò chuyện với chúng tôi bắt đầu bằng một câu hỏi, không phải cam kết: "Chúng tôi có thực sự sẵn sàng không?""
+    subtitle="Hầu hết cuộc trò chuyện với chúng tôi bắt đầu bằng một câu hỏi, không phải cam kết."
   />
 
-  <ContactUs
-    id="form"
-    title="Bắt đầu cuộc trò chuyện"
-    subtitle="Nếu bạn đã biết khoảng cách nằm ở đâu, cách nhanh nhất để bắt đầu là đánh giá readiness phù hợp — mất khoảng ba phút và cho bạn kết quả hữu ích dù bạn có nói chuyện với chúng tôi hay không. Nếu bạn chưa chắc bắt đầu từ đâu, hãy mô tả vấn đề bạn đang thấy trên xưởng hoặc trong số liệu, không phải giải pháp bạn nghĩ cần — đó thường là điểm khởi đầu hữu ích hơn cho cả hai bên."
-    inputs={[
-      {
-        type: 'text',
-        name: 'name',
-        label: 'Họ và tên',
-      },
-      {
-        type: 'email',
-        name: 'email',
-        label: 'Email',
-      },
-      {
-        type: 'text',
-        name: 'company',
-        label: 'Doanh nghiệp',
-      },
-    ]}
-    textarea={{
-      label: 'Bạn đang gặp vấn đề gì?',
-    }}
-    disclaimer={{
-      label:
-        'Bằng cách gửi form này, bạn đồng ý để chúng tôi lưu thông tin liên hệ phục vụ cho yêu cầu này.',
-    }}
-    description="Chúng tôi thường phản hồi trong vòng một ngày làm việc."
-  />
+  <section class="py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="max-w-2xl mx-auto text-center mb-8">
+        <p class="text-gray-700 dark:text-gray-300 text-lg leading-relaxed">
+          Nếu bạn đã biết khoảng cách nằm ở đâu, cách nhanh nhất để bắt đầu là đánh giá readiness phù hợp — mất khoảng ba phút và cho bạn kết quả hữu ích dù bạn có nói chuyện với chúng tôi hay không. Nếu bạn chưa chắc bắt đầu từ đâu, hãy mô tả vấn đề bạn đang thấy trên xưởng hoặc trong số liệu — đó thường là điểm khởi đầu hữu ích hơn cho cả hai bên.
+        </p>
+      </div>
+      <ContactForm language="vi" />
+    </div>
+  </section>
 
   <CallToAction
     actions={[
