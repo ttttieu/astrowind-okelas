@@ -818,6 +818,19 @@
         "category": "compliance",
         "url": "/en/insights/compliance/paper-qms-to-eqms"
       }
+    },
+    {
+      "translationId": "iso-9001-eqms-software-requirement",
+      "vi": {
+        "slug": "iso-9001-co-can-phan-mem-qms",
+        "category": "compliance",
+        "url": "/insights/compliance/iso-9001-co-can-phan-mem-qms"
+      },
+      "en": {
+        "slug": "iso-9001-eqms-software-requirement",
+        "category": "compliance",
+        "url": "/en/insights/compliance/iso-9001-eqms-software-requirement"
+      }
     }
   ]
 }
