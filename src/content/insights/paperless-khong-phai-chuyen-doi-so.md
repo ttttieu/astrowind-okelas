@@ -144,8 +144,8 @@ Bước tiếp theo thực tế có thể là: thay vì ghi kết quả kiểm t
 **Đọc thêm:**
 
 - [Doanh nghiệp của bạn đang ở giai đoạn số hóa nào?](/insights/business-operations/giai-doan-so-hoa-doanh-nghiep) *(bài trước)*
-- [Từ DMS đến eQMS đến Knowledge OS — lộ trình thực tế](/insights/business-operations/tu-dms-den-eqms-den-knowledge-os) *(bài tiếp theo)*
-- [DMS và Knowledge Management — tại sao chúng không giống nhau](/insights/business-operations/dms-vs-knowledge-management) *(cross-cluster)*
+- [Từ DMS đến eQMS đến Knowledge OS — lộ trình thực tế](/insights/business-operations/lo-trinh-dms-eqms-knowledge-os) *(bài tiếp theo)*
+- [DMS và Knowledge Management — tại sao chúng không giống nhau](/insights/knowledge-management/dms-va-knowledge-management) *(cross-cluster)*
 - [Chuyển đổi số với manufacturing SME — thực sự là gì](/insights/business-operations/chuyen-doi-so-doanh-nghiep-san-xuat) *(pillar)*
 
 ---

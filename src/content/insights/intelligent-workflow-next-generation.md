@@ -22,7 +22,7 @@ secondaryKeywords:
   - "event-driven workflow"
   - "agentic workflow"
   - "workflow optimization"
-assessmentHref: /readiness/workflow
+assessmentHref: /en/readiness/workflow
 draft: false
 ---
 
@@ -101,7 +101,7 @@ Making event-driven workflow work isn't primarily a technology problem — it de
 
 That's why event-driven workflow isn't a starting point — it's a destination reached after process readiness and data readiness are already in reasonably good shape.
 
-→ *Related: [Process Readiness: The Biggest Risk Before ERP Implementation]*
+→ *Related: [Process Readiness: The Biggest Risk Before ERP Implementation](/en/insights/erp/process-standardization-before-erp)*
 
 ---
 
@@ -120,7 +120,7 @@ Gartner's *Top Strategic Technology Trends for 2025: Agentic AI* report makes a 
 
 For a manufacturing SME, the real question isn't "should we get to level 4." It's: **which level are we actually at, and is the next step appropriate given our current process standardization and evidence maturity?** A company that hasn't standardized levels 1 and 2 but wants to jump to level 4 usually creates operational risk, not value.
 
-→ *Related: [What Is an AI Agent — and What Can It Actually Do in Operations?]*
+→ *Related: [What Is an AI Agent — and What Can It Actually Do in Operations?](/en/insights/ai/ai-agents-for-business)*
 
 ---
 
@@ -142,7 +142,7 @@ McKinsey's *State of AI 2025* research makes a relevant observation here: redesi
 
 A related Deloitte survey on generative AI adoption shows a similarly divided picture: only about 34% of surveyed organizations say they are truly reimagining how they operate, about 30% are redesigning key processes around AI, while about 37% are still using AI at a surface level with little or no change to existing processes (Deloitte, State of Generative AI in the Enterprise). That line is exactly the line between "having AI" and "operating more intelligently because of AI."
 
-→ *Related: [AI Agents in Workflow: Where Automation Ends and Agentic AI Begins]*
+→ *Related: [AI Agents in Workflow: Where Automation Ends and Agentic AI Begins](/en/insights/workflow/agentic-workflow)*
 
 ---
 
@@ -177,7 +177,7 @@ If your company shows **5 or more of the 8 signs** below, the issue is likely no
 7. You've tried AI somewhere in the business, but it isn't attached to a specific workflow.
 8. You have no way to explain a three-month-old operational decision, with evidence, if someone asks.
 
-**→ Complete the [Workflow Readiness Assessment] to understand which level your organization is actually at — and what the next economically sensible step looks like.**
+**→ Complete the [Workflow Readiness Assessment](/en/readiness/workflow) to understand which level your organization is actually at — and what the next economically sensible step looks like.**
 
 ---
 
@@ -192,10 +192,10 @@ This is also why OKELAS treats workflow not as a standalone software feature, bu
 *This article is part of a series on workflow, AI adoption, and operational management for manufacturing SMEs.*
 
 **Related articles:**
-- [What Is an AI Agent — and What Can It Actually Do in Operations?]
-- [AI Agents in Workflow: Where Automation Ends and Agentic AI Begins]
-- [Process Readiness: The Biggest Risk Before ERP Implementation]
-- [Event-Driven Workflow: How Organizations React to Events Instead of Waiting]
-- [Organizational Knowledge and Workflow: Why Most AI Fails Without It]
+- [What Is an AI Agent — and What Can It Actually Do in Operations?](/en/insights/ai/ai-agents-for-business)
+- [AI Agents in Workflow: Where Automation Ends and Agentic AI Begins](/en/insights/workflow/agentic-workflow)
+- [Process Readiness: The Biggest Risk Before ERP Implementation](/en/insights/erp/process-standardization-before-erp)
+- [Event-Driven Workflow: How Organizations React to Events Instead of Waiting](/en/insights/workflow/event-driven-workflow)
+- [Organizational Knowledge and Workflow: Why Most AI Fails Without It](/en/insights/workflow/context-aware-workflow)
 
-**→ [Complete the Workflow Readiness Assessment]**
+**→ [Complete the Workflow Readiness Assessment](/en/readiness/workflow)**

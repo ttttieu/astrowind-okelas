@@ -85,7 +85,7 @@ That ratio — not the software count — reflects the real state of digitalizat
 
 - [The 5 Stages of Business Digitalization: Where Are You?](/en/insights/business-operations/digital-maturity-levels) *(previous)*
 - [Paperless Is Not Digital Transformation: Here's the Distinction That Matters](/en/insights/business-operations/paperless-vs-digital-transformation) *(related)*
-- [From DMS to eQMS to Knowledge OS — A Practical Progression](/en/insights/business-operations/dms-to-eqms-to-knowledge-os)
+- [From DMS to eQMS to Knowledge OS — A Practical Progression](/en/insights/business-operations/dms-eqms-knowledge-os-roadmap)
 - [Digital Transformation for Manufacturing SMEs — What It Actually Means](/en/insights/business-operations/digital-transformation-manufacturing-sme) *(pillar)*
 
 ---

@@ -85,7 +85,7 @@ Tỷ lệ đó — không phải số phần mềm — phản ánh thực trạn
 
 - [Doanh nghiệp của bạn đang ở giai đoạn số hóa nào?](/insights/business-operations/giai-doan-so-hoa-doanh-nghiep) *(bài trước)*
 - [Paperless không phải chuyển đổi số — và đây là sự khác biệt](/insights/business-operations/paperless-khong-phai-chuyen-doi-so) *(liên quan)*
-- [Từ DMS đến eQMS đến Knowledge OS — lộ trình thực tế](/insights/business-operations/tu-dms-den-eqms-den-knowledge-os)
+- [Từ DMS đến eQMS đến Knowledge OS — lộ trình thực tế](/insights/business-operations/lo-trinh-dms-eqms-knowledge-os)
 - [Chuyển đổi số với manufacturing SME — thực sự là gì](/insights/business-operations/chuyen-doi-so-doanh-nghiep-san-xuat) *(pillar)*
 
 ---

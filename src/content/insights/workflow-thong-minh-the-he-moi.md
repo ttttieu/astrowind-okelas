@@ -101,7 +101,7 @@ Ví dụ về sự kiện: một cảm biến ghi nhận nhiệt độ vượt n
 
 Đây là lý do vì sao event-driven workflow không phải điểm bắt đầu — nó là điểm đến sau khi doanh nghiệp đã có process readiness và data readiness ở mức đủ tốt.
 
-→ *Xem thêm: [Quy trình chưa chuẩn hóa — rủi ro lớn nhất trước khi triển khai ERP]*
+→ *Xem thêm: [Quy trình chưa chuẩn hóa — rủi ro lớn nhất trước khi triển khai ERP](/insights/erp/chuan-hoa-quy-trinh-truoc-erp)*
 
 ---
 
@@ -120,7 +120,7 @@ Gartner, trong báo cáo *Top Strategic Technology Trends for 2025: Agentic AI*,
 
 Vấn đề với manufacturing SME không phải là "có nên đi đến mức 4 không", mà là: **doanh nghiệp đang thực sự ở mức nào, và bước tiếp theo có phù hợp với mức độ chuẩn hóa quy trình và evidence hiện có hay không?** Một doanh nghiệp chưa chuẩn hóa được mức 1 và 2 mà đã muốn triển khai mức 4 thường sẽ tạo ra rủi ro vận hành, không phải giá trị.
 
-→ *Xem thêm: [AI Agent là gì — và thực sự có thể làm gì trong vận hành doanh nghiệp?]*
+→ *Xem thêm: [AI Agent là gì — và thực sự có thể làm gì trong vận hành doanh nghiệp?](/insights/ai/ai-agent-doanh-nghiep)*
 
 ---
 
@@ -142,7 +142,7 @@ Nghiên cứu *State of AI 2025* của McKinsey đưa ra một quan sát quan tr
 
 Một khảo sát khác của Deloitte về mức độ ứng dụng generative AI trong doanh nghiệp cho thấy bức tranh phân hóa rõ: chỉ khoảng 34% tổ chức được khảo sát nói rằng họ thực sự đang tái hình dung lại cách vận hành, khoảng 30% đang thiết kế lại các quy trình trọng yếu xoay quanh AI, trong khi khoảng 37% vẫn chỉ dùng AI ở mức bề mặt mà gần như không thay đổi quy trình hiện có (Deloitte, State of Generative AI in the Enterprise). Ranh giới giữa ba nhóm này chính là ranh giới giữa "có AI" và "vận hành thông minh hơn nhờ AI".
 
-→ *Xem thêm: [AI Agent trong workflow: ranh giới giữa automation và agentic AI]*
+→ *Xem thêm: [AI Agent trong workflow: ranh giới giữa automation và agentic AI](/insights/workflow/tu-automation-den-agentic-workflow)*
 
 ---
 
@@ -177,7 +177,7 @@ Nếu doanh nghiệp của bạn có từ **5/8 dấu hiệu** dưới đây, v�
 7. Doanh nghiệp đã thử dùng AI ở đâu đó, nhưng không gắn với một workflow cụ thể.
 8. Không có cách nào để giải thích lại một quyết định vận hành đã xảy ra ba tháng trước, kèm evidence.
 
-**→ Làm [Workflow Readiness Assessment] để biết workflow của doanh nghiệp đang ở level nào và đâu là bước tiếp theo có ý nghĩa kinh tế.**
+**→ Làm [Workflow Readiness Assessment](/readiness/workflow) để biết workflow của doanh nghiệp đang ở level nào và đâu là bước tiếp theo có ý nghĩa kinh tế.**
 
 ---
 
@@ -192,10 +192,10 @@ Vấn đề thực sự không phải là "doanh nghiệp có workflow hay khôn
 *Bài viết này là một phần của chuỗi chuyên đề về workflow, ứng dụng AI và quản trị vận hành cho doanh nghiệp sản xuất SME.*
 
 **Bài liên quan:**
-- [AI Agent là gì — và thực sự có thể làm gì trong vận hành doanh nghiệp?]
-- [AI Agent trong workflow: ranh giới giữa automation và agentic AI]
-- [Quy trình chưa chuẩn hóa — rủi ro lớn nhất trước khi triển khai ERP]
-- [Event-driven workflow: cách tổ chức phản ứng với sự kiện thay vì chờ đợi]
-- [Organizational knowledge và workflow: tại sao phần lớn AI thất bại vì thiếu tri thức tổ chức]
+- [AI Agent là gì — và thực sự có thể làm gì trong vận hành doanh nghiệp?](/insights/ai/ai-agent-doanh-nghiep)
+- [AI Agent trong workflow: ranh giới giữa automation và agentic AI](/insights/workflow/tu-automation-den-agentic-workflow)
+- [Quy trình chưa chuẩn hóa — rủi ro lớn nhất trước khi triển khai ERP](/insights/erp/chuan-hoa-quy-trinh-truoc-erp)
+- [Event-driven workflow: cách tổ chức phản ứng với sự kiện thay vì chờ đợi](/insights/workflow/event-driven-workflow-la-gi)
+- [Organizational knowledge và workflow: tại sao phần lớn AI thất bại vì thiếu tri thức tổ chức](/insights/workflow/workflow-biet-context-to-chuc)
 
-**→ [Làm Workflow Readiness Assessment]**
+**→ [Làm Workflow Readiness Assessment](/readiness/workflow)**

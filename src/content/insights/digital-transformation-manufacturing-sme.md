@@ -210,21 +210,21 @@ These small steps, done correctly and in the right sequence, are real digital tr
 ## Further reading in this cluster
 
 **On the stages:**
-- [Which Digitalization Stage Is Your Business At?](/en/insights/business-operations/digitalization-stages-assessment)
+- [Which Digitalization Stage Is Your Business At?](/en/insights/business-operations/digital-maturity-levels)
 - [Paperless Is Not Digital Transformation — Here's the Difference](/en/insights/business-operations/paperless-vs-digital-transformation)
-- [Why Having More Software Doesn't Mean You've Digitalized](/en/insights/business-operations/more-software-not-digitalized)
+- [Why Having More Software Doesn't Mean You've Digitalized](/en/insights/business-operations/software-tools-not-digitalization)
 
 **On the roadmap:**
-- [From DMS to eQMS to Knowledge OS — A Practical Progression](/en/insights/business-operations/dms-to-eqms-to-knowledge-os)
+- [From DMS to eQMS to Knowledge OS — A Practical Progression](/en/insights/business-operations/dms-eqms-knowledge-os-roadmap)
 - [What Is Progressive eQMS — and Why Not to Start With a Complete System](/en/solutions/progressive-eqms)
-- [The Next Economically Meaningful Step — A Self-Assessment Framework for CEOs](/en/insights/business-operations/next-economically-meaningful-step)
+- [The Next Economically Meaningful Step — A Self-Assessment Framework for CEOs](/en/insights/business-operations/next-step-digitalization-roi)
 
 **On cost and risk:**
-- [The Real Cost of Not Digitalizing — What Organizations Don't Calculate](/en/insights/business-operations/true-cost-of-not-digitalizing)
-- [The Large Digital Transformation Project Trap — Why Many Businesses Fail](/en/insights/business-operations/large-digital-transformation-trap)
+- [The Real Cost of Not Digitalizing — What Organizations Don't Calculate](/en/insights/business-operations/cost-of-not-digitalizing)
+- [The Large Digital Transformation Project Trap — Why Many Businesses Fail](/en/insights/business-operations/digital-transformation-project-failure)
 
 **Cross-cluster:**
-- [Why ERP Is Not Transformation](/en/insights/erp/why-erp-is-not-transformation) *(Cluster 1 — ERP)*
+- [Why ERP Projects Fail](/en/insights/erp/why-erp-projects-fail) *(Cluster 1 — ERP)*
 - [From Individual Knowledge to Organizational Knowledge](/en/insights/knowledge-management/knowledge-management-manufacturing) *(Cluster 3 — KM)*
 
 ---

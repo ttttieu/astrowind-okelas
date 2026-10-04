@@ -144,8 +144,8 @@ That is the real difference between "information that's stored" and "information
 **Further reading:**
 
 - [The 5 Stages of Business Digitalization: Where Are You?](/en/insights/business-operations/digital-maturity-levels) *(previous)*
-- [From DMS to eQMS to Knowledge OS — A Practical Progression](/en/insights/business-operations/dms-to-eqms-to-knowledge-os) *(next)*
-- [DMS vs. Knowledge Management — Why They're Not the Same](/en/insights/business-operations/dms-vs-knowledge-management) *(cross-cluster)*
+- [From DMS to eQMS to Knowledge OS — A Practical Progression](/en/insights/business-operations/dms-eqms-knowledge-os-roadmap) *(next)*
+- [DMS vs. Knowledge Management — Why They're Not the Same](/en/insights/knowledge-management/dms-vs-knowledge-management) *(cross-cluster)*
 - [Digital Transformation for Manufacturing SMEs — What It Actually Means](/en/insights/business-operations/digital-transformation-manufacturing-sme) *(pillar)*
 
 ---
