@@ -10,6 +10,8 @@
  */
 import Layout from '~/layouts/PageLayout.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
+import ArticleVote from '~/components/widgets/ArticleVote.astro';
+import ArticleShare from '~/components/widgets/ArticleShare.astro';
 import { trimSlash } from '~/utils/permalinks';
 
 export interface Props {
@@ -107,6 +109,9 @@ const clusterHref: Record<string, string> = Object.fromEntries(
   Object.entries(clusterHrefBase).map(([key, value]) => [key, addLanguagePrefix(value)])
 );
 
+// Derive article slug from URL for vote tracking
+const articleSlug = Astro.url.pathname.split('/').filter(Boolean).pop() ?? 'unknown';
+
 // Add language prefix to CTA hrefs
 const ctaPrimaryHrefWithLang = ctaPrimaryHref ? addLanguagePrefix(ctaPrimaryHref) : undefined;
 const ctaSecondaryHrefWithLang = ctaSecondaryHref ? addLanguagePrefix(ctaSecondaryHref) : undefined;
@@ -187,8 +192,12 @@ const selfAssessmentHrefWithLang = selfAssessmentHref ? addLanguagePrefix(selfAs
             Take the {selfAssessmentAssessmentName} →
           </a>
         )}
+        <ArticleVote articleSlug={articleSlug} cluster={cluster} lang={currentLanguage} />
       </div>
     )}
+
+    <!-- Share buttons -->
+    <ArticleShare lang={currentLanguage} />
 
     <!-- Block 7: Conclusion — part of main body slot, no separate block needed -->
 
