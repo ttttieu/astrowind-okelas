@@ -863,10 +863,8 @@ async function sendTelegramAlert(lead) {
 
   const h = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
+  const isAI = lead.assessment_id === 'ai_readiness';
   const typeName = lead.assessment_id === 'erp_readiness' ? 'ERP Readiness' : 'AI Readiness';
-  const levelText = lead.assessment_level
-    ? `L${lead.assessment_level} — ${h(lead.assessment_label)}`
-    : '—';
   const source = lead.utm_source
     ? `${h(lead.utm_source)}${lead.utm_medium ? '/' + h(lead.utm_medium) : ''}`
     : 'direct';
@@ -876,14 +874,38 @@ async function sendTelegramAlert(lead) {
     hour: '2-digit', minute: '2-digit',
   });
 
+  // Level line — append readiness index if available
+  let levelLine = lead.assessment_level
+    ? `L${lead.assessment_level} — ${h(lead.assessment_label || '—')}`
+    : '—';
+  if (lead.assessment_readiness_index != null) {
+    levelLine += ` (${lead.assessment_readiness_index}%)`;
+  }
+
+  // Archetype — prefer human-readable label over code
+  const archetypeDisplay = lead.assessment_archetype_label || lead.assessment_archetype || '—';
+
+  // AI gap label (e.g., "AI đang chạy trước nền")
+  const gapLine = isAI && lead.assessment_gap_label
+    ? `↕ ${h(lead.assessment_gap_label)}\n`
+    : '';
+
+  // Critical flags (e.g., "F1, F3")
+  const flags = Array.isArray(lead.assessment_critical_flags) ? lead.assessment_critical_flags : [];
+  const flagsLine = flags.length > 0
+    ? `⚑ ${flags.join(', ')}\n`
+    : '';
+
   const text =
     `🔔 <b>Lead mới — ${h(typeName)}</b>\n\n` +
     `👤 ${h(lead.fullname || '—')}\n` +
     `🏢 ${h(lead.org_name || '—')} · ${h(lead.role || '—')}\n` +
     `📞 <code>${h(lead.contact || '—')}</code>\n\n` +
-    `📊 ${h(levelText)}\n` +
-    `🔑 ${h(lead.assessment_archetype || '—')}\n\n` +
-    `🌐 ${lead.language === 'en' ? 'EN' : 'VI'} · 📍 ${h(source)}\n` +
+    `📊 ${h(levelLine)}\n` +
+    gapLine +
+    `🔑 ${h(archetypeDisplay)}\n` +
+    flagsLine +
+    `\n🌐 ${lead.language === 'en' ? 'EN' : 'VI'} · 📍 ${h(source)}\n` +
     `🕐 ${h(time)} · ⏳ PENDING`;
 
   const tgRes = await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
@@ -1165,11 +1187,14 @@ export default async function handler(req, res) {
         submission_id, assessment_id, org_name, role, fullname, contact,
         language: bodyLang,
         assessment_level, assessment_label, assessment_archetype,
+        assessment_archetype_label, assessment_critical_flags,
+        assessment_gap_label, assessment_readiness_index,
         utm_source, utm_medium, utm_campaign,
       } = body;
 
       if (!assessment_id) return res.status(400).json({ error: 'assessment_id required' });
 
+      // Only columns that exist in the leads table schema
       const lead = {
         submission_id: submission_id || null,
         assessment_id,
@@ -1186,6 +1211,14 @@ export default async function handler(req, res) {
         utm_campaign: utm_campaign || null,
       };
 
+      // Extra context for Telegram only (not in DB schema)
+      const telegramContext = {
+        assessment_archetype_label: assessment_archetype_label || null,
+        assessment_critical_flags: Array.isArray(assessment_critical_flags) ? assessment_critical_flags : [],
+        assessment_gap_label: assessment_gap_label || null,
+        assessment_readiness_index: assessment_readiness_index != null ? Number(assessment_readiness_index) : null,
+      };
+
       // Save to Supabase — failure is logged but does NOT block Telegram
       let saved = null;
       try {
@@ -1196,7 +1229,12 @@ export default async function handler(req, res) {
 
       // Telegram is awaited so Vercel does not terminate before the request completes
       try {
-        await sendTelegramAlert({ ...lead, created_at: new Date().toISOString(), ...(saved || {}) });
+        await sendTelegramAlert({
+          ...lead,
+          ...telegramContext,
+          created_at: new Date().toISOString(),
+          ...(saved || {}),
+        });
       } catch (tgErr) {
         console.error('[contact] Telegram error (non-fatal):', tgErr.message);
       }

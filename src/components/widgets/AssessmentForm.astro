@@ -482,6 +482,10 @@ const { assessmentId, language } = Astro.props;
             assessment_level: this.resultData?.level ?? null,
             assessment_label: this.resultData?.label ?? null,
             assessment_archetype: this.resultData?.archetype ?? null,
+            assessment_archetype_label: this.resultData?.archetype_label ?? null,
+            assessment_critical_flags: this.resultData?.critical_flags ?? [],
+            assessment_gap_label: this.resultData?.gap_label ?? null,
+            assessment_readiness_index: this.resultData?.readiness_index ?? null,
             // UTM tracking
             utm_source: utmParams.get('utm_source') || null,
             utm_medium: utmParams.get('utm_medium') || null,
