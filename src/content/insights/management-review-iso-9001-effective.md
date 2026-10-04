@@ -156,7 +156,7 @@ What an eQMS changes is how much the inputs **depend on manual compilation**:
 
 A risk to watch: a handsome dashboard can create a feeling of "reviewed" without a discussion about what needs deciding. Data quality matters too: if data from the components isn't reliable, neither are the review's inputs.
 
-When data from many sources flows into one stream, management review starts to have the conditions to become what the standard describes: where data turns into decisions. An approach that brings documents, processes and evidence into a single flow is covered in the next article in this series. And when operational data, such as data from an ERP, also has to feed management decisions, the broader question is [what a company should do to use ERP data after implementation](/en/insights/erp/using-erp-data-after-implementation).
+When data from many sources flows into one stream, management review starts to have the conditions to become what the standard describes: where data turns into decisions. An approach that brings documents, processes and evidence into a single flow is covered in the next article in this series. And when operational data, such as data from an ERP, also has to feed management decisions, the broader question is [what a company should do to use ERP data after implementation](/en/insights/erp/how-to-use-erp-data).
 
 ---
 
@@ -195,7 +195,7 @@ This article refers to ISO 9001:2015. According to certification bodies, a revis
 
 - [ISO 9001 Clause 6 Risk Management: What's Actually Required](/en/insights/compliance/iso-9001-risk-management-clause-6) *(previous)*
 - [How OKELAS Organizes eQMS: Document, Evidence, Audit Trail](/en/insights/compliance/okelas-eqms-approach) *(next)*
-- [After ERP: What Should a Company Do to Use Its ERP Data?](/en/insights/erp/using-erp-data-after-implementation) *(related)*
+- [After ERP: What Should a Company Do to Use Its ERP Data?](/en/insights/erp/how-to-use-erp-data) *(related)*
 - [eQMS for Manufacturing SMEs: A Practical Guide](/en/insights/compliance/eqms-for-manufacturing-sme) *(pillar)*
 
 **Sources:**

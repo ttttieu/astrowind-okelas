@@ -174,7 +174,7 @@ Bài viết tham chiếu ISO 9001:2015. Theo thông tin từ các tổ chức ch
 
 - [CAPA hiệu quả — tại sao corrective action hay bị xử lý sai](/insights/compliance/capa-iso-9001-hieu-qua) *(bài trước)*
 - [Internal audit không phải kỳ thi — cách tổ chức audit có giá trị thực](/insights/compliance/internal-audit-iso-9001-hieu-qua) *(bài tiếp theo)*
-- [Evidence-based AI: khi câu trả lời cần có khả năng kiểm chứng](/insights/ai-readiness/evidence-based-ai) *(bài liên quan)*
+- [Evidence-based AI: khi câu trả lời cần có khả năng kiểm chứng](/insights/ai/evidence-based-ai-kiem-chung) *(bài liên quan)*
 - [eQMS cho doanh nghiệp sản xuất — hướng dẫn thực hành](/insights/compliance/eqms-cho-doanh-nghiep-san-xuat) *(pillar)*
 
 **Nguồn tham khảo:**

@@ -169,8 +169,8 @@ Các tham chiếu trong bài dựa trên ISO 9001:2015. Theo thông tin từ cá
 
 - [Management review ISO 9001 — tại sao buổi họp này thường lãng phí](/insights/compliance/management-review-iso-9001) *(bài trước)*
 - [Evidence trong eQMS: khi mỗi hành động cần có thể kiểm chứng được](/insights/compliance/evidence-eqms-kiem-chung) *(bài tiếp theo)*
-- [Evidence-based AI: khi câu trả lời cần có khả năng kiểm chứng](/insights/ai-readiness/evidence-based-ai) *(bài liên quan)*
-- [AI reasoning và sự thật của tổ chức](/insights/ai-readiness/ai-reasoning-va-su-that-to-chuc) *(bài liên quan)*
+- [Evidence-based AI: khi câu trả lời cần có khả năng kiểm chứng](/insights/ai/evidence-based-ai-kiem-chung) *(bài liên quan)*
+- [AI reasoning và sự thật của tổ chức](/insights/ai/ai-ly-luan-vs-su-that-to-chuc) *(bài liên quan)*
 - [eQMS cho doanh nghiệp sản xuất — hướng dẫn thực hành](/insights/compliance/eqms-cho-doanh-nghiep-san-xuat) *(pillar)*
 
 **Nguồn tham khảo:**

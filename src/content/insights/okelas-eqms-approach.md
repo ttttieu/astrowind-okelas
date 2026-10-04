@@ -169,8 +169,8 @@ References in this article are to ISO 9001:2015. According to certification bodi
 
 - [Management Review in ISO 9001: Why the Meeting Rarely Works — and How to Change That](/en/insights/compliance/management-review-iso-9001-effective) *(previous)*
 - [Evidence in eQMS: What It Means for Every Action to Be Verifiable](/en/insights/compliance/eqms-evidence-traceability) *(next)*
-- [Evidence-Based AI: When Answers Need to Be Verifiable](/en/insights/ai-readiness/evidence-based-ai) *(related)*
-- [AI Reasoning vs. Organizational Truth](/en/insights/ai-readiness/ai-reasoning-vs-organizational-truth) *(related)*
+- [Evidence-Based AI: When Answers Need to Be Verifiable](/en/insights/ai/evidence-based-ai) *(related)*
+- [AI Reasoning vs. Organizational Truth](/en/insights/ai/ai-reasoning-vs-organizational-truth) *(related)*
 - [eQMS for Manufacturing SMEs: A Practical Guide](/en/insights/compliance/eqms-for-manufacturing-sme) *(pillar)*
 
 **Sources:**

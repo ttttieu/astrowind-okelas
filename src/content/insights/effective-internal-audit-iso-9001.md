@@ -135,7 +135,7 @@ Two practices worth adopting:
 
 **Measure whether audits lead to change.** The number of findings matters less than how many lead to real change in documents, processes, training or equipment.
 
-If you're interested in the external-audit side, see also [why audit preparation takes weeks](/en/insights/knowledge-management/audit-preparation-weeks).
+If you're interested in the external-audit side, see also [why audit preparation takes weeks](/en/insights/knowledge-management/why-audit-preparation-takes-so-long).
 
 ---
 
@@ -192,8 +192,8 @@ This article refers to ISO 9001:2015. According to certification bodies, a revis
 
 - [Nonconformance in ISO 9001: More Than an Error Report](/en/insights/compliance/nonconformance-iso-9001-management) *(previous)*
 - [Training Records vs. Employee Competence: What ISO 9001 Clause 7.2 Actually Requires](/en/insights/compliance/iso-9001-training-records-competence) *(next)*
-- [Audit Preparation: Why It Takes Weeks](/en/insights/knowledge-management/audit-preparation-weeks) *(related)*
-- [AI and Compliance: What ISO/GMP Companies Should Consider](/en/insights/ai-readiness/ai-compliance-iso-gmp) *(related)*
+- [Audit Preparation: Why It Takes Weeks](/en/insights/knowledge-management/why-audit-preparation-takes-so-long) *(related)*
+- [AI and Compliance: What ISO/GMP Companies Should Consider](/en/insights/ai/ai-compliance-iso-gmp-manufacturing) *(related)*
 - [eQMS for Manufacturing SMEs: A Practical Guide](/en/insights/compliance/eqms-for-manufacturing-sme) *(pillar)*
 
 **Sources:**

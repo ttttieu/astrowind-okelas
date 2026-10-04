@@ -169,9 +169,9 @@ That answer determines whether RAG is a destination or a starting point in the o
 
 **Further reading:**
 
-- [Data Without Context — Why AI Can't Use It](/en/insights/ai/data-without-context) *(next article)*
-- [AI Agents in the Enterprise — Not a Chatbot, Not a Person](/en/insights/ai/ai-agents-in-the-enterprise)
-- [Knowledge Graph in the Enterprise — Organizing Knowledge, Not Just Storing It](/en/insights/ai/knowledge-graph-in-the-enterprise)
+- [Data Without Context — Why AI Can't Use It](/en/insights/ai/data-without-context-ai-problem) *(next article)*
+- [AI Agents in the Enterprise — Not a Chatbot, Not a Person](/en/insights/ai/ai-agents-for-business)
+- [Knowledge Graph in the Enterprise — Organizing Knowledge, Not Just Storing It](/en/insights/knowledge-management/knowledge-graph-for-business)
 - [Organizational AI Readiness — Why AI Alone Won't Make Your Organization More Intelligent](/en/insights/ai/organizational-ai-readiness) *(pillar)*
 
 ---

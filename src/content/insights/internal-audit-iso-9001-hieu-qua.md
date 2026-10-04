@@ -135,7 +135,7 @@ Hai điều nên đưa vào thực hành:
 
 **Đo xem audit dẫn tới thay đổi.** Số phát hiện không quan trọng bằng việc bao nhiêu phát hiện dẫn tới thay đổi thực sự trong tài liệu, quy trình, đào tạo hay thiết bị.
 
-Nếu quan tâm tới phía chuẩn bị cho đánh giá bên ngoài, xem thêm [tại sao chuẩn bị audit mất nhiều tuần](/insights/knowledge-management/chuan-bi-audit-mat-nhieu-tuan).
+Nếu quan tâm tới phía chuẩn bị cho đánh giá bên ngoài, xem thêm [tại sao chuẩn bị audit mất nhiều tuần](/insights/knowledge-management/chuan-bi-audit-iso-mat-nhieu-thoi-gian).
 
 ---
 
@@ -192,8 +192,8 @@ Bài viết tham chiếu ISO 9001:2015. Theo thông tin từ các tổ chức ch
 
 - [Nonconformance không phải báo cáo lỗi — cách tiếp cận đúng](/insights/compliance/nonconformance-iso-9001) *(bài trước)*
 - [Training records và năng lực nhân viên — những gì ISO thực sự yêu cầu](/insights/compliance/training-records-iso-9001) *(bài tiếp theo)*
-- [Audit preparation: tại sao chuẩn bị mất nhiều tuần](/insights/knowledge-management/chuan-bi-audit-mat-nhieu-tuan) *(bài liên quan)*
-- [AI và compliance: doanh nghiệp ISO/GMP cần lưu ý gì](/insights/ai-readiness/ai-va-compliance-iso-gmp) *(bài liên quan)*
+- [Audit preparation: tại sao chuẩn bị mất nhiều tuần](/insights/knowledge-management/chuan-bi-audit-iso-mat-nhieu-thoi-gian) *(bài liên quan)*
+- [AI và compliance: doanh nghiệp ISO/GMP cần lưu ý gì](/insights/ai/ai-iso-gmp-compliance) *(bài liên quan)*
 - [eQMS cho doanh nghiệp sản xuất — hướng dẫn thực hành](/insights/compliance/eqms-cho-doanh-nghiep-san-xuat) *(pillar)*
 
 **Nguồn tham khảo:**

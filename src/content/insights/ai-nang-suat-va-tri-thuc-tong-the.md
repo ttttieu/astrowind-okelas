@@ -179,8 +179,8 @@ Câu hỏi đặt ra không phải *"chúng ta có nên dùng AI không"*. Câu 
 **Đọc thêm:**
 
 - [AI Giúp Nhân Viên Viết Nhanh Hơn — Nhưng Doanh Nghiệp Có Xử Lý Được Nhiều Hơn Không?](/insights/ai/ai-tang-nang-suat-doanh-nghiep) *(bài trước)*
-- [AI Readiness: 6 Điều Kiện Để AI Thực Sự Có Ích Trong Vận Hành](/insights/ai/ai-readiness-6-dieu-kien) *(bài sau)*
-- [Organizational AI: Khi AI Hiểu Doanh Nghiệp Thay Vì Chỉ Trả Lời Câu Hỏi](/insights/ai/organizational-ai)
+- [AI Readiness: 6 Điều Kiện Để AI Thực Sự Có Ích Trong Vận Hành](/insights/ai/dieu-kien-trien-khai-ai-van-hanh) *(bài sau)*
+- [Organizational AI: Khi AI Hiểu Doanh Nghiệp Thay Vì Chỉ Trả Lời Câu Hỏi](/insights/ai/organizational-ai-doanh-nghiep)
 - [AI Readiness — Tại Sao AI Không Tự Động Làm Doanh Nghiệp Thông Minh Hơn](/insights/ai/ai-readiness-doanh-nghiep) *(pillar)*
 
 ---

@@ -84,7 +84,7 @@ Complexity doesn't come only from software. It comes from doing too much at once
 - **Let floor users try it** before deciding, because a system they find annoying won't get used.
 - **Limit customization early on.** The more bespoke the configuration, the higher the cost of maintenance and upgrades.
 
-This step-by-step approach is the foundation of progressive eQMS thinking; see [What Is Progressive eQMS](/en/insights/digitalization/progressive-eqms).
+This step-by-step approach is the foundation of progressive eQMS thinking; see [What Is Progressive eQMS](/en/insights/business-operations/progressive-eqms-implementation).
 
 ---
 
@@ -112,7 +112,7 @@ If you can answer questions 1 and 2 clearly, you already have a way to filter mo
 
 - [ISO 9001 Doesn't Require QMS Software — So Why Does eQMS Still Matter?](/en/insights/compliance/iso-9001-eqms-software-requirement) *(previous)*
 - [Document Control in eQMS: What It Really Means to Control a Document](/en/insights/compliance/document-control-iso-9001-eqms) *(next)*
-- [What Is Progressive eQMS](/en/insights/digitalization/progressive-eqms) *(related)*
+- [What Is Progressive eQMS](/en/insights/business-operations/progressive-eqms-implementation) *(related)*
 - [eQMS for Manufacturing SMEs: A Practical Guide](/en/insights/compliance/eqms-for-manufacturing-sme) *(pillar)*
 
 ---

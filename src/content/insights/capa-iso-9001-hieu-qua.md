@@ -165,7 +165,7 @@ Bài viết tham chiếu ISO 9001:2015. Theo thông tin từ các tổ chức ch
 
 - [Document control trong eQMS — kiểm soát tài liệu thực sự nghĩa là gì](/insights/compliance/document-control-iso-9001) *(bài trước)*
 - [Nonconformance không phải báo cáo lỗi — cách tiếp cận đúng](/insights/compliance/nonconformance-iso-9001) *(bài tiếp theo)*
-- [Evidence-based AI: khi câu trả lời cần có khả năng kiểm chứng](/insights/ai-readiness/evidence-based-ai) *(bài liên quan)*
+- [Evidence-based AI: khi câu trả lời cần có khả năng kiểm chứng](/insights/ai/evidence-based-ai-kiem-chung) *(bài liên quan)*
 - [eQMS cho doanh nghiệp sản xuất — hướng dẫn thực hành](/insights/compliance/eqms-cho-doanh-nghiep-san-xuat) *(pillar)*
 
 **Nguồn tham khảo:**

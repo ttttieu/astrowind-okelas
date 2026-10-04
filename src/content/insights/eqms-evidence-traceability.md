@@ -125,7 +125,7 @@ The approach OKELAS follows is captured in the principle of **evidence-by-design
 
 **Make it traceable.** From one event you can follow the related chain, the Explain → Evidence → Trace principle OKELAS uses throughout.
 
-This principle carries a broader meaning in the context of AI. An AI assistant answering questions about the quality system without being able to point to evidence gives an answer that can't be trusted or checked. For organizations bound by ISO or GMP requirements, that is a concrete reason for structured evidence to come before AI, not after. This is analyzed separately in [Evidence-Based AI](/en/insights/ai-readiness/evidence-based-ai) and [AI Reasoning vs. Organizational Truth](/en/insights/ai-readiness/ai-reasoning-vs-organizational-truth).
+This principle carries a broader meaning in the context of AI. An AI assistant answering questions about the quality system without being able to point to evidence gives an answer that can't be trusted or checked. For organizations bound by ISO or GMP requirements, that is a concrete reason for structured evidence to come before AI, not after. This is analyzed separately in [Evidence-Based AI](/en/insights/ai/evidence-based-ai) and [AI Reasoning vs. Organizational Truth](/en/insights/ai/ai-reasoning-vs-organizational-truth).
 
 The limits need stating plainly, because an article on evidence that isn't honest about its limits contradicts itself.
 
@@ -174,9 +174,9 @@ References in this article are to ISO 9001:2015. According to certification bodi
 
 - [How OKELAS Organizes eQMS: Document, Evidence, Audit Trail](/en/insights/compliance/okelas-eqms-approach) *(previous)*
 - [From eQMS to Knowledge OS: What Comes After Digital Quality Management](/en/insights/compliance/eqms-to-knowledge-os) *(next)*
-- [Evidence-Based AI: When Answers Need to Be Verifiable](/en/insights/ai-readiness/evidence-based-ai) *(related)*
-- [AI Reasoning vs. Organizational Truth](/en/insights/ai-readiness/ai-reasoning-vs-organizational-truth) *(related)*
-- [Audit Preparation: Why It Takes Weeks](/en/insights/knowledge-management/audit-preparation-weeks) *(related)*
+- [Evidence-Based AI: When Answers Need to Be Verifiable](/en/insights/ai/evidence-based-ai) *(related)*
+- [AI Reasoning vs. Organizational Truth](/en/insights/ai/ai-reasoning-vs-organizational-truth) *(related)*
+- [Audit Preparation: Why It Takes Weeks](/en/insights/knowledge-management/why-audit-preparation-takes-so-long) *(related)*
 - [eQMS for Manufacturing SMEs: A Practical Guide](/en/insights/compliance/eqms-for-manufacturing-sme) *(pillar)*
 
 **Sources:**

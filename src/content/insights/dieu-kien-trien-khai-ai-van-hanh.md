@@ -64,7 +64,7 @@ Doanh nghiệp có thể mạnh ở một số chiều và yếu ở chiều kh�
 
 Hai loại dữ liệu cần phân biệt rõ.
 
-Loại thứ nhất: **dữ liệu tĩnh** — tài liệu, SOP, quy trình, chính sách. Loại này đã được nhiều chatbot RAG xử lý tốt (xem [bài về RAG](/insights/ai/rag-limitations-enterprise-ai-vi)).
+Loại thứ nhất: **dữ liệu tĩnh** — tài liệu, SOP, quy trình, chính sách. Loại này đã được nhiều chatbot RAG xử lý tốt (xem [bài về RAG](/insights/ai/rag-la-gi-han-che-ai)).
 
 Loại thứ hai: **dữ liệu vận hành** — kết quả kiểm tra, lịch sử lô hàng, dữ liệu sản xuất, log sự kiện, trạng thái đơn hàng. Đây là loại dữ liệu quyết định liệu AI có thể trả lời câu hỏi thực sự quan trọng trong vận hành.
 
@@ -193,7 +193,7 @@ Nhưng để bắt đầu: biết mình đang yếu ở chiều nào là đã c�
 
 **Đọc thêm:**
 
-- [AI Productivity và Organizational Intelligence — hai khái niệm khác nhau](/insights/ai/ai-productivity-vs-organizational-intelligence-vi) *(bài trước)*
+- [AI Productivity và Organizational Intelligence — hai khái niệm khác nhau](/insights/ai/ai-nang-suat-va-tri-thuc-tong-the) *(bài trước)*
 - [AI Readiness: tại sao AI không tự động làm doanh nghiệp thông minh hơn](/insights/ai/ai-readiness-doanh-nghiep) *(pillar)*
 
 ---

@@ -54,7 +54,7 @@ Bài này là hướng dẫn thực hành cho những người đang ở vị tr
 
 Định nghĩa này hàm ý ba điều thường bị hiểu sai.
 
-**eQMS không phải DMS.** Hệ thống quản lý tài liệu (DMS) giải quyết bài toán "tìm đúng tài liệu, đúng phiên bản". eQMS bao trùm rộng hơn: tài liệu chỉ là một phần, bên cạnh những hoạt động có người thực hiện, có hạn xử lý và có kết quả cần kiểm chứng. (Nếu bạn muốn hiểu rõ ranh giới giữa các lớp này, xem thêm [Từ DMS đến eQMS đến Knowledge OS](/insights/digitalization/tu-dms-den-eqms-den-knowledge-os).)
+**eQMS không phải DMS.** Hệ thống quản lý tài liệu (DMS) giải quyết bài toán "tìm đúng tài liệu, đúng phiên bản". eQMS bao trùm rộng hơn: tài liệu chỉ là một phần, bên cạnh những hoạt động có người thực hiện, có hạn xử lý và có kết quả cần kiểm chứng. (Nếu bạn muốn hiểu rõ ranh giới giữa các lớp này, xem thêm [Từ DMS đến eQMS đến Knowledge OS](/insights/business-operations/lo-trinh-dms-eqms-knowledge-os).)
 
 **eQMS không phải "số hóa hồ sơ giấy".** Scan một biểu mẫu thành PDF vẫn để nguyên mọi vấn đề của biểu mẫu đó: ai điền, ai duyệt, khi nào, dựa trên bản nào. Chuyển giấy thành file chỉ đổi chất liệu, chưa đổi cách vận hành.
 
@@ -131,7 +131,7 @@ Một lưu ý về thuật ngữ: ISO 9001:2015 dùng cụm "sự không phù h�
 
 **Vấn đề thường gặp.** Đánh giá nội bộ được tổ chức như một sự kiện. Nhân viên lo lắng, hồ sơ được dọn trước, phát hiện ít và nhẹ. Năm sau lặp lại. Giá trị của đánh giá nội bộ — phát hiện điểm yếu trước khi đánh giá viên bên ngoài hoặc khách hàng phát hiện — gần như không được khai thác.
 
-**eQMS thay đổi gì.** Chương trình đánh giá cả năm, checklist, phát hiện, hành động khắc phục và kết quả xác nhận nằm trong cùng một dòng chảy. Phát hiện từ audit đi thẳng vào xử lý sự không phù hợp thay vì nằm trong một file báo cáo. Và khi đánh giá viên bên ngoài đến, việc chuẩn bị không còn là "gom hồ sơ" mà là xem lại những gì hệ thống đã ghi sẵn. Chủ đề này liên quan chặt tới [chuẩn bị audit mất nhiều tuần](/insights/knowledge-management/chuan-bi-audit-mat-nhieu-tuan).
+**eQMS thay đổi gì.** Chương trình đánh giá cả năm, checklist, phát hiện, hành động khắc phục và kết quả xác nhận nằm trong cùng một dòng chảy. Phát hiện từ audit đi thẳng vào xử lý sự không phù hợp thay vì nằm trong một file báo cáo. Và khi đánh giá viên bên ngoài đến, việc chuẩn bị không còn là "gom hồ sơ" mà là xem lại những gì hệ thống đã ghi sẵn. Chủ đề này liên quan chặt tới [chuẩn bị audit mất nhiều tuần](/insights/knowledge-management/chuan-bi-audit-iso-mat-nhieu-thoi-gian).
 
 Đọc tiếp: [Internal audit không phải kỳ thi](/insights/compliance/internal-audit-iso-9001-hieu-qua).
 
@@ -185,7 +185,7 @@ Vấn đề thường gặp là buổi họp trở thành buổi trình bày h�
 
 **2. Làm rõ quy trình trước, chuyển lên hệ thống sau.** Nếu hai trưởng bộ phận mô tả cùng một quy trình theo hai cách khác nhau, eQMS không giải quyết được; nó sẽ buộc bạn chọn một cách, và nên chọn trước khi cấu hình.
 
-**3. Triển khai theo thứ tự, không theo đủ bộ.** Một thứ tự thực tế: document control → sự không phù hợp và hành động khắc phục → đánh giá nội bộ → đào tạo và năng lực → nhà cung cấp và rủi ro → báo cáo cho lãnh đạo. Mỗi bước tạo ra dữ liệu và thói quen cho bước sau. Cách tiếp cận từng bước này là nền tảng của tư duy [progressive eQMS](/insights/digitalization/progressive-eqms).
+**3. Triển khai theo thứ tự, không theo đủ bộ.** Một thứ tự thực tế: document control → sự không phù hợp và hành động khắc phục → đánh giá nội bộ → đào tạo và năng lực → nhà cung cấp và rủi ro → báo cáo cho lãnh đạo. Mỗi bước tạo ra dữ liệu và thói quen cho bước sau. Cách tiếp cận từng bước này là nền tảng của tư duy [progressive eQMS](/insights/business-operations/progressive-eqms-la-gi).
 
 **4. Chọn hệ thống đủ dùng cho quy mô.** Một hệ thống dành cho tập đoàn dược có thể mạnh hơn nhu cầu của bạn mười lần, kèm chi phí triển khai, đào tạo và bảo trì tương ứng. Tiêu chí hợp lý là: giải quyết vấn đề vận hành bằng hệ thống nhỏ nhất đủ dùng. Xem thêm [eQMS cho manufacturing SME — không cần phức tạp như bạn nghĩ](/insights/compliance/eqms-sme-don-gian).
 
@@ -259,8 +259,8 @@ Bài viết này tham chiếu ISO 9001:2015 — phiên bản mà đa số chứn
 - [Từ eQMS đến Knowledge OS](/insights/compliance/tu-eqms-den-knowledge-os)
 
 *Bài liên quan ở các chuyên đề khác*
-- [Từ DMS đến eQMS đến Knowledge OS — lộ trình thực tế](/insights/digitalization/tu-dms-den-eqms-den-knowledge-os)
-- [Progressive eQMS là gì](/insights/digitalization/progressive-eqms)
+- [Từ DMS đến eQMS đến Knowledge OS — lộ trình thực tế](/insights/business-operations/lo-trinh-dms-eqms-knowledge-os)
+- [Progressive eQMS là gì](/insights/business-operations/progressive-eqms-la-gi)
 - [Từ DMS đến Knowledge Management](/insights/knowledge-management/dms-va-knowledge-management)
 
 **Nguồn tham khảo:**

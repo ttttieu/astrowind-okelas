@@ -148,7 +148,7 @@ This article refers to ISO 9001:2015. According to certification bodies, a revis
 
 - [From Paper QMS to eQMS: What Changes, What Doesn't, and What to Prepare](/en/insights/compliance/paper-qms-to-eqms) *(previous)*
 - [eQMS for Small Manufacturers: Why It Doesn't Have to Be Complex](/en/insights/compliance/simple-eqms-small-manufacturers) *(next)*
-- [ISO and GMP in the Context of Digitalization](/en/insights/digitalization/iso-gmp-digitalization) *(related)*
+- [ISO and GMP in the Context of Digitalization](/en/insights/business-operations/iso-gmp-document-management-digitalization) *(related)*
 - [eQMS for Manufacturing SMEs: A Practical Guide](/en/insights/compliance/eqms-for-manufacturing-sme) *(pillar)*
 
 **Sources:**

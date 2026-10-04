@@ -108,7 +108,7 @@ Với hệ thống chất lượng, hệ quả cụ thể là:
 
 **Một trợ lý AI chỉ đọc tài liệu thì thiếu thứ quan trọng nhất.** Nó có thể trả lời trôi chảy về một quy trình, nhưng không biết bản nào đang hiệu lực, vì sao quy trình thiết lập như vậy, sự việc nào đã dẫn đến thay đổi, hay người hỏi có thẩm quyền nào. Câu trả lời có thể nghe hợp lý mà vẫn sai bối cảnh.
 
-**Câu trả lời không có bằng chứng thì không dùng được trong compliance.** Với tổ chức chịu yêu cầu ISO hay GMP, một câu trả lời của AI cần có khả năng giải thích, chỉ ra bằng chứng và truy vết, đúng nguyên tắc Explain → Evidence → Trace. Đây là chủ đề của [Evidence-based AI](/insights/ai-readiness/evidence-based-ai).
+**Câu trả lời không có bằng chứng thì không dùng được trong compliance.** Với tổ chức chịu yêu cầu ISO hay GMP, một câu trả lời của AI cần có khả năng giải thích, chỉ ra bằng chứng và truy vết, đúng nguyên tắc Explain → Evidence → Trace. Đây là chủ đề của [Evidence-based AI](/insights/ai/evidence-based-ai-kiem-chung).
 
 Phiên bản ISO 9001:2015 được soạn trước khi AI sinh văn bản phổ biến và không đề cập đến nó. Việc kiểm soát cách dùng AI trong hệ thống chất lượng là quyết định của tổ chức, dựa trên tư duy rủi ro (điều 6.1) và yêu cầu kiểm soát thông tin dạng văn bản (điều 7.5). Nên đối chiếu thêm với bản sửa đổi khi nó được áp dụng.
 
@@ -124,7 +124,7 @@ OKELAS tự định vị là **Organization Knowledge Operating System**: nền 
 
 - **Tri thức có cấu trúc.** Con người, quy trình, tài liệu, sự kiện, bằng chứng và tri thức được nối thành một mạng lưới có thể truy vấn, kiểm chứng và giải thích, thay vì nằm trong các hệ thống rời.
 - **AI hoạt động trong bối cảnh tổ chức.** Mục tiêu là trợ lý hoặc agent không chỉ trả lời câu hỏi, mà hiểu bối cảnh, tìm bằng chứng, hỗ trợ hoặc thực hiện workflow trong phạm vi quyền hạn được giao, và để lại dấu vết kiểm toán được. Đây là định hướng, không phải cam kết về một chức năng cụ thể.
-- **Tiến dần, không làm một lần.** Tương tự progressive eQMS, lớp tri thức được thêm khi doanh nghiệp sẵn sàng, bắt đầu từ chỗ có giá trị rõ nhất. Xem thêm [Progressive eQMS là gì](/insights/digitalization/progressive-eqms).
+- **Tiến dần, không làm một lần.** Tương tự progressive eQMS, lớp tri thức được thêm khi doanh nghiệp sẵn sàng, bắt đầu từ chỗ có giá trị rõ nhất. Xem thêm [Progressive eQMS là gì](/insights/business-operations/progressive-eqms-la-gi).
 
 OKELAS không phải một chatbot, một hệ thống RAG hay một AI wrapper. Tri thức và bối cảnh vận hành, không phải AI, là nền tảng.
 
@@ -174,8 +174,8 @@ Các tham chiếu trong bài dựa trên ISO 9001:2015. Theo thông tin từ cá
 
 - [Evidence trong eQMS: khi mỗi hành động cần có thể kiểm chứng được](/insights/compliance/evidence-eqms-kiem-chung) *(bài trước)*
 - [Từ tri thức cá nhân đến tri thức tổ chức](/insights/knowledge-management/quan-ly-tri-thuc-doanh-nghiep-san-xuat) *(trụ cột Knowledge Management)*
-- [Organizational AI: khi AI hiểu doanh nghiệp thay vì chỉ trả lời câu hỏi](/insights/ai-readiness/organizational-ai) *(bài liên quan)*
-- [Progressive eQMS là gì](/insights/digitalization/progressive-eqms) *(bài liên quan)*
+- [Organizational AI: khi AI hiểu doanh nghiệp thay vì chỉ trả lời câu hỏi](/insights/ai/organizational-ai-doanh-nghiep) *(bài liên quan)*
+- [Progressive eQMS là gì](/insights/business-operations/progressive-eqms-la-gi) *(bài liên quan)*
 - [eQMS cho doanh nghiệp sản xuất — hướng dẫn thực hành](/insights/compliance/eqms-cho-doanh-nghiep-san-xuat) *(pillar)*
 
 **Nguồn tham khảo:**

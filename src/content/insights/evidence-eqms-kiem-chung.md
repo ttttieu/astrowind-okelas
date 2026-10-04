@@ -125,7 +125,7 @@ Cách tiếp cận mà OKELAS theo đuổi gói trong nguyên tắc **evidence-b
 
 **Truy vết được.** Từ một sự việc có thể đi theo chuỗi liên quan, nguyên tắc Explain → Evidence → Trace mà OKELAS dùng xuyên suốt.
 
-Nguyên tắc này còn có một ý nghĩa rộng hơn trong bối cảnh AI. Một trợ lý AI trả lời câu hỏi về hệ thống chất lượng mà không chỉ ra được bằng chứng thì câu trả lời đó không thể được tin hoặc kiểm tra. Với tổ chức chịu yêu cầu ISO hay GMP, đây là một lý do cụ thể để bằng chứng có cấu trúc đi trước AI, không theo sau. Chủ đề này được phân tích riêng trong [Evidence-based AI](/insights/ai-readiness/evidence-based-ai) và [AI reasoning và sự thật của tổ chức](/insights/ai-readiness/ai-reasoning-va-su-that-to-chuc).
+Nguyên tắc này còn có một ý nghĩa rộng hơn trong bối cảnh AI. Một trợ lý AI trả lời câu hỏi về hệ thống chất lượng mà không chỉ ra được bằng chứng thì câu trả lời đó không thể được tin hoặc kiểm tra. Với tổ chức chịu yêu cầu ISO hay GMP, đây là một lý do cụ thể để bằng chứng có cấu trúc đi trước AI, không theo sau. Chủ đề này được phân tích riêng trong [Evidence-based AI](/insights/ai/evidence-based-ai-kiem-chung) và [AI reasoning và sự thật của tổ chức](/insights/ai/ai-ly-luan-vs-su-that-to-chuc).
 
 Cần nói rõ các giới hạn, vì một bài về evidence mà không trung thực về giới hạn thì tự mâu thuẫn.
 
@@ -174,9 +174,9 @@ Các tham chiếu trong bài dựa trên ISO 9001:2015. Theo thông tin từ cá
 
 - [Cách OKELAS tổ chức eQMS — từ document đến evidence đến audit trail](/insights/compliance/okelas-eqms-to-chuc) *(bài trước)*
 - [Từ eQMS đến Knowledge OS — bước tiến tự nhiên tiếp theo](/insights/compliance/tu-eqms-den-knowledge-os) *(bài tiếp theo)*
-- [Evidence-based AI: khi câu trả lời cần có khả năng kiểm chứng](/insights/ai-readiness/evidence-based-ai) *(bài liên quan)*
-- [AI reasoning và sự thật của tổ chức](/insights/ai-readiness/ai-reasoning-va-su-that-to-chuc) *(bài liên quan)*
-- [Audit preparation: tại sao chuẩn bị mất nhiều tuần](/insights/knowledge-management/chuan-bi-audit-mat-nhieu-tuan) *(bài liên quan)*
+- [Evidence-based AI: khi câu trả lời cần có khả năng kiểm chứng](/insights/ai/evidence-based-ai-kiem-chung) *(bài liên quan)*
+- [AI reasoning và sự thật của tổ chức](/insights/ai/ai-ly-luan-vs-su-that-to-chuc) *(bài liên quan)*
+- [Audit preparation: tại sao chuẩn bị mất nhiều tuần](/insights/knowledge-management/chuan-bi-audit-iso-mat-nhieu-thoi-gian) *(bài liên quan)*
 - [eQMS cho doanh nghiệp sản xuất — hướng dẫn thực hành](/insights/compliance/eqms-cho-doanh-nghiep-san-xuat) *(pillar)*
 
 **Nguồn tham khảo:**

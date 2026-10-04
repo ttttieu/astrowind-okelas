@@ -109,7 +109,7 @@ For a quality system, the concrete consequences are:
 
 **An AI assistant that only reads documents lacks the most important things.** It can answer fluently about a procedure, but it doesn't know which version is in force, why the process was set up that way, which events led to a change, or what authority the asker has. The answer can sound reasonable and still be wrong in context.
 
-**An answer without evidence isn't usable in compliance.** For organizations bound by ISO or GMP requirements, an AI answer needs to explain itself, point to evidence and be traceable, the Explain → Evidence → Trace principle. This is the subject of [Evidence-Based AI](/en/insights/ai-readiness/evidence-based-ai).
+**An answer without evidence isn't usable in compliance.** For organizations bound by ISO or GMP requirements, an AI answer needs to explain itself, point to evidence and be traceable, the Explain → Evidence → Trace principle. This is the subject of [Evidence-Based AI](/en/insights/ai/evidence-based-ai).
 
 ISO 9001:2015 was written before generative AI became common and doesn't address it. How AI use in the quality system is controlled is the organization's decision, based on risk-based thinking (clause 6.1) and the requirements for controlling documented information (clause 7.5). Check this against the revised edition when it applies.
 
@@ -125,7 +125,7 @@ OKELAS positions itself as an **Organization Knowledge Operating System**: a pla
 
 - **Structured knowledge.** People, processes, documents, events, evidence and knowledge are connected into a network that can be queried, verified and explained, rather than sitting in separate systems.
 - **AI operating in organizational context.** The aim is an assistant or agent that doesn't just answer questions but understands context, finds evidence, supports or carries out workflow within delegated authority, and leaves an auditable trace. This is a direction, not a commitment on a specific feature.
-- **Progressive, not all at once.** As with progressive eQMS, the knowledge layer is added when the company is ready, starting where value is clearest. See also [What Is Progressive eQMS](/en/insights/digitalization/progressive-eqms).
+- **Progressive, not all at once.** As with progressive eQMS, the knowledge layer is added when the company is ready, starting where value is clearest. See also [What Is Progressive eQMS](/en/insights/business-operations/progressive-eqms-implementation).
 
 OKELAS is not a chatbot, a RAG system or an AI wrapper. Knowledge and operational context, not AI, are the foundation.
 
@@ -175,8 +175,8 @@ References in this article are to ISO 9001:2015. According to certification bodi
 
 - [Evidence in eQMS: What It Means for Every Action to Be Verifiable](/en/insights/compliance/eqms-evidence-traceability) *(previous)*
 - [From Individual Knowledge to Organizational Knowledge](/en/insights/knowledge-management/knowledge-management-manufacturing) *(Knowledge Management pillar)*
-- [Organizational AI: When AI Understands the Business Instead of Only Answering Questions](/en/insights/ai-readiness/organizational-ai) *(related)*
-- [What Is Progressive eQMS](/en/insights/digitalization/progressive-eqms) *(related)*
+- [Organizational AI: When AI Understands the Business Instead of Only Answering Questions](/en/insights/ai/organizational-ai) *(related)*
+- [What Is Progressive eQMS](/en/insights/business-operations/progressive-eqms-implementation) *(related)*
 - [eQMS for Manufacturing SMEs: A Practical Guide](/en/insights/compliance/eqms-for-manufacturing-sme) *(pillar)*
 
 **Sources:**

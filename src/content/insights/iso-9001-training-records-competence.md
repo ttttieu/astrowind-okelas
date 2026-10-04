@@ -130,7 +130,7 @@ There's a part of competence that training records, however good, cannot capture
 
 An operator with ten years on a machine knows which sound signals trouble, and when a setting that is "right per the instruction" still needs adjustment because of today's humidity. These insights rarely sit in an SOP and almost never in a training record.
 
-Clause 7.2 recognizes mentoring as one way of reaching competence, and clause 7.1.6 acknowledges that knowledge can come from undocumented experience. But without a deliberate way to capture this, the company depends on that person staying. When they leave, that competence leaves with them. This is where the quality system meets the problem of organizational knowledge, explored further in [Tacit vs. Explicit Knowledge: Why the Distinction Matters](/en/insights/knowledge-management/tacit-vs-explicit-knowledge) and [When Key Staff Leave, What Do They Take With Them?](/en/insights/knowledge-management/when-key-staff-leave).
+Clause 7.2 recognizes mentoring as one way of reaching competence, and clause 7.1.6 acknowledges that knowledge can come from undocumented experience. But without a deliberate way to capture this, the company depends on that person staying. When they leave, that competence leaves with them. This is where the quality system meets the problem of organizational knowledge, explored further in [Tacit vs. Explicit Knowledge: Why the Distinction Matters](/en/insights/knowledge-management/tacit-vs-explicit-knowledge) and [When Key Staff Leave, What Do They Take With Them?](/en/insights/knowledge-management/knowledge-loss-when-employees-leave).
 
 ---
 
@@ -187,7 +187,7 @@ This article refers to ISO 9001:2015. According to certification bodies, a revis
 
 - [Internal Audit in ISO 9001: Not an Exam — a Tool for Real Improvement](/en/insights/compliance/effective-internal-audit-iso-9001) *(previous)*
 - [Supplier Qualification in ISO 9001: What Goes Beyond the Approved List](/en/insights/compliance/supplier-qualification-iso-9001) *(next)*
-- [When Key Staff Leave, What Do They Take With Them?](/en/insights/knowledge-management/when-key-staff-leave) *(related)*
+- [When Key Staff Leave, What Do They Take With Them?](/en/insights/knowledge-management/knowledge-loss-when-employees-leave) *(related)*
 - [Tacit vs. Explicit Knowledge: Why the Distinction Matters](/en/insights/knowledge-management/tacit-vs-explicit-knowledge) *(related)*
 - [eQMS for Manufacturing SMEs: A Practical Guide](/en/insights/compliance/eqms-for-manufacturing-sme) *(pillar)*
 

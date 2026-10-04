@@ -84,7 +84,7 @@ Một nguyên tắc hữu ích để lọc đề xuất: **giải quyết vấn 
 - **Cho người dùng tại xưởng thử** trước khi quyết định, vì hệ thống mà họ thấy phiền sẽ không được dùng.
 - **Hạn chế tùy biến ở giai đoạn đầu.** Cấu hình càng riêng, chi phí bảo trì và nâng cấp càng cao.
 
-Cách tiếp cận từng bước này là nền tảng của tư duy progressive eQMS, xem thêm [Progressive eQMS là gì](/insights/digitalization/progressive-eqms).
+Cách tiếp cận từng bước này là nền tảng của tư duy progressive eQMS, xem thêm [Progressive eQMS là gì](/insights/business-operations/progressive-eqms-la-gi).
 
 ---
 
@@ -112,7 +112,7 @@ Nếu bạn trả lời được câu 1 và 2 một cách rõ ràng, bạn đã 
 
 - [ISO 9001 không bắt buộc phần mềm QMS — nhưng đây là lý do eQMS vẫn quan trọng](/insights/compliance/iso-9001-co-can-phan-mem-qms) *(bài trước)*
 - [Document control trong eQMS — kiểm soát tài liệu thực sự nghĩa là gì](/insights/compliance/document-control-iso-9001) *(bài tiếp theo)*
-- [Progressive eQMS là gì](/insights/digitalization/progressive-eqms) *(bài liên quan)*
+- [Progressive eQMS là gì](/insights/business-operations/progressive-eqms-la-gi) *(bài liên quan)*
 - [eQMS cho doanh nghiệp sản xuất — hướng dẫn thực hành](/insights/compliance/eqms-cho-doanh-nghiep-san-xuat) *(pillar)*
 
 ---

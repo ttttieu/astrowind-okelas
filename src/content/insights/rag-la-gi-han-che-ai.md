@@ -169,9 +169,9 @@ Câu trả lời sẽ quyết định liệu RAG là điểm đến hay chỉ l�
 
 **Đọc thêm:**
 
-- [Dữ Liệu Có Nhưng Không Có Context — Tại Sao AI Không Thể Dùng Được](/insights/ai/du-lieu-co-nhung-khong-co-context) *(bài tiếp theo)*
-- [AI Agent Trong Doanh Nghiệp — Không Phải Chatbot, Không Phải Con Người](/insights/ai/ai-agent-trong-doanh-nghiep)
-- [Knowledge Graph Trong Doanh Nghiệp — Không Phải Công Nghệ, Là Cách Tổ Chức Tri Thức](/insights/ai/knowledge-graph-trong-doanh-nghiep)
+- [Dữ Liệu Có Nhưng Không Có Context — Tại Sao AI Không Thể Dùng Được](/insights/ai/du-lieu-khong-co-context-ai) *(bài tiếp theo)*
+- [AI Agent Trong Doanh Nghiệp — Không Phải Chatbot, Không Phải Con Người](/insights/ai/ai-agent-doanh-nghiep)
+- [Knowledge Graph Trong Doanh Nghiệp — Không Phải Công Nghệ, Là Cách Tổ Chức Tri Thức](/insights/knowledge-management/knowledge-graph-doanh-nghiep)
 - [AI Readiness: Tại Sao AI Không Tự Động Làm Doanh Nghiệp Thông Minh Hơn](/insights/ai/ai-readiness-doanh-nghiep) *(pillar)*
 
 ---

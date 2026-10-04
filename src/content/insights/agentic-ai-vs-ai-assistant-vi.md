@@ -61,7 +61,7 @@ Nền tảng kỹ thuật của mô hình này được thiết lập rõ ràng 
 
 Anthropic, trong tài liệu kỹ thuật "Building Effective Agents" (2024), mô tả sự khác biệt này ở cấp độ kiến trúc: với workflow, người thiết kế kiểm soát toàn bộ đường đi xử lý; với agent, mô hình tự quyết định bước tiếp theo dựa trên phản hồi từ môi trường.
 
-→ *Liên quan: [Khi AI tự lựa chọn phương pháp: vấn đề kiểm soát và tự chủ](/insights/ai/autonomy-va-control-problem)*
+→ *Liên quan: [Khi AI tự lựa chọn phương pháp: vấn đề kiểm soát và tự chủ](/insights/ai/ai-tu-chu-control-problem)*
 
 ---
 
@@ -94,7 +94,7 @@ Từ phân tích trên, ba hàm ý cụ thể cho doanh nghiệp khi đánh giá
 *Bài viết này là một phần trong chuỗi OKELAS AI Control.*
 
 **Bài liên quan:**
-- [Khi AI tự lựa chọn phương pháp: vấn đề kiểm soát và tự chủ](/insights/ai/autonomy-va-control-problem)
+- [Khi AI tự lựa chọn phương pháp: vấn đề kiểm soát và tự chủ](/insights/ai/ai-tu-chu-control-problem)
 - [AI được phép làm đến đâu? Tại sao doanh nghiệp cần một control layer](/insights/ai/kiem-soat-ai-doanh-nghiep)
 - [Chatbot sai khác agent sai: sự khác biệt định hình rủi ro AI trong doanh nghiệp](/insights/ai/chatbot-sai-khac-agent-sai)
 

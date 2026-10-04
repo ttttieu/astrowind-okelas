@@ -174,7 +174,7 @@ This article refers to ISO 9001:2015. According to certification bodies, a revis
 
 - [Effective CAPA: Why Corrective Actions Often Don't Correct Anything](/en/insights/compliance/effective-capa-iso-9001) *(previous)*
 - [Internal Audit in ISO 9001: Not an Exam — a Tool for Real Improvement](/en/insights/compliance/effective-internal-audit-iso-9001) *(next)*
-- [Evidence-Based AI: When Answers Need to Be Verifiable](/en/insights/ai-readiness/evidence-based-ai) *(related)*
+- [Evidence-Based AI: When Answers Need to Be Verifiable](/en/insights/ai/evidence-based-ai) *(related)*
 - [eQMS for Manufacturing SMEs: A Practical Guide](/en/insights/compliance/eqms-for-manufacturing-sme) *(pillar)*
 
 **Sources:**

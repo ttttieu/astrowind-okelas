@@ -148,7 +148,7 @@ Bài viết tham chiếu ISO 9001:2015. Theo thông tin từ các tổ chức ch
 
 - [Từ QMS giấy đến eQMS — doanh nghiệp được và mất gì](/insights/compliance/tu-qms-giay-sang-eqms) *(bài trước)*
 - [eQMS cho manufacturing SME — không cần phức tạp như bạn nghĩ](/insights/compliance/eqms-sme-don-gian) *(bài tiếp theo)*
-- [ISO và GMP trong bối cảnh số hóa](/insights/digitalization/iso-gmp-trong-boi-canh-so-hoa) *(bài liên quan)*
+- [ISO và GMP trong bối cảnh số hóa](/insights/business-operations/so-hoa-ho-so-iso-gmp) *(bài liên quan)*
 - [eQMS cho doanh nghiệp sản xuất — hướng dẫn thực hành](/insights/compliance/eqms-cho-doanh-nghiep-san-xuat) *(pillar)*
 
 **Nguồn tham khảo:**

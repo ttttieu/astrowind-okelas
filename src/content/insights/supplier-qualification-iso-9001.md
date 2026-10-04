@@ -188,7 +188,7 @@ Bài viết tham chiếu ISO 9001:2015. Theo thông tin từ các tổ chức ch
 
 - [Training records và năng lực nhân viên — những gì ISO thực sự yêu cầu](/insights/compliance/training-records-iso-9001) *(bài trước)*
 - [Risk management theo ISO 9001 clause 6 — không phức tạp như nhiều người nghĩ](/insights/compliance/risk-management-iso-9001) *(bài tiếp theo)*
-- [Evidence-based AI: khi câu trả lời cần có khả năng kiểm chứng](/insights/ai-readiness/evidence-based-ai) *(bài liên quan)*
+- [Evidence-based AI: khi câu trả lời cần có khả năng kiểm chứng](/insights/ai/evidence-based-ai-kiem-chung) *(bài liên quan)*
 - [eQMS cho doanh nghiệp sản xuất — hướng dẫn thực hành](/insights/compliance/eqms-cho-doanh-nghiep-san-xuat) *(pillar)*
 
 **Nguồn tham khảo:**

@@ -159,7 +159,7 @@ Bài viết tham chiếu ISO 9001:2015. Theo thông tin từ các tổ chức ch
 - [eQMS cho manufacturing SME — không cần phức tạp như bạn nghĩ](/insights/compliance/eqms-sme-don-gian) *(bài trước)*
 - [CAPA hiệu quả — tại sao corrective action hay bị xử lý sai](/insights/compliance/capa-iso-9001-hieu-qua) *(bài tiếp theo)*
 - [SOP có nhưng không được thực thi — tại sao?](/insights/knowledge-management/sop-khong-duoc-thuc-thi) *(bài liên quan)*
-- [Audit preparation: tại sao chuẩn bị mất nhiều tuần](/insights/knowledge-management/chuan-bi-audit-mat-nhieu-tuan) *(bài liên quan)*
+- [Audit preparation: tại sao chuẩn bị mất nhiều tuần](/insights/knowledge-management/chuan-bi-audit-iso-mat-nhieu-thoi-gian) *(bài liên quan)*
 - [eQMS cho doanh nghiệp sản xuất — hướng dẫn thực hành](/insights/compliance/eqms-cho-doanh-nghiep-san-xuat) *(pillar)*
 
 **Nguồn tham khảo:**

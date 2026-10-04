@@ -165,7 +165,7 @@ This article refers to ISO 9001:2015. According to certification bodies, a revis
 
 - [Document Control in eQMS: What It Really Means to Control a Document](/en/insights/compliance/document-control-iso-9001-eqms) *(previous)*
 - [Nonconformance in ISO 9001: More Than an Error Report](/en/insights/compliance/nonconformance-iso-9001-management) *(next)*
-- [Evidence-Based AI: When Answers Need to Be Verifiable](/en/insights/ai-readiness/evidence-based-ai) *(related)*
+- [Evidence-Based AI: When Answers Need to Be Verifiable](/en/insights/ai/evidence-based-ai) *(related)*
 - [eQMS for Manufacturing SMEs: A Practical Guide](/en/insights/compliance/eqms-for-manufacturing-sme) *(pillar)*
 
 **Sources:**

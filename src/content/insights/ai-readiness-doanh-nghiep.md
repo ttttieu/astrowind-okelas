@@ -340,19 +340,19 @@ Assessment khoảng 8–10 phút, không yêu cầu nền tảng kỹ thuật. K
 ## Đọc thêm
 
 **Trong cluster AI Readiness:**
-- [AI giúp nhân viên viết nhanh hơn, nhưng doanh nghiệp có xử lý được nhiều hơn không?](/insights/ai/ai-productivity-va-organizational-intelligence)
-- [RAG là gì — và tại sao chatbot "biết nhiều" vẫn không trả lời được câu hỏi vận hành](/insights/ai/rag-la-gi-va-han-che-trong-van-hanh)
-- [AI readiness: 6 điều kiện để AI thực sự có ích trong vận hành](/insights/ai/ai-readiness-6-dieu-kien)
-- [Dữ liệu có nhưng không có context — tại sao AI không thể dùng được?](/insights/ai/du-lieu-co-nhung-khong-co-context)
-- [AI agent trong doanh nghiệp — không phải chatbot, không phải con người](/insights/ai/ai-agent-trong-doanh-nghiep)
-- [Evidence-based AI: khi câu trả lời cần có khả năng kiểm chứng](/insights/ai/evidence-based-ai)
-- [Từ AI hype đến AI có thể triển khai: lộ trình thực tế cho manufacturing SME](/insights/ai/tu-ai-hype-den-ai-co-the-trien-khai)
-- [AI và compliance: doanh nghiệp ISO/GMP cần lưu ý gì trước khi dùng AI?](/insights/ai/ai-va-compliance-iso-gmp)
-- [Organizational AI: khi AI hiểu doanh nghiệp thay vì chỉ trả lời câu hỏi](/insights/ai/organizational-ai)
+- [AI giúp nhân viên viết nhanh hơn, nhưng doanh nghiệp có xử lý được nhiều hơn không?](/insights/ai/ai-nang-suat-va-tri-thuc-tong-the)
+- [RAG là gì — và tại sao chatbot "biết nhiều" vẫn không trả lời được câu hỏi vận hành](/insights/ai/rag-la-gi-han-che-ai)
+- [AI readiness: 6 điều kiện để AI thực sự có ích trong vận hành](/insights/ai/dieu-kien-trien-khai-ai-van-hanh)
+- [Dữ liệu có nhưng không có context — tại sao AI không thể dùng được?](/insights/ai/du-lieu-khong-co-context-ai)
+- [AI agent trong doanh nghiệp — không phải chatbot, không phải con người](/insights/ai/ai-agent-doanh-nghiep)
+- [Evidence-based AI: khi câu trả lời cần có khả năng kiểm chứng](/insights/ai/evidence-based-ai-kiem-chung)
+- [Từ AI hype đến AI có thể triển khai: lộ trình thực tế cho manufacturing SME](/insights/ai/lo-trinh-ai-thuc-te-manufacturing-sme)
+- [AI và compliance: doanh nghiệp ISO/GMP cần lưu ý gì trước khi dùng AI?](/insights/ai/ai-iso-gmp-compliance)
+- [Organizational AI: khi AI hiểu doanh nghiệp thay vì chỉ trả lời câu hỏi](/insights/ai/organizational-ai-doanh-nghiep)
 
 **Cross-cluster:**
-- [Tacit knowledge và explicit knowledge — tại sao cần phân biệt](/insights/knowledge-management/tacit-knowledge-va-explicit-knowledge)
-- [Sau ERP: doanh nghiệp cần làm gì để khai thác dữ liệu ERP?](/insights/erp/sau-erp-khai-thac-du-lieu)
+- [Tacit knowledge và explicit knowledge — tại sao cần phân biệt](/insights/knowledge-management/tacit-knowledge-explicit-knowledge)
+- [Sau ERP: doanh nghiệp cần làm gì để khai thác dữ liệu ERP?](/insights/erp/khai-thac-du-lieu-erp)
 
 ---
 

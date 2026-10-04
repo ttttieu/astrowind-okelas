@@ -156,7 +156,7 @@ Cần nói rõ trước: eQMS không đưa ra quyết định thay lãnh đạo,
 
 Rủi ro cần để ý: một bảng điều khiển đẹp có thể tạo cảm giác "đã xem xét" mà không có cuộc thảo luận về điều cần quyết định. Chất lượng dữ liệu cũng quan trọng: nếu dữ liệu từ các thành phần không đáng tin, đầu vào của buổi xem xét cũng vậy.
 
-Khi dữ liệu từ nhiều nguồn được đưa về cùng một dòng chảy, buổi xem xét lãnh đạo bắt đầu có điều kiện trở thành điều tiêu chuẩn mô tả: nơi dữ liệu trở thành quyết định. Cách tiếp cận đưa tài liệu, quy trình và bằng chứng vào một luồng thống nhất sẽ được nói ở bài tiếp theo trong chuyên đề này. Và khi dữ liệu vận hành, như dữ liệu từ ERP, cũng cần đi vào quyết định quản trị, câu hỏi mở rộng hơn là [doanh nghiệp làm gì để khai thác dữ liệu ERP sau triển khai](/insights/erp/khai-thac-du-lieu-erp-sau-trien-khai).
+Khi dữ liệu từ nhiều nguồn được đưa về cùng một dòng chảy, buổi xem xét lãnh đạo bắt đầu có điều kiện trở thành điều tiêu chuẩn mô tả: nơi dữ liệu trở thành quyết định. Cách tiếp cận đưa tài liệu, quy trình và bằng chứng vào một luồng thống nhất sẽ được nói ở bài tiếp theo trong chuyên đề này. Và khi dữ liệu vận hành, như dữ liệu từ ERP, cũng cần đi vào quyết định quản trị, câu hỏi mở rộng hơn là [doanh nghiệp làm gì để khai thác dữ liệu ERP sau triển khai](/insights/erp/khai-thac-du-lieu-erp).
 
 ---
 
@@ -195,7 +195,7 @@ Bài viết tham chiếu ISO 9001:2015. Theo thông tin từ các tổ chức ch
 
 - [Risk management theo ISO 9001 clause 6 — không phức tạp như nhiều người nghĩ](/insights/compliance/risk-management-iso-9001) *(bài trước)*
 - [Cách OKELAS tổ chức eQMS — từ document đến evidence đến audit trail](/insights/compliance/okelas-eqms-to-chuc) *(bài tiếp theo)*
-- [Sau ERP: doanh nghiệp cần làm gì để khai thác dữ liệu ERP?](/insights/erp/khai-thac-du-lieu-erp-sau-trien-khai) *(bài liên quan)*
+- [Sau ERP: doanh nghiệp cần làm gì để khai thác dữ liệu ERP?](/insights/erp/khai-thac-du-lieu-erp) *(bài liên quan)*
 - [eQMS cho doanh nghiệp sản xuất — hướng dẫn thực hành](/insights/compliance/eqms-cho-doanh-nghiep-san-xuat) *(pillar)*
 
 **Nguồn tham khảo:**

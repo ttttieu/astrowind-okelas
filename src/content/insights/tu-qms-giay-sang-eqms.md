@@ -167,7 +167,7 @@ Bài viết tham chiếu ISO 9001:2015. Một bản sửa đổi ISO 9001:2026 �
 **Đọc thêm:**
 
 - [ISO 9001 không yêu cầu phần mềm — nhưng đây là lý do eQMS vẫn quan trọng](/insights/compliance/iso-9001-co-can-phan-mem-qms) *(bài tiếp theo)*
-- [Từ DMS đến eQMS đến Knowledge OS — lộ trình thực tế](/insights/digitalization/tu-dms-den-eqms-den-knowledge-os) *(bài liên quan)*
+- [Từ DMS đến eQMS đến Knowledge OS — lộ trình thực tế](/insights/business-operations/lo-trinh-dms-eqms-knowledge-os) *(bài liên quan)*
 - [Từ DMS đến Knowledge Management](/insights/knowledge-management/dms-va-knowledge-management) *(bài liên quan)*
 - [eQMS cho doanh nghiệp sản xuất — hướng dẫn thực hành](/insights/compliance/eqms-cho-doanh-nghiep-san-xuat) *(pillar)*
 

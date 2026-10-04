@@ -339,18 +339,18 @@ The assessment takes approximately 8–10 minutes and requires no technical back
 
 **Within the AI Readiness cluster:**
 - [AI helps employees work faster — but is the organization handling more?](/en/insights/ai/ai-productivity-vs-organizational-intelligence)
-- [What is RAG — and why a chatbot that knows everything still can't answer operational questions](/en/insights/ai/what-is-rag-and-why-it-fails-in-operations)
-- [AI readiness: 6 conditions for operational AI to actually work](/en/insights/ai/6-conditions-for-operational-ai)
-- [You have data but no context — why AI can't use it](/en/insights/ai/data-without-context)
-- [AI agents in the enterprise — not a chatbot, not a person](/en/insights/ai/ai-agents-in-the-enterprise)
+- [What is RAG — and why a chatbot that knows everything still can't answer operational questions](/en/insights/ai/rag-limitations-enterprise-ai)
+- [AI readiness: 6 conditions for operational AI to actually work](/en/insights/ai/ai-readiness-checklist)
+- [You have data but no context — why AI can't use it](/en/insights/ai/data-without-context-ai-problem)
+- [AI agents in the enterprise — not a chatbot, not a person](/en/insights/ai/ai-agents-for-business)
 - [Evidence-based AI: when answers need to be verifiable](/en/insights/ai/evidence-based-ai)
-- [From AI hype to AI implementation: a realistic roadmap for manufacturing SMEs](/en/insights/ai/from-ai-hype-to-ai-implementation)
-- [AI and compliance: what ISO/GMP organizations need to consider before deploying AI](/en/insights/ai/ai-and-compliance-iso-gmp)
+- [From AI hype to AI implementation: a realistic roadmap for manufacturing SMEs](/en/insights/ai/ai-implementation-roadmap-manufacturing)
+- [AI and compliance: what ISO/GMP organizations need to consider before deploying AI](/en/insights/ai/ai-compliance-iso-gmp-manufacturing)
 - [Organizational AI: when AI understands the business instead of just answering questions](/en/insights/ai/organizational-ai)
 
 **Cross-cluster:**
 - [Tacit knowledge vs. explicit knowledge — why the distinction matters](/en/insights/knowledge-management/tacit-vs-explicit-knowledge)
-- [After ERP: what organizations need to do to actually use their ERP data](/en/insights/erp/after-erp-leveraging-your-data)
+- [After ERP: what organizations need to do to actually use their ERP data](/en/insights/erp/how-to-use-erp-data)
 
 ---
 

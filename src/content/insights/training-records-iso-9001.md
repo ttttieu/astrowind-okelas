@@ -130,7 +130,7 @@ Có một phần năng lực mà hồ sơ đào tạo, dù tốt đến đâu, c
 
 Người thợ vận hành thiết bị mười năm biết âm thanh nào báo hiệu sắp có vấn đề, biết khi nào thông số "đúng theo hướng dẫn" nhưng vẫn cần điều chỉnh vì độ ẩm hôm nay. Những hiểu biết này hiếm khi nằm trong SOP, và gần như không bao giờ nằm trong hồ sơ đào tạo.
 
-Điều khoản 7.2 ghi nhận kèm cặp là một cách đạt năng lực, và điều khoản 7.1.6 thừa nhận tri thức có thể đến từ kinh nghiệm chưa được ghi chép. Nhưng nếu không có cách nào chủ động nắm bắt phần này, doanh nghiệp phụ thuộc vào việc người đó còn ở lại. Khi họ nghỉ, phần năng lực này đi cùng họ. Đây là điểm hệ thống chất lượng chạm vào bài toán tri thức tổ chức, được phân tích thêm trong [tri thức ngầm và tri thức tường minh](/insights/knowledge-management/tacit-knowledge-explicit-knowledge) và [khi nhân sự chủ chốt nghỉ việc](/insights/knowledge-management/khi-nhan-su-chu-chot-nghi-viec).
+Điều khoản 7.2 ghi nhận kèm cặp là một cách đạt năng lực, và điều khoản 7.1.6 thừa nhận tri thức có thể đến từ kinh nghiệm chưa được ghi chép. Nhưng nếu không có cách nào chủ động nắm bắt phần này, doanh nghiệp phụ thuộc vào việc người đó còn ở lại. Khi họ nghỉ, phần năng lực này đi cùng họ. Đây là điểm hệ thống chất lượng chạm vào bài toán tri thức tổ chức, được phân tích thêm trong [tri thức ngầm và tri thức tường minh](/insights/knowledge-management/tacit-knowledge-explicit-knowledge) và [khi nhân sự chủ chốt nghỉ việc](/insights/knowledge-management/nhan-su-nghi-viec-mang-di-tri-thuc).
 
 ---
 
@@ -187,7 +187,7 @@ Bài viết tham chiếu ISO 9001:2015. Theo thông tin từ các tổ chức ch
 
 - [Internal audit không phải kỳ thi — cách tổ chức audit có giá trị thực](/insights/compliance/internal-audit-iso-9001-hieu-qua) *(bài trước)*
 - [Supplier qualification trong ISO 9001 — vượt ra ngoài danh sách nhà cung cấp](/insights/compliance/supplier-qualification-iso-9001) *(bài tiếp theo)*
-- [Khi nhân sự chủ chốt nghỉ việc, họ mang đi thứ gì?](/insights/knowledge-management/khi-nhan-su-chu-chot-nghi-viec) *(bài liên quan)*
+- [Khi nhân sự chủ chốt nghỉ việc, họ mang đi thứ gì?](/insights/knowledge-management/nhan-su-nghi-viec-mang-di-tri-thuc) *(bài liên quan)*
 - [Tacit knowledge và explicit knowledge — tại sao cần phân biệt](/insights/knowledge-management/tacit-knowledge-explicit-knowledge) *(bài liên quan)*
 - [eQMS cho doanh nghiệp sản xuất — hướng dẫn thực hành](/insights/compliance/eqms-cho-doanh-nghiep-san-xuat) *(pillar)*
 

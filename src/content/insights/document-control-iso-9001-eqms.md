@@ -117,7 +117,7 @@ First, to be clear: an eQMS doesn't make your documents better, and it doesn't r
 
 **Links to other components.** When documents are connected to training, nonconformances and audits, a process change can trigger a retraining requirement automatically, rather than relying on memory.
 
-What an eQMS does **not** solve: unclear writing, processes nobody has agreed, creating more documents than needed, and staff who don't read what the system sends. It makes control more durable, but content quality remains a human task. This also ties closely to the issue of [SOPs that exist but aren't followed](/en/insights/knowledge-management/sop-not-followed): the gap between document and action doesn't disappear just because documents are better managed.
+What an eQMS does **not** solve: unclear writing, processes nobody has agreed, creating more documents than needed, and staff who don't read what the system sends. It makes control more durable, but content quality remains a human task. This also ties closely to the issue of [SOPs that exist but aren't followed](/en/insights/knowledge-management/why-sops-are-not-followed): the gap between document and action doesn't disappear just because documents are better managed.
 
 If you're weighing a move to an eQMS, document control is often a sensible starting point for an SME, as discussed in [eQMS for Small Manufacturers: Why It Doesn't Have to Be Complex](/en/insights/compliance/simple-eqms-small-manufacturers).
 
@@ -158,8 +158,8 @@ This article refers to ISO 9001:2015. According to certification bodies, a revis
 
 - [eQMS for Small Manufacturers: Why It Doesn't Have to Be Complex](/en/insights/compliance/simple-eqms-small-manufacturers) *(previous)*
 - [Effective CAPA: Why Corrective Actions Often Don't Correct Anything](/en/insights/compliance/effective-capa-iso-9001) *(next)*
-- [SOPs That Exist But Aren't Followed: Why?](/en/insights/knowledge-management/sop-not-followed) *(related)*
-- [Audit Preparation: Why It Takes Weeks](/en/insights/knowledge-management/audit-preparation-weeks) *(related)*
+- [SOPs That Exist But Aren't Followed: Why?](/en/insights/knowledge-management/why-sops-are-not-followed) *(related)*
+- [Audit Preparation: Why It Takes Weeks](/en/insights/knowledge-management/why-audit-preparation-takes-so-long) *(related)*
 - [eQMS for Manufacturing SMEs: A Practical Guide](/en/insights/compliance/eqms-for-manufacturing-sme) *(pillar)*
 
 **Sources:**

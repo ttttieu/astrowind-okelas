@@ -54,7 +54,7 @@ An **eQMS (electronic quality management system)** is a quality system run on a 
 
 Three clarifications follow from that definition, because each is commonly misunderstood.
 
-**An eQMS is not a document management system (DMS).** A DMS answers "can people find the right document, in the right version?" An eQMS covers more ground: documents are one part, alongside activities that have owners, deadlines and outcomes that need to be verified. (For the boundary between these layers, see [From DMS to eQMS to Knowledge OS](/en/insights/digitalization/dms-to-eqms-to-knowledge-os).)
+**An eQMS is not a document management system (DMS).** A DMS answers "can people find the right document, in the right version?" An eQMS covers more ground: documents are one part, alongside activities that have owners, deadlines and outcomes that need to be verified. (For the boundary between these layers, see [From DMS to eQMS to Knowledge OS](/en/insights/business-operations/dms-eqms-knowledge-os-roadmap).)
 
 **An eQMS is not "digitized paper."** Scanning a form into a PDF leaves every problem of that form in place: who filled it in, who approved it, when, and against which revision. Changing the medium does not change the way of working.
 
@@ -131,7 +131,7 @@ Continue with [Effective CAPA: Why Corrective Actions Often Don't Correct Anythi
 
 **Where it breaks down.** The internal audit is run as an event. Staff feel anxious, records are tidied beforehand, findings are few and mild. Next year, the same again. The real value of an internal audit — finding weaknesses before an external auditor or customer does — goes largely unused.
 
-**What an eQMS changes.** The annual audit program, checklists, findings, corrective actions and verification sit in one flow. A finding goes straight into nonconformance handling instead of sitting in a report file. And when an external auditor arrives, preparation stops being a hunt for records and becomes a review of what the system already holds. This connects closely with the problem of [audit preparation taking weeks](/en/insights/knowledge-management/audit-preparation-weeks).
+**What an eQMS changes.** The annual audit program, checklists, findings, corrective actions and verification sit in one flow. A finding goes straight into nonconformance handling instead of sitting in a report file. And when an external auditor arrives, preparation stops being a hunt for records and becomes a review of what the system already holds. This connects closely with the problem of [audit preparation taking weeks](/en/insights/knowledge-management/why-audit-preparation-takes-so-long).
 
 Continue with [Internal Audit in ISO 9001: Not an Exam](/en/insights/compliance/effective-internal-audit-iso-9001).
 
@@ -185,7 +185,7 @@ This is the part many companies skip: not *what an eQMS contains* but *how to in
 
 **2. Clarify the process first, configure the system second.** If two department heads describe the same process differently, an eQMS won't resolve that; it will force a choice, and the choice should be made before configuration.
 
-**3. Roll out in sequence, not as a full suite.** A realistic order: document control → nonconformity and corrective action → internal audit → training and competence → suppliers and risk → reporting to management. Each step produces data and habits for the next. This step-by-step logic is the basis of [progressive eQMS](/en/insights/digitalization/progressive-eqms).
+**3. Roll out in sequence, not as a full suite.** A realistic order: document control → nonconformity and corrective action → internal audit → training and competence → suppliers and risk → reporting to management. Each step produces data and habits for the next. This step-by-step logic is the basis of [progressive eQMS](/en/insights/business-operations/progressive-eqms-implementation).
 
 **4. Choose a system sized to the company.** A system built for a pharmaceutical group may be ten times more than you need, with matching costs for implementation, training and maintenance. A sound test: solve the operational problem with the smallest system that is sufficient. See also [eQMS for Small Manufacturers: Why It Doesn't Have to Be Complex](/en/insights/compliance/simple-eqms-small-manufacturers).
 
@@ -259,8 +259,8 @@ This article refers to ISO 9001:2015, the edition on which most current certific
 - [From eQMS to Knowledge OS](/en/insights/compliance/eqms-to-knowledge-os)
 
 *Related articles in other topic areas*
-- [From DMS to eQMS to Knowledge OS: A Realistic Path](/en/insights/digitalization/dms-to-eqms-to-knowledge-os)
-- [What Is Progressive eQMS](/en/insights/digitalization/progressive-eqms)
+- [From DMS to eQMS to Knowledge OS: A Realistic Path](/en/insights/business-operations/dms-eqms-knowledge-os-roadmap)
+- [What Is Progressive eQMS](/en/insights/business-operations/progressive-eqms-implementation)
 - [From DMS to Knowledge Management: The Difference That Matters](/en/insights/knowledge-management/dms-vs-knowledge-management)
 
 **Sources:**

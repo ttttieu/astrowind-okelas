@@ -180,7 +180,7 @@ The question is not *"should we use AI?"* The question is *"what outcome are we 
 **Further reading:**
 
 - [AI Helps Employees Work Faster — But Does Your Business Actually Handle More?](/en/insights/ai/ai-productivity-paradox) *(previous article)*
-- [6 Conditions for Operational AI to Actually Work](/en/insights/ai/6-conditions-for-operational-ai) *(next article)*
+- [6 Conditions for Operational AI to Actually Work](/en/insights/ai/ai-readiness-checklist) *(next article)*
 - [Organizational AI: When AI Understands the Business Instead of Just Answering Questions](/en/insights/ai/organizational-ai)
 - [Organizational AI Readiness — Why AI Alone Won't Make Your Organization More Intelligent](/en/insights/ai/organizational-ai-readiness) *(pillar)*
 

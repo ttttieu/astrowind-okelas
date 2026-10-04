@@ -167,7 +167,7 @@ This article refers to ISO 9001:2015. According to certification bodies, a revis
 **Further reading:**
 
 - [ISO 9001 Doesn't Require QMS Software — So Why Does eQMS Still Matter?](/en/insights/compliance/iso-9001-eqms-software-requirement) *(next)*
-- [From DMS to eQMS to Knowledge OS: A Realistic Path](/en/insights/digitalization/dms-to-eqms-to-knowledge-os) *(related)*
+- [From DMS to eQMS to Knowledge OS: A Realistic Path](/en/insights/business-operations/dms-eqms-knowledge-os-roadmap) *(related)*
 - [From DMS to Knowledge Management: The Difference That Matters](/en/insights/knowledge-management/dms-vs-knowledge-management) *(related)*
 - [eQMS for Manufacturing SMEs: A Practical Guide](/en/insights/compliance/eqms-for-manufacturing-sme) *(pillar)*
 

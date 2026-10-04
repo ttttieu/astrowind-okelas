@@ -153,7 +153,7 @@ Một số yếu tố của change management thực sự hiệu quả:
 - Ban lãnh đạo có cam kết dùng ERP làm công cụ ra quyết định sau go-live không — không chỉ là công cụ của IT?
 - Có kênh hỗ trợ rõ ràng cho người dùng khi gặp vấn đề sau go-live không?
 
-→ *Xem thêm: [Khi nhân sự chủ chốt nghỉ việc, họ mang đi thứ gì? — bài về knowledge retention]*
+→ *Xem thêm: [Khi nhân sự chủ chốt nghỉ việc, họ mang đi thứ gì?](/insights/knowledge-management/nhan-su-nghi-viec-mang-di-tri-thuc) — bài về knowledge retention*
 
 **→ [Làm ERP Readiness Assessment](/readiness/erp)**
 
@@ -164,4 +164,4 @@ Một số yếu tố của change management thực sự hiệu quả:
 **Bài liên quan:**
 - [Tại sao dự án ERP không đạt mục tiêu — pillar](/insights/erp/tai-sao-du-an-erp-that-bai)
 - [Quy trình chưa chuẩn hóa — rủi ro lớn nhất trước khi triển khai ERP](/insights/erp/chuan-hoa-quy-trinh-truoc-erp)
-- [Khi nhân sự chủ chốt nghỉ việc, họ mang đi thứ gì?]
+- [Khi nhân sự chủ chốt nghỉ việc, họ mang đi thứ gì?](/insights/knowledge-management/nhan-su-nghi-viec-mang-di-tri-thuc)

@@ -141,7 +141,7 @@ Elements of change management that actually work:
 - Is leadership committed to using ERP as a decision-making tool after go-live — not just treating it as an IT system?
 - Is there a clear support channel for users who encounter problems after go-live?
 
-→ *Related: [When a Key Employee Leaves, What Do They Take With Them? — on knowledge retention]*
+→ *Related: [When a Key Employee Leaves, What Do They Take With Them?](/en/insights/knowledge-management/knowledge-loss-when-employees-leave) — on knowledge retention*
 
 **→ [Complete the ERP Readiness Assessment](/en/readiness/erp)**
 
@@ -160,4 +160,4 @@ Elements of change management that actually work:
 **Related articles:**
 - [Why ERP Projects Fail — and What the Software Cannot Fix](/en/insights/erp/why-erp-projects-fail)
 - [Process Standardization Before ERP: The Step Most Companies Skip](/en/insights/erp/process-standardization-before-erp)
-- [When a Key Employee Leaves, What Do They Take With Them?]
+- [When a Key Employee Leaves, What Do They Take With Them?](/en/insights/knowledge-management/knowledge-loss-when-employees-leave)
