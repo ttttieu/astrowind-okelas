@@ -33,7 +33,7 @@ draft: false
 
 ## Introduction
 
-→ **[Explore ERP Readiness Solutions](/solutions/erp-readiness)**
+→ **[Explore ERP Readiness Solutions](/en/readiness/erp)**
 
 *For perspective on data quality and governance as prerequisites: [ERP Governance — Who Is Responsible When Your ERP Stops Working Properly?](/en/insights/erp/erp-governance)*
 
@@ -147,17 +147,17 @@ When ERP data is sufficiently high quality, processes are accurately reflected, 
 
 But all of those capabilities require ERP adoption as a prerequisite. Without it, data exists but cannot be trusted enough to act on.
 
-→ *Related: [After ERP — How to Actually Use the Data You Now Have]*
+→ *Related: [After ERP — How to Actually Use the Data You Now Have](/en/insights/erp/how-to-use-erp-data)*
 
-→ *Related: [Organizational AI — When AI Understands Your Business Rather Than Just Answering Questions]*
+→ *Related: [Organizational AI — When AI Understands Your Business Rather Than Just Answering Questions](/en/insights/ai/organizational-ai)*
 
-**→ If your organization has completed ERP implementation but has not yet seen the results you expected — [contact OKELAS to discuss what the right roadmap looks like for your situation].**
+**→ If your organization has completed ERP implementation but has not yet seen the results you expected — [contact OKELAS to discuss what the right roadmap looks like for your situation](/en/contact).**
 
 ---
 
 *This article is part of a series on ERP readiness and ERP adoption for manufacturing SMEs.*
 
 **Related articles:**
-- [Why ERP Projects Fail — and What the Software Cannot Fix]
+- [Why ERP Projects Fail — and What the Software Cannot Fix](/en/insights/erp/why-erp-projects-fail)
 - [You Have ERP, But Your Team Still Runs on Excel. Here's Why.]
-- [After ERP: How to Actually Use the Data You Now Have]
+- [After ERP: How to Actually Use the Data You Now Have](/en/insights/erp/how-to-use-erp-data)

@@ -94,12 +94,12 @@ The most common preparation steps:
 - Assign clear internal ownership for the project and for the system post go-live.
 - Communicate clearly with employees about what is changing and why — before the project starts.
 
-→ *Related: [Process Readiness: The Biggest Risk Before ERP Implementation]*
+→ *Related: [Process Readiness: The Biggest Risk Before ERP Implementation](/en/insights/erp/process-standardization-before-erp)*
 
 ---
 
 For a more complete picture across data readiness, governance, accounting, and manufacturing-specific dimensions, the assessment below gives you a structured view of where your organization stands.
 
-**→ [Complete the ERP Readiness Assessment]**
+**→ [Complete the ERP Readiness Assessment](/en/readiness/erp)**
 
-*For a deeper analysis of why most ERP projects underperform and what the root causes actually are: [Why ERP Projects Fail — and What the Software Cannot Fix]*
+*For a deeper analysis of why most ERP projects underperform and what the root causes actually are: [Why ERP Projects Fail — and What the Software Cannot Fix](/en/insights/erp/why-erp-projects-fail)*

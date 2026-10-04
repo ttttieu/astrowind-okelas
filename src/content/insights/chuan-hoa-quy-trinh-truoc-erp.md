@@ -25,7 +25,7 @@ draft: false
 
 ## Giới thiệu
 
-→ **[Khám phá các giải pháp ERP Readiness](/solutions/erp-readiness)**
+→ **[Khám phá các giải pháp ERP Readiness](/readiness/erp)**
 
 *Để hiểu được tại sao quy trình chưa chuẩn hóa là rủi ro lớn nhất, hãy bắt đầu từ: [Doanh nghiệp bạn đã thực sự sẵn sàng triển khai ERP chưa?](/insights/erp/doanh-nghiep-san-sang-trien-khai-erp)*
 
@@ -158,18 +158,18 @@ Sau đó tự hỏi:
 
 Nếu nhiều câu trả lời là "không" hoặc "không chắc" — đó là điểm cần giải quyết trước khi đi vào triển khai ERP.
 
-→ *Xem thêm: [Tại sao SOP có nhưng không được thực thi — và cách thực sự thay đổi điều đó]*
+→ *Xem thêm: [Tại sao SOP có nhưng không được thực thi — và cách thực sự thay đổi điều đó](/insights/knowledge-management/sop-khong-duoc-thuc-thi)*
 
-**Bước tiếp theo trong chuỗi: [Data readiness — tại sao dữ liệu "sạch" khó hơn doanh nghiệp nghĩ]**
+**Bước tiếp theo trong chuỗi: [Data readiness — tại sao dữ liệu "sạch" khó hơn doanh nghiệp nghĩ](/insights/erp/data-readiness-trien-khai-erp)**
 
-**→ [Làm ERP Readiness Assessment để đánh giá đầy đủ hơn về process readiness và các chiều sẵn sàng khác]**
+**→ [Làm ERP Readiness Assessment](/readiness/erp)**
 
 ---
 
 *Bài viết này là một phần của chuỗi chuyên đề về ERP readiness cho doanh nghiệp sản xuất SME.*
 
 **Bài liên quan:**
-- [Tại sao dự án ERP không đạt mục tiêu — pillar]
-- [Doanh nghiệp bạn đã thực sự sẵn sàng triển khai ERP chưa?]
-- [Data readiness: tại sao dữ liệu "sạch" khó hơn doanh nghiệp nghĩ]
-- [SOP có nhưng không được thực thi — tại sao?]
+- [Tại sao dự án ERP không đạt mục tiêu — pillar](/insights/erp/tai-sao-du-an-erp-that-bai)
+- [Doanh nghiệp bạn đã thực sự sẵn sàng triển khai ERP chưa?](/insights/erp/doanh-nghiep-san-sang-trien-khai-erp)
+- [Data readiness: tại sao dữ liệu "sạch" khó hơn doanh nghiệp nghĩ](/insights/erp/data-readiness-trien-khai-erp)
+- [SOP có nhưng không được thực thi — tại sao?](/insights/knowledge-management/sop-khong-duoc-thuc-thi)

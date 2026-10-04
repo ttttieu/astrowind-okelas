@@ -43,7 +43,7 @@ Khoảng cách giữa hai trạng thái này thường rộng hơn nhiều so v�
 
 ## Giới thiệu
 
-→ **[Khám phá các giải pháp ERP Readiness](/solutions/erp-readiness)**
+→ **[Khám phá các giải pháp ERP Readiness](/readiness/erp)**
 
 *Để hiểu perspective về change management, xem: [ERP và con người — tại sao user adoption quyết định thành bại](/insights/erp/user-adoption-erp)*
 
@@ -99,10 +99,10 @@ Nếu doanh nghiệp bạn đang ở trong tình huống này, có hai hướng 
 
 **Xem xét cả hai chiều: hệ thống lẫn tổ chức.** ERP không phản ánh đúng quy trình thực tế là vấn đề của hệ thống. Nhân viên không thấy lý do để thay đổi là vấn đề của tổ chức. Phần lớn trường hợp, cả hai tồn tại cùng lúc.
 
-→ *Xem thêm: [ERP và con người — tại sao user adoption quyết định thành bại]*
+→ *Xem thêm: [ERP và con người — tại sao user adoption quyết định thành bại](/insights/erp/user-adoption-erp)*
 
-→ *Xem thêm: [Tại sao Excel và email trở thành hệ thống vận hành ngầm của doanh nghiệp]*
+→ *Xem thêm: [Tại sao Excel và email trở thành hệ thống vận hành ngầm của doanh nghiệp](/insights/knowledge-management/excel-email-he-thong-van-hanh-ngam)*
 
-**→ [Làm ERP Readiness Assessment để xác định những khoảng cách còn lại sau triển khai]**
+**→ [Làm ERP Readiness Assessment](/readiness/erp)**
 
-*Và nếu bạn muốn hiểu khoảng cách giữa "ERP đã triển khai" và "ERP thực sự tạo ra giá trị": [Từ ERP implementation đến ERP adoption — khoảng cách ít ai nói tới]*
+*Và nếu bạn muốn hiểu khoảng cách giữa "ERP đã triển khai" và "ERP thực sự tạo ra giá trị": [Từ ERP implementation đến ERP adoption — khoảng cách ít ai nói tới](/insights/erp/khoang-cach-trien-khai-va-ap-dung-erp)*

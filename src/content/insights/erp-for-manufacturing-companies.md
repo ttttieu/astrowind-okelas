@@ -159,11 +159,11 @@ Before starting an ERP project, manufacturing businesses should answer these que
 - Does the business have specific characteristics around yield rates, units of measure, or material management that standard ERP may not handle by default?
 - Have these been discussed with the implementation partner?
 
-→ *Related: [ISO and GMP in a Digital Context — What Needs to Change in Document and Record Management]*
+→ *Related: [ISO and GMP in a Digital Context — What Needs to Change in Document and Record Management](/en/insights/business-operations/iso-gmp-document-management-digitalization)*
 
-**→ [Complete the ERP Readiness Assessment for a structured evaluation of manufacturing readiness alongside other implementation dimensions]**
+**→ [Complete the ERP Readiness Assessment](/en/readiness/erp)**
 
-→ **[Explore ERP Readiness Solutions](/solutions/erp-readiness)**
+→ **[Explore ERP Readiness Solutions](/en/readiness/erp)**
 
 *For user adoption and change management challenges specific to manufacturing, see: [ERP User Adoption](/en/insights/erp/erp-user-adoption)*
 
@@ -176,6 +176,6 @@ Before starting an ERP project, manufacturing businesses should answer these que
 *This article is part of a series on ERP readiness for manufacturing SMEs.*
 
 **Related articles:**
-- [Why ERP Projects Fail — and What the Software Cannot Fix]
-- [Accounting Readiness for ERP: A CFO's Preparation Checklist]
-- [ISO and GMP in a Digital Context: What Needs to Change]
+- [Why ERP Projects Fail — and What the Software Cannot Fix](/en/insights/erp/why-erp-projects-fail)
+- [Accounting Readiness for ERP: A CFO's Preparation Checklist](/en/insights/erp/accounting-readiness-erp)
+- [ISO and GMP in a Digital Context: What Needs to Change](/en/insights/business-operations/iso-gmp-document-management-digitalization)

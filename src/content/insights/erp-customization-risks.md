@@ -115,11 +115,11 @@ Whether your ERP is already running or you are preparing for implementation, con
 - When a new ERP version is released, can your organization upgrade within a reasonable timeframe?
 - How many people in your organization understand the existing customizations well enough to maintain them?
 
-**Next in the series: [ERP Governance — Who Is Responsible When ERP Does Not Work?]**
+**Next in the series: [ERP Governance — Who Is Responsible When ERP Does Not Work?](/en/insights/erp/erp-governance)**
 
-**→ [Complete the ERP Readiness Assessment for a structured evaluation of customization risk and other implementation dimensions]**
+**→ [Complete the ERP Readiness Assessment](/en/readiness/erp)**
 
-→ **[Explore ERP Readiness Solutions](/solutions/erp-readiness)**
+→ **[Explore ERP Readiness Solutions](/en/readiness/erp)**
 
 *For scope management context, see: [ERP Scope Creep — When the Project Grows Faster Than the Budget](/en/insights/erp/erp-scope-creep)*
 
@@ -132,6 +132,6 @@ Whether your ERP is already running or you are preparing for implementation, con
 *This article is part of a series on ERP readiness for manufacturing SMEs.*
 
 **Related articles:**
-- [Why ERP Projects Fail — and What the Software Cannot Fix]
-- [ERP Scope Creep: When the Project Grows Faster Than the Budget]
-- [ERP Governance: Who Is Responsible When ERP Does Not Work?]
+- [Why ERP Projects Fail — and What the Software Cannot Fix](/en/insights/erp/why-erp-projects-fail)
+- [ERP Scope Creep: When the Project Grows Faster Than the Budget](/en/insights/erp/erp-scope-creep)
+- [ERP Governance: Who Is Responsible When ERP Does Not Work?](/en/insights/erp/erp-governance)

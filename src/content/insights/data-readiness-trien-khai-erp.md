@@ -25,7 +25,7 @@ draft: false
 
 ## Giới thiệu
 
-→ **[Khám phá các giải pháp ERP Readiness](/solutions/erp-readiness)**
+→ **[Khám phá các giải pháp ERP Readiness](/readiness/erp)**
 
 *Để hiểu bối cảnh của quy trình chuẩn hóa là điều kiện tiên quyết cho sẵn sàng dữ liệu, xem: [Quy trình chưa chuẩn hóa — rủi ro lớn nhất trước khi triển khai ERP](/insights/erp/chuan-hoa-quy-trinh-truoc-erp)*
 
@@ -159,15 +159,15 @@ Vấn đề data migration thường không xuất hiện như một rủi ro r�
 
 Nếu nhiều câu trả lời là "không" hoặc "không chắc", đây là chỉ báo cần phân bổ thêm thời gian và nguồn lực cho giai đoạn chuẩn bị data — trước khi bắt đầu dự án ERP.
 
-**Bước tiếp theo trong chuỗi: [Scope creep trong ERP — khi dự án ngày càng lớn hơn dự kiến]**
+**Bước tiếp theo trong chuỗi: [Scope creep trong ERP — khi dự án ngày càng lớn hơn dự kiến](/insights/erp/scope-creep-trong-du-an-erp)**
 
-**→ [Làm ERP Readiness Assessment để đánh giá đầy đủ data readiness cùng các chiều sẵn sàng khác]**
+**→ [Làm ERP Readiness Assessment](/readiness/erp)**
 
 ---
 
 *Bài viết này là một phần của chuỗi chuyên đề về ERP readiness cho doanh nghiệp sản xuất SME.*
 
 **Bài liên quan:**
-- [Tại sao dự án ERP không đạt mục tiêu — pillar]
-- [Quy trình chưa chuẩn hóa — rủi ro lớn nhất trước khi triển khai ERP]
-- [Scope creep trong ERP — khi dự án ngày càng lớn hơn dự kiến]
+- [Tại sao dự án ERP không đạt mục tiêu — pillar](/insights/erp/tai-sao-du-an-erp-that-bai)
+- [Quy trình chưa chuẩn hóa — rủi ro lớn nhất trước khi triển khai ERP](/insights/erp/chuan-hoa-quy-trinh-truoc-erp)
+- [Scope creep trong ERP — khi dự án ngày càng lớn hơn dự kiến](/insights/erp/scope-creep-trong-du-an-erp)

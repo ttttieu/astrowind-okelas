@@ -138,13 +138,13 @@ Then ask honestly:
 
 If several of these answers are "no" or "not sure" — those are gaps to address before implementation begins.
 
-→ *Related: [Why SOPs Exist But Are Not Actually Followed — and What to Do About It]*
+→ *Related: [Why SOPs Exist But Are Not Actually Followed — and What to Do About It](/en/insights/knowledge-management/why-sops-are-not-followed)*
 
-**Next in the series: [Data Readiness — Why "Clean Data" Is Harder Than Organizations Expect]**
+**Next in the series: [Data Readiness — Why "Clean Data" Is Harder Than Organizations Expect](/en/insights/erp/erp-data-readiness)**
 
-**→ [Complete the ERP Readiness Assessment for a structured evaluation of process readiness and other implementation dimensions]**
+**→ [Complete the ERP Readiness Assessment](/en/readiness/erp)**
 
-→ **[Explore ERP Readiness Solutions](/solutions/erp-readiness)**
+→ **[Explore ERP Readiness Solutions](/en/readiness/erp)**
 
 *For context on why process standardization is critical before ERP begins, see the opening article: [Is Your Business Actually Ready for ERP?](/en/insights/erp/is-your-business-ready-for-erp)*
 
@@ -157,7 +157,7 @@ If several of these answers are "no" or "not sure" — those are gaps to address
 *This article is part of a series on ERP readiness for manufacturing SMEs.*
 
 **Related articles:**
-- [Why ERP Projects Fail — and What the Software Cannot Fix]
-- [Is Your Business Actually Ready for ERP?]
-- [Data Readiness: Why "Clean Data" Is Harder Than Organizations Expect]
-- [Why SOPs Exist But Are Not Actually Followed]
+- [Why ERP Projects Fail — and What the Software Cannot Fix](/en/insights/erp/why-erp-projects-fail)
+- [Is Your Business Actually Ready for ERP?](/en/insights/erp/is-your-business-ready-for-erp)
+- [Data Readiness: Why "Clean Data" Is Harder Than Organizations Expect](/en/insights/erp/erp-data-readiness)
+- [Why SOPs Exist But Are Not Actually Followed](/en/insights/knowledge-management/why-sops-are-not-followed)

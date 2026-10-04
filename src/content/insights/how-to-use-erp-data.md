@@ -133,18 +133,18 @@ ERP creates the data foundation for this — but moving from data to intelligenc
 
 This is the gap that many organizations are trying to fill with AI — but AI can only operate effectively when it has sufficient context and data quality to work with. Without those, AI has data but not understanding.
 
-→ *Related: [You Have Data But No Context — Why AI Can't Use It]*
+→ *Related: [You Have Data But No Context — Why AI Can't Use It](/en/insights/ai/data-without-context-ai-problem)*
 
-→ *Related: [Organizational AI — When AI Understands Your Business Rather Than Just Answering Questions]*
+→ *Related: [Organizational AI — When AI Understands Your Business Rather Than Just Answering Questions](/en/insights/ai/organizational-ai)*
 
 **→ OKELAS ERP Knowledge Graph helps organizations build the context and knowledge layer on top of ERP data — enabling query, analysis, and utilization in ways that ERP alone cannot provide. [Learn more about ERP Knowledge Graph]**
 
 ---
 
-*This article is the last in the series on ERP readiness and adoption. If you want to assess AI readiness to prepare for the next phase: [AI Readiness Assessment].*
+*This article is the last in the series on ERP readiness and adoption. If you want to assess AI readiness to prepare for the next phase: [AI Readiness Assessment](/en/readiness/ai).*
 
 **Related articles:**
-- [ERP Implementation vs. Adoption: Why Go-Live Is Just the Beginning]
-- [You Have Data But No Context — Why AI Can't Use It]
-- [Organizational AI: When AI Understands Your Business]
+- [ERP Implementation vs. Adoption: Why Go-Live Is Just the Beginning](/en/insights/erp/erp-implementation-vs-adoption)
+- [You Have Data But No Context — Why AI Can't Use It](/en/insights/ai/data-without-context-ai-problem)
+- [Organizational AI: When AI Understands Your Business](/en/insights/ai/organizational-ai)
 

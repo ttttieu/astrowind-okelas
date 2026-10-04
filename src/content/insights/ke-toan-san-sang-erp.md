@@ -25,7 +25,7 @@ draft: false
 
 ## Giới thiệu
 
-→ **[Khám phá các giải pháp ERP Readiness](/solutions/erp-readiness)**
+→ **[Khám phá các giải pháp ERP Readiness](/readiness/erp)**
 
 *Để xem tác động customization và user adoption liên quan tới kế toán, xem: [ERP và con người: tại sao user adoption quyết định thành bại](/insights/erp/user-adoption-erp)*
 
@@ -148,15 +148,15 @@ Sử dụng danh sách này để tự đánh giá trước khi bắt đầu d�
 
 Nếu nhiều ô chưa được đánh dấu, đây là tín hiệu cần phân bổ thêm thời gian và nguồn lực cho giai đoạn chuẩn bị tài chính — và CFO cần tham gia vào dự án ERP từ sớm hơn thông thường.
 
-→ *Xem thêm: [Data readiness — tại sao dữ liệu "sạch" khó hơn doanh nghiệp nghĩ]*
+→ *Xem thêm: [Data readiness — tại sao dữ liệu "sạch" khó hơn doanh nghiệp nghĩ](/insights/erp/data-readiness-trien-khai-erp)*
 
-**→ [Làm ERP Readiness Assessment để đánh giá đầy đủ accounting readiness cùng các chiều sẵn sàng khác]**
+**→ [Làm ERP Readiness Assessment](/readiness/erp)**
 
 ---
 
 *Bài viết này là một phần của chuỗi chuyên đề về ERP readiness cho doanh nghiệp sản xuất SME.*
 
 **Bài liên quan:**
-- [Tại sao dự án ERP không đạt mục tiêu — pillar]
-- [Data readiness: tại sao dữ liệu "sạch" khó hơn doanh nghiệp nghĩ]
-- [Manufacturing readiness: ERP cho doanh nghiệp sản xuất khác gì?]
+- [Tại sao dự án ERP không đạt mục tiêu — pillar](/insights/erp/tai-sao-du-an-erp-that-bai)
+- [Data readiness: tại sao dữ liệu "sạch" khó hơn doanh nghiệp nghĩ](/insights/erp/data-readiness-trien-khai-erp)
+- [Manufacturing readiness: ERP cho doanh nghiệp sản xuất khác gì?](/insights/erp/erp-cho-doanh-nghiep-san-xuat)

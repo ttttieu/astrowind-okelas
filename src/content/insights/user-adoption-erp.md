@@ -25,7 +25,7 @@ draft: false
 
 ## Giới thiệu
 
-→ **[Khám phá các giải pháp ERP Readiness](/solutions/erp-readiness)**
+→ **[Khám phá các giải pháp ERP Readiness](/readiness/erp)**
 
 *Để xem tác động của customization lên user adoption, xem: [Customization ERP: ranh giới giữa linh hoạt và rủi ro](/insights/erp/customization-erp-rui-ro)*
 
@@ -155,13 +155,13 @@ Một số yếu tố của change management thực sự hiệu quả:
 
 → *Xem thêm: [Khi nhân sự chủ chốt nghỉ việc, họ mang đi thứ gì? — bài về knowledge retention]*
 
-**→ [Làm ERP Readiness Assessment để đánh giá mức độ chuẩn bị cho change management và user adoption]**
+**→ [Làm ERP Readiness Assessment](/readiness/erp)**
 
 ---
 
 *Bài viết này là một phần của chuỗi chuyên đề về ERP readiness cho doanh nghiệp sản xuất SME.*
 
 **Bài liên quan:**
-- [Tại sao dự án ERP không đạt mục tiêu — pillar]
-- [Quy trình chưa chuẩn hóa — rủi ro lớn nhất trước khi triển khai ERP]
+- [Tại sao dự án ERP không đạt mục tiêu — pillar](/insights/erp/tai-sao-du-an-erp-that-bai)
+- [Quy trình chưa chuẩn hóa — rủi ro lớn nhất trước khi triển khai ERP](/insights/erp/chuan-hoa-quy-trinh-truoc-erp)
 - [Khi nhân sự chủ chốt nghỉ việc, họ mang đi thứ gì?]

@@ -147,11 +147,11 @@ Questions to assess your current data readiness:
 
 If several of these answers are "no" or "uncertain," that is a signal to allocate significantly more time and resources to the data preparation phase — before the ERP project formally begins.
 
-**Next in the series: [Scope Creep in ERP — When the Project Keeps Growing Beyond the Plan]**
+**Next in the series: [Scope Creep in ERP — When the Project Keeps Growing Beyond the Plan](/en/insights/erp/erp-scope-creep)**
 
-**→ [Complete the ERP Readiness Assessment for a structured evaluation of data readiness alongside other implementation dimensions]**
+**→ [Complete the ERP Readiness Assessment](/en/readiness/erp)**
 
-→ **[Explore ERP Readiness Solutions](/solutions/erp-readiness)**
+→ **[Explore ERP Readiness Solutions](/en/readiness/erp)**
 
 *For context on process standardization as a prerequisite for data readiness, see: [Process Standardization Before ERP](/en/insights/erp/process-standardization-before-erp)*
 
@@ -164,6 +164,6 @@ If several of these answers are "no" or "uncertain," that is a signal to allocat
 *This article is part of a series on ERP readiness for manufacturing SMEs.*
 
 **Related articles:**
-- [Why ERP Projects Fail — and What the Software Cannot Fix]
-- [Process Standardization Before ERP: The Step Most Companies Skip]
-- [Scope Creep in ERP: When the Project Keeps Growing]
+- [Why ERP Projects Fail — and What the Software Cannot Fix](/en/insights/erp/why-erp-projects-fail)
+- [Process Standardization Before ERP: The Step Most Companies Skip](/en/insights/erp/process-standardization-before-erp)
+- [Scope Creep in ERP: When the Project Keeps Growing](/en/insights/erp/erp-scope-creep)

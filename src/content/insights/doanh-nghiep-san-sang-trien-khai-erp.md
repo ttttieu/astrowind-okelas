@@ -94,12 +94,12 @@ Những bước chuẩn bị phổ biến nhất:
 - Chỉ định người chịu trách nhiệm nội bộ cho dự án và cho hệ thống sau go-live.
 - Có kế hoạch communication rõ ràng với nhân viên trước khi bắt đầu.
 
-→ *Xem thêm: [Quy trình chưa chuẩn hóa — rủi ro lớn nhất trước khi triển khai ERP]*
+→ *Xem thêm: [Quy trình chưa chuẩn hóa — rủi ro lớn nhất trước khi triển khai ERP](/insights/erp/chuan-hoa-quy-trinh-truoc-erp)*
 
 ---
 
 Nếu bạn muốn đánh giá đầy đủ hơn — bao gồm cả chiều dữ liệu, quản trị, kế toán và đặc thù sản xuất — bộ câu hỏi dưới đây sẽ giúp bạn có bức tranh cụ thể hơn về mức độ sẵn sàng của doanh nghiệp.
 
-**→ [Làm ERP Readiness Assessment]**
+**→ [Làm ERP Readiness Assessment](/readiness/erp)**
 
-*Và nếu bạn muốn hiểu sâu hơn tại sao phần lớn ERP không đạt kỳ vọng và vấn đề thực sự nằm ở đâu: [Tại sao dự án ERP không đạt mục tiêu — và vấn đề thực sự không nằm ở phần mềm]*
+*Và nếu bạn muốn hiểu sâu hơn tại sao phần lớn ERP không đạt kỳ vọng và vấn đề thực sự nằm ở đâu: [Tại sao dự án ERP không đạt mục tiêu — và vấn đề thực sự không nằm ở phần mềm](/insights/erp/tai-sao-du-an-erp-that-bai)*

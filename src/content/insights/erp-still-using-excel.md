@@ -43,7 +43,7 @@ The distance between these two states is typically much wider than the project s
 
 ## Introduction
 
-→ **[Explore ERP Readiness Solutions](/solutions/erp-readiness)**
+→ **[Explore ERP Readiness Solutions](/en/readiness/erp)**
 
 *For change management perspectives on this problem, see: [ERP User Adoption — Why People Determine Whether ERP Succeeds](/en/insights/erp/erp-user-adoption)*
 
@@ -99,10 +99,10 @@ If this describes your organization, there are two things to consider before tak
 
 **Look at both dimensions: the system and the organization.** ERP not reflecting real processes is a system problem. Employees not having a reason to change is an organizational problem. In most cases, both exist simultaneously.
 
-→ *Related: [ERP User Adoption — Why People Determine Whether ERP Succeeds]*
+→ *Related: [ERP User Adoption — Why People Determine Whether ERP Succeeds](/en/insights/erp/erp-user-adoption)*
 
-→ *Related: [Why Excel and Email Become the Unofficial Operating System of Organizations]*
+→ *Related: [Why Excel and Email Become the Unofficial Operating System of Organizations](/en/insights/workflow/email-spreadsheet-work-tracking)*
 
-**→ [Complete the ERP Readiness Assessment to identify the gaps remaining after implementation]**
+**→ [Complete the ERP Readiness Assessment](/en/readiness/erp)**
 
-*To understand the full distance between "ERP implemented" and "ERP actually delivering value": [From ERP Implementation to ERP Adoption — The Gap No One Talks About]*
+*To understand the full distance between "ERP implemented" and "ERP actually delivering value": [From ERP Implementation to ERP Adoption — The Gap No One Talks About](/en/insights/erp/erp-implementation-vs-adoption)*

@@ -33,7 +33,7 @@ draft: false
 
 ## Giới thiệu
 
-→ **[Khám phá các giải pháp ERP Readiness](/solutions/erp-readiness)**
+→ **[Khám phá các giải pháp ERP Readiness](/readiness/erp)**
 
 *Để hiểu broader context về user adoption và impact của nó trên governance: [ERP và con người — tại sao user adoption quyết định thành bại](/insights/erp/user-adoption-erp)*
 
@@ -142,15 +142,15 @@ Lý do: ngay từ những tuần đầu sau go-live, các quyết định về h
 
 Nếu nhiều câu trả lời là "không rõ" hoặc "chưa có" — đó là khoảng trống governance cần được điền vào, dù hệ thống đã go-live bao lâu rồi.
 
-**Bước tiếp theo trong chuỗi: [Sau ERP — doanh nghiệp cần làm gì để khai thác dữ liệu ERP?]**
+**Bước tiếp theo trong chuỗi: [Sau ERP — doanh nghiệp cần làm gì để khai thác dữ liệu ERP?](/insights/erp/khai-thac-du-lieu-erp)**
 
-**→ [Làm ERP Readiness Assessment để đánh giá mức độ chuẩn bị về governance cùng các chiều sẵn sàng khác]**
+**→ [Làm ERP Readiness Assessment](/readiness/erp)**
 
 ---
 
 *Bài viết này là một phần của chuỗi chuyên đề về ERP readiness cho doanh nghiệp sản xuất SME.*
 
 **Bài liên quan:**
-- [Tại sao dự án ERP không đạt mục tiêu — pillar]
-- [Customization ERP: ranh giới giữa linh hoạt và rủi ro]
-- [Sau ERP: doanh nghiệp cần làm gì để khai thác dữ liệu ERP?]
+- [Tại sao dự án ERP không đạt mục tiêu — pillar](/insights/erp/tai-sao-du-an-erp-that-bai)
+- [Customization ERP: ranh giới giữa linh hoạt và rủi ro](/insights/erp/customization-erp-rui-ro)
+- [Sau ERP: doanh nghiệp cần làm gì để khai thác dữ liệu ERP?](/insights/erp/khai-thac-du-lieu-erp)

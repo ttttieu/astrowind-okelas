@@ -25,7 +25,7 @@ draft: false
 
 ## Giới thiệu
 
-→ **[Khám phá các giải pháp ERP Readiness](/solutions/erp-readiness)**
+→ **[Khám phá các giải pháp ERP Readiness](/readiness/erp)**
 
 *Để xem bối cảnh quản lý scope, xem: [Scope creep trong ERP — khi dự án cứ lớn dần mà không ai kiểm soát được](/insights/erp/scope-creep-trong-du-an-erp)*
 
@@ -127,15 +127,15 @@ Nếu hệ thống ERP của bạn đang chạy — hoặc bạn đang chuẩn b
 - Khi phiên bản ERP mới được release, doanh nghiệp có khả năng nâng cấp trong thời gian hợp lý không?
 - Có bao nhiêu người trong tổ chức hiểu đủ để maintain các customization hiện có?
 
-**Bước tiếp theo trong chuỗi: [ERP governance — ai chịu trách nhiệm khi ERP không hoạt động đúng?]**
+**Bước tiếp theo trong chuỗi: [ERP governance — ai chịu trách nhiệm khi ERP không hoạt động đúng?](/insights/erp/quan-tri-erp-governance)**
 
-**→ [Làm ERP Readiness Assessment để đánh giá mức độ customization và các chiều rủi ro khác]**
+**→ [Làm ERP Readiness Assessment](/readiness/erp)**
 
 ---
 
 *Bài viết này là một phần của chuỗi chuyên đề về ERP readiness cho doanh nghiệp sản xuất SME.*
 
 **Bài liên quan:**
-- [Tại sao dự án ERP không đạt mục tiêu — pillar]
-- [Scope creep trong ERP — khi dự án ngày càng lớn hơn dự kiến]
-- [ERP governance: ai chịu trách nhiệm khi ERP không hoạt động đúng?]
+- [Tại sao dự án ERP không đạt mục tiêu — pillar](/insights/erp/tai-sao-du-an-erp-that-bai)
+- [Scope creep trong ERP — khi dự án ngày càng lớn hơn dự kiến](/insights/erp/scope-creep-trong-du-an-erp)
+- [ERP governance: ai chịu trách nhiệm khi ERP không hoạt động đúng?](/insights/erp/quan-tri-erp-governance)

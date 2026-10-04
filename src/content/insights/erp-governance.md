@@ -33,7 +33,7 @@ draft: false
 
 ## Introduction
 
-→ **[Explore ERP Readiness Solutions](/solutions/erp-readiness)**
+→ **[Explore ERP Readiness Solutions](/en/readiness/erp)**
 
 *For broader context on user adoption and its impact on governance, see: [ERP User Adoption — Why People Determine Whether ERP Succeeds](/en/insights/erp/erp-user-adoption)*
 
@@ -142,15 +142,15 @@ The reason: from the first weeks after go-live, decisions about the system will 
 
 If several answers are "unclear" or "we haven't established that" — those are governance gaps that need to be filled, regardless of how long ago go-live was.
 
-**Next in the series: [After ERP — How to Actually Use the Data You Now Have]**
+**Next in the series: [After ERP — How to Actually Use the Data You Now Have](/en/insights/erp/how-to-use-erp-data)**
 
-**→ [Complete the ERP Readiness Assessment for a structured evaluation of governance readiness and other implementation dimensions]**
+**→ [Complete the ERP Readiness Assessment](/en/readiness/erp)**
 
 ---
 
 *This article is part of a series on ERP readiness for manufacturing SMEs.*
 
 **Related articles:**
-- [Why ERP Projects Fail — and What the Software Cannot Fix]
-- [ERP Customization: The Line Between Flexibility and Technical Debt]
-- [After ERP: How to Actually Use the Data You Now Have]
+- [Why ERP Projects Fail — and What the Software Cannot Fix](/en/insights/erp/why-erp-projects-fail)
+- [ERP Customization: The Line Between Flexibility and Technical Debt](/en/insights/erp/erp-customization-risks)
+- [After ERP: How to Actually Use the Data You Now Have](/en/insights/erp/how-to-use-erp-data)

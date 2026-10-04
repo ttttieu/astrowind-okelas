@@ -143,9 +143,9 @@ Elements of change management that actually work:
 
 → *Related: [When a Key Employee Leaves, What Do They Take With Them? — on knowledge retention]*
 
-**→ [Complete the ERP Readiness Assessment to evaluate your organization's change management preparation]**
+**→ [Complete the ERP Readiness Assessment](/en/readiness/erp)**
 
-→ **[Explore ERP Readiness Solutions](/solutions/erp-readiness)**
+→ **[Explore ERP Readiness Solutions](/en/readiness/erp)**
 
 *For customization impacts on user adoption, see: [ERP Customization Risks](/en/insights/erp/erp-customization-risks)*
 
@@ -158,6 +158,6 @@ Elements of change management that actually work:
 *This article is part of a series on ERP readiness for manufacturing SMEs.*
 
 **Related articles:**
-- [Why ERP Projects Fail — and What the Software Cannot Fix]
-- [Process Standardization Before ERP: The Step Most Companies Skip]
+- [Why ERP Projects Fail — and What the Software Cannot Fix](/en/insights/erp/why-erp-projects-fail)
+- [Process Standardization Before ERP: The Step Most Companies Skip](/en/insights/erp/process-standardization-before-erp)
 - [When a Key Employee Leaves, What Do They Take With Them?]

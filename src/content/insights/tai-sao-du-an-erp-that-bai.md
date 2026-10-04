@@ -100,7 +100,7 @@ Khi doanh nghiệp bắt đầu triển khai ERP mà chưa có câu trả lời 
 
 Kết quả: dự án kéo dài, customization không kiểm soát được, và cuối cùng là một hệ thống phản ánh sự hỗn loạn của quy trình cũ — không phải quy trình mới tốt hơn.
 
-→ *Xem thêm: [Quy trình chưa chuẩn hóa — rủi ro lớn nhất trước khi triển khai ERP]*
+→ *Xem thêm: [Quy trình chưa chuẩn hóa — rủi ro lớn nhất trước khi triển khai ERP](/insights/erp/chuan-hoa-quy-trinh-truoc-erp)*
 
 ### 2. Dữ liệu không sạch, không đủ, không nhất quán
 
@@ -110,7 +110,7 @@ Nhiều doanh nghiệp không biết chính xác mình có bao nhiêu nhà cung 
 
 Dữ liệu kém chất lượng là một trong những nguyên nhân phổ biến nhất khiến báo cáo ERP không được tin tưởng và không được dùng để ra quyết định.
 
-→ *Xem thêm: [Data readiness: tại sao dữ liệu "sạch" khó hơn doanh nghiệp nghĩ]*
+→ *Xem thêm: [Data readiness: tại sao dữ liệu "sạch" khó hơn doanh nghiệp nghĩ](/insights/erp/data-readiness-trien-khai-erp)*
 
 ### 3. Scope không được kiểm soát
 
@@ -120,7 +120,7 @@ Nó thường bắt đầu với những yêu cầu hợp lý: *"Chúng tôi c�
 
 Doanh nghiệp không có governance rõ ràng cho việc ai được phép thêm yêu cầu và theo quy trình nào thường bị mắc vào vòng lặp này.
 
-→ *Xem thêm: [Scope creep trong ERP — khi dự án ngày càng lớn hơn dự kiến]*
+→ *Xem thêm: [Scope creep trong ERP — khi dự án ngày càng lớn hơn dự kiến](/insights/erp/scope-creep-trong-du-an-erp)*
 
 ### 4. Customization quá nhiều và không có chiến lược
 
@@ -130,7 +130,7 @@ ERP được thiết kế dựa trên best practice của ngành. Khi doanh nghi
 
 Mỗi lần customization là một khoản nợ kỹ thuật. Tích lũy đủ nhiều, hệ thống trở thành một hộp đen không ai dám chạm vào.
 
-→ *Xem thêm: [Customization ERP: ranh giới giữa linh hoạt và rủi ro]*
+→ *Xem thêm: [Customization ERP: ranh giới giữa linh hoạt và rủi ro](/insights/erp/customization-erp-rui-ro)*
 
 ### 5. Con người không hiểu tại sao — và không thay đổi cách làm việc
 
@@ -140,7 +140,7 @@ Nếu nhân viên không hiểu tại sao hệ thống mới tốt hơn cách c�
 
 User adoption không phải vấn đề đào tạo. Đó là vấn đề change management — và nó cần bắt đầu từ trước khi go-live, không phải sau.
 
-→ *Xem thêm: [ERP và con người: tại sao user adoption quyết định thành bại]*
+→ *Xem thêm: [ERP và con người: tại sao user adoption quyết định thành bại](/insights/erp/user-adoption-erp)*
 
 ### 6. Thiếu governance sau go-live
 
@@ -150,7 +150,7 @@ Ai chịu trách nhiệm khi dữ liệu trong hệ thống không chính xác? 
 
 Không có governance, hệ thống ERP nhanh chóng trở thành một hệ thống không có chủ — mà một hệ thống không có chủ thì không ai muốn dùng.
 
-→ *Xem thêm: [ERP governance: ai chịu trách nhiệm khi ERP không hoạt động đúng?]*
+→ *Xem thêm: [ERP governance: ai chịu trách nhiệm khi ERP không hoạt động đúng?](/insights/erp/quan-tri-erp-governance)*
 
 ### 7. Kế toán và tài chính chưa sẵn sàng
 
@@ -158,7 +158,7 @@ Không có governance, hệ thống ERP nhanh chóng trở thành một hệ th�
 
 ERP, đặc biệt với module tài chính và kế toán, yêu cầu doanh nghiệp có sơ đồ tài khoản rõ ràng, cách phân bổ chi phí nhất quán, và quy trình đối chiếu số liệu. Khi các yếu tố này chưa được xây dựng trước, việc triển khai module tài chính ERP thường mất nhiều thời gian hơn dự kiến và kết quả ít tin cậy hơn mong đợi.
 
-→ *Xem thêm: [Accounting readiness trước ERP — những gì CFO cần biết]*
+→ *Xem thêm: [Accounting readiness trước ERP — những gì CFO cần biết](/insights/erp/ke-toan-san-sang-erp)*
 
 ### 8. Không xác định rõ "thành công" trông như thế nào
 
@@ -184,7 +184,7 @@ Ngoài 8 nguyên nhân trên — vốn phổ biến với mọi ngành — doanh
 
 **Seasonality và biến động nhu cầu.** Doanh nghiệp có mùa vụ rõ ràng — như thủy sản hoặc nông sản — cần ERP xử lý được sự biến động lớn về tồn kho, lao động và sản xuất, điều không phải lúc nào cũng được tính đến trong cấu hình mặc định.
 
-→ *Xem thêm: [Manufacturing readiness: ERP cho doanh nghiệp sản xuất khác gì?]*
+→ *Xem thêm: [Manufacturing readiness: ERP cho doanh nghiệp sản xuất khác gì?](/insights/erp/erp-cho-doanh-nghiep-san-xuat)*
 
 ---
 
@@ -256,7 +256,7 @@ ERP quản lý giao dịch và dữ liệu vận hành. Nhưng nó không tự �
 
 ERP là một thành phần quan trọng. Nhưng không phải điểm kết thúc của hành trình chuyển đổi vận hành.
 
-→ *Xem thêm: [Sau ERP: doanh nghiệp cần làm gì để khai thác dữ liệu ERP?]*
+→ *Xem thêm: [Sau ERP: doanh nghiệp cần làm gì để khai thác dữ liệu ERP?](/insights/erp/khai-thac-du-lieu-erp)*
 
 ---
 
@@ -282,7 +282,7 @@ Trước khi bắt đầu một dự án ERP — hoặc để hiểu tại sao E
 
 Nếu nhiều câu hỏi trên chưa có câu trả lời rõ ràng, đó là tín hiệu rằng doanh nghiệp cần chuẩn bị thêm trước khi đi vào triển khai — dù với ERP nào.
 
-**→ Làm [ERP Readiness Assessment] để có đánh giá đầy đủ hơn về mức độ sẵn sàng của doanh nghiệp.**
+**→ Làm [Làm ERP Readiness Assessment](/readiness/erp) để có đánh giá đầy đủ hơn về mức độ sẵn sàng của doanh nghiệp.**
 
 ---
 
@@ -305,11 +305,11 @@ Câu trả lời trung thực cho câu hỏi đó sẽ nói lên nhiều hơn b�
 *Bài viết này là một phần của chuỗi chuyên đề về ERP, chuyển đổi số và quản trị vận hành cho doanh nghiệp sản xuất SME.*
 
 **Bài liên quan:**
-- [Doanh nghiệp bạn đã thực sự sẵn sàng triển khai ERP chưa?]
-- [Quy trình chưa chuẩn hóa — rủi ro lớn nhất trước khi triển khai ERP]
-- [Data readiness: tại sao dữ liệu "sạch" khó hơn doanh nghiệp nghĩ]
-- [Customization ERP: ranh giới giữa linh hoạt và rủi ro]
-- [ERP và con người: tại sao user adoption quyết định thành bại]
-- [ERP governance: ai chịu trách nhiệm khi ERP không hoạt động đúng?]
+- [Doanh nghiệp bạn đã thực sự sẵn sàng triển khai ERP chưa?](/insights/erp/doanh-nghiep-san-sang-trien-khai-erp)
+- [Quy trình chưa chuẩn hóa — rủi ro lớn nhất trước khi triển khai ERP](/insights/erp/chuan-hoa-quy-trinh-truoc-erp)
+- [Data readiness: tại sao dữ liệu "sạch" khó hơn doanh nghiệp nghĩ](/insights/erp/data-readiness-trien-khai-erp)
+- [Customization ERP: ranh giới giữa linh hoạt và rủi ro](/insights/erp/customization-erp-rui-ro)
+- [ERP và con người: tại sao user adoption quyết định thành bại](/insights/erp/user-adoption-erp)
+- [ERP governance: ai chịu trách nhiệm khi ERP không hoạt động đúng?](/insights/erp/quan-tri-erp-governance)
 
-**→ [Làm ERP Readiness Assessment]**
+**→ [Làm ERP Readiness Assessment](/readiness/erp)**

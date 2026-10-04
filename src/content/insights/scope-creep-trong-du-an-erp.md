@@ -25,7 +25,7 @@ draft: false
 
 ## Giới thiệu
 
-→ **[Khám phá các giải pháp ERP Readiness](/solutions/erp-readiness)**
+→ **[Khám phá các giải pháp ERP Readiness](/readiness/erp)**
 
 *Để hiểu nền tảng về sẵn sàng dữ liệu, xem: [Data readiness trước ERP — tại sao dữ liệu "sạch" khó hơn bạn nghĩ](/insights/erp/data-readiness-trien-khai-erp)*
 
@@ -146,15 +146,15 @@ Nếu bạn đang ở giữa một dự án ERP, hãy hỏi:
 - Có bao nhiêu yêu cầu đã được thêm vào mà không có đánh giá tác động rõ ràng?
 - Timeline go-live đã bị lùi bao nhiêu lần và vì lý do gì?
 
-**Bước tiếp theo trong chuỗi: [Customization ERP — ranh giới giữa linh hoạt và rủi ro]**
+**Bước tiếp theo trong chuỗi: [Customization ERP — ranh giới giữa linh hoạt và rủi ro](/insights/erp/customization-erp-rui-ro)**
 
-**→ [Làm ERP Readiness Assessment để đánh giá khả năng kiểm soát scope và các chiều sẵn sàng khác]**
+**→ [Làm ERP Readiness Assessment](/readiness/erp)**
 
 ---
 
 *Bài viết này là một phần của chuỗi chuyên đề về ERP readiness cho doanh nghiệp sản xuất SME.*
 
 **Bài liên quan:**
-- [Tại sao dự án ERP không đạt mục tiêu — pillar]
-- [Data readiness: tại sao dữ liệu "sạch" khó hơn doanh nghiệp nghĩ]
-- [Customization ERP: ranh giới giữa linh hoạt và rủi ro]
+- [Tại sao dự án ERP không đạt mục tiêu — pillar](/insights/erp/tai-sao-du-an-erp-that-bai)
+- [Data readiness: tại sao dữ liệu "sạch" khó hơn doanh nghiệp nghĩ](/insights/erp/data-readiness-trien-khai-erp)
+- [Customization ERP: ranh giới giữa linh hoạt và rủi ro](/insights/erp/customization-erp-rui-ro)

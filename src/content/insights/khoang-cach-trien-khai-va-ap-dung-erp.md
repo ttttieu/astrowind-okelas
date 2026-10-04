@@ -33,7 +33,7 @@ draft: false
 
 ## Giới thiệu
 
-→ **[Khám phá các giải pháp ERP Readiness](/solutions/erp-readiness)**
+→ **[Khám phá các giải pháp ERP Readiness](/readiness/erp)**
 
 *Để hiểu về data quality và governance như là tiền đề: [ERP Governance: ai chịu trách nhiệm khi ERP không hoạt động đúng?](/insights/erp/quan-tri-erp-governance)*
 
@@ -147,17 +147,17 @@ Khi dữ liệu trong ERP đủ chất lượng, quy trình được phản ánh
 
 Nhưng tất cả những điều đó đều đòi hỏi nền tảng ERP adoption đã được xây dựng vững.
 
-→ *Xem thêm: [Sau ERP — doanh nghiệp cần làm gì để khai thác dữ liệu ERP?]*
+→ *Xem thêm: [Sau ERP — doanh nghiệp cần làm gì để khai thác dữ liệu ERP?](/insights/erp/khai-thac-du-lieu-erp)*
 
-→ *Xem thêm: [Organizational AI — khi AI hiểu doanh nghiệp thay vì chỉ trả lời câu hỏi]*
+→ *Xem thêm: [Organizational AI — khi AI hiểu doanh nghiệp thay vì chỉ trả lời câu hỏi](/insights/ai/organizational-ai-doanh-nghiep)*
 
-**→ Nếu doanh nghiệp bạn đang ở trong giai đoạn này — đã có ERP nhưng chưa thấy kết quả như kỳ vọng — [liên hệ OKELAS để trao đổi về lộ trình phù hợp].**
+**→ Nếu doanh nghiệp bạn đang ở trong giai đoạn này — đã có ERP nhưng chưa thấy kết quả như kỳ vọng — [liên hệ OKELAS để trao đổi về lộ trình phù hợp](/lien-he).**
 
 ---
 
 *Bài viết này là một phần của chuỗi chuyên đề về ERP readiness và ERP adoption cho doanh nghiệp sản xuất SME.*
 
 **Bài liên quan:**
-- [Tại sao dự án ERP không đạt mục tiêu — pillar]
-- [Doanh nghiệp đã có ERP nhưng vẫn chạy bằng Excel — tại sao?]
-- [Sau ERP: doanh nghiệp cần làm gì để khai thác dữ liệu ERP?]
+- [Tại sao dự án ERP không đạt mục tiêu — pillar](/insights/erp/tai-sao-du-an-erp-that-bai)
+- [Doanh nghiệp đã có ERP nhưng vẫn chạy bằng Excel — tại sao?](/insights/erp/co-erp-van-dung-excel)
+- [Sau ERP: doanh nghiệp cần làm gì để khai thác dữ liệu ERP?](/insights/erp/khai-thac-du-lieu-erp)

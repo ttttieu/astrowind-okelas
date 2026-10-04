@@ -134,11 +134,11 @@ If you are currently in an ERP project:
 - How many requirements have been added without a formal impact assessment?
 - How many times has the go-live date been moved, and for what reasons?
 
-**Next in the series: [ERP Customization — The Line Between Flexibility and Risk]**
+**Next in the series: [ERP Customization — The Line Between Flexibility and Risk](/en/insights/erp/erp-customization-risks)**
 
-**→ [Complete the ERP Readiness Assessment for a structured view of scope readiness and other implementation dimensions]**
+**→ [Complete the ERP Readiness Assessment](/en/readiness/erp)**
 
-→ **[Explore ERP Readiness Solutions](/solutions/erp-readiness)**
+→ **[Explore ERP Readiness Solutions](/en/readiness/erp)**
 
 *For the foundation on data readiness, see: [ERP Data Readiness](/en/insights/erp/erp-data-readiness)*
 
@@ -151,6 +151,6 @@ If you are currently in an ERP project:
 *This article is part of a series on ERP readiness for manufacturing SMEs.*
 
 **Related articles:**
-- [Why ERP Projects Fail — and What the Software Cannot Fix]
-- [ERP Data Readiness: The Hidden Complexity of "Clean Data"]
-- [ERP Customization: The Line Between Flexibility and Risk]
+- [Why ERP Projects Fail — and What the Software Cannot Fix](/en/insights/erp/why-erp-projects-fail)
+- [ERP Data Readiness: The Hidden Complexity of "Clean Data"](/en/insights/erp/erp-data-readiness)
+- [ERP Customization: The Line Between Flexibility and Risk](/en/insights/erp/erp-customization-risks)

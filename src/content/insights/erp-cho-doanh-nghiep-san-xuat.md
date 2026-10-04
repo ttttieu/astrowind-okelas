@@ -25,7 +25,7 @@ draft: false
 
 ## Giới thiệu
 
-→ **[Khám phá các giải pháp ERP Readiness](/solutions/erp-readiness)**
+→ **[Khám phá các giải pháp ERP Readiness](/readiness/erp)**
 
 *Để xem thách thức user adoption và change management đặc thù cho sản xuất, xem: [ERP và con người: tại sao user adoption quyết định thành bại](/insights/erp/user-adoption-erp)*
 
@@ -171,15 +171,15 @@ Trước khi bắt đầu dự án ERP, doanh nghiệp sản xuất cần tự h
 - Doanh nghiệp có đặc thù nào về yield rate, đơn vị tính, hay quản lý nguyên liệu mà ERP chuẩn có thể không xử lý được?
 - Đã thảo luận với nhà triển khai về những đặc thù này chưa?
 
-→ *Xem thêm: [ISO và GMP trong bối cảnh số hóa — những gì cần thay đổi trong cách quản lý hồ sơ]*
+→ *Xem thêm: [ISO và GMP trong bối cảnh số hóa — những gì cần thay đổi trong cách quản lý hồ sơ](/insights/business-operations/so-hoa-ho-so-iso-gmp)*
 
-**→ [Làm ERP Readiness Assessment để đánh giá manufacturing readiness cùng các chiều sẵn sàng khác]**
+**→ [Làm ERP Readiness Assessment](/readiness/erp)**
 
 ---
 
 *Bài viết này là một phần của chuỗi chuyên đề về ERP readiness cho doanh nghiệp sản xuất SME.*
 
 **Bài liên quan:**
-- [Tại sao dự án ERP không đạt mục tiêu — pillar]
-- [Accounting readiness trước ERP — những gì CFO cần biết]
-- [ISO và GMP trong bối cảnh số hóa — những gì cần thay đổi trong cách quản lý hồ sơ]
+- [Tại sao dự án ERP không đạt mục tiêu — pillar](/insights/erp/tai-sao-du-an-erp-that-bai)
+- [Accounting readiness trước ERP — những gì CFO cần biết](/insights/erp/ke-toan-san-sang-erp)
+- [ISO và GMP trong bối cảnh số hóa — những gì cần thay đổi trong cách quản lý hồ sơ](/insights/business-operations/so-hoa-ho-so-iso-gmp)

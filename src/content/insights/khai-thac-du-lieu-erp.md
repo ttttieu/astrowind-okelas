@@ -133,17 +133,17 @@ ERP tạo ra nền tảng dữ liệu cho điều đó — nhưng từ dữ li�
 
 Đây là khoảng cách mà nhiều doanh nghiệp đang cố gắng lấp đầy bằng AI — nhưng AI chỉ có thể hoạt động hiệu quả khi nó có đủ context và dữ liệu chất lượng để làm việc với.
 
-→ *Xem thêm: [Dữ liệu có nhưng không có context — tại sao AI không thể dùng được?]*
+→ *Xem thêm: [Dữ liệu có nhưng không có context — tại sao AI không thể dùng được?](/insights/ai/du-lieu-khong-co-context-ai)*
 
-→ *Xem thêm: [Organizational AI — khi AI hiểu doanh nghiệp thay vì chỉ trả lời câu hỏi]*
+→ *Xem thêm: [Organizational AI — khi AI hiểu doanh nghiệp thay vì chỉ trả lời câu hỏi](/insights/ai/organizational-ai-doanh-nghiep)*
 
 **→ OKELAS ERP Knowledge Graph giúp doanh nghiệp xây dựng lớp context và knowledge trên dữ liệu ERP — để từ dữ liệu giao dịch có thể truy vấn, phân tích và khai thác theo cách mà ERP đơn thuần không làm được. [Tìm hiểu thêm về ERP Knowledge Graph]**
 
 ---
 
-*Bài viết này là bài cuối trong chuỗi về ERP readiness và adoption. Nếu bạn muốn đánh giá AI readiness để chuẩn bị cho giai đoạn tiếp theo, hãy xem [AI Readiness Assessment].*
+*Bài viết này là bài cuối trong chuỗi về ERP readiness và adoption. Nếu bạn muốn đánh giá AI readiness để chuẩn bị cho giai đoạn tiếp theo, hãy xem [AI Readiness Assessment](/readiness/ai).*
 
 **Bài liên quan:**
-- [Từ ERP implementation đến ERP adoption — khoảng cách ít ai nói tới]
-- [Dữ liệu có nhưng không có context — tại sao AI không thể dùng được?]
-- [Organizational AI: khi AI hiểu doanh nghiệp thay vì chỉ trả lời câu hỏi]
+- [Từ ERP implementation đến ERP adoption — khoảng cách ít ai nói tới](/insights/erp/khoang-cach-trien-khai-va-ap-dung-erp)
+- [Dữ liệu có nhưng không có context — tại sao AI không thể dùng được?](/insights/ai/du-lieu-khong-co-context-ai)
+- [Organizational AI: khi AI hiểu doanh nghiệp thay vì chỉ trả lời câu hỏi](/insights/ai/organizational-ai-doanh-nghiep)

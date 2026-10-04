@@ -136,11 +136,11 @@ Use this checklist to self-assess before beginning an ERP project:
 
 If several items are unchecked, that is a signal to allocate more time and resources to financial preparation — and for the CFO to engage in the ERP project earlier than is typical.
 
-→ *Related: [ERP Data Readiness: The Hidden Complexity of "Clean Data"]*
+→ *Related: [ERP Data Readiness: The Hidden Complexity of "Clean Data"](/en/insights/erp/erp-data-readiness)*
 
-**→ [Complete the ERP Readiness Assessment for a structured evaluation of accounting readiness alongside other implementation dimensions]**
+**→ [Complete the ERP Readiness Assessment](/en/readiness/erp)**
 
-→ **[Explore ERP Readiness Solutions](/solutions/erp-readiness)**
+→ **[Explore ERP Readiness Solutions](/en/readiness/erp)**
 
 *For customization and user adoption related to accounting, see: [ERP User Adoption](/en/insights/erp/erp-user-adoption)*
 
@@ -153,6 +153,6 @@ If several items are unchecked, that is a signal to allocate more time and resou
 *This article is part of a series on ERP readiness for manufacturing SMEs.*
 
 **Related articles:**
-- [Why ERP Projects Fail — and What the Software Cannot Fix]
-- [ERP Data Readiness: The Hidden Complexity of "Clean Data"]
-- [Manufacturing Readiness: How Is ERP for Production Different?]
+- [Why ERP Projects Fail — and What the Software Cannot Fix](/en/insights/erp/why-erp-projects-fail)
+- [ERP Data Readiness: The Hidden Complexity of "Clean Data"](/en/insights/erp/erp-data-readiness)
+- [Manufacturing Readiness: How Is ERP for Production Different?](/en/insights/erp/erp-for-manufacturing-companies)
