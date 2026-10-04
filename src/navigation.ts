@@ -54,7 +54,7 @@ export const headerData = {
       ],
     },
   ],
-  actions: [{ text: 'Assess Your Business', href: '/readiness' }],
+  actions: [{ text: 'Assess Your Business', href: '/#assessment' }],
 };
 
 // --- Bổ sung đoạn footerData dưới đây ---
