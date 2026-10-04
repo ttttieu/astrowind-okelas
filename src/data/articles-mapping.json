@@ -805,6 +805,19 @@
         "category": "compliance",
         "url": "/en/insights/compliance/eqms-for-manufacturing-sme"
       }
+    },
+    {
+      "translationId": "paper-qms-to-eqms",
+      "vi": {
+        "slug": "tu-qms-giay-sang-eqms",
+        "category": "compliance",
+        "url": "/insights/compliance/tu-qms-giay-sang-eqms"
+      },
+      "en": {
+        "slug": "paper-qms-to-eqms",
+        "category": "compliance",
+        "url": "/en/insights/compliance/paper-qms-to-eqms"
+      }
     }
   ]
 }
