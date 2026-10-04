@@ -844,6 +844,19 @@
         "category": "compliance",
         "url": "/en/insights/compliance/simple-eqms-small-manufacturers"
       }
+    },
+    {
+      "translationId": "document-control-iso-9001-eqms",
+      "vi": {
+        "slug": "document-control-iso-9001",
+        "category": "compliance",
+        "url": "/insights/compliance/document-control-iso-9001"
+      },
+      "en": {
+        "slug": "document-control-iso-9001-eqms",
+        "category": "compliance",
+        "url": "/en/insights/compliance/document-control-iso-9001-eqms"
+      }
     }
   ]
 }
