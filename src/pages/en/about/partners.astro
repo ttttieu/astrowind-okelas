@@ -1,0 +1,60 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Content from '~/components/widgets/Content.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'OKELAS Partners',
+  description:
+    'The OKELAS partner program is for organizations that want to deliver operational knowledge capabilities to their clients. We are currently recruiting design partners -- no official partners yet.',
+};
+---
+
+<Layout metadata={metadata} translationId="about-partners">
+  <HeroText
+    tagline="Company"
+    title="OKELAS Partners"
+    subtitle="We are building a partner program -- and are currently recruiting our first design partners."
+  />
+
+  <Content
+    content={`
+      <p>The OKELAS partner program is built for organizations that want to deliver operational knowledge capabilities to their clients, with OKELAS as the underlying platform. This is not a standard software reseller model -- it is a collaboration to create new value.</p>
+
+      <h2>We Are Recruiting Design Partners</h2>
+
+      <p>OKELAS currently has no official partners. We are actively recruiting design partners -- organizations willing to help shape the product, the market, and the partnership model from the earliest stage. This is not a reseller relationship.</p>
+
+      <p>A design partner who fits what we're looking for is an organization that:</p>
+      <ul>
+        <li>Serves manufacturing SMEs in Vietnam or the broader Southeast Asia region</li>
+        <li>Wants to add process and operational knowledge consulting to its service portfolio</li>
+        <li>Is willing to contribute real customer feedback to jointly develop the product</li>
+        <li>Wants to build a differentiating capability -- not just represent another software product</li>
+      </ul>
+
+      <h2>Partnership Model</h2>
+
+      <p>The design partner relationship is not about reselling software. It is a collaboration to jointly build a new capability layer -- in which both parties co-own the outcome and the methodology. Design partners participate in shaping how OKELAS is deployed, packaged, and taken to market.</p>
+
+      <p>If you are an implementation consultant, management consulting firm, or systems integrator looking to create deeper value for your manufacturing clients -- we'd like to talk.</p>
+    `}
+  />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Contact Us',
+        href: '/contact',
+        icon: 'tabler:mail',
+      },
+    ]}
+  >
+    <Fragment slot="title">Interested in Partnering?</Fragment>
+    <Fragment slot="subtitle">
+      Reach out to start a conversation. We are looking for partners who share the same view on the value of operational knowledge.
+    </Fragment>
+  </CallToAction>
+</Layout>

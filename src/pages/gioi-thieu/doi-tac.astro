@@ -1,0 +1,60 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Content from '~/components/widgets/Content.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Đối Tác OKELAS',
+  description:
+    'Chương trình đối tác OKELAS dành cho các tổ chức muốn mang năng lực tri thức vận hành đến khách hàng. Hiện đang tuyển design partner — chưa có đối tác chính thức nào.',
+};
+---
+
+<Layout metadata={metadata} translationId="about-partners">
+  <HeroText
+    tagline="Giới Thiệu"
+    title="Đối Tác OKELAS"
+    subtitle="Chúng tôi đang xây dựng chương trình đối tác — và hiện đang tuyển design partner đầu tiên."
+  />
+
+  <Content
+    content={`
+      <p>Chương trình đối tác OKELAS được xây dựng cho các tổ chức muốn mang lại năng lực tri thức vận hành cho khách hàng của mình, với OKELAS là nền tảng công nghệ bên dưới. Không phải mô hình reseller phần mềm thông thường — mà là hợp tác tạo ra giá trị mới.</p>
+
+      <h2>Chúng Tôi Đang Tuyển Design Partner</h2>
+
+      <p>Hiện tại, OKELAS chưa có đối tác chính thức nào. Chúng tôi đang tuyển design partner — những tổ chức sẵn sàng cùng định hình sản phẩm, thị trường và mô hình hợp tác ngay từ giai đoạn đầu tiên. Đây không phải quan hệ bán lại phần mềm thông thường.</p>
+
+      <p>Design partner phù hợp với chúng tôi là tổ chức:</p>
+      <ul>
+        <li>Đang phục vụ doanh nghiệp sản xuất vừa và nhỏ tại Việt Nam</li>
+        <li>Muốn bổ sung năng lực tư vấn quy trình và tri thức vận hành vào danh mục dịch vụ</li>
+        <li>Sẵn sàng đóng góp phản hồi từ khách hàng thực tế để cùng phát triển sản phẩm</li>
+        <li>Muốn xây dựng một lớp năng lực phân biệt — không phải chỉ đại diện bán thêm một phần mềm nữa</li>
+      </ul>
+
+      <h2>Mô Hình Hợp Tác</h2>
+
+      <p>Quan hệ design partner không phải về bán lại phần mềm. Đây là hợp tác để cùng xây dựng một lớp năng lực mới — trong đó cả hai bên đều đồng sở hữu kết quả và phương pháp luận. Design partner tham gia vào việc định hình cách OKELAS được triển khai, đóng gói và đưa ra thị trường.</p>
+
+      <p>Nếu bạn là tư vấn triển khai, công ty tư vấn quản lý, hoặc đơn vị tích hợp hệ thống đang tìm cách tạo ra giá trị sâu hơn cho khách hàng trong lĩnh vực sản xuất — hãy liên hệ để trao đổi trực tiếp.</p>
+    `}
+  />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Liên Hệ',
+        href: '/contact',
+        icon: 'tabler:mail',
+      },
+    ]}
+  >
+    <Fragment slot="title">Quan Tâm Đến Chương Trình Đối Tác?</Fragment>
+    <Fragment slot="subtitle">
+      Hãy liên hệ để trao đổi. Chúng tôi đang tìm kiếm những đối tác chia sẻ cùng cách nhìn về giá trị tri thức vận hành.
+    </Fragment>
+  </CallToAction>
+</Layout>

@@ -1247,6 +1247,58 @@
         "category": "workflow",
         "url": "/en/insights/workflow/request-approval-to-event-action-workflow"
       }
+    },
+    {
+      "translationId": "about-okelas",
+      "vi": {
+        "slug": "gioi-thieu",
+        "category": "about",
+        "url": "/gioi-thieu"
+      },
+      "en": {
+        "slug": "about",
+        "category": "about",
+        "url": "/en/about"
+      }
+    },
+    {
+      "translationId": "about-approach",
+      "vi": {
+        "slug": "phuong-phap",
+        "category": "about",
+        "url": "/gioi-thieu/phuong-phap"
+      },
+      "en": {
+        "slug": "approach",
+        "category": "about",
+        "url": "/en/about/approach"
+      }
+    },
+    {
+      "translationId": "about-technology",
+      "vi": {
+        "slug": "cong-nghe",
+        "category": "about",
+        "url": "/gioi-thieu/cong-nghe"
+      },
+      "en": {
+        "slug": "technology",
+        "category": "about",
+        "url": "/en/about/technology"
+      }
+    },
+    {
+      "translationId": "about-partners",
+      "vi": {
+        "slug": "doi-tac",
+        "category": "about",
+        "url": "/gioi-thieu/doi-tac"
+      },
+      "en": {
+        "slug": "partners",
+        "category": "about",
+        "url": "/en/about/partners"
+      }
     }
   ]
 }

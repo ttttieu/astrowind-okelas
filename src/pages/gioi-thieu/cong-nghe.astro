@@ -1,0 +1,60 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Content from '~/components/widgets/Content.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Công Nghệ Nền Tảng — OKELAS',
+  description:
+    'Ba lớp công nghệ cốt lõi của OKELAS: Knowledge Virtual Machine (KVM), ERP Sandbox và Copilot không hallucination — xây dựng trên cơ chế tách biệt intent hiểu và reasoning.',
+};
+---
+
+<Layout metadata={metadata} translationId="about-technology">
+  <HeroText
+    tagline="Giới Thiệu"
+    title="Công Nghệ Nền Tảng"
+    subtitle="Ba lớp công nghệ giải quyết ba phần khác nhau của vấn đề tri thức vận hành."
+  />
+
+  <Content
+    content={`
+      <h2>Knowledge Virtual Machine (KVM)</h2>
+      <p>KVM là lớp nền tảng — nơi tri thức vận hành của doanh nghiệp được cấu trúc hóa. Không phải lưu trữ tài liệu, mà là mô hình hóa cách doanh nghiệp thực sự vận hành. Quy trình, sự kiện, bằng chứng, con người và vai trò được liên kết thành một knowledge graph có thể tra cứu và kiểm tra được.</p>
+
+      <p>KVM là lý do Copilot của OKELAS không hallucinate: nó không đoán, nó tra cứu từ mô hình đã được xây dựng và kiểm chứng từ dữ liệu thực tế của chính doanh nghiệp. Không có mô hình nền tảng này, mọi công cụ AI đều đang đoán về bối cảnh mà chúng không thực sự có.</p>
+
+      <h2>ERP Sandbox</h2>
+      <p>Trước khi triển khai ERP thật, doanh nghiệp cần biết mình đang mua gì — không phải từ demo của nhà cung cấp, mà từ trải nghiệm với dữ liệu thực của mình. ERP Sandbox là môi trường thực hành an toàn sử dụng dữ liệu thực tế mà không ảnh hưởng đến hệ thống đang vận hành.</p>
+
+      <p>CEO và đội ngũ có thể kiểm tra luồng quy trình, phát hiện khoảng trống trước khi go-live, và đưa ra quyết định dựa trên trải nghiệm thực tế. Đây là sự khác biệt giữa triển khai ERP thành công và triển khai ERP với rủi ro cao không cần thiết.</p>
+
+      <h2>Copilot Không Hallucination</h2>
+      <p>Copilot của OKELAS được thiết kế với một nguyên tắc rõ ràng: AI không được phép tự suy diễn về quy trình của doanh nghiệp. Thay vì yêu cầu AI "hiểu tất cả", kiến trúc tách biệt hai vai trò riêng biệt:</p>
+
+      <ul>
+        <li><strong>AI tham gia vào</strong>: hiểu ý định (intent) của người dùng và diễn giải kết quả từ hệ thống reasoning.</li>
+        <li><strong>AI không thực hiện</strong>: reasoning tự do trên dữ liệu không có cấu trúc.</li>
+      </ul>
+
+      <p>Kết quả: một Copilot trả lời đúng về quy trình của doanh nghiệp bạn, không phải quy trình của "doanh nghiệp trung bình" mà AI đã học. Khi không biết, nó nói không biết — thay vì tạo ra câu trả lời có vẻ đúng nhưng thực ra không có cơ sở.</p>
+    `}
+  />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Xem Giải Pháp',
+        href: '/solutions/knowledge-copilot',
+        icon: 'tabler:arrow-right',
+      },
+    ]}
+  >
+    <Fragment slot="title">Tìm Hiểu Thêm</Fragment>
+    <Fragment slot="subtitle">
+      Xem cách các lớp công nghệ này được áp dụng trong thực tế qua các giải pháp của OKELAS.
+    </Fragment>
+  </CallToAction>
+</Layout>

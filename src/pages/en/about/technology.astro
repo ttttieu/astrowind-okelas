@@ -1,0 +1,60 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Content from '~/components/widgets/Content.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Core Technology -- OKELAS',
+  description:
+    'Three core technology layers: Knowledge Virtual Machine (KVM), ERP Sandbox, and a hallucination-free Copilot built on an architecture that separates intent understanding from free-form reasoning.',
+};
+---
+
+<Layout metadata={metadata} translationId="about-technology">
+  <HeroText
+    tagline="Company"
+    title="Core Technology"
+    subtitle="Three layers that address three different parts of the operational knowledge problem."
+  />
+
+  <Content
+    content={`
+      <h2>Knowledge Virtual Machine (KVM)</h2>
+      <p>The KVM is the foundation layer -- where a company's operational knowledge is structured: not as document storage, but as a model of how the business actually runs. Processes, events, evidence, people, and roles are connected into a knowledge graph that can be queried and audited.</p>
+
+      <p>The KVM is why OKELAS's Copilot doesn't hallucinate: it doesn't guess, it looks up from a model that has been built and verified against the company's actual operations. Without this foundation model, every AI tool is guessing about context it doesn't actually have.</p>
+
+      <h2>ERP Sandbox</h2>
+      <p>Before deploying a real ERP, a business needs to know what it's buying -- not from a vendor demo, but from hands-on experience with its own data. The ERP Sandbox is a safe practice environment using the company's actual data without affecting the live system.</p>
+
+      <p>Leadership and teams can test process flows, discover gaps before go-live, and make decisions based on real experience. This is the difference between a successful ERP deployment and one that carries unnecessary risk.</p>
+
+      <h2>Copilot Without Hallucination</h2>
+      <p>OKELAS's Copilot is designed around a clear principle: AI should not be allowed to make inferences about a company's own processes. Rather than asking AI to "understand everything," the architecture separates two distinct roles:</p>
+
+      <ul>
+        <li><strong>What AI does</strong>: understand the user's intent and interpret results from the reasoning system.</li>
+        <li><strong>What AI does not do</strong>: perform freeform reasoning over unstructured data.</li>
+      </ul>
+
+      <p>The result is a Copilot that answers correctly about your specific business processes -- not those of some average company the model was trained on. When it doesn't know, it says so -- rather than generating a plausible-sounding answer without a factual basis.</p>
+    `}
+  />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'See the Solutions',
+        href: '/en/solutions/knowledge-copilot',
+        icon: 'tabler:arrow-right',
+      },
+    ]}
+  >
+    <Fragment slot="title">Learn More</Fragment>
+    <Fragment slot="subtitle">
+      See how these technology layers are applied in practice through OKELAS solutions.
+    </Fragment>
+  </CallToAction>
+</Layout>

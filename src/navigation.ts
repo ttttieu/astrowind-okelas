@@ -46,10 +46,10 @@ export const headerData = {
     {
       text: 'About',
       links: [
-        { text: 'About OKELAS', href: '/about' },
-        { text: 'Our Approach', href: '/about/approach' },
-        { text: 'Technology', href: '/about/technology' },
-        { text: 'Partners', href: '/about/partners' },
+        { text: 'About OKELAS', href: '/gioi-thieu', hrefEn: '/en/about' },
+        { text: 'Our Approach', href: '/gioi-thieu/phuong-phap', hrefEn: '/en/about/approach' },
+        { text: 'Technology', href: '/gioi-thieu/cong-nghe', hrefEn: '/en/about/technology' },
+        { text: 'Partners', href: '/gioi-thieu/doi-tac', hrefEn: '/en/about/partners' },
         { text: 'Contact', href: '/contact' },
       ],
     },
@@ -91,8 +91,8 @@ export const footerData = {
     {
       title: 'Company',
       links: [
-        { text: 'About OKELAS', href: '/about' },
-        { text: 'Our Approach', href: '/about/approach' },
+        { text: 'About OKELAS', href: '/gioi-thieu' },
+        { text: 'Our Approach', href: '/gioi-thieu/phuong-phap' },
         { text: 'Contact Advisory', href: '/contact' },
       ],
     },
