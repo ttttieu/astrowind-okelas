@@ -131,6 +131,18 @@ const { assessmentId, language } = Astro.props;
       submitBtn.textContent = this.language === 'vi' ? 'Xem kết quả' : 'View Results';
       submitBtn.addEventListener('click', () => this.handleSubmit());
       container.appendChild(submitBtn);
+
+      // Digitalization: hide Q11 when Q0 selects H (no software)
+      if (this.assessmentId === 'digitalization_level') {
+        const q11El = document.getElementById('question-Q11-SYSTEM-USAGE');
+        const updateQ11Visibility = () => {
+          const hChecked = document.querySelector('input[name="ms-Q0-SYSTEMS"][value="H"]:checked');
+          if (q11El) q11El.style.display = hChecked ? 'none' : '';
+        };
+        document.querySelectorAll('input[name="ms-Q0-SYSTEMS"]').forEach(cb => {
+          cb.addEventListener('change', updateQ11Visibility);
+        });
+      }
     }
 
     explainFlag(flag) {
@@ -177,7 +189,6 @@ const { assessmentId, language } = Astro.props;
       `;
 
       if (question.type === 'open_text') {
-        // Open text question (reflection)
         innerHTML += `
           <textarea
             id="answer-${question.id}"
@@ -186,8 +197,77 @@ const { assessmentId, language } = Astro.props;
             placeholder="${this.language === 'vi' ? 'Nhập suy nghĩ của bạn...' : 'Share your thoughts...'}"
           ></textarea>
         `;
+      } else if (question.type === 'multi_select') {
+        // Checkbox question — supports exclusive option (key H = no software)
+        innerHTML += `<p class="text-sm text-gray-500 mb-3">${this.language === 'vi' ? 'Chọn tất cả đang áp dụng' : 'Select all that apply'}</p><div class="space-y-3" id="ms-${question.id}">`;
+        question.options?.forEach((option) => {
+          const uniqueId = `ms-${question.id}-${option.key}`;
+          innerHTML += `
+            <label class="flex items-start gap-3 p-3 border border-gray-200 dark:border-gray-600 rounded-lg cursor-pointer hover:bg-gray-50 dark:hover:bg-gray-700 transition" id="mslabel-${question.id}-${option.key}">
+              <input
+                type="checkbox"
+                name="ms-${question.id}"
+                value="${option.key}"
+                id="${uniqueId}"
+                class="mt-1 w-4 h-4 text-blue-600 cursor-pointer"
+                ${option.exclusive ? 'data-exclusive="true"' : ''}
+              />
+              <div class="flex-1">
+                <span class="font-medium text-gray-900 dark:text-gray-100">${option.text}</span>
+              </div>
+            </label>
+          `;
+        });
+        innerHTML += '</div>';
+
+        setTimeout(() => {
+          const container = document.getElementById(`ms-${question.id}`);
+          if (!container) return;
+          container.querySelectorAll('input[type="checkbox"]').forEach((cb) => {
+            cb.addEventListener('change', () => {
+              if (cb.dataset.exclusive && cb.checked) {
+                // Exclusive: uncheck all others
+                container.querySelectorAll('input[type="checkbox"]').forEach(other => {
+                  if (other !== cb) other.checked = false;
+                });
+              } else if (cb.checked) {
+                // Non-exclusive checked: uncheck any exclusive option
+                container.querySelectorAll('input[data-exclusive]').forEach(excl => {
+                  excl.checked = false;
+                });
+              }
+            });
+          });
+        }, 0);
+      } else if (question.type === 'matrix') {
+        // Matrix question — rows × columns grid
+        const cols = question.options || [];
+        innerHTML += `<div class="overflow-x-auto"><table class="w-full text-sm border-collapse">`;
+        innerHTML += `<thead><tr><th class="text-left p-2 text-gray-600 font-medium w-1/3"></th>`;
+        cols.forEach(col => {
+          innerHTML += `<th class="p-2 text-center text-gray-600 font-medium text-xs">${col.text}</th>`;
+        });
+        innerHTML += `</tr></thead><tbody>`;
+        (question.rows || []).forEach((row, ri) => {
+          const rowBg = ri % 2 === 0 ? 'bg-gray-50 dark:bg-gray-700/30' : 'bg-white dark:bg-transparent';
+          innerHTML += `<tr class="${rowBg}"><td class="p-2 font-medium text-gray-800 dark:text-gray-200 text-sm">${row.label || row.text}</td>`;
+          cols.forEach(col => {
+            const uid = `matrix-${question.id}-${row.key}-${col.key}`;
+            innerHTML += `
+              <td class="p-2 text-center">
+                <input
+                  type="radio"
+                  name="matrix-${question.id}-${row.key}"
+                  value="${col.key}"
+                  id="${uid}"
+                  class="w-4 h-4 text-blue-600 cursor-pointer"
+                />
+              </td>`;
+          });
+          innerHTML += `</tr>`;
+        });
+        innerHTML += `</tbody></table></div>`;
       } else if (question.type === 'single_select' || question.type === 'context' || !question.type) {
-        // Multiple choice question (including context type)
         innerHTML += '<div class="space-y-3">';
         question.options?.forEach((option) => {
           const uniqueId = `${question.id}-${option.key}`;
@@ -208,7 +288,6 @@ const { assessmentId, language } = Astro.props;
         });
         innerHTML += '</div>';
 
-        // Add event listeners for radio buttons
         setTimeout(() => {
           document.querySelectorAll(`input[name="question-${question.id}"]`).forEach((input) => {
             input.addEventListener('change', (e) => {
@@ -223,14 +302,28 @@ const { assessmentId, language } = Astro.props;
     }
 
     async handleSubmit() {
-      // Validate required questions (exclude context and open_text questions)
-      const requiredQuestions = this.questions.filter(q =>
-        !q.id.includes('context') && q.type !== 'open_text'
-      );
-      const unanswered = requiredQuestions.filter(q => {
-        const checked = document.querySelector(`input[name="question-${q.id}"]:checked`);
-        return !checked;
-      });
+      // Validate required questions
+      // multi_select (Q0) = context, not required
+      // matrix (Q1) = required: all rows must have a selection
+      // single_select/context (original context type) = required only if not context type
+      const unanswered = [];
+      for (const q of this.questions) {
+        if (q.type === 'open_text' || q.type === 'multi_select') continue;
+        if (q.type === 'context' || q.id.includes('context')) continue;
+        if (q.type === 'matrix') {
+          // Check all rows answered
+          const rows = q.rows || [];
+          const unansweredRows = rows.filter(row =>
+            !document.querySelector(`input[name="matrix-${q.id}-${row.key}"]:checked`)
+          );
+          if (unansweredRows.length > 0) unanswered.push(q);
+        } else {
+          // single_select
+          if (!document.querySelector(`input[name="question-${q.id}"]:checked`)) {
+            unanswered.push(q);
+          }
+        }
+      }
 
       if (unanswered.length > 0) {
         alert(this.language === 'vi'
@@ -246,24 +339,28 @@ const { assessmentId, language } = Astro.props;
       try {
         const elapsedSeconds = (Date.now() - this.startTime) / 1000;
 
-        // Prepare submission - collect from DOM instead of this.answers
+        // Collect answers from DOM
         const answers = this.questions.map(q => {
-          let selectedKey = null;
-          let openText = null;
-
           if (q.type === 'open_text') {
             const textarea = document.getElementById(`answer-${q.id}`);
-            openText = textarea && textarea.value ? textarea.value : null;
-          } else {
-            const checked = document.querySelector(`input[name="question-${q.id}"]:checked`);
-            selectedKey = checked && checked.value ? checked.value : null;
+            return { question_id: q.id, selected_key: null, open_text: textarea?.value || null };
           }
-
-          return {
-            question_id: q.id,
-            selected_key: selectedKey,
-            open_text: openText
-          };
+          if (q.type === 'multi_select') {
+            const checked = Array.from(document.querySelectorAll(`input[name="ms-${q.id}"]:checked`))
+              .map(el => el.value);
+            return { question_id: q.id, selected_keys: checked };
+          }
+          if (q.type === 'matrix') {
+            const area_answers = {};
+            (q.rows || []).forEach(row => {
+              const sel = document.querySelector(`input[name="matrix-${q.id}-${row.key}"]:checked`);
+              if (sel) area_answers[row.key] = sel.value;
+            });
+            return { question_id: q.id, area_answers };
+          }
+          // single_select / context
+          const checked = document.querySelector(`input[name="question-${q.id}"]:checked`);
+          return { question_id: q.id, selected_key: checked?.value || null };
         });
 
         const submission = {
@@ -332,12 +429,68 @@ const { assessmentId, language } = Astro.props;
               <p class="text-sm text-gray-600">${result.archetype_description || ''}</p>
             </div>
           ` : ''}
+
+          ${result.actual_level ? `
+            <div class="mt-4 p-4 bg-amber-50 rounded-lg border border-amber-200">
+              <p class="text-sm text-amber-900">
+                <strong>${this.language === 'vi' ? '⚠️ Cấp vận hành thực tế:' : '⚠️ Actual operational level:'}</strong>
+                ${this.language === 'vi'
+                  ? ' Doanh nghiệp đã trả tiền cho cấp ' + result.level + ', nhưng đang vận hành ở cấp ' + result.actual_level + ' — ' + (result.actual_level_label || '') + '.'
+                  : ' Your organization has paid for Level ' + result.level + ' but is operating at Level ' + result.actual_level + ' — ' + (result.actual_level_label || '') + '.'}
+              </p>
+            </div>
+          ` : ''}
+
+          ${result.software_gap_message ? `
+            <div class="mt-4 p-4 bg-purple-50 rounded-lg border border-purple-200">
+              <p class="text-sm text-purple-900">${result.software_gap_message}</p>
+            </div>
+          ` : ''}
         </div>
+
+        ${result.area_map ? `
+          <div class="bg-white rounded-lg p-8 border border-gray-200 mt-8">
+            <h3 class="text-xl font-semibold text-gray-900 mb-2">
+              ${this.language === 'vi' ? 'Bản đồ số hóa theo mảng' : 'Digitalization Map by Area'}
+            </h3>
+            <p class="text-sm text-gray-500 mb-6">
+              ${this.language === 'vi'
+                ? 'A = Giấy · B = File rải rác · C = Qua phần mềm · D = Tích hợp'
+                : 'A = Paper · B = Scattered files · C = Through software · D = Integrated'}
+            </p>
+            <div class="grid grid-cols-5 gap-3">
+              ${Object.entries(result.area_map).map(([key, area]) => {
+                const levelColors = ['bg-red-100 border-red-300 text-red-800', 'bg-orange-100 border-orange-300 text-orange-800', 'bg-yellow-100 border-yellow-300 text-yellow-800', 'bg-green-100 border-green-300 text-green-800'];
+                const col = area.level ? levelColors[area.level - 1] : 'bg-gray-100 border-gray-300 text-gray-500';
+                const levelLabel = ['A','B','C','D'][area.level - 1] || '?';
+                const isWeakest = result.weakest_area?.key === key;
+                return `
+                  <div class="flex flex-col items-center p-3 rounded-lg border-2 ${col} ${isWeakest ? 'ring-2 ring-blue-500 ring-offset-1' : ''}">
+                    <span class="text-2xl font-bold">${levelLabel}</span>
+                    <span class="text-xs font-medium text-center mt-1 leading-tight">${area.name}</span>
+                    ${isWeakest ? '<span class="text-xs mt-1 text-blue-700 font-semibold">▼ ' + (this.language === 'vi' ? 'Yếu nhất' : 'Weakest') + '</span>' : ''}
+                  </div>`;
+              }).join('')}
+            </div>
+            ${result.next_step ? `
+              <div class="mt-6 p-4 bg-blue-50 rounded-lg border border-blue-200">
+                <p class="text-sm font-semibold text-blue-900 mb-1">
+                  ${this.language === 'vi'
+                    ? '→ Bước tiếp theo cho mảng ' + (result.weakest_area?.name || '') + ':'
+                    : '→ Next step for ' + (result.weakest_area?.name || '') + ':'}
+                </p>
+                <p class="text-sm text-blue-800">${result.next_step}</p>
+              </div>
+            ` : ''}
+          </div>
+        ` : ''}
 
         ${result.dimension_scores && Object.keys(result.dimension_scores).length > 0 ? `
           <div class="bg-white rounded-lg p-8 border border-gray-200 mt-8">
             <h3 class="text-xl font-semibold text-gray-900 mb-6">
-              ${this.language === 'vi' ? 'Đánh giá theo 6 thành phần' : 'Assessment by 6 Dimensions'}
+              ${this.assessmentId === 'digitalization_level'
+                ? (this.language === 'vi' ? 'Đánh giá theo 5 thành phần' : 'Assessment by 5 Dimensions')
+                : (this.language === 'vi' ? 'Đánh giá theo 6 thành phần' : 'Assessment by 6 Dimensions')}
             </h3>
             <div class="space-y-5">
               ${Object.entries(result.dimension_scores).map(([key, dim]) => {

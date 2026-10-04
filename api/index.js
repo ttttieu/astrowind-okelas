@@ -7,10 +7,13 @@ import CONFIG_VI from './config-vi.js';
 import CONFIG_EN from './config-en.js';
 import CONFIG_AI_VI from './config-ai-vi.js';
 import CONFIG_AI_EN from './config-ai-en.js';
+import CONFIG_DIG_VI from './config-dig-vi.js';
+import CONFIG_DIG_EN from './config-dig-en.js';
 
 const CONFIGS = {
-  erp_readiness: { vi: CONFIG_VI, en: CONFIG_EN },
-  ai_readiness:  { vi: CONFIG_AI_VI, en: CONFIG_AI_EN },
+  erp_readiness:       { vi: CONFIG_VI,     en: CONFIG_EN },
+  ai_readiness:        { vi: CONFIG_AI_VI,  en: CONFIG_AI_EN },
+  digitalization_level: { vi: CONFIG_DIG_VI, en: CONFIG_DIG_EN },
 };
 
 // ─── Scoring helpers ──────────────────────────────────────────────────────────
@@ -794,6 +797,428 @@ function getAI90DayRecs(dims, flags, lang) {
 
 // ─── End AI Readiness scoring ─────────────────────────────────────────────────
 
+// ─── Digitalization Level static content ─────────────────────────────────────
+
+const DIG_LEVEL_LABELS_VI = {
+  1: 'Vận hành bằng giấy',
+  2: 'Tài liệu số nhưng rải rác',
+  3: 'Workflow qua hệ thống',
+  4: 'Tích hợp, dữ liệu phân tích được',
+  5: 'AI hỗ trợ vận hành',
+};
+const DIG_LEVEL_LABELS_EN = {
+  1: 'Paper-based Operations',
+  2: 'Digital Files, Scattered',
+  3: 'Workflow Through Systems',
+  4: 'Integrated, Analyzable Data',
+  5: 'AI-Supported Operations',
+};
+
+const DIG_DIM_LABELS_VI = { 1: 'Nền tảng chưa có', 2: 'Cần chuẩn bị', 3: 'Có cơ chế', 4: 'Vững' };
+const DIG_DIM_LABELS_EN = { 1: 'Foundation Not Yet in Place', 2: 'Needs Preparation', 3: 'Mechanism in Place', 4: 'Solid' };
+
+const DIG_DIM_NAMES_VI = {
+  D1: 'Tài liệu & hồ sơ',
+  D2: 'Workflow & bằng chứng',
+  D3: 'Dữ liệu & liên thông',
+  D4: 'Tri thức & bối cảnh',
+  D5: 'Cách số hóa & khai thác',
+};
+const DIG_DIM_NAMES_EN = {
+  D1: 'Documents & Records',
+  D2: 'Workflow & Evidence',
+  D3: 'Data & Connectivity',
+  D4: 'Knowledge & Context',
+  D5: 'Digitalization Approach',
+};
+
+const DIG_AREA_NAMES_VI = {
+  QC: 'Chất lượng (QC/QA)',
+  MFG: 'Sản xuất & kế hoạch',
+  WH: 'Kho & nguyên liệu',
+  PS: 'Mua hàng & bán hàng',
+  FA: 'Tài chính – kế toán',
+};
+const DIG_AREA_NAMES_EN = {
+  QC: 'Quality (QC/QA)',
+  MFG: 'Production & Planning',
+  WH: 'Warehouse & Materials',
+  PS: 'Purchasing & Sales',
+  FA: 'Finance & Accounting',
+};
+
+const DIG_ARCHETYPES_VI = [
+  {
+    code: 'many_software_low_integration',
+    label: 'Nhiều phần mềm, ít liên thông',
+    description: 'Doanh nghiệp đã đầu tư nhiều công cụ, nhưng mỗi công cụ là một silo; báo cáo tổng hợp vẫn mất nhiều ngày.',
+    risk: 'Bước tiếp theo không phải thêm phần mềm — mà là nối những gì đang có'
+  },
+  {
+    code: 'system_running_ops_elsewhere',
+    label: 'Hệ thống chạy, vận hành ở chỗ khác',
+    description: 'Phần mềm có và chạy, nhưng công việc thật diễn ra trên Excel, email, Zalo.',
+    risk: 'Đã chi tiền cho phần mềm nhưng chưa thu được giá trị — vòng lặp này sẽ lặp lại nếu không xử lý nguyên nhân gốc'
+  },
+  {
+    code: 'paperless_not_digital',
+    label: 'Paperless nhưng chưa digital',
+    description: 'Đã bỏ giấy ở tài liệu, nhưng hồ sơ vận hành vẫn là ảnh và file tĩnh — không hỏi được.',
+    risk: 'Scan không phải số hóa; dữ liệu không phân tích được và không đạt chuẩn eQMS/ISO thật sự'
+  },
+  {
+    code: 'area_gap',
+    label: 'Lệch theo mảng',
+    description: 'Có mảng đã chạy trên hệ thống, có mảng vẫn trên giấy; luồng thông tin đứt ở chỗ tiếp giáp.',
+    risk: 'Mảng mạnh nhất không tạo được giá trị đầy đủ vì thông tin từ mảng yếu không đến được'
+  },
+  {
+    code: 'next_step_risk',
+    label: 'Rủi ro ở bước tiếp theo',
+    description: 'Trạng thái hiện tại không phải vấn đề lớn nhất; cách doanh nghiệp đang ra quyết định đầu tư mới là rủi ro.',
+    risk: 'Dự án tiếp theo có thể lặp lại bẫy "big bang" hoặc đầu tư theo nhà cung cấp'
+  },
+  {
+    code: 'foundation_ready',
+    label: 'Nền vững, sẵn sàng kết nối tri thức',
+    description: 'Hệ thống và dữ liệu đã chạy; bước tiếp theo là gắn tri thức và bối cảnh để khai thác sâu hơn, và chuẩn bị cho AI.',
+    risk: 'Cơ hội rõ — nhưng cần bài toán cụ thể để bắt đầu lớp tri thức'
+  },
+  {
+    code: 'build_step_by_step',
+    label: 'Xây nền theo từng bước',
+    description: 'Nhiều mảng còn ở cấp 1–2. Bước đúng là số hóa có cấu trúc 1–2 quy trình quan trọng nhất, không phải một dự án lớn.',
+    risk: 'Một dự án lớn trên nền chưa vững sẽ mất nhiều năm mà không tạo ra giá trị vận hành rõ ràng'
+  },
+];
+
+const DIG_ARCHETYPES_EN = [
+  {
+    code: 'many_software_low_integration',
+    label: 'Many Software, Few Connections',
+    description: 'The organization has invested in many tools, but each is a silo; consolidated reports still take days.',
+    risk: 'The next step is not adding software — it is connecting what already exists'
+  },
+  {
+    code: 'system_running_ops_elsewhere',
+    label: 'System Running, Operations Elsewhere',
+    description: 'Software exists and is running, but actual work happens on spreadsheets, email, and messaging apps.',
+    risk: 'Money has been spent on software but value has not been captured — this cycle will repeat if the root cause is not addressed'
+  },
+  {
+    code: 'paperless_not_digital',
+    label: 'Paperless But Not Digital',
+    description: 'Paper has been eliminated for documents, but operational records are still images and static files — not queryable.',
+    risk: 'Scanning is not digitalization; data cannot be analyzed and does not meet true eQMS/ISO standards'
+  },
+  {
+    code: 'area_gap',
+    label: 'Uneven Across Areas',
+    description: 'Some areas run through systems, others still on paper; information flow breaks at the boundary between them.',
+    risk: 'The strongest area cannot deliver full value because information from the weakest area never arrives'
+  },
+  {
+    code: 'next_step_risk',
+    label: 'Risk in the Next Step',
+    description: 'The current state is not the biggest problem; how the organization makes its next investment decision is the risk.',
+    risk: 'The next project may repeat the "big bang" trap or vendor-driven investment pattern'
+  },
+  {
+    code: 'foundation_ready',
+    label: 'Solid Foundation, Ready for Knowledge Layer',
+    description: 'Systems and data are running; the next step is adding knowledge and context for deeper use, and preparing for AI.',
+    risk: 'Clear opportunity — but a specific problem statement is needed to begin the knowledge layer'
+  },
+  {
+    code: 'build_step_by_step',
+    label: 'Build Foundation Step by Step',
+    description: 'Many areas are still at level 1–2. The right move is structured digitalization of 1–2 critical processes, not a large project.',
+    risk: 'A large project on an unstable foundation takes years without delivering clear operational value'
+  },
+];
+
+const DIG_FLAG_LABELS = {
+  vi: {
+    F1: { label: 'Scan không phải số hóa', explanation: 'Hồ sơ là ảnh hoặc giấy; không phân tích được, không truy vấn được — chặn cổng lên cấp 3.' },
+    F2: { label: 'Nhập lại ở mọi khâu', explanation: 'Mỗi lần nhập lại là một điểm có thể sai, trễ, mất — chặn cổng lên cấp 4.' },
+    F3: { label: 'Câu hỏi phút, câu trả lời ngày', explanation: 'Quyết định chậm; chi phí cơ hội lớn nhất trong 4 loại chi phí — chặn cổng lên cấp 4.' },
+    F4: { label: 'Tiền lệ big bang', explanation: 'Lịch sử cho thấy doanh nghiệp dễ lặp lại bẫy dự án lớn; rủi ro cao nhất trước một khoản đầu tư mới.' },
+    F5: { label: 'Đầu tư theo nhà cung cấp', explanation: 'Bước tiếp theo đang được quyết định bởi danh mục tính năng, không bởi vấn đề vận hành cụ thể.' },
+    F6: { label: 'Hệ thống song song', explanation: 'Đã chi tiền cho phần mềm, nhưng vận hành thật diễn ra ở nơi khác — cấp vận hành thực tế thấp hơn cấp khai báo.' },
+  },
+  en: {
+    F1: { label: 'Scan Is Not Digitalization', explanation: 'Records are images or paper; not analyzable, not queryable — blocks the gate to Level 3.' },
+    F2: { label: 'Re-entry at Every Stage', explanation: 'Each re-entry is a point of potential error, delay, and loss — blocks the gate to Level 4.' },
+    F3: { label: 'Questions Take Minutes, Answers Take Days', explanation: 'Slow decisions; the highest opportunity cost of the four cost types — blocks the gate to Level 4.' },
+    F4: { label: 'Big Bang Precedent', explanation: 'History shows the organization is likely to repeat the large-project trap; highest risk before a new investment.' },
+    F5: { label: 'Vendor-Driven Investment', explanation: 'The next step is being decided by a feature list, not by a specific operational problem.' },
+    F6: { label: 'Parallel Systems', explanation: 'Money has been spent on software, but actual work happens elsewhere — the operational level is lower than the declared level.' },
+  }
+};
+
+const DIG_RECS_VI = {
+  D1: {
+    low: 'Mỗi tài liệu cốt lõi một bản hiệu lực, có người duyệt; chuyển hồ sơ quan trọng nhất sang biểu mẫu số có trường cố định. Hỏi: hồ sơ nào đang là ảnh/PDF? Tài liệu nào có nhiều bản?',
+    high: 'Rà hồ sơ theo yêu cầu kiểm soát của ISO/GMP: nhận diện, truy xuất, toàn vẹn, phân quyền.',
+  },
+  D2: {
+    low: 'Chọn 1 luồng phê duyệt hay tắc nhất; đưa vào một công cụ có trạng thái và lịch sử. Hỏi: phê duyệt nào chờ lâu nhất?',
+    high: 'Theo dõi NC/CAPA đến khi đóng và kiểm tra hiệu quả — điểm bắt đầu phổ biến của progressive eQMS.',
+  },
+  D3: {
+    low: 'Vẽ luồng một đơn hàng từ nhận đơn đến giao hàng; đánh dấu mọi chỗ nhập lại. Hỏi: thông tin bị nhập lại ở đâu? Báo cáo nào đang làm tay?',
+    high: 'Nối hai hệ thống có nhiều lần nhập lại nhất; xây 5 báo cáo cho 5 câu hỏi CEO hay hỏi.',
+  },
+  D4: {
+    low: 'Ghi lại lý do của các thay đổi quan trọng (nhà cung cấp, công thức, thông số) ngay khi quyết định. Hỏi: thay đổi gần nhất ảnh hưởng tới đâu, ai biết?',
+    high: 'Lập bảng quan hệ sản phẩm – nguyên liệu – nhà cung cấp – quy trình.',
+  },
+  D5: {
+    low: 'Trước khoản đầu tư số hóa kế tiếp, trả lời 4 câu hỏi của bài 4.9 bằng văn bản; giới hạn giai đoạn đầu trong 3–6 tháng.',
+    high: 'Đo mức sử dụng thực tế của từng hệ thống đang có; tắt dần Excel song song ở một bộ phận.',
+  },
+};
+
+const DIG_RECS_EN = {
+  D1: {
+    low: 'One effective version per core document with a designated approver; convert the most important records to digital forms with fixed fields. Ask: which records are images/PDFs? Which documents have multiple versions?',
+    high: 'Audit records against ISO/GMP control requirements: identification, retrievability, integrity, access control.',
+  },
+  D2: {
+    low: 'Choose the most bottlenecked approval flow; move it to a tool that tracks status and history. Ask: which approval takes the longest to complete?',
+    high: 'Track NC/CAPA through to closure and verify effectiveness — the most common starting point for progressive eQMS.',
+  },
+  D3: {
+    low: 'Map one order from receipt to delivery; mark every point of re-entry. Ask: where is information re-entered? Which reports are produced manually?',
+    high: 'Connect the two systems with the most re-entry points; build 5 reports for the 5 questions the CEO asks most often.',
+  },
+  D4: {
+    low: 'Record the reasoning behind important changes (suppliers, formulas, parameters) at the moment of decision. Ask: who knows what the last change affected?',
+    high: 'Build a relationship table: products – materials – suppliers – processes.',
+  },
+  D5: {
+    low: 'Before the next digitalization investment, answer the 4 questions from article 4.9 in writing; limit the first phase to 3–6 months.',
+    high: 'Measure actual usage of each existing system; gradually phase out parallel spreadsheets in one department.',
+  },
+};
+
+const DIG_NEXT_STEPS_VI = {
+  1: 'Chọn 1–2 hồ sơ quan trọng nhất của mảng; chuyển từ giấy sang biểu mẫu số có trường cố định (có thể chỉ là bảng tính có cấu trúc hoặc form trực tuyến). Không nhất thiết cần phần mềm mới.',
+  2: 'Thống nhất một mẫu ghi nhận cho mảng; một nơi lưu, một người phụ trách; kiểm soát phiên bản tài liệu cốt lõi. Không nhất thiết cần phần mềm mới — có thể là DMS đơn giản.',
+  3: 'Nối dữ liệu của mảng này với mảng liền kề (ví dụ: QC với lô sản xuất); hoặc một module eQMS cho vấn đề tuân thủ cụ thể. Ưu tiên dùng tốt hệ thống hiện có trước khi mua mới.',
+  4: 'Gắn tri thức và bối cảnh vào dữ liệu (lý do quyết định, quan hệ sản phẩm – quy trình – nhà cung cấp). Xem KM Maturity và AI Readiness trước khi quyết định đầu tư.',
+};
+
+const DIG_NEXT_STEPS_EN = {
+  1: 'Choose the 1–2 most important records for this area; convert from paper to digital forms with fixed fields (a structured spreadsheet or online form is sufficient). New software is not necessarily required.',
+  2: 'Standardize one recording template for the area; one storage location, one responsible person; version control for core documents. New software is not necessarily required — a simple DMS may be enough.',
+  3: 'Connect this area\'s data with the adjacent area (e.g., QC with production batches); or add an eQMS module for a specific compliance issue. Prioritize getting more from existing systems before buying new ones.',
+  4: 'Add knowledge and context to data (decision rationale, product–process–supplier relationships). Review KM Maturity and AI Readiness before deciding on investment.',
+};
+
+// ─── Digitalization Level scoring functions ───────────────────────────────────
+
+function getDIGSysInfo(answers) {
+  const q0 = answers.find(a => a.question_id === 'Q0-SYSTEMS');
+  const selected = q0?.selected_keys || [];
+  if (selected.includes('H')) return { systemCount: 0, hasERP: false, hasDMS: false, noSoftware: true };
+  const systemCount = selected.filter(k => ['A', 'B', 'C', 'D', 'E', 'F', 'G'].includes(k)).length;
+  return { systemCount, hasERP: selected.includes('B'), hasDMS: selected.includes('E'), noSoftware: false };
+}
+
+function getDIGAreaLevels(answers) {
+  const q1 = answers.find(a => a.question_id === 'Q1-AREA-MAP');
+  const areaAnswers = q1?.area_answers || {};
+  const colToLevel = { A: 1, B: 2, C: 3, D: 4 };
+  const areas = {};
+  for (const k of ['QC', 'MFG', 'WH', 'PS', 'FA']) {
+    const col = areaAnswers[k];
+    areas[k] = (!col || col === 'U') ? null : (colToLevel[col] ?? null);
+  }
+  return areas;
+}
+
+function getDIGAreaSummary(areaLevels, lang) {
+  const areaNames = lang === 'en' ? DIG_AREA_NAMES_EN : DIG_AREA_NAMES_VI;
+  const defined = Object.entries(areaLevels).filter(([, l]) => l !== null);
+  if (defined.length === 0) return { weakestKey: null, weakestLevel: null, weakestName: null, strongestKey: null, strongestLevel: null, strongestName: null, gap: 0 };
+
+  // Priority order for tie-breaking weakest: MFG, QC, WH, PS, FA
+  const priority = { MFG: 0, QC: 1, WH: 2, PS: 3, FA: 4 };
+  const sorted = [...defined].sort((a, b) => a[1] - b[1] || (priority[a[0]] ?? 99) - (priority[b[0]] ?? 99));
+  const [weakestKey, weakestLevel] = sorted[0];
+  const [strongestKey, strongestLevel] = sorted[sorted.length - 1];
+
+  return {
+    weakestKey,
+    weakestLevel,
+    weakestName: areaNames[weakestKey],
+    strongestKey,
+    strongestLevel,
+    strongestName: areaNames[strongestKey],
+    gap: strongestLevel - weakestLevel,
+  };
+}
+
+function getDIGFlags(answers, questions, noSoftware) {
+  const s = (qId) => getPrdScore(qId, answers, questions);
+  const flags = [];
+  const q3 = s('Q3-RECORD-FORMAT');
+  const q6 = s('Q6-RE-ENTRY');
+  const q7 = s('Q7-QUERY-SPEED');
+  const q9 = s('Q9-IMPL-APPROACH');
+  const q10 = s('Q10-INVEST-BASIS');
+  const q11 = s('Q11-SYSTEM-USAGE');
+  if (q3 !== null && q3 <= 1) flags.push('F1');
+  if (q6 === 0) flags.push('F2');
+  if (q7 === 0) flags.push('F3');
+  if (q9 === 0) flags.push('F4');
+  if (q10 === 0) flags.push('F5');
+  if (!noSoftware && q11 === 0) flags.push('F6');
+  return flags;
+}
+
+function getDIGDims(answers, questions, noSoftware) {
+  const d5Qs = noSoftware
+    ? ['Q9-IMPL-APPROACH', 'Q10-INVEST-BASIS']
+    : ['Q9-IMPL-APPROACH', 'Q10-INVEST-BASIS', 'Q11-SYSTEM-USAGE'];
+  return {
+    D1: calcDimension(['Q2-DOC-ACCESS', 'Q3-RECORD-FORMAT'], answers, questions),
+    D2: calcDimension(['Q4-APPROVAL-FLOW', 'Q5-NC-TRACKING'], answers, questions),
+    D3: calcDimension(['Q6-RE-ENTRY', 'Q7-QUERY-SPEED'], answers, questions),
+    D4: calcDimension(['Q8-CHANGE-CONTEXT'], answers, questions),
+    D5: calcDimension(d5Qs, answers, questions),
+  };
+}
+
+function getDIGOverallLevel(dims, flags, areaLevels) {
+  const { D1, D2, D3, D4 } = dims;
+  const ge = (dim, thr) => dim.score !== null && dim.score >= thr;
+  const definedAreas = Object.values(areaLevels).filter(l => l !== null);
+  const areasAtL3Plus = definedAreas.filter(l => l >= 3).length;
+
+  const l2ok = ge(D1, 1.00);
+  const l3ok = l2ok && ge(D1, 1.75) && ge(D2, 1.50) && !flags.includes('F1');
+  const l4ok = l3ok && ge(D2, 1.75) && ge(D3, 1.75) && !flags.includes('F2') && !flags.includes('F3') && areasAtL3Plus >= 3;
+  const l5ok = l4ok && ge(D3, 2.50) && ge(D4, 2.00) && ge(D1, 2.00) && ge(D2, 2.00) && !flags.includes('F6');
+
+  let gateLevel = 1;
+  if (l2ok) gateLevel = 2;
+  if (l3ok) gateLevel = 3;
+  if (l4ok) gateLevel = 4;
+  if (l5ok) gateLevel = 5;
+
+  // Ceiling from D1-D4 average (D5 excluded per PRD)
+  const d14 = [D1, D2, D3, D4].filter(d => d.score !== null);
+  if (d14.length === 0) return 1;
+  const avg = d14.reduce((s, d) => s + d.score, 0) / d14.length;
+  let ceiling;
+  if (avg < 0.75) ceiling = 1;
+  else if (avg < 1.50) ceiling = 2;
+  else if (avg < 2.00) ceiling = 3;
+  else if (avg < 2.50) ceiling = 4;
+  else ceiling = 5;
+
+  return Math.min(gateLevel, ceiling);
+}
+
+function getDIGActualLevel(level, flags, q11PrdScore) {
+  if (flags.includes('F6')) return Math.max(1, level - 1);
+  return level;
+}
+
+function getDIGSoftwareGapMessage(systemCount, d3Score, lang) {
+  if (systemCount >= 3 && d3Score !== null && d3Score < 1.50) {
+    return lang === 'en'
+      ? `${systemCount} systems are creating ${systemCount} silos. The next step is not adding software, but connecting what already exists.`
+      : `${systemCount} hệ thống đang tạo ra ${systemCount} silo. Bước tiếp theo không phải thêm phần mềm, mà là nối những gì đang có.`;
+  }
+  if (systemCount <= 2 && d3Score !== null && d3Score >= 1.75) {
+    return lang === 'en'
+      ? 'Few tools, but information flows well — can expand without creating new silos.'
+      : 'Ít công cụ nhưng thông tin chạy được; có thể mở rộng mà không tạo silo mới.';
+  }
+  return null;
+}
+
+function getDIGArchetype(dims, flags, sysInfo, areaGap, level, q11PrdScore, lang) {
+  const { D3, D5 } = dims;
+  const archetypes = lang === 'en' ? DIG_ARCHETYPES_EN : DIG_ARCHETYPES_VI;
+  const { systemCount, hasERP, noSoftware } = sysInfo;
+
+  if (!noSoftware && systemCount >= 3 && D3.score !== null && D3.score < 1.50) return archetypes[0];
+  if (!noSoftware && (flags.includes('F6') || (q11PrdScore === 1 && hasERP))) return archetypes[1];
+  if (flags.includes('F1') && dims.D1.score !== null && dims.D1.score >= 1.00) return archetypes[2];
+  if (areaGap >= 2) return archetypes[3];
+  if (flags.includes('F4') || flags.includes('F5') || (D5.score !== null && D5.score < 1.25)) return archetypes[4];
+  if (level >= 4) return archetypes[5];
+  return archetypes[6];
+}
+
+function getDIGDescription(level, label, weakestAreaName, lang) {
+  if (!weakestAreaName) {
+    return lang === 'en'
+      ? `Your organization is at Level ${level} — ${label}.`
+      : `Doanh nghiệp của anh/chị đang ở cấp ${level} — ${label}.`;
+  }
+  return lang === 'en'
+    ? `Your organization is at Level ${level} — ${label}. The area to strengthen first is ${weakestAreaName}.`
+    : `Doanh nghiệp của anh/chị đang ở cấp ${level} — ${label}. Mảng cần được nâng trước là ${weakestAreaName}.`;
+}
+
+function getDIG90DayRecs(dims, flags, lang) {
+  const recs = lang === 'en' ? DIG_RECS_EN : DIG_RECS_VI;
+  const dimOrder = ['D1', 'D2', 'D3', 'D4', 'D5'];
+  const foundationDims = ['D1', 'D2', 'D3'];
+
+  const sorted = dimOrder
+    .filter(k => dims[k].score !== null)
+    .sort((a, b) => {
+      const sa = dims[a].score, sb = dims[b].score;
+      const fa = foundationDims.includes(a), fb = foundationDims.includes(b);
+      if (Math.abs(sa - sb) < 0.01) return fa && !fb ? -1 : !fa && fb ? 1 : 0;
+      return sa - sb;
+    });
+
+  const actions = [];
+  const covered = new Set();
+
+  if (flags.includes('F2') && actions.length < 3) {
+    actions.push(lang === 'en'
+      ? 'Map one complete order flow from receipt to delivery; mark every re-entry point and estimate how much time it costs per month.'
+      : 'Vẽ luồng một đơn hàng từ nhận đơn đến giao hàng; đánh dấu mọi chỗ nhập lại và ước tính mỗi chỗ tốn bao nhiêu giờ mỗi tháng.');
+    covered.add('D3');
+  }
+  if (flags.includes('F1') && actions.length < 3) {
+    actions.push(lang === 'en'
+      ? 'Convert the most important quality or operational record from scan/paper to a structured digital form with fixed fields.'
+      : 'Chuyển hồ sơ chất lượng hoặc vận hành quan trọng nhất từ scan/giấy sang biểu mẫu số có trường cố định.');
+    covered.add('D1');
+  }
+  for (const key of sorted) {
+    if (actions.length >= 3) break;
+    if (!covered.has(key) && dims[key].level !== null && dims[key].level <= 2) {
+      actions.push(recs[key].low);
+      covered.add(key);
+    }
+  }
+  for (const key of sorted) {
+    if (actions.length >= 3) break;
+    if (!covered.has(key)) {
+      actions.push(recs[key].high);
+      covered.add(key);
+    }
+  }
+  // If still under 3, use high recs from already-covered dims
+  for (const key of sorted) {
+    if (actions.length >= 3) break;
+    actions.push(recs[key].high);
+  }
+  return actions.slice(0, 3);
+}
+
+// ─── End Digitalization Level scoring ────────────────────────────────────────
+
 // ─── Database helpers (Supabase REST — no npm dependency) ────────────────────
 
 async function dbInsertLead(lead) {
@@ -864,7 +1289,10 @@ async function sendTelegramAlert(lead) {
   const h = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
   const isAI = lead.assessment_id === 'ai_readiness';
-  const typeName = lead.assessment_id === 'erp_readiness' ? 'ERP Readiness' : 'AI Readiness';
+  const typeName = lead.assessment_id === 'erp_readiness' ? 'ERP Readiness'
+                 : lead.assessment_id === 'ai_readiness' ? 'AI Readiness'
+                 : lead.assessment_id === 'digitalization_level' ? 'Digitalization Level'
+                 : lead.assessment_id;
   const source = lead.utm_source
     ? `${h(lead.utm_source)}${lead.utm_medium ? '/' + h(lead.utm_medium) : ''}`
     : 'direct';
@@ -938,12 +1366,20 @@ function loadQuestions(assessmentId, language) {
     assessment_id: config.assessment_id,
     title: config.title,
     intro: config.intro,
-    questions: config.questions.map(q => ({
-      id: q.id,
-      text: q.text,
-      type: q.type || 'single_select',
-      options: (q.options || []).map(o => ({ key: o.key, text: o.text }))
-    }))
+    questions: config.questions.map(q => {
+      const base = {
+        id: q.id,
+        text: q.text,
+        type: q.type || 'single_select',
+        options: (q.options || []).map(o => {
+          const opt = { key: o.key, text: o.text };
+          if (o.exclusive) opt.exclusive = true;
+          return opt;
+        }),
+      };
+      if (q.rows) base.rows = q.rows; // matrix row definitions
+      return base;
+    })
   };
 }
 
@@ -1084,6 +1520,96 @@ export default async function handler(req, res) {
               ? (lang === 'en' ? 'Insufficient data for a complete assessment.' : 'Chưa đủ dữ liệu để đánh giá đầy đủ.')
               : null,
             readiness_index: readinessIndex,
+          });
+        }
+
+        // ── Digitalization Level scoring path ──────────────────────────────
+        if (assessment_id === 'digitalization_level') {
+          const sysInfo = getDIGSysInfo(answers);
+          const areaLevels = getDIGAreaLevels(answers);
+          const dims = getDIGDims(answers, questions, sysInfo.noSoftware);
+
+          const totalBlindSpots = Object.values(dims).reduce((s, d) => s + d.blindSpots, 0);
+          const provisional = totalBlindSpots >= 3;
+
+          const flags = getDIGFlags(answers, questions, sysInfo.noSoftware);
+          const q11PrdScore = getPrdScore('Q11-SYSTEM-USAGE', answers, questions);
+          const level = getDIGOverallLevel(dims, flags, areaLevels);
+          const actualLevel = getDIGActualLevel(level, flags, q11PrdScore);
+
+          const digLevelLabels = lang === 'en' ? DIG_LEVEL_LABELS_EN : DIG_LEVEL_LABELS_VI;
+          const label = level ? digLevelLabels[level] : (lang === 'en' ? 'Insufficient data' : 'Chưa đủ dữ liệu');
+          const actualLabel = actualLevel && actualLevel !== level ? digLevelLabels[actualLevel] : null;
+
+          const areaSummary = getDIGAreaSummary(areaLevels, lang);
+          const areaNames = lang === 'en' ? DIG_AREA_NAMES_EN : DIG_AREA_NAMES_VI;
+          const softwareGapMessage = getDIGSoftwareGapMessage(sysInfo.systemCount, dims.D3.score, lang);
+          const archetype = getDIGArchetype(dims, flags, sysInfo, areaSummary.gap, level, q11PrdScore, lang);
+          const description = getDIGDescription(level, label, areaSummary.weakestName, lang);
+          const recommendations = getDIG90DayRecs(dims, flags, lang);
+
+          const nextSteps = lang === 'en' ? DIG_NEXT_STEPS_EN : DIG_NEXT_STEPS_VI;
+          const nextStep = areaSummary.weakestLevel ? nextSteps[areaSummary.weakestLevel] : null;
+
+          const digDimLabels = lang === 'en' ? DIG_DIM_LABELS_EN : DIG_DIM_LABELS_VI;
+          const digDimNames = lang === 'en' ? DIG_DIM_NAMES_EN : DIG_DIM_NAMES_VI;
+          const dimensionScores = {};
+          for (const [key, val] of Object.entries(dims)) {
+            const baseLabel = val.undetermined
+              ? (lang === 'en' ? 'Undetermined — needs detailed assessment' : 'Chưa xác định — cần đánh giá chi tiết')
+              : digDimLabels[val.level] || '';
+            dimensionScores[key] = {
+              name: digDimNames[key],
+              score: val.score !== null ? Math.round(val.score * 100) / 100 : null,
+              level: val.level,
+              label: val.estimated ? baseLabel + ' (' + (lang === 'en' ? 'estimated' : 'ước tính') + ')' : baseLabel,
+              estimated: val.estimated,
+              undetermined: val.undetermined,
+            };
+          }
+
+          const flagDetails = flags.map(f => ({ code: f, ...DIG_FLAG_LABELS[lang][f] }));
+
+          // Readiness index from D1-D4 only (D5 excluded per PRD)
+          const d14 = [dims.D1, dims.D2, dims.D3, dims.D4].filter(d => d.score !== null);
+          const avgD14 = d14.length > 0 ? d14.reduce((s, d) => s + d.score, 0) / d14.length : 0;
+          const readinessIndex = Math.round(avgD14 * 100 / 3);
+
+          // Area map with names for display
+          const areaMap = {};
+          for (const k of ['QC', 'MFG', 'WH', 'PS', 'FA']) {
+            areaMap[k] = { level: areaLevels[k], name: areaNames[k] };
+          }
+
+          return res.status(200).json({
+            submission_id: 'sub_' + Date.now(),
+            assessment_id,
+            level,
+            label,
+            description,
+            provisional,
+            actual_level: actualLevel !== level ? actualLevel : null,
+            actual_level_label: actualLabel,
+            area_map: areaMap,
+            weakest_area: areaSummary.weakestKey ? { key: areaSummary.weakestKey, name: areaSummary.weakestName, level: areaSummary.weakestLevel } : null,
+            strongest_area: areaSummary.strongestKey ? { key: areaSummary.strongestKey, name: areaSummary.strongestName, level: areaSummary.strongestLevel } : null,
+            area_gap: areaSummary.gap,
+            software_gap_message: softwareGapMessage,
+            archetype: archetype.code,
+            archetype_label: archetype.label,
+            archetype_description: archetype.description,
+            archetype_risk: archetype.risk,
+            flags: flagDetails,
+            critical_flags: flags,
+            dimension_scores: dimensionScores,
+            next_step: nextStep,
+            recommendations,
+            related_links: [],
+            insufficient_data_message: level === null
+              ? (lang === 'en' ? 'Insufficient data for a complete assessment.' : 'Chưa đủ dữ liệu để đánh giá đầy đủ.')
+              : null,
+            readiness_index: readinessIndex,
+            system_count: sysInfo.systemCount,
           });
         }
 
