@@ -1,0 +1,20 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import AssessmentForm from '~/components/widgets/AssessmentForm.astro';
+
+const metadata = {
+  title: "KM Maturity Assessment - OKELAS",
+  description: "Tri thức của doanh nghiệp đang nằm ở đâu — và điều gì xảy ra nếu nó biến mất? 12 câu hỏi cho CEO, khoảng 6 phút.",
+};
+---
+
+<Layout metadata={metadata}>
+  <HeroText
+    tagline="Readiness Assessment"
+    title="KM Maturity"
+    subtitle="Tri thức của doanh nghiệp đang nằm ở đâu — và mức rủi ro mất đi là bao nhiêu nếu nhân sự chủ chốt thay đổi"
+  />
+
+  <AssessmentForm assessmentId="km_maturity" language="vi" />
+</Layout>

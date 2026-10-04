@@ -9,11 +9,14 @@ import CONFIG_AI_VI from './config-ai-vi.js';
 import CONFIG_AI_EN from './config-ai-en.js';
 import CONFIG_DIG_VI from './config-dig-vi.js';
 import CONFIG_DIG_EN from './config-dig-en.js';
+import CONFIG_KM_VI from './config-km-vi.js';
+import CONFIG_KM_EN from './config-km-en.js';
 
 const CONFIGS = {
   erp_readiness:       { vi: CONFIG_VI,     en: CONFIG_EN },
   ai_readiness:        { vi: CONFIG_AI_VI,  en: CONFIG_AI_EN },
   digitalization_level: { vi: CONFIG_DIG_VI, en: CONFIG_DIG_EN },
+  km_maturity:         { vi: CONFIG_KM_VI,  en: CONFIG_KM_EN },
 };
 
 // ─── Scoring helpers ──────────────────────────────────────────────────────────
@@ -1219,6 +1222,424 @@ function getDIG90DayRecs(dims, flags, lang) {
 
 // ─── End Digitalization Level scoring ────────────────────────────────────────
 
+// ─── KM Maturity static content ──────────────────────────────────────────────
+
+const KM_LEVEL_LABELS_VI = {
+  1: 'Tri thức nằm trong đầu người',
+  2: 'Tài liệu hóa cơ bản',
+  3: 'Tài liệu sống trong hệ thống',
+  4: 'Tri thức gắn với quy trình và bối cảnh',
+  5: 'Tổ chức học hỏi và cải tiến',
+};
+const KM_LEVEL_LABELS_EN = {
+  1: "Knowledge in People's Heads",
+  2: 'Basic Documentation',
+  3: 'Documents Live in the System',
+  4: 'Knowledge Linked to Process and Context',
+  5: 'Learning and Improving Organization',
+};
+
+const KM_DIM_LABELS_VI = { 1: 'Nền tảng chưa có', 2: 'Cần chuẩn bị', 3: 'Có cơ chế', 4: 'Vững' };
+const KM_DIM_LABELS_EN = { 1: 'Foundation Not Yet in Place', 2: 'Needs Preparation', 3: 'Mechanism in Place', 4: 'Solid' };
+
+const KM_DIM_NAMES_VI = {
+  D1: 'Mức phụ thuộc cá nhân',
+  D2: 'Ghi nhận tri thức ẩn',
+  D3: 'SOP & thực thi',
+  D4: 'Kiểm soát & tiếp cận tri thức',
+  D5: 'Tri thức kết nối hay phân tán',
+  D6: 'Tri thức thành bằng chứng',
+};
+const KM_DIM_NAMES_EN = {
+  D1: 'Personal Knowledge Dependency',
+  D2: 'Tacit Knowledge Capture',
+  D3: 'SOP & Execution',
+  D4: 'Knowledge Control & Access',
+  D5: 'Knowledge Connectivity',
+  D6: 'Knowledge as Evidence',
+};
+
+const KM_RISK_LABELS_VI = { high: 'Cao', medium: 'Trung bình', low: 'Thấp' };
+const KM_RISK_LABELS_EN = { high: 'High', medium: 'Medium', low: 'Low' };
+
+const KM_TOOL_GAP_LABELS_VI = {
+  ahead:   'Công cụ đi trước năng lực — tri thức chưa đi vào hệ thống đang có',
+  aligned: 'Công cụ tương xứng năng lực',
+  behind:  'Năng lực vượt công cụ — kỷ luật tốt nhưng công cụ đang giới hạn',
+};
+const KM_TOOL_GAP_LABELS_EN = {
+  ahead:   'Tools Ahead of Capability — knowledge has not yet flowed into the existing system',
+  aligned: 'Tools Aligned with Capability',
+  behind:  'Capability Exceeds Tools — good discipline but tools are limiting',
+};
+
+const KM_ARCHETYPES_VI = [
+  {
+    code: 'expert_dependency',
+    label: 'Doanh nghiệp của những người giỏi',
+    description: 'Doanh nghiệp chạy tốt nhờ vài người nắm việc lâu năm. Đó là tài sản thật, nhưng chưa phải tài sản của tổ chức — rủi ro hiện hữu nhưng thường không được đánh giá đúng mức.',
+    risk: 'Một người nghỉ = một phần vận hành bị gián đoạn; không thể mở rộng quy mô bền vững',
+  },
+  {
+    code: 'tool_without_knowledge',
+    label: 'Có hệ thống tài liệu, chưa có tri thức',
+    description: 'Đã đầu tư DMS/QMS hoặc thư mục chung có tổ chức, nhưng tri thức thật — cách xử lý tình huống phi chuẩn, lý do quyết định — vẫn nằm ngoài hệ thống.',
+    risk: 'Mua thêm phần mềm sẽ không giải quyết; cần đưa tri thức vào công cụ đang có trước',
+  },
+  {
+    code: 'sop_for_audit',
+    label: 'SOP để audit, không để làm',
+    description: 'SOP tồn tại chủ yếu để đáp ứng kiểm tra; cách làm thật khác và thay đổi theo người, theo ca.',
+    risk: 'Tri thức thật nằm ngoài tài liệu; onboarding kéo dài; audit cho kết quả không ổn định',
+  },
+  {
+    code: 'scattered_knowledge',
+    label: 'Tri thức phân tán',
+    description: 'Thông tin quan trọng nằm rải rác trong Excel, Zalo, email và trí nhớ; không ai có bức tranh đầy đủ.',
+    risk: 'Mỗi quyết định quan trọng đòi hỏi phải hỏi nhiều người; thay đổi có rủi ro không ai nhìn thấy được',
+  },
+  {
+    code: 'good_discipline_limited_tool',
+    label: 'Kỷ luật tốt, công cụ giới hạn',
+    description: 'Tổ chức đã có thói quen ghi nhận và cập nhật tốt, nhưng tri thức vẫn nằm trong file rời; bước tiếp theo là kết nối.',
+    risk: 'Cơ hội rõ — nhưng cần công cụ gắn tài liệu với quy trình, workflow, bằng chứng',
+  },
+  {
+    code: 'learning_organization',
+    label: 'Tổ chức đang học',
+    description: 'Tri thức đã gắn với quy trình và bối cảnh; sự cố trở thành cải tiến. Nền tảng đã sẵn sàng cho AI.',
+    risk: 'Cơ hội tiếp theo là tận dụng tri thức có cấu trúc — AI Readiness và OKELAS Core',
+  },
+  {
+    code: 'build_knowledge_foundation',
+    label: 'Xây nền tri thức',
+    description: 'Nhiều thành phần cùng cần cải thiện. Bắt đầu từ vài quy trình và vài người quan trọng nhất, không bắt đầu từ phần mềm.',
+    risk: 'Một dự án quản lý tri thức lớn trên nền chưa vững sẽ không tạo ra giá trị vận hành rõ ràng',
+  },
+];
+
+const KM_ARCHETYPES_EN = [
+  {
+    code: 'expert_dependency',
+    label: 'Organization Runs on Key Experts',
+    description: "The organization runs well thanks to a few long-tenured people. That is a real asset, but not yet the organization's asset — the risk is real but often underestimated.",
+    risk: 'One person leaving = one part of operations disrupted; cannot scale sustainably',
+  },
+  {
+    code: 'tool_without_knowledge',
+    label: 'Documentation System Without Knowledge',
+    description: "Investment has been made in DMS/QMS or organized shared folders, but the real knowledge — how to handle non-standard situations, the reasoning behind decisions — still lives outside the system.",
+    risk: 'Buying more software will not solve this; knowledge must flow into existing tools first',
+  },
+  {
+    code: 'sop_for_audit',
+    label: 'SOPs for Audit, Not for Work',
+    description: 'SOPs exist primarily to satisfy inspections; actual practice differs and varies by person and shift.',
+    risk: 'Real knowledge lives outside documents; onboarding takes too long; audit outcomes are inconsistent',
+  },
+  {
+    code: 'scattered_knowledge',
+    label: 'Scattered Knowledge',
+    description: 'Critical information is scattered across Excel files, chat groups, email, and memory; no one has the full picture.',
+    risk: 'Every important decision requires asking multiple people; changes carry risks no one can fully see',
+  },
+  {
+    code: 'good_discipline_limited_tool',
+    label: 'Good Discipline, Limited Tools',
+    description: 'The organization has good habits for capturing and updating knowledge, but it still lives in disconnected files; the next step is connecting.',
+    risk: 'Clear opportunity — but needs tools that link documents to processes, workflows, and evidence',
+  },
+  {
+    code: 'learning_organization',
+    label: 'Learning Organization',
+    description: 'Knowledge is linked to processes and context; incidents become improvements. The foundation is ready for AI.',
+    risk: 'The next opportunity is leveraging structured knowledge — AI Readiness and OKELAS Core',
+  },
+  {
+    code: 'build_knowledge_foundation',
+    label: 'Build Knowledge Foundation',
+    description: 'Multiple components need improvement simultaneously. Start with a few critical processes and key people, not with software.',
+    risk: 'A large knowledge management project on an unstable foundation will not deliver clear operational value',
+  },
+];
+
+const KM_FLAG_LABELS = {
+  vi: {
+    F1: { label: 'Điểm đơn tri thức', explanation: 'Vài người nghỉ là một phần vận hành dừng; 3 tháng báo trước không đủ để chuyển giao nhiều năm kinh nghiệm.' },
+    F2: { label: 'Người đi, tri thức đi theo', explanation: 'Mỗi lần nghỉ việc là một lần mất tri thức bối cảnh và quan hệ không thể lấy lại.' },
+    F3: { label: 'SOP để có, không để làm', explanation: 'Tài liệu tồn tại nhưng tri thức thật vẫn nằm ngoài tài liệu — chặn cổng lên cấp 3.' },
+    F4: { label: 'Không biết bản nào đúng', explanation: 'Nhân viên có thể đang làm theo bản cũ mà không biết — chặn cổng lên cấp 3.' },
+    F5: { label: 'Hệ thống ngầm là hệ thống chính', explanation: 'Tri thức quan trọng nằm trên máy cá nhân, không kiểm soát, không truy vết — chặn cổng lên cấp 4.' },
+    F6: { label: 'Audit là cuộc chạy đua', explanation: 'Bằng chứng không được ghi nhận trong vận hành; kết quả audit phụ thuộc người chuẩn bị — chặn cổng lên cấp 4.' },
+  },
+  en: {
+    F1: { label: 'Single Point of Knowledge', explanation: 'A few people leaving halts part of operations; 3 months notice is not enough to transfer years of experience.' },
+    F2: { label: 'Knowledge Leaves with the Person', explanation: 'Every departure means losing contextual and relational knowledge that cannot be recovered.' },
+    F3: { label: 'SOPs for Compliance, Not Practice', explanation: 'Documents exist but real knowledge still lives outside them — blocks the gate to Level 3.' },
+    F4: { label: "Nobody Knows Which Version Is Correct", explanation: 'Employees may be following an outdated version without knowing — blocks the gate to Level 3.' },
+    F5: { label: 'Shadow Systems Are the Real Systems', explanation: 'Critical knowledge lives on personal computers, uncontrolled and untraceable — blocks the gate to Level 4.' },
+    F6: { label: 'Audit Is a Fire Drill', explanation: 'Evidence is not captured during operations; audit outcomes depend on who prepares — blocks the gate to Level 4.' },
+  }
+};
+
+const KM_RECS_VI = {
+  D1: {
+    low: 'Lập sổ rủi ro tri thức cho 3–5 vị trí quan trọng nhất: ghi lại tri thức chỉ họ có, loại tri thức, đã được ghi lại chưa, ai là người thứ hai. Với mỗi vị trí rủi ro cao, chỉ định người thứ hai học việc có kế hoạch.',
+    high: 'Rà lại sổ mỗi quý; ước tính thời gian và chi phí ẩn nếu từng vị trí quan trọng không có người thứ hai trong 3 tháng tới.',
+  },
+  D2: {
+    low: 'Sau mỗi sự cố đáng kể, họp 30 phút ghi lại cách người giải quyết phân tích và quyết định. Áp dụng phỏng vấn tri thức có cấu trúc cho bất kỳ ai thông báo nghỉ.',
+    high: "Chuyển bản ghi sự cố thành bảng quyết định ('khi X và Y cùng xảy ra thì…') gắn vào SOP liên quan.",
+  },
+  D3: {
+    low: 'Chọn 3 quy trình rủi ro nhất; mời người thực thi viết lại cùng QA, bổ sung phần xử lý tình huống bất thường.',
+    high: 'Lập kênh phản hồi khi SOP không khớp thực tế; so sánh cách làm giữa hai ca và ghi lại điểm khác biệt.',
+  },
+  D4: {
+    low: 'Dọn thư mục: mỗi tài liệu quan trọng một bản hiệu lực, có người duyệt và ngày hiệu lực; lưu bản cũ riêng.',
+    high: 'Đưa checklist/hướng dẫn bản hiệu lực ra điểm thực hiện; thiết lập cơ chế thông báo và xác nhận khi có thay đổi.',
+  },
+  D5: {
+    low: 'Liệt kê các file Excel và nhóm Zalo đang giữ thông tin vận hành quan trọng; chuyển về nơi lưu chung, có người phụ trách.',
+    high: 'Lập bảng quan hệ có cấu trúc: sản phẩm → nguyên liệu → nhà cung cấp → tiêu chuẩn → quy trình kiểm tra.',
+  },
+  D6: {
+    low: "Sau đợt audit gần nhất, liệt kê hồ sơ phải 'tái tạo' thay vì có sẵn; đưa việc ghi hồ sơ đó vào bước vận hành tương ứng.",
+    high: 'Kiểm tra ngẫu nhiên hằng tháng một lô/quy trình như một auditor để xác nhận bằng chứng đang được ghi nhận liên tục.',
+  },
+};
+
+const KM_RECS_EN = {
+  D1: {
+    low: 'Create a knowledge risk register for the 3–5 most critical roles: document what only they know, the type of knowledge, whether it has been captured, and who the backup is. For each high-risk role, assign a second person to shadow with a learning plan.',
+    high: 'Review the register quarterly; estimate the hidden time and cost if each critical role had no backup for the next 3 months.',
+  },
+  D2: {
+    low: 'After each significant incident, hold a 30-minute debrief to record how the person analyzed and decided. Apply structured knowledge interviews to anyone who announces they are leaving.',
+    high: "Convert incident records into decision tables ('when X and Y happen together, then…') and link them to the relevant SOP.",
+  },
+  D3: {
+    low: 'Choose the 3 highest-risk processes; invite practitioners to rewrite them together with QA, adding a section for handling unusual situations.',
+    high: 'Set up a feedback channel for when SOPs do not match reality; compare practices across two shifts and record the differences.',
+  },
+  D4: {
+    low: 'Clean up the document folder: one effective version per important document with an approver and effective date; archive old versions separately.',
+    high: 'Put the current-version checklist or guideline at the point of use; establish notification and acknowledgement when changes are made.',
+  },
+  D5: {
+    low: 'List all Excel files and chat groups holding critical operational information; move them to shared storage with an assigned owner.',
+    high: 'Build a structured relationship table: product → material → supplier → standard → inspection process.',
+  },
+  D6: {
+    low: "After the most recent audit, list all records that had to be 'reconstructed' rather than already available; embed recording those records into the corresponding operational step.",
+    high: 'Randomly check one batch or process per month as an auditor would, to confirm evidence is being captured continuously.',
+  },
+};
+
+// ─── KM Maturity scoring functions ───────────────────────────────────────────
+
+function getKMDims(answers, questions) {
+  return {
+    D1: calcDimension(['Q1-PERSON-DEPENDENCY', 'Q2-ONBOARDING-SPEED'], answers, questions),
+    D2: calcDimension(['Q3-INCIDENT-LEARNING', 'Q4-KNOWLEDGE-HANDOVER'], answers, questions),
+    D3: calcDimension(['Q5-SOP-QUALITY', 'Q6-SOP-CONSISTENCY'], answers, questions),
+    D4: calcDimension(['Q7-DOC-ACCESS', 'Q8-FRONTLINE-ACCESS'], answers, questions),
+    D5: calcDimension(['Q9-CHANGE-CONTEXT', 'Q10-SHADOW-SYSTEMS'], answers, questions),
+    D6: calcDimension(['Q11-AUDIT-READINESS'], answers, questions),
+  };
+}
+
+function getKMFlags(answers, questions) {
+  const s = (qId) => getPrdScore(qId, answers, questions);
+  const flags = [];
+  const q1 = s('Q1-PERSON-DEPENDENCY');
+  const q4 = s('Q4-KNOWLEDGE-HANDOVER');
+  const q5 = s('Q5-SOP-QUALITY');
+  const q6 = s('Q6-SOP-CONSISTENCY');
+  const q7 = s('Q7-DOC-ACCESS');
+  const q10 = s('Q10-SHADOW-SYSTEMS');
+  const q11 = s('Q11-AUDIT-READINESS');
+  if (q1 === 0) flags.push('F1');
+  if (q4 === 0) flags.push('F2');
+  if (q5 === 0 || q6 === 0) flags.push('F3');
+  if (q7 === 0) flags.push('F4');
+  if (q10 === 0) flags.push('F5');
+  if (q11 === 0) flags.push('F6');
+  return flags;
+}
+
+function getKMRisk(dims, flags) {
+  const { D1, D2 } = dims;
+  if (flags.includes('F1') || flags.includes('F2') || (D1.score !== null && D1.score < 1.00)) return 'high';
+  if ((D1.score !== null && D1.score < 2.00) || (D2.score !== null && D2.score < 1.50)) return 'medium';
+  return 'low';
+}
+
+function getKMOverallLevel(dims, flags) {
+  const { D2, D3, D4, D5, D6 } = dims;
+  const ge = (dim, thr) => dim.score !== null && dim.score >= thr;
+  const noFlags = flags.length === 0;
+
+  // Cumulative gates
+  const l2ok = ge(D3, 1.00);
+  const l3ok = l2ok && ge(D3, 1.50) && ge(D4, 1.75) && !flags.includes('F3') && !flags.includes('F4');
+  const l4ok = l3ok && ge(D2, 1.50) && ge(D5, 1.75) && ge(D6, 2.00)
+               && !flags.includes('F5') && !flags.includes('F6');
+  const l5ok = l4ok
+               && ge(D2, 2.50) && ge(D5, 2.50)
+               && [D2, D3, D4, D5, D6].every(d => d.score === null || d.score >= 2.00)
+               && noFlags;
+
+  let gateLevel = 1;
+  if (l2ok) gateLevel = 2;
+  if (l3ok) gateLevel = 3;
+  if (l4ok) gateLevel = 4;
+  if (l5ok) gateLevel = 5;
+
+  // Ceiling from D2-D6 average (D1 excluded per PRD §6.1)
+  const d26 = [D2, D3, D4, D5, D6].filter(d => d.score !== null);
+  if (d26.length === 0) return 1;
+  const avg = d26.reduce((s, d) => s + d.score, 0) / d26.length;
+  let ceiling;
+  if (avg < 0.75) ceiling = 1;
+  else if (avg < 1.50) ceiling = 2;
+  else if (avg < 2.00) ceiling = 3;
+  else if (avg < 2.50) ceiling = 4;
+  else ceiling = 5;
+
+  return Math.min(gateLevel, ceiling);
+}
+
+function getKMToolLevel(answers) {
+  const q0 = answers.find(a => a.question_id === 'Q0-TOOL');
+  if (!q0?.selected_key) return null;
+  const map = { A: 1, B: 2, C: 3, D: 4 };
+  return map[q0.selected_key] ?? null;
+}
+
+function getKMToolGap(toolLevel, maturityLevel) {
+  if (toolLevel === null || maturityLevel === null) return null;
+  return toolLevel - Math.min(maturityLevel, 4);
+}
+
+function getKMToolGapLabel(toolGap, lang) {
+  if (toolGap === null) return null;
+  const labels = lang === 'en' ? KM_TOOL_GAP_LABELS_EN : KM_TOOL_GAP_LABELS_VI;
+  if (toolGap >= 1) return labels.ahead;
+  if (toolGap <= -1) return labels.behind;
+  return labels.aligned;
+}
+
+function getKMArchetype(level, risk, toolGap, dims, flags, answers, questions, lang) {
+  const { D5 } = dims;
+  const q5prd = getPrdScore('Q5-SOP-QUALITY', answers, questions);
+  const q6prd = getPrdScore('Q6-SOP-CONSISTENCY', answers, questions);
+  const archetypes = lang === 'en' ? KM_ARCHETYPES_EN : KM_ARCHETYPES_VI;
+
+  // 1. expert_dependency
+  if (risk === 'high' && level <= 2) return archetypes[0];
+  // 2. tool_without_knowledge
+  if (toolGap !== null && toolGap >= 1) return archetypes[1];
+  // 3. sop_for_audit
+  if (flags.includes('F3') || (q5prd !== null && q5prd <= 1 && q6prd !== null && q6prd <= 1)) return archetypes[2];
+  // 4. scattered_knowledge
+  if (flags.includes('F5') || (D5.score !== null && D5.score < 1.25)) return archetypes[3];
+  // 5. good_discipline_limited_tool
+  if (toolGap !== null && toolGap <= -1 && level >= 3) return archetypes[4];
+  // 6. learning_organization
+  if (level >= 4 && risk !== 'high') return archetypes[5];
+  // 7. default
+  return archetypes[6];
+}
+
+function getKMDescription(level, levelLabel, dims, flags, answers, questions, lang) {
+  const q1prd = getPrdScore('Q1-PERSON-DEPENDENCY', answers, questions);
+  const q3prd = getPrdScore('Q3-INCIDENT-LEARNING', answers, questions);
+  const q4prd = getPrdScore('Q4-KNOWLEDGE-HANDOVER', answers, questions);
+  const q9prd = getPrdScore('Q9-CHANGE-CONTEXT', answers, questions);
+
+  let knowledgeType;
+  if (q4prd === 0 && q1prd !== null && q1prd <= 1) {
+    knowledgeType = lang === 'en'
+      ? 'all three types: how to handle non-standard situations (operational), the reasoning behind decisions (context), and key relationships (relational)'
+      : 'cả ba loại tri thức: cách xử lý tình huống phi chuẩn (vận hành), lý do đằng sau các quyết định (bối cảnh), và các mối quan hệ vận hành (quan hệ)';
+  } else if ((q1prd !== null && q1prd <= 1) || (q3prd !== null && q3prd <= 1)) {
+    knowledgeType = lang === 'en'
+      ? 'operational knowledge — how non-standard situations actually get handled'
+      : 'tri thức vận hành — cách xử lý tình huống phi chuẩn trong thực tế';
+  } else if ((q9prd !== null && q9prd <= 1) || (q4prd !== null && q4prd <= 1)) {
+    knowledgeType = lang === 'en'
+      ? 'contextual knowledge — the reasoning behind past decisions'
+      : 'tri thức bối cảnh — lý do đằng sau các quyết định';
+  } else {
+    knowledgeType = lang === 'en'
+      ? 'institutional knowledge accumulated over the years'
+      : 'tri thức tổ chức tích lũy theo thời gian';
+  }
+
+  const levelStr = lang === 'en' ? 'Level ' : 'cấp ';
+  return lang === 'en'
+    ? 'Your organization is at Level ' + level + ' — ' + levelLabel + '. If key personnel change next month, the most at-risk knowledge is ' + knowledgeType + '.'
+    : 'Doanh nghiệp của anh/chị đang ở cấp ' + level + ' — ' + levelLabel + '. Nếu nhân sự chủ chốt thay đổi vào tháng tới, điều doanh nghiệp có nguy cơ mất nhiều nhất là ' + knowledgeType + '.';
+}
+
+function getKM90DayRecs(dims, flags, lang) {
+  const recs = lang === 'en' ? KM_RECS_EN : KM_RECS_VI;
+  const dimOrder = ['D1', 'D2', 'D3', 'D4', 'D5', 'D6'];
+  const foundationDims = ['D1', 'D2', 'D3'];
+
+  const sorted = dimOrder
+    .filter(k => dims[k].score !== null)
+    .sort((a, b) => {
+      const sa = dims[a].score, sb = dims[b].score;
+      const fa = foundationDims.includes(a), fb = foundationDims.includes(b);
+      if (Math.abs(sa - sb) < 0.01) return fa && !fb ? -1 : !fa && fb ? 1 : 0;
+      return sa - sb;
+    });
+
+  const actions = [];
+  const covered = new Set();
+
+  // F1 → D1 first (risk register + backup person)
+  if (flags.includes('F1') && actions.length < 3) {
+    actions.push(recs.D1.low);
+    covered.add('D1');
+  }
+  // F2 → D2 (knowledge interview for departing staff)
+  if (flags.includes('F2') && actions.length < 3) {
+    actions.push(recs.D2.low);
+    covered.add('D2');
+  }
+
+  // Fill from weakest dims not yet covered (level 1-2 → low rec)
+  for (const key of sorted) {
+    if (actions.length >= 3) break;
+    if (!covered.has(key) && dims[key].level !== null && dims[key].level <= 2) {
+      actions.push(recs[key].low);
+      covered.add(key);
+    }
+  }
+
+  // Fill from weakest dims not covered (any level → high rec)
+  for (const key of sorted) {
+    if (actions.length >= 3) break;
+    if (!covered.has(key)) {
+      actions.push(recs[key].high);
+      covered.add(key);
+    }
+  }
+
+  // If still under 3, use high recs from covered dims
+  for (const key of sorted) {
+    if (actions.length >= 3) break;
+    actions.push(recs[key].high);
+  }
+
+  return actions.slice(0, 3);
+}
+
+// ─── End KM Maturity scoring ──────────────────────────────────────────────────
+
 // ─── Database helpers (Supabase REST — no npm dependency) ────────────────────
 
 async function dbInsertLead(lead) {
@@ -1292,6 +1713,7 @@ async function sendTelegramAlert(lead) {
   const typeName = lead.assessment_id === 'erp_readiness' ? 'ERP Readiness'
                  : lead.assessment_id === 'ai_readiness' ? 'AI Readiness'
                  : lead.assessment_id === 'digitalization_level' ? 'Digitalization Level'
+                 : lead.assessment_id === 'km_maturity' ? 'KM Maturity'
                  : lead.assessment_id;
   const source = lead.utm_source
     ? `${h(lead.utm_source)}${lead.utm_medium ? '/' + h(lead.utm_medium) : ''}`
@@ -1610,6 +2032,71 @@ export default async function handler(req, res) {
               : null,
             readiness_index: readinessIndex,
             system_count: sysInfo.systemCount,
+          });
+        }
+
+        // ── KM Maturity scoring path ──────────────────────────────────────
+        if (assessment_id === 'km_maturity') {
+          const dims = getKMDims(answers, questions);
+          const totalBlindSpots = Object.values(dims).reduce((s, d) => s + d.blindSpots, 0);
+          const provisional = totalBlindSpots >= 3;
+          const flags = getKMFlags(answers, questions);
+          const level = getKMOverallLevel(dims, flags);
+          const risk = getKMRisk(dims, flags);
+          const riskLabel = lang === 'en' ? KM_RISK_LABELS_EN[risk] : KM_RISK_LABELS_VI[risk];
+          const toolLevel = getKMToolLevel(answers);
+          const toolGap = getKMToolGap(toolLevel, level);
+          const toolGapLabel = getKMToolGapLabel(toolGap, lang);
+          const kmLevelLabels = lang === 'en' ? KM_LEVEL_LABELS_EN : KM_LEVEL_LABELS_VI;
+          const label = level ? kmLevelLabels[level] : (lang === 'en' ? 'Insufficient data' : 'Chưa đủ dữ liệu');
+          const description = getKMDescription(level, label, dims, flags, answers, questions, lang);
+          const archetype = getKMArchetype(level, risk, toolGap, dims, flags, answers, questions, lang);
+          const recommendations = getKM90DayRecs(dims, flags, lang);
+          const kmDimLabels = lang === 'en' ? KM_DIM_LABELS_EN : KM_DIM_LABELS_VI;
+          const kmDimNames = lang === 'en' ? KM_DIM_NAMES_EN : KM_DIM_NAMES_VI;
+          const dimensionScores = {};
+          for (const [key, val] of Object.entries(dims)) {
+            const baseLabel = val.undetermined
+              ? (lang === 'en' ? 'Undetermined — needs detailed assessment' : 'Chưa xác định — cần đánh giá chi tiết')
+              : kmDimLabels[val.level] || '';
+            dimensionScores[key] = {
+              name: kmDimNames[key],
+              score: val.score !== null ? Math.round(val.score * 100) / 100 : null,
+              level: val.level,
+              label: val.estimated ? baseLabel + ' (' + (lang === 'en' ? 'estimated' : 'ước tính') + ')' : baseLabel,
+              estimated: val.estimated,
+              undetermined: val.undetermined,
+            };
+          }
+          const flagDetails = flags.map(f => ({ code: f, ...KM_FLAG_LABELS[lang][f] }));
+          const d26 = [dims.D2, dims.D3, dims.D4, dims.D5, dims.D6].filter(d => d.score !== null);
+          const avgD26 = d26.length > 0 ? d26.reduce((s, d) => s + d.score, 0) / d26.length : 0;
+          const readinessIndex = Math.round(avgD26 * 100 / 3);
+          return res.status(200).json({
+            submission_id: 'sub_' + Date.now(),
+            assessment_id,
+            level,
+            label,
+            description,
+            provisional,
+            risk,
+            risk_label: riskLabel,
+            tool_level: toolLevel,
+            tool_gap: toolGap,
+            tool_gap_label: toolGapLabel,
+            archetype: archetype.code,
+            archetype_label: archetype.label,
+            archetype_description: archetype.description,
+            archetype_risk: archetype.risk,
+            flags: flagDetails,
+            critical_flags: flags,
+            dimension_scores: dimensionScores,
+            recommendations,
+            related_links: [],
+            insufficient_data_message: level === null
+              ? (lang === 'en' ? 'Insufficient data for a complete assessment.' : 'Chưa đủ dữ liệu để đánh giá đầy đủ.')
+              : null,
+            readiness_index: readinessIndex,
           });
         }
 
