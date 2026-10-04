@@ -896,6 +896,19 @@
         "category": "compliance",
         "url": "/en/insights/compliance/effective-internal-audit-iso-9001"
       }
+    },
+    {
+      "translationId": "iso-9001-training-records-competence",
+      "vi": {
+        "slug": "training-records-iso-9001",
+        "category": "compliance",
+        "url": "/insights/compliance/training-records-iso-9001"
+      },
+      "en": {
+        "slug": "iso-9001-training-records-competence",
+        "category": "compliance",
+        "url": "/en/insights/compliance/iso-9001-training-records-competence"
+      }
     }
   ]
 }
