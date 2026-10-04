@@ -857,6 +857,19 @@
         "category": "compliance",
         "url": "/en/insights/compliance/document-control-iso-9001-eqms"
       }
+    },
+    {
+      "translationId": "effective-capa-iso-9001",
+      "vi": {
+        "slug": "capa-iso-9001-hieu-qua",
+        "category": "compliance",
+        "url": "/insights/compliance/capa-iso-9001-hieu-qua"
+      },
+      "en": {
+        "slug": "effective-capa-iso-9001",
+        "category": "compliance",
+        "url": "/en/insights/compliance/effective-capa-iso-9001"
+      }
     }
   ]
 }
