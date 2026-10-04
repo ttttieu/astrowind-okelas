@@ -922,6 +922,19 @@
         "category": "compliance",
         "url": "/en/insights/compliance/iso-9001-supplier-qualification"
       }
+    },
+    {
+      "translationId": "iso-9001-risk-management-clause-6",
+      "vi": {
+        "slug": "risk-management-iso-9001",
+        "category": "compliance",
+        "url": "/insights/compliance/risk-management-iso-9001"
+      },
+      "en": {
+        "slug": "iso-9001-risk-management-clause-6",
+        "category": "compliance",
+        "url": "/en/insights/compliance/iso-9001-risk-management-clause-6"
+      }
     }
   ]
 }
