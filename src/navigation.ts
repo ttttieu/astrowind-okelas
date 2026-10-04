@@ -50,7 +50,7 @@ export const headerData = {
         { text: 'Our Approach', href: '/gioi-thieu/phuong-phap', hrefEn: '/en/about/approach' },
         { text: 'Technology', href: '/gioi-thieu/cong-nghe', hrefEn: '/en/about/technology' },
         { text: 'Partners', href: '/gioi-thieu/doi-tac', hrefEn: '/en/about/partners' },
-        { text: 'Contact', href: '/contact' },
+        { text: 'Contact', href: '/contact', hrefEn: '/en/contact' },
       ],
     },
   ],

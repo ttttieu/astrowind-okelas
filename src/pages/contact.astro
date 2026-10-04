@@ -5,28 +5,28 @@ import ContactUs from '~/components/widgets/Contact.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'Talk to OKELAS — Contact Advisory',
+  title: 'Liên Hệ OKELAS — Tư Vấn',
   description:
-    'Most conversations start with a question, not a commitment: "Are we actually ready for this?" Start with the relevant readiness assessment, or tell us the problem you\'re seeing.',
+    'Hầu hết cuộc trò chuyện bắt đầu bằng một câu hỏi, không phải cam kết: "Chúng tôi có thực sự sẵn sàng không?" Bắt đầu bằng đánh giá readiness, hoặc nói với chúng tôi vấn đề bạn đang gặp.',
 };
 ---
 
-<Layout metadata={metadata}>
+<Layout metadata={metadata} translationId="contact">
   <HeroText
-    tagline="Company"
-    title="Talk to OKELAS"
-    subtitle="Most conversations with us start with a question, not a commitment: "Are we actually ready for this?""
+    tagline="Giới Thiệu"
+    title="Liên Hệ OKELAS"
+    subtitle="Hầu hết cuộc trò chuyện với chúng tôi bắt đầu bằng một câu hỏi, không phải cam kết: "Chúng tôi có thực sự sẵn sàng không?""
   />
 
   <ContactUs
     id="form"
-    title="Start a conversation"
-    subtitle="If you already know roughly where the gap is, the fastest way to start is the relevant readiness assessment — it takes about three minutes and gives you something useful whether or not you talk to us afterward. If you're not sure where to start, tell us the problem you're seeing on the floor or in the numbers, not the solution you think you need — that's usually the more useful starting point for us too."
+    title="Bắt đầu cuộc trò chuyện"
+    subtitle="Nếu bạn đã biết khoảng cách nằm ở đâu, cách nhanh nhất để bắt đầu là đánh giá readiness phù hợp — mất khoảng ba phút và cho bạn kết quả hữu ích dù bạn có nói chuyện với chúng tôi hay không. Nếu bạn chưa chắc bắt đầu từ đâu, hãy mô tả vấn đề bạn đang thấy trên xưởng hoặc trong số liệu, không phải giải pháp bạn nghĩ cần — đó thường là điểm khởi đầu hữu ích hơn cho cả hai bên."
     inputs={[
       {
         type: 'text',
         name: 'name',
-        label: 'Name',
+        label: 'Họ và tên',
       },
       {
         type: 'email',
@@ -36,32 +36,32 @@ const metadata = {
       {
         type: 'text',
         name: 'company',
-        label: 'Company',
+        label: 'Doanh nghiệp',
       },
     ]}
     textarea={{
-      label: 'What problem are you seeing?',
+      label: 'Bạn đang gặp vấn đề gì?',
     }}
     disclaimer={{
       label:
-        'By submitting this form, you agree to the collection of your contact information for the purpose of this enquiry.',
+        'Bằng cách gửi form này, bạn đồng ý để chúng tôi lưu thông tin liên hệ phục vụ cho yêu cầu này.',
     }}
-    description="We typically respond within one business day."
+    description="Chúng tôi thường phản hồi trong vòng một ngày làm việc."
   />
 
   <CallToAction
     actions={[
       {
         variant: 'primary',
-        text: 'Start Readiness Assessment',
+        text: 'Bắt Đầu Đánh Giá Readiness',
         href: '/readiness',
         icon: 'tabler:clipboard-check',
       },
     ]}
   >
-    <Fragment slot="title">Or start with a self-assessment</Fragment>
+    <Fragment slot="title">Hoặc bắt đầu bằng tự đánh giá</Fragment>
     <Fragment slot="subtitle">
-      Three minutes. No commitment. Useful output regardless of what comes next.
+      Ba phút. Không cam kết. Kết quả hữu ích dù bước tiếp theo là gì.
     </Fragment>
   </CallToAction>
 </Layout>

@@ -1299,6 +1299,19 @@
         "category": "about",
         "url": "/en/about/partners"
       }
+    },
+    {
+      "translationId": "contact",
+      "vi": {
+        "slug": "contact",
+        "category": "company",
+        "url": "/contact"
+      },
+      "en": {
+        "slug": "contact",
+        "category": "company",
+        "url": "/en/contact"
+      }
     }
   ]
 }
