@@ -10,7 +10,6 @@ lang: 'vi'
 contentType: 'Analysis'
 funnelStage:
   - Consideration
-  - Solution
 audience: ['CEO', 'Quality Director', 'CIO']
 primaryKeyword: 'OKELAS eQMS tổ chức'
 secondaryKeywords:
