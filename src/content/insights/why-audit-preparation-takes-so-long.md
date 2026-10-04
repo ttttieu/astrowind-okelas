@@ -83,7 +83,7 @@ This doesn't require complex technology. It requires two things: processes desig
 
 → [Take the Knowledge Management Readiness Assessment](/en/readiness/knowledge-management) to evaluate your audit readiness.
 
-→ [Read next: ISO and GMP in the Context of Digitalization](/en/insights/knowledge-management/iso-gmp-digitalization)
+→ [Read next: ISO and GMP in the Context of Digitalization](/en/insights/business-operations/iso-gmp-document-management-digitalization)
 
 ---
 

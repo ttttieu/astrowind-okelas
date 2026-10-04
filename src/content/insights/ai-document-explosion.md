@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Document Explosion: When AI Creates More Documents Than Your Organization Can Manage"
 description: "AI makes document creation faster than ever. But more documents don't mean better management. Here's the emerging problem organizations are only beginning to recognize."
 publishDate: 2025-09-24T00:00:00Z
@@ -116,7 +116,7 @@ There are no universally "right" answers — but these questions will clarify ho
 
 → [Take the Knowledge Management Readiness Assessment](/en/readiness/knowledge-management)
 
-→ [Read next: From DMS to Knowledge Management — An Important Difference](/en/insights/knowledge-management/from-dms-to-knowledge-management)
+→ [Read next: From DMS to Knowledge Management — An Important Difference](/en/insights/knowledge-management/dms-vs-knowledge-management)
 
 ---
 

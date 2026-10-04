@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Tacit Knowledge và Explicit Knowledge — tại sao cần phân biệt và ứng dụng gì"
 description: "Không phải mọi tri thức đều có thể viết thành tài liệu. Hiểu sự khác biệt là bước đầu tiên để xây dựng knowledge management phù hợp."
 publishDate: 2025-09-24T00:00:00Z
@@ -166,7 +166,7 @@ Phân biệt tacit và explicit knowledge không phải bài tập học thuật
 
 - [Khi nhân sự chủ chốt nghỉ việc, họ mang đi thứ gì?](/insights/knowledge-management/nhan-su-nghi-viec-mang-di-tri-thuc) *(bài trước)*
 - [SOP có nhưng không được thực thi — tại sao?](/insights/knowledge-management/sop-khong-duoc-thuc-thi) *(bài liên quan)*
-- [AI Productivity và Organizational Intelligence — hai khái niệm khác nhau](/insights/ai/ai-productivity-vs-organizational-intelligence) *(Cluster 2 — cross-cluster)*
+- [AI Productivity và Organizational Intelligence — hai khái niệm khác nhau](/insights/ai/ai-nang-suat-va-tri-thuc-tong-the) *(Cluster 2 — cross-cluster)*
 - [Từ tri thức cá nhân đến tri thức tổ chức](/insights/knowledge-management/quan-ly-tri-thuc-doanh-nghiep-san-xuat) *(pillar)*
 
 ---

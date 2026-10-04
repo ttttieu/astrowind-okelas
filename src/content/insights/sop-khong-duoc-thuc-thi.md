@@ -1,4 +1,4 @@
-﻿---
+---
 title: "SOP có nhưng không được thực thi — tại sao điều này xảy ra?"
 description: "Nhiều doanh nghiệp đầu tư viết SOP nhưng nhân viên không làm đúng. Vấn đề không phải nhân viên — mà là thiết kế."
 publishDate: 2025-09-24T00:00:00Z
@@ -156,8 +156,8 @@ Khi SOP phản ánh đúng thực tế, tiếp cận được tại điểm cầ
 
 **Đọc thêm:**
 
-- [Tacit knowledge và explicit knowledge — tại sao cần phân biệt](/insights/knowledge-management/tacit-knowledge-va-explicit-knowledge) *(bài liên quan)*
-- [Quy trình chưa chuẩn hóa — rủi ro lớn nhất trước khi triển khai ERP](/insights/erp/chuan-bi-erp-process-readiness) *(Cluster 1 — ERP)*
+- [Tacit knowledge và explicit knowledge — tại sao cần phân biệt](/insights/knowledge-management/tacit-knowledge-explicit-knowledge) *(bài liên quan)*
+- [Quy trình chưa chuẩn hóa — rủi ro lớn nhất trước khi triển khai ERP](/insights/erp/chuan-hoa-quy-trinh-truoc-erp) *(Cluster 1 — ERP)*
 - [Từ tri thức cá nhân đến tri thức tổ chức](/insights/knowledge-management/quan-ly-tri-thuc-doanh-nghiep-san-xuat) *(pillar)*
 
 ---

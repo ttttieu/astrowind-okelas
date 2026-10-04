@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Knowledge Graph trong doanh nghiệp — không phải công nghệ, là cách tổ chức tri thức"
 description: "Knowledge graph không chỉ là công nghệ — đây là cách tổ chức tri thức có cấu trúc để có thể truy vấn, liên kết và dùng cho AI."
 publishDate: 2025-09-24T00:00:00Z
@@ -161,9 +161,9 @@ Doanh nghiệp nào bắt đầu ghi nhận và cấu trúc hóa tri thức theo
 
 **Đọc thêm:**
 
-- [Từ DMS đến Knowledge Management — sự khác biệt quan trọng](/insights/knowledge-management/dms-vs-knowledge-management) *(bài trước)*
-- [RAG là gì — và tại sao chatbot không đủ](/insights/ai/rag-limitations-enterprise-ai) *(Cluster 2 — cross-cluster)*
-- [Dữ liệu có nhưng không có context — tại sao AI không thể dùng](/insights/ai/data-without-context-ai-problem) *(Cluster 2 — cross-cluster)*
+- [Từ DMS đến Knowledge Management — sự khác biệt quan trọng](/insights/knowledge-management/dms-va-knowledge-management) *(bài trước)*
+- [RAG là gì — và tại sao chatbot không đủ](/insights/ai/rag-la-gi-han-che-ai) *(Cluster 2 — cross-cluster)*
+- [Dữ liệu có nhưng không có context — tại sao AI không thể dùng](/insights/ai/du-lieu-khong-co-context-ai) *(Cluster 2 — cross-cluster)*
 - [Từ tri thức cá nhân đến tri thức tổ chức](/insights/knowledge-management/quan-ly-tri-thuc-doanh-nghiep-san-xuat) *(pillar)*
 
 ---

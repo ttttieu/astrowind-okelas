@@ -1,4 +1,4 @@
-﻿---
+---
 title: "The Excel and Email Trap: Why Spreadsheets Become Your Shadow Operating System"
 description: "Many businesses have invested in software but still run operations on Excel and email. This isn't just a habit — it's a symptom of something deeper. Here's what's actually happening."
 publishDate: 2025-09-24T00:00:00Z
@@ -165,7 +165,7 @@ That is a knowledge management question — not an IT question.
 
 - [When Key Employees Leave: What They Take With Them](/en/insights/knowledge-management/knowledge-loss-when-employees-leave) *(previous)*
 - [The Knowledge-Creating Organization](/en/insights/knowledge-management/knowledge-management-manufacturing) *(pillar)*
-- [From Individual Knowledge to Organizational Knowledge](/en/insights/knowledge-management/quan-ly-tri-thuc-doanh-nghiep-san-xuat) *(cross-language)*
+- [From Individual Knowledge to Organizational Knowledge](/en/insights/knowledge-management/knowledge-management-manufacturing) *(cross-language)*
 
 ---
 

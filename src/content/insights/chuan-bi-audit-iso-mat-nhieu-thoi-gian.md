@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Tại sao chuẩn bị audit lại tốn nhiều công sức đến vậy?"
 description: "Nếu mỗi lần audit bạn phải huy động cả phòng để tìm hồ sơ, vấn đề không phải là audit khó — mà là hệ thống chưa sẵn sàng."
 publishDate: 2025-09-24T00:00:00Z
@@ -83,7 +83,7 @@ Khi auditor đến hỏi: *"Chứng minh rằng quy trình kiểm tra nguyên li
 
 → [Làm Knowledge Management Readiness Assessment](/readiness/knowledge-management) để đánh giá audit-readiness.
 
-→ [Đọc thêm: ISO và GMP trong bối cảnh số hóa](/insights/knowledge-management/iso-gmp-so-hoa)
+→ [Đọc thêm: ISO và GMP trong bối cảnh số hóa](/insights/business-operations/so-hoa-ho-so-iso-gmp)
 
 ---
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "SOPs Are in Place — So Why Aren't They Being Followed?"
 description: "Many companies invest in writing SOPs but employees don't follow them. The problem usually isn't employee resistance — it's design. Here's why."
 publishDate: 2025-09-24T00:00:00Z
@@ -156,7 +156,7 @@ That's the difference between a SOP as something the organization has, and a SOP
 
 **Further reading:**
 
-- [Tacit Knowledge vs. Explicit Knowledge — Why the Distinction Matters](/en/insights/knowledge-management/tacit-knowledge-va-explicit-knowledge) *(related article)*
+- [Tacit Knowledge vs. Explicit Knowledge — Why the Distinction Matters](/en/insights/knowledge-management/tacit-vs-explicit-knowledge) *(related article)*
 - [Process Standardization Before ERP: Why the Foundation Comes First](/en/insights/erp/process-standardization-before-erp) *(Cluster 1 — ERP)*
 - [From Individual Knowledge to Organizational Knowledge](/en/insights/knowledge-management/knowledge-management-manufacturing) *(pillar)*
 

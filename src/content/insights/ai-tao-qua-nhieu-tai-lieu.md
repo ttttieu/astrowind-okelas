@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Document Explosion: AI tạo ra nhiều tài liệu hơn — doanh nghiệp quản lý được không?"
 description: "AI giúp tạo tài liệu nhanh hơn bao giờ hết. Nhưng nhiều tài liệu hơn không có nghĩa là doanh nghiệp quản lý tốt hơn. Đây là vấn đề mới."
 publishDate: 2025-09-24T00:00:00Z
@@ -116,7 +116,7 @@ Không có câu trả lời "đúng" phổ quát — nhưng những câu hỏi n
 
 → [Làm Knowledge Management Readiness Assessment](/readiness/knowledge-management)
 
-→ [Đọc tiếp: Từ DMS đến Knowledge Management — sự khác biệt quan trọng](/insights/knowledge-management/from-dms-to-knowledge-management)
+→ [Đọc tiếp: Từ DMS đến Knowledge Management — sự khác biệt quan trọng](/insights/knowledge-management/dms-va-knowledge-management)
 
 ---
 
