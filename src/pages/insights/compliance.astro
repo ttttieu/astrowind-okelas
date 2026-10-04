@@ -3,50 +3,102 @@ import Layout from '~/layouts/PageLayout.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
 import Content from '~/components/widgets/Content.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
+import { getArticlesByCategory } from '~/lib/insights';
 
 const metadata = {
-  title: 'Compliance — OKELAS Insights',
+  title: 'Compliance & eQMS — OKELAS Insights',
   description:
-    "ISO, GMP, and building an audit-ready operation progressively — without treating compliance software as a one-time, all-or-nothing project.",
+    'Từ QMS giấy đến eQMS vận hành được: document control, CAPA, audit nội bộ, nonconformance và tất cả những gì ISO 9001 thực sự yêu cầu.',
 };
+
+const { grouped } = await getArticlesByCategory('vi');
+let complianceArticles = grouped.compliance || [];
+
+// Pillar first, then C01–C14
+const articleOrder: Record<string, number> = {
+  'eqms-cho-doanh-nghiep-san-xuat': 0,      // PILLAR
+  'tu-qms-giay-sang-eqms': 1,               // C01
+  'iso-9001-co-can-phan-mem-qms': 2,        // C02
+  'eqms-sme-don-gian': 3,                   // C03
+  'document-control-iso-9001': 4,           // C04
+  'capa-iso-9001-hieu-qua': 5,              // C05
+  'nonconformance-iso-9001': 6,             // C06
+  'internal-audit-iso-9001-hieu-qua': 7,    // C07
+  'training-records-iso-9001': 8,           // C08
+  'supplier-qualification-iso-9001': 9,     // C09
+  'risk-management-iso-9001': 10,           // C10
+  'management-review-iso-9001': 11,         // C11
+  'okelas-eqms-to-chuc': 12,                // C12
+  'evidence-eqms-kiem-chung': 13,           // C13
+  'tu-eqms-den-knowledge-os': 14,           // C14
+};
+
+complianceArticles.sort((a, b) => {
+  const orderA = articleOrder[a.id] ?? 999;
+  const orderB = articleOrder[b.id] ?? 999;
+  return orderA - orderB;
+});
 ---
 
 <Layout metadata={metadata}>
-  <HeroText tagline="Insights" title="Compliance" />
+  <HeroText tagline="Insights" title="Compliance & eQMS" />
 
   <Content
     content={`
-      <p>For manufacturing businesses under ISO or GMP, compliance work often means weeks spent preparing for a single audit — chasing signatures, reconciling logs, proving something happened the way the record says it did. This category is about building audit-ready operations progressively, without treating compliance software as a one-time, all-or-nothing project.</p>
+      <p>eQMS không phải chỉ là số hóa hồ sơ giấy — đó là cách tổ chức hệ thống quản lý chất lượng để mỗi hành động có người chịu trách nhiệm, có bằng chứng và có thể truy vết. Phần này đi từ nền tảng ISO 9001 đến các thành phần vận hành thực tế: document control, CAPA, nonconformance, audit nội bộ, đào tạo và đánh giá nhà cung cấp.</p>
 
       <p class="mt-6">
-        <strong>Start here:</strong>
-        <a href="/why/tai-sao-khong-bat-dau-hoan-chinh" class="text-primary hover:underline ml-1">Progressive eQMS — why we don't start with a complete system →</a>
+        <strong>Bắt đầu từ đây — Bài viết Pillar:</strong>
+      </p>
+      <ul class="mt-2 space-y-1">
+        <li><a href="/insights/compliance/eqms-cho-doanh-nghiep-san-xuat" class="text-primary hover:underline">eQMS cho doanh nghiệp sản xuất — hướng dẫn thực hành từ ISO 9001 đến vận hành số →</a></li>
+      </ul>
+
+      <p class="mt-5">
+        <strong>Góc nhìn OKELAS:</strong>
+        <a href="/why/tai-sao-khong-bat-dau-hoan-chinh" class="text-primary hover:underline ml-1">Tại sao không bắt đầu hoàn chỉnh — Progressive eQMS là gì →</a>
       </p>
 
       <p class="mt-3">
-        <strong>Assess it:</strong>
-        <a href="/readiness/digitalization" class="text-primary hover:underline ml-1">Take the Digitalization Readiness Assessment →</a>
-        <span class="text-muted text-sm ml-2">(evidence and traceability topics here also connect closely to <a href="/readiness/knowledge" class="text-primary hover:underline">Knowledge Readiness →</a>)</span>
+        <strong>Đánh giá ngay:</strong>
+        <a href="/readiness/digitalization-level" class="text-primary hover:underline ml-1">Hoàn thành Đánh giá Mức độ Số hóa →</a>
       </p>
-
-      <div class="mt-8">
-        <p class="font-semibold mb-3">Topics we're covering here <span class="font-normal text-muted">(more added regularly):</span></p>
-        <ul class="space-y-2 text-muted">
-          <li>ISO — practical implications for how records and processes get managed</li>
-          <li>GMP — what changes operationally, not just on paper</li>
-          <li>Progressive eQMS — starting small without giving up the end goal</li>
-          <li>Audit readiness — what actually reduces prep time, beyond "digitize everything"</li>
-        </ul>
-      </div>
     `}
   />
+
+  <div class="relative not-prose scroll-mt-[72px]">
+    <div class="relative mx-auto px-4 sm:px-6 py-8 md:py-12" style="max-width: 900.5px;">
+      <div>
+        <h2 class="text-2xl font-bold mb-6 text-slate-900 dark:text-white">Tất cả bài viết về Compliance & eQMS</h2>
+        <ul class="space-y-4">
+          {complianceArticles.map((article) => (
+            <li key={article.id} class="flex items-start gap-4 group">
+              <a
+                href={`/insights/${article.data.category}/${article.id}`}
+                class="flex-1 hover:underline"
+              >
+                <div class="font-medium text-slate-900 dark:text-white group-hover:text-primary transition-colors">
+                  {article.data.title}
+                </div>
+              </a>
+              {article.data.funnelStage?.[0] && (
+                <span class="px-2 py-1 rounded text-xs font-medium bg-gray-50 text-gray-500 dark:bg-gray-800 dark:text-gray-400 whitespace-nowrap">
+                  {article.data.funnelStage[0]}
+                </span>
+              )}
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  </div>
 
   <CallToAction
     actions={[
       {
         variant: 'primary',
-        text: 'Digitalization Readiness Assessment',
-        href: '/readiness/digitalization',
+        text: 'Đánh giá Mức độ Số hóa',
+        href: '/readiness/digitalization-level',
         icon: 'tabler:clipboard-check',
       },
       {
@@ -57,9 +109,9 @@ const metadata = {
       },
     ]}
   >
-    <Fragment slot="title">How audit-ready is your operation?</Fragment>
+    <Fragment slot="title">Doanh nghiệp đang ở đâu trên hành trình số hóa chất lượng?</Fragment>
     <Fragment slot="subtitle">
-      The Digitalization Readiness Assessment identifies where evidence gaps and process gaps are — before an auditor does.
+      Đánh giá Mức độ Số hóa giúp xác định điểm xuất phát thực tế — từ hồ sơ giấy đến eQMS vận hành được — và những bước tiếp theo có ý nghĩa kinh tế nhất.
     </Fragment>
   </CallToAction>
 </Layout>

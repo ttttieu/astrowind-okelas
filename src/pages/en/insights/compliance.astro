@@ -1,0 +1,117 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Content from '~/components/widgets/Content.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import { getArticlesByCategory } from '~/lib/insights';
+
+const metadata = {
+  title: 'Compliance & eQMS — OKELAS Insights',
+  description:
+    'From paper QMS to operational eQMS: document control, CAPA, internal audit, nonconformance and everything ISO 9001 actually requires.',
+};
+
+const { grouped } = await getArticlesByCategory('en');
+let complianceArticles = grouped.compliance || [];
+
+// Pillar first, then C01–C14
+const articleOrder: Record<string, number> = {
+  'eqms-for-manufacturing-sme': 0,              // PILLAR
+  'paper-qms-to-eqms': 1,                       // C01
+  'iso-9001-eqms-software-requirement': 2,      // C02
+  'simple-eqms-small-manufacturers': 3,         // C03
+  'document-control-iso-9001-eqms': 4,          // C04
+  'effective-capa-iso-9001': 5,                 // C05
+  'nonconformance-iso-9001-management': 6,      // C06
+  'effective-internal-audit-iso-9001': 7,       // C07
+  'iso-9001-training-records-competence': 8,    // C08
+  'iso-9001-supplier-qualification': 9,         // C09
+  'iso-9001-risk-management-clause-6': 10,      // C10
+  'management-review-iso-9001-effective': 11,   // C11
+  'okelas-eqms-approach': 12,                   // C12
+  'eqms-evidence-traceability': 13,             // C13
+  'eqms-to-knowledge-os': 14,                   // C14
+};
+
+complianceArticles.sort((a, b) => {
+  const orderA = articleOrder[a.id] ?? 999;
+  const orderB = articleOrder[b.id] ?? 999;
+  return orderA - orderB;
+});
+---
+
+<Layout metadata={metadata}>
+  <HeroText tagline="Insights" title="Compliance & eQMS" />
+
+  <Content
+    content={`
+      <p>eQMS is not just digitizing paper records — it's organizing a quality management system so every action has an owner, evidence and a traceable history. This category goes from ISO 9001 foundations to the operational components that actually matter: document control, CAPA, nonconformance, internal audit, training and supplier management.</p>
+
+      <p class="mt-6">
+        <strong>Start here — Pillar article:</strong>
+      </p>
+      <ul class="mt-2 space-y-1">
+        <li><a href="/en/insights/compliance/eqms-for-manufacturing-sme" class="text-primary hover:underline">eQMS for Manufacturing SMEs: A Practical Guide from ISO 9001 to Digital Operations →</a></li>
+      </ul>
+
+      <p class="mt-5">
+        <strong>Why OKELAS perspective:</strong>
+        <a href="/en/why/progressive-eqms" class="text-primary hover:underline ml-1">Progressive eQMS — why we don't start with a complete system →</a>
+      </p>
+
+      <p class="mt-3">
+        <strong>Assess it:</strong>
+        <a href="/en/readiness/digitalization-level" class="text-primary hover:underline ml-1">Take the Digitalization Level Assessment →</a>
+      </p>
+    `}
+  />
+
+  <div class="relative not-prose scroll-mt-[72px]">
+    <div class="relative mx-auto px-4 sm:px-6 py-8 md:py-12" style="max-width: 900.5px;">
+      <div>
+        <h2 class="text-2xl font-bold mb-6 text-slate-900 dark:text-white">All Compliance & eQMS articles</h2>
+        <ul class="space-y-4">
+          {complianceArticles.map((article) => (
+            <li key={article.id} class="flex items-start gap-4 group">
+              <a
+                href={`/en/insights/${article.data.category}/${article.id}`}
+                class="flex-1 hover:underline"
+              >
+                <div class="font-medium text-slate-900 dark:text-white group-hover:text-primary transition-colors">
+                  {article.data.title}
+                </div>
+              </a>
+              {article.data.funnelStage?.[0] && (
+                <span class="px-2 py-1 rounded text-xs font-medium bg-gray-50 text-gray-500 dark:bg-gray-800 dark:text-gray-400 whitespace-nowrap">
+                  {article.data.funnelStage[0]}
+                </span>
+              )}
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Digitalization Level Assessment',
+        href: '/en/readiness/digitalization-level',
+        icon: 'tabler:clipboard-check',
+      },
+      {
+        variant: 'secondary',
+        text: 'Progressive eQMS Solution',
+        href: '/en/solutions/progressive-eqms',
+        icon: 'tabler:arrow-right',
+      },
+    ]}
+  >
+    <Fragment slot="title">Where is your organization on the quality digitalization journey?</Fragment>
+    <Fragment slot="subtitle">
+      The Digitalization Level Assessment identifies your starting point — from paper records to operational eQMS — and the next steps that make business sense.
+    </Fragment>
+  </CallToAction>
+</Layout>
