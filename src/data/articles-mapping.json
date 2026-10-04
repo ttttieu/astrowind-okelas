@@ -1000,6 +1000,253 @@
         "category": "workflow",
         "url": "/en/insights/workflow/intelligent-workflow-next-generation"
       }
+    },
+    {
+      "translationId": "article-5-1-workflow-still-slow",
+      "vi": {
+        "slug": "co-workflow-van-lam-viec-cham",
+        "category": "workflow",
+        "url": "/insights/workflow/co-workflow-van-lam-viec-cham"
+      },
+      "en": {
+        "slug": "workflow-digitized-still-slow",
+        "category": "workflow",
+        "url": "/en/insights/workflow/workflow-digitized-still-slow"
+      }
+    },
+    {
+      "translationId": "article-5-10-where-ai-fits-workflow",
+      "vi": {
+        "slug": "ai-tich-hop-vao-workflow",
+        "category": "workflow",
+        "url": "/insights/workflow/ai-tich-hop-vao-workflow"
+      },
+      "en": {
+        "slug": "where-ai-fits-in-workflow",
+        "category": "workflow",
+        "url": "/en/insights/workflow/where-ai-fits-in-workflow"
+      }
+    },
+    {
+      "translationId": "article-5-11-self-classifying-workflow",
+      "vi": {
+        "slug": "workflow-tu-phan-loai-dinh-tuyen",
+        "category": "workflow",
+        "url": "/insights/workflow/workflow-tu-phan-loai-dinh-tuyen"
+      },
+      "en": {
+        "slug": "intelligent-workflow-routing",
+        "category": "workflow",
+        "url": "/en/insights/workflow/intelligent-workflow-routing"
+      }
+    },
+    {
+      "translationId": "article-5-12-context-aware-workflow",
+      "vi": {
+        "slug": "workflow-biet-context-to-chuc",
+        "category": "workflow",
+        "url": "/insights/workflow/workflow-biet-context-to-chuc"
+      },
+      "en": {
+        "slug": "context-aware-workflow",
+        "category": "workflow",
+        "url": "/en/insights/workflow/context-aware-workflow"
+      }
+    },
+    {
+      "translationId": "article-5-13-agent-vs-workflow",
+      "vi": {
+        "slug": "ai-agent-va-workflow",
+        "category": "workflow",
+        "url": "/insights/workflow/ai-agent-va-workflow"
+      },
+      "en": {
+        "slug": "ai-agent-and-workflow",
+        "category": "workflow",
+        "url": "/en/insights/workflow/ai-agent-and-workflow"
+      }
+    },
+    {
+      "translationId": "article-5-14-decide-vs-execute",
+      "vi": {
+        "slug": "ai-agent-quyet-dinh-workflow-thuc-thi",
+        "category": "workflow",
+        "url": "/insights/workflow/ai-agent-quyet-dinh-workflow-thuc-thi"
+      },
+      "en": {
+        "slug": "ai-agent-decision-workflow-execution",
+        "category": "workflow",
+        "url": "/en/insights/workflow/ai-agent-decision-workflow-execution"
+      }
+    },
+    {
+      "translationId": "article-5-15-rules-vs-reasoning",
+      "vi": {
+        "slug": "workflow-rule-ai-reasoning",
+        "category": "workflow",
+        "url": "/insights/workflow/workflow-rule-ai-reasoning"
+      },
+      "en": {
+        "slug": "workflow-rules-vs-ai-reasoning",
+        "category": "workflow",
+        "url": "/en/insights/workflow/workflow-rules-vs-ai-reasoning"
+      }
+    },
+    {
+      "translationId": "article-5-16-agentic-workflow",
+      "vi": {
+        "slug": "tu-automation-den-agentic-workflow",
+        "category": "workflow",
+        "url": "/insights/workflow/tu-automation-den-agentic-workflow"
+      },
+      "en": {
+        "slug": "agentic-workflow",
+        "category": "workflow",
+        "url": "/en/insights/workflow/agentic-workflow"
+      }
+    },
+    {
+      "translationId": "article-5-17-ai-as-participant",
+      "vi": {
+        "slug": "ai-participant-trong-workflow",
+        "category": "workflow",
+        "url": "/insights/workflow/ai-participant-trong-workflow"
+      },
+      "en": {
+        "slug": "ai-as-workflow-participant",
+        "category": "workflow",
+        "url": "/en/insights/workflow/ai-as-workflow-participant"
+      }
+    },
+    {
+      "translationId": "article-5-18-ai-employee",
+      "vi": {
+        "slug": "ai-employee-ho-tro-tung-buoc-workflow",
+        "category": "workflow",
+        "url": "/insights/workflow/ai-employee-ho-tro-tung-buoc-workflow"
+      },
+      "en": {
+        "slug": "ai-employee-in-workflow",
+        "category": "workflow",
+        "url": "/en/insights/workflow/ai-employee-in-workflow"
+      }
+    },
+    {
+      "translationId": "article-5-2-digitized-vs-optimized",
+      "vi": {
+        "slug": "so-hoa-workflow-vs-toi-uu-workflow",
+        "category": "workflow",
+        "url": "/insights/workflow/so-hoa-workflow-vs-toi-uu-workflow"
+      },
+      "en": {
+        "slug": "digitized-vs-optimized-workflow",
+        "category": "workflow",
+        "url": "/en/insights/workflow/digitized-vs-optimized-workflow"
+      }
+    },
+    {
+      "translationId": "article-5-20-workflow-journey",
+      "vi": {
+        "slug": "hanh-trinh-workflow-doanh-nghiep",
+        "category": "workflow",
+        "url": "/insights/workflow/hanh-trinh-workflow-doanh-nghiep"
+      },
+      "en": {
+        "slug": "workflow-maturity-levels",
+        "category": "workflow",
+        "url": "/en/insights/workflow/workflow-maturity-levels"
+      }
+    },
+    {
+      "translationId": "article-5-3-approval-to-e2e",
+      "vi": {
+        "slug": "approval-workflow-den-end-to-end",
+        "category": "workflow",
+        "url": "/insights/workflow/approval-workflow-den-end-to-end"
+      },
+      "en": {
+        "slug": "approval-to-end-to-end-workflow",
+        "category": "workflow",
+        "url": "/en/insights/workflow/approval-to-end-to-end-workflow"
+      }
+    },
+    {
+      "translationId": "article-5-4-human-bottleneck",
+      "vi": {
+        "slug": "workflow-phu-thuoc-con-nguoi",
+        "category": "workflow",
+        "url": "/insights/workflow/workflow-phu-thuoc-con-nguoi"
+      },
+      "en": {
+        "slug": "workflow-human-bottleneck",
+        "category": "workflow",
+        "url": "/en/insights/workflow/workflow-human-bottleneck"
+      }
+    },
+    {
+      "translationId": "article-5-5-visibility-gap",
+      "vi": {
+        "slug": "theo-doi-cong-viec-email-excel",
+        "category": "workflow",
+        "url": "/insights/workflow/theo-doi-cong-viec-email-excel"
+      },
+      "en": {
+        "slug": "email-spreadsheet-work-tracking",
+        "category": "workflow",
+        "url": "/en/insights/workflow/email-spreadsheet-work-tracking"
+      }
+    },
+    {
+      "translationId": "article-5-6-automation-vs-intelligent",
+      "vi": {
+        "slug": "workflow-automation-vs-intelligent",
+        "category": "workflow",
+        "url": "/insights/workflow/workflow-automation-vs-intelligent"
+      },
+      "en": {
+        "slug": "workflow-automation-vs-intelligent-workflow",
+        "category": "workflow",
+        "url": "/en/insights/workflow/workflow-automation-vs-intelligent-workflow"
+      }
+    },
+    {
+      "translationId": "article-5-7-workflow-next-level",
+      "vi": {
+        "slug": "workflow-co-the-nhanh-hon",
+        "category": "workflow",
+        "url": "/insights/workflow/workflow-co-the-nhanh-hon"
+      },
+      "en": {
+        "slug": "workflow-improvement-next-level",
+        "category": "workflow",
+        "url": "/en/insights/workflow/workflow-improvement-next-level"
+      }
+    },
+    {
+      "translationId": "article-5-8-event-driven-workflow",
+      "vi": {
+        "slug": "event-driven-workflow-la-gi",
+        "category": "workflow",
+        "url": "/insights/workflow/event-driven-workflow-la-gi"
+      },
+      "en": {
+        "slug": "event-driven-workflow",
+        "category": "workflow",
+        "url": "/en/insights/workflow/event-driven-workflow"
+      }
+    },
+    {
+      "translationId": "article-5-9-request-approval-to-event-action",
+      "vi": {
+        "slug": "tu-request-approval-sang-event-action",
+        "category": "workflow",
+        "url": "/insights/workflow/tu-request-approval-sang-event-action"
+      },
+      "en": {
+        "slug": "request-approval-to-event-action-workflow",
+        "category": "workflow",
+        "url": "/en/insights/workflow/request-approval-to-event-action-workflow"
+      }
     }
   ]
 }
