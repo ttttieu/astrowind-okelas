@@ -18,7 +18,7 @@ secondaryKeywords:
   - "phân chia workflow và AI"
   - "AI reasoning trong quy trình"
   - "workflow design AI"
-assessmentHref: /readiness/workflow
+assessmentHref: /readiness/digitalization
 draft: false
 ---
 
@@ -38,7 +38,7 @@ draft: false
 
 Năm 1960, Herbert Simon — người sau này nhận giải Nobel Kinh tế năm 1978 — xuất bản "The New Science of Management Decision", trong đó ông đưa ra một phân biệt vẫn còn nguyên giá trị cho tới hôm nay: sự khác biệt giữa quyết định có thể lập trình và quyết định không thể lập trình.
 
-→ *Xem thêm: [AI Agent và Workflow: ai quyết định, ai thực thi?]*
+→ *Xem thêm: [AI Agent và Workflow: ai quyết định, ai thực thi?](/insights/workflow/ai-agent-quyet-dinh-workflow-thuc-thi)*
 
 ---
 
@@ -85,7 +85,7 @@ Bốn tiêu chí thực tế để xác định một quyết định cụ thể
 
 Một điểm quan trọng, ít được nhắc tới khi áp dụng khung của Simon vào bối cảnh AI hiện đại: **vị trí của một loại quyết định trên dải liên tục không cố định — nó có thể dịch chuyển theo thời gian.** Một loại tình huống ban đầu cần reasoning (vì mới, chưa có tiền lệ) có thể dần trở thành programmable khi đủ số lượng trường hợp đã được xử lý và các mẫu hình lặp lại được nhận diện rõ — đây chính xác là cơ chế đã được nhắc tới ở bài về intelligent routing: gợi ý dựa trên tiền lệ, theo thời gian, có thể trở thành cơ sở cho một rule mới.
 
-→ *Xem thêm: [Workflow có thể tự phân loại, định tuyến và đề xuất bước tiếp theo]*
+→ *Xem thêm: [Workflow có thể tự phân loại, định tuyến và đề xuất bước tiếp theo](/insights/workflow/workflow-tu-phan-loai-dinh-tuyen)*
 
 ---
 
@@ -116,8 +116,8 @@ Ranh giới giữa "nên là rule" và "nên cần reasoning" không phải mộ
 *Bài viết này là một phần của chuỗi chuyên đề về workflow, ứng dụng AI và quản trị vận hành cho doanh nghiệp sản xuất SME.*
 
 **Bài liên quan:**
-- [AI Agent và Workflow: ai quyết định, ai thực thi?]
-- [AI Agent không thay thế workflow — đây là mối quan hệ đúng đắn]
-- [AI có thể tham gia vào workflow ở đâu — và làm gì cụ thể?]
+- [AI Agent và Workflow: ai quyết định, ai thực thi?](/insights/workflow/ai-agent-quyet-dinh-workflow-thuc-thi)
+- [AI Agent không thay thế workflow — đây là mối quan hệ đúng đắn](/insights/workflow/ai-agent-va-workflow)
+- [AI có thể tham gia vào workflow ở đâu — và làm gì cụ thể?](/insights/workflow/ai-tich-hop-vao-workflow)
 
-**→ [Làm Workflow Readiness Assessment]**
+**→ [Làm Digitalization Readiness Assessment](/readiness/digitalization)**

@@ -17,7 +17,7 @@ secondaryKeywords:
   - "quy trình phê duyệt"
   - "workflow toàn trình"
   - "process workflow"
-assessmentHref: /readiness/workflow
+assessmentHref: /readiness/digitalization
 draft: false
 ---
 
@@ -37,7 +37,7 @@ Nếu hỏi một Operations Director: "công ty bạn có bao nhiêu workflow?"
 
 Đây không phải nghịch lý ngẫu nhiên. Nó phản ánh cách hầu hết doanh nghiệp xây dựng workflow: bắt đầu từ **approval** — thứ dễ chuẩn hóa nhất, dễ đo lường nhất, và thường là thứ đầu tiên được số hóa. Nhưng approval chỉ là một lát cắt rất mỏng trong toàn bộ những gì thực sự cần được quản lý.
 
-→ *Xem thêm: [Workflow được số hóa không có nghĩa là workflow đã được tối ưu]*
+→ *Xem thêm: [Workflow được số hóa không có nghĩa là workflow đã được tối ưu](/insights/workflow/so-hoa-workflow-vs-toi-uu-workflow)*
 
 ---
 
@@ -103,7 +103,7 @@ Không cần và không nên cố gắng biến mọi approval workflow thành e
 
 **Bước 5 — Mới tính đến công nghệ.** Chỉ sau khi ranh giới, điểm chuyển giao và trách nhiệm đã rõ, việc chọn công cụ để vận hành end-to-end workflow mới thực sự có ý nghĩa.
 
-→ *Xem thêm: [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành]*
+→ *Xem thêm: [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-thong-minh-the-he-moi)*
 
 ---
 
@@ -116,8 +116,8 @@ Approval workflow không sai — nó chỉ trả lời một câu hỏi rất h�
 *Bài viết này là một phần của chuỗi chuyên đề về workflow, ứng dụng AI và quản trị vận hành cho doanh nghiệp sản xuất SME.*
 
 **Bài liên quan:**
-- [Đã có workflow rồi — tại sao công việc vẫn chậm?]
-- [Workflow được số hóa không có nghĩa là workflow đã được tối ưu]
-- [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành]
+- [Đã có workflow rồi — tại sao công việc vẫn chậm?](/insights/workflow/co-workflow-van-lam-viec-cham)
+- [Workflow được số hóa không có nghĩa là workflow đã được tối ưu](/insights/workflow/so-hoa-workflow-vs-toi-uu-workflow)
+- [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-thong-minh-the-he-moi)
 
-**→ [Làm Workflow Readiness Assessment]**
+**→ [Làm Digitalization Readiness Assessment](/readiness/digitalization)**

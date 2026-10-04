@@ -17,7 +17,7 @@ secondaryKeywords:
   - "cấp độ workflow"
   - "đánh giá workflow"
   - "lộ trình workflow"
-assessmentHref: /readiness/workflow
+assessmentHref: /readiness/digitalization
 draft: false
 ---
 
@@ -87,4 +87,4 @@ Cố nhảy cóc — ví dụ triển khai AI agent tự chủ khi vẫn còn ph
 - [Khi mỗi bước trong workflow có thể có một AI employee hỗ trợ](/insights/workflow/ai-employee-ho-tro-tung-buoc-workflow)
 - [Một workflow có thể có AI participant: ý nghĩa thực tế](/insights/workflow/ai-participant-trong-workflow)
 
-**→ [Làm Workflow Readiness Assessment](/readiness/workflow)**
+**→ [Làm Digitalization Readiness Assessment](/readiness/digitalization)**

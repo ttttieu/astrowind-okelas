@@ -18,7 +18,7 @@ secondaryKeywords:
   - "smart routing workflow"
   - "workflow next step suggestion"
   - "context-aware routing"
-assessmentHref: /en/readiness/workflow
+assessmentHref: /en/readiness/digitalization
 draft: false
 ---
 
@@ -38,7 +38,7 @@ The previous article covered four forms of AI participation in workflow — clas
 
 A request, an email, or a complaint arriving at a company typically goes through a chain: someone reads it, determines what type it is, decides where it should go, and only then does it reach the person who actually handles it. Every step in that chain can go wrong — and every wrong step slows down the whole process.
 
-→ *Related: [AI in Workflow: Mapping Where It Fits and What It Should Do]*
+→ *Related: [AI in Workflow: Mapping Where It Fits and What It Should Do](/en/insights/workflow/where-ai-fits-in-workflow)*
 
 ---
 
@@ -97,7 +97,7 @@ The key point: this remains a **suggestion**, not an automatic decision. The per
 
 **Routing equipment maintenance requests.** An incident report from an operator might describe symptoms in free-form language (the machine sounds odd, running slower than usual). The system can match this description against similar past incidents to suggest a likely fault type, instead of a technician having to diagnose from scratch.
 
-→ *Related: [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates]*
+→ *Related: [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/intelligent-workflow-next-generation)*
 
 ---
 
@@ -110,8 +110,8 @@ Hard rules aren't wrong — they simply have a natural limit whenever the real w
 *This article is part of a series on workflow, AI adoption, and operational management for manufacturing SMEs.*
 
 **Related articles:**
-- [AI in Workflow: Mapping Where It Fits and What It Should Do]
-- [Workflow Automation vs. Intelligent Workflow: Why They're Not the Same]
-- [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates]
+- [AI in Workflow: Mapping Where It Fits and What It Should Do](/en/insights/workflow/where-ai-fits-in-workflow)
+- [Workflow Automation vs. Intelligent Workflow: Why They're Not the Same](/en/insights/workflow/workflow-automation-vs-intelligent-workflow)
+- [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/intelligent-workflow-next-generation)
 
-**→ [Complete the Workflow Readiness Assessment]**
+**→ [Complete the Digitalization Readiness Assessment](/en/readiness/digitalization)**

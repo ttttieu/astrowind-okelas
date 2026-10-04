@@ -17,7 +17,7 @@ secondaryKeywords:
   - "organizational context workflow"
   - "workflow thông minh context"
   - "workflow knowledge"
-assessmentHref: /readiness/workflow
+assessmentHref: /readiness/digitalization
 draft: false
 ---
 
@@ -39,7 +39,7 @@ Nhưng một COO có kinh nghiệm sẽ xử lý chúng khác nhau. Yêu cầu t
 
 Đây chính là khoảng cách giữa một workflow chạy đúng quy tắc, và một workflow thực sự hiểu tổ chức.
 
-→ *Xem thêm: [Workflow có thể tự phân loại, định tuyến và đề xuất bước tiếp theo]*
+→ *Xem thêm: [Workflow có thể tự phân loại, định tuyến và đề xuất bước tiếp theo](/insights/workflow/workflow-tu-phan-loai-dinh-tuyen)*
 
 ---
 
@@ -98,7 +98,7 @@ Ba thành phần này không phải điều một công cụ workflow đơn lẻ
 
 Điều này cũng giải thích vì sao nhiều nỗ lực "đưa AI vào workflow" chỉ dừng lại ở mức phân loại và định tuyến, mà chưa chạm tới mức context-aware thực sự: phần lớn tổ chức chưa có một nền tảng tri thức đủ tốt để workflow có thể tham chiếu tới. Vấn đề không nằm ở công nghệ workflow — nó nằm ở việc tổ chức đã sẵn sàng hệ thống hóa tri thức của mình tới đâu.
 
-→ *Xem thêm: [AI có thể tham gia vào workflow ở đâu — và làm gì cụ thể?]*
+→ *Xem thêm: [AI có thể tham gia vào workflow ở đâu — và làm gì cụ thể?](/insights/workflow/ai-tich-hop-vao-workflow)*
 
 ---
 
@@ -111,8 +111,8 @@ Context-aware workflow là tầng cao nhất trong hành trình đã được tr
 *Bài viết này là một phần của chuỗi chuyên đề về workflow, ứng dụng AI và quản trị vận hành cho doanh nghiệp sản xuất SME.*
 
 **Bài liên quan:**
-- [Workflow có thể tự phân loại, định tuyến và đề xuất bước tiếp theo]
-- [AI có thể tham gia vào workflow ở đâu — và làm gì cụ thể?]
-- [Event-Driven Workflow: khi workflow tự nhận biết sự kiện để bắt đầu công việc]
+- [Workflow có thể tự phân loại, định tuyến và đề xuất bước tiếp theo](/insights/workflow/workflow-tu-phan-loai-dinh-tuyen)
+- [AI có thể tham gia vào workflow ở đâu — và làm gì cụ thể?](/insights/workflow/ai-tich-hop-vao-workflow)
+- [Event-Driven Workflow: khi workflow tự nhận biết sự kiện để bắt đầu công việc](/insights/workflow/event-driven-workflow-la-gi)
 
-**→ [Làm Workflow Readiness Assessment]**
+**→ [Làm Digitalization Readiness Assessment](/readiness/digitalization)**

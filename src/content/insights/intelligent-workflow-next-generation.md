@@ -22,7 +22,7 @@ secondaryKeywords:
   - "event-driven workflow"
   - "agentic workflow"
   - "workflow optimization"
-assessmentHref: /en/readiness/workflow
+assessmentHref: /en/readiness/digitalization
 draft: false
 ---
 
@@ -177,7 +177,7 @@ If your company shows **5 or more of the 8 signs** below, the issue is likely no
 7. You've tried AI somewhere in the business, but it isn't attached to a specific workflow.
 8. You have no way to explain a three-month-old operational decision, with evidence, if someone asks.
 
-**→ Complete the [Workflow Readiness Assessment](/en/readiness/workflow) to understand which level your organization is actually at — and what the next economically sensible step looks like.**
+**→ Complete the [Digitalization Readiness Assessment](/en/readiness/digitalization) to understand which level your organization is actually at — and what the next economically sensible step looks like.**
 
 ---
 
@@ -198,4 +198,4 @@ This is also why OKELAS treats workflow not as a standalone software feature, bu
 - [Event-Driven Workflow: How Organizations React to Events Instead of Waiting](/en/insights/workflow/event-driven-workflow)
 - [Organizational Knowledge and Workflow: Why Most AI Fails Without It](/en/insights/workflow/context-aware-workflow)
 
-**→ [Complete the Workflow Readiness Assessment](/en/readiness/workflow)**
+**→ [Complete the Digitalization Readiness Assessment](/en/readiness/digitalization)**

@@ -18,7 +18,7 @@ secondaryKeywords:
   - "digital workflow problems"
   - "workflow inefficiency"
   - "workflow not working"
-assessmentHref: /readiness/workflow
+assessmentHref: /en/readiness/digitalization
 draft: false
 ---
 
@@ -84,7 +84,7 @@ That's also a good reason to assess your workflow systematically, rather than re
 *This article is part of a series on workflow, AI adoption, and operational management for manufacturing SMEs.*
 
 **Related articles:**
-- [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates]
-- [Digitized vs. Optimized Workflow: What's the Difference?]
+- [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/intelligent-workflow-next-generation)
+- [Digitized vs. Optimized Workflow: What's the Difference?](/en/insights/workflow/digitized-vs-optimized-workflow)
 
-**→ [Complete the Workflow Readiness Assessment]**
+**→ [Complete the Digitalization Readiness Assessment](/en/readiness/digitalization)**

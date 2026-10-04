@@ -17,7 +17,7 @@ secondaryKeywords:
   - "workflow automation vs agentic"
   - "AI agentic process"
   - "autonomous workflow"
-assessmentHref: /en/readiness/workflow
+assessmentHref: /en/readiness/digitalization
 draft: false
 ---
 
@@ -37,7 +37,7 @@ Throughout this series, we've moved from digitized workflow, through event-drive
 
 Much marketing content describes agentic workflow as a leap — from "rigid process" to "AI running everything on its own." That description is inaccurate and can be dangerously misleading, as covered in article 5.13. The more accurate picture is a spectrum of degrees, not a single jump.
 
-→ *Related: [Workflow Rules vs. AI Reasoning: A Practical Division of Responsibility]*
+→ *Related: [Workflow Rules vs. AI Reasoning: A Practical Division of Responsibility](/en/insights/workflow/workflow-rules-vs-ai-reasoning)*
 
 ---
 
@@ -83,7 +83,7 @@ The three conditions below inherit directly from earlier articles in this series
 
 These three conditions explain why agentic workflow isn't a sensible starting point for most manufacturing SMEs — it's a destination reached once the foundational layers (event-driven behavior, the rule/reasoning split, the decision/execution boundary) are solidly in place.
 
-→ *Related: [AI Agent and Workflow: Defining Who Decides and Who Executes]*
+→ *Related: [AI Agent and Workflow: Defining Who Decides and Who Executes](/en/insights/workflow/ai-agent-decision-workflow-execution)*
 
 ---
 
@@ -108,8 +108,8 @@ This is also how OKELAS approaches Copilot/Agent — not as a standalone chatbot
 *This article is part of a series on workflow, AI adoption, and operational management for manufacturing SMEs.*
 
 **Related articles:**
-- [Workflow Rules vs. AI Reasoning: A Practical Division of Responsibility]
-- [AI Agents Don't Replace Workflow: The Right Relationship Between Structure and Intelligence]
-- [AI Agent and Workflow: Defining Who Decides and Who Executes]
+- [Workflow Rules vs. AI Reasoning: A Practical Division of Responsibility](/en/insights/workflow/workflow-rules-vs-ai-reasoning)
+- [AI Agents Don't Replace Workflow: The Right Relationship Between Structure and Intelligence](/en/insights/workflow/ai-agent-and-workflow)
+- [AI Agent and Workflow: Defining Who Decides and Who Executes](/en/insights/workflow/ai-agent-decision-workflow-execution)
 
-**→ [Complete the Workflow Readiness Assessment]**
+**→ [Complete the Digitalization Readiness Assessment](/en/readiness/digitalization)**

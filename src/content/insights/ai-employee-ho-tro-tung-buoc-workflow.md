@@ -18,7 +18,7 @@ secondaryKeywords:
   - "AI tại mỗi bước quy trình"
   - "AI participant workflow"
   - "nhân viên AI"
-assessmentHref: /readiness/workflow
+assessmentHref: /readiness/digitalization
 draft: false
 ---
 
@@ -111,4 +111,4 @@ Câu hỏi hữu ích không phải "vị trí nào sẽ bị AI thay thế", m�
 - [Từ Workflow Automation đến Agentic Workflow](/insights/workflow/tu-automation-den-agentic-workflow)
 - [AI Agent và Workflow: ai quyết định, ai thực thi?](/insights/workflow/ai-agent-quyet-dinh-workflow-thuc-thi)
 
-**→ [Làm Workflow Readiness Assessment](/readiness/workflow)**
+**→ [Làm Digitalization Readiness Assessment](/readiness/digitalization)**

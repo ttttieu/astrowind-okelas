@@ -18,7 +18,7 @@ secondaryKeywords:
   - "agentic workflow"
   - "AI replaces workflow"
   - "AI workflow structure"
-assessmentHref: /en/readiness/workflow
+assessmentHref: /en/readiness/digitalization
 draft: false
 ---
 
@@ -38,7 +38,7 @@ As AI agents become a bigger talking point, a misconception is spreading in COO/
 
 But this is a misunderstanding that can cause real damage once implemented. An agent isn't an upgraded version of workflow, capable of entirely replacing the structure workflow provides. They're two different things, solving two different problems, and the right relationship between them is complementary, not substitutive.
 
-→ *Related: [Context-Aware Workflow: Beyond Rules to Organizational Understanding]*
+→ *Related: [Context-Aware Workflow: Beyond Rules to Organizational Understanding](/en/insights/workflow/context-aware-workflow)*
 
 ---
 
@@ -84,7 +84,7 @@ The sensible way to combine them: **workflow is the frame, and the agent is a co
 
 This is the real meaning of "agentic workflow," mentioned back in the opening article of this series: not a fully autonomous system replacing workflow, but a workflow with an agent embedded at the points that require reasoning, while keeping structure, authority, and verifiability intact everywhere else.
 
-→ *Related: [Intelligent Workflow Routing: Classify, Route and Suggest Without Manual Intervention]*
+→ *Related: [Intelligent Workflow Routing: Classify, Route and Suggest Without Manual Intervention](/en/insights/workflow/intelligent-workflow-routing)*
 
 ---
 
@@ -113,8 +113,8 @@ AI agents aren't a technology that replaces workflow — they're a component tha
 *This article is part of a series on workflow, AI adoption, and operational management for manufacturing SMEs.*
 
 **Related articles:**
-- [Context-Aware Workflow: Beyond Rules to Organizational Understanding]
-- [Intelligent Workflow Routing: Classify, Route and Suggest Without Manual Intervention]
-- [AI in Workflow: Mapping Where It Fits and What It Should Do]
+- [Context-Aware Workflow: Beyond Rules to Organizational Understanding](/en/insights/workflow/context-aware-workflow)
+- [Intelligent Workflow Routing: Classify, Route and Suggest Without Manual Intervention](/en/insights/workflow/intelligent-workflow-routing)
+- [AI in Workflow: Mapping Where It Fits and What It Should Do](/en/insights/workflow/where-ai-fits-in-workflow)
 
-**→ [Complete the Workflow Readiness Assessment]**
+**→ [Complete the Digitalization Readiness Assessment](/en/readiness/digitalization)**

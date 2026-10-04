@@ -18,7 +18,7 @@ secondaryKeywords:
   - "AI workflow integration"
   - "where AI fits workflow"
   - "AI automation workflow"
-assessmentHref: /readiness/workflow
+assessmentHref: /readiness/digitalization
 draft: false
 ---
 
@@ -37,7 +37,7 @@ Nhiều cuộc thảo luận về "AI trong workflow" ở cấp COO/CIO thườn
 
 Một workflow thực tế không phải một khối đồng nhất — nó gồm nhiều giai đoạn nhỏ: thu thập dữ liệu, hiểu dữ liệu đó có ý nghĩa gì, quyết định nên làm gì, và cuối cùng thực hiện hành động đó. AI có thể tham gia vào từng giai đoạn theo những cách rất khác nhau, với mức độ rủi ro khác nhau. Bài này dùng một khung phân tích có nguồn gốc học thuật để làm rõ điều đó.
 
-→ *Xem thêm: [Từ Request → Approval sang Event → Action: workflow thế hệ mới]*
+→ *Xem thêm: [Từ Request → Approval sang Event → Action: workflow thế hệ mới](/insights/workflow/tu-request-approval-sang-event-action)*
 
 ---
 
@@ -98,7 +98,7 @@ Kết hợp các phần trên thành một quy trình thực hành:
 
 **Bước 4 — Thiết lập cơ chế xem lại định kỳ.** Vì mức độ tự động hóa phù hợp có thể thay đổi theo thời gian (khi dữ liệu tích lũy nhiều hơn, độ tin cậy của mô hình được kiểm chứng), cần có điểm xem lại định kỳ để điều chỉnh mức tự động hóa ở từng giai đoạn, thay vì cố định một lần.
 
-→ *Xem thêm: [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành]*
+→ *Xem thêm: [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-thong-minh-the-he-moi)*
 
 ---
 
@@ -111,8 +111,8 @@ Kết hợp các phần trên thành một quy trình thực hành:
 *Bài viết này là một phần của chuỗi chuyên đề về workflow, ứng dụng AI và quản trị vận hành cho doanh nghiệp sản xuất SME.*
 
 **Bài liên quan:**
-- [Từ Request → Approval sang Event → Action: workflow thế hệ mới]
-- [Workflow Automation và Intelligent Workflow: Hai Khái Niệm Khác Nhau]
-- [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành]
+- [Từ Request → Approval sang Event → Action: workflow thế hệ mới](/insights/workflow/tu-request-approval-sang-event-action)
+- [Workflow Automation và Intelligent Workflow: Hai Khái Niệm Khác Nhau](/insights/workflow/workflow-automation-vs-intelligent)
+- [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-thong-minh-the-he-moi)
 
-**→ [Làm Workflow Readiness Assessment]**
+**→ [Làm Digitalization Readiness Assessment](/readiness/digitalization)**

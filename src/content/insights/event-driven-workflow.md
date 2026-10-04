@@ -18,7 +18,7 @@ secondaryKeywords:
   - "automated workflow initiation"
   - "event triggered process"
   - "workflow events"
-assessmentHref: /en/readiness/workflow
+assessmentHref: /en/readiness/digitalization
 draft: false
 ---
 
@@ -40,7 +40,7 @@ Most workflow today runs on this model: someone creates a request, and the syste
 
 Event-driven workflow takes a different approach: instead of waiting for a person, the system detects that an event has occurred — in the data or in real-world operations — and starts the right process on its own.
 
-→ *Related: [Your Workflow Is Already Fast. Here's What the Next Level Looks Like.]*
+→ *Related: [Your Workflow Is Already Fast. Here's What the Next Level Looks Like.](/en/insights/workflow/workflow-improvement-next-level)*
 
 ---
 
@@ -87,7 +87,7 @@ A few concrete examples for a manufacturing SME, illustrating how event-driven w
 
 What all four examples have in common: the system doesn't replace human judgment at the final decision point — it only takes over the part of **detecting and initiating early**, work that people typically do slower because they have to notice, remember, or piece it together themselves.
 
-→ *Related: [Workflow Depends Too Much on People: The Design Problem Behind Every Bottleneck]*
+→ *Related: [Workflow Depends Too Much on People: The Design Problem Behind Every Bottleneck](/en/insights/workflow/workflow-human-bottleneck)*
 
 ---
 
@@ -114,8 +114,8 @@ Event-driven workflow isn't a single technology feature — it's a shift in how 
 *This article is part of a series on workflow, AI adoption, and operational management for manufacturing SMEs.*
 
 **Related articles:**
-- [Your Workflow Is Already Fast. Here's What the Next Level Looks Like.]
-- [Workflow Depends Too Much on People: The Design Problem Behind Every Bottleneck]
-- [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates]
+- [Your Workflow Is Already Fast. Here's What the Next Level Looks Like.](/en/insights/workflow/workflow-improvement-next-level)
+- [Workflow Depends Too Much on People: The Design Problem Behind Every Bottleneck](/en/insights/workflow/workflow-human-bottleneck)
+- [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/intelligent-workflow-next-generation)
 
-**→ [Complete the Workflow Readiness Assessment]**
+**→ [Complete the Digitalization Readiness Assessment](/en/readiness/digitalization)**

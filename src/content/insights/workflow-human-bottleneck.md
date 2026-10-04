@@ -18,7 +18,7 @@ secondaryKeywords:
   - "approval bottleneck"
   - "workflow delays"
   - "reducing human dependency workflow"
-assessmentHref: /readiness/workflow
+assessmentHref: /en/readiness/digitalization
 draft: false
 ---
 
@@ -38,7 +38,7 @@ There's a familiar line in almost every operations meeting: "that's waiting on [
 
 The usual organizational response is to blame the individual: "they're too slow to approve things," or to send more reminders. That's the wrong lens. When a process repeatedly stalls waiting on a person, it isn't a work-ethic problem — it's a **systematic sign of a process design flaw**, repeating itself over and over.
 
-→ *Related: [From Approval Workflow to End-to-End Workflow]*
+→ *Related: [From Approval Workflow to End-to-End Workflow](/en/insights/workflow/approval-to-end-to-end-workflow)*
 
 ---
 
@@ -92,7 +92,7 @@ Reducing human dependency doesn't mean taking people out of the process — for 
 
 None of these four directions require complex technology to start. The first step is simply: list your most important processes, and for each one, ask "if the person handling this step were out for a week, what would happen?" If the honest answer is "everything would stop," that's the process to redesign first.
 
-→ *Related: [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates]*
+→ *Related: [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/intelligent-workflow-next-generation)*
 
 ---
 
@@ -105,8 +105,8 @@ A workflow that depends too much on people isn't a sign that people in the organ
 *This article is part of a series on workflow, AI adoption, and operational management for manufacturing SMEs.*
 
 **Related articles:**
-- [From Approval Workflow to End-to-End Workflow]
-- [You Have Workflow. Why Is Work Still Moving Slowly?]
-- [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates]
+- [From Approval Workflow to End-to-End Workflow](/en/insights/workflow/approval-to-end-to-end-workflow)
+- [You Have Workflow. Why Is Work Still Moving Slowly?](/en/insights/workflow/workflow-digitized-still-slow)
+- [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/intelligent-workflow-next-generation)
 
-**→ [Complete the Workflow Readiness Assessment]**
+**→ [Complete the Digitalization Readiness Assessment](/en/readiness/digitalization)**

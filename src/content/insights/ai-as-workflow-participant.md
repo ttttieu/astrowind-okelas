@@ -18,7 +18,7 @@ secondaryKeywords:
   - "AI workflow step"
   - "AI process participant"
   - "AI task in workflow"
-assessmentHref: /en/readiness/workflow
+assessmentHref: /en/readiness/digitalization
 draft: false
 ---
 
@@ -37,7 +37,7 @@ Most conversations about "AI in workflow" implicitly treat AI as a kind of tool:
 
 This is exactly how OKELAS describes Copilot/Agent within its own approach: a "digital employee" or participant in workflow, with a task, authority, knowledge, evidence, and the ability to explain itself — not a chatbot answering disconnected questions. This article makes that distinction concrete with a specific framework and a real example.
 
-→ *Related: [From Workflow Automation to Agentic Workflow: What Changes and What Doesn't]*
+→ *Related: [From Workflow Automation to Agentic Workflow: What Changes and What Doesn't](/en/insights/workflow/agentic-workflow)*
 
 ---
 
@@ -70,7 +70,7 @@ To operate as a genuine participant, rather than a tool called at random, an AI 
 
 These five requirements aren't "advanced" features — they're the minimum bar for an AI agent to be treated as a trustworthy part of a process, rather than a black box called on demand.
 
-→ *Related: [Context-Aware Workflow: Beyond Rules to Organizational Understanding]*
+→ *Related: [Context-Aware Workflow: Beyond Rules to Organizational Understanding](/en/insights/workflow/context-aware-workflow)*
 
 ---
 
@@ -117,8 +117,8 @@ This is also consistent with OKELAS's approach: Copilot/Agent within OKELAS is d
 *This article is part of a series on workflow, AI adoption, and operational management for manufacturing SMEs.*
 
 **Related articles:**
-- [From Workflow Automation to Agentic Workflow: What Changes and What Doesn't]
-- [AI Agents Don't Replace Workflow: The Right Relationship Between Structure and Intelligence]
-- [AI Agent and Workflow: Defining Who Decides and Who Executes]
+- [From Workflow Automation to Agentic Workflow: What Changes and What Doesn't](/en/insights/workflow/agentic-workflow)
+- [AI Agents Don't Replace Workflow: The Right Relationship Between Structure and Intelligence](/en/insights/workflow/ai-agent-and-workflow)
+- [AI Agent and Workflow: Defining Who Decides and Who Executes](/en/insights/workflow/ai-agent-decision-workflow-execution)
 
-**→ [Complete the Workflow Readiness Assessment]**
+**→ [Complete the Digitalization Readiness Assessment](/en/readiness/digitalization)**

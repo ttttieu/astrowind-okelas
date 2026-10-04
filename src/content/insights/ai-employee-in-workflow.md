@@ -18,7 +18,7 @@ secondaryKeywords:
   - "AI step support"
   - "AI workforce workflow"
   - "AI as team member"
-assessmentHref: /en/readiness/workflow
+assessmentHref: /en/readiness/digitalization
 draft: false
 ---
 
@@ -111,4 +111,4 @@ This is also the approach OKELAS takes toward Copilot/Agent: not a "replace peop
 - [From Workflow Automation to Agentic Workflow: What Changes and What Doesn't](/en/insights/workflow/agentic-workflow)
 - [AI Agent and Workflow: Defining Who Decides and Who Executes](/en/insights/workflow/ai-agent-decision-workflow-execution)
 
-**→ [Complete the Workflow Readiness Assessment](/en/readiness/workflow)**
+**→ [Complete the Digitalization Readiness Assessment](/en/readiness/digitalization)**

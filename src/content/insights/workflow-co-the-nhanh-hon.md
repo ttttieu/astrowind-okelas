@@ -17,7 +17,7 @@ secondaryKeywords:
   - "workflow nhanh hơn"
   - "nâng cấp workflow"
   - "workflow next level"
-assessmentHref: /readiness/workflow
+assessmentHref: /readiness/digitalization
 draft: false
 ---
 
@@ -27,7 +27,7 @@ Nếu bạn đang ở nhóm này, câu hỏi phù hợp không còn là "làm sa
 
 Đây là câu hỏi ít doanh nghiệp tự đặt ra, vì "workflow đang chạy ổn" thường được coi là một trạng thái nghỉ ngơi, không phải một điểm để tiếp tục cải thiện. Nhưng đúng lúc mọi thứ đang ổn định lại là thời điểm tốt nhất để nhìn xa hơn — trước khi một đối thủ hoặc một thay đổi thị trường buộc phải làm việc đó trong áp lực.
 
-→ *Xem thêm: [Workflow Automation và Intelligent Workflow: Hai Khái Niệm Khác Nhau]*
+→ *Xem thêm: [Workflow Automation và Intelligent Workflow: Hai Khái Niệm Khác Nhau](/insights/workflow/workflow-automation-vs-intelligent)*
 
 ---
 
@@ -61,7 +61,7 @@ Tầng tiếp theo không đến từ việc thêm nhiều bước phê duyệt 
 
 Cả hai hướng này đều không đòi hỏi từ bỏ sự kiểm soát của con người ở những quyết định quan trọng — chúng chỉ giảm bớt phần việc chuẩn bị và phát hiện, vốn tốn thời gian nhưng ít giá trị phán đoán thực sự.
 
-→ *Xem thêm: [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành]*
+→ *Xem thêm: [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-thong-minh-the-he-moi)*
 
 ---
 
@@ -80,8 +80,8 @@ Nếu câu trả lời cho câu 3 là có, đó là dấu hiệu đáng để t�
 *Bài viết này là một phần của chuỗi chuyên đề về workflow, ứng dụng AI và quản trị vận hành cho doanh nghiệp sản xuất SME.*
 
 **Bài liên quan:**
-- [Workflow Automation và Intelligent Workflow: Hai Khái Niệm Khác Nhau]
-- [Đã có workflow rồi — tại sao công việc vẫn chậm?]
-- [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành]
+- [Workflow Automation và Intelligent Workflow: Hai Khái Niệm Khác Nhau](/insights/workflow/workflow-automation-vs-intelligent)
+- [Đã có workflow rồi — tại sao công việc vẫn chậm?](/insights/workflow/co-workflow-van-lam-viec-cham)
+- [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-thong-minh-the-he-moi)
 
-**→ [Làm Workflow Readiness Assessment]**
+**→ [Làm Digitalization Readiness Assessment](/readiness/digitalization)**

@@ -18,7 +18,7 @@ secondaryKeywords:
   - "agentic workflow"
   - "AI trong quy trình"
   - "AI vs workflow"
-assessmentHref: /readiness/workflow
+assessmentHref: /readiness/digitalization
 draft: false
 ---
 
@@ -38,7 +38,7 @@ Khi AI agent trở thành chủ đề được nhắc đến nhiều, một các
 
 Nhưng đây là một hiểu lầm có thể gây hậu quả thực sự khi triển khai. Agent không phải một phiên bản nâng cấp của workflow, đến mức có thể thay thế hoàn toàn cấu trúc mà workflow cung cấp. Chúng là hai thứ khác nhau, giải quyết hai vấn đề khác nhau, và quan hệ đúng đắn giữa chúng là bổ trợ, không phải thay thế.
 
-→ *Xem thêm: [Khi workflow biết context của tổ chức]*
+→ *Xem thêm: [Khi workflow biết context của tổ chức](/insights/workflow/workflow-biet-context-to-chuc)*
 
 ---
 
@@ -84,7 +84,7 @@ Cách kết hợp hợp lý: **workflow là khung, agent là một thành phần
 
 Đây chính là ý nghĩa thực sự của "agentic workflow" đã được nhắc tới trong bài mở đầu series: không phải một hệ thống hoàn toàn tự trị thay thế workflow, mà là workflow có tích hợp agent ở những điểm cần lập luận, trong khi vẫn giữ nguyên cấu trúc, quyền hạn và khả năng kiểm chứng ở những phần còn lại.
 
-→ *Xem thêm: [Workflow có thể tự phân loại, định tuyến và đề xuất bước tiếp theo]*
+→ *Xem thêm: [Workflow có thể tự phân loại, định tuyến và đề xuất bước tiếp theo](/insights/workflow/workflow-tu-phan-loai-dinh-tuyen)*
 
 ---
 
@@ -113,8 +113,8 @@ AI agent không phải một công nghệ thay thế workflow — nó là một 
 *Bài viết này là một phần của chuỗi chuyên đề về workflow, ứng dụng AI và quản trị vận hành cho doanh nghiệp sản xuất SME.*
 
 **Bài liên quan:**
-- [Khi workflow biết context của tổ chức]
-- [Workflow có thể tự phân loại, định tuyến và đề xuất bước tiếp theo]
-- [AI có thể tham gia vào workflow ở đâu — và làm gì cụ thể?]
+- [Khi workflow biết context của tổ chức](/insights/workflow/workflow-biet-context-to-chuc)
+- [Workflow có thể tự phân loại, định tuyến và đề xuất bước tiếp theo](/insights/workflow/workflow-tu-phan-loai-dinh-tuyen)
+- [AI có thể tham gia vào workflow ở đâu — và làm gì cụ thể?](/insights/workflow/ai-tich-hop-vao-workflow)
 
-**→ [Làm Workflow Readiness Assessment]**
+**→ [Làm Digitalization Readiness Assessment](/readiness/digitalization)**

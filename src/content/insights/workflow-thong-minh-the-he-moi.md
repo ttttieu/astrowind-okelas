@@ -22,7 +22,7 @@ secondaryKeywords:
   - "AI workflow"
   - "tối ưu workflow"
   - "workflow doanh nghiệp sản xuất"
-assessmentHref: /readiness/workflow
+assessmentHref: /readiness/digitalization
 draft: false
 ---
 
@@ -177,7 +177,7 @@ Nếu doanh nghiệp của bạn có từ **5/8 dấu hiệu** dưới đây, v�
 7. Doanh nghiệp đã thử dùng AI ở đâu đó, nhưng không gắn với một workflow cụ thể.
 8. Không có cách nào để giải thích lại một quyết định vận hành đã xảy ra ba tháng trước, kèm evidence.
 
-**→ Làm [Workflow Readiness Assessment](/readiness/workflow) để biết workflow của doanh nghiệp đang ở level nào và đâu là bước tiếp theo có ý nghĩa kinh tế.**
+**→ Làm [Digitalization Readiness Assessment](/readiness/digitalization) để biết workflow của doanh nghiệp đang ở level nào và đâu là bước tiếp theo có ý nghĩa kinh tế.**
 
 ---
 
@@ -198,4 +198,4 @@ Vấn đề thực sự không phải là "doanh nghiệp có workflow hay khôn
 - [Event-driven workflow: cách tổ chức phản ứng với sự kiện thay vì chờ đợi](/insights/workflow/event-driven-workflow-la-gi)
 - [Organizational knowledge và workflow: tại sao phần lớn AI thất bại vì thiếu tri thức tổ chức](/insights/workflow/workflow-biet-context-to-chuc)
 
-**→ [Làm Workflow Readiness Assessment](/readiness/workflow)**
+**→ [Làm Digitalization Readiness Assessment](/readiness/digitalization)**

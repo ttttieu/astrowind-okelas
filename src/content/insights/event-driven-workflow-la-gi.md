@@ -18,7 +18,7 @@ secondaryKeywords:
   - "trigger workflow"
   - "sự kiện kích hoạt quy trình"
   - "workflow event"
-assessmentHref: /readiness/workflow
+assessmentHref: /readiness/digitalization
 draft: false
 ---
 
@@ -40,7 +40,7 @@ Phần lớn workflow hiện nay hoạt động theo mô hình: có người t�
 
 Event-driven workflow là một cách tiếp cận khác: thay vì chờ người, hệ thống tự nhận biết một sự kiện đã xảy ra trong dữ liệu hoặc trong thực tế vận hành, và tự khởi động quy trình phù hợp.
 
-→ *Xem thêm: [Workflow đã nhanh — còn có thể nhanh hơn không?]*
+→ *Xem thêm: [Workflow đã nhanh — còn có thể nhanh hơn không?](/insights/workflow/workflow-co-the-nhanh-hon)*
 
 ---
 
@@ -87,7 +87,7 @@ Một vài ví dụ cụ thể cho manufacturing SME, minh họa cho cách event
 
 Điểm chung của cả bốn ví dụ: hệ thống không thay thế phán đoán của con người ở bước quyết định cuối cùng — nó chỉ đảm nhận phần **phát hiện và khởi động sớm**, phần việc mà con người thường làm chậm hơn vì phải tự để ý, tự nhớ, hoặc tự tổng hợp.
 
-→ *Xem thêm: [Workflow vẫn phụ thuộc quá nhiều vào con người]*
+→ *Xem thêm: [Workflow vẫn phụ thuộc quá nhiều vào con người](/insights/workflow/workflow-phu-thuoc-con-nguoi)*
 
 ---
 
@@ -114,8 +114,8 @@ Event-driven workflow không phải một tính năng công nghệ đơn lẻ �
 *Bài viết này là một phần của chuỗi chuyên đề về workflow, ứng dụng AI và quản trị vận hành cho doanh nghiệp sản xuất SME.*
 
 **Bài liên quan:**
-- [Workflow đã nhanh — còn có thể nhanh hơn không?]
-- [Workflow vẫn phụ thuộc quá nhiều vào con người]
-- [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành]
+- [Workflow đã nhanh — còn có thể nhanh hơn không?](/insights/workflow/workflow-co-the-nhanh-hon)
+- [Workflow vẫn phụ thuộc quá nhiều vào con người](/insights/workflow/workflow-phu-thuoc-con-nguoi)
+- [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-thong-minh-the-he-moi)
 
-**→ [Làm Workflow Readiness Assessment]**
+**→ [Làm Digitalization Readiness Assessment](/readiness/digitalization)**

@@ -18,7 +18,7 @@ secondaryKeywords:
   - "workflow optimization"
   - "beyond workflow software"
   - "process improvement"
-assessmentHref: /readiness/workflow
+assessmentHref: /en/readiness/digitalization
 draft: false
 ---
 
@@ -39,7 +39,7 @@ That's real progress. It's also the source of a common misunderstanding: many op
 
 This article separates two concepts that get conflated constantly — **digitized workflow** and **optimized workflow** — using both an industry-standard definition and long-standing evidence for why "computerizing" an old process rarely produces gains proportional to the investment.
 
-→ *Related: [You Have Workflow. Why Is Work Still Moving Slowly?]*
+→ *Related: [You Have Workflow. Why Is Work Still Moving Slowly?](/en/insights/workflow/workflow-digitized-still-slow)*
 
 ---
 
@@ -89,7 +89,7 @@ If digitization only changes the medium, then optimization (digitalization, in G
 
 None of these three layers come from buying a better workflow tool. They come from **re-examining the business process itself** before deciding what technology will run it.
 
-→ *Related: [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates]*
+→ *Related: [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/intelligent-workflow-next-generation)*
 
 ---
 
@@ -117,8 +117,8 @@ This is also why evaluating a workflow shouldn't start with "which software shou
 *This article is part of a series on workflow, AI adoption, and operational management for manufacturing SMEs.*
 
 **Related articles:**
-- [You Have Workflow. Why Is Work Still Moving Slowly?]
-- [From Approval Workflow to End-to-End Workflow]
-- [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates]
+- [You Have Workflow. Why Is Work Still Moving Slowly?](/en/insights/workflow/workflow-digitized-still-slow)
+- [From Approval Workflow to End-to-End Workflow](/en/insights/workflow/approval-to-end-to-end-workflow)
+- [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/intelligent-workflow-next-generation)
 
-**→ [Complete the Workflow Readiness Assessment]**
+**→ [Complete the Digitalization Readiness Assessment](/en/readiness/digitalization)**

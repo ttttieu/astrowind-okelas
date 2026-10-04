@@ -17,7 +17,7 @@ secondaryKeywords:
   - "who decides AI workflow"
   - "AI decision making boundary"
   - "workflow AI authority"
-assessmentHref: /en/readiness/workflow
+assessmentHref: /en/readiness/digitalization
 draft: false
 ---
 
@@ -39,7 +39,7 @@ The obvious answer is "the person, since the agent only proposed." But in practi
 
 This isn't a theoretical problem. It's a concrete governance issue, and financial auditing has had a principle for handling exactly this kind of problem for decades.
 
-→ *Related: [AI Agents Don't Replace Workflow: The Right Relationship Between Structure and Intelligence]*
+→ *Related: [AI Agents Don't Replace Workflow: The Right Relationship Between Structure and Intelligence](/en/insights/workflow/ai-agent-and-workflow)*
 
 ---
 
@@ -84,7 +84,7 @@ This carries a few concrete design consequences:
 
 This connects directly to the previous article in the series: an agent is good at the part that needs flexible reasoning, but good reasoning capability doesn't mean the same entity should also be handed decision and execution authority.
 
-→ *Related: [Context-Aware Workflow: Beyond Rules to Organizational Understanding]*
+→ *Related: [Context-Aware Workflow: Beyond Rules to Organizational Understanding](/en/insights/workflow/context-aware-workflow)*
 
 ---
 
@@ -112,8 +112,8 @@ These four roles don't necessarily need four completely separate people or syste
 *This article is part of a series on workflow, AI adoption, and operational management for manufacturing SMEs.*
 
 **Related articles:**
-- [AI Agents Don't Replace Workflow: The Right Relationship Between Structure and Intelligence]
-- [Context-Aware Workflow: Beyond Rules to Organizational Understanding]
-- [AI in Workflow: Mapping Where It Fits and What It Should Do]
+- [AI Agents Don't Replace Workflow: The Right Relationship Between Structure and Intelligence](/en/insights/workflow/ai-agent-and-workflow)
+- [Context-Aware Workflow: Beyond Rules to Organizational Understanding](/en/insights/workflow/context-aware-workflow)
+- [AI in Workflow: Mapping Where It Fits and What It Should Do](/en/insights/workflow/where-ai-fits-in-workflow)
 
-**→ [Complete the Workflow Readiness Assessment]**
+**→ [Complete the Digitalization Readiness Assessment](/en/readiness/digitalization)**

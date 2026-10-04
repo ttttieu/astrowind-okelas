@@ -18,7 +18,7 @@ secondaryKeywords:
   - "chờ phê duyệt"
   - "workflow bị chặn"
   - "human bottleneck"
-assessmentHref: /readiness/workflow
+assessmentHref: /readiness/digitalization
 draft: false
 ---
 
@@ -38,7 +38,7 @@ Có một câu quen thuộc trong hầu hết các cuộc họp vận hành: "c�
 
 Phản ứng thường thấy của tổ chức là đổ lỗi cho cá nhân: "anh A duyệt chậm quá", hoặc tìm cách nhắc nhở nhiều hơn. Nhưng đây là cách nhìn sai vấn đề. Khi một quy trình liên tục bị chặn vì chờ người, đó không phải là vấn đề về thái độ làm việc — đó là **dấu hiệu của một lỗi thiết kế quy trình**, lặp đi lặp lại có hệ thống.
 
-→ *Xem thêm: [Từ Approval Workflow đến End-to-End Workflow]*
+→ *Xem thêm: [Từ Approval Workflow đến End-to-End Workflow](/insights/workflow/approval-workflow-den-end-to-end)*
 
 ---
 
@@ -92,7 +92,7 @@ Giảm phụ thuộc con người không có nghĩa là loại bỏ con người
 
 Bốn hướng này không đòi hỏi công nghệ phức tạp để bắt đầu. Bước đầu tiên chỉ là: liệt kê những quy trình quan trọng nhất, và với mỗi quy trình, hỏi "nếu người phụ trách bước này nghỉ một tuần, chuyện gì sẽ xảy ra?" Nếu câu trả lời là "mọi thứ sẽ đứng lại", đó chính là điểm cần thiết kế lại trước tiên.
 
-→ *Xem thêm: [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành]*
+→ *Xem thêm: [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-thong-minh-the-he-moi)*
 
 ---
 
@@ -105,8 +105,8 @@ Một workflow phụ thuộc quá nhiều vào con người không phải vì co
 *Bài viết này là một phần của chuỗi chuyên đề về workflow, ứng dụng AI và quản trị vận hành cho doanh nghiệp sản xuất SME.*
 
 **Bài liên quan:**
-- [Từ Approval Workflow đến End-to-End Workflow]
-- [Đã có workflow rồi — tại sao công việc vẫn chậm?]
-- [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành]
+- [Từ Approval Workflow đến End-to-End Workflow](/insights/workflow/approval-workflow-den-end-to-end)
+- [Đã có workflow rồi — tại sao công việc vẫn chậm?](/insights/workflow/co-workflow-van-lam-viec-cham)
+- [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-thong-minh-the-he-moi)
 
-**→ [Làm Workflow Readiness Assessment]**
+**→ [Làm Digitalization Readiness Assessment](/readiness/digitalization)**

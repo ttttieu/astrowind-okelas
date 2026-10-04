@@ -17,7 +17,7 @@ secondaryKeywords:
   - "stages of workflow"
   - "workflow assessment"
   - "workflow journey"
-assessmentHref: /en/readiness/workflow
+assessmentHref: /en/readiness/digitalization
 draft: false
 ---
 
@@ -87,4 +87,4 @@ Trying to skip levels — deploying an autonomous AI agent, say, while still hea
 - [An AI Employee at Every Workflow Step: What This Means for Operations](/en/insights/workflow/ai-employee-in-workflow)
 - [AI as a Workflow Participant: What It Looks Like in Practice](/en/insights/workflow/ai-as-workflow-participant)
 
-**→ [Complete the Workflow Readiness Assessment](/en/readiness/workflow)**
+**→ [Complete the Digitalization Readiness Assessment](/en/readiness/digitalization)**

@@ -18,7 +18,7 @@ secondaryKeywords:
   - "approval workflow thay thế"
   - "workflow mô hình mới"
   - "next gen workflow"
-assessmentHref: /readiness/workflow
+assessmentHref: /readiness/digitalization
 draft: false
 ---
 
@@ -37,7 +37,7 @@ draft: false
 
 Đây chính là sự khác biệt giữa hai mô hình workflow. Mô hình cũ: **Request → Approval → Action** — luôn có một khoảng chờ duyệt ở giữa. Mô hình mới: **Event → Action**, với approval chỉ xuất hiện khi thực sự cần, không phải như một bước mặc định.
 
-→ *Xem thêm: [Event-Driven Workflow: khi workflow tự nhận biết sự kiện để bắt đầu công việc]*
+→ *Xem thêm: [Event-Driven Workflow: khi workflow tự nhận biết sự kiện để bắt đầu công việc](/insights/workflow/event-driven-workflow-la-gi)*
 
 ---
 
@@ -97,7 +97,7 @@ Chuyển từ Request/Approval sang Event/Action không phải việc bật mộ
 
 Một lộ trình thận trọng là bắt đầu với những loại quyết định có giá trị thấp, tần suất cao, và đã có tiền lệ rõ ràng nhất — nơi rủi ro của việc chuyển sang Event → Action là thấp nhất, còn lợi ích về tốc độ lại rõ ràng nhất.
 
-→ *Xem thêm: [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành]*
+→ *Xem thêm: [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-thong-minh-the-he-moi)*
 
 ---
 
@@ -110,8 +110,8 @@ Sự khác biệt giữa Request/Approval và Event/Action không nằm ở vi�
 *Bài viết này là một phần của chuỗi chuyên đề về workflow, ứng dụng AI và quản trị vận hành cho doanh nghiệp sản xuất SME.*
 
 **Bài liên quan:**
-- [Event-Driven Workflow: khi workflow tự nhận biết sự kiện để bắt đầu công việc]
-- [Từ Approval Workflow đến End-to-End Workflow]
-- [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành]
+- [Event-Driven Workflow: khi workflow tự nhận biết sự kiện để bắt đầu công việc](/insights/workflow/event-driven-workflow-la-gi)
+- [Từ Approval Workflow đến End-to-End Workflow](/insights/workflow/approval-workflow-den-end-to-end)
+- [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-thong-minh-the-he-moi)
 
-**→ [Làm Workflow Readiness Assessment]**
+**→ [Làm Digitalization Readiness Assessment](/readiness/digitalization)**

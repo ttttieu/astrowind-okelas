@@ -18,7 +18,7 @@ secondaryKeywords:
   - "AI reasoning in workflow"
   - "workflow AI design"
   - "rules vs intelligence"
-assessmentHref: /en/readiness/workflow
+assessmentHref: /en/readiness/digitalization
 draft: false
 ---
 
@@ -38,7 +38,7 @@ Here's a practical question many IT/operations teams run into when they start de
 
 In 1960, Herbert Simon — who would later win the Nobel Prize in Economics in 1978 — published "The New Science of Management Decision," in which he drew a distinction that still holds up today: the difference between programmed and nonprogrammed decisions.
 
-→ *Related: [AI Agent and Workflow: Defining Who Decides and Who Executes]*
+→ *Related: [AI Agent and Workflow: Defining Who Decides and Who Executes](/en/insights/workflow/ai-agent-decision-workflow-execution)*
 
 ---
 
@@ -85,7 +85,7 @@ Four practical criteria for placing a specific decision on that continuum:
 
 One important point, rarely mentioned when applying Simon's framework to modern AI: **where a type of decision sits on the continuum isn't fixed — it can shift over time.** A situation that initially required reasoning (because it was new, with no precedent) can gradually become programmable once enough cases have been processed and recurring patterns become clear — exactly the mechanism covered in the article on intelligent routing: precedent-based suggestions, over time, can become the basis for a new rule.
 
-→ *Related: [Intelligent Workflow Routing: Classify, Route and Suggest Without Manual Intervention]*
+→ *Related: [Intelligent Workflow Routing: Classify, Route and Suggest Without Manual Intervention](/en/insights/workflow/intelligent-workflow-routing)*
 
 ---
 
@@ -116,8 +116,8 @@ The boundary between "should be a rule" and "needs reasoning" isn't a new techno
 *This article is part of a series on workflow, AI adoption, and operational management for manufacturing SMEs.*
 
 **Related articles:**
-- [AI Agent and Workflow: Defining Who Decides and Who Executes]
-- [AI Agents Don't Replace Workflow: The Right Relationship Between Structure and Intelligence]
-- [AI in Workflow: Mapping Where It Fits and What It Should Do]
+- [AI Agent and Workflow: Defining Who Decides and Who Executes](/en/insights/workflow/ai-agent-decision-workflow-execution)
+- [AI Agents Don't Replace Workflow: The Right Relationship Between Structure and Intelligence](/en/insights/workflow/ai-agent-and-workflow)
+- [AI in Workflow: Mapping Where It Fits and What It Should Do](/en/insights/workflow/where-ai-fits-in-workflow)
 
-**→ [Complete the Workflow Readiness Assessment]**
+**→ [Complete the Digitalization Readiness Assessment](/en/readiness/digitalization)**

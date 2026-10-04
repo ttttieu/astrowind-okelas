@@ -18,7 +18,7 @@ secondaryKeywords:
   - "workflow tự động"
   - "workflow thông minh"
   - "workflow exception handling"
-assessmentHref: /readiness/workflow
+assessmentHref: /readiness/digitalization
 draft: false
 ---
 
@@ -40,7 +40,7 @@ Nhưng nhiều Operations Director sau đó gặp một hiện tượng khó ch�
 
 Đây không phải vì automation "chưa đủ tốt". Đó là vì **automation và intelligent workflow là hai khái niệm khác nhau**, giải quyết hai loại vấn đề khác nhau.
 
-→ *Xem thêm: [Tại sao nhân viên vẫn dùng email và Excel để theo dõi công việc?]*
+→ *Xem thêm: [Tại sao nhân viên vẫn dùng email và Excel để theo dõi công việc?](/insights/workflow/theo-doi-cong-viec-email-excel)*
 
 ---
 
@@ -102,7 +102,7 @@ Không phải quy trình nào cũng cần intelligent workflow. Một cách ki�
 
 Nếu không rơi vào các trường hợp trên, việc "thêm AI vào workflow" thường chỉ làm tăng chi phí và độ phức tạp mà không tạo ra giá trị tương xứng — một quan sát nhất quán với nguyên tắc đã đề cập ở bài phân tích trước trong series này: thiết kế lại quy trình quan trọng hơn việc thêm công nghệ.
 
-→ *Xem thêm: [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành]*
+→ *Xem thêm: [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-thong-minh-the-he-moi)*
 
 ---
 
@@ -115,8 +115,8 @@ Automation và intelligent workflow không cạnh tranh nhau — chúng giải q
 *Bài viết này là một phần của chuỗi chuyên đề về workflow, ứng dụng AI và quản trị vận hành cho doanh nghiệp sản xuất SME.*
 
 **Bài liên quan:**
-- [Tại sao nhân viên vẫn dùng email và Excel để theo dõi công việc?]
-- [Workflow vẫn phụ thuộc quá nhiều vào con người]
-- [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành]
+- [Tại sao nhân viên vẫn dùng email và Excel để theo dõi công việc?](/insights/workflow/theo-doi-cong-viec-email-excel)
+- [Workflow vẫn phụ thuộc quá nhiều vào con người](/insights/workflow/workflow-phu-thuoc-con-nguoi)
+- [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-thong-minh-the-he-moi)
 
-**→ [Làm Workflow Readiness Assessment]**
+**→ [Làm Digitalization Readiness Assessment](/readiness/digitalization)**

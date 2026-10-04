@@ -18,7 +18,7 @@ secondaryKeywords:
   - "new workflow model"
   - "event-driven operations"
   - "workflow paradigm shift"
-assessmentHref: /en/readiness/workflow
+assessmentHref: /en/readiness/digitalization
 draft: false
 ---
 
@@ -37,7 +37,7 @@ The previous article covered event-driven workflow — a system's ability to det
 
 That's the core difference between the two models. The old model: **Request → Approval → Action** — always with a waiting point for approval in the middle. The new model: **Event → Action**, with approval appearing only when genuinely needed, not as a default step.
 
-→ *Related: [Event-Driven Workflow: How Systems Can Detect Events and Start Work Automatically]*
+→ *Related: [Event-Driven Workflow: How Systems Can Detect Events and Start Work Automatically](/en/insights/workflow/event-driven-workflow)*
 
 ---
 
@@ -97,7 +97,7 @@ Moving from Request/Approval to Event/Action isn't a switch you flip — it requ
 
 A cautious rollout starts with decisions that are low-value, high-frequency, and have the clearest precedent — where the risk of shifting to Event → Action is lowest, and the speed benefit is most obvious.
 
-→ *Related: [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates]*
+→ *Related: [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/intelligent-workflow-next-generation)*
 
 ---
 
@@ -110,8 +110,8 @@ The difference between Request/Approval and Event/Action isn't about having cont
 *This article is part of a series on workflow, AI adoption, and operational management for manufacturing SMEs.*
 
 **Related articles:**
-- [Event-Driven Workflow: How Systems Can Detect Events and Start Work Automatically]
-- [From Approval Workflow to End-to-End Workflow]
-- [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates]
+- [Event-Driven Workflow: How Systems Can Detect Events and Start Work Automatically](/en/insights/workflow/event-driven-workflow)
+- [From Approval Workflow to End-to-End Workflow](/en/insights/workflow/approval-to-end-to-end-workflow)
+- [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/intelligent-workflow-next-generation)
 
-**→ [Complete the Workflow Readiness Assessment]**
+**→ [Complete the Digitalization Readiness Assessment](/en/readiness/digitalization)**

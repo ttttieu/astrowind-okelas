@@ -18,7 +18,7 @@ secondaryKeywords:
   - "what is intelligent workflow"
   - "workflow AI"
   - "smart workflow"
-assessmentHref: /en/readiness/workflow
+assessmentHref: /en/readiness/digitalization
 draft: false
 ---
 
@@ -40,7 +40,7 @@ But many operations directors then run into a frustrating pattern: automation ru
 
 This isn't because the automation "isn't good enough." It's because **automation and intelligent workflow are two different concepts**, solving two different kinds of problems.
 
-→ *Related: [Why Employees Still Track Work Through Email and Excel]*
+→ *Related: [Why Employees Still Track Work Through Email and Excel](/en/insights/workflow/email-spreadsheet-work-tracking)*
 
 ---
 
@@ -102,7 +102,7 @@ Not every process needs intelligent workflow. A quick test: if a process has a *
 
 If none of these apply, "adding AI to the workflow" usually just adds cost and complexity without proportional value — consistent with a point made in an earlier article in this series: redesigning the process matters more than adding technology.
 
-→ *Related: [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates]*
+→ *Related: [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/intelligent-workflow-next-generation)*
 
 ---
 
@@ -115,8 +115,8 @@ Automation and intelligent workflow aren't competing with each other — they so
 *This article is part of a series on workflow, AI adoption, and operational management for manufacturing SMEs.*
 
 **Related articles:**
-- [Why Employees Still Track Work Through Email and Excel]
-- [Workflow Depends Too Much on People: The Design Problem Behind Every Bottleneck]
-- [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates]
+- [Why Employees Still Track Work Through Email and Excel](/en/insights/workflow/email-spreadsheet-work-tracking)
+- [Workflow Depends Too Much on People: The Design Problem Behind Every Bottleneck](/en/insights/workflow/workflow-human-bottleneck)
+- [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/intelligent-workflow-next-generation)
 
-**→ [Complete the Workflow Readiness Assessment]**
+**→ [Complete the Digitalization Readiness Assessment](/en/readiness/digitalization)**

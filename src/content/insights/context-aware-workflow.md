@@ -17,7 +17,7 @@ secondaryKeywords:
   - "intelligent context workflow"
   - "knowledge-aware workflow"
   - "workflow and organizational knowledge"
-assessmentHref: /en/readiness/workflow
+assessmentHref: /en/readiness/digitalization
 draft: false
 ---
 
@@ -39,7 +39,7 @@ But an experienced COO would treat them differently. The first request comes fro
 
 That's the gap between a workflow that follows rules correctly, and one that genuinely understands the organization.
 
-→ *Related: [Intelligent Workflow Routing: Classify, Route and Suggest Without Manual Intervention]*
+→ *Related: [Intelligent Workflow Routing: Classify, Route and Suggest Without Manual Intervention](/en/insights/workflow/intelligent-workflow-routing)*
 
 ---
 
@@ -98,7 +98,7 @@ This is exactly why OKELAS doesn't treat workflow as a standalone software featu
 
 This also explains why many "add AI to workflow" efforts stop at classification and routing without reaching true context-awareness: most organizations don't yet have a knowledge foundation solid enough for the workflow to reference. The bottleneck isn't workflow technology — it's how far the organization has gotten in systematizing its own knowledge.
 
-→ *Related: [AI in Workflow: Mapping Where It Fits and What It Should Do]*
+→ *Related: [AI in Workflow: Mapping Where It Fits and What It Should Do](/en/insights/workflow/where-ai-fits-in-workflow)*
 
 ---
 
@@ -111,8 +111,8 @@ Context-aware workflow is the highest layer in the journey covered throughout th
 *This article is part of a series on workflow, AI adoption, and operational management for manufacturing SMEs.*
 
 **Related articles:**
-- [Intelligent Workflow Routing: Classify, Route and Suggest Without Manual Intervention]
-- [AI in Workflow: Mapping Where It Fits and What It Should Do]
-- [Event-Driven Workflow: When the System Recognizes Events to Start Work]
+- [Intelligent Workflow Routing: Classify, Route and Suggest Without Manual Intervention](/en/insights/workflow/intelligent-workflow-routing)
+- [AI in Workflow: Mapping Where It Fits and What It Should Do](/en/insights/workflow/where-ai-fits-in-workflow)
+- [Event-Driven Workflow: When the System Recognizes Events to Start Work](/en/insights/workflow/event-driven-workflow)
 
-**→ [Complete the Workflow Readiness Assessment]**
+**→ [Complete the Digitalization Readiness Assessment](/en/readiness/digitalization)**

@@ -18,7 +18,7 @@ secondaryKeywords:
   - "workflow classification"
   - "AI routing"
   - "smart workflow routing"
-assessmentHref: /readiness/workflow
+assessmentHref: /readiness/digitalization
 draft: false
 ---
 
@@ -38,7 +38,7 @@ draft: false
 
 Một yêu cầu, một email, hoặc một khiếu nại gửi đến doanh nghiệp thường phải trải qua một chuỗi: ai đó đọc nó, xác định nó thuộc loại gì, quyết định nên chuyển tới đâu, rồi mới tới người thực sự xử lý. Mỗi bước trong chuỗi này đều có thể sai — và mỗi lần sai đều làm chậm toàn bộ quá trình.
 
-→ *Xem thêm: [AI có thể tham gia vào workflow ở đâu — và làm gì cụ thể?]*
+→ *Xem thêm: [AI có thể tham gia vào workflow ở đâu — và làm gì cụ thể?](/insights/workflow/ai-tich-hop-vao-workflow)*
 
 ---
 
@@ -97,7 +97,7 @@ Cơ chế này dựa trên nguyên tắc: nếu một yêu cầu mới đủ tư
 
 **Định tuyến yêu cầu bảo trì thiết bị.** Một báo cáo sự cố từ vận hành viên có thể mô tả triệu chứng bằng ngôn ngữ tự do (máy kêu lạ, chạy chậm hơn bình thường). Hệ thống có thể liên kết mô tả này với các sự cố tương tự trong lịch sử để gợi ý loại lỗi khả dĩ, thay vì chờ kỹ thuật viên tự phán đoán từ đầu.
 
-→ *Xem thêm: [Từ Request → Approval sang Event → Action: workflow thế hệ mới]*
+→ *Xem thêm: [Từ Request → Approval sang Event → Action: workflow thế hệ mới](/insights/workflow/tu-request-approval-sang-event-action)*
 
 ---
 
@@ -110,8 +110,8 @@ Rule cứng không sai — nó chỉ có giới hạn tự nhiên khi thế gi�
 *Bài viết này là một phần của chuỗi chuyên đề về workflow, ứng dụng AI và quản trị vận hành cho doanh nghiệp sản xuất SME.*
 
 **Bài liên quan:**
-- [AI có thể tham gia vào workflow ở đâu — và làm gì cụ thể?]
-- [Workflow Automation và Intelligent Workflow: Hai Khái Niệm Khác Nhau]
-- [Từ Request → Approval sang Event → Action: workflow thế hệ mới]
+- [AI có thể tham gia vào workflow ở đâu — và làm gì cụ thể?](/insights/workflow/ai-tich-hop-vao-workflow)
+- [Workflow Automation và Intelligent Workflow: Hai Khái Niệm Khác Nhau](/insights/workflow/workflow-automation-vs-intelligent)
+- [Từ Request → Approval sang Event → Action: workflow thế hệ mới](/insights/workflow/tu-request-approval-sang-event-action)
 
-**→ [Làm Workflow Readiness Assessment]**
+**→ [Làm Digitalization Readiness Assessment](/readiness/digitalization)**

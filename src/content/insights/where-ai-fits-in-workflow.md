@@ -18,7 +18,7 @@ secondaryKeywords:
   - "AI workflow touchpoints"
   - "AI in business process"
   - "workflow AI participation"
-assessmentHref: /en/readiness/workflow
+assessmentHref: /en/readiness/digitalization
 draft: false
 ---
 
@@ -37,7 +37,7 @@ Many "AI in workflow" conversations at the COO/CIO level start and end with a fa
 
 A real workflow isn't a single block — it's made up of several smaller stages: gathering data, understanding what that data means, deciding what to do, and finally carrying out that action. AI can participate in each stage in very different ways, carrying very different levels of risk. This article uses an academically grounded framework to make that distinction concrete.
 
-→ *Related: [From Request/Approval to Event/Action: Rethinking How Work Flows]*
+→ *Related: [From Request/Approval to Event/Action: Rethinking How Work Flows](/en/insights/workflow/request-approval-to-event-action-workflow)*
 
 ---
 
@@ -98,7 +98,7 @@ Combining the above into a practical sequence:
 
 **Step 4 — Set up a periodic review mechanism.** Since the appropriate level of automation can shift over time (as more data accumulates and model reliability gets verified), there should be a regular checkpoint to adjust automation levels at each stage, rather than fixing them once and leaving them unchanged.
 
-→ *Related: [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates]*
+→ *Related: [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/intelligent-workflow-next-generation)*
 
 ---
 
@@ -111,8 +111,8 @@ Combining the above into a practical sequence:
 *This article is part of a series on workflow, AI adoption, and operational management for manufacturing SMEs.*
 
 **Related articles:**
-- [From Request/Approval to Event/Action: Rethinking How Work Flows]
-- [Workflow Automation vs. Intelligent Workflow: Why They're Not the Same]
-- [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates]
+- [From Request/Approval to Event/Action: Rethinking How Work Flows](/en/insights/workflow/request-approval-to-event-action-workflow)
+- [Workflow Automation vs. Intelligent Workflow: Why They're Not the Same](/en/insights/workflow/workflow-automation-vs-intelligent-workflow)
+- [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/intelligent-workflow-next-generation)
 
-**→ [Complete the Workflow Readiness Assessment]**
+**→ [Complete the Digitalization Readiness Assessment](/en/readiness/digitalization)**

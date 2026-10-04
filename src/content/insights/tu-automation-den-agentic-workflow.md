@@ -17,7 +17,7 @@ secondaryKeywords:
   - "từ automation đến agentic"
   - "AI agentic process"
   - "workflow AI tự chủ"
-assessmentHref: /readiness/workflow
+assessmentHref: /readiness/digitalization
 draft: false
 ---
 
@@ -37,7 +37,7 @@ Xuyên suốt series này, chúng ta đã đi từ workflow số hóa, qua event
 
 Nhiều tài liệu marketing mô tả agentic workflow như một bước nhảy vọt — từ "quy trình cứng nhắc" sang "AI tự vận hành mọi thứ". Cách mô tả này không chính xác và có thể gây hiểu lầm nguy hiểm, như đã phân tích ở bài 5.13. Bức tranh chính xác hơn nhiều là một dải các mức độ, không phải một cú nhảy.
 
-→ *Xem thêm: [Workflow xác định quy tắc; AI xử lý phần cần reasoning]*
+→ *Xem thêm: [Workflow xác định quy tắc; AI xử lý phần cần reasoning](/insights/workflow/workflow-rule-ai-reasoning)*
 
 ---
 
@@ -83,7 +83,7 @@ Ba điều kiện dưới đây kế thừa trực tiếp từ các bài trướ
 
 Ba điều kiện này giải thích vì sao agentic workflow không phải điểm khởi đầu hợp lý cho phần lớn manufacturing SME — nó là điểm đến sau khi các tầng nền tảng (event-driven, phân định rule/reasoning, ranh giới quyết định/thực thi) đã được thiết lập vững chắc.
 
-→ *Xem thêm: [AI Agent và Workflow: ai quyết định, ai thực thi?]*
+→ *Xem thêm: [AI Agent và Workflow: ai quyết định, ai thực thi?](/insights/workflow/ai-agent-quyet-dinh-workflow-thuc-thi)*
 
 ---
 
@@ -108,8 +108,8 @@ Agentic workflow không phải một công nghệ tách biệt khỏi mọi th�
 *Bài viết này là một phần của chuỗi chuyên đề về workflow, ứng dụng AI và quản trị vận hành cho doanh nghiệp sản xuất SME.*
 
 **Bài liên quan:**
-- [Workflow xác định quy tắc; AI xử lý phần cần reasoning]
-- [AI Agent không thay thế workflow — đây là mối quan hệ đúng đắn]
-- [AI Agent và Workflow: ai quyết định, ai thực thi?]
+- [Workflow xác định quy tắc; AI xử lý phần cần reasoning](/insights/workflow/workflow-rule-ai-reasoning)
+- [AI Agent không thay thế workflow — đây là mối quan hệ đúng đắn](/insights/workflow/ai-agent-va-workflow)
+- [AI Agent và Workflow: ai quyết định, ai thực thi?](/insights/workflow/ai-agent-quyet-dinh-workflow-thuc-thi)
 
-**→ [Làm Workflow Readiness Assessment]**
+**→ [Làm Digitalization Readiness Assessment](/readiness/digitalization)**

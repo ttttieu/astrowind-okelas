@@ -18,7 +18,7 @@ secondaryKeywords:
   - "AI workflow participant"
   - "AI employee workflow"
   - "AI trong bước công việc"
-assessmentHref: /readiness/workflow
+assessmentHref: /readiness/digitalization
 draft: false
 ---
 
@@ -37,7 +37,7 @@ Hầu hết các cuộc thảo luận về "AI trong workflow" đều ngầm coi
 
 Đây chính xác là cách OKELAS mô tả Copilot/Agent trong khung tiếp cận của mình: một "nhân sự số" hoặc participant trong workflow, với nhiệm vụ, quyền hạn, tri thức, evidence, và khả năng giải thích — không phải một chatbot trả lời câu hỏi rời rạc. Bài này làm rõ sự khác biệt này bằng một khung phân tích cụ thể, và một ví dụ thực tế.
 
-→ *Xem thêm: [Từ Workflow Automation đến Agentic Workflow]*
+→ *Xem thêm: [Từ Workflow Automation đến Agentic Workflow](/insights/workflow/tu-automation-den-agentic-workflow)*
 
 ---
 
@@ -70,7 +70,7 @@ Một hệ thống dùng AI theo kiểu "tool" — gọi API, nhận kết quả
 
 Năm yêu cầu này không phải tính năng "nâng cao" — chúng là điều kiện tối thiểu để một AI agent có thể được coi là một phần đáng tin cậy của quy trình, thay vì một hộp đen được gọi khi cần.
 
-→ *Xem thêm: [Khi workflow biết context của tổ chức]*
+→ *Xem thêm: [Khi workflow biết context của tổ chức](/insights/workflow/workflow-biet-context-to-chuc)*
 
 ---
 
@@ -117,8 +117,8 @@ Coi AI như một participant, thay vì chỉ một công cụ, thay đổi các
 *Bài viết này là một phần của chuỗi chuyên đề về workflow, ứng dụng AI và quản trị vận hành cho doanh nghiệp sản xuất SME.*
 
 **Bài liên quan:**
-- [Từ Workflow Automation đến Agentic Workflow]
-- [AI Agent không thay thế workflow — đây là mối quan hệ đúng đắn]
-- [AI Agent và Workflow: ai quyết định, ai thực thi?]
+- [Từ Workflow Automation đến Agentic Workflow](/insights/workflow/tu-automation-den-agentic-workflow)
+- [AI Agent không thay thế workflow — đây là mối quan hệ đúng đắn](/insights/workflow/ai-agent-va-workflow)
+- [AI Agent và Workflow: ai quyết định, ai thực thi?](/insights/workflow/ai-agent-quyet-dinh-workflow-thuc-thi)
 
-**→ [Làm Workflow Readiness Assessment]**
+**→ [Làm Digitalization Readiness Assessment](/readiness/digitalization)**

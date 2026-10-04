@@ -17,7 +17,7 @@ secondaryKeywords:
   - "work status tracking"
   - "why teams use email for status updates"
   - "workflow transparency"
-assessmentHref: /en/readiness/workflow
+assessmentHref: /en/readiness/digitalization
 draft: false
 ---
 
@@ -25,7 +25,7 @@ Your company already has workflow software. You already have a system for managi
 
 If that sounds familiar, it's worth stopping to ask: **why doesn't a system you've already invested in to manage work answer the simplest question of all — "where does this stand?"**
 
-→ *Related: [Workflow Depends Too Much on People: The Design Problem Behind Every Bottleneck]*
+→ *Related: [Workflow Depends Too Much on People: The Design Problem Behind Every Bottleneck](/en/insights/workflow/workflow-human-bottleneck)*
 
 ---
 
@@ -65,15 +65,15 @@ If all three are true, the problem isn't that employees haven't learned the soft
 
 Visibility isn't a feature to bolt on — it's a criterion for judging whether your current workflow actually serves the people using it. A system with real visibility makes maintaining a personal spreadsheet unnecessary, rather than requiring employees to give up the habit through willpower alone.
 
-→ *Related: [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates]*
+→ *Related: [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/intelligent-workflow-next-generation)*
 
 ---
 
 *This article is part of a series on workflow, AI adoption, and operational management for manufacturing SMEs.*
 
 **Related articles:**
-- [Workflow Depends Too Much on People: The Design Problem Behind Every Bottleneck]
-- [You Have Workflow. Why Is Work Still Moving Slowly?]
-- [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates]
+- [Workflow Depends Too Much on People: The Design Problem Behind Every Bottleneck](/en/insights/workflow/workflow-human-bottleneck)
+- [You Have Workflow. Why Is Work Still Moving Slowly?](/en/insights/workflow/workflow-digitized-still-slow)
+- [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/intelligent-workflow-next-generation)
 
-**→ [Complete the Workflow Readiness Assessment]**
+**→ [Complete the Digitalization Readiness Assessment](/en/readiness/digitalization)**

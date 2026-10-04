@@ -17,7 +17,7 @@ secondaryKeywords:
   - "decision making AI"
   - "workflow execution AI"
   - "AI authority workflow"
-assessmentHref: /readiness/workflow
+assessmentHref: /readiness/digitalization
 draft: false
 ---
 
@@ -39,7 +39,7 @@ Câu trả lời tưởng nhiên là "con người, vì agent chỉ đề xuất
 
 Đây không phải một vấn đề lý thuyết. Nó là vấn đề quản trị cụ thể, và ngành kiểm toán tài chính đã có một nguyên tắc để xử lý đúng loại vấn đề này từ nhiều thập kỷ trước.
 
-→ *Xem thêm: [AI Agent không thay thế workflow — đây là mối quan hệ đúng đắn]*
+→ *Xem thêm: [AI Agent không thay thế workflow — đây là mối quan hệ đúng đắn](/insights/workflow/ai-agent-va-workflow)*
 
 ---
 
@@ -84,7 +84,7 @@ Trong ranh giới đã được workflow xác định, vai trò của agent là 
 
 Đây chính là điểm nối với bài trước trong series: agent giỏi ở phần cần lập luận linh hoạt, nhưng năng lực lập luận tốt không đồng nghĩa với việc nên trao luôn quyền quyết định và thực thi cho cùng một thực thể.
 
-→ *Xem thêm: [Khi workflow biết context của tổ chức]*
+→ *Xem thêm: [Khi workflow biết context của tổ chức](/insights/workflow/workflow-biet-context-to-chuc)*
 
 ---
 
@@ -112,8 +112,8 @@ Câu hỏi "ai quyết định, ai thực thi" không phải một chi tiết k�
 *Bài viết này là một phần của chuỗi chuyên đề về workflow, ứng dụng AI và quản trị vận hành cho doanh nghiệp sản xuất SME.*
 
 **Bài liên quan:**
-- [AI Agent không thay thế workflow — đây là mối quan hệ đúng đắn]
-- [Khi workflow biết context của tổ chức]
-- [AI có thể tham gia vào workflow ở đâu — và làm gì cụ thể?]
+- [AI Agent không thay thế workflow — đây là mối quan hệ đúng đắn](/insights/workflow/ai-agent-va-workflow)
+- [Khi workflow biết context của tổ chức](/insights/workflow/workflow-biet-context-to-chuc)
+- [AI có thể tham gia vào workflow ở đâu — và làm gì cụ thể?](/insights/workflow/ai-tich-hop-vao-workflow)
 
-**→ [Làm Workflow Readiness Assessment]**
+**→ [Làm Digitalization Readiness Assessment](/readiness/digitalization)**

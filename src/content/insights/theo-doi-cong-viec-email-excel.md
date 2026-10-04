@@ -17,7 +17,7 @@ secondaryKeywords:
   - "status tracking Excel"
   - "workflow visibility"
   - "theo dõi tiến độ công việc"
-assessmentHref: /readiness/workflow
+assessmentHref: /readiness/digitalization
 draft: false
 ---
 
@@ -25,7 +25,7 @@ Doanh nghiệp bạn đã có phần mềm workflow, đã có hệ thống quả
 
 Nếu điều này nghe quen thuộc, đáng để dừng lại và hỏi: **tại sao một hệ thống đã được đầu tư để quản lý công việc lại không đủ để trả lời câu hỏi đơn giản nhất — "việc này đang ở đâu"?**
 
-→ *Xem thêm: [Workflow vẫn phụ thuộc quá nhiều vào con người]*
+→ *Xem thêm: [Workflow vẫn phụ thuộc quá nhiều vào con người](/insights/workflow/workflow-phu-thuoc-con-nguoi)*
 
 ---
 
@@ -65,15 +65,15 @@ Nếu cả ba điều này đều đúng, vấn đề không nằm ở việc nh
 
 Visibility không phải một tính năng cần thêm vào — nó là một tiêu chí cần đánh giá khi xem xét workflow hiện tại có thực sự phục vụ người dùng hay không. Một hệ thống có visibility tốt sẽ khiến việc "tự làm Excel riêng để theo dõi" trở nên không cần thiết, chứ không phải yêu cầu nhân viên bỏ thói quen đó bằng ý chí.
 
-→ *Xem thêm: [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành]*
+→ *Xem thêm: [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-thong-minh-the-he-moi)*
 
 ---
 
 *Bài viết này là một phần của chuỗi chuyên đề về workflow, ứng dụng AI và quản trị vận hành cho doanh nghiệp sản xuất SME.*
 
 **Bài liên quan:**
-- [Workflow vẫn phụ thuộc quá nhiều vào con người]
-- [Đã có workflow rồi — tại sao công việc vẫn chậm?]
-- [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành]
+- [Workflow vẫn phụ thuộc quá nhiều vào con người](/insights/workflow/workflow-phu-thuoc-con-nguoi)
+- [Đã có workflow rồi — tại sao công việc vẫn chậm?](/insights/workflow/co-workflow-van-lam-viec-cham)
+- [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-thong-minh-the-he-moi)
 
-**→ [Làm Workflow Readiness Assessment]**
+**→ [Làm Digitalization Readiness Assessment](/readiness/digitalization)**
