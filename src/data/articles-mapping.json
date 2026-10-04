@@ -909,6 +909,19 @@
         "category": "compliance",
         "url": "/en/insights/compliance/iso-9001-training-records-competence"
       }
+    },
+    {
+      "translationId": "supplier-qualification-iso-9001",
+      "vi": {
+        "slug": "supplier-qualification-iso-9001",
+        "category": "compliance",
+        "url": "/insights/compliance/supplier-qualification-iso-9001"
+      },
+      "en": {
+        "slug": "iso-9001-supplier-qualification",
+        "category": "compliance",
+        "url": "/en/insights/compliance/iso-9001-supplier-qualification"
+      }
     }
   ]
 }
