@@ -792,6 +792,19 @@
         "category": "business-operations",
         "url": "/en/insights/business-operations/next-step-digitalization-roi"
       }
+    },
+    {
+      "translationId": "eqms-for-manufacturing-sme-pillar",
+      "vi": {
+        "slug": "eqms-cho-doanh-nghiep-san-xuat",
+        "category": "compliance",
+        "url": "/insights/compliance/eqms-cho-doanh-nghiep-san-xuat"
+      },
+      "en": {
+        "slug": "eqms-for-manufacturing-sme",
+        "category": "compliance",
+        "url": "/en/insights/compliance/eqms-for-manufacturing-sme"
+      }
     }
   ]
 }
