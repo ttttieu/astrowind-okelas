@@ -961,6 +961,19 @@
         "category": "compliance",
         "url": "/en/insights/compliance/okelas-eqms-approach"
       }
+    },
+    {
+      "translationId": "eqms-evidence-traceability",
+      "vi": {
+        "slug": "evidence-eqms-kiem-chung",
+        "category": "compliance",
+        "url": "/insights/compliance/evidence-eqms-kiem-chung"
+      },
+      "en": {
+        "slug": "eqms-evidence-traceability",
+        "category": "compliance",
+        "url": "/en/insights/compliance/eqms-evidence-traceability"
+      }
     }
   ]
 }
