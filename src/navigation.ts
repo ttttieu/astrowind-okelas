@@ -63,8 +63,8 @@ export const footerData = {
     {
       title: 'Solutions',
       links: [
-        { text: 'Digitalize Operations', href: '/solutions/digitalize-operations' },
-        { text: 'Standardize Processes', href: '/solutions/standardize-processes' },
+        { text: 'Digitalize Operations', href: '/solutions/so-hoa-van-hanh' },
+        { text: 'Standardize Processes', href: '/solutions/chuan-hoa-quy-trinh' },
         { text: 'Progressive eQMS', href: '/solutions/progressive-eqms' },
         { text: 'ERP Readiness', href: '/solutions/erp-readiness' },
       ],
