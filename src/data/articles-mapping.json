@@ -883,6 +883,19 @@
         "category": "compliance",
         "url": "/en/insights/compliance/nonconformance-iso-9001-management"
       }
+    },
+    {
+      "translationId": "effective-internal-audit-iso-9001",
+      "vi": {
+        "slug": "internal-audit-iso-9001-hieu-qua",
+        "category": "compliance",
+        "url": "/insights/compliance/internal-audit-iso-9001-hieu-qua"
+      },
+      "en": {
+        "slug": "effective-internal-audit-iso-9001",
+        "category": "compliance",
+        "url": "/en/insights/compliance/effective-internal-audit-iso-9001"
+      }
     }
   ]
 }
