@@ -948,6 +948,19 @@
         "category": "compliance",
         "url": "/en/insights/compliance/management-review-iso-9001-effective"
       }
+    },
+    {
+      "translationId": "okelas-eqms-approach",
+      "vi": {
+        "slug": "okelas-eqms-to-chuc",
+        "category": "compliance",
+        "url": "/insights/compliance/okelas-eqms-to-chuc"
+      },
+      "en": {
+        "slug": "okelas-eqms-approach",
+        "category": "compliance",
+        "url": "/en/insights/compliance/okelas-eqms-approach"
+      }
     }
   ]
 }
