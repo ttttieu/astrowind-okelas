@@ -935,6 +935,19 @@
         "category": "compliance",
         "url": "/en/insights/compliance/iso-9001-risk-management-clause-6"
       }
+    },
+    {
+      "translationId": "management-review-iso-9001-effective",
+      "vi": {
+        "slug": "management-review-iso-9001",
+        "category": "compliance",
+        "url": "/insights/compliance/management-review-iso-9001"
+      },
+      "en": {
+        "slug": "management-review-iso-9001-effective",
+        "category": "compliance",
+        "url": "/en/insights/compliance/management-review-iso-9001-effective"
+      }
     }
   ]
 }
