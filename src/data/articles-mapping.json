@@ -831,6 +831,19 @@
         "category": "compliance",
         "url": "/en/insights/compliance/iso-9001-eqms-software-requirement"
       }
+    },
+    {
+      "translationId": "simple-eqms-small-manufacturers",
+      "vi": {
+        "slug": "eqms-sme-don-gian",
+        "category": "compliance",
+        "url": "/insights/compliance/eqms-sme-don-gian"
+      },
+      "en": {
+        "slug": "simple-eqms-small-manufacturers",
+        "category": "compliance",
+        "url": "/en/insights/compliance/simple-eqms-small-manufacturers"
+      }
     }
   ]
 }
