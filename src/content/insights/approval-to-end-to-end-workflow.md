@@ -18,6 +18,9 @@ secondaryKeywords:
   - "full process workflow"
   - "workflow coverage"
 assessmentHref: /en/readiness/digitalization
+coverImage: '~/assets/images/insights/approval-to-end-to-end-workflow/wfe-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/approval-to-end-to-end-workflow/wfe-00-og-cover-en.png'
+coverImageAlt: "Approval workflow covers only a middle segment; end-to-end workflow covers the whole journey from the triggering event to the final outcome."
 draft: false
 ---
 
@@ -43,6 +46,8 @@ This isn't a random paradox. It reflects how most companies build workflow in th
 
 ## What Approval Workflow Does and Doesn't Cover
 
+![Approval workflow only answers whether a request was approved; it does not answer where the matter ends or who is responsible until it is resolved.](~/assets/images/insights/approval-to-end-to-end-workflow/wfe-01-two-questions-en.svg)
+
 Approval workflow solves one specific problem well: controlling decision authority at one or a few points in a process.
 
 Characteristics of approval workflow:
@@ -59,6 +64,8 @@ Characteristics of approval workflow:
 
 ## What Lies Outside Approval
 
+![In a quality-complaint journey across sales, QA and production, the corrective-action approval is a single point among many steps and handoffs.](~/assets/images/insights/approval-to-end-to-end-workflow/wfe-02-complaint-journey-en.svg)
+
 This is the most commonly overlooked part when companies assess their own workflow maturity.
 
 Take a concrete example: handling a customer quality complaint. The "approve the corrective action" step — if it even exists — is a tiny moment inside a much larger event. What lies outside the scope of approval includes:
@@ -72,9 +79,13 @@ Research by Maddern, Smart, Maull and Childe (University of Exeter, 2013) on end
 
 The same research also notes that moving from functional process management to end-to-end management tends to be harder than expected — not primarily for technical reasons, but because it requires a systemic view of the process, not just a redrawn diagram of its steps.
 
+![Approval workflow covers only the middle of the journey; end-to-end covers it from the triggering event to the final outcome from the recipient's view.](~/assets/images/insights/approval-to-end-to-end-workflow/wfe-03-scope-boundary-en.svg)
+
 ---
 
 ## What End-to-End Workflow Looks Like
+
+![Four requirements of an end-to-end workflow: a clear triggering event, a clear final outcome, cross-department traceability and a single process owner.](~/assets/images/insights/approval-to-end-to-end-workflow/wfe-04-four-requirements-en.svg)
 
 Another useful, practitioner-level observation comes from the BPM analyst community: most operational failure doesn't happen *inside* a department — it happens at the **handoff** between departments, where cost, delay and rework accumulate the most. Notably, local optimization efforts inside a single department can actually make these handoffs worse, because that department optimizes for its own metrics without accounting for how its output fits into the rest of the chain.
 
@@ -90,6 +101,8 @@ That last point is usually the biggest real-world obstacle: asking someone to be
 ---
 
 ## A Roadmap for Expanding Coverage
+
+![Five steps to expand from approval to end-to-end: select the process, redefine boundaries, map handoffs, assign a process owner, then choose technology.](~/assets/images/insights/approval-to-end-to-end-workflow/wfe-05-five-step-roadmap-en.svg)
 
 There's no need, and no reason, to turn every approval workflow into an end-to-end workflow at once. A sensible sequence:
 
