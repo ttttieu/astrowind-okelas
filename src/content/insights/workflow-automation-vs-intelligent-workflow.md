@@ -19,6 +19,9 @@ secondaryKeywords:
   - "workflow AI"
   - "smart workflow"
 assessmentHref: /en/readiness/digitalization
+coverImage: '~/assets/images/insights/workflow-automation-vs-intelligent-workflow/wfa-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/workflow-automation-vs-intelligent-workflow/wfa-00-og-cover-en.png'
+coverImageAlt: "An automation chain that halts on an unusual case, versus an intelligent-workflow chain that triages the exception and routes the right cases to a person."
 draft: false
 ---
 
@@ -46,6 +49,8 @@ This isn't because the automation "isn't good enough." It's because **automation
 
 ## What Automation Delivers
 
+![Automation answers how to stop doing repetitive work by hand; intelligent workflow answers how to handle work needing context and conditional decisions.](~/assets/images/insights/workflow-automation-vs-intelligent-workflow/wfa-01-two-questions-en-dark.svg)
+
 Automation removes the need for people to manually perform repetitive, clearly-ruled tasks.
 
 The most common form is RPA (Robotic Process Automation) — software that mimics human actions on other systems (data entry, copying data, sending notifications) following a fixed script: if condition A is true, take action B.
@@ -61,6 +66,8 @@ For repetitive, clearly-ruled work with few exceptions, automation is almost alw
 ---
 
 ## What It Can't Handle
+
+![Conventional automation handles structured data, scripted cases and fixed conditions well, but struggles with unstructured data, exceptions and context-dependent decisions.](~/assets/images/insights/workflow-automation-vs-intelligent-workflow/wfa-02-three-limits-en-dark.svg)
 
 Traditional automation works well within the script it was programmed for, but has no way to handle what falls outside that script.
 
@@ -84,15 +91,19 @@ Three additional capabilities intelligent workflow needs, beyond pure automation
 
 **1. The ability to process unstructured data.** Reading and understanding an email, extracting information from a scanned document, classifying a request written in natural language — this is where language-processing and computer-vision techniques come in, instead of just reading fixed data fields.
 
-**2. The ability to handle exceptions in a controlled way.** Instead of stopping and throwing an error the moment something unusual appears, an intelligent workflow can classify how serious the exception is, handle low-risk cases automatically based on similar precedent, and only escalate to a human the cases that genuinely need judgment — with full context attached, so the person can decide faster.
+**2. The ability to handle exceptions in a controlled way.** ![On an unscripted case, conventional automation halts and waits for a person; intelligent workflow triages severity, handles low-risk cases and escalates judgment cases with full context.](~/assets/images/insights/workflow-automation-vs-intelligent-workflow/wfa-03-exception-path-en-dark.svg) Instead of stopping and throwing an error the moment something unusual appears, an intelligent workflow can classify how serious the exception is, handle low-risk cases automatically based on similar precedent, and only escalate to a human the cases that genuinely need judgment — with full context attached, so the person can decide faster.
 
 **3. The ability to explain a decision or suggestion.** If the system proposes an action, it needs to be able to show why — based on what data, what precedent — so a person can verify it instead of having to trust it blindly.
+
+![Three intelligent-workflow capabilities, unstructured data processing, controlled exception handling and explainable decisions, are built on top of automation.](~/assets/images/insights/workflow-automation-vs-intelligent-workflow/wfa-04-three-capabilities-en-dark.svg)
 
 Importantly, these three capabilities don't replace automation — they're built on top of it. A good intelligent workflow still uses automation for the repetitive, clearly-ruled part of the work, and reserves the "intelligent" layer for exactly the part that needs it.
 
 ---
 
 ## When to Move Beyond Automation
+
+![A process with few exceptions and structured data usually needs only automation; consider an intelligent layer only for significant exceptions, unstructured data or multi-factor judgment.](~/assets/images/insights/workflow-automation-vs-intelligent-workflow/wfa-05-when-to-go-beyond-en-dark.svg)
 
 Not every process needs intelligent workflow. A quick test: if a process has a **low exception rate and clearly structured data**, traditional automation is usually good enough — cheaper and lower risk. It's worth considering an added intelligent layer only when:
 

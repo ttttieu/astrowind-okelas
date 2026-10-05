@@ -19,6 +19,9 @@ secondaryKeywords:
   - "workflow thông minh"
   - "workflow exception handling"
 assessmentHref: /readiness/digitalization
+coverImage: '~/assets/images/insights/workflow-automation-vs-intelligent/wfa-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/workflow-automation-vs-intelligent/wfa-00-og-cover-vi.png'
+coverImageAlt: "Một chuỗi automation dừng lại ở tình huống lạ, so với một chuỗi intelligent workflow phân loại ngoại lệ và chuyển người đúng ca."
 draft: false
 ---
 
@@ -46,6 +49,8 @@ Nhưng nhiều Operations Director sau đó gặp một hiện tượng khó ch�
 
 ## Automation làm được gì
 
+![Automation trả lời làm sao không phải làm thủ công việc lặp lại; intelligent workflow trả lời làm sao xử lý phần việc cần hiểu ngữ cảnh và ra quyết định có điều kiện.](~/assets/images/insights/workflow-automation-vs-intelligent/wfa-01-two-questions-vi-dark.svg)
+
 Automation loại bỏ nhu cầu con người phải thực hiện thủ công các tác vụ lặp lại, có quy tắc rõ ràng.
 
 Hình thức phổ biến nhất là RPA (Robotic Process Automation) — phần mềm mô phỏng thao tác của con người trên các hệ thống khác (nhập liệu, sao chép dữ liệu, gửi thông báo) theo một kịch bản cố định: nếu điều kiện A đúng, thực hiện hành động B.
@@ -61,6 +66,8 @@ Với phần việc lặp lại, có quy tắc rõ ràng và ít ngoại lệ, a
 ---
 
 ## Những gì automation không xử lý được
+
+![Automation truyền thống xử lý tốt dữ liệu có cấu trúc, tình huống đúng kịch bản và điều kiện cố định, nhưng gặp khó với dữ liệu phi cấu trúc, ngoại lệ và quyết định cần ngữ cảnh.](~/assets/images/insights/workflow-automation-vs-intelligent/wfa-02-three-limits-vi-dark.svg)
 
 Automation truyền thống hoạt động tốt trong phạm vi kịch bản đã lập trình, nhưng không có khả năng xử lý những gì nằm ngoài kịch bản đó.
 
@@ -84,15 +91,19 @@ Ba năng lực bổ sung mà intelligent workflow cần có so với automation 
 
 **1. Khả năng xử lý dữ liệu phi cấu trúc.** Đọc hiểu một email, trích xuất thông tin từ một chứng từ scan, phân loại một yêu cầu viết bằng ngôn ngữ tự nhiên — đây là nơi các kỹ thuật xử lý ngôn ngữ và thị giác máy tính tham gia, thay vì chỉ đọc các trường dữ liệu cố định.
 
-**2. Khả năng xử lý ngoại lệ có kiểm soát.** Thay vì dừng lại và báo lỗi khi gặp tình huống lạ, intelligent workflow có thể phân loại mức độ nghiêm trọng của ngoại lệ, tự xử lý những trường hợp rủi ro thấp theo tiền lệ tương tự, và chỉ chuyển lên con người những trường hợp thực sự cần phán đoán — kèm đầy đủ ngữ cảnh để người đó quyết định nhanh hơn.
+**2. Khả năng xử lý ngoại lệ có kiểm soát.** ![Khi gặp tình huống ngoài kịch bản, automation truyền thống dừng lại và chờ người; intelligent workflow phân loại mức độ, tự xử lý ca rủi ro thấp và chuyển người ca cần phán đoán kèm ngữ cảnh.](~/assets/images/insights/workflow-automation-vs-intelligent/wfa-03-exception-path-vi-dark.svg) Thay vì dừng lại và báo lỗi khi gặp tình huống lạ, intelligent workflow có thể phân loại mức độ nghiêm trọng của ngoại lệ, tự xử lý những trường hợp rủi ro thấp theo tiền lệ tương tự, và chỉ chuyển lên con người những trường hợp thực sự cần phán đoán — kèm đầy đủ ngữ cảnh để người đó quyết định nhanh hơn.
 
 **3. Khả năng giải thích được quyết định hoặc gợi ý.** Nếu hệ thống đề xuất một hành động, nó cần có khả năng chỉ ra vì sao — dựa trên dữ liệu nào, tiền lệ nào — để con người có thể kiểm chứng thay vì phải tin tưởng mù quáng.
+
+![Ba năng lực của intelligent workflow, gồm xử lý dữ liệu phi cấu trúc, xử lý ngoại lệ có kiểm soát và giải thích được quyết định, được xây trên nền automation.](~/assets/images/insights/workflow-automation-vs-intelligent/wfa-04-three-capabilities-vi-dark.svg)
 
 Quan trọng: ba năng lực này không thay thế automation — chúng được xây trên nền automation. Một intelligent workflow tốt vẫn dùng automation cho phần việc lặp lại, có quy tắc rõ ràng, và chỉ dùng lớp "thông minh" cho đúng phần việc cần nó.
 
 ---
 
 ## Khi nào cần vượt ra ngoài automation
+
+![Quy trình ít ngoại lệ và dữ liệu có cấu trúc thường chỉ cần automation; chỉ cân nhắc thêm lớp thông minh khi ngoại lệ đáng kể, dữ liệu phi cấu trúc hoặc cần phán đoán nhiều yếu tố.](~/assets/images/insights/workflow-automation-vs-intelligent/wfa-05-when-to-go-beyond-vi-dark.svg)
 
 Không phải quy trình nào cũng cần intelligent workflow. Một cách kiểm tra nhanh: nếu một quy trình có **tỷ lệ ngoại lệ thấp và dữ liệu có cấu trúc rõ ràng**, automation truyền thống thường là lựa chọn đủ tốt, chi phí thấp hơn và rủi ro thấp hơn. Chỉ nên cân nhắc thêm lớp thông minh khi:
 
