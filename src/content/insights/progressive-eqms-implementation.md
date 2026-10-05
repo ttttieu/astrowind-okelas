@@ -3,8 +3,8 @@ title: "Progressive eQMS: Starting Small and Building the Right Way"
 description: "There's more than one way to implement an eQMS. A progressive approach lets organizations start small and build incrementally — without a full upfront investment. Here's what that looks like."
 publishDate: 2025-09-24T00:00:00Z
 image: '~/assets/images/insights/progressive-eqms.png'
-cover_image: '~/assets/images/insights/progressive-eqms-implementation/pe-05-og-cover-en.png'
-og_image: '~/assets/images/insights/progressive-eqms-implementation/pe-05-og-cover-en.png'
+cover_image: '/assets/images/insights/progressive-eqms-implementation/pe-05-og-cover-en.png'
+og_image: '/assets/images/insights/progressive-eqms-implementation/pe-05-og-cover-en.png'
 cover_image_alt: "Progressive eQMS: start small, start right, and expand from the real problem rather than the module catalog"
 category: 'business-operations'
 tags: ['eQMS', 'Implementation', 'Progressive', 'Quality System', 'Incremental']
@@ -37,7 +37,7 @@ draft: false
 
 ## The problem with "implement everything at once"
 
-![Comparing an all-at-once eQMS implementation with the Progressive eQMS approach of starting small](~/assets/images/insights/progressive-eqms-implementation/pe-01-all-at-once-vs-progressive-en.svg)
+![Comparing an all-at-once eQMS implementation with the Progressive eQMS approach of starting small](/assets/images/insights/progressive-eqms-implementation/pe-01-all-at-once-vs-progressive-en.svg)
 
 When a CEO or Quality Director first explores eQMS, they often encounter a picture like this: a large system with dozens of modules — document control, CAPA, audit management, training management, supplier management, risk management, equipment management — all requiring deployment, user training, and historical data migration.
 
@@ -67,7 +67,7 @@ In practice, this means instead of asking "which modules do we need?" — the qu
 
 ## Why starting small is the right strategy, not a compromise
 
-![The Progressive eQMS loop: pick the real problem, deploy the smallest part, operate and learn, verify value, then expand; with three reasons to start small](~/assets/images/insights/progressive-eqms-implementation/pe-02-progressive-loop-en.svg)
+![The Progressive eQMS loop: pick the real problem, deploy the smallest part, operate and learn, verify value, then expand; with three reasons to start small](/assets/images/insights/progressive-eqms-implementation/pe-02-progressive-loop-en.svg)
 
 Three important reasons why a progressive approach is often better than a full deployment — even when the organization has the resources for a full deployment.
 
@@ -95,7 +95,7 @@ Deploying in smaller pieces creates value faster — in weeks or months rather t
 
 ## Which modules to prioritize when starting
 
-![Three common starting points for an eQMS: document control, non-conformance and CAPA, and training management](~/assets/images/insights/progressive-eqms-implementation/pe-03-three-starting-points-en.svg)
+![Three common starting points for an eQMS: document control, non-conformance and CAPA, and training management](/assets/images/insights/progressive-eqms-implementation/pe-03-three-starting-points-en.svg)
 
 There's no single correct sequence for every organization — the starting point depends on the specific problem being experienced and the existing foundation. Several common patterns:
 
@@ -127,7 +127,7 @@ There's no single correct sequence for every organization — the starting point
 
 ## A sample roadmap — from starting point to a more complete system
 
-![Illustrative eQMS roadmap for an 80-person food manufacturer: document control, non-conformance, audit management, then other functions](~/assets/images/insights/progressive-eqms-implementation/pe-04-sample-roadmap-en.svg)
+![Illustrative eQMS roadmap for an 80-person food manufacturer: document control, non-conformance, audit management, then other functions](/assets/images/insights/progressive-eqms-implementation/pe-04-sample-roadmap-en.svg)
 
 An illustrative progression for an 80-person food manufacturer maintaining ISO 22000:
 

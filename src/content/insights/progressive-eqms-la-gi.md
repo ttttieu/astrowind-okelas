@@ -3,8 +3,8 @@ title: "Progressive eQMS là gì — và tại sao đây là cách tiếp cận 
 description: "eQMS không phải chỉ có một cách triển khai. Progressive eQMS cho phép doanh nghiệp bắt đầu nhỏ, xây dần theo nhu cầu thực tế — không cần đầu tư toàn bộ ngay từ đầu."
 publishDate: 2025-09-24T00:00:00Z
 image: '~/assets/images/insights/progressive-eqms.png'
-cover_image: '~/assets/images/insights/progressive-eqms-la-gi/pe-05-og-cover-vi.png'
-og_image: '~/assets/images/insights/progressive-eqms-la-gi/pe-05-og-cover-vi.png'
+cover_image: '/assets/images/insights/progressive-eqms-la-gi/pe-05-og-cover-vi.png'
+og_image: '/assets/images/insights/progressive-eqms-la-gi/pe-05-og-cover-vi.png'
 cover_image_alt: "Progressive eQMS: bắt đầu nhỏ, đúng chỗ, mở rộng theo vấn đề thực thay vì theo danh mục module"
 category: 'business-operations'
 tags: ['eQMS', 'Triển khai', 'Progressive', 'Hệ thống chất lượng', 'Incremental']
@@ -38,7 +38,7 @@ draft: false
 
 ## Vấn đề với cách tiếp cận "triển khai toàn bộ ngay từ đầu"
 
-![So sánh triển khai eQMS toàn bộ ngay với cách tiếp cận Progressive eQMS, bắt đầu từ phần nhỏ nhất](~/assets/images/insights/progressive-eqms-la-gi/pe-01-all-at-once-vs-progressive-vi.svg)
+![So sánh triển khai eQMS toàn bộ ngay với cách tiếp cận Progressive eQMS, bắt đầu từ phần nhỏ nhất](/assets/images/insights/progressive-eqms-la-gi/pe-01-all-at-once-vs-progressive-vi.svg)
 
 Khi CEO hoặc Quality Director bắt đầu tìm hiểu về eQMS, họ thường nhận được một bức tranh như thế này: một hệ thống lớn với hàng chục module — document control, CAPA, audit management, training management, supplier management, risk management, equipment management — tất cả cần được triển khai, người dùng cần được đào tạo, và dữ liệu lịch sử cần được migrate.
 
@@ -68,7 +68,7 @@ Thực tế, điều này có nghĩa là thay vì hỏi "chúng ta cần module 
 
 ## Tại sao bắt đầu nhỏ là chiến lược đúng, không phải compromise
 
-![Vòng lặp Progressive eQMS: chọn vấn đề thực, triển khai phần nhỏ nhất, vận hành và học, kiểm chứng giá trị, rồi mở rộng; kèm ba lý do bắt đầu nhỏ](~/assets/images/insights/progressive-eqms-la-gi/pe-02-progressive-loop-vi.svg)
+![Vòng lặp Progressive eQMS: chọn vấn đề thực, triển khai phần nhỏ nhất, vận hành và học, kiểm chứng giá trị, rồi mở rộng; kèm ba lý do bắt đầu nhỏ](/assets/images/insights/progressive-eqms-la-gi/pe-02-progressive-loop-vi.svg)
 
 Có ba lý do quan trọng giải thích tại sao triển khai progressive thường tốt hơn triển khai toàn diện — ngay cả khi tổ chức có đủ nguồn lực để triển khai toàn diện.
 
@@ -96,7 +96,7 @@ Triển khai từng phần nhỏ tạo ra giá trị sớm hơn — trong vài t
 
 ## Các module ưu tiên khi bắt đầu
 
-![Ba điểm xuất phát thường gặp khi bắt đầu eQMS: document control, non-conformance và CAPA, training management](~/assets/images/insights/progressive-eqms-la-gi/pe-03-three-starting-points-vi.svg)
+![Ba điểm xuất phát thường gặp khi bắt đầu eQMS: document control, non-conformance và CAPA, training management](/assets/images/insights/progressive-eqms-la-gi/pe-03-three-starting-points-vi.svg)
 
 Không có một thứ tự đúng duy nhất cho mọi tổ chức — điểm bắt đầu phụ thuộc vào vấn đề cụ thể đang gặp và nền tảng hiện tại. Tuy nhiên, một số pattern phổ biến:
 
@@ -128,7 +128,7 @@ Không có một thứ tự đúng duy nhất cho mọi tổ chức — điểm 
 
 ## Lộ trình mẫu — từ điểm bắt đầu đến hệ thống hoàn chỉnh hơn
 
-![Ví dụ minh họa lộ trình eQMS cho doanh nghiệp thực phẩm 80 người: document control, non-conformance, audit management, rồi các chức năng khác](~/assets/images/insights/progressive-eqms-la-gi/pe-04-sample-roadmap-vi.svg)
+![Ví dụ minh họa lộ trình eQMS cho doanh nghiệp thực phẩm 80 người: document control, non-conformance, audit management, rồi các chức năng khác](/assets/images/insights/progressive-eqms-la-gi/pe-04-sample-roadmap-vi.svg)
 
 Một ví dụ lộ trình progressive cho doanh nghiệp thực phẩm 80 người đang duy trì ISO 22000:
 

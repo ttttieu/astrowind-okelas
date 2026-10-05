@@ -3,8 +3,8 @@ title: "ISO and GMP Records Management in a Digital Environment"
 description: "Digitalizing ISO/GMP records isn't just about moving from paper to PDF. This article examines what the standards actually require and how to build a compliant digital records system."
 publishDate: 2025-09-24T00:00:00Z
 image: '~/assets/images/insights/iso-gmp-records-management.png'
-cover_image: '~/assets/images/insights/iso-gmp-document-management-digitalization/iso-05-og-cover-en.png'
-og_image: '~/assets/images/insights/iso-gmp-document-management-digitalization/iso-05-og-cover-en.png'
+cover_image: '/assets/images/insights/iso-gmp-document-management-digitalization/iso-05-og-cover-en.png'
+og_image: '/assets/images/insights/iso-gmp-document-management-digitalization/iso-05-og-cover-en.png'
 cover_image_alt: "ISO and GMP records management in a digital environment: control matters more than paper or digital format"
 category: 'business-operations'
 tags: ['ISO', 'GMP', 'Compliance', 'Records Management', 'Document Control']
@@ -53,7 +53,7 @@ ISO 9001, ISO 22000, and GMP standards all address "documented information" — 
 
 These are requirements about **information control and management** — not requirements about format (paper or digital). The standards don't say "must use paper" and they don't say "must use software." They say records must be controllable, retrievable, and protected.
 
-![Five records control principles under ISO and GMP, applying to both paper and digital](~/assets/images/insights/iso-gmp-document-management-digitalization/iso-01-control-principles-en.svg)
+![Five records control principles under ISO and GMP, applying to both paper and digital](/assets/images/insights/iso-gmp-document-management-digitalization/iso-01-control-principles-en.svg)
 
 *Note: Specific records requirements vary significantly across ISO 9001, ISO 22000, GMP variants (EU GMP, US FDA cGMP, etc.), FSSC 22000, and other standards. This article describes general principles — not legal interpretation of any specific standard.*
 
@@ -61,7 +61,7 @@ These are requirements about **information control and management** — not requ
 
 ## Limitations of uncontrolled paper and PDF approaches
 
-![Limitations of paper records and PDFs in uncontrolled folders](~/assets/images/insights/iso-gmp-document-management-digitalization/iso-02-paper-vs-uncontrolled-pdf-en.svg)
+![Limitations of paper records and PDFs in uncontrolled folders](/assets/images/insights/iso-gmp-document-management-digitalization/iso-02-paper-vs-uncontrolled-pdf-en.svg)
 
 Understanding the standard requirements makes it possible to analyze the risks of the most common approach: paper records or PDFs in shared folders without control mechanisms.
 
@@ -90,7 +90,7 @@ PDFs address some paper issues (easier to back up, easier to transmit) but creat
 
 ## What eQMS and digital document control provide
 
-![Mapping the risks of uncontrolled PDFs to the control mechanisms of an eQMS](~/assets/images/insights/iso-gmp-document-management-digitalization/iso-03-risk-to-control-mechanism-en.svg)
+![Mapping the risks of uncontrolled PDFs to the control mechanisms of an eQMS](/assets/images/insights/iso-gmp-document-management-digitalization/iso-03-risk-to-control-mechanism-en.svg)
 
 Document and quality management systems designed for compliance — a DMS with proper document control or an eQMS — address these limitations in a structured way.
 
@@ -108,7 +108,7 @@ Document and quality management systems designed for compliance — a DMS with p
 
 ## Specific requirements when digitalizing ISO/GMP records
 
-![Four considerations when digitalizing ISO/GMP records: validation, migration, backup and continuity](~/assets/images/insights/iso-gmp-document-management-digitalization/iso-04-four-considerations-en.svg)
+![Four considerations when digitalizing ISO/GMP records: validation, migration, backup and continuity](/assets/images/insights/iso-gmp-document-management-digitalization/iso-04-four-considerations-en.svg)
 
 When an organization decides to digitalize records, several specific requirements need to be addressed in the system design and implementation.
 

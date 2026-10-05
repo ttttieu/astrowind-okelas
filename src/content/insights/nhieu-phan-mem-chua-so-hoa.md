@@ -3,8 +3,8 @@ title: "Nhiều phần mềm không có nghĩa là doanh nghiệp đã số hóa
 description: "Nhiều doanh nghiệp đã đầu tư hàng chục phần mềm nhưng vẫn chưa thực sự số hóa. Vấn đề không phải là thiếu công cụ — mà là thiếu sự liên kết và strategy."
 publishDate: 2025-09-24T00:00:00Z
 image: '~/assets/images/insights/sw-04-og-cover-vi.png'
-cover_image: '~/assets/images/insights/nhieu-phan-mem-chua-so-hoa/sw-04-og-cover-vi.png'
-og_image: '~/assets/images/insights/nhieu-phan-mem-chua-so-hoa/sw-04-og-cover-vi.png'
+cover_image: '/assets/images/insights/nhieu-phan-mem-chua-so-hoa/sw-04-og-cover-vi.png'
+og_image: '/assets/images/insights/nhieu-phan-mem-chua-so-hoa/sw-04-og-cover-vi.png'
 cover_image_alt: "Nhiều phần mềm nhưng vẫn chưa số hóa: hệ thống rời rạc và vận hành thủ công"
 category: 'business-operations'
 tags: ['Phần mềm', 'Số hóa', 'Integration', 'Strategy']

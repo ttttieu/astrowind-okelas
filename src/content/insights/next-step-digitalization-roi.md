@@ -3,8 +3,8 @@ title: "The Next Economically Meaningful Digital Step: A Self-Assessment Framewo
 description: "Not every digital investment delivers equal value at every stage. This article provides a framework for CEOs to evaluate which next step makes the most sense for their organization."
 publishDate: 2025-09-24T00:00:00Z
 image: '~/assets/images/insights/next-step-digitalization.png'
-cover_image: '~/assets/images/insights/next-step-digitalization-roi/nx-05-og-cover-en.png'
-og_image: '~/assets/images/insights/next-step-digitalization-roi/nx-05-og-cover-en.png'
+cover_image: '/assets/images/insights/next-step-digitalization-roi/nx-05-og-cover-en.png'
+og_image: '/assets/images/insights/next-step-digitalization-roi/nx-05-og-cover-en.png'
 cover_image_alt: "The next economically meaningful digitalization step: five level steps with one highlighted as the next step, starting from the costliest problem"
 category: 'business-operations'
 tags: ['Digital Investment', 'ROI', 'Strategy', 'Decision Framework', 'Business Decision']
@@ -49,7 +49,7 @@ Neither type of answer starts from where the business actually stands.
 
 ## A necessary principle to establish first
 
-![Two common answers about the next digitalization investment, from vendors and from general advisors, neither starting from where the business stands; and the principle for choosing the right step](~/assets/images/insights/next-step-digitalization-roi/nx-01-two-answers-one-principle-en.svg)
+![Two common answers about the next digitalization investment, from vendors and from general advisors, neither starting from where the business stands; and the principle for choosing the right step](/assets/images/insights/next-step-digitalization-roi/nx-01-two-answers-one-principle-en.svg)
 
 Before the framework: **the right next step is not the most technologically advanced step — it's the step that solves the most specific problem at the most appropriate cost and complexity.**
 
@@ -66,7 +66,7 @@ There is no single correct answer. There is the most appropriate answer for the 
 
 ## The 4-question self-assessment framework
 
-![The four-question framework: the costliest problem, level and weakest dimension, conditions for success, and how value is measured over 6 to 12 months](~/assets/images/insights/next-step-digitalization-roi/nx-02-four-questions-en.svg)
+![The four-question framework: the costliest problem, level and weakest dimension, conditions for success, and how value is measured over 6 to 12 months](/assets/images/insights/next-step-digitalization-roi/nx-02-four-questions-en.svg)
 
 This isn't a ROI calculation formula. It's a set of questions for CEOs and leadership teams to work through before making an investment decision.
 
@@ -124,7 +124,7 @@ If specific metrics can't be identified — that's a signal that the step isn't 
 
 ## Mapping the next step to the current maturity level
 
-![Reference table of the next step that usually makes the most economic sense for each digitalization level, from paper-based operations to AI-assisted operations](~/assets/images/insights/next-step-digitalization-roi/nx-03-next-step-by-level-en.svg)
+![Reference table of the next step that usually makes the most economic sense for each digitalization level, from paper-based operations to AI-assisted operations](/assets/images/insights/next-step-digitalization-roi/nx-03-next-step-by-level-en.svg)
 
 Based on the 4-question framework and the 5 digitalization stages, a reference mapping table can be sketched — not as a rigid rule but as a starting point for discussion.
 
@@ -142,7 +142,7 @@ Based on the 4-question framework and the 5 digitalization stages, a reference m
 
 ## What makes an investment step genuinely economically meaningful
 
-![Three conditions for an economically meaningful digitalization step: solves a real problem, fits the foundation, creates measurable value; and the signal when each is missing](~/assets/images/insights/next-step-digitalization-roi/nx-04-three-conditions-en.svg)
+![Three conditions for an economically meaningful digitalization step: solves a real problem, fits the foundation, creates measurable value; and the signal when each is missing](/assets/images/insights/next-step-digitalization-roi/nx-04-three-conditions-en.svg)
 
 Synthesizing, the next economically meaningful step is one that simultaneously satisfies three conditions:
 

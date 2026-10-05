@@ -3,8 +3,8 @@ title: "The 5 Stages of Business Digitalization: Where Are You?"
 description: "Digitalization isn't binary — it's a multi-stage journey. This article helps executives identify where their business currently sits and what the next meaningful step is."
 publishDate: 2025-09-24T00:00:00Z
 image: '~/assets/images/insights/lv-04-og-cover-en.png'
-cover_image: '~/assets/images/insights/digital-maturity-levels/lv-04-og-cover-en.png'
-og_image: '~/assets/images/insights/digital-maturity-levels/lv-04-og-cover-en.png'
+cover_image: '/assets/images/insights/digital-maturity-levels/lv-04-og-cover-en.png'
+og_image: '/assets/images/insights/digital-maturity-levels/lv-04-og-cover-en.png'
 cover_image_alt: "Five stages of digitalization: from paper-based to AI-supported operations"
 category: 'business-operations'
 tags: ['Digitalization', 'Digital Maturity', 'Business Assessment', 'Manufacturing SME']

@@ -3,8 +3,8 @@ title: "ISO và GMP trong bối cảnh số hóa — những gì cần thay đ�
 description: "Số hóa hồ sơ ISO/GMP không chỉ là chuyển từ giấy sang PDF. Bài viết phân tích yêu cầu của tiêu chuẩn và cách xây dựng hệ thống quản lý hồ sơ phù hợp."
 publishDate: 2025-09-24T00:00:00Z
 image: '~/assets/images/insights/iso-gmp-records-management.png'
-cover_image: '~/assets/images/insights/so-hoa-ho-so-iso-gmp/iso-05-og-cover-vi.png'
-og_image: '~/assets/images/insights/so-hoa-ho-so-iso-gmp/iso-05-og-cover-vi.png'
+cover_image: '/assets/images/insights/so-hoa-ho-so-iso-gmp/iso-05-og-cover-vi.png'
+og_image: '/assets/images/insights/so-hoa-ho-so-iso-gmp/iso-05-og-cover-vi.png'
 cover_image_alt: "ISO và GMP trong bối cảnh số hóa: kiểm soát hồ sơ quan trọng hơn định dạng giấy hay số"
 category: 'business-operations'
 tags: ['ISO', 'GMP', 'Compliance', 'Quản lý hồ sơ', 'Document Control']
@@ -54,7 +54,7 @@ Các tiêu chuẩn ISO 9001, ISO 22000, và GMP đều có yêu cầu về "docu
 
 Đây là những yêu cầu về **kiểm soát và quản lý thông tin** — không phải yêu cầu về định dạng (giấy hay điện tử). Tiêu chuẩn không nói "phải dùng giấy" cũng không nói "phải dùng phần mềm". Tiêu chuẩn nói "hồ sơ phải có thể kiểm soát, truy xuất, và bảo vệ được."
 
-![Năm nguyên tắc kiểm soát hồ sơ theo ISO và GMP, áp dụng cho cả giấy và số](~/assets/images/insights/so-hoa-ho-so-iso-gmp/iso-01-control-principles-vi.svg)
+![Năm nguyên tắc kiểm soát hồ sơ theo ISO và GMP, áp dụng cho cả giấy và số](/assets/images/insights/so-hoa-ho-so-iso-gmp/iso-01-control-principles-vi.svg)
 
 *Lưu ý: Yêu cầu cụ thể về hồ sơ thay đổi đáng kể giữa ISO 9001, ISO 22000, các tiêu chuẩn GMP (EU GMP, US FDA cGMP, v.v.), FSSC 22000, và các tiêu chuẩn khác. Bài này nêu các nguyên tắc chung — không phải diễn giải pháp lý cho bất kỳ tiêu chuẩn cụ thể nào.*
 
@@ -62,7 +62,7 @@ Các tiêu chuẩn ISO 9001, ISO 22000, và GMP đều có yêu cầu về "docu
 
 ## Hạn chế của cách quản lý giấy và PDF không kiểm soát
 
-![Hạn chế của hồ sơ giấy và PDF trong thư mục không kiểm soát](~/assets/images/insights/so-hoa-ho-so-iso-gmp/iso-02-paper-vs-uncontrolled-pdf-vi.svg)
+![Hạn chế của hồ sơ giấy và PDF trong thư mục không kiểm soát](/assets/images/insights/so-hoa-ho-so-iso-gmp/iso-02-paper-vs-uncontrolled-pdf-vi.svg)
 
 Hiểu rõ yêu cầu tiêu chuẩn giúp phân tích được rủi ro của cách tiếp cận phổ biến: giấy tờ hoặc PDF trong folder chia sẻ không có cơ chế kiểm soát.
 
@@ -91,7 +91,7 @@ PDF giải quyết một số vấn đề của giấy (dễ backup, dễ gửi)
 
 ## Những gì eQMS và document control số hóa cung cấp
 
-![Ghép các rủi ro của PDF không kiểm soát với cơ chế kiểm soát của eQMS](~/assets/images/insights/so-hoa-ho-so-iso-gmp/iso-03-risk-to-control-mechanism-vi.svg)
+![Ghép các rủi ro của PDF không kiểm soát với cơ chế kiểm soát của eQMS](/assets/images/insights/so-hoa-ho-so-iso-gmp/iso-03-risk-to-control-mechanism-vi.svg)
 
 Hệ thống quản lý tài liệu và chất lượng được thiết kế cho compliance (DMS với document control hoặc eQMS) giải quyết những hạn chế trên theo cách có cấu trúc.
 
@@ -109,7 +109,7 @@ Hệ thống quản lý tài liệu và chất lượng được thiết kế ch
 
 ## Yêu cầu cụ thể khi số hóa hồ sơ ISO/GMP
 
-![Bốn điều cần tính tới khi số hóa hồ sơ ISO/GMP: validation, migration, backup và continuity](~/assets/images/insights/so-hoa-ho-so-iso-gmp/iso-04-four-considerations-vi.svg)
+![Bốn điều cần tính tới khi số hóa hồ sơ ISO/GMP: validation, migration, backup và continuity](/assets/images/insights/so-hoa-ho-so-iso-gmp/iso-04-four-considerations-vi.svg)
 
 Khi tổ chức quyết định số hóa hồ sơ, một số yêu cầu cụ thể cần được đảm bảo trong quá trình thiết kế và triển khai hệ thống.
 
