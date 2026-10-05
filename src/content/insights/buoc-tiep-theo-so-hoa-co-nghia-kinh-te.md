@@ -3,6 +3,9 @@ title: "Bước tiếp theo có nghĩa kinh tế là gì — framework tự đá
 description: "Không phải mọi đầu tư số hóa đều có giá trị như nhau ở mọi giai đoạn. Bài viết cung cấp framework để CEO tự đánh giá bước tiếp theo phù hợp nhất với doanh nghiệp."
 publishDate: 2025-09-24T00:00:00Z
 image: '~/assets/images/insights/next-step-digitalization.png'
+cover_image: '~/assets/images/insights/buoc-tiep-theo-so-hoa-co-nghia-kinh-te/nx-05-og-cover-vi.png'
+og_image: '~/assets/images/insights/buoc-tiep-theo-so-hoa-co-nghia-kinh-te/nx-05-og-cover-vi.png'
+cover_image_alt: "Bước tiếp theo của số hóa có ý nghĩa kinh tế: năm bậc cấp độ, một bậc được nhấn là bước tiếp theo, bắt đầu từ vấn đề tốn nhiều nhất"
 category: 'business-operations'
 tags: ['Đầu tư số hóa', 'ROI', 'Chiến lược', 'Framework quyết định', 'Kinh doanh']
 translationId: 'biz-ops-next-step-digitalization'
@@ -46,6 +49,8 @@ Cả hai loại câu trả lời đều không bắt đầu từ nơi doanh nghi
 
 ## Một nguyên tắc cần thiết lập trước
 
+![So sánh hai kiểu câu trả lời thường gặp về đầu tư số hóa tiếp theo, từ nhà cung cấp và từ tư vấn chung, đều không bắt đầu từ vị trí của doanh nghiệp; và nguyên tắc chọn bước phù hợp](~/assets/images/insights/buoc-tiep-theo-so-hoa-co-nghia-kinh-te/nx-01-two-answers-one-principle-vi.svg)
+
 Trước khi đi vào framework, cần thiết lập một nguyên tắc quan trọng: **bước tiếp theo đúng không phải là bước công nghệ cao nhất — mà là bước giải quyết vấn đề cụ thể nhất với chi phí và phức tạp phù hợp nhất.**
 
 Điều này có nghĩa:
@@ -60,6 +65,8 @@ Không có câu trả lời đúng duy nhất. Có câu trả lời phù hợp n
 ---
 
 ## Framework 4 câu hỏi để tự đánh giá
+
+![Framework bốn câu hỏi: vấn đề tốn nhiều nhất, cấp độ và chiều yếu nhất, điều kiện để thành công, cách đo giá trị trong 6 đến 12 tháng](~/assets/images/insights/buoc-tiep-theo-so-hoa-co-nghia-kinh-te/nx-02-four-questions-vi.svg)
 
 Framework này không phải công thức tính ROI. Đây là bộ câu hỏi để CEO và đội ngũ lãnh đạo thảo luận trước khi đưa ra quyết định đầu tư.
 
@@ -117,6 +124,8 @@ Nếu không xác định được chỉ số cụ thể — đó là tín hiệ
 
 ## Mapping bước tiếp theo theo giai đoạn hiện tại
 
+![Bảng tham khảo bước tiếp theo thường có ý nghĩa kinh tế cao nhất cho từng cấp độ số hóa, từ vận hành bằng giấy đến AI hỗ trợ vận hành](~/assets/images/insights/buoc-tiep-theo-so-hoa-co-nghia-kinh-te/nx-03-next-step-by-level-vi.svg)
+
 Dựa trên framework 4 câu hỏi và 5 giai đoạn số hóa, có thể phác thảo một bảng mapping tham khảo — không phải quy tắc cứng mà là điểm xuất phát để thảo luận.
 
 | Giai đoạn hiện tại (chiều yếu nhất) | Bước tiếp theo thường có ý nghĩa kinh tế cao nhất |
@@ -132,6 +141,8 @@ Dựa trên framework 4 câu hỏi và 5 giai đoạn số hóa, có thể phác
 ---
 
 ## Điều gì làm cho một bước đầu tư thực sự có ý nghĩa kinh tế
+
+![Ba điều kiện của một bước đầu tư số hóa có ý nghĩa kinh tế: giải quyết vấn đề thực, phù hợp nền tảng, tạo giá trị đo lường được; và tín hiệu khi thiếu từng điều kiện](~/assets/images/insights/buoc-tiep-theo-so-hoa-co-nghia-kinh-te/nx-04-three-conditions-vi.svg)
 
 Tổng hợp lại, bước tiếp theo có nghĩa kinh tế là bước thỏa mãn đồng thời ba điều kiện:
 
