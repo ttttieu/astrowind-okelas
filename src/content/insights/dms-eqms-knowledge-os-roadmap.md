@@ -3,6 +3,9 @@ title: "From DMS to eQMS to Knowledge OS: Your Digitalization Roadmap"
 description: "Businesses don't need to jump from paper to a complex system overnight. This article maps the progression from DMS to eQMS to Knowledge OS — and when each step makes sense."
 publishDate: 2025-09-24T00:00:00Z
 image: '~/assets/images/insights/dms-eqms-roadmap.png'
+cover_image: '/images/insights/dms-eqms-knowledge-os-roadmap/rm-05-og-cover-en.png'
+og_image: '/images/insights/dms-eqms-knowledge-os-roadmap/rm-05-og-cover-en.png'
+cover_image_alt: "From DMS to eQMS to Knowledge OS: your digitalization roadmap"
 category: 'business-operations'
 tags: ['DMS', 'eQMS', 'Knowledge OS', 'Roadmap', 'Quality System']
 translationId: 'biz-ops-dms-eqms-knowledge-os'
@@ -43,6 +46,8 @@ An organization that invests in a Knowledge OS before operational data has a con
 Conversely, an organization that stops at a DMS when it already needs eQMS continues depending on manual processes for things that could be automated.
 
 Understanding the progression leads to investing in the right step at the right time.
+
+![Three stages, three different problems: From DMS to eQMS to Knowledge OS](/images/insights/dms-eqms-knowledge-os-roadmap/rm-01-three-stages-three-problems-en.svg)
 
 ---
 
@@ -101,6 +106,8 @@ The core difference: an eQMS doesn't only store documents — it **connects docu
 
 **Traceability:** Ability to trace from finished product back to incoming raw materials, production processes, and inspection results — in a documented chain.
 
+![DMS vs eQMS: Document storage versus quality process management](/images/insights/dms-eqms-knowledge-os-roadmap/rm-02-dms-vs-eqms-en.svg)
+
 ### When eQMS is appropriate
 
 An eQMS is appropriate when:
@@ -137,6 +144,8 @@ This isn't only a document problem or a quality problem — it's a question of h
 
 **Cross-system intelligence:** Connecting data from ERP, QMS, and other sources to answer questions no single system can answer alone.
 
+![Knowledge OS organizational context: Connecting knowledge, processes, data, and decisions](/images/insights/dms-eqms-knowledge-os-roadmap/rm-03-knowledge-os-context-en.svg)
+
 ### When Knowledge OS is appropriate
 
 A Knowledge OS is appropriate when:
@@ -163,6 +172,8 @@ Key foundation requirements:
 | Nothing → DMS | Core documents exist in digital form (not just scanned PDFs) |
 | DMS → eQMS | Core processes documented; clear owners assigned |
 | eQMS → Knowledge OS | Quality data has consistent structure; ERP (if present) functioning well |
+
+![Progression principle: Extract value, hit limitations, build foundation](/images/insights/dms-eqms-knowledge-os-roadmap/rm-04-progression-principle-en.svg)
 
 ---
 
