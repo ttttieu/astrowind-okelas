@@ -3,8 +3,8 @@ title: "Từ DMS đến eQMS đến Knowledge OS — lộ trình số hóa từn
 description: "Doanh nghiệp không cần nhảy thẳng từ giấy tờ lên hệ thống phức tạp. Bài viết mô tả lộ trình từng bước: DMS → eQMS → Knowledge Operating System — và khi nào mỗi bước có ý nghĩa."
 publishDate: 2025-09-24T00:00:00Z
 image: '~/assets/images/insights/dms-eqms-roadmap.png'
-cover_image: '/images/insights/lo-trinh-dms-eqms-knowledge-os/rm-05-og-cover-vi.png'
-og_image: '/images/insights/lo-trinh-dms-eqms-knowledge-os/rm-05-og-cover-vi.png'
+cover_image: '~/assets/images/insights/lo-trinh-dms-eqms-knowledge-os/rm-05-og-cover-vi.png'
+og_image: '~/assets/images/insights/lo-trinh-dms-eqms-knowledge-os/rm-05-og-cover-vi.png'
 cover_image_alt: "Từ DMS đến eQMS đến Knowledge OS: lộ trình số hóa từng bước"
 category: 'business-operations'
 tags: ['DMS', 'eQMS', 'Knowledge OS', 'Lộ trình', 'Hệ thống chất lượng']
@@ -47,7 +47,7 @@ Ngược lại, một doanh nghiệp dừng lại ở DMS khi đã cần eQMS s�
 
 Hiểu lộ trình giúp đầu tư đúng bước, đúng thời điểm.
 
-![Ba giai đoạn, ba vấn đề khác nhau: Từ DMS đến eQMS đến Knowledge OS](/images/insights/lo-trinh-dms-eqms-knowledge-os/rm-01-three-stages-three-problems-vi.svg)
+![Ba giai đoạn, ba vấn đề khác nhau: Từ DMS đến eQMS đến Knowledge OS](~/assets/images/insights/lo-trinh-dms-eqms-knowledge-os/rm-01-three-stages-three-problems-vi.svg)
 
 ---
 
@@ -106,7 +106,7 @@ Sự khác biệt căn bản: eQMS không chỉ lưu tài liệu — eQMS **gắ
 
 **Traceability:** Có thể truy vết từ sản phẩm cuối về nguyên liệu đầu vào, quy trình sản xuất, và kết quả kiểm tra — theo chuỗi.
 
-![DMS vs eQMS: Lưu trữ tài liệu versus Quản lý quy trình chất lượng](/images/insights/lo-trinh-dms-eqms-knowledge-os/rm-02-dms-vs-eqms-vi.svg)
+![DMS vs eQMS: Lưu trữ tài liệu versus Quản lý quy trình chất lượng](~/assets/images/insights/lo-trinh-dms-eqms-knowledge-os/rm-02-dms-vs-eqms-vi.svg)
 
 ### Khi nào eQMS phù hợp
 
@@ -144,7 +144,7 @@ Knowledge OS giải quyết bài toán ở cấp tổ chức: *"Chúng ta có qu
 
 **Cross-system intelligence:** Kết nối dữ liệu từ ERP, QMS, và các nguồn khác để trả lời câu hỏi mà không hệ thống đơn lẻ nào có thể trả lời.
 
-![Knowledge OS ngữ cảnh tổ chức: Kết nối tri thức, quy trình, dữ liệu, và quyết định](/images/insights/lo-trinh-dms-eqms-knowledge-os/rm-03-knowledge-os-context-vi.svg)
+![Knowledge OS ngữ cảnh tổ chức: Kết nối tri thức, quy trình, dữ liệu, và quyết định](~/assets/images/insights/lo-trinh-dms-eqms-knowledge-os/rm-03-knowledge-os-context-vi.svg)
 
 ### Khi nào Knowledge OS phù hợp
 
@@ -173,7 +173,7 @@ Một nguyên tắc đơn giản để quyết định khi nào nên chuyển gi
 | DMS → eQMS | Quy trình chính đã được tài liệu hóa; có người phụ trách rõ ràng |
 | eQMS → Knowledge OS | Dữ liệu chất lượng có cấu trúc nhất quán; ERP (nếu có) đang hoạt động tốt |
 
-![Nguyên tắc chuyển giai đoạn: Khai thác đủ giá trị, gặp giới hạn, có nền tảng](/images/insights/lo-trinh-dms-eqms-knowledge-os/rm-04-progression-principle-vi.svg)
+![Nguyên tắc chuyển giai đoạn: Khai thác đủ giá trị, gặp giới hạn, có nền tảng](~/assets/images/insights/lo-trinh-dms-eqms-knowledge-os/rm-04-progression-principle-vi.svg)
 
 ---
 
