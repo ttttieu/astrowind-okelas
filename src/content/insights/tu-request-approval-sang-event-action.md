@@ -19,6 +19,9 @@ secondaryKeywords:
   - "workflow mô hình mới"
   - "next gen workflow"
 assessmentHref: /readiness/digitalization
+coverImage: '~/assets/images/insights/tu-request-approval-sang-event-action/wfr-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/tu-request-approval-sang-event-action/wfr-00-og-cover-vi.png'
+coverImageAlt: "Mô hình Request → Approval có bước chờ duyệt ở giữa; mô hình Event → Action đi thẳng tới hành động và chỉ gọi approval khi cần phán đoán."
 draft: false
 ---
 
@@ -55,9 +58,13 @@ Approval là một trong những dạng hàng đợi phổ biến nhất trong c
 
 Vấn đề không phải là approval "xấu" — approval thực sự cần thiết cho những quyết định có rủi ro hoặc cần phán đoán. Vấn đề là khi approval được áp dụng như một bước mặc định cho mọi trường hợp, nó biến thành một dạng hàng đợi không phân biệt, kéo dài thời gian xử lý mà không tạo thêm giá trị kiểm soát tương ứng.
 
+![Ba lý do approval tạo độ trễ: là bước mặc định thay vì có điều kiện, phụ thuộc lịch người duyệt thay vì độ khẩn, và không phân biệt mức rủi ro.](~/assets/images/insights/tu-request-approval-sang-event-action/wfr-02-why-approval-creates-latency-vi-dark.svg)
+
 ---
 
 ## Event → Action hoạt động khác thế nào
+
+![Mô hình Request → Approval đặt một bước chờ duyệt vào mọi trường hợp; mô hình Event → Action để hệ thống đánh giá sự kiện theo quy tắc định sẵn, hành động trực tiếp và chỉ chuyển approval cho ca cần phán đoán.](~/assets/images/insights/tu-request-approval-sang-event-action/wfr-01-request-approval-vs-event-action-vi-dark.svg)
 
 Mô hình Event → Action không loại bỏ approval — nó **định vị lại** approval theo mức độ rủi ro và mức độ ngoại lệ của từng trường hợp, thay vì áp dụng đồng loạt.
 
@@ -69,11 +76,15 @@ Cấu trúc cơ bản:
    - Nếu sự kiện nằm trong ngưỡng an toàn và khớp với tiền lệ rõ ràng → **hành động diễn ra trực tiếp**, không cần chờ duyệt, nhưng vẫn được ghi nhận đầy đủ evidence để kiểm chứng sau.
    - Nếu sự kiện vượt ngưỡng, không khớp tiền lệ, hoặc có mức rủi ro cao → **chuyển tới người có thẩm quyền phán đoán**, kèm đầy đủ ngữ cảnh để quyết định nhanh hơn.
 
+![Sự kiện được đánh giá theo quy tắc và ngưỡng định sẵn: ca trong ngưỡng, khớp tiền lệ thì hành động trực tiếp và ghi evidence; ca vượt ngưỡng hoặc rủi ro cao thì chuyển người có thẩm quyền kèm ngữ cảnh.](~/assets/images/insights/tu-request-approval-sang-event-action/wfr-03-conditional-approval-branch-vi-dark.svg)
+
 Điểm khác biệt quan trọng nhất so với mô hình cũ: **approval không còn là một bước cố định trong chuỗi, mà là một nhánh có điều kiện.** Phần lớn trường hợp (thường là những trường hợp lặp lại, giá trị thấp, rủi ro thấp) đi thẳng tới hành động. Chỉ phần thiểu số thực sự cần phán đoán mới đi qua approval.
 
 ---
 
 ## Ví dụ thực tế trong vận hành
+
+![Ba ví dụ vận hành: mua hàng định kỳ, đổi trả khách hàng và điều chỉnh lịch sản xuất, mỗi ví dụ có ca đi thẳng tới hành động và ca chuyển lên người có thẩm quyền.](~/assets/images/insights/tu-request-approval-sang-event-action/wfr-04-three-examples-vi-dark.svg)
 
 **Mua hàng định kỳ.** Một đơn đặt hàng nguyên liệu lặp lại, đúng nhà cung cấp thường dùng, trong hạn mức đã phê duyệt trước — có thể được xử lý và gửi đi ngay khi sự kiện "tồn kho xuống ngưỡng" xảy ra, không cần một người duyệt lại từ đầu mỗi lần. Ngược lại, một đơn hàng với nhà cung cấp mới, hoặc vượt hạn mức thông thường, vẫn cần được chuyển tới người có thẩm quyền.
 
@@ -86,6 +97,8 @@ Trong cả ba ví dụ, nguyên tắc chung là: **quy tắc và ngưỡng đư�
 ---
 
 ## Điều kiện chuyển đổi
+
+![Ba điều kiện chuyển đổi: đủ lịch sử để xác định tiền lệ, người có thẩm quyền quyết định trước, và giám sát sau; nên bắt đầu từ quyết định giá trị thấp, tần suất cao, tiền lệ rõ.](~/assets/images/insights/tu-request-approval-sang-event-action/wfr-05-three-conditions-vi-dark.svg)
 
 Chuyển từ Request/Approval sang Event/Action không phải việc bật một công tắc — nó đòi hỏi ba điều kiện:
 

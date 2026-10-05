@@ -19,6 +19,9 @@ secondaryKeywords:
   - "event-driven operations"
   - "workflow paradigm shift"
 assessmentHref: /en/readiness/digitalization
+coverImage: '~/assets/images/insights/request-approval-to-event-action-workflow/wfr-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/request-approval-to-event-action-workflow/wfr-00-og-cover-en.png'
+coverImageAlt: "Request → Approval has a wait-for-approval step in the middle; Event → Action goes straight to action and calls approval only when judgment is needed."
 draft: false
 ---
 
@@ -55,9 +58,13 @@ Approval is one of the most common forms of queue in office and operational proc
 
 The problem isn't that approval is "bad" — approval is genuinely necessary for decisions that carry risk or require judgment. The problem is that when approval is applied as a default step for every case, it turns into an undifferentiated queue, extending processing time without adding proportional control value.
 
+![Three reasons approval creates latency: it is a default rather than a conditional step, it depends on the approver's schedule rather than urgency, and it does not differentiate risk.](~/assets/images/insights/request-approval-to-event-action-workflow/wfr-02-why-approval-creates-latency-en-dark.svg)
+
 ---
 
 ## How Event → Action Works Differently
+
+![Request → Approval puts a wait-for-approval step into every case; Event → Action lets the system assess an event against pre-defined rules, act directly and route only cases needing judgment to approval.](~/assets/images/insights/request-approval-to-event-action-workflow/wfr-01-request-approval-vs-event-action-en-dark.svg)
 
 The Event → Action model doesn't remove approval — it **repositions** it based on the risk and exception level of each specific case, instead of applying it uniformly.
 
@@ -69,11 +76,15 @@ The basic structure:
    - If the event falls within a safe threshold and matches a clear precedent → **action proceeds directly**, with no wait for approval, but still fully recorded with evidence for later verification.
    - If the event exceeds the threshold, doesn't match precedent, or carries high risk → **it routes to the person with the authority to judge it**, with full context attached so they can decide faster.
 
+![An event is assessed against pre-defined rules and thresholds: cases within threshold and matching precedent act directly with evidence recorded; cases beyond threshold or high risk go to an authorized person with context.](~/assets/images/insights/request-approval-to-event-action-workflow/wfr-03-conditional-approval-branch-en-dark.svg)
+
 The most important difference from the old model: **approval is no longer a fixed step in the chain — it's a conditional branch.** Most cases (typically repetitive, low-value, low-risk ones) go straight to action. Only the minority that genuinely require judgment go through approval.
 
 ---
 
 ## Real-World Examples
+
+![Three operational examples: recurring purchasing, customer refunds and production scheduling, each with cases that go straight to action and cases escalated to a decision-maker.](~/assets/images/insights/request-approval-to-event-action-workflow/wfr-04-three-examples-en-dark.svg)
 
 **Recurring purchasing.** A repeat order for raw materials, from the usual supplier, within a pre-approved limit, can be processed and sent the moment the "inventory below threshold" event fires — without a person re-approving it from scratch every time. By contrast, an order involving a new supplier, or exceeding the usual limit, still routes to someone with the authority to decide.
 
@@ -86,6 +97,8 @@ Across all three examples, the shared principle is: **the rules and thresholds a
 ---
 
 ## What It Takes to Make the Shift
+
+![Three conditions for the shift: enough history to define precedent, authorized people willing to decide in advance, and post-hoc review; start with low-value, high-frequency decisions with clear precedent.](~/assets/images/insights/request-approval-to-event-action-workflow/wfr-05-three-conditions-en-dark.svg)
 
 Moving from Request/Approval to Event/Action isn't a switch you flip — it requires three conditions:
 
