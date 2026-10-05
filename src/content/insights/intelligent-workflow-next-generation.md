@@ -23,6 +23,9 @@ secondaryKeywords:
   - "agentic workflow"
   - "workflow optimization"
 assessmentHref: /en/readiness/digitalization
+coverImage: '~/assets/images/insights/intelligent-workflow-next-generation/wf-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/intelligent-workflow-next-generation/wf-00-og-cover-en.png'
+coverImageAlt: "A chain of steps started by people set against an event that triggers several context-aware branches."
 draft: false
 ---
 
@@ -73,6 +76,8 @@ But approval workflow only covers a thin slice of operations: **who signs, and w
 
 **End-to-end workflow** is the next step: a process modeled from start to finish, crossing departments, systems and evidence types — for example, from a customer quality complaint, through root-cause investigation, through corrective action, to closing the record and updating the related SOP.
 
+![Approval workflow covers only who signs and when; end-to-end workflow follows the whole lifecycle of a business event, from a quality complaint to an SOP update.](/assets/images/insights/intelligent-workflow-next-generation/wf-01-approval-vs-end-to-end-en.png)
+
 The key differences:
 
 | Approval workflow | End-to-end workflow |
@@ -92,6 +97,8 @@ A company can have dozens of approval workflows and still have no complete end-t
 
 Examples of events: a sensor reading crosses a threshold, an order gets returned, an ISO certificate is nearing expiry, a key employee resigns, a currency movement exceeds a contractual limit.
 
+![Event-driven workflow asks what just happened instead of who does the next step, and only works once events are defined consistently and process and data readiness are in place.](/assets/images/insights/intelligent-workflow-next-generation/wf-02-event-driven-gate-en.png)
+
 The core difference from traditional workflow:
 
 - **Traditional workflow asks:** "Who needs to do the next step?"
@@ -109,6 +116,8 @@ That's why event-driven workflow isn't a starting point — it's a destination r
 
 This is the question many SME leaders are asking — but it's often answered too early, with a product ("buy a chatbot," "add AI to the ERP") instead of a position in the workflow.
 
+![Four places AI can take part in a workflow, in order of increasing risk: preparing context, suggesting actions, handling repetitive cases, proactively initiating action.](/assets/images/insights/intelligent-workflow-next-generation/wf-03-ai-positions-en.png)
+
 There are four places AI can participate, in order of increasing risk:
 
 1. **Summarizing and preparing context for a workflow step** — for example, summarizing a supplier's history before an approver reviews a request. AI doesn't decide anything; it prepares context. Low risk.
@@ -125,6 +134,8 @@ For a manufacturing SME, the real question isn't "should we get to level 4." It'
 ---
 
 ## 5. From Workflow Automation to Agentic Workflow
+
+![Rule-based automation differs from agentic workflow in that agents plan and use tools, so they need organizational context, traceable evidence and human checkpoints.](/assets/images/insights/intelligent-workflow-next-generation/wf-04-automation-vs-agentic-en.png)
 
 There's an important boundary that marketing content tends to blur:
 
@@ -148,6 +159,8 @@ A related Deloitte survey on generative AI adoption shows a similarly divided pi
 
 ## 6. A Workflow Maturity Roadmap
 
+![Five workflow maturity levels from digitized to governed agentic; do not jump straight from approval workflow to agentic workflow.](/assets/images/insights/intelligent-workflow-next-generation/wf-05-maturity-ladder-en.png)
+
 No company should jump straight from approval workflow to agentic workflow. A sensible path looks like this:
 
 **Level 1 — Digitized workflow.** Paper processes become electronic forms and basic approval chains. Goal: capture data, stop losing paperwork.
@@ -165,6 +178,8 @@ For most manufacturing SMEs, the honest current position sits somewhere between 
 ---
 
 ## Self-Assessment: Where Does Your Organization Stand?
+
+![Eight signs a workflow is stuck at an earlier generation; five or more means the issue is workflow architecture, not a missing tool.](/assets/images/insights/intelligent-workflow-next-generation/wf-06-self-check-8-signs-en.png)
 
 If your company shows **5 or more of the 8 signs** below, the issue is likely not a missing workflow tool — it's the architecture and maturity of the workflow you already have:
 
