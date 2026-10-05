@@ -18,6 +18,9 @@ secondaryKeywords:
   - "why teams use email for status updates"
   - "workflow transparency"
 assessmentHref: /en/readiness/digitalization
+coverImage: '~/assets/images/insights/email-spreadsheet-work-tracking/wft-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/email-spreadsheet-work-tracking/wft-00-og-cover-en.png'
+coverImageAlt: "The official system records status, while a parallel tracking system of Excel, email and chat grows to fill the gap."
 draft: false
 ---
 
@@ -31,6 +34,8 @@ If that sounds familiar, it's worth stopping to ask: **why doesn't a system you'
 
 ## What a Visibility Gap Looks Like
 
+![A visibility gap is the space between what a system records and what people need to know, so they build a parallel tracking system in Excel, email and chat.](~/assets/images/insights/email-spreadsheet-work-tracking/wft-01-visibility-gap-en-dark.svg)
+
 A visibility gap is the space between **what a system records** and **what people actually need to know to do their work**. A workflow system might capture the full status of every step — approved, pending, waiting on whom. But if that information isn't easy to find, lacks context, or isn't displayed the way people actually need it, they'll build a parallel tracking system to compensate — usually a spreadsheet or an email thread.
 
 An important distinction: this isn't because employees distrust the technology or prefer manual work. It's a rational response to a formal system that doesn't provide what they need, when they need it.
@@ -38,6 +43,8 @@ An important distinction: this isn't because employees distrust the technology o
 ---
 
 ## Why Workflow Tools Often Leave This Gap
+
+![Three reasons workflow tools fall short: they show only their own status, are slow to scan, and do not alert; employees compensate with Excel, scanning a sheet, or asking by email and chat.](~/assets/images/insights/email-spreadsheet-work-tracking/wft-02-three-reasons-en-dark.svg)
 
 Many workflow tools are designed to manage **one approval step**, not to manage **the whole picture of someone's work**.
 
@@ -51,6 +58,8 @@ Three common reasons this gap shows up:
 
 ## Three Signs Your Workflow Lacks Visibility
 
+![Three signs of missing visibility: a personal tracking spreadsheet, frequent where-does-this-stand questions, and no way to see an absent colleague's work status.](~/assets/images/insights/email-spreadsheet-work-tracking/wft-03-three-signs-en-dark.svg)
+
 Your company may be facing a visibility gap if:
 
 - At least one employee maintains a personal spreadsheet just to track work status — running alongside the official system.
@@ -62,6 +71,8 @@ If all three are true, the problem isn't that employees haven't learned the soft
 ---
 
 ## What to Do About It
+
+![Visibility is a criterion for whether a workflow serves its users, not a feature to add or a habit to drop through willpower.](~/assets/images/insights/email-spreadsheet-work-tracking/wft-04-criterion-not-feature-en-dark.svg)
 
 Visibility isn't a feature to bolt on — it's a criterion for judging whether your current workflow actually serves the people using it. A system with real visibility makes maintaining a personal spreadsheet unnecessary, rather than requiring employees to give up the habit through willpower alone.
 

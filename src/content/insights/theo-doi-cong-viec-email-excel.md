@@ -18,6 +18,9 @@ secondaryKeywords:
   - "workflow visibility"
   - "theo dõi tiến độ công việc"
 assessmentHref: /readiness/digitalization
+coverImage: '~/assets/images/insights/theo-doi-cong-viec-email-excel/wft-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/theo-doi-cong-viec-email-excel/wft-00-og-cover-vi.png'
+coverImageAlt: "Hệ thống chính thức ghi nhận trạng thái, trong khi một hệ thống theo dõi song song gồm Excel, email và Zalo mọc lên để lấp khoảng trống."
 draft: false
 ---
 
@@ -31,6 +34,8 @@ Nếu điều này nghe quen thuộc, đáng để dừng lại và hỏi: **t�
 
 ## Visibility gap là gì
 
+![Visibility gap là khoảng trống giữa những gì hệ thống ghi nhận và những gì người dùng cần biết, nên họ tự lập hệ thống theo dõi song song bằng Excel, email, Zalo.](~/assets/images/insights/theo-doi-cong-viec-email-excel/wft-01-visibility-gap-vi-dark.svg)
+
 Visibility gap là khoảng trống giữa **những gì hệ thống ghi nhận** và **những gì người thực sự cần biết để làm việc**. Hệ thống workflow có thể lưu đầy đủ trạng thái của mỗi bước — đã duyệt, chưa duyệt, đang chờ ai. Nhưng nếu thông tin đó không dễ tra cứu, không đủ ngữ cảnh, hoặc không hiển thị theo cách người dùng thực sự cần, họ sẽ tự tạo ra một hệ thống theo dõi song song — thường là Excel hoặc email — để bù đắp.
 
 Điều quan trọng cần phân biệt: đây không phải vì nhân viên không tin tưởng công nghệ, hay thích làm việc thủ công hơn. Đó là phản ứng hợp lý khi hệ thống chính thức không cung cấp đủ những gì họ cần, đúng lúc họ cần.
@@ -38,6 +43,8 @@ Visibility gap là khoảng trống giữa **những gì hệ thống ghi nhận
 ---
 
 ## Tại sao workflow tool chưa đủ
+
+![Ba lý do workflow tool chưa đủ: chỉ thấy trạng thái của riêng nó, không tiện nhìn nhanh, không chủ động báo; nhân viên bù lại bằng Excel, lướt bảng hoặc hỏi qua email và chat.](~/assets/images/insights/theo-doi-cong-viec-email-excel/wft-02-three-reasons-vi-dark.svg)
 
 Nhiều phần mềm workflow được thiết kế để quản lý **một bước duyệt**, không phải để quản lý **cả bức tranh công việc** của một người hay một nhóm.
 
@@ -51,6 +58,8 @@ Ba lý do phổ biến khiến khoảng trống này xuất hiện:
 
 ## Ba dấu hiệu thiếu workflow visibility
 
+![Ba dấu hiệu thiếu visibility: có file Excel theo dõi riêng, câu hỏi việc này tới đâu rồi xuất hiện thường xuyên, và không tra cứu được việc của người nghỉ phép.](~/assets/images/insights/theo-doi-cong-viec-email-excel/wft-03-three-signs-vi-dark.svg)
+
 Doanh nghiệp bạn có thể đang gặp visibility gap nếu:
 
 - Có ít nhất một nhân viên duy trì một file Excel riêng chỉ để theo dõi trạng thái công việc — song song với phần mềm chính thức.
@@ -62,6 +71,8 @@ Nếu cả ba điều này đều đúng, vấn đề không nằm ở việc nh
 ---
 
 ## Kết luận
+
+![Visibility là tiêu chí đánh giá workflow có phục vụ người dùng hay không, thay vì tính năng cần thêm hoặc yêu cầu nhân viên bỏ Excel bằng ý chí.](~/assets/images/insights/theo-doi-cong-viec-email-excel/wft-04-criterion-not-feature-vi-dark.svg)
 
 Visibility không phải một tính năng cần thêm vào — nó là một tiêu chí cần đánh giá khi xem xét workflow hiện tại có thực sự phục vụ người dùng hay không. Một hệ thống có visibility tốt sẽ khiến việc "tự làm Excel riêng để theo dõi" trở nên không cần thiết, chứ không phải yêu cầu nhân viên bỏ thói quen đó bằng ý chí.
 
