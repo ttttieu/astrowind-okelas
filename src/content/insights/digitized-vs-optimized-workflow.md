@@ -19,6 +19,9 @@ secondaryKeywords:
   - "beyond workflow software"
   - "process improvement"
 assessmentHref: /en/readiness/digitalization
+coverImage: '~/assets/images/insights/digitized-vs-optimized-workflow/wfo-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/digitized-vs-optimized-workflow/wfo-00-og-cover-en.png'
+coverImageAlt: "Three panels — paper, digitized and optimized: the first two share one sequential chain, the third is a chain with merged, parallel steps."
 draft: false
 ---
 
@@ -45,6 +48,8 @@ This article separates two concepts that get conflated constantly — **digitize
 
 ## What Digitizing Workflow Actually Achieves
 
+![Digitization changes the medium from paper and email to software but does not change the operating logic of the workflow.](~/assets/images/insights/digitized-vs-optimized-workflow/wfo-01-medium-vs-logic-en.svg)
+
 Digitization solves exactly one problem, and only that problem: *how information is stored and moved*.
 
 Gartner's Glossary defines digitization as the process of converting a process from analog to digital form without a different-in-kind change to the process itself — in other words, digitization changes the *medium*, not the *operating logic*.
@@ -64,6 +69,8 @@ These are genuine, worthwhile improvements. The problem isn't that digitization 
 
 Digitization doesn't automatically improve speed, decision quality, or a process's ability to handle exceptions — because it doesn't touch the process's *logic*.
 
+![Automate vs obliterate: digitization computerizes the old process; redesign asks whether the old process still needs to exist.](~/assets/images/insights/digitized-vs-optimized-workflow/wfo-02-automate-vs-obliterate-en.svg)
+
 This is precisely the observation Michael Hammer made in his classic 1990 Harvard Business Review article, "Reengineering Work: Don't Automate, Obliterate." He argued that large IT investments were often disappointing because companies tended to **computerize the old way of doing things** — keeping the process intact and simply using computers to run it faster — instead of redesigning the process itself. That observation is more than three decades old, but it describes almost exactly what's repeating today with the current wave of workflow digitization in many companies.
 
 Specifically, digitization **does not, by itself, change**:
@@ -73,11 +80,15 @@ Specifically, digitization **does not, by itself, change**:
 3. **How exceptions get handled.** If exceptions used to be resolved by "calling the boss," they still get resolved that way after digitization — there's simply a system running in parallel that never gets used for those cases.
 4. **How much context travels with each step.** An electronic form, like a paper one, usually contains only the fields it was designed to capture — it doesn't automatically carry forward the reasoning, history, or related factors from the step before it.
 
+![Four things digitization doesn't change: the number and order of steps, decision authority, how exceptions are handled, and the context carried through each step.](~/assets/images/insights/digitized-vs-optimized-workflow/wfo-03-four-unchanged-en.svg)
+
 If the underlying process had problems — too many unnecessary steps, misaligned authority, no real mechanism for exceptions — digitization will **preserve and accelerate those exact problems** rather than remove them. This is why so many companies that have "finished digitizing" still find the process just as slow and rigid as before.
 
 ---
 
 ## What Optimized Workflow Requires
+
+![Three layers optimized workflow requires beyond digitization: redesigned process flow, context carried through every step, and a defined path for exceptions.](~/assets/images/insights/digitized-vs-optimized-workflow/wfo-04-three-layers-en.svg)
 
 If digitization only changes the medium, then optimization (digitalization, in Gartner's precise sense — using digital technology to change how a process actually operates) requires three additional layers:
 
@@ -94,6 +105,8 @@ None of these three layers come from buying a better workflow tool. They come fr
 ---
 
 ## A Framework: Where Does Your Workflow Actually Sit?
+
+![Four diagnostic questions to determine whether a workflow has stopped at digitization or has genuinely moved toward optimization.](~/assets/images/insights/digitized-vs-optimized-workflow/wfo-05-four-question-diagnostic-en.svg)
 
 Four questions can help pinpoint whether a specific workflow has stopped at digitization or has genuinely moved toward optimization:
 
