@@ -76,7 +76,7 @@ Nhưng approval workflow chỉ giải quyết một lát cắt rất mỏng củ
 
 **End-to-end workflow** là bước tiếp theo: một quy trình được mô hình hóa từ đầu đến cuối, xuyên qua nhiều phòng ban, nhiều hệ thống, nhiều loại evidence — ví dụ: từ lúc khách hàng khiếu nại chất lượng, đến điều tra nguyên nhân, đến hành động khắc phục, đến việc đóng hồ sơ và cập nhật SOP liên quan.
 
-![Approval workflow chỉ phủ phần ai ký và khi nào; end-to-end workflow đi hết vòng đời của một sự kiện nghiệp vụ, từ khiếu nại chất lượng đến cập nhật SOP.](~/assets/images/insights/workflow-thong-minh-the-he-moi/wf-01-approval-vs-end-to-end-vi.png)
+![Approval workflow chỉ phủ phần ai ký và khi nào; end-to-end workflow đi hết vòng đời của một sự kiện nghiệp vụ, từ khiếu nại chất lượng đến cập nhật SOP.](~/assets/images/insights/workflow-thong-minh-the-he-moi/wf-01-approval-vs-end-to-end-vi.svg)
 
 Sự khác biệt quan trọng:
 
@@ -97,7 +97,7 @@ Một doanh nghiệp có thể có hàng chục approval workflow nhưng vẫn k
 
 Ví dụ về sự kiện: một cảm biến ghi nhận nhiệt độ vượt ngưỡng; một đơn hàng bị trả lại; một chứng chỉ ISO sắp hết hạn; một nhân sự chủ chốt nộp đơn nghỉ việc; một biến động tỷ giá vượt mức cho phép trong hợp đồng.
 
-![Event-driven workflow hỏi sự kiện gì vừa xảy ra thay vì ai làm bước tiếp theo, và chỉ phát huy khi tổ chức đã định nghĩa nhất quán sự kiện và đã sẵn sàng về quy trình, dữ liệu.](~/assets/images/insights/workflow-thong-minh-the-he-moi/wf-02-event-driven-gate-vi.png)
+![Event-driven workflow hỏi sự kiện gì vừa xảy ra thay vì ai làm bước tiếp theo, và chỉ phát huy khi tổ chức đã định nghĩa nhất quán sự kiện và đã sẵn sàng về quy trình, dữ liệu.](~/assets/images/insights/workflow-thong-minh-the-he-moi/wf-02-event-driven-gate-vi.svg)
 
 Điểm khác biệt cốt lõi so với workflow truyền thống:
 
@@ -116,7 +116,7 @@ Ví dụ về sự kiện: một cảm biến ghi nhận nhiệt độ vượt n
 
 Đây là câu hỏi mà nhiều C-level SME đang đặt ra, nhưng thường được trả lời quá sớm bằng một sản phẩm cụ thể ("mua chatbot", "tích hợp AI vào ERP") thay vì trả lời bằng **vị trí trong workflow**.
 
-![Bốn vị trí AI có thể tham gia workflow, sắp theo rủi ro tăng dần: chuẩn bị context, gợi ý hành động, tự xử lý ca lặp lại, chủ động khởi tạo hành động.](~/assets/images/insights/workflow-thong-minh-the-he-moi/wf-03-ai-positions-vi.png)
+![Bốn vị trí AI có thể tham gia workflow, sắp theo rủi ro tăng dần: chuẩn bị context, gợi ý hành động, tự xử lý ca lặp lại, chủ động khởi tạo hành động.](~/assets/images/insights/workflow-thong-minh-the-he-moi/wf-03-ai-positions-vi.svg)
 
 Có bốn vị trí AI có thể tham gia, theo mức độ rủi ro tăng dần:
 
@@ -135,7 +135,7 @@ Vấn đề với manufacturing SME không phải là "có nên đi đến mức
 
 ## 5. Từ workflow automation đến agentic workflow
 
-![Automation theo quy tắc cố định khác agentic workflow ở chỗ agent lập kế hoạch và dùng công cụ, nên cần ngữ cảnh tổ chức, evidence truy vết được và điểm dừng con người.](~/assets/images/insights/workflow-thong-minh-the-he-moi/wf-04-automation-vs-agentic-vi.png)
+![Automation theo quy tắc cố định khác agentic workflow ở chỗ agent lập kế hoạch và dùng công cụ, nên cần ngữ cảnh tổ chức, evidence truy vết được và điểm dừng con người.](~/assets/images/insights/workflow-thong-minh-the-he-moi/wf-04-automation-vs-agentic-vi.svg)
 
 Có một ranh giới quan trọng cần phân biệt rõ, vì nó thường bị gộp chung trong các bài viết marketing:
 
@@ -159,7 +159,7 @@ Một khảo sát khác của Deloitte về mức độ ứng dụng generative 
 
 ## 6. Lộ trình workflow maturity
 
-![Năm level workflow maturity từ digitized đến agentic có kiểm soát; không nhảy thẳng từ approval workflow lên agentic workflow.](~/assets/images/insights/workflow-thong-minh-the-he-moi/wf-05-maturity-ladder-vi.png)
+![Năm level workflow maturity từ digitized đến agentic có kiểm soát; không nhảy thẳng từ approval workflow lên agentic workflow.](~/assets/images/insights/workflow-thong-minh-the-he-moi/wf-05-maturity-ladder-vi.svg)
 
 Không doanh nghiệp nào nên nhảy thẳng từ approval workflow lên agentic workflow. Có một lộ trình hợp lý:
 
@@ -179,7 +179,7 @@ Với phần lớn manufacturing SME tại Việt Nam, vị trí thực tế th�
 
 ## Tự đánh giá: doanh nghiệp bạn đang ở đâu?
 
-![Tám dấu hiệu cho thấy workflow dừng ở thế hệ cũ; từ 5/8 dấu hiệu trở lên thì vấn đề nằm ở kiến trúc workflow, không phải thiếu công cụ.](~/assets/images/insights/workflow-thong-minh-the-he-moi/wf-06-self-check-8-signs-vi.png)
+![Tám dấu hiệu cho thấy workflow dừng ở thế hệ cũ; từ 5/8 dấu hiệu trở lên thì vấn đề nằm ở kiến trúc workflow, không phải thiếu công cụ.](~/assets/images/insights/workflow-thong-minh-the-he-moi/wf-06-self-check-8-signs-vi.svg)
 
 Nếu doanh nghiệp của bạn có từ **5/8 dấu hiệu** dưới đây, vấn đề nhiều khả năng không nằm ở việc thiếu công cụ workflow, mà ở kiến trúc và mức độ trưởng thành của workflow hiện tại:
 
