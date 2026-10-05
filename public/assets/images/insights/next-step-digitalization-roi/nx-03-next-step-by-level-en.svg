@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 690" width="1200" height="690" role="img" aria-label="Reference table of the next step that usually makes the most economic sense for each digitalization level, from paper-based operations to AI-assisted operations"><style>
+  :root{--p:1 97 239;--s:1 84 207;--a:109 40 217;--bg:255 255 255;--tx:0 0 0;--mut:16 16 16;--line:16 16 16}
+  @media (prefers-color-scheme: dark){:root{--bg:8 9 10;--tx:247 248 248;--mut:229 236 246;--line:229 236 246}}
+  text{font-family:Inter,Roboto,'Segoe UI',system-ui,-apple-system,Arial,sans-serif}
+  .bg{fill:rgb(var(--bg))}
+  .title{font-size:32px;font-weight:700;fill:rgb(var(--tx))}
+  .big{font-size:50px;font-weight:700;fill:rgb(var(--tx))}
+  .subtitle{font-size:17px;fill:rgb(var(--mut)/.66)}
+  .term{font-size:16px;font-weight:700;fill:rgb(var(--tx))}
+  .h2{font-size:19px;font-weight:700;fill:rgb(var(--tx))}
+  .lbl{font-size:11.5px;font-weight:600;letter-spacing:.08em;fill:rgb(var(--mut)/.66)}
+  .desc{font-size:13.5px;fill:rgb(var(--mut)/.85)}
+  .body{font-size:14.5px;fill:rgb(var(--mut)/.88)}
+  .mut{font-size:13px;fill:rgb(var(--mut)/.66)}
+  .val{font-size:15px;font-weight:600;fill:rgb(var(--tx))}
+  .foot{font-size:13px;fill:rgb(var(--mut)/.5)}
+  .chip{font-size:12px;font-weight:700;letter-spacing:.06em}
+  .g1 .box{fill:rgb(var(--p)/.08);stroke:rgb(var(--p))}
+  .g2 .box{fill:rgb(var(--s)/.12);stroke:rgb(var(--s))}
+  .g3 .box{fill:rgb(var(--a)/.09);stroke:rgb(var(--a))}
+  .g1 .bar{fill:rgb(var(--p))}.g2 .bar{fill:rgb(var(--s))}.g3 .bar{fill:rgb(var(--a))}
+  .g1 .acc{fill:rgb(var(--p))}.g2 .acc{fill:rgb(var(--s))}.g3 .acc{fill:rgb(var(--a))}
+  .box{stroke-width:1.5}
+  .card{fill:rgb(var(--bg));stroke:rgb(var(--line)/.2);stroke-width:1.5}
+  .soft{fill:rgb(var(--line)/.05)}
+  .ghost{fill:rgb(var(--line)/.22)}
+  .rule{stroke:rgb(var(--line)/.45);stroke-width:2;fill:none}
+  .ring{stroke:rgb(var(--line)/.18);stroke-width:1;fill:none}
+  .axis{stroke:rgb(var(--line)/.18);stroke-width:1}
+  .poly{fill:rgb(var(--p)/.18);stroke:rgb(var(--p));stroke-width:2.5;stroke-linejoin:round}
+  .dot{fill:rgb(var(--p));stroke:rgb(var(--bg));stroke-width:2}
+  .ah{fill:rgb(var(--line)/.45)}
+  .chipbox{fill:rgb(var(--a)/.12);stroke:rgb(var(--a));stroke-width:1.2}
+  .chiptx{fill:rgb(var(--a))}
+  .blue{fill:rgb(var(--p))}.purp{fill:rgb(var(--a))}
+  .ok{fill:rgb(var(--p)/.10);stroke:rgb(var(--p));stroke-width:1.5}
+  .pr{fill:rgb(var(--a)/.10);stroke:rgb(var(--a));stroke-width:1.5}
+  .final{fill:rgb(var(--tx));}
+  .finaltx{font-size:18px;font-weight:700;fill:rgb(var(--bg))}
+  @media (prefers-color-scheme: dark){
+    .g1 .box{fill:rgb(var(--p)/.18)}.g2 .box{fill:rgb(var(--s)/.22)}.g3 .box{fill:rgb(var(--a)/.2)}
+    .chiptx{fill:rgb(167 139 250)}.chipbox{stroke:rgb(167 139 250)}.purp{fill:rgb(167 139 250)}.pr{stroke:rgb(167 139 250)}
+    .g3 .acc{fill:rgb(167 139 250)}
+  }
+</style><style>
+  .tool{fill:rgb(var(--line)/.06);stroke:rgb(var(--line)/.25);stroke-width:1.2}
+  .toolb{fill:rgb(var(--p)/.12);stroke:rgb(var(--p));stroke-width:1.5}
+  .island{fill:rgb(var(--line)/.04);stroke:rgb(var(--line)/.35);stroke-width:1.5;stroke-dasharray:6 5}
+  .manual{stroke:rgb(var(--line)/.45);stroke-width:2;stroke-dasharray:3 5;fill:none;stroke-linecap:round}
+  .flow{stroke:rgb(var(--p));stroke-width:3;fill:none;stroke-linecap:round}
+  .flowh{fill:rgb(var(--p))}
+  .warn{fill:rgb(var(--a)/.12);stroke:rgb(var(--a));stroke-width:1.2}
+  .warntx{font-size:12.5px;font-weight:600;fill:rgb(var(--a))}
+  .slot{fill:rgb(var(--bg));stroke:rgb(var(--line)/.2);stroke-width:1.5}
+  .yes{fill:rgb(var(--p))}.no{fill:rgb(var(--a))}
+  .trk{fill:rgb(var(--line)/.10)}
+  .neq{font-size:64px;font-weight:700;fill:rgb(var(--a))}
+  @media (prefers-color-scheme: dark){
+    .warntx{fill:rgb(167 139 250)}.neq{fill:rgb(167 139 250)}.no{fill:rgb(167 139 250)}
+    .warn{stroke:rgb(167 139 250)}
+  }
+</style><style>
+  .gate{fill:rgb(var(--bg));stroke:rgb(var(--line)/.3);stroke-width:1.5}
+  .need{fill:rgb(var(--p)/.08);stroke:rgb(var(--p));stroke-width:1.2}
+  .node{fill:rgb(var(--bg));stroke:rgb(var(--p));stroke-width:1.8}
+  .nodep{fill:rgb(var(--a)/.10);stroke:rgb(var(--a));stroke-width:1.8}
+  .edge{stroke:rgb(var(--line)/.35);stroke-width:1.8;fill:none}
+  .edgep{stroke:rgb(var(--a));stroke-width:2.2;fill:none}
+  .tiny{font-size:12px;fill:rgb(var(--mut)/.66)}
+  .h32{font-size:32px;font-weight:700;fill:rgb(var(--tx))}
+  .good{fill:rgb(var(--p)/.10);stroke:rgb(var(--p));stroke-width:1.5}
+  .stop{fill:rgb(var(--a)/.08);stroke:rgb(var(--a));stroke-width:1.5}
+  .limit{fill:rgb(var(--a)/.08)}
+  .glow{fill:rgb(var(--a)/.06);stroke:rgb(var(--a));stroke-width:1.5;stroke-dasharray:6 5}
+  @media (prefers-color-scheme: dark){
+    .nodep{stroke:rgb(167 139 250)}.edgep{stroke:rgb(167 139 250)}.stop{stroke:rgb(167 139 250)}.glow{stroke:rgb(167 139 250)}
+  }
+</style><style>
+  .tag{font-size:12px;font-weight:700;letter-spacing:.06em;fill:rgb(var(--mut)/.66)}
+  .big2{font-size:44px;font-weight:700;fill:rgb(var(--tx))}
+  .metric{font-size:26px;font-weight:700;fill:rgb(var(--tx))}
+  .metricp{font-size:26px;font-weight:700;fill:rgb(var(--a))}
+  .step{fill:rgb(var(--line)/.05);stroke:rgb(var(--line)/.18);stroke-width:1.2}
+  .stepp{fill:rgb(var(--a)/.10);stroke:rgb(var(--a));stroke-width:1.2}
+  .stepb{fill:rgb(var(--p)/.10);stroke:rgb(var(--p));stroke-width:1.2}
+  .lane{fill:rgb(var(--bg));stroke:rgb(var(--line)/.2);stroke-width:1.5}
+  .lanep{fill:rgb(var(--a)/.06);stroke:rgb(var(--a));stroke-width:1.5}
+  .lanb{fill:rgb(var(--p)/.05);stroke:rgb(var(--p));stroke-width:1.5}
+  .cross{stroke:rgb(var(--line)/.55);stroke-width:2.5;stroke-linecap:round}
+  .tick{stroke:rgb(var(--p));stroke-width:3;stroke-linecap:round;stroke-linejoin:round;fill:none}
+  .tickp{stroke:rgb(var(--a));stroke-width:3;stroke-linecap:round;stroke-linejoin:round;fill:none}
+  .bridge{fill:rgb(var(--a)/.10);stroke:rgb(var(--a));stroke-width:1.5}
+  .endl{fill:rgb(var(--line)/.07);stroke:rgb(var(--line)/.25);stroke-width:1.5}
+  .endr{fill:rgb(var(--p)/.10);stroke:rgb(var(--p));stroke-width:1.5}
+  .dashv{stroke:rgb(var(--line)/.35);stroke-width:1.5;stroke-dasharray:5 5}
+  .chipbox2{fill:rgb(var(--a)/.12);stroke:rgb(var(--a));stroke-width:1.2}
+  @media (prefers-color-scheme: dark){
+    .metricp{fill:rgb(167 139 250)}.tickp{stroke:rgb(167 139 250)}
+    .stepp{stroke:rgb(167 139 250)}.lanep{stroke:rgb(167 139 250)}.bridge{stroke:rgb(167 139 250)}
+    .chipbox2{stroke:rgb(167 139 250)}
+  }
+</style><style>
+  .numw{font-size:18px;font-weight:700;fill:#fff}
+  .chipfill{fill:rgb(var(--a))}
+  .chipw{font-size:14px;font-weight:700;fill:#fff}
+  .cell{fill:rgb(var(--line)/.07)}
+  .c1{fill:rgb(var(--p))}.c2{fill:rgb(var(--s))}.c3{fill:rgb(var(--a))}
+  .hl{fill:rgb(var(--a)/.07);stroke:rgb(var(--a));stroke-width:1.5}
+  .dash{stroke:rgb(var(--line)/.4);stroke-width:2;stroke-dasharray:6 5;fill:none}
+  .pa{stroke:rgb(var(--a));stroke-width:3;fill:none}
+  .pah{fill:rgb(var(--a))}
+  .bold-p{font-size:14.5px;font-weight:700;fill:rgb(var(--a))}
+  @media (prefers-color-scheme: dark){
+    .bold-p{fill:rgb(167 139 250)}.pa{stroke:rgb(167 139 250)}.pah{fill:rgb(167 139 250)}.c3{fill:rgb(167 139 250)}
+    .hl{stroke:rgb(167 139 250)}.chipfill{fill:rgb(109 40 217)}
+  }
+</style><rect class="bg" width="1200" height="690"/>
+<text class="title" x="60" y="78" text-anchor="start">Next step with the most economic value, by level</text>
+<text class="subtitle" x="60" y="110" text-anchor="start">Current level is judged by the company's weakest dimension</text>
+<rect class="chipbox" x="60" y="128" width="356" height="28" rx="14"/><text class="chip chiptx" x="73" y="147">DIRECTIONAL REFERENCE, NOT A RIGID RULE</text>
+<rect class="stepb" x="60" y="178" width="200" height="76" rx="10"/>
+<text class="lbl" x="76" y="202" text-anchor="start">LEVEL 1</text>
+<text class="term" x="76" y="224" text-anchor="start">Paper-based</text>
+<text class="term" x="76" y="242" text-anchor="start">operations</text>
+<line class="rule" x1="160" y1="258" x2="160" y2="274"/><polygon class="ah" points="154,273 166,273 160,282"/>
+<g class="g3"><rect class="box" x="60" y="284" width="200" height="186" rx="10"/></g>
+<text class="lbl" x="76" y="312" text-anchor="start">NEXT STEP</text>
+<text class="body" x="76" y="336" text-anchor="start">Document the 5–10</text>
+<text class="body" x="76" y="354" text-anchor="start">most important</text>
+<text class="body" x="76" y="372" text-anchor="start">processes; begin</text>
+<text class="body" x="76" y="390" text-anchor="start">capturing operational</text>
+<text class="body" x="76" y="408" text-anchor="start">data in structured</text>
+<text class="body" x="76" y="426" text-anchor="start">form, not PDF</text>
+<rect class="stepb" x="280" y="202" width="200" height="76" rx="10"/>
+<text class="lbl" x="296" y="226" text-anchor="start">LEVEL 2</text>
+<text class="term" x="296" y="248" text-anchor="start">Digital documents,</text>
+<text class="term" x="296" y="266" text-anchor="start">scattered</text>
+<line class="rule" x1="380" y1="282" x2="380" y2="298"/><polygon class="ah" points="374,297 386,297 380,306"/>
+<g class="g3"><rect class="box" x="280" y="308" width="200" height="186" rx="10"/></g>
+<text class="lbl" x="296" y="336" text-anchor="start">NEXT STEP</text>
+<text class="body" x="296" y="360" text-anchor="start">A DMS with version</text>
+<text class="body" x="296" y="378" text-anchor="start">control for core</text>
+<text class="body" x="296" y="396" text-anchor="start">quality documents;</text>
+<text class="body" x="296" y="414" text-anchor="start">standardize the</text>
+<text class="body" x="296" y="432" text-anchor="start">operational data</text>
+<text class="body" x="296" y="450" text-anchor="start">capture format</text>
+<rect class="stepb" x="500" y="226" width="200" height="76" rx="10"/>
+<text class="lbl" x="516" y="250" text-anchor="start">LEVEL 3</text>
+<text class="term" x="516" y="272" text-anchor="start">Workflow through</text>
+<text class="term" x="516" y="290" text-anchor="start">systems</text>
+<line class="rule" x1="600" y1="306" x2="600" y2="322"/><polygon class="ah" points="594,321 606,321 600,330"/>
+<g class="g3"><rect class="box" x="500" y="332" width="200" height="186" rx="10"/></g>
+<text class="lbl" x="516" y="360" text-anchor="start">NEXT STEP</text>
+<text class="body" x="516" y="384" text-anchor="start">An eQMS module for a</text>
+<text class="body" x="516" y="402" text-anchor="start">specific compliance</text>
+<text class="body" x="516" y="420" text-anchor="start">problem (NC/CAPA or</text>
+<text class="body" x="516" y="438" text-anchor="start">training); or</text>
+<text class="body" x="516" y="456" text-anchor="start">integrate data</text>
+<text class="body" x="516" y="474" text-anchor="start">between existing</text>
+<text class="body" x="516" y="492" text-anchor="start">systems</text>
+<rect class="stepb" x="720" y="250" width="200" height="76" rx="10"/>
+<text class="lbl" x="736" y="274" text-anchor="start">LEVEL 4</text>
+<text class="term" x="736" y="296" text-anchor="start">Integration and</text>
+<text class="term" x="736" y="314" text-anchor="start">analyzable data</text>
+<line class="rule" x1="820" y1="330" x2="820" y2="346"/><polygon class="ah" points="814,345 826,345 820,354"/>
+<g class="g3"><rect class="box" x="720" y="356" width="200" height="186" rx="10"/></g>
+<text class="lbl" x="736" y="384" text-anchor="start">NEXT STEP</text>
+<text class="body" x="736" y="408" text-anchor="start">Knowledge structure</text>
+<text class="body" x="736" y="426" text-anchor="start">so AI has context;</text>
+<text class="body" x="736" y="444" text-anchor="start">expand the eQMS to</text>
+<text class="body" x="736" y="462" text-anchor="start">the remaining modules</text>
+<rect class="stepb" x="940" y="274" width="200" height="76" rx="10"/>
+<text class="lbl" x="956" y="298" text-anchor="start">LEVEL 5</text>
+<text class="term" x="956" y="320" text-anchor="start">AI-assisted</text>
+<text class="term" x="956" y="338" text-anchor="start">operations</text>
+<line class="rule" x1="1040" y1="354" x2="1040" y2="370"/><polygon class="ah" points="1034,369 1046,369 1040,378"/>
+<g class="g3"><rect class="box" x="940" y="380" width="200" height="186" rx="10"/></g>
+<text class="lbl" x="956" y="408" text-anchor="start">NEXT STEP</text>
+<text class="body" x="956" y="432" text-anchor="start">Expand AI to more</text>
+<text class="body" x="956" y="450" text-anchor="start">workflows; build</text>
+<text class="body" x="956" y="468" text-anchor="start">organizational</text>
+<text class="body" x="956" y="486" text-anchor="start">intelligence</text>
+<rect class="need" x="60" y="584" width="1080" height="40" rx="12"/>
+<text class="body" x="600" y="609" text-anchor="middle">The right step depends on each organization's specific problem, foundation and resources.</text>
+<text class="foot" x="60" y="666" text-anchor="start">okelas.com</text>
+<text class="foot" x="1140" y="666" text-anchor="end">A directional discussion tool, not a certified methodology.</text>
+</svg>

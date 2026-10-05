@@ -3,9 +3,6 @@ title: "Digital Transformation for Manufacturing SMEs: What It Really Means"
 description: "Digital transformation is not about buying software or scanning documents. This article reframes what digitalization actually means for manufacturing SMEs — and what a practical roadmap looks like."
 publishDate: 2025-09-24T00:00:00Z
 image: '~/assets/images/insights/dt-01b-og-cover-en.png'
-cover_image: '/assets/images/insights/digital-transformation-manufacturing-sme/dt-01b-og-cover-en.png'
-og_image: '/assets/images/insights/digital-transformation-manufacturing-sme/dt-01b-og-cover-en.png'
-cover_image_alt: "Digital transformation for manufacturing SMEs: from documents to operations, five stages"
 category: 'business-operations'
 tags: ['Digital Transformation', 'Digitalization', 'Manufacturing SME', 'Strategy']
 translationId: 'biz-ops-pillar-digital-transformation'

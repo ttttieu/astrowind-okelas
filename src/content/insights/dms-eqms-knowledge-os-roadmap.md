@@ -3,9 +3,6 @@ title: "From DMS to eQMS to Knowledge OS: Your Digitalization Roadmap"
 description: "Businesses don't need to jump from paper to a complex system overnight. This article maps the progression from DMS to eQMS to Knowledge OS — and when each step makes sense."
 publishDate: 2025-09-24T00:00:00Z
 image: '~/assets/images/insights/dms-eqms-roadmap.png'
-cover_image: '/assets/images/insights/dms-eqms-knowledge-os-roadmap/rm-05-og-cover-en.png'
-og_image: '/assets/images/insights/dms-eqms-knowledge-os-roadmap/rm-05-og-cover-en.png'
-cover_image_alt: "From DMS to eQMS to Knowledge OS: your digitalization roadmap"
 category: 'business-operations'
 tags: ['DMS', 'eQMS', 'Knowledge OS', 'Roadmap', 'Quality System']
 translationId: 'biz-ops-dms-eqms-knowledge-os'

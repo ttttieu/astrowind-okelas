@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="Ví dụ minh họa hồ sơ số hóa theo sáu chiều, cho thấy một doanh nghiệp có thể ở các cấp độ khác nhau"><style>
+  :root{--p:1 97 239;--s:1 84 207;--a:109 40 217;--bg:255 255 255;--tx:0 0 0;--mut:16 16 16;--line:16 16 16}
+  @media (prefers-color-scheme: dark){:root{--bg:8 9 10;--tx:247 248 248;--mut:229 236 246;--line:229 236 246}}
+  text{font-family:Inter,Roboto,'Segoe UI',system-ui,-apple-system,Arial,sans-serif}
+  .bg{fill:rgb(var(--bg))}
+  .title{font-size:32px;font-weight:700;fill:rgb(var(--tx))}
+  .big{font-size:50px;font-weight:700;fill:rgb(var(--tx))}
+  .subtitle{font-size:17px;fill:rgb(var(--mut)/.66)}
+  .term{font-size:16px;font-weight:700;fill:rgb(var(--tx))}
+  .h2{font-size:19px;font-weight:700;fill:rgb(var(--tx))}
+  .lbl{font-size:11.5px;font-weight:600;letter-spacing:.08em;fill:rgb(var(--mut)/.66)}
+  .desc{font-size:13.5px;fill:rgb(var(--mut)/.85)}
+  .body{font-size:14.5px;fill:rgb(var(--mut)/.88)}
+  .mut{font-size:13px;fill:rgb(var(--mut)/.66)}
+  .val{font-size:15px;font-weight:600;fill:rgb(var(--tx))}
+  .foot{font-size:13px;fill:rgb(var(--mut)/.5)}
+  .chip{font-size:12px;font-weight:700;letter-spacing:.06em}
+  .g1 .box{fill:rgb(var(--p)/.08);stroke:rgb(var(--p))}
+  .g2 .box{fill:rgb(var(--s)/.12);stroke:rgb(var(--s))}
+  .g3 .box{fill:rgb(var(--a)/.09);stroke:rgb(var(--a))}
+  .g1 .bar{fill:rgb(var(--p))}.g2 .bar{fill:rgb(var(--s))}.g3 .bar{fill:rgb(var(--a))}
+  .g1 .acc{fill:rgb(var(--p))}.g2 .acc{fill:rgb(var(--s))}.g3 .acc{fill:rgb(var(--a))}
+  .box{stroke-width:1.5}
+  .card{fill:rgb(var(--bg));stroke:rgb(var(--line)/.2);stroke-width:1.5}
+  .soft{fill:rgb(var(--line)/.05)}
+  .ghost{fill:rgb(var(--line)/.22)}
+  .rule{stroke:rgb(var(--line)/.45);stroke-width:2;fill:none}
+  .ring{stroke:rgb(var(--line)/.18);stroke-width:1;fill:none}
+  .axis{stroke:rgb(var(--line)/.18);stroke-width:1}
+  .poly{fill:rgb(var(--p)/.18);stroke:rgb(var(--p));stroke-width:2.5;stroke-linejoin:round}
+  .dot{fill:rgb(var(--p));stroke:rgb(var(--bg));stroke-width:2}
+  .ah{fill:rgb(var(--line)/.45)}
+  .chipbox{fill:rgb(var(--a)/.12);stroke:rgb(var(--a));stroke-width:1.2}
+  .chiptx{fill:rgb(var(--a))}
+  .blue{fill:rgb(var(--p))}.purp{fill:rgb(var(--a))}
+  .ok{fill:rgb(var(--p)/.10);stroke:rgb(var(--p));stroke-width:1.5}
+  .pr{fill:rgb(var(--a)/.10);stroke:rgb(var(--a));stroke-width:1.5}
+  .final{fill:rgb(var(--tx));}
+  .finaltx{font-size:18px;font-weight:700;fill:rgb(var(--bg))}
+  @media (prefers-color-scheme: dark){
+    .g1 .box{fill:rgb(var(--p)/.18)}.g2 .box{fill:rgb(var(--s)/.22)}.g3 .box{fill:rgb(var(--a)/.2)}
+    .chiptx{fill:rgb(167 139 250)}.chipbox{stroke:rgb(167 139 250)}.purp{fill:rgb(167 139 250)}.pr{stroke:rgb(167 139 250)}
+    .g3 .acc{fill:rgb(167 139 250)}
+  }
+</style><rect class="bg" width="1200" height="700"/>
+<text class="title" x="60" y="78" text-anchor="start">Số hóa không đồng đều: một doanh nghiệp, nhiều cấp độ</text>
+<text class="subtitle" x="60" y="110" text-anchor="start">Hồ sơ số hóa theo sáu chiều của một doanh nghiệp giả định</text>
+<polygon class="ring" points="350.0,350.0 384.6,370.0 384.6,410.0 350.0,430.0 315.4,410.0 315.4,370.0"/>
+<polygon class="ring" points="350.0,310.0 419.3,350.0 419.3,430.0 350.0,470.0 280.7,430.0 280.7,350.0"/>
+<polygon class="ring" points="350.0,270.0 453.9,330.0 453.9,450.0 350.0,510.0 246.1,450.0 246.1,330.0"/>
+<polygon class="ring" points="350.0,230.0 488.6,310.0 488.6,470.0 350.0,550.0 211.4,470.0 211.4,310.0"/>
+<polygon class="ring" points="350.0,190.0 523.2,290.0 523.2,490.0 350.0,590.0 176.8,490.0 176.8,290.0"/>
+<line class="axis" x1="350" y1="390" x2="350.0" y2="190.0"/>
+<line class="axis" x1="350" y1="390" x2="523.2" y2="290.0"/>
+<line class="axis" x1="350" y1="390" x2="523.2" y2="490.0"/>
+<line class="axis" x1="350" y1="390" x2="350.0" y2="590.0"/>
+<line class="axis" x1="350" y1="390" x2="176.8" y2="490.0"/>
+<line class="axis" x1="350" y1="390" x2="176.8" y2="290.0"/>
+<text class="mut" x="356" y="354.0" text-anchor="start">1</text>
+<text class="mut" x="356" y="314.0" text-anchor="start">2</text>
+<text class="mut" x="356" y="274.0" text-anchor="start">3</text>
+<text class="mut" x="356" y="234.0" text-anchor="start">4</text>
+<text class="mut" x="356" y="194.0" text-anchor="start">5</text>
+<polygon class="poly" points="350.0,230.0 453.9,330.0 419.3,430.0 350.0,470.0 315.4,410.0 315.4,370.0"/>
+<circle class="dot" cx="350.0" cy="230.0" r="6"/>
+<circle class="dot" cx="453.9" cy="330.0" r="6"/>
+<circle class="dot" cx="419.3" cy="430.0" r="6"/>
+<circle class="dot" cx="350.0" cy="470.0" r="6"/>
+<circle class="dot" cx="315.4" cy="410.0" r="6"/>
+<circle class="dot" cx="315.4" cy="370.0" r="6"/>
+<text class="val" x="350.0" y="164.0" text-anchor="middle">Quản lý tài liệu</text>
+<text class="val" x="542.3" y="281.0" text-anchor="start">Số hóa quy trình</text>
+<text class="val" x="542.3" y="511.0" text-anchor="start">Workflow tự động</text>
+<text class="val" x="350.0" y="630.0" text-anchor="middle">Tích hợp dữ liệu</text>
+<text class="val" x="157.7" y="511.0" text-anchor="end">Lớp tri thức</text>
+<text class="val" x="157.7" y="281.0" text-anchor="end">Sẵn sàng AI</text>
+<rect class="card" x="710" y="150" width="430" height="470" rx="14"/>
+<rect class="chipbox" x="730" y="170" width="334" height="28" rx="14"/>
+<text class="chip chiptx" x="742" y="189" text-anchor="start">VÍ DỤ MINH HỌA · KHÔNG PHẢI DỮ LIỆU THỰC</text>
+<text class="h2" x="734" y="234" text-anchor="start">Cách đọc hình</text>
+<text class="body" x="734" y="260" text-anchor="start">Mỗi trục là một chiều vận hành. Điểm là</text>
+<text class="body" x="734" y="281" text-anchor="start">cấp độ (1–5) mà doanh nghiệp đang ở</text>
+<text class="body" x="734" y="302" text-anchor="start">ở chiều đó.</text>
+<text class="h2" x="734" y="349" text-anchor="start">Trong ví dụ này</text>
+<text class="body" x="734" y="375" text-anchor="start">Tài liệu đã ở cấp độ 4, nhưng lớp tri</text>
+<text class="body" x="734" y="396" text-anchor="start">thức mới ở cấp độ 1. Doanh nghiệp có</text>
+<text class="body" x="734" y="417" text-anchor="start">hệ thống, nhưng tri thức vẫn nằm trong</text>
+<text class="body" x="734" y="438" text-anchor="start">đầu người.</text>
+<text class="h2" x="734" y="485" text-anchor="start">Hàm ý</text>
+<text class="body" x="734" y="511" text-anchor="start">Hỏi “doanh nghiệp ở cấp độ nào?” theo</text>
+<text class="body" x="734" y="532" text-anchor="start">từng chiều, không phải bằng một con số</text>
+<text class="body" x="734" y="553" text-anchor="start">duy nhất.</text>
+<text class="foot" x="60" y="676" text-anchor="start">okelas.com</text>
+</svg>

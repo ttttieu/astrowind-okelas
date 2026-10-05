@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760" role="img" aria-label="So sánh triển khai eQMS toàn bộ ngay với cách tiếp cận Progressive eQMS, bắt đầu từ phần nhỏ nhất"><style>
+  :root{--p:1 97 239;--s:1 84 207;--a:109 40 217;--bg:255 255 255;--tx:0 0 0;--mut:16 16 16;--line:16 16 16}
+  @media (prefers-color-scheme: dark){:root{--bg:8 9 10;--tx:247 248 248;--mut:229 236 246;--line:229 236 246}}
+  text{font-family:Inter,Roboto,'Segoe UI',system-ui,-apple-system,Arial,sans-serif}
+  .bg{fill:rgb(var(--bg))}
+  .title{font-size:32px;font-weight:700;fill:rgb(var(--tx))}
+  .big{font-size:50px;font-weight:700;fill:rgb(var(--tx))}
+  .subtitle{font-size:17px;fill:rgb(var(--mut)/.66)}
+  .term{font-size:16px;font-weight:700;fill:rgb(var(--tx))}
+  .h2{font-size:19px;font-weight:700;fill:rgb(var(--tx))}
+  .lbl{font-size:11.5px;font-weight:600;letter-spacing:.08em;fill:rgb(var(--mut)/.66)}
+  .desc{font-size:13.5px;fill:rgb(var(--mut)/.85)}
+  .body{font-size:14.5px;fill:rgb(var(--mut)/.88)}
+  .mut{font-size:13px;fill:rgb(var(--mut)/.66)}
+  .val{font-size:15px;font-weight:600;fill:rgb(var(--tx))}
+  .foot{font-size:13px;fill:rgb(var(--mut)/.5)}
+  .chip{font-size:12px;font-weight:700;letter-spacing:.06em}
+  .g1 .box{fill:rgb(var(--p)/.08);stroke:rgb(var(--p))}
+  .g2 .box{fill:rgb(var(--s)/.12);stroke:rgb(var(--s))}
+  .g3 .box{fill:rgb(var(--a)/.09);stroke:rgb(var(--a))}
+  .g1 .bar{fill:rgb(var(--p))}.g2 .bar{fill:rgb(var(--s))}.g3 .bar{fill:rgb(var(--a))}
+  .g1 .acc{fill:rgb(var(--p))}.g2 .acc{fill:rgb(var(--s))}.g3 .acc{fill:rgb(var(--a))}
+  .box{stroke-width:1.5}
+  .card{fill:rgb(var(--bg));stroke:rgb(var(--line)/.2);stroke-width:1.5}
+  .soft{fill:rgb(var(--line)/.05)}
+  .ghost{fill:rgb(var(--line)/.22)}
+  .rule{stroke:rgb(var(--line)/.45);stroke-width:2;fill:none}
+  .ring{stroke:rgb(var(--line)/.18);stroke-width:1;fill:none}
+  .axis{stroke:rgb(var(--line)/.18);stroke-width:1}
+  .poly{fill:rgb(var(--p)/.18);stroke:rgb(var(--p));stroke-width:2.5;stroke-linejoin:round}
+  .dot{fill:rgb(var(--p));stroke:rgb(var(--bg));stroke-width:2}
+  .ah{fill:rgb(var(--line)/.45)}
+  .chipbox{fill:rgb(var(--a)/.12);stroke:rgb(var(--a));stroke-width:1.2}
+  .chiptx{fill:rgb(var(--a))}
+  .blue{fill:rgb(var(--p))}.purp{fill:rgb(var(--a))}
+  .ok{fill:rgb(var(--p)/.10);stroke:rgb(var(--p));stroke-width:1.5}
+  .pr{fill:rgb(var(--a)/.10);stroke:rgb(var(--a));stroke-width:1.5}
+  .final{fill:rgb(var(--tx));}
+  .finaltx{font-size:18px;font-weight:700;fill:rgb(var(--bg))}
+  @media (prefers-color-scheme: dark){
+    .g1 .box{fill:rgb(var(--p)/.18)}.g2 .box{fill:rgb(var(--s)/.22)}.g3 .box{fill:rgb(var(--a)/.2)}
+    .chiptx{fill:rgb(167 139 250)}.chipbox{stroke:rgb(167 139 250)}.purp{fill:rgb(167 139 250)}.pr{stroke:rgb(167 139 250)}
+    .g3 .acc{fill:rgb(167 139 250)}
+  }
+</style><style>
+  .tool{fill:rgb(var(--line)/.06);stroke:rgb(var(--line)/.25);stroke-width:1.2}
+  .toolb{fill:rgb(var(--p)/.12);stroke:rgb(var(--p));stroke-width:1.5}
+  .island{fill:rgb(var(--line)/.04);stroke:rgb(var(--line)/.35);stroke-width:1.5;stroke-dasharray:6 5}
+  .manual{stroke:rgb(var(--line)/.45);stroke-width:2;stroke-dasharray:3 5;fill:none;stroke-linecap:round}
+  .flow{stroke:rgb(var(--p));stroke-width:3;fill:none;stroke-linecap:round}
+  .flowh{fill:rgb(var(--p))}
+  .warn{fill:rgb(var(--a)/.12);stroke:rgb(var(--a));stroke-width:1.2}
+  .warntx{font-size:12.5px;font-weight:600;fill:rgb(var(--a))}
+  .slot{fill:rgb(var(--bg));stroke:rgb(var(--line)/.2);stroke-width:1.5}
+  .yes{fill:rgb(var(--p))}.no{fill:rgb(var(--a))}
+  .trk{fill:rgb(var(--line)/.10)}
+  .neq{font-size:64px;font-weight:700;fill:rgb(var(--a))}
+  @media (prefers-color-scheme: dark){
+    .warntx{fill:rgb(167 139 250)}.neq{fill:rgb(167 139 250)}.no{fill:rgb(167 139 250)}
+    .warn{stroke:rgb(167 139 250)}
+  }
+</style><style>
+  .gate{fill:rgb(var(--bg));stroke:rgb(var(--line)/.3);stroke-width:1.5}
+  .need{fill:rgb(var(--p)/.08);stroke:rgb(var(--p));stroke-width:1.2}
+  .node{fill:rgb(var(--bg));stroke:rgb(var(--p));stroke-width:1.8}
+  .nodep{fill:rgb(var(--a)/.10);stroke:rgb(var(--a));stroke-width:1.8}
+  .edge{stroke:rgb(var(--line)/.35);stroke-width:1.8;fill:none}
+  .edgep{stroke:rgb(var(--a));stroke-width:2.2;fill:none}
+  .tiny{font-size:12px;fill:rgb(var(--mut)/.66)}
+  .h32{font-size:32px;font-weight:700;fill:rgb(var(--tx))}
+  .good{fill:rgb(var(--p)/.10);stroke:rgb(var(--p));stroke-width:1.5}
+  .stop{fill:rgb(var(--a)/.08);stroke:rgb(var(--a));stroke-width:1.5}
+  .limit{fill:rgb(var(--a)/.08)}
+  .glow{fill:rgb(var(--a)/.06);stroke:rgb(var(--a));stroke-width:1.5;stroke-dasharray:6 5}
+  @media (prefers-color-scheme: dark){
+    .nodep{stroke:rgb(167 139 250)}.edgep{stroke:rgb(167 139 250)}.stop{stroke:rgb(167 139 250)}.glow{stroke:rgb(167 139 250)}
+  }
+</style><style>
+  .tag{font-size:12px;font-weight:700;letter-spacing:.06em;fill:rgb(var(--mut)/.66)}
+  .big2{font-size:44px;font-weight:700;fill:rgb(var(--tx))}
+  .metric{font-size:26px;font-weight:700;fill:rgb(var(--tx))}
+  .metricp{font-size:26px;font-weight:700;fill:rgb(var(--a))}
+  .step{fill:rgb(var(--line)/.05);stroke:rgb(var(--line)/.18);stroke-width:1.2}
+  .stepp{fill:rgb(var(--a)/.10);stroke:rgb(var(--a));stroke-width:1.2}
+  .stepb{fill:rgb(var(--p)/.10);stroke:rgb(var(--p));stroke-width:1.2}
+  .lane{fill:rgb(var(--bg));stroke:rgb(var(--line)/.2);stroke-width:1.5}
+  .lanep{fill:rgb(var(--a)/.06);stroke:rgb(var(--a));stroke-width:1.5}
+  .lanb{fill:rgb(var(--p)/.05);stroke:rgb(var(--p));stroke-width:1.5}
+  .cross{stroke:rgb(var(--line)/.55);stroke-width:2.5;stroke-linecap:round}
+  .tick{stroke:rgb(var(--p));stroke-width:3;stroke-linecap:round;stroke-linejoin:round;fill:none}
+  .tickp{stroke:rgb(var(--a));stroke-width:3;stroke-linecap:round;stroke-linejoin:round;fill:none}
+  .bridge{fill:rgb(var(--a)/.10);stroke:rgb(var(--a));stroke-width:1.5}
+  .endl{fill:rgb(var(--line)/.07);stroke:rgb(var(--line)/.25);stroke-width:1.5}
+  .endr{fill:rgb(var(--p)/.10);stroke:rgb(var(--p));stroke-width:1.5}
+  .dashv{stroke:rgb(var(--line)/.35);stroke-width:1.5;stroke-dasharray:5 5}
+  .chipbox2{fill:rgb(var(--a)/.12);stroke:rgb(var(--a));stroke-width:1.2}
+  @media (prefers-color-scheme: dark){
+    .metricp{fill:rgb(167 139 250)}.tickp{stroke:rgb(167 139 250)}
+    .stepp{stroke:rgb(167 139 250)}.lanep{stroke:rgb(167 139 250)}.bridge{stroke:rgb(167 139 250)}
+    .chipbox2{stroke:rgb(167 139 250)}
+  }
+</style><style>
+  .numw{font-size:18px;font-weight:700;fill:#fff}
+  .chipfill{fill:rgb(var(--a))}
+  .chipw{font-size:14px;font-weight:700;fill:#fff}
+  .cell{fill:rgb(var(--line)/.07)}
+  .c1{fill:rgb(var(--p))}.c2{fill:rgb(var(--s))}.c3{fill:rgb(var(--a))}
+  .hl{fill:rgb(var(--a)/.07);stroke:rgb(var(--a));stroke-width:1.5}
+  .dash{stroke:rgb(var(--line)/.4);stroke-width:2;stroke-dasharray:6 5;fill:none}
+  .pa{stroke:rgb(var(--a));stroke-width:3;fill:none}
+  .pah{fill:rgb(var(--a))}
+  .bold-p{font-size:14.5px;font-weight:700;fill:rgb(var(--a))}
+  @media (prefers-color-scheme: dark){
+    .bold-p{fill:rgb(167 139 250)}.pa{stroke:rgb(167 139 250)}.pah{fill:rgb(167 139 250)}.c3{fill:rgb(167 139 250)}
+    .hl{stroke:rgb(167 139 250)}.chipfill{fill:rgb(109 40 217)}
+  }
+</style><rect class="bg" width="1200" height="760"/>
+<text class="title" x="60" y="78" text-anchor="start">Triển khai toàn bộ ngay, hay bắt đầu từ phần nhỏ nhất</text>
+<text class="subtitle" x="60" y="110" text-anchor="start">Hai cách tiếp cận eQMS cho doanh nghiệp sản xuất vừa và nhỏ</text>
+<rect class="lanep" x="60" y="140" width="510" height="520" rx="14"/>
+<text class="h2" x="88" y="182" text-anchor="start">Triển khai toàn bộ ngay</text>
+<text class="mut" x="88" y="204" text-anchor="start">Nhiều module cùng lúc</text>
+<rect class="tool" x="88" y="222" width="142" height="34" rx="8"/>
+<text class="tiny" x="159" y="244" text-anchor="middle">Document control</text>
+<rect class="tool" x="244" y="222" width="142" height="34" rx="8"/>
+<text class="tiny" x="315" y="244" text-anchor="middle">CAPA</text>
+<rect class="tool" x="400" y="222" width="142" height="34" rx="8"/>
+<text class="tiny" x="471" y="244" text-anchor="middle">Audit management</text>
+<rect class="tool" x="88" y="266" width="142" height="34" rx="8"/>
+<text class="tiny" x="159" y="288" text-anchor="middle">Training</text>
+<rect class="tool" x="244" y="266" width="142" height="34" rx="8"/>
+<text class="tiny" x="315" y="288" text-anchor="middle">Supplier management</text>
+<rect class="tool" x="400" y="266" width="142" height="34" rx="8"/>
+<text class="tiny" x="471" y="288" text-anchor="middle">Risk management</text>
+<rect class="tool" x="88" y="310" width="142" height="34" rx="8"/>
+<text class="tiny" x="159" y="332" text-anchor="middle">Equipment</text>
+<line class="rule" x1="315" y1="342" x2="315" y2="384"/><polygon class="ah" points="309,383 321,383 315,392"/>
+<rect class="stop" x="88" y="400" width="454" height="96" rx="12"/>
+<text class="warntx" x="108" y="430" text-anchor="start">Kết cục 1: không triển khai</text>
+<text class="body" x="108" y="454" text-anchor="start">Chi phí và độ phức tạp có vẻ quá lớn; dự án bị trì hoãn</text>
+<text class="body" x="108" y="472" text-anchor="start">trong khi vấn đề vẫn còn</text>
+<rect class="stop" x="88" y="512" width="454" height="96" rx="12"/>
+<text class="warntx" x="108" y="542" text-anchor="start">Kết cục 2: triển khai nhưng không khai thác hết</text>
+<text class="body" x="108" y="566" text-anchor="start">Thiếu nền tảng (quy trình chuẩn hóa, dữ liệu, con người)</text>
+<text class="body" x="108" y="584" text-anchor="start">nên nhiều phần không được dùng đến</text>
+<rect class="lanb" x="630" y="140" width="510" height="520" rx="14"/>
+<text class="h2" x="658" y="182" text-anchor="start">Progressive eQMS</text>
+<text class="mut" x="658" y="204" text-anchor="start">Bắt đầu từ vấn đề thực sự đang gặp</text>
+<rect class="ok" x="658" y="226" width="454" height="86" rx="12"/>
+<circle class="blue" cx="690" cy="269" r="15"/>
+<text class="numw" x="690" y="275" text-anchor="middle">1</text>
+<text class="term" x="718" y="262" text-anchor="start">Phần nhỏ nhất có giá trị rõ ràng</text>
+<text class="body" x="718" y="286" text-anchor="start">Chọn theo vấn đề đang gặp, không theo danh mục</text>
+<text class="body" x="718" y="304" text-anchor="start">module</text>
+<line class="rule" x1="885" y1="314" x2="885" y2="328"/><polygon class="ah" points="879,327 891,327 885,336"/>
+<rect class="ok" x="658" y="338" width="454" height="86" rx="12"/>
+<circle class="blue" cx="690" cy="381" r="15"/>
+<text class="numw" x="690" y="387" text-anchor="middle">2</text>
+<text class="term" x="718" y="374" text-anchor="start">Vận hành và học</text>
+<text class="body" x="718" y="398" text-anchor="start">Người dùng quen dần; rủi ro nằm trong phạm vi nhỏ</text>
+<line class="rule" x1="885" y1="426" x2="885" y2="440"/><polygon class="ah" points="879,439 891,439 885,448"/>
+<rect class="ok" x="658" y="450" width="454" height="86" rx="12"/>
+<circle class="blue" cx="690" cy="493" r="15"/>
+<text class="numw" x="690" y="499" text-anchor="middle">3</text>
+<text class="term" x="718" y="486" text-anchor="start">Mở rộng có chủ đích</text>
+<text class="body" x="718" y="510" text-anchor="start">Phần tiếp theo dựa trên vấn đề thực và giá trị đã</text>
+<text class="body" x="718" y="528" text-anchor="start">kiểm chứng</text>
+<line class="rule" x1="885" y1="538" x2="885" y2="552"/><polygon class="ah" points="879,551 891,551 885,560"/>
+<rect class="final" x="658" y="562" width="454" height="80" rx="12"/>
+<text class="finaltx" x="885" y="596" text-anchor="middle">Hệ thống khớp với nhu cầu thực tế</text>
+<text x="885" y="620" text-anchor="middle" font-size="14" font-family="Inter,Roboto,Arial,sans-serif" fill="rgb(var(--bg))" opacity=".8">Mỗi phần được đánh giá giá trị trước khi mở rộng</text>
+<rect class="need" x="60" y="676" width="1080" height="44" rx="12"/>
+<text class="term" x="600" y="704" text-anchor="middle">Khác biệt nằm ở điểm xuất phát: từ vấn đề thực, không từ danh mục module</text>
+<text class="foot" x="60" y="736" text-anchor="start">okelas.com</text>
+<text class="foot" x="1140" y="736" text-anchor="end">“Progressive eQMS” là cách gọi của OKELAS, không phải thuật ngữ chuẩn ngành.</text>
+</svg>

@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" width="1200" height="720" role="img" aria-label="Dấu hiệu nhận biết năm cấp độ số hóa, từ vận hành bằng giấy đến AI hỗ trợ vận hành"><style>
+  :root{--p:1 97 239;--s:1 84 207;--a:109 40 217;--bg:255 255 255;--tx:0 0 0;--mut:16 16 16;--line:16 16 16}
+  @media (prefers-color-scheme: dark){:root{--bg:8 9 10;--tx:247 248 248;--mut:229 236 246;--line:229 236 246}}
+  text{font-family:Inter,Roboto,'Segoe UI',system-ui,-apple-system,Arial,sans-serif}
+  .bg{fill:rgb(var(--bg))}
+  .title{font-size:32px;font-weight:700;fill:rgb(var(--tx))}
+  .big{font-size:50px;font-weight:700;fill:rgb(var(--tx))}
+  .subtitle{font-size:17px;fill:rgb(var(--mut)/.66)}
+  .term{font-size:16px;font-weight:700;fill:rgb(var(--tx))}
+  .h2{font-size:19px;font-weight:700;fill:rgb(var(--tx))}
+  .lbl{font-size:11.5px;font-weight:600;letter-spacing:.08em;fill:rgb(var(--mut)/.66)}
+  .desc{font-size:13.5px;fill:rgb(var(--mut)/.85)}
+  .body{font-size:14.5px;fill:rgb(var(--mut)/.88)}
+  .mut{font-size:13px;fill:rgb(var(--mut)/.66)}
+  .val{font-size:15px;font-weight:600;fill:rgb(var(--tx))}
+  .foot{font-size:13px;fill:rgb(var(--mut)/.5)}
+  .chip{font-size:12px;font-weight:700;letter-spacing:.06em}
+  .g1 .box{fill:rgb(var(--p)/.08);stroke:rgb(var(--p))}
+  .g2 .box{fill:rgb(var(--s)/.12);stroke:rgb(var(--s))}
+  .g3 .box{fill:rgb(var(--a)/.09);stroke:rgb(var(--a))}
+  .g1 .bar{fill:rgb(var(--p))}.g2 .bar{fill:rgb(var(--s))}.g3 .bar{fill:rgb(var(--a))}
+  .g1 .acc{fill:rgb(var(--p))}.g2 .acc{fill:rgb(var(--s))}.g3 .acc{fill:rgb(var(--a))}
+  .box{stroke-width:1.5}
+  .card{fill:rgb(var(--bg));stroke:rgb(var(--line)/.2);stroke-width:1.5}
+  .soft{fill:rgb(var(--line)/.05)}
+  .ghost{fill:rgb(var(--line)/.22)}
+  .rule{stroke:rgb(var(--line)/.45);stroke-width:2;fill:none}
+  .ring{stroke:rgb(var(--line)/.18);stroke-width:1;fill:none}
+  .axis{stroke:rgb(var(--line)/.18);stroke-width:1}
+  .poly{fill:rgb(var(--p)/.18);stroke:rgb(var(--p));stroke-width:2.5;stroke-linejoin:round}
+  .dot{fill:rgb(var(--p));stroke:rgb(var(--bg));stroke-width:2}
+  .ah{fill:rgb(var(--line)/.45)}
+  .chipbox{fill:rgb(var(--a)/.12);stroke:rgb(var(--a));stroke-width:1.2}
+  .chiptx{fill:rgb(var(--a))}
+  .blue{fill:rgb(var(--p))}.purp{fill:rgb(var(--a))}
+  .ok{fill:rgb(var(--p)/.10);stroke:rgb(var(--p));stroke-width:1.5}
+  .pr{fill:rgb(var(--a)/.10);stroke:rgb(var(--a));stroke-width:1.5}
+  .final{fill:rgb(var(--tx));}
+  .finaltx{font-size:18px;font-weight:700;fill:rgb(var(--bg))}
+  @media (prefers-color-scheme: dark){
+    .g1 .box{fill:rgb(var(--p)/.18)}.g2 .box{fill:rgb(var(--s)/.22)}.g3 .box{fill:rgb(var(--a)/.2)}
+    .chiptx{fill:rgb(167 139 250)}.chipbox{stroke:rgb(167 139 250)}.purp{fill:rgb(167 139 250)}.pr{stroke:rgb(167 139 250)}
+    .g3 .acc{fill:rgb(167 139 250)}
+  }
+</style><style>
+  .numw{font-size:18px;font-weight:700;fill:#fff}
+  .chipfill{fill:rgb(var(--a))}
+  .chipw{font-size:14px;font-weight:700;fill:#fff}
+  .cell{fill:rgb(var(--line)/.07)}
+  .c1{fill:rgb(var(--p))}.c2{fill:rgb(var(--s))}.c3{fill:rgb(var(--a))}
+  .hl{fill:rgb(var(--a)/.07);stroke:rgb(var(--a));stroke-width:1.5}
+  .dash{stroke:rgb(var(--line)/.4);stroke-width:2;stroke-dasharray:6 5;fill:none}
+  .pa{stroke:rgb(var(--a));stroke-width:3;fill:none}
+  .pah{fill:rgb(var(--a))}
+  .bold-p{font-size:14.5px;font-weight:700;fill:rgb(var(--a))}
+  @media (prefers-color-scheme: dark){
+    .bold-p{fill:rgb(167 139 250)}.pa{stroke:rgb(167 139 250)}.pah{fill:rgb(167 139 250)}.c3{fill:rgb(167 139 250)}
+    .hl{stroke:rgb(167 139 250)}.chipfill{fill:rgb(109 40 217)}
+  }
+</style><rect class="bg" width="1200" height="720"/>
+<text class="title" x="60" y="78" text-anchor="start">Dấu hiệu nhận biết năm cấp độ số hóa</text>
+<text class="subtitle" x="60" y="110" text-anchor="start">Cấp độ nào mô tả đúng nhất cách doanh nghiệp bạn đang vận hành?</text>
+<g class="g1"><rect class="box" x="60" y="140" width="1080" height="92" rx="12"/><rect class="bar" x="60" y="140" width="8" height="92" rx="4"/>
+<text class="lbl" x="92" y="168" text-anchor="start">CẤP ĐỘ 1</text>
+<text class="term" x="92" y="192" text-anchor="start">Vận hành</text>
+<text class="term" x="92" y="212" text-anchor="start">bằng giấy</text>
+<line class="axis" x1="320" y1="156" x2="320" y2="216"/>
+<circle class="acc" cx="350" cy="176" r="4"/>
+<text class="body" x="364" y="180" text-anchor="start">Hồ sơ ghi tay trong sổ</text>
+<text class="body" x="364" y="200" text-anchor="start">hoặc biểu mẫu in sẵn</text>
+<circle class="acc" cx="745" cy="176" r="4"/>
+<text class="body" x="759" y="180" text-anchor="start">Tra cứu thông tin cũ</text>
+<text class="body" x="759" y="200" text-anchor="start">mất nhiều công sức</text>
+</g>
+<g class="g1"><rect class="box" x="60" y="242" width="1080" height="92" rx="12"/><rect class="bar" x="60" y="242" width="8" height="92" rx="4"/>
+<text class="lbl" x="92" y="270" text-anchor="start">CẤP ĐỘ 2</text>
+<text class="term" x="92" y="294" text-anchor="start">Tài liệu số</text>
+<text class="term" x="92" y="314" text-anchor="start">nhưng rải rác</text>
+<line class="axis" x1="320" y1="258" x2="320" y2="318"/>
+<circle class="acc" cx="350" cy="278" r="4"/>
+<text class="body" x="364" y="282" text-anchor="start">Tài liệu rải rác trong nhiều thư mục,</text>
+<text class="body" x="364" y="302" text-anchor="start">không rõ phiên bản nào mới nhất</text>
+<circle class="acc" cx="745" cy="278" r="4"/>
+<text class="body" x="759" y="282" text-anchor="start">Excel là công cụ chính cho đơn hàng,</text>
+<text class="body" x="759" y="302" text-anchor="start">QC và lập kế hoạch</text>
+</g>
+<g class="g2"><rect class="box" x="60" y="344" width="1080" height="92" rx="12"/><rect class="bar" x="60" y="344" width="8" height="92" rx="4"/>
+<text class="lbl" x="92" y="372" text-anchor="start">CẤP ĐỘ 3</text>
+<text class="term" x="92" y="396" text-anchor="start">Workflow</text>
+<text class="term" x="92" y="416" text-anchor="start">qua hệ thống</text>
+<line class="axis" x1="320" y1="360" x2="320" y2="420"/>
+<circle class="acc" cx="350" cy="380" r="4"/>
+<text class="body" x="364" y="384" text-anchor="start">Có hệ thống quản lý tài liệu,</text>
+<text class="body" x="364" y="404" text-anchor="start">kiểm soát phiên bản</text>
+<circle class="acc" cx="745" cy="380" r="4"/>
+<text class="body" x="759" y="384" text-anchor="start">Phê duyệt qua hệ thống, có lịch sử;</text>
+<text class="body" x="759" y="404" text-anchor="start">hồ sơ tạo ngay khi vận hành</text>
+</g>
+<g class="g3"><rect class="box" x="60" y="446" width="1080" height="92" rx="12"/><rect class="bar" x="60" y="446" width="8" height="92" rx="4"/>
+<text class="lbl" x="92" y="474" text-anchor="start">CẤP ĐỘ 4</text>
+<text class="term" x="92" y="498" text-anchor="start">Tích hợp và dữ liệu</text>
+<text class="term" x="92" y="518" text-anchor="start">phân tích được</text>
+<line class="axis" x1="320" y1="462" x2="320" y2="522"/>
+<circle class="acc" cx="350" cy="482" r="4"/>
+<text class="body" x="364" y="486" text-anchor="start">Dữ liệu từ các hệ thống được</text>
+<text class="body" x="364" y="506" text-anchor="start">kết nối, tổng hợp tự động</text>
+<circle class="acc" cx="745" cy="482" r="4"/>
+<text class="body" x="759" y="486" text-anchor="start">Trả lời câu hỏi phân tích</text>
+<text class="body" x="759" y="506" text-anchor="start">trong vài phút, không phải vài ngày</text>
+</g>
+<g class="g3"><rect class="box" x="60" y="548" width="1080" height="92" rx="12"/><rect class="bar" x="60" y="548" width="8" height="92" rx="4"/>
+<text class="lbl" x="92" y="576" text-anchor="start">CẤP ĐỘ 5</text>
+<text class="term" x="92" y="600" text-anchor="start">AI hỗ trợ</text>
+<text class="term" x="92" y="620" text-anchor="start">vận hành</text>
+<line class="axis" x1="320" y1="564" x2="320" y2="624"/>
+<circle class="acc" cx="350" cy="584" r="4"/>
+<text class="body" x="364" y="588" text-anchor="start">AI chủ động cảnh báo bất thường,</text>
+<text class="body" x="364" y="608" text-anchor="start">không chỉ trả lời khi được hỏi</text>
+<circle class="acc" cx="745" cy="584" r="4"/>
+<text class="body" x="759" y="588" text-anchor="start">AI tham gia quy trình và trả lời</text>
+<text class="body" x="759" y="608" text-anchor="start">có ngữ cảnh, không chỉ tìm tài liệu</text>
+</g>
+<text class="foot" x="60" y="696" text-anchor="start">okelas.com</text>
+</svg>

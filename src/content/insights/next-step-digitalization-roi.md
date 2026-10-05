@@ -3,9 +3,6 @@ title: "The Next Economically Meaningful Digital Step: A Self-Assessment Framewo
 description: "Not every digital investment delivers equal value at every stage. This article provides a framework for CEOs to evaluate which next step makes the most sense for their organization."
 publishDate: 2025-09-24T00:00:00Z
 image: '~/assets/images/insights/next-step-digitalization.png'
-cover_image: '/assets/images/insights/next-step-digitalization-roi/nx-05-og-cover-en.png'
-og_image: '/assets/images/insights/next-step-digitalization-roi/nx-05-og-cover-en.png'
-cover_image_alt: "The next economically meaningful digitalization step: five level steps with one highlighted as the next step, starting from the costliest problem"
 category: 'business-operations'
 tags: ['Digital Investment', 'ROI', 'Strategy', 'Decision Framework', 'Business Decision']
 translationId: 'biz-ops-next-step-digitalization'

@@ -3,9 +3,6 @@ title: "Progressive eQMS là gì — và tại sao đây là cách tiếp cận 
 description: "eQMS không phải chỉ có một cách triển khai. Progressive eQMS cho phép doanh nghiệp bắt đầu nhỏ, xây dần theo nhu cầu thực tế — không cần đầu tư toàn bộ ngay từ đầu."
 publishDate: 2025-09-24T00:00:00Z
 image: '~/assets/images/insights/progressive-eqms.png'
-cover_image: '/assets/images/insights/progressive-eqms-la-gi/pe-05-og-cover-vi.png'
-og_image: '/assets/images/insights/progressive-eqms-la-gi/pe-05-og-cover-vi.png'
-cover_image_alt: "Progressive eQMS: bắt đầu nhỏ, đúng chỗ, mở rộng theo vấn đề thực thay vì theo danh mục module"
 category: 'business-operations'
 tags: ['eQMS', 'Triển khai', 'Progressive', 'Hệ thống chất lượng', 'Incremental']
 translationId: 'biz-ops-progressive-eqms-implementation'

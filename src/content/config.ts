@@ -26,9 +26,9 @@ const insightsCollection = defineCollection({
     publishDate: z.date().optional(),
     updatedDate: z.date().optional(),
     image: z.string().optional(),
-    cover_image: z.string().optional(),
-    og_image: z.string().optional(),
-    cover_image_alt: z.string().optional(),
+    coverImage: z.string().optional(),
+    ogImage: z.string().optional(),
+    coverImageAlt: z.string().optional(),
 
     // Bilingual linking
     translationId: z.string(),       // shared between EN + VI versions

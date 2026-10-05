@@ -3,9 +3,6 @@ title: "Bẫy của 'dự án chuyển đổi số lớn' — và cách tránh n
 description: "Nhiều doanh nghiệp đầu tư lớn vào chuyển đổi số nhưng không đạt kết quả. Bài viết phân tích những bẫy phổ biến và cách tiếp cận thực tế hơn."
 publishDate: 2025-09-24T00:00:00Z
 image: '~/assets/images/insights/digital-transformation-failure.png'
-cover_image: '/assets/images/insights/du-an-chuyen-doi-so-that-bai/dp-06-og-cover-vi.png'
-og_image: '/assets/images/insights/du-an-chuyen-doi-so-that-bai/dp-06-og-cover-vi.png'
-cover_image_alt: "Bẫy của dự án chuyển đổi số lớn: một khối big bang với một điểm kiểm chứng ở cuối, so với các bước nhỏ có điểm kiểm chứng; hiểu cơ chế để tránh"
 category: 'business-operations'
 tags: ['Chuyển đổi số', 'Dự án', 'Rủi ro', 'Triển khai', 'Chiến lược']
 translationId: 'biz-ops-digital-transformation-failure'

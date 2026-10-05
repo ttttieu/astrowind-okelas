@@ -3,9 +3,6 @@ title: "ISO and GMP Records Management in a Digital Environment"
 description: "Digitalizing ISO/GMP records isn't just about moving from paper to PDF. This article examines what the standards actually require and how to build a compliant digital records system."
 publishDate: 2025-09-24T00:00:00Z
 image: '~/assets/images/insights/iso-gmp-records-management.png'
-cover_image: '/assets/images/insights/iso-gmp-document-management-digitalization/iso-05-og-cover-en.png'
-og_image: '/assets/images/insights/iso-gmp-document-management-digitalization/iso-05-og-cover-en.png'
-cover_image_alt: "ISO and GMP records management in a digital environment: control matters more than paper or digital format"
 category: 'business-operations'
 tags: ['ISO', 'GMP', 'Compliance', 'Records Management', 'Document Control']
 translationId: 'biz-ops-iso-gmp-records-management'

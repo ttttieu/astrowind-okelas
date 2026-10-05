@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="So sánh những gì paperless làm tốt và những gì paperless chưa thay đổi"><style>
+  :root{--p:1 97 239;--s:1 84 207;--a:109 40 217;--bg:255 255 255;--tx:0 0 0;--mut:16 16 16;--line:16 16 16}
+  @media (prefers-color-scheme: dark){:root{--bg:8 9 10;--tx:247 248 248;--mut:229 236 246;--line:229 236 246}}
+  text{font-family:Inter,Roboto,'Segoe UI',system-ui,-apple-system,Arial,sans-serif}
+  .bg{fill:rgb(var(--bg))}
+  .title{font-size:32px;font-weight:700;fill:rgb(var(--tx))}
+  .big{font-size:50px;font-weight:700;fill:rgb(var(--tx))}
+  .subtitle{font-size:17px;fill:rgb(var(--mut)/.66)}
+  .term{font-size:16px;font-weight:700;fill:rgb(var(--tx))}
+  .h2{font-size:19px;font-weight:700;fill:rgb(var(--tx))}
+  .lbl{font-size:11.5px;font-weight:600;letter-spacing:.08em;fill:rgb(var(--mut)/.66)}
+  .desc{font-size:13.5px;fill:rgb(var(--mut)/.85)}
+  .body{font-size:14.5px;fill:rgb(var(--mut)/.88)}
+  .mut{font-size:13px;fill:rgb(var(--mut)/.66)}
+  .val{font-size:15px;font-weight:600;fill:rgb(var(--tx))}
+  .foot{font-size:13px;fill:rgb(var(--mut)/.5)}
+  .chip{font-size:12px;font-weight:700;letter-spacing:.06em}
+  .g1 .box{fill:rgb(var(--p)/.08);stroke:rgb(var(--p))}
+  .g2 .box{fill:rgb(var(--s)/.12);stroke:rgb(var(--s))}
+  .g3 .box{fill:rgb(var(--a)/.09);stroke:rgb(var(--a))}
+  .g1 .bar{fill:rgb(var(--p))}.g2 .bar{fill:rgb(var(--s))}.g3 .bar{fill:rgb(var(--a))}
+  .g1 .acc{fill:rgb(var(--p))}.g2 .acc{fill:rgb(var(--s))}.g3 .acc{fill:rgb(var(--a))}
+  .box{stroke-width:1.5}
+  .card{fill:rgb(var(--bg));stroke:rgb(var(--line)/.2);stroke-width:1.5}
+  .soft{fill:rgb(var(--line)/.05)}
+  .ghost{fill:rgb(var(--line)/.22)}
+  .rule{stroke:rgb(var(--line)/.45);stroke-width:2;fill:none}
+  .ring{stroke:rgb(var(--line)/.18);stroke-width:1;fill:none}
+  .axis{stroke:rgb(var(--line)/.18);stroke-width:1}
+  .poly{fill:rgb(var(--p)/.18);stroke:rgb(var(--p));stroke-width:2.5;stroke-linejoin:round}
+  .dot{fill:rgb(var(--p));stroke:rgb(var(--bg));stroke-width:2}
+  .ah{fill:rgb(var(--line)/.45)}
+  .chipbox{fill:rgb(var(--a)/.12);stroke:rgb(var(--a));stroke-width:1.2}
+  .chiptx{fill:rgb(var(--a))}
+  .blue{fill:rgb(var(--p))}.purp{fill:rgb(var(--a))}
+  .ok{fill:rgb(var(--p)/.10);stroke:rgb(var(--p));stroke-width:1.5}
+  .pr{fill:rgb(var(--a)/.10);stroke:rgb(var(--a));stroke-width:1.5}
+  .final{fill:rgb(var(--tx));}
+  .finaltx{font-size:18px;font-weight:700;fill:rgb(var(--bg))}
+  @media (prefers-color-scheme: dark){
+    .g1 .box{fill:rgb(var(--p)/.18)}.g2 .box{fill:rgb(var(--s)/.22)}.g3 .box{fill:rgb(var(--a)/.2)}
+    .chiptx{fill:rgb(167 139 250)}.chipbox{stroke:rgb(167 139 250)}.purp{fill:rgb(167 139 250)}.pr{stroke:rgb(167 139 250)}
+    .g3 .acc{fill:rgb(167 139 250)}
+  }
+</style><style>
+  .tag{font-size:12px;font-weight:700;letter-spacing:.06em;fill:rgb(var(--mut)/.66)}
+  .big2{font-size:44px;font-weight:700;fill:rgb(var(--tx))}
+  .metric{font-size:26px;font-weight:700;fill:rgb(var(--tx))}
+  .metricp{font-size:26px;font-weight:700;fill:rgb(var(--a))}
+  .step{fill:rgb(var(--line)/.05);stroke:rgb(var(--line)/.18);stroke-width:1.2}
+  .stepp{fill:rgb(var(--a)/.10);stroke:rgb(var(--a));stroke-width:1.2}
+  .stepb{fill:rgb(var(--p)/.10);stroke:rgb(var(--p));stroke-width:1.2}
+  .lane{fill:rgb(var(--bg));stroke:rgb(var(--line)/.2);stroke-width:1.5}
+  .lanep{fill:rgb(var(--a)/.06);stroke:rgb(var(--a));stroke-width:1.5}
+  .lanb{fill:rgb(var(--p)/.05);stroke:rgb(var(--p));stroke-width:1.5}
+  .cross{stroke:rgb(var(--line)/.55);stroke-width:2.5;stroke-linecap:round}
+  .tick{stroke:rgb(var(--p));stroke-width:3;stroke-linecap:round;stroke-linejoin:round;fill:none}
+  .tickp{stroke:rgb(var(--a));stroke-width:3;stroke-linecap:round;stroke-linejoin:round;fill:none}
+  .bridge{fill:rgb(var(--a)/.10);stroke:rgb(var(--a));stroke-width:1.5}
+  .endl{fill:rgb(var(--line)/.07);stroke:rgb(var(--line)/.25);stroke-width:1.5}
+  .endr{fill:rgb(var(--p)/.10);stroke:rgb(var(--p));stroke-width:1.5}
+  .dashv{stroke:rgb(var(--line)/.35);stroke-width:1.5;stroke-dasharray:5 5}
+  .chipbox2{fill:rgb(var(--a)/.12);stroke:rgb(var(--a));stroke-width:1.2}
+  @media (prefers-color-scheme: dark){
+    .metricp{fill:rgb(167 139 250)}.tickp{stroke:rgb(167 139 250)}
+    .stepp{stroke:rgb(167 139 250)}.lanep{stroke:rgb(167 139 250)}.bridge{stroke:rgb(167 139 250)}
+    .chipbox2{stroke:rgb(167 139 250)}
+  }
+</style><style>
+  .numw{font-size:18px;font-weight:700;fill:#fff}
+  .chipfill{fill:rgb(var(--a))}
+  .chipw{font-size:14px;font-weight:700;fill:#fff}
+  .cell{fill:rgb(var(--line)/.07)}
+  .c1{fill:rgb(var(--p))}.c2{fill:rgb(var(--s))}.c3{fill:rgb(var(--a))}
+  .hl{fill:rgb(var(--a)/.07);stroke:rgb(var(--a));stroke-width:1.5}
+  .dash{stroke:rgb(var(--line)/.4);stroke-width:2;stroke-dasharray:6 5;fill:none}
+  .pa{stroke:rgb(var(--a));stroke-width:3;fill:none}
+  .pah{fill:rgb(var(--a))}
+  .bold-p{font-size:14.5px;font-weight:700;fill:rgb(var(--a))}
+  @media (prefers-color-scheme: dark){
+    .bold-p{fill:rgb(167 139 250)}.pa{stroke:rgb(167 139 250)}.pah{fill:rgb(167 139 250)}.c3{fill:rgb(167 139 250)}
+    .hl{stroke:rgb(167 139 250)}.chipfill{fill:rgb(109 40 217)}
+  }
+</style><rect class="bg" width="1200" height="700"/>
+<text class="title" x="60" y="78" text-anchor="start">Paperless làm được gì, và chưa thay đổi điều gì</text>
+<text class="subtitle" x="60" y="110" text-anchor="start">Paperless là bước cần thiết, nhưng chưa phải là đích</text>
+<g class="g1"><rect class="box" x="60" y="140" width="510" height="510" rx="14"/><rect class="bar" x="60" y="140" width="510" height="6" rx="3"/></g>
+<text class="h2" x="88" y="184" text-anchor="start">Paperless làm tốt</text>
+<text class="mut" x="88" y="208" text-anchor="start">Giải quyết vấn đề vật liệu: giấy thành file</text>
+<circle cx="100" cy="264" r="14" fill="rgb(var(--p)/.12)"/>
+<path class="tick" d="M94 264 l4.5 5 l8 -10"/>
+<text class="term" x="130" y="260" text-anchor="start">Giảm chi phí lưu trữ</text>
+<text class="body" x="130" y="282" text-anchor="start">Bớt không gian kho, chi phí in, rủi ro mất mát</text>
+<circle cx="100" cy="360" r="14" fill="rgb(var(--p)/.12)"/>
+<path class="tick" d="M94 360 l4.5 5 l8 -10"/>
+<text class="term" x="130" y="356" text-anchor="start">Tìm kiếm cơ bản tốt hơn</text>
+<text class="body" x="130" y="378" text-anchor="start">Dễ hơn so với tìm trong tủ giấy</text>
+<circle cx="100" cy="456" r="14" fill="rgb(var(--p)/.12)"/>
+<path class="tick" d="M94 456 l4.5 5 l8 -10"/>
+<text class="term" x="130" y="452" text-anchor="start">Làm việc từ xa</text>
+<text class="body" x="130" y="474" text-anchor="start">Truy cập không cần có mặt tại chỗ</text>
+<circle cx="100" cy="552" r="14" fill="rgb(var(--p)/.12)"/>
+<path class="tick" d="M94 552 l4.5 5 l8 -10"/>
+<text class="term" x="130" y="548" text-anchor="start">Điều kiện cho bước sau</text>
+<text class="body" x="130" y="570" text-anchor="start">Thông tin còn trên giấy thì chưa thể có workflow số</text>
+<g class="g3"><rect class="box" x="630" y="140" width="510" height="510" rx="14"/><rect class="bar" x="630" y="140" width="510" height="6" rx="3"/></g>
+<text class="h2" x="658" y="184" text-anchor="start">Paperless chưa thay đổi</text>
+<text class="mut" x="658" y="208" text-anchor="start">Vấn đề thật là cách thông tin được tổ chức và dùng để quyết định</text>
+<circle cx="670" cy="264" r="14" fill="rgb(var(--line)/.07)"/>
+<path class="cross" d="M665 259 l10 10 M675 259 l-10 10"/>
+<text class="term" x="700" y="260" text-anchor="start">Dữ liệu chưa truy vấn được</text>
+<text class="body" x="700" y="282" text-anchor="start">PDF chứa thông tin nhưng phải mở từng file</text>
+<circle cx="670" cy="360" r="14" fill="rgb(var(--line)/.07)"/>
+<path class="cross" d="M665 355 l10 10 M675 355 l-10 10"/>
+<text class="term" x="700" y="356" text-anchor="start">Workflow vẫn người với người</text>
+<text class="body" x="700" y="378" text-anchor="start">In/gửi PDF, ký, scan, lưu; không có audit trail tự động</text>
+<circle cx="670" cy="456" r="14" fill="rgb(var(--line)/.07)"/>
+<path class="cross" d="M665 451 l10 10 M675 451 l-10 10"/>
+<text class="term" x="700" y="452" text-anchor="start">Tổng hợp vẫn thủ công</text>
+<text class="body" x="700" y="474" text-anchor="start">Nhập lại vào Excel, báo cáo có thể lỗi thời khi xong</text>
+<circle cx="670" cy="552" r="14" fill="rgb(var(--line)/.07)"/>
+<path class="cross" d="M665 547 l10 10 M675 547 l-10 10"/>
+<text class="term" x="700" y="548" text-anchor="start">Chưa có tri thức tổ chức</text>
+<text class="body" x="700" y="570" text-anchor="start">SOP dạng PDF thiếu ngữ cảnh, nhân viên vẫn phải hỏi người</text>
+<text class="body" x="700" y="588" text-anchor="start">có kinh nghiệm</text>
+<text class="foot" x="60" y="676" text-anchor="start">okelas.com</text>
+</svg>

@@ -75,12 +75,28 @@ const typeBadgeClass: Record<string, string> = {
       <div>
         <h2 class="text-2xl font-bold mb-6 text-slate-900 dark:text-white">Tất cả bài viết về Business & Operations</h2>
       <ul class="space-y-4">
-        {bizOpsArticles.map((article) => (
+        {bizOpsArticles.map((article) => {
+          const coverImages: Record<string, string> = {
+            'chuyen-doi-so-doanh-nghiep-san-xuat': 'dt-01b-og-cover-vi.png',
+            'giai-doan-so-hoa-doanh-nghiep': 'lv-04-og-cover-vi.png',
+            'paperless-khong-phai-chuyen-doi-so': 'pl-04-og-cover-vi.png',
+            'nhieu-phan-mem-chua-so-hoa': 'sw-04-og-cover-vi.png',
+            'lo-trinh-dms-eqms-knowledge-os': 'rm-05-og-cover-vi.png',
+            'so-hoa-ho-so-iso-gmp': 'so-05-og-cover-vi.png',
+            'progressive-eqms-la-gi': 'pe-05-og-cover-vi.png',
+            'chi-phi-khong-so-hoa': 'cn-05-og-cover-vi.png',
+            'du-an-chuyen-doi-so-that-bai': 'dp-06-og-cover-vi.png',
+            'buoc-tiep-theo-so-hoa-co-nghia-kinh-te': 'nx-05-og-cover-vi.png',
+          };
+          const imageName = coverImages[article.id] || '';
+          const coverImagePath = `/assets/images/insights/${article.id}/${imageName}`;
+
+          return (
           <li key={article.id} class="flex items-start gap-4 group">
             <div class="flex-shrink-0 w-20 h-24 overflow-hidden rounded bg-gray-200">
               <img
-                src={article.data.cover_image || '/assets/placeholder.png'}
-                alt={article.data.cover_image_alt || article.data.title}
+                src={coverImagePath}
+                alt={article.data.title}
                 class="w-full h-full object-cover"
               />
             </div>
@@ -103,7 +119,8 @@ const typeBadgeClass: Record<string, string> = {
               </div>
             </a>
           </li>
-        ))}
+        );
+        })}
       </ul>
       </div>
     </div>

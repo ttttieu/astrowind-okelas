@@ -3,9 +3,6 @@ title: "ISO và GMP trong bối cảnh số hóa — những gì cần thay đ�
 description: "Số hóa hồ sơ ISO/GMP không chỉ là chuyển từ giấy sang PDF. Bài viết phân tích yêu cầu của tiêu chuẩn và cách xây dựng hệ thống quản lý hồ sơ phù hợp."
 publishDate: 2025-09-24T00:00:00Z
 image: '~/assets/images/insights/iso-gmp-records-management.png'
-cover_image: '/assets/images/insights/so-hoa-ho-so-iso-gmp/iso-05-og-cover-vi.png'
-og_image: '/assets/images/insights/so-hoa-ho-so-iso-gmp/iso-05-og-cover-vi.png'
-cover_image_alt: "ISO và GMP trong bối cảnh số hóa: kiểm soát hồ sơ quan trọng hơn định dạng giấy hay số"
 category: 'business-operations'
 tags: ['ISO', 'GMP', 'Compliance', 'Quản lý hồ sơ', 'Document Control']
 translationId: 'biz-ops-iso-gmp-records-management'

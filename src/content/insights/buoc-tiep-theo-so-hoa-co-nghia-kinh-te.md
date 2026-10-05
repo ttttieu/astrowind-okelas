@@ -3,9 +3,6 @@ title: "Bước tiếp theo có nghĩa kinh tế là gì — framework tự đá
 description: "Không phải mọi đầu tư số hóa đều có giá trị như nhau ở mọi giai đoạn. Bài viết cung cấp framework để CEO tự đánh giá bước tiếp theo phù hợp nhất với doanh nghiệp."
 publishDate: 2025-09-24T00:00:00Z
 image: '~/assets/images/insights/next-step-digitalization.png'
-cover_image: '/assets/images/insights/buoc-tiep-theo-so-hoa-co-nghia-kinh-te/nx-05-og-cover-vi.png'
-og_image: '/assets/images/insights/buoc-tiep-theo-so-hoa-co-nghia-kinh-te/nx-05-og-cover-vi.png'
-cover_image_alt: "Bước tiếp theo của số hóa có ý nghĩa kinh tế: năm bậc cấp độ, một bậc được nhấn là bước tiếp theo, bắt đầu từ vấn đề tốn nhiều nhất"
 category: 'business-operations'
 tags: ['Đầu tư số hóa', 'ROI', 'Chiến lược', 'Framework quyết định', 'Kinh doanh']
 translationId: 'biz-ops-next-step-digitalization'

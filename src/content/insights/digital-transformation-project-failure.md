@@ -3,9 +3,6 @@ title: "The Big Bang Digital Transformation Trap: Why It Fails and What to Do In
 description: "Many businesses invest heavily in large-scale digital transformation and don't achieve the expected results. This article examines common failure patterns and a more practical alternative."
 publishDate: 2025-09-24T00:00:00Z
 image: '~/assets/images/insights/digital-transformation-failure.png'
-cover_image: '/assets/images/insights/digital-transformation-project-failure/dp-06-og-cover-en.png'
-og_image: '/assets/images/insights/digital-transformation-project-failure/dp-06-og-cover-en.png'
-cover_image_alt: "The big digital transformation trap: one big bang block with a single checkpoint at the end, versus small steps each with a checkpoint; understand the mechanism to avoid it"
 category: 'business-operations'
 tags: ['Digital Transformation', 'Project Failure', 'Risk Management', 'Implementation', 'Strategy']
 translationId: 'biz-ops-digital-transformation-failure'

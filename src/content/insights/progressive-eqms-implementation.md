@@ -3,9 +3,6 @@ title: "Progressive eQMS: Starting Small and Building the Right Way"
 description: "There's more than one way to implement an eQMS. A progressive approach lets organizations start small and build incrementally — without a full upfront investment. Here's what that looks like."
 publishDate: 2025-09-24T00:00:00Z
 image: '~/assets/images/insights/progressive-eqms.png'
-cover_image: '/assets/images/insights/progressive-eqms-implementation/pe-05-og-cover-en.png'
-og_image: '/assets/images/insights/progressive-eqms-implementation/pe-05-og-cover-en.png'
-cover_image_alt: "Progressive eQMS: start small, start right, and expand from the real problem rather than the module catalog"
 category: 'business-operations'
 tags: ['eQMS', 'Implementation', 'Progressive', 'Quality System', 'Incremental']
 translationId: 'biz-ops-progressive-eqms-implementation'

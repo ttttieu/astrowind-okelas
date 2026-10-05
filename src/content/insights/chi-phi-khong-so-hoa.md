@@ -3,9 +3,6 @@ title: "Chi phí thực sự của việc không số hóa — những thứ ít
 description: "Doanh nghiệp thường lo ngại chi phí đầu tư số hóa. Nhưng ít ai tính đầy đủ chi phí của việc không số hóa. Bài viết phân tích các chi phí ẩn này."
 publishDate: 2025-09-24T00:00:00Z
 image: '~/assets/images/insights/cost-of-not-digitalizing.png'
-cover_image: '/assets/images/insights/chi-phi-khong-so-hoa/cn-05-og-cover-vi.png'
-og_image: '/assets/images/insights/chi-phi-khong-so-hoa/cn-05-og-cover-vi.png'
-cover_image_alt: "Chi phí của việc không số hóa: khoản chi không có dòng ngân sách, đối lập với chi phí đầu tư số hóa thấy rõ trong ngân sách"
 category: 'business-operations'
 tags: ['Phân tích chi phí', 'Số hóa', 'ROI', 'Vận hành', 'Tác động tài chính']
 translationId: 'biz-ops-cost-of-not-digitalizing'

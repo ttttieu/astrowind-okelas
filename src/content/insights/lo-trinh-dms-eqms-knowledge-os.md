@@ -3,9 +3,6 @@ title: "Từ DMS đến eQMS đến Knowledge OS — lộ trình số hóa từn
 description: "Doanh nghiệp không cần nhảy thẳng từ giấy tờ lên hệ thống phức tạp. Bài viết mô tả lộ trình từng bước: DMS → eQMS → Knowledge Operating System — và khi nào mỗi bước có ý nghĩa."
 publishDate: 2025-09-24T00:00:00Z
 image: '~/assets/images/insights/dms-eqms-roadmap.png'
-cover_image: '/assets/images/insights/lo-trinh-dms-eqms-knowledge-os/rm-05-og-cover-vi.png'
-og_image: '/assets/images/insights/lo-trinh-dms-eqms-knowledge-os/rm-05-og-cover-vi.png'
-cover_image_alt: "Từ DMS đến eQMS đến Knowledge OS: lộ trình số hóa từng bước"
 category: 'business-operations'
 tags: ['DMS', 'eQMS', 'Knowledge OS', 'Lộ trình', 'Hệ thống chất lượng']
 translationId: 'biz-ops-dms-eqms-knowledge-os'
