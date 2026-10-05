@@ -19,6 +19,9 @@ secondaryKeywords:
   - "workflow bị chặn"
   - "human bottleneck"
 assessmentHref: /readiness/digitalization
+coverImage: '~/assets/images/insights/workflow-phu-thuoc-con-nguoi/wfh-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/workflow-phu-thuoc-con-nguoi/wfh-00-og-cover-vi.png'
+coverImageAlt: "Một chuỗi dồn qua một cổng chờ đúng một người, so với một chuỗi được điều hướng theo ngưỡng qua nhiều đường."
 draft: false
 ---
 
@@ -44,6 +47,8 @@ Phản ứng thường thấy của tổ chức là đổ lỗi cho cá nhân: "
 
 ## Human bottleneck là gì
 
+![Một bước chờ thông tin và điều kiện sẵn sàng khác với một bước chờ đúng một người, khi người đó vắng mặt, quá tải hoặc bỏ sót.](~/assets/images/insights/workflow-phu-thuoc-con-nguoi/wfh-01-waiting-for-whom-vi.svg)
+
 Human bottleneck xảy ra khi một quy trình được thiết kế sao cho tiến độ của nó phụ thuộc vào sự sẵn sàng của một cá nhân cụ thể, tại một thời điểm cụ thể — thay vì phụ thuộc vào việc thông tin và điều kiện quyết định đã sẵn sàng hay chưa.
 
 Điểm khác biệt quan trọng: một bước cần con người quyết định không tự động là vấn đề. Vấn đề xuất hiện khi **chỉ một người duy nhất** có thể đưa ra quyết định đó, và không có cơ chế nào cho việc người đó vắng mặt, quá tải, hoặc đơn giản là quên.
@@ -55,6 +60,8 @@ Khảo sát của McKinsey với hơn 1.200 lãnh đạo doanh nghiệp toàn c�
 ---
 
 ## Ba dạng phụ thuộc phổ biến
+
+![Ba dạng phụ thuộc vào con người: phê duyệt một điểm, theo dõi bằng trí nhớ, tiến triển nhờ bị đòi việc.](~/assets/images/insights/workflow-phu-thuoc-con-nguoi/wfh-02-three-patterns-vi.svg)
 
 **1. Phụ thuộc vào một người duy nhất (single point of approval).** Một bước quan trọng trong quy trình chỉ có đúng một người có quyền hoặc có đủ thông tin để quyết định. Khi người đó nghỉ phép, đi công tác, hoặc chuyển việc, toàn bộ quy trình đứng lại — không phải vì thiếu quy trình, mà vì quy trình chưa từng tính đến khả năng người đó vắng mặt.
 
@@ -68,6 +75,8 @@ Ba dạng này thường tồn tại đồng thời trong cùng một quy trình
 
 ## Chi phí của việc chờ đợi
 
+![Chi phí của việc chờ gồm thời gian chờ dễ thấy, cộng với hành vi tự bảo vệ và tổn thất cơ hội cộng dồn qua nhiều quy trình.](~/assets/images/insights/workflow-phu-thuoc-con-nguoi/wfh-03-cost-of-waiting-vi.svg)
+
 Chi phí dễ thấy nhất là thời gian — một yêu cầu mất ba ngày thay vì ba giờ. Nhưng có hai loại chi phí ít được nhắc tới hơn, và thường lớn hơn:
 
 **Chi phí hành vi phòng thủ.** Khi việc ra quyết định chậm và không rõ ràng, nhân sự có xu hướng tự bảo vệ mình: xin thêm xác nhận qua email "để có bằng chứng", đẩy quyết định lên cấp cao hơn dù bản thân đủ thẩm quyền, hoặc trì hoãn hành động cho tới khi thực sự chắc chắn không ai có thể quy trách nhiệm cho họ. Hành vi này không xuất phát từ sự thiếu năng lực — nó là phản ứng hợp lý của một cá nhân trong một hệ thống mà trách nhiệm không được phân định rõ và tốc độ ra quyết định không đáng tin cậy.
@@ -79,6 +88,8 @@ Chi phí dễ thấy nhất là thời gian — một yêu cầu mất ba ngày 
 ---
 
 ## Cách giảm human dependency hợp lý
+
+![Bốn cách giảm phụ thuộc: ủy quyền theo ngưỡng thay vì chức danh, dự phòng chính thức, hệ thống theo dõi và hệ thống nhắc việc.](~/assets/images/insights/workflow-phu-thuoc-con-nguoi/wfh-04-four-redesigns-vi.svg)
 
 Giảm phụ thuộc con người không có nghĩa là loại bỏ con người khỏi quy trình — với nhiều quyết định, sự phán đoán của con người vẫn cần thiết và không nên bị thay thế. Vấn đề là thiết kế lại **cách** con người tham gia, theo bốn hướng:
 

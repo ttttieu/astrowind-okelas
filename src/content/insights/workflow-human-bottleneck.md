@@ -19,6 +19,9 @@ secondaryKeywords:
   - "workflow delays"
   - "reducing human dependency workflow"
 assessmentHref: /en/readiness/digitalization
+coverImage: '~/assets/images/insights/workflow-human-bottleneck/wfh-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/workflow-human-bottleneck/wfh-00-og-cover-en.png'
+coverImageAlt: "One chain funnelled through a gate waiting on exactly one person, versus a chain routed by threshold along several paths."
 draft: false
 ---
 
@@ -44,6 +47,8 @@ The usual organizational response is to blame the individual: "they're too slow 
 
 ## What a Human Bottleneck Actually Is
 
+![A step waiting for information and conditions to be ready differs from a step waiting for exactly one person, who may be absent, overloaded or forget.](~/assets/images/insights/workflow-human-bottleneck/wfh-01-waiting-for-whom-en.svg)
+
 A human bottleneck occurs when a process is designed so its progress depends on one specific person's availability at one specific moment — instead of depending on whether the information and conditions needed to decide are actually ready.
 
 The key distinction: a step that requires human judgment isn't automatically a problem. The problem appears when **only one person** can make that call, and there's no mechanism for what happens when they're absent, overloaded, or simply forget.
@@ -55,6 +60,8 @@ That's evidence for an important point: **slower doesn't mean more careful, and 
 ---
 
 ## Three Common Dependency Patterns
+
+![Three ways a workflow depends on people: single-point approval, memory-based tracking and chase-driven progress.](~/assets/images/insights/workflow-human-bottleneck/wfh-02-three-patterns-en.svg)
 
 **1. Single-point approval.** A critical step in the process has exactly one person with the authority or the information needed to decide. When that person is on leave, traveling, or changes roles, the entire process stops — not because the process is missing, but because it was never designed to account for that person's absence.
 
@@ -68,6 +75,8 @@ These three patterns typically coexist in the same process, and they reinforce e
 
 ## The Cost of Waiting
 
+![The cost of waiting includes the visible waiting time, plus defensive behavior and opportunity loss accumulating across many processes.](~/assets/images/insights/workflow-human-bottleneck/wfh-03-cost-of-waiting-en.svg)
+
 The most visible cost is time — a request taking three days instead of three hours. But two less-discussed costs are usually larger:
 
 **The cost of defensive behavior.** When decision-making is slow and unclear, people naturally protect themselves: asking for extra confirmation by email "to have it on record," escalating decisions upward even when they have the authority to make them, or delaying action until they're certain no one could hold them accountable. This behavior doesn't come from a lack of skill — it's a rational response to operating inside a system where accountability isn't clearly assigned and decision speed can't be relied on.
@@ -79,6 +88,8 @@ Worth noting: these costs grow with organizational size. As a company grows more
 ---
 
 ## How to Reduce Dependency Without Removing Accountability
+
+![Four ways to cut dependency: delegate by threshold instead of title, formal backup, system tracking and system prompts.](~/assets/images/insights/workflow-human-bottleneck/wfh-04-four-redesigns-en.svg)
 
 Reducing human dependency doesn't mean taking people out of the process — for many decisions, human judgment is genuinely necessary and shouldn't be replaced. The problem is *how* people are involved. There are four directions worth pursuing:
 
