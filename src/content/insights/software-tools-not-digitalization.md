@@ -2,7 +2,7 @@
 title: "More Software Doesn't Mean More Digitalization"
 description: "Many businesses have invested in dozens of software tools and still don't feel digitalized. The issue isn't a lack of tools — it's a lack of connection and strategy."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/software-tools-digitalization.png'
+image: '~/assets/images/insights/sw-04-og-cover-en.png'
 category: 'business-operations'
 tags: ['Software Tools', 'Digitalization', 'Integration', 'Strategy']
 translationId: 'biz-ops-software-not-digitalization'
@@ -33,6 +33,8 @@ Now the follow-up question: when the CEO needs to know "what are we producing th
 
 ## Software ≠ Digitalization
 
+![Tool count vs. information flow quality: disconnected tools versus connected tools](~/assets/images/insights/sw-01-tool-count-vs-flow-en.svg)
+
 This is the most common misconception in digital transformation.
 
 The number of software tools doesn't reflect the degree of digitalization. What reflects it is: **can information move to the right place, at the right time, to the right person, without being re-entered or manually transmitted?**
@@ -42,6 +44,8 @@ A business running 15 disconnected software tools may be less digitalized than o
 ---
 
 ## When software creates more silos instead of fewer
+
+![Map of information silos: data isolated in separate systems, requiring manual consolidation](~/assets/images/insights/sw-02-silo-map-report-request-en.svg)
 
 There's a paradox rarely discussed: every new software tool added without a clear integration strategy creates one more information silo.
 
@@ -68,6 +72,8 @@ And every time a CEO has to wait 2–3 days for a consolidated report is a clear
 ---
 
 ## The question CEOs should ask
+
+![Five questions to test information connectivity: answerable from one system or requiring manual consolidation?](~/assets/images/insights/sw-03-five-question-test-en.svg)
 
 Rather than "what software do we need to add?", a more useful question is:
 

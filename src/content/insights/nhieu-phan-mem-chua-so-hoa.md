@@ -2,7 +2,7 @@
 title: "Nhiều phần mềm không có nghĩa là doanh nghiệp đã số hóa"
 description: "Nhiều doanh nghiệp đã đầu tư hàng chục phần mềm nhưng vẫn chưa thực sự số hóa. Vấn đề không phải là thiếu công cụ — mà là thiếu sự liên kết và strategy."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/software-tools-digitalization.png'
+image: '~/assets/images/insights/sw-04-og-cover-vi.png'
 category: 'business-operations'
 tags: ['Phần mềm', 'Số hóa', 'Integration', 'Strategy']
 translationId: 'biz-ops-software-not-digitalization'
@@ -33,6 +33,8 @@ Bây giờ câu hỏi tiếp theo: khi CEO cần biết "tuần này chúng ta �
 
 ## Software ≠ Digitalization
 
+![Số lượng công cụ so với chất lượng luồng thông tin: công cụ rời rạc vs công cụ kết nối](~/assets/images/insights/sw-01-tool-count-vs-flow-vi.svg)
+
 Đây là sự nhầm lẫn phổ biến nhất trong chuyển đổi số.
 
 Số lượng phần mềm không phản ánh mức độ số hóa. Điều phản ánh là: **thông tin có thể di chuyển đúng chỗ, đúng lúc, đúng người, mà không cần gõ lại hoặc truyền đạt thủ công không?**
@@ -42,6 +44,8 @@ Một doanh nghiệp dùng 15 phần mềm không liên thông có thể ít s�
 ---
 
 ## Khi phần mềm tạo thêm silo thay vì giải quyết silo
+
+![Sơ đồ các silo thông tin: dữ liệu bị cô lập trong từng phần mềm, yêu cầu tổng hợp thủ công](~/assets/images/insights/sw-02-silo-map-report-request-vi.svg)
 
 Có một nghịch lý ít ai nhắc đến: mỗi phần mềm mới được thêm vào mà không có chiến lược tích hợp rõ ràng sẽ tạo ra thêm một silo thông tin.
 
@@ -68,6 +72,8 @@ Và mỗi lần CEO phải chờ 2–3 ngày để có một báo cáo tổng h�
 ---
 
 ## Câu hỏi CEO cần tự đặt ra
+
+![Năm câu hỏi kiểm tra mức độ kết nối thông tin: có thể trả lời từ một hệ thống hay phải tổng hợp thủ công?](~/assets/images/insights/sw-03-five-question-test-vi.svg)
 
 Thay vì hỏi "chúng ta cần thêm phần mềm gì?", câu hỏi hữu ích hơn là:
 
