@@ -2,7 +2,7 @@
 title: "Doanh nghiệp của bạn đang ở giai đoạn số hóa nào?"
 description: "Số hóa không phải chỉ có hay không có — mà là một hành trình nhiều cấp độ. Bài viết giúp CEO tự xác định doanh nghiệp đang ở đâu và bước tiếp theo hợp lý là gì."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/digitalization-stages.png'
+image: '~/assets/images/insights/lv-04-og-cover-vi.png'
 category: 'business-operations'
 tags: ['Số hóa', 'Cấp độ số hóa', 'Đánh giá doanh nghiệp', 'Manufacturing SME']
 translationId: 'biz-ops-digitalization-stages'
@@ -26,6 +26,8 @@ Số hóa không phải là câu hỏi có-hay-không.
 Không có doanh nghiệp nào "chưa số hóa gì cả" và cũng không có doanh nghiệp nào "đã số hóa hoàn toàn". Tất cả đều đang ở đâu đó trên một hành trình liên tục — và biết mình đang ở đâu là bước đầu tiên để quyết định bước tiếp theo.
 
 Dưới đây là 5 cấp độ số hóa với dấu hiệu nhận biết cụ thể. Đọc qua và tự xác định doanh nghiệp của bạn đang ở đâu — hoặc ở đâu trên từng chiều, vì không phải mọi bộ phận đều ở cùng cấp độ.
+
+![Năm cấp độ số hóa của doanh nghiệp — từ cấp độ 1 (giấy tờ) đến cấp độ 5 (vận hành có AI hỗ trợ)](~/assets/images/insights/lv-01-level-signs-vi.svg)
 
 ---
 
@@ -52,6 +54,8 @@ Dưới đây là 5 cấp độ số hóa với dấu hiệu nhận biết cụ 
 - Khi một nhân viên nghỉ, nhiều thông tin quan trọng nằm trong máy tính hoặc email của người đó.
 
 **Điều cần biết:** Đây là giai đoạn nhiều SME bị "kẹt" — đã bỏ nhiều chi phí cho phần mềm nhưng thực tế vẫn vận hành bằng Excel vì phần mềm không phù hợp với workflow thực tế.
+
+![Minh họa cấp độ số hóa khác nhau trên các chiều quản lý khác nhau (ví dụ minh họa, không phải dữ liệu thực)](~/assets/images/insights/lv-03-level2-loop-vi.svg)
 
 ---
 
@@ -96,6 +100,8 @@ Tuy nhiên:
 ---
 
 ## Một điểm quan trọng cần nhớ
+
+![Doanh nghiệp thường ở các cấp độ khác nhau trên các chiều khác nhau — không phải tất cả đều ở cùng cấp độ](~/assets/images/insights/lv-02-level-by-department-vi.svg)
 
 Hầu hết doanh nghiệp không ở cùng cấp độ trên mọi chiều.
 

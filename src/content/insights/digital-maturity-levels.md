@@ -2,7 +2,7 @@
 title: "The 5 Stages of Business Digitalization: Where Are You?"
 description: "Digitalization isn't binary — it's a multi-stage journey. This article helps executives identify where their business currently sits and what the next meaningful step is."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/digitalization-stages.png'
+image: '~/assets/images/insights/lv-04-og-cover-en.png'
 category: 'business-operations'
 tags: ['Digitalization', 'Digital Maturity', 'Business Assessment', 'Manufacturing SME']
 translationId: 'biz-ops-digitalization-stages'
@@ -26,6 +26,8 @@ Digitalization isn't a yes-or-no question.
 No business is "completely undigitalized" and no business is "fully digitalized." Every organization sits somewhere on a continuous journey — and knowing where you are is the first step to deciding what comes next.
 
 Here are 5 digitalization levels with specific recognition signals. Read through and identify where your business sits — or where it sits on each dimension, because not every department will be at the same level.
+
+![Five digitalization levels for business — from level 1 (paper-based) to level 5 (AI-assisted operations)](~/assets/images/insights/lv-01-level-signs-en.svg)
 
 ---
 
@@ -52,6 +54,8 @@ Here are 5 digitalization levels with specific recognition signals. Read through
 - When an employee leaves, significant information is trapped in their computer or email account.
 
 **What to know:** This is the level where many SMEs get stuck — they've spent money on software but operations still run on Excel because the software doesn't fit the actual workflow.
+
+![Illustration of different digitalization levels across different business dimensions (illustrative example, not actual data)](~/assets/images/insights/lv-03-level2-loop-en.svg)
 
 ---
 
@@ -96,6 +100,8 @@ However:
 ---
 
 ## One important point to remember
+
+![Businesses typically operate at different levels across different dimensions — not all at the same level](~/assets/images/insights/lv-02-level-by-department-en.svg)
 
 Most businesses aren't at the same level across all dimensions.
 

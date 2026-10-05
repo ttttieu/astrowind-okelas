@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="Illustrative example of departments at different digitalization levels, with the next step being the weakest dimension"><style>
+  :root{--p:1 97 239;--s:1 84 207;--a:109 40 217;--bg:255 255 255;--tx:0 0 0;--mut:16 16 16;--line:16 16 16}
+  @media (prefers-color-scheme: dark){:root{--bg:8 9 10;--tx:247 248 248;--mut:229 236 246;--line:229 236 246}}
+  text{font-family:Inter,Roboto,'Segoe UI',system-ui,-apple-system,Arial,sans-serif}
+  .bg{fill:rgb(var(--bg))}
+  .title{font-size:32px;font-weight:700;fill:rgb(var(--tx))}
+  .big{font-size:50px;font-weight:700;fill:rgb(var(--tx))}
+  .subtitle{font-size:17px;fill:rgb(var(--mut)/.66)}
+  .term{font-size:16px;font-weight:700;fill:rgb(var(--tx))}
+  .h2{font-size:19px;font-weight:700;fill:rgb(var(--tx))}
+  .lbl{font-size:11.5px;font-weight:600;letter-spacing:.08em;fill:rgb(var(--mut)/.66)}
+  .desc{font-size:13.5px;fill:rgb(var(--mut)/.85)}
+  .body{font-size:14.5px;fill:rgb(var(--mut)/.88)}
+  .mut{font-size:13px;fill:rgb(var(--mut)/.66)}
+  .val{font-size:15px;font-weight:600;fill:rgb(var(--tx))}
+  .foot{font-size:13px;fill:rgb(var(--mut)/.5)}
+  .chip{font-size:12px;font-weight:700;letter-spacing:.06em}
+  .g1 .box{fill:rgb(var(--p)/.08);stroke:rgb(var(--p))}
+  .g2 .box{fill:rgb(var(--s)/.12);stroke:rgb(var(--s))}
+  .g3 .box{fill:rgb(var(--a)/.09);stroke:rgb(var(--a))}
+  .g1 .bar{fill:rgb(var(--p))}.g2 .bar{fill:rgb(var(--s))}.g3 .bar{fill:rgb(var(--a))}
+  .g1 .acc{fill:rgb(var(--p))}.g2 .acc{fill:rgb(var(--s))}.g3 .acc{fill:rgb(var(--a))}
+  .box{stroke-width:1.5}
+  .card{fill:rgb(var(--bg));stroke:rgb(var(--line)/.2);stroke-width:1.5}
+  .soft{fill:rgb(var(--line)/.05)}
+  .ghost{fill:rgb(var(--line)/.22)}
+  .rule{stroke:rgb(var(--line)/.45);stroke-width:2;fill:none}
+  .ring{stroke:rgb(var(--line)/.18);stroke-width:1;fill:none}
+  .axis{stroke:rgb(var(--line)/.18);stroke-width:1}
+  .poly{fill:rgb(var(--p)/.18);stroke:rgb(var(--p));stroke-width:2.5;stroke-linejoin:round}
+  .dot{fill:rgb(var(--p));stroke:rgb(var(--bg));stroke-width:2}
+  .ah{fill:rgb(var(--line)/.45)}
+  .chipbox{fill:rgb(var(--a)/.12);stroke:rgb(var(--a));stroke-width:1.2}
+  .chiptx{fill:rgb(var(--a))}
+  .blue{fill:rgb(var(--p))}.purp{fill:rgb(var(--a))}
+  .ok{fill:rgb(var(--p)/.10);stroke:rgb(var(--p));stroke-width:1.5}
+  .pr{fill:rgb(var(--a)/.10);stroke:rgb(var(--a));stroke-width:1.5}
+  .final{fill:rgb(var(--tx));}
+  .finaltx{font-size:18px;font-weight:700;fill:rgb(var(--bg))}
+  @media (prefers-color-scheme: dark){
+    .g1 .box{fill:rgb(var(--p)/.18)}.g2 .box{fill:rgb(var(--s)/.22)}.g3 .box{fill:rgb(var(--a)/.2)}
+    .chiptx{fill:rgb(167 139 250)}.chipbox{stroke:rgb(167 139 250)}.purp{fill:rgb(167 139 250)}.pr{stroke:rgb(167 139 250)}
+    .g3 .acc{fill:rgb(167 139 250)}
+  }
+</style><style>
+  .numw{font-size:18px;font-weight:700;fill:#fff}
+  .chipfill{fill:rgb(var(--a))}
+  .chipw{font-size:14px;font-weight:700;fill:#fff}
+  .cell{fill:rgb(var(--line)/.07)}
+  .c1{fill:rgb(var(--p))}.c2{fill:rgb(var(--s))}.c3{fill:rgb(var(--a))}
+  .hl{fill:rgb(var(--a)/.07);stroke:rgb(var(--a));stroke-width:1.5}
+  .dash{stroke:rgb(var(--line)/.4);stroke-width:2;stroke-dasharray:6 5;fill:none}
+  .pa{stroke:rgb(var(--a));stroke-width:3;fill:none}
+  .pah{fill:rgb(var(--a))}
+  .bold-p{font-size:14.5px;font-weight:700;fill:rgb(var(--a))}
+  @media (prefers-color-scheme: dark){
+    .bold-p{fill:rgb(167 139 250)}.pa{stroke:rgb(167 139 250)}.pah{fill:rgb(167 139 250)}.c3{fill:rgb(167 139 250)}
+    .hl{stroke:rgb(167 139 250)}.chipfill{fill:rgb(109 40 217)}
+  }
+</style><rect class="bg" width="1200" height="700"/>
+<text class="title" x="60" y="78" text-anchor="start">One level per department: start with the weakest</text>
+<text class="subtitle" x="60" y="110" text-anchor="start">Digitalization level by department for a hypothetical company</text>
+<rect class="chipbox" x="60" y="128" width="304" height="28" rx="14"/>
+<text class="chip chiptx" x="72" y="147" text-anchor="start">ILLUSTRATIVE EXAMPLE · NOT REAL DATA</text>
+<text class="mut" x="350.0" y="208" text-anchor="middle">Level 1</text>
+<text class="mut" x="450.0" y="208" text-anchor="middle">Level 2</text>
+<text class="mut" x="550.0" y="208" text-anchor="middle">Level 3</text>
+<text class="mut" x="650.0" y="208" text-anchor="middle">Level 4</text>
+<text class="mut" x="750.0" y="208" text-anchor="middle">Level 5</text>
+<text class="h2" x="70" y="264" text-anchor="start">QC</text>
+<rect class="c1" x="303" y="238" width="94" height="40" rx="6"/>
+<rect class="c1" x="403" y="238" width="94" height="40" rx="6"/>
+<rect class="c2" x="503" y="238" width="94" height="40" rx="6"/>
+<rect class="cell" x="603" y="238" width="94" height="40" rx="6"/>
+<rect class="cell" x="703" y="238" width="94" height="40" rx="6"/>
+<line class="dash" x1="608" y1="258" x2="660" y2="258"/><path class="ah" d="M672 258 l-11 -6 v12 z"/>
+<text class="mut" x="830" y="254" text-anchor="start">Already strong: raising it</text>
+<text class="mut" x="830" y="274" text-anchor="start">further is usually worth less</text>
+<rect class="hl" x="44" y="304" width="1112" height="76" rx="12"/>
+<text class="h2" x="70" y="348" text-anchor="start">Production</text>
+<rect class="c1" x="303" y="322" width="94" height="40" rx="6"/>
+<rect class="cell" x="403" y="322" width="94" height="40" rx="6"/>
+<rect class="cell" x="503" y="322" width="94" height="40" rx="6"/>
+<rect class="cell" x="603" y="322" width="94" height="40" rx="6"/>
+<rect class="cell" x="703" y="322" width="94" height="40" rx="6"/>
+<line class="pa" x1="408" y1="342" x2="470" y2="342"/><path class="pah" d="M482 342 l-12 -7 v14 z"/>
+<text class="bold-p" x="830" y="338" text-anchor="start">Weakest dimension: usually the</text>
+<text class="bold-p" x="830" y="358" text-anchor="start">most meaningful next step</text>
+<text class="h2" x="70" y="432" text-anchor="start">Planning</text>
+<rect class="c1" x="303" y="406" width="94" height="40" rx="6"/>
+<rect class="c1" x="403" y="406" width="94" height="40" rx="6"/>
+<rect class="cell" x="503" y="406" width="94" height="40" rx="6"/>
+<rect class="cell" x="603" y="406" width="94" height="40" rx="6"/>
+<rect class="cell" x="703" y="406" width="94" height="40" rx="6"/>
+<text class="h2" x="70" y="516" text-anchor="start">Warehouse</text>
+<rect class="c1" x="303" y="490" width="94" height="40" rx="6"/>
+<rect class="c1" x="403" y="490" width="94" height="40" rx="6"/>
+<rect class="cell" x="503" y="490" width="94" height="40" rx="6"/>
+<rect class="cell" x="603" y="490" width="94" height="40" rx="6"/>
+<rect class="cell" x="703" y="490" width="94" height="40" rx="6"/>
+<text class="body" x="60" y="600" text-anchor="start">Each department or process gets its own level; most companies are not at the same level on every dimension.</text>
+<text class="foot" x="60" y="676" text-anchor="start">okelas.com</text>
+</svg>

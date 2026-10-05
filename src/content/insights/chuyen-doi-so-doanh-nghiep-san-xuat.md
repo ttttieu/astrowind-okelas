@@ -2,7 +2,7 @@
 title: "Chuyển đổi số với Manufacturing SME — thực sự là gì và bắt đầu từ đâu"
 description: "Chuyển đổi số không phải là mua phần mềm hay số hóa tài liệu. Bài viết giải thích chuyển đổi số thực sự có nghĩa là gì với manufacturing SME — và lộ trình phù hợp."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/digital-transformation-sme.png'
+image: '~/assets/images/insights/dt-01b-og-cover-vi.png'
 category: 'business-operations'
 tags: ['Chuyển đổi số', 'Số hóa', 'Manufacturing SME', 'Chiến lược']
 translationId: 'biz-ops-pillar-digital-transformation'
@@ -52,6 +52,8 @@ Bài viết này không cố gắng đưa ra một định nghĩa mới về "ch
 ---
 
 ## Số hóa không phải là đích đến — đó là hành trình có các giai đoạn
+
+![Năm giai đoạn số hóa doanh nghiệp — từ giai đoạn 1 (giấy tờ) đến giai đoạn 5 (vận hành có AI hỗ trợ)](~/assets/images/insights/dt-01-five-stages-vi.svg)
 
 Một trong những hiểu lầm phổ biến nhất về chuyển đổi số là nó được frame như một đích đến: "doanh nghiệp đã chuyển đổi số" hoặc "chưa chuyển đổi số". Thực tế phức tạp hơn — và hữu ích hơn khi được nhìn theo cách khác.
 
@@ -111,6 +113,8 @@ Doanh nghiệp ở giai đoạn này: còn rất ít manufacturing SME ở giai 
 
 ## Doanh nghiệp của bạn thực sự đang ở đâu?
 
+![Minh họa mức độ trưởng thành của các chiều số hóa khác nhau trong doanh nghiệp (ví dụ minh họa, không phải dữ liệu thực)](~/assets/images/insights/dt-02-digitalization-profile-vi.svg)
+
 Một nhận xét quan trọng trước khi đọc tiếp: hầu hết manufacturing SME không ở cùng giai đoạn trên tất cả các chiều. Một doanh nghiệp có thể:
 
 - Có ERP nhưng nhân viên vẫn dùng Excel vì ERP không phù hợp với workflow thực tế (giai đoạn 3 về hệ thống, nhưng giai đoạn 2 về vận hành thực tế).
@@ -132,6 +136,8 @@ Phần mềm không cải thiện quy trình lộn xộn — nó chỉ làm cho 
 Quy trình chuẩn hóa phải đến trước — hoặc ít nhất là song song với — triển khai phần mềm.
 
 ### Sai lầm 2 — Nhầm "scan tài liệu" với số hóa
+
+![So sánh giữa scan tài liệu (thông tin dạng ảnh, không tìm kiếm được) và dữ liệu có cấu trúc (có thể phân tích và truy vấn)](~/assets/images/insights/dt-03-scan-vs-structured-vi.svg)
 
 Nhiều doanh nghiệp nghĩ rằng khi tất cả tài liệu đã được scan thành PDF, họ đã "số hóa". Điều này không đúng.
 
