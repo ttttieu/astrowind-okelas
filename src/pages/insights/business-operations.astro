@@ -77,15 +77,13 @@ const typeBadgeClass: Record<string, string> = {
       <ul class="space-y-4">
         {bizOpsArticles.map((article) => (
           <li key={article.id} class="flex items-start gap-4 group">
-            {article.data.cover_image && (
-              <div class="flex-shrink-0 w-20 h-24 overflow-hidden rounded">
-                <img
-                  src={article.data.cover_image}
-                  alt={article.data.cover_image_alt || article.data.title}
-                  class="w-full h-full object-cover"
-                />
-              </div>
-            )}
+            <div class="flex-shrink-0 w-20 h-24 overflow-hidden rounded bg-gray-200">
+              <img
+                src={article.data.cover_image || '/assets/placeholder.png'}
+                alt={article.data.cover_image_alt || article.data.title}
+                class="w-full h-full object-cover"
+              />
+            </div>
             <a
               href={`/insights/${article.data.category}/${article.id}`}
               class="flex-1 hover:underline"
