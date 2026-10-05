@@ -19,6 +19,9 @@ secondaryKeywords:
   - "AI routing"
   - "smart workflow routing"
 assessmentHref: /readiness/digitalization
+coverImage: '~/assets/images/insights/workflow-tu-phan-loai-dinh-tuyen/wfg-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/workflow-tu-phan-loai-dinh-tuyen/wfg-00-og-cover-vi.png'
+coverImageAlt: "Rule cứng chuyển nội dung theo từ khóa tới phòng ban; intelligent routing hiểu ý định, chuyển đúng người và gợi ý bước tiếp theo."
 draft: false
 ---
 
@@ -54,11 +57,15 @@ Cách tiếp cận này có ưu điểm rõ ràng: nhanh, dễ hiểu, dễ ki�
 - Một yêu cầu có thể chứa nhiều vấn đề cùng lúc, và quy tắc phải chọn một cách tùy tiện xem nên định tuyến theo tiêu chí nào.
 - Quy tắc được viết tại một thời điểm, nhưng cách khách hàng hoặc nhân viên diễn đạt vấn đề thay đổi theo thời gian, theo sản phẩm mới, theo thuật ngữ nội bộ mới — khiến quy tắc dần lỗi thời nếu không có ai chủ động cập nhật.
 
+![Ba giới hạn cố hữu của định tuyến bằng rule cứng](~/assets/images/insights/workflow-tu-phan-loai-dinh-tuyen/wfg-02-three-limits-of-rules-vi-dark.svg)
+
 Vấn đề không phải là "rule cứng làm sai" theo kiểu ngẫu nhiên — nó làm sai một cách có hệ thống, đúng ở những trường hợp giống hệt kịch bản, và sai ở mọi biến thể khác. Việc duy trì và mở rộng quy tắc theo thời gian trở thành một công việc tốn công liên tục, luôn chạy theo sau thực tế đang thay đổi.
 
 ---
 
 ## AI phân loại và định tuyến như thế nào
+
+![Rule cứng chuyển email theo từ khóa như hoàn tiền hoặc hóa đơn; intelligent routing nhận ra hai cách diễn đạt khác nhau cùng dẫn tới một loại xử lý, dù không chung từ khóa.](~/assets/images/insights/workflow-tu-phan-loai-dinh-tuyen/wfg-01-keyword-vs-intent-vi-dark.svg)
 
 Intelligent routing không loại bỏ ý tưởng "định tuyến dựa trên nội dung" của Content-Based Router — nó thay đổi **cách nội dung được hiểu** trước khi định tuyến.
 
@@ -70,11 +77,15 @@ Cơ chế cơ bản gồm ba bước:
 2. **So khớp với các danh mục hoặc trường hợp đã biết**, dựa trên sự tương đồng về ý nghĩa, không chỉ về câu chữ.
 3. **Xử lý trường hợp chứa nhiều vấn đề cùng lúc** bằng cách nhận diện và phân tách từng vấn đề, thay vì buộc phải chọn một danh mục duy nhất.
 
+![Ba bước của intelligent routing: hiểu nội dung theo ngữ nghĩa, so khớp với danh mục hoặc trường hợp đã biết, tách các vấn đề trong cùng yêu cầu; vẫn có thể sai ở ca mơ hồ hoặc chưa từng gặp.](~/assets/images/insights/workflow-tu-phan-loai-dinh-tuyen/wfg-03-three-step-mechanism-vi-dark.svg)
+
 Điều quan trọng cần lưu ý: intelligent routing không có nghĩa là chính xác tuyệt đối. Nó vẫn có thể phân loại sai, đặc biệt với những trường hợp thực sự mơ hồ hoặc chưa từng gặp trước đó. Nhưng khác với rule cứng — vốn sai theo cách "cứng" và dễ đoán trước (chỉ đúng với đúng từ khóa) — hệ thống dựa trên ngữ nghĩa có khả năng xử lý đúng cả những biến thể chưa từng được lập trình cụ thể, miễn là chúng đủ tương đồng về mặt ý nghĩa với dữ liệu đã học.
 
 ---
 
 ## Đề xuất bước tiếp theo dựa trên context
+
+![Yêu cầu mới được so với các trường hợp đã xử lý, hệ thống gợi ý bước tiếp theo và người xử lý quyết định cuối; hai ví dụ: khiếu nại lỗi đóng gói và yêu cầu mua hàng lặp lại.](~/assets/images/insights/workflow-tu-phan-loai-dinh-tuyen/wfg-04-suggest-next-step-vi-dark.svg)
 
 Phân loại và định tuyến chỉ là bước đầu. Một bước xa hơn — tương ứng với "recommend" trong khung bốn dạng đã nêu ở bài trước — là để hệ thống gợi ý luôn **bước xử lý tiếp theo**, không chỉ nói "yêu cầu này thuộc loại gì".
 
@@ -88,6 +99,8 @@ Cơ chế này dựa trên nguyên tắc: nếu một yêu cầu mới đủ tư
 ---
 
 ## Ứng dụng thực tế
+
+![Bốn ứng dụng: phân loại khiếu nại khách hàng, định tuyến yêu cầu hỗ trợ nội bộ, phân loại email nhà cung cấp, và định tuyến yêu cầu bảo trì thiết bị.](~/assets/images/insights/workflow-tu-phan-loai-dinh-tuyen/wfg-05-four-applications-vi-dark.svg)
 
 **Phân loại khiếu nại khách hàng.** Thay vì một nhân viên đọc từng khiếu nại để xác định đây là vấn đề chất lượng, giao hàng, hay thanh toán, hệ thống tự phân loại dựa trên nội dung, kèm gợi ý mức độ ưu tiên dựa trên lịch sử của khách hàng đó.
 

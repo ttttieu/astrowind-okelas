@@ -19,6 +19,9 @@ secondaryKeywords:
   - "workflow next step suggestion"
   - "context-aware routing"
 assessmentHref: /en/readiness/digitalization
+coverImage: '~/assets/images/insights/intelligent-workflow-routing/wfg-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/intelligent-workflow-routing/wfg-00-og-cover-en.png'
+coverImageAlt: "A hard rule sends content to a department by keyword; intelligent routing reads intent, reaches the right person and suggests the next step."
 draft: false
 ---
 
@@ -54,11 +57,15 @@ This approach has clear strengths: fast, easy to understand, easy to test. But i
 - A request can contain multiple issues at once, forcing the rule to arbitrarily pick one criterion to route by.
 - Rules get written at a point in time, but the way customers or employees describe issues shifts over time — new products, new internal terminology — gradually making the rules outdated unless someone actively maintains them.
 
+![Three limits of hard rules: one issue can be phrased many ways, one request can hold several issues, and rules go out of date; in return hard rules are fast, easy to understand and easy to audit.](~/assets/images/insights/intelligent-workflow-routing/wfg-02-three-limits-of-rules-en-dark.svg)
+
 The problem isn't that hard rules fail randomly — they fail systematically, working correctly on cases that match the exact scripted pattern, and failing on every variation. Maintaining and expanding rules over time becomes a continuous, labor-intensive job that's always chasing a reality that keeps changing.
 
 ---
 
 ## How AI Classifies and Routes Work Differently
+
+![A hard rule routes an email by keyword such as refund or invoice; intelligent routing recognizes that two differently worded messages lead to the same kind of handling, even with no shared keyword.](~/assets/images/insights/intelligent-workflow-routing/wfg-01-keyword-vs-intent-en-dark.svg)
 
 Intelligent routing doesn't discard the "route based on content" idea behind the Content-Based Router — it changes **how content is understood** before routing.
 
@@ -70,11 +77,15 @@ The basic mechanism has three steps:
 2. **Match against known categories or cases**, based on similarity in meaning, not just wording.
 3. **Handle cases with multiple issues at once** by identifying and separating each issue, instead of being forced to pick a single category.
 
+![Three steps of intelligent routing: understand content by meaning, match against known categories or cases, and separate the issues within one request; it can still be wrong on ambiguous or unseen cases.](~/assets/images/insights/intelligent-workflow-routing/wfg-03-three-step-mechanism-en-dark.svg)
+
 An important caveat: intelligent routing doesn't mean perfect accuracy. It can still misclassify, especially for genuinely ambiguous or entirely novel cases. But unlike hard rules — which fail in a "hard," predictable way (correct only on the exact keyword) — a semantics-based system can correctly handle variations it was never explicitly programmed for, as long as they're similar enough in meaning to what it has learned from.
 
 ---
 
 ## Suggesting the Next Step Based on Context
+
+![A new request is compared with previously handled cases, the system suggests the next step and the handler decides; two examples: a packaging-defect complaint and a recurring purchase request.](~/assets/images/insights/intelligent-workflow-routing/wfg-04-suggest-next-step-en-dark.svg)
 
 Classifying and routing are only the first step. A further step — corresponding to "recommend" from the four-form framework in the previous article — is having the system also suggest the **next handling step**, not just say "this request is type X."
 
@@ -88,6 +99,8 @@ The key point: this remains a **suggestion**, not an automatic decision. The per
 ---
 
 ## Practical Applications
+
+![Four applications: classifying customer complaints, routing internal support requests, classifying supplier emails, and routing equipment maintenance requests.](~/assets/images/insights/intelligent-workflow-routing/wfg-05-four-applications-en-dark.svg)
 
 **Classifying customer complaints.** Instead of an employee reading each complaint to determine whether it's a quality, delivery, or payment issue, the system classifies it automatically based on content, along with a suggested priority level based on that customer's history.
 
