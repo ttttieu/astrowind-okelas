@@ -3,6 +3,9 @@ title: "More Software Doesn't Mean More Digitalization"
 description: "Many businesses have invested in dozens of software tools and still don't feel digitalized. The issue isn't a lack of tools — it's a lack of connection and strategy."
 publishDate: 2025-09-24T00:00:00Z
 image: '~/assets/images/insights/sw-04-og-cover-en.png'
+cover_image: '~/assets/images/insights/software-tools-not-digitalization/sw-04-og-cover-en.png'
+og_image: '~/assets/images/insights/software-tools-not-digitalization/sw-04-og-cover-en.png'
+cover_image_alt: "More software but still not digitalized: disconnected systems and manual operations"
 category: 'business-operations'
 tags: ['Software Tools', 'Digitalization', 'Integration', 'Strategy']
 translationId: 'biz-ops-software-not-digitalization'

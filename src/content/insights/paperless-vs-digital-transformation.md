@@ -3,6 +3,9 @@ title: "Paperless Is Not Digital Transformation: Here's the Distinction That Mat
 description: "A paperless office is a first step — but it's not digital transformation. Here's why eliminating paper doesn't change how your business actually operates, and what needs to happen next."
 publishDate: 2025-09-24T00:00:00Z
 image: '~/assets/images/insights/pl-04-og-cover-en.png'
+cover_image: '~/assets/images/insights/paperless-vs-digital-transformation/pl-04-og-cover-en.png'
+og_image: '~/assets/images/insights/paperless-vs-digital-transformation/pl-04-og-cover-en.png'
+cover_image_alt: "Paperless is not digital transformation: from paper to digital documents, but operations still manual"
 category: 'business-operations'
 tags: ['Paperless', 'Digital Transformation', 'Digital Operations', 'Manufacturing']
 translationId: 'biz-ops-paperless-vs-digital'
