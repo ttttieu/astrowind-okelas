@@ -18,6 +18,9 @@ secondaryKeywords:
   - "next generation workflow performance"
   - "workflow ceiling"
 assessmentHref: /en/readiness/digitalization
+coverImage: '~/assets/images/insights/workflow-improvement-next-level/wfn-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/workflow-improvement-next-level/wfn-00-og-cover-en.png'
+coverImageAlt: "A workflow that starts when someone creates a request, versus an event-driven workflow with pre-prepared context."
 draft: false
 ---
 
@@ -33,6 +36,8 @@ Few companies ask this question, because "workflow is running fine" tends to fee
 
 ## When Workflow Is Already Good Enough
 
+![A good workflow has sensible approvals, enough context, clear exception paths and trackable progress, but that is only the current limit of technology and design, not an absolute ceiling.](~/assets/images/insights/workflow-improvement-next-level/wfn-01-good-enough-ceiling-en-dark.svg)
+
 A "good enough" workflow usually has these traits: approval steps that are sensible and not redundant; people handling each step with enough context; a clear path for exceptions instead of them falling outside the system; and progress that's easy to check without asking anyone directly.
 
 Reaching this point is a real achievement — most small and mid-sized manufacturers haven't gotten there yet. But "good enough" by today's standard isn't a fixed ceiling. It's just the top of what a particular generation of technology and design can deliver.
@@ -40,6 +45,8 @@ Reaching this point is a real achievement — most small and mid-sized manufactu
 ---
 
 ## Hidden Limits That Remain
+
+![Three hidden limits: workflows start only when someone creates a request, handle cases one at a time without spotting patterns, and leave decision-makers to assemble information themselves.](~/assets/images/insights/workflow-improvement-next-level/wfn-02-hidden-limits-en-dark.svg)
 
 Even a well-designed workflow usually carries a few limits that are hard to notice, because they don't cause a visible failure — they just quietly cap speed at a certain level:
 
@@ -52,6 +59,8 @@ None of these limits make the workflow "bad" — they simply represent the natur
 ---
 
 ## The Next Layer of Workflow Speed
+
+![Two next directions: event-driven activation instead of waiting for people to notice, and pre-prepared context that turns decisions from investigation into confirmation.](~/assets/images/insights/workflow-improvement-next-level/wfn-03-two-directions-en-dark.svg)
 
 The next layer doesn't come from adding more approval steps or tighter process control — if anything, it comes from reducing how often a person needs to start or manually assemble something. Two directions stand out:
 
@@ -66,6 +75,8 @@ Neither direction requires giving up human control over important decisions — 
 ---
 
 ## A Self-Check
+
+![Three self-assessment questions: processes that start only after someone notices a problem, decision-makers spending time assembling information, and whether faster response would create meaningful business impact.](~/assets/images/insights/workflow-improvement-next-level/wfn-04-self-assessment-en-dark.svg)
 
 If your workflow is already "good enough," three questions help determine whether it's worth investing in another layer:
 

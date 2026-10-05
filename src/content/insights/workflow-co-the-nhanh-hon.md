@@ -18,6 +18,9 @@ secondaryKeywords:
   - "nâng cấp workflow"
   - "workflow next level"
 assessmentHref: /readiness/digitalization
+coverImage: '~/assets/images/insights/workflow-co-the-nhanh-hon/wfn-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/workflow-co-the-nhanh-hon/wfn-00-og-cover-vi.png'
+coverImageAlt: "Một workflow khởi động khi có người tạo yêu cầu, so với một workflow được kích hoạt theo sự kiện với ngữ cảnh chuẩn bị sẵn."
 draft: false
 ---
 
@@ -33,6 +36,8 @@ Nếu bạn đang ở nhóm này, câu hỏi phù hợp không còn là "làm sa
 
 ## Khi workflow đã đủ tốt
 
+![Workflow đã đủ tốt có approval hợp lý, đủ ngữ cảnh, đường đi cho ngoại lệ và theo dõi tiến độ, nhưng đó chỉ là giới hạn của công nghệ và cách thiết kế hiện nay, chưa phải trần tuyệt đối.](~/assets/images/insights/workflow-co-the-nhanh-hon/wfn-01-good-enough-ceiling-vi-dark.svg)
+
 Một workflow "đủ tốt" thường có những đặc điểm sau: các bước phê duyệt hợp lý, không dư thừa; người xử lý có đủ ngữ cảnh cần thiết; ngoại lệ có đường đi rõ ràng thay vì rơi ra ngoài hệ thống; và tiến độ có thể tra cứu được mà không cần hỏi trực tiếp ai.
 
 Đạt được mức này đã là một thành tựu thực sự — phần lớn doanh nghiệp sản xuất vừa và nhỏ chưa tới được đây. Nhưng "đủ tốt" theo chuẩn hôm nay không có nghĩa là giới hạn cố định. Nó chỉ là mức trần của một thế hệ công nghệ và cách thiết kế nhất định.
@@ -40,6 +45,8 @@ Một workflow "đủ tốt" thường có những đặc điểm sau: các bư�
 ---
 
 ## Những giới hạn ẩn còn lại
+
+![Ba giới hạn ẩn: workflow chỉ bắt đầu khi có người tạo yêu cầu, xử lý từng ca riêng lẻ không nhận ra mẫu lặp, và người quyết định tự tổng hợp thông tin.](~/assets/images/insights/workflow-co-the-nhanh-hon/wfn-02-hidden-limits-vi-dark.svg)
 
 Ngay cả một workflow được thiết kế tốt vẫn thường mang theo một số giới hạn khó nhận ra, vì chúng không gây ra sự cố rõ ràng — chỉ âm thầm giữ tốc độ ở một mức nhất định:
 
@@ -52,6 +59,8 @@ Những giới hạn này không làm workflow "tệ" — chúng chỉ đại di
 ---
 
 ## Tầng tiếp theo của workflow speed
+
+![Hai hướng tiếp theo: kích hoạt theo sự kiện thay vì chờ người phát hiện, và ngữ cảnh được chuẩn bị sẵn để người quyết định chuyển từ điều tra sang xác nhận.](~/assets/images/insights/workflow-co-the-nhanh-hon/wfn-03-two-directions-vi-dark.svg)
 
 Tầng tiếp theo không đến từ việc thêm nhiều bước phê duyệt hơn hay quy trình chặt hơn — ngược lại, nó đến từ việc giảm bớt số lần cần con người khởi động hoặc tổng hợp thủ công. Hai hướng đáng chú ý:
 
@@ -66,6 +75,8 @@ Cả hai hướng này đều không đòi hỏi từ bỏ sự kiểm soát c�
 ---
 
 ## Câu hỏi để tự đánh giá
+
+![Ba câu hỏi tự đánh giá: quy trình chỉ bắt đầu khi có người phát hiện vấn đề, người quyết định mất thời gian tổng hợp thông tin, và phản hồi nhanh hơn có tạo tác động kinh doanh đáng kể không.](~/assets/images/insights/workflow-co-the-nhanh-hon/wfn-04-self-assessment-vi-dark.svg)
 
 Nếu workflow của bạn đã ở mức "đủ tốt", ba câu hỏi sau giúp xác định liệu có đáng để đầu tư thêm một tầng nữa:
 
