@@ -37,7 +37,7 @@ If that sounds familiar, the right question isn't "is this workflow software any
 
 ## Digitized Workflow Is Not the Same as Optimized Workflow
 
-![Digitizing turns a paper or email process into an electronic form and signature chain: the process gets clearer, but it stays sequential and doesn't start itself, so it isn't necessarily faster.](~/assets/images/insights/workflow-digitized-still-slow/wfs-01-digitized-vs-optimized-en.png)
+![Digitizing turns a paper or email process into an electronic form and signature chain: the process gets clearer, but it stays sequential and doesn't start itself, so it isn't necessarily faster.](~/assets/images/insights/workflow-digitized-still-slow/wfs-01-digitized-vs-optimized-en.svg)
 
 This is the most common confusion. Digitizing a process means taking a sequence of steps that used to run on paper or by email and turning it into an electronic form with a chain of people signing one after another.
 
@@ -49,7 +49,7 @@ In other words: digitization makes a process *clearer*, but not necessarily *fas
 
 ## Three Reasons Workflow Still Creates Friction
 
-![Three reasons a digitized workflow stays slow: steps stay sequential when they could run in parallel, approvers lack context, and exceptions fall back to calls, texts and private email.](~/assets/images/insights/workflow-digitized-still-slow/wfs-02-three-friction-causes-en.png)
+![Three reasons a digitized workflow stays slow: steps stay sequential when they could run in parallel, approvers lack context, and exceptions fall back to calls, texts and private email.](~/assets/images/insights/workflow-digitized-still-slow/wfs-02-three-friction-causes-en.svg)
 
 **1. Steps stay sequential when they don't need to be.** Many approval steps are chained one after another (A, then B, then C) simply because that's how it was done on paper — not because the actual business logic requires that order. When the process gets digitized, that sequential habit is usually carried over instead of being reconsidered.
 
@@ -63,7 +63,7 @@ None of these three causes are the fault of a specific piece of software. They'r
 
 ## Warning Signs
 
-![Four signs a workflow was digitized but never redesigned; two or more suggests the problem is process design.](~/assets/images/insights/workflow-digitized-still-slow/wfs-03-four-signs-en.png)
+![Four signs a workflow was digitized but never redesigned; two or more suggests the problem is process design.](~/assets/images/insights/workflow-digitized-still-slow/wfs-03-four-signs-en.svg)
 
 Your company may be facing exactly this problem if:
 
@@ -78,7 +78,7 @@ If two or more of these are true for your company, the problem is almost certain
 
 ## Questions Worth Asking Before You Look for New Software
 
-![Three questions for a CEO on sequencing, context and exception handling before looking for another workflow tool.](~/assets/images/insights/workflow-digitized-still-slow/wfs-04-three-ceo-questions-en.png)
+![Three questions for a CEO on sequencing, context and exception handling before looking for another workflow tool.](~/assets/images/insights/workflow-digitized-still-slow/wfs-04-three-ceo-questions-en.svg)
 
 Before adding another workflow tool, or another feature to the one you already have, three questions are worth asking:
 
