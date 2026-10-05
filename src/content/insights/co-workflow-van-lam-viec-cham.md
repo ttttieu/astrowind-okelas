@@ -18,6 +18,9 @@ secondaryKeywords:
   - "tại sao workflow chậm"
   - "workflow số hóa không cải thiện"
 assessmentHref: /readiness/digitalization
+coverImage: '~/assets/images/insights/co-workflow-van-lam-viec-cham/wfs-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/co-workflow-van-lam-viec-cham/wfs-00-og-cover-vi.png'
+coverImageAlt: "Hai chuỗi bước giống hệt nhau, một chuỗi trên giấy hoặc email và một chuỗi form điện tử: số hóa chưa đổi thứ tự tuần tự."
 draft: false
 ---
 
@@ -33,6 +36,8 @@ Nếu bạn thấy quen thuộc, câu hỏi đáng đặt ra không phải "ph�
 
 ## Workflow số hóa ≠ workflow tối ưu
 
+![Số hóa biến quy trình giấy hoặc email thành form điện tử và chuỗi người ký: quy trình rõ hơn, nhưng vẫn tuần tự và không tự chạy, nên chưa chắc nhanh hơn.](~/assets/images/insights/co-workflow-van-lam-viec-cham/wfs-01-digitized-vs-optimized-vi.png)
+
 Đây là điểm nhầm lẫn phổ biến nhất. Số hóa một quy trình nghĩa là: lấy chuỗi bước vốn làm trên giấy hoặc qua email, rồi chuyển nó thành form điện tử và một chuỗi người ký nối tiếp nhau trên phần mềm.
 
 Điều này giải quyết được một vấn đề thật — thất lạc, chậm trễ vì không ai tìm thấy tài liệu, khó tổng hợp lại lịch sử phê duyệt. Nhưng nó **không thay đổi bản chất của quy trình**. Chuỗi bước vẫn tuần tự, người sau vẫn phải chờ người trước, và hệ thống vẫn không tự biết khi nào cần "chạy" nếu không có người chủ động bấm nút.
@@ -42,6 +47,8 @@ Nói cách khác: số hóa làm quy trình *rõ ràng hơn*, nhưng không nh�
 ---
 
 ## Ba lý do workflow vẫn tạo ra friction
+
+![Ba lý do workflow đã số hóa vẫn chậm: các bước tuần tự dù có thể song song, người duyệt thiếu ngữ cảnh, và ngoại lệ rơi về gọi điện, nhắn tin, email riêng.](~/assets/images/insights/co-workflow-van-lam-viec-cham/wfs-02-three-friction-causes-vi.png)
 
 **1. Quy trình vẫn tuần tự khi lẽ ra có thể song song.** Nhiều bước phê duyệt được xếp nối tiếp nhau (A xong mới tới B, B xong mới tới C) chỉ vì đó là cách làm trên giấy trước đây — không phải vì nghiệp vụ thực sự đòi hỏi thứ tự đó. Khi số hóa, thói quen tuần tự này thường được giữ nguyên thay vì được xem xét lại.
 
@@ -55,6 +62,8 @@ Ba lý do này không phải lỗi của phần mềm cụ thể nào. Chúng l�
 
 ## Dấu hiệu nhận biết
 
+![Bốn dấu hiệu workflow đã số hóa nhưng chưa được thiết kế lại; từ hai dấu hiệu trở lên thì vấn đề nhiều khả năng nằm ở thiết kế quy trình.](~/assets/images/insights/co-workflow-van-lam-viec-cham/wfs-03-four-signs-vi.png)
+
 Doanh nghiệp bạn có thể đang gặp đúng vấn đề này nếu:
 
 - Một yêu cầu bị "kẹt" và không ai biết chắc nó đang ở bước nào, cho tới khi hỏi trực tiếp người phụ trách.
@@ -67,6 +76,8 @@ Nếu từ hai dấu hiệu trở lên đúng với doanh nghiệp bạn, vấn 
 ---
 
 ## Câu hỏi CEO cần tự đặt ra
+
+![Ba câu hỏi CEO nên tự đặt về tính tuần tự, ngữ cảnh và xử lý ngoại lệ trước khi tìm thêm công cụ workflow.](~/assets/images/insights/co-workflow-van-lam-viec-cham/wfs-04-three-ceo-questions-vi.png)
 
 Trước khi tìm thêm một công cụ workflow mới, hoặc bổ sung tính năng cho công cụ hiện tại, có ba câu hỏi đáng để tự hỏi:
 
