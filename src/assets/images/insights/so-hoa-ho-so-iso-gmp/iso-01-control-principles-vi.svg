@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 740" width="1200" height="740" role="img" aria-label="Năm nguyên tắc kiểm soát hồ sơ theo ISO và GMP, áp dụng cho cả giấy và số"><style>
+  :root{--p:1 97 239;--s:1 84 207;--a:109 40 217;--bg:255 255 255;--tx:0 0 0;--mut:16 16 16;--line:16 16 16}
+  @media (prefers-color-scheme: dark){:root{--bg:8 9 10;--tx:247 248 248;--mut:229 236 246;--line:229 236 246}}
+  text{font-family:Inter,Roboto,'Segoe UI',system-ui,-apple-system,Arial,sans-serif}
+  .bg{fill:rgb(var(--bg))}
+  .title{font-size:32px;font-weight:700;fill:rgb(var(--tx))}
+  .big{font-size:50px;font-weight:700;fill:rgb(var(--tx))}
+  .subtitle{font-size:17px;fill:rgb(var(--mut)/.66)}
+  .term{font-size:16px;font-weight:700;fill:rgb(var(--tx))}
+  .h2{font-size:19px;font-weight:700;fill:rgb(var(--tx))}
+  .lbl{font-size:11.5px;font-weight:600;letter-spacing:.08em;fill:rgb(var(--mut)/.66)}
+  .desc{font-size:13.5px;fill:rgb(var(--mut)/.85)}
+  .body{font-size:14.5px;fill:rgb(var(--mut)/.88)}
+  .mut{font-size:13px;fill:rgb(var(--mut)/.66)}
+  .val{font-size:15px;font-weight:600;fill:rgb(var(--tx))}
+  .foot{font-size:13px;fill:rgb(var(--mut)/.5)}
+  .chip{font-size:12px;font-weight:700;letter-spacing:.06em}
+  .g1 .box{fill:rgb(var(--p)/.08);stroke:rgb(var(--p))}
+  .g2 .box{fill:rgb(var(--s)/.12);stroke:rgb(var(--s))}
+  .g3 .box{fill:rgb(var(--a)/.09);stroke:rgb(var(--a))}
+  .g1 .bar{fill:rgb(var(--p))}.g2 .bar{fill:rgb(var(--s))}.g3 .bar{fill:rgb(var(--a))}
+  .g1 .acc{fill:rgb(var(--p))}.g2 .acc{fill:rgb(var(--s))}.g3 .acc{fill:rgb(var(--a))}
+  .box{stroke-width:1.5}
+  .card{fill:rgb(var(--bg));stroke:rgb(var(--line)/.2);stroke-width:1.5}
+  .soft{fill:rgb(var(--line)/.05)}
+  .ghost{fill:rgb(var(--line)/.22)}
+  .rule{stroke:rgb(var(--line)/.45);stroke-width:2;fill:none}
+  .ring{stroke:rgb(var(--line)/.18);stroke-width:1;fill:none}
+  .axis{stroke:rgb(var(--line)/.18);stroke-width:1}
+  .poly{fill:rgb(var(--p)/.18);stroke:rgb(var(--p));stroke-width:2.5;stroke-linejoin:round}
+  .dot{fill:rgb(var(--p));stroke:rgb(var(--bg));stroke-width:2}
+  .ah{fill:rgb(var(--line)/.45)}
+  .chipbox{fill:rgb(var(--a)/.12);stroke:rgb(var(--a));stroke-width:1.2}
+  .chiptx{fill:rgb(var(--a))}
+  .blue{fill:rgb(var(--p))}.purp{fill:rgb(var(--a))}
+  .ok{fill:rgb(var(--p)/.10);stroke:rgb(var(--p));stroke-width:1.5}
+  .pr{fill:rgb(var(--a)/.10);stroke:rgb(var(--a));stroke-width:1.5}
+  .final{fill:rgb(var(--tx));}
+  .finaltx{font-size:18px;font-weight:700;fill:rgb(var(--bg))}
+  @media (prefers-color-scheme: dark){
+    .g1 .box{fill:rgb(var(--p)/.18)}.g2 .box{fill:rgb(var(--s)/.22)}.g3 .box{fill:rgb(var(--a)/.2)}
+    .chiptx{fill:rgb(167 139 250)}.chipbox{stroke:rgb(167 139 250)}.purp{fill:rgb(167 139 250)}.pr{stroke:rgb(167 139 250)}
+    .g3 .acc{fill:rgb(167 139 250)}
+  }
+</style><style>
+  .tool{fill:rgb(var(--line)/.06);stroke:rgb(var(--line)/.25);stroke-width:1.2}
+  .toolb{fill:rgb(var(--p)/.12);stroke:rgb(var(--p));stroke-width:1.5}
+  .island{fill:rgb(var(--line)/.04);stroke:rgb(var(--line)/.35);stroke-width:1.5;stroke-dasharray:6 5}
+  .manual{stroke:rgb(var(--line)/.45);stroke-width:2;stroke-dasharray:3 5;fill:none;stroke-linecap:round}
+  .flow{stroke:rgb(var(--p));stroke-width:3;fill:none;stroke-linecap:round}
+  .flowh{fill:rgb(var(--p))}
+  .warn{fill:rgb(var(--a)/.12);stroke:rgb(var(--a));stroke-width:1.2}
+  .warntx{font-size:12.5px;font-weight:600;fill:rgb(var(--a))}
+  .slot{fill:rgb(var(--bg));stroke:rgb(var(--line)/.2);stroke-width:1.5}
+  .yes{fill:rgb(var(--p))}.no{fill:rgb(var(--a))}
+  .trk{fill:rgb(var(--line)/.10)}
+  .neq{font-size:64px;font-weight:700;fill:rgb(var(--a))}
+  @media (prefers-color-scheme: dark){
+    .warntx{fill:rgb(167 139 250)}.neq{fill:rgb(167 139 250)}.no{fill:rgb(167 139 250)}
+    .warn{stroke:rgb(167 139 250)}
+  }
+</style><style>
+  .gate{fill:rgb(var(--bg));stroke:rgb(var(--line)/.3);stroke-width:1.5}
+  .need{fill:rgb(var(--p)/.08);stroke:rgb(var(--p));stroke-width:1.2}
+  .node{fill:rgb(var(--bg));stroke:rgb(var(--p));stroke-width:1.8}
+  .nodep{fill:rgb(var(--a)/.10);stroke:rgb(var(--a));stroke-width:1.8}
+  .edge{stroke:rgb(var(--line)/.35);stroke-width:1.8;fill:none}
+  .edgep{stroke:rgb(var(--a));stroke-width:2.2;fill:none}
+  .tiny{font-size:12px;fill:rgb(var(--mut)/.66)}
+  .h32{font-size:32px;font-weight:700;fill:rgb(var(--tx))}
+  .good{fill:rgb(var(--p)/.10);stroke:rgb(var(--p));stroke-width:1.5}
+  .stop{fill:rgb(var(--a)/.08);stroke:rgb(var(--a));stroke-width:1.5}
+  .limit{fill:rgb(var(--a)/.08)}
+  .glow{fill:rgb(var(--a)/.06);stroke:rgb(var(--a));stroke-width:1.5;stroke-dasharray:6 5}
+  @media (prefers-color-scheme: dark){
+    .nodep{stroke:rgb(167 139 250)}.edgep{stroke:rgb(167 139 250)}.stop{stroke:rgb(167 139 250)}.glow{stroke:rgb(167 139 250)}
+  }
+</style><style>
+  .tag{font-size:12px;font-weight:700;letter-spacing:.06em;fill:rgb(var(--mut)/.66)}
+  .big2{font-size:44px;font-weight:700;fill:rgb(var(--tx))}
+  .metric{font-size:26px;font-weight:700;fill:rgb(var(--tx))}
+  .metricp{font-size:26px;font-weight:700;fill:rgb(var(--a))}
+  .step{fill:rgb(var(--line)/.05);stroke:rgb(var(--line)/.18);stroke-width:1.2}
+  .stepp{fill:rgb(var(--a)/.10);stroke:rgb(var(--a));stroke-width:1.2}
+  .stepb{fill:rgb(var(--p)/.10);stroke:rgb(var(--p));stroke-width:1.2}
+  .lane{fill:rgb(var(--bg));stroke:rgb(var(--line)/.2);stroke-width:1.5}
+  .lanep{fill:rgb(var(--a)/.06);stroke:rgb(var(--a));stroke-width:1.5}
+  .lanb{fill:rgb(var(--p)/.05);stroke:rgb(var(--p));stroke-width:1.5}
+  .cross{stroke:rgb(var(--line)/.55);stroke-width:2.5;stroke-linecap:round}
+  .tick{stroke:rgb(var(--p));stroke-width:3;stroke-linecap:round;stroke-linejoin:round;fill:none}
+  .tickp{stroke:rgb(var(--a));stroke-width:3;stroke-linecap:round;stroke-linejoin:round;fill:none}
+  .bridge{fill:rgb(var(--a)/.10);stroke:rgb(var(--a));stroke-width:1.5}
+  .endl{fill:rgb(var(--line)/.07);stroke:rgb(var(--line)/.25);stroke-width:1.5}
+  .endr{fill:rgb(var(--p)/.10);stroke:rgb(var(--p));stroke-width:1.5}
+  .dashv{stroke:rgb(var(--line)/.35);stroke-width:1.5;stroke-dasharray:5 5}
+  .chipbox2{fill:rgb(var(--a)/.12);stroke:rgb(var(--a));stroke-width:1.2}
+  @media (prefers-color-scheme: dark){
+    .metricp{fill:rgb(167 139 250)}.tickp{stroke:rgb(167 139 250)}
+    .stepp{stroke:rgb(167 139 250)}.lanep{stroke:rgb(167 139 250)}.bridge{stroke:rgb(167 139 250)}
+    .chipbox2{stroke:rgb(167 139 250)}
+  }
+</style><style>
+  .numw{font-size:18px;font-weight:700;fill:#fff}
+  .chipfill{fill:rgb(var(--a))}
+  .chipw{font-size:14px;font-weight:700;fill:#fff}
+  .cell{fill:rgb(var(--line)/.07)}
+  .c1{fill:rgb(var(--p))}.c2{fill:rgb(var(--s))}.c3{fill:rgb(var(--a))}
+  .hl{fill:rgb(var(--a)/.07);stroke:rgb(var(--a));stroke-width:1.5}
+  .dash{stroke:rgb(var(--line)/.4);stroke-width:2;stroke-dasharray:6 5;fill:none}
+  .pa{stroke:rgb(var(--a));stroke-width:3;fill:none}
+  .pah{fill:rgb(var(--a))}
+  .bold-p{font-size:14.5px;font-weight:700;fill:rgb(var(--a))}
+  @media (prefers-color-scheme: dark){
+    .bold-p{fill:rgb(167 139 250)}.pa{stroke:rgb(167 139 250)}.pah{fill:rgb(167 139 250)}.c3{fill:rgb(167 139 250)}
+    .hl{stroke:rgb(167 139 250)}.chipfill{fill:rgb(109 40 217)}
+  }
+</style><rect class="bg" width="1200" height="740"/>
+<text class="title" x="60" y="78" text-anchor="start">ISO và GMP yêu cầu kiểm soát hồ sơ, không yêu cầu định dạng</text>
+<text class="subtitle" x="60" y="110" text-anchor="start">Năm nguyên tắc chung áp dụng cho cả hồ sơ giấy và hồ sơ số</text>
+<rect class="final" x="60" y="150" width="290" height="440" rx="16"/>
+<text class="finaltx" x="205" y="330" text-anchor="middle">Documented information</text>
+<text x="205" y="362" text-anchor="middle" font-size="14" font-family="Inter,Roboto,Arial,sans-serif" fill="rgb(var(--bg))" opacity=".8">Tài liệu và hồ sơ</text>
+<text x="205" y="382" text-anchor="middle" font-size="14" font-family="Inter,Roboto,Arial,sans-serif" fill="rgb(var(--bg))" opacity=".8">theo cách gọi của ISO</text>
+<g class="g1"><rect class="box" x="400" y="150" width="740" height="80" rx="12"/><rect class="bar" x="400" y="150" width="8" height="80" rx="4"/></g>
+<circle class="blue" cx="440" cy="190.0" r="15"/>
+<text class="numw" x="440" y="196.0" text-anchor="middle">1</text>
+<text class="term" x="472" y="184" text-anchor="start">Kiểm soát và nhận diện rõ ràng</text>
+<text class="body" x="472" y="208" text-anchor="start">Loại hồ sơ, quy trình, phiên bản, người phê duyệt</text>
+<line class="rule" x1="354" y1="190.0" x2="385" y2="190.0"/><path class="ah" d="M394 190.0 l-9 -5 v10 z"/>
+<g class="g1"><rect class="box" x="400" y="240" width="740" height="80" rx="12"/><rect class="bar" x="400" y="240" width="8" height="80" rx="4"/></g>
+<circle class="blue" cx="440" cy="280.0" r="15"/>
+<text class="numw" x="440" y="286.0" text-anchor="middle">2</text>
+<text class="term" x="472" y="274" text-anchor="start">Truy xuất được khi cần</text>
+<text class="body" x="472" y="298" text-anchor="start">Người có thẩm quyền truy cập trong thời gian hợp lý</text>
+<line class="rule" x1="354" y1="280.0" x2="385" y2="280.0"/><path class="ah" d="M394 280.0 l-9 -5 v10 z"/>
+<g class="g1"><rect class="box" x="400" y="330" width="740" height="80" rx="12"/><rect class="bar" x="400" y="330" width="8" height="80" rx="4"/></g>
+<circle class="blue" cx="440" cy="370.0" r="15"/>
+<text class="numw" x="440" y="376.0" text-anchor="middle">3</text>
+<text class="term" x="472" y="364" text-anchor="start">Bảo vệ tính toàn vẹn</text>
+<text class="body" x="472" y="388" text-anchor="start">Chống thay đổi không kiểm soát, mất mát, hư hỏng</text>
+<line class="rule" x1="354" y1="370.0" x2="385" y2="370.0"/><path class="ah" d="M394 370.0 l-9 -5 v10 z"/>
+<g class="g3"><rect class="box" x="400" y="420" width="740" height="80" rx="12"/><rect class="bar" x="400" y="420" width="8" height="80" rx="4"/></g>
+<circle class="purp" cx="440" cy="460.0" r="15"/>
+<text class="numw" x="440" y="466.0" text-anchor="middle">4</text>
+<text class="term" x="472" y="454" text-anchor="start">Lưu trữ đúng thời gian quy định</text>
+<text class="body" x="472" y="478" text-anchor="start">Theo yêu cầu pháp lý, khách hàng hoặc tiêu chuẩn</text>
+<line class="rule" x1="354" y1="460.0" x2="385" y2="460.0"/><path class="ah" d="M394 460.0 l-9 -5 v10 z"/>
+<g class="g3"><rect class="box" x="400" y="510" width="740" height="80" rx="12"/><rect class="bar" x="400" y="510" width="8" height="80" rx="4"/></g>
+<circle class="purp" cx="440" cy="550.0" r="15"/>
+<text class="numw" x="440" y="556.0" text-anchor="middle">5</text>
+<text class="term" x="472" y="544" text-anchor="start">Kiểm soát quyền truy cập</text>
+<text class="body" x="472" y="568" text-anchor="start">Xác định ai xem, ai sửa, ai phê duyệt</text>
+<line class="rule" x1="354" y1="550.0" x2="385" y2="550.0"/><path class="ah" d="M394 550.0 l-9 -5 v10 z"/>
+<rect class="need" x="60" y="620" width="1080" height="62" rx="12"/>
+<text class="term" x="92" y="647" text-anchor="start">Đây là yêu cầu về kiểm soát và quản lý thông tin, không phải yêu cầu về giấy hay số.</text>
+<text class="mut" x="92" y="669" text-anchor="start">Yêu cầu cụ thể khác nhau giữa ISO 9001, ISO 22000, EU GMP, US FDA cGMP, FSSC 22000.</text>
+<text class="foot" x="60" y="716" text-anchor="start">okelas.com</text>
+<text class="foot" x="1140" y="716" text-anchor="end">Phân tích từ góc độ quản trị, không phải tư vấn tuân thủ hay pháp lý.</text>
+</svg>
