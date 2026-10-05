@@ -18,6 +18,9 @@ secondaryKeywords:
   - "workflow thông minh context"
   - "workflow knowledge"
 assessmentHref: /readiness/digitalization
+coverImage: '~/assets/images/insights/workflow-biet-context-to-chuc/wfk-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/workflow-biet-context-to-chuc/wfk-00-og-cover-vi.png'
+coverImageAlt: "Bốn bậc của workflow: số hóa, event-driven, AI phân loại và định tuyến, rồi context-aware workflow ở bậc cao nhất."
 draft: false
 ---
 
@@ -39,6 +42,8 @@ Nhưng một COO có kinh nghiệm sẽ xử lý chúng khác nhau. Yêu cầu t
 
 Đây chính là khoảng cách giữa một workflow chạy đúng quy tắc, và một workflow thực sự hiểu tổ chức.
 
+![Cùng dữ liệu, ý nghĩa khác: yêu cầu mua hàng vượt 10% mang ý nghĩa khác nhau tùy vào lịch sử nhà cung cấp và bối cảnh ngân sách.](~/assets/images/insights/workflow-biet-context-to-chuc/wfk-01-same-data-different-meaning-vi-dark.svg)
+
 → *Xem thêm: [Workflow có thể tự phân loại, định tuyến và đề xuất bước tiếp theo](/insights/workflow/workflow-tu-phan-loai-dinh-tuyen)*
 
 ---
@@ -53,6 +58,8 @@ Trong workflow doanh nghiệp, context có thể bao gồm:
 - **Tình trạng hiện tại của tổ chức.** Phòng ban liên quan có đang quá tải không, có dự án nào khác đang cạnh tranh nguồn lực không, có thay đổi chính sách nào mới ban hành gần đây không.
 - **Ưu tiên đang thay đổi.** Điều gì được coi là quan trọng tháng này có thể khác tháng trước, tùy vào mục tiêu kinh doanh hoặc rủi ro đang nổi lên.
 - **Tiền lệ và ngoại lệ đã từng được chấp nhận.** Những trường hợp tương tự trước đây đã được xử lý linh hoạt như thế nào, và vì lý do gì.
+
+![Context là gì: quan hệ và lịch sử, tình trạng tổ chức và nguồn lực, ưu tiên đang thay đổi, tiền lệ và ngoại lệ đã được chấp nhận.](~/assets/images/insights/workflow-biet-context-to-chuc/wfk-02-what-context-is-vi-dark.svg)
 
 Nonaka và Takeuchi, trong công trình nền tảng về quản trị tri thức "The Knowledge-Creating Company" (1995), giới thiệu khái niệm **"Ba"** — dịch sát nghĩa là "nơi chốn", nhưng được hiểu rộng hơn như một không gian ngữ cảnh chung (có thể là không gian vật lý, không gian số, hay không gian ý tưởng chia sẻ) nơi tri thức được chia sẻ, tạo ra và sử dụng một cách có ý nghĩa. Điểm quan trọng trong khái niệm này: tri thức không tồn tại tách rời khỏi ngữ cảnh mà nó được tạo ra và sử dụng — tách một mẩu thông tin khỏi Ba của nó, thông tin đó mất đi phần lớn ý nghĩa thực tiễn.
 
@@ -70,6 +77,8 @@ Giới hạn xuất hiện ở những tình huống mà quy tắc đúng về m
 - Một yêu cầu được phân loại đúng là "ưu tiên thấp" theo lịch sử, nhưng bối cảnh hiện tại (một sự kiện bên ngoài, một thay đổi quan hệ khách hàng) khiến nó cần được ưu tiên lại.
 - Một quy trình phê duyệt định tuyến đúng tới người phụ trách theo sơ đồ tổ chức, nhưng không biết người đó đang quá tải, trong khi có người khác đủ thẩm quyền và đang rảnh hơn.
 
+![Đúng rule, sai context: ngưỡng chi tiêu không phù hợp; ưu tiên thấp nhưng cần thay đổi; định tuyến tới người quá tải khi người khác rảnh.](~/assets/images/insights/workflow-biet-context-to-chuc/wfk-03-right-rule-wrong-context-vi-dark.svg)
+
 Đây không phải là lỗi của workflow — nó là giới hạn tự nhiên của bất kỳ hệ thống nào chỉ dựa vào dữ liệu giao dịch mà không có một lớp hiểu biết về tổ chức phía sau. Quy tắc luôn phản ánh một bức tranh tĩnh tại thời điểm nó được viết ra, trong khi tổ chức thực tế luôn vận động.
 
 ---
@@ -86,6 +95,8 @@ Về mặt cấu trúc, điều này đòi hỏi ba thành phần:
 
 **3. Một cơ chế để quy tắc được điều chỉnh có kiểm soát**, không phải bị bỏ qua tùy tiện. Khi context cho thấy một quy tắc nên được áp dụng linh hoạt, cần có cách ghi nhận rõ ràng: điều chỉnh này dựa trên context nào, ai xác nhận, và evidence gì hỗ trợ cho quyết định đó — để việc "linh hoạt" không trở thành việc bỏ qua kiểm soát một cách tùy tiện.
 
+![Ba thành phần: một nguồn tri thức tổ chức được duy trì liên tục, liên kết tình huống với tri thức đó, và cơ chế điều chỉnh quy tắc có kiểm soát; nó cần một lớp tri thức tổ chức phía sau, không phải tính năng phần mềm.](~/assets/images/insights/workflow-biet-context-to-chuc/wfk-04-three-components-vi-dark.svg)
+
 Ba thành phần này không phải điều một công cụ workflow đơn lẻ có thể tự cung cấp — chúng đòi hỏi một lớp tri thức tổ chức nằm phía sau và được kết nối với workflow, chứ không phải một tính năng được thêm vào phần mềm quản lý quy trình.
 
 ---
@@ -95,6 +106,8 @@ Ba thành phần này không phải điều một công cụ workflow đơn lẻ
 Đây là điểm mà câu chuyện về workflow trong series này kết nối trực tiếp với câu chuyện về quản trị tri thức tổ chức nói chung. Một workflow không thể "biết context" nếu bản thân tổ chức chưa có cách hệ thống hóa context đó thành thứ có thể tra cứu và sử dụng được — nói cách khác, nếu tổ chức chưa chuyển được tri thức cá nhân, phân tán trong đầu một vài người, thành tri thức có cấu trúc mà hệ thống có thể tham chiếu.
 
 Đây chính là lý do OKELAS không tiếp cận workflow như một tính năng phần mềm độc lập, mà như một mắt xích trong chuỗi **Process → Workflow → Event → Evidence → Knowledge → Decision → Action**. Một workflow "thông minh" theo đúng nghĩa không tách rời khỏi nền tảng tri thức tổ chức phía sau nó — nó chỉ thông minh đến mức nền tảng tri thức đó cho phép.
+
+![Chuỗi Process, Workflow, Event, Evidence, Knowledge, Decision, Action: workflow chỉ thông minh đến mức nền tảng tri thức phía sau cho phép, nên nhiều nỗ lực đưa AI vào workflow dừng ở phân loại và định tuyến.](~/assets/images/insights/workflow-biet-context-to-chuc/wfk-05-knowledge-foundation-vi-dark.svg)
 
 Điều này cũng giải thích vì sao nhiều nỗ lực "đưa AI vào workflow" chỉ dừng lại ở mức phân loại và định tuyến, mà chưa chạm tới mức context-aware thực sự: phần lớn tổ chức chưa có một nền tảng tri thức đủ tốt để workflow có thể tham chiếu tới. Vấn đề không nằm ở công nghệ workflow — nó nằm ở việc tổ chức đã sẵn sàng hệ thống hóa tri thức của mình tới đâu.
 

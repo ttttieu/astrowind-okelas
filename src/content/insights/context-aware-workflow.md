@@ -18,6 +18,9 @@ secondaryKeywords:
   - "knowledge-aware workflow"
   - "workflow and organizational knowledge"
 assessmentHref: /en/readiness/digitalization
+coverImage: '~/assets/images/insights/context-aware-workflow/wfk-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/context-aware-workflow/wfk-00-og-cover-en.png'
+coverImageAlt: "Four steps of workflow: digitized, event-driven, AI classification and routing, then context-aware workflow at the top."
 draft: false
 ---
 
@@ -39,6 +42,8 @@ But an experienced COO would treat them differently. The first request comes fro
 
 That's the gap between a workflow that follows rules correctly, and one that genuinely understands the organization.
 
+![Same data, different meaning: a purchase request at 10% over limit carries different weight depending on supplier history and budget context.](~/assets/images/insights/context-aware-workflow/wfk-01-same-data-different-meaning-en-dark.svg)
+
 → *Related: [Intelligent Workflow Routing: Classify, Route and Suggest Without Manual Intervention](/en/insights/workflow/intelligent-workflow-routing)*
 
 ---
@@ -53,6 +58,8 @@ In enterprise workflow, context can include:
 - **The organization's current state.** Whether the relevant department is overloaded, whether another project is competing for resources, whether a policy recently changed.
 - **Shifting priorities.** What matters this month may differ from last month, depending on business goals or an emerging risk.
 - **Precedent and previously accepted exceptions.** How similar cases were handled flexibly before, and why.
+
+![What context is: relationships and history, organizational state and resources, shifting priorities, precedent and previously accepted exceptions.](~/assets/images/insights/context-aware-workflow/wfk-02-what-context-is-en-dark.svg)
 
 In their foundational work on knowledge management, "The Knowledge-Creating Company" (1995), Nonaka and Takeuchi introduce the concept of **"Ba"** — literally "place," but understood more broadly as a shared contextual space (which can be physical, digital, or a shared mental space) where knowledge is shared, created, and used meaningfully. The key insight: knowledge doesn't exist separately from the context in which it's created and used — strip a piece of information away from its Ba, and it loses most of its practical meaning.
 
@@ -70,6 +77,8 @@ The limit shows up in situations where a rule is technically correct but context
 - A request is correctly classified as "low priority" based on history, but the current context (an external event, a shift in the customer relationship) means it should be re-prioritized.
 - An approval process correctly routes to the responsible person on the org chart, but doesn't know that person is overloaded, while someone else with equivalent authority is currently free.
 
+![Right rule, wrong context: threshold that doesn't fit the situation; low priority reclassified; routed to overloaded person when someone else is free.](~/assets/images/insights/context-aware-workflow/wfk-03-right-rule-wrong-context-en-dark.svg)
+
 This isn't a workflow bug — it's the natural limit of any system that relies purely on transaction data without an organizational understanding layer behind it. A rule always reflects a static snapshot from when it was written, while the real organization keeps moving.
 
 ---
@@ -86,6 +95,8 @@ Structurally, this requires three components:
 
 **3. A controlled mechanism for adjusting a rule**, not an ad-hoc override. When context suggests a rule should flex, there needs to be a clear record: what context justified the adjustment, who confirmed it, and what evidence supports the decision — so that "flexibility" doesn't quietly become bypassing control.
 
+![Three components: a continuously maintained organizational knowledge source, linking a situation to that knowledge, and a controlled mechanism for adjusting rules; it needs an organizational knowledge layer behind it, not a software feature.](~/assets/images/insights/context-aware-workflow/wfk-04-three-components-en-dark.svg)
+
 None of these three components can be provided by a standalone workflow tool alone — they require an organizational knowledge layer sitting behind and connected to the workflow, not a feature bolted onto process-management software.
 
 ---
@@ -95,6 +106,8 @@ None of these three components can be provided by a standalone workflow tool alo
 This is where the workflow story in this series connects directly to the broader story of organizational knowledge management. A workflow can't "know context" unless the organization itself has already found a way to systematize that context into something searchable and usable — in other words, unless it has converted personal knowledge, scattered in a handful of people's heads, into structured knowledge the system can actually reference.
 
 This is exactly why OKELAS doesn't treat workflow as a standalone software feature, but as one link in the chain **Process → Workflow → Event → Evidence → Knowledge → Decision → Action**. A genuinely "intelligent" workflow isn't separable from the organizational knowledge foundation behind it — it's only as intelligent as that foundation allows.
+
+![The chain Process, Workflow, Event, Evidence, Knowledge, Decision, Action: a workflow is only as smart as the knowledge foundation behind it, so many AI efforts stop at classification and routing.](~/assets/images/insights/context-aware-workflow/wfk-05-knowledge-foundation-en-dark.svg)
 
 This also explains why many "add AI to workflow" efforts stop at classification and routing without reaching true context-awareness: most organizations don't yet have a knowledge foundation solid enough for the workflow to reference. The bottleneck isn't workflow technology — it's how far the organization has gotten in systematizing its own knowledge.
 
