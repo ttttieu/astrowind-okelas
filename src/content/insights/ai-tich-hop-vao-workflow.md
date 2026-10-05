@@ -19,6 +19,9 @@ secondaryKeywords:
   - "where AI fits workflow"
   - "AI automation workflow"
 assessmentHref: /readiness/digitalization
+coverImage: '~/assets/images/insights/ai-tich-hop-vao-workflow/wfi-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/ai-tich-hop-vao-workflow/wfi-00-og-cover-vi.png'
+coverImageAlt: "Bốn giai đoạn xử lý thông tin của một workflow, và bốn dạng AI có thể tham gia: phân loại, định tuyến, gợi ý, thực thi."
 draft: false
 ---
 
@@ -43,6 +46,8 @@ Một workflow thực tế không phải một khối đồng nhất — nó g�
 
 ## Mapping các điểm AI có thể tham gia
 
+![Mô hình bốn giai đoạn xử lý thông tin: thu thập, phân tích, lựa chọn quyết định và thực thi, tương ứng với ghi nhận sự kiện, phân loại, quyết định và hành động; mức tự động hóa có thể khác nhau ở từng giai đoạn.](~/assets/images/insights/ai-tich-hop-vao-workflow/wfi-01-four-stages-vi-dark.svg)
+
 Một chuỗi xử lý công việc, dù trong workflow doanh nghiệp hay trong hệ thống kỹ thuật, đều có thể chia thành các giai đoạn xử lý thông tin tương tự nhau — và mỗi giai đoạn có thể được tự động hóa ở mức độ khác nhau.
 
 Mô hình của Parasuraman, Sheridan và Wickens (2000), công bố trên IEEE Transactions on Systems, Man, and Cybernetics, là một trong những khung lý thuyết được trích dẫn nhiều nhất trong lĩnh vực tương tác người-máy và tự động hóa. Mô hình này chia một chuỗi xử lý thành bốn giai đoạn:
@@ -59,6 +64,8 @@ Mô hình của Parasuraman, Sheridan và Wickens (2000), công bố trên IEEE 
 ---
 
 ## Phân loại: classify, route, recommend, execute
+
+![Bốn dạng AI tham gia workflow: phân loại, định tuyến, gợi ý và thực thi, với mức rủi ro tăng dần từ thấp đến cao nhất.](~/assets/images/insights/ai-tich-hop-vao-workflow/wfi-02-four-ai-modes-vi-dark.svg)
 
 Từ bốn giai đoạn trên, có thể xác định bốn dạng tham gia cụ thể của AI trong workflow doanh nghiệp:
 
@@ -82,11 +89,17 @@ Không có câu trả lời chung cho mọi workflow — nhưng có hai tiêu ch
 
 **Mức độ chắc chắn của dữ liệu đầu vào.** Với dữ liệu có cấu trúc rõ ràng và ít mơ hồ (một con số vượt ngưỡng đã định), AI có thể tự tin hơn ở giai đoạn phân tích và quyết định. Với dữ liệu phi cấu trúc, mơ hồ, hoặc đòi hỏi diễn giải theo ngữ cảnh (một email khiếu nại viết cảm tính), nên giữ mức tự động hóa thấp hơn ở giai đoạn phân tích, và chắc chắn giữ con người ở giai đoạn quyết định.
 
+![Hai tiêu chí chọn mức tự động hóa: mức đảo ngược của hành động và độ chắc chắn của dữ liệu đầu vào; hành động dễ đảo ngược và dữ liệu rõ ràng chấp nhận tự động hóa cao hơn.](~/assets/images/insights/ai-tich-hop-vao-workflow/wfi-03-two-criteria-vi-dark.svg)
+
 Một lưu ý quan trọng từ chính mô hình của Parasuraman và cộng sự: tự động hóa không chỉ thay thế con người — nó **thay đổi bản chất công việc của con người**, và có thể tạo ra những hệ quả không mong muốn như hiện tượng ỷ lại vào tự động hóa (automation complacency) hoặc suy giảm kỹ năng khi con người không còn thực hành việc ra quyết định thường xuyên. Đây là lý do việc chọn mức tự động hóa không nên chỉ dựa trên khả năng kỹ thuật (AI có làm được không), mà còn cần cân nhắc tác động dài hạn tới năng lực ra quyết định của đội ngũ.
+
+![Chọn mức tự động hóa không chỉ dựa trên việc AI có làm được hay không, mà còn cân nhắc tác động dài hạn như ỷ lại vào tự động hóa và suy giảm kỹ năng ra quyết định.](~/assets/images/insights/ai-tich-hop-vao-workflow/wfi-05-beyond-can-ai-do-it-vi-dark.svg)
 
 ---
 
 ## Framework tích hợp AI vào workflow
+
+![Bốn bước: chia workflow theo bốn giai đoạn, đánh giá khả năng đảo ngược và độ chắc chắn dữ liệu, triển khai từng giai đoạn độc lập, và xem lại định kỳ.](~/assets/images/insights/ai-tich-hop-vao-workflow/wfi-04-four-step-framework-vi-dark.svg)
 
 Kết hợp các phần trên thành một quy trình thực hành:
 

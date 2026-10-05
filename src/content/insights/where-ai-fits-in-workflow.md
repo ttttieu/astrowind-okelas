@@ -19,6 +19,9 @@ secondaryKeywords:
   - "AI in business process"
   - "workflow AI participation"
 assessmentHref: /en/readiness/digitalization
+coverImage: '~/assets/images/insights/where-ai-fits-in-workflow/wfi-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/where-ai-fits-in-workflow/wfi-00-og-cover-en.png'
+coverImageAlt: "The four information-processing stages of a workflow, and four ways AI can participate: classify, route, recommend, execute."
 draft: false
 ---
 
@@ -43,6 +46,8 @@ A real workflow isn't a single block — it's made up of several smaller stages:
 
 ## Mapping AI Participation Points
 
+![The four-stage information-processing model: acquisition, analysis, decision and action selection, and implementation, mapped to recording an event, classifying it, deciding, and acting; the automation level can differ at each stage.](~/assets/images/insights/where-ai-fits-in-workflow/wfi-01-four-stages-en-dark.svg)
+
 Any processing chain — whether in a business workflow or a technical system — can be broken into similar information-processing stages, and each stage can be automated to a different degree.
 
 The model developed by Parasuraman, Sheridan and Wickens (2000), published in IEEE Transactions on Systems, Man, and Cybernetics, is one of the most widely cited frameworks in human-machine interaction and automation research. It divides a processing chain into four stages:
@@ -59,6 +64,8 @@ Applied to enterprise workflow, these four stages map onto: the system captures 
 ---
 
 ## Classify, Route, Recommend, Execute
+
+![Four ways AI participates in a workflow: classify, route, recommend and execute, with risk rising from low to highest.](~/assets/images/insights/where-ai-fits-in-workflow/wfi-02-four-ai-modes-en-dark.svg)
 
 From these four stages, four concrete forms of AI participation in enterprise workflow can be identified:
 
@@ -82,11 +89,17 @@ There's no universal answer for every workflow — but two criteria help determi
 
 **How certain the input data is.** With clearly structured, low-ambiguity data (a number crossing a defined threshold), AI can operate with more confidence at the analysis and decision stages. With unstructured, ambiguous data, or data that requires contextual interpretation (an emotionally worded complaint email), automation should stay lower at the analysis stage, and human judgment should stay firmly in place at the decision stage.
 
+![Two criteria for choosing the automation level: reversibility of the action and certainty of the input data; easily reversible actions and clear data tolerate more automation.](~/assets/images/insights/where-ai-fits-in-workflow/wfi-03-two-criteria-en-dark.svg)
+
 An important caveat from Parasuraman and colleagues' own model: automation doesn't just replace people — it **changes the nature of human work**, and can produce unintended consequences such as automation complacency or skill decay when people no longer regularly practice making the decision themselves. This is why choosing the right level of automation shouldn't be based purely on technical capability (can AI do this) — it also needs to weigh the long-term effect on the team's decision-making ability.
+
+![Choosing the automation level should not rest only on whether AI can do it, but also on long-term effects such as automation complacency and skill decline in decision-making.](~/assets/images/insights/where-ai-fits-in-workflow/wfi-05-beyond-can-ai-do-it-en-dark.svg)
 
 ---
 
 ## A Framework for AI-Workflow Integration
+
+![Four steps: break the workflow into four stages, assess reversibility and data certainty, implement one stage at a time, and review periodically.](~/assets/images/insights/where-ai-fits-in-workflow/wfi-04-four-step-framework-en-dark.svg)
 
 Combining the above into a practical sequence:
 
