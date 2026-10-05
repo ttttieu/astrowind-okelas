@@ -19,6 +19,9 @@ secondaryKeywords:
   - "sự kiện kích hoạt quy trình"
   - "workflow event"
 assessmentHref: /readiness/digitalization
+coverImage: '~/assets/images/insights/event-driven-workflow-la-gi/wfv-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/event-driven-workflow-la-gi/wfv-00-og-cover-vi.png'
+coverImageAlt: "Trên trục thời gian, workflow request-based chờ một khoảng trễ phát hiện trước khi bắt đầu, còn event-driven workflow bắt đầu gần như ngay khi sự việc xảy ra."
 draft: false
 ---
 
@@ -46,6 +49,8 @@ Event-driven workflow là một cách tiếp cận khác: thay vì chờ ngườ
 
 ## Request-based vs event-driven
 
+![Mô hình request-based bắt đầu khi có người nhận ra và tạo yêu cầu, nên độ trễ nằm ở bước đầu; mô hình event-driven để hệ thống nhận biết sự kiện theo điều kiện định sẵn rồi tự khởi động workflow.](~/assets/images/insights/event-driven-workflow-la-gi/wfv-01-request-vs-event-vi-dark.svg)
+
 Sự khác biệt cốt lõi giữa hai mô hình không nằm ở công nghệ, mà nằm ở **cái gì khởi động workflow**.
 
 Trong mô hình **request-based**, chuỗi nhân quả là: một người nhận thấy điều gì đó cần xử lý → người đó tạo yêu cầu → workflow bắt đầu chạy. Độ trễ nằm ở bước đầu tiên — thời gian từ khi sự việc thực sự xảy ra đến khi có người nhận ra và hành động.
@@ -59,6 +64,8 @@ Chênh lệch giữa hai mô hình không chỉ là vài giờ tiết kiệm đ�
 ---
 
 ## Sự kiện nào có thể kích hoạt workflow
+
+![Bốn loại sự kiện có thể khởi động workflow: vượt ngưỡng, đổi trạng thái, bất thường và bên ngoài, kèm ví dụ cho từng loại.](~/assets/images/insights/event-driven-workflow-la-gi/wfv-02-four-event-types-vi-dark.svg)
 
 Không phải mọi thứ xảy ra trong doanh nghiệp đều nên được coi là một "sự kiện" đáng kích hoạt workflow. Một sự kiện đáng kích hoạt cần có ba đặc điểm: **có thể định nghĩa rõ ràng, có thể phát hiện được từ dữ liệu sẵn có, và việc phản ứng sớm tạo ra giá trị thực sự.**
 
@@ -74,6 +81,8 @@ Với mỗi loại, câu hỏi cần trả lời trước khi triển khai là: 
 ---
 
 ## Ứng dụng trong sản xuất và vận hành
+
+![Bốn ví dụ trong sản xuất: tồn kho dưới ngưỡng, đo lường vượt vùng kiểm soát, chứng chỉ hoặc hợp đồng sắp hết hạn, khiếu nại tăng; hệ thống tự phát hiện và khởi động.](~/assets/images/insights/event-driven-workflow-la-gi/wfv-03-four-applications-vi-dark.svg)
 
 Một vài ví dụ cụ thể cho manufacturing SME, minh họa cho cách event-driven workflow có thể hoạt động:
 
@@ -93,6 +102,8 @@ Một vài ví dụ cụ thể cho manufacturing SME, minh họa cho cách event
 
 ## Điều kiện để triển khai
 
+![Ba điều kiện trước khi triển khai: sự kiện định nghĩa rõ, dữ liệu đủ tin cậy và cách xử lý cảnh báo sai; event-driven workflow là điểm đến chứ không phải điểm bắt đầu.](~/assets/images/insights/event-driven-workflow-la-gi/wfv-04-three-preconditions-vi-dark.svg)
+
 Event-driven workflow không phải điểm khởi đầu hợp lý cho mọi doanh nghiệp. Có ba điều kiện tiên quyết:
 
 **1. Sự kiện phải được định nghĩa rõ ràng và nhất quán.** Nếu tổ chức chưa thống nhất được "thế nào là một chỉ số chất lượng bất thường" hay "ngưỡng tồn kho an toàn là bao nhiêu", việc triển khai công nghệ phát hiện sự kiện sẽ chỉ tạo ra cảnh báo sai hoặc bỏ sót — cả hai đều làm giảm lòng tin vào hệ thống.
@@ -100,6 +111,8 @@ Event-driven workflow không phải điểm khởi đầu hợp lý cho mọi do
 **2. Dữ liệu cần đủ tin cậy để làm căn cứ phát hiện.** Một sự kiện chỉ có thể được phát hiện nếu dữ liệu liên quan được ghi nhận đầy đủ, đúng thời điểm, và đủ chính xác. Đây là lý do event-driven workflow thường chỉ khả thi sau khi doanh nghiệp đã có nền tảng process và data readiness — không thể xây trên một quy trình còn ghi chép rời rạc hoặc chậm trễ.
 
 **3. Cần có cơ chế xử lý cảnh báo sai (false positive).** Không hệ thống phát hiện sự kiện nào chính xác tuyệt đối. Nếu tổ chức không có cách xử lý hợp lý các cảnh báo sai — ví dụ một quy trình để nhanh chóng xác nhận hoặc loại bỏ cảnh báo không chính xác — nhân sự sẽ dần bỏ qua toàn bộ cảnh báo, kể cả những cảnh báo đúng.
+
+![Nên bắt đầu với một đến hai loại sự kiện có tần suất vừa, tác động rõ và dữ liệu sẵn có, thay vì phủ toàn tổ chức cùng lúc.](~/assets/images/insights/event-driven-workflow-la-gi/wfv-05-start-small-vi-dark.svg)
 
 Một lộ trình triển khai hợp lý là bắt đầu từ 1–2 loại sự kiện có tần suất trung bình, tác động rõ ràng, và dữ liệu đã sẵn có — thay vì cố gắng bao phủ toàn bộ tổ chức cùng lúc.
 
