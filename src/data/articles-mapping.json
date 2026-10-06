@@ -1106,6 +1106,19 @@
       }
     },
     {
+      "translationId": "article-5-18-delegating-steps-workflow",
+      "vi": {
+        "slug": "giao-viec-cho-ai-theo-buoc-workflow",
+        "category": "workflow",
+        "url": "/insights/workflow/giao-viec-cho-ai-theo-buoc-workflow"
+      },
+      "en": {
+        "slug": "delegating-workflow-steps-to-ai",
+        "category": "workflow",
+        "url": "/en/insights/workflow/delegating-workflow-steps-to-ai"
+      }
+    },
+    {
       "translationId": "article-5-13-agent-vs-workflow",
       "vi": {
         "slug": "ai-agent-va-workflow",
