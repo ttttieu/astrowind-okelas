@@ -1067,6 +1067,19 @@
       }
     },
     {
+      "translationId": "article-5-15-ai-evidence-human-decision",
+      "vi": {
+        "slug": "ai-chuan-bi-evidence-con-nguoi-quyet-dinh",
+        "category": "workflow",
+        "url": "/insights/workflow/ai-chuan-bi-evidence-con-nguoi-quyet-dinh"
+      },
+      "en": {
+        "slug": "ai-prepared-evidence-human-decision",
+        "category": "workflow",
+        "url": "/en/insights/workflow/ai-prepared-evidence-human-decision"
+      }
+    },
+    {
       "translationId": "article-5-12-context-aware-workflow",
       "vi": {
         "slug": "workflow-biet-context-to-chuc",
