@@ -1054,16 +1054,16 @@
       }
     },
     {
-      "translationId": "article-5-11-self-classifying-workflow",
+      "translationId": "article-5-14-classification-routing-workflow",
       "vi": {
         "slug": "workflow-tu-phan-loai-dinh-tuyen",
         "category": "workflow",
         "url": "/insights/workflow/workflow-tu-phan-loai-dinh-tuyen"
       },
       "en": {
-        "slug": "intelligent-workflow-routing",
+        "slug": "ai-classification-and-routing-in-workflow",
         "category": "workflow",
-        "url": "/en/insights/workflow/intelligent-workflow-routing"
+        "url": "/en/insights/workflow/ai-classification-and-routing-in-workflow"
       }
     },
     {
