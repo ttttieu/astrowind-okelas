@@ -23,7 +23,7 @@ secondaryKeywords:
 assessmentHref: /en/readiness/ai
 coverImage: '~/assets/images/insights/where-ai-fits-in-workflow/wfi-00-og-cover-en.png'
 ogImage: '~/assets/images/insights/where-ai-fits-in-workflow/wfi-00-og-cover-en.png'
-coverImageAlt: "The four information-processing stages of a workflow. AI participates in stages 1 and 2 (acquisition, analysis); rules and people handle stages 3 and 4 (decision, execution)."
+coverImageAlt: "The four information-processing stages of a workflow; AI interprets input and prepares evidence, while decision authority stays with rules or people."
 draft: false
 ---
 
@@ -47,6 +47,8 @@ A real process is not one block. It is a series of small steps: receive informat
 ---
 
 ## The Four Stages of an Information-Processing Chain
+
+![The four-stage information-processing model by Parasuraman, Sheridan and Wickens (2000): information acquisition, analysis, decision and action selection, and action implementation.](~/assets/images/insights/where-ai-fits-in-workflow/wfi-01-four-stages-en-dark.svg)
 
 The model by Parasuraman, Sheridan and Wickens (2000), published in *IEEE Transactions on Systems, Man, and Cybernetics – Part A*, is among the most widely cited frameworks in human-machine interaction and automation research. It divides a processing chain into four stages:
 
@@ -107,6 +109,8 @@ Two things to notice when reading the table:
 
 ## Two Criteria for Deciding What Goes to Rules and What Stays With People
 
+![Two criteria for deciding who is responsible at each step: how reversible the action is, and how certain the input data is.](~/assets/images/insights/where-ai-fits-in-workflow/wfi-03-two-criteria-en-dark.svg)
+
 There is no universal answer for every workflow. Two criteria help decide each step.
 
 ### How reversible the action is
@@ -121,11 +125,15 @@ With structured, low-ambiguity data (a number crossing a defined threshold), AI 
 
 ### A caution from the original model
 
+![Automation does not just replace people — it changes the nature of their work; automation complacency and skill decay are consequences to weigh when choosing support levels.](~/assets/images/insights/where-ai-fits-in-workflow/wfi-05-beyond-can-ai-do-it-en-dark.svg)
+
 Parasuraman and colleagues point out that automation does not just replace people. It changes the nature of their work. Consequences can include automation complacency and skill decay when people rarely make decisions themselves. So the choice of support level should not rest only on "can AI do this?" It should also weigh the long-term effect on the team's judgment.
 
 ---
 
 ## A Framework for Bringing AI into a Workflow
+
+![Four steps for bringing AI into a workflow: break the process into stages, assess reversibility and data certainty, roll out one stage at a time, set up periodic review.](~/assets/images/insights/where-ai-fits-in-workflow/wfi-04-four-step-framework-en-dark.svg)
 
 **Step 1. Break the process into the four stages.** Identify what counts as acquisition, analysis, decision and action, instead of treating the process as one block.
 

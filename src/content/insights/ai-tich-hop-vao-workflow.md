@@ -23,7 +23,7 @@ secondaryKeywords:
 assessmentHref: /readiness/ai
 coverImage: '~/assets/images/insights/ai-tich-hop-vao-workflow/wfi-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/ai-tich-hop-vao-workflow/wfi-00-og-cover-vi.png'
-coverImageAlt: "Bốn giai đoạn xử lý thông tin của một workflow. AI tham gia ở giai đoạn 1 và 2 (thu thập, phân tích); rule và con người đảm nhận giai đoạn 3 và 4 (quyết định, thực thi)."
+coverImageAlt: "Bốn giai đoạn xử lý thông tin của một workflow; AI diễn giải đầu vào và chuẩn bị evidence, còn quyền quyết định thuộc về rule hoặc con người."
 draft: false
 ---
 
@@ -47,6 +47,8 @@ Một quy trình thật không phải một khối. Nó gồm nhiều bước nh
 ---
 
 ## Bốn giai đoạn của một chuỗi xử lý thông tin
+
+![Mô hình bốn giai đoạn xử lý thông tin của Parasuraman, Sheridan và Wickens: thu thập, phân tích, lựa chọn quyết định và thực thi hành động.](~/assets/images/insights/ai-tich-hop-vao-workflow/wfi-01-four-stages-vi-dark.svg)
 
 Mô hình của Parasuraman, Sheridan và Wickens (2000), công bố trên *IEEE Transactions on Systems, Man, and Cybernetics – Part A*, là một trong những khung được trích dẫn nhiều nhất về tương tác người–máy và tự động hóa. Mô hình chia một chuỗi xử lý thành bốn giai đoạn:
 
@@ -107,6 +109,8 @@ Hai điểm đáng chú ý khi đọc bảng:
 
 ## Hai tiêu chí xác định bước nào giao cho rule, bước nào giữ con người
 
+![Hai tiêu chí xác định ai chịu trách nhiệm ở mỗi bước: khả năng đảo ngược của hành động và độ chắc chắn của dữ liệu đầu vào.](~/assets/images/insights/ai-tich-hop-vao-workflow/wfi-03-two-criteria-vi-dark.svg)
+
 Không có đáp án chung cho mọi workflow. Hai tiêu chí giúp xác định từng bước.
 
 ### Khả năng đảo ngược của hành động (reversibility)
@@ -121,11 +125,15 @@ Với dữ liệu có cấu trúc, ít mơ hồ (một con số vượt ngưỡn
 
 ### Một cảnh báo từ chính mô hình gốc
 
+![Tự động hóa không chỉ thay thế con người mà còn thay đổi bản chất công việc của họ; automation complacency và suy giảm kỹ năng là hệ quả cần tính đến.](~/assets/images/insights/ai-tich-hop-vao-workflow/wfi-05-beyond-can-ai-do-it-vi-dark.svg)
+
 Parasuraman và cộng sự chỉ ra rằng tự động hóa không chỉ thay thế con người mà còn thay đổi bản chất công việc của họ. Hệ quả có thể gồm ỷ lại vào tự động hóa (automation complacency) và suy giảm kỹ năng khi con người ít khi phải tự ra quyết định. Vì vậy, việc chọn mức hỗ trợ không nên chỉ dựa trên câu hỏi "AI làm được không", mà phải tính cả tác động lâu dài lên năng lực phán đoán của đội ngũ.
 
 ---
 
 ## Framework: đưa AI vào workflow theo từng bước
+
+![Bốn bước đưa AI vào workflow: chia quy trình theo bốn giai đoạn, đánh giá khả năng đảo ngược và độ chắc chắn dữ liệu, triển khai từng giai đoạn một, rà soát định kỳ.](~/assets/images/insights/ai-tich-hop-vao-workflow/wfi-04-four-step-framework-vi-dark.svg)
 
 **Bước 1. Chia quy trình theo bốn giai đoạn.** Xác định đâu là thu thập, phân tích, quyết định và thực thi, thay vì coi cả quy trình là một khối.
 
