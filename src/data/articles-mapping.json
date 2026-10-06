@@ -1093,6 +1093,19 @@
       }
     },
     {
+      "translationId": "workflow-rule-human-decision",
+      "vi": {
+        "slug": "rule-hay-con-nguoi-quyet-dinh-trong-workflow",
+        "category": "workflow",
+        "url": "/insights/workflow/rule-hay-con-nguoi-quyet-dinh-trong-workflow"
+      },
+      "en": {
+        "slug": "programmed-vs-nonprogrammed-decisions",
+        "category": "workflow",
+        "url": "/en/insights/workflow/programmed-vs-nonprogrammed-decisions"
+      }
+    },
+    {
       "translationId": "article-5-16-agentic-workflow",
       "vi": {
         "slug": "tu-automation-den-agentic-workflow",
