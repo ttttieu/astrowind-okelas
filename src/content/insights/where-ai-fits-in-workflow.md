@@ -65,6 +65,8 @@ In an enterprise workflow, the four stages read like this: the system captures a
 
 ## AI Does Two Things: Interpret Input and Prepare Evidence
 
+![AI's two roles in a workflow: interpreting unstructured input so rules can run, and preparing evidence for human judgment — with a "What AI does not do" section.](~/assets/images/insights/where-ai-fits-in-workflow/wfi-02-two-ai-roles-en-dark.svg)
+
 Place AI on those four stages and its role comes down to two jobs.
 
 ### 1. Interpret unstructured input so rules can run
@@ -90,6 +92,8 @@ A note on the label "AI recommends an action." If a system points to a specific 
 ---
 
 ## The Boundary: Rules, AI and People at Each Stage
+
+![Boundary table: four stages × three columns — workflow rule, AI input support, people — showing AI holds no decision authority in any stage.](~/assets/images/insights/where-ai-fits-in-workflow/wfi-06-boundary-table-en-dark.svg)
 
 The table below is a discussion tool for deciding who is responsible at each stage. It is an orienting framework, not measured data.
 

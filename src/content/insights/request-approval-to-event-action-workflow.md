@@ -1,7 +1,8 @@
 ---
-title: "From Request/Approval to Event/Action: Rethinking How Work Flows"
-description: "Traditional workflow requires someone to submit a request and wait for approval. The new model starts from an event and moves directly to action — fewer waiting points, faster outcomes."
+title: "From Request/Approval to Event/Action: When an Action Does Not Need to Wait for Approval"
+description: "Most approval delay comes from simple, repeating decisions forced through a process built for complex ones. Event/Action moves approval from each case to the rule level: an authorized person decides in advance, and the event only triggers a rule that has already been approved."
 publishDate: 2026-09-23T00:00:00Z
+updatedDate: 2026-10-06T00:00:00Z
 translationId: article-5-9-request-approval-to-event-action
 lang: en
 category: workflow
@@ -12,119 +13,163 @@ audience:
   - COO
   - CIO
   - Operations Director
-primaryKeyword: "event action workflow model"
+primaryKeyword: "event-driven approval workflow"
 secondaryKeywords:
-  - "from request approval to event action"
-  - "new workflow model"
-  - "event-driven operations"
-  - "workflow paradigm shift"
+  - "request approval workflow"
+  - "event-driven workflow"
+  - "conditional approval"
+  - "rules workflow"
+  - "workflow automation approval"
 assessmentHref: /en/readiness/digitalization
 coverImage: '~/assets/images/insights/request-approval-to-event-action-workflow/wfr-00-og-cover-en.png'
 ogImage: '~/assets/images/insights/request-approval-to-event-action-workflow/wfr-00-og-cover-en.png'
-coverImageAlt: "Request → Approval has a wait-for-approval step in the middle; Event → Action goes straight to action and calls approval only when judgment is needed."
+coverImageAlt: "Request → Approval has a wait-for-approval step in the middle of each case; Event/Action uses a rule an authorized person issued in advance so the action happens on time, and routes cases outside the rule to a person."
 draft: false
 ---
 
 ---
 
-> **Executive Summary**
->
-> - The most common workflow model today is **Request → Approval**: someone submits a request, waits through a chain of sign-offs, and only then does the action happen. This model inserts "waiting for approval" into the middle of every process, including cases that don't actually require human judgment.
-> - In Lean Six Sigma, a widely used metric — Process Cycle Efficiency (PCE) — typically reveals a surprising number: most ordinary processes achieve a PCE of only 5–10%. In other words, 90–95% of a process's total time isn't spent actually doing work — it's spent waiting: waiting in line, waiting for someone to be free, waiting in an approval queue. A process is considered "lean" once that ratio exceeds 25%. Approval is one of the most common forms of queue in office and operational processes.
-> - The **Event → Action** model doesn't eliminate approval — it repositions it: keeping the approval step only for cases that genuinely require judgment, while letting action proceed directly once an event meets defined conditions, with evidence fully recorded for later verification.
-> - This isn't about removing control — it's about separating **substantive control** (requiring human judgment) from **procedural control** (a signature required only out of habit).
+## Executive Summary
+
+- The common model is **Request → Approval**: someone submits a request, waits for a chain of sign-offs, and only then does the action happen. Its delay usually does not come from hard decisions. It comes from **simple, repeating decisions going through the path built for complex ones**.
+- **Event/Action does not remove approval.** It moves approval earlier and up a level: an authorized person decides **once, at the rule level**, for a whole class of cases with clear criteria. The event only triggers a rule that has already been approved. The system does not decide on its own.
+- Cases outside the rule still go to an authorized person, with full context and evidence. Judgment stays with people.
+- Conditions for the shift: enough precedent, rules issued by authorized people with a named owner, evidence left on every run, and review after the fact.
 
 ---
 
-The previous article covered event-driven workflow — a system's ability to detect an event and start a process on its own, instead of waiting for someone to create a request. This article goes one step further: if the system can already detect the event, why keep the same approval chain afterward for every single case?
+## Introduction
 
-That's the core difference between the two models. The old model: **Request → Approval → Action** — always with a waiting point for approval in the middle. The new model: **Event → Action**, with approval appearing only when genuinely needed, not as a default step.
+A recurring raw-material order: the usual supplier, within the approved limit. It sits in a department head's inbox for three days because he is traveling. Nobody doubts this order. It waits because the process requires a signature.
 
-→ *Related: [Event-Driven Workflow: How Systems Can Detect Events and Start Work Automatically](/en/insights/workflow/event-driven-workflow)*
-
----
-
-## Why Request/Approval Creates Latency
-
-The request/approval model inserts a waiting point into the middle of every process, regardless of whether that particular case actually requires human judgment.
-
-In Lean Six Sigma, the concept of Process Cycle Efficiency (PCE) — the ratio of value-adding time to a process's total completion time — often produces a number that surprises many managers: most ordinary processes achieve a PCE of only 5–10%. In other words, 90–95% of a process's time isn't spent actually processing the work — it's spent waiting: waiting for a turn, waiting for someone to be available, waiting in an approval queue. A process is considered "lean" once this ratio exceeds 25%.
-
-Approval is one of the most common forms of queue in office and operational processes, for three reasons:
-
-1. **Approval is designed as a default step, not a conditional one.** Many processes require sign-off for every case, including repetitive, low-value cases with a clear precedent — not because judgment is needed, but because "the process always has that step."
-2. **Approval depends on the approver's calendar**, not on the urgency of the request. An important request can wait exactly as long as an unimportant one if both sit in the same person's queue.
-3. **Approval often doesn't distinguish risk level.** A request for a small amount and a request for a large one can travel through the exact same approval chain, even though the judgment required is very different.
-
-The problem isn't that approval is "bad" — approval is genuinely necessary for decisions that carry risk or require judgment. The problem is that when approval is applied as a default step for every case, it turns into an undifferentiated queue, extending processing time without adding proportional control value.
-
-![Three reasons approval creates latency: it is a default rather than a conditional step, it depends on the approver's schedule rather than urgency, and it does not differentiate risk.](~/assets/images/insights/request-approval-to-event-action-workflow/wfr-02-why-approval-creates-latency-en-dark.svg)
+If that sounds familiar, the problem may not be the approver or the software. It may be the design: approval has been set as the default step for every case. This article looks at why that creates delay, what Event/Action changes, and the conditions for making the shift without losing control.
 
 ---
 
-## How Event → Action Works Differently
+## Why Request → Approval Creates Delay
 
-![Request → Approval puts a wait-for-approval step into every case; Event → Action lets the system assess an event against pre-defined rules, act directly and route only cases needing judgment to approval.](~/assets/images/insights/request-approval-to-event-action-workflow/wfr-01-request-approval-vs-event-action-en-dark.svg)
+Three structural reasons are common.
 
-The Event → Action model doesn't remove approval — it **repositions** it based on the risk and exception level of each specific case, instead of applying it uniformly.
+1. **Approval is a default step, not a conditional one.** Many processes require sign-off on every case, including repeating, low-value ones.
+2. **Wait time depends on the approver's calendar, not on how urgent the request is.**
+3. **Approval often does not distinguish risk.** A request for a small amount and a request for a very large one can pass through the same chain.
 
-The basic structure:
+![Three reasons Request → Approval creates delay: approval is a default step, wait time depends on the approver's calendar, approval does not distinguish risk.](~/assets/images/insights/request-approval-to-event-action-workflow/wfr-02-why-approval-creates-latency-en-dark.svg)
 
-1. **An event occurs** (a condition is met, a threshold is crossed, a status changes).
-2. **The system evaluates the event against pre-defined rules and thresholds** — risk level, value, how closely it matches established precedent.
-3. **The outcome branches accordingly:**
-   - If the event falls within a safe threshold and matches a clear precedent → **action proceeds directly**, with no wait for approval, but still fully recorded with evidence for later verification.
-   - If the event exceeds the threshold, doesn't match precedent, or carries high risk → **it routes to the person with the authority to judge it**, with full context attached so they can decide faster.
-
-![An event is assessed against pre-defined rules and thresholds: cases within threshold and matching precedent act directly with evidence recorded; cases beyond threshold or high risk go to an authorized person with context.](~/assets/images/insights/request-approval-to-event-action-workflow/wfr-03-conditional-approval-branch-en-dark.svg)
-
-The most important difference from the old model: **approval is no longer a fixed step in the chain — it's a conditional branch.** Most cases (typically repetitive, low-value, low-risk ones) go straight to action. Only the minority that genuinely require judgment go through approval.
+Lean measures this with **Process Cycle Efficiency (PCE)**: value-adding time divided by total process lead time (George, 2002). For business processes with many waiting steps, the figure tends to be low. The exact level varies widely across organizations and processes, so the most reliable approach is to measure your own: from the moment a request arises to the moment the action happens, how much of that time is waiting for approval?
 
 ---
 
-## Real-World Examples
+## The Root Cause: Programmed Decisions on the Path for Nonprogrammed Ones
 
-![Three operational examples: recurring purchasing, customer refunds and production scheduling, each with cases that go straight to action and cases escalated to a decision-maker.](~/assets/images/insights/request-approval-to-event-action-workflow/wfr-04-three-examples-en-dark.svg)
+Herbert Simon (1960) distinguished **programmed decisions** (repetitive, clear criteria) from **nonprogrammed decisions** (new, complex, requiring judgment). The two sit on a continuum. For more, see [Rule or Human Judgment: Which Workflow Decisions to Automate](/en/insights/workflow/programmed-vs-nonprogrammed-decisions).
 
-**Recurring purchasing.** A repeat order for raw materials, from the usual supplier, within a pre-approved limit, can be processed and sent the moment the "inventory below threshold" event fires — without a person re-approving it from scratch every time. By contrast, an order involving a new supplier, or exceeding the usual limit, still routes to someone with the authority to decide.
-
-**Customer refunds and returns.** A return request within published policy, low value, with no unusual history from that customer, can be processed the moment it's logged. A high-value request, or one showing an unusual pattern (the same customer returning items repeatedly in a short period), gets routed for human review.
-
-**Adjusting production schedules for a material shortage.** When the system detects that a material will run short ahead of a specific order, and a pre-approved substitute plan already exists for that exact situation, the system can adjust the schedule and notify people automatically — instead of waiting for a meeting to decide.
-
-Across all three examples, the shared principle is: **the rules and thresholds are decided once, in advance, by someone with the authority to set them** — and the system then applies that rule to each specific case, escalating to a person only when a case falls outside what's already been decided.
+Request → Approval treats every decision as the second kind. Each case, even one that has repeated hundreds of times with the same outcome, passes through a person who judges it from scratch. That is why most approval delay does not come from complex decisions. It comes from simple decisions using the wrong path.
 
 ---
 
-## What It Takes to Make the Shift
+## How Event/Action Works
 
-![Three conditions for the shift: enough history to define precedent, authorized people willing to decide in advance, and post-hoc review; start with low-value, high-frequency decisions with clear precedent.](~/assets/images/insights/request-approval-to-event-action-workflow/wfr-05-three-conditions-en-dark.svg)
+![Comparing two models: Request → Approval (approval case by case) and Event/Action (rule issued in advance by an authorized person, event triggers the rule).](~/assets/images/insights/request-approval-to-event-action-workflow/wfr-01-request-approval-vs-event-action-en-dark.svg)
 
-Moving from Request/Approval to Event/Action isn't a switch you flip — it requires three conditions:
+The basic structure has three steps.
 
-**1. Enough history to define what counts as a "clear precedent."** Deciding which cases can go straight to action needs to be based on a large enough body of historical data to set a safe threshold with actual grounding — not a guess.
+1. **An event occurs:** a condition is met, a threshold is crossed, a status changes.
+2. **A rule evaluates the event.** This is a rule an authorized person issued in advance, with conditions and thresholds written down.
+3. **The outcome decides the route:**
+   - The event falls within the rule and matches confirmed precedent: **the action proceeds directly**, with evidence recorded each time.
+   - The event exceeds a threshold, falls outside precedent or carries high risk: **it goes to an authorized person**, with context and evidence so they can judge faster.
 
-**2. Decision-makers willing to decide in advance, rather than case by case.** This is usually the biggest organizational obstacle: many managers feel safer approving each case individually than setting a general rule to apply — even though, logically, that rule is simply the sum of many similar decisions they've already made before.
+![Event/Action routing: event within rule scope → action proceeds directly with evidence; event outside scope → goes to authorized person with context.](~/assets/images/insights/request-approval-to-event-action-workflow/wfr-03-conditional-approval-branch-en-dark.svg)
 
-**3. A mechanism for post-hoc review, not just pre-approval control.** Once action is allowed to proceed directly for in-threshold cases, the organization needs a periodic mechanism to review cases that were handled automatically — to catch early if a threshold is set wrong, or if an unusual pattern is being missed.
+The core difference is not whether approval exists. It is **where approval happens**.
 
-A cautious rollout starts with decisions that are low-value, high-frequency, and have the clearest precedent — where the risk of shifting to Event → Action is lowest, and the speed benefit is most obvious.
+| | Request → Approval | Event/Action |
+|---|---|---|
+| When approval happens | Every time a request arrives | Once, when the rule is issued; and for each exception case |
+| Who decides | The approver, case by case | An authorized person issues the rule; people judge exception cases |
+| Where control sits | Before every action | Before the rule is issued, and in review after it runs |
+| Evidence | Easily scattered across emails and signatures | Recorded every time the rule runs |
 
-→ *Related: [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/intelligent-workflow-next-generation)*
+### The role of AI
+
+Events do not always arrive as structured data. When one arrives as an email, a message or a scanned document, AI can interpret it into structured data so a rule can run, and can prepare evidence for exception cases. AI is not the party that decides on any branch. For more, see [Where AI Fits in a Workflow](/en/insights/workflow/where-ai-fits-in-workflow).
+
+---
+
+## Illustrative Examples from Operations
+
+![Three illustrative examples: recurring purchasing, handling returns, adjusting the production schedule — each with a rule issued in advance and clear routing between in-rule cases and exceptions.](~/assets/images/insights/request-approval-to-event-action-workflow/wfr-04-three-examples-en-dark.svg)
+
+The examples below are illustrative scenarios, not data or real customer cases.
+
+**Recurring purchasing.** A repeating raw-material order, the usual supplier, within an approved limit. The purchasing lead issues this rule in advance. When the event "stock falls to threshold" occurs, the order is created under the rule. A new supplier or an amount over the limit goes to an approver.
+
+**Handling returns.** A return within policy, low value, with no unusual history: processed immediately under the rule. A high-value or unusual one goes to an authorized person with the customer's history.
+
+**Adjusting the production schedule.** When material is short and a substitution plan was approved in advance, the schedule is adjusted under that plan. A plan that has not been approved waits for an authorized person.
+
+In all three, the decision was made earlier by a specific person. The event only makes that decision take effect at the right moment.
+
+---
+
+## Conditions for Making the Shift
+
+![Four conditions for making the shift to Event/Action: enough precedent, authorized person decides in advance and puts their name on the rule, evidence left on every run, post-hoc review.](~/assets/images/insights/request-approval-to-event-action-workflow/wfr-05-four-conditions-en-dark.svg)
+
+1. **Enough precedent** to define a "clear case" from real data: which cases have repeated, with consistent outcomes.
+2. **An authorized person willing to decide in advance** rather than case by case, and to put their name on the rule. Each rule has a rule owner responsible for review.
+3. **Evidence left on every run**, so results can be verified later and traced when needed.
+4. **Post-hoc review** to catch early any threshold that was set wrongly.
+
+The cautious path starts with low-value, high-frequency decisions with the clearest precedent, then expands by issuing more rules through a process with a named approver. Scope does not grow by handing the system more authority.
+
+---
+
+## What Should Not Be Moved
+
+![What should not be moved to Event/Action: hard-to-reverse actions, unstable criteria decisions, approvals required by regulation or contract.](~/assets/images/insights/request-approval-to-event-action-workflow/wfr-06-what-not-to-move-en-dark.svg)
+
+- **Hard-to-reverse or irreversible actions**, such as large payments or confirming a contract. Keep a person confirming before the action is carried out.
+- **Decisions with unstable criteria**, or where new variants keep appearing that a rule cannot list.
+- **Approvals required by regulation, standards or customer contracts.** Identify which approvals are of this kind before changing anything, because these are not formal control.
+
+### Risk when it goes wrong
+
+A rule with a wrong threshold repeats its error quickly and consistently. That is why post-hoc review is not a formality. Signals to watch: exceptions rising unusually, complaints rising after the rule runs, actions that had to be reversed. When a signal appears, change the rule through the formal process and record the reason, rather than editing it directly.
+
+---
+
+## Self-Check: What Is Your Approval Step Actually Controlling?
+
+For each approval step in your process, try to answer:
+
+1. Of the last 10 requests, how many did the approver reject or send back for changes? If nearly all were approved as submitted, this step may be formal control. (This is an OKELAS observation, not a standard threshold.)
+2. Are the approval criteria written down, or do they live in the approver's head?
+3. Do a low-value request and a high-value request pass through the same chain?
+4. When the approver is out for a week, where do requests go?
+5. Does each approval leave traceable evidence, or does it live only in email?
+
+If several answers surprise you, this may be the place to start. OKELAS's Digitalization Level Assessment helps place these steps in the wider picture of your digitalization.
 
 ---
 
 ## Conclusion
 
-The difference between Request/Approval and Event/Action isn't about having control or not — both models have control. The difference is where that control is placed: applied uniformly to every case, or applied only where human judgment is genuinely needed. For most manufacturing SMEs, most of the "delay from waiting on approval" doesn't come from complex decisions — it comes from simple, repetitive decisions still traveling through the process designed for complex ones.
+The difference is not whether control exists. It is where control sits. Request → Approval applies the same scrutiny to every case. Event/Action reserves human judgment for the cases that need it, and lets decisions an authorized person issued in advance run at the right moment, with evidence and with someone accountable.
+
+Most approval delay does not come from complex decisions. It comes from simple, repeating decisions still going through the process built for complex ones.
 
 ---
 
-*This article is part of a series on workflow, AI adoption, and operational management for manufacturing SMEs.*
+## Sources
 
-**Related articles:**
-- [Event-Driven Workflow: How Systems Can Detect Events and Start Work Automatically](/en/insights/workflow/event-driven-workflow)
-- [From Approval Workflow to End-to-End Workflow](/en/insights/workflow/approval-to-end-to-end-workflow)
-- [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/intelligent-workflow-next-generation)
+- Simon, H. A. (1960). *The New Science of Management Decision*. Harper & Brothers.
+- George, M. L. (2002). *Lean Six Sigma: Combining Six Sigma Quality with Lean Speed*. McGraw-Hill. (Definition of Process Cycle Efficiency.)
 
-**→ [Complete the Digitalization Readiness Assessment](/en/readiness/digitalization)**
+## Related Articles
+
+- [Rule or Human Judgment: Which Workflow Decisions to Automate](/en/insights/workflow/programmed-vs-nonprogrammed-decisions)
+- [Where AI Fits in a Workflow: Interpreting Input and Preparing Evidence](/en/insights/workflow/where-ai-fits-in-workflow)
+- Event-Driven Workflow: How Systems Detect Events Automatically
+- From Approval Workflow to End-to-End Workflow

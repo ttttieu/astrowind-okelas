@@ -65,6 +65,8 @@ Trong workflow doanh nghiệp, bốn giai đoạn này đọc như sau: hệ th�
 
 ## AI làm hai việc: diễn giải đầu vào và chuẩn bị evidence
 
+![Hai vai trò của AI trong workflow: diễn giải đầu vào phi cấu trúc để rule chạy được, và chuẩn bị evidence cho con người phán đoán — kèm phần "Điều AI không làm".](~/assets/images/insights/ai-tich-hop-vao-workflow/wfi-02-two-ai-roles-vi-dark.svg)
+
 Đặt AI lên bốn giai đoạn trên, vai trò của nó thu về hai việc.
 
 ### 1. Diễn giải đầu vào phi cấu trúc để rule chạy được
@@ -90,6 +92,8 @@ Một lưu ý về nhãn "AI gợi ý hành động". Nếu hệ thống chỉ r
 ---
 
 ## Ranh giới: rule, AI và con người ở từng giai đoạn
+
+![Bảng ranh giới bốn giai đoạn × ba cột: rule trong workflow, AI hỗ trợ đầu vào, con người — cho thấy AI không có quyền quyết định ở bất kỳ giai đoạn nào.](~/assets/images/insights/ai-tich-hop-vao-workflow/wfi-06-boundary-table-vi-dark.svg)
 
 Bảng dưới đây là công cụ thảo luận để xác định ai chịu trách nhiệm ở mỗi giai đoạn. Đây là khung định hướng, không phải số liệu đo lường.
 
