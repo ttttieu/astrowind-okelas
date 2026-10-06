@@ -20,6 +20,9 @@ secondaryKeywords:
   - "ngoại lệ workflow"
   - "Herbert Simon quản trị quyết định"
 assessmentHref: /readiness/digitalization
+coverImage: '~/assets/images/insights/rule-hay-con-nguoi-quyet-dinh-trong-workflow/wfd-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/rule-hay-con-nguoi-quyet-dinh-trong-workflow/wfd-00-og-cover-vi.png'
+coverImageAlt: "Dải liên tục từ quyết định lặp lại (encode thành rule) tới quyết định phức tạp (cần con người phán đoán); AI hỗ trợ đầu vào ở cả hai đầu."
 draft: false
 ---
 
@@ -58,6 +61,8 @@ Simon cũng nhấn mạnh: đây là hai đầu của một **dải liên tục*
 
 ## Bốn tiêu chí phân định thực tế
 
+![Dải liên tục programmed–nonprogrammed của Simon với bốn tiêu chí nhận diện bên dưới: tần suất, độ ổn định tiêu chí, liệt kê được biến thể, hậu quả áp dụng sai.](~/assets/images/insights/rule-hay-con-nguoi-quyet-dinh-trong-workflow/wfd-01-simon-continuum-vi-dark.svg)
+
 Để xác định một quyết định cụ thể nằm ở đâu trên dải liên tục — và từ đó chọn giữa encode thành rule hay giữ cho con người — có bốn câu hỏi thực tế:
 
 **1. Tần suất.** Loại tình huống này xảy ra hàng ngày, hàng tuần, hay chỉ vài lần một năm? Tần suất cao làm tăng lợi ích của việc viết rule — một rule dùng được nhiều lần sẽ tiết kiệm thời gian đáng kể so với xử lý từng trường hợp.
@@ -74,6 +79,8 @@ Bốn tiêu chí này không cho ra câu trả lời nhị phân — chúng giú
 
 ## Bảng phân loại: loại quyết định → ai đảm nhận
 
+![Bảng phân loại bốn loại quyết định theo đặc điểm, ánh xạ sang ba cột: rule trong workflow, AI hỗ trợ đầu vào, con người phán đoán.](~/assets/images/insights/rule-hay-con-nguoi-quyet-dinh-trong-workflow/wfd-02-decision-table-vi-dark.svg)
+
 | Đặc điểm quyết định | Rule trong workflow | AI hỗ trợ đầu vào | Con người phán đoán |
 |---|:---:|:---:|:---:|
 | Lặp lại, tiêu chí rõ, dữ liệu có cấu trúc | Có | Không cần | Không cần |
@@ -88,6 +95,8 @@ Bốn tiêu chí này không cho ra câu trả lời nhị phân — chúng giú
 ---
 
 ## Khi tiền lệ tích lũy — con đường từ phán đoán thành rule
+
+![Dòng chảy năm bước từ ghi nhận ngoại lệ tới rule mới vào workflow: ghi nhận → nhận diện mẫu → đề xuất rule → con người duyệt → rule mới.](~/assets/images/insights/rule-hay-con-nguoi-quyet-dinh-trong-workflow/wfd-03-precedent-to-rule-vi-dark.svg)
 
 Một trong những điểm Simon nhấn mạnh nhưng dễ bị bỏ qua trong bối cảnh thiết kế hệ thống: **vị trí trên dải liên tục không cố định**. Khi đủ tiền lệ tích lũy — khi một loại quyết định đã được con người xử lý nhiều lần với kết quả nhất quán và mẫu hình rõ — nó có thể dần trở thành programmable.
 

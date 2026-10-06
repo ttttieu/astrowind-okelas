@@ -20,6 +20,9 @@ secondaryKeywords:
   - "human judgment in workflow"
   - "business rules management"
 assessmentHref: /en/readiness/digitalization
+coverImage: '~/assets/images/insights/programmed-vs-nonprogrammed-decisions/wfd-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/programmed-vs-nonprogrammed-decisions/wfd-00-og-cover-en.png'
+coverImageAlt: "A continuum from repetitive decisions (encode as rules) to novel decisions (human judgment); AI supports input preparation at both ends."
 draft: false
 ---
 
@@ -58,6 +61,8 @@ What AI adds to this picture isn't a third layer of judgment sitting between rul
 
 ## Four Criteria for Placing a Decision
 
+![Simon's programmed–nonprogrammed continuum with four identification criteria below: frequency, stability of criteria, enumerability of variants, and consequence of error.](~/assets/images/insights/programmed-vs-nonprogrammed-decisions/wfd-01-simon-continuum-en-dark.svg)
+
 To determine where a specific decision sits on the continuum — and what mechanism fits best — four practical questions:
 
 **1. Frequency.** Does this type of situation arise daily, weekly, or only a few times a year? Higher frequency increases the payoff of writing a rule. A rule used hundreds of times is worth the investment; a rule used twice a year may not be.
@@ -74,6 +79,8 @@ These four criteria don't produce a binary answer. They help locate a decision o
 
 ## Decision Type Table: Who Handles What
 
+![Decision type table mapping four categories of decisions to three columns: workflow rule, AI supports input, human decides.](~/assets/images/insights/programmed-vs-nonprogrammed-decisions/wfd-02-decision-table-en-dark.svg)
+
 | Decision characteristics | Workflow rule | AI supports input | Human decides |
 |---|:---:|:---:|:---:|
 | Repetitive, clear criteria, structured data | Yes | Not needed | Not needed |
@@ -88,6 +95,8 @@ The key point: AI doesn't appear in the "decides" column. AI appears in the "sup
 ---
 
 ## When Precedent Accumulates: From Judgment to Rule
+
+![A five-step flow from recording exceptions to a new rule in the workflow: record → identify pattern → propose rule → human review → new rule.](~/assets/images/insights/programmed-vs-nonprogrammed-decisions/wfd-03-precedent-to-rule-en-dark.svg)
 
 One of Simon's points that's easy to miss when applying this framework to system design: **the position on the continuum isn't fixed**. When enough precedent builds — when a type of decision has been handled by people many times with consistent outcomes and the pattern is clear — it can gradually become programmable.
 
