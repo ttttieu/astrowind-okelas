@@ -1,7 +1,8 @@
 ---
-title: "AI làm gì trong workflow — và làm ở giai đoạn nào"
-description: "AI không tham gia workflow theo cùng một cách ở mọi bước. Bài phân tích giai đoạn nào AI xử lý thông tin, giai đoạn nào thuộc về rule và con người — và tại sao ranh giới đó quan trọng."
+title: "AI làm hai việc trong workflow: diễn giải đầu vào và chuẩn bị evidence"
+description: "AI không phải một lớp phán đoán mới trong workflow. Bài này dùng khung bốn giai đoạn của Parasuraman, Sheridan và Wickens (2000) để chỉ ra AI nên hỗ trợ ở đâu, và quyền quyết định thuộc về rule hay con người."
 publishDate: 2026-09-23T00:00:00Z
+updatedDate: 2026-10-06T00:00:00Z
 translationId: article-5-10-where-ai-fits-workflow
 lang: vi
 category: workflow
@@ -15,9 +16,9 @@ audience:
 primaryKeyword: "AI trong workflow"
 secondaryKeywords:
   - "ứng dụng AI vào quy trình doanh nghiệp"
-  - "nhận biết ý định trong workflow"
-  - "AI phân loại yêu cầu"
-  - "AI diễn giải dữ liệu quy trình"
+  - "AI trong workflow"
+  - "workflow"
+  - "ra quyết định trong workflow"
   - "human-in-the-loop workflow"
 assessmentHref: /readiness/ai
 coverImage: '~/assets/images/insights/ai-tich-hop-vao-workflow/wfi-00-og-cover-vi.png'
@@ -28,170 +29,144 @@ draft: false
 
 ---
 
-> **Tóm tắt cho CEO/COO**
->
-> - Câu hỏi "có nên đưa AI vào workflow không" thường được trả lời quá sớm. Câu hỏi đúng hơn: **AI nên tham gia vào giai đoạn nào của một chuỗi xử lý thông tin?**
-> - Khung Parasuraman, Sheridan và Wickens (2000) chia chuỗi xử lý thành bốn giai đoạn: thu thập thông tin, phân tích thông tin, lựa chọn quyết định, và thực thi hành động.
-> - **AI tham gia ở giai đoạn 1-2:** nhận biết ý định, trích xuất thông tin, phân loại có kiểm soát, diễn giải kết quả kèm evidence. Đây là phần xử lý thông tin phi cấu trúc mà rule không làm được.
-> - **Giai đoạn 3 (quyết định) và 4 (thực thi) không phải nơi AI hành động độc lập.** Quyết định thuộc về rule đã duyệt hoặc con người; thực thi thuộc về hệ thống workflow — với thẩm quyền được xác định rõ, tách biệt với AI.
-> - Mọi đầu ra của AI phải đi kèm evidence có thể trace — để người quyết định kiểm chứng, không tin vào "kết luận" của AI.
+## Tóm tắt cho COO/CIO
+
+- Câu hỏi "có nên đưa AI vào workflow không" thường được trả lời quá sớm bằng một sản phẩm cụ thể. Câu hỏi đúng hơn là: **ở mỗi giai đoạn của chuỗi xử lý thông tin, ai nắm quyền quyết định: rule, AI hay con người?**
+- Parasuraman, Sheridan và Wickens (2000) chia một chuỗi xử lý thành bốn giai đoạn: thu thập thông tin, phân tích thông tin, lựa chọn quyết định, thực thi hành động. Mỗi giai đoạn có thể được hỗ trợ ở mức khác nhau.
+- Trong workflow doanh nghiệp, **AI làm hai việc**: diễn giải đầu vào phi cấu trúc để rule chạy được, và chuẩn bị evidence để con người phán đoán nhanh hơn, có căn cứ hơn. AI không tạo ra một lớp phán đoán thứ ba.
+- Quyền quyết định thuộc về rule (do người có thẩm quyền ban hành) hoặc con người. Hai tiêu chí giúp xác định bước nào giao cho rule, bước nào giữ con người: **khả năng đảo ngược của hành động** và **độ chắc chắn của dữ liệu đầu vào**.
 
 ---
 
-Nhiều cuộc thảo luận về "AI trong workflow" ở cấp COO/CIO thường bắt đầu và kết thúc ở một câu hỏi khá mơ hồ: "chúng ta có nên thêm AI vào quy trình X không?" Câu hỏi này khó trả lời vì nó gộp chung nhiều thứ rất khác nhau vào một khái niệm.
+## Mở đầu
 
-Một workflow thực tế không phải một khối đồng nhất. Nó gồm nhiều giai đoạn: thu thập dữ liệu, hiểu dữ liệu đó có ý nghĩa gì, quyết định nên làm gì, và thực hiện hành động đó. AI có thể tham gia ở một số giai đoạn — nhưng không phải tất cả, và không phải theo cùng một cách. Ranh giới đó cần rõ, không phải để hạn chế AI mà để giữ thẩm quyền ở đúng chỗ.
+Nhiều cuộc thảo luận về "AI trong workflow" ở cấp COO/CIO bắt đầu và kết thúc ở một câu hỏi mơ hồ: "chúng ta có nên thêm AI vào quy trình X không?" Câu hỏi này khó trả lời vì nó gộp nhiều việc rất khác nhau vào một khái niệm.
 
-→ *Xem thêm: [Rule hay con người: quyết định nào nên tự động hóa trong quy trình](/insights/workflow/rule-hay-con-nguoi-quyet-dinh-trong-workflow)*
+Một quy trình thật không phải một khối. Nó gồm nhiều bước nhỏ: nhận thông tin, hiểu thông tin đó nói gì, quyết định làm gì, rồi thực hiện. Ở bước nào AI nên tham gia, và tham gia để làm gì, là hai câu hỏi cần trả lời tách nhau. Bài này dùng một khung có nguồn học thuật để trả lời chúng, và đặt ranh giới rõ giữa ba bên: rule, AI và con người.
 
 ---
 
 ## Bốn giai đoạn của một chuỗi xử lý thông tin
 
-![Mô hình bốn giai đoạn xử lý thông tin: thu thập, phân tích, lựa chọn quyết định và thực thi, tương ứng với ghi nhận sự kiện, phân loại, quyết định và hành động; mức kiểm soát có thể khác nhau ở từng giai đoạn.](~/assets/images/insights/ai-tich-hop-vao-workflow/wfi-01-four-stages-vi-dark.svg)
+Mô hình của Parasuraman, Sheridan và Wickens (2000), công bố trên *IEEE Transactions on Systems, Man, and Cybernetics – Part A*, là một trong những khung được trích dẫn nhiều nhất về tương tác người–máy và tự động hóa. Mô hình chia một chuỗi xử lý thành bốn giai đoạn:
 
-Mô hình của Parasuraman, Sheridan và Wickens (2000), công bố trên IEEE Transactions on Systems, Man, and Cybernetics, là một trong những khung lý thuyết được trích dẫn nhiều nhất trong lĩnh vực tương tác người-máy và tự động hóa. Mô hình chia một chuỗi xử lý thành bốn giai đoạn:
+1. **Thu thập thông tin** (information acquisition): ghi nhận dữ liệu đầu vào từ nhiều nguồn.
+2. **Phân tích thông tin** (information analysis): tổng hợp, diễn giải dữ liệu để hiểu ý nghĩa của nó.
+3. **Lựa chọn quyết định** (decision and action selection): cân nhắc phương án và chọn hành động.
+4. **Thực thi hành động** (action implementation): thực hiện hành động đã chọn.
 
-1. **Thu thập thông tin** (information acquisition) — cảm nhận, ghi nhận dữ liệu đầu vào từ nhiều nguồn.
-2. **Phân tích thông tin** (information analysis) — tổng hợp, diễn giải dữ liệu đã thu thập để hiểu ý nghĩa của nó.
-3. **Lựa chọn quyết định/hành động** (decision and action selection) — cân nhắc các phương án và chọn ra hành động phù hợp.
-4. **Thực thi hành động** (action implementation) — thực hiện hành động đã chọn.
+Ý quan trọng nhất của mô hình: mức độ hỗ trợ bằng máy **không cần và không nên giống nhau ở cả bốn giai đoạn**. Một chuỗi có thể hỗ trợ mạnh ở khâu thu thập, hỗ trợ vừa ở khâu phân tích, và giữ khâu lựa chọn cho con người.
 
-Điểm quan trọng nhất trong mô hình này: **mức kiểm soát cần thiết không cần và không nên giống nhau ở cả bốn giai đoạn.** Một hệ thống có thể để AI xử lý hoàn toàn việc phân tích thông tin đầu vào, nhưng giữ con người ở bước quyết định — hoặc dùng rule ở bước quyết định, và workflow system ở bước thực thi. Không có công thức đồng nhất.
-
----
-
-## AI làm gì ở giai đoạn 1 và 2
-
-Giai đoạn thu thập và phân tích thông tin là nơi AI tạo ra giá trị rõ nhất trong workflow doanh nghiệp — vì đây là phần xử lý đầu vào phi cấu trúc mà rule thuần túy không làm được.
-
-Bốn việc cụ thể AI làm ở hai giai đoạn này:
-
-**Nhận biết ý định (intent recognition).** Một yêu cầu viết bằng ngôn ngữ tự nhiên — email, chat, biểu mẫu điền tự do — không có cấu trúc định sẵn. AI đọc và xác định yêu cầu đó đang hỏi gì, cần gì, thuộc nhóm vấn đề nào. Đây là điều kiện tiên quyết để workflow có thể xử lý tiếp.
-
-**Trích xuất thông tin có cấu trúc (extraction).** Từ tài liệu phi cấu trúc — hóa đơn, hợp đồng, biên bản, email khiếu nại — AI rút ra các trường dữ liệu cụ thể (số tiền, ngày, tên sản phẩm, mã đơn hàng) để đưa vào workflow ở dạng có thể kiểm chứng. Không phải AI "hiểu" tài liệu — mà AI trích xuất để rule và con người có thể làm việc với dữ liệu đó.
-
-**Phân loại có kiểm soát (controlled classification).** AI gán đầu vào vào một danh mục đã được định nghĩa rõ từ trước — loại yêu cầu, mức ưu tiên, phòng ban liên quan, loại sự kiện. "Có kiểm soát" có nghĩa: danh mục do người có thẩm quyền định nghĩa, AI không tự tạo danh mục mới; kết quả phân loại dưới ngưỡng tin cậy được chuyển sang con người.
-
-**Diễn giải kết quả kèm evidence (interpretation with evidence).** Khi dữ liệu đã được trích xuất và phân loại, AI tổng hợp và diễn giải ý nghĩa của chúng — trường hợp này tương tự những trường hợp nào đã xảy ra trước? Có cờ rủi ro nào theo rule không? Thông tin nào còn thiếu? Mỗi diễn giải phải đi kèm evidence có thể trace — nguồn từ đâu, dữ liệu gốc là gì.
-
-Đây là ranh giới của AI trong chuỗi xử lý: **diễn giải của AI không trở thành thẩm quyền.** AI chuẩn bị thông tin để bước tiếp theo — dù là rule hay con người — có thể hành động với căn cứ đầy đủ.
-
-**Điều AI không làm ở đây:** AI không quyết định hành động, không thực thi bất kỳ hành động nào, và không gợi ý hành động theo cách để hệ thống tự chạy theo. Mọi đầu ra của AI là thông tin kèm evidence — để rule đã được ban hành hoặc con người có thẩm quyền xử lý tiếp.
+Trong workflow doanh nghiệp, bốn giai đoạn này đọc như sau: hệ thống ghi nhận một yêu cầu hoặc sự kiện, hệ thống hiểu yêu cầu đó, rule hoặc con người quyết định hành động, hành động được thực hiện.
 
 ---
 
-## Bảng ranh giới bốn lớp
+## AI làm hai việc: diễn giải đầu vào và chuẩn bị evidence
 
-Để rõ hơn về ai đảm nhận gì trong một workflow tích hợp AI:
+Đặt AI lên bốn giai đoạn trên, vai trò của nó thu về hai việc.
 
-| Lớp | Đảm nhận |
-|---|---|
-| **Workflow / rule** | Điều kiện phải xảy ra, điều được phép, tính toán, kiểm tra, trạng thái, thực thi theo thẩm quyền đã được ban hành |
-| **KVM / evidence** | Truy xuất, resolve và trace tri thức tổ chức — tiền lệ, tài liệu chuẩn, lịch sử quyết định |
-| **AI** | Nhận biết ý định, trích xuất, phân loại có kiểm soát, diễn giải kết quả và evidence cho người đọc |
-| **Con người** | Phán đoán ngoại lệ, duyệt hành động rủi ro cao, ban hành và sửa rule, xác nhận evidence trước khi hành động có hậu quả cao |
+### 1. Diễn giải đầu vào phi cấu trúc để rule chạy được
 
-Ba nguyên tắc đi kèm bảng này:
+Rule cần đầu vào có cấu trúc: loại yêu cầu, mức ưu tiên, giá trị so với ngưỡng. Nhưng công việc thật đến dưới dạng email, tin nhắn, biểu mẫu viết tay, ảnh chứng từ. AI đọc những đầu vào này và chuyển chúng thành dạng rule hiểu được: gán loại yêu cầu, trích số liệu, nhận ra phòng ban liên quan. Việc phân loại và chuyển tiếp theo kết quả phân loại thuộc nhóm này. Khi đầu vào đã có cấu trúc, **rule** quyết định yêu cầu đi đâu, không phải AI.
 
-- **Diễn giải của AI không trở thành thẩm quyền.** AI có thể diễn giải thông tin tổ chức, nhưng diễn giải đó không thay thế thẩm quyền của rule hay con người.
-- **Tiền lệ là evidence, không phải thẩm quyền.** AI có thể tổng hợp tiền lệ tương tự như một phần của evidence — nhưng tiền lệ chỉ là thông tin tham khảo; quyết định có theo hay không là của con người.
-- **Agentic là capability tùy chọn, không phải mức trưởng thành.** Workflow có AI tham gia ở giai đoạn 1-2 là workflow trưởng thành — không cần agent để "trưởng thành hơn."
+Giai đoạn tương ứng: thu thập và phân tích thông tin. Rủi ro chủ yếu là diễn giải sai. Sai ở đây thường gây chậm trễ, vì người xem kết quả có thể sửa lại.
 
-→ *Xem thêm: [Automation và AI hỗ trợ workflow — hai vai trò khác nhau](/insights/workflow/automation-va-ai-ho-tro-workflow)*
+### 2. Chuẩn bị evidence để con người phán đoán
 
----
+Với quyết định mới hoặc có hậu quả lớn, con người phải phán đoán. AI không thay con người ở đó. Nó làm việc đứng trước phán đoán: tìm các trường hợp tương tự trong tiền lệ, tổng hợp điều khoản và dữ liệu liên quan, nêu những điểm khác biệt đáng chú ý của ca này. Người phán đoán nhận một hồ sơ gọn thay vì phải tự lục lại từ đầu.
 
-## Giai đoạn 3 và 4: quyết định và thực thi không phải của AI
+Hồ sơ này phải **kiểm chứng được**: mỗi ý chỉ về nguồn cụ thể để người ra quyết định mở ra đối chiếu. Hồ sơ không kèm kết luận "nên làm gì" như một mệnh lệnh.
 
-Một lỗi phổ biến khi thiết kế workflow có AI là để AI "gợi ý hành động" rồi hệ thống tự chạy theo gợi ý đó. Điều này vô hình chung chuyển thẩm quyền quyết định sang AI mà không có cơ chế kiểm soát rõ ràng.
+### Điều AI không làm
 
-**Giai đoạn 3 — lựa chọn quyết định:** thuộc về hai chủ thể:
-- **Rule đã duyệt** nếu điều kiện rơi vào nhóm đã được encode (lặp lại, tiêu chí rõ, hậu quả sai chấp nhận được theo xem xét của người có thẩm quyền).
-- **Con người** nếu tình huống nằm ngoài rule, hậu quả cao, hoặc tiêu chí chưa đủ ổn định để encode.
+- AI không quyết định thay con người ở bước lựa chọn.
+- AI không tự thực hiện hành động mà không có rule được ban hành hoặc xác nhận của con người.
+- AI không tự thêm hay sửa rule. Rule chỉ thay đổi qua quy trình ban hành bởi người có thẩm quyền (xem bài [Rule hay con người: quyết định nào nên tự động hóa trong quy trình](/insights/workflow/rule-hay-con-nguoi-quyet-dinh-trong-workflow)).
 
-AI ở giai đoạn này làm một việc duy nhất: **chuẩn bị hồ sơ evidence** — dữ kiện đã trace, trường hợp tương tự, cờ rủi ro theo rule — để người quyết định có căn cứ thực chứ không phải bấm xác nhận phản xạ. AI không chọn; AI chuẩn bị để người có thẩm quyền chọn.
-
-**Giai đoạn 4 — thực thi hành động:** thuộc về hệ thống workflow với quyền kỹ thuật được cấp theo thẩm quyền đã xác định — không phải AI tự thực thi. Sự tách bạch giữa AI (diễn giải) và hệ thống (thực thi) là một trong những nguyên tắc kiểm soát quan trọng nhất khi thiết kế workflow có AI tham gia.
-
-→ *Xem thêm: [Phân tách trách nhiệm khi dùng AI trong workflow](/insights/workflow/phan-tach-trach-nhiem-ai-trong-workflow)*
+Một lưu ý về nhãn "AI gợi ý hành động". Nếu hệ thống chỉ ra một hành động cụ thể mà không kèm evidence để người đọc đối chiếu, trên thực tế nó đang đẩy con người về phía chấp nhận. Vì vậy, thiết kế nên cho người đọc thấy căn cứ trước khi thấy kết luận.
 
 ---
 
-## Ranh giới: rule, AI và con người
+## Ranh giới: rule, AI và con người ở từng giai đoạn
+
+Bảng dưới đây là công cụ thảo luận để xác định ai chịu trách nhiệm ở mỗi giai đoạn. Đây là khung định hướng, không phải số liệu đo lường.
 
 | Giai đoạn | Rule trong workflow | AI hỗ trợ đầu vào | Con người |
 |---|---|---|---|
-| Thu thập thông tin | Ghi nhận theo trường và quy tắc đã định | Trích xuất, diễn giải từ email, biểu mẫu, ảnh chứng từ | Không cần, trừ khi dữ liệu mơ hồ |
-| Phân tích thông tin | Áp tiêu chí, ngưỡng đã viết | Phân loại; tổng hợp evidence từ ca tương tự | Xác nhận nếu rủi ro cao |
-| Lựa chọn quyết định | Chỉ khi tiêu chí rõ và hậu quả sai thấp (đường mặc định) | Gợi ý kèm evidence, không quyết định | Phán đoán; xác nhận bắt buộc nếu hậu quả sai cao |
+| Thu thập thông tin | Ghi nhận theo trường và quy tắc đã định | Trích xuất, diễn giải từ email, biểu mẫu, ảnh chứng từ | Chỉ khi dữ liệu mơ hồ |
+| Phân tích thông tin | Áp tiêu chí và ngưỡng đã viết | Phân loại, tổng hợp evidence từ ca tương tự | Xác nhận khi rủi ro cao |
+| Lựa chọn quyết định | Chỉ khi tiêu chí rõ và hậu quả sai thấp (đường mặc định) | Chuẩn bị evidence, không quyết định | Phán đoán; xác nhận bắt buộc khi hậu quả sai cao |
 | Thực thi hành động | Thực hiện hành động mà rule đã cho phép | Không thực thi | Thực hiện hoặc phê duyệt hành động khó đảo ngược |
 
-Bảng này không nói AI làm được bao nhiêu — mà nói AI dừng ở đâu. Ở giai đoạn 1 và 2, AI hỗ trợ đầu vào cho rule và con người. Ở giai đoạn 3 và 4, quyết định và thực thi thuộc về rule đã ban hành hoặc con người có thẩm quyền — không phải AI.
+Hai điểm đáng chú ý khi đọc bảng:
+
+- **Cột AI không có quyền quyết định ở bất kỳ hàng nào.** AI hiện diện ở hai hàng đầu để rule chạy được, và ở hàng ba để con người phán đoán có căn cứ.
+- **Hành động chỉ được thực hiện tự động khi một rule cho phép.** Rule đó do người có thẩm quyền ban hành, có người chịu trách nhiệm rà soát. Không có rule cho phép thì hành động chờ con người.
 
 ---
 
-## Hai yếu tố quyết định mức kiểm soát cần thiết
+## Hai tiêu chí xác định bước nào giao cho rule, bước nào giữ con người
 
-Không có câu trả lời đồng nhất cho mọi workflow — nhưng hai yếu tố giúp xác định: bước này có thể để rule xử lý tự động không, hay cần con người xác nhận trước khi thực thi?
+Không có đáp án chung cho mọi workflow. Hai tiêu chí giúp xác định từng bước.
 
-**Khả năng đảo ngược của hành động (reversibility).** Yếu tố này không xác định AI được tham gia bao nhiêu — mà xác định rule trong workflow có đủ điều kiện xử lý tự động không, hoặc cần con người xác nhận. Hành động dễ đảo ngược (tạo bản nháp, gửi thông báo nhắc nhở, gán nhãn nội bộ) có thể để rule xử lý và định tuyến tự động mà không cần xác nhận thêm. Hành động khó hoặc không thể đảo ngược (xác nhận hợp đồng, từ chối yêu cầu của khách hàng, cập nhật hồ sơ tài chính) cần con người xác nhận trước khi thực thi — dù giai đoạn phân tích trước đó đã có AI hỗ trợ.
+### Khả năng đảo ngược của hành động (reversibility)
 
-**Mức độ rõ ràng của dữ liệu đầu vào.** Với dữ liệu có cấu trúc và ít mơ hồ (một con số vượt ngưỡng, một trạng thái thay đổi rõ ràng), kết quả phân loại và trích xuất của AI đáng tin cậy hơn — rule có thể dựa vào kết quả đó mà không cần xác nhận thêm. Với dữ liệu phi cấu trúc, mơ hồ, hoặc phụ thuộc ngữ cảnh (email khiếu nại viết cảm tính, mô tả sự cố không theo chuẩn), nên thu hẹp phạm vi AI hỗ trợ đầu vào ở giai đoạn phân tích, và đảm bảo evidence đi kèm kết quả AI đủ để người kiểm chứng.
+Hành động dễ đảo ngược, như gửi một thông báo nhắc việc hay tạo một bản nháp chưa gửi, có thể giao cho rule thực hiện trực tiếp, miễn là rule đã được người có thẩm quyền duyệt. AI chỉ chuẩn bị đầu vào cho rule đó.
 
-![Hai yếu tố chọn mức kiểm soát: khả năng đảo ngược của hành động và mức độ rõ ràng của dữ liệu; hành động dễ đảo ngược và dữ liệu rõ ràng chấp nhận mức kiểm soát thấp hơn ở giai đoạn phân tích.](~/assets/images/insights/ai-tich-hop-vao-workflow/wfi-03-two-criteria-vi-dark.svg)
+Hành động khó hoặc không thể đảo ngược, như chuyển tiền, xác nhận hợp đồng hay từ chối yêu cầu của khách hàng, nên có con người xác nhận trước khi thực hiện.
 
-Hai yếu tố này không cho ra một con số cụ thể — chúng là câu hỏi cần trả lời trước khi quyết định AI tham gia đến đâu ở từng giai đoạn.
+### Độ chắc chắn của dữ liệu đầu vào
 
----
+Với dữ liệu có cấu trúc, ít mơ hồ (một con số vượt ngưỡng đã định), AI diễn giải đáng tin hơn và rule chạy ổn định. Với dữ liệu phi cấu trúc hoặc cần hiểu theo ngữ cảnh (một email khiếu nại viết cảm tính), kết quả diễn giải cần được con người kiểm tra thường xuyên hơn. Quyết định vẫn thuộc về rule hoặc con người, không thuộc về AI.
 
-## Automation complacency — rủi ro ít được nhắc đến
+### Một cảnh báo từ chính mô hình gốc
 
-![Chọn mức kiểm soát không chỉ hỏi AI có làm được không, mà còn cân nhắc tác động dài hạn như ỷ lại vào tự động hóa và suy giảm kỹ năng ra quyết định.](~/assets/images/insights/ai-tich-hop-vao-workflow/wfi-05-beyond-can-ai-do-it-vi-dark.svg)
-
-Parasuraman và cộng sự cũng chỉ ra một hệ quả ít được nhắc đến khi tăng mức tự động hóa: **automation complacency** — hiện tượng con người giảm mức giám sát khi hệ thống hoạt động tốt trong thời gian dài, dẫn đến việc bỏ qua các dấu hiệu bất thường hoặc không phát hiện kịp khi AI mắc lỗi.
-
-Đây là lý do hai nguyên tắc thiết kế quan trọng:
-
-**Evidence bắt buộc ở mọi đầu ra AI.** Khi AI phân loại, trích xuất, hoặc diễn giải — đầu ra phải kèm nguồn dữ liệu gốc và lý do phân loại, không chỉ kết quả. Người xem lại phải có đủ thông tin để bác bỏ nếu cần, không phải chỉ có thể chấp nhận hay từ chối mà không biết lý do.
-
-**Giữ con người thực hành phán đoán.** Nếu AI xử lý toàn bộ giai đoạn phân tích và con người chỉ bấm "duyệt" mà không thực sự xem xét, kỹ năng ra quyết định của đội ngũ suy giảm — và khi hệ thống gặp trường hợp ngoài phạm vi huấn luyện, không ai còn đủ kỹ năng để xử lý đúng. Đây là chi phí ẩn của tự động hóa quá mức không được đặt ra trong hầu hết các cuộc thảo luận về AI.
-
-→ *Xem thêm: [AI chuẩn bị evidence, con người quyết định](/insights/workflow/ai-chuan-bi-evidence-con-nguoi-quyet-dinh)*
+Parasuraman và cộng sự chỉ ra rằng tự động hóa không chỉ thay thế con người mà còn thay đổi bản chất công việc của họ. Hệ quả có thể gồm ỷ lại vào tự động hóa (automation complacency) và suy giảm kỹ năng khi con người ít khi phải tự ra quyết định. Vì vậy, việc chọn mức hỗ trợ không nên chỉ dựa trên câu hỏi "AI làm được không", mà phải tính cả tác động lâu dài lên năng lực phán đoán của đội ngũ.
 
 ---
 
-## Khung tích hợp AI vào workflow thực tế
+## Framework: đưa AI vào workflow theo từng bước
 
-![Bốn bước: chia workflow theo bốn giai đoạn, đánh giá mức kiểm soát cần thiết, triển khai từng giai đoạn độc lập, và xem lại định kỳ.](~/assets/images/insights/ai-tich-hop-vao-workflow/wfi-04-four-step-framework-vi-dark.svg)
+**Bước 1. Chia quy trình theo bốn giai đoạn.** Xác định đâu là thu thập, phân tích, quyết định và thực thi, thay vì coi cả quy trình là một khối.
 
-**Bước 1 — Chia nhỏ workflow theo bốn giai đoạn.** Với một quy trình cụ thể, xác định rõ đâu là giai đoạn thu thập, phân tích, quyết định, và thực thi — thay vì coi cả quy trình là một khối.
+**Bước 2. Với mỗi giai đoạn, đánh giá khả năng đảo ngược và độ chắc chắn của dữ liệu để chọn ai chịu trách nhiệm.**
+- Hành động dễ đảo ngược và dữ liệu rõ ràng: giao cho rule xử lý trực tiếp. AI chỉ diễn giải đầu vào nếu đầu vào phi cấu trúc.
+- Hành động khó đảo ngược hoặc dữ liệu mơ hồ: AI dừng ở diễn giải hoặc chuẩn bị evidence, con người xác nhận hoặc quyết định.
 
-**Bước 2 — Đánh giá mức kiểm soát cần thiết cho từng giai đoạn.** Với giai đoạn 1-2: đầu vào có cấu trúc hay phi cấu trúc? AI có thể trích xuất và phân loại chính xác đủ mức không? Với giai đoạn 3-4: quyết định này thuộc rule hay con người? Hành động có thể đảo ngược không?
+**Bước 3. Triển khai từng giai đoạn một, không làm cả quy trình cùng lúc.** Ví dụ: bắt đầu bằng việc để AI diễn giải và phân loại yêu cầu đến, giữ người ở bước quyết định trong vài tháng đầu để kiểm chứng độ chính xác của việc diễn giải. Phạm vi sau đó chỉ thay đổi qua việc ban hành rule mới theo quy trình có người duyệt, không phải qua việc "nâng quyền" cho AI.
 
-**Bước 3 — Triển khai từng giai đoạn độc lập, không phải toàn bộ quy trình cùng lúc.** Ví dụ — *tình huống minh họa*: bắt đầu bằng việc để AI nhận biết ý định và phân loại yêu cầu đầu vào, giữ con người ở bước quyết định trong vài tháng đầu để kiểm chứng độ chính xác của phân loại, trước khi cân nhắc mở rộng sang giai đoạn chuẩn bị evidence. Mở rộng AI có nghĩa là mở rộng phạm vi hỗ trợ đầu vào — không phải mở rộng sang quyết định tự chủ.
+**Bước 4. Thiết lập rà soát định kỳ.** Phạm vi rule và phạm vi AI hỗ trợ cần được người phụ trách (rule owner) xem lại theo thời gian: khi ngoại lệ tăng bất thường, khi khiếu nại sau xử lý tăng, khi môi trường thay đổi. Mỗi lần thay đổi đều được ghi nhận để truy vết.
 
-**Bước 4 — Thiết lập cơ chế xem lại định kỳ.** Phạm vi rule đảm nhận và phạm vi AI hỗ trợ đầu vào có thể mở rộng theo thời gian khi dữ liệu tích lũy và độ tin cậy của mô hình được kiểm chứng thực tế. Cần có điểm xem lại định kỳ — không phải cố định một lần rồi bỏ.
+---
+
+## Tự kiểm tra: workflow của bạn đang đặt AI ở đâu?
+
+Nếu bạn trả lời "có" cho 3 câu trở lên, có thể ranh giới giữa rule, AI và con người trong quy trình chưa rõ.
+
+1. Có bước nào mà kết quả của AI được dùng trực tiếp làm quyết định, không ai xem lại?
+2. Có hành động khó đảo ngược nào được hệ thống thực hiện mà bạn không chỉ ra được rule nào cho phép?
+3. Người xem kết quả của AI có thấy được căn cứ (nguồn, tiền lệ) trước khi thấy kết luận không? Nếu không, câu trả lời của câu này là "có".
+4. Có rule nào được thay đổi mà không ghi lại ai duyệt, vì sao?
+5. Nếu người phụ trách một bước nghỉ một tuần, bạn có biết quyết định ở bước đó đang đi đâu không?
 
 ---
 
 ## Kết luận
 
-Vấn đề thực sự không phải "AI có làm được bước này không" mà là "bước này thuộc giai đoạn nào, và mức kiểm soát nào phù hợp với tính chất của giai đoạn đó?"
+"AI trong workflow" không phải câu hỏi có hay không. Câu hỏi đúng là: ở từng giai đoạn, quyền quyết định thuộc về ai, và AI giúp được gì cho bên đó.
 
-Giai đoạn 1 và 2 (thu thập và phân tích) là nơi AI tạo ra giá trị rõ nhất — nhận biết ý định, trích xuất, phân loại có kiểm soát, diễn giải kèm evidence. Giai đoạn 3 (quyết định) thuộc về rule đã duyệt hoặc con người — AI chuẩn bị evidence, không chọn. Giai đoạn 4 (thực thi) thuộc về hệ thống workflow với thẩm quyền được xác định rõ.
-
-Biết phần nào của AI, phần nào của rule, phần nào của con người — đó là năng lực cốt lõi của một tổ chức vận hành workflow có AI một cách có trách nhiệm.
+AI làm tốt hai việc: diễn giải đầu vào để rule chạy được, và chuẩn bị evidence để con người phán đoán nhanh hơn có căn cứ hơn. Quyền quyết định ở lại với rule do người có thẩm quyền ban hành, hoặc với chính con người. Doanh nghiệp trưởng thành không phải doanh nghiệp giao nhiều quyền cho AI, mà là doanh nghiệp biết rõ từng bước thuộc về bên nào.
 
 ---
 
-*Bài viết này là một phần của chuỗi chuyên đề về workflow, ứng dụng AI và quản trị vận hành cho doanh nghiệp sản xuất SME.*
+## Nguồn
 
-**Bài liên quan:**
+- Parasuraman, R., Sheridan, T. B., & Wickens, C. D. (2000). A model for types and levels of human interaction with automation. *IEEE Transactions on Systems, Man, and Cybernetics – Part A*, 30(3), 286–297.
+- Simon, H. A. (1960). *The New Science of Management Decision*. Harper & Brothers.
+
+## Bài liên quan
+
 - [Rule hay con người: quyết định nào nên tự động hóa trong quy trình](/insights/workflow/rule-hay-con-nguoi-quyet-dinh-trong-workflow)
-- [Automation và AI hỗ trợ workflow — hai vai trò khác nhau](/insights/workflow/automation-va-ai-ho-tro-workflow)
-- [Workflow tự phân loại và định tuyến theo nội dung](/insights/workflow/workflow-tu-phan-loai-dinh-tuyen)
-- [AI chuẩn bị evidence, con người quyết định](/insights/workflow/ai-chuan-bi-evidence-con-nguoi-quyet-dinh)
+- [Từ Request → Approval sang Event → Action: khi nào hành động không cần chờ duyệt](/insights/workflow/tu-request-approval-sang-event-action)
+- [Xử lý ngoại lệ trong workflow: khi quyết định không có rule sẵn](/insights/workflow/xu-ly-ngoai-le-trong-workflow)
 - [Phân tách trách nhiệm khi dùng AI trong workflow](/insights/workflow/phan-tach-trach-nhiem-ai-trong-workflow)
-
-**→ [Làm AI Readiness Assessment](/readiness/ai)**
