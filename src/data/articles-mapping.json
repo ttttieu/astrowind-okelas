@@ -1080,16 +1080,16 @@
       }
     },
     {
-      "translationId": "article-5-12-context-aware-workflow",
+      "translationId": "article-5-16-context-aware-workflow",
       "vi": {
         "slug": "workflow-biet-context-to-chuc",
         "category": "workflow",
         "url": "/insights/workflow/workflow-biet-context-to-chuc"
       },
       "en": {
-        "slug": "context-aware-workflow",
+        "slug": "context-aware-workflow-organizational-knowledge",
         "category": "workflow",
-        "url": "/en/insights/workflow/context-aware-workflow"
+        "url": "/en/insights/workflow/context-aware-workflow-organizational-knowledge"
       }
     },
     {
