@@ -1119,6 +1119,19 @@
       }
     },
     {
+      "translationId": "article-5-19-ai-agent-workflow",
+      "vi": {
+        "slug": "workflow-co-can-ai-agent",
+        "category": "workflow",
+        "url": "/insights/workflow/workflow-co-can-ai-agent"
+      },
+      "en": {
+        "slug": "does-your-workflow-need-an-ai-agent",
+        "category": "workflow",
+        "url": "/en/insights/workflow/does-your-workflow-need-an-ai-agent"
+      }
+    },
+    {
       "translationId": "article-5-13-agent-vs-workflow",
       "vi": {
         "slug": "ai-agent-va-workflow",
