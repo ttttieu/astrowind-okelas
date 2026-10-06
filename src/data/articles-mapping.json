@@ -1002,6 +1002,19 @@
       }
     },
     {
+      "translationId": "workflow-pillar-manufacturing-sme",
+      "vi": {
+        "slug": "workflow-doanh-nghiep-san-xuat",
+        "category": "workflow",
+        "url": "/insights/workflow/workflow-doanh-nghiep-san-xuat"
+      },
+      "en": {
+        "slug": "workflow-for-manufacturing-companies",
+        "category": "workflow",
+        "url": "/en/insights/workflow/workflow-for-manufacturing-companies"
+      }
+    },
+    {
       "translationId": "article-5-1-workflow-still-slow",
       "vi": {
         "slug": "co-workflow-van-lam-viec-cham",
