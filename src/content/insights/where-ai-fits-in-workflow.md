@@ -77,6 +77,8 @@ Four specific things AI does in these two stages:
 
 This is the boundary of AI in the processing chain: **AI's interpretation does not become authority.** AI prepares information so the next step — whether a rule or a person — can act with full context.
 
+**What AI does not do here:** AI does not decide on actions, does not execute any action, and does not suggest actions in a way that lets the system run automatically on that suggestion. Every AI output is information with evidence — for issued rules or authorized people to act on.
+
 ---
 
 ## The Four-Layer Boundary Table
@@ -116,13 +118,26 @@ AI's role at this stage is one thing: **preparing the evidence file** — tracea
 
 ---
 
+## The Boundary: Rules, AI, and People
+
+| Stage | Workflow rule | AI supports input | People |
+|---|---|---|---|
+| Information acquisition | Capture according to defined fields and rules | Extract, interpret from emails, forms, document images | Not needed, unless data is ambiguous |
+| Information analysis | Apply written criteria and thresholds | Classify; synthesize evidence from similar past cases | Confirm if high risk |
+| Decision selection | Only when criteria are clear and consequence of error is low (default path) | Suggest with evidence, does not decide | Judgment call; confirmation required if consequence of error is high |
+| Action implementation | Execute actions that the rule has authorized | Does not execute | Execute or approve hard-to-reverse actions |
+
+This table isn't about how much AI can do — it's about where AI stops. In stages 1 and 2, AI supports input for rules and people. In stages 3 and 4, decision and execution belong to issued rules or authorized people — not AI.
+
+---
+
 ## Two Factors That Determine the Level of Control Needed
 
-There's no universal right level of control for every workflow — but two factors help determine the appropriate level for each stage:
+There's no universal answer for every workflow — but two factors help determine: can this step be handled automatically by a rule, or does it require human confirmation before execution?
 
-**How reversible the action is.** Easily reversible actions (creating a draft, sending a reminder, applying an internal label) can tolerate more automation at the analysis and routing stages. Hard-to-reverse or irreversible actions (confirming a contract, denying a customer request, updating a financial record) need a person at the confirmation step before execution — even if the analysis stage upstream already had AI support.
+**How reversible the action is.** This factor doesn't determine how much AI participates — it determines whether a workflow rule has sufficient grounds to run automatically, or whether human confirmation is required. Easily reversible actions (creating a draft, sending a reminder, applying an internal label) can be handled and routed automatically by a rule without additional confirmation. Hard-to-reverse or irreversible actions (confirming a contract, denying a customer request, updating a financial record) need a person at the confirmation step before execution — even if the analysis stage upstream already had AI support.
 
-**How clear the input data is.** With structured, low-ambiguity data (a number crossing a defined threshold, a status change), AI classification and extraction results are more reliable. With unstructured, ambiguous, or context-dependent data (an emotionally worded complaint, a non-standard incident description), keep automation lower at the analysis stage — and make sure evidence accompanies AI output so a person can verify it.
+**How clear the input data is.** With structured, low-ambiguity data (a number crossing a defined threshold, a status change), AI classification and extraction results are more reliable — a rule can act on that result without additional confirmation. With unstructured, ambiguous, or context-dependent data (an emotionally worded complaint, a non-standard incident description), keep the scope of AI input support narrower at the analysis stage — and make sure evidence accompanies AI output so a person can verify it.
 
 ![Two factors for choosing the level of control: reversibility of the action and clarity of input data; easily reversible actions and clear data tolerate a lower level of control at the analysis stage.](~/assets/images/insights/where-ai-fits-in-workflow/wfi-03-two-criteria-en-dark.svg)
 
@@ -154,9 +169,9 @@ Two design principles follow from this:
 
 **Step 2 — Assess the level of control needed for each stage.** For stages 1-2: is the input structured or unstructured? Can AI extract and classify accurately enough? For stages 3-4: does this decision belong to a rule or a person? Is the action reversible?
 
-**Step 3 — Roll out one stage at a time, not the whole process at once.** *Illustrative scenario:* start by letting AI handle intent recognition and classification of incoming requests, keeping people in charge of the decision stage for the first few months to verify classification accuracy, before considering expansion into evidence preparation.
+**Step 3 — Roll out one stage at a time, not the whole process at once.** *Illustrative scenario:* start by letting AI handle intent recognition and classification of incoming requests, keeping people in charge of the decision stage for the first few months to verify classification accuracy, before considering expansion into evidence preparation. Expanding AI means expanding the scope of input support — not expanding into autonomous decisions.
 
-**Step 4 — Set up a periodic review mechanism.** The right level of control can shift as data accumulates and model reliability gets validated in practice. There should be a regular checkpoint — not a one-time setting that never gets revisited.
+**Step 4 — Set up a periodic review mechanism.** The scope of what rules handle and the scope of AI input support can expand over time as data accumulates and model reliability gets validated in practice. There should be a regular checkpoint — not a one-time setting that never gets revisited.
 
 ---
 

@@ -77,6 +77,8 @@ Bốn việc cụ thể AI làm ở hai giai đoạn này:
 
 Đây là ranh giới của AI trong chuỗi xử lý: **diễn giải của AI không trở thành thẩm quyền.** AI chuẩn bị thông tin để bước tiếp theo — dù là rule hay con người — có thể hành động với căn cứ đầy đủ.
 
+**Điều AI không làm ở đây:** AI không quyết định hành động, không thực thi bất kỳ hành động nào, và không gợi ý hành động theo cách để hệ thống tự chạy theo. Mọi đầu ra của AI là thông tin kèm evidence — để rule đã được ban hành hoặc con người có thẩm quyền xử lý tiếp.
+
 ---
 
 ## Bảng ranh giới bốn lớp
@@ -116,13 +118,26 @@ AI ở giai đoạn này làm một việc duy nhất: **chuẩn bị hồ sơ e
 
 ---
 
+## Ranh giới: rule, AI và con người
+
+| Giai đoạn | Rule trong workflow | AI hỗ trợ đầu vào | Con người |
+|---|---|---|---|
+| Thu thập thông tin | Ghi nhận theo trường và quy tắc đã định | Trích xuất, diễn giải từ email, biểu mẫu, ảnh chứng từ | Không cần, trừ khi dữ liệu mơ hồ |
+| Phân tích thông tin | Áp tiêu chí, ngưỡng đã viết | Phân loại; tổng hợp evidence từ ca tương tự | Xác nhận nếu rủi ro cao |
+| Lựa chọn quyết định | Chỉ khi tiêu chí rõ và hậu quả sai thấp (đường mặc định) | Gợi ý kèm evidence, không quyết định | Phán đoán; xác nhận bắt buộc nếu hậu quả sai cao |
+| Thực thi hành động | Thực hiện hành động mà rule đã cho phép | Không thực thi | Thực hiện hoặc phê duyệt hành động khó đảo ngược |
+
+Bảng này không nói AI làm được bao nhiêu — mà nói AI dừng ở đâu. Ở giai đoạn 1 và 2, AI hỗ trợ đầu vào cho rule và con người. Ở giai đoạn 3 và 4, quyết định và thực thi thuộc về rule đã ban hành hoặc con người có thẩm quyền — không phải AI.
+
+---
+
 ## Hai yếu tố quyết định mức kiểm soát cần thiết
 
-Không có mức kiểm soát đúng cho mọi workflow — nhưng hai yếu tố giúp xác định mức phù hợp cho từng giai đoạn:
+Không có câu trả lời đồng nhất cho mọi workflow — nhưng hai yếu tố giúp xác định: bước này có thể để rule xử lý tự động không, hay cần con người xác nhận trước khi thực thi?
 
-**Khả năng đảo ngược của hành động (reversibility).** Hành động dễ đảo ngược (tạo bản nháp, gửi thông báo nhắc nhở, gán nhãn nội bộ) có thể chấp nhận AI xử lý tự động ở giai đoạn phân tích và định tuyến. Hành động khó hoặc không thể đảo ngược (xác nhận hợp đồng, từ chối yêu cầu của khách hàng, cập nhật hồ sơ tài chính) cần giữ con người ở bước xác nhận trước khi thực thi — dù giai đoạn phân tích trước đó đã có AI hỗ trợ.
+**Khả năng đảo ngược của hành động (reversibility).** Yếu tố này không xác định AI được tham gia bao nhiêu — mà xác định rule trong workflow có đủ điều kiện xử lý tự động không, hoặc cần con người xác nhận. Hành động dễ đảo ngược (tạo bản nháp, gửi thông báo nhắc nhở, gán nhãn nội bộ) có thể để rule xử lý và định tuyến tự động mà không cần xác nhận thêm. Hành động khó hoặc không thể đảo ngược (xác nhận hợp đồng, từ chối yêu cầu của khách hàng, cập nhật hồ sơ tài chính) cần con người xác nhận trước khi thực thi — dù giai đoạn phân tích trước đó đã có AI hỗ trợ.
 
-**Mức độ rõ ràng của dữ liệu đầu vào.** Với dữ liệu có cấu trúc và ít mơ hồ (một con số vượt ngưỡng, một trạng thái thay đổi rõ ràng), kết quả phân loại và trích xuất của AI đáng tin cậy hơn. Với dữ liệu phi cấu trúc, mơ hồ, hoặc phụ thuộc ngữ cảnh (email khiếu nại viết cảm tính, mô tả sự cố không theo chuẩn), nên giữ mức tự động hóa thấp hơn ở giai đoạn phân tích, và đảm bảo evidence đi kèm kết quả AI đủ để người kiểm chứng.
+**Mức độ rõ ràng của dữ liệu đầu vào.** Với dữ liệu có cấu trúc và ít mơ hồ (một con số vượt ngưỡng, một trạng thái thay đổi rõ ràng), kết quả phân loại và trích xuất của AI đáng tin cậy hơn — rule có thể dựa vào kết quả đó mà không cần xác nhận thêm. Với dữ liệu phi cấu trúc, mơ hồ, hoặc phụ thuộc ngữ cảnh (email khiếu nại viết cảm tính, mô tả sự cố không theo chuẩn), nên thu hẹp phạm vi AI hỗ trợ đầu vào ở giai đoạn phân tích, và đảm bảo evidence đi kèm kết quả AI đủ để người kiểm chứng.
 
 ![Hai yếu tố chọn mức kiểm soát: khả năng đảo ngược của hành động và mức độ rõ ràng của dữ liệu; hành động dễ đảo ngược và dữ liệu rõ ràng chấp nhận mức kiểm soát thấp hơn ở giai đoạn phân tích.](~/assets/images/insights/ai-tich-hop-vao-workflow/wfi-03-two-criteria-vi-dark.svg)
 
@@ -154,9 +169,9 @@ Parasuraman và cộng sự cũng chỉ ra một hệ quả ít được nhắc 
 
 **Bước 2 — Đánh giá mức kiểm soát cần thiết cho từng giai đoạn.** Với giai đoạn 1-2: đầu vào có cấu trúc hay phi cấu trúc? AI có thể trích xuất và phân loại chính xác đủ mức không? Với giai đoạn 3-4: quyết định này thuộc rule hay con người? Hành động có thể đảo ngược không?
 
-**Bước 3 — Triển khai từng giai đoạn độc lập, không phải toàn bộ quy trình cùng lúc.** Ví dụ — *tình huống minh họa*: bắt đầu bằng việc để AI nhận biết ý định và phân loại yêu cầu đầu vào, giữ con người ở bước quyết định trong vài tháng đầu để kiểm chứng độ chính xác của phân loại, trước khi cân nhắc mở rộng sang giai đoạn chuẩn bị evidence.
+**Bước 3 — Triển khai từng giai đoạn độc lập, không phải toàn bộ quy trình cùng lúc.** Ví dụ — *tình huống minh họa*: bắt đầu bằng việc để AI nhận biết ý định và phân loại yêu cầu đầu vào, giữ con người ở bước quyết định trong vài tháng đầu để kiểm chứng độ chính xác của phân loại, trước khi cân nhắc mở rộng sang giai đoạn chuẩn bị evidence. Mở rộng AI có nghĩa là mở rộng phạm vi hỗ trợ đầu vào — không phải mở rộng sang quyết định tự chủ.
 
-**Bước 4 — Thiết lập cơ chế xem lại định kỳ.** Mức kiểm soát phù hợp có thể thay đổi khi dữ liệu tích lũy và độ tin cậy của mô hình được kiểm chứng thực tế. Cần có điểm xem lại định kỳ — không phải cố định một lần rồi bỏ.
+**Bước 4 — Thiết lập cơ chế xem lại định kỳ.** Phạm vi rule đảm nhận và phạm vi AI hỗ trợ đầu vào có thể mở rộng theo thời gian khi dữ liệu tích lũy và độ tin cậy của mô hình được kiểm chứng thực tế. Cần có điểm xem lại định kỳ — không phải cố định một lần rồi bỏ.
 
 ---
 
