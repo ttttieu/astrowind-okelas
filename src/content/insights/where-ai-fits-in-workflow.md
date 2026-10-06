@@ -1,6 +1,6 @@
 ---
-title: "AI in Workflow: Mapping Where It Fits and What It Should Do"
-description: "AI doesn't fit into every workflow step the same way. This article maps the specific points where AI can add value — and where human control should stay in place."
+title: "AI in Workflow: Which Stages It Belongs In — and Which It Doesn't"
+description: "AI doesn't participate in every workflow stage the same way. This article maps where AI processes information, where rules and people decide, and why that boundary matters."
 publishDate: 2026-09-23T00:00:00Z
 translationId: article-5-10-where-ai-fits-workflow
 lang: en
@@ -12,16 +12,17 @@ audience:
   - COO
   - CIO
   - Operations Director
-primaryKeyword: "AI integration into workflow"
+primaryKeyword: "AI in business workflows"
 secondaryKeywords:
-  - "where AI fits in workflow"
-  - "AI workflow touchpoints"
-  - "AI in business process"
-  - "workflow AI participation"
-assessmentHref: /en/readiness/digitalization
+  - "intent recognition workflow"
+  - "levels of automation workflow"
+  - "where to use AI in a workflow"
+  - "human oversight AI workflow"
+  - "human-in-the-loop automation"
+assessmentHref: /en/readiness/ai
 coverImage: '~/assets/images/insights/where-ai-fits-in-workflow/wfi-00-og-cover-en.png'
 ogImage: '~/assets/images/insights/where-ai-fits-in-workflow/wfi-00-og-cover-en.png'
-coverImageAlt: "The four information-processing stages of a workflow, and four ways AI can participate: classify, route, recommend, execute."
+coverImageAlt: "The four information-processing stages of a workflow. AI participates in stages 1 and 2 (acquisition, analysis); rules and people handle stages 3 and 4 (decision, execution)."
 draft: false
 ---
 
@@ -29,103 +30,153 @@ draft: false
 
 > **Executive Summary**
 >
-> - The question "should we add AI to this workflow" usually gets answered too early, with a specific product. A better question is: **which stage of an information-processing chain should AI participate in, and at what level of automation?**
-> - A widely cited framework from human-machine systems engineering — the model developed by Parasuraman, Sheridan and Wickens (2000) — breaks a processing chain into four stages: **information acquisition, information analysis, decision and action selection, and action implementation** — and shows that the appropriate level of automation can differ across stages, rather than being uniform.
-> - Four concrete forms of AI participation in workflow — classify, route, recommend, and execute — map onto these four stages, each carrying a different level of risk and requiring a different degree of control.
-> - General principle: the level of automation should scale with how reversible an action is and how certain the input data is — the same level of automation shouldn't be applied uniformly to every step.
+> - The question "should we add AI to this workflow" usually gets answered too early. The better question: **which stage of an information-processing chain should AI participate in?**
+> - The Parasuraman, Sheridan and Wickens (2000) framework breaks a processing chain into four stages: information acquisition, information analysis, decision and action selection, and action implementation.
+> - **AI participates in stages 1-2:** intent recognition, information extraction, controlled classification, and interpretation with evidence. These are the stages where AI can handle unstructured input that rules alone cannot process.
+> - **Stages 3 (decision) and 4 (execution) are not where AI acts independently.** Decisions belong to approved rules or people; execution belongs to the workflow system — with authority explicitly defined and separated from AI.
+> - Every AI output must include traceable evidence — so the person deciding can verify, not just accept an AI "conclusion."
 
 ---
 
-Many "AI in workflow" conversations at the COO/CIO level start and end with a fairly vague question: "should we add AI to process X?" That question is hard to answer because it lumps many very different kinds of decisions into a single concept.
+Many conversations about "AI in workflow" at the COO/CIO level start and end with a vague question: "should we add AI to process X?" That question is hard to answer because it bundles together many very different things.
 
-A real workflow isn't a single block — it's made up of several smaller stages: gathering data, understanding what that data means, deciding what to do, and finally carrying out that action. AI can participate in each stage in very different ways, carrying very different levels of risk. This article uses an academically grounded framework to make that distinction concrete.
+A real workflow isn't a single block. It's made up of several stages: gathering data, understanding what that data means, deciding what to do, and carrying out that action. AI can participate in some of these stages — but not all, and not in the same way. That boundary needs to be clear — not to restrict AI, but to keep authority in the right place.
 
-→ *Related: [From Request/Approval to Event/Action: Rethinking How Work Flows](/en/insights/workflow/request-approval-to-event-action-workflow)*
+→ *Related: [Programmed vs. Nonprogrammed Decisions: Rules, Judgment, and Where Each Belongs](/en/insights/workflow/programmed-vs-nonprogrammed-decisions)*
 
 ---
 
-## Mapping AI Participation Points
+## Four Stages of an Information-Processing Chain
 
-![The four-stage information-processing model: acquisition, analysis, decision and action selection, and implementation, mapped to recording an event, classifying it, deciding, and acting; the automation level can differ at each stage.](~/assets/images/insights/where-ai-fits-in-workflow/wfi-01-four-stages-en-dark.svg)
+![The four-stage information-processing model: acquisition, analysis, decision and action selection, and implementation, mapped to recording an event, classifying it, deciding, and acting; the level of control needed can differ at each stage.](~/assets/images/insights/where-ai-fits-in-workflow/wfi-01-four-stages-en-dark.svg)
 
-Any processing chain — whether in a business workflow or a technical system — can be broken into similar information-processing stages, and each stage can be automated to a different degree.
-
-The model developed by Parasuraman, Sheridan and Wickens (2000), published in IEEE Transactions on Systems, Man, and Cybernetics, is one of the most widely cited frameworks in human-machine interaction and automation research. It divides a processing chain into four stages:
+The model developed by Parasuraman, Sheridan and Wickens (2000), published in IEEE Transactions on Systems, Man, and Cybernetics, is one of the most-cited frameworks in human-machine interaction and automation research. It divides a processing chain into four stages:
 
 1. **Information acquisition** — sensing and capturing input data from various sources.
 2. **Information analysis** — synthesizing and interpreting the collected data to understand what it means.
 3. **Decision and action selection** — weighing options and choosing the appropriate action.
 4. **Action implementation** — carrying out the chosen action.
 
-The most important insight from this model: the level of automation doesn't need to, and shouldn't, be the same across all four stages. A system can fully automate data acquisition while only partially supporting the decision stage, and leave execution entirely to a person — or the reverse — depending on the nature of the work.
-
-Applied to enterprise workflow, these four stages map onto: the system captures a request or event → the system understands/classifies that request → the system or a person decides on an action → the action gets carried out.
+The most important insight from this model: **the level of control needed doesn't have to be — and shouldn't be — the same across all four stages.** A system can let AI handle unstructured input analysis completely while keeping a person at the decision stage, or use a rule at the decision stage and a workflow system at execution. There's no single formula.
 
 ---
 
-## Classify, Route, Recommend, Execute
+## What AI Does in Stages 1 and 2
 
-![Four ways AI participates in a workflow: classify, route, recommend and execute, with risk rising from low to highest.](~/assets/images/insights/where-ai-fits-in-workflow/wfi-02-four-ai-modes-en-dark.svg)
+Information acquisition and analysis are where AI creates the clearest value in enterprise workflows — because these are the stages where unstructured input needs to be processed before rules can apply.
 
-From these four stages, four concrete forms of AI participation in enterprise workflow can be identified:
+Four specific things AI does in these two stages:
 
-**1. Classify.** AI reads input data — an email, a form, a scanned document — and assigns it to a pre-defined category (request type, priority level, relevant department). This corresponds to the information analysis stage. Low risk, since AI isn't deciding on an action, only interpreting data.
+**Intent recognition.** A request written in natural language — an email, a chat message, a free-form field — has no predefined structure. AI reads it and determines what the request is asking for, what it needs, and which category of issue it belongs to. This is the prerequisite for the workflow to process it at all.
 
-**2. Route.** Based on the classification result, AI determines where this request should go — which person, department, or sub-process. This is the transition point between analysis and decision. Low-to-medium risk, since a mistake here typically only causes a delay (misrouted, needs re-sending), not a direct consequence.
+**Structured information extraction.** From unstructured documents — invoices, contracts, meeting notes, complaint emails — AI pulls out specific data fields (amounts, dates, product names, order codes) into a form the workflow can use and verify. AI doesn't "understand" the document in a meaningful sense — it extracts so that rules and people can work with the data.
 
-**3. Recommend.** AI proposes a specific action based on data and precedent, but a person still makes the final call. This corresponds to the decision-selection stage, at a low level of automation — on Sheridan and Verplank's 1978 scale, this is roughly equivalent to the computer suggesting a few options for the human to choose from. Medium risk, depending on whether the recommendation is explained clearly enough for a person to verify it.
+**Controlled classification.** AI assigns input to a predefined category — request type, priority level, relevant department, event type. "Controlled" means: categories are defined by authorized people, not created by AI; results below a confidence threshold are routed to a person.
 
-**4. Execute.** AI directly carries out the action — sending a notification, creating an order, updating a record — without requiring a person's confirmation on a case-by-case basis. This corresponds to a high level of automation at the implementation stage. This is the highest-risk of the four, since the consequence occurs the moment AI acts, before a person has a chance to intervene.
+**Interpretation with evidence.** Once data is extracted and classified, AI synthesizes and interprets what it means — which past cases does this resemble? Are there risk flags according to existing rules? What information is still missing? Each interpretation must include traceable evidence — the source, the raw data it came from.
 
-These four forms aren't mutually exclusive — a specific workflow might use AI to classify and route most cases, while only recommending (not executing) at the final decision point, depending on how risky that process is.
-
----
-
-## Where Human Control Should Stay
-
-There's no universal answer for every workflow — but two criteria help determine the appropriate level of automation at each stage:
-
-**How reversible the action is.** An easily reversible action (sending a reminder, drafting a message that hasn't been sent) can tolerate a higher level of automation. A hard-to-reverse or irreversible action (transferring money, confirming a contract, denying a customer's request) should stay at "recommend" or lower, so a person confirms it before it's carried out.
-
-**How certain the input data is.** With clearly structured, low-ambiguity data (a number crossing a defined threshold), AI can operate with more confidence at the analysis and decision stages. With unstructured, ambiguous data, or data that requires contextual interpretation (an emotionally worded complaint email), automation should stay lower at the analysis stage, and human judgment should stay firmly in place at the decision stage.
-
-![Two criteria for choosing the automation level: reversibility of the action and certainty of the input data; easily reversible actions and clear data tolerate more automation.](~/assets/images/insights/where-ai-fits-in-workflow/wfi-03-two-criteria-en-dark.svg)
-
-An important caveat from Parasuraman and colleagues' own model: automation doesn't just replace people — it **changes the nature of human work**, and can produce unintended consequences such as automation complacency or skill decay when people no longer regularly practice making the decision themselves. This is why choosing the right level of automation shouldn't be based purely on technical capability (can AI do this) — it also needs to weigh the long-term effect on the team's decision-making ability.
-
-![Choosing the automation level should not rest only on whether AI can do it, but also on long-term effects such as automation complacency and skill decline in decision-making.](~/assets/images/insights/where-ai-fits-in-workflow/wfi-05-beyond-can-ai-do-it-en-dark.svg)
+This is the boundary of AI in the processing chain: **AI's interpretation does not become authority.** AI prepares information so the next step — whether a rule or a person — can act with full context.
 
 ---
 
-## A Framework for AI-Workflow Integration
+## The Four-Layer Boundary Table
 
-![Four steps: break the workflow into four stages, assess reversibility and data certainty, implement one stage at a time, and review periodically.](~/assets/images/insights/where-ai-fits-in-workflow/wfi-04-four-step-framework-en-dark.svg)
+To be precise about who handles what in a workflow with AI:
 
-Combining the above into a practical sequence:
+| Layer | Responsible for |
+|---|---|
+| **Workflow / rule** | What must happen, what is permitted, calculations, checks, state changes, execution under approved authority |
+| **KVM / evidence** | Retrieving, resolving, and tracing organizational knowledge — precedents, standard documents, decision history |
+| **AI** | Intent recognition, extraction, controlled classification, interpretation of results and evidence for human review |
+| **People** | Judging exceptions, approving high-risk actions, issuing and revising rules, confirming evidence before high-consequence actions |
 
-**Step 1 — Break the workflow into the four stages.** For a specific process, clearly identify what counts as acquisition, analysis, decision, and action — instead of treating the whole process as one block.
+Three principles that accompany this table:
 
-**Step 2 — Assess reversibility and data certainty for each stage.** A stage with easily reversible actions and clear data can consider a higher level of automation (route, even execute). A stage involving hard-to-reverse actions or ambiguous data should stop at classify or recommend.
+- **AI interpretation does not become authority.** AI may interpret organizational information, but that interpretation does not replace the authority of a rule or a person.
+- **Precedent is evidence, not authority.** AI can surface similar past cases as part of the evidence package — but precedent is reference information; whether to follow it is a human decision.
+- **Agentic capability is optional, not a maturity milestone.** A workflow with AI in stages 1-2 is already a mature workflow — no agent is needed to be "more advanced."
 
-**Step 3 — Roll out one stage at a time, not the whole process at once.** For example, start by letting AI classify and route requests, keeping people in charge of the decision stage for the first few months to verify classification accuracy, before considering an expansion into recommend.
+→ *Related: [Workflow Automation and AI Support — Two Different Roles](/en/insights/workflow/automation-and-ai-in-workflow)*
 
-**Step 4 — Set up a periodic review mechanism.** Since the appropriate level of automation can shift over time (as more data accumulates and model reliability gets verified), there should be a regular checkpoint to adjust automation levels at each stage, rather than fixing them once and leaving them unchanged.
+---
 
-→ *Related: [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/intelligent-workflow-next-generation)*
+## Stages 3 and 4: Decision and Execution Don't Belong to AI
+
+A common design mistake when adding AI to workflows is letting AI "suggest an action" and then having the system automatically follow that suggestion. This silently transfers decision authority to AI without any explicit control mechanism.
+
+**Stage 3 — decision and action selection:** belongs to two parties:
+- **Approved rules**, when the conditions fall into an already-encoded group (repetitive, clear criteria, acceptable consequence of error — as determined by authorized review).
+- **People**, when the situation falls outside existing rules, the consequence is high, or the criteria aren't stable enough to encode yet.
+
+AI's role at this stage is one thing: **preparing the evidence file** — traceable facts, similar past cases, risk flags based on rules — so the decision-maker has real grounds to consider rather than just reflex-clicking "approve." AI doesn't choose; AI prepares so the authorized person can choose.
+
+**Stage 4 — action implementation:** belongs to the workflow system, with technical permissions granted according to explicitly defined authority — not AI acting independently. The separation between AI (interprets) and system (executes) is one of the most important control principles when designing workflows with AI.
+
+→ *Related: [Segregation of Duties When Using AI in Workflows](/en/insights/workflow/segregation-of-duties-ai-workflow)*
+
+---
+
+## Two Factors That Determine the Level of Control Needed
+
+There's no universal right level of control for every workflow — but two factors help determine the appropriate level for each stage:
+
+**How reversible the action is.** Easily reversible actions (creating a draft, sending a reminder, applying an internal label) can tolerate more automation at the analysis and routing stages. Hard-to-reverse or irreversible actions (confirming a contract, denying a customer request, updating a financial record) need a person at the confirmation step before execution — even if the analysis stage upstream already had AI support.
+
+**How clear the input data is.** With structured, low-ambiguity data (a number crossing a defined threshold, a status change), AI classification and extraction results are more reliable. With unstructured, ambiguous, or context-dependent data (an emotionally worded complaint, a non-standard incident description), keep automation lower at the analysis stage — and make sure evidence accompanies AI output so a person can verify it.
+
+![Two factors for choosing the level of control: reversibility of the action and clarity of input data; easily reversible actions and clear data tolerate a lower level of control at the analysis stage.](~/assets/images/insights/where-ai-fits-in-workflow/wfi-03-two-criteria-en-dark.svg)
+
+These two factors don't produce a specific number — they're questions to answer before deciding how far AI should go at each stage.
+
+---
+
+## Automation Complacency — The Risk Rarely Discussed
+
+![Choosing the control level should not rest only on whether AI can do it, but also on long-term effects such as automation complacency and skill decline in decision-making.](~/assets/images/insights/where-ai-fits-in-workflow/wfi-05-beyond-can-ai-do-it-en-dark.svg)
+
+Parasuraman and colleagues also identified a consequence rarely mentioned when automation levels are increased: **automation complacency** — the tendency for people to reduce their monitoring effort when a system performs well over time, causing them to miss anomalies or fail to catch AI errors before they cause harm.
+
+Two design principles follow from this:
+
+**Evidence is mandatory at every AI output.** When AI classifies, extracts, or interprets — the output must include the original data source and the basis for the classification, not just the result. The reviewer must have enough information to disagree, not just approve or reject without knowing why.
+
+**Keep people practicing judgment.** If AI handles the entire analysis stage and people only click "approve" without actually reviewing, decision-making skill within the team decays — and when the system encounters an out-of-distribution case, no one has the skills left to handle it correctly. This is the hidden cost of over-automation that almost never appears in AI adoption discussions.
+
+→ *Related: [AI Prepares the Evidence; People Decide](/en/insights/workflow/ai-decision-support-evidence)*
+
+---
+
+## A Practical Framework for AI-Workflow Integration
+
+![Four steps: break the workflow into four stages, assess the level of control needed, deploy one stage at a time, and review periodically.](~/assets/images/insights/where-ai-fits-in-workflow/wfi-04-four-step-framework-en-dark.svg)
+
+**Step 1 — Break the workflow into the four stages.** For a specific process, clearly identify what counts as acquisition, analysis, decision, and execution — instead of treating the whole process as one block.
+
+**Step 2 — Assess the level of control needed for each stage.** For stages 1-2: is the input structured or unstructured? Can AI extract and classify accurately enough? For stages 3-4: does this decision belong to a rule or a person? Is the action reversible?
+
+**Step 3 — Roll out one stage at a time, not the whole process at once.** *Illustrative scenario:* start by letting AI handle intent recognition and classification of incoming requests, keeping people in charge of the decision stage for the first few months to verify classification accuracy, before considering expansion into evidence preparation.
+
+**Step 4 — Set up a periodic review mechanism.** The right level of control can shift as data accumulates and model reliability gets validated in practice. There should be a regular checkpoint — not a one-time setting that never gets revisited.
 
 ---
 
 ## Conclusion
 
-"AI in workflow" isn't a binary decision (yes or no) — it's a set of smaller decisions about which stage AI should participate in, and at what level. Using the four-stage framework (acquisition, analysis, decision, action) alongside the two evaluation criteria (reversibility and data certainty) turns the vague question "should we use AI" into a concrete, staged, and verifiable sequence of decisions.
+The real question isn't "can AI do this step" — it's "which stage does this step belong to, and what level of control fits the nature of that stage?"
+
+Stages 1 and 2 (acquisition and analysis) are where AI adds the clearest value: intent recognition, extraction, controlled classification, interpretation with evidence. Stage 3 (decision) belongs to approved rules or people — AI prepares evidence, doesn't choose. Stage 4 (execution) belongs to the workflow system with explicitly defined authority.
+
+Knowing which part is AI's, which is the rule's, and which is the person's — that is the core capability of an organization running AI-supported workflows responsibly.
 
 ---
 
-*This article is part of a series on workflow, AI adoption, and operational management for manufacturing SMEs.*
+*This article is part of a series on workflow design, AI adoption, and operational management for manufacturing SMEs.*
 
 **Related articles:**
-- [From Request/Approval to Event/Action: Rethinking How Work Flows](/en/insights/workflow/request-approval-to-event-action-workflow)
-- [Workflow Automation vs. Intelligent Workflow: Why They're Not the Same](/en/insights/workflow/workflow-automation-vs-intelligent-workflow)
-- [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/intelligent-workflow-next-generation)
+- [Programmed vs. Nonprogrammed Decisions: Rules, Judgment, and Where Each Belongs](/en/insights/workflow/programmed-vs-nonprogrammed-decisions)
+- [Workflow Automation and AI Support — Two Different Roles](/en/insights/workflow/automation-and-ai-in-workflow)
+- [Intelligent Workflow Routing: Classify, Route Without Manual Intervention](/en/insights/workflow/intelligent-workflow-routing)
+- [AI Prepares the Evidence; People Decide](/en/insights/workflow/ai-decision-support-evidence)
+- [Segregation of Duties When Using AI in Workflows](/en/insights/workflow/segregation-of-duties-ai-workflow)
 
-**→ [Complete the Digitalization Readiness Assessment](/en/readiness/digitalization)**
+**→ [Complete the AI Readiness Assessment](/en/readiness/ai)**
