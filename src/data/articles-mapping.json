@@ -1041,6 +1041,19 @@
       }
     },
     {
+      "translationId": "article-5-12-automation-ai-workflow",
+      "vi": {
+        "slug": "automation-va-ai-ho-tro-workflow",
+        "category": "workflow",
+        "url": "/insights/workflow/automation-va-ai-ho-tro-workflow"
+      },
+      "en": {
+        "slug": "automation-vs-ai-assisted-workflow",
+        "category": "workflow",
+        "url": "/en/insights/workflow/automation-vs-ai-assisted-workflow"
+      }
+    },
+    {
       "translationId": "article-5-11-self-classifying-workflow",
       "vi": {
         "slug": "workflow-tu-phan-loai-dinh-tuyen",
