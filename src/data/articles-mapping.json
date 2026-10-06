@@ -1093,6 +1093,19 @@
       }
     },
     {
+      "translationId": "article-5-17-separation-of-duties-workflow",
+      "vi": {
+        "slug": "phan-tach-trach-nhiem-ai-trong-workflow",
+        "category": "workflow",
+        "url": "/insights/workflow/phan-tach-trach-nhiem-ai-trong-workflow"
+      },
+      "en": {
+        "slug": "separation-of-duties-ai-in-workflow",
+        "category": "workflow",
+        "url": "/en/insights/workflow/separation-of-duties-ai-in-workflow"
+      }
+    },
+    {
       "translationId": "article-5-13-agent-vs-workflow",
       "vi": {
         "slug": "ai-agent-va-workflow",
