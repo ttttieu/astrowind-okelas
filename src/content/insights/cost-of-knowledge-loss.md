@@ -2,7 +2,9 @@
 title: "The Hidden Cost of Knowledge Loss in Manufacturing"
 description: "When a skilled employee leaves, businesses calculate recruitment costs. But significant hidden costs from losing operational knowledge remain unmeasured and invisible."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/knowledge-loss-cost.png'
+coverImage: '~/assets/images/insights/ckl-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/ckl-00-og-cover-en.png'
+coverImageAlt: "A small visible-cost block above a waterline and a much larger hidden-cost block below it."
 category: 'knowledge-management'
 tags: ['Knowledge Loss', 'Business Costs', 'Employee Turnover', 'ROI']
 translationId: 'hidden-cost-knowledge-loss'
@@ -18,6 +20,8 @@ secondaryKeywords:
   - "tacit knowledge business impact"
   - "organizational knowledge retention cost"
 assessmentHref: '/en/readiness/knowledge-management'
+ctaPrimaryText: 'Assess your KM maturity'
+ctaSubtitle: 'Identify your knowledge management maturity level in your organization'
 draft: false
 ---
 
@@ -32,6 +36,8 @@ draft: false
 
 ## Recruitment cost is the smallest part
 
+![Recruitment cost is the visible, easy-to-calculate portion; hidden costs from knowledge loss (productivity loss, increased errors, management time, lost potential improvements) are larger and invisible in reports.](~/assets/images/insights/ckl-01-visible-vs-hidden-en.svg)
+
 When an important employee gives notice, the CEO or HR typically begins calculating: job posting costs, interview time, onboarding costs, the salary premium needed to attract the right replacement.
 
 These are visible costs — easy to see, easy to calculate, and typically used to justify retention investment proposals.
@@ -43,6 +49,8 @@ The larger — and less visible — portion accumulates during the months after 
 ---
 
 ## Four types of hidden knowledge loss costs
+
+![Four types of hidden knowledge loss costs: (1) reduced productivity during transition, (2) errors during the learning phase, (3) loss of potential improvements, (4) management time to handle consequences.](~/assets/images/insights/ckl-02-four-hidden-costs-en.svg)
 
 ### Cost 1 — Reduced productivity during the transition period
 
@@ -91,6 +99,8 @@ Senior management and CEO time is expensive — and when a significant portion o
 
 ## An illustrative scenario — estimating knowledge loss costs
 
+![Illustrative scenario structure: 90 employees, 8 years experience, 2 months' notice — visible costs (recruitment, handover salary, training) versus hidden costs (70% productivity, 20% support time, +15–20% errors, 4 months). Illustrative assumptions, not statistics or benchmarks.](~/assets/images/insights/ckl-03-scenario-structure-en.svg)
+
 *Important: The scenario and figures below are illustrative assumptions — not statistics from research or actual case data. The purpose is to demonstrate the structure and relative scale of knowledge loss costs so that CEOs and CFOs can build their own estimates using their organization's actual data. Do not treat these figures as benchmarks or evidence.*
 
 ---
@@ -127,6 +137,8 @@ Assume a 15–20% increase in errors during the first 4 months due to lack of ex
 
 ## Why these costs don't appear in reports
 
+![Why hidden costs don't appear in reports: no budget line, costs surface diffused across OEE, error rates, and supplementary labor — creating a bias that leads organizations to underinvest in knowledge retention.](~/assets/images/insights/ckl-04-why-invisible-en.svg)
+
 This is the most important point: why do these costs, which are logically clear, fail to appear in any financial report?
 
 **Because they have no budget line.**
@@ -142,6 +154,8 @@ The result: many organizations underinvest in knowledge retention because they c
 ---
 
 ## Estimating the impact for your organization
+
+![Questions to estimate your organization's exposure: 3–5 high-risk people, time to 80% capability, productivity decrease, fully-loaded compensation costs, average error costs, and increase rate with less experienced staff.](~/assets/images/insights/ckl-05-estimate-questions-en.svg)
 
 Rather than applying external statistics — which come from very different scopes and conditions — it is more useful for CEOs and CFOs to estimate their own organization's exposure using actual internal data.
 

@@ -2,7 +2,9 @@
 title: "Chi phí ẩn của knowledge loss trong sản xuất — những thứ ít ai tính"
 description: "Khi nhân viên giỏi nghỉ, doanh nghiệp tính được chi phí tuyển dụng. Nhưng còn nhiều chi phí ẩn khác từ việc mất tri thức vận hành mà ít ai đo lường."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/knowledge-loss-cost.png'
+coverImage: '~/assets/images/insights/ckl-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/ckl-00-og-cover-vi.png'
+coverImageAlt: "Một khối chi phí hiển thị nhỏ phía trên đường mặt nước và một khối chi phí ẩn lớn hơn nhiều phía dưới."
 category: 'knowledge-management'
 tags: ['Knowledge Loss', 'Tài Chính Doanh Nghiệp', 'Nhân Sự', 'Chi Phí Ẩn']
 translationId: 'hidden-cost-knowledge-loss'
@@ -18,6 +20,8 @@ secondaryKeywords:
   - "chi phí mất tri thức"
   - "cost of knowledge retention"
 assessmentHref: '/readiness/knowledge-management'
+ctaPrimaryText: 'Assess your KM maturity'
+ctaSubtitle: 'Xác định mức độ trưởng thành về quản lý tri thức trong công ty bạn'
 draft: false
 ---
 
@@ -32,6 +36,8 @@ draft: false
 
 ## Chi phí tuyển dụng là phần nhỏ nhất
 
+![Chi phí tuyển dụng là phần nhỏ và dễ thấy; chi phí ẩn từ knowledge loss (năng suất giảm, sai sót tăng, thời gian quản lý, mất cải tiến tiềm năng) lớn hơn nhiều và không xuất hiện trong báo cáo.](~/assets/images/insights/ckl-01-visible-vs-hidden-vi.svg)
+
 Khi một nhân viên quan trọng thông báo nghỉ việc, CEO hoặc HR thường bắt đầu tính: chi phí đăng tuyển, chi phí phỏng vấn, chi phí onboarding, mức lương phải trả để thu hút người phù hợp.
 
 Đây là chi phí hiển thị — dễ thấy, dễ tính, và thường được dùng để justify đề xuất đầu tư vào retention.
@@ -43,6 +49,8 @@ Phần lớn hơn — và ít được nhìn thấy hơn — là các chi phí p
 ---
 
 ## Bốn loại chi phí ẩn của knowledge loss
+
+![Bốn loại chi phí ẩn của knowledge loss: (1) năng suất giảm trong chuyển giao, (2) sai sót trong giai đoạn học việc, (3) mất cải tiến tiềm năng, (4) thời gian quản lý để xử lý hậu quả.](~/assets/images/insights/ckl-02-four-hidden-costs-vi.svg)
 
 ### Chi phí 1 — Năng suất giảm trong thời gian chuyển giao
 
@@ -91,6 +99,8 @@ Thời gian của CEO và quản lý cấp cao là có chi phí cao — và khi 
 
 ## Tình huống minh họa — ước tính chi phí knowledge loss
 
+![Cấu trúc tình huống minh họa: 90 nhân viên, 8 năm kinh nghiệm, nghỉ trước 2 tháng — chi phí hiển thị (tuyển dụng, lương chuyển giao, đào tạo) so với chi phí ẩn (năng suất 70%, hỗ trợ 20% thời gian, sai sót +15–20%, 4 tháng). Giả định minh họa, không phải số liệu thống kê hay benchmark.](~/assets/images/insights/ckl-03-scenario-structure-vi.svg)
+
 *Quan trọng: Đây là tình huống giả định với số liệu minh họa, không phải số liệu từ nghiên cứu hay case study thực tế. Mục đích là cung cấp một khung tư duy để CEO/CFO có thể tự ước tính cho tình huống của họ.*
 
 ---
@@ -127,6 +137,8 @@ Giả sử trong 4 tháng đầu, sai sót tăng 15–20% do thiếu kinh nghi�
 
 ## Tại sao những chi phí này không xuất hiện trong báo cáo
 
+![Lý do chi phí ẩn không xuất hiện trong báo cáo: không có dòng ngân sách riêng, phân tán trong nhiều chỉ số (OEE, tỷ lệ sai sót, nhân công bổ sung) — tạo ra bias khiến doanh nghiệp underinvest vào knowledge retention.](~/assets/images/insights/ckl-04-why-invisible-vi.svg)
+
 Đây là điểm quan trọng nhất cần hiểu: tại sao những chi phí này, dù rõ ràng về mặt logic, lại không được ghi nhận trong bất kỳ báo cáo tài chính nào?
 
 **Vì chúng không có dòng ngân sách riêng.**
@@ -142,6 +154,8 @@ Kết quả: nhiều doanh nghiệp underinvest vào knowledge retention vì nh�
 ---
 
 ## Ước tính tác động cho doanh nghiệp của bạn
+
+![Câu hỏi để ước tính tác động: 3–5 người rủi ro cao, thời gian đạt 80% năng lực, mức giảm năng suất, chi phí lương đầy đủ, chi phí sai sót bình thường và mức tăng khi có người mới.](~/assets/images/insights/ckl-05-estimate-questions-vi.svg)
 
 Thay vì dùng số liệu từ nghiên cứu — vốn có phạm vi và điều kiện rất khác nhau — hữu ích hơn là CEO/CFO tự ước tính dựa trên dữ liệu thực của doanh nghiệp mình.
 
