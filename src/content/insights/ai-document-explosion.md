@@ -2,7 +2,9 @@
 title: "Document Explosion: When AI Creates More Documents Than Your Organization Can Manage"
 description: "AI makes document creation faster than ever. But more documents don't mean better management. Here's the emerging problem organizations are only beginning to recognize."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/ai-document-explosion.png'
+coverImage: '~/assets/images/insights/aid-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/aid-00-og-cover-en.png'
+coverImageAlt: "A chart showing document volume spiking after AI deployment while the organization's ability to manage those documents grows far more slowly."
 category: 'knowledge-management'
 tags: ['Document Management', 'AI Impact', 'Information Management', 'Knowledge Management']
 translationId: 'ai-document-explosion'
@@ -18,6 +20,8 @@ secondaryKeywords:
   - "document management AI era"
   - "information overload AI"
 assessmentHref: '/en/readiness/knowledge-management'
+ctaPrimaryText: 'Assess your KM maturity'
+ctaSubtitle: 'Identify your knowledge management maturity level in your organization'
 draft: false
 ---
 
@@ -32,6 +36,8 @@ draft: false
 
 ## The paradox
 
+![The AI paradox: individual productivity rises, document volume nearly doubles, but time to find the right document also increases.](~/assets/images/insights/aid-01-paradox-en.svg)
+
 A 70-person manufacturing business deployed AI tools across their team at the start of the year.
 
 Six months in, individual productivity had visibly improved. Employees were writing reports faster, emails faster, meeting summaries faster.
@@ -43,6 +49,8 @@ And when someone needed to find a specific document, the time to locate it hadn'
 ---
 
 ## Documents are growing faster than the ability to manage them
+
+![Version proliferation example: 3 SOP versions before AI, 9 versions after — employees don't know which version is currently in effect.](~/assets/images/insights/aid-02-version-example-en.svg)
 
 This is the paradox that AI is creating in enterprise document management.
 
@@ -57,6 +65,8 @@ This creates something that sounds paradoxical: **the organization has more docu
 ---
 
 ## Three specific consequences of document explosion
+
+![Three consequences of document explosion: unclear which version is current, finding documents takes longer, and document quality is uncontrolled when review cannot keep pace with AI creation speed.](~/assets/images/insights/aid-03-three-consequences-en.svg)
 
 ### Consequence 1 — No one knows which version is current
 
@@ -84,6 +94,8 @@ In a compliance environment, both outcomes are problems.
 
 ## Is a DMS enough?
 
+![DMS vs Knowledge Management: a DMS addresses storage, permissions and search; Knowledge Management addresses which documents matter, which knowledge is living, and which outputs don't need ongoing maintenance.](~/assets/images/insights/aid-04-dms-vs-km-en.svg)
+
 The common response when organizations recognize a document management problem is to look for a better Document Management System.
 
 A DMS can address some issues: version control, access permissions, improved search.
@@ -97,6 +109,8 @@ This is the difference between Document Management and Knowledge Management — 
 ---
 
 ## Questions for CEOs and IT Managers
+
+![Four self-assessment questions: how has document volume changed since AI adoption, average time to find a document, how many versions of key documents exist, and whether the review process keeps pace with AI creation speed.](~/assets/images/insights/aid-05-four-questions-en.svg)
 
 Before worrying about solutions, a few practical questions are worth an honest self-assessment:
 

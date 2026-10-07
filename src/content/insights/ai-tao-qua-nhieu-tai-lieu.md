@@ -2,7 +2,9 @@
 title: "Document Explosion: AI tạo ra nhiều tài liệu hơn — doanh nghiệp quản lý được không?"
 description: "AI giúp tạo tài liệu nhanh hơn bao giờ hết. Nhưng nhiều tài liệu hơn không có nghĩa là doanh nghiệp quản lý tốt hơn. Đây là vấn đề mới."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/ai-document-explosion.png'
+coverImage: '~/assets/images/insights/aid-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/aid-00-og-cover-vi.png'
+coverImageAlt: "Biểu đồ thể hiện lượng tài liệu tăng vọt sau khi triển khai AI, trong khi đường khả năng quản lý tài liệu của tổ chức tăng chậm hơn nhiều."
 category: 'knowledge-management'
 tags: ['Document Management', 'AI Impact', 'Information Management', 'Knowledge Management']
 translationId: 'ai-document-explosion'
@@ -18,6 +20,8 @@ secondaryKeywords:
   - "AI content doanh nghiệp"
   - "tài liệu doanh nghiệp tăng nhanh"
 assessmentHref: '/readiness/knowledge-management'
+ctaPrimaryText: 'Assess your KM maturity'
+ctaSubtitle: 'Xác định mức độ trưởng thành về quản lý tri thức trong công ty bạn'
 draft: false
 ---
 
@@ -32,6 +36,8 @@ draft: false
 
 ## Nghịch lý
 
+![Nghịch lý AI: năng suất cá nhân tăng, số tài liệu tăng gần gấp đôi, nhưng thời gian tìm kiếm tài liệu cũng tăng theo.](~/assets/images/insights/aid-01-paradox-vi.svg)
+
 Một doanh nghiệp sản xuất 70 người triển khai AI tools cho toàn nhân viên đầu năm nay.
 
 Sau sáu tháng, productivity cá nhân tăng rõ ràng. Nhân viên viết báo cáo nhanh hơn, email nhanh hơn, tóm tắt họp nhanh hơn.
@@ -43,6 +49,8 @@ Và khi cần tìm một tài liệu cụ thể, thời gian tìm kiếm không 
 ---
 
 ## Tài liệu đang tăng nhanh hơn khả năng quản lý
+
+![Ví dụ phiên bản: trước AI có 3 phiên bản SOP, sau AI có 9 phiên bản — nhân viên không biết phiên bản nào đang có hiệu lực.](~/assets/images/insights/aid-02-version-example-vi.svg)
 
 Đây là nghịch lý mà AI đang tạo ra trong quản lý tài liệu doanh nghiệp.
 
@@ -57,6 +65,8 @@ Nhưng khả năng quản lý tài liệu của tổ chức không tăng theo c�
 ---
 
 ## Ba hệ quả cụ thể của document explosion
+
+![Ba hệ quả của document explosion: phiên bản không rõ hiệu lực, thời gian tìm kiếm tăng, chất lượng tài liệu không được kiểm soát khi review không theo kịp tốc độ tạo.](~/assets/images/insights/aid-03-three-consequences-vi.svg)
 
 ### Hệ quả 1 — Không biết phiên bản nào đang có hiệu lực
 
@@ -84,6 +94,8 @@ Trong môi trường có yêu cầu compliance, cả hai kết quả đều là 
 
 ## DMS có đủ để giải quyết không?
 
+![DMS vs Knowledge Management: DMS giải quyết lưu trữ, phân quyền và tìm kiếm; Knowledge Management giải quyết tài liệu nào quan trọng, tri thức nào đang sống và đầu ra nào không cần duy trì.](~/assets/images/insights/aid-04-dms-vs-km-vi.svg)
+
 Phản ứng phổ biến của nhiều tổ chức khi nhận ra vấn đề quản lý tài liệu là tìm kiếm một Document Management System tốt hơn.
 
 DMS có thể giải quyết một số vấn đề: kiểm soát phiên bản, phân quyền truy cập, tìm kiếm đơn giản hơn.
@@ -97,6 +109,8 @@ Giải pháp thực sự không phải là lưu trữ tốt hơn — mà là qu�
 ---
 
 ## Câu hỏi CEO và IT Manager cần tự đặt ra
+
+![Bốn câu hỏi tự đánh giá: volume tài liệu thay đổi thế nào sau AI, thời gian tìm kiếm trung bình, số phiên bản tài liệu quan trọng đang tồn tại, quy trình review có theo kịp tốc độ AI tạo không.](~/assets/images/insights/aid-05-four-questions-vi.svg)
 
 Trước khi lo lắng về giải pháp, có một số câu hỏi thực tế đáng tự đánh giá:
 
