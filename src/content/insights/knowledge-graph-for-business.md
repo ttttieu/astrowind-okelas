@@ -2,7 +2,9 @@
 title: "Knowledge Graphs for Business: Structure Your Knowledge So It Can Actually Be Used"
 description: "A knowledge graph isn't just technology — it's organizing knowledge by relationships so it can be queried, linked and used by AI. Here's what that means in practice."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/knowledge-graph-business.png'
+coverImage: '~/assets/images/insights/kgb-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/kgb-00-og-cover-en.png'
+coverImageAlt: "A file library with independent documents on the left and a connected knowledge network of entities and relationships on the right."
 category: 'knowledge-management'
 tags: ['Knowledge Graph', 'Knowledge Management', 'Data Structure', 'AI Ready']
 translationId: 'knowledge-graph-business-structure'
@@ -18,6 +20,8 @@ secondaryKeywords:
   - "knowledge graph AI"
   - "structured enterprise knowledge"
 assessmentHref: '/en/readiness/knowledge-management'
+ctaPrimaryText: 'Assess your KM maturity'
+ctaSubtitle: 'Identify your knowledge management maturity level in your organization'
 draft: false
 ---
 
@@ -31,6 +35,8 @@ draft: false
 ---
 
 ## From file library to knowledge network
+
+![File library: each document exists independently in a folder; knowledge network: entities and relationships recorded — Product A → uses Material M → supplied by Supplier XYZ → inspected via Procedure KT-003.](~/assets/images/insights/kgb-01-file-library-vs-network-en.svg)
 
 Consider two ways of organizing the same information.
 
@@ -69,6 +75,8 @@ This is the difference between a file library and a knowledge graph: not in what
 
 ## What a knowledge graph is — a non-technical explanation
 
+![Three components of a knowledge graph: entities (products, processes, suppliers), relationships (uses, applies to, led to), and properties (specifications, effective dates, responsible person) — enabling relationship queries, impact analysis, and AI with context.](~/assets/images/insights/kgb-02-three-blocks-three-capabilities-en.svg)
+
 A knowledge graph, at the conceptual level, is a way of representing knowledge where:
 
 - **Entities** are the "things" in the business: products, processes, raw materials, suppliers, equipment, people, events, decisions.
@@ -86,6 +94,8 @@ When knowledge is organized this way, three things become possible that aren't p
 ---
 
 ## Why knowledge needs structure before it can be used
+
+![An operational question requiring a chain of relationships: error data → product → raw material → supplier — without relationship structure, AI cannot answer even with comprehensive data.](~/assets/images/insights/kgb-03-chain-of-relationships-en.svg)
 
 This is the point many organizations misunderstand when thinking about AI.
 
@@ -106,6 +116,8 @@ A knowledge graph solves this: record relationships once, use them many times an
 ---
 
 ## Knowledge graphs in ERP and AI contexts
+
+![Knowledge graph in three contexts: before ERP (complete picture before implementation), after ERP (semantic layer to extract data value), and for AI (foundation to go beyond RAG limitations).](~/assets/images/insights/kgb-04-erp-and-ai-en.svg)
 
 For manufacturing businesses that have or are considering an ERP, knowledge graphs play a specific role at two key junctions.
 
@@ -130,6 +142,8 @@ A knowledge graph is the foundation that allows AI to move beyond RAG limitation
 ---
 
 ## Practical applications — not a large technology project
+
+![Starting small with a knowledge graph: identify main entities, record relationships between them, note key information about each — even in a structured spreadsheet, creates immediate value.](~/assets/images/insights/kgb-05-start-small-en.svg)
 
 An important clarification: a knowledge graph doesn't have to be a large, complex technology project.
 
