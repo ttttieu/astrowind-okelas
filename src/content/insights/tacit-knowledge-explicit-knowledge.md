@@ -2,7 +2,9 @@
 title: "Tacit Knowledge và Explicit Knowledge — tại sao cần phân biệt và ứng dụng gì"
 description: "Không phải mọi tri thức đều có thể viết thành tài liệu. Hiểu sự khác biệt là bước đầu tiên để xây dựng knowledge management phù hợp."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/tacit-vs-explicit-knowledge.png'
+coverImage: '~/assets/images/insights/tek-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/tek-00-og-cover-vi.png'
+coverImageAlt: "Một chồng tài liệu bên trái đại diện cho explicit knowledge, một người bên phải đại diện cho tacit knowledge, và một mũi tên chỉ chuyển được một phần."
 category: 'knowledge-management'
 tags: ['Tacit Knowledge', 'Explicit Knowledge', 'Knowledge Types', 'Knowledge Management Strategy']
 translationId: 'tacit-vs-explicit-knowledge'
@@ -18,6 +20,8 @@ secondaryKeywords:
   - "quản lý tri thức doanh nghiệp"
   - "knowledge management framework"
 assessmentHref: '/readiness/knowledge-management'
+ctaPrimaryText: 'Assess your KM maturity'
+ctaSubtitle: 'Xác định mức độ trưởng thành về quản lý tri thức trong công ty bạn'
 draft: false
 ---
 
@@ -77,9 +81,13 @@ Trong doanh nghiệp sản xuất, tacit knowledge bao gồm:
 
 Tacit knowledge có một đặc điểm quan trọng, đối lập với explicit knowledge: **nó không thể tồn tại độc lập với người mang nó**. Khi người đó rời đi, tacit knowledge đó đi theo.
 
+![Hai loại tri thức: explicit knowledge (tài liệu, SOP) có thể tồn tại độc lập với người tạo; tacit knowledge (kinh nghiệm, kỹ năng) không thể tồn tại độc lập — đi theo người nắm giữ khi họ rời đi.](~/assets/images/insights/tek-01-two-types-vi.svg)
+
 ---
 
 ## Tại sao doanh nghiệp thường chỉ quản lý một loại
+
+![Lý do explicit knowledge được quản lý còn tacit knowledge không: explicit có thể lưu trữ, kiểm soát phiên bản, tìm kiếm, audit và đo lường; tacit knowledge không có đặc điểm nào trong số đó.](~/assets/images/insights/tek-02-why-one-type-vi.svg)
 
 Lý do phần lớn doanh nghiệp tập trung vào explicit knowledge và không có chiến lược rõ ràng cho tacit knowledge không phải vì họ không biết tacit knowledge quan trọng — mà vì explicit knowledge dễ quản lý hơn nhiều.
 
@@ -100,6 +108,8 @@ Nhưng trong thực tế vận hành sản xuất, tacit knowledge thường là
 
 ## Chuyển đổi tacit sang explicit — có thể đến mức nào?
 
+![Ba cách chuyển đổi tacit sang explicit một phần: từ kinh nghiệm sang quy trình ra quyết định, từ phán đoán sang bảng quyết định, từ kinh nghiệm sang case study — không bao giờ hoàn toàn nhưng hữu ích hơn không có gì.](~/assets/images/insights/tek-03-conversion-vi.svg)
+
 Đây là câu hỏi thực tiễn quan trọng nhất.
 
 Câu trả lời ngắn: có thể một phần, nhưng không bao giờ hoàn toàn.
@@ -117,6 +127,8 @@ Ví dụ về những gì không thể chuyển đổi hoàn toàn: cảm giác 
 ---
 
 ## Chiến lược phù hợp cho từng loại
+
+![Chiến lược cho explicit knowledge (DMS, kiểm soát phiên bản, quy trình phê duyệt) và tacit knowledge (mentoring có cấu trúc, debriefing case study, phỏng vấn tri thức, giảm phụ thuộc một người).](~/assets/images/insights/tek-04-strategies-vi.svg)
 
 Khi đã phân biệt được tacit và explicit knowledge, câu hỏi tiếp theo là: chiến lược phù hợp cho từng loại là gì?
 
@@ -143,6 +155,8 @@ Chiến lược phù hợp:
 ---
 
 ## Một cách nhìn thực tế
+
+![Bốn câu hỏi thực tiễn để đánh giá tri thức trong tổ chức: loại nào explicit, loại nào tacit đang rủi ro, phần nào có thể explicit hóa, chiến lược nào phù hợp.](~/assets/images/insights/tek-05-four-questions-vi.svg)
 
 Phân biệt tacit và explicit knowledge không phải bài tập học thuật. Nó là công cụ để đặt câu hỏi đúng:
 

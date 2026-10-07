@@ -2,7 +2,9 @@
 title: "Tacit vs. Explicit Knowledge: What Every Organization Needs to Understand"
 description: "Not all knowledge can be written down. Understanding the difference between tacit and explicit knowledge is the first step toward building a knowledge management strategy that actually works."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/tacit-vs-explicit-knowledge.png'
+coverImage: '~/assets/images/insights/tek-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/tek-00-og-cover-en.png'
+coverImageAlt: "A stack of documents on the left for explicit knowledge, a person on the right for tacit knowledge, and an arrow showing only partial conversion."
 category: 'knowledge-management'
 tags: ['Tacit Knowledge', 'Explicit Knowledge', 'Knowledge Types', 'Knowledge Management Strategy']
 translationId: 'tacit-vs-explicit-knowledge'
@@ -18,6 +20,8 @@ secondaryKeywords:
   - "knowledge types organization"
   - "knowledge management framework"
 assessmentHref: '/en/readiness/knowledge-management'
+ctaPrimaryText: 'Assess your KM maturity'
+ctaSubtitle: 'Identify your knowledge management maturity level in your organization'
 draft: false
 ---
 
@@ -77,9 +81,13 @@ In manufacturing, tacit knowledge includes:
 
 Tacit knowledge has a defining characteristic, directly opposite to explicit knowledge: **it cannot exist independently of the person who holds it.** When they leave, it leaves with them.
 
+![Two types of knowledge: explicit knowledge (documents, SOPs) can exist independently of its creator; tacit knowledge (experience, skill) cannot — it leaves with the person who holds it.](~/assets/images/insights/tek-01-two-types-en.svg)
+
 ---
 
 ## Why most organizations only manage one type
+
+![Why explicit knowledge gets managed while tacit knowledge doesn't: explicit can be stored, version-controlled, searched, audited and measured; tacit knowledge has none of these properties.](~/assets/images/insights/tek-02-why-one-type-en.svg)
 
 The reason most organizations focus on explicit knowledge and have no clear strategy for tacit knowledge isn't that they don't recognize its importance — it's that explicit knowledge is simply much easier to manage.
 
@@ -100,6 +108,8 @@ But in real manufacturing operations, tacit knowledge is often what drives the a
 
 ## Converting tacit to explicit — how far is possible?
 
+![Three ways to partially convert tacit to explicit: experience to decision frameworks, judgment to decision tables, experience to case studies — never complete, but more useful than nothing.](~/assets/images/insights/tek-03-conversion-en.svg)
+
 This is the most practically important question.
 
 The short answer: partially, but never completely.
@@ -117,6 +127,8 @@ What cannot be fully converted: the felt sense of balance, fine-grained perceptu
 ---
 
 ## Appropriate strategies for each type
+
+![Strategies for explicit knowledge (DMS, version control, approval processes) and tacit knowledge (structured mentoring, case study debriefs, knowledge interviews, reduce single-person dependencies).](~/assets/images/insights/tek-04-strategies-en.svg)
 
 Once the distinction between tacit and explicit knowledge is clear, the practical question is: what strategies are appropriate for each?
 
@@ -143,6 +155,8 @@ Appropriate strategies:
 ---
 
 ## A practical lens
+
+![Four practical questions for assessing organizational knowledge: which is explicit, which tacit is at risk, what portion can be partially converted, what strategies are appropriate.](~/assets/images/insights/tek-05-four-questions-en.svg)
 
 The distinction between tacit and explicit knowledge isn't an academic exercise. It's a tool for asking the right questions:
 
