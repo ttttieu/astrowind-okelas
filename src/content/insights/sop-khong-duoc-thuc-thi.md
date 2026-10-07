@@ -2,7 +2,9 @@
 title: "SOP có nhưng không được thực thi — tại sao điều này xảy ra?"
 description: "Nhiều doanh nghiệp đầu tư viết SOP nhưng nhân viên không làm đúng. Vấn đề không phải nhân viên — mà là thiết kế."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/why-sops-are-not-followed.png'
+coverImage: '~/assets/images/insights/sop-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/sop-00-og-cover-vi.png'
+coverImageAlt: "Một tài liệu SOP ngay ngắn bên trái, thực tế vận hành bất định bên phải, và một khoảng cách nét đứt giữa hai bên."
 category: 'knowledge-management'
 tags: ['SOP', 'Standard Operating Procedures', 'Process Management', 'Operations']
 translationId: 'why-sops-are-not-followed'
@@ -18,6 +20,8 @@ secondaryKeywords:
   - "SOP doanh nghiệp sản xuất"
   - "quy trình không được thực hiện"
 assessmentHref: '/readiness/knowledge-management'
+ctaPrimaryText: 'Assess your KM maturity'
+ctaSubtitle: 'Xác định mức độ trưởng thành về quản lý tri thức trong công ty bạn'
 draft: false
 ---
 
@@ -31,6 +35,8 @@ draft: false
 ---
 
 ## Một vòng lặp quen thuộc
+
+![Vòng lặp SOP không được thực thi: audit phát hiện vi phạm → training → SOP mới chi tiết hơn → vấn đề tái diễn.](~/assets/images/insights/sop-01-familiar-loop-vi.svg)
 
 Audit kết thúc. Non-conformance report ghi nhận: quy trình X không được thực thi đúng theo SOP.
 
@@ -46,6 +52,8 @@ Vòng lặp này rất phổ biến — và nó phổ biến vì cách chúng ta
 
 ## SOP và thực tế vận hành — một khoảng cách mà nhiều người không nhìn thấy
 
+![Khoảng cách giữa SOP lý tưởng và thực tế vận hành: nguyên liệu biến động, áp lực thời gian, thiết bị thay đổi và điều kiện không chuẩn.](~/assets/images/insights/sop-03-ideal-vs-reality-vi.svg)
+
 Có một sự thật không thoải mái cần thừa nhận: phần lớn SOP được viết trong điều kiện lý tưởng, bởi người không phải người thực thi hàng ngày, và mô tả quy trình lý tưởng trong điều kiện lý tưởng.
 
 Nhưng thực tế vận hành không lý tưởng.
@@ -59,6 +67,8 @@ Khi có khoảng cách giữa SOP và thực tế — và khoảng cách đó kh
 ---
 
 ## Ba nguyên nhân cốt lõi SOP không được thực thi
+
+![Ba nguyên nhân SOP không được thực thi nhất quán: mô tả điều kiện lý tưởng thay vì thực tế, tồn tại trong hệ thống nhưng không sống trong workflow, thiếu động lực làm đúng khi không có ai kiểm tra.](~/assets/images/insights/sop-02-three-causes-vi.svg)
 
 Phân tích vấn đề qua nhiều tổ chức, có thể xác định ba cơ chế chính khiến SOP không được thực thi nhất quán.
 
@@ -106,6 +116,8 @@ Khi nhân viên không thấy hậu quả trực tiếp của việc không tuâ
 
 ## SOP tốt khác SOP có ở chỗ nào
 
+![SOP chỉ có so với SOP được thực thi: viết cùng người thực thi, mô tả điều kiện bất thường, có mặt đúng lúc đúng dạng, được cập nhật từ thực tế.](~/assets/images/insights/sop-04-executable-vs-existing-vi.svg)
+
 Một SOP được thực thi không phải là SOP được viết cẩn thận hơn. Đây là sự phân biệt quan trọng mà nhiều tổ chức bỏ qua.
 
 SOP được thực thi có một số đặc điểm khác với SOP chỉ "có":
@@ -121,6 +133,8 @@ SOP được thực thi có một số đặc điểm khác với SOP chỉ "có
 ---
 
 ## Điều kiện để SOP thực sự vận hành
+
+![Bốn điều kiện để SOP được thực thi nhất quán: phản ánh thực tế vận hành, tiếp cận được tại điểm thực hiện, không tuân thủ tạo ra phản hồi, được duy trì cập nhật.](~/assets/images/insights/sop-05-four-conditions-vi.svg)
 
 Từ phân tích ba nguyên nhân, có thể phác thảo một số điều kiện cần có:
 

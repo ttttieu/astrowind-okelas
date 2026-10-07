@@ -2,7 +2,9 @@
 title: "SOPs Are in Place — So Why Aren't They Being Followed?"
 description: "Many companies invest in writing SOPs but employees don't follow them. The problem usually isn't employee resistance — it's design. Here's why."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/why-sops-are-not-followed.png'
+coverImage: '~/assets/images/insights/sop-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/sop-00-og-cover-en.png'
+coverImageAlt: "A tidy SOP document on the left, an uncertain operational reality on the right, and a dashed gap between them."
 category: 'knowledge-management'
 tags: ['SOP', 'Standard Operating Procedures', 'Process Management', 'Operations']
 translationId: 'why-sops-are-not-followed'
@@ -18,6 +20,8 @@ secondaryKeywords:
   - "standard operating procedure execution"
   - "SOP implementation"
 assessmentHref: '/en/readiness/knowledge-management'
+ctaPrimaryText: 'Assess your KM maturity'
+ctaSubtitle: 'Identify your knowledge management maturity level in your organization'
 draft: false
 ---
 
@@ -31,6 +35,8 @@ draft: false
 ---
 
 ## A familiar cycle
+
+![The SOP non-compliance cycle: audit finds a violation → training session → more detailed SOP → same problem recurs.](~/assets/images/insights/sop-01-familiar-loop-en.svg)
 
 The audit ends. The non-conformance report notes: process X was not executed correctly according to the SOP.
 
@@ -46,6 +52,8 @@ This cycle is common — and it's common because the way we frame the SOP proble
 
 ## SOPs and operational reality — a gap most people don't see
 
+![The gap between the ideal SOP and operational reality: raw material variability, time pressure, aging equipment and non-standard conditions employees must resolve on their own.](~/assets/images/insights/sop-03-ideal-vs-reality-en.svg)
+
 One uncomfortable reality needs to be acknowledged: most SOPs are written under ideal conditions, by people who are not the ones executing the work daily, describing an ideal process under ideal conditions.
 
 Operational reality is not ideal.
@@ -59,6 +67,8 @@ This is not non-compliance driven by laziness. It's a rational response from som
 ---
 
 ## Three core reasons SOPs don't get followed
+
+![Three core reasons SOPs fail consistently: describing ideal rather than real conditions, existing in a system but not living in the workflow, and insufficient motivation to comply when no one is watching.](~/assets/images/insights/sop-02-three-causes-en.svg)
 
 Across many organizations, three primary mechanisms cause SOPs to fail consistently.
 
@@ -106,6 +116,8 @@ This isn't a moral failing of individual employees. It's a system design failure
 
 ## What makes an SOP executable — not just documented
 
+![Documented-only SOP vs executable SOP: written with practitioners, addresses non-standard conditions, accessible at the point of execution in the right format, and kept current from operational feedback.](~/assets/images/insights/sop-04-executable-vs-existing-en.svg)
+
 An SOP that gets followed is not a more carefully written SOP. This distinction is important and often missed.
 
 Executable SOPs share some characteristics that documented-only SOPs lack:
@@ -121,6 +133,8 @@ Executable SOPs share some characteristics that documented-only SOPs lack:
 ---
 
 ## The conditions for consistent SOP adherence
+
+![Four conditions for consistent SOP adherence: the SOP reflects operational reality, is accessible at the point of execution, non-compliance generates timely feedback, and the SOP is kept alive.](~/assets/images/insights/sop-05-four-conditions-en.svg)
 
 From the three causes and the characteristics of executable SOPs, a set of necessary conditions emerges for SOPs to be followed consistently.
 
