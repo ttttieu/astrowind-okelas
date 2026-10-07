@@ -20,8 +20,8 @@ secondaryKeywords:
   - "mất tri thức doanh nghiệp"
   - "employee turnover knowledge"
 assessmentHref: '/readiness/knowledge-management'
-ctaPrimaryText: 'Làm Knowledge Readiness Assessment'
-ctaSubtitle: 'Tìm hiểu xem bao nhiêu tri thức quan trọng đang nằm trong đầu người so với các hệ thống có cấu trúc.'
+ctaPrimaryText: 'Assess your KM maturity'
+ctaSubtitle: 'Xác định mức độ trưởng thành về quản lý tri thức trong công ty bạn'
 draft: false
 ---
 

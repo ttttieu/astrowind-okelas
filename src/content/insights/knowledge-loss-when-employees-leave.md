@@ -20,8 +20,8 @@ secondaryKeywords:
   - "tacit knowledge loss"
   - "organizational knowledge risk"
 assessmentHref: '/en/readiness/knowledge-management'
-ctaPrimaryText: 'Take the Knowledge Readiness Assessment'
-ctaSubtitle: 'Find out how much critical knowledge lives in people''s heads versus structured systems.'
+ctaPrimaryText: 'Assess your KM maturity'
+ctaSubtitle: 'Identify your knowledge management maturity level in your organization'
 draft: false
 ---
 
