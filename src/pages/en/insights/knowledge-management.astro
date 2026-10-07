@@ -3,7 +3,9 @@ import Layout from '~/layouts/PageLayout.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
 import Content from '~/components/widgets/Content.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
+import { Image } from 'astro:assets';
 import { getArticlesByCategory } from '~/lib/insights';
+import type { ImageMetadata } from 'astro';
 
 const metadata = {
   title: 'Knowledge Management — OKELAS Insights',
@@ -13,6 +15,28 @@ const metadata = {
 
 const { grouped } = await getArticlesByCategory('en');
 let kmArticles = grouped['knowledge-management'] || [];
+
+// Import all EN KM cover images from src/assets (flat directory)
+const enCoverGlob = import.meta.glob<{ default: ImageMetadata }>(
+  '/src/assets/images/insights/*-00-og-cover-en.png',
+  { eager: true }
+);
+const enCovers: Record<string, ImageMetadata> = {};
+for (const [path, mod] of Object.entries(enCoverGlob)) {
+  const match = path.match(/\/([a-z]+)-00-og-cover-en\.png$/);
+  if (match) enCovers[match[1]] = mod.default;
+}
+
+// Map EN article ID → cover image prefix
+const articleCoverPrefix: Record<string, string> = {
+  'knowledge-management-manufacturing': 'kmp',
+  'tacit-vs-explicit-knowledge': 'tek',
+  'excel-shadow-it': 'xsi',
+  'cost-of-knowledge-loss': 'ckl',
+  'dms-vs-knowledge-management': 'dkm',
+  'knowledge-graph-for-business': 'kgb',
+  'why-audit-preparation-takes-so-long': 'aud',
+};
 
 // Define article order: pillar first, then 3.1 to 3.9
 const articleOrder: Record<string, number> = {
@@ -86,9 +110,21 @@ const typeBadgeClass: Record<string, string> = {
     <div class="relative mx-auto px-4 sm:px-6 py-8 md:py-12" style="max-width: 900.5px;">
       <div>
         <h2 class="text-2xl font-bold mb-6 text-slate-900 dark:text-white">All Knowledge Management articles</h2>
-      <ul class="space-y-4">
-        {kmArticles.map((article) => (
-          <li key={article.id} class="flex items-start gap-4 group">
+      <ul class="space-y-6">
+        {kmArticles.map((article) => {
+          const prefix = articleCoverPrefix[article.id];
+          const coverImg = prefix ? enCovers[prefix] : undefined;
+          return (
+          <li key={article.id} class="flex items-start gap-6 group">
+            {coverImg && (
+              <div class="flex-shrink-0 w-60 rounded overflow-hidden">
+                <Image
+                  src={coverImg}
+                  alt={article.data.title}
+                  class="w-full h-auto block"
+                />
+              </div>
+            )}
             <a
               href={`/en/insights/${article.data.category}/${article.id}`}
               class="flex-1 hover:underline"
@@ -96,14 +132,22 @@ const typeBadgeClass: Record<string, string> = {
               <div class="font-medium text-slate-900 dark:text-white group-hover:text-primary transition-colors">
                 {article.data.title}
               </div>
+              <div class="flex flex-wrap gap-2 mt-1">
+                {article.data.contentType && (
+                  <span class="text-xs bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-400 px-2 py-0.5 rounded">
+                    {article.data.contentType}
+                  </span>
+                )}
+                {article.data.funnelStage?.[0] && (
+                  <span class="text-xs bg-gray-50 text-gray-500 dark:bg-gray-800 dark:text-gray-400 px-2 py-0.5 rounded">
+                    {article.data.funnelStage[0]}
+                  </span>
+                )}
+              </div>
             </a>
-            {article.data.funnelStage?.[0] && (
-              <span class="px-2 py-1 rounded text-xs font-medium bg-gray-50 text-gray-500 dark:bg-gray-800 dark:text-gray-400 whitespace-nowrap">
-                {article.data.funnelStage[0]}
-              </span>
-            )}
           </li>
-        ))}
+        );
+        })}
       </ul>
       </div>
     </div>
