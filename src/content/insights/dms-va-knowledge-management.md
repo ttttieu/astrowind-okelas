@@ -2,7 +2,9 @@
 title: "Từ DMS đến Knowledge Management — sự khác biệt mà nhiều doanh nghiệp bỏ qua"
 description: "Lưu trữ tài liệu tốt không có nghĩa là quản lý tri thức tốt. Bài viết phân tích sự khác biệt quan trọng giữa DMS và knowledge management."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/dms-vs-knowledge-management.png'
+coverImage: '~/assets/images/insights/dkm-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/dkm-00-og-cover-vi.png'
+coverImageAlt: "Một màn hình DMS lưu trữ tài liệu độc lập bên trái và một mạng lưới tri thức kết nối ngữ cảnh, quy trình và con người bên phải."
 category: 'knowledge-management'
 tags: ['DMS', 'Knowledge Management', 'Quản Lý Tài Liệu', 'Vận Hành Kinh Doanh']
 translationId: 'dms-knowledge-management-distinction'
@@ -18,6 +20,8 @@ secondaryKeywords:
   - "vượt ra ngoài lưu trữ tài liệu"
   - "knowledge graph doanh nghiệp"
 assessmentHref: '/readiness/knowledge-management'
+ctaPrimaryText: 'Assess your KM maturity'
+ctaSubtitle: 'Xác định mức độ trưởng thành về quản lý tri thức trong công ty bạn'
 draft: false
 ---
 
@@ -44,6 +48,8 @@ Câu trả lời có thể là: "Có, nhưng họ phải biết tìm ở đâu, 
 
 ## DMS làm được gì — và làm tốt
 
+![Năm việc DMS làm tốt: lưu trữ có cấu trúc, kiểm soát phiên bản, phân quyền truy cập, workflow phê duyệt và tìm kiếm toàn văn.](~/assets/images/insights/dkm-01-what-dms-does-vi.svg)
+
 DMS là công cụ được thiết kế để giải quyết bài toán quản lý tài liệu. Nó làm tốt những việc sau:
 
 **Lưu trữ có cấu trúc.** Tài liệu được tổ chức trong thư mục hoặc theo metadata, dễ tìm hơn so với folder chia sẻ không có tổ chức.
@@ -64,6 +70,8 @@ Nhưng DMS có một giới hạn cơ bản: **nó quản lý tài liệu như n
 
 ## Tri thức không phải là tập hợp tài liệu độc lập
 
+![Tài liệu trong DMS tồn tại như đơn vị độc lập; tri thức trong thực tế vận hành là mạng lưới kết nối — tài liệu, sản phẩm, quy trình, quyết định và sự kiện liên quan đến nhau.](~/assets/images/insights/dkm-02-documents-vs-network-vi.svg)
+
 Đây là điểm khác biệt cốt lõi.
 
 Trong DMS, mỗi tài liệu tồn tại như một đơn vị riêng biệt. Bạn có thể tìm thấy nó, đọc nó, phê duyệt nó. Nhưng tài liệu đó không "biết" mình liên quan đến tài liệu nào khác, áp dụng cho quy trình nào, hay đã được dùng để ra quyết định nào.
@@ -80,6 +88,8 @@ Khi tri thức được tổ chức theo mạng lưới kết nối này — tha
 ---
 
 ## Ba bài toán mà DMS không giải quyết được
+
+![Ba bài toán DMS không giải quyết được: tri thức ngữ cảnh (áp dụng với sản phẩm/điều kiện nào), tri thức lịch sử và nguyên nhân (tại sao, đã thử gì), tri thức liên kết (thay đổi A ảnh hưởng đến gì).](~/assets/images/insights/dkm-03-three-problems-vi.svg)
 
 Để cụ thể hơn, có ba loại câu hỏi thực tiễn mà DMS thường không trả lời được dù kho tài liệu đầy đủ.
 
@@ -111,6 +121,8 @@ Trong một hệ thống KM tốt hơn: các quan hệ giữa quy trình, sản 
 
 ## Khi nào DMS là đủ — và khi nào cần tiến thêm
 
+![Khi DMS là đủ (tìm kiếm, phiên bản, phê duyệt, KM cấp độ 1–2) và khi cần tiến thêm (câu hỏi ngữ cảnh, người mới cần nhiều tháng, knowledge loss vẫn xảy ra, mục tiêu AI có ngữ cảnh).](~/assets/images/insights/dkm-04-when-enough-vi.svg)
+
 Không phải mọi tổ chức đều cần vượt ra ngoài DMS ngay lập tức. Để quyết định đúng, cần xác định rõ bài toán hiện tại.
 
 ### DMS là đủ khi:
@@ -131,6 +143,8 @@ Không phải mọi tổ chức đều cần vượt ra ngoài DMS ngay lập t�
 ---
 
 ## Bước tiến từ DMS sang KM — không phải thay thế mà là mở rộng
+
+![Bước tiến từ DMS sang KM là mở rộng, không thay thế: DMS là nền tảng lưu trữ và kiểm soát tài liệu; KM là lớp bổ sung kết nối tài liệu với ngữ cảnh, quy trình, sự kiện và con người.](~/assets/images/insights/dkm-05-expansion-not-replacement-vi.svg)
 
 Một điểm quan trọng cần làm rõ: chuyển sang knowledge management không có nghĩa bỏ DMS.
 

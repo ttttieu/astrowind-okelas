@@ -2,7 +2,9 @@
 title: "From DMS to Knowledge Management: The Difference That Matters"
 description: "Good document storage doesn't equal good knowledge management. This article examines the critical difference between DMS and KM — and why it matters for manufacturing organizations."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/dms-vs-knowledge-management.png'
+coverImage: '~/assets/images/insights/dkm-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/dkm-00-og-cover-en.png'
+coverImageAlt: "A DMS screen storing independent documents on the left and a connected knowledge network linking context, processes, and people on the right."
 category: 'knowledge-management'
 tags: ['DMS', 'Knowledge Management', 'Document Management', 'Business Operations']
 translationId: 'dms-knowledge-management-distinction'
@@ -18,6 +20,8 @@ secondaryKeywords:
   - "beyond document storage"
   - "knowledge graph enterprise"
 assessmentHref: '/en/readiness/knowledge-management'
+ctaPrimaryText: 'Assess your KM maturity'
+ctaSubtitle: 'Identify your knowledge management maturity level in your organization'
 draft: false
 ---
 
@@ -44,6 +48,8 @@ This is exactly the gap between "having documents" and "having knowledge" — an
 
 ## What a DMS does — and does well
 
+![Five things a DMS does well: structured storage, version control, access permissions, approval workflows, and full-text search.](~/assets/images/insights/dkm-01-what-dms-does-en.svg)
+
 A DMS is a tool designed to solve the document management problem. It handles these things well:
 
 **Structured storage.** Documents organized in folders or by metadata, easier to find than unstructured shared drives.
@@ -64,6 +70,8 @@ But a DMS has a fundamental limitation: **it manages documents as independent un
 
 ## Knowledge is not a collection of independent documents
 
+![Documents in a DMS exist as independent units; knowledge in operational reality is a connected network — documents, products, processes, decisions, and events relate to each other.](~/assets/images/insights/dkm-02-documents-vs-network-en.svg)
+
 This is the core distinction.
 
 In a DMS, each document exists as a separate unit. It can be found, read, and approved. But the document doesn't "know" which other documents it relates to, which processes it applies to, or which decisions it was used to support.
@@ -80,6 +88,8 @@ When knowledge is organized as a connected network — rather than as a collecti
 ---
 
 ## Three problems a DMS doesn't solve
+
+![Three problems a DMS doesn't solve: contextual knowledge (how does this apply to this product/condition), historical and causal knowledge (why, what was tried), relational knowledge (if A changes, what else is affected).](~/assets/images/insights/dkm-03-three-problems-en.svg)
 
 To be specific, three types of practical questions that a DMS typically can't answer, regardless of how comprehensive the document library is.
 
@@ -111,6 +121,8 @@ In a better KM approach: relationships between processes, products, equipment, m
 
 ## When a DMS is sufficient — and when more is needed
 
+![When a DMS is sufficient (finding documents, version control, approval process, KM maturity level 1–2) and when more is needed (contextual questions, new employees need months, knowledge loss persists, AI with context goal).](~/assets/images/insights/dkm-04-when-enough-en.svg)
+
 Not every organization needs to move beyond a DMS immediately. Clarity about the actual problem determines the right answer.
 
 ### A DMS is sufficient when:
@@ -131,6 +143,8 @@ Not every organization needs to move beyond a DMS immediately. Clarity about the
 ---
 
 ## Moving from DMS to KM — not replacement but expansion
+
+![Moving from DMS to KM is expansion, not replacement: DMS is the document storage and control foundation; KM is an additional layer connecting documents to context, processes, events, and people.](~/assets/images/insights/dkm-05-expansion-not-replacement-en.svg)
 
 An important clarification: moving toward knowledge management doesn't mean abandoning the DMS.
 
