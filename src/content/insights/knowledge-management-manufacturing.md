@@ -20,6 +20,8 @@ secondaryKeywords:
   - "employee knowledge retention"
   - "knowledge management SME"
 assessmentHref: '/en/readiness/knowledge-management'
+ctaPrimaryText: 'Assess your KM maturity'
+ctaSubtitle: 'Identify your knowledge management maturity level in your organization'
 draft: false
 ---
 

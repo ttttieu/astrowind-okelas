@@ -20,6 +20,8 @@ secondaryKeywords:
   - "giữ chân tri thức nhân sự"
   - "knowledge management SME"
 assessmentHref: '/readiness/knowledge-management'
+ctaPrimaryText: 'Assess your KM maturity'
+ctaSubtitle: 'Xác định mức độ trưởng thành về quản lý tri thức trong công ty bạn'
 draft: false
 ---
 
