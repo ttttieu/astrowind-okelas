@@ -2,7 +2,9 @@
 title: "When Key Employees Leave: What They Take That You Can't Replace by Hiring"
 description: "When a key employee walks out the door, the loss isn't just a headcount gap. There are things they take that don't appear in any HR file."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/knowledge-loss-when-employees-leave.png'
+coverImage: '~/assets/images/insights/kll-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/kll-00-og-cover-en.png'
+coverImageAlt: "An organizational network with one dashed, faded node (the departed employee), and an arrow to the person who leaves carrying three kinds of knowledge: operational, contextual, relational."
 category: 'knowledge-management'
 tags: ['Knowledge Loss', 'Employee Retention', 'Organizational Knowledge', 'Key Person Dependency']
 translationId: 'knowledge-loss-when-employees-leave'
@@ -42,6 +44,8 @@ Those are real questions. But they skip over something harder to replace than a 
 
 ## What's not in the job description
 
+![The gap between what a job description captures and what an employee actually contributes: knowledge of why, how things actually work, and network relationships.](~/assets/images/insights/kll-01-job-description-gap-en.svg)
+
 A job description captures skills, experience, qualifications. But what an employee actually contributes to the organization over years — and what they take when they leave — rarely appears in any document.
 
 **Knowledge of "why"**
@@ -68,6 +72,8 @@ This understanding of people — both inside and outside the organization — is
 
 ## Three types of knowledge that disappear — each dangerous in a different way
 
+![Three types of knowledge lost when a key employee leaves and their different impacts: operational knowledge affects quality immediately, contextual knowledge leads to repeated mistakes, relational knowledge slows decision-making.](~/assets/images/insights/kll-02-three-types-impact-en.svg)
+
 When a key employee leaves, the organization typically loses three distinct types of knowledge — and each creates problems in a different way.
 
 **Type 1 — Operational knowledge**
@@ -86,6 +92,8 @@ This is knowledge about people: who is who, how to approach them, what they can 
 
 ## Signs your organization is especially vulnerable
 
+![Four signs an organization is highly dependent on individual knowledge: answers are always "ask this person," onboarding takes months, audits require scrambling for information, and absence of core staff disrupts operations.](~/assets/images/insights/kll-03-four-warning-signs-en.svg)
+
 Not every organization faces the same level of risk. But some signals indicate a business is particularly dependent on individual knowledge.
 
 When an important operational question comes up, the answer is consistently "ask this person" rather than "check this document."
@@ -100,6 +108,8 @@ When a core employee is unexpectedly unavailable, operations are meaningfully di
 
 ## Questions every CEO should ask
 
+![A diagnostic question on knowledge dependency: if 2–3 of the most important people left next month, what would happen and which parts are currently impossible to prevent?](~/assets/images/insights/kll-04-ceo-question-en.svg)
+
 Before looking for solutions, one straightforward but important question deserves an honest answer:
 
 *"If 2–3 of our most important people left next month, what would happen? And which parts of that are we currently unable to prevent?"*
@@ -112,9 +122,15 @@ And if that answer is uncomfortable, that discomfort is the right signal to star
 
 **How dependent is your organization on individual knowledge?**
 
-→ [Take the Knowledge Management Readiness Assessment](/en/readiness/knowledge-management) to evaluate the level of risk and identify priority areas.
-
 → [Read the full analysis: From Individual Knowledge to Organizational Knowledge](/en/insights/knowledge-management/knowledge-management-manufacturing)
+
+---
+
+**Assess your KM maturity**
+
+Find out how much critical knowledge lives in people's heads versus structured systems.
+
+→ [Take the Knowledge Readiness Assessment](/en/readiness/knowledge-management)
 
 ---
 

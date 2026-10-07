@@ -2,7 +2,9 @@
 title: "Khi nhân sự chủ chốt nghỉ việc, họ mang đi thứ gì?"
 description: "Khi một nhân viên giỏi rời đi, không chỉ mất một con người — doanh nghiệp mất những thứ không có trong file nhân sự nào."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/knowledge-loss-when-employees-leave.png'
+coverImage: '~/assets/images/insights/kll-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/kll-00-og-cover-vi.png'
+coverImageAlt: "Mạng lưới tổ chức có một nút mờ nét đứt (người đã rời đi), mũi tên tới người rời đi mang theo ba loại tri thức: vận hành, bối cảnh, quan hệ."
 category: 'knowledge-management'
 tags: ['Knowledge Loss', 'Employee Retention', 'Organizational Knowledge', 'Key Person Dependency']
 translationId: 'knowledge-loss-when-employees-leave'
@@ -42,6 +44,8 @@ Những câu hỏi đó đúng. Nhưng chúng bỏ qua thứ quan trọng hơn, 
 
 ## Những thứ không có trong job description
 
+![Khoảng cách giữa những gì job description mô tả và những gì nhân viên thực sự mang lại: tri thức về tại sao, cách làm thực tế và mạng lưới quan hệ.](~/assets/images/insights/kll-01-job-description-gap-vi.svg)
+
 Một nhân viên được mô tả trong JD bằng kỹ năng, kinh nghiệm, bằng cấp. Nhưng những gì họ thực sự mang lại cho tổ chức sau nhiều năm — và những gì họ mang đi khi rời khỏi — thường không có trong bất kỳ tài liệu nào.
 
 **Tri thức về "tại sao"**
@@ -68,6 +72,8 @@ Những hiểu biết này về con người — cả trong lẫn ngoài tổ ch
 
 ## Ba loại tri thức bị mất — và tại sao mỗi loại nguy hiểm theo cách khác
 
+![Ba loại tri thức mất đi khi nhân sự chủ chốt nghỉ và tác động khác nhau: tri thức vận hành ảnh hưởng chất lượng ngay lập tức, tri thức bối cảnh dẫn đến lặp sai lầm, tri thức quan hệ làm chậm quyết định.](~/assets/images/insights/kll-02-three-types-impact-vi.svg)
+
 Tổng hợp lại, khi một nhân viên chủ chốt rời đi, tổ chức thường mất ba loại tri thức khác nhau — và mỗi loại gây ra vấn đề theo cách khác nhau.
 
 **Loại 1 — Tri thức vận hành (Operational knowledge)**
@@ -86,6 +92,8 @@ Tổng hợp lại, khi một nhân viên chủ chốt rời đi, tổ chức th
 
 ## Dấu hiệu doanh nghiệp đang dễ bị tổn thương
 
+![Bốn dấu hiệu tổ chức đang phụ thuộc nhiều vào tri thức cá nhân: câu trả lời luôn là "hỏi anh A", onboarding kéo dài, audit phải chạy đua thu thập thông tin, vắng nhân sự cốt lõi là vận hành bị ảnh hưởng.](~/assets/images/insights/kll-03-four-warning-signs-vi.svg)
+
 Không phải mọi doanh nghiệp đều ở mức độ rủi ro như nhau. Nhưng có một số dấu hiệu cho thấy tổ chức đang đặc biệt phụ thuộc vào tri thức cá nhân.
 
 Khi có câu hỏi quan trọng về quy trình, câu trả lời thường là "hỏi anh A" thay vì "xem tài liệu này".
@@ -100,6 +108,8 @@ Khi nhân viên cốt lõi vắng mặt vì lý do bất ngờ, vận hành bị
 
 ## Câu hỏi CEO cần tự đặt ra
 
+![Câu hỏi chẩn đoán mức độ phụ thuộc vào tri thức cá nhân: nếu 2–3 người quan trọng nhất cùng rời đi tháng tới, điều gì sẽ xảy ra và phần nào không thể ngăn chặn?](~/assets/images/insights/kll-04-ceo-question-vi.svg)
+
 Trước khi tìm giải pháp, có một câu hỏi đơn giản nhưng quan trọng cần trả lời thành thật:
 
 *"Nếu 2–3 người quan trọng nhất trong tổ chức cùng rời đi vào tháng tới, điều gì sẽ xảy ra? Và phần nào của điều đó mà chúng ta hiện không có cách nào ngăn chặn?"*
@@ -112,9 +122,15 @@ Và nếu câu trả lời đó khiến bạn lo ngại — đó là tín hiệu
 
 **Doanh nghiệp của bạn đang phụ thuộc vào tri thức cá nhân ở mức độ nào?**
 
-→ [Làm Knowledge Management Readiness Assessment](/readiness/knowledge-management) để tự đánh giá mức độ rủi ro và ưu tiên cần cải thiện.
-
 → [Đọc phân tích đầy đủ hơn: Từ tri thức cá nhân đến tri thức tổ chức](/insights/knowledge-management/quan-ly-tri-thuc-doanh-nghiep-san-xuat)
+
+---
+
+**Đánh giá KM maturity**
+
+Tìm hiểu xem bao nhiêu tri thức quan trọng đang nằm trong đầu người so với các hệ thống có cấu trúc.
+
+→ [Làm Knowledge Readiness Assessment](/readiness/knowledge-management)
 
 ---
 
