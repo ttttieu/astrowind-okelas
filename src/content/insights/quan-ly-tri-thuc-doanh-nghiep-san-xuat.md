@@ -2,7 +2,9 @@
 title: "Từ tri thức cá nhân đến tri thức tổ chức — bài toán không thể né trong sản xuất"
 description: "Khi nhân viên giỏi nghỉ việc, họ mang đi thứ gì? Bài toán tri thức tổ chức trong doanh nghiệp sản xuất và cách tiếp cận có hệ thống."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/knowledge-management-manufacturing.png'
+coverImage: '~/assets/images/insights/kmp-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/kmp-00-og-cover-vi.png'
+coverImageAlt: "Một nút tri thức cá nhân đơn lẻ ở bên trái, một mạng lưới các nút liên kết ở bên phải đại diện cho tri thức tổ chức."
 category: 'knowledge-management'
 tags: ['Knowledge Management', 'Manufacturing', 'Organizational Learning', 'Tacit Knowledge']
 translationId: 'knowledge-management-manufacturing'
@@ -48,6 +50,8 @@ Và sau khi Minh đi, những vấn đề trước đây anh xử lý trong 5 ph
 
 ## Tri thức tổ chức là gì — và không phải là gì
 
+![Tài liệu là văn bản ghi lại thông tin và có thể sai hoặc lỗi thời mà người đọc không biết; tri thức tổ chức là khả năng ra quyết định đúng, xử lý tình huống mới, thực thi nhất quán và học hỏi, không phụ thuộc ai có mặt.](~/assets/images/insights/kmp-01-documents-vs-knowledge-vi.svg)
+
 Trước khi đi vào vấn đề, cần làm rõ một điều: "tri thức tổ chức" không phải là tài liệu.
 
 Nhiều doanh nghiệp khi nói đến knowledge management đều nghĩ đến tài liệu: SOP, hướng dẫn vận hành, biểu mẫu, báo cáo. Và một số doanh nghiệp đã có rất nhiều tài liệu — nhưng vẫn gặp đầy đủ những vấn đề mà knowledge management đáng ra phải giải quyết.
@@ -65,6 +69,8 @@ Ngược lại, khi tri thức tổ chức được xây dựng, một nhân vi�
 ---
 
 ## Tacit knowledge và explicit knowledge — tại sao phân biệt quan trọng
+
+![Explicit knowledge có thể viết ra và truyền qua tài liệu như SOP; tacit knowledge nằm trong kinh nghiệm cá nhân, như cảm giác máy không ổn, và thường quyết định chất lượng khi điều kiện không chuẩn.](~/assets/images/insights/kmp-02-explicit-vs-tacit-vi.svg)
 
 Trong lý thuyết về knowledge management, có sự phân biệt kinh điển giữa hai loại tri thức.
 
@@ -96,6 +102,8 @@ Chuyển đổi tacit knowledge sang explicit knowledge — dù không bao giờ
 
 ## Tại sao doanh nghiệp sản xuất đặc biệt dễ bị tổn thương
 
+![Bốn đặc điểm khiến doanh nghiệp sản xuất dễ mất tri thức: vận hành theo ca, điều kiện không chuẩn, yêu cầu compliance và nhân sự thay đổi.](~/assets/images/insights/kmp-03-four-vulnerabilities-vi.svg)
+
 Không phải mọi ngành đều có mức độ phụ thuộc vào tacit knowledge như nhau. Và không phải mọi doanh nghiệp đều chịu hậu quả tương tự khi tri thức bị mất.
 
 Trong doanh nghiệp sản xuất, đặc biệt manufacturing SME, có một số đặc điểm làm cho vấn đề tri thức trở nên đặc biệt nghiêm trọng.
@@ -119,6 +127,8 @@ Manufacturing SME thường phải đối mặt với tỷ lệ turnover cao hơ
 ---
 
 ## Hậu quả khi tri thức tổ chức không được xây dựng
+
+![Tri thức nằm trong đầu người dẫn tới năm hệ quả tích lũy dần: chất lượng không nhất quán, training kéo dài, nhân sự chủ chốt nghỉ, audit khó và không thể scale.](~/assets/images/insights/kmp-04-five-consequences-vi.svg)
 
 Khi doanh nghiệp không xây dựng tri thức tổ chức, hậu quả không xảy ra ngay lập tức. Chúng tích lũy dần — và thường chỉ trở nên rõ ràng khi đã quá muộn để xử lý dễ dàng.
 
@@ -155,6 +165,8 @@ Mỗi lần scale, doanh nghiệp phải giải quyết lại vấn đề tri th
 ---
 
 ## Lộ trình xây dựng knowledge management — từ nơi doanh nghiệp đang đứng
+
+![Năm cấp trưởng thành của knowledge management từ tri thức trong đầu người đến tổ chức biết học và cải tiến; cấp 3 chưa giải quyết tri thức ngầm và giá trị vận hành thực sự bắt đầu từ cấp 4.](~/assets/images/insights/kmp-05-maturity-ladder-vi.svg)
 
 Knowledge management không phải là một hệ thống phần mềm mua về và cài đặt xong. Đây là một hành trình có nhiều giai đoạn — và giai đoạn đúng cho mỗi doanh nghiệp phụ thuộc vào nơi họ đang đứng.
 
@@ -201,6 +213,8 @@ Công cụ là một phần của giải pháp — nhưng không phải điểm 
 Điểm bắt đầu đúng là đánh giá trung thực: **doanh nghiệp hiện đang ở cấp độ nào, và vấn đề nghiêm trọng nhất đang ở đâu?**
 
 Một số câu hỏi để tự đánh giá:
+
+![Bốn câu hỏi tự đánh giá mức phụ thuộc vào cá nhân: nhân sự chủ chốt rời đi, truy nguyên sự cố, nhân viên mới tự tra cứu và thời gian chuẩn bị audit.](~/assets/images/insights/kmp-06-four-self-check-questions-vi.svg)
 
 Nếu 2–3 nhân viên quan trọng nhất rời đi đồng thời, tổ chức có thể tiếp tục vận hành bình thường không?
 
