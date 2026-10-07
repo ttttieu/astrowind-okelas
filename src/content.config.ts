@@ -27,6 +27,8 @@ const insightsCollection = defineCollection({
     secondaryKeywords: z.array(z.string()).optional(),
     assessmentHref: z.string().optional(),
     internalLinks: z.array(z.string()).optional(),
+    ctaPrimaryText: z.string().optional(),
+    ctaSubtitle: z.string().optional(),
     draft: z.boolean().default(false),
   }),
 });
