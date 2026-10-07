@@ -3,7 +3,9 @@ import Layout from '~/layouts/PageLayout.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
 import Content from '~/components/widgets/Content.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
+import { Image } from 'astro:assets';
 import { getArticlesByCategory } from '~/lib/insights';
+import type { ImageMetadata } from 'astro';
 
 const metadata = {
   title: 'Workflow — OKELAS Insights',
@@ -14,28 +16,40 @@ const metadata = {
 const { grouped } = await getArticlesByCategory('en');
 let workflowArticles = grouped.workflow || [];
 
+// Import all EN workflow cover images from src/assets
+const enCoverGlob = import.meta.glob<{ default: ImageMetadata }>(
+  '/src/assets/images/insights/*/wf*-00-og-cover-en.png',
+  { eager: true }
+);
+const enCovers: Record<string, ImageMetadata> = {};
+for (const [path, mod] of Object.entries(enCoverGlob)) {
+  const match = path.match(/\/insights\/([^/]+)\//);
+  if (match) enCovers[match[1]] = mod.default;
+}
+
 // Sort by translationId — uses article.data (frontmatter), not article.id (filename format varies)
 const articleOrder: Record<string, number> = {
-  'workflow-pillar-next-gen': 0,                       // PILLAR
-  'article-5-1-workflow-still-slow': 1,                // 5.1
-  'article-5-2-digitized-vs-optimized': 2,             // 5.2
-  'article-5-3-approval-to-e2e': 3,                    // 5.3
-  'article-5-4-human-bottleneck': 4,                   // 5.4
-  'article-5-5-visibility-gap': 5,                     // 5.5
-  'article-5-6-automation-vs-intelligent': 6,          // 5.6
-  'article-5-7-workflow-next-level': 7,                // 5.7
-  'article-5-8-event-driven-workflow': 8,              // 5.8
-  'article-5-9-request-approval-to-event-action': 9,  // 5.9
-  'article-5-10-where-ai-fits-workflow': 10,           // 5.10
-  'article-5-11-self-classifying-workflow': 11,        // 5.11
-  'article-5-12-context-aware-workflow': 12,           // 5.12
-  'article-5-13-agent-vs-workflow': 13,                // 5.13
-  'article-5-14-decide-vs-execute': 14,                // 5.14
-  'article-5-15-rules-vs-reasoning': 15,               // 5.15
-  'article-5-16-agentic-workflow': 16,                 // 5.16
-  'article-5-17-ai-as-participant': 17,                // 5.17
-  'article-5-18-ai-employee': 18,                      // 5.18
-  'article-5-20-workflow-journey': 19,                 // 5.20
+  'workflow-pillar-manufacturing-sme': 0,              // PILLAR
+  'article-5-1-workflow-still-slow': 1,
+  'article-5-2-digitized-vs-optimized': 2,
+  'article-5-3-approval-to-e2e': 3,
+  'article-5-4-human-bottleneck': 4,
+  'article-5-5-visibility-gap': 5,
+  'article-5-6-automation-vs-intelligent': 6,
+  'article-5-7-workflow-next-level': 7,
+  'article-5-8-event-driven-workflow': 8,
+  'article-5-9-request-approval-to-event-action': 9,
+  'workflow-rule-human-decision': 10,
+  'article-5-11-exception-handling-workflow': 11,
+  'article-5-12-automation-ai-workflow': 12,
+  'article-5-10-where-ai-fits-workflow': 13,
+  'article-5-14-classification-routing-workflow': 14,
+  'article-5-15-ai-evidence-human-decision': 15,
+  'article-5-16-context-aware-workflow': 16,
+  'article-5-17-separation-of-duties-workflow': 17,
+  'article-5-18-delegating-steps-workflow': 18,
+  'article-5-19-ai-agent-workflow': 19,
+  'article-5-20-workflow-journey': 20,
 };
 
 // Sort articles by series order using translationId from frontmatter
@@ -65,12 +79,12 @@ const typeBadgeClass: Record<string, string> = {
         <strong>Start here — Pillar article:</strong>
       </p>
       <ul class="mt-2 space-y-1">
-        <li><a href="/en/insights/workflow/intelligent-workflow-next-generation" class="text-primary hover:underline">Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates →</a></li>
+        <li><a href="/en/insights/workflow/workflow-for-manufacturing-companies" class="text-primary hover:underline">Workflow for Manufacturing Companies: From Approval to Operations With Context, Evidence and AI Assistance →</a></li>
       </ul>
 
       <p class="mt-5">
         <strong>Quick self-assessment:</strong>
-        <a href="/en/insights/workflow/workflow-maturity-levels" class="text-primary hover:underline ml-1">Where Does Your Organization Stand on the Workflow Journey? →</a>
+        <a href="/en/insights/workflow/workflow-maturity-journey" class="text-primary hover:underline ml-1">Where Is Your Business on the Workflow Journey? →</a>
       </p>
     `}
   />
@@ -79,9 +93,20 @@ const typeBadgeClass: Record<string, string> = {
     <div class="relative mx-auto px-4 sm:px-6 py-8 md:py-12" style="max-width: 900.5px;">
       <div>
         <h2 class="text-2xl font-bold mb-6 text-slate-900 dark:text-white">All Workflow articles</h2>
-      <ul class="space-y-4">
-        {workflowArticles.map((article) => (
-          <li key={article.id} class="flex items-start gap-4 group">
+      <ul class="space-y-6">
+        {workflowArticles.map((article) => {
+          const coverImg = enCovers[article.id];
+          return (
+          <li key={article.id} class="flex items-start gap-6 group">
+            {coverImg && (
+              <div class="flex-shrink-0 w-60 rounded overflow-hidden">
+                <Image
+                  src={coverImg}
+                  alt={article.data.title}
+                  class="w-full h-auto block"
+                />
+              </div>
+            )}
             <a
               href={`/en/insights/${article.data.category}/${article.id}`}
               class="flex-1 hover:underline"
@@ -89,14 +114,22 @@ const typeBadgeClass: Record<string, string> = {
               <div class="font-medium text-slate-900 dark:text-white group-hover:text-primary transition-colors">
                 {article.data.title}
               </div>
+              <div class="flex flex-wrap gap-2 mt-1">
+                {article.data.contentType && (
+                  <span class="text-xs bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-400 px-2 py-0.5 rounded">
+                    {article.data.contentType}
+                  </span>
+                )}
+                {article.data.funnelStage?.[0] && (
+                  <span class="text-xs bg-gray-50 text-gray-500 dark:bg-gray-800 dark:text-gray-400 px-2 py-0.5 rounded">
+                    {article.data.funnelStage[0]}
+                  </span>
+                )}
+              </div>
             </a>
-            {article.data.funnelStage?.[0] && (
-              <span class="px-2 py-1 rounded text-xs font-medium bg-gray-50 text-gray-500 dark:bg-gray-800 dark:text-gray-400 whitespace-nowrap">
-                {article.data.funnelStage[0]}
-              </span>
-            )}
           </li>
-        ))}
+        );
+        })}
       </ul>
       </div>
     </div>
