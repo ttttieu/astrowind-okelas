@@ -2,7 +2,9 @@
 title: "Tại sao Excel và email trở thành hệ thống vận hành ngầm"
 description: "Nhiều doanh nghiệp đã đầu tư phần mềm nhưng vẫn vận hành bằng Excel và email. Đây không phải thói quen — đây là triệu chứng của vấn đề sâu hơn."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/excel-shadow-it.png'
+coverImage: '~/assets/images/insights/xsi-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/xsi-00-og-cover-vi.png'
+coverImageAlt: "Một màn hình hệ thống chính thức bên trái và nhiều bảng tính nét đứt bên phải đại diện cho hệ thống vận hành ngầm."
 category: 'knowledge-management'
 tags: ['Shadow IT', 'Excel Systems', 'Vận Hành Hiệu Quả', 'Knowledge Management']
 translationId: 'excel-shadow-it-systems'
@@ -18,6 +20,8 @@ secondaryKeywords:
   - "Excel làm hệ thống vận hành"
   - "rủi ro file Excel"
 assessmentHref: '/readiness/knowledge-management'
+ctaPrimaryText: 'Assess your KM maturity'
+ctaSubtitle: 'Xác định mức độ trưởng thành về quản lý tri thức trong công ty bạn'
 draft: false
 ---
 
@@ -31,6 +35,8 @@ draft: false
 ---
 
 ## Bức tranh quen thuộc mà nhiều CEO không muốn thừa nhận
+
+![Hình ảnh quen thuộc: hệ thống chính thức (ERP, phần mềm) tồn tại song song với hệ thống vận hành ngầm (Excel, email, tin nhắn) mà doanh nghiệp thực sự dùng.](~/assets/images/insights/xsi-01-official-vs-reality-vi.svg)
 
 Doanh nghiệp đã đầu tư ERP hoặc phần mềm quản lý. Đã trải qua implementation. Nhân viên đã được đào tạo.
 
@@ -48,6 +54,8 @@ ERP vẫn chạy. Phần mềm vẫn hoạt động. Nhưng thực tế vận h�
 ---
 
 ## Shadow IT trong doanh nghiệp sản xuất — không phải thói quen, là phản ứng hợp lý
+
+![Shadow IT không phải thói quen — là phản ứng hợp lý khi hệ thống chính không đáp ứng nhu cầu thực tế: kế hoạch sản xuất, đơn khẩn, QC đều có file Excel riêng với lý do cụ thể.](~/assets/images/insights/xsi-02-why-excel-persists-vi.svg)
 
 Khi đặt câu hỏi tại sao nhân viên vẫn dùng Excel sau khi đã có phần mềm, câu trả lời thường là: "thói quen", "ngại học", "chúng ta cần training lại".
 
@@ -72,6 +80,8 @@ Trong từng trường hợp, Excel không tồn tại vì lười biếng — n
 ---
 
 ## Tại sao Excel không bị thay thế — ba đặc điểm không phần mềm nào sánh được
+
+![Ba đặc điểm Excel không phần mềm nào sánh được: linh hoạt vô hạn trong cấu trúc, công cụ phân tích và trình bày tức thì, và không cần IT để thay đổi.](~/assets/images/insights/xsi-03-three-advantages-vi.svg)
 
 Để hiểu tại sao Excel dai dẳng đến vậy trong doanh nghiệp, cần hiểu ba đặc điểm mà không phần mềm chuyên biệt nào có thể sánh được một cách dễ dàng.
 
@@ -98,6 +108,8 @@ Trong môi trường sản xuất, nhu cầu vận hành thay đổi liên tục
 ---
 
 ## Rủi ro của hệ thống vận hành ngầm
+
+![Bốn rủi ro của hệ thống vận hành ngầm: tri thức phân tán không kiểm soát, mất dữ liệu khi người quan trọng rời đi, không có audit trail, và quyết định dựa trên thông tin không đồng bộ.](~/assets/images/insights/xsi-04-four-risks-vi.svg)
 
 Điểm vừa nêu không phủ nhận giá trị của Excel trong những tình huống đúng. Vấn đề không phải Excel tự nó — vấn đề là khi Excel trở thành **hệ thống vận hành chính** thay vì công cụ hỗ trợ.
 
@@ -126,6 +138,8 @@ Khi nhiều người đang dùng nhiều file Excel khác nhau với thông tin 
 ---
 
 ## Bước tiếp theo — không phải cấm Excel
+
+![Bước tiếp theo không phải cấm Excel: hiểu Excel đang dùng để làm gì, xác định file chứa tri thức quan trọng, và giải quyết nhu cầu gốc rễ thay vì chỉ thay đổi công cụ.](~/assets/images/insights/xsi-05-next-steps-vi.svg)
 
 Một sai lầm phổ biến khi CEO hoặc IT Manager nhận ra quy mô của shadow IT là phản ứng bằng cách "cấm Excel" hoặc "bắt buộc mọi người dùng hệ thống chính".
 

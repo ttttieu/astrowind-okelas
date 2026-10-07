@@ -2,7 +2,9 @@
 title: "The Excel and Email Trap: Why Spreadsheets Become Your Shadow Operating System"
 description: "Many businesses have invested in software but still run operations on Excel and email. This isn't just a habit — it's a symptom of something deeper. Here's what's actually happening."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/excel-shadow-it.png'
+coverImage: '~/assets/images/insights/xsi-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/xsi-00-og-cover-en.png'
+coverImageAlt: "An official system screen on the left and several dashed spreadsheets on the right representing shadow systems."
 category: 'knowledge-management'
 tags: ['Shadow IT', 'Excel Systems', 'Operational Efficiency', 'Knowledge Management']
 translationId: 'excel-shadow-it-systems'
@@ -18,6 +20,8 @@ secondaryKeywords:
   - "Excel as operating system"
   - "spreadsheet management risks"
 assessmentHref: '/en/readiness/knowledge-management'
+ctaPrimaryText: 'Assess your KM maturity'
+ctaSubtitle: 'Identify your knowledge management maturity level in your organization'
 draft: false
 ---
 
@@ -31,6 +35,8 @@ draft: false
 ---
 
 ## A picture many CEOs recognize but don't want to admit
+
+![The familiar picture: official systems (ERP, software) exist alongside the shadow operating layer (Excel, email, messaging) that operations actually run on.](~/assets/images/insights/xsi-01-official-vs-reality-en.svg)
 
 The business has invested in an ERP or management software system. Implementation is complete. Employees have been trained.
 
@@ -48,6 +54,8 @@ This isn't the story of one specific organization. It's a pattern common enough 
 ---
 
 ## Shadow IT in manufacturing — not a habit, a rational response
+
+![Shadow IT is not a habit — it's a rational response when the official system doesn't meet real needs: production plans, urgent orders, and QC each have their own Excel file for specific reasons.](~/assets/images/insights/xsi-02-why-excel-persists-en.svg)
 
 When asked why employees still use Excel after new software has been deployed, the typical answer is: "habit," "resistance to change," "we need more training."
 
@@ -72,6 +80,8 @@ In each case, Excel isn't there because of laziness — it's there because it do
 ---
 
 ## Why Excel never fully gets replaced — three advantages no dedicated software can easily match
+
+![Three advantages Excel has that no dedicated software can easily match: infinite structural flexibility, instant analysis and presentation, and no IT required to change.](~/assets/images/insights/xsi-03-three-advantages-en.svg)
 
 Understanding why Excel persists requires recognizing three characteristics that make it genuinely superior in everyday use.
 
@@ -98,6 +108,8 @@ In a manufacturing environment, operational needs change constantly and can't wa
 ---
 
 ## The risks of running on shadow systems
+
+![Four risks of running on shadow systems: knowledge becomes dispersed and uncontrolled, data loss when key people leave, no audit trail, and decisions made on unsynchronized information.](~/assets/images/insights/xsi-04-four-risks-en.svg)
 
 The points above aren't a defense of Excel in all contexts. The problem isn't Excel itself — it's when Excel becomes the **primary operating system** rather than a support tool.
 
@@ -126,6 +138,8 @@ When multiple people are working from different Excel files that aren't synchron
 ---
 
 ## The next step — not banning Excel
+
+![The next step is not banning Excel: understand what Excel is being used for, identify which files contain important knowledge, and address the underlying need rather than just changing the tool.](~/assets/images/insights/xsi-05-next-steps-en.svg)
 
 A common mistake when a CEO or IT Manager recognizes the scale of shadow IT is to respond by "banning Excel" or "mandating the official system."
 
