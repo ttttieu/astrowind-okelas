@@ -2,7 +2,9 @@
 title: "Why Audit Preparation Takes Weeks — and What That Reveals"
 description: "If every audit requires weeks of scrambling to gather records, the problem isn't the audit — it's that your system isn't ready for scrutiny."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/audit-preparation-time.png'
+coverImage: '~/assets/images/insights/aud-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/aud-00-og-cover-en.png'
+coverImageAlt: "On one side a team scrambling to gather records before audit; on the other an organization quickly consolidating evidence already captured during operations."
 category: 'knowledge-management'
 tags: ['Audit', 'Compliance', 'Documentation', 'Process Management']
 translationId: 'audit-preparation-readiness'
@@ -18,6 +20,8 @@ secondaryKeywords:
   - "audit readiness"
   - "evidence documentation"
 assessmentHref: '/en/readiness/knowledge-management'
+ctaPrimaryText: 'Assess your KM maturity'
+ctaSubtitle: 'Identify your knowledge management maturity level in your organization'
 draft: false
 ---
 
@@ -32,6 +36,8 @@ This is a familiar scene at many ISO or GMP-certified businesses.
 ---
 
 ## Audit should not be an emergency
+
+![Audit as emergency: weeks of scrambling to find records, gather evidence, update documents; audit-ready: quickly consolidate what was already captured during normal operations.](~/assets/images/insights/aud-01-scramble-vs-consolidate-en.svg)
 
 One thing worth saying directly: if audit preparation is a weeks-long mobilization effort, the problem isn't that the audit is difficult or the auditor is demanding.
 
@@ -51,6 +57,8 @@ When audit preparation takes weeks, that's a signal that day-to-day operations a
 
 ## Three reasons preparation takes too long
 
+![Three reasons audit preparation takes too long: evidence isn't captured during operations, documents aren't maintained continuously, records are scattered with no structure for quick consolidation.](~/assets/images/insights/aud-02-three-reasons-en.svg)
+
 **Reason 1 — Evidence isn't captured during operations, so it has to be gathered after**
 
 An audit requires demonstrating: this process was executed correctly during that period. The evidence needed is inspection results, execution logs, approval signatures — things created while the actual work was being done.
@@ -65,9 +73,13 @@ SOPs, work instructions, operational procedures — many organizations update th
 
 Inspection results in an Excel file. Approval records in email threads. Meeting minutes in an unorganized shared folder. When audit consolidation is needed, there's no quick way to pull it together — everything has to be manually gathered from multiple sources.
 
+![Reconstruct (after the fact): manual gathering from multiple sources, most time-consuming and highest risk; capture (during operations): evidence created while doing the actual work.](~/assets/images/insights/aud-03-capture-vs-reconstruct-en.svg)
+
 ---
 
 ## What an audit-ready organization looks like
+
+![Audit-ready organization: evidence captured in operations → preparation is consolidation; documents maintained continuously → no sprint before audit; structured records → quick to consolidate and present.](~/assets/images/insights/aud-04-audit-ready-en.svg)
 
 An audit-ready organization isn't one with more documents. It's one with a system that captures evidence during operations — not before audits.
 
@@ -76,6 +88,8 @@ When the auditor asks: *"Demonstrate that the incoming materials inspection proc
 This doesn't require complex technology. It requires two things: processes designed to generate evidence while being executed, and a system that stores that evidence in a form that can be quickly consolidated and presented.
 
 ---
+
+![The honest question: is preparation taking a long time because the audit is difficult — or because our systems weren't designed to be ready for scrutiny at any time?](~/assets/images/insights/aud-05-hard-or-not-ready-en.svg)
 
 **If audit preparation at your organization typically involves weeks of scrambling, a question worth asking honestly:**
 

@@ -2,7 +2,9 @@
 title: "Tại sao chuẩn bị audit lại tốn nhiều công sức đến vậy?"
 description: "Nếu mỗi lần audit bạn phải huy động cả phòng để tìm hồ sơ, vấn đề không phải là audit khó — mà là hệ thống chưa sẵn sàng."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/audit-preparation-time.png'
+coverImage: '~/assets/images/insights/aud-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/aud-00-og-cover-vi.png'
+coverImageAlt: "Một bên là đội ngũ chạy đua tìm hồ sơ trước audit; bên kia là tổ chức tổng hợp nhanh bằng chứng đã được ghi nhận sẵn trong vận hành."
 category: 'knowledge-management'
 tags: ['Audit', 'Compliance', 'Documentation', 'Process Management']
 translationId: 'audit-preparation-readiness'
@@ -18,6 +20,8 @@ secondaryKeywords:
   - "audit readiness"
   - "bằng chứng documentation"
 assessmentHref: '/readiness/knowledge-management'
+ctaPrimaryText: 'Assess your KM maturity'
+ctaSubtitle: 'Xác định mức độ trưởng thành về quản lý tri thức trong công ty bạn'
 draft: false
 ---
 
@@ -32,6 +36,8 @@ Tiếp theo là hai tuần chạy đua. Tìm hồ sơ kiểm tra từ các thán
 ---
 
 ## Audit không nên là sự kiện khẩn cấp
+
+![Audit khẩn cấp: nhiều tuần chạy đua tìm hồ sơ, gom bằng chứng, cập nhật tài liệu; audit-ready: tổng hợp nhanh những gì đã được ghi nhận trong vận hành bình thường.](~/assets/images/insights/aud-01-scramble-vs-consolidate-vi.svg)
 
 Có một điều cần nói thẳng: nếu chuẩn bị audit đang là sự kiện huy động nhân lực trong nhiều tuần, vấn đề không phải là audit quá khó hay auditor quá khắt khe.
 
@@ -51,6 +57,8 @@ Khi chuẩn bị audit mất nhiều tuần, đó là tín hiệu rằng vận h
 
 ## Ba lý do chuẩn bị audit mất nhiều thời gian
 
+![Ba lý do chuẩn bị audit mất nhiều thời gian: bằng chứng không được ghi nhận trong vận hành, tài liệu không được duy trì sống, hồ sơ nằm rải rác không có cấu trúc để tổng hợp nhanh.](~/assets/images/insights/aud-02-three-reasons-vi.svg)
+
 **Lý do 1 — Bằng chứng không được ghi nhận trong vận hành, phải thu thập sau**
 
 Audit yêu cầu chứng minh: quy trình này đã được thực thi đúng trong giai đoạn đó. Bằng chứng cần là kết quả kiểm tra, log thực hiện, chữ ký phê duyệt — những thứ được tạo ra trong quá trình làm công việc thực tế.
@@ -65,9 +73,13 @@ Tài liệu quy trình, SOP, hướng dẫn vận hành — nhiều doanh nghi�
 
 Kết quả kiểm tra trong Excel. Hồ sơ phê duyệt trong email. Biên bản trong thư mục chia sẻ không có tổ chức. Khi cần tổng hợp cho audit, không có cách nào tổng hợp nhanh — phải gom thủ công từng thứ từ nhiều nguồn.
 
+![Thu thập sau (reconstruct): tìm kiếm thủ công từ nhiều nguồn, tốn thời gian nhất, rủi ro cao nhất; ghi nhận trong vận hành (capture): bằng chứng được tạo ra trong quá trình làm công việc thực tế.](~/assets/images/insights/aud-03-capture-vs-reconstruct-vi.svg)
+
 ---
 
 ## Audit-ready organization trông như thế nào
+
+![Tổ chức audit-ready: bằng chứng được ghi nhận trong vận hành → chuẩn bị là tổng hợp; tài liệu cập nhật thường xuyên → không cần sprint trước audit; hồ sơ có cấu trúc → tổng hợp và trình bày nhanh.](~/assets/images/insights/aud-04-audit-ready-vi.svg)
 
 Tổ chức sẵn sàng cho audit không phải tổ chức có nhiều tài liệu hơn — mà là tổ chức có hệ thống ghi nhận bằng chứng ngay trong quá trình vận hành.
 
@@ -76,6 +88,8 @@ Khi auditor đến hỏi: *"Chứng minh rằng quy trình kiểm tra nguyên li
 Đây không phải điều đòi hỏi công nghệ phức tạp. Nó đòi hỏi hai thứ: quy trình được thiết kế để tạo ra bằng chứng trong quá trình thực hiện, và hệ thống lưu trữ bằng chứng đó theo cách có thể tổng hợp và trình bày nhanh.
 
 ---
+
+![Câu hỏi tự đặt ra: audit tốn nhiều công sức vì audit khó — hay vì hệ thống không được thiết kế để sẵn sàng cho việc được kiểm tra bất kỳ lúc nào?](~/assets/images/insights/aud-05-hard-or-not-ready-vi.svg)
 
 **Nếu doanh nghiệp của bạn đang chuẩn bị audit theo kiểu "chạy đua", câu hỏi đáng tự đặt ra là:**
 
