@@ -20,6 +20,8 @@ secondaryKeywords:
   - "mất tri thức doanh nghiệp"
   - "employee turnover knowledge"
 assessmentHref: '/readiness/knowledge-management'
+ctaPrimaryText: 'Làm Knowledge Readiness Assessment'
+ctaSubtitle: 'Tìm hiểu xem bao nhiêu tri thức quan trọng đang nằm trong đầu người so với các hệ thống có cấu trúc.'
 draft: false
 ---
 
@@ -123,14 +125,6 @@ Và nếu câu trả lời đó khiến bạn lo ngại — đó là tín hiệu
 **Doanh nghiệp của bạn đang phụ thuộc vào tri thức cá nhân ở mức độ nào?**
 
 → [Đọc phân tích đầy đủ hơn: Từ tri thức cá nhân đến tri thức tổ chức](/insights/knowledge-management/quan-ly-tri-thuc-doanh-nghiep-san-xuat)
-
----
-
-**Đánh giá KM maturity**
-
-Tìm hiểu xem bao nhiêu tri thức quan trọng đang nằm trong đầu người so với các hệ thống có cấu trúc.
-
-→ [Làm Knowledge Readiness Assessment](/readiness/knowledge-management)
 
 ---
 

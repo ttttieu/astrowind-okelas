@@ -20,6 +20,8 @@ secondaryKeywords:
   - "tacit knowledge loss"
   - "organizational knowledge risk"
 assessmentHref: '/en/readiness/knowledge-management'
+ctaPrimaryText: 'Take the Knowledge Readiness Assessment'
+ctaSubtitle: 'Find out how much critical knowledge lives in people''s heads versus structured systems.'
 draft: false
 ---
 
@@ -123,14 +125,6 @@ And if that answer is uncomfortable, that discomfort is the right signal to star
 **How dependent is your organization on individual knowledge?**
 
 → [Read the full analysis: From Individual Knowledge to Organizational Knowledge](/en/insights/knowledge-management/knowledge-management-manufacturing)
-
----
-
-**Assess your KM maturity**
-
-Find out how much critical knowledge lives in people's heads versus structured systems.
-
-→ [Take the Knowledge Readiness Assessment](/en/readiness/knowledge-management)
 
 ---
 

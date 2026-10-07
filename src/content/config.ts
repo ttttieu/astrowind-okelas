@@ -59,6 +59,10 @@ const insightsCollection = defineCollection({
     assessmentHref: z.string().optional(),
     internalLinks: z.array(z.string()).optional(),
 
+    // CTA block (Block 8 in InsightArticleLayout)
+    ctaPrimaryText: z.string().optional(),
+    ctaSubtitle: z.string().optional(),
+
     // Draft flag — draft: true articles are excluded from production builds
     draft: z.boolean().default(false),
   }),
