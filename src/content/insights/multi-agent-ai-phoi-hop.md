@@ -2,6 +2,9 @@
 title: "Khi các AI Agent bắt đầu phối hợp: multi-agent behavior và những điều cần lưu ý"
 description: "Một agent có giới hạn quyền hạn. Nhiều agent phối hợp có thể tạo ra hành vi và tác động lớn hơn tổng quyền được cấp. Đây là lý do multi-agent system cần một lớp kiểm soát riêng."
 publishDate: 2026-09-23T00:00:00Z
+coverImage: '~/assets/images/insights/multi-agent-ai-phoi-hop/amas-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/multi-agent-ai-phoi-hop/amas-00-og-cover-vi.png'
+coverImageAlt: "Bên trái là ba agent có quyền riêng hẹp; bên phải là một khối quyền hiệu dụng lớn hơn, nối bằng mũi tên nét đứt có nhãn có thể vượt tổng."
 translationId: article-6-6-multi-agent-systems
 lang: vi
 category: ai
@@ -18,6 +21,8 @@ secondaryKeywords:
   - "multi-agent behavior"
   - "AI agent communication"
 assessmentHref: /readiness/ai
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---
 
@@ -41,6 +46,8 @@ Câu hỏi quan trọng ở đây không phải "mỗi agent trong hệ thống 
 
 ## Multi-agent system là gì
 
+![Sơ đồ: một orchestrator quyền rộng nối xuống ba sub-agent quyền hẹp.](~/assets/images/insights/multi-agent-ai-phoi-hop/amas-01-orchestrator-vi.svg)
+
 Một multi-agent system trong bối cảnh doanh nghiệp thường có cấu trúc: một **agent điều phối (orchestrator)** nhận một nhiệm vụ tổng quát, chia nhỏ thành các nhiệm vụ con, và giao cho các **agent chuyên trách (sub-agent)** — mỗi agent con thường được thiết kế cho một phạm vi hẹp. Kết quả từ các agent con được orchestrator tổng hợp lại và trả về, hoặc dùng để quyết định bước tiếp theo.
 
 Về lý thuyết, mô hình này có vẻ an toàn hơn một agent duy nhất làm mọi việc: mỗi agent con chỉ cần quyền hạn hẹp, tương ứng đúng với nhiệm vụ của nó — đúng tinh thần least privilege. Nhưng cấu trúc này cũng tạo ra một điểm mới cần chú ý: **bản thân agent điều phối, để làm được việc của mình, thường cần quyền truy cập hoặc khả năng giao tiếp rộng hơn bất kỳ agent con nào.**
@@ -48,6 +55,8 @@ Về lý thuyết, mô hình này có vẻ an toàn hơn một agent duy nhất 
 ---
 
 ## Tại sao nhiều agent tạo ra dynamics khác
+
+![Chuỗi ba khối: người dùng không có quyền, compiler dùng quyền của mình, file billing bị ghi đè; bên dưới là một ghi chú.](~/assets/images/insights/multi-agent-ai-phoi-hop/amas-02-confused-deputy-vi.svg)
 
 **Claim:** Vị trí "điều phối" trong một hệ thống multi-agent tái tạo chính xác điều kiện của một lỗ hổng bảo mật đã được biết đến từ nhiều thập kỷ trước — **confused deputy problem**.
 
@@ -63,15 +72,21 @@ Agent điều phối, dù không "xấu", có thể bị một agent con (hoặc
 
 ## Câu hỏi về quyền hạn tổng hợp
 
+![Ba agent có quyền riêng đổ vào một khối quyền hiệu dụng của hệ thống, lớn hơn tổng các phần.](~/assets/images/insights/multi-agent-ai-phoi-hop/amas-03-aggregation-vi.svg)
+
 Đây là điều CSA gọi là **"the aggregation problem"** trong mạng lưới multi-agent: quyền hạn hiệu quả của toàn hệ thống có thể lớn hơn tổng quyền hạn được cấp cho từng agent riêng lẻ, vì thông tin có thể được chuyển tiếp qua nhiều agent theo những đường đi không ai thiết kế trước.
 
 Câu hỏi thực tế mà mọi CIO/IT Architect cần tự hỏi: **"nếu cộng tất cả các đường truy xuất và chuyển tiếp thông tin có thể xảy ra giữa các agent trong hệ thống này lại, phạm vi dữ liệu và hành động thực tế có thể đạt được là gì — và nó có vượt quá những gì bất kỳ cá nhân agent nào được cấp phép riêng lẻ hay không?"** Đây là câu hỏi mà việc kiểm tra từng agent riêng lẻ không trả lời được.
 
 Đây cũng là lý do một lớp trung gian có tính xác định — như cách KVM (đã trình bày trong Pillar 6) buộc mọi truy cập tri thức tổ chức phải đi qua các thao tác được kiểm chứng (Trace, FindEvidence, Resolve) thay vì để agent tự do truy cập và chuyển tiếp dữ liệu thô cho nhau — là một hướng kiến trúc có thể giảm bớt bề mặt cho vấn đề tổng hợp quyền hạn.
 
+![Ba agent đi vào khối KVM với ba chức năng Trace, FindEvidence, Resolve, rồi tới tri thức tổ chức.](~/assets/images/insights/multi-agent-ai-phoi-hop/amas-05-kvm-intermediary-vi.svg)
+
 ---
 
 ## Hàm ý cho enterprise control
+
+![Ba hàng đánh số, mỗi hàng là một hàm ý cho doanh nghiệp.](~/assets/images/insights/multi-agent-ai-phoi-hop/amas-04-implications-vi.svg)
 
 Từ phân tích trên, ba hàm ý cụ thể khi doanh nghiệp thiết kế hoặc đánh giá một hệ thống multi-agent:
 

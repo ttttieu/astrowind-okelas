@@ -2,6 +2,9 @@
 title: "Multi-Agent AI: When Coordination Creates Capabilities Beyond Individual Boundaries"
 description: "A single agent has bounded authority. Multiple agents coordinating can create behaviors and impacts larger than the sum of their individual permissions. Here's why multi-agent systems need a separate control layer."
 publishDate: 2026-09-23T00:00:00Z
+coverImage: '~/assets/images/insights/multi-agent-ai-system-risks/amas-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/multi-agent-ai-system-risks/amas-00-og-cover-en.png'
+coverImageAlt: "On the left, three agents with narrow permissions; on the right, a larger effective-authority block, joined by a dashed arrow labelled can exceed the sum."
 translationId: article-6-6-multi-agent-systems
 lang: en
 category: ai
@@ -17,6 +20,8 @@ secondaryKeywords:
   - "multi-agent control"
   - "agent to agent communication"
 assessmentHref: /en/readiness/ai
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Identify your AI readiness level'
 draft: false
 ---
 
@@ -40,6 +45,8 @@ The important question here isn't "is each agent in this system safe" — it's *
 
 ## What a Multi-Agent System Is
 
+![Diagram: a broad-access orchestrator connected down to three narrow-access sub-agents.](~/assets/images/insights/multi-agent-ai-system-risks/amas-01-orchestrator-en.svg)
+
 A multi-agent system in an enterprise context typically has this structure: an **orchestrator agent** receives a general task, breaks it into subtasks, and hands them to **specialized sub-agents** — each usually built for a narrow scope (a customer data lookup agent, a drafting agent, a compliance-checking agent, say). Results from the sub-agents get aggregated by the orchestrator and returned, or used to decide the next step.
 
 In theory, this model seems safer than a single agent doing everything: each sub-agent only needs a narrow authority scope matching its own task — exactly the least-privilege principle. But this structure also creates a new point worth watching: **the orchestrator itself, to do its job, typically needs broader access or communication capability than any single sub-agent** — it needs to know how to call each sub-agent, aggregate results from multiple sources, and decide the next step based on the full picture.
@@ -47,6 +54,8 @@ In theory, this model seems safer than a single agent doing everything: each sub
 ---
 
 ## Why Multiple Agents Create Different Dynamics
+
+![Chain of three blocks: the user has no right, the compiler uses its own right, the billing file is overwritten; a note sits below.](~/assets/images/insights/multi-agent-ai-system-risks/amas-02-confused-deputy-en.svg)
 
 The "orchestrator" position in a multi-agent system exactly reproduces the conditions of a security vulnerability known for decades — the **confused deputy problem**.
 
@@ -62,17 +71,23 @@ An orchestrator agent, without being "malicious," can be manipulated by a sub-ag
 
 ## The Question of Aggregate Authority
 
+![Three agents with their own permissions feed into one effective system-reach block, larger than the sum of its parts.](~/assets/images/insights/multi-agent-ai-system-risks/amas-03-aggregation-en.svg)
+
 This is what the CSA calls **"the aggregation problem"** in multi-agent networks: the effective authority of the whole system can exceed the sum of each individual agent's granted permissions, because information can be relayed through multiple agents along paths nobody designed in advance.
 
 The practical question every CIO/IT architect should ask: **"if you add up every possible path of information retrieval and relay between agents in this system, what's the actual reachable scope of data and action — and does it exceed what any single agent was individually authorized for?"** This is a question that testing each agent individually, however thoroughly, can't answer — because the risk lives in the information flow between agents, not inside any single one of them.
 
 This is also why a deterministic intermediary layer — such as how KVM forces every access to organizational knowledge through verifiable operations (Trace, FindEvidence, Resolve) rather than letting agents freely access and relay raw data to each other — is an architectural direction that can reduce the surface area for the aggregation problem.
 
+![Three agents enter a KVM block with three functions, Trace, FindEvidence, Resolve, then organizational knowledge.](~/assets/images/insights/multi-agent-ai-system-risks/amas-05-kvm-intermediary-en.svg)
+
 → *Related: [Least Privilege for AI Agents: Designing Authority That Matches the Task](/en/insights/ai/least-privilege-ai-agent)*
 
 ---
 
 ## Enterprise Control Implications
+
+![Three numbered rows, each an implication for enterprise control.](~/assets/images/insights/multi-agent-ai-system-risks/amas-04-implications-en.svg)
 
 From the analysis above, three concrete implications for designing or evaluating a multi-agent system:
 
