@@ -18,6 +18,12 @@ secondaryKeywords:
   - "data migration ERP"
   - "chuẩn bị dữ liệu ERP"
   - "làm sạch dữ liệu trước ERP |"
+assessmentHref: /readiness/erp
+ctaPrimaryText: 'Assess your ERP readiness'
+ctaSubtitle: 'Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn'
+coverImage: '~/assets/images/insights/erpd-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/erpd-00-og-cover-vi.png'
+coverImageAlt: "Một lưới bản ghi có vài ô lỗi đi vào khối ERP, và các lỗi xuất hiện lại ở báo cáo, cảnh báo tồn kho và đơn mua hàng."
 draft: false
 ---
 
@@ -56,6 +62,8 @@ Trên thực tế, data migration được coi rộng rãi là một trong nhữ
 
 ## ERP cần loại dữ liệu nào?
 
+![ERP cần hai loại dữ liệu: master data (sản phẩm, nhà cung cấp, khách hàng, chart of accounts, cơ cấu tổ chức) phải chính xác trước go-live, và transactional data (đơn hàng, hóa đơn, tồn kho, số dư kế toán) mà mức độ chuyển là quyết định kinh doanh.](~/assets/images/insights/erpd-01-two-kinds-of-data-vi.svg)
+
 Để hiểu tại sao data readiness khó, cần biết ERP thực sự yêu cầu gì.
 
 Có hai nhóm dữ liệu chính:
@@ -82,6 +90,8 @@ Quyết định migrate bao nhiêu transactional data là một quyết định 
 
 ## Vì sao dữ liệu hiện tại thường không đủ chuẩn
 
+![Năm lý do dữ liệu hiện tại hiếm khi sẵn sàng: trùng lặp và không nhất quán, không đầy đủ, nằm ở nhiều nơi, định nghĩa không nhất quán và tồn kho sổ sách không khớp thực tế.](~/assets/images/insights/erpd-02-five-data-problems-vi.svg)
+
 Dưới đây là những vấn đề phổ biến nhất mà các dự án ERP gặp phải khi kiểm tra dữ liệu hiện tại:
 
 ### Trùng lặp và không nhất quán
@@ -104,6 +114,8 @@ Câu hỏi đơn giản nhưng thường không có câu trả lời ngay: *Phi�
 
 ### Định nghĩa không nhất quán
 
+![Cùng một từ có hai định nghĩa: tồn kho ở kho gồm hàng đang về còn kế toán chỉ tính hàng đã nhập kho; khách hàng ở hệ thống kinh doanh gồm khách tiềm năng còn ERP chỉ cần khách đã có giao dịch.](~/assets/images/insights/erpd-03-same-word-two-meanings-vi.svg)
+
 Đây là vấn đề tinh tế hơn. Ví dụ: "tồn kho" trong bộ phận kho có thể bao gồm hàng đang trên đường về, trong khi "tồn kho" trong kế toán chỉ tính hàng đã vào kho thực tế. "Khách hàng" trong hệ thống kinh doanh có thể bao gồm cả khách hàng tiềm năng, trong khi ERP chỉ muốn khách hàng đã có giao dịch.
 
 Khi những định nghĩa này không được làm rõ trước khi migration, dữ liệu được chuyển vào ERP theo cách không ai thực sự hiểu rõ — và vấn đề chỉ được phát hiện khi báo cáo bắt đầu cho ra con số không ai tin.
@@ -118,6 +130,8 @@ Không ít doanh nghiệp phát hiện sai lệch tồn kho lớn lần đầu t
 
 ## Chi phí ẩn của data migration kém chuẩn bị
 
+![Bốn chi phí ẩn của chuẩn bị dữ liệu kém: kéo dài timeline, quyết định dựa trên dữ liệu sai, sửa sau go-live đắt hơn và mất niềm tin vào hệ thống, là chi phí khó phục hồi nhất.](~/assets/images/insights/erpd-04-hidden-costs-vi.svg)
+
 Vấn đề data migration thường không xuất hiện như một rủi ro rõ ràng trong kế hoạch dự án. Nó ẩn dưới dạng các chi phí và hậu quả khác:
 
 **Kéo dài timeline.** Làm sạch dữ liệu mất nhiều thời gian hơn dự kiến là nguyên nhân phổ biến khiến go-live bị lùi so với kế hoạch. Mỗi tuần kéo dài là chi phí nhân sự, chi phí triển khai, và chi phí cơ hội.
@@ -131,6 +145,8 @@ Vấn đề data migration thường không xuất hiện như một rủi ro r�
 ---
 
 ## Checklist data readiness — trước khi bắt đầu ERP
+
+![Năm nhóm cần kiểm tra trước ERP, mỗi nhóm một câu hỏi đại diện: sản phẩm/SKU, nhà cung cấp và khách hàng, tồn kho, kế toán và quản trị dữ liệu.](~/assets/images/insights/erpd-05-readiness-checklist-vi.svg)
 
 Đây là các câu hỏi để tự đánh giá mức độ sẵn sàng của dữ liệu:
 

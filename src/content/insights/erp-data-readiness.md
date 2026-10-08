@@ -18,6 +18,12 @@ secondaryKeywords:
   - "clean data for ERP"
   - "ERP data preparation"
   - "data quality ERP implementation |"
+assessmentHref: /en/readiness/erp
+ctaPrimaryText: 'Assess your ERP readiness'
+ctaSubtitle: 'Identify your ERP readiness level'
+coverImage: '~/assets/images/insights/erpd-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/erpd-00-og-cover-en.png'
+coverImageAlt: "A grid of records with a few faulty cells enters the ERP block, and the faults reappear in reports, inventory alerts and purchase orders."
 draft: false
 ---
 
@@ -43,6 +49,8 @@ More fundamentally: poor data does not get cleaned by moving it into ERP. It bec
 ---
 
 ## What Data Does ERP Actually Need?
+
+![ERP needs two kinds of data: master data (products, vendors, customers, chart of accounts, organizational structure), which must be accurate before go-live, and transactional data (orders, invoices, inventory, balances), where how much to migrate is a business decision.](~/assets/images/insights/erpd-01-two-kinds-of-data-en.svg)
 
 Understanding why data readiness is difficult starts with understanding what ERP actually requires.
 
@@ -70,6 +78,8 @@ Deciding how much historical data to migrate is a business decision, not a techn
 
 ## Why Existing Data Is Rarely Actually Ready
 
+![Five reasons existing data is rarely ready: duplicates and inconsistency, incomplete records, data scattered across sources, inconsistent definitions and book inventory that does not match reality.](~/assets/images/insights/erpd-02-five-data-problems-en.svg)
+
 These are the most common data quality problems that ERP projects surface during migration preparation:
 
 ### Duplicates and inconsistency
@@ -92,6 +102,8 @@ The question is simple but rarely has an immediate answer: *which version is cor
 
 ### Inconsistent definitions
 
+![The same word carries two definitions: inventory in the warehouse includes goods in transit while accounting counts only goods received; a customer in the sales system includes prospects while ERP needs only entities with actual transaction history.](~/assets/images/insights/erpd-03-same-word-two-meanings-en.svg)
+
 This is a subtler problem. For example: "inventory" in the warehouse team's system might include goods in transit, while "inventory" in accounting only counts goods physically received. "Customers" in the sales system might include prospects, while ERP should only contain entities with actual transaction history.
 
 When these definitions are not resolved before migration, data enters ERP in a form that no one fully understands — and the problem only surfaces when reports start producing numbers that no one can explain.
@@ -106,6 +118,8 @@ It is not uncommon for organizations to discover significant inventory discrepan
 
 ## The Real Cost of Inadequate Data Preparation
 
+![Four hidden costs of inadequate data preparation: timeline delays, decisions on wrong data, costlier fixes after go-live and lost confidence in the system, the hardest to recover.](~/assets/images/insights/erpd-04-hidden-costs-en.svg)
+
 Data migration problems rarely appear as explicit risks in a project plan. They surface as other costs and consequences:
 
 **Timeline delays.** Data cleaning taking longer than expected is one of the most common reasons go-live dates are pushed. Every week of delay carries personnel costs, implementation fees, and opportunity costs.
@@ -119,6 +133,8 @@ Data migration problems rarely appear as explicit risks in a project plan. They 
 ---
 
 ## Data Readiness Checklist — Before Starting ERP
+
+![Five areas to check before ERP, each with one representative question: product catalog and SKUs, vendors and customers, inventory, accounting and data governance.](~/assets/images/insights/erpd-05-readiness-checklist-en.svg)
 
 Questions to assess your current data readiness:
 
