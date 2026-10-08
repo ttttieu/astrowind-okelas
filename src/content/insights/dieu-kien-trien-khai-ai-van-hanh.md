@@ -2,7 +2,9 @@
 title: "AI Readiness: 6 điều kiện để AI thực sự có ích trong vận hành"
 description: "Không phải doanh nghiệp nào cũng sẵn sàng cho AI ở cấp vận hành. Bài viết trình bày 6 điều kiện cụ thể mà CEO/CIO cần đánh giá trước khi đầu tư."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/ai-readiness-checklist.png'
+coverImage: '~/assets/images/insights/dieu-kien-trien-khai-ai-van-hanh/rdy-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/dieu-kien-trien-khai-ai-van-hanh/rdy-00-og-cover-vi.png'
+coverImageAlt: "Lưới sáu ô vuông, bốn ô có dấu tích, đặt cạnh một khối \"giá trị vận hành\" với mũi tên nối."
 category: 'ai'
 tags: ['AI Readiness', 'AI Vận Hành', 'Triển Khai AI', 'Doanh Nghiệp']
 translationId: 'ai-readiness-checklist'
@@ -18,6 +20,8 @@ secondaryKeywords:
   - 'yêu cầu AI vận hành'
   - 'organizational AI preparation'
 assessmentHref: '/readiness/ai'
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---
 
@@ -31,6 +35,8 @@ draft: false
 ---
 
 ## Tại sao cần framework đánh giá AI readiness
+
+![Sáu ô kiểm tra xếp thành lưới, mỗi ô là một chiều đánh giá kèm một câu hỏi tự kiểm; các chiều song song, không theo thứ tự tuần tự.](~/assets/images/insights/dieu-kien-trien-khai-ai-van-hanh/rdy-01-six-dimensions-checklist-vi.svg)
 
 Phần lớn các cuộc thảo luận về AI trong doanh nghiệp bắt đầu từ câu hỏi sai.
 
@@ -60,6 +66,8 @@ Doanh nghiệp có thể mạnh ở một số chiều và yếu ở chiều kh�
 
 ### Điều kiện 1 — Dữ liệu có cấu trúc và có thể truy vấn
 
+![So sánh hai cột: dữ liệu tĩnh như tài liệu và SOP đủ cho tra cứu; dữ liệu vận hành như kết quả kiểm tra và trạng thái đơn hàng cần có cấu trúc để AI trả lời câu hỏi vận hành.](~/assets/images/insights/dieu-kien-trien-khai-ai-van-hanh/rdy-02-static-vs-operational-vi.svg)
+
 **Vấn đề cốt lõi:** AI cần dữ liệu. Nhưng không phải mọi "dữ liệu" đều dùng được cho AI ở cấp vận hành.
 
 Hai loại dữ liệu cần phân biệt rõ.
@@ -78,6 +86,8 @@ Dữ liệu vận hành đáp ứng yêu cầu AI readiness khi:
 ---
 
 ### Điều kiện 2 — Quy trình được định nghĩa đủ để AI tham gia
+
+![Bốn câu hỏi kiểm tra một quy trình: ai làm bước nào, bước nào tạo bằng chứng, điều kiện chuyển bước, ai phê duyệt; mỗi câu có ô chọn "có văn bản" hoặc "chưa rõ".](~/assets/images/insights/dieu-kien-trien-khai-ai-van-hanh/rdy-03-four-process-questions-vi.svg)
 
 **Vấn đề cốt lõi:** AI không thể thực thi, hỗ trợ, hoặc kiểm soát một quy trình không được định nghĩa rõ ràng.
 
@@ -113,6 +123,8 @@ Khi tri thức tổ chức chỉ tồn tại dưới dạng file Word/PDF trong 
 ---
 
 ### Điều kiện 4 — Governance: AI được phép làm gì?
+
+![Bốn mảng governance, mỗi mảng một câu hỏi: phân quyền, xác minh, truy vết và leo thang khi AI không chắc chắn.](~/assets/images/insights/dieu-kien-trien-khai-ai-van-hanh/rdy-04-governance-four-areas-vi.svg)
 
 **Vấn đề cốt lõi:** AI trong môi trường doanh nghiệp không hoạt động trong chân không. Nó là một thành phần trong hệ thống có người và có trách nhiệm pháp lý.
 
@@ -173,6 +185,8 @@ Organizational context không phải thứ có thể "tải lên" một lần v�
 ---
 
 ## Đọc framework này như thế nào
+
+![Ba cặp nhãn so sánh một chiều mạnh với một chiều yếu, kèm hệ quả: AI phân tích được lịch sử nhưng không hỗ trợ workflow; AI tham gia được nhưng thiếu trách nhiệm; AI hiểu quy trình nhưng không tiếp cận dữ liệu ở hệ thống khác.](~/assets/images/insights/dieu-kien-trien-khai-ai-van-hanh/rdy-05-imbalance-examples-vi.svg)
 
 Sáu điều kiện trên không phải rào cản tuyến tính. Chúng là sáu chiều đánh giá.
 
