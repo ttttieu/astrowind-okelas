@@ -19,6 +19,11 @@ secondaryKeywords:
   - "doanh nghiệp có nên dùng ERP"
   - "điều kiện triển khai ERP |"
 assessmentHref: /readiness/erp
+ctaPrimaryText: 'Assess your ERP readiness'
+ctaSubtitle: 'Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn'
+coverImage: '~/assets/images/insights/erpr-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/erpr-00-og-cover-vi.png'
+coverImageAlt: "Tám chấm, một nửa đặc và một nửa viền đứt, phải đi qua một cổng sẵn sàng trước khi tới khối ERP."
 draft: false
 ---
 
@@ -34,6 +39,8 @@ Không phải sẵn sàng về ngân sách. Không phải sẵn sàng về ý ch
 
 ## ERP không phải bước đầu tiên
 
+![ERP, vận hành dựa trên quy trình, đứng trên bốn nền tảng của tổ chức: quy trình đủ rõ, dữ liệu đủ sạch, con người sẵn sàng thay đổi và quản trị có người chịu trách nhiệm; thiếu nền tảng thì ERP khuếch đại sự hỗn loạn.](~/assets/images/insights/erpr-01-four-foundations-vi.svg)
+
 ERP là một hệ thống vận hành dựa trên quy trình. Nó ghi nhận giao dịch, kết nối dữ liệu giữa các bộ phận và tạo ra báo cáo — nhưng chỉ khi doanh nghiệp đã có quy trình đủ rõ để cấu hình vào hệ thống, dữ liệu đủ sạch để tin cậy, và con người sẵn sàng thay đổi cách làm việc.
 
 Khi những điều kiện đó chưa có, ERP không tạo ra trật tự. Nó cố định và khuếch đại sự hỗn loạn đã tồn tại — chỉ là tốn kém hơn và khó tháo gỡ hơn.
@@ -44,11 +51,15 @@ Khi những điều kiện đó chưa có, ERP không tạo ra trật tự. Nó 
 
 ## 8 câu hỏi để tự đánh giá mức độ sẵn sàng
 
+![Tám câu hỏi tự đánh giá mức độ sẵn sàng cho ERP, nhóm theo bốn chiều: quy trình, dữ liệu, con người, phạm vi và quản trị.](~/assets/images/insights/erpr-02-eight-questions-vi.svg)
+
 Không cần chuyên gia tư vấn để trả lời những câu hỏi dưới đây. Chỉ cần trả lời trung thực.
 
 **1. Quy trình của bạn đã được ghi lại và nhất quán chưa?**
 
 Nếu bạn hỏi ba nhân viên khác nhau cách xử lý cùng một nghiệp vụ — ví dụ quy trình nhập kho hoặc phê duyệt mua hàng — họ có cho cùng một câu trả lời không? Nếu không, ERP sẽ gặp khó ngay từ bước cấu hình.
+
+![Hỏi ba nhân viên cùng một nghiệp vụ: nếu trả lời giống nhau thì quy trình nhất quán và ERP có cơ sở để cấu hình; nếu mỗi người một cách thì ERP khó cấu hình. Tình huống minh họa giả định.](~/assets/images/insights/erpr-03-three-employee-test-vi.svg)
 
 **2. Ai là người có thẩm quyền quyết định trong dự án?**
 
@@ -81,6 +92,8 @@ Không phải chỉ ký phê duyệt ngân sách. Mà là tham gia vào các quy
 ---
 
 ## Bước tiếp theo nếu câu trả lời là "chưa sẵn sàng"
+
+![Năm việc cần chuẩn bị khi chưa sẵn sàng: chuẩn hóa quy trình, làm sạch dữ liệu master, chọn phạm vi đầu nhỏ, chỉ định người chịu trách nhiệm và truyền thông với nhân viên.](~/assets/images/insights/erpr-04-preparation-priorities-vi.svg)
 
 Câu trả lời "chưa" không có nghĩa là không nên làm ERP. Có nghĩa là cần chuẩn bị trước.
 
