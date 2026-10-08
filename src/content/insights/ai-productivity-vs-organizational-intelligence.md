@@ -147,6 +147,8 @@ For AI to create value at the organizational level — not only at the individua
 
 **Governance needs to define clearly what AI is authorized to influence** and what still requires human judgment and formal approval.
 
+**Systems need to be integrated so data stays synchronized**, rather than AI hunting for information scattered across multiple silos: accounting systems, ERP, Excel, QMS, email.
+
 **Organizational context needs to be built** — AI needs to understand how the business actually operates, not just what its documents say.
 
 When these conditions are absent, AI remains useful — but at the individual level. Organizational intelligence remains a goal not yet reached.

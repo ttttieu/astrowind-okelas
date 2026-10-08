@@ -146,6 +146,8 @@ Khoảng cách giữa AI productivity và organizational intelligence không ph�
 
 **Governance phải xác định rõ AI có thể tác động vào điều gì** và điều gì vẫn cần sự phê duyệt của người có thẩm quyền.
 
+**Các hệ thống phải được tích hợp để dữ liệu đồng bộ**, thay vì AI phải tìm kiếm thông tin rải rác trong nhiều silo: kế toán, ERP, Excel, QMS, email.
+
 **Organizational context phải được xây dựng** — AI cần biết doanh nghiệp đang vận hành như thế nào, không chỉ biết nội dung các tài liệu.
 
 Khi những điều kiện này chưa có, AI vẫn hữu ích — nhưng ở cấp độ cá nhân. Organizational intelligence vẫn là mục tiêu chưa đạt được.
