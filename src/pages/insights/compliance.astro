@@ -18,7 +18,7 @@ let complianceArticles = grouped.compliance || [];
 
 // Import all VI compliance cover images from src/assets (flat directory)
 const viCoverGlob = import.meta.glob<{ default: ImageMetadata }>(
-  '/src/assets/images/insights/*-00-og-cover-vi.png',
+  '/src/assets/images/insights/**/*-00-og-cover-vi.png',
   { eager: true }
 );
 const viCovers: Record<string, ImageMetadata> = {};

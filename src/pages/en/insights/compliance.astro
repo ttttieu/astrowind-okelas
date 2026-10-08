@@ -18,7 +18,7 @@ let complianceArticles = grouped.compliance || [];
 
 // Import all EN compliance cover images from src/assets (flat directory)
 const enCoverGlob = import.meta.glob<{ default: ImageMetadata }>(
-  '/src/assets/images/insights/*-00-og-cover-en.png',
+  '/src/assets/images/insights/**/*-00-og-cover-en.png',
   { eager: true }
 );
 const enCovers: Record<string, ImageMetadata> = {};
