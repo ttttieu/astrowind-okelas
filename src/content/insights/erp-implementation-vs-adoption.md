@@ -23,7 +23,7 @@ ctaPrimaryText: 'Assess your ERP readiness'
 ctaSubtitle: 'Identify your ERP readiness level'
 coverImage: '~/assets/images/insights/erpi-00-og-cover-en.png'
 ogImage: '~/assets/images/insights/erpi-00-og-cover-en.png'
-coverImageAlt: "A go-live node and a dashed adoption node — two points on a timeline with the gap between them marked."
+coverImageAlt: "A go-live node and a dashed adoption node joined by a dashed line labeled the gap, showing a deliberate post-go-live roadmap."
 draft: false
 ---
 
@@ -52,7 +52,7 @@ draft: false
 
 ## When Does Implementation Actually End?
 
-![Go-live is the completion point of implementation — the system works technically — not the end of the journey; adoption is the new phase that begins after.](~/assets/images/insights/erpi-01-golive-is-not-adoption-en.svg)
+![Implementation is complete once the system works technically, while adoption begins when the system changes how the business runs and decides; the gap between the two is usually larger than post-go-live announcements imply.](~/assets/images/insights/erpi-01-golive-is-not-adoption-en.svg)
 
 In most ERP projects, the "end" is clearly defined: go-live day, when the system officially enters operation and the implementation partner hands over.
 
@@ -66,7 +66,7 @@ And the confusion between these two moments — treating go-live as the finish l
 
 ## What Adoption Actually Looks Like
 
-![Five signs ERP adoption has actually occurred: ERP reports used for real decisions, processes run through ERP with no parallel systems, data reliable enough for leadership, users check the system first when problems arise, and organizational knowledge stored in the system.](~/assets/images/insights/erpi-02-five-adoption-signs-en.svg)
+![Five signs that adoption has actually happened: reports drive decisions, processes run through ERP, leaders trust the data, staff check the system first and knowledge lives in the system.](~/assets/images/insights/erpi-02-five-adoption-signs-en.svg)
 
 To understand the gap, adoption needs to be defined not by login rates or transaction volumes — but by real changes in how the business operates and makes decisions.
 
@@ -84,7 +84,7 @@ By this definition, most organizations achieve implementation — but have not a
 
 ## An Illustrative Scenario: What the Gap Looks Like in Practice
 
-![Illustrative scenario six months after go-live: warehouse entering ERP but keeping a separate Excel file, production creating orders in ERP but planning by experience, accounting exporting to Excel for reports, CEO still receiving email summaries instead of ERP dashboards.](~/assets/images/insights/erpi-03-illustrative-scenario-en.svg)
+![An illustrative scenario six months after go-live at a hypothetical food processor: the warehouse keeps its own Excel, production plans from experience, accounting exports to Excel monthly and the CEO still receives weekly emailed reports.](~/assets/images/insights/erpi-03-illustrative-scenario-en.svg)
 
 *Note: The following is a composite illustrative scenario, not a specific customer case.*
 
@@ -106,7 +106,7 @@ In this scenario, ERP is functioning as a parallel data storage system — not a
 
 ## Why the Gap Exists
 
-![Five causes of the implementation-adoption gap: unreliable data at go-live, configured processes mismatching reality, no post-go-live roadmap, absent governance, and ERP data not being utilized.](~/assets/images/insights/erpi-04-five-gap-causes-en.svg)
+![Five reasons the gap exists: data not reliable at go-live, configuration that does not match reality, no post-go-live roadmap, no governance and data that is not used.](~/assets/images/insights/erpi-04-five-gap-causes-en.svg)
 
 Looking back from the scenario above, the causes are typically interrelated:
 
@@ -124,7 +124,7 @@ Looking back from the scenario above, the causes are typically interrelated:
 
 ## What the Post Go-Live Roadmap Should Include
 
-![Five-step post go-live roadmap to close the adoption gap: honest current-state assessment, systematic data quality remediation, useful reporting and dashboards, clear governance structure, and ERP knowledge management.](~/assets/images/insights/erpi-05-post-golive-roadmap-en.svg)
+![A post go-live roadmap with five parts: an honest current-state assessment, fixing data quality first, leadership-ready reporting, a clear governance structure and ERP knowledge management.](~/assets/images/insights/erpi-05-post-golive-roadmap-en.svg)
 
 Closing the adoption gap is not a new project — it is the next phase of the ERP journey, with different objectives and methods from the implementation phase.
 
@@ -142,7 +142,7 @@ Closing the adoption gap is not a new project — it is the next phase of the ER
 
 ## Does this describe your organization?
 
-![Seven signs your ERP was implemented but not adopted: shadow Excel files, manual double-checking of reports, new hires taught the real process by colleagues, empty modules or fields, first instinct to check spreadsheet when issues arise, ERP dropped during busy periods, and nobody has measured results since go-live.](~/assets/images/insights/erpi-06-seven-signs-checklist-en.svg)
+![Seven signs that ERP is implemented but not adopted, with a threshold of three or more.](~/assets/images/insights/erpi-06-seven-signs-checklist-en.svg)
 
 - Some employees keep a personal Excel "shadow system" they trust more than the ERP
 - Reports generated from ERP require manual double-checking before anyone trusts the numbers
