@@ -21,6 +21,8 @@ secondaryKeywords:
   - "từ chatbot đến AI agent"
   - "AI tự chủ"
 assessmentHref: /readiness/ai
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---
 

@@ -21,6 +21,8 @@ secondaryKeywords:
   - "goal-oriented AI"
   - "AI autonomy explained"
 assessmentHref: /en/readiness/ai
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Identify your AI readiness level'
 draft: false
 ---
 

@@ -21,6 +21,8 @@ secondaryKeywords:
   - "AI assistant vs AI agent"
   - "AI autonomy"
 assessmentHref: /en/readiness/ai
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Identify your AI readiness level'
 draft: false
 ---
 
