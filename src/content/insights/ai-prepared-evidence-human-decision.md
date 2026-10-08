@@ -20,10 +20,12 @@ secondaryKeywords:
   - "AI case file preparation"
   - "decision support workflow"
   - "AI-assisted decision making"
-assessmentHref: /en/readiness/digitalization
+assessmentHref: /en/readiness/workflow
 coverImage: '~/assets/images/insights/ai-prepared-evidence-human-decision/wfp-00-og-cover-en.png'
 ogImage: '~/assets/images/insights/ai-prepared-evidence-human-decision/wfp-00-og-cover-en.png'
 coverImageAlt: "A poor file leads the decision-maker astray; a good file is traceable, balanced and does not conclude for the decision-maker."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: "How's your work flowing?"
 draft: false
 ---
 

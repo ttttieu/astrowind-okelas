@@ -17,10 +17,12 @@ secondaryKeywords:
   - "workflow scope"
   - "full process workflow"
   - "workflow coverage"
-assessmentHref: /en/readiness/digitalization
+assessmentHref: /en/readiness/workflow
 coverImage: '~/assets/images/insights/approval-to-end-to-end-workflow/wfe-00-og-cover-en.png'
 ogImage: '~/assets/images/insights/approval-to-end-to-end-workflow/wfe-00-og-cover-en.png'
 coverImageAlt: "Approval workflow covers only a middle segment; end-to-end workflow covers the whole journey from the triggering event to the final outcome."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: "How's your work flowing?"
 draft: false
 ---
 

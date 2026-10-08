@@ -19,10 +19,12 @@ secondaryKeywords:
   - "rule-based workflow"
   - "human judgment in workflow"
   - "business rules management"
-assessmentHref: /en/readiness/digitalization
+assessmentHref: /en/readiness/workflow
 coverImage: '~/assets/images/insights/programmed-vs-nonprogrammed-decisions/wfd-00-og-cover-en.png'
 ogImage: '~/assets/images/insights/programmed-vs-nonprogrammed-decisions/wfd-00-og-cover-en.png'
 coverImageAlt: "A continuum from repetitive decisions (encode as rules) to novel decisions (human judgment); AI supports input preparation at both ends."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: "How's your work flowing?"
 draft: false
 ---
 

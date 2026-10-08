@@ -17,10 +17,12 @@ secondaryKeywords:
   - "status tracking Excel"
   - "workflow visibility"
   - "theo dõi tiến độ công việc"
-assessmentHref: /readiness/digitalization
+assessmentHref: /readiness/workflow
 coverImage: '~/assets/images/insights/theo-doi-cong-viec-email-excel/wft-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/theo-doi-cong-viec-email-excel/wft-00-og-cover-vi.png'
 coverImageAlt: "Hệ thống chính thức ghi nhận trạng thái, trong khi một hệ thống theo dõi song song gồm Excel, email và Zalo mọc lên để lấp khoảng trống."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---
 

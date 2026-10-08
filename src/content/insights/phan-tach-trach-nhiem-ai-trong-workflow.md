@@ -20,10 +20,12 @@ secondaryKeywords:
   - "phân tách nhiệm vụ workflow"
   - "AI agent quản trị rủi ro"
   - "COSO workflow AI"
-assessmentHref: /readiness/digitalization
+assessmentHref: /readiness/workflow
 coverImage: '~/assets/images/insights/phan-tach-trach-nhiem-ai-trong-workflow/wfm-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/phan-tach-trach-nhiem-ai-trong-workflow/wfm-00-og-cover-vi.png'
 coverImageAlt: "Gộp vai so với tách vai trong workflow có AI: khi một thực thể làm cả bốn vai, kiểm soát mất tác dụng."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---
 

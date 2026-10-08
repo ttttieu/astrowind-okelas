@@ -17,10 +17,12 @@ secondaryKeywords:
   - "workflow speed"
   - "next generation workflow performance"
   - "workflow ceiling"
-assessmentHref: /en/readiness/digitalization
+assessmentHref: /en/readiness/workflow
 coverImage: '~/assets/images/insights/workflow-improvement-next-level/wfn-00-og-cover-en.png'
 ogImage: '~/assets/images/insights/workflow-improvement-next-level/wfn-00-og-cover-en.png'
 coverImageAlt: "A workflow that starts when someone creates a request, versus an event-driven workflow with pre-prepared context."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: "How's your work flowing?"
 draft: false
 ---
 

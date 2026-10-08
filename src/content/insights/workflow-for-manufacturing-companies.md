@@ -21,10 +21,12 @@ secondaryKeywords:
   - "business rules workflow AI"
   - "context evidence workflow"
   - "workflow optimization manufacturing"
-assessmentHref: /en/readiness/digitalization
+assessmentHref: /en/readiness/workflow
 coverImage: '~/assets/images/insights/workflow-for-manufacturing-companies/wfq-00-og-cover-en.png'
 ogImage: '~/assets/images/insights/workflow-for-manufacturing-companies/wfq-00-og-cover-en.png'
 coverImageAlt: "The common question versus the useful question about workflow in manufacturing companies."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: "How's your work flowing?"
 draft: false
 ---
 

@@ -17,10 +17,12 @@ secondaryKeywords:
   - "work status tracking"
   - "why teams use email for status updates"
   - "workflow transparency"
-assessmentHref: /en/readiness/digitalization
+assessmentHref: /en/readiness/workflow
 coverImage: '~/assets/images/insights/email-spreadsheet-work-tracking/wft-00-og-cover-en.png'
 ogImage: '~/assets/images/insights/email-spreadsheet-work-tracking/wft-00-og-cover-en.png'
 coverImageAlt: "The official system records status, while a parallel tracking system of Excel, email and chat grows to fill the gap."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: "How's your work flowing?"
 draft: false
 ---
 

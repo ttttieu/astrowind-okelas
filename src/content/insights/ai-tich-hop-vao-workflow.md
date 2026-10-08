@@ -20,10 +20,12 @@ secondaryKeywords:
   - "workflow"
   - "ra quyết định trong workflow"
   - "human-in-the-loop workflow"
-assessmentHref: /readiness/ai
+assessmentHref: /readiness/workflow
 coverImage: '~/assets/images/insights/ai-tich-hop-vao-workflow/wfi-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/ai-tich-hop-vao-workflow/wfi-00-og-cover-vi.png'
 coverImageAlt: "Bốn giai đoạn xử lý thông tin của một workflow; AI diễn giải đầu vào và chuẩn bị evidence, còn quyền quyết định thuộc về rule hoặc con người."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---
 

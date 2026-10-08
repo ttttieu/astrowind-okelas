@@ -20,10 +20,12 @@ secondaryKeywords:
   - "AI agent vs workflow rule"
   - "choosing AI level workflow"
   - "AI agent manufacturing SME"
-assessmentHref: /en/readiness/digitalization
+assessmentHref: /en/readiness/workflow
 coverImage: '~/assets/images/insights/does-your-workflow-need-an-ai-agent/wfg-00-og-cover-en.png'
 ogImage: '~/assets/images/insights/does-your-workflow-need-an-ai-agent/wfg-00-og-cover-en.png'
 coverImageAlt: "The common question 'should we replace our workflow with an AI agent' versus the useful question 'what level of AI is right for this process'."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: "How's your work flowing?"
 draft: false
 ---
 

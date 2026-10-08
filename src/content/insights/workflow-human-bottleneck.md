@@ -18,10 +18,12 @@ secondaryKeywords:
   - "approval bottleneck"
   - "workflow delays"
   - "reducing human dependency workflow"
-assessmentHref: /en/readiness/digitalization
+assessmentHref: /en/readiness/workflow
 coverImage: '~/assets/images/insights/workflow-human-bottleneck/wfh-00-og-cover-en.png'
 ogImage: '~/assets/images/insights/workflow-human-bottleneck/wfh-00-og-cover-en.png'
 coverImageAlt: "One chain funnelled through a gate waiting on exactly one person, versus a chain routed by threshold along several paths."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: "How's your work flowing?"
 draft: false
 ---
 

@@ -18,10 +18,12 @@ secondaryKeywords:
   - "tối ưu quy trình"
   - "workflow improvement"
   - "process optimization"
-assessmentHref: /readiness/digitalization
+assessmentHref: /readiness/workflow
 coverImage: '~/assets/images/insights/so-hoa-workflow-vs-toi-uu-workflow/wfo-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/so-hoa-workflow-vs-toi-uu-workflow/wfo-00-og-cover-vi.png'
 coverImageAlt: "Ba bảng giấy, số hóa và tối ưu: hai bảng đầu cùng một chuỗi tuần tự, bảng thứ ba là chuỗi đã gộp và chạy song song."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---
 

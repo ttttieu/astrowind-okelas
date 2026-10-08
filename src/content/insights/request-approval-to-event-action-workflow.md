@@ -20,10 +20,12 @@ secondaryKeywords:
   - "conditional approval"
   - "rules workflow"
   - "workflow automation approval"
-assessmentHref: /en/readiness/digitalization
+assessmentHref: /en/readiness/workflow
 coverImage: '~/assets/images/insights/request-approval-to-event-action-workflow/wfr-00-og-cover-en.png'
 ogImage: '~/assets/images/insights/request-approval-to-event-action-workflow/wfr-00-og-cover-en.png'
 coverImageAlt: "Request → Approval has a wait-for-approval step in the middle of each case; Event/Action uses a rule an authorized person issued in advance so the action happens on time, and routes cases outside the rule to a person."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: "How's your work flowing?"
 draft: false
 ---
 

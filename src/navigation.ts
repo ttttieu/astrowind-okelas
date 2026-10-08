@@ -30,6 +30,7 @@ export const headerData = {
         { text: 'Digitalization Readiness', href: '/readiness/digitalization' },
         { text: 'AI Readiness', href: '/readiness/ai' },
         { text: 'Knowledge Readiness', href: '/readiness/knowledge' },
+        { text: 'Workflow Readiness', href: '/readiness/workflow' },
       ],
     },
     {
@@ -75,6 +76,7 @@ export const footerData = {
         { text: 'ERP Readiness Assessment', href: '/readiness/erp' },
         { text: 'Digitalization Assessment', href: '/readiness/digitalization' },
         { text: 'AI Readiness Assessment', href: '/readiness/ai' },
+        { text: 'Workflow Readiness Assessment', href: '/readiness/workflow' },
       ],
     },
     {

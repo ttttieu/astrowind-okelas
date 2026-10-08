@@ -20,10 +20,12 @@ secondaryKeywords:
   - "human-in-the-loop workflow"
   - "hồ sơ quyết định AI"
   - "AI hỗ trợ ra quyết định"
-assessmentHref: /readiness/digitalization
+assessmentHref: /readiness/workflow
 coverImage: '~/assets/images/insights/ai-chuan-bi-evidence-con-nguoi-quyet-dinh/wfp-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/ai-chuan-bi-evidence-con-nguoi-quyet-dinh/wfp-00-og-cover-vi.png'
 coverImageAlt: "Hồ sơ kém dẫn người quyết định đi sai; hồ sơ tốt truy vết được, cân bằng và không thay người quyết định kết luận."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---
 

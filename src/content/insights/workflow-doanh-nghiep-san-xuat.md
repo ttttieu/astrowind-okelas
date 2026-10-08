@@ -21,10 +21,12 @@ secondaryKeywords:
   - "rule workflow AI"
   - "context evidence workflow"
   - "tối ưu workflow sản xuất"
-assessmentHref: /readiness/digitalization
+assessmentHref: /readiness/workflow
 coverImage: '~/assets/images/insights/workflow-doanh-nghiep-san-xuat/wfq-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/workflow-doanh-nghiep-san-xuat/wfq-00-og-cover-vi.png'
 coverImageAlt: "Câu hỏi thường gặp so với câu hỏi hữu ích về workflow doanh nghiệp sản xuất."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---
 

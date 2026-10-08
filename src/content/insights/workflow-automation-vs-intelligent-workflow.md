@@ -18,10 +18,12 @@ secondaryKeywords:
   - "what is intelligent workflow"
   - "workflow AI"
   - "smart workflow"
-assessmentHref: /en/readiness/digitalization
+assessmentHref: /en/readiness/workflow
 coverImage: '~/assets/images/insights/workflow-automation-vs-intelligent-workflow/wfa-00-og-cover-en.png'
 ogImage: '~/assets/images/insights/workflow-automation-vs-intelligent-workflow/wfa-00-og-cover-en.png'
 coverImageAlt: "An automation chain that halts on an unusual case, versus an intelligent-workflow chain that triages the exception and routes the right cases to a person."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: "How's your work flowing?"
 draft: false
 ---
 

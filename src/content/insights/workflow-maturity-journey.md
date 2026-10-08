@@ -21,10 +21,12 @@ secondaryKeywords:
   - "workflow rule context AI"
   - "digitalization manufacturing SME"
   - "next step workflow improvement"
-assessmentHref: /en/readiness/digitalization
+assessmentHref: /en/readiness/workflow
 coverImage: '~/assets/images/insights/workflow-maturity-journey/wfj-00-og-cover-en.png'
 ogImage: '~/assets/images/insights/workflow-maturity-journey/wfj-00-og-cover-en.png'
 coverImageAlt: "The common question 'what level is our workflow at' versus the more useful question 'what is the economically sensible next step for this process'."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: "How's your work flowing?"
 draft: false
 ---
 

@@ -20,10 +20,12 @@ secondaryKeywords:
   - "non-human identity workflow"
   - "AI employee governance"
   - "AI access management workflow"
-assessmentHref: /en/readiness/digitalization
+assessmentHref: /en/readiness/workflow
 coverImage: '~/assets/images/insights/delegating-workflow-steps-to-ai/wfl-00-og-cover-en.png'
 ogImage: '~/assets/images/insights/delegating-workflow-steps-to-ai/wfl-00-og-cover-en.png'
 coverImageAlt: "The common question 'which role will AI replace' versus the useful question 'which steps of this role should be delegated to AI'."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: "How's your work flowing?"
 draft: false
 ---
 

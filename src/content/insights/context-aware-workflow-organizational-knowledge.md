@@ -20,10 +20,12 @@ secondaryKeywords:
   - "context rules workflow"
   - "Ba knowledge workflow"
   - "workflow decision context"
-assessmentHref: /en/readiness/digitalization
+assessmentHref: /en/readiness/workflow
 coverImage: '~/assets/images/insights/context-aware-workflow-organizational-knowledge/wfb-00-og-cover-en.png'
 ogImage: '~/assets/images/insights/context-aware-workflow-organizational-knowledge/wfb-00-og-cover-en.png'
 coverImageAlt: "Rules alone versus a context-aware workflow: the same transaction data, different meaning depending on the organizational context maintained."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: "How's your work flowing?"
 draft: false
 ---
 

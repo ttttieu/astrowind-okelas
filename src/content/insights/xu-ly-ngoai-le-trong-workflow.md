@@ -19,10 +19,12 @@ secondaryKeywords:
   - "tiền lệ workflow"
   - "evidence trong workflow"
   - "workflow ngoại lệ"
-assessmentHref: /readiness/digitalization
+assessmentHref: /readiness/workflow
 coverImage: '~/assets/images/insights/xu-ly-ngoai-le-trong-workflow/wfx-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/xu-ly-ngoai-le-trong-workflow/wfx-00-og-cover-vi.png'
 coverImageAlt: "Ngoại lệ xử lý tắt qua Zalo hoặc email không để lại evidence; đường ngoại lệ được thiết kế chuyển ca tới người có thẩm quyền kèm evidence, ghi lại quyết định và tích lũy thành tiền lệ."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---
 

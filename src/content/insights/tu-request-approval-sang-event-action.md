@@ -20,10 +20,12 @@ secondaryKeywords:
   - "event-driven workflow"
   - "rule workflow"
   - "tự động hóa quy trình phê duyệt"
-assessmentHref: /readiness/digitalization
+assessmentHref: /readiness/workflow
 coverImage: '~/assets/images/insights/tu-request-approval-sang-event-action/wfr-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/tu-request-approval-sang-event-action/wfr-00-og-cover-vi.png'
 coverImageAlt: "Request → Approval có bước chờ duyệt ở giữa mỗi ca; Event → Action dùng rule do người có thẩm quyền ban hành trước để hành động đúng lúc, và chuyển ca ngoài rule cho con người phán đoán."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---
 

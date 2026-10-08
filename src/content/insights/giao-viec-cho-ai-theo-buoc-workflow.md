@@ -20,10 +20,12 @@ secondaryKeywords:
   - "non-human identity workflow"
   - "giao việc AI quản trị"
   - "AI employee workflow"
-assessmentHref: /readiness/digitalization
+assessmentHref: /readiness/workflow
 coverImage: '~/assets/images/insights/giao-viec-cho-ai-theo-buoc-workflow/wfl-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/giao-viec-cho-ai-theo-buoc-workflow/wfl-00-og-cover-vi.png'
 coverImageAlt: "Câu hỏi thường gặp 'AI thay được ai' so với câu hỏi hữu ích 'bước nào nên giao cho AI'."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---
 

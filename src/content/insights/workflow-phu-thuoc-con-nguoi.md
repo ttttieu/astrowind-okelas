@@ -18,10 +18,12 @@ secondaryKeywords:
   - "chờ phê duyệt"
   - "workflow bị chặn"
   - "human bottleneck"
-assessmentHref: /readiness/digitalization
+assessmentHref: /readiness/workflow
 coverImage: '~/assets/images/insights/workflow-phu-thuoc-con-nguoi/wfh-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/workflow-phu-thuoc-con-nguoi/wfh-00-og-cover-vi.png'
 coverImageAlt: "Một chuỗi dồn qua một cổng chờ đúng một người, so với một chuỗi được điều hướng theo ngưỡng qua nhiều đường."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---
 

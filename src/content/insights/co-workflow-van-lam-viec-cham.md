@@ -17,10 +17,12 @@ secondaryKeywords:
   - "workflow không hiệu quả"
   - "tại sao workflow chậm"
   - "workflow số hóa không cải thiện"
-assessmentHref: /readiness/digitalization
+assessmentHref: /readiness/workflow
 coverImage: '~/assets/images/insights/co-workflow-van-lam-viec-cham/wfs-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/co-workflow-van-lam-viec-cham/wfs-00-og-cover-vi.png'
 coverImageAlt: "Hai chuỗi bước giống hệt nhau, một chuỗi trên giấy hoặc email và một chuỗi form điện tử: số hóa chưa đổi thứ tự tuần tự."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---
 

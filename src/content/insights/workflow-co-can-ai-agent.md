@@ -20,10 +20,12 @@ secondaryKeywords:
   - "AI agent vs workflow rule"
   - "chọn mức AI workflow"
   - "AI agent manufacturing SME"
-assessmentHref: /readiness/digitalization
+assessmentHref: /readiness/workflow
 coverImage: '~/assets/images/insights/workflow-co-can-ai-agent/wfg-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/workflow-co-can-ai-agent/wfg-00-og-cover-vi.png'
 coverImageAlt: "Câu hỏi thường gặp 'workflow có nên thay bằng AI agent không' so với câu hỏi hữu ích 'mức AI nào vừa đủ cho quy trình này'."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---
 

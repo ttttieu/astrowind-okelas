@@ -17,10 +17,12 @@ secondaryKeywords:
   - "quy trình phê duyệt"
   - "workflow toàn trình"
   - "process workflow"
-assessmentHref: /readiness/digitalization
+assessmentHref: /readiness/workflow
 coverImage: '~/assets/images/insights/approval-workflow-den-end-to-end/wfe-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/approval-workflow-den-end-to-end/wfe-00-og-cover-vi.png'
 coverImageAlt: "Approval workflow chỉ phủ một đoạn giữa; end-to-end workflow phủ cả hành trình từ sự kiện khởi phát đến kết quả cuối."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---
 

@@ -20,10 +20,12 @@ secondaryKeywords:
   - "bối cảnh quyết định workflow"
   - "knowledge management workflow"
   - "Ba Nonaka workflow"
-assessmentHref: /readiness/digitalization
+assessmentHref: /readiness/workflow
 coverImage: '~/assets/images/insights/workflow-biet-context-to-chuc/wfb-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/workflow-biet-context-to-chuc/wfb-00-og-cover-vi.png'
 coverImageAlt: "Rule đơn thuần so với workflow có bối cảnh: cùng dữ liệu giao dịch, ý nghĩa khác nhau tùy bối cảnh tổ chức duy trì."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---
 

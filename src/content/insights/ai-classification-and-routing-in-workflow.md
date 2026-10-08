@@ -19,10 +19,12 @@ secondaryKeywords:
   - "workflow routing rules"
   - "AI-assisted routing"
   - "request triage workflow"
-assessmentHref: /en/readiness/digitalization
+assessmentHref: /en/readiness/workflow
 coverImage: '~/assets/images/insights/ai-classification-and-routing-in-workflow/wfc-00-og-cover-en.png'
 ogImage: '~/assets/images/insights/ai-classification-and-routing-in-workflow/wfc-00-og-cover-en.png'
 coverImageAlt: "Keyword rules misroute when language does not match; AI reads intent and proposes a request type, a routing table issued by an authorized person decides where it goes."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: "How's your work flowing?"
 draft: false
 ---
 

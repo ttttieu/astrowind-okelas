@@ -18,10 +18,12 @@ secondaryKeywords:
   - "workflow optimization"
   - "beyond workflow software"
   - "process improvement"
-assessmentHref: /en/readiness/digitalization
+assessmentHref: /en/readiness/workflow
 coverImage: '~/assets/images/insights/digitized-vs-optimized-workflow/wfo-00-og-cover-en.png'
 ogImage: '~/assets/images/insights/digitized-vs-optimized-workflow/wfo-00-og-cover-en.png'
 coverImageAlt: "Three panels — paper, digitized and optimized: the first two share one sequential chain, the third is a chain with merged, parallel steps."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: "How's your work flowing?"
 draft: false
 ---
 

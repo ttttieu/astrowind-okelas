@@ -18,10 +18,12 @@ secondaryKeywords:
   - "digital workflow problems"
   - "workflow inefficiency"
   - "workflow not working"
-assessmentHref: /en/readiness/digitalization
+assessmentHref: /en/readiness/workflow
 coverImage: '~/assets/images/insights/workflow-digitized-still-slow/wfs-00-og-cover-en.png'
 ogImage: '~/assets/images/insights/workflow-digitized-still-slow/wfs-00-og-cover-en.png'
 coverImageAlt: "Two identical chains of steps, one on paper or email and one as electronic forms: digitizing didn't change the sequence."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: "How's your work flowing?"
 draft: false
 ---
 

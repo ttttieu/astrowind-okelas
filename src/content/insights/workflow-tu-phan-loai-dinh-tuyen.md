@@ -19,10 +19,12 @@ secondaryKeywords:
   - "phân loại yêu cầu workflow"
   - "workflow AI classification"
   - "routing rule workflow"
-assessmentHref: /readiness/digitalization
+assessmentHref: /readiness/workflow
 coverImage: '~/assets/images/insights/workflow-tu-phan-loai-dinh-tuyen/wfc-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/workflow-tu-phan-loai-dinh-tuyen/wfc-00-og-cover-vi.png'
 coverImageAlt: "Rule từ khóa định tuyến sai khi ngôn ngữ không khớp; AI đọc ý định và đề xuất loại yêu cầu, bảng tuyến do người có thẩm quyền ban hành quyết định tuyến đi."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---
 

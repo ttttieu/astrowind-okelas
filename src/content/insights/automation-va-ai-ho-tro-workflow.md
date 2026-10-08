@@ -20,10 +20,12 @@ secondaryKeywords:
   - "AI hỗ trợ workflow"
   - "automation vs AI"
   - "workflow automation rule"
-assessmentHref: /readiness/digitalization
+assessmentHref: /readiness/workflow
 coverImage: '~/assets/images/insights/automation-va-ai-ho-tro-workflow/wfa-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/automation-va-ai-ho-tro-workflow/wfa-00-og-cover-vi.png'
 coverImageAlt: "Automation và AI hỗ trợ là hai việc khác nhau: automation thực thi theo rule, AI đọc đầu vào phi cấu trúc và chuẩn bị evidence — quyền quyết định ở lại với rule hoặc con người."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---
 

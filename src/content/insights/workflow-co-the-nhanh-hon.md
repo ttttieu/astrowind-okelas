@@ -17,10 +17,12 @@ secondaryKeywords:
   - "workflow nhanh hơn"
   - "nâng cấp workflow"
   - "workflow next level"
-assessmentHref: /readiness/digitalization
+assessmentHref: /readiness/workflow
 coverImage: '~/assets/images/insights/workflow-co-the-nhanh-hon/wfn-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/workflow-co-the-nhanh-hon/wfn-00-og-cover-vi.png'
 coverImageAlt: "Một workflow khởi động khi có người tạo yêu cầu, so với một workflow được kích hoạt theo sự kiện với ngữ cảnh chuẩn bị sẵn."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---
 

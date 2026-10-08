@@ -20,10 +20,12 @@ secondaryKeywords:
   - "AI-assisted workflow"
   - "automation AI difference"
   - "workflow rules automation"
-assessmentHref: /en/readiness/digitalization
+assessmentHref: /en/readiness/workflow
 coverImage: '~/assets/images/insights/automation-vs-ai-assisted-workflow/wfa-00-og-cover-en.png'
 ogImage: '~/assets/images/insights/automation-vs-ai-assisted-workflow/wfa-00-og-cover-en.png'
 coverImageAlt: "Automation and AI support are two different jobs: automation executes under rules, AI reads unstructured input and prepares evidence — decision authority stays with rules or people."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: "How's your work flowing?"
 draft: false
 ---
 

@@ -20,10 +20,12 @@ secondaryKeywords:
   - "where to use AI in a workflow"
   - "human oversight AI workflow"
   - "human-in-the-loop automation"
-assessmentHref: /en/readiness/ai
+assessmentHref: /en/readiness/workflow
 coverImage: '~/assets/images/insights/where-ai-fits-in-workflow/wfi-00-og-cover-en.png'
 ogImage: '~/assets/images/insights/where-ai-fits-in-workflow/wfi-00-og-cover-en.png'
 coverImageAlt: "The four information-processing stages of a workflow; AI interprets input and prepares evidence, while decision authority stays with rules or people."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: "How's your work flowing?"
 draft: false
 ---
 

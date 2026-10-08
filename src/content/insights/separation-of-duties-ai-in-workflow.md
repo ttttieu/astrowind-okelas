@@ -20,10 +20,12 @@ secondaryKeywords:
   - "COSO AI workflow"
   - "AI agent governance"
   - "workflow access control AI"
-assessmentHref: /en/readiness/digitalization
+assessmentHref: /en/readiness/workflow
 coverImage: '~/assets/images/insights/separation-of-duties-ai-in-workflow/wfm-00-og-cover-en.png'
 ogImage: '~/assets/images/insights/separation-of-duties-ai-in-workflow/wfm-00-og-cover-en.png'
 coverImageAlt: "Merged roles versus separated roles in a workflow with AI: when one entity holds all four roles, controls stop working."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: "How's your work flowing?"
 draft: false
 ---
 

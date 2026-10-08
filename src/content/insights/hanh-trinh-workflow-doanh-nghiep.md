@@ -21,10 +21,12 @@ secondaryKeywords:
   - "workflow rule context AI"
   - "số hóa quy trình sản xuất SME"
   - "chọn bước tiếp theo workflow"
-assessmentHref: /readiness/digitalization
+assessmentHref: /readiness/workflow
 coverImage: '~/assets/images/insights/hanh-trinh-workflow-doanh-nghiep/wfj-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/hanh-trinh-workflow-doanh-nghiep/wfj-00-og-cover-vi.png'
 coverImageAlt: "Câu hỏi thường gặp 'workflow của mình đang ở mức nào' và câu hỏi hữu ích hơn 'bước tiếp theo có ý nghĩa kinh tế cho quy trình này là gì'."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---
 

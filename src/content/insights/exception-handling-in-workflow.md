@@ -19,10 +19,12 @@ secondaryKeywords:
   - "exception routing workflow"
   - "operational knowledge management"
   - "nonprogrammed decision workflow"
-assessmentHref: /en/readiness/digitalization
+assessmentHref: /en/readiness/workflow
 coverImage: '~/assets/images/insights/exception-handling-in-workflow/wfx-00-og-cover-en.png'
 ogImage: '~/assets/images/insights/exception-handling-in-workflow/wfx-00-og-cover-en.png'
 coverImageAlt: "Exceptions handled in a side-channel leave no evidence; a designed exception path routes the case to an authorized person with evidence, records the decision and builds precedent."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: "How's your work flowing?"
 draft: false
 ---
 

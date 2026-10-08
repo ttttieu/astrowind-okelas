@@ -18,10 +18,12 @@ secondaryKeywords:
   - "automated workflow initiation"
   - "event triggered process"
   - "workflow events"
-assessmentHref: /en/readiness/digitalization
+assessmentHref: /en/readiness/workflow
 coverImage: '~/assets/images/insights/event-driven-workflow/wfv-00-og-cover-en.png'
 ogImage: '~/assets/images/insights/event-driven-workflow/wfv-00-og-cover-en.png'
 coverImageAlt: "On a timeline, a request-based workflow waits through a detection delay before starting, while an event-driven workflow starts almost as soon as the event happens."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: "How's your work flowing?"
 draft: false
 ---
 
