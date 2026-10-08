@@ -2,7 +2,9 @@
 title: "Evidence-Based AI: When the Answer Is Not Enough"
 description: "In ISO, GMP and other regulated industries, AI can't just provide answers — those answers need evidence, traceability and audit trails. Here's what that requires."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/evidence-based-ai.png'
+coverImage: '~/assets/images/insights/evidence-based-ai/ebai-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/evidence-based-ai/ebai-00-og-cover-en.png'
+coverImageAlt: "On the left, a correct answer that cannot be verified; on the right, three evidence steps: input, explanation, reviewer."
 category: 'ai'
 tags: ['Evidence-Based AI', 'Compliance', 'AI Governance', 'Regulated Industries']
 translationId: 'evidence-based-ai'
@@ -19,6 +21,8 @@ secondaryKeywords:
   - "regulated industry AI"
   - "AI ISO GMP"
 assessmentHref: '/en/readiness/ai'
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Identify your AI readiness level'
 draft: false
 ---
 
@@ -32,6 +36,8 @@ draft: false
 ---
 
 ## The question no one wants to hear from an auditor
+
+![Two cards: records a decision needs are inspection results, standard and approver; when AI took part, auditors ask more about its data, standard version and reviewability.](~/assets/images/insights/evidence-based-ai/ebai-01-records-vs-ai-questions-en.svg)
 
 A situation familiar to any Quality Director in a manufacturing business going through an audit.
 
@@ -48,6 +54,8 @@ If the answer is "the system doesn't retain that" or "we're not sure what data t
 ---
 
 ## Why unevidenced AI is a risk in regulated environments
+
+![Three risk cards: decisions cannot be rebuilt, data version unknown, unclear accountability.](~/assets/images/insights/evidence-based-ai/ebai-02-three-risks-en.svg)
 
 In standard manufacturing operations, a confident but incorrect answer can cause problems. In environments with ISO, GMP, or food safety standards, an answer that cannot be verified — even if correct — is also a problem.
 
@@ -73,6 +81,8 @@ AI is not a legal entity. The organization is responsible for every decision mad
 ---
 
 ## What compliance environments require from AI
+
+![Four requirement cards: input traceability, output explainability, human review checkpoint, complete audit trail.](~/assets/images/insights/evidence-based-ai/ebai-03-four-requirements-en.svg)
 
 For AI to operate within a compliance-regulated environment, certain specific requirements need to be met — requirements that go beyond "producing correct answers."
 
@@ -104,6 +114,8 @@ The AI's audit trail must be part of the overall process audit trail, not a sepa
 
 ## Evidence, trace, and audit trail — three distinct concepts
 
+![Three boxes in sequence: evidence, trace and audit trail, each with a short definition.](~/assets/images/insights/evidence-based-ai/ebai-04-three-concepts-en.svg)
+
 These three terms are often used interchangeably, but they have specific meanings in compliance contexts.
 
 **Evidence** is specific proof that an event or result occurred. Examples: a temperature measurement result, an incoming inspection form, a photograph of a visual inspection result. Evidence is what an auditor requests to see.
@@ -117,6 +129,8 @@ When AI participates in a process, all three must encompass AI's activity: what 
 ---
 
 ## An appropriate approach for manufacturing with compliance requirements
+
+![Two columns: low consequence when AI misidentifies a lookup procedure; very high consequence when AI misanalyzes inspection results.](~/assets/images/insights/evidence-based-ai/ebai-05-consequence-levels-en.svg)
 
 Not every AI application in a business requires the same level of evidence. A chatbot that helps employees locate a procedure faster doesn't need a complex audit trail. But AI that participates in decision analysis, suggests actions, or generates documents with compliance significance is a different matter entirely.
 
