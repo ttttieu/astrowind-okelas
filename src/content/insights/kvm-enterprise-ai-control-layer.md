@@ -2,8 +2,8 @@
 title: "KVM: Building the Control Layer That Makes Enterprise AI Responsible"
 description: "From AI capability to agentic behavior to unexpected action to enterprise risk — and how KVM creates the control layer that enables responsible AI deployment."
 publishDate: 2026-09-23T00:00:00Z
-coverImage: '~/assets/images/insights/kvm-control-layer/akvm-00-og-cover-en.png'
-ogImage: '~/assets/images/insights/kvm-control-layer/akvm-00-og-cover-en.png'
+coverImage: '~/assets/images/insights/kvm-enterprise-ai-control-layer/akvc-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/kvm-enterprise-ai-control-layer/akvc-00-og-cover-en.png'
 coverImageAlt: "KVM: the control layer for enterprise AI; three operation boxes show Trace, FindEvidence, and Resolve."
 translationId: article-6-20-kvm-conclusion
 lang: en

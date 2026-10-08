@@ -2,8 +2,8 @@
 title: "KVM: Control Layer cho AI trong doanh nghiệp"
 description: "Từ AI capability đến agentic behavior đến unexpected action đến enterprise risk — và cách KVM tạo ra một lớp kiểm soát giúp doanh nghiệp triển khai AI có trách nhiệm."
 publishDate: 2026-09-23T00:00:00Z
-coverImage: '~/assets/images/insights/kvm-control-layer/akvm-00-og-cover-vi.png'
-ogImage: '~/assets/images/insights/kvm-control-layer/akvm-00-og-cover-vi.png'
+coverImage: '~/assets/images/insights/kvm-enterprise-ai-control-layer/akvc-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/kvm-enterprise-ai-control-layer/akvc-00-og-cover-vi.png'
 coverImageAlt: "KVM: lớp kiểm soát cho AI trong doanh nghiệp; ba thao tác Trace, FindEvidence, và Resolve."
 translationId: article-6-20-kvm-conclusion
 lang: vi
