@@ -2,7 +2,10 @@
 title: "Risk Management trong ISO 9001 — không phức tạp như nhiều người nghĩ"
 description: "ISO 9001:2015 yêu cầu risk-based thinking, không yêu cầu một hệ thống risk management phức tạp. Bài viết giải thích clause 6 theo ngôn ngữ thực hành — và cách áp dụng phù hợp với SME."
 publishDate: 2026-10-04T00:00:00Z
-image: '~/assets/images/insights/risk-management-iso-9001.png'
+image: '~/assets/images/insights/arm-risk-management/arm-00-og-cover-vi.png'
+coverImage: '~/assets/images/insights/arm-risk-management/arm-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/arm-risk-management/arm-00-og-cover-vi.png'
+coverImageAlt: "Hai hộp nối bằng mũi tên: ma trận rủi ro dài ít dùng bên trái, rủi ro gắn với quy trình bên phải."
 category: 'compliance'
 tags: ['Risk Management', 'Risk-Based Thinking', 'ISO 9001', 'Rủi Ro Và Cơ Hội', 'eQMS']
 translationId: 'iso-9001-risk-management-clause-6'
@@ -18,6 +21,8 @@ secondaryKeywords:
   - "risk based thinking"
   - "clause 6 ISO 9001"
 assessmentHref: '/readiness/knowledge-management'
+ctaPrimaryText: 'Làm Knowledge Management Maturity Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 
@@ -43,6 +48,8 @@ Không dòng nào khớp. Không ai nhớ ma trận này nói gì.
 
 Đó là một dạng thất bại. Dạng ngược lại cũng phổ biến không kém: doanh nghiệp không có gì cả, và khi bị hỏi thì soạn vội một bảng trong buổi chiều. Cả hai đều cho thấy rủi ro được xem như một **hồ sơ phải có**, không phải một **cách suy nghĩ khi vận hành**.
 
+![Hai thẻ đối chiếu: ma trận 200 dòng bên trái, rủi ro đang được dùng bên phải; bên dưới là một thanh kết luận.](~/assets/images/insights/arm-risk-management/arm-01-matrix-vs-incident-vi.svg)
+
 Bài này giải thích tiêu chuẩn thực sự yêu cầu gì và một cách tiếp cận vừa sức cho doanh nghiệp sản xuất cỡ vừa và nhỏ.
 
 ---
@@ -50,6 +57,8 @@ Bài này giải thích tiêu chuẩn thực sự yêu cầu gì và một cách
 ## ISO 9001 thực sự yêu cầu gì về rủi ro
 
 Các nhận định dưới đây dựa trên **ISO 9001:2015, điều khoản 6.1 (Hành động giải quyết rủi ro và cơ hội)**, tóm lược bằng ngôn ngữ thực hành.
+
+![Ba thẻ điều khoản 6.1.1, 6.1.2 và tích hợp xếp hàng ngang, bên dưới là một khung ghi chú về phụ lục A.4.](~/assets/images/insights/arm-risk-management/arm-02-clause-6-1-vi.svg)
 
 **Xác định (6.1.1).** Khi lập kế hoạch cho hệ thống quản lý chất lượng, tổ chức xem xét bối cảnh của mình (điều 4.1) và yêu cầu của các bên quan tâm (điều 4.2), rồi xác định **rủi ro và cơ hội** cần được giải quyết nhằm:
 
@@ -76,6 +85,8 @@ Có ba điểm đáng chú ý.
 
 Đây là điểm nhiều người hiểu sai nhất, nên đáng dừng lại.
 
+![Hai cột đối chiếu: các mục không bắt buộc theo ISO 9001 bên trái, tư duy dựa trên rủi ro bên phải.](~/assets/images/insights/arm-risk-management/arm-03-formal-vs-risk-based-vi.svg)
+
 Phụ lục A của ISO 9001:2015 (mục A.4, giải thích về tư duy dựa trên rủi ro) nói rõ rằng tiêu chuẩn **không yêu cầu phương pháp quản lý rủi ro chính thức hay một quy trình quản lý rủi ro dạng văn bản**. Tổ chức tự quyết định có xây dựng một phương pháp rộng hơn mức tiêu chuẩn yêu cầu hay không, ví dụ bằng cách áp dụng các hướng dẫn hay tiêu chuẩn khác.
 
 Điều này có nghĩa là:
@@ -96,6 +107,8 @@ Cần phân biệt thêm hai điều khác thường bị nhầm với 6.1:
 
 Thay vì bắt đầu từ một bảng trống, hãy bắt đầu từ những gì doanh nghiệp đã biết.
 
+![Năm thẻ nguồn dữ liệu có sẵn xếp hàng ngang, bên dưới là một thanh nguyên tắc giữ danh sách ngắn.](~/assets/images/insights/arm-risk-management/arm-04-data-sources-vi.svg)
+
 **Bắt đầu từ quá trình.** Với mỗi quá trình quan trọng, hỏi một câu đơn giản: *điều gì có thể ngăn quá trình này đạt kết quả dự kiến?* Câu hỏi này thường cho ra những rủi ro thực tế hơn so với liệt kê trừu tượng.
 
 **Dùng dữ liệu đã có.** Sự không phù hợp, khiếu nại, phát hiện đánh giá, sự cố thiết bị, kết quả nhà cung cấp là nguồn rủi ro thật, vì chúng đã từng xảy ra. Đây cũng là chỗ rủi ro nối với [nonconformance](/insights/compliance/nonconformance-iso-9001) và [nhà cung cấp](/insights/compliance/supplier-qualification-iso-9001).
@@ -115,6 +128,8 @@ Thay vì bắt đầu từ một bảng trống, hãy bắt đầu từ những 
 ## Tích hợp rủi ro vào quy trình
 
 Điều tiêu chuẩn nhấn mạnh trong 6.1.2 là **tích hợp** hành động vào các quá trình, không phải lưu rủi ro trong một hồ sơ riêng. Đây là chỗ nhiều doanh nghiệp gãy: rủi ro nằm trong một file, quá trình nằm ở nơi khác, và hai thứ không bao giờ gặp nhau.
+
+![Bốn hộp nối bằng mũi tên: gắn vào tài liệu, xem lại sau sự kiện, đưa vào xem xét, cập nhật; bên dưới là khung ghi chú và khung đánh giá hiệu lực.](~/assets/images/insights/arm-risk-management/arm-05-integrate-processes-vi.svg)
 
 Một vài cách tích hợp thực tế:
 

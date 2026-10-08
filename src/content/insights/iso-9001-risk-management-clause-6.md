@@ -2,7 +2,10 @@
 title: "Risk Management in ISO 9001 Clause 6: More Practical Than You Think"
 description: "ISO 9001:2015 requires risk-based thinking — not a formal risk management system. This article explains clause 6 in practical terms and how to implement it appropriately for an SME."
 publishDate: 2026-10-04T00:00:00Z
-image: '~/assets/images/insights/risk-management-iso-9001.png'
+image: '~/assets/images/insights/arm-risk-management/arm-00-og-cover-en.png'
+coverImage: '~/assets/images/insights/arm-risk-management/arm-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/arm-risk-management/arm-00-og-cover-en.png'
+coverImageAlt: "Two boxes joined by an arrow: long risk matrix rarely used on the left, risks tied to processes on the right."
 category: 'compliance'
 tags: ['Risk Management', 'Risk-Based Thinking', 'ISO 9001', 'Risks and Opportunities', 'eQMS']
 translationId: 'iso-9001-risk-management-clause-6'
@@ -18,6 +21,8 @@ secondaryKeywords:
   - "clause 6.1 ISO 9001"
   - "risk management QMS"
 assessmentHref: '/en/readiness/knowledge-management'
+ctaPrimaryText: 'Take the Knowledge Management Maturity Assessment'
+ctaSubtitle: 'Identify your maturity level and the first improvement to make'
 draft: false
 ---
 
@@ -43,6 +48,8 @@ None match. Nobody remembers what the matrix says.
 
 That's one kind of failure. The opposite is just as common: the company has nothing, and when asked, puts a table together in an afternoon. Both show risk treated as **a record you must have**, not as **a way of thinking while operating**.
 
+![Two comparison cards: a 200-line matrix on the left, risks in use on the right; a takeaway bar below.](~/assets/images/insights/arm-risk-management/arm-01-matrix-vs-incident-en.svg)
+
 This article explains what the standard actually asks for and an approach that fits small and mid-sized manufacturers.
 
 ---
@@ -50,6 +57,8 @@ This article explains what the standard actually asks for and an approach that f
 ## What ISO 9001 actually requires on risk
 
 The statements below are based on **ISO 9001:2015, clause 6.1 (Actions to address risks and opportunities)**, summarized in practical terms.
+
+![Three clause cards, 6.1.1, 6.1.2 and integration, in a row, with a note box below about Annex A.4.](~/assets/images/insights/arm-risk-management/arm-02-clause-6-1-en.svg)
 
 **Determining (6.1.1).** When planning the quality management system, the organization considers its context (clause 4.1) and the requirements of interested parties (clause 4.2), then determines the **risks and opportunities** that need addressing in order to:
 
@@ -76,6 +85,8 @@ Three points stand out.
 
 This is the point most often misunderstood, so it's worth pausing on.
 
+![Two comparison columns: items not required by ISO 9001 on the left, risk-based thinking on the right.](~/assets/images/insights/arm-risk-management/arm-03-formal-vs-risk-based-en.svg)
+
 Annex A of ISO 9001:2015 (section A.4, on risk-based thinking) states clearly that the standard has **no requirement for formal risk management methods or a documented risk management process**. Organizations decide whether to develop a more extensive methodology than the standard requires, for example by applying other guidance or standards.
 
 That means:
@@ -96,6 +107,8 @@ Two other things are often confused with 6.1:
 
 Rather than starting from a blank table, start from what the company already knows.
 
+![Five data-source cards in a row, with a bar below giving the principle: keep the list short.](~/assets/images/insights/arm-risk-management/arm-04-data-sources-en.svg)
+
 **Start from the process.** For each important process, ask one simple question: *what could stop this process achieving its intended result?* That tends to produce more real risks than an abstract listing.
 
 **Use the data you already have.** Nonconformities, complaints, audit findings, equipment failures and supplier results are real sources of risk, because they've already happened. This is also where risk connects to [nonconformance](/en/insights/compliance/nonconformance-iso-9001-management) and [suppliers](/en/insights/compliance/supplier-qualification-iso-9001).
@@ -115,6 +128,8 @@ Rather than starting from a blank table, start from what the company already kno
 ## Integrating risk into your processes
 
 What the standard stresses in 6.1.2 is **integrating** actions into processes, not keeping risks in a separate record. This is where many companies break: risks sit in one file, processes live elsewhere, and the two never meet.
+
+![Four boxes joined by arrows: attach to process documents, review after events, feed management review, update; below are a note box and an effectiveness bar.](~/assets/images/insights/arm-risk-management/arm-05-integrate-processes-en.svg)
 
 A few practical ways to integrate:
 
