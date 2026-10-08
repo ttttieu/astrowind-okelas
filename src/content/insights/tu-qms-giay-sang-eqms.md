@@ -2,7 +2,9 @@
 title: "Từ QMS giấy đến eQMS — doanh nghiệp được gì và cần chuẩn bị gì"
 description: "Chuyển từ hồ sơ giấy sang eQMS không phải chỉ là số hóa tài liệu. Bài viết phân tích thực tế những gì thay đổi, những gì doanh nghiệp cần chuẩn bị và những rủi ro cần tránh."
 publishDate: 2026-10-04T00:00:00Z
-image: '~/assets/images/insights/tu-qms-giay-sang-eqms.png'
+coverImage: '~/assets/images/insights/apqm-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/apqm-00-og-cover-vi.png'
+coverImageAlt: "Từ QMS giấy sang eQMS: doanh nghiệp được gì, cần chuẩn bị gì — hộp QMS giấy nối với hộp eQMS bằng một mũi tên."
 category: 'compliance'
 tags: ['eQMS', 'QMS giấy', 'ISO 9001', 'Số Hóa Chất Lượng', 'Manufacturing SME']
 translationId: 'paper-qms-to-eqms'
@@ -18,6 +20,8 @@ secondaryKeywords:
   - "từ giấy lên phần mềm QMS"
   - "eQMS vs paper QMS"
 assessmentHref: '/readiness/digitalization-level'
+ctaPrimaryText: 'Đánh giá mức độ số hóa'
+ctaSubtitle: 'Xác định mức độ số hóa hiện tại và bước tiếp theo hợp lý'
 draft: false
 ---
 
@@ -71,6 +75,8 @@ Vấn đề của giấy không phải nó "cũ". Vấn đề là chi phí vận
 
 Đây là những quan sát chung về cách hệ thống giấy chịu áp lực khi quy mô tăng, không phải số liệu đo lường. Mỗi doanh nghiệp gãy ở một điểm khác nhau, và việc xác định đúng điểm đó là bước đầu tiên của mọi quyết định chuyển đổi.
 
+![Những ưu điểm của QMS giấy và những giới hạn thực tế: cột trái nêu bốn điểm tốt; cột phải nêu bốn giới hạn xuất hiện khi quy mô tăng.](~/assets/images/insights/apqm-paper-qms/apqm-01-paper-limits-vi.svg)
+
 ---
 
 ## eQMS thêm được gì
@@ -88,6 +94,8 @@ Một eQMS đáng giá khi nó giải quyết đúng những giới hạn ở tr
 **Dấu vết hoạt động.** Ai làm gì, khi nào, trên bản nào được ghi lại tự động. Với doanh nghiệp bị yêu cầu chứng minh cao (khách hàng, GMP, HACCP), đây thường là lý do đáng giá nhất.
 
 Lưu ý rằng cả năm lợi ích trên đều là lợi ích **vận hành**, không phải lợi ích **tuân thủ**. ISO 9001 không đòi hỏi bất kỳ điều nào trong số đó phải được thực hiện bằng phần mềm. Nếu bạn muốn hiểu rõ hơn điểm này, xem [ISO 9001 không yêu cầu phần mềm — nhưng đây là lý do eQMS vẫn quan trọng](/insights/compliance/iso-9001-co-can-phan-mem-qms).
+
+![Bốn lợi ích của eQMS ở trên; bảy loại chi phí chuyển đổi xếp thành lưới bên dưới: license, làm sạch quy trình, chuyển dữ liệu, cấu hình, đào tạo, chạy song song, và bảo trì.](~/assets/images/insights/apqm-paper-qms/apqm-02-eqms-adds-costs-vi.svg)
 
 ---
 
@@ -123,11 +131,15 @@ Khi đánh giá cost-benefit, nên tính đủ các khoản sau, không chỉ li
 
 Một nguyên tắc hữu ích: so sánh chi phí này với **chi phí hiện tại của hệ thống giấy**, bao gồm công chuẩn bị audit, thời gian truy vết, sự cố do bản cũ và công tổng hợp báo cáo, chứ không so với con số không. Nhiều doanh nghiệp chưa từng đo các khoản này; bước đo thử trong một hoặc hai chu kỳ audit đã giúp quyết định rõ hơn nhiều.
 
+![Tình huống triển khai quá rộng: ngày triển khai bên trái nối bằng mũi tên đến sáu tháng sau bên phải, thể hiện tác động tích lũy của việc triển khai quá rộng cùng lúc.](~/assets/images/insights/apqm-paper-qms/apqm-05-overrollout-vi.svg)
+
 ---
 
 ## Checklist trước khi chuyển đổi
 
 Trả lời thật cho 10 câu hỏi dưới đây. Càng nhiều câu trả lời "chưa", càng nên chuẩn bị thêm trước khi chọn hệ thống.
+
+![Mười câu hỏi tự kiểm tra xếp thành hai cột: mỗi ô là một câu hỏi về yếu tố chính của sự chuẩn bị cho eQMS.](~/assets/images/insights/apqm-paper-qms/apqm-04-checklist-vi.svg)
 
 1. Chúng tôi đã xác định được **điểm đau cụ thể nhất** của hệ thống giấy hiện tại chưa (không phải danh sách tính năng mong muốn)?
 2. Các quy trình sẽ đưa lên hệ thống đã được **thống nhất** giữa các bộ phận liên quan chưa?
@@ -147,6 +159,8 @@ Nếu phần lớn là "có", bạn đang ở vị trí tốt để chuyển đ�
 ## Kết luận
 
 Vấn đề thực sự không phải "giấy hay số", mà là **hệ thống chất lượng của bạn có đang chạy ổn định ở quy mô hiện tại không, và chi phí để giữ nó ổn định có đang tăng quá nhanh không.**
+
+![Ba điều kiện quyết định: hệ thống ổn định → giữ giấy; chi phí tăng và điểm gãy rõ → chuyển sang eQMS; quy trình chưa rõ → làm rõ trước, sau đó quyết định. Hàng giữa được tô nổi.](~/assets/images/insights/apqm-paper-qms/apqm-03-keep-or-move-vi.svg)
 
 Nếu câu trả lời là có và chi phí còn hợp lý, QMS giấy vẫn là lựa chọn đúng. Nếu chi phí đó đang tăng, và bạn đã xác định được điểm gãy cụ thể, eQMS là một công cụ để giải quyết đúng điểm đó, theo từng bước, trên nền quy trình đã rõ.
 
