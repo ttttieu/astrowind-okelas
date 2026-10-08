@@ -18,6 +18,12 @@ secondaryKeywords:
   - "process readiness ERP"
   - "tài liệu hóa quy trình"
   - "SOP trước ERP |"
+assessmentHref: /readiness/erp
+ctaPrimaryText: 'Assess your ERP readiness'
+ctaSubtitle: 'Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn'
+coverImage: '~/assets/images/insights/erps-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/erps-00-og-cover-vi.png'
+coverImageAlt: "Bốn đường đi khác nhau cho cùng một việc hội tụ thành một đường nhất quán trước khi vào khối ERP."
 draft: false
 ---
 
@@ -44,6 +50,8 @@ draft: false
 
 ## ERP cần gì từ quy trình doanh nghiệp?
 
+![Sáu câu hỏi nhà triển khai ERP cần biết về mỗi quy trình: số bước, người thực hiện, người phê duyệt, dữ liệu nhập, ngoại lệ và liên kết với quy trình khác; nếu các phòng ban trả lời khác nhau thì không thể cấu hình chính xác.](~/assets/images/insights/erps-01-six-questions-vi.svg)
+
 Trước khi nói đến rủi ro, cần hiểu ERP thực sự yêu cầu gì từ phía doanh nghiệp.
 
 ERP — dù là nền tảng nào — không phải công cụ để *thiết kế* quy trình. Nó là công cụ để *vận hành* quy trình đã được thiết kế. Sự khác biệt này quan trọng hơn nhiều so với việc doanh nghiệp thường nhận ra.
@@ -64,6 +72,8 @@ Nếu doanh nghiệp không trả lời được những câu hỏi này một c
 ---
 
 ## 5 dấu hiệu quy trình chưa sẵn sàng cho ERP
+
+![Năm dấu hiệu quy trình chưa sẵn sàng cho ERP: nằm trong đầu người, mỗi người một cách làm, họp yêu cầu kết thúc bằng tùy trường hợp, ngoại lệ nhiều hơn quy tắc và không rõ ai chịu trách nhiệm.](~/assets/images/insights/erps-02-five-warning-signs-vi.svg)
 
 Những dấu hiệu này không đòi hỏi đánh giá chuyên sâu. Doanh nghiệp có thể tự nhận ra nếu nhìn thẳng vào thực tế vận hành.
 
@@ -103,6 +113,8 @@ Nếu những câu hỏi về trách nhiệm này không có câu trả lời r�
 
 ## Hậu quả khi đưa quy trình chưa chuẩn vào ERP
 
+![Đưa quy trình chưa chuẩn hóa vào ERP dẫn tới ba hướng: cấu hình theo quy trình sai, customization không kiểm soát và cạn ngân sách trước go-live.](~/assets/images/insights/erps-03-three-consequences-vi.svg)
+
 Doanh nghiệp có thể lựa chọn bỏ qua bước chuẩn hóa và đi thẳng vào triển khai. Nhiều doanh nghiệp đã làm vậy. Kết quả thường theo một trong ba hướng:
 
 **Hướng 1: Hệ thống được cấu hình theo quy trình sai**
@@ -127,6 +139,8 @@ Nhiều dự án ERP vượt ngân sách không phải vì phần mềm đắt h
 
 ## Chuẩn hóa quy trình trước ERP — không cần hoàn hảo, cần nhất quán
 
+![Chuẩn hóa trước ERP không cần flowchart được mọi bên phê duyệt, chuẩn hóa toàn tổ chức hay xử lý mọi ngoại lệ; cần ưu tiên phạm vi đầu, quy trình lõi, tài liệu đủ cho người mới và một người chịu trách nhiệm cho mỗi quy trình.](~/assets/images/insights/erps-04-consistent-not-perfect-vi.svg)
+
 Một quan niệm cần làm rõ: chuẩn hóa quy trình trước ERP không có nghĩa là mỗi bước phải được vẽ thành flowchart chi tiết và phê duyệt bởi mọi bên liên quan trước khi bắt đầu.
 
 Mức độ cần thiết là: **quy trình đủ nhất quán để cấu hình và vận hành được.**
@@ -144,6 +158,8 @@ Cụ thể hơn:
 ---
 
 ## Tự đánh giá: quy trình doanh nghiệp bạn đang ở đâu?
+
+![Tự đánh giá một quy trình: chọn một quy trình trong phạm vi ERP rồi trả lời bốn câu hỏi về tài liệu hóa, độ nhất quán giữa nhân viên, người phê duyệt cuối và việc cập nhật tài liệu.](~/assets/images/insights/erps-05-self-check-one-process-vi.svg)
 
 Một bài kiểm tra nhanh:
 

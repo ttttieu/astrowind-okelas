@@ -18,6 +18,12 @@ secondaryKeywords:
   - "business process documentation ERP"
   - "ERP implementation process requirements"
   - "manufacturing process ERP |"
+assessmentHref: /en/readiness/erp
+ctaPrimaryText: 'Assess your ERP readiness'
+ctaSubtitle: 'Identify your ERP readiness level'
+coverImage: '~/assets/images/insights/erps-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/erps-00-og-cover-en.png'
+coverImageAlt: "Four different paths for the same task converge into one consistent path before entering the ERP block."
 draft: false
 ---
 
@@ -31,6 +37,8 @@ draft: false
 ---
 
 ## What ERP Actually Requires From Your Processes
+
+![Six questions an ERP implementation partner needs answered about each process: number of steps, who performs them, who approves, data captured, exceptions and links to adjacent processes; if departments answer differently the system cannot be configured accurately.](~/assets/images/insights/erps-01-six-questions-en.svg)
 
 Before addressing the risks, it is worth being clear about what ERP actually requires.
 
@@ -52,6 +60,8 @@ What actually happens in these situations: processes get configured according to
 ---
 
 ## 5 Warning Signs Your Processes Are Not Ready for ERP
+
+![Five warning signs processes are not ready for ERP: they live in people's heads, every team has its own way, workshops end with it depends, exceptions outnumber the rule and accountability is unclear.](~/assets/images/insights/erps-02-five-warning-signs-en.svg)
 
 These warning signs do not require a formal assessment to identify. They are visible to anyone willing to look at operations honestly.
 
@@ -91,6 +101,8 @@ If accountability questions like these do not have clear answers — or if the a
 
 ## The Cost of Skipping This Step
 
+![Loading unstandardized processes into ERP leads to three paths: configuration around the wrong process, uncontrolled customization and a budget that runs out before go-live.](~/assets/images/insights/erps-03-three-consequences-en.svg)
+
 Organizations can choose to bypass process standardization and proceed directly to implementation. Many do. The outcome typically follows one of three patterns.
 
 **Pattern 1: The system is configured around the wrong process.**
@@ -109,6 +121,8 @@ When process questions are not resolved before implementation, they are resolved
 
 ## Process Standardization Before ERP — Not Perfect, Just Consistent
 
+![Standardizing before ERP does not require flowcharts signed off by everyone, organization-wide standardization or resolving every exception; it requires prioritizing the initial scope, the core flow, documentation a new employee can follow and a named owner per process.](~/assets/images/insights/erps-04-consistent-not-perfect-en.svg)
+
 One important clarification: standardizing processes before ERP does not mean every step needs to be documented in a detailed flowchart and signed off by every stakeholder before the project begins.
 
 The level required is: **consistent enough to configure and operate.**
@@ -126,6 +140,8 @@ More specifically:
 ---
 
 ## Self-Assessment: Where Do Your Processes Stand?
+
+![Self-assess one process: pick a process within the ERP scope and answer four questions on documentation, consistency between employees, the final approver and whether documentation was updated.](~/assets/images/insights/erps-05-self-check-one-process-en.svg)
 
 A practical check: select one core operational process within the scope of the ERP you are considering — for example, goods receiving, purchase approval, or customer order handling.
 
