@@ -2,7 +2,9 @@
 title: "AI in ISO/GMP Environments: Compliance Considerations Before You Deploy"
 description: "Manufacturers with ISO or GMP certification can't deploy AI casually. This article examines the specific compliance requirements and what a compliant AI approach looks like."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/ai-compliance-iso-gmp-manufacturing.png'
+coverImage: '~/assets/images/insights/ai-compliance-iso-gmp-manufacturing/icg-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/ai-compliance-iso-gmp-manufacturing/icg-00-og-cover-en.png'
+coverImageAlt: "On the left, ad hoc AI with unclear scope and controls; on the right, three controls: scope, audit trail, approver."
 category: 'ai'
 tags: ['AI Compliance', 'ISO', 'GMP', 'Quality Management']
 translationId: 'ai-compliance-iso-gmp-manufacturing'
@@ -18,6 +20,8 @@ secondaryKeywords:
   - "GMP AI guidelines"
   - "AI audit trail quality management"
 assessmentHref: '/en/readiness/ai'
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Identify your AI readiness level'
 draft: false
 ---
 
@@ -45,6 +49,8 @@ These questions can't be sidestepped in a certified environment — and they're 
 ---
 
 ## What ISO/GMP requires that bears on AI
+
+![Four requirement cards: document control, traceability, system validation CSV/CSA, evidence-based decisions.](~/assets/images/insights/ai-compliance-iso-gmp-manufacturing/icg-02-four-requirements-en.svg)
 
 Most ISO and GMP standards don't include specific AI provisions — most were written before AI became common in business operations. But the foundational principles of these standards create clear requirements for any tool or system used in processes with quality implications.
 
@@ -82,6 +88,8 @@ When AI participates in a decision-making process, this principle applies to the
 
 ## Three risk zones to evaluate
 
+![Three zone columns: lower, medium, higher risk; each has examples and the matching governance; the higher-risk column is dashed.](~/assets/images/insights/ai-compliance-iso-gmp-manufacturing/icg-01-three-risk-zones-en.svg)
+
 Rather than treating AI in ISO/GMP environments as a single undifferentiated concern, it is more useful to classify applications into three risk zones — each requiring a different approach.
 
 ### Lower-risk zone — AI supporting individual tasks outside GMP/ISO processes
@@ -112,6 +120,8 @@ In this zone, AI output can directly influence decisions about product safety an
 
 ## The risk isn't AI — it's the deployment approach
 
+![Three rows: each deployment pattern on the left leads to its consequence on the right.](~/assets/images/insights/ai-compliance-iso-gmp-manufacturing/icg-04-deployment-patterns-en.svg)
+
 An important point: ISO/GMP doesn't prohibit AI. These standards don't say "don't use new technology." They say: any tool or system used in processes with quality implications must be appropriately controlled.
 
 The real risks come from three common deployment patterns:
@@ -129,6 +139,8 @@ As analyzed in the article on evidence-based AI — this creates a gap in the co
 
 ## A compliance-first approach to AI
 
+![Five numbered principles, from starting in the lower-risk zone to knowing which AI tool is in use.](~/assets/images/insights/ai-compliance-iso-gmp-manufacturing/icg-03-five-principles-en.svg)
+
 There's no single "deploy AI for ISO" template that works across all organizations and all standards. But there are foundational principles a Quality Director can apply to build an appropriate approach.
 
 **Principle 1 — Start from the lower-risk zone.**
@@ -144,6 +156,9 @@ In any decision affecting product quality or compliance, the authorized person s
 When AI is integrated into a process with compliance requirements, it is a system change — and should go through the organization's change management process, including risk assessment, staff training, and updating related documentation where needed.
 
 **Principle 5 — Distinguish which AI tools are in use.**
+
+![Three tool-type columns: personal chatbot, API with data-retention controls, on-premise AI; each has its compliance implication.](~/assets/images/insights/ai-compliance-iso-gmp-manufacturing/icg-05-tool-types-en.svg)
+
 There is a significant difference between: an employee using personal ChatGPT on a browser (data may be used for model training), using an AI API with data retention controls, and running AI on-premise with no external data sharing. For sensitive data about formulations, processes, or customer information — this distinction has real compliance and data privacy implications.
 
 ---
