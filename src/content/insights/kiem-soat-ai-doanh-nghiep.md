@@ -2,6 +2,9 @@
 title: "AI được phép làm đến đâu — và tại sao doanh nghiệp cần một control layer"
 description: "Khi AI từ chatbot trở thành agent có khả năng tự hành động, câu hỏi không còn là AI biết gì mà là AI được phép làm gì. Bài viết phân tích vấn đề kiểm soát AI trong doanh nghiệp."
 publishDate: 2026-09-23T00:00:00Z
+coverImage: '~/assets/images/insights/kiem-soat-ai-doanh-nghiep/ctl-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/kiem-soat-ai-doanh-nghiep/ctl-00-og-cover-vi.png'
+coverImageAlt: "Bên trái là agent hành động, khó đảo ngược; bên phải là control layer với ba kiểm soát: định danh, quyền tối thiểu, nhật ký."
 translationId: pillar-6-ai-control-layer
 lang: vi
 category: ai
@@ -22,6 +25,8 @@ secondaryKeywords:
   - "AI governance doanh nghiệp"
   - "AI được phép làm gì"
 assessmentHref: /readiness/ai
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---
 
@@ -48,6 +53,8 @@ Hôm nay, câu hỏi đó không còn đủ. AI không chỉ trả lời câu h�
 ---
 
 ## Từ chatbot đến agentic AI
+
+![Hai chuỗi: chatbot đề xuất rồi người quyết định và hành động; agent tự chọn bước, hành động trong phạm vi và lặp lại.](~/assets/images/insights/kiem-soat-ai-doanh-nghiep/ctl-01-chatbot-to-agent-vi.svg)
 
 Sự khác biệt giữa chatbot và agent không nằm ở việc AI nào "thông minh hơn" — nó nằm ở việc **ai kiểm soát đường đi xử lý**.
 
@@ -77,6 +84,8 @@ Vấn đề trở nên nghiêm trọng hơn khi agent có quyền truy cập và
 
 ## Chatbot sai khác agent sai
 
+![Hai chuỗi lỗi: chatbot sai có điểm kiểm tra trước khi hành động; agent sai lan qua các bước và khó đảo ngược.](~/assets/images/insights/kiem-soat-ai-doanh-nghiep/ctl-02-error-comparison-vi.svg)
+
 Đây là điểm nhiều lãnh đạo doanh nghiệp chưa thực sự cảm nhận được cho tới khi chứng kiến một trường hợp cụ thể.
 
 Tháng 7 năm 2025, Jason Lemkin — nhà sáng lập SaaStr — thực hiện một thử nghiệm công khai kéo dài 12 ngày, dùng AI coding agent của Replit để xây dựng một sản phẩm phần mềm hoàn toàn thông qua hội thoại với AI. Tới ngày thứ chín, dù Lemkin đã yêu cầu rõ ràng agent không được thay đổi bất cứ điều gì mà không xin phép trước, agent vẫn tự thực thi một loạt lệnh có tính phá hủy, xóa toàn bộ database production chứa dữ liệu thật của hơn 1.200 giám đốc điều hành và gần 1.200 doanh nghiệp. Agent sau đó còn tạo ra dữ liệu giả và báo cáo trạng thái sai lệch để che giấu việc đã xảy ra. CEO của Replit đã công khai xin lỗi và cam kết bổ sung các biện pháp bảo vệ.
@@ -90,6 +99,8 @@ So sánh với một chatbot: nếu một chatbot trả lời sai một câu h�
 ---
 
 ## Intelligence ≠ Authority
+
+![Ma trận hai trục: intelligence và authority tạo bốn góc phần tư, mỗi góc có mô tả ngắn.](~/assets/images/insights/kiem-soat-ai-doanh-nghiep/ctl-03-intelligence-authority-vi.svg)
 
 Một trong những nhầm lẫn phổ biến nhất khi doanh nghiệp đánh giá AI agent: coi năng lực trí tuệ (intelligence) của mô hình như một chỉ báo cho việc nó nên được cấp bao nhiêu quyền hạn (authority).
 
@@ -105,6 +116,8 @@ Nguyên tắc thực tế: **quyết định cấp bao nhiêu authority cho mộ
 ---
 
 ## Doanh nghiệp cần gì để kiểm soát AI
+
+![Bốn bước nối tiếp: định danh riêng, quyền tối thiểu, xác nhận độc lập, nhật ký runtime, mỗi bước có mô tả.](~/assets/images/insights/kiem-soat-ai-doanh-nghiep/ctl-04-four-action-controls-vi.svg)
 
 Từ những phân tích trên, có thể rút ra bốn yêu cầu cụ thể mà bất kỳ doanh nghiệp nào triển khai AI agent đều cần có:
 
@@ -127,6 +140,8 @@ AI, đặc biệt các mô hình ngôn ngữ lớn, có khả năng lập luận
 ---
 
 ## KVM (Knowledge Virtual Machine) là gì
+
+![Luồng bốn khối: AI agent đến KVM, rồi tri thức tổ chức và nguồn gốc; dưới KVM là ba chức năng Trace, FindEvidence, Resolve.](~/assets/images/insights/kiem-soat-ai-doanh-nghiep/ctl-05-kvm-placement-vi.svg)
 
 Trong kiến trúc của OKELAS, mảnh này được xử lý bởi một lớp gọi là **KVM — Knowledge Virtual Machine**.
 

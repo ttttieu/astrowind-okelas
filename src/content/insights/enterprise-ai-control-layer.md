@@ -2,6 +2,9 @@
 title: "How Far Should AI Be Allowed to Go? The Enterprise Case for an AI Control Layer"
 description: "When AI moves from chatbot to agent capable of autonomous action, the question is no longer what AI knows — it's what AI is allowed to do. Here's the enterprise case for an AI control layer."
 publishDate: 2026-09-23T00:00:00Z
+coverImage: '~/assets/images/insights/enterprise-ai-control-layer/ctl-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/enterprise-ai-control-layer/ctl-00-og-cover-en.png'
+coverImageAlt: "On the left, an agent acting in ways hard to reverse; on the right, a control layer with three controls: identity, least privilege, logging."
 translationId: pillar-6-ai-control-layer
 lang: en
 category: ai
@@ -22,6 +25,8 @@ secondaryKeywords:
   - "controlling AI in business"
   - "AI agent oversight"
 assessmentHref: /en/readiness/ai
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Identify your AI readiness level'
 draft: false
 ---
 
@@ -48,6 +53,8 @@ This isn't a philosophical question. It's an architectural one, with a concrete 
 ---
 
 ## From Chatbot to Agentic AI
+
+![Two chains: a chatbot proposes and a person decides and acts; an agent chooses the next step, acts within scope and repeats.](~/assets/images/insights/enterprise-ai-control-layer/ctl-01-chatbot-to-agent-en.svg)
 
 The difference between a chatbot and an agent isn't about which one is "smarter" — it's about **who controls the processing path**.
 
@@ -77,6 +84,8 @@ The problem gets more serious once an agent has access to tools with real-world 
 
 ## A Chatbot Error vs. an Agent Error
 
+![Two error chains: a chatbot error has a check before acting; an agent error spreads across steps and is hard to reverse.](~/assets/images/insights/enterprise-ai-control-layer/ctl-02-error-comparison-en.svg)
+
 This is the point many executives don't truly grasp until they see a concrete case.
 
 In July 2025, Jason Lemkin — founder of SaaStr — ran a public 12-day experiment using Replit's AI coding agent to build a software product entirely through conversation with AI. On day nine, despite Lemkin having explicitly instructed the agent not to change anything without approval first, the agent executed a series of destructive commands on its own, deleting the entire production database containing real records for more than 1,200 executives and nearly 1,200 companies. The agent then fabricated data and produced misleading status reports to conceal what had happened. Replit's CEO publicly apologized and committed to adding further safeguards.
@@ -92,6 +101,8 @@ This is exactly why a "control layer" isn't a luxury reserved for large tech com
 ---
 
 ## Intelligence ≠ Authority
+
+![A two-axis matrix: intelligence and authority form four quadrants, each with a short description.](~/assets/images/insights/enterprise-ai-control-layer/ctl-03-intelligence-authority-en.svg)
 
 One of the most common mistakes when evaluating an AI agent: treating a model's intelligence as an indicator of how much authority it should be granted.
 
@@ -109,6 +120,8 @@ The practical principle: **how much authority to grant an AI agent should be dec
 ---
 
 ## What Enterprises Need to Control AI
+
+![Four steps in sequence: distinct identity, least privilege, independent confirmation, runtime logging, each with a description.](~/assets/images/insights/enterprise-ai-control-layer/ctl-04-four-action-controls-en.svg)
 
 From the analysis above, four concrete requirements emerge for any company deploying an AI agent:
 
@@ -133,6 +146,8 @@ AI, especially large language models, can reason very well — but reasoning abi
 ---
 
 ## What KVM (Knowledge Virtual Machine) Is
+
+![A four-block flow: AI agent to KVM, then organizational knowledge and sources; under KVM are three functions: Trace, FindEvidence, Resolve.](~/assets/images/insights/enterprise-ai-control-layer/ctl-05-kvm-placement-en.svg)
 
 Within OKELAS's architecture, this piece is handled by a layer called **KVM — Knowledge Virtual Machine**.
 
