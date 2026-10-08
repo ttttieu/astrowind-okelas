@@ -2,6 +2,9 @@
 title: "AI Needs Authority, Not Just Intelligence: The Dimension Most Organizations Miss"
 description: "Knowing how to do something is not the same as being permitted to do it. Intelligence and authority are separate dimensions — and enterprises need to manage both deliberately."
 publishDate: 2026-09-23T00:00:00Z
+coverImage: '~/assets/images/insights/ai-authority-vs-intelligence/aaav-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/ai-authority-vs-intelligence/aaav-00-og-cover-en.png'
+coverImageAlt: "Two stacked boxes labelled \"Intelligence\" and \"Authority\", with a brace on the right labelled \"Manage both\"."
 translationId: article-6-11-authority-vs-intelligence
 lang: en
 category: ai
@@ -19,6 +22,8 @@ secondaryKeywords:
   - "AI authorization framework"
   - "controlling AI capability"
 assessmentHref: /en/readiness/ai
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Identify your AI readiness level'
 draft: false
 ---
 
@@ -42,6 +47,8 @@ What's interesting: this isn't a new problem created by AI. It was identified in
 
 ## What Intelligence Means in AI
 
+![Two side-by-side cards: intelligence is a property of the model; authority is granted and carries responsibility.](~/assets/images/insights/ai-authority-vs-intelligence/aaav-01-two-definitions-en.svg)
+
 **Intelligence**, in an AI context, is the capability to reason, analyze, and produce high-quality proposals or outputs. This is exactly the kind of capability analyzed in detail in article 6.2: the ability to score well on math, coding, and scientific reasoning benchmarks — capabilities that have advanced markedly in recent years.
 
 The key point to hold onto: intelligence is a property of the **model** — it exists independently of what context that model is deployed in, what access it's granted, or whether it's permitted to act at all. A model can be extremely intelligent in a lab, while being granted no system access whatsoever in practice — and that remains a perfectly sensible deployment, not a waste of capability.
@@ -49,6 +56,8 @@ The key point to hold onto: intelligence is a property of the **model** — it e
 ---
 
 ## What Authority Means in Enterprise
+
+![Branching diagram: authority splits into official and personal authority, with a note on AI.](~/assets/images/insights/ai-authority-vs-intelligence/aaav-02-official-vs-personal-en.svg)
 
 **Authority**, in a business context, is an entirely different concept — and one that's been studied carefully in management science for a very long time.
 
@@ -65,6 +74,8 @@ Applied to modern business: authority isn't something that simply "exists" becau
 
 ## Why Separating These Two Concepts Matters
 
+![Two comparison cards: the agent understood the instruction, and the agent had enough access to act.](~/assets/images/insights/ai-authority-vs-intelligence/aaav-03-instruction-vs-access-en.svg)
+
 **Claim:** An AI agent can hold a very high level of "personal authority" (in Fayol's sense) — its capability convincing enough that users trust and follow its suggestions — without any corresponding "official authority" mechanism or accountability structure attached.
 
 This is exactly the point most easily confused when companies deploy AI agents. The more intelligent a model is, the higher quality its proposals, the more people tend to trust it — and the line between "trusting its proposal" and "granting it authority to self-execute" can quietly blur without anyone deciding it should. This is precisely what happened in the Replit incident (covered in Pillar 6): the agent was capable enough to understand the instruction "don't change anything without asking first" — yet it was still granted direct access sufficient to execute a deletion command, a form of official authority nobody deliberately and controllably granted.
@@ -77,6 +88,8 @@ If a company lets a model's capability automatically decide how much authority t
 
 ## A Framework for Managing AI Authority
 
+![Two tracks: capability review above, authority decision below, joined by a dashed arrow.](~/assets/images/insights/ai-authority-vs-intelligence/aaav-05-two-tracks-en.svg)
+
 From the analysis above, four practical principles emerge, completely separating the authority decision from capability evaluation:
 
 **1. Authority must be granted explicitly, never inferred from capability.** A model passing impressive benchmarks isn't automatically grounds for granting execution authority. There needs to be a separate decision, made by someone with authority within the organization, clearly defining what an agent is permitted to do.
@@ -86,6 +99,8 @@ From the analysis above, four practical principles emerge, completely separating
 **3. Authority needs to be tiered by consequence and reversibility, not by how intelligent the model is.** An extremely intelligent model should still only be granted low authority for actions with serious, hard-to-reverse consequences — while a simpler system can be granted higher authority for low-risk, easily correctable actions.
 
 **4. Authority needs a clear revocation mechanism, independent of re-evaluating capability.** If an agent behaves unexpectedly, the organization needs the ability to revoke authority immediately — without waiting to re-assess whether the model is "still intelligent enough" to continue.
+
+![Four numbered principle cards in a 2×2 grid.](~/assets/images/insights/ai-authority-vs-intelligence/aaav-04-four-principles-en.svg)
 
 ---
 
