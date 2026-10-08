@@ -1,7 +1,7 @@
 ---
 title: "AI được phép làm đến đâu — và tại sao doanh nghiệp cần một control layer"
 description: "Khi AI từ chatbot trở thành agent có khả năng tự hành động, câu hỏi không còn là AI biết gì mà là AI được phép làm gì. Bài viết phân tích vấn đề kiểm soát AI trong doanh nghiệp."
-publishDate: 2026-09-23T00:00:00Z
+publishDate: 2025-09-24T00:00:00Z
 coverImage: '~/assets/images/insights/kiem-soat-ai-doanh-nghiep/ctl-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/kiem-soat-ai-doanh-nghiep/ctl-00-og-cover-vi.png'
 coverImageAlt: "Bên trái là agent hành động, khó đảo ngược; bên phải là control layer với ba kiểm soát: định danh, quyền tối thiểu, nhật ký."

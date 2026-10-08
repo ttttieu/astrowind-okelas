@@ -1,7 +1,10 @@
 ---
 title: "AI Has Moved Beyond Chatbots: From Assistant to Agentic"
 description: "Many organizations still think of AI as a smart chatbot. But the reality has moved further: from prompt/response to goal/plan/action. Here's the gap that matters."
-publishDate: 2026-09-23T00:00:00Z
+publishDate: 2025-09-24T00:00:00Z
+coverImage: '~/assets/images/insights/ai-beyond-chatbot-agentic/agv-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/ai-beyond-chatbot-agentic/agv-00-og-cover-en.png'
+coverImageAlt: "On the left, a chatbot that produces text and stops; on the right, an agent that reads data, calls systems and decides the next step."
 translationId: article-6-1-beyond-chatbot
 lang: en
 category: ai
@@ -33,6 +36,8 @@ If your mental model of AI is still "a smarter chatbot," you're likely underesti
 
 ## Chatbot vs. AI Tool vs. AI Agent
 
+![Three columns: chatbot, AI tool, AI agent; each has a description and a final line stating who controls the next step.](~/assets/images/insights/ai-beyond-chatbot-agentic/agv-01-ladder-en.svg)
+
 These three terms often get used interchangeably, but they differ on one core point: **who controls the next action.**
 
 A **chatbot** receives a question, produces a text answer, and stops. It doesn't call any other system on its own, and can't change anything beyond the content it displays. The person reads it and decides for themselves whether to act on it.
@@ -47,6 +52,8 @@ The line between these three isn't about which AI is "smarter." It's about who �
 
 ## The Leap From Response to Action
 
+![Two cards: the old question of whether AI is smart enough, and the new question of who or what stops AI from acting wrongly.](~/assets/images/insights/ai-beyond-chatbot-agentic/agv-02-question-shift-en.svg)
+
 The seemingly small difference between "producing an answer" and "carrying out an action" is actually a leap in the nature of the risk involved.
 
 When a chatbot answers incorrectly, the consequence stops at the user receiving wrong information — and they still get a chance to check it before acting on it. When an agent acts incorrectly on its own — sending the wrong email, editing the wrong record, deleting the wrong dataset — the consequence happens **before** anyone gets a chance to intervene, and in many cases, it can't be undone.
@@ -59,6 +66,8 @@ This is exactly why the most important question about AI is changing. It used to
 
 ## Why This Matters for Your Organization
 
+![A chain of three blocks: a routine software update, an integrated agentic capability, and a block with a question mark about whether the organization knows and has switched it on.](~/assets/images/insights/ai-beyond-chatbot-agentic/agv-03-agentic-arrives-en.svg)
+
 The shift from chatbot to agent isn't something a company needs to "actively purchase" to run into. Enterprise software vendors are integrating agentic capabilities into nearly every product, through routine updates. There's a good chance agentic capability has already appeared, or is about to appear, in systems your company already uses — without anyone deliberately switching it on.
 
 That means the question is no longer "should we use an AI agent" — it's "do we actually have control over the AI agents that have already, or are about to, show up in our systems." An organization without a clear answer to this question is operating with a new layer of risk it hasn't yet recognized.
@@ -69,6 +78,8 @@ That means the question is no longer "should we use an AI agent" — it's "do we
 
 ## Questions to Ask Yourself
 
+![Three numbered rows of self-assessment questions, each with a checkbox.](~/assets/images/insights/ai-beyond-chatbot-agentic/agv-04-three-questions-en.svg)
+
 Before reading further into how to control an AI agent, three questions help locate where your organization currently stands:
 
 1. **Among the enterprise software you already use, is there a feature that lets AI act on its own — sending, creating, editing data — without confirming each time?**
@@ -76,6 +87,10 @@ Before reading further into how to control an AI agent, three questions help loc
 3. **If that AI agent acted incorrectly once, how long would it take your organization to notice and fix it?**
 
 If you're not sure about the answer to all three, that's a clear sign the gap between your organization's mental model of AI and the actual AI already running in it needs closing.
+
+---
+
+![Two columns: what is easy to recognize about how AI is used, and what needs checking about authority, control and detection time.](~/assets/images/insights/ai-beyond-chatbot-agentic/agv-05-known-vs-unseen-en.svg)
 
 ---
 

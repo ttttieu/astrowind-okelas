@@ -1,7 +1,7 @@
 ---
 title: "How Far Should AI Be Allowed to Go? The Enterprise Case for an AI Control Layer"
 description: "When AI moves from chatbot to agent capable of autonomous action, the question is no longer what AI knows — it's what AI is allowed to do. Here's the enterprise case for an AI control layer."
-publishDate: 2026-09-23T00:00:00Z
+publishDate: 2025-09-24T00:00:00Z
 coverImage: '~/assets/images/insights/enterprise-ai-control-layer/ctl-00-og-cover-en.png'
 ogImage: '~/assets/images/insights/enterprise-ai-control-layer/ctl-00-og-cover-en.png'
 coverImageAlt: "On the left, an agent acting in ways hard to reverse; on the right, a control layer with three controls: identity, least privilege, logging."

@@ -1,7 +1,10 @@
 ---
 title: "AI đã vượt khỏi chatbot — từ assistant đến agentic"
 description: "Nhiều tổ chức vẫn nghĩ về AI như một chatbot thông minh. Nhưng thực tế đã tiến xa hơn: từ prompt/response đến goal/plan/action. Đây là khoảng cách quan trọng cần nhận ra."
-publishDate: 2026-09-23T00:00:00Z
+publishDate: 2025-09-24T00:00:00Z
+coverImage: '~/assets/images/insights/ai-vuot-khoi-chatbot/agv-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/ai-vuot-khoi-chatbot/agv-00-og-cover-vi.png'
+coverImageAlt: "Bên trái là chatbot tạo văn bản và dừng lại; bên phải là agent đọc dữ liệu, gọi hệ thống và tự quyết định bước tiếp theo."
 translationId: article-6-1-beyond-chatbot
 lang: vi
 category: ai
@@ -33,6 +36,8 @@ Nếu nhận thức của bạn về AI vẫn dừng ở "chatbot thông minh h�
 
 ## Chatbot vs AI tool vs AI agent
 
+![Hai chuỗi: chatbot đề xuất rồi người quyết định và hành động; agent tự chọn bước, hành động trong phạm vi và lặp lại.](~/assets/images/insights/ai-vuot-khoi-chatbot/agv-01-ladder-vi.svg)
+
 Ba khái niệm này thường bị dùng lẫn lộn, nhưng khác nhau ở một điểm cốt lõi: **ai kiểm soát hành động tiếp theo**.
 
 **Chatbot** nhận một câu hỏi, tạo ra một câu trả lời bằng văn bản, rồi dừng lại. Nó không tự gọi thêm hệ thống nào, không tự thay đổi bất cứ điều gì ngoài nội dung nó hiển thị. Người dùng đọc, và tự quyết định có làm theo hay không.
@@ -47,6 +52,8 @@ Ranh giới giữa ba khái niệm này không phải về việc AI nào "thôn
 
 ## Bước nhảy từ response sang action
 
+![Hai thẻ: câu hỏi cũ về việc AI có đủ thông minh hay không, và câu hỏi mới về ai hoặc cái gì sẽ ngăn AI hành động sai.](~/assets/images/insights/ai-vuot-khoi-chatbot/agv-02-question-shift-vi.svg)
+
 Sự khác biệt tưởng như nhỏ giữa "tạo ra một câu trả lời" và "thực hiện một hành động" thực chất là một bước nhảy về bản chất rủi ro.
 
 Khi một chatbot trả lời sai, hậu quả dừng lại ở việc người dùng nhận thông tin sai — và còn cơ hội tự kiểm tra trước khi hành động theo nó. Khi một agent tự hành động sai — gửi nhầm một email, chỉnh sửa nhầm một hồ sơ, xóa nhầm một tập dữ liệu — hậu quả xảy ra **trước khi** bất kỳ ai có cơ hội can thiệp, và trong nhiều trường hợp, không thể hoàn tác.
@@ -57,6 +64,8 @@ Khi một chatbot trả lời sai, hậu quả dừng lại ở việc người 
 
 ## Tại sao điều này quan trọng với doanh nghiệp
 
+![Chuỗi ba khối: cập nhật phần mềm thường xuyên, khả năng agentic được tích hợp, và một khối dấu hỏi về việc tổ chức biết và đã bật nó hay không.](~/assets/images/insights/ai-vuot-khoi-chatbot/agv-03-agentic-arrives-vi.svg)
+
 Sự dịch chuyển từ chatbot sang agent không phải điều doanh nghiệp cần "chủ động mua" mới gặp phải. Các nhà cung cấp phần mềm doanh nghiệp đang tích hợp khả năng agentic vào gần như mọi sản phẩm, thông qua các bản cập nhật thông thường. Nhiều khả năng, khả năng agentic đã hoặc sắp xuất hiện trong hệ thống doanh nghiệp bạn đang dùng — dù không ai chủ động "bật" nó lên.
 
 Điều này có nghĩa: câu hỏi không còn là "chúng ta có nên dùng AI agent không" — mà là "chúng ta có đang kiểm soát được AI agent đã và đang xuất hiện trong hệ thống của mình hay không". Một tổ chức chưa có câu trả lời rõ cho câu hỏi này đang vận hành với một lớp rủi ro mới mà mình chưa nhận ra.
@@ -65,6 +74,8 @@ Sự dịch chuyển từ chatbot sang agent không phải điều doanh nghiệ
 
 ## Câu hỏi để tự đặt ra
 
+![Ba hàng câu hỏi tự đánh giá, mỗi hàng có một hộp kiểm.](~/assets/images/insights/ai-vuot-khoi-chatbot/agv-04-three-questions-vi.svg)
+
 Trước khi đọc sâu hơn về cách kiểm soát AI agent, ba câu hỏi sau giúp bạn xác định vị trí tổ chức mình đang ở đâu:
 
 1. **Trong các phần mềm doanh nghiệp bạn đang dùng, có tính năng nào cho phép AI tự hành động (gửi, tạo, chỉnh sửa dữ liệu) mà không cần xác nhận từng lần không?**
@@ -72,6 +83,10 @@ Trước khi đọc sâu hơn về cách kiểm soát AI agent, ba câu hỏi sa
 3. **Nếu AI agent đó hành động sai một lần, tổ chức có thể phát hiện và khắc phục trong bao lâu?**
 
 Nếu bạn không chắc câu trả lời cho cả ba câu hỏi trên, đó là dấu hiệu rõ ràng rằng khoảng cách giữa nhận thức về AI và thực tế AI trong tổ chức bạn đang cần được thu hẹp lại.
+
+---
+
+![Hai cột: cái gì dễ nhận ra về cách AI được dùng, và cái gì cần kiểm tra về quyền hạn, kiểm soát và thời gian phát hiện.](~/assets/images/insights/ai-vuot-khoi-chatbot/agv-05-known-vs-unseen-vi.svg)
 
 ---
 
