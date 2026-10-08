@@ -24,6 +24,11 @@ secondaryKeywords:
   - "doanh nghiệp sản xuất ERP"
   - "ERP readiness"
 assessmentHref: /readiness/erp
+ctaPrimaryText: 'Assess your ERP readiness'
+ctaSubtitle: 'Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn'
+coverImage: '~/assets/images/insights/erpf-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/erpf-00-og-cover-vi.png'
+coverImageAlt: "Hai chuỗi đầu vào đi qua cùng một khối ERP: chuỗi có trật tự cho ra kết quả có trật tự được nhân lên, chuỗi lộn xộn cho ra sự lộn xộn được nhân lên."
 draft: false
 ---
 
@@ -40,6 +45,8 @@ draft: false
 ---
 
 ## ERP "thất bại" nghĩa là gì?
+
+![Dự án ERP "xong" có phần nhìn thấy (cài phần mềm, nhân viên đăng nhập, dữ liệu được nhập) và phần bị che khuất (việc thật vẫn chạy bằng Excel và email, dữ liệu không được tin, customization tăng, vận hành chưa đổi); nếu chưa đổi cách vận hành thì vẫn là thất bại về kinh doanh.](~/assets/images/insights/erpf-01-what-failure-looks-like-vi.svg)
 
 Trước khi nói đến nguyên nhân, cần thống nhất một điều: *thất bại* trong ngữ cảnh ERP không chỉ có nghĩa là dự án bị hủy giữa chừng.
 
@@ -63,6 +70,8 @@ Nếu doanh nghiệp của bạn đang ở trong bất kỳ tình trạng nào k
 ---
 
 ## Vấn đề không nằm ở phần mềm
+
+![Doanh nghiệp có nền tảng đi qua ERP thì điểm mạnh được nhân lên; doanh nghiệp chưa sẵn sàng đi qua cùng một ERP thì điểm yếu cũng được nhân lên trên một hệ thống phức tạp và tốn kém hơn.](~/assets/images/insights/erpf-02-erp-is-an-amplifier-vi.svg)
 
 Đây là điều quan trọng nhất cần nói thẳng.
 
@@ -168,9 +177,13 @@ Nếu dự án bắt đầu mà không có định nghĩa rõ ràng về thành 
 
 Khi không có mục tiêu rõ ràng, dự án sẽ luôn được coi là "xong" về mặt kỹ thuật ngay cả khi không tạo ra giá trị kinh doanh.
 
+![Tám nguyên nhân phổ biến khiến dự án ERP không đạt mục tiêu: quy trình chưa chuẩn hóa, dữ liệu kém, scope không kiểm soát, customization quá nhiều, con người không đổi cách làm việc, thiếu governance sau go-live, kế toán chưa sẵn sàng và không định nghĩa thành công.](~/assets/images/insights/erpf-03-eight-root-causes-vi.svg)
+
 ---
 
 ## Doanh nghiệp sản xuất có thêm những thách thức riêng
+
+![Năm thách thức riêng của doanh nghiệp sản xuất khi triển khai ERP: BOM, chất lượng và traceability, tích hợp thiết bị, đơn vị tính và hao hụt, mùa vụ.](~/assets/images/insights/erpf-05-manufacturing-challenges-vi.svg)
 
 Ngoài 8 nguyên nhân trên — vốn phổ biến với mọi ngành — doanh nghiệp sản xuất còn đối mặt với một số thách thức đặc thù khi triển khai ERP.
 
@@ -189,6 +202,8 @@ Ngoài 8 nguyên nhân trên — vốn phổ biến với mọi ngành — doanh
 ---
 
 ## Dấu hiệu nhận biết sớm — trước khi dự án gặp vấn đề
+
+![Dấu hiệu sớm của dự án ERP gặp vấn đề, chia theo ba giai đoạn: chuẩn bị, triển khai và sau go-live, mỗi giai đoạn bốn dấu hiệu.](~/assets/images/insights/erpf-04-early-warning-signs-vi.svg)
 
 Những dấu hiệu dưới đây thường xuất hiện trong giai đoạn đầu của dự án, nhưng thường bị bỏ qua vì áp lực timeline.
 
@@ -213,6 +228,8 @@ Những dấu hiệu dưới đây thường xuất hiện trong giai đoạn đ
 ---
 
 ## Câu hỏi đúng không phải "chọn ERP nào?"
+
+![Sáu câu hỏi về quy trình, dữ liệu, phạm vi, người ra quyết định, change management và trách nhiệm sau dự án phải được trả lời trước khi đến câu hỏi chọn ERP nào và nhà triển khai nào.](~/assets/images/insights/erpf-06-readiness-before-selection-vi.svg)
 
 Khi ban lãnh đạo bắt đầu thảo luận về ERP, câu hỏi thường xuất hiện là:
 

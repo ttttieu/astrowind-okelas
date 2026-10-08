@@ -22,7 +22,12 @@ secondaryKeywords:
   - "ERP failure manufacturing"
   - "ERP readiness assessment"
   - "ERP implementation challenges SME"
-assessmentHref: /readiness/erp
+assessmentHref: /en/readiness/erp
+ctaPrimaryText: 'Assess your ERP readiness'
+ctaSubtitle: 'Identify your ERP readiness level'
+coverImage: '~/assets/images/insights/erpf-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/erpf-00-og-cover-en.png'
+coverImageAlt: "Two input streams pass through the same ERP block: the orderly one comes out as multiplied order, the messy one as multiplied chaos."
 draft: false
 ---
 
@@ -39,6 +44,8 @@ draft: false
 ---
 
 ## What Does ERP "Failure" Actually Mean?
+
+![A "finished" ERP project has a visible side (software installed, employees logging in, data entered) and a hidden side (real work still on spreadsheets and email, data not trusted, customization growing, operations unchanged); without changed operations it is still a business failure.](~/assets/images/insights/erpf-01-what-failure-looks-like-en.svg)
 
 Before examining the causes, it is worth defining the term.
 
@@ -62,6 +69,8 @@ If your organization is in any of these situations — even with ERP running —
 ---
 
 ## The Problem Is Not the Software
+
+![An organization with foundations passing through ERP has its strengths multiplied; an organization not yet ready passing through the same ERP has its weaknesses multiplied on a more complex and expensive system.](~/assets/images/insights/erpf-02-erp-is-an-amplifier-en.svg)
 
 This is the most important point to state clearly.
 
@@ -167,9 +176,13 @@ If a project begins without a clear, measurable definition of success, it become
 
 Without defined objectives, an ERP project will always be declared "done" from a technical standpoint — even when it has not generated meaningful business value.
 
+![Eight common root causes of ERP underperformance: unstandardized processes, poor data, uncontrolled scope, too much customization, people not changing how they work, no governance after go-live, finance not ready, and no definition of success.](~/assets/images/insights/erpf-03-eight-root-causes-en.svg)
+
 ---
 
 ## Manufacturing SMEs Face Additional Challenges
+
+![Five challenges specific to manufacturing SMEs implementing ERP: BOM, quality and traceability, equipment integration, units of measure and yield, and seasonality.](~/assets/images/insights/erpf-05-manufacturing-challenges-en.svg)
 
 Beyond the eight causes above — which apply across industries — manufacturing SMEs face additional implementation challenges specific to their operations.
 
@@ -188,6 +201,8 @@ Beyond the eight causes above — which apply across industries — manufacturin
 ---
 
 ## Early Warning Signs — Before the Project Runs Into Trouble
+
+![Early warning signs of an ERP project in trouble, in three project stages: preparation, implementation and after go-live, four signs each.](~/assets/images/insights/erpf-04-early-warning-signs-en.svg)
 
 The signals below typically appear in the early stages of an ERP project but are often ignored due to timeline pressure.
 
@@ -212,6 +227,8 @@ The signals below typically appear in the early stages of an ERP project but are
 ---
 
 ## The Right Question Is Not "Which ERP?"
+
+![Six questions on processes, data, scope, decision-makers, change management and post-project ownership must be answered before the question of which ERP and which implementation partner.](~/assets/images/insights/erpf-06-readiness-before-selection-en.svg)
 
 When leadership begins discussing ERP, the questions that typically emerge are:
 
