@@ -19,6 +19,12 @@ secondaryKeywords:
   - "ERP system management"
   - "ERP maintenance responsibility"
   - "post-ERP governance |"
+assessmentHref: /en/readiness/erp
+ctaPrimaryText: 'Assess your ERP readiness'
+ctaSubtitle: 'Identify your ERP readiness level'
+coverImage: '~/assets/images/insights/erpg-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/erpg-00-og-cover-en.png'
+coverImageAlt: "A go-live line separating the implementation partner on the left from the ERP block on the right, with four roles beneath it: System Owner, Master Data, Key Users and IT."
 draft: false
 ---
 
@@ -45,6 +51,8 @@ draft: false
 
 ## ERP Does Not Run Itself
 
+![The organization changes in products, processes, staff and structure so ERP must be updated to match; without governance data degrades over time and unowned problems accumulate.](~/assets/images/insights/erpg-01-erp-does-not-run-itself-en.svg)
+
 There is a common implicit assumption in many ERP projects: once the system has gone live and the implementation partner has left, ERP will sustain its own value.
 
 That assumption is wrong.
@@ -58,6 +66,8 @@ Governance, in the ERP context, is the structure of roles, processes, and decisi
 ---
 
 ## Warning Signs of a Governance Gap
+
+![Five warning signs of a governance gap: master data quality deteriorates, problems reported but not resolved, unmanaged change requests, uncontrolled user access and nobody knowing how well the system works.](~/assets/images/insights/erpg-02-five-warning-signs-en.svg)
 
 These signals typically appear between six and eighteen months after go-live — once the energy of a new project has faded and no structure has replaced it.
 
@@ -74,6 +84,8 @@ These signals typically appear between six and eighteen months after go-live —
 ---
 
 ## Key Roles After Go-Live
+
+![Four key roles after go-live: ERP System Owner, Master Data Manager, Key Users or Super Users, and IT or System Administrator.](~/assets/images/insights/erpg-03-four-key-roles-en.svg)
 
 Governance does not mean creating a new department. In an SME, the roles below can typically be assigned to existing people — what matters is that they are explicitly defined, not assumed.
 
@@ -107,6 +119,8 @@ Responsible for the technical layer: infrastructure, backups, security, user acc
 
 ## A Lightweight Governance Model for SMEs
 
+![Five elements of a lightweight governance model for SMEs: change management process, master data governance, user access management, periodic health check and a clear escalation path.](~/assets/images/insights/erpg-04-five-lightweight-elements-en.svg)
+
 Governance is not bureaucracy. For an SME, a practical governance structure can be built around five elements:
 
 **Change Management Process.** Any request to modify the system — new feature, configuration change, new report — goes through a defined path: who requests it, who assesses the impact, who approves it, who implements it, who validates the result. Not a complex process — but a consistent one. Not "whoever wants to make a change just does it."
@@ -123,6 +137,8 @@ Governance is not bureaucracy. For an SME, a practical governance structure can 
 
 ## Governance Starts Before Go-Live
 
+![Three things to define before go-live: the ERP System Owner, the Master Data Manager and the change request process.](~/assets/images/insights/erpg-05-before-go-live-en.svg)
+
 One of the most common mistakes: treating governance as something to establish after go-live.
 
 The reality: governance needs to be planned — and partially established — *before* go-live. At minimum, defining who will be the System Owner, who will be the Master Data Manager, and what the Change Request process will be.
@@ -132,6 +148,8 @@ The reason: from the first weeks after go-live, decisions about the system will 
 ---
 
 ## Self-Assessment
+
+![Six self-assessment questions on ERP governance: System Owner, master data owner, contact channel, change request process, handling accounts when people leave and the last data quality review.](~/assets/images/insights/erpg-06-six-self-check-questions-en.svg)
 
 - Is there a clearly designated ERP System Owner — someone with decision-making authority over the system who is accountable to leadership?
 - Is there a specific named person responsible for master data quality?

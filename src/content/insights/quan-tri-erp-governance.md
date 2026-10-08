@@ -19,6 +19,12 @@ secondaryKeywords:
   - "ERP owner"
   - "ERP maintenance"
   - "duy trì hệ thống ERP |"
+assessmentHref: /readiness/erp
+ctaPrimaryText: 'Assess your ERP readiness'
+ctaSubtitle: 'Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn'
+coverImage: '~/assets/images/insights/erpg-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/erpg-00-og-cover-vi.png'
+coverImageAlt: "Một đường go-live ngăn cách nhà triển khai ở bên trái với khối ERP ở bên phải, bên dưới là bốn vai trò System Owner, Master Data, Key Users và IT chịu trách nhiệm sau go-live."
 draft: false
 ---
 
@@ -45,6 +51,8 @@ draft: false
 
 ## ERP không tự vận hành
 
+![Doanh nghiệp thay đổi về sản phẩm, quy trình, nhân sự và cơ cấu nên ERP phải được cập nhật theo; không có governance thì dữ liệu xuống cấp dần và vấn đề không người xử lý tích lũy.](~/assets/images/insights/erpg-01-erp-does-not-run-itself-vi.svg)
+
 Có một giả định ngầm phổ biến trong nhiều dự án ERP: khi hệ thống đã go-live và nhà triển khai rời đi, ERP sẽ tự vận hành và duy trì giá trị của nó.
 
 Giả định đó không đúng.
@@ -58,6 +66,8 @@ Governance, trong ngữ cảnh ERP, là cấu trúc vai trò, quy trình và quy
 ---
 
 ## Dấu hiệu thiếu ERP governance
+
+![Năm dấu hiệu thiếu ERP governance: dữ liệu master kém chất lượng, vấn đề báo cáo nhưng không được xử lý, yêu cầu thay đổi không được quản lý, quyền truy cập không được kiểm soát và không ai biết hệ thống vận hành ra sao.](~/assets/images/insights/erpg-02-five-warning-signs-vi.svg)
 
 Những dấu hiệu này thường xuất hiện từ 6 đến 18 tháng sau go-live — khi không khí "dự án mới" đã qua đi và không có cấu trúc nào thay thế.
 
@@ -74,6 +84,8 @@ Những dấu hiệu này thường xuất hiện từ 6 đến 18 tháng sau go
 ---
 
 ## Các vai trò cần có sau go-live
+
+![Bốn vai trò cần có sau go-live: ERP System Owner, Master Data Manager, Key Users hoặc Super Users, và IT hoặc System Administrator.](~/assets/images/insights/erpg-03-four-key-roles-vi.svg)
 
 Governance không có nghĩa là thêm bộ phận mới. Với doanh nghiệp SME, những vai trò dưới đây có thể được giao cho người hiện tại — quan trọng là các vai trò này được định nghĩa rõ ràng, không phải ngầm hiểu.
 
@@ -107,6 +119,8 @@ Người chịu trách nhiệm kỹ thuật: hạ tầng, backup, bảo mật, q
 
 ## Governance structure cho SME: không cần phức tạp
 
+![Năm thành phần của mô hình governance gọn nhẹ cho SME: quy trình quản lý thay đổi, governance master data, quản lý quyền truy cập, kiểm tra sức khỏe định kỳ và đường escalation rõ ràng.](~/assets/images/insights/erpg-04-five-lightweight-elements-vi.svg)
+
 Governance không phải là bộ máy hành chính. Với doanh nghiệp SME, một governance structure đơn giản và thực tế có thể bao gồm:
 
 **Change Management Process.** Bất kỳ yêu cầu thay đổi nào đối với hệ thống — thêm tính năng, thay đổi cấu hình, tạo báo cáo mới — đều phải đi qua một quy trình: ai yêu cầu, ai đánh giá impact, ai phê duyệt, ai thực hiện, ai kiểm tra kết quả. Không phải quy trình phức tạp — nhưng phải có quy trình, không phải "ai muốn làm gì thì làm".
@@ -123,6 +137,8 @@ Governance không phải là bộ máy hành chính. Với doanh nghiệp SME, m
 
 ## Governance bắt đầu trước go-live
 
+![Ba việc cần xác định trước go-live: ERP System Owner, Master Data Manager và quy trình Change Request.](~/assets/images/insights/erpg-05-before-go-live-vi.svg)
+
 Một trong những sai lầm phổ biến nhất: nghĩ rằng governance là thứ có thể thiết lập sau go-live.
 
 Thực tế: governance cần được lên kế hoạch và một phần được thiết lập *trước* go-live — ít nhất là xác định rõ ai sẽ là System Owner, ai là Master Data Manager, và quy trình Change Request sau go-live là gì.
@@ -132,6 +148,8 @@ Lý do: ngay từ những tuần đầu sau go-live, các quyết định về h
 ---
 
 ## Tự đánh giá: ERP governance của bạn đang ở đâu?
+
+![Sáu câu hỏi tự đánh giá ERP governance: System Owner, người chịu trách nhiệm master data, kênh liên hệ, quy trình thay đổi cấu hình, xử lý tài khoản khi nghỉ việc và lần kiểm tra chất lượng dữ liệu gần nhất.](~/assets/images/insights/erpg-06-six-self-check-questions-vi.svg)
 
 - Có ai được chỉ định rõ ràng là ERP System Owner — người có thẩm quyền quyết định về hệ thống và chịu trách nhiệm trước lãnh đạo không?
 - Có người cụ thể chịu trách nhiệm chất lượng master data không?
