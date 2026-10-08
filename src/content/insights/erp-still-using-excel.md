@@ -18,6 +18,12 @@ secondaryKeywords:
   - "ERP adoption failure"
   - "post-ERP Excel dependency"
   - "ERP underutilization |"
+assessmentHref: /en/readiness/erp
+ctaPrimaryText: 'Assess your ERP readiness'
+ctaSubtitle: 'Identify your ERP readiness level'
+coverImage: '~/assets/images/insights/erpx-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/erpx-00-og-cover-en.png'
+coverImageAlt: "An ERP block marked installed beside a dashed spreadsheet grid where real work actually runs."
 draft: false
 ---
 
@@ -30,6 +36,8 @@ If the answer is spreadsheets, email threads, and a few Word documents — you a
 ---
 
 ## Installed Is Not the Same as Adopted
+
+![Installed means the software runs, data can be entered and reports generated; adopted means the system reflects how the organization actually operates, and the gap is usually wider than a completed project status implies.](~/assets/images/insights/erpx-01-installed-vs-adopted-en.svg)
 
 This is the gap that few ERP projects acknowledge openly: *installed* and *adopted* are two entirely different states.
 
@@ -57,6 +65,8 @@ The distance between these two states is typically much wider than the project s
 
 ## Three Reasons ERP Does Not Stick
 
+![Three reasons your team goes back to Excel: configuration mismatch, no personal incentive and unreliable data.](~/assets/images/insights/erpx-02-three-reasons-en.svg)
+
 **1. The system was configured for a process that doesn't match operational reality**
 
 When the system doesn't fit how work actually gets done, employees don't abandon the work — they abandon the system. A spreadsheet doesn't reject exception requests, doesn't enforce multi-step approval workflows, and doesn't throw validation errors when data is incomplete.
@@ -71,6 +81,8 @@ If ERP makes their job more complicated without visible personal benefit, and no
 
 **3. The data in ERP isn't reliable — and people know it**
 
+![The unreliable data loop: incorrect entries, inaccurate ERP data, users who stop trusting it and keep spreadsheets, and then less accurate data entered.](~/assets/images/insights/erpx-03-data-trust-loop-en.svg)
+
 This is the self-reinforcing loop that is hardest to break: when not enough people are entering data correctly, ERP data is inaccurate → other users don't trust what's in the system → they maintain their own spreadsheets for the information that matters → even less correct data ends up in ERP.
 
 This loop does not resolve itself over time. Without active intervention, it typically stabilizes into a state where ERP coexists with an unofficial shadow system running on spreadsheets.
@@ -78,6 +90,8 @@ This loop does not resolve itself over time. Without active intervention, it typ
 ---
 
 ## Is This a Symptom or a Cause?
+
+![What Excel is replacing hints at the problem: inventory work suggests configuration or the inbound process, financial reporting suggests unreliable data, and information stored outside suggests ERP scope gaps.](~/assets/images/insights/erpx-04-symptom-or-cause-en.svg)
 
 The more useful question is not "why are employees still using Excel?" — it is: *which parts of ERP is Excel replacing?*
 
@@ -92,6 +106,8 @@ Identifying where Excel is substituting for ERP pinpoints where the actual probl
 ---
 
 ## What to Do Next
+
+![Two points to consider before acting: diagnose before prescribing, and examine both system and organization.](~/assets/images/insights/erpx-05-two-points-before-acting-en.svg)
 
 If this describes your organization, there are two things to consider before taking action:
 

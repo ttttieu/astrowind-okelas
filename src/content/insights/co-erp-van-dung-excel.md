@@ -18,6 +18,12 @@ secondaryKeywords:
   - "ERP adoption thấp"
   - "ERP không được dùng"
   - "sau khi triển khai ERP |"
+assessmentHref: /readiness/erp
+ctaPrimaryText: 'Assess your ERP readiness'
+ctaSubtitle: 'Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn'
+coverImage: '~/assets/images/insights/erpx-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/erpx-00-og-cover-vi.png'
+coverImageAlt: "Một khối ERP được đánh dấu đã cài, đặt cạnh một lưới bảng tính nét đứt là nơi công việc thực tế đang chạy."
 draft: false
 ---
 
@@ -30,6 +36,8 @@ Nếu câu trả lời là Excel, email và một vài file Word — bạn khôn
 ---
 
 ## ERP được cài không có nghĩa là được dùng
+
+![Đã cài đặt nghĩa là phần mềm chạy, nhập được dữ liệu và tạo được báo cáo; đã được áp dụng nghĩa là hệ thống phản ánh đúng cách doanh nghiệp vận hành, và khoảng cách giữa hai trạng thái thường lớn hơn trạng thái dự án hoàn thành cho thấy.](~/assets/images/insights/erpx-01-installed-vs-adopted-vi.svg)
 
 Đây là khoảng cách mà ít dự án ERP nào thừa nhận công khai: *installed* và *adopted* là hai thứ hoàn toàn khác nhau.
 
@@ -57,6 +65,8 @@ Khoảng cách giữa hai trạng thái này thường rộng hơn nhiều so v�
 
 ## Ba nguyên nhân phổ biến nhất
 
+![Ba nguyên nhân phổ biến khiến nhân viên quay lại Excel: cấu hình không khớp quy trình thực tế, thiếu lý do cá nhân để thay đổi và dữ liệu ERP không đáng tin.](~/assets/images/insights/erpx-02-three-reasons-vi.svg)
+
 **1. ERP được cấu hình không phản ánh quy trình thực tế**
 
 Khi hệ thống không khớp với cách công việc thực sự diễn ra, nhân viên không từ bỏ công việc — họ từ bỏ hệ thống. Excel không từ chối yêu cầu ngoại lệ, không bắt buộc phải tuân theo quy trình phê duyệt nhiều bước, và không hiển thị thông báo lỗi khi dữ liệu không đầy đủ.
@@ -71,6 +81,8 @@ Nếu ERP làm công việc của họ phức tạp hơn mà không mang lại l
 
 **3. Dữ liệu trong ERP không đáng tin — và mọi người biết điều đó**
 
+![Vòng lặp dữ liệu không đáng tin: nhập thiếu hoặc sai, dữ liệu ERP không chính xác, người khác không tin và lập file Excel riêng, rồi ERP càng ít dữ liệu đúng.](~/assets/images/insights/erpx-03-data-trust-loop-vi.svg)
+
 Đây là một vòng lặp tự củng cố khó phá vỡ: khi không đủ người nhập dữ liệu đúng vào ERP, dữ liệu trong hệ thống không chính xác → người khác không tin vào dữ liệu đó → họ dùng Excel riêng để lưu thông tin quan trọng → càng ít dữ liệu đúng trong ERP.
 
 Vòng lặp này không tự biến mất theo thời gian. Nếu không có can thiệp chủ động, nó thường ổn định ở trạng thái: ERP tồn tại song song với một hệ thống thực tế không chính thức chạy bằng spreadsheet.
@@ -78,6 +90,8 @@ Vòng lặp này không tự biến mất theo thời gian. Nếu không có can
 ---
 
 ## Đây là triệu chứng hay nguyên nhân?
+
+![Excel đang thay thế phần nào của ERP gợi ý vấn đề ở đâu: làm việc kho gợi ý cấu hình hoặc quy trình nhập kho, làm báo cáo tài chính gợi ý dữ liệu chưa đáng tin, lưu thông tin ngoài hệ thống gợi ý phạm vi ERP chưa đủ.](~/assets/images/insights/erpx-04-symptom-or-cause-vi.svg)
 
 Câu hỏi quan trọng hơn không phải "tại sao nhân viên vẫn dùng Excel" — mà là: *Excel đang thay thế phần nào của ERP?*
 
@@ -92,6 +106,8 @@ Excel đang thay thế ERP ở đâu là câu hỏi giúp xác định vấn đ�
 ---
 
 ## Bước tiếp theo
+
+![Hai điều cần cân nhắc trước khi hành động: chẩn đoán trước khi kê đơn, và xem xét cả hệ thống lẫn tổ chức.](~/assets/images/insights/erpx-05-two-points-before-acting-vi.svg)
 
 Nếu doanh nghiệp bạn đang ở trong tình huống này, có hai hướng cần xem xét:
 
