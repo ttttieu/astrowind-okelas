@@ -2,7 +2,9 @@
 title: "Từ AI Hype đến AI Có Thể Triển Khai — lộ trình thực tế cho manufacturing SME"
 description: "AI hype không thiếu. Nhưng đối với doanh nghiệp sản xuất SME, lộ trình AI thực tế trông như thế nào? Bài viết cung cấp framework từ điểm bắt đầu đến triển khai có kết quả."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/ai-implementation-roadmap-manufacturing.png'
+coverImage: '~/assets/images/insights/lo-trinh-ai-thuc-te-manufacturing-sme/rmp-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/lo-trinh-ai-thuc-te-manufacturing-sme/rmp-00-og-cover-vi.png'
+coverImageAlt: "Bên trái là làn sóng hype AI, dẫn tới ba giai đoạn có thứ tự: nền tảng, hỗ trợ, workflow."
 category: 'ai'
 tags: ['AI Roadmap', 'Manufacturing', 'AI Strategy', 'Implementation']
 translationId: 'ai-implementation-roadmap-manufacturing'
@@ -18,6 +20,8 @@ secondaryKeywords:
   - "bắt đầu AI doanh nghiệp"
   - "AI thực tế không phải hype"
 assessmentHref: '/readiness/ai'
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---
 
@@ -31,6 +35,8 @@ draft: false
 ---
 
 ## Vấn đề với AI hype
+
+![Triển khai vội dẫn đến chỉ còn trợ lý soạn thảo; chờ đợi vô thời hạn khiến đối thủ tích lũy nền tảng.](~/assets/images/insights/lo-trinh-ai-thuc-te-manufacturing-sme/rmp-05-rush-vs-wait-vi.svg)
 
 Năm 2023–2024 chứng kiến làn sóng hype AI chưa từng có trong lịch sử công nghệ gần đây. Mọi hội nghị, mọi bài báo, mọi cuộc trò chuyện kinh doanh đều có AI.
 
@@ -49,6 +55,8 @@ Cả hai đều có chi phí thực sự. Vấn đề không phải "có nên l�
 ---
 
 ## Điểm bắt đầu thực tế — không phải chọn công cụ AI
+
+![Ba thẻ đánh giá: quy trình, dữ liệu, tri thức và context, mỗi thẻ có một câu hỏi.](~/assets/images/insights/lo-trinh-ai-thuc-te-manufacturing-sme/rmp-01-three-dimensions-vi.svg)
 
 Phần lớn cuộc thảo luận về AI bắt đầu từ câu hỏi sai: *"Công cụ AI nào phù hợp với doanh nghiệp chúng ta?"*
 
@@ -86,6 +94,8 @@ Một doanh nghiệp chế biến thực phẩm, 120 nhân viên, đang sản xu
 
 **Điều gì có thể làm ngay — và điều gì cần làm trước:**
 
+![Ba cột theo mốc tháng: nền tảng, AI hỗ trợ, đánh giá; mỗi cột có các việc cần làm.](~/assets/images/insights/lo-trinh-ai-thuc-te-manufacturing-sme/rmp-04-twelve-month-roadmap-vi.svg)
+
 Thay vì triển khai AI tool tiếp theo, ban lãnh đạo quyết định làm theo thứ tự:
 
 *Tháng 1–3: Foundation*
@@ -108,6 +118,8 @@ Sau 6 tháng với chatbot: đánh giá câu hỏi nào chatbot trả lời tố
 ---
 
 ## Lộ trình 3 giai đoạn cho manufacturing SME
+
+![Ba cột giai đoạn: nền tảng, AI hỗ trợ có kiểm soát, AI trong workflow; giai đoạn ba vẽ nét đứt vì chỉ dùng khi cần.](~/assets/images/insights/lo-trinh-ai-thuc-te-manufacturing-sme/rmp-02-three-stages-vi.svg)
 
 Từ tình huống minh họa và phân tích thực tế, có thể phác thảo một lộ trình 3 giai đoạn áp dụng được cho nhiều doanh nghiệp sản xuất SME — với điều kiện vào, kết quả cần đạt, và điều kiện để chuyển giai đoạn.
 
@@ -152,6 +164,8 @@ Từ tình huống minh họa và phân tích thực tế, có thể phác thả
 ### Giai đoạn 3 — AI trong workflow
 
 **Mục tiêu:** Tích hợp AI vào workflow vận hành ở những bước có giá trị cao và điều kiện sẵn sàng.
+
+![Ba điều kiện có ô đánh dấu: dữ liệu có cấu trúc từ hệ thống quan trọng, quy trình đủ chi tiết, governance cho agent đã rõ.](~/assets/images/insights/lo-trinh-ai-thuc-te-manufacturing-sme/rmp-03-entry-conditions-vi.svg)
 
 **Điều kiện vào (bắt buộc):**
 - Dữ liệu vận hành từ ít nhất một hệ thống quan trọng (ERP, QMS) đã có cấu trúc đủ để AI truy vấn và phân tích.
