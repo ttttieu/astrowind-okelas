@@ -19,7 +19,7 @@ secondaryKeywords:
   - "nhân sự chủ chốt nghỉ"
   - "mất tri thức doanh nghiệp"
   - "employee turnover knowledge"
-assessmentHref: '/readiness/knowledge-management'
+assessmentHref: '/readiness/knowledge'
 ctaPrimaryText: 'Assess your KM maturity'
 ctaSubtitle: 'Xác định mức độ trưởng thành về quản lý tri thức trong công ty bạn'
 draft: false

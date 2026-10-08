@@ -20,7 +20,7 @@ secondaryKeywords:
   - "management review là gì"
   - "họp review chất lượng"
   - "clause 9.3 ISO 9001"
-assessmentHref: '/readiness/knowledge-management'
+assessmentHref: '/readiness/knowledge'
 ctaPrimaryText: 'Làm Knowledge Management Maturity Assessment'
 ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
@@ -202,7 +202,7 @@ Bài viết tham chiếu ISO 9001:2015. Theo thông tin từ các tổ chức ch
 
 **Buổi xem xét của lãnh đạo ở doanh nghiệp bạn đang tạo ra quyết định, hay chỉ tạo ra một biên bản?**
 
-→ [Làm Knowledge Management Maturity Assessment](/readiness/knowledge-management) để xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên.
+→ [Làm Knowledge Management Maturity Assessment](/readiness/knowledge) để xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên.
 
 → [Đọc tiếp: Cách OKELAS tổ chức eQMS — từ document đến evidence đến audit trail](/insights/compliance/okelas-eqms-to-chuc) để xem cách tiếp cận đưa tài liệu, quy trình và bằng chứng vào một luồng thống nhất.
 

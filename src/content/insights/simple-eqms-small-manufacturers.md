@@ -19,7 +19,7 @@ secondaryKeywords:
   - "small business QMS software"
   - "affordable eQMS"
   - "eQMS manufacturing startup"
-assessmentHref: '/en/readiness/digitalization-level'
+assessmentHref: '/en/readiness/digitalization'
 ctaPrimaryText: 'Assess your digitalization level'
 ctaSubtitle: 'Identify your current digitalization level and what the next step should be'
 draft: false
@@ -118,7 +118,7 @@ If you can answer questions 1 and 2 clearly, you already have a way to filter mo
 
 **Where does your business stand on digitalization, and what is the sensible next step?**
 
-→ [Take the Digitalization Level Assessment](/en/readiness/digitalization-level) to find your current position and the next economically sensible step.
+→ [Take the Digitalization Level Assessment](/en/readiness/digitalization) to find your current position and the next economically sensible step.
 
 → [Read the overview guide: eQMS for Manufacturing SMEs](/en/insights/compliance/eqms-for-manufacturing-sme) to see all components and a rollout sequence.
 

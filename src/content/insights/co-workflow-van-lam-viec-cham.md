@@ -94,7 +94,7 @@ Nếu câu trả lời cho thấy phần lớn "tốc độ" trong tổ chức v
 *Bài viết này là một phần của chuỗi chuyên đề về workflow, ứng dụng AI và quản trị vận hành cho doanh nghiệp sản xuất SME.*
 
 **Bài liên quan:**
-- [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-thong-minh-the-he-moi)
+- [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-doanh-nghiep-san-xuat)
 - [Workflow số hóa vs. workflow tối ưu: sự khác biệt là gì?](/insights/workflow/so-hoa-workflow-vs-toi-uu-workflow)
 
 **→ [Làm Digitalization Readiness Assessment](/readiness/digitalization)**

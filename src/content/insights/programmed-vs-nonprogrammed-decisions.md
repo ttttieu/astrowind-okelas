@@ -112,7 +112,7 @@ The right mechanism for this transition:
 
 This is why the scope of human judgment narrows over time — **not because more authority is delegated to AI**, but because more rules get issued based on real experience, confirmed by people with authority.
 
-→ *Related: [Exception Handling in Business Workflows](/en/insights/workflow/exception-handling-workflow)*
+→ *Related: [Exception Handling in Business Workflows](/en/insights/workflow/exception-handling-in-workflow)*
 
 ---
 
@@ -149,7 +149,7 @@ The output of the inventory isn't a list of things to delegate to AI. It's:
 - Decisions that need more precedent before a rule can be written;
 - Decisions that must stay with people because the consequence of error is too high or criteria are too volatile.
 
-→ *Related: [Segregation of Duties When Using AI in Workflows](/en/insights/workflow/segregation-of-duties-ai-workflow)*
+→ *Related: [Segregation of Duties When Using AI in Workflows](/en/insights/workflow/separation-of-duties-ai-in-workflow)*
 
 ---
 
@@ -167,8 +167,8 @@ A more mature organization isn't one that delegates more to AI — it's one that
 
 **Related articles:**
 - [From Request/Approval to Event/Action: Rethinking How Work Flows](/en/insights/workflow/request-approval-to-event-action-workflow)
-- [Exception Handling in Business Workflows](/en/insights/workflow/exception-handling-workflow)
+- [Exception Handling in Business Workflows](/en/insights/workflow/exception-handling-in-workflow)
 - [AI in Workflow: Mapping Where It Fits and What It Should Do](/en/insights/workflow/where-ai-fits-in-workflow)
-- [Segregation of Duties When Using AI in Workflows](/en/insights/workflow/segregation-of-duties-ai-workflow)
+- [Segregation of Duties When Using AI in Workflows](/en/insights/workflow/separation-of-duties-ai-in-workflow)
 
 **→ [Complete the Digitalization Readiness Assessment](/en/readiness/digitalization)**

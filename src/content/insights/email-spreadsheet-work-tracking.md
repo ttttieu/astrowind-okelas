@@ -76,7 +76,7 @@ If all three are true, the problem isn't that employees haven't learned the soft
 
 Visibility isn't a feature to bolt on — it's a criterion for judging whether your current workflow actually serves the people using it. A system with real visibility makes maintaining a personal spreadsheet unnecessary, rather than requiring employees to give up the habit through willpower alone.
 
-→ *Related: [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/intelligent-workflow-next-generation)*
+→ *Related: [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/workflow-for-manufacturing-companies)*
 
 ---
 
@@ -85,6 +85,6 @@ Visibility isn't a feature to bolt on — it's a criterion for judging whether y
 **Related articles:**
 - [Workflow Depends Too Much on People: The Design Problem Behind Every Bottleneck](/en/insights/workflow/workflow-human-bottleneck)
 - [You Have Workflow. Why Is Work Still Moving Slowly?](/en/insights/workflow/workflow-digitized-still-slow)
-- [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/intelligent-workflow-next-generation)
+- [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/workflow-for-manufacturing-companies)
 
 **→ [Complete the Digitalization Readiness Assessment](/en/readiness/digitalization)**

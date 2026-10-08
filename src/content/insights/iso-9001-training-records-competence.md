@@ -20,7 +20,7 @@ secondaryKeywords:
   - "ISO training requirements"
   - "training records management QMS"
   - "clause 7.2 ISO 9001"
-assessmentHref: '/en/readiness/knowledge-management'
+assessmentHref: '/en/readiness/knowledge'
 ctaPrimaryText: 'Take the Knowledge Management Maturity Assessment'
 ctaSubtitle: 'Identify your maturity level and the first improvement to make'
 draft: false
@@ -196,12 +196,12 @@ This article refers to ISO 9001:2015. According to certification bodies, a revis
 
 **Do your training records prove training happened, or that people are competent to do the work?**
 
-→ [Take the Knowledge Management Maturity Assessment](/en/readiness/knowledge-management) to identify your maturity level and the first improvement to make.
+→ [Take the Knowledge Management Maturity Assessment](/en/readiness/knowledge) to identify your maturity level and the first improvement to make.
 
 **Further reading:**
 
 - [Internal Audit in ISO 9001: Not an Exam — a Tool for Real Improvement](/en/insights/compliance/effective-internal-audit-iso-9001) *(previous)*
-- [Supplier Qualification in ISO 9001: What Goes Beyond the Approved List](/en/insights/compliance/supplier-qualification-iso-9001) *(next)*
+- [Supplier Qualification in ISO 9001: What Goes Beyond the Approved List](/en/insights/compliance/iso-9001-supplier-qualification) *(next)*
 - [When Key Staff Leave, What Do They Take With Them?](/en/insights/knowledge-management/knowledge-loss-when-employees-leave) *(related)*
 - [Tacit vs. Explicit Knowledge: Why the Distinction Matters](/en/insights/knowledge-management/tacit-vs-explicit-knowledge) *(related)*
 - [eQMS for Manufacturing SMEs: A Practical Guide](/en/insights/compliance/eqms-for-manufacturing-sme) *(pillar)*

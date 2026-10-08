@@ -19,7 +19,7 @@ secondaryKeywords:
   - "eQMS đơn giản"
   - "hệ thống QMS phù hợp SME"
   - "triển khai eQMS nhỏ"
-assessmentHref: '/readiness/digitalization-level'
+assessmentHref: '/readiness/digitalization'
 ctaPrimaryText: 'Đánh giá mức độ số hóa'
 ctaSubtitle: 'Xác định mức độ số hóa hiện tại và bước tiếp theo hợp lý'
 draft: false
@@ -118,7 +118,7 @@ Nếu bạn trả lời được câu 1 và 2 một cách rõ ràng, bạn đã 
 
 **Doanh nghiệp của bạn đang ở mức số hóa nào, và bước tiếp theo hợp lý là gì?**
 
-→ [Làm Digitalization Level Assessment](/readiness/digitalization-level) để xác định vị trí hiện tại và bước tiếp theo có ý nghĩa kinh tế.
+→ [Làm Digitalization Level Assessment](/readiness/digitalization) để xác định vị trí hiện tại và bước tiếp theo có ý nghĩa kinh tế.
 
 → [Đọc hướng dẫn tổng quan: eQMS cho manufacturing SME](/insights/compliance/eqms-cho-doanh-nghiep-san-xuat) để xem toàn bộ các thành phần và thứ tự triển khai.
 

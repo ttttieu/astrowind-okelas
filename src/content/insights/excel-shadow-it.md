@@ -19,7 +19,7 @@ secondaryKeywords:
   - "shadow IT definition"
   - "Excel as operating system"
   - "spreadsheet management risks"
-assessmentHref: '/en/readiness/knowledge-management'
+assessmentHref: '/en/readiness/knowledge'
 ctaPrimaryText: 'Assess your KM maturity'
 ctaSubtitle: 'Identify your knowledge management maturity level in your organization'
 draft: false
@@ -173,7 +173,7 @@ That is a knowledge management question — not an IT question.
 
 **How many shadow systems is your organization running on?**
 
-→ [Take the Knowledge Management Readiness Assessment](/en/readiness/knowledge-management) to evaluate dependence on informal systems and identify priority areas to address.
+→ [Take the Knowledge Management Readiness Assessment](/en/readiness/knowledge) to evaluate dependence on informal systems and identify priority areas to address.
 
 **Further reading:**
 

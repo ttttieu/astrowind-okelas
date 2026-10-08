@@ -168,7 +168,7 @@ Nhưng tất cả những điều đó đều đòi hỏi nền tảng ERP adopt
 
 → *Xem thêm: [Organizational AI — khi AI hiểu doanh nghiệp thay vì chỉ trả lời câu hỏi](/insights/ai/organizational-ai-doanh-nghiep)*
 
-**→ Nếu doanh nghiệp bạn đang ở trong giai đoạn này — đã có ERP nhưng chưa thấy kết quả như kỳ vọng — [liên hệ OKELAS để trao đổi về lộ trình phù hợp](/lien-he).**
+**→ Nếu doanh nghiệp bạn đang ở trong giai đoạn này — đã có ERP nhưng chưa thấy kết quả như kỳ vọng — [liên hệ OKELAS để trao đổi về lộ trình phù hợp](/contact).**
 
 ---
 

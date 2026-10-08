@@ -19,7 +19,7 @@ secondaryKeywords:
   - "knowledge management system"
   - "beyond document storage"
   - "knowledge graph enterprise"
-assessmentHref: '/en/readiness/knowledge-management'
+assessmentHref: '/en/readiness/knowledge'
 ctaPrimaryText: 'Assess your KM maturity'
 ctaSubtitle: 'Identify your knowledge management maturity level in your organization'
 draft: false
@@ -170,7 +170,7 @@ And if the long-term goal is AI that supports operations with real context — n
 
 **Where is your organization in this progression — and which knowledge problems remain unresolved?**
 
-→ [Take the Knowledge Management Readiness Assessment](/en/readiness/knowledge-management) to assess your knowledge management maturity level.
+→ [Take the Knowledge Management Readiness Assessment](/en/readiness/knowledge) to assess your knowledge management maturity level.
 
 → [Contact OKELAS](/en/contact) to discuss an approach suited to your manufacturing business.
 

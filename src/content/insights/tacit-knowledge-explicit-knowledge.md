@@ -19,7 +19,7 @@ secondaryKeywords:
   - "tri thức hiện"
   - "quản lý tri thức doanh nghiệp"
   - "knowledge management framework"
-assessmentHref: '/readiness/knowledge-management'
+assessmentHref: '/readiness/knowledge'
 ctaPrimaryText: 'Assess your KM maturity'
 ctaSubtitle: 'Xác định mức độ trưởng thành về quản lý tri thức trong công ty bạn'
 draft: false
@@ -174,7 +174,7 @@ Phân biệt tacit và explicit knowledge không phải bài tập học thuật
 
 **Doanh nghiệp của bạn đang quản lý loại tri thức nào — và loại nào đang bị bỏ qua?**
 
-→ [Làm Knowledge Management Readiness Assessment](/readiness/knowledge-management) để đánh giá mức độ trưởng thành của knowledge management.
+→ [Làm Knowledge Management Readiness Assessment](/readiness/knowledge) để đánh giá mức độ trưởng thành của knowledge management.
 
 **Đọc thêm:**
 

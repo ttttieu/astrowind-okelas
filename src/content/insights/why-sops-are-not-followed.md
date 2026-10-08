@@ -19,7 +19,7 @@ secondaryKeywords:
   - "SOP compliance manufacturing"
   - "standard operating procedure execution"
   - "SOP implementation"
-assessmentHref: '/en/readiness/knowledge-management'
+assessmentHref: '/en/readiness/knowledge'
 ctaPrimaryText: 'Assess your KM maturity'
 ctaSubtitle: 'Identify your knowledge management maturity level in your organization'
 draft: false
@@ -166,7 +166,7 @@ That's the difference between a SOP as something the organization has, and a SOP
 
 **Which of the three causes is your organization dealing with?**
 
-→ [Take the Knowledge Management Readiness Assessment](/en/readiness/knowledge-management) to evaluate the quality of current SOPs and processes.
+→ [Take the Knowledge Management Readiness Assessment](/en/readiness/knowledge) to evaluate the quality of current SOPs and processes.
 
 **Further reading:**
 

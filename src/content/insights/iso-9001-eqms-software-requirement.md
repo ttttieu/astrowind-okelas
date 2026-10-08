@@ -19,7 +19,7 @@ secondaryKeywords:
   - "ISO 9001 documented information"
   - "ISO 9001 records management"
   - "eQMS ISO 9001 necessity"
-assessmentHref: '/en/readiness/digitalization-level'
+assessmentHref: '/en/readiness/digitalization'
 ctaPrimaryText: 'Assess your digitalization level'
 ctaSubtitle: 'Identify your current digitalization level and what the next step should be'
 draft: false
@@ -156,7 +156,7 @@ This article refers to ISO 9001:2015. According to certification bodies, a revis
 
 **Where does your current control system stand?**
 
-→ [Take the Digitalization Level Assessment](/en/readiness/digitalization-level) to identify your current digitalization level and the next economically sensible step.
+→ [Take the Digitalization Level Assessment](/en/readiness/digitalization) to identify your current digitalization level and the next economically sensible step.
 
 **Further reading:**
 

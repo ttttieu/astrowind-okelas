@@ -116,7 +116,7 @@ Không cần và không nên cố gắng biến mọi approval workflow thành e
 
 **Bước 5 — Mới tính đến công nghệ.** Chỉ sau khi ranh giới, điểm chuyển giao và trách nhiệm đã rõ, việc chọn công cụ để vận hành end-to-end workflow mới thực sự có ý nghĩa.
 
-→ *Xem thêm: [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-thong-minh-the-he-moi)*
+→ *Xem thêm: [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-doanh-nghiep-san-xuat)*
 
 ---
 
@@ -131,6 +131,6 @@ Approval workflow không sai — nó chỉ trả lời một câu hỏi rất h�
 **Bài liên quan:**
 - [Đã có workflow rồi — tại sao công việc vẫn chậm?](/insights/workflow/co-workflow-van-lam-viec-cham)
 - [Workflow được số hóa không có nghĩa là workflow đã được tối ưu](/insights/workflow/so-hoa-workflow-vs-toi-uu-workflow)
-- [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-thong-minh-the-he-moi)
+- [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-doanh-nghiep-san-xuat)
 
 **→ [Làm Digitalization Readiness Assessment](/readiness/digitalization)**

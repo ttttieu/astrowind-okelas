@@ -129,6 +129,6 @@ Event-driven workflow không phải một tính năng công nghệ đơn lẻ �
 **Bài liên quan:**
 - [Workflow đã nhanh — còn có thể nhanh hơn không?](/insights/workflow/workflow-co-the-nhanh-hon)
 - [Workflow vẫn phụ thuộc quá nhiều vào con người](/insights/workflow/workflow-phu-thuoc-con-nguoi)
-- [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-thong-minh-the-he-moi)
+- [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-doanh-nghiep-san-xuat)
 
 **→ [Làm Digitalization Readiness Assessment](/readiness/digitalization)**

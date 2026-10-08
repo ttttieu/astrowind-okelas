@@ -76,7 +76,7 @@ Nếu cả ba điều này đều đúng, vấn đề không nằm ở việc nh
 
 Visibility không phải một tính năng cần thêm vào — nó là một tiêu chí cần đánh giá khi xem xét workflow hiện tại có thực sự phục vụ người dùng hay không. Một hệ thống có visibility tốt sẽ khiến việc "tự làm Excel riêng để theo dõi" trở nên không cần thiết, chứ không phải yêu cầu nhân viên bỏ thói quen đó bằng ý chí.
 
-→ *Xem thêm: [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-thong-minh-the-he-moi)*
+→ *Xem thêm: [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-doanh-nghiep-san-xuat)*
 
 ---
 
@@ -85,6 +85,6 @@ Visibility không phải một tính năng cần thêm vào — nó là một ti
 **Bài liên quan:**
 - [Workflow vẫn phụ thuộc quá nhiều vào con người](/insights/workflow/workflow-phu-thuoc-con-nguoi)
 - [Đã có workflow rồi — tại sao công việc vẫn chậm?](/insights/workflow/co-workflow-van-lam-viec-cham)
-- [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-thong-minh-the-he-moi)
+- [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-doanh-nghiep-san-xuat)
 
 **→ [Làm Digitalization Readiness Assessment](/readiness/digitalization)**

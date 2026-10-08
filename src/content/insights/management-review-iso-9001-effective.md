@@ -20,7 +20,7 @@ secondaryKeywords:
   - "management review input output"
   - "quality management review"
   - "top management review QMS"
-assessmentHref: '/en/readiness/knowledge-management'
+assessmentHref: '/en/readiness/knowledge'
 ctaPrimaryText: 'Take the Knowledge Management Maturity Assessment'
 ctaSubtitle: 'Identify your maturity level and the first improvement to make'
 draft: false
@@ -99,7 +99,7 @@ Read closely, three details deserve emphasis.
 
 **The output is decisions.** "Reviewed and noted" is not a decision. Minutes with no decisions, actions or resources mean the meeting has not produced the output the standard describes.
 
-These inputs, seen another way, are the results of the system components covered in earlier articles: [internal audit](/en/insights/compliance/effective-internal-audit-iso-9001), [nonconformities](/en/insights/compliance/nonconformance-iso-9001-management) and [corrective action](/en/insights/compliance/effective-capa-iso-9001), [suppliers](/en/insights/compliance/supplier-qualification-iso-9001), [competence](/en/insights/compliance/iso-9001-training-records-competence), [risk](/en/insights/compliance/iso-9001-risk-management-clause-6). The quality of the review depends on the quality of the data from those places.
+These inputs, seen another way, are the results of the system components covered in earlier articles: [internal audit](/en/insights/compliance/effective-internal-audit-iso-9001), [nonconformities](/en/insights/compliance/nonconformance-iso-9001-management) and [corrective action](/en/insights/compliance/effective-capa-iso-9001), [suppliers](/en/insights/compliance/iso-9001-supplier-qualification), [competence](/en/insights/compliance/iso-9001-training-records-competence), [risk](/en/insights/compliance/iso-9001-risk-management-clause-6). The quality of the review depends on the quality of the data from those places.
 
 ---
 
@@ -202,7 +202,7 @@ This article refers to ISO 9001:2015. According to certification bodies, a revis
 
 **Is your management review producing decisions, or just minutes?**
 
-→ [Take the Knowledge Management Maturity Assessment](/en/readiness/knowledge-management) to identify your maturity level and the first improvement to make.
+→ [Take the Knowledge Management Maturity Assessment](/en/readiness/knowledge) to identify your maturity level and the first improvement to make.
 
 → [Read next: How OKELAS Organizes eQMS — Document, Evidence, Audit Trail](/en/insights/compliance/okelas-eqms-approach) to see an approach that brings documents, processes and evidence into one flow.
 

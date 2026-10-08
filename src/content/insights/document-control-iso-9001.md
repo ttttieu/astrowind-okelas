@@ -19,7 +19,7 @@ secondaryKeywords:
   - "document control là gì"
   - "quản lý phiên bản tài liệu"
   - "phê duyệt tài liệu ISO"
-assessmentHref: '/readiness/knowledge-management'
+assessmentHref: '/readiness/knowledge'
 ctaPrimaryText: 'Làm Knowledge Management Maturity Assessment'
 ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
@@ -164,9 +164,9 @@ Bài viết tham chiếu ISO 9001:2015. Theo thông tin từ các tổ chức ch
 
 **Hệ thống kiểm soát tri thức và tài liệu của bạn đang ở mức nào?**
 
-→ [Làm Knowledge Management Maturity Assessment](/readiness/knowledge-management) để xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên.
+→ [Làm Knowledge Management Maturity Assessment](/readiness/knowledge) để xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên.
 
-→ [Liên hệ OKELAS](/lien-he) để trao đổi về cách tổ chức document control phù hợp với doanh nghiệp sản xuất của bạn.
+→ [Liên hệ OKELAS](/contact) để trao đổi về cách tổ chức document control phù hợp với doanh nghiệp sản xuất của bạn.
 
 **Đọc thêm:**
 

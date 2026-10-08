@@ -19,7 +19,7 @@ secondaryKeywords:
   - "managing AI content"
   - "document management AI era"
   - "information overload AI"
-assessmentHref: '/en/readiness/knowledge-management'
+assessmentHref: '/en/readiness/knowledge'
 ctaPrimaryText: 'Assess your KM maturity'
 ctaSubtitle: 'Identify your knowledge management maturity level in your organization'
 draft: false
@@ -128,7 +128,7 @@ There are no universally "right" answers — but these questions will clarify ho
 
 **Where is your organization in the document management challenge?**
 
-→ [Take the Knowledge Management Readiness Assessment](/en/readiness/knowledge-management)
+→ [Take the Knowledge Management Readiness Assessment](/en/readiness/knowledge)
 
 → [Read next: From DMS to Knowledge Management — An Important Difference](/en/insights/knowledge-management/dms-vs-knowledge-management)
 

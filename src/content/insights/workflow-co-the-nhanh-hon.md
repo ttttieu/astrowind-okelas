@@ -70,7 +70,7 @@ Tầng tiếp theo không đến từ việc thêm nhiều bước phê duyệt 
 
 Cả hai hướng này đều không đòi hỏi từ bỏ sự kiểm soát của con người ở những quyết định quan trọng — chúng chỉ giảm bớt phần việc chuẩn bị và phát hiện, vốn tốn thời gian nhưng ít giá trị phán đoán thực sự.
 
-→ *Xem thêm: [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-thong-minh-the-he-moi)*
+→ *Xem thêm: [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-doanh-nghiep-san-xuat)*
 
 ---
 
@@ -93,6 +93,6 @@ Nếu câu trả lời cho câu 3 là có, đó là dấu hiệu đáng để t�
 **Bài liên quan:**
 - [Workflow Automation và Intelligent Workflow: Hai Khái Niệm Khác Nhau](/insights/workflow/workflow-automation-vs-intelligent)
 - [Đã có workflow rồi — tại sao công việc vẫn chậm?](/insights/workflow/co-workflow-van-lam-viec-cham)
-- [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-thong-minh-the-he-moi)
+- [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-doanh-nghiep-san-xuat)
 
 **→ [Làm Digitalization Readiness Assessment](/readiness/digitalization)**

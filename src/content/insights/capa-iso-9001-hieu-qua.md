@@ -19,7 +19,7 @@ secondaryKeywords:
   - "CAPA là gì"
   - "xử lý CAPA đúng cách"
   - "root cause analysis CAPA"
-assessmentHref: '/readiness/knowledge-management'
+assessmentHref: '/readiness/knowledge'
 ctaPrimaryText: 'Làm Knowledge Management Maturity Assessment'
 ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
@@ -173,7 +173,7 @@ Bài viết tham chiếu ISO 9001:2015. Theo thông tin từ các tổ chức ch
 
 **Quy trình CAPA của bạn đang chạm tới nguyên nhân hay chỉ đóng phiếu?**
 
-→ [Làm Knowledge Management Maturity Assessment](/readiness/knowledge-management) để xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên.
+→ [Làm Knowledge Management Maturity Assessment](/readiness/knowledge) để xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên.
 
 **Đọc thêm:**
 

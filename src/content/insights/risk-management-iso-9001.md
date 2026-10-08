@@ -20,7 +20,7 @@ secondaryKeywords:
   - "rủi ro và cơ hội ISO"
   - "risk based thinking"
   - "clause 6 ISO 9001"
-assessmentHref: '/readiness/knowledge-management'
+assessmentHref: '/readiness/knowledge'
 ctaPrimaryText: 'Làm Knowledge Management Maturity Assessment'
 ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
@@ -208,7 +208,7 @@ Bài viết tham chiếu ISO 9001:2015. Theo thông tin từ các tổ chức ch
 
 **Cách bạn đang xử lý rủi ro là một hồ sơ cho audit, hay một cách suy nghĩ khi vận hành?**
 
-→ [Làm Knowledge Management Maturity Assessment](/readiness/knowledge-management) để xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên.
+→ [Làm Knowledge Management Maturity Assessment](/readiness/knowledge) để xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên.
 
 **Đọc thêm:**
 

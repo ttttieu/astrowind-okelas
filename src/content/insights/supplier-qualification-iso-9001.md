@@ -20,7 +20,7 @@ secondaryKeywords:
   - "approved supplier list"
   - "vendor qualification"
   - "kiểm soát nhà cung cấp ISO"
-assessmentHref: '/readiness/knowledge-management'
+assessmentHref: '/readiness/knowledge'
 ctaPrimaryText: 'Làm Knowledge Management Maturity Assessment'
 ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
@@ -197,7 +197,7 @@ Bài viết tham chiếu ISO 9001:2015. Theo thông tin từ các tổ chức ch
 
 **Danh sách nhà cung cấp của bạn đang là kết quả của một quy trình, hay chỉ là một danh sách?**
 
-→ [Làm Knowledge Management Maturity Assessment](/readiness/knowledge-management) để xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên.
+→ [Làm Knowledge Management Maturity Assessment](/readiness/knowledge) để xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên.
 
 **Đọc thêm:**
 

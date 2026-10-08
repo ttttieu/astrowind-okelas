@@ -19,7 +19,7 @@ secondaryKeywords:
   - "GMP certification audit"
   - "audit readiness"
   - "evidence documentation"
-assessmentHref: '/en/readiness/knowledge-management'
+assessmentHref: '/en/readiness/knowledge'
 ctaPrimaryText: 'Assess your KM maturity'
 ctaSubtitle: 'Identify your knowledge management maturity level in your organization'
 draft: false
@@ -95,7 +95,7 @@ This doesn't require complex technology. It requires two things: processes desig
 
 *"Is the preparation taking a long time because the audit is difficult — or because our systems weren't designed to be ready for scrutiny at any time?"*
 
-→ [Take the Knowledge Management Readiness Assessment](/en/readiness/knowledge-management) to evaluate your audit readiness.
+→ [Take the Knowledge Management Readiness Assessment](/en/readiness/knowledge) to evaluate your audit readiness.
 
 → [Read next: ISO and GMP in the Context of Digitalization](/en/insights/business-operations/iso-gmp-document-management-digitalization)
 

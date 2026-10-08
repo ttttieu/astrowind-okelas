@@ -19,7 +19,7 @@ secondaryKeywords:
   - "paper to electronic QMS"
   - "QMS digitalization"
   - "ISO 9001 software transition"
-assessmentHref: '/en/readiness/digitalization-level'
+assessmentHref: '/en/readiness/digitalization'
 ctaPrimaryText: 'Assess your digitalization level'
 ctaSubtitle: 'Identify your current digitalization level and what the next step should be'
 draft: false
@@ -174,7 +174,7 @@ This article refers to ISO 9001:2015. According to certification bodies, a revis
 
 **Where is your system failing — and what's the sensible next step?**
 
-→ [Take the Digitalization Level Assessment](/en/readiness/digitalization-level) to identify your current digitalization level and the next economically sensible step.
+→ [Take the Digitalization Level Assessment](/en/readiness/digitalization) to identify your current digitalization level and the next economically sensible step.
 
 → [Read the overview guide: eQMS for Manufacturing SMEs](/en/insights/compliance/eqms-for-manufacturing-sme) to see all components and a rollout sequence.
 

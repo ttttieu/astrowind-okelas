@@ -19,7 +19,7 @@ secondaryKeywords:
   - "key person dependency"
   - "tacit knowledge loss"
   - "organizational knowledge risk"
-assessmentHref: '/en/readiness/knowledge-management'
+assessmentHref: '/en/readiness/knowledge'
 ctaPrimaryText: 'Assess your KM maturity'
 ctaSubtitle: 'Identify your knowledge management maturity level in your organization'
 draft: false

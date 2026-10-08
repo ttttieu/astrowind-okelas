@@ -66,7 +66,7 @@ Nói cách khác: một chatbot **đề xuất**. Một agent **hành động**.
 
 Sự dịch chuyển này đang diễn ra nhanh trong toàn ngành. Các nhà cung cấp phần mềm doanh nghiệp đang tích hợp khả năng agentic vào gần như mọi sản phẩm — từ CRM, ERP, tới các công cụ vận hành nội bộ. Doanh nghiệp không cần chủ động "mua một AI agent" để gặp vấn đề này; nhiều khả năng nó đã và đang len vào hệ thống của họ qua các bản cập nhật phần mềm thông thường.
 
-→ *Xem thêm: [Agentic AI khác AI Assistant như thế nào?](/insights/ai/agentic-ai-vs-ai-assistant)*
+→ *Xem thêm: [Agentic AI khác AI Assistant như thế nào?](/insights/ai/agentic-ai-vs-ai-assistant-vi)*
 
 ---
 
@@ -174,7 +174,7 @@ Doanh nghiệp không cần chờ có sự cố của riêng mình mới xây d�
 
 **Bài liên quan:**
 - [AI đã vượt khỏi chatbot — từ assistant đến agentic](/insights/ai/ai-vuot-khoi-chatbot)
-- [Agentic AI khác AI Assistant như thế nào?](/insights/ai/agentic-ai-vs-ai-assistant)
+- [Agentic AI khác AI Assistant như thế nào?](/insights/ai/agentic-ai-vs-ai-assistant-vi)
 - [Chatbot sai một câu. Agent sai một hành động.](/insights/ai/chatbot-sai-khac-agent-sai)
 
 **→ [AI Readiness Assessment](/readiness/ai)**

@@ -19,7 +19,7 @@ secondaryKeywords:
   - "organizational knowledge graph"
   - "knowledge graph AI"
   - "structured enterprise knowledge"
-assessmentHref: '/en/readiness/knowledge-management'
+assessmentHref: '/en/readiness/knowledge'
 ctaPrimaryText: 'Assess your KM maturity'
 ctaSubtitle: 'Identify your knowledge management maturity level in your organization'
 draft: false
@@ -169,7 +169,7 @@ Organizations that begin recording and structuring knowledge this way — even f
 
 **Is your organization organizing knowledge by folders — or by relationships?**
 
-→ [Take the Knowledge Management Readiness Assessment](/en/readiness/knowledge-management) to assess your knowledge organization maturity.
+→ [Take the Knowledge Management Readiness Assessment](/en/readiness/knowledge) to assess your knowledge organization maturity.
 
 → [Contact OKELAS](/en/contact) to discuss a knowledge graph approach suited to your manufacturing business.
 

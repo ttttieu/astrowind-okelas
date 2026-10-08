@@ -19,7 +19,7 @@ secondaryKeywords:
   - "lợi ích eQMS"
   - "từ giấy lên phần mềm QMS"
   - "eQMS vs paper QMS"
-assessmentHref: '/readiness/digitalization-level'
+assessmentHref: '/readiness/digitalization'
 ctaPrimaryText: 'Đánh giá mức độ số hóa'
 ctaSubtitle: 'Xác định mức độ số hóa hiện tại và bước tiếp theo hợp lý'
 draft: false
@@ -174,7 +174,7 @@ Bài viết tham chiếu ISO 9001:2015. Một bản sửa đổi ISO 9001:2026 �
 
 **Hệ thống của bạn đang gãy ở đâu — và bước tiếp theo hợp lý là gì?**
 
-→ [Làm Digitalization Level Assessment](/readiness/digitalization-level) để xác định mức độ số hóa hiện tại và bước tiếp theo có ý nghĩa kinh tế.
+→ [Làm Digitalization Level Assessment](/readiness/digitalization) để xác định mức độ số hóa hiện tại và bước tiếp theo có ý nghĩa kinh tế.
 
 → [Đọc hướng dẫn tổng quan: eQMS cho manufacturing SME](/insights/compliance/eqms-cho-doanh-nghiep-san-xuat) để xem toàn bộ các thành phần và thứ tự triển khai.
 

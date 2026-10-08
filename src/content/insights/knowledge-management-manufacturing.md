@@ -19,7 +19,7 @@ secondaryKeywords:
   - "tacit knowledge capture"
   - "employee knowledge retention"
   - "knowledge management SME"
-assessmentHref: '/en/readiness/knowledge-management'
+assessmentHref: '/en/readiness/knowledge'
 ctaPrimaryText: 'Assess your KM maturity'
 ctaSubtitle: 'Identify your knowledge management maturity level in your organization'
 draft: false
@@ -244,7 +244,7 @@ Organizations that continue leaving knowledge in people's heads will continue pa
 
 **Which maturity level does your organization most closely resemble?**
 
-→ [Take the Knowledge Management Readiness Assessment](/en/readiness/knowledge-management) — evaluate knowledge management maturity and identify priority areas for improvement.
+→ [Take the Knowledge Management Readiness Assessment](/en/readiness/knowledge) — evaluate knowledge management maturity and identify priority areas for improvement.
 
 ---
 

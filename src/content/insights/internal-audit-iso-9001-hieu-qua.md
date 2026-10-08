@@ -19,7 +19,7 @@ secondaryKeywords:
   - "internal audit là gì"
   - "tổ chức internal audit"
   - "audit chương trình ISO"
-assessmentHref: '/readiness/knowledge-management'
+assessmentHref: '/readiness/knowledge'
 ctaPrimaryText: 'Làm Knowledge Management Maturity Assessment'
 ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
@@ -200,7 +200,7 @@ Bài viết tham chiếu ISO 9001:2015. Theo thông tin từ các tổ chức ch
 
 **Đánh giá nội bộ của bạn đang cho biết hệ thống chạy thế nào, hay chỉ cho biết hồ sơ có đủ không?**
 
-→ [Làm Knowledge Management Maturity Assessment](/readiness/knowledge-management) để xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên.
+→ [Làm Knowledge Management Maturity Assessment](/readiness/knowledge) để xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên.
 
 **Đọc thêm:**
 

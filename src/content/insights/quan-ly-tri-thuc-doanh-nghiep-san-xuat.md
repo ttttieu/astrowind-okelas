@@ -19,7 +19,7 @@ secondaryKeywords:
   - "ghi nhận tri thức ngầm"
   - "giữ chân tri thức nhân sự"
   - "knowledge management SME"
-assessmentHref: '/readiness/knowledge-management'
+assessmentHref: '/readiness/knowledge'
 ctaPrimaryText: 'Assess your KM maturity'
 ctaSubtitle: 'Xác định mức độ trưởng thành về quản lý tri thức trong công ty bạn'
 draft: false
@@ -244,7 +244,7 @@ Doanh nghiệp nào tiếp tục để tri thức nằm trong đầu người s�
 
 **Doanh nghiệp của bạn đang ở cấp độ nào?**
 
-→ [Làm Knowledge Management Readiness Assessment](/readiness/knowledge-management) — đánh giá mức độ trưởng thành về knowledge management và xác định ưu tiên cải thiện.
+→ [Làm Knowledge Management Readiness Assessment](/readiness/knowledge) — đánh giá mức độ trưởng thành về knowledge management và xác định ưu tiên cải thiện.
 
 ---
 
