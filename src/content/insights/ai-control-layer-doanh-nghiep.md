@@ -2,6 +2,9 @@
 title: "AI cần một Control Layer: lớp nằm giữa agent và organizational knowledge"
 description: "Giữa AI agent và các hệ thống doanh nghiệp cần có một lớp kiểm soát: xác định quyền truy cập, trace hành động, kiểm chứng evidence và đảm bảo AI hoạt động trong boundary được phép."
 publishDate: 2026-09-23T00:00:00Z
+coverImage: '~/assets/images/insights/ai-control-layer-doanh-nghiep/aecl-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/ai-control-layer-doanh-nghiep/aecl-00-og-cover-vi.png'
+coverImageAlt: "Ba khối xếp chồng: AI agent, control layer ở giữa được tô nổi bật, và tổ chức ở dưới."
 translationId: article-6-13-control-layer-architecture
 lang: vi
 category: ai
@@ -19,6 +22,8 @@ secondaryKeywords:
   - "AI agent control"
   - "enterprise AI governance"
 assessmentHref: /readiness/ai
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---
 
@@ -32,6 +37,8 @@ draft: false
 > - Đây là mẫu hình kiến trúc quen thuộc trong ngành mạng: tách biệt **control plane** (nơi quyết định điều gì được phép) khỏi **data plane** (nơi dữ liệu thực sự di chuyển).
 > - Trong kiến trúc của OKELAS, một phần cụ thể của control layer — phần xử lý cách AI truy cập tri thức tổ chức — được gọi là **KVM (Knowledge Virtual Machine)**, sẽ được trình bày chi tiết ở bài tiếp theo.
 
+![Bảng so sánh hai cột: control plane và data plane trong mạng, đối chiếu với control layer và hệ thống tổ chức trong AI.](~/assets/images/insights/ai-control-layer-doanh-nghiep/aecl-02-plane-mapping-vi.svg)
+
 ---
 
 Sau mười hai bài, series này đã xây dựng một lập luận có cấu trúc rõ ràng: lỗi agent nghiêm trọng hơn lỗi chatbot vì hậu quả hình thành trước khi con người kịp xem lại (bài 6.10); intelligence và authority là hai trục độc lập, và authority cần được trao một cách tường minh (bài 6.11); và authority đó nên được thiết kế theo các tầng quyền hạn cụ thể, dựa trên nguyên tắc least privilege đã tồn tại 50 năm (bài 6.12).
@@ -41,6 +48,8 @@ Bài này trả lời câu hỏi kiến trúc còn lại: **tất cả những n
 ---
 
 ## Tại sao cần một lớp kiểm soát riêng
+
+![Ba thẻ so sánh: mô hình tự báo cáo và tài liệu chính sách ghi "Không đủ"; lớp kiểm soát lúc chạy ghi "Cần thiết".](~/assets/images/insights/ai-control-layer-doanh-nghiep/aecl-01-where-to-enforce-vi.svg)
 
 **Claim:** Các nguyên tắc kiểm soát AI đã bàn xuyên suốt series này — evidence, authorization, boundary, audit — không thể được thực thi đáng tin cậy nếu chỉ dựa vào chính mô hình AI hoặc một tài liệu chính sách; chúng cần một lớp kiến trúc riêng biệt để thực thi.
 
@@ -56,6 +65,8 @@ Cả hai lý do đều dẫn tới cùng một kết luận: cần một lớp k
 
 ## Control layer làm gì
 
+![Bốn thẻ chức năng được đánh số, mỗi thẻ có nhãn trụ cột tương ứng.](~/assets/images/insights/ai-control-layer-doanh-nghiep/aecl-04-four-functions-vi.svg)
+
 Một control layer đảm nhận bốn chức năng tương ứng với bốn trụ cột đã bàn ở bài 6.10 — ở cấp độ thực thi kỹ thuật, không phải nguyên tắc trừu tượng:
 
 - **Xác thực định danh và thẩm quyền của agent** trước mỗi hành động.
@@ -68,6 +79,8 @@ Một control layer đảm nhận bốn chức năng tương ứng với bốn t
 ---
 
 ## Kiến trúc: AI → Control Layer → Organization
+
+![Sơ đồ: AI agent đi vào control layer có bốn lớp kiểm tra, rồi mới đến hệ thống tổ chức; orchestrator cũng đi qua control layer.](~/assets/images/insights/ai-control-layer-doanh-nghiep/aecl-03-architecture-vi.svg)
 
 Đây là một mẫu hình kiến trúc không mới trong ngành công nghệ — tương tự nguyên tắc tách biệt **control plane** và **data plane** đã được áp dụng rộng rãi trong mạng máy tính trong nhiều thập kỷ: control plane là nơi các quyết định về định tuyến, quyền truy cập, và chính sách được đưa ra; data plane là nơi dữ liệu thực sự di chuyển dựa trên các quyết định đó.
 
@@ -82,6 +95,8 @@ Cách nhìn này giải quyết trực tiếp vấn đề confused deputy đã n
 ---
 
 ## Từ control layer đến KVM
+
+![Khung control layer bao ngoài, KVM nằm trong với ba thao tác Trace, FindEvidence, Resolve.](~/assets/images/insights/ai-control-layer-doanh-nghiep/aecl-05-kvm-nested-vi.svg)
 
 Control layer là một khái niệm kiến trúc rộng, bao trùm toàn bộ tương tác giữa AI agent và hệ thống doanh nghiệp — cả hành động (actions) lẫn tri thức (knowledge).
 

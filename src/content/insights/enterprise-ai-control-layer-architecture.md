@@ -2,6 +2,9 @@
 title: "AI Needs a Control Layer: What Lives Between the Agent and Your Organization"
 description: "Between AI agents and enterprise systems, there needs to be a control layer: one that defines access, traces actions, verifies evidence and keeps AI operating within permitted boundaries."
 publishDate: 2026-09-23T00:00:00Z
+coverImage: '~/assets/images/insights/enterprise-ai-control-layer-architecture/aecl-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/enterprise-ai-control-layer-architecture/aecl-00-og-cover-en.png'
+coverImageAlt: "Three stacked blocks: AI agent, the control layer in the middle highlighted, and the organization below."
 translationId: article-6-13-control-layer-architecture
 lang: en
 category: ai
@@ -19,6 +22,8 @@ secondaryKeywords:
   - "AI boundary management"
   - "AI oversight layer"
 assessmentHref: /en/readiness/ai
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Identify your AI readiness level'
 draft: false
 ---
 
@@ -32,6 +37,8 @@ draft: false
 > - This is a familiar architectural pattern from networking and distributed systems: separating the **control plane** (where decisions get made about what's permitted, how things get routed) from the **data plane** (where data actually moves) — a principle widely applied to ensure control decisions don't get mixed into, or accidentally bypassed by, the actual data-processing flow.
 > - Within OKELAS's architecture, one specific part of the control layer — the part handling how AI accesses organizational knowledge — is called **KVM (Knowledge Virtual Machine)**, covered in detail in the next article.
 
+![Two-column comparison: control plane and data plane in networking, matched with control layer and organizational systems for AI.](~/assets/images/insights/enterprise-ai-control-layer-architecture/aecl-02-plane-mapping-en.svg)
+
 ---
 
 Across twelve articles, this series has built a structured argument: an agent's error is more serious than a chatbot's because the consequence forms before a person can review it (article 6.10); intelligence and authority are independent axes, and authority needs to be granted explicitly (article 6.11); and that authority should be designed through specific permission tiers, based on a 50-year-old least-privilege principle (article 6.12).
@@ -41,6 +48,8 @@ This article answers the remaining architectural question: **where should all of
 ---
 
 ## Why a Dedicated Control Layer Is Needed
+
+![Three comparison cards: model self-report and policy document marked "Not enough"; runtime control layer marked "Needed".](~/assets/images/insights/enterprise-ai-control-layer-architecture/aecl-01-where-to-enforce-en.svg)
 
 **Claim:** The AI control principles covered throughout this series — evidence, authorization, boundary, audit — can't be reliably enforced by relying solely on the AI model itself or a policy document; they need a distinct architectural layer to enforce them.
 
@@ -56,6 +65,8 @@ Both reasons lead to the same conclusion: there needs to be an architectural lay
 
 ## What the Control Layer Does
 
+![Four numbered function cards, each with its matching pillar label.](~/assets/images/insights/enterprise-ai-control-layer-architecture/aecl-04-four-functions-en.svg)
+
 A control layer, in the proper architectural sense, carries out four functions corresponding to the four pillars covered in article 6.10 — but now at the level of technical enforcement, not abstract principle:
 
 - **Verifies the agent's identity and authority** before every action — never assuming previously granted permission is still valid.
@@ -68,6 +79,8 @@ Important point: a control layer isn't a security feature "bolted on afterward" 
 ---
 
 ## Architecture: AI → Control Layer → Organization
+
+![Diagram: the AI agent enters a control layer with four checks before reaching organizational systems; an orchestrator also passes through the control layer.](~/assets/images/insights/enterprise-ai-control-layer-architecture/aecl-03-architecture-en.svg)
 
 This isn't a new architectural pattern in technology — it mirrors the separation of **control plane** and **data plane**, widely applied in computer networking and distributed systems for decades: the control plane is where routing, access, and policy decisions get made; the data plane is where data actually moves based on those decisions.
 
@@ -82,6 +95,8 @@ This view directly addresses the multi-agent confused-deputy problem covered in 
 ---
 
 ## From Control Layer to KVM
+
+![Outer control layer frame with KVM nested inside, showing three operations: Trace, FindEvidence, Resolve.](~/assets/images/insights/enterprise-ai-control-layer-architecture/aecl-05-kvm-nested-en.svg)
 
 A control layer, as described above, is a broad architectural concept, covering all interaction between AI agents and enterprise systems — both actions and knowledge. Within OKELAS's architecture, one specific and important part of the control layer — the part handling how AI accesses and uses **organizational knowledge** — is handled by a mechanism called **KVM (Knowledge Virtual Machine)**. Worth stating clearly right away: KVM isn't the entire control layer, and it isn't a "sandbox" or isolated environment for running AI. It's a deterministic layer, responsible for one specific slice: ensuring that when AI needs to reason using organizational data or relationships, it doesn't freely access raw data or decide on its own what counts as "truth" — instead, it goes through defined operations (tracing provenance, finding relevant evidence, resolving entities/relationships), then reasons based on the returned result.
 
