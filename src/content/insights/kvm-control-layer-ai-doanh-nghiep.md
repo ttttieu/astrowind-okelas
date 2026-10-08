@@ -2,6 +2,9 @@
 title: "KVM: Control Layer cho AI trong doanh nghiệp"
 description: "Từ AI capability đến agentic behavior đến unexpected action đến enterprise risk — và cách KVM tạo ra một lớp kiểm soát giúp doanh nghiệp triển khai AI có trách nhiệm."
 publishDate: 2026-09-23T00:00:00Z
+coverImage: '~/assets/images/insights/kvm-control-layer/akvm-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/kvm-control-layer/akvm-00-og-cover-vi.png'
+coverImageAlt: "KVM: lớp kiểm soát cho AI trong doanh nghiệp; ba thao tác Trace, FindEvidence, và Resolve."
 translationId: article-6-20-kvm-conclusion
 lang: vi
 category: ai
@@ -19,6 +22,8 @@ secondaryKeywords:
   - "enterprise AI governance platform"
   - "kiểm soát AI vận hành"
 assessmentHref: /readiness/ai
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---
 
@@ -53,15 +58,23 @@ Bài 6.18 và 6.19 mở rộng góc nhìn ra toàn ngành: chính các phòng th
 
 Trong toàn bộ hành trình đó, một câu hỏi cụ thể liên tục quay trở lại: khi AI cần lập luận dựa trên dữ liệu và quan hệ trong tổ chức, làm sao đảm bảo nó không tự do truy cập dữ liệu thô và tự trở thành nguồn sự thật của tổ chức?
 
+![Bên trái, AI lập luận tự do trên nhiều khả năng; bên phải, KVM can thiệp để truy xuất và giải quyết tri thức tổ chức, đảm bảo có thể truy nguyên bằng chứng.](~/assets/images/insights/kvm-control-layer/akvm-01-reasoning-vs-facts-vi.svg)
+
 Đây chính xác là câu hỏi mà KVM — như đã giới thiệu ở bài 6.14 — được thiết kế để trả lời. Nguyên tắc cốt lõi: **AI reasons and explains; KVM retrieves, resolves and traces organizational knowledge.** Thông qua ba primitive xác định — Trace (truy nguyên nguồn gốc), FindEvidence (tìm evidence liên quan), và Resolve (xác định đúng entity/quan hệ) — KVM tạo ra một lớp trung gian deterministic giữa AI Agent/Copilot và Organizational Knowledge/Knowledge Graph của tổ chức.
 
+![Ba thao tác được trình bày: Trace truy nguyên về nguồn; FindEvidence tìm kiếm các sự kiện và quan hệ liên quan; Resolve xác định đúng các entity và kết nối của chúng.](~/assets/images/insights/kvm-control-layer/akvm-03-three-operations-vi.svg)
+
 Cần nhắc lại điều đã nhấn mạnh xuyên suốt các bài 6.14, 6.15, và 6.19: **KVM không phải toàn bộ giải pháp cho AI Control.** Nó không quyết định agent nào được phép thực thi hành động gì (đó là vai trò của các tầng Read/Request/Recommend/Execute), không ghi nhận evidence cho toàn bộ hành động của agent trong hệ thống (đó là một phần khác của control layer), và không phải cơ chế cho an toàn ở cấp độ phát triển mô hình (đó là trách nhiệm của developer, không phải deployer). KVM là cơ chế cụ thể cho đúng một lát cắt: **quản trị cách AI truy cập và sử dụng tri thức tổ chức**, để lời giải thích của AI có thể được neo vào bằng chứng đáp ứng chuẩn "có thể kiểm chứng" của ISO 9000, thay vì chỉ là một chuỗi lập luận thuyết phục nhưng không có nguồn gốc.
+
+![Ba giới hạn đặt ranh giới cho KVM: không cấp quyền thực thi hành động, không quản lý ủy quyền trên hệ thống, không quản lý an toàn cấp mô hình. Dưới đó, một hướng phát triển cho thấy FindGap là khả năng tương lai.](~/assets/images/insights/kvm-control-layer/akvm-05-not-list-vi.svg)
 
 ---
 
 ## Kiến trúc KVM trong OKELAS
 
 Trong kiến trúc tổng thể mà OKELAS hướng tới — Process → Workflow → Event → Evidence → Knowledge → Decision → Action, như đã trình bày trong tài liệu định vị OKELAS — KVM đóng vai trò kết nối lớp Knowledge với lớp Decision khi AI tham gia vào chuỗi đó. Luồng kiến trúc cụ thể: AI Agent/Copilot → KVM → Organizational Knowledge/Knowledge Graph → Documents/Events/Workflows/People/Systems/Records.
+
+![AI agent đi vào KVM, KVM kết nối với các nguồn tri thức tổ chức: Tài liệu, Sự kiện, Workflow, Con người, Hệ thống, và Bản ghi.](~/assets/images/insights/kvm-control-layer/akvm-04-workflow-vi.svg)
 
 Điều này có ý nghĩa cụ thể khi AI tham gia vào một agentic workflow — như đã bàn ở bài 5.16 trong series về Workflow: ở một bước cụ thể trong quy trình (ví dụ bước Review trong chuỗi Request → Review → Approval → Execution), thay vì để agent tự tìm kiếm hoặc truy cập database tùy ý, agent gọi KVM theo trình tự FindEvidence → Resolve → Trace, rồi lập luận dựa trên kết quả có cấu trúc nhận được. Kết quả đó, cùng với evidence trail được ghi nhận, sau đó được đưa trở lại workflow để tiếp tục theo đúng ranh giới quyết định/thực thi đã bàn xuyên suốt cluster này.
 
@@ -80,6 +93,8 @@ Từ toàn bộ nguyên tắc đã xây dựng xuyên suốt series, bốn bư�
 **3. Xác định những bước trong quy trình của agent đó cần dựa trên tri thức tổ chức**, và đánh giá xem KVM có thể được triển khai để đảm bảo những bước đó có evidence trail đáp ứng chuẩn kiểm chứng, thay vì để agent tự do truy cập dữ liệu thô.
 
 **4. Thiết lập lịch trình xem xét định kỳ**, tương tự cách các phòng thí nghiệm frontier cập nhật chính sách an toàn của mình — không coi bất kỳ thiết kế kiểm soát nào là hoàn thiện vĩnh viễn.
+
+![Bên trái hiển thị rủi ro truy cập dữ liệu thô trực tiếp; bên phải hiển thị truy cập được trung gian hóa qua KVM với các thao tác Trace, FindEvidence, và Resolve đảm bảo truy xuất tri thức có kiểm soát và kiểm tra được.](~/assets/images/insights/kvm-control-layer/akvm-02-raw-data-vs-kvm-vi.svg)
 
 ---
 

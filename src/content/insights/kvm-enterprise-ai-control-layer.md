@@ -2,6 +2,9 @@
 title: "KVM: Building the Control Layer That Makes Enterprise AI Responsible"
 description: "From AI capability to agentic behavior to unexpected action to enterprise risk — and how KVM creates the control layer that enables responsible AI deployment."
 publishDate: 2026-09-23T00:00:00Z
+coverImage: '~/assets/images/insights/kvm-control-layer/akvm-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/kvm-control-layer/akvm-00-og-cover-en.png'
+coverImageAlt: "KVM: the control layer for enterprise AI; three operation boxes show Trace, FindEvidence, and Resolve."
 translationId: article-6-20-kvm-conclusion
 lang: en
 category: ai
@@ -19,6 +22,8 @@ secondaryKeywords:
   - "responsible AI deployment"
   - "AI governance platform"
 assessmentHref: /en/readiness/ai
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Identify your AI readiness level'
 draft: false
 ---
 
@@ -51,15 +56,23 @@ Articles 6.18 and 6.19 widened the lens across the industry: the very labs build
 
 Throughout that entire journey, one specific question kept returning: when AI needs to reason using an organization's data and relationships, how do you ensure it doesn't freely access raw data and become the organization's source of truth itself?
 
+![AI on the left reasons freely over possibilities; on the right, KVM intervenes to retrieve and resolve organizational knowledge, ensuring evidence can be traced.](~/assets/images/insights/kvm-control-layer/akvm-01-reasoning-vs-facts-en.svg)
+
 This is precisely the question KVM — as introduced in article 6.14 — is designed to answer. The core principle: **AI reasons and explains; KVM retrieves, resolves and traces organizational knowledge.** Through three deterministic primitives — Trace (tracing provenance), FindEvidence (finding relevant evidence), and Resolve (correctly identifying an entity/relationship) — KVM creates a deterministic intermediary layer between the AI Agent/Copilot and the organization's Organizational Knowledge/Knowledge Graph.
 
+![Three operations shown: Trace traces back to the source; FindEvidence locates relevant facts and relationships; Resolve correctly identifies entities and their connections.](~/assets/images/insights/kvm-control-layer/akvm-03-three-operations-en.svg)
+
 Worth repeating: **KVM isn't the entire solution to AI Control.** It doesn't decide which agent is authorized to execute which action (that's the role of the Read/Request/Recommend/Execute tiers), doesn't record evidence for every action an agent takes across the system (that's a different part of the control layer), and isn't a mechanism for model-development-level safety (that's a developer responsibility, not a deployer one). KVM is the specific mechanism for exactly one slice: **governing how AI accesses and uses organizational knowledge**, so that an AI's explanation can be anchored to evidence meeting ISO 9000's "verifiable" standard.
+
+![Three constraints box KVM's boundaries: it doesn't authorize actions, doesn't manage authorization across systems, and doesn't manage model-level safety. Below, a development direction shows FindGap as a future capability.](~/assets/images/insights/kvm-control-layer/akvm-05-not-list-en.svg)
 
 ---
 
 ## KVM Architecture Within OKELAS
 
 Within the overall architecture OKELAS is building toward — Process → Workflow → Event → Evidence → Knowledge → Decision → Action — KVM connects the Knowledge layer to the Decision layer when AI participates in that chain. The concrete architectural flow: AI Agent/Copilot → KVM → Organizational Knowledge/Knowledge Graph → Documents/Events/Workflows/People/Systems/Records.
+
+![AI agent flows into KVM, which connects to organizational knowledge sources: Documents, Events, Workflows, People, Systems, and Records.](~/assets/images/insights/kvm-control-layer/akvm-04-workflow-en.svg)
 
 This has concrete meaning when AI participates in an agentic workflow: at a specific step in a process (the Review step in a Request → Review → Approval → Execution chain, say), instead of letting the agent search or access a database on its own, the agent calls KVM in sequence — FindEvidence → Resolve → Trace — and then reasons over the returned structured result. That result, along with the recorded evidence trail, feeds back into the workflow to continue along exactly the decision/execution boundary covered throughout this cluster.
 
@@ -78,6 +91,8 @@ From all the principles built throughout this series, four practical steps to ge
 **3. Identify which steps in that agent's process depend on organizational knowledge**, and evaluate whether KVM can be deployed to ensure those steps carry an evidence trail meeting a verifiable standard, instead of letting the agent freely access raw data.
 
 **4. Set up a periodic review schedule**, similar to how frontier labs update their safety policies — never treating any control design as permanently finished.
+
+![Left side shows direct raw data access with risk of misuse; right side shows KVM-mediated access with Trace, FindEvidence, and Resolve operations ensuring controlled, auditable knowledge retrieval.](~/assets/images/insights/kvm-control-layer/akvm-02-raw-data-vs-kvm-en.svg)
 
 ---
 
