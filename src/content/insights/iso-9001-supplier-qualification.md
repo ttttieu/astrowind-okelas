@@ -2,7 +2,10 @@
 title: "Supplier Qualification in ISO 9001: Beyond the Approved Supplier List"
 description: "An approved supplier list is not supplier qualification. ISO 9001 requires a process for evaluating, selecting and monitoring external providers — with evidence. Here's what a proper supplier management process looks like."
 publishDate: 2026-10-04T00:00:00Z
-image: '~/assets/images/insights/supplier-qualification-iso-9001.png'
+image: '~/assets/images/insights/asq-supplier-qualification/asq-00-og-cover-en.png'
+coverImage: '~/assets/images/insights/asq-supplier-qualification/asq-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/asq-supplier-qualification/asq-00-og-cover-en.png'
+coverImageAlt: "Two boxes joined by an arrow: approved list on the left, basis and ongoing monitoring on the right."
 category: 'compliance'
 tags: ['Supplier Qualification', 'Vendor Evaluation', 'ISO 9001', 'Approved Supplier List', 'eQMS']
 translationId: 'supplier-qualification-iso-9001'
@@ -18,6 +21,8 @@ secondaryKeywords:
   - "vendor evaluation ISO"
   - "supplier management QMS"
 assessmentHref: '/en/readiness/knowledge-management'
+ctaPrimaryText: 'Take the Knowledge Management Maturity Assessment'
+ctaSubtitle: 'Identify your maturity level and the first improvement to make'
 draft: false
 ---
 
@@ -41,6 +46,8 @@ Purchasing opens email, quality searches a spreadsheet, and twenty minutes later
 
 The list exists. But a list only says **who has been approved**. It doesn't say **why**, or **whether they still qualify**. That's the gap between a list and a supplier evaluation process.
 
+![Three auditor question cards in a row, with a takeaway bar below.](~/assets/images/insights/asq-supplier-qualification/asq-01-three-questions-en.svg)
+
 ---
 
 ## What clause 8.4 requires
@@ -48,6 +55,8 @@ The list exists. But a list only says **who has been approved**. It doesn't say 
 A word on terminology first: "supplier qualification" is the common name in practice, but ISO 9001:2015 speaks of **externally provided processes, products and services** and calls suppliers "external providers." This article uses the common term, in the sense of clause 8.4.
 
 The statements below are based on **ISO 9001:2015, clause 8.4**, summarized in practical terms.
+
+![Three clause cards, 8.4.1, 8.4.2 and 8.4.3, in a row, with a note box below about certificates.](~/assets/images/insights/asq-supplier-qualification/asq-02-clause-8-4-en.svg)
 
 **General (8.4.1).** The organization must ensure that externally provided processes, products and services conform to requirements. Controls must be determined when external products or services are incorporated into the organization's own offering, when they are provided directly to customers on the organization's behalf, or when a process or part of one is outsourced by the organization's decision.
 
@@ -64,6 +73,8 @@ Read closely, the standard describes a **chain of activities**: evaluate → sel
 ## Approved supplier list versus qualification
 
 The difference can be put simply: **the list is an outcome; qualification is the process that produces and maintains that outcome.**
+
+![Two comparison columns: approved list with three rows on the left, qualification with three rows on the right.](~/assets/images/insights/asq-supplier-qualification/asq-03-list-vs-qualification-en.svg)
 
 | | Approved supplier list | Qualification process |
 |---|---|---|
@@ -98,6 +109,8 @@ The standard asks the **organization to set its own criteria**, based on the pro
 
 The most practical approach is to group suppliers by their potential impact on product quality and safety:
 
+![Three risk-tier cards in a row, with a strip of five criteria below.](~/assets/images/insights/asq-supplier-qualification/asq-04-risk-tiers-en.svg)
+
 - **Critical:** materials or services in direct contact with product, affecting safety or key customer requirements, or outsourced processing.
 - **Standard:** supplies and services with indirect effect.
 - **Low:** goods or services with little effect on product quality.
@@ -119,6 +132,8 @@ The point isn't a long list of criteria, but that every approval decision has **
 ## Performance monitoring and re-evaluation
 
 Initial approval is only the beginning. Clause 8.4.1 asks for **performance monitoring** and **re-evaluation**.
+
+![Four boxes joined by arrows: monitor data, re-evaluate, act, update the list; below are a suggestion box and a data-source box.](~/assets/images/insights/asq-supplier-qualification/asq-05-monitoring-loop-en.svg)
 
 **Performance monitoring.** Commonly used data: incoming inspection results, on-time and in-full delivery, related nonconformities, customer complaints traceable to the supplier, and responsiveness when asked for corrective action. A simple scorecard is often more useful than a complicated scoring system, provided the data is reliable. A caution: scores built on missing or inconsistent data give a feeling of control without substance.
 

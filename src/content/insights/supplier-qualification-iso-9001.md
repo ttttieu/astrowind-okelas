@@ -2,7 +2,10 @@
 title: "Supplier Qualification trong ISO 9001 — vượt ra ngoài danh sách nhà cung cấp được duyệt"
 description: "Approved supplier list không phải là supplier qualification. ISO 9001 yêu cầu doanh nghiệp có quy trình đánh giá, lựa chọn và theo dõi hiệu suất nhà cung cấp bên ngoài — có evidence. Đây là cách làm đúng."
 publishDate: 2026-10-04T00:00:00Z
-image: '~/assets/images/insights/supplier-qualification-iso-9001.png'
+image: '~/assets/images/insights/asq-supplier-qualification/asq-00-og-cover-vi.png'
+coverImage: '~/assets/images/insights/asq-supplier-qualification/asq-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/asq-supplier-qualification/asq-00-og-cover-vi.png'
+coverImageAlt: "Hai hộp nối bằng mũi tên: danh sách đã duyệt bên trái, căn cứ và theo dõi bên phải."
 category: 'compliance'
 tags: ['Supplier Qualification', 'Đánh Giá Nhà Cung Cấp', 'ISO 9001', 'Approved Supplier List', 'eQMS']
 translationId: 'supplier-qualification-iso-9001'
@@ -18,6 +21,8 @@ secondaryKeywords:
   - "vendor qualification"
   - "kiểm soát nhà cung cấp ISO"
 assessmentHref: '/readiness/knowledge-management'
+ctaPrimaryText: 'Làm Knowledge Management Maturity Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 
@@ -41,6 +46,8 @@ Phòng mua hàng mở email, phòng chất lượng tìm trong một file Excel,
 
 Danh sách thì có. Nhưng danh sách chỉ cho biết **ai đã được chấp thuận**. Nó không cho biết **vì sao**, và **họ có còn đáp ứng không**. Đó là khoảng cách giữa một danh sách và một quy trình đánh giá nhà cung cấp.
 
+![Ba thẻ câu hỏi của auditor xếp hàng ngang, bên dưới là một thanh kết luận.](~/assets/images/insights/asq-supplier-qualification/asq-01-three-questions-vi.svg)
+
 ---
 
 ## ISO 9001 điều khoản 8.4 yêu cầu gì
@@ -48,6 +55,8 @@ Danh sách thì có. Nhưng danh sách chỉ cho biết **ai đã được chấ
 Một lưu ý về thuật ngữ trước: "supplier qualification" là cách gọi phổ biến trong thực tế, nhưng ISO 9001:2015 dùng cụm **"quá trình, sản phẩm và dịch vụ do bên ngoài cung cấp"** (externally provided processes, products and services) và gọi nhà cung cấp là "bên cung cấp bên ngoài" (external provider). Bài này dùng cách gọi phổ biến, theo nghĩa của điều khoản 8.4.
 
 Các nhận định dưới đây dựa trên **ISO 9001:2015, điều khoản 8.4**, tóm lược bằng ngôn ngữ thực hành.
+
+![Ba thẻ điều khoản 8.4.1, 8.4.2 và 8.4.3 xếp hàng ngang, bên dưới là một khung ghi chú về chứng chỉ.](~/assets/images/insights/asq-supplier-qualification/asq-02-clause-8-4-vi.svg)
 
 **Yêu cầu chung (8.4.1).** Tổ chức phải bảo đảm các quá trình, sản phẩm và dịch vụ do bên ngoài cung cấp phù hợp với yêu cầu. Cần xác định các biện pháp kiểm soát áp dụng khi sản phẩm hoặc dịch vụ của bên ngoài được đưa vào sản phẩm của tổ chức, khi bên ngoài cung cấp trực tiếp cho khách hàng thay mặt tổ chức, hoặc khi một quá trình hoặc một phần quá trình được giao cho bên ngoài thực hiện theo quyết định của tổ chức.
 
@@ -64,6 +73,8 @@ Tổ chức phải **xác định và áp dụng tiêu chí để đánh giá, l
 ## Approved supplier list và supplier qualification
 
 Sự khác biệt có thể tóm gọn: **danh sách là kết quả, qualification là quá trình tạo ra và duy trì kết quả đó.**
+
+![Hai cột đối chiếu: danh sách được duyệt với ba dòng bên trái, qualification với ba dòng bên phải.](~/assets/images/insights/asq-supplier-qualification/asq-03-list-vs-qualification-vi.svg)
 
 | | Approved supplier list | Quy trình qualification |
 |---|---|---|
@@ -98,6 +109,8 @@ Tiêu chuẩn yêu cầu **doanh nghiệp tự xác định tiêu chí**, dựa 
 
 Cách thực tế nhất là chia nhà cung cấp thành vài nhóm dựa trên tác động tiềm ẩn đến chất lượng và an toàn sản phẩm:
 
+![Ba thẻ nhóm rủi ro xếp hàng ngang, bên dưới là một dãy năm tiêu chí đánh giá.](~/assets/images/insights/asq-supplier-qualification/asq-04-risk-tiers-vi.svg)
+
 - **Nhóm quan trọng:** nguyên liệu hoặc dịch vụ tiếp xúc trực tiếp với sản phẩm, ảnh hưởng đến an toàn hoặc yêu cầu chính của khách hàng, hoặc quá trình gia công ngoài.
 - **Nhóm tiêu chuẩn:** vật tư, dịch vụ ảnh hưởng gián tiếp.
 - **Nhóm thấp:** hàng hóa hoặc dịch vụ ít ảnh hưởng đến chất lượng sản phẩm.
@@ -119,6 +132,8 @@ Mỗi nhóm có mức đánh giá và theo dõi khác nhau. Nhóm quan trọng c
 ## Theo dõi hiệu suất và đánh giá lại
 
 Phê duyệt ban đầu chỉ là điểm bắt đầu. Điều khoản 8.4.1 yêu cầu **theo dõi kết quả thực hiện** và **đánh giá lại**.
+
+![Bốn hộp nối bằng mũi tên: theo dõi dữ liệu, đánh giá lại, hành động, cập nhật danh sách; bên dưới là khung đề xuất và khung nguồn dữ liệu.](~/assets/images/insights/asq-supplier-qualification/asq-05-monitoring-loop-vi.svg)
 
 **Theo dõi hiệu suất.** Dữ liệu thường dùng: kết quả kiểm tra đầu vào, giao hàng đúng hạn và đủ số lượng, số sự không phù hợp liên quan, khiếu nại của khách hàng truy được về nhà cung cấp, và mức độ phản hồi khi được yêu cầu khắc phục. Một bảng điểm đơn giản thường hữu ích hơn một hệ thống chấm điểm phức tạp, miễn là dữ liệu đáng tin. Cần cẩn thận: điểm số xây trên dữ liệu thiếu hoặc không nhất quán sẽ cho cảm giác kiểm soát mà không có thực chất.
 

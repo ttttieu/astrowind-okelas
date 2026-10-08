@@ -59,8 +59,8 @@ const { language, textDirection } = I18N;
       // Supports multiple article series by matching image prefixes
       function swapDarkModeImages() {
         const isDark = document.documentElement.classList.contains('dark');
-        // Match images from multiple article series: anc (nonconformance), aia (internal audit), atrc (training records), etc.
-        const prefixes = ['anc-', 'aia-', 'atrc-'];
+        // Match images from multiple article series: anc (nonconformance), aia (internal audit), atrc (training records), asq (supplier qualification), etc.
+        const prefixes = ['anc-', 'aia-', 'atrc-', 'asq-'];
         const selector = prefixes.map(p => `img[src*="${p}"]`).join(', ');
         const images = document.querySelectorAll(selector);
 
