@@ -2,7 +2,9 @@
 title: "AI Readiness — Tại Sao AI Không Tự Động Làm Doanh Nghiệp Thông Minh Hơn"
 description: "Nhiều doanh nghiệp đã dùng AI nhưng không thấy kết quả ở cấp tổ chức. Bài viết phân tích điều kiện thực sự để AI tạo ra giá trị trong vận hành."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/ai-readiness-doanh-nghiep.png'
+coverImage: '~/assets/images/insights/ai-readiness-doanh-nghiep/aip-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/ai-readiness-doanh-nghiep/aip-00-og-cover-vi.png'
+coverImageAlt: "Một nút AI productivity đơn lẻ ở bên trái, sáu khối nền tảng nâng đỡ nút organizational intelligence ở bên phải."
 category: 'ai'
 tags: ['AI Readiness', 'Organizational Intelligence', 'AI Implementation', 'Manufacturing']
 translationId: 'organizational-ai-readiness'
@@ -21,6 +23,8 @@ secondaryKeywords:
   - 'AI không hiệu quả'
   - 'organizational AI'
 assessmentHref: '/readiness/ai'
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---
 

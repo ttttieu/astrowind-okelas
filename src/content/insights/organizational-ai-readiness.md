@@ -2,7 +2,9 @@
 title: "Organizational AI Readiness — Why AI Alone Won't Make Your Organization More Intelligent"
 description: "Many businesses have deployed AI tools but seen little organizational improvement. This article examines the real conditions that determine whether AI creates lasting operational value."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/organizational-ai-readiness.png'
+coverImage: '~/assets/images/insights/organizational-ai-readiness/aip-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/organizational-ai-readiness/aip-00-og-cover-en.png'
+coverImageAlt: "A single isolated AI productivity node on the left, and six foundation blocks supporting an organizational intelligence node on the right."
 category: 'ai'
 tags: ['AI Readiness', 'Organizational Intelligence', 'AI Implementation', 'Manufacturing']
 translationId: 'organizational-ai-readiness'
@@ -21,6 +23,8 @@ secondaryKeywords:
   - 'AI productivity vs organizational intelligence'
   - 'operational AI'
 assessmentHref: '/en/readiness/ai'
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Identify your AI readiness level'
 draft: false
 ---
 
