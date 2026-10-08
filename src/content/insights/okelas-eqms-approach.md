@@ -2,7 +2,10 @@
 title: "How OKELAS Organizes eQMS: From Document to Evidence to Audit Trail"
 description: "OKELAS doesn't just digitize ISO records. Every quality process action is connected to evidence, workflow and an audit trail — creating an eQMS that is traceable and verifiable by design."
 publishDate: 2026-10-04T00:00:00Z
-image: '~/assets/images/insights/okelas-eqms-to-chuc.png'
+image: '~/assets/images/insights/aoe-okelas-eqms/aoe-00-og-cover-en.png'
+coverImage: '~/assets/images/insights/aoe-okelas-eqms/aoe-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/aoe-okelas-eqms/aoe-00-og-cover-en.png'
+coverImageAlt: "Two boxes joined by an arrow: a document-centred system on the left, a chain of events and evidence on the right."
 category: 'compliance'
 tags: ['OKELAS', 'eQMS', 'Evidence', 'Audit Trail', 'Progressive eQMS']
 translationId: 'okelas-eqms-approach'
@@ -18,6 +21,8 @@ secondaryKeywords:
   - "quality management system with traceability"
   - "OKELAS quality"
 assessmentHref: '/en/contact'
+ctaPrimaryText: 'Contact OKELAS'
+ctaSubtitle: 'Discuss how to organize an eQMS suited to your manufacturing business'
 draft: false
 ---
 
@@ -28,6 +33,10 @@ draft: false
 > - When actions are recorded as events from the start, the audit trail is a **consequence of the design**, not something rebuilt before each audit.
 > - This approach isn't always necessary. For a small company, stable processes, or a need that is only document control, a DMS or a simple eQMS may be enough.
 > - This article describes an approach and design direction. The specific scope for any company is set by its process maturity and actual needs.
+
+---
+
+![Two comparison cards: a document-centred system on the left, a chain of events and evidence on the right; a takeaway bar below.](~/assets/images/insights/aoe-okelas-eqms/aoe-01-document-vs-evidence-en.svg)
 
 ---
 
@@ -57,6 +66,8 @@ In this approach, a document doesn't stand alone. It's a node in a network conne
 - the **events** that have referenced it (nonconformance, audit, change);
 - the **history** of its versions and reasons for change.
 
+![One document card on top, five linked chips in a row below, and a note bar about the DMS at the bottom.](~/assets/images/insights/aoe-okelas-eqms/aoe-03-document-as-node-en.svg)
+
 An important point: OKELAS is not a replacement DMS, and isn't meant to replace document storage tools. Version control, approval and distribution remain the foundation, in line with what [clause 7.5 of ISO 9001:2015](/en/insights/compliance/iso-9001-eqms-software-requirement) requires. What differs is that the document is placed in its operating context.
 
 The practical result is that three kinds of questions a document store typically can't answer become answerable:
@@ -81,6 +92,8 @@ This is the core of the approach. The four concepts can be understood like this.
 
 The distinction is that **evidence is created as part of the work**, not assembled after it.
 
+![Four boxes joined by arrows: Process, Workflow, Event, Evidence; below is a note box about evidence.](~/assets/images/insights/aoe-okelas-eqms/aoe-02-event-chain-en.svg)
+
 *Illustrative example (a design scenario, not a customer case):* a work instruction is updated. In the event-based approach, this chain is recorded as it happens: a draft is created, the reviewer and approver confirm, the new version takes effect, the old version changes status, affected people are notified, a training requirement is assigned, each person confirms completion. If a nonconformity later occurs at this step, it links into that same chain. The question "who was trained on which version" becomes a query, not a search.
 
 This view ties to a broader chain OKELAS uses to describe how a business runs: Process → Workflow → Event → Evidence → Knowledge → Decision → Action. eQMS is where the first four concepts are applied to the quality problem, and the later ones (knowledge, decision, action) are a natural extension, covered in the [final article of the series](/en/insights/compliance/eqms-to-knowledge-os).
@@ -94,6 +107,8 @@ In many systems, an audit trail is an added feature: the system logs who did wha
 With an approach that takes the event as the unit of record, the audit trail is **a consequence of design**. Because every action is recorded as an event with context, rebuilding the story is no longer a task before each audit.
 
 This relates to a principle OKELAS uses throughout: a good answer isn't only correct; it can **explain itself, point to evidence and be traced** (Explain → Evidence → Trace).
+
+![Three boxes joined by arrows: events with context, evidence in place, trace when auditing; below is a note about corrective action.](~/assets/images/insights/aoe-okelas-eqms/aoe-04-audit-trail-en.svg)
 
 For eQMS, that principle has concrete meaning:
 
@@ -128,6 +143,8 @@ Two things to face squarely. **The second approach asks for more preparation:** 
 ## When OKELAS fits, and when it may not
 
 The principle OKELAS follows is to solve the operational problem with the **smallest sufficient system**. That applies to OKELAS itself.
+
+![Two comparison columns: good fit when with three rows on the left, may not be needed when with three rows on the right.](~/assets/images/insights/aoe-okelas-eqms/aoe-05-fit-en.svg)
 
 **It may fit when:**
 

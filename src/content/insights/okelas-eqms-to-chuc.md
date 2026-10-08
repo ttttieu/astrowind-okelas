@@ -2,7 +2,10 @@
 title: "Cách OKELAS tổ chức eQMS — từ document đến evidence đến audit trail"
 description: "OKELAS không chỉ số hóa hồ sơ ISO. Mỗi hành động trong quy trình chất lượng được gắn với evidence, workflow và audit trail — tạo ra một hệ thống eQMS có thể kiểm chứng và truy vết."
 publishDate: 2026-10-04T00:00:00Z
-image: '~/assets/images/insights/okelas-eqms-to-chuc.png'
+image: '~/assets/images/insights/aoe-okelas-eqms/aoe-00-og-cover-vi.png'
+coverImage: '~/assets/images/insights/aoe-okelas-eqms/aoe-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/aoe-okelas-eqms/aoe-00-og-cover-vi.png'
+coverImageAlt: "Hai hộp nối bằng mũi tên: hệ thống lấy tài liệu làm trung tâm bên trái, chuỗi sự kiện và bằng chứng bên phải."
 category: 'compliance'
 tags: ['OKELAS', 'eQMS', 'Evidence', 'Audit Trail', 'Progressive eQMS']
 translationId: 'okelas-eqms-approach'
@@ -18,6 +21,8 @@ secondaryKeywords:
   - "eQMS OKELAS"
   - "quality management knowledge"
 assessmentHref: '/lien-he'
+ctaPrimaryText: 'Liên hệ OKELAS'
+ctaSubtitle: 'Trao đổi về cách tổ chức eQMS phù hợp với doanh nghiệp sản xuất của bạn'
 draft: false
 ---
 
@@ -28,6 +33,10 @@ draft: false
 > - Khi hành động được ghi như sự kiện ngay từ đầu, dấu vết kiểm toán (audit trail) là **hệ quả của cách thiết kế**, không phải thứ dựng lại trước mỗi kỳ audit.
 > - Cách tiếp cận này không phải lúc nào cũng cần thiết. Với doanh nghiệp nhỏ, quy trình ổn định hoặc chỉ cần kiểm soát tài liệu, một DMS hoặc eQMS đơn giản có thể là đủ.
 > - Bài này mô tả cách tiếp cận và định hướng thiết kế. Phạm vi cụ thể cho từng doanh nghiệp được xác định theo mức trưởng thành và nhu cầu thực tế.
+
+---
+
+![Hai thẻ đối chiếu: hệ thống lấy tài liệu làm trung tâm bên trái, chuỗi sự kiện và bằng chứng bên phải; bên dưới là một thanh kết luận.](~/assets/images/insights/aoe-okelas-eqms/aoe-01-document-vs-evidence-vi.svg)
 
 ---
 
@@ -57,6 +66,8 @@ Trong cách tiếp cận này, một tài liệu không đứng một mình. Nó
 - **sự kiện** đã tham chiếu đến nó (sự không phù hợp, đánh giá, thay đổi);
 - **lịch sử** các phiên bản và lý do thay đổi.
 
+![Một thẻ tài liệu ở trên, năm thẻ liên kết xếp hàng ngang bên dưới, cuối cùng là thanh ghi chú về DMS.](~/assets/images/insights/aoe-okelas-eqms/aoe-03-document-as-node-vi.svg)
+
 Một ý quan trọng: OKELAS không phải là một DMS thay thế, và không nhằm thay thế các công cụ lưu trữ tài liệu. Kiểm soát phiên bản, phê duyệt và phân phối vẫn là nền tảng, theo đúng yêu cầu của [điều khoản 7.5 ISO 9001:2015](/insights/compliance/iso-9001-co-can-phan-mem-qms). Điều khác là tài liệu được đặt vào bối cảnh vận hành của nó.
 
 Hệ quả thực tế là ba loại câu hỏi mà một kho tài liệu thường không trả lời được trở nên có thể trả lời:
@@ -81,6 +92,8 @@ Hệ quả thực tế là ba loại câu hỏi mà một kho tài liệu thư�
 
 Điểm khác biệt nằm ở chỗ **bằng chứng được tạo ra như một phần của công việc**, không phải được lập sau công việc.
 
+![Bốn hộp nối bằng mũi tên: Process, Workflow, Event, Evidence; bên dưới là một khung ghi chú về bằng chứng.](~/assets/images/insights/aoe-okelas-eqms/aoe-02-event-chain-vi.svg)
+
 *Ví dụ minh họa (một kịch bản thiết kế, không phải case của khách hàng):* một hướng dẫn công việc được cập nhật. Theo cách tiếp cận sự kiện, chuỗi sau được ghi nhận khi nó diễn ra: bản nháp được tạo, người xem xét và người phê duyệt xác nhận, bản mới có hiệu lực, bản cũ chuyển trạng thái, những người liên quan nhận thông báo, yêu cầu đào tạo được giao, từng người xác nhận hoàn thành. Nếu sau đó một sự không phù hợp xảy ra ở công đoạn này, nó được nối vào chính chuỗi đó. Câu hỏi "ai đã được đào tạo theo bản nào" trở thành một truy vấn, không phải một cuộc tìm kiếm.
 
 Cách nhìn này gắn với một chuỗi rộng hơn mà OKELAS dùng để mô tả doanh nghiệp vận hành: Process → Workflow → Event → Evidence → Knowledge → Decision → Action. eQMS là nơi bốn khái niệm đầu được áp dụng vào bài toán chất lượng, và các khái niệm sau (tri thức, quyết định, hành động) là phần mở rộng tự nhiên, được nói ở [bài cuối chuyên đề](/insights/compliance/tu-eqms-den-knowledge-os).
@@ -94,6 +107,8 @@ Trong nhiều hệ thống, audit trail là một chức năng thêm vào: hệ 
 Với cách tiếp cận lấy sự kiện làm đơn vị ghi nhận, audit trail là **hệ quả của cách thiết kế**. Vì mọi hành động được ghi như một sự kiện có bối cảnh, việc dựng lại câu chuyện không còn là việc phải làm trước mỗi kỳ audit.
 
 Điều này liên quan đến một nguyên tắc OKELAS dùng xuyên suốt: một câu trả lời tốt không chỉ đúng, mà phải có khả năng **giải thích, chỉ ra bằng chứng và truy vết** (Explain → Evidence → Trace).
+
+![Ba hộp nối bằng mũi tên: sự kiện có bối cảnh, bằng chứng có sẵn, truy vết khi audit; bên dưới là một khung ghi chú về hành động khắc phục.](~/assets/images/insights/aoe-okelas-eqms/aoe-04-audit-trail-vi.svg)
 
 Với eQMS, nguyên tắc đó có ý nghĩa cụ thể:
 
@@ -128,6 +143,8 @@ Hai điều cần nhìn thẳng. **Cách tiếp cận thứ hai đòi hỏi nhi�
 ## OKELAS phù hợp khi nào — và khi nào chưa
 
 Nguyên tắc OKELAS theo đuổi là giải quyết vấn đề vận hành bằng **hệ thống nhỏ nhất đủ dùng**. Điều đó cũng áp dụng cho chính OKELAS.
+
+![Hai cột đối chiếu: phù hợp khi với ba dòng bên trái, chưa cần khi với ba dòng bên phải.](~/assets/images/insights/aoe-okelas-eqms/aoe-05-fit-vi.svg)
 
 **Có thể phù hợp khi:**
 
