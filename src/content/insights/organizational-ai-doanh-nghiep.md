@@ -2,7 +2,9 @@
 title: "Organizational AI: khi AI hiểu doanh nghiệp thay vì chỉ trả lời câu hỏi"
 description: "Bước tiếp theo sau AI tools cá nhân là AI hiểu được context tổ chức — quy trình, tri thức, evidence và cách doanh nghiệp thực sự vận hành. Đây là organizational AI."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/organizational-ai.png'
+coverImage: '~/assets/images/insights/organizational-ai-doanh-nghiep/oai-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/organizational-ai-doanh-nghiep/oai-00-og-cover-vi.png'
+coverImageAlt: "Bên trái là AI cá nhân chỉ trả lời câu hỏi; bên phải là ba lớp của tổ chức: quy trình, dữ liệu, governance."
 category: 'ai'
 tags: ['Organizational AI', 'AI Strategy', 'Enterprise AI', 'Knowledge Management']
 translationId: 'organizational-ai'
@@ -18,6 +20,8 @@ secondaryKeywords:
   - "AI vận hành doanh nghiệp"
   - "organizational intelligence"
 assessmentHref: '/readiness/ai'
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---
 
@@ -31,6 +35,8 @@ draft: false
 ---
 
 ## Ranh giới mà AI tools hiện tại không vượt qua được
+
+![Hai hệ thống trả lời cùng một câu hỏi: hệ thống 1 chỉ tóm tắt SOP; hệ thống 2 đối chiếu dữ liệu thực tế và chỉ ra lô thiếu bước kèm bằng chứng.](~/assets/images/insights/organizational-ai-doanh-nghiep/oai-01-two-systems-vi.svg)
 
 Hãy thử đặt cùng một câu hỏi cho hai hệ thống AI khác nhau.
 
@@ -49,6 +55,8 @@ Khoảng cách giữa hai câu trả lời đó không phải khoảng cách v�
 ---
 
 ## AI tools cá nhân và organizational AI — ranh giới khác nhau ở đâu
+
+![Hai cột so sánh: AI cá nhân chỉ có thông tin trong câu hỏi; organizational AI hiểu cam kết, quyền hạn và trạng thái vận hành.](~/assets/images/insights/organizational-ai-doanh-nghiep/oai-05-individual-vs-organizational-vi.svg)
 
 Phần lớn AI đang được dùng trong doanh nghiệp hôm nay — dù là ChatGPT, Copilot, hay chatbot nội bộ đơn giản — đang hoạt động ở cấp độ AI tools cá nhân.
 
@@ -95,6 +103,8 @@ Từ một thực thể bị động (chờ người hỏi) sang một participa
 
 ## Organizational AI cần gì để tồn tại
 
+![Mái ghi Organizational AI đặt trên năm cột nền tảng: quy trình, dữ liệu, tri thức, context, governance.](~/assets/images/insights/organizational-ai-doanh-nghiep/oai-03-five-foundations-vi.svg)
+
 Organizational AI không phải là thứ có thể mua về và "cắm vào" tổ chức. Nó được xây từ nền tảng tổ chức — và nền tảng đó cần được xây trước.
 
 Để AI thực sự hiểu doanh nghiệp, cần:
@@ -114,6 +124,8 @@ Organizational AI không phải là thứ có thể mua về và "cắm vào" t�
 ---
 
 ## Lộ trình từ AI tools đến organizational AI
+
+![Năm cột tăng dần theo bước: năng suất cá nhân, context tài liệu, context dữ liệu vận hành, AI trong workflow, organizational AI.](~/assets/images/insights/organizational-ai-doanh-nghiep/oai-02-five-step-path-vi.svg)
 
 Không có con đường tắt từ "nhân viên dùng ChatGPT" đến "AI hiểu doanh nghiệp". Nhưng có một hành trình có thể đi theo từng bước.
 
@@ -137,6 +149,8 @@ Không phải mọi tổ chức cần đến bước 5. Bước 3 hoặc 4 có t
 ---
 
 ## Điều này trông như thế nào trong thực tế vận hành
+
+![Bốn cột ví dụ: kiểm soát chất lượng, chuẩn bị audit, onboarding nhân viên mới, quản lý nhà cung cấp; mỗi cột có mô tả ngắn.](~/assets/images/insights/organizational-ai-doanh-nghiep/oai-04-four-examples-vi.svg)
 
 Organizational AI không phải khái niệm tương lai. Một số thành phần của nó có thể xây dựng và triển khai ngay hôm nay — với điều kiện nền tảng đã được chuẩn bị.
 

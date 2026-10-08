@@ -2,7 +2,9 @@
 title: "Organizational AI: Beyond Answering Questions to Understanding the Business"
 description: "The next step beyond individual AI tools is AI that understands your organization's context — processes, knowledge, evidence and how your business actually operates."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/organizational-ai.png'
+coverImage: '~/assets/images/insights/organizational-ai/oai-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/organizational-ai/oai-00-og-cover-en.png'
+coverImageAlt: "On the left, individual AI that only answers questions; on the right, three layers of the organization: process, data, governance."
 category: 'ai'
 tags: ['Organizational AI', 'AI Strategy', 'Enterprise AI', 'Knowledge Management']
 translationId: 'organizational-ai'
@@ -18,6 +20,8 @@ secondaryKeywords:
   - "operational AI"
   - "AI knowledge management integration"
 assessmentHref: '/en/readiness/ai'
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Identify your AI readiness level'
 draft: false
 ---
 
@@ -31,6 +35,8 @@ draft: false
 ---
 
 ## The boundary current AI tools can't cross
+
+![Two systems answer the same question: system 1 summarizes the SOP; system 2 checks actual data and names lots missing steps with evidence.](~/assets/images/insights/organizational-ai/oai-01-two-systems-en.svg)
 
 Ask the same question to two different AI systems.
 
@@ -49,6 +55,8 @@ The gap between those two answers is not a gap in the AI model. It is a gap in w
 ---
 
 ## Individual AI tools vs organizational AI — where the line falls
+
+![Two columns: individual AI has only what is in the query; organizational AI understands commitments, authority and operating status.](~/assets/images/insights/organizational-ai/oai-05-individual-vs-organizational-en.svg)
 
 Most AI in use in organizations today — whether ChatGPT, Copilot, or a simple internal chatbot — is operating at the individual tool level.
 
@@ -95,6 +103,8 @@ From a passive entity (waiting to be asked) to a participant in processes (monit
 
 ## What organizational AI requires
 
+![A roof labeled Organizational AI rests on five foundation columns: processes, data, knowledge, context, governance.](~/assets/images/insights/organizational-ai/oai-03-five-foundations-en.svg)
+
 Organizational AI isn't something that can be purchased and plugged in. It is built from organizational foundation — and that foundation needs to come first.
 
 For AI to genuinely understand a business, several things need to be in place:
@@ -114,6 +124,8 @@ This isn't a technical checklist. It is a description of how an organization nee
 ---
 
 ## The path from AI tools to organizational AI
+
+![Five ascending columns by step: individual productivity, document context, operational data context, AI within workflow, organizational AI.](~/assets/images/insights/organizational-ai/oai-02-five-step-path-en.svg)
 
 There's no shortcut from "employees using ChatGPT" to "AI that understands the business." But there is a progression that can be followed step by step.
 
@@ -137,6 +149,8 @@ Not every organization needs to reach step 5. Steps 3 or 4 may already deliver s
 ---
 
 ## What this looks like in practice
+
+![Four example columns: quality control, audit preparation, new employee onboarding, supplier management; each has a short description.](~/assets/images/insights/organizational-ai/oai-04-four-examples-en.svg)
 
 Organizational AI is not a future concept. Some components of it can be built and deployed today — given that the organizational foundation is in place.
 
