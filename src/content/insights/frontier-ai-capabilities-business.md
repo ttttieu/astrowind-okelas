@@ -1,7 +1,10 @@
 ---
 title: "AI Is Now Solving Complex Problems Independently: A Realistic Assessment"
 description: "Modern AI doesn't just answer questions. In fields like software, scientific research and mathematics, AI is achieving results that previously required human expertise. Here's the realistic picture."
-publishDate: 2026-09-23T00:00:00Z
+publishDate: 2025-09-24T00:00:00Z
+coverImage: '~/assets/images/insights/frontier-ai-capabilities-business/afc-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/frontier-ai-capabilities-business/afc-00-og-cover-en.png'
+coverImageAlt: "On the left, a fast isolated node representing benchmark capability; on the right, a zigzag line for uneven operational performance, with three labels."
 translationId: article-6-2-frontier-capabilities
 lang: en
 category: ai
@@ -41,6 +44,8 @@ This article looks at frontier AI's actual capabilities — based on publicly pu
 
 ## Where AI Capability Actually Stands
 
+![Four cards, each showing a benchmark name, its figures and a short description.](~/assets/images/insights/frontier-ai-capabilities-business/afc-01-benchmarks-en.svg)
+
 Across a range of benchmarks measuring reasoning and problem-solving, frontier AI models have made a marked leap in roughly the past year.
 
 Stanford HAI's AI Index Report 2026 — its ninth annual edition, one of the most widely cited independent sources of AI capability data — documents a series of notable improvements:
@@ -55,6 +60,8 @@ This isn't slow, linear improvement — these are capability jumps within a very
 ---
 
 ## Areas Where AI Is Producing Notable Results
+
+![Three field cards: software engineering, mathematics, scientific reasoning; each with one result cited in the article.](~/assets/images/insights/frontier-ai-capabilities-business/afc-02-fields-en.svg)
 
 Three specific fields stand out:
 
@@ -72,6 +79,8 @@ What these three fields share: they're all tasks with clear, objectively measura
 
 ## From Individual Capability to Organizational Impact
 
+![Two columns: clear, self-contained olympiad problems versus messier enterprise workflows with four constraints.](~/assets/images/insights/frontier-ai-capabilities-business/afc-03-olympiad-vs-ops-en.svg)
+
 This is the part most easily overlooked when impressive benchmark numbers circulate in the media.
 
 The AI Index Report 2026 itself offers a balancing caution: even as benchmark capability surges, **AI agents still fail roughly one in three attempts on structured benchmarks once embedded in real enterprise operational workflows.** Stanford HAI researchers call this gap the "jagged frontier" — the boundary where AI excels and then suddenly fails. The illustration the report itself cites: AI can win an Olympic gold medal in mathematics, yet still fail to reliably tell time on a clock.
@@ -84,6 +93,10 @@ A model achieving impressive benchmark performance doesn't automatically guarant
 
 ---
 
+![Four blocks in sequence: higher capability, broader delegated scope, larger consequences, and a control layer needed more.](~/assets/images/insights/frontier-ai-capabilities-business/afc-04-scope-chain-en.svg)
+
+---
+
 ## Implications for Business
 
 From the analysis above, three practical implications follow for companies considering higher-capability AI deployment:
@@ -93,6 +106,8 @@ From the analysis above, three practical implications follow for companies consi
 **2. Expect structured failure, not random failure.** The "jagged frontier" suggests AI failures tend to concentrate around specific task types — usually ones requiring organizational context, ambiguous judgment, or exact precision on small details — not scattered randomly. Identifying these "blind spots" in advance helps place control points where they matter.
 
 **3. Rising capability doesn't make a control layer less necessary — the opposite is true.** As AI becomes capable of handling more complex tasks, the scope of action it can plausibly be assigned grows larger — and the consequence of a failure inside the "jagged frontier" grows correspondingly larger too. Intelligence and authority are independent axes, and rising capability doesn't automatically mean granting more authority without a matching control mechanism.
+
+![Three numbered rows, each a practical implication for businesses.](~/assets/images/insights/frontier-ai-capabilities-business/afc-05-implications-en.svg)
 
 ---
 
