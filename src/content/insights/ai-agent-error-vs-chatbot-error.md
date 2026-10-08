@@ -2,6 +2,9 @@
 title: "Chatbot Error vs. Agent Error: A Difference That Defines Enterprise AI Risk"
 description: "When a chatbot errs, a human reviews and corrects. When an agent errs, it may have already changed system state — in ERP, in workflow, in a database. This is why enterprise AI needs evidence, authorization and audit."
 publishDate: 2026-09-23T00:00:00Z
+coverImage: '~/assets/images/insights/ai-agent-error-vs-chatbot-error/aaer-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/ai-agent-error-vs-chatbot-error/aaer-00-og-cover-en.png'
+coverImageAlt: "A box labelled \"Caught before\" linked to a box labelled \"Already happened\" by a dashed arrow labelled \"a different kind of risk\"."
 translationId: article-6-10-chatbot-vs-agent-error
 lang: en
 category: ai
@@ -20,6 +23,8 @@ secondaryKeywords:
   - "AI agent risk"
   - "enterprise AI error impact"
 assessmentHref: /en/readiness/ai
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Identify your AI readiness level'
 draft: false
 ---
 
@@ -43,6 +48,8 @@ That question is: **why is an AI agent's error more serious than a chatbot's err
 
 ## Two Different Error Profiles
 
+![Two process rows: the chatbot has a person checking before any consequence; the agent has the system changed before review.](~/assets/images/insights/ai-agent-error-vs-chatbot-error/aaer-01-two-processes-en.svg)
+
 **Claim:** A chatbot's error and an AI agent's error differ on one structural point: **when a person gets the chance to intervene, relative to when the consequence occurs.**
 
 With a chatbot, the sequence of events is always: the model produces an answer → a person reads that answer → the person decides whether to act on it. If the answer is wrong, the consequence stops at the user receiving incorrect information — and they still have full ability to check, cross-reference, or ignore it before anything actually happens in the real world.
@@ -57,11 +64,15 @@ With an AI agent that has system access, the sequence can be: the model decides 
 | Scope of consequence | Limited to the reader of the answer | Can spread to data, systems, or third parties |
 | How it's detected | The reader notices immediately | Requires active monitoring to detect |
 
+![A table comparing chatbot and agent across five criteria.](~/assets/images/insights/ai-agent-error-vs-chatbot-error/aaer-02-five-criteria-en.svg)
+
 This is exactly why "is this AI accurate" — a reasonable question for a chatbot — is no longer a sufficient question when evaluating an AI agent. The question that needs adding is: "if it's wrong, where did the consequence already happen before anyone knew?"
 
 ---
 
 ## What Happens When an Agent Gets It Wrong
+
+![Four example cards of agent incidents: Replit, Apollo Research, confused deputy and EchoLeak.](~/assets/images/insights/ai-agent-error-vs-chatbot-error/aaer-03-incidents-en.svg)
 
 To make this difference concrete, it's worth looking back at what's been documented throughout this series — not as isolated events, but as data points of the same phenomenon.
 
@@ -79,6 +90,8 @@ The common thread across all four: in every case, the consequence had **already 
 
 ## Why Enterprise AI Needs Evidence, Authorization, Boundary and Audit
 
+![Four pillar cards: evidence, authorization, boundary and audit.](~/assets/images/insights/ai-agent-error-vs-chatbot-error/aaer-04-four-pillars-en.svg)
+
 From all the analysis above, four design pillars emerge that any enterprise AI agent system needs — not as add-on features, but as prerequisites before granting authority to act:
 
 **1. Evidence.** Every action an agent takes needs to leave a complete trace: the input data, the stated reasoning, and the actual outcome. Oversight shouldn't depend on a model voluntarily reporting honestly — evidence needs to be recorded independently of the model being monitored.
@@ -94,6 +107,8 @@ These four pillars don't operate independently — they reinforce each other. Ev
 ---
 
 ## Deployment Implications
+
+![Three numbered deployment recommendations, in order.](~/assets/images/insights/ai-agent-error-vs-chatbot-error/aaer-05-deployment-steps-en.svg)
 
 For a company deploying or considering deploying an AI agent, three practical implications:
 
