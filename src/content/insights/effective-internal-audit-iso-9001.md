@@ -2,7 +2,9 @@
 title: "Internal Audit Is Not an Exam: How to Run ISO 9001 Audits That Drive Real Improvement"
 description: "Internal audits are often run like periodic inspections — staff prepare, answers get cleaned up and findings are minimal. Here's how to structure audits that actually drive improvement rather than just generating records."
 publishDate: 2026-10-04T00:00:00Z
-image: '~/assets/images/insights/internal-audit-iso-9001-hieu-qua.png'
+coverImage: '~/assets/images/insights/aia-internal-audit/aia-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/aia-internal-audit/aia-00-og-cover-en.png'
+coverImageAlt: "Two boxes joined by an arrow: audit for a tidy file on the left, audit the system at work on the right."
 category: 'compliance'
 tags: ['Internal Audit', 'ISO 9001', 'Audit Program', 'Quality Audit', 'eQMS']
 translationId: 'effective-internal-audit-iso-9001'
@@ -18,6 +20,8 @@ secondaryKeywords:
   - "audit management ISO"
   - "effective internal auditing"
 assessmentHref: '/en/readiness/knowledge-management'
+ctaPrimaryText: 'Take the Knowledge Management Maturity Assessment'
+ctaSubtitle: 'Identify your maturity level and the first improvement to make'
 draft: false
 ---
 
@@ -40,6 +44,8 @@ On audit day, everything looks fine. Few findings, all minor. A neat report.
 The question to ask: if a company has to clean up beforehand to get through an inspection it organizes itself, what did the inspection tell it? It showed that the system **can look fine when prepared**. It didn't show **how the system runs on an ordinary day**.
 
 That's the gap between an exam and a tool. This article is about narrowing it.
+
+![Two comparison cards: cleanup week on the left, a normal day on the right; a takeaway bar below.](~/assets/images/insights/aia-internal-audit/aia-01-audit-vs-records-en.svg)
 
 ---
 
@@ -64,6 +70,8 @@ A benefit that gets less attention: internal audit is the cheapest way to find p
 
 Across many manufacturing operations, these seven signs show up most often. (A general observation, not measured figures.)
 
+![Seven sign cards in two columns, each naming one formality sign of an audit.](~/assets/images/insights/aia-internal-audit/aia-02-seven-signs-en.svg)
+
 **1. Announced and prepared for.** When every department knows exactly when and what will be asked, the result reflects preparation, not everyday operation.
 
 **2. Clause-by-clause checklists.** The auditor goes from clause 4 to clause 10 asking "is there a document?" at each. This ensures coverage of the standard but rarely gets at how work is actually done.
@@ -83,6 +91,8 @@ Across many manufacturing operations, these seven signs show up most often. (A g
 ## Audit programme versus audit event
 
 Clause 9.2 talks about an audit **programme**, not an event. The organization must plan, establish, implement and maintain a programme covering frequency, methods, responsibilities, planning requirements and reporting. The programme must take into account **the importance of the processes concerned, changes affecting the organization, and results of previous audits**. Each audit needs defined criteria and scope.
+
+![Two comparison columns: audit as an event with three rows on the left, audit as a programme with three rows on the right.](~/assets/images/insights/aia-internal-audit/aia-03-programme-vs-event-en.svg)
 
 That means the standard expects a risk-aware approach rather than a fixed calendar applied equally to everything. A few practical consequences:
 
@@ -106,6 +116,8 @@ The standard asks that auditors be selected and audits conducted to ensure **obj
 
 Beyond objectivity, auditor competence determines output quality. Competence in general is addressed under clause 7.2, and detailed guidance on auditing appears in ISO 19011 (guidelines for auditing management systems; reference guidance, not a mandatory requirement of ISO 9001).
 
+![Four auditor competence cards in a row, with a note box below about ISO 19011.](~/assets/images/insights/aia-internal-audit/aia-04-auditor-competence-en.svg)
+
 A few practical competences worth noting:
 
 - **Understanding the process being audited.** You needn't be an expert, but you need enough to notice when something doesn't fit.
@@ -120,6 +132,8 @@ For smaller companies with few quality staff, rotating auditors between departme
 ## Where audit findings should lead
 
 This is the part that decides whether an audit has value. The standard asks that results be reported to relevant management, that **appropriate correction and corrective action be taken without undue delay**, and that evidence of the audit programme and results be retained.
+
+![Four boxes joined by arrows: audit finding, nonconformance and CAPA, management review, trends over years; below are a clause note and a signal box on programme design.](~/assets/images/insights/aia-internal-audit/aia-05-findings-flow-en.svg)
 
 A finding that adds value follows a flow:
 

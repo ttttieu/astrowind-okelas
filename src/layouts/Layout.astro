@@ -55,15 +55,18 @@ const { language, textDirection } = I18N;
     <Intersect />
 
     <script>
-      // Swap anc (nonconformance) images between light and dark versions based on .dark class
+      // Swap dark mode images between light and dark versions based on .dark class
+      // Supports multiple article series by matching image prefixes
       function swapDarkModeImages() {
         const isDark = document.documentElement.classList.contains('dark');
-        // Match any image with 'anc-' in the filename (works with Astro's optimized paths)
-        const ancImages = document.querySelectorAll('img[src*="anc-"]');
+        // Match images from multiple article series: anc (nonconformance), aia (internal audit), etc.
+        const prefixes = ['anc-', 'aia-'];
+        const selector = prefixes.map(p => `img[src*="${p}"]`).join(', ');
+        const images = document.querySelectorAll(selector);
 
-        console.log(`[anc-swap] isDark=${isDark}, found ${ancImages.length} anc images`);
+        console.log(`[dark-mode-swap] isDark=${isDark}, found ${images.length} images`);
 
-        ancImages.forEach((img) => {
+        images.forEach((img) => {
           const originalSrc = img.getAttribute('src');
           if (!originalSrc) return;
 
@@ -83,7 +86,7 @@ const { language, textDirection } = I18N;
             return;
           }
 
-          console.log(`[anc-swap] ${originalSrc} → ${targetSrc}`);
+          console.log(`[dark-mode-swap] ${originalSrc} → ${targetSrc}`);
           img.setAttribute('src', targetSrc);
         });
       }
@@ -97,7 +100,7 @@ const { language, textDirection } = I18N;
 
       // Run on theme changes (after .dark class is toggled)
       document.addEventListener('aw:theme-change', () => {
-        console.log('[anc-swap] theme changed, swapping...');
+        console.log('[dark-mode-swap] theme changed, swapping...');
         swapDarkModeImages();
       });
     </script>

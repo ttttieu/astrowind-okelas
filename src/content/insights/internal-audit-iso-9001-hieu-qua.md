@@ -2,7 +2,9 @@
 title: "Internal audit không phải kỳ thi — cách tổ chức audit ISO 9001 có giá trị thực"
 description: "Internal audit thường bị tổ chức như một kỳ kiểm tra định kỳ — nhân viên lo lắng, kết quả được dọn dẹp trước. Bài viết phân tích cách tổ chức audit tạo ra cải tiến thực sự, không chỉ hồ sơ đẹp."
 publishDate: 2026-10-04T00:00:00Z
-image: '~/assets/images/insights/internal-audit-iso-9001-hieu-qua.png'
+coverImage: '~/assets/images/insights/aia-internal-audit/aia-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/aia-internal-audit/aia-00-og-cover-vi.png'
+coverImageAlt: "Hai hộp nối bằng mũi tên: audit để hồ sơ đẹp bên trái, audit để hệ thống chạy thật bên phải."
 category: 'compliance'
 tags: ['Internal Audit', 'Đánh Giá Nội Bộ', 'ISO 9001', 'Audit Program', 'eQMS']
 translationId: 'effective-internal-audit-iso-9001'
@@ -18,6 +20,8 @@ secondaryKeywords:
   - "tổ chức internal audit"
   - "audit chương trình ISO"
 assessmentHref: '/readiness/knowledge-management'
+ctaPrimaryText: 'Làm Knowledge Management Maturity Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 
@@ -40,6 +44,8 @@ Một tuần trước kỳ đánh giá nội bộ, không khí ở nhiều doanh
 Câu hỏi cần đặt ra: nếu doanh nghiệp phải dọn dẹp trước để vượt qua cuộc kiểm tra mà chính mình tổ chức, thì cuộc kiểm tra đó đã cho biết điều gì? Nó cho biết hệ thống **có thể trông ổn khi được chuẩn bị**. Nó không cho biết hệ thống **chạy thế nào vào một ngày bình thường**.
 
 Đó là khoảng cách giữa một kỳ thi và một công cụ. Bài này nói về cách thu hẹp khoảng cách đó.
+
+![Hai thẻ đối chiếu: tuần dọn dẹp bên trái, ngày thường bên phải; bên dưới là một thanh kết luận.](~/assets/images/insights/aia-internal-audit/aia-01-audit-vs-records-vi.svg)
 
 ---
 
@@ -64,6 +70,8 @@ Một lợi ích ít được nói: đánh giá nội bộ là cách rẻ nhất
 
 Theo quan sát tại nhiều doanh nghiệp sản xuất, bảy dấu hiệu sau xuất hiện thường xuyên nhất. (Đây là quan sát chung, không phải số liệu đo lường.)
 
+![Bảy thẻ dấu hiệu xếp thành hai cột, mỗi thẻ có một dấu hiệu hình thức của audit.](~/assets/images/insights/aia-internal-audit/aia-02-seven-signs-vi.svg)
+
 **1. Được thông báo trước và chuẩn bị trước.** Khi mọi bộ phận biết chính xác ngày giờ và nội dung hỏi, kết quả phản ánh sự chuẩn bị, không phản ánh vận hành thường ngày.
 
 **2. Đọc checklist theo điều khoản.** Đánh giá viên đi từ điều 4 đến điều 10, hỏi "có tài liệu không" ở từng điều. Cách này đảm bảo bao phủ tiêu chuẩn nhưng ít khi chạm tới việc công việc thực sự diễn ra thế nào.
@@ -83,6 +91,8 @@ Theo quan sát tại nhiều doanh nghiệp sản xuất, bảy dấu hiệu sau
 ## Audit program và audit sự kiện
 
 Điều khoản 9.2 nói về một **chương trình** đánh giá, không phải một sự kiện. Tổ chức phải lập, thực hiện và duy trì chương trình bao gồm tần suất, phương pháp, trách nhiệm, yêu cầu lập kế hoạch và báo cáo. Chương trình phải tính đến **mức quan trọng của các quá trình liên quan, những thay đổi ảnh hưởng đến tổ chức, và kết quả của các lần đánh giá trước**. Mỗi lần đánh giá cần có tiêu chí và phạm vi được xác định.
+
+![Hai cột đối chiếu: sự kiện audit với ba dòng bên trái, chương trình audit với ba dòng bên phải.](~/assets/images/insights/aia-internal-audit/aia-03-programme-vs-event-vi.svg)
 
 Nghĩa là tiêu chuẩn kỳ vọng một cách tiếp cận có tư duy rủi ro chứ không phải một lịch cố định áp dụng như nhau cho mọi thứ. Một vài hệ quả thực tế:
 
@@ -104,6 +114,8 @@ Nghĩa là tiêu chuẩn kỳ vọng một cách tiếp cận có tư duy rủi 
 
 Tiêu chuẩn yêu cầu chọn đánh giá viên và thực hiện đánh giá sao cho **khách quan và vô tư**. Cách phổ biến để thể hiện điều này: đánh giá viên không đánh giá công việc của chính họ. Đây là cách làm hợp lý, dù tiêu chuẩn diễn đạt ở mức kết quả.
 
+![Bốn thẻ năng lực auditor xếp hàng ngang, bên dưới là một khung ghi chú về ISO 19011.](~/assets/images/insights/aia-internal-audit/aia-04-auditor-competence-vi.svg)
+
 Ngoài khách quan, năng lực của đánh giá viên quyết định chất lượng đầu ra. Năng lực nói chung được đề cập ở điều khoản 7.2, và hướng dẫn chi tiết cho việc đánh giá có trong ISO 19011 (hướng dẫn đánh giá hệ thống quản lý, mang tính tham khảo, không phải yêu cầu bắt buộc của ISO 9001).
 
 Vài năng lực thực tế đáng chú ý:
@@ -120,6 +132,8 @@ Với doanh nghiệp nhỏ, nơi nhân sự chất lượng ít, việc xoay vò
 ## Kết quả audit dẫn tới đâu
 
 Đây là phần quyết định audit có giá trị hay không. Tiêu chuẩn yêu cầu kết quả được báo cáo cho lãnh đạo liên quan, **khắc phục và hành động khắc phục thích hợp được thực hiện không chậm trễ không cần thiết**, và lưu giữ bằng chứng về chương trình đánh giá cùng kết quả.
+
+![Bốn hộp nối bằng mũi tên: phát hiện audit, nonconformance và CAPA, xem xét lãnh đạo, xu hướng nhiều năm; bên dưới là khung điều khoản và khung dấu hiệu thiết kế chương trình.](~/assets/images/insights/aia-internal-audit/aia-05-findings-flow-vi.svg)
 
 Một phát hiện có giá trị đi theo một dòng chảy:
 
