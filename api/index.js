@@ -11,12 +11,15 @@ import CONFIG_DIG_VI from './config-dig-vi.js';
 import CONFIG_DIG_EN from './config-dig-en.js';
 import CONFIG_KM_VI from './config-km-vi.js';
 import CONFIG_KM_EN from './config-km-en.js';
+import CONFIG_WF_VI from './config-workflow-vi.js';
+import CONFIG_WF_EN from './config-workflow-en.js';
 
 const CONFIGS = {
   erp_readiness:       { vi: CONFIG_VI,     en: CONFIG_EN },
   ai_readiness:        { vi: CONFIG_AI_VI,  en: CONFIG_AI_EN },
   digitalization_level: { vi: CONFIG_DIG_VI, en: CONFIG_DIG_EN },
   km_maturity:         { vi: CONFIG_KM_VI,  en: CONFIG_KM_EN },
+  workflow_readiness:  { vi: CONFIG_WF_VI,  en: CONFIG_WF_EN },
 };
 
 // ─── Scoring helpers ──────────────────────────────────────────────────────────
@@ -1640,6 +1643,411 @@ function getKM90DayRecs(dims, flags, lang) {
 
 // ─── End KM Maturity scoring ──────────────────────────────────────────────────
 
+// ─── Workflow Readiness static content ───────────────────────────────────────
+
+const WF_LEVEL_LABELS_VI = {
+  1: 'Dựa vào con người',
+  2: 'Dựa vào tài liệu',
+  3: 'Dựa vào workflow',
+  4: 'Dựa vào sự kiện',
+  5: 'Dựa vào tri thức',
+};
+const WF_LEVEL_LABELS_EN = {
+  1: 'Person-driven',
+  2: 'Document-driven',
+  3: 'Workflow-driven',
+  4: 'Event-driven',
+  5: 'Knowledge-driven',
+};
+
+const WF_GROUP_NAMES_VI = {
+  Process: 'Sự rõ ràng của quy trình',
+  Event: 'Trigger & Sự kiện',
+  Handoff: 'Chuyển giao',
+  Decision: 'Quyết định & Phê duyệt',
+  Evidence: 'Evidence & Tri thức',
+};
+const WF_GROUP_NAMES_EN = {
+  Process: 'Process Clarity',
+  Event: 'Trigger & Event',
+  Handoff: 'Handoff',
+  Decision: 'Decision & Approval',
+  Evidence: 'Evidence & Knowledge',
+};
+
+// 3-state status labels based on group pct: <40 / 40-69 / ≥70
+const WF_STATUS_VI = {
+  invisible: 'Chưa thấy được / phụ thuộc người',
+  has_manual: 'Có, nhưng còn thủ công',
+  structured: 'Có cấu trúc và theo dõi được',
+};
+const WF_STATUS_EN = {
+  invisible: 'Not visible / person-dependent',
+  has_manual: 'In place, but still manual',
+  structured: 'Structured and traceable',
+};
+
+function wfGroupStatus(pct, lang) {
+  const labels = lang === 'en' ? WF_STATUS_EN : WF_STATUS_VI;
+  if (pct === null) return { status: 'invisible', label: labels.invisible };
+  if (pct < 40) return { status: 'invisible', label: labels.invisible };
+  if (pct < 70) return { status: 'has_manual', label: labels.has_manual };
+  return { status: 'structured', label: labels.structured };
+}
+
+// Map pct to level (1-4) for bar display compatibility
+function wfPctToLevel(pct) {
+  if (pct === null) return null;
+  if (pct < 40) return 1;
+  if (pct < 60) return 2;
+  if (pct < 75) return 3;
+  return 4;
+}
+
+const WF_HEADLINES_VI = {
+  Process: 'Quy trình của bạn nằm trong đầu người nhiều hơn là trên giấy.',
+  Event: 'Vấn đề không phải thiếu màn hình workflow. Là sự kiện kinh doanh chưa trở thành hành động.',
+  Handoff: 'Công việc đang di chuyển qua người, không phải qua hệ thống. Mỗi lần chuyển giao là một điểm có thể rơi mất.',
+  Decision: 'Quyết định được đưa ra và được ký, nhưng chưa giải thích được vì sao.',
+  Evidence: 'Công việc xong rồi, nhưng chưa trở thành tri thức mà người khác dùng lại được.',
+};
+const WF_HEADLINES_EN = {
+  Process: 'Your process lives in people\'s heads more than on paper.',
+  Event: 'The issue is not a lack of workflow screens. Business events are not yet becoming actions.',
+  Handoff: 'Work moves through people, not through systems. Every handoff is a point where it can be dropped.',
+  Decision: 'Decisions are made and signed, but cannot be explained afterwards.',
+  Evidence: 'Work is done, but it has not become knowledge others can reuse.',
+};
+
+const WF_LEVEL_NEXT_STEPS_VI = {
+  1: 'Viết ra một quy trình này thành chuỗi: trigger → bước → người → quyết định → hồ sơ. Không cần đẹp, cần đủ để người khác đọc hiểu.',
+  2: 'Chọn một sự kiện (ví dụ: đơn hàng được xác nhận) và xác định ai nhận việc, hạn xử lý, ai thấy trạng thái.',
+  3: 'Biến 2–3 điểm chuyển giao quan trọng nhất thành "tự giao việc có hạn". Thử trace test (Q9) trên 3 hồ sơ cũ.',
+  4: 'Xác định bước nào chỉ là chuyển dữ liệu (ứng viên automation) và bước nào cần phán đoán con người.',
+  5: 'Mở rộng sang quy trình kế tiếp. Đánh giá AI Readiness và quyền hạn agent.',
+};
+const WF_LEVEL_NEXT_STEPS_EN = {
+  1: 'Write out this process as a chain: trigger → step → person → decision → record. It does not need to be polished — it needs to be clear enough for someone else to follow.',
+  2: 'Choose one event (e.g., order confirmed) and define who receives the work, the deadline, and who can see the status.',
+  3: 'Convert the 2–3 most important handoff points into "auto-assign with a deadline." Run a trace test (Q9) on 3 old records.',
+  4: 'Identify which steps are only data transfer (automation candidates) and which require human judgment.',
+  5: 'Expand to the next process. Assess AI Readiness and agent governance.',
+};
+
+const WF_FLAG_LABELS = {
+  vi: {
+    F1: { label: 'Giấy khác thực tế', explanation: 'Quy trình được mô tả, nhưng vài người vẫn là mắt xích không thay thế được. Hỏi: "Xin cho xem SOP, rồi cho tôi gặp người đang làm. Hai thứ này khác nhau ở đâu?"' },
+    F2: { label: 'Có sổ, không có sự kiện', explanation: 'Có nơi ghi nhận việc, nhưng việc trễ vẫn được phát hiện muộn: sổ được cập nhật, nhưng không ai được báo. Hỏi: "Lần gần nhất việc trễ, ai là người đầu tiên biết?"' },
+    F3: { label: 'Ký duyệt, không giải thích', explanation: 'Có người duyệt và ngày duyệt, nhưng một năm sau không giải thích được vì sao. Hỏi: "Lấy một quyết định cũ. Tại sao lúc đó được duyệt?"' },
+    F4: { label: 'Lưu có, hiểu chưa', explanation: 'Kết quả được lưu, nhưng chưa nối được với người, quyết định và sự kiện ban đầu. Hỏi: "Chọn ngẫu nhiên 3 hồ sơ. Truy ngược được mấy hồ sơ?"' },
+    F5: { label: 'Điểm mù', explanation: 'Bạn đang chưa nhìn thấy cách quy trình này thực sự chạy. Đó thường là dấu hiệu đầu tiên. Hỏi: "Ai là người biết nhất? Chúng ta sẽ đi theo một ca thật."' },
+  },
+  en: {
+    F1: { label: 'Document vs. Reality Gap', explanation: 'The process is described, but a few people are still irreplaceable links. Ask: "Show me the SOP, then let me meet the person doing the work. Where do these two things differ?"' },
+    F2: { label: 'Tracking Without Events', explanation: 'There is a place to record work, but delays are still discovered late: the record is updated, but no one is notified. Ask: "The last time something was late, who was the first to know?"' },
+    F3: { label: 'Signed but Unexplained', explanation: 'There is an approver and a date, but one year later the reasoning cannot be explained. Ask: "Take one past decision. Why was it approved at the time?"' },
+    F4: { label: 'Stored but Not Traceable', explanation: 'Outcomes are saved, but not linked to the person, decision, and originating event. Ask: "Choose 3 records at random. How many can you trace backwards?"' },
+    F5: { label: 'Blind Spots', explanation: 'You are not yet seeing how this process actually runs. That is usually the first signal. Ask: "Who knows this best? Let\'s follow one real case together."' },
+  }
+};
+
+const WF_RECS_VI = {
+  Process: {
+    low: 'Chọn một quy trình này; viết ra chuỗi: sự kiện kích hoạt → bước → người phụ trách → quyết định → hồ sơ. Lập danh sách vị trí mà nếu nghỉ việc hoặc nghỉ phép sẽ làm đứt chuỗi.',
+    high: 'Đối chiếu SOP với cách làm thực tế trên 1–2 ca gần đây. Cập nhật chỗ lệch, đặc biệt là phần xử lý tình huống bất thường.',
+  },
+  Event: {
+    low: 'Xác định sự kiện kích hoạt rõ ràng cho quy trình này: điều kiện gì → ai nhận việc → hạn xử lý bao lâu. Kiểm tra: có sự kiện nào đang phụ thuộc vào "ai đó nhớ" không?',
+    high: 'Biến ít nhất một trigger thủ công thành trigger tự động: ví dụ đơn hàng xác nhận → tự tạo phiếu, không cần ai nhắc.',
+  },
+  Handoff: {
+    low: 'Vẽ sơ đồ một lần bàn giao trong quy trình: bước A xong → ai biết → bằng cách nào → trong bao lâu. Nếu câu trả lời là "người trước nhớ báo" → đây là điểm cần sửa trước.',
+    high: 'Kiểm thử: yêu cầu người thứ hai (không phải người thường làm) nhận một ca mà không được bàn giao trực tiếp. Ghi lại chỗ đứt thông tin.',
+  },
+  Decision: {
+    low: 'Với quyết định quan trọng nhất trong quy trình, thêm bước ghi lại: ai duyệt, dựa trên evidence gì, ngày giờ. Dù chỉ là một ô trong Excel — bắt đầu từ đây.',
+    high: 'Liên kết hồ sơ phê duyệt với hồ sơ vụ việc (đơn hàng, lô, khiếu nại). Thử truy ngược một quyết định cũ: evidence còn đủ không?',
+  },
+  Evidence: {
+    low: 'Sau mỗi lần hoàn thành quy trình, thêm một bước: lưu hồ sơ theo mã/ngày thống nhất. Ai, làm gì, khi nào, theo quyết định nào.',
+    high: 'Thử trace test: chọn 3 hồ sơ cũ và truy ngược về sự kiện ban đầu. Ghi lại chỗ chuỗi đứt.',
+  },
+};
+
+const WF_RECS_EN = {
+  Process: {
+    low: 'For this process, write out the chain: triggering event → step → person responsible → decision → record. List the roles whose absence or resignation would break the chain.',
+    high: 'Compare the SOP against actual practice in 1–2 recent cases. Update where they diverge, especially how non-standard situations are handled.',
+  },
+  Event: {
+    low: 'Define a clear triggering event for this process: what condition → who receives the work → what is the deadline. Check: is any trigger currently depending on "someone remembering"?',
+    high: 'Convert at least one manual trigger into an automatic trigger: e.g., order confirmed → automatically creates a task, no reminder needed.',
+  },
+  Handoff: {
+    low: 'Map one handoff point in the process: Step A complete → who knows → how → how soon. If the answer is "the previous person remembers to notify" → this is the first point to fix.',
+    high: 'Run a test: ask a second person (not the usual one) to pick up a case without a direct handover. Record where the information chain breaks.',
+  },
+  Decision: {
+    low: 'For the most important decision in this process, add a step to record: who approved, based on what evidence, date and time. Even just a cell in a spreadsheet — start there.',
+    high: 'Link the approval record to the case record (order, batch, complaint). Try tracing one past decision backwards: is the evidence still intact?',
+  },
+  Evidence: {
+    low: 'After each process completion, add a step: save the record with a consistent code/date naming convention. Who, did what, when, based on which decision.',
+    high: 'Run a trace test: choose 3 old records and trace back to the original event. Note where the chain breaks.',
+  },
+};
+
+const WF_WEEKLY_TASKS_VI = [
+  'Kiểm tra góc nhìn: hỏi người trực tiếp làm quy trình này đúng hai câu — "lần gần nhất việc bị trễ, anh/chị biết qua đâu?" và "nếu anh/chị nghỉ một tuần không báo trước, ai biết việc đang ở đâu?". Không gợi ý đáp án. So với câu trả lời của bạn.',
+  'Trace test: chọn ngẫu nhiên 3 hồ sơ cũ của quy trình này. Đo xem truy ngược được mấy hồ sơ về sự kiện ban đầu, người thực hiện và người quyết định.',
+  'Vẽ chuỗi: viết lên một trang "Sự kiện → Giao việc → Xử lý → Quyết định → Hồ sơ → Sự kiện tiếp theo". Đánh dấu chỗ nào "chỉ một người biết".',
+];
+const WF_WEEKLY_TASKS_EN = [
+  'Perspective check: ask the person who directly performs this process two questions — "the last time something was late, how did you find out?" and "if you took a week of leave without notice, who would know where things stand?" Do not suggest answers. Compare with your own.',
+  'Trace test: choose 3 old records from this process at random. Measure how many you can trace back to the original event, the person who did the work, and the person who decided.',
+  'Map the chain: write on one page "Event → Assign → Work → Decide → Record → Next Event." Mark every point where "only one person knows."',
+];
+
+const WF_AUTOMATION_LABELS_VI = {
+  high_opp_not_ready: { label: 'Cơ hội lớn, chưa sẵn sàng', message: 'Tự động hóa lúc này sẽ tự động hóa sự hỗn loạn. Chuẩn hóa sự kiện, handoff và evidence trước.' },
+  ready_to_automate:  { label: 'Ứng viên automation rõ ràng', message: 'Có việc lặp lại nhiều và nền đã đủ — đây là nơi automation/agent có thể có giá trị sớm.' },
+  low_priority:       { label: 'Ưu tiên thấp', message: 'Chưa cần automation. Tập trung làm rõ quy trình và sự kiện trước.' },
+  foundation_ready:   { label: 'Gọn và có nền', message: 'Cân nhắc đầu tư vào evidence/knowledge để mở đường cho AI.' },
+};
+const WF_AUTOMATION_LABELS_EN = {
+  high_opp_not_ready: { label: 'High Opportunity, Not Ready', message: 'Automating now would automate the chaos. Standardize events, handoffs, and evidence first.' },
+  ready_to_automate:  { label: 'Clear Automation Candidate', message: 'There is high repetitive work and the foundation is in place — this is where automation or agents can add value early.' },
+  low_priority:       { label: 'Low Priority', message: 'Automation is not needed yet. Focus on clarifying the process and events first.' },
+  foundation_ready:   { label: 'Lean and Ready', message: 'Consider investing in evidence and knowledge to pave the way for AI.' },
+};
+
+const WF_DISCLAIMER_VI = 'Đây là công cụ thảo luận định hướng, không phải phương pháp luận được chứng nhận. "Dựa vào con người … Dựa vào tri thức" là cách gọi của OKELAS, không phải thuật ngữ chuẩn ngành. Kết quả là tự đánh giá và cần được kiểm chứng trên quy trình thực tế. Phân tích từ góc độ quản trị, không phải tư vấn tuân thủ hay pháp lý.';
+const WF_DISCLAIMER_EN = 'This is a directional discussion tool, not a certified methodology. "Person-driven … Knowledge-driven" are OKELAS terms, not standard industry terminology. Results are self-assessed and should be validated against real process cases. Analysis is from a governance perspective, not compliance or legal advice.';
+
+// ─── Workflow Readiness scoring functions ─────────────────────────────────────
+
+// Get PRD score (0–4 scale) for a workflow question; returns null if unanswered
+function getWFScore(qId, answers, questions) {
+  const answer = answers.find(a => a.question_id === qId);
+  if (!answer?.selected_key) return null;
+  const question = questions.find(q => q.id === qId);
+  if (!question) return null;
+  const option = question.options.find(o => o.key === answer.selected_key);
+  if (!option || option.score == null) return null;
+  return option.score - 1; // config 1-5 → PRD 0-4
+}
+
+// Count uncertain answers across Q1-Q9
+function countWFUncertain(answers, questions) {
+  const qIds = ['Q1-PROCESS-CLARITY','Q2-TRIBAL-KNOWLEDGE','Q3-TRIGGER','Q4-DETECTION',
+                'Q5-HANDOFF-SIGNAL','Q6-ABSENCE-TEST','Q7-DECISION-TRACE',
+                'Q8-EVIDENCE-STORAGE','Q9-TRACE-TEST'];
+  let count = 0;
+  for (const qId of qIds) {
+    const answer = answers.find(a => a.question_id === qId);
+    if (!answer?.selected_key) continue;
+    const question = questions.find(q => q.id === qId);
+    if (!question) continue;
+    const option = question.options.find(o => o.key === answer.selected_key);
+    if (option?.flag === 'uncertain') count++;
+  }
+  return count;
+}
+
+// Calculate group score as percentage (0-100); max per question = 4
+function calcWFGroup(qIds, answers, questions) {
+  let total = 0;
+  let answered = 0;
+  for (const qId of qIds) {
+    const s = getWFScore(qId, answers, questions);
+    if (s !== null) { total += s; answered++; }
+  }
+  if (answered === 0) return null;
+  return Math.round(total / (answered * 4) * 100);
+}
+
+// Maturity index: sum(Q1-Q9 scores) / 36 × 100
+function calcWFIndex(answers, questions) {
+  const qIds = ['Q1-PROCESS-CLARITY','Q2-TRIBAL-KNOWLEDGE','Q3-TRIGGER','Q4-DETECTION',
+                'Q5-HANDOFF-SIGNAL','Q6-ABSENCE-TEST','Q7-DECISION-TRACE',
+                'Q8-EVIDENCE-STORAGE','Q9-TRACE-TEST'];
+  let total = 0;
+  let answered = 0;
+  for (const qId of qIds) {
+    const s = getWFScore(qId, answers, questions);
+    if (s !== null) { total += s; answered++; }
+  }
+  if (answered === 0) return null;
+  // Full max is 36 (9 questions × 4); use answered count for partial fill
+  return Math.round(total / (answered * 4) * 100);
+}
+
+function getWFLevel(index) {
+  if (index === null) return null;
+  if (index < 20) return 1;
+  if (index < 40) return 2;
+  if (index < 60) return 3;
+  if (index < 80) return 4;
+  return 5;
+}
+
+// Gating: event/handoff gate for L4; evidence gate for L5
+function applyWFGating(level, eventPct, handoffPct, evidencePct, q9Score, lang) {
+  if (level >= 5) {
+    if (evidencePct === null || evidencePct < 75 || (q9Score !== null && q9Score < 3)) {
+      const weak = lang === 'en' ? 'Evidence & Knowledge' : 'Evidence & Tri thức';
+      const msg = lang === 'en'
+        ? 'Your total score reaches Level 5, but the Evidence & Knowledge group is holding the displayed level to Level 4.'
+        : 'Điểm tổng của bạn ở Mức 5, nhưng khâu Evidence & Tri thức đang kéo mức hiển thị xuống Mức 4.';
+      return { adjustedLevel: 4, gatingMessage: msg };
+    }
+  }
+  if (level >= 4) {
+    const eventOk = eventPct !== null && eventPct >= 60;
+    const handoffOk = handoffPct !== null && handoffPct >= 60;
+    if (!eventOk || !handoffOk) {
+      const weakName = !eventOk
+        ? (lang === 'en' ? 'Trigger & Event' : 'Trigger & Sự kiện')
+        : (lang === 'en' ? 'Handoff' : 'Chuyển giao');
+      const msg = lang === 'en'
+        ? 'Your total score reaches Level 4, but the ' + weakName + ' group is holding the displayed level to Level 3.'
+        : 'Điểm tổng của bạn ở Mức 4, nhưng khâu ' + weakName + ' đang kéo mức hiển thị xuống Mức 3.';
+      return { adjustedLevel: 3, gatingMessage: msg };
+    }
+  }
+  return { adjustedLevel: level, gatingMessage: null };
+}
+
+// Primary constraint: lowest group pct; tie breaks by chain order Process→Event→Handoff→Decision→Evidence
+function getWFPrimaryConstraint(groupPcts) {
+  const chain = ['Process', 'Event', 'Handoff', 'Decision', 'Evidence'];
+  let minPct = Infinity;
+  let primary = 'Process';
+  for (const g of chain) {
+    if (groupPcts[g] !== null && groupPcts[g] < minPct) {
+      minPct = groupPcts[g];
+      primary = g;
+    }
+  }
+  return primary;
+}
+
+function getWFFlags(answers, questions) {
+  const s = qId => getWFScore(qId, answers, questions);
+  const flags = [];
+  const q1 = s('Q1-PROCESS-CLARITY');
+  const q2 = s('Q2-TRIBAL-KNOWLEDGE');
+  const q4 = s('Q4-DETECTION');
+  const q5 = s('Q5-HANDOFF-SIGNAL');
+  const q6 = s('Q6-ABSENCE-TEST');
+  const q7 = s('Q7-DECISION-TRACE');
+  const q8 = s('Q8-EVIDENCE-STORAGE');
+  const q9 = s('Q9-TRACE-TEST');
+  const uncertain = countWFUncertain(answers, questions);
+
+  if (q1 !== null && q1 >= 3 && ((q2 !== null && q2 <= 1) || (q6 !== null && q6 <= 1))) flags.push('F1');
+  if (q5 !== null && q5 >= 3 && q4 !== null && q4 <= 1) flags.push('F2');
+  if (q7 !== null && q7 >= 3 && q9 !== null && q9 <= 1) flags.push('F3');
+  if (q8 !== null && q8 >= 3 && q9 !== null && q9 <= 2) flags.push('F4');
+  if (uncertain >= 3) flags.push('F5');
+  return flags;
+}
+
+function getWFAutomationQuadrant(automationReadiness, manualLoad, lang) {
+  const isHighReadiness = automationReadiness !== null && automationReadiness >= 50;
+  const isHighManualLoad = manualLoad !== null && manualLoad >= 2;
+  let quadrant;
+  if (isHighManualLoad && !isHighReadiness) quadrant = 'high_opp_not_ready';
+  else if (isHighManualLoad && isHighReadiness) quadrant = 'ready_to_automate';
+  else if (!isHighManualLoad && !isHighReadiness) quadrant = 'low_priority';
+  else quadrant = 'foundation_ready';
+  const labels = lang === 'en' ? WF_AUTOMATION_LABELS_EN : WF_AUTOMATION_LABELS_VI;
+  return { quadrant, ...labels[quadrant] };
+}
+
+function getWFReliabilityNote(answers, lang) {
+  const role = answers.find(a => a.question_id === 'Q0b-ROLE')?.selected_key;
+  const consulted = answers.find(a => a.question_id === 'Q0d-CONSULTED')?.selected_key;
+  if ((role === 'A' || role === 'B') && consulted === 'B') {
+    return lang === 'en'
+      ? 'This result reflects a leadership perspective. Practitioners often see it differently. That gap is precisely what is worth measuring.'
+      : 'Kết quả này phản ánh góc nhìn của lãnh đạo. Góc nhìn của người trực tiếp làm việc thường khác. Chênh lệch đó chính là thứ đáng đo.';
+  }
+  return null;
+}
+
+// Selected workflow name from Q0 answer
+function getWFWorkflowName(answers, questions, lang) {
+  const q0 = answers.find(a => a.question_id === 'Q0-WORKFLOW');
+  if (!q0?.selected_key) return lang === 'en' ? 'this process' : 'quy trình này';
+  if (q0.selected_key === 'J') {
+    // "Khác" — may have open_text from custom_workflow_name answer
+    const custom = answers.find(a => a.question_id === 'Q0-WORKFLOW-OTHER');
+    const customText = custom?.open_text?.trim();
+    if (customText) return customText;
+    return lang === 'en' ? 'this process' : 'quy trình này';
+  }
+  const question = questions.find(q => q.id === 'Q0-WORKFLOW');
+  if (!question) return lang === 'en' ? 'this process' : 'quy trình này';
+  const option = question.options.find(o => o.key === q0.selected_key);
+  return option?.text || (lang === 'en' ? 'this process' : 'quy trình này');
+}
+
+function getWF90DayRecs(groupPcts, primaryConstraint, flags, lang) {
+  const recs = lang === 'en' ? WF_RECS_EN : WF_RECS_VI;
+  const chain = ['Process', 'Event', 'Handoff', 'Decision', 'Evidence'];
+  const actions = [];
+  const covered = new Set();
+
+  // F5 (blind spots) → recommend perspective check as task 1
+  if (flags.includes('F5') && actions.length < 3) {
+    const tasks = lang === 'en' ? WF_WEEKLY_TASKS_EN : WF_WEEKLY_TASKS_VI;
+    actions.push(tasks[0]);
+    covered.add('perspective');
+  }
+
+  // Primary constraint low rec
+  if (actions.length < 3 && !covered.has(primaryConstraint)) {
+    actions.push(recs[primaryConstraint].low);
+    covered.add(primaryConstraint);
+  }
+
+  // Fill from weakest groups (pct < 40 → low rec)
+  const sorted = chain
+    .filter(g => groupPcts[g] !== null)
+    .sort((a, b) => (groupPcts[a] || 0) - (groupPcts[b] || 0));
+
+  for (const g of sorted) {
+    if (actions.length >= 3) break;
+    if (!covered.has(g) && groupPcts[g] < 40) {
+      actions.push(recs[g].low);
+      covered.add(g);
+    }
+  }
+
+  // Fill remaining with high recs from weakest groups
+  for (const g of sorted) {
+    if (actions.length >= 3) break;
+    if (!covered.has(g)) {
+      actions.push(recs[g].high);
+      covered.add(g);
+    }
+  }
+
+  // If still under 3, use weekly tasks
+  const tasks = lang === 'en' ? WF_WEEKLY_TASKS_EN : WF_WEEKLY_TASKS_VI;
+  for (let i = 0; i < tasks.length && actions.length < 3; i++) {
+    if (!covered.has('task_' + i)) {
+      actions.push(tasks[i]);
+      covered.add('task_' + i);
+    }
+  }
+
+  return actions.slice(0, 3);
+}
+
+// ─── End Workflow Readiness scoring ──────────────────────────────────────────
+
 // ─── Database helpers (Supabase REST — no npm dependency) ────────────────────
 
 async function dbInsertLead(lead) {
@@ -1714,6 +2122,7 @@ async function sendTelegramAlert(lead) {
                  : lead.assessment_id === 'ai_readiness' ? 'AI Readiness'
                  : lead.assessment_id === 'digitalization_level' ? 'Digitalization Level'
                  : lead.assessment_id === 'km_maturity' ? 'KM Maturity'
+                 : lead.assessment_id === 'workflow_readiness' ? 'Workflow Readiness'
                  : lead.assessment_id;
   const source = lead.utm_source
     ? `${h(lead.utm_source)}${lead.utm_medium ? '/' + h(lead.utm_medium) : ''}`
@@ -2140,6 +2549,129 @@ export default async function handler(req, res) {
               ? (lang === 'en' ? 'Insufficient data for a complete assessment.' : 'Chưa đủ dữ liệu để đánh giá đầy đủ.')
               : null,
             readiness_index: readinessIndex,
+          });
+        }
+
+        // ── Workflow Readiness scoring path ────────────────────────────────────
+        if (assessment_id === 'workflow_readiness') {
+          const wfQuestions = questions;
+
+          // Group scores (0-100)
+          const processPct  = calcWFGroup(['Q1-PROCESS-CLARITY','Q2-TRIBAL-KNOWLEDGE'], answers, wfQuestions);
+          const eventPct    = calcWFGroup(['Q3-TRIGGER','Q4-DETECTION'], answers, wfQuestions);
+          const handoffPct  = calcWFGroup(['Q5-HANDOFF-SIGNAL','Q6-ABSENCE-TEST'], answers, wfQuestions);
+          const decisionPct = calcWFGroup(['Q7-DECISION-TRACE'], answers, wfQuestions);
+          const evidencePct = calcWFGroup(['Q8-EVIDENCE-STORAGE','Q9-TRACE-TEST'], answers, wfQuestions);
+          const groupPcts   = { Process: processPct, Event: eventPct, Handoff: handoffPct, Decision: decisionPct, Evidence: evidencePct };
+
+          const maturityIndex = calcWFIndex(answers, wfQuestions);
+          const rawLevel = getWFLevel(maturityIndex);
+
+          const q9Score = getWFScore('Q9-TRACE-TEST', answers, wfQuestions);
+          const { adjustedLevel, gatingMessage } = applyWFGating(rawLevel, eventPct, handoffPct, evidencePct, q9Score, lang);
+
+          const wfLevelLabels = lang === 'en' ? WF_LEVEL_LABELS_EN : WF_LEVEL_LABELS_VI;
+          const label = adjustedLevel ? wfLevelLabels[adjustedLevel] : (lang === 'en' ? 'Insufficient data' : 'Chưa đủ dữ liệu');
+
+          const flags = getWFFlags(answers, wfQuestions);
+          const uncertainCount = countWFUncertain(answers, wfQuestions);
+          const primaryConstraint = getWFPrimaryConstraint(groupPcts);
+
+          const headlines = lang === 'en' ? WF_HEADLINES_EN : WF_HEADLINES_VI;
+          const headline = headlines[primaryConstraint];
+
+          // Q10 Manual Load
+          const manualLoadScore = getWFScore('Q10-MANUAL-LOAD', answers, wfQuestions);
+
+          // Automation Readiness = average of Event, Handoff, Evidence pcts
+          const arValues = [eventPct, handoffPct, evidencePct].filter(v => v !== null);
+          const automationReadiness = arValues.length > 0 ? Math.round(arValues.reduce((s, v) => s + v, 0) / arValues.length) : null;
+
+          const automationQuadrant = getWFAutomationQuadrant(automationReadiness, manualLoadScore, lang);
+          const reliabilityNote = getWFReliabilityNote(answers, lang);
+          const workflowName = getWFWorkflowName(answers, wfQuestions, lang);
+
+          const nextSteps = lang === 'en' ? WF_LEVEL_NEXT_STEPS_EN : WF_LEVEL_NEXT_STEPS_VI;
+          const levelNextStep = adjustedLevel ? nextSteps[adjustedLevel] : null;
+
+          const weeklyTasks = lang === 'en' ? WF_WEEKLY_TASKS_EN : WF_WEEKLY_TASKS_VI;
+          const recommendations = getWF90DayRecs(groupPcts, primaryConstraint, flags, lang);
+
+          const flagDetails = flags.map(f => ({ code: f, ...WF_FLAG_LABELS[lang][f] }));
+          const groupNames = lang === 'en' ? WF_GROUP_NAMES_EN : WF_GROUP_NAMES_VI;
+
+          // Dimension scores in format compatible with AssessmentForm bar display
+          const dimensionScores = {};
+          const groupEntries = [
+            { key: 'Process', pct: processPct },
+            { key: 'Event', pct: eventPct },
+            { key: 'Handoff', pct: handoffPct },
+            { key: 'Decision', pct: decisionPct },
+            { key: 'Evidence', pct: evidencePct },
+          ];
+          for (const { key, pct } of groupEntries) {
+            const { status, label: statusLabel } = wfGroupStatus(pct, lang);
+            const level = wfPctToLevel(pct);
+            dimensionScores[key] = {
+              name: groupNames[key],
+              score: pct !== null ? Math.round(pct / 100 * 3 * 100) / 100 : null,
+              level,
+              label: statusLabel,
+              pct,
+              status,
+            };
+          }
+
+          // Archetype-equivalent: primary constraint profile
+          const archetypeProfiles_VI = {
+            Process: { label: 'Quy trình chưa rõ', description: 'Công việc di chuyển nhờ con người nhớ, không nhờ quy trình rõ. Ưu tiên: viết ra trigger và vai trò trước khi số hóa.', risk: 'Mở rộng quy mô hay thay người là đứt chuỗi ngay' },
+            Event: { label: 'Sự kiện chưa tạo hành động', description: 'Quy trình có thể đã có, nhưng sự kiện kinh doanh chưa tự kích hoạt được việc cần làm. Đây là điểm phân biệt workflow với workflow thực sự.', risk: 'Tự động hóa sớm sẽ tự động hóa sự hỗn loạn' },
+            Handoff: { label: 'Việc di chuyển qua người', description: 'Mỗi lần chuyển giao phụ thuộc vào ai đó nhớ, nhắn, hoặc hỏi. Mỗi điểm đó là điểm có thể rơi mất.', risk: 'Một người vắng là một phần việc đứt' },
+            Decision: { label: 'Quyết định chưa có bằng chứng', description: 'Phê duyệt đang xảy ra nhưng không có hồ sơ chứng minh tại sao. Rủi ro rõ khi có audit hoặc khiếu nại.', risk: 'Không giải thích được quyết định 1 năm sau' },
+            Evidence: { label: 'Kết quả chưa thành tri thức', description: 'Công việc được thực hiện và lưu, nhưng chưa tạo ra chuỗi nguyên nhân có thể truy vết. Đây là khoảng cách giữa có hồ sơ và có tri thức tổ chức.', risk: 'Không truy vết được, không dùng lại được' },
+          };
+          const archetypeProfiles_EN = {
+            Process: { label: 'Unclear Process', description: 'Work moves because people remember, not because the process is clear. Priority: write out triggers and roles before digitizing.', risk: 'Scaling up or replacing people breaks the chain immediately' },
+            Event: { label: 'Events Not Creating Actions', description: 'There may be a process, but business events do not yet automatically trigger the required work. This is what separates a workflow from a real workflow.', risk: 'Automating early means automating the chaos' },
+            Handoff: { label: 'Work Moves Through People', description: 'Every handoff depends on someone remembering, messaging, or asking. Each of those points is where work can be dropped.', risk: 'One person absent means one part of work breaks' },
+            Decision: { label: 'Decisions Without Evidence', description: 'Approvals are happening but without records of why. Clear risk when there is an audit or complaint.', risk: 'Cannot explain a decision one year later' },
+            Evidence: { label: 'Outcomes Not Becoming Knowledge', description: 'Work is done and stored, but does not create a traceable causal chain. This is the gap between having records and having organizational knowledge.', risk: 'Cannot trace back, cannot reuse' },
+          };
+          const archetypeProfiles = lang === 'en' ? archetypeProfiles_EN : archetypeProfiles_VI;
+          const archetype = archetypeProfiles[primaryConstraint];
+
+          return res.status(200).json({
+            submission_id: 'sub_' + Date.now(),
+            assessment_id,
+            level: adjustedLevel,
+            label,
+            maturity_index: maturityIndex,
+            raw_level: rawLevel,
+            gating_message: gatingMessage,
+            description: headline,
+            workflow_name: workflowName,
+            primary_constraint: primaryConstraint,
+            uncertain_count: uncertainCount,
+            group_pcts: groupPcts,
+            automation_readiness: automationReadiness,
+            manual_load: manualLoadScore,
+            automation_quadrant: automationQuadrant,
+            reliability_note: reliabilityNote,
+            level_next_step: levelNextStep,
+            weekly_tasks: weeklyTasks,
+            archetype: primaryConstraint.toLowerCase(),
+            archetype_label: archetype.label,
+            archetype_description: archetype.description,
+            archetype_risk: archetype.risk,
+            flags: flagDetails,
+            critical_flags: flags,
+            dimension_scores: dimensionScores,
+            recommendations,
+            disclaimer: lang === 'en' ? WF_DISCLAIMER_EN : WF_DISCLAIMER_VI,
+            readiness_index: maturityIndex,
+            insufficient_data_message: adjustedLevel === null
+              ? (lang === 'en' ? 'Insufficient data for a complete assessment.' : 'Chưa đủ dữ liệu để đánh giá đầy đủ.')
+              : null,
           });
         }
 

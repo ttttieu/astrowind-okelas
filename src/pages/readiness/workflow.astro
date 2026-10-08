@@ -1,0 +1,20 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import AssessmentForm from '~/components/widgets/AssessmentForm.astro';
+
+const metadata = {
+  title: "Workflow Readiness Assessment - OKELAS",
+  description: "Doanh nghiệp bạn có biến được sự kiện kinh doanh thành hành động phối hợp, có truy vết không? 10 câu hỏi, 4–5 phút.",
+};
+---
+
+<Layout metadata={metadata}>
+  <HeroText
+    tagline="Readiness Assessment"
+    title="Đánh giá mức sẵn sàng workflow"
+    subtitle="Việc đến được tay đúng người, đúng lúc — và một năm sau còn giải thích được vì sao"
+  />
+
+  <AssessmentForm assessmentId="workflow_readiness" language="vi" />
+</Layout>

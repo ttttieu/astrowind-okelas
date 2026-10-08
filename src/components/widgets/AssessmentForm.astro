@@ -143,6 +143,47 @@ const { assessmentId, language } = Astro.props;
           cb.addEventListener('change', updateQ11Visibility);
         });
       }
+
+      // Workflow: substitute {workflow} in question texts after Q0 selection
+      if (this.assessmentId === 'workflow_readiness') {
+        this.workflowName = this.language === 'vi' ? 'quy trình này' : 'this process';
+        const applyWorkflowSubstitution = () => {
+          document.querySelectorAll('[data-workflow-text]').forEach(el => {
+            el.textContent = el.dataset.workflowText.replace(/\{workflow\}/g, this.workflowName);
+          });
+        };
+
+        // Listen for Q0-WORKFLOW radio change
+        setTimeout(() => {
+          document.querySelectorAll('input[name="question-Q0-WORKFLOW"]').forEach(radio => {
+            radio.addEventListener('change', (e) => {
+              const key = e.target.value;
+              if (key === 'J') {
+                // Show "other" text input
+                const otherInput = document.getElementById('workflow-other-input');
+                if (otherInput) {
+                  otherInput.style.display = 'block';
+                  const inp = otherInput.querySelector('input');
+                  if (inp) {
+                    inp.addEventListener('input', (ev) => {
+                      this.workflowName = ev.target.value.trim() || (this.language === 'vi' ? 'quy trình này' : 'this process');
+                      applyWorkflowSubstitution();
+                    });
+                  }
+                }
+              } else {
+                const otherInput = document.getElementById('workflow-other-input');
+                if (otherInput) otherInput.style.display = 'none';
+                // Get label from radio's parent label
+                const label = e.target.closest('label');
+                const span = label ? label.querySelector('span.font-medium') : null;
+                this.workflowName = span ? span.textContent.trim() : (this.language === 'vi' ? 'quy trình này' : 'this process');
+                applyWorkflowSubstitution();
+              }
+            });
+          });
+        }, 0);
+      }
     }
 
     explainFlag(flag) {
@@ -181,10 +222,15 @@ const { assessmentId, language } = Astro.props;
       questionDiv.className = 'border border-gray-200 dark:border-gray-700 rounded-lg p-6 bg-white dark:bg-gray-800 shadow-sm';
       questionDiv.id = `question-${question.id}`;
 
+      const rawQText = question.text || '';
+      const hasWF = rawQText.includes('{workflow}');
+      const wfName = this.workflowName || (this.language === 'vi' ? 'quy trình này' : 'this process');
+      const displayQText = hasWF ? rawQText.replace(/\{workflow\}/g, wfName) : rawQText;
+
       let innerHTML = `
         <div class="flex items-start gap-2 mb-4">
           <span class="text-sm font-semibold text-blue-600 bg-blue-100 px-3 py-1 rounded-full">Q${index + 1}</span>
-          <h3 class="text-lg font-semibold text-gray-900 dark:text-gray-100 flex-1">${question.text}</h3>
+          <h3 class="text-lg font-semibold text-gray-900 dark:text-gray-100 flex-1"${hasWF ? ' data-workflow-text="' + rawQText.replace(/"/g, '&quot;') + '"' : ''}>${displayQText}</h3>
         </div>
       `;
 
@@ -267,8 +313,16 @@ const { assessmentId, language } = Astro.props;
           innerHTML += `</tr>`;
         });
         innerHTML += `</tbody></table></div>`;
-      } else if (question.type === 'single_select' || question.type === 'context' || !question.type) {
-        innerHTML += '<div class="space-y-3">';
+      } else if (question.type === 'workflow_select') {
+        // Workflow selector: radio options + optional "other" text input + hint banner
+        if (question.hint) {
+          innerHTML += `
+            <div class="bg-amber-50 border-l-4 border-amber-400 p-3 rounded mb-4 text-sm text-amber-900">
+              ${question.hint}
+            </div>
+          `;
+        }
+        innerHTML += '<div class="space-y-2">';
         question.options?.forEach((option) => {
           const uniqueId = `${question.id}-${option.key}`;
           innerHTML += `
@@ -282,6 +336,48 @@ const { assessmentId, language } = Astro.props;
               />
               <div class="flex-1">
                 <span class="font-medium text-gray-900 dark:text-gray-100">${option.text}</span>
+              </div>
+            </label>
+          `;
+        });
+        innerHTML += '</div>';
+        // "Other" text input (hidden until J is selected)
+        innerHTML += `
+          <div id="workflow-other-input" style="display:none" class="mt-3">
+            <input
+              type="text"
+              id="workflow-other-text"
+              placeholder="${this.language === 'vi' ? 'Nhập tên quy trình...' : 'Enter process name...'}"
+              class="w-full p-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500"
+            />
+          </div>
+        `;
+        setTimeout(() => {
+          document.querySelectorAll(`input[name="question-${question.id}"]`).forEach((input) => {
+            input.addEventListener('change', (e) => {
+              this.answers[question.id] = e.target.value;
+            });
+          });
+        }, 0);
+      } else if (question.type === 'single_select' || question.type === 'context' || !question.type) {
+        innerHTML += '<div class="space-y-3">';
+        question.options?.forEach((option) => {
+          const uniqueId = `${question.id}-${option.key}`;
+          // For workflow questions, attach data-workflow-text so substitution can work
+          const rawText = option.text || '';
+          const hasWorkflow = rawText.includes('{workflow}');
+          const displayText = hasWorkflow ? rawText.replace(/\{workflow\}/g, this.workflowName || (this.language === 'vi' ? 'quy trình này' : 'this process')) : rawText;
+          innerHTML += `
+            <label class="flex items-start gap-3 p-3 border border-gray-200 dark:border-gray-600 rounded-lg cursor-pointer hover:bg-gray-50 dark:hover:bg-gray-700 transition">
+              <input
+                type="radio"
+                name="question-${question.id}"
+                value="${option.key}"
+                id="${uniqueId}"
+                class="mt-1 w-4 h-4 text-blue-600 cursor-pointer"
+              />
+              <div class="flex-1">
+                <span class="font-medium text-gray-900 dark:text-gray-100">${displayText}</span>
               </div>
             </label>
           `;
@@ -451,6 +547,32 @@ const { assessmentId, language } = Astro.props;
             </div>
           ` : ''}
 
+          ${result.gating_message ? `
+            <div class="mt-4 p-4 bg-amber-50 rounded-lg border border-amber-200">
+              <p class="text-sm text-amber-900">⚠️ ${result.gating_message}</p>
+            </div>
+          ` : ''}
+
+          ${result.maturity_index !== undefined && result.maturity_index !== null ? `
+            <div class="mt-4 flex items-center gap-4">
+              <div class="flex-1">
+                <div class="flex justify-between text-xs text-gray-500 mb-1">
+                  <span>${this.language === 'vi' ? 'Chỉ số trưởng thành' : 'Maturity Index'}</span>
+                  <span class="font-bold text-gray-700">${result.maturity_index}/100</span>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-3">
+                  <div class="bg-blue-600 h-3 rounded-full" style="width: ${result.maturity_index}%"></div>
+                </div>
+              </div>
+            </div>
+          ` : ''}
+
+          ${result.reliability_note ? `
+            <div class="mt-4 p-3 bg-purple-50 rounded-lg border border-purple-200">
+              <p class="text-sm text-purple-900">💡 ${result.reliability_note}</p>
+            </div>
+          ` : ''}
+
           ${result.software_gap_message || result.tool_gap_label ? `
             <div class="mt-4 p-4 bg-purple-50 rounded-lg border border-purple-200">
               <p class="text-sm text-purple-900">${result.software_gap_message || result.tool_gap_label}</p>
@@ -560,14 +682,72 @@ const { assessmentId, language } = Astro.props;
           </div>
         ` : ''}
 
+        ${result.automation_quadrant ? `
+          <div class="bg-white rounded-lg p-6 border border-gray-200 mt-8">
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">
+              ${this.language === 'vi' ? 'Ma trận cơ hội tự động hóa' : 'Automation Opportunity Matrix'}
+            </h3>
+            <div class="flex items-start gap-4 mt-3">
+              <div class="flex-1 p-4 rounded-lg border-2 ${
+                result.automation_quadrant.quadrant === 'ready_to_automate' ? 'border-green-400 bg-green-50' :
+                result.automation_quadrant.quadrant === 'high_opp_not_ready' ? 'border-orange-400 bg-orange-50' :
+                result.automation_quadrant.quadrant === 'foundation_ready' ? 'border-blue-400 bg-blue-50' :
+                'border-gray-300 bg-gray-50'
+              }">
+                <p class="font-semibold text-gray-900 text-sm mb-1">${result.automation_quadrant.label}</p>
+                <p class="text-sm text-gray-700">${result.automation_quadrant.message}</p>
+                <div class="mt-3 flex gap-4 text-xs text-gray-500">
+                  <span>${this.language === 'vi' ? 'Sẵn sàng tự động hóa:' : 'Automation readiness:'} <strong>${result.automation_readiness !== null ? result.automation_readiness + '%' : '—'}</strong></span>
+                  <span>${this.language === 'vi' ? 'Tải thủ công:' : 'Manual load:'} <strong>${['—','Thấp','Một phần','Đáng kể','Phần lớn','Toàn bộ'][result.manual_load + 1] || result.manual_load}</strong></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        ` : ''}
+
+        ${result.level_next_step ? `
+          <div class="bg-indigo-50 rounded-lg p-6 border border-indigo-200 mt-8">
+            <h3 class="text-lg font-semibold text-indigo-900 mb-2">
+              ${this.language === 'vi' ? 'Bước tiếp theo hợp lý' : 'Recommended Next Step'}
+            </h3>
+            <p class="text-sm text-indigo-800">${result.level_next_step}</p>
+          </div>
+        ` : ''}
+
+        ${result.weekly_tasks && result.weekly_tasks.length > 0 ? `
+          <div class="bg-teal-50 rounded-lg p-6 border border-teal-200 mt-8">
+            <h3 class="text-lg font-semibold text-teal-900 mb-3">
+              ${this.language === 'vi' ? 'Việc nên làm tuần này (15 phút)' : 'Actions for This Week (15 minutes each)'}
+            </h3>
+            <ol class="space-y-3">
+              ${result.weekly_tasks.map((task, i) => `
+                <li class="text-sm text-teal-900 flex gap-2">
+                  <span class="font-bold shrink-0">${i + 1}.</span>
+                  <span>${task}</span>
+                </li>
+              `).join('')}
+            </ol>
+          </div>
+        ` : ''}
+
+        ${result.disclaimer ? `
+          <div class="mt-8 p-4 bg-gray-50 rounded-lg border border-gray-200">
+            <p class="text-xs text-gray-500">${result.disclaimer}</p>
+          </div>
+        ` : ''}
+
         <div class="bg-blue-50 dark:bg-slate-800 rounded-lg p-8 border border-blue-200 dark:border-blue-700 mt-8">
           <h3 class="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
-            ${this.language === 'vi' ? 'Đặt lịch đánh giá thực địa' : 'Schedule an On-Site Assessment'}
+            ${this.language === 'vi' ? 'Đặt lịch Workflow Stress Test' : 'Schedule a Workflow Stress Test'}
           </h3>
           <p class="text-gray-700 dark:text-gray-300 mb-4">
-            ${this.language === 'vi'
-              ? 'Báo cáo này phản ánh góc nhìn của anh/chị. Bước tiếp theo: đánh giá chi tiết cùng OKELAS — trưởng các phòng ban trả lời bộ câu hỏi riêng, anh/chị nhận bản đồ lệch nhận thức và lộ trình chuẩn bị theo thứ tự ưu tiên.'
-              : 'This report reflects your perspective. Next step: a detailed on-site assessment with OKELAS — department heads answer their own question set, and you receive a perception-gap map with a prioritized preparation roadmap.'}
+            ${this.assessmentId === 'workflow_readiness'
+              ? (this.language === 'vi'
+                ? 'Kết quả này là giả thuyết từ 10 câu trả lời về một quy trình. Bước tiếp theo: Workflow Stress Test — mang theo một hồ sơ gần đây và một ca bị trễ, đi qua quy trình đó cùng người làm trực tiếp để kiểm chứng.'
+                : 'These results are a hypothesis from 10 answers about one process. Next step: a Workflow Stress Test — bring a recent record and a delayed case, walk through the process with the person who does the work to verify.')
+              : (this.language === 'vi'
+                ? 'Báo cáo này phản ánh góc nhìn của anh/chị. Bước tiếp theo: đánh giá chi tiết cùng OKELAS — trưởng các phòng ban trả lời bộ câu hỏi riêng, anh/chị nhận bản đồ lệch nhận thức và lộ trình chuẩn bị theo thứ tự ưu tiên.'
+                : 'This report reflects your perspective. Next step: a detailed on-site assessment with OKELAS — department heads answer their own question set, and you receive a perception-gap map with a prioritized preparation roadmap.')}
           </p>
           <p class="text-sm text-blue-700 dark:text-blue-300 bg-blue-100 dark:bg-blue-900/40 rounded-lg px-4 py-2 mb-6">
             ${this.language === 'vi'
@@ -649,6 +829,7 @@ const { assessmentId, language } = Astro.props;
             assessment_critical_flags: this.resultData?.critical_flags ?? [],
             assessment_gap_label: this.resultData?.gap_label ?? null,
             assessment_readiness_index: this.resultData?.readiness_index ?? null,
+            assessment_workflow_name: this.resultData?.workflow_name ?? null,
             // UTM tracking
             utm_source: utmParams.get('utm_source') || null,
             utm_medium: utmParams.get('utm_medium') || null,
