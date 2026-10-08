@@ -2,7 +2,10 @@
 title: "Training records và năng lực nhân viên trong ISO 9001 — những gì tiêu chuẩn thực sự yêu cầu"
 description: "ISO 9001 không chỉ yêu cầu lưu hồ sơ đào tạo — mà yêu cầu chứng minh nhân viên có năng lực để thực hiện công việc ảnh hưởng đến chất lượng. Đây là sự khác biệt quan trọng."
 publishDate: 2026-10-04T00:00:00Z
-image: '~/assets/images/insights/training-records-iso-9001.png'
+image: '~/assets/images/insights/atrc-training-records/atrc-00-og-cover-vi.png'
+coverImage: '~/assets/images/insights/atrc-training-records/atrc-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/atrc-training-records/atrc-00-og-cover-vi.png'
+coverImageAlt: "Hai hộp nối bằng mũi tên: đã học xong bên trái, làm được việc bên phải."
 category: 'compliance'
 tags: ['Training Records', 'Năng Lực Nhân Viên', 'ISO 9001', 'Competence', 'eQMS']
 translationId: 'iso-9001-training-records-competence'
@@ -18,6 +21,8 @@ secondaryKeywords:
   - "competence ISO 9001"
   - "đào tạo chất lượng"
 assessmentHref: '/readiness/knowledge-management'
+ctaPrimaryText: 'Làm Knowledge Management Maturity Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 
@@ -39,11 +44,15 @@ draft: false
 
 Hồ sơ nói rằng đào tạo đã xảy ra. Thực tế cho thấy năng lực chưa chắc đã có, hoặc ít nhất chưa theo đúng yêu cầu. Khoảng cách giữa hai điều này là nội dung của bài viết.
 
+![Hai thẻ đối chiếu: hồ sơ đầy đủ bên trái, việc thực tế bên phải; bên dưới là một thanh kết luận.](~/assets/images/insights/atrc-training-records/atrc-01-file-vs-job-vi.svg)
+
 ---
 
 ## Competence và training — hai khái niệm khác nhau
 
 Trong vận hành, người ta hay dùng "đào tạo" và "năng lực" thay cho nhau. ISO 9001 phân biệt chúng.
+
+![Hai cột đối chiếu: training là hoạt động với ba dòng bên trái, competence là kết quả với ba dòng bên phải.](~/assets/images/insights/atrc-training-records/atrc-02-training-vs-competence-vi.svg)
 
 **Đào tạo** là một hoạt động: lớp học, hướng dẫn tại chỗ, tài liệu tự học, kèm cặp. Nó là một **phương tiện** để đạt năng lực.
 
@@ -56,6 +65,8 @@ Một người có thể đã tham dự mọi buổi đào tạo mà vẫn chưa
 ## ISO 9001 điều khoản 7.2 yêu cầu gì
 
 Các nhận định dưới đây dựa trên **ISO 9001:2015, điều khoản 7.2 (Năng lực)**, tóm lược bằng ngôn ngữ thực hành. Tổ chức phải:
+
+![Bốn thẻ yêu cầu của điều khoản 7.2 xếp hàng ngang, bên dưới là một khung ghi chú về nhân sự thuê ngoài và tạm thời.](~/assets/images/insights/atrc-training-records/atrc-03-clause-7-2-vi.svg)
 
 - **xác định năng lực cần thiết** của những người thực hiện công việc thuộc quyền kiểm soát của tổ chức và ảnh hưởng đến kết quả và hiệu lực của hệ thống quản lý chất lượng;
 - bảo đảm những người này **có năng lực** trên cơ sở giáo dục, đào tạo hoặc kinh nghiệm phù hợp;
@@ -104,6 +115,8 @@ Một lưu ý thực tế: hồ sơ nhân sự chứa dữ liệu cá nhân, nê
 
 Theo quan sát tại nhiều doanh nghiệp sản xuất, sáu vấn đề sau xuất hiện thường xuyên. (Đây là quan sát chung, không phải số liệu đo lường.)
 
+![Sáu thẻ khoảng trống xếp thành lưới hai cột, bên dưới là một thanh giải pháp về ma trận năng lực theo vai trò.](~/assets/images/insights/atrc-training-records/atrc-04-six-gaps-vi.svg)
+
 **1. Đào tạo gắn với con người, không gắn với vị trí.** Nếu không có định nghĩa năng lực cần thiết cho từng vị trí, không có cơ sở để biết người này đã đủ chưa.
 
 **2. Không gắn với phiên bản SOP.** Nhân viên được đào tạo theo bản 3, quy trình đã lên bản 5. Không ai biết ai chưa được cập nhật.
@@ -127,6 +140,8 @@ Ba sự kiện nên kích hoạt việc xem lại đào tạo: **thay đổi tà
 ## Năng lực ngầm: phần không nằm trong hồ sơ nào
 
 Có một phần năng lực mà hồ sơ đào tạo, dù tốt đến đâu, cũng không ghi nhận được: **kinh nghiệm xử lý tình huống của người làm lâu năm.**
+
+![Ba thẻ tín hiệu nối xuống một thanh "xem lại năng lực và đào tạo", bên dưới là một khung ghi chú về kiến thức ngầm.](~/assets/images/insights/atrc-training-records/atrc-05-review-signals-vi.svg)
 
 Người thợ vận hành thiết bị mười năm biết âm thanh nào báo hiệu sắp có vấn đề, biết khi nào thông số "đúng theo hướng dẫn" nhưng vẫn cần điều chỉnh vì độ ẩm hôm nay. Những hiểu biết này hiếm khi nằm trong SOP, và gần như không bao giờ nằm trong hồ sơ đào tạo.
 

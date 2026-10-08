@@ -2,7 +2,10 @@
 title: "Training Records and Employee Competence in ISO 9001: What the Standard Actually Requires"
 description: "ISO 9001 doesn't just require training records — it requires evidence that employees are competent to perform work affecting quality. Here's the important distinction and how to manage it properly."
 publishDate: 2026-10-04T00:00:00Z
-image: '~/assets/images/insights/training-records-iso-9001.png'
+image: '~/assets/images/insights/atrc-training-records/atrc-00-og-cover-en.png'
+coverImage: '~/assets/images/insights/atrc-training-records/atrc-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/atrc-training-records/atrc-00-og-cover-en.png'
+coverImageAlt: "Two boxes joined by an arrow: training completed on the left, able to do the job on the right."
 category: 'compliance'
 tags: ['Training Records', 'Employee Competence', 'ISO 9001', 'Clause 7.2', 'eQMS']
 translationId: 'iso-9001-training-records-competence'
@@ -18,6 +21,8 @@ secondaryKeywords:
   - "training records management QMS"
   - "clause 7.2 ISO 9001"
 assessmentHref: '/en/readiness/knowledge-management'
+ctaPrimaryText: 'Take the Knowledge Management Maturity Assessment'
+ctaSubtitle: 'Identify your maturity level and the first improvement to make'
 draft: false
 ---
 
@@ -39,11 +44,15 @@ The auditor asks: *"How do you carry out this step?"* The operator answers in a 
 
 The record says training happened. Reality suggests competence may not be there, or at least not to the required standard. The gap between those two is what this article is about.
 
+![Two comparison cards: complete file on the left, the actual job on the right; a takeaway bar below.](~/assets/images/insights/atrc-training-records/atrc-01-file-vs-job-en.svg)
+
 ---
 
 ## Competence versus training: two different things
 
 In daily operations, people use "training" and "competence" interchangeably. ISO 9001 distinguishes them.
+
+![Two comparison columns: training as an activity with three rows on the left, competence as an outcome with three rows on the right.](~/assets/images/insights/atrc-training-records/atrc-02-training-vs-competence-en.svg)
 
 **Training** is an activity: a class, on-the-job instruction, self-study material, mentoring. It is a **means** of reaching competence.
 
@@ -56,6 +65,8 @@ Someone can have attended every training session and still lack competence, if t
 ## What clause 7.2 requires
 
 The statements below are based on **ISO 9001:2015, clause 7.2 (Competence)**, summarized in practical terms. The organization must:
+
+![Four clause 7.2 requirement cards in a row, with a note box below about contracted and temporary staff.](~/assets/images/insights/atrc-training-records/atrc-03-clause-7-2-en.svg)
 
 - **determine the necessary competence** of persons doing work under its control that affects the performance and effectiveness of the quality management system;
 - ensure these persons are **competent** on the basis of appropriate education, training or experience;
@@ -104,6 +115,8 @@ This is where many training systems break: records exist, but they're **not conn
 
 Across many manufacturing operations, six problems come up frequently. (A general observation, not measured figures.)
 
+![Six gap cards in a two-column grid, with a bar below giving the fix: a role-based competence matrix.](~/assets/images/insights/atrc-training-records/atrc-04-six-gaps-en.svg)
+
 **1. Training tied to people, not to roles.** Without a definition of the competence needed for each role, there's no basis for knowing whether a person is yet sufficient.
 
 **2. Not tied to SOP revision.** A person was trained on revision 3; the procedure is now revision 5. Nobody knows who hasn't been updated.
@@ -127,6 +140,8 @@ Three events should trigger a review of training: a **change to a document or pr
 ## Tacit competence: the part no record captures
 
 There's a part of competence that training records, however good, cannot capture: **the experience of long-serving people in handling unusual situations.**
+
+![Three signal cards above a bar reading "review competence and training", with a note box below about tacit knowledge.](~/assets/images/insights/atrc-training-records/atrc-05-review-signals-en.svg)
 
 An operator with ten years on a machine knows which sound signals trouble, and when a setting that is "right per the instruction" still needs adjustment because of today's humidity. These insights rarely sit in an SOP and almost never in a training record.
 
