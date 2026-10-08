@@ -2,7 +2,9 @@
 title: "ISO 9001 Doesn't Require QMS Software — but Here's Why eQMS Still Matters"
 description: "ISO 9001:2015 doesn't mandate software. But as scale and traceability requirements grow, eQMS becomes more practical than paper — for reasons that have nothing to do with compliance requirements. Here's the case."
 publishDate: 2026-10-04T00:00:00Z
-image: '~/assets/images/insights/iso-9001-co-can-phan-mem-qms.png'
+coverImage: '~/assets/images/insights/aiso-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/aiso-00-og-cover-en.png'
+coverImageAlt: "Does ISO 9001 require QMS software? What clause 7.5 says — information is controlled box joined to medium is your choice box."
 category: 'compliance'
 tags: ['ISO 9001', 'eQMS', 'Documented Information', 'ISO 9001 Records', 'Manufacturing SME']
 translationId: 'iso-9001-eqms-software-requirement'
@@ -18,6 +20,8 @@ secondaryKeywords:
   - "ISO 9001 records management"
   - "eQMS ISO 9001 necessity"
 assessmentHref: '/en/readiness/digitalization-level'
+ctaPrimaryText: 'Assess your digitalization level'
+ctaSubtitle: 'Identify your current digitalization level and what the next step should be'
 draft: false
 ---
 
@@ -41,6 +45,8 @@ First conclusion: "Not required, so stay on paper and save money." That holds fo
 
 The second goes the other way: "I hear ISO is going digital, so we probably need software." There is no basis for that in the standard.
 
+![Two common misreadings shown as crossed-out statements above; correct understanding shown below: ISO 9001 requires control of documented information, medium is your choice.](~/assets/images/insights/aiso-iso-9001/aiso-01-two-misreadings-en.svg)
+
 This article walks through what the standard actually requires, then explains why an eQMS can still be the practical choice even though ISO doesn't demand it.
 
 ---
@@ -57,6 +63,8 @@ The statements here are based on **ISO 9001:2015, clause 7.5 (Documented informa
 
 Notice that this list describes **control outcomes**, not **tools**. Not a single line demands software.
 
+![Three groups of clause 7.5 content: creating and updating (with identification, format, review); controlling (with availability, protection, distribution, storage, version control, retention); and scope (with external documents and evidence protection).](~/assets/images/insights/aiso-iso-9001/aiso-02-clause-7-5-en.svg)
+
 One change from the earlier edition is worth knowing: ISO 9001:2008 required a quality manual and specific mandatory documented procedures. The 2015 edition merges "documents" and "records" into the general idea of "documented information" and no longer requires a quality manual. The organization decides what it needs, based on what its system needs.
 
 ---
@@ -71,6 +79,8 @@ The distinction matters in practice. Information you **maintain** has to be upda
 
 The two create different kinds of operational risk. And they explain why "paper or software?" has no single answer for every part of the system.
 
+![Maintain versus Retain: left column shows procedures, instructions, policies with risk of wrong version; right column shows inspection results, audit reports, training records with risk of altered or untraced evidence.](~/assets/images/insights/aiso-iso-9001/aiso-03-maintain-vs-retain-en.svg)
+
 ---
 
 ## Why paper and PDF can meet the minimum
@@ -82,6 +92,8 @@ Likewise, a system of electronic files (Word, PDF on a shared drive) can comply,
 And here is a common trap: **converting paper to files does not equal meeting the requirement.** A PDF folder that anyone can edit, with no version register and no approval process, is harder to defend as "controlled" than a paper record with a tracking log. An electronic medium doesn't solve the control requirement; it creates control requirements of its own, such as access rights, backup and integrity protection.
 
 In other words: the standard asks whether you **have control**, not **which tool** you use.
+
+![Two columns: meets the requirement (paper with reference numbers and approval, PDF with access control and version register); does not meet (PDF folder anyone can edit, uncontrolled versions). Warning note: electronic medium creates its own control requirements.](~/assets/images/insights/aiso-iso-9001/aiso-04-paper-or-pdf-en.svg)
 
 ---
 
@@ -119,6 +131,8 @@ Customers, sector rules, other standards.
 
 **4. If we move, where do we begin?**
 Most small and mid-sized companies start with document control, not the whole system. See also [eQMS for Small Manufacturers: Why It Doesn't Have to Be Complex](/en/insights/compliance/simple-eqms-small-manufacturers).
+
+![Four numbered decision questions: does current system control what ISO requires; is the cost growing; are there beyond-ISO requirements; where would we begin.](~/assets/images/insights/aiso-iso-9001/aiso-05-four-questions-en.svg)
 
 One more point: many cases of "failed the audit because we had no software" are really audits that found control problems (wrong version, missing records, evidence that couldn't be traced), and software is simply how some companies choose to fix that. Diagnosing the problem correctly matters more than picking the tool.
 

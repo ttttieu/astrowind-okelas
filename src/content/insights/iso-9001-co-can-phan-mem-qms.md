@@ -2,7 +2,9 @@
 title: "ISO 9001 không bắt buộc phần mềm QMS — nhưng đây là lý do eQMS vẫn quan trọng"
 description: "ISO 9001:2015 không yêu cầu doanh nghiệp phải dùng phần mềm QMS. Nhưng khi quy mô tăng và yêu cầu traceability cao hơn, eQMS trở thành lựa chọn thực tế hơn là giấy. Bài viết phân tích tại sao."
 publishDate: 2026-10-04T00:00:00Z
-image: '~/assets/images/insights/iso-9001-co-can-phan-mem-qms.png'
+coverImage: '~/assets/images/insights/aiso-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/aiso-00-og-cover-vi.png'
+coverImageAlt: "ISO 9001 có cần phần mềm QMS không? Điều khoản 7.5 trả lời — hộp thông tin được kiểm soát nối với hộp phương tiện tự chọn."
 category: 'compliance'
 tags: ['ISO 9001', 'eQMS', 'Documented Information', 'Hồ Sơ ISO', 'Manufacturing SME']
 translationId: 'iso-9001-eqms-software-requirement'
@@ -18,6 +20,8 @@ secondaryKeywords:
   - "documented information ISO 9001"
   - "hồ sơ ISO 9001"
 assessmentHref: '/readiness/digitalization-level'
+ctaPrimaryText: 'Đánh giá mức độ số hóa'
+ctaSubtitle: 'Xác định mức độ số hóa hiện tại và bước tiếp theo hợp lý'
 draft: false
 ---
 
@@ -41,6 +45,8 @@ Kết luận thứ nhất: "Không bắt buộc, vậy cứ làm giấy, tiết 
 
 Kết luận thứ hai (ở chiều ngược lại): "Nghe nói ISO đang chuyển sang số, chắc cần có phần mềm." Kết luận này thì không có căn cứ trong tiêu chuẩn.
 
+![Hai cách hiểu sai được nêu dưới dạng khẳng định được gạch bỏ ở trên; khẳng định đúng ở dưới: ISO 9001 yêu cầu kiểm soát thông tin dạng văn bản, phương tiện tự chọn.](~/assets/images/insights/aiso-iso-9001/aiso-01-two-misreadings-vi.svg)
+
 Bài này đi qua những gì tiêu chuẩn thực sự yêu cầu, rồi giải thích vì sao eQMS vẫn có thể là lựa chọn thực tế, dù ISO không đòi hỏi.
 
 ---
@@ -57,6 +63,8 @@ Các nhận định trong bài dựa trên **ISO 9001:2015, điều khoản 7.5 
 
 Điều đáng chú ý là danh sách này nói về **kết quả kiểm soát**, không nói về **công cụ**. Không có dòng nào đòi hỏi phần mềm.
 
+![Ba nhóm nội dung điều khoản 7.5: tạo và cập nhật (nhận diện, định dạng, xem xét); kiểm soát (sẵn sàng, bảo vệ, phân phối, lưu trữ, kiểm soát phiên bản, lưu giữ); phạm vi (tài liệu bên ngoài, bảo vệ bằng chứng).](~/assets/images/insights/aiso-iso-9001/aiso-02-clause-7-5-vi.svg)
+
 Một thay đổi so với phiên bản cũ cũng cần biết: ISO 9001:2008 yêu cầu sổ tay chất lượng và một số quy trình dạng văn bản bắt buộc cụ thể. Phiên bản 2015 gộp "tài liệu" và "hồ sơ" thành khái niệm chung "thông tin dạng văn bản" và không còn yêu cầu sổ tay chất lượng. Doanh nghiệp quyết định mình cần những gì, dựa trên nhu cầu của hệ thống.
 
 ---
@@ -71,6 +79,8 @@ Sự phân biệt này có ý nghĩa thực tế. Tài liệu **duy trì** cần
 
 Hai loại này tạo ra hai kiểu rủi ro khác nhau trong vận hành. Và chúng giải thích vì sao câu hỏi "giấy hay phần mềm" không có một đáp án chung cho mọi thành phần của hệ thống.
 
+![Duy trì so với Lưu giữ: cột trái nêu quy trình, hướng dẫn, chính sách với rủi ro bản sai; cột phải nêu kết quả kiểm tra, biên bản đánh giá, hồ sơ đào tạo với rủi ro bằng chứng bị sửa hoặc không truy vết được.](~/assets/images/insights/aiso-iso-9001/aiso-03-maintain-vs-retain-vi.svg)
+
 ---
 
 ## Tại sao giấy và PDF đáp ứng được yêu cầu tối thiểu
@@ -82,6 +92,8 @@ Tương tự, một hệ thống file điện tử (Word, PDF trên thư mục c
 Tại đây có một cái bẫy phổ biến: **chuyển giấy sang file không đồng nghĩa với đáp ứng yêu cầu.** Một thư mục PDF mà ai cũng sửa được, không có danh mục phiên bản và không có quy trình phê duyệt thì còn khó chứng minh kiểm soát hơn nhiều so với hồ sơ giấy có sổ theo dõi. Phương tiện điện tử không giải quyết yêu cầu kiểm soát; nó chỉ đặt ra những yêu cầu kiểm soát riêng của nó, như phân quyền, sao lưu và bảo vệ tính toàn vẹn.
 
 Nói cách khác: tiêu chuẩn đánh giá bạn **có kiểm soát hay không**, không đánh giá bạn **dùng công cụ gì**.
+
+![Hai cột: đáp ứng yêu cầu (giấy có mã số và phê duyệt, PDF có phân quyền và danh mục); không đáp ứng (thư mục PDF bất kỳ ai sửa, bản lộn xộn). Chú thích: phương tiện điện tử tạo ra yêu cầu kiểm soát của nó.](~/assets/images/insights/aiso-iso-9001/aiso-04-paper-or-pdf-vi.svg)
 
 ---
 
@@ -119,6 +131,8 @@ Khách hàng, quy định ngành, các tiêu chuẩn khác.
 
 **4. Nếu chuyển, chúng ta bắt đầu từ đâu?**
 Đa số doanh nghiệp nhỏ và vừa bắt đầu với kiểm soát tài liệu, không phải toàn bộ hệ thống. Xem thêm [eQMS cho manufacturing SME — không cần phức tạp như bạn nghĩ](/insights/compliance/eqms-sme-don-gian).
+
+![Bốn câu hỏi quyết định được đánh số từ 1 đến 4: hệ thống hiện tại có kiểm soát; chi phí tăng không; yêu cầu ngoài ISO; bắt đầu từ đâu.](~/assets/images/insights/aiso-iso-9001/aiso-05-four-questions-vi.svg)
 
 Một điều nữa đáng nói: nhiều lần "audit trượt vì không dùng phần mềm" thực ra là audit phát hiện vấn đề kiểm soát (phiên bản sai, hồ sơ thiếu, bằng chứng không truy được), và phần mềm chỉ là cách mà một số doanh nghiệp chọn để giải quyết vấn đề đó. Chẩn đoán đúng vấn đề quan trọng hơn chọn đúng công cụ.
 
