@@ -2,7 +2,9 @@
 title: "eQMS cho doanh nghiệp sản xuất — hướng dẫn thực hành từ ISO 9001 đến vận hành số"
 description: "eQMS không chỉ là phần mềm thay thế hồ sơ giấy. Bài viết hướng dẫn thực hành cách tổ chức hệ thống quản lý chất lượng điện tử phù hợp với manufacturing SME — từ document control đến audit, CAPA và knowledge."
 publishDate: 2026-10-04T00:00:00Z
-image: '~/assets/images/insights/eqms-cho-doanh-nghiep-san-xuat.png'
+coverImage: '~/assets/images/insights/aeqm-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/aeqm-00-og-cover-vi.png'
+coverImageAlt: "eQMS cho doanh nghiệp sản xuất: từ ISO 9001 đến vận hành số — sáu ô điều khoản ISO 9001 xếp hàng ngang."
 category: 'compliance'
 tags: ['eQMS', 'ISO 9001', 'Hệ Thống Quản Lý Chất Lượng', 'Document Control', 'Manufacturing SME']
 translationId: 'eqms-for-manufacturing-sme-pillar'
@@ -21,6 +23,8 @@ secondaryKeywords:
   - "eQMS SME"
   - "quản lý chất lượng số hóa"
 assessmentHref: '/readiness/digitalization-level'
+ctaPrimaryText: 'Đánh giá mức độ số hóa'
+ctaSubtitle: 'Xác định mức độ số hóa hiện tại và bước tiếp theo hợp lý'
 draft: false
 ---
 
@@ -40,6 +44,8 @@ Doanh nghiệp bạn có chứng nhận ISO 9001. Mỗi năm có một kỳ đá
 
 Đến ngày audit, hồ sơ đầy đủ. Hệ thống "đạt".
 
+![Bốn điểm gãy của QMS giấy: tính hiện hành của tài liệu, truy vết, tính liên kết giữa các hồ sơ, và khả năng nhìn tổng thể — mỗi điểm hiển thị dưới dạng một thẻ trong lưới hai cột.](~/assets/images/insights/aeqm-manufacturing-sme/aeqm-01-break-points-vi.svg)
+
 Bây giờ thử một câu hỏi khác, không phải của đánh giá viên mà của chính CEO: *"Ngay lúc này, bản SOP nào đang có hiệu lực tại xưởng đóng gói? Ai được đào tạo theo bản đó? Sự cố tuần trước đã dẫn đến thay đổi gì trong quy trình?"*
 
 Nếu câu trả lời cần một cuộc họp và vài file Excel để ghép lại, vấn đề có thể không nằm ở ISO. Nó nằm ở cách hệ thống chất lượng được vận hành.
@@ -53,6 +59,8 @@ Bài này là hướng dẫn thực hành cho những người đang ở vị tr
 **eQMS (electronic Quality Management System)** là hệ thống quản lý chất lượng được vận hành trên nền tảng số: các hoạt động chất lượng như kiểm soát tài liệu, xử lý sự không phù hợp, hành động khắc phục, đánh giá nội bộ, đào tạo và đánh giá nhà cung cấp được thực hiện, phê duyệt và lưu vết ngay trong hệ thống, thay vì rải rác trên giấy, Word, Excel và email.
 
 Định nghĩa này hàm ý ba điều thường bị hiểu sai.
+
+![eQMS là gì và không phải là gì: thẻ trái nêu "không phải DMS, không phải số hóa hồ sơ giấy, không tự tạo chất lượng"; thẻ phải nêu "tài liệu cộng với workflow, cách làm việc thay đổi, cho phép quy trình tốt để lại bằng chứng".](~/assets/images/insights/aeqm-manufacturing-sme/aeqm-03-not-is-vi.svg)
 
 **eQMS không phải DMS.** Hệ thống quản lý tài liệu (DMS) giải quyết bài toán "tìm đúng tài liệu, đúng phiên bản". eQMS bao trùm rộng hơn: tài liệu chỉ là một phần, bên cạnh những hoạt động có người thực hiện, có hạn xử lý và có kết quả cần kiểm chứng. (Nếu bạn muốn hiểu rõ ranh giới giữa các lớp này, xem thêm [Từ DMS đến eQMS đến Knowledge OS](/insights/business-operations/lo-trinh-dms-eqms-knowledge-os).)
 
@@ -85,6 +93,8 @@ Về khía cạnh tuân thủ: các ghi chú về ISO 9001 trong bài này dựa
 ## Các thành phần cốt lõi của eQMS
 
 Nhìn từ góc vận hành, một eQMS cho doanh nghiệp sản xuất thường gồm sáu nhóm chức năng. Không cần triển khai tất cả cùng lúc — phần sau sẽ nói về thứ tự.
+
+![Sáu thành phần eQMS và các điều khoản ISO 9001:2015 liên quan xếp trong lưới ba cột hai hàng: document control (7.5), sự không phù hợp và CAPA (10.2), đánh giá nội bộ (9.2), đào tạo và năng lực (7.2), rủi ro và nhà cung cấp (6.1 & 8.4), và xem xét của lãnh đạo (9.3).](~/assets/images/insights/aeqm-manufacturing-sme/aeqm-02-six-components-vi.svg)
 
 | Thành phần | Câu hỏi vận hành chính | Điều khoản ISO 9001:2015 liên quan |
 |---|---|---|
@@ -191,6 +201,8 @@ Vấn đề thường gặp là buổi họp trở thành buổi trình bày h�
 
 **5. Kiểm tra yêu cầu riêng của ngành và khách hàng.** ISO 9001 không bắt buộc phần mềm, nhưng các tiêu chuẩn và quy định khác (GMP, HACCP, yêu cầu của khách hàng hay cơ quan quản lý) có thể có quy định riêng về hồ sơ điện tử, chữ ký và truy vết. Hãy kiểm tra các yêu cầu này trước khi chọn hệ thống, không phải sau.
 
+![Năm nguyên tắc triển khai eQMS cho SME được đánh số từ 1 đến 5: bắt đầu từ nỗi đau, làm rõ quy trình trước, triển khai theo thứ tự, chọn kích cỡ hệ thống phù hợp, kiểm tra yêu cầu ngành và khách hàng.](~/assets/images/insights/aeqm-manufacturing-sme/aeqm-04-sme-principles-vi.svg)
+
 *Ví dụ minh họa (tình huống tổng hợp, không phải case khách hàng thật):* một nhà máy chế biến thực phẩm quy mô vài trăm nhân sự, đã đạt ISO 9001 nhiều năm. Hồ sơ nằm ở ba nơi: thư mục chung, Excel của phòng chất lượng và bản giấy tại xưởng. Điểm đau lớn nhất không phải toàn bộ hệ thống, mà là hai thứ: bản SOP hiện hành tại xưởng và hồ sơ đào tạo gắn với từng phiên bản. Một lộ trình hợp lý ở đây bắt đầu từ document control và đào tạo, chưa phải toàn bộ eQMS.
 
 ---
@@ -198,6 +210,8 @@ Vấn đề thường gặp là buổi họp trở thành buổi trình bày h�
 ## Bạn đang ở đâu? Tự kiểm tra trong 5 phút
 
 Nếu doanh nghiệp của bạn có **5 trong 8 dấu hiệu** dưới đây, vấn đề có thể không nằm ở việc thiếu hồ sơ, mà ở cách hệ thống chất lượng được vận hành.
+
+![Tám dấu hiệu tự kiểm tra xếp thành một hàng, với ngưỡng năm được làm nổi bật: minh họa cho thời điểm nên xem xét chuyển sang eQMS.](~/assets/images/insights/aeqm-manufacturing-sme/aeqm-05-self-check-vi.svg)
 
 1. Chuẩn bị cho một kỳ audit mất hơn một tuần làm việc của nhiều người.
 2. Không thể trả lời trong vài phút: "bản SOP nào đang hiện hành tại vị trí X?"

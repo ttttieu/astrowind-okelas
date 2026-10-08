@@ -2,7 +2,9 @@
 title: "eQMS for Manufacturing SMEs: A Practical Guide from ISO 9001 to Digital Operations"
 description: "eQMS is more than replacing paper records with software. This practical guide covers how to organize a digital quality management system suited to manufacturing SMEs — from document control to audit, CAPA and organizational knowledge."
 publishDate: 2026-10-04T00:00:00Z
-image: '~/assets/images/insights/eqms-cho-doanh-nghiep-san-xuat.png'
+coverImage: '~/assets/images/insights/aeqm-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/aeqm-00-og-cover-en.png'
+coverImageAlt: "eQMS for manufacturing SMEs: from ISO 9001 to digital operations — six ISO 9001 clause boxes in a row."
 category: 'compliance'
 tags: ['eQMS', 'ISO 9001', 'Quality Management System', 'Document Control', 'Manufacturing SME']
 translationId: 'eqms-for-manufacturing-sme-pillar'
@@ -21,6 +23,8 @@ secondaryKeywords:
   - "digital QMS"
   - "quality management system software"
 assessmentHref: '/en/readiness/digitalization-level'
+ctaPrimaryText: 'Assess your digitalization level'
+ctaSubtitle: 'Identify your current digitalization level and what the next step should be'
 draft: false
 ---
 
@@ -40,6 +44,8 @@ Your plant is ISO 9001 certified. Surveillance audits come around, the internal 
 
 On audit day, the records are complete. The system passes.
 
+![Four breaking points in paper QMS: document currency, traceability, connection between records, and visibility — each shown as a card in a two-column grid.](~/assets/images/insights/aeqm-manufacturing-sme/aeqm-01-break-points-en.svg)
+
 Now ask a question that isn't the auditor's but the CEO's: *"Right now, which version of the packaging procedure is in use on the floor? Who was trained on that version? What changed in our process after last week's incident?"*
 
 If answering requires a meeting and three spreadsheets, the problem may not be ISO compliance. It may be how the quality system is operated day to day.
@@ -53,6 +59,8 @@ This guide is for people in that position: certified or preparing to be, wanting
 An **eQMS (electronic quality management system)** is a quality system run on a digital platform. Activities such as document control, nonconformance handling, corrective action, internal audit, training and supplier evaluation are carried out, approved and recorded inside the system, rather than scattered across paper, Word, Excel and email.
 
 Three clarifications follow from that definition, because each is commonly misunderstood.
+
+![What eQMS is and is not: left card shows "not a DMS, not digitized paper, not self-creating quality"; right card shows "documents plus workflows, working methods change, enables good processes to leave evidence."](~/assets/images/insights/aeqm-manufacturing-sme/aeqm-03-not-is-en.svg)
 
 **An eQMS is not a document management system (DMS).** A DMS answers "can people find the right document, in the right version?" An eQMS covers more ground: documents are one part, alongside activities that have owners, deadlines and outcomes that need to be verified. (For the boundary between these layers, see [From DMS to eQMS to Knowledge OS](/en/insights/business-operations/dms-eqms-knowledge-os-roadmap).)
 
@@ -85,6 +93,8 @@ A note on compliance: the ISO 9001 references in this article are to **ISO 9001:
 ## Core eQMS components
 
 From an operational standpoint, an eQMS for a manufacturer typically covers six functional groups. They don't all need to go live at once; sequencing is discussed later.
+
+![Six eQMS components and related ISO 9001:2015 clauses arranged in a three-column two-row grid: document control (7.5), nonconformance and CAPA (10.2), internal audit (9.2), training and competence (7.2), risk and suppliers (6.1 & 8.4), and management review (9.3).](~/assets/images/insights/aeqm-manufacturing-sme/aeqm-02-six-components-en.svg)
 
 | Component | Main operational question | Related ISO 9001:2015 clause |
 |---|---|---|
@@ -191,6 +201,8 @@ This is the part many companies skip: not *what an eQMS contains* but *how to in
 
 **5. Check sector and customer requirements.** ISO 9001 doesn't mandate software, but other standards and regulations (GMP, HACCP, customer or regulator requirements) may have specific rules on electronic records, signatures and traceability. Check these before selecting a system, not after.
 
+![Five numbered implementation principles for SME eQMS: start from pain, clarify process first, roll out in sequence, choose system size matched to company, check sector and customer requirements.](~/assets/images/insights/aeqm-manufacturing-sme/aeqm-04-sme-principles-en.svg)
+
 *Illustrative example (a composite scenario, not a real customer case):* a food processing plant with a few hundred employees has held ISO 9001 certification for years. Records live in three places: a shared drive, the quality team's spreadsheets and paper at the production floor. The biggest pain is not the whole system but two things: which SOP revision is current on the floor, and training records tied to each revision. A sensible path here starts with document control and training, not a full eQMS.
 
 ---
@@ -198,6 +210,8 @@ This is the part many companies skip: not *what an eQMS contains* but *how to in
 ## Where do you stand? A five-minute self-check
 
 If your organization shows **5 of the 8 signs** below, the problem may not be missing records. It may be how the quality system is run.
+
+![Eight self-check indicators arranged in a row, with the threshold of five highlighted: visual representation of when to consider moving to eQMS.](~/assets/images/insights/aeqm-manufacturing-sme/aeqm-05-self-check-en.svg)
 
 1. Preparing for an audit takes more than a working week across several people.
 2. You can't answer in minutes: "which SOP revision is current at location X?"
