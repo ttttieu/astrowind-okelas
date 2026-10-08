@@ -18,6 +18,12 @@ secondaryKeywords:
   - "controlling ERP requirements"
   - "ERP budget overrun"
   - "ERP project management |"
+assessmentHref: /en/readiness/erp
+ctaPrimaryText: 'Assess your ERP readiness'
+ctaSubtitle: 'Identify your ERP readiness level'
+coverImage: '~/assets/images/insights/erpc-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/erpc-00-og-cover-en.png'
+coverImageAlt: "An original scope block followed by small blocks stacking up, each taller than the last, showing project scope growing one request at a time."
 draft: false
 ---
 
@@ -31,6 +37,8 @@ draft: false
 ---
 
 ## What ERP Scope Creep Actually Looks Like
+
+![Four typical requests that each sound reasonable: add a module to phase one, adjust one process, bring a department into phase one and a report needed from day one; together, no one controls the size of the project.](~/assets/images/insights/erpc-01-four-reasonable-requests-en.svg)
 
 Scope creep — a project management term — refers to the gradual expansion of project scope beyond its original definition, without deliberate decisions and without corresponding assessments of impact on time, cost, and resources.
 
@@ -46,6 +54,8 @@ Each request, viewed individually, has a legitimate justification. Collectively,
 ---
 
 ## Why Scope Creep Is So Common in ERP Implementations
+
+![Four reasons scope creep is common in ERP: ERP touches the whole organization, requirements surface during implementation, small changes are underestimated and governance is absent, the root cause.](~/assets/images/insights/erpc-02-four-causes-en.svg)
 
 Several characteristics of ERP projects make them particularly susceptible to scope creep.
 
@@ -77,6 +87,8 @@ When that decision is not structured, it defaults toward inclusion — because d
 
 ## Early Warning Signs
 
+![Five early warning signs of scope creep: a requirements list that grows after kick-off, no formal process, go-live pushed back repeatedly, overridden partner warnings and contingency used up early.](~/assets/images/insights/erpc-03-five-warning-signs-en.svg)
+
 These signals typically appear in the first months of the project:
 
 **The requirements list keeps growing after kick-off.** If the list of requirements two months into the project is longer than it was at the start — that is a clear signal.
@@ -93,6 +105,8 @@ These signals typically appear in the first months of the project:
 
 ## Scope Creep in Manufacturing Implementations — Specific Sources
 
+![Three sources of scope creep in manufacturing: production processes that differ from ERP standard, traceability and quality record requirements, and integration with existing systems.](~/assets/images/insights/erpc-04-manufacturing-sources-en.svg)
+
 For manufacturing SMEs, there are particular sources of scope creep worth watching for:
 
 **Production processes that differ from ERP standard.** When actual production workflows deviate from what ERP supports out of the box, the organization faces a choice: adapt processes to fit ERP, or customize ERP to fit existing processes. The second option consistently leads to rapid scope expansion.
@@ -104,6 +118,8 @@ For manufacturing SMEs, there are particular sources of scope creep worth watchi
 ---
 
 ## How to Define and Hold Scope Before the Project Begins
+
+![The change request process: describe the request, assess impact on time, cost and technical complexity, then a person with real authority decides to add it to phase one, defer it to phase two or decline it.](~/assets/images/insights/erpc-05-change-request-flow-en.svg)
 
 Controlling scope does not mean prohibiting all change. It means ensuring that every change is subject to a conscious decision with full awareness of the tradeoffs.
 

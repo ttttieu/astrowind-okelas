@@ -18,6 +18,12 @@ secondaryKeywords:
   - "ngân sách ERP vượt dự kiến"
   - "quản lý scope ERP"
   - "kiểm soát yêu cầu ERP |"
+assessmentHref: /readiness/erp
+ctaPrimaryText: 'Assess your ERP readiness'
+ctaSubtitle: 'Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn'
+coverImage: '~/assets/images/insights/erpc-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/erpc-00-og-cover-vi.png'
+coverImageAlt: "Một khối phạm vi ban đầu và các khối nhỏ cộng dồn thêm, mỗi khối cao hơn khối trước, thể hiện phạm vi dự án lớn dần qua từng yêu cầu."
 draft: false
 ---
 
@@ -44,6 +50,8 @@ draft: false
 
 ## Scope creep là gì trong ngữ cảnh ERP?
 
+![Bốn yêu cầu điển hình nghe đều hợp lý: thêm module vào giai đoạn một, chỉnh một quy trình, thêm bộ phận ngay giai đoạn đầu và một báo cáo cần có từ ngày đầu; cộng lại, không ai kiểm soát được quy mô dự án.](~/assets/images/insights/erpc-01-four-reasonable-requests-vi.svg)
+
 Scope creep — thuật ngữ trong quản lý dự án — là hiện tượng phạm vi dự án mở rộng ngoài kế hoạch ban đầu mà không có quyết định rõ ràng và không có đánh giá tác động tương ứng về thời gian, chi phí và nguồn lực.
 
 Trong ERP, scope creep thường không đến từ một quyết định lớn. Không ai ngồi xuống và nói: *"Hôm nay chúng ta sẽ mở rộng dự án thêm sáu tháng."* Nó đến từ tích lũy của nhiều quyết định nhỏ, mỗi quyết định đều có vẻ hợp lý khi xem xét riêng lẻ:
@@ -58,6 +66,8 @@ Từng yêu cầu, nhìn riêng lẻ, đều có lý do chính đáng. Cộng l�
 ---
 
 ## Tại sao scope creep phổ biến đến vậy trong ERP?
+
+![Bốn lý do scope creep phổ biến trong ERP: ERP liên quan toàn bộ tổ chức, yêu cầu xuất hiện trong lúc triển khai, tác động của thay đổi nhỏ bị đánh giá thấp và thiếu governance, là nguyên nhân gốc rễ.](~/assets/images/insights/erpc-02-four-causes-vi.svg)
 
 Có một số đặc điểm của dự án ERP khiến scope creep dễ xảy ra hơn so với nhiều loại dự án khác.
 
@@ -89,6 +99,8 @@ Khi quyết định đó không được cấu trúc, nó mặc định đi theo
 
 ## Dấu hiệu nhận biết scope creep sớm
 
+![Năm dấu hiệu nhận biết scope creep sớm: danh sách yêu cầu tăng sau kick-off, không có quy trình chính thức, go-live lùi nhiều lần, cảnh báo của nhà triển khai bị bỏ qua và ngân sách dự phòng cạn sớm.](~/assets/images/insights/erpc-03-five-warning-signs-vi.svg)
+
 Những dấu hiệu này thường xuất hiện trong vài tháng đầu của dự án:
 
 **Danh sách yêu cầu vẫn đang tăng sau khi kick-off.** Nếu danh sách requirements sau hai tháng dự án dài hơn danh sách lúc bắt đầu — đó là dấu hiệu rõ ràng.
@@ -105,6 +117,8 @@ Những dấu hiệu này thường xuất hiện trong vài tháng đầu của
 
 ## Scope creep trong doanh nghiệp sản xuất có đặc thù riêng
 
+![Ba nguồn scope creep trong doanh nghiệp sản xuất: quy trình khác chuẩn ERP, yêu cầu truy xuất nguồn gốc và hồ sơ chất lượng, và tích hợp với hệ thống hiện có.](~/assets/images/insights/erpc-04-manufacturing-sources-vi.svg)
+
 Với manufacturing SME, có một số nguồn scope creep đặc thù cần chú ý:
 
 **Quy trình sản xuất phức tạp hơn standard.** Khi quy trình thực tế sản xuất khác với những gì ERP hỗ trợ mặc định, doanh nghiệp đứng trước lựa chọn: thay đổi quy trình để phù hợp với ERP, hoặc customization ERP để phù hợp với quy trình hiện tại. Lựa chọn thứ hai thường dẫn đến scope mở rộng nhanh chóng.
@@ -116,6 +130,8 @@ Với manufacturing SME, có một số nguồn scope creep đặc thù cần ch
 ---
 
 ## Cách định nghĩa và giữ scope trước khi bắt đầu
+
+![Quy trình xử lý yêu cầu thay đổi: mô tả yêu cầu, đánh giá tác động về thời gian, chi phí và kỹ thuật, rồi người có thẩm quyền quyết định đưa vào giai đoạn 1, để sang giai đoạn 2 hoặc từ chối.](~/assets/images/insights/erpc-05-change-request-flow-vi.svg)
 
 Kiểm soát scope không có nghĩa là không cho phép bất kỳ thay đổi nào. Có nghĩa là mọi thay đổi đều phải được đưa ra quyết định có ý thức, với hiểu biết rõ về đánh đổi.
 
