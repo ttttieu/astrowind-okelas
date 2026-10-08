@@ -19,6 +19,11 @@ secondaryKeywords:
   - "ERP không tạo ra kết quả"
   - "khai thác ERP sau triển khai"
   - "ERP adoption |"
+ctaPrimaryText: 'Assess your ERP readiness'
+ctaSubtitle: 'Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn'
+coverImage: '~/assets/images/insights/erpi-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/erpi-00-og-cover-vi.png'
+coverImageAlt: "Một nút go-live và một nút adoption nét đứt — hai điểm trên trục thời gian với khoảng cách được đánh dấu giữa chúng."
 draft: false
 ---
 
@@ -47,6 +52,8 @@ draft: false
 
 ## Implementation kết thúc khi nào?
 
+![Go-live là điểm hoàn thành của implementation — hệ thống hoạt động kỹ thuật — chứ không phải điểm kết thúc của hành trình; adoption là giai đoạn mới bắt đầu sau đó.](~/assets/images/insights/erpi-01-golive-is-not-adoption-vi.svg)
+
 Trong hầu hết dự án ERP, thời điểm "kết thúc" được xác định khá rõ ràng: ngày go-live, khi hệ thống chính thức đi vào vận hành và nhà triển khai bàn giao.
 
 Nhưng nếu hỏi thẳng: *"Sau ngày go-live, doanh nghiệp đã thực sự khai thác được ERP chưa?"* — câu trả lời thường phức tạp hơn nhiều.
@@ -58,6 +65,8 @@ Và sự nhầm lẫn giữa hai điểm này — coi go-live là kết thúc th
 ---
 
 ## Adoption thực sự trông như thế nào?
+
+![Năm dấu hiệu ERP adoption đã xảy ra thực sự: báo cáo ERP dùng để ra quyết định, quy trình chạy qua ERP không có hệ thống song song, dữ liệu đủ tin cậy cho lãnh đạo, người dùng tìm câu trả lời trong hệ thống trước, và kiến thức tổ chức được lưu trong hệ thống.](~/assets/images/insights/erpi-02-five-adoption-signs-vi.svg)
 
 Để hiểu khoảng cách, cần định nghĩa adoption không phải bằng tỷ lệ đăng nhập hay số lượng giao dịch được nhập — mà bằng những thay đổi thực sự trong cách doanh nghiệp vận hành và ra quyết định.
 
@@ -74,6 +83,8 @@ Theo định nghĩa này, phần lớn doanh nghiệp đạt được implementa
 ---
 
 ## Tình huống minh họa: Khoảng cách trông như thế nào trong thực tế
+
+![Tình huống minh họa sáu tháng sau go-live: module kho nhập ERP nhưng duy trì Excel riêng, module sản xuất tạo lệnh ERP nhưng kế hoạch thực tế vẫn theo kinh nghiệm, kế toán xuất dữ liệu ra Excel, CEO vẫn nhận báo cáo qua email.](~/assets/images/insights/erpi-03-illustrative-scenario-vi.svg)
 
 *Lưu ý: Tình huống dưới đây là tình huống minh họa tổng hợp, không phải case khách hàng cụ thể.*
 
@@ -95,6 +106,8 @@ Trong tình huống này, ERP đang hoạt động như một hệ thống lưu 
 
 ## Tại sao khoảng cách này tồn tại?
 
+![Năm nguyên nhân tạo ra khoảng cách implementation-adoption: dữ liệu không tin cậy ngay từ đầu, quy trình không phản ánh thực tế, không có lộ trình sau go-live, thiếu governance, và không khai thác được dữ liệu ERP.](~/assets/images/insights/erpi-04-five-gap-causes-vi.svg)
+
 Nhìn lại từ góc độ của tình huống trên, các nguyên nhân thường đan xen nhau:
 
 **Dữ liệu không đủ tin cậy ngay từ đầu.** Khi go-live với dữ liệu chưa được làm sạch kỹ, những sai lệch ban đầu tạo ra mất tin tưởng vào hệ thống — và người dùng quay về cách cũ để đảm bảo an toàn.
@@ -111,6 +124,8 @@ Nhìn lại từ góc độ của tình huống trên, các nguyên nhân thư�
 
 ## Những gì cần làm sau go-live để thu hẹp khoảng cách
 
+![Năm bước lộ trình sau go-live để thu hẹp khoảng cách: đánh giá trạng thái thực, xử lý data quality, xây dựng báo cáo hữu ích, thiết lập governance, và xây dựng ERP knowledge.](~/assets/images/insights/erpi-05-post-golive-roadmap-vi.svg)
+
 Closing the adoption gap không phải là một dự án mới — nó là giai đoạn tiếp theo của hành trình ERP, với mục tiêu và phương pháp khác với giai đoạn implementation.
 
 **Đánh giá lại trạng thái hiện tại.** Sáu đến mười hai tháng sau go-live là thời điểm thích hợp để đánh giá thẳng thắn: hệ thống đang được dùng ở đâu đúng cách, ở đâu có gap, và gap lớn nhất nằm ở đâu. Đánh giá này cần nhìn vào cả dữ liệu (chất lượng và tính đầy đủ) lẫn hành vi người dùng (ai đang dùng gì và như thế nào).
@@ -126,6 +141,8 @@ Closing the adoption gap không phải là một dự án mới — nó là giai
 ---
 
 ## Doanh nghiệp bạn có đang như thế này?
+
+![Bảy dấu hiệu doanh nghiệp đã triển khai nhưng chưa áp dụng ERP thật sự: giữ Excel ngầm, phải kiểm tra thủ công báo cáo, nhân viên mới học cách làm thật từ đồng nghiệp, module trống, phản xạ mở Excel khi sự cố, ERP bị bỏ lúc cao điểm, chưa đo được hiệu quả.](~/assets/images/insights/erpi-06-seven-signs-checklist-vi.svg)
 
 - Một số nhân viên vẫn giữ một file Excel "ngầm" mà họ tin tưởng hơn cả hệ thống ERP
 - Báo cáo xuất ra từ ERP luôn cần kiểm tra thủ công lại trước khi ai đó tin dùng số liệu
