@@ -2,7 +2,9 @@
 title: "Dữ liệu có nhưng AI không dùng được — vấn đề thực sự là gì?"
 description: "Nhiều doanh nghiệp có đủ dữ liệu nhưng AI vẫn không trả lời được câu hỏi vận hành. Vấn đề không phải là thiếu dữ liệu mà là thiếu context. Bài viết giải thích sự khác biệt."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/data-without-context-ai-problem.png'
+coverImage: '~/assets/images/insights/du-lieu-khong-co-context-ai/dwc-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/du-lieu-khong-co-context-ai/dwc-00-og-cover-vi.png'
+coverImageAlt: "Bên trái là dữ liệu thô (25°C, 48h, 500 kg); bên phải là dữ liệu có context, với vòng tròn ý nghĩa vận hành."
 category: 'ai'
 tags: ['Data Context', 'Organizational Context', 'AI Implementation', 'Data Strategy']
 translationId: 'data-without-context-ai'
@@ -18,6 +20,8 @@ secondaryKeywords:
   - 'AI cần gì từ dữ liệu'
   - 'organizational context AI'
 assessmentHref: '/readiness/ai'
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---
 
@@ -52,6 +56,8 @@ Nguyên nhân không phải lượng dữ liệu. Nguyên nhân là context.
 
 ## Data và context — hai thứ khác nhau về bản chất
 
+![Bên trái là dữ liệu thô: một con số nhiệt độ, một phiếu QC, một đơn hàng ERP; bên phải là context với các câu hỏi giải thích ý nghĩa vận hành của chúng.](~/assets/images/insights/du-lieu-khong-co-context-ai/dwc-01-data-vs-context-vi.svg)
+
 Để hiểu vấn đề, cần phân biệt rõ hai khái niệm mà nhiều người dùng thay thế cho nhau.
 
 **Data** là thông tin thô, chưa được gắn nghĩa bên ngoài chính nó.
@@ -75,6 +81,8 @@ Context biến data thành thông tin có thể sử dụng được trong vận
 ---
 
 ## Bốn chiều thiếu context trong dữ liệu doanh nghiệp
+
+![Bốn ô, mỗi ô một chiều thiếu context: cấu trúc không nhất quán, thiếu định nghĩa nghiệp vụ, thiếu quan hệ giữa các thực thể, thiếu trạng thái và hiệu lực; mỗi ô có ví dụ và hệ quả với AI.](~/assets/images/insights/du-lieu-khong-co-context-ai/dwc-02-four-dimensions-vi.svg)
 
 Dữ liệu doanh nghiệp điển hình thiếu context theo bốn chiều chính. Hiểu từng chiều giúp xác định gap cụ thể và ưu tiên xử lý.
 
@@ -103,6 +111,8 @@ Không có định nghĩa nghiệp vụ, AI có thể đọc con số nhưng kh�
 
 ### Chiều 3 — Thiếu quan hệ giữa các thực thể
 
+![Chuỗi năm ô từ lô nguyên liệu đến khách hàng, nối bằng các mối nối; mối nối chưa được ghi nhận thì chuỗi bị đứt.](~/assets/images/insights/du-lieu-khong-co-context-ai/dwc-03-traceability-chain-vi.svg)
+
 Dữ liệu doanh nghiệp thường sống trong các silo. Đơn hàng trong ERP không biết đến kết quả kiểm tra chất lượng trong Excel. File SOP không biết đến lô hàng nào đã được sản xuất theo nó. Email không liên kết với quyết định trong hệ thống khác.
 
 Hệ quả: AI có thể trả lời câu hỏi trong từng silo — nhưng không thể trả lời câu hỏi bắc cầu giữa các silo.
@@ -126,6 +136,8 @@ Nếu AI không biết trạng thái hiện tại, nó có thể trả lời d�
 
 ## Context AI cần thực sự là gì
 
+![Năm thành phần context xếp quanh trục "Context": cấu trúc nhất quán, định nghĩa nghiệp vụ, quan hệ được ghi nhận, trạng thái truy vấn được, quyền hạn và người sở hữu.](~/assets/images/insights/du-lieu-khong-co-context-ai/dwc-04-five-components-ring-vi.svg)
+
 Từ bốn chiều thiếu context trên, có thể phác thảo những gì "organizational context cho AI" thực sự bao gồm:
 
 **Cấu trúc nhất quán:** cùng một loại thông tin được ghi nhận theo cùng một schema, có thể so sánh và tổng hợp qua thời gian.
@@ -143,6 +155,8 @@ Từ bốn chiều thiếu context trên, có thể phác thảo những gì "or
 ---
 
 ## Lý do "dọn dẹp dữ liệu" không giải quyết được vấn đề
+
+![Hai cột: dọn dẹp làm được sửa lỗi, loại trùng lặp, chuẩn hóa định dạng; vẫn còn thiếu ngưỡng đánh giá, liên kết để truy vết và phiên bản đang hiệu lực.](~/assets/images/insights/du-lieu-khong-co-context-ai/dwc-05-cleaning-vs-context-vi.svg)
 
 Một phản ứng phổ biến khi doanh nghiệp nhận ra dữ liệu của mình không đáp ứng được AI là: *"Chúng ta cần data cleaning."*
 
