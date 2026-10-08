@@ -106,7 +106,7 @@ Twenty articles in this series moved from an initial observation — AI has move
 
 **Related articles:**
 - [Frontier AI Safety, Enterprise AI Control: Different Questions, Same Need](/en/insights/ai/frontier-ai-safety-enterprise-ai-control)
-- [KVM: The Layer Between AI Agents and Organizational Knowledge](/en/insights/ai/kvm-knowledge-vault-manager)
+- [KVM: The Layer Between AI Agents and Organizational Knowledge](/en/insights/ai/what-is-kvm)
 - [How Far Should AI Be Allowed to Go? The Enterprise Case for an AI Control Layer](/en/insights/ai/enterprise-ai-control-layer)
 
 **→ [Contact OKELAS](/en/contact)**

@@ -108,7 +108,7 @@ AI reasoning and organizational truth serve two different purposes, and confusin
 *This article is part of the OKELAS AI Control series.*
 
 **Related articles:**
-- [KVM: The Layer Between AI Agents and Organizational Knowledge](/en/insights/ai/kvm-knowledge-vault-manager)
+- [KVM: The Layer Between AI Agents and Organizational Knowledge](/en/insights/ai/what-is-kvm)
 - [Every AI Agent Needs an Authority Profile: Designing Accountability Into AI](/en/insights/ai/ai-agent-authority-profile)
 - [How Far Should AI Be Allowed to Go? The Enterprise Case for an AI Control Layer](/en/insights/ai/enterprise-ai-control-layer)
 

@@ -114,7 +114,7 @@ The twelve previous articles in this series built up each principle: distinguish
 
 **Related articles:**
 - [Least Privilege for AI Agents: Designing Authority That Matches the Task](/en/insights/ai/least-privilege-ai-agent)
-- [KVM: The Layer Between AI Agents and Organizational Knowledge](/en/insights/ai/kvm-knowledge-vault-manager)
+- [KVM: The Layer Between AI Agents and Organizational Knowledge](/en/insights/ai/what-is-kvm)
 - [How Far Should AI Be Allowed to Go? The Enterprise Case for an AI Control Layer](/en/insights/ai/enterprise-ai-control-layer)
 
 **→ [AI Readiness Assessment](/en/readiness/ai)**

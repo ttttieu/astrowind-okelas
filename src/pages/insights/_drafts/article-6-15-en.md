@@ -24,7 +24,7 @@ cta:
   primary: "Contact OKELAS"
 relatedInternalLinks:
   - "enterprise-ai-control-layer" # Pillar 6, parent
-  - "kvm-knowledge-vault-manager" # article 6.14, previous
+  - "what-is-kvm" # article 6.14, previous
   - "agent-permission-profile" # article 6.16 (proposed), next
   - "evidence-based-ai" # article 2.7, cross-cluster
   - "audit-preparation" # article 3.9, cross-cluster
