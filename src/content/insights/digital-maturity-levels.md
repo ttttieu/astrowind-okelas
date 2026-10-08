@@ -1,4 +1,4 @@
-﻿---
+---
 title: "The 5 Stages of Business Digitalization: Where Are You?"
 description: "Digitalization isn't binary — it's a multi-stage journey. This article helps executives identify where their business currently sits and what the next meaningful step is."
 publishDate: 2025-09-24T00:00:00Z
@@ -18,6 +18,8 @@ secondaryKeywords:
   - "digital maturity assessment"
   - "stages of digitalization"
 assessmentHref: '/en/readiness/digitalization'
+ctaPrimaryText: 'Digital Transformation Maturity Assessment'
+ctaSubtitle: 'Understand your digitalization maturity and the next step that makes economic sense'
 draft: false
 ---
 

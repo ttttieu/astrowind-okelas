@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Nhiều phần mềm không có nghĩa là doanh nghiệp đã số hóa"
 description: "Nhiều doanh nghiệp đã đầu tư hàng chục phần mềm nhưng vẫn chưa thực sự số hóa. Vấn đề không phải là thiếu công cụ — mà là thiếu sự liên kết và strategy."
 publishDate: 2025-09-24T00:00:00Z
@@ -18,6 +18,8 @@ secondaryKeywords:
   - "doanh nghiệp mua nhiều phần mềm"
   - "integration phần mềm"
 assessmentHref: '/readiness/digitalization'
+ctaPrimaryText: 'Digital Transformation Maturity Assessment'
+ctaSubtitle: 'Hiểu rõ mức độ trưởng thành số hóa của bạn và bước tiếp theo có ý nghĩa'
 draft: false
 ---
 

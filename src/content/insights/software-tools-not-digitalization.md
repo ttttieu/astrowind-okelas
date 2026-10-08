@@ -1,4 +1,4 @@
-﻿---
+---
 title: "More Software Doesn't Mean More Digitalization"
 description: "Many businesses have invested in dozens of software tools and still don't feel digitalized. The issue isn't a lack of tools — it's a lack of connection and strategy."
 publishDate: 2025-09-24T00:00:00Z
@@ -18,6 +18,8 @@ secondaryKeywords:
   - "software silos"
   - "digital transformation software"
 assessmentHref: '/en/readiness/digitalization'
+ctaPrimaryText: 'Digital Transformation Maturity Assessment'
+ctaSubtitle: 'Understand your digitalization maturity and the next step that makes economic sense'
 draft: false
 ---
 

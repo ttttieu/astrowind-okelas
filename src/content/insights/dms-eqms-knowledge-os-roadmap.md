@@ -18,6 +18,8 @@ secondaryKeywords:
   - "knowledge operating system evolution"
   - "digital QMS roadmap"
 assessmentHref: '/en/readiness/digitalization'
+ctaPrimaryText: 'Digital Transformation Maturity Assessment'
+ctaSubtitle: 'Understand your digitalization maturity and the next step that makes economic sense'
 draft: false
 ---
 

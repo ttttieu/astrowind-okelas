@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Paperless không phải chuyển đổi số — và đây là sự khác biệt"
 description: "Văn phòng không giấy là bước đầu tiên — nhưng không phải chuyển đổi số. Bài viết phân tích tại sao paperless chưa đủ và những gì cần làm tiếp theo."
 publishDate: 2025-09-24T00:00:00Z
@@ -18,6 +18,8 @@ secondaryKeywords:
   - "số hóa tài liệu"
   - "digitalization là gì"
 assessmentHref: '/readiness/digitalization'
+ctaPrimaryText: 'Digital Transformation Maturity Assessment'
+ctaSubtitle: 'Hiểu rõ mức độ trưởng thành số hóa của bạn và bước tiếp theo có ý nghĩa'
 draft: false
 ---
 

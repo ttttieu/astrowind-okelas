@@ -19,6 +19,8 @@ secondaryKeywords:
   - "hệ thống QMS điện tử"
   - "eQMS SME"
 assessmentHref: '/readiness/digitalization'
+ctaPrimaryText: 'Digital Transformation Maturity Assessment'
+ctaSubtitle: 'Hiểu rõ mức độ trưởng thành số hóa của bạn và bước tiếp theo có ý nghĩa'
 draft: false
 ---
 

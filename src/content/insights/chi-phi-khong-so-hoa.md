@@ -18,6 +18,8 @@ secondaryKeywords:
   - "tại sao cần số hóa"
   - "ROI số hóa"
 assessmentHref: '/readiness/digitalization'
+ctaPrimaryText: 'Digital Transformation Maturity Assessment'
+ctaSubtitle: 'Hiểu rõ mức độ trưởng thành số hóa của bạn và bước tiếp theo có ý nghĩa'
 draft: false
 ---
 

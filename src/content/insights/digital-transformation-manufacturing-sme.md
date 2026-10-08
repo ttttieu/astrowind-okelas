@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Digital Transformation for Manufacturing SMEs: What It Really Means"
 description: "Digital transformation is not about buying software or scanning documents. This article reframes what digitalization actually means for manufacturing SMEs — and what a practical roadmap looks like."
 publishDate: 2025-09-24T00:00:00Z
@@ -20,6 +20,8 @@ secondaryKeywords:
   - "manufacturing SME digital strategy"
   - "digital transformation roadmap"
 assessmentHref: '/en/readiness/digitalization'
+ctaPrimaryText: 'Digital Transformation Maturity Assessment'
+ctaSubtitle: 'Understand your digitalization maturity and the next step that makes economic sense'
 draft: false
 ---
 

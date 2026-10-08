@@ -18,6 +18,8 @@ secondaryKeywords:
   - "rủi ro dự án số hóa"
   - "bài học chuyển đổi số"
 assessmentHref: '/readiness/digitalization'
+ctaPrimaryText: 'Digital Transformation Maturity Assessment'
+ctaSubtitle: 'Hiểu rõ mức độ trưởng thành số hóa của bạn và bước tiếp theo có ý nghĩa'
 draft: false
 ---
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Doanh nghiệp của bạn đang ở giai đoạn số hóa nào?"
 description: "Số hóa không phải chỉ có hay không có — mà là một hành trình nhiều cấp độ. Bài viết giúp CEO tự xác định doanh nghiệp đang ở đâu và bước tiếp theo hợp lý là gì."
 publishDate: 2025-09-24T00:00:00Z
@@ -18,6 +18,8 @@ secondaryKeywords:
   - "đánh giá số hóa"
   - "doanh nghiệp đang ở đâu số hóa"
 assessmentHref: '/readiness/digitalization'
+ctaPrimaryText: 'Digital Transformation Maturity Assessment'
+ctaSubtitle: 'Hiểu rõ mức độ trưởng thành số hóa của bạn và bước tiếp theo có ý nghĩa'
 draft: false
 ---
 

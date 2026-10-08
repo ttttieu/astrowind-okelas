@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Paperless Is Not Digital Transformation: Here's the Distinction That Matters"
 description: "A paperless office is a first step — but it's not digital transformation. Here's why eliminating paper doesn't change how your business actually operates, and what needs to happen next."
 publishDate: 2025-09-24T00:00:00Z
@@ -18,6 +18,8 @@ secondaryKeywords:
   - "paperless manufacturing"
   - "digital operations"
 assessmentHref: '/en/readiness/digitalization'
+ctaPrimaryText: 'Digital Transformation Maturity Assessment'
+ctaSubtitle: 'Understand your digitalization maturity and the next step that makes economic sense'
 draft: false
 ---
 

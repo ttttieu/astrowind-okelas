@@ -18,6 +18,8 @@ secondaryKeywords:
   - "digital transformation lessons"
   - "phased vs big bang transformation"
 assessmentHref: '/en/readiness/digitalization'
+ctaPrimaryText: 'Digital Transformation Maturity Assessment'
+ctaSubtitle: 'Understand your digitalization maturity and the next step that makes economic sense'
 draft: false
 ---
 
