@@ -43,7 +43,7 @@ Họ hỏi vì kinh nghiệm cho thấy một nhà máy sản xuất thật sự
 
 Khả năng thứ hai phổ biến hơn người ta nghĩ, và nó cho thấy vì sao nonconformance thường bị hiểu sai. Nó không phải một báo cáo lỗi để nộp. Nó là **đầu vào dữ liệu** quan trọng nhất của hệ thống chất lượng.
 
-![Hai thẻ: trên cùng hiển thị hai quý không có NCR; dưới cùng hiển thị các vấn đề tương tự được xử lý ngoài hệ thống. Dưới là ghi chú: "Số 0 là dấu hiệu để hỏi, không phải dấu hiệu hiệu suất tốt."](~/assets/images/insights/anc-nonconformance/anc-01-zero-ncr-vi.png)
+![Hai thẻ: trên cùng hiển thị hai quý không có NCR; dưới cùng hiển thị các vấn đề tương tự được xử lý ngoài hệ thống. Dưới là ghi chú: "Số 0 là dấu hiệu để hỏi, không phải dấu hiệu hiệu suất tốt."](~/assets/images/insights/anc-nonconformance/anc-01-zero-ncr-vi.svg)
 
 ---
 
@@ -66,7 +66,7 @@ Các nhận định về tiêu chuẩn dưới đây dựa trên **ISO 9001:2015
 
 Hai điều khoản bổ sung cho nhau. 8.7 trả lời "xử lý cái đã sai như thế nào". 10.2 trả lời "làm sao để nó không sai nữa".
 
-![Hai thẻ điều khoản side by side: Điều khoản 8.7 (kiểm soát đầu ra, xử lý những gì đã xảy ra) và Điều khoản 10.2 (loại bỏ nguyên nhân, ngăn chặn tái diễn). Dưới: "Cùng nhau, chúng cover toàn bộ vòng lặp."](~/assets/images/insights/anc-nonconformance/anc-02-clauses-8-7-10-2-vi.png)
+![Hai thẻ điều khoản side by side: Điều khoản 8.7 (kiểm soát đầu ra, xử lý những gì đã xảy ra) và Điều khoản 10.2 (loại bỏ nguyên nhân, ngăn chặn tái diễn). Dưới: "Cùng nhau, chúng cover toàn bộ vòng lặp."](~/assets/images/insights/anc-nonconformance/anc-02-clauses-8-7-10-2-vi.svg)
 
 ---
 
@@ -74,7 +74,7 @@ Hai điều khoản bổ sung cho nhau. 8.7 trả lời "xử lý cái đã sai 
 
 Theo quan sát tại nhiều doanh nghiệp sản xuất, các vấn đề sau xuất hiện thường xuyên nhất. (Đây là quan sát chung, không phải số liệu đo lường.)
 
-![Sáu thẻ mô tả trong một cột: điền cho audit, văn hóa quy lỗi, mô tả mơ hồ, quyết định không được ghi, không phân loại, không ai nhìn toàn bộ.](~/assets/images/insights/anc-nonconformance/anc-03-six-patterns-vi.png)
+![Sáu thẻ mô tả trong một cột: điền cho audit, văn hóa quy lỗi, mô tả mơ hồ, quyết định không được ghi, không phân loại, không ai nhìn toàn bộ.](~/assets/images/insights/anc-nonconformance/anc-03-six-patterns-vi.svg)
 
 **1. NCR được điền cho audit, không cho vận hành.** Khi mục đích là có hồ sơ để trình, NCR được viết sau sự việc, đôi khi gom lại cuối tháng, với mô tả chung chung đủ để "có phiếu".
 
@@ -100,7 +100,7 @@ Từ ví dụ trên, giá trị lớn nhất của NCR không nằm ở từng p
 
 Một vài cách khai thác thực tế, không đòi hỏi công cụ phức tạp:
 
-![Hai hàng chip phân loại: hàng Tác động có ba mục (Khách hàng, An toàn, Quy định); hàng Nguồn có năm mục (Nguyên liệu, Quá trình, Thiết bị, Con người, Tài liệu).](~/assets/images/insights/anc-nonconformance/anc-04-classify-vi.png)
+![Hai hàng chip phân loại: hàng Tác động có ba mục (Khách hàng, An toàn, Quy định); hàng Nguồn có năm mục (Nguyên liệu, Quá trình, Thiết bị, Con người, Tài liệu).](~/assets/images/insights/anc-nonconformance/anc-04-classify-vi.svg)
 
 **Nhìn xu hướng, không chỉ số lượng.** Điều đáng hỏi không phải "tháng này bao nhiêu NCR" mà là "loại lỗi nào, ở đâu, từ nguồn nào, đang tăng hay giảm". Tiêu chuẩn cũng yêu cầu tổ chức phân tích và đánh giá dữ liệu từ giám sát và đo lường để đánh giá, trong đó có sự phù hợp của sản phẩm và kết quả của nhà cung cấp (điều khoản 9.1.3).
 
@@ -118,7 +118,7 @@ Một thực hành hữu ích dù không phải yêu cầu bắt buộc của ti
 
 Không phải NCR nào cũng cần một vòng CAPA đầy đủ. Tiêu chuẩn yêu cầu **đánh giá nhu cầu** hành động để loại bỏ nguyên nhân, và hành động phải tương xứng với tác động. Nghĩa là có một quyết định cần được đưa ra, và tốt nhất là có tiêu chí rõ.
 
-![Bốn thẻ câu hỏi trong một hàng: Đã lặp lại hoặc có xu hướng? Tác động nghiêm trọng? Nguyên nhân mang tính hệ thống? Có thể xảy ra ở nơi khác? Dưới: "Ghi lại lý do khi bạn quyết định KHÔNG mở CAPA."](~/assets/images/insights/anc-nonconformance/anc-05-ncr-to-capa-vi.png)
+![Bốn thẻ câu hỏi trong một hàng: Đã lặp lại hoặc có xu hướng? Tác động nghiêm trọng? Nguyên nhân mang tính hệ thống? Có thể xảy ra ở nơi khác? Dưới: "Ghi lại lý do khi bạn quyết định KHÔNG mở CAPA."](~/assets/images/insights/anc-nonconformance/anc-05-ncr-to-capa-vi.svg)
 
 Một số câu hỏi thường dùng để quyết định:
 

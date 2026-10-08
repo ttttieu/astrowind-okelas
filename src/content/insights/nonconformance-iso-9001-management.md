@@ -43,7 +43,7 @@ They ask because experience shows a real manufacturing operation, with real peop
 
 The second is more common than people think, and it shows why nonconformance is so often misunderstood. It isn't an error report to be filed. It's the quality system's most important **data input**.
 
-![Two cards: top shows two quarters with no NCRs; bottom shows the same problems being handled off-system. Below is a note: "A zero count is a sign to ask questions, not a sign of good performance."](~/assets/images/insights/anc-nonconformance/anc-01-zero-ncr-en.png)
+![Two cards: top shows two quarters with no NCRs; bottom shows the same problems being handled off-system. Below is a note: "A zero count is a sign to ask questions, not a sign of good performance."](~/assets/images/insights/anc-nonconformance/anc-01-zero-ncr-en.svg)
 
 ---
 
@@ -66,7 +66,7 @@ The statements about the standard below are based on **ISO 9001:2015**, summariz
 
 The two clauses complement each other. 8.7 answers "how do we handle what went wrong." 10.2 answers "how do we stop it going wrong again."
 
-![Two clause cards side by side: Clause 8.7 (control outputs, handle what happened) and Clause 10.2 (eliminate causes, prevent recurrence). Below: "Together they cover the full loop."](~/assets/images/insights/anc-nonconformance/anc-02-clauses-8-7-10-2-en.png)
+![Two clause cards side by side: Clause 8.7 (control outputs, handle what happened) and Clause 10.2 (eliminate causes, prevent recurrence). Below: "Together they cover the full loop."](~/assets/images/insights/anc-nonconformance/anc-02-clauses-8-7-10-2-en.svg)
 
 ---
 
@@ -74,7 +74,7 @@ The two clauses complement each other. 8.7 answers "how do we handle what went w
 
 From what's seen across many manufacturing operations, these problems show up most often. (A general observation, not measured figures.)
 
-![Six pattern cards in a column: filled for audit, blame culture, vague description, unrecorded decisions, no differentiation, nobody looks at the whole.](~/assets/images/insights/anc-nonconformance/anc-03-six-patterns-en.png)
+![Six pattern cards in a column: filled for audit, blame culture, vague description, unrecorded decisions, no differentiation, nobody looks at the whole.](~/assets/images/insights/anc-nonconformance/anc-03-six-patterns-en.svg)
 
 **1. NCRs are filled in for the audit, not for operations.** When the goal is having records to show, NCRs get written after the fact, sometimes batched at month-end, with generic descriptions just good enough to "have a record."
 
@@ -98,7 +98,7 @@ Worth stressing the second point. To an experienced auditor, **a very low NCR co
 
 From that example, the greatest value of an NCR isn't in any one record but in **aggregated data over time.**
 
-![Two rows of classification chips: Impact row has three items (Customer, Safety, Regulatory); Source row has five items (Material, Process, Equipment, People, Documents).](~/assets/images/insights/anc-nonconformance/anc-04-classify-en.png)
+![Two rows of classification chips: Impact row has three items (Customer, Safety, Regulatory); Source row has five items (Material, Process, Equipment, People, Documents).](~/assets/images/insights/anc-nonconformance/anc-04-classify-en.svg)
 
 A few practical ways to use it, none needing complex tools:
 
@@ -118,7 +118,7 @@ A useful practice, though not a mandatory requirement of the standard: record ne
 
 Not every NCR needs a full CAPA loop. The standard asks you to **evaluate the need** for action to eliminate the cause, and for action to be appropriate to the effects. So a decision has to be made, and it's best made against clear criteria.
 
-![Four question cards in a row: Has it recurred or show a trend? Is impact serious? Is the cause systemic? Could it be elsewhere? Below: "Record your reasoning when you decide NOT to open CAPA."](~/assets/images/insights/anc-nonconformance/anc-05-ncr-to-capa-en.png)
+![Four question cards in a row: Has it recurred or show a trend? Is impact serious? Is the cause systemic? Could it be elsewhere? Below: "Record your reasoning when you decide NOT to open CAPA."](~/assets/images/insights/anc-nonconformance/anc-05-ncr-to-capa-en.svg)
 
 Questions commonly used to decide:
 
