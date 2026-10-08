@@ -19,6 +19,12 @@ secondaryKeywords:
   - "BI từ ERP"
   - "ERP và AI"
   - "dữ liệu ERP ra quyết định"
+assessmentHref: /readiness/erp
+ctaPrimaryText: 'Assess your ERP readiness'
+ctaSubtitle: 'Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn'
+coverImage: '~/assets/images/insights/erpt-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/erpt-00-og-cover-vi.png'
+coverImageAlt: "Bốn bậc thang tăng dần thể hiện bốn cấp độ khai thác dữ liệu ERP, từ ghi nhận giao dịch đến dự báo và hỗ trợ quyết định."
 draft: false
 ---
 
@@ -35,6 +41,8 @@ draft: false
 
 ## ERP đang tạo ra dữ liệu gì?
 
+![Năm nhóm sự kiện ERP ghi nhận mỗi ngày: mua hàng, kho và sản xuất, lệnh sản xuất, bán hàng và kế toán.](~/assets/images/insights/erpt-01-five-event-groups-vi.svg)
+
 Mỗi ngày, trong một doanh nghiệp có ERP đang hoạt động, hệ thống ghi nhận hàng trăm đến hàng ngàn sự kiện:
 
 - Mỗi đơn mua hàng được tạo, phê duyệt, nhận hàng và thanh toán.
@@ -50,6 +58,8 @@ Nhưng trước tiên, cần trả lời một câu hỏi thực tế: *tại sa
 ---
 
 ## Tại sao dữ liệu ERP chưa được khai thác
+
+![Ba lý do dữ liệu ERP chưa được khai thác: dữ liệu chưa đủ chất lượng, câu hỏi chưa được định nghĩa rõ và thiếu bối cảnh để diễn giải.](~/assets/images/insights/erpt-02-three-reasons-unused-vi.svg)
 
 Có ba nhóm nguyên nhân chính:
 
@@ -81,6 +91,8 @@ Trả lời những câu hỏi này đòi hỏi dữ liệu ERP cộng với *co
 
 ## Bốn cấp độ khai thác dữ liệu ERP
 
+![Bốn cấp độ khai thác dữ liệu ERP: ghi nhận giao dịch, báo cáo vận hành, phân tích và insight, dự báo và hỗ trợ quyết định; phần lớn SME ở cấp 1 hoặc 2.](~/assets/images/insights/erpt-03-four-utilization-levels-vi.svg)
+
 Một cách để hiểu mình đang ở đâu và có thể đi đến đâu:
 
 ### Cấp độ 1 — Ghi nhận giao dịch
@@ -111,6 +123,8 @@ Dữ liệu lịch sử được dùng để dự báo nhu cầu, tối ưu tồ
 
 ## Những gì thực sự cần để tiến lên cấp độ cao hơn
 
+![Bốn điều kiện để lên cấp độ cao hơn: dữ liệu sạch và nhất quán, câu hỏi kinh doanh rõ ràng, bối cảnh để diễn giải và hiểu cấu trúc dữ liệu ERP.](~/assets/images/insights/erpt-04-four-requirements-vi.svg)
+
 Không phải chỉ cần thêm công cụ BI hay dashboard. Tiến lên cấp độ khai thác dữ liệu cao hơn đòi hỏi:
 
 **Dữ liệu đủ sạch và nhất quán.** Đây là điều kiện không thể bỏ qua. Không có công cụ phân tích nào có thể tạo ra insight đáng tin từ dữ liệu không đủ chất lượng. Đầu tư vào data governance trước khi đầu tư vào BI.
@@ -124,6 +138,8 @@ Không phải chỉ cần thêm công cụ BI hay dashboard. Tiến lên cấp �
 ---
 
 ## Từ ERP data đến organizational intelligence
+
+![Dữ liệu ERP cộng bối cảnh cộng kiến thức tổ chức tạo ra trí tuệ tổ chức: hiểu điều đang xảy ra, lý giải nguyên nhân và quyết định dựa trên bằng chứng.](~/assets/images/insights/erpt-05-data-to-intelligence-vi.svg)
 
 Khi dữ liệu ERP được khai thác đúng cách, nó không chỉ là nguồn báo cáo — nó trở thành một phần của trí tuệ tổ chức.
 

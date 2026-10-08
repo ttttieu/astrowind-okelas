@@ -19,6 +19,12 @@ secondaryKeywords:
   - "ERP data for decision making"
   - "ERP AI integration"
   - "ERP knowledge management"
+assessmentHref: /en/readiness/erp
+ctaPrimaryText: 'Assess your ERP readiness'
+ctaSubtitle: 'Identify your ERP readiness level'
+coverImage: '~/assets/images/insights/erpt-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/erpt-00-og-cover-en.png'
+coverImageAlt: "Four ascending steps showing four levels of ERP data utilization, from transaction recording to forecasting and decision support."
 draft: false
 ---
 
@@ -35,6 +41,8 @@ draft: false
 
 ## What Data Is Your ERP Already Generating?
 
+![Five groups of events ERP records every day: purchasing, inventory, production orders, sales and accounting.](~/assets/images/insights/erpt-01-five-event-groups-en.svg)
+
 Every day, in an organization with a functioning ERP, the system records hundreds to thousands of events:
 
 - Every purchase order created, approved, received, and paid.
@@ -50,6 +58,8 @@ But first, a practical question needs answering: *why do most organizations not 
 ---
 
 ## Why ERP Data Goes Unused
+
+![Three reasons ERP data goes unused: insufficient data quality, undefined questions and missing context for interpretation.](~/assets/images/insights/erpt-02-three-reasons-unused-en.svg)
 
 Three categories of causes are most common:
 
@@ -81,6 +91,8 @@ Answering these questions requires ERP data combined with *context* — knowledg
 
 ## Four Levels of ERP Data Utilization
 
+![Four levels of ERP data utilization: transaction recording, operational reporting, analysis and insight, forecasting and decision support; most SMEs sit at level 1 or 2.](~/assets/images/insights/erpt-03-four-utilization-levels-en.svg)
+
 A practical framework for understanding where an organization is and where it could go:
 
 ### Level 1 — Transaction recording
@@ -111,6 +123,8 @@ Historical data is used to forecast demand, optimize inventory, and detect anoma
 
 ## What Is Actually Needed to Move Higher
 
+![Four requirements to move higher: clean and consistent data, clearly defined business questions, context for interpretation and ERP knowledge.](~/assets/images/insights/erpt-04-four-requirements-en.svg)
+
 It is not simply a matter of adding BI tools or dashboards. Moving to a higher level of ERP data utilization requires:
 
 **Data that is clean and consistent.** This is a non-negotiable prerequisite. No analytical tool can generate trustworthy insight from poor-quality data. Invest in data governance before investing in BI.
@@ -124,6 +138,8 @@ It is not simply a matter of adding BI tools or dashboards. Moving to a higher l
 ---
 
 ## From ERP Data to Organizational Intelligence
+
+![ERP data plus context plus organizational knowledge produces organizational intelligence: understanding what is happening, explaining why and deciding on evidence.](~/assets/images/insights/erpt-05-data-to-intelligence-en.svg)
 
 When ERP data is used correctly, it is not just a source of reports — it becomes a component of organizational intelligence.
 
