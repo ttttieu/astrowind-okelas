@@ -2,7 +2,10 @@
 title: "Management Review in ISO 9001: Why These Meetings Often Waste Time and How to Fix That"
 description: "ISO 9001 management reviews often become periodic record-presenting sessions with no real decisions. This article examines what clause 9.3 actually intends and how to run a review that generates real output."
 publishDate: 2026-10-04T00:00:00Z
-image: '~/assets/images/insights/management-review-iso-9001.png'
+image: '~/assets/images/insights/amr-management-review/amr-00-og-cover-en.png'
+coverImage: '~/assets/images/insights/amr-management-review/amr-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/amr-management-review/amr-00-og-cover-en.png'
+coverImageAlt: "Two boxes joined by an arrow: a meeting to note on the left, a meeting to decide on the right."
 category: 'compliance'
 tags: ['Management Review', 'ISO 9001', 'Clause 9.3', 'Quality Management Review', 'eQMS']
 translationId: 'management-review-iso-9001-effective'
@@ -18,6 +21,8 @@ secondaryKeywords:
   - "quality management review"
   - "top management review QMS"
 assessmentHref: '/en/readiness/knowledge-management'
+ctaPrimaryText: 'Take the Knowledge Management Maturity Assessment'
+ctaSubtitle: 'Identify your maturity level and the first improvement to make'
 draft: false
 ---
 
@@ -41,11 +46,15 @@ The records show management review took place, at the right frequency. But one s
 
 If the answer is "nothing specific," the company has a ritual, not a management mechanism. This article is about that gap.
 
+![Two comparison cards: a 90-minute, 40-slide review on the left, a meeting to decide on the right; a takeaway bar below.](~/assets/images/insights/amr-management-review/amr-01-meeting-noted-vs-decide-en.svg)
+
 ---
 
 ## What clause 9.3 requires
 
 The statements below are based on **ISO 9001:2015, clause 9.3 (Management review)**, summarized in practical terms.
+
+![Three clause cards, 9.3.1, 9.3.2 and 9.3.3, in a row, with a note box below about frequency.](~/assets/images/insights/amr-management-review/amr-02-clause-9-3-en.svg)
 
 **General (9.3.1).** **Top management** reviews the organization's quality management system at planned intervals to ensure its continuing **suitability, adequacy, effectiveness** and **alignment with the strategic direction** of the organization.
 
@@ -62,6 +71,8 @@ The standard sets no specific frequency, only "planned intervals." The organizat
 ## Inputs and outputs: what they should really contain
 
 The two lists in clause 9.3 show how the meeting is meant to work.
+
+![Six input cards in a three-column grid, with a bar below giving the outputs under clause 9.3.3.](~/assets/images/insights/amr-management-review/amr-03-six-inputs-en.svg)
 
 **Inputs (9.3.2)** must be planned and include consideration of:
 
@@ -118,6 +129,8 @@ Across many manufacturing operations, these signs show up often. (A general obse
 
 Clause 9.3 doesn't prescribe the meeting format. Below are common ways to make a review produce real output, not mandatory requirements.
 
+![Four boxes joined by arrows: send pre-read, decision questions, trends, record decisions; below are a note box and a bar for the next review.](~/assets/images/insights/amr-management-review/amr-04-four-steps-en.svg)
+
 **Send a pre-read.** A short summary of a few pages with key trends, anomalies and the questions needing a decision. The meeting isn't for reading figures out; they've been read beforehand.
 
 **Prepare three to five decision questions.** For example: which objectives are being missed and why? Which failures keep recurring and what resource is needed? Which risks have changed? Which suppliers need a second look? Does the system need to change to fit where the business is heading?
@@ -141,6 +154,8 @@ A point for smaller companies: a review needn't be long or formal. A short, focu
 ## Management review in eQMS
 
 To be clear first: an eQMS won't make decisions for leadership, and it won't make leaders attend or pay attention. A prettier display of data doesn't replace the conversation about what needs deciding.
+
+![Two comparison columns: what an eQMS can do with three rows on the left, what it cannot with three rows on the right.](~/assets/images/insights/amr-management-review/amr-05-eqms-can-cannot-en.svg)
 
 What an eQMS changes is how much the inputs **depend on manual compilation**:
 

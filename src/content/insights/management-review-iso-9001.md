@@ -2,7 +2,10 @@
 title: "Management Review ISO 9001 — tại sao buổi họp này thường lãng phí và cách cải thiện"
 description: "Management review theo ISO 9001 thường thành buổi trình bày hồ sơ định kỳ, không có quyết định thực sự. Bài viết phân tích mục đích thực của clause 9.3 và cách tổ chức để tạo giá trị."
 publishDate: 2026-10-04T00:00:00Z
-image: '~/assets/images/insights/management-review-iso-9001.png'
+image: '~/assets/images/insights/amr-management-review/amr-00-og-cover-vi.png'
+coverImage: '~/assets/images/insights/amr-management-review/amr-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/amr-management-review/amr-00-og-cover-vi.png'
+coverImageAlt: "Hai hộp nối bằng mũi tên: họp để ghi nhận bên trái, họp để quyết định bên phải."
 category: 'compliance'
 tags: ['Management Review', 'Xem Xét Của Lãnh Đạo', 'ISO 9001', 'Clause 9.3', 'eQMS']
 translationId: 'management-review-iso-9001-effective'
@@ -18,6 +21,8 @@ secondaryKeywords:
   - "họp review chất lượng"
   - "clause 9.3 ISO 9001"
 assessmentHref: '/readiness/knowledge-management'
+ctaPrimaryText: 'Làm Knowledge Management Maturity Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 
@@ -41,11 +46,15 @@ Hồ sơ cho thấy xem xét của lãnh đạo đã diễn ra, đúng tần su�
 
 Nếu câu trả lời là "không có gì cụ thể", thì doanh nghiệp đang có một nghi thức, chưa phải một cơ chế quản trị. Bài này nói về khoảng cách đó.
 
+![Hai thẻ đối chiếu: họp 90 phút, 40 slide bên trái, họp để ra quyết định bên phải; bên dưới là một thanh kết luận.](~/assets/images/insights/amr-management-review/amr-01-meeting-noted-vs-decide-vi.svg)
+
 ---
 
 ## ISO 9001 điều khoản 9.3 yêu cầu gì
 
 Các nhận định dưới đây dựa trên **ISO 9001:2015, điều khoản 9.3 (Xem xét của lãnh đạo)**, tóm lược bằng ngôn ngữ thực hành.
+
+![Ba thẻ điều khoản 9.3.1, 9.3.2 và 9.3.3 xếp hàng ngang, bên dưới là một khung ghi chú về tần suất.](~/assets/images/insights/amr-management-review/amr-02-clause-9-3-vi.svg)
 
 **Yêu cầu chung (9.3.1).** **Lãnh đạo cao nhất** xem xét hệ thống quản lý chất lượng của tổ chức theo các khoảng thời gian định trước, nhằm bảo đảm hệ thống tiếp tục **phù hợp, đầy đủ, hiệu lực** và **thống nhất với định hướng chiến lược** của tổ chức.
 
@@ -62,6 +71,8 @@ Tiêu chuẩn không quy định tần suất cụ thể, chỉ yêu cầu "theo
 ## Đầu vào và đầu ra thực sự
 
 Hai danh sách trong điều 9.3 cho thấy buổi họp được thiết kế thế nào.
+
+![Sáu thẻ đầu vào xếp thành lưới ba cột, bên dưới là một thanh đầu ra theo điều khoản 9.3.3.](~/assets/images/insights/amr-management-review/amr-03-six-inputs-vi.svg)
 
 **Đầu vào (9.3.2)** phải được lên kế hoạch và bao gồm việc xem xét:
 
@@ -118,6 +129,8 @@ Theo quan sát tại nhiều doanh nghiệp sản xuất, các dấu hiệu sau 
 
 Điều khoản 9.3 không quy định hình thức cuộc họp. Dưới đây là cách làm phổ biến để buổi xem xét tạo ra đầu ra thực sự, không phải yêu cầu bắt buộc.
 
+![Bốn hộp nối bằng mũi tên: gửi tài liệu, câu hỏi quyết định, xu hướng, ghi quyết định; bên dưới là khung ghi chú và thanh mở kỳ sau.](~/assets/images/insights/amr-management-review/amr-04-four-steps-vi.svg)
+
 **Gửi tài liệu đọc trước.** Một bản tóm tắt vài trang với xu hướng chính, những điểm bất thường và các câu hỏi cần quyết định. Buổi họp không dùng để đọc số liệu; số liệu đã được đọc trước.
 
 **Chuẩn bị ba đến năm câu hỏi cần quyết định.** Ví dụ: mục tiêu nào đang không đạt và vì sao? Lỗi nào đang lặp lại và cần nguồn lực gì để xử lý? Rủi ro nào đã thay đổi? Nhà cung cấp nào cần xem lại? Hệ thống có cần thay đổi gì để phù hợp với hướng đi sắp tới?
@@ -141,6 +154,8 @@ Một điểm đáng lưu ý cho SME: buổi xem xét không cần dài hay tran
 ## Management review trong eQMS
 
 Cần nói rõ trước: eQMS không đưa ra quyết định thay lãnh đạo, và không làm cho lãnh đạo có mặt hay chú ý. Dữ liệu đẹp hơn trên màn hình không thay thế được cuộc đối thoại về điều cần quyết định.
+
+![Hai cột đối chiếu: eQMS có thể với ba dòng bên trái, eQMS không thể với ba dòng bên phải.](~/assets/images/insights/amr-management-review/amr-05-eqms-can-cannot-vi.svg)
 
 Điều eQMS thay đổi là mức độ đầu vào **phụ thuộc vào việc tổng hợp thủ công**:
 
