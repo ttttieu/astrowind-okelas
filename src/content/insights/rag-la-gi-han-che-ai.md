@@ -2,7 +2,9 @@
 title: "RAG Là Gì — Và Tại Sao Chatbot \"Biết Nhiều\" Vẫn Không Đủ"
 description: "RAG giúp chatbot tìm kiếm trong tài liệu của doanh nghiệp — nhưng không đủ để trả lời câu hỏi vận hành thực sự. Bài viết giải thích tại sao và cần gì thêm."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/rag-limitations-enterprise-ai.png'
+coverImage: '~/assets/images/insights/rag-la-gi-han-che-ai/rag-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/rag-la-gi-han-che-ai/rag-00-og-cover-vi.png'
+coverImageAlt: "Bên trái là ba tài liệu chatbot đọc được; bên phải là ba hệ thống dữ liệu vận hành (ERP, QMS, Excel) nằm ngoài kho tài liệu, ngăn cách bằng vạch đứt."
 category: 'ai'
 tags: ['RAG', 'Enterprise AI', 'Chatbots', 'Limitations']
 translationId: 'rag-limitations-enterprise-ai'
@@ -18,6 +20,8 @@ secondaryKeywords:
   - 'chatbot doanh nghiệp hạn chế'
   - 'AI không hiểu context'
 assessmentHref: '/readiness/ai'
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---
 
@@ -49,6 +53,8 @@ Không phải vì AI không đủ thông minh. Mà vì câu hỏi thứ hai khô
 ---
 
 ## RAG hoạt động như thế nào — giải thích không kỹ thuật
+
+![Ba bước của RAG: lập chỉ mục tài liệu, truy xuất đoạn liên quan, tổng hợp câu trả lời; mọi bước chỉ làm việc với kho tài liệu đã nạp.](~/assets/images/insights/rag-la-gi-han-che-ai/rag-01-three-steps-vi.svg)
 
 RAG là viết tắt của **Retrieval-Augmented Generation**. Đây là kiến trúc phổ biến nhất hiện nay để xây chatbot doanh nghiệp có thể trả lời câu hỏi dựa trên tài liệu nội bộ.
 
@@ -103,6 +109,8 @@ Hậu quả thực tế là một lớp câu hỏi quan trọng mà RAG không t
 
 ### Câu hỏi về trạng thái hiện tại
 
+![Dòng thời gian: tài liệu được lập chỉ mục ở phiên bản cũ, sau đó được sửa đổi; chatbot vẫn trả lời theo bản cũ trong khi thực tế đã khác.](~/assets/images/insights/rag-la-gi-han-che-ai/rag-03-snapshot-timeline-vi.svg)
+
 *"Ai đang chịu trách nhiệm phê duyệt thay đổi công thức tháng này?"*
 
 *"Phiên bản tài liệu nào đang có hiệu lực cho dây chuyền số 3?"*
@@ -127,9 +135,13 @@ Những câu hỏi này đòi hỏi không chỉ tài liệu mà còn cả lịc
 
 Đây là câu hỏi về traceability — một yêu cầu cốt lõi với doanh nghiệp sản xuất, thực phẩm, và bất kỳ ngành nào có compliance. Trả lời được câu hỏi này đòi hỏi dữ liệu có cấu trúc, workflow được ghi nhận, và khả năng truy xuất ngược từ kết quả đến nguồn gốc. RAG không được xây cho mục đích này.
 
+![Bốn loại câu hỏi RAG không trả lời được: dữ liệu vận hành cụ thể, trạng thái hiện tại, lịch sử quyết định và bằng chứng, truy xuất nguồn gốc. *Câu hỏi minh họa lấy từ bài viết (tình huống tổng hợp).](~/assets/images/insights/rag-la-gi-han-che-ai/rag-02-four-question-types-vi.svg)
+
 ---
 
 ## Câu hỏi vận hành cần gì hơn RAG
+
+![Sáu tầng xếp chồng: tầng nền là kho tài liệu RAG đã có; năm tầng trên là phần cần bổ sung gồm dữ liệu vận hành, phiên bản và trạng thái, tri thức gắn bối cảnh, workflow và evidence, governance.](~/assets/images/insights/rag-la-gi-han-che-ai/rag-04-five-layers-vi.svg)
 
 Không phải mọi câu hỏi vận hành đều đòi hỏi hơn RAG. Nhưng những câu hỏi quan trọng nhất — câu hỏi ảnh hưởng đến quyết định, compliance, và accountability — thường nằm ngoài phạm vi RAG có thể xử lý.
 

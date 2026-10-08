@@ -2,7 +2,9 @@
 title: "RAG: Why a Chatbot That Knows Your Documents Still Can't Answer Operational Questions"
 description: "RAG lets chatbots search your documents — but that's not enough to answer real operational questions. Here's what's missing and what a more complete solution requires."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/rag-limitations-enterprise-ai.png'
+coverImage: '~/assets/images/insights/rag-limitations-enterprise-ai/rag-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/rag-limitations-enterprise-ai/rag-00-og-cover-en.png'
+coverImageAlt: "On the left, three documents a chatbot can read; on the right, three operational data systems (ERP, QMS, Excel) outside the document repository, separated by a dashed line."
 category: 'ai'
 tags: ['RAG', 'Enterprise AI', 'Chatbots', 'Limitations']
 translationId: 'rag-limitations-enterprise-ai'
@@ -18,6 +20,8 @@ secondaryKeywords:
   - 'why chatbots fail operations'
   - 'enterprise chatbot problems'
 assessmentHref: '/en/readiness/ai'
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Identify your AI readiness level'
 draft: false
 ---
 
@@ -49,6 +53,8 @@ To understand why, it helps to know what RAG is and how it works.
 ---
 
 ## How RAG works — a non-technical explanation
+
+![The three RAG steps: index documents, retrieve relevant chunks, generate an answer; every step works only with the loaded document repository.](~/assets/images/insights/rag-limitations-enterprise-ai/rag-01-three-steps-en.svg)
 
 RAG stands for **Retrieval-Augmented Generation**. It is currently the most common architecture for building enterprise chatbots that can answer questions based on internal documents.
 
@@ -103,6 +109,8 @@ These are not questions about documents — they are questions about actual oper
 
 ### Questions about current state
 
+![Timeline: a document is indexed at version 1, then revised; the chatbot keeps answering from the old version while operations have moved on.](~/assets/images/insights/rag-limitations-enterprise-ai/rag-03-snapshot-timeline-en.svg)
+
 *"Who is currently responsible for approving formula changes this month?"*
 
 *"Which version of the specification document is in effect for production line 3 right now?"*
@@ -127,9 +135,13 @@ These questions require not just documents but a record of decisions: who approv
 
 These are traceability questions — a core requirement for manufacturing, food production, pharmaceutical, and any regulated industry. Answering them requires structured data, recorded workflow, and the ability to trace backwards from an outcome to its origin. RAG was not built for this.
 
+![Four question types RAG cannot answer: specific operational data, current state, decision history and evidence, traceability. *Illustrative questions from the article (composite scenarios).](~/assets/images/insights/rag-limitations-enterprise-ai/rag-02-four-question-types-en.svg)
+
 ---
 
 ## What operational AI actually requires
+
+![Six stacked layers: the base is the document repository RAG already has; the five layers above are what must be added: operational data, version and state, knowledge tied to context, workflow and evidence, governance.](~/assets/images/insights/rag-limitations-enterprise-ai/rag-04-five-layers-en.svg)
 
 Not every operational question exceeds what RAG can handle. But the most consequential ones — those affecting decisions, compliance, and accountability — typically sit outside what RAG architecture was designed for.
 
