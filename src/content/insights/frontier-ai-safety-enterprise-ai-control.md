@@ -2,6 +2,9 @@
 title: "Frontier AI Safety, Enterprise AI Control: Different Questions, Same Need"
 description: "The frontier AI question: how do we control increasingly capable AI? The enterprise AI question: how do we let AI do more without letting it do everything? Different questions, same need for control."
 publishDate: 2026-09-23T00:00:00Z
+coverImage: '~/assets/images/insights/frontier-ai-safety-enterprise-ai-control/afsc-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/frontier-ai-safety-enterprise-ai-control/afsc-00-og-cover-en.png'
+coverImageAlt: "Frontier safety and enterprise control: two questions; two stacked bands show model safety above and operational control below."
 translationId: article-6-19-frontier-vs-enterprise
 lang: en
 category: ai
@@ -18,6 +21,8 @@ secondaryKeywords:
   - "AI control enterprise"
   - "why enterprise needs AI control"
 assessmentHref: /en/readiness/ai
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Identify your AI readiness level'
 draft: false
 ---
 
@@ -41,6 +46,8 @@ The short answer is no — and understanding why leads directly to the reason en
 
 ## Two Different Questions
 
+![A side-by-side comparison of two questions: the developer's question on the left and the enterprise deployer's question on the right, illustrating their fundamentally different focuses.](~/assets/images/insights/frontier-ai-safety-enterprise-ai-control/afsc-01-two-questions-en.svg)
+
 **Claim:** "Model-level safety" (frontier safety) and "operational-level control" (enterprise control) are fundamentally different questions, corresponding to two different roles in an AI system's lifecycle.
 
 The NIST AI Risk Management Framework clearly distinguishes the different roles participating in an AI system's lifecycle, including two important ones for this article: the **AI developer** — the party designing and training the model — and the **AI deployer** — the party putting that model into use in a specific context. The framework emphasizes that risk-management responsibility doesn't stop at the developer — the deployer carries its own responsibility, tied to its own specific context of use.
@@ -52,6 +59,8 @@ The question an enterprise deployer — your business — asks is entirely diffe
 ---
 
 ## Why Enterprise Needs Its Own Control Layer
+
+![A three-step flow: model meets safety standards → enterprise grants permissions → causes serious harm; with a note that ASL-2 classification makes no commitment about how the model behaves once granted operational access.](~/assets/images/insights/frontier-ai-safety-enterprise-ai-control/afsc-02-model-access-harm-en.svg)
 
 **Claim:** A model meeting a developer's safety standards doesn't mean it's safe in a deployer's specific context of use — because the developer can't know in advance, and isn't responsible for, how a specific business will grant it authority.
 
@@ -75,9 +84,13 @@ The core concepts in frontier safety policy (article 6.18) map directly onto ent
 
 This mapping shows: businesses don't need to invent an entirely new governance system — the structure is already validated at the developer level; what remains is implementing the equivalent structure at the deployer level, fit to your own organization's scale and context.
 
+![A five-row mapping table showing frontier safety concepts on the left (developer responsibility) and their enterprise governance equivalents on the right (deployer responsibility).](~/assets/images/insights/frontier-ai-safety-enterprise-ai-control/afsc-03-mapping-table-en.svg)
+
 ---
 
 ## KVM as the Enterprise Control Layer
+
+![A diagram showing an AI agent flowing through a KVM box with three operations (Trace, FindEvidence, Resolve) before reaching organizational knowledge; with notes explaining what KVM does and does not do.](~/assets/images/insights/frontier-ai-safety-enterprise-ai-control/afsc-04-kvm-deployer-en.svg)
 
 Within this overall picture, KVM — as introduced in article 6.14 — plays the role of a specific mechanism within the deployer-level control layer. It doesn't intervene in how a model was trained or the developer's safety commitments — that's an entirely different scope of responsibility. Instead, KVM addresses one specific slice of the deployer's responsibility: ensuring that when an AI agent reasons using organizational data and relationships, it accesses that knowledge through defined operations (Trace, FindEvidence, Resolve) rather than freely accessing raw data.
 
@@ -86,6 +99,8 @@ This once again reinforces what was stated in earlier articles: KVM isn't the en
 ---
 
 ## Conclusion
+
+![Two stacked bands representing developer-level model safety at the top and deployer-level operational control at the bottom, connected by a note indicating that a model meeting safety standards still requires a control layer.](~/assets/images/insights/frontier-ai-safety-enterprise-ai-control/afsc-05-two-layers-en.svg)
 
 Frontier labs' safety policies and a business's need for control aren't the same problem seen from two angles — they're two different responsibilities, corresponding to two different roles in the AI lifecycle per NIST's classification: developer and deployer. A model safe by every developer standard still needs its own control layer at the deployer level — because the developer can't, and isn't responsible for, controlling how a specific business will grant it authority.
 
