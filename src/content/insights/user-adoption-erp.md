@@ -18,6 +18,12 @@ secondaryKeywords:
   - "thay đổi thói quen ERP"
   - "change management ERP"
   - "đào tạo ERP |"
+assessmentHref: /readiness/erp
+ctaPrimaryText: 'Assess your ERP readiness'
+ctaSubtitle: 'Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn'
+coverImage: '~/assets/images/insights/erpu-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/erpu-00-og-cover-vi.png'
+coverImageAlt: "Một vòng tròn công việc thực tế gửi nhiều luồng tới Excel, email và tin nhắn, chỉ một luồng mảnh đi vào khối ERP."
 draft: false
 ---
 
@@ -58,6 +64,8 @@ Và đây là dạng thất bại phổ biến hơn nhiều so với những gì
 
 ## Tại sao nhân viên kháng cự ERP?
 
+![Bốn lo ngại khiến nhân viên kháng cự ERP: phức tạp hơn và không thấy lợi ích cho bản thân, sợ làm sai, dữ liệu không đáng tin và không có thời gian học.](~/assets/images/insights/erpu-01-four-concerns-vi.svg)
+
 Trước khi nói đến giải pháp, cần hiểu đúng vấn đề.
 
 Kháng cự ERP thường bị gán nhãn là "thái độ tiêu cực" hoặc "không chịu thay đổi". Nhưng nếu nhìn kỹ hơn, phần lớn kháng cự xuất phát từ những lo ngại hoàn toàn hợp lý mà doanh nghiệp chưa giải quyết thỏa đáng.
@@ -88,6 +96,8 @@ Nhân viên trong môi trường sản xuất thường có áp lực vận hàn
 
 ## Ba dạng kháng cự phổ biến
 
+![Ba dạng kháng cự phổ biến: kháng cự thụ động, kháng cự ngầm là dạng khó phát hiện nhất và kháng cự công khai.](~/assets/images/insights/erpu-02-three-resistance-patterns-vi.svg)
+
 Kháng cự không phải lúc nào cũng biểu hiện rõ ràng. Có ba dạng thường gặp nhất:
 
 **Kháng cự thụ động.** Nhân viên dùng hệ thống đúng mức tối thiểu — nhập đủ để không bị phàn nàn, nhưng vẫn giữ nguyên các file Excel, sổ tay, và quy trình ngầm bên cạnh. Dữ liệu trong ERP tồn tại nhưng không đủ để tin cậy.
@@ -101,6 +111,8 @@ Cả ba dạng đều có cùng một hậu quả: ERP không phản ánh thực
 ---
 
 ## Những sai lầm phổ biến trong đào tạo ERP
+
+![Bốn sai lầm phổ biến khi đào tạo ERP: đào tạo quá muộn, đào tạo kiểu demo, không gắn với công việc thực tế và thiếu hỗ trợ sau đào tạo.](~/assets/images/insights/erpu-03-four-training-mistakes-vi.svg)
 
 Đào tạo ERP thường được coi là giải pháp cho vấn đề user adoption. Nhưng phần lớn cách đào tạo được thực hiện trong thực tế không giải quyết được vấn đề thực sự.
 
@@ -122,6 +134,8 @@ Kết quả là người dùng biết cách dùng phần mềm về mặt kỹ t
 
 ## Change management không phải đào tạo phần mềm
 
+![Đào tạo phần mềm trả lời câu hỏi làm thao tác này thế nào, còn change management trả lời vì sao tôi nên đổi và điều đó có ý nghĩa gì với tôi; câu hỏi thứ hai cần được trả lời trước.](~/assets/images/insights/erpu-04-training-vs-change-management-vi.svg)
+
 Đây là điểm phân biệt quan trọng nhất mà nhiều dự án ERP bỏ qua.
 
 **Đào tạo phần mềm** trả lời câu hỏi: *"Làm thế nào để thực hiện thao tác X trong hệ thống?"*
@@ -142,9 +156,13 @@ Một số yếu tố của change management thực sự hiệu quả:
 
 **Tạo điều kiện để thử nghiệm và mắc lỗi an toàn.** Môi trường sandbox hoặc giai đoạn parallel run — cho phép người dùng thực hành với dữ liệu thực trong hệ thống thực mà không lo ngại về hậu quả — giảm đáng kể lo ngại về việc mắc lỗi và tăng sự tự tin trước go-live.
 
+![Năm yếu tố change management hiệu quả: truyền thông sớm và rõ ràng, lợi ích theo góc nhìn người dùng, super user, lãnh đạo dùng hệ thống trước và môi trường thử an toàn.](~/assets/images/insights/erpu-05-five-change-elements-vi.svg)
+
 ---
 
 ## Tự đánh giá: doanh nghiệp bạn đã chuẩn bị cho change management chưa?
+
+![Sáu câu hỏi tự đánh giá mức sẵn sàng change management: thông tin dự án, lợi ích theo nhóm người dùng, đào tạo thực hành, super user, cam kết của lãnh đạo và kênh hỗ trợ sau go-live.](~/assets/images/insights/erpu-06-six-readiness-questions-vi.svg)
 
 - Nhân viên của bạn có biết dự án ERP đang ở đâu trong timeline và nó ảnh hưởng đến công việc họ như thế nào không?
 - Bạn có thể giải thích được lợi ích cụ thể của hệ thống mới theo góc độ của từng nhóm người dùng không?

@@ -18,6 +18,12 @@ secondaryKeywords:
   - "why employees resist ERP"
   - "ERP training strategy"
   - "ERP adoption challenges |"
+assessmentHref: /en/readiness/erp
+ctaPrimaryText: 'Assess your ERP readiness'
+ctaSubtitle: 'Identify your ERP readiness level'
+coverImage: '~/assets/images/insights/erpu-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/erpu-00-og-cover-en.png'
+coverImageAlt: "A circle of day-to-day work sends heavy flows to spreadsheets, email and messaging apps, with only a thin flow reaching the ERP block."
 draft: false
 ---
 
@@ -45,6 +51,8 @@ And it is far more common than ERP project retrospectives tend to acknowledge pu
 ---
 
 ## Why Employees Resist ERP
+
+![Four concerns behind employee resistance to ERP: more complicated with no personal benefit, fear of getting it wrong, data they cannot trust and no time to learn.](~/assets/images/insights/erpu-01-four-concerns-en.svg)
 
 Before addressing solutions, it is important to understand the problem accurately.
 
@@ -76,6 +84,8 @@ Employees in manufacturing environments typically operate under significant dail
 
 ## Three Common Patterns of Resistance
 
+![Three common patterns of resistance: passive resistance, quiet workarounds as the hardest to detect, and open resistance.](~/assets/images/insights/erpu-02-three-resistance-patterns-en.svg)
+
 Resistance does not always present itself clearly. There are three patterns most commonly encountered:
 
 **Passive resistance.** Employees use the system at the bare minimum — entering enough data to avoid complaints while maintaining parallel spreadsheets, notebooks, and informal processes alongside. ERP data exists but cannot be relied upon.
@@ -89,6 +99,8 @@ All three patterns have the same consequence: ERP does not reflect operational r
 ---
 
 ## Common ERP Training Mistakes
+
+![Four common ERP training mistakes: training too late, training as a demonstration, training disconnected from actual work and no support afterwards.](~/assets/images/insights/erpu-03-four-training-mistakes-en.svg)
 
 Training is typically treated as the solution to user adoption problems. But most training as actually implemented does not address the real problem.
 
@@ -110,6 +122,8 @@ The result is users who understand the software technically but do not know how 
 
 ## Change Management Is Not Software Training
 
+![Software training answers how do I perform this action, while change management answers why should I change how I work and what does it mean for me; the second question must be answered first.](~/assets/images/insights/erpu-04-training-vs-change-management-en.svg)
+
 This is the most important distinction that most ERP projects fail to make.
 
 **Software training** answers the question: *"How do I perform action X in the system?"*
@@ -130,9 +144,13 @@ Elements of change management that actually work:
 
 **Safe space for practice and mistakes.** A sandbox environment or parallel run period — allowing users to practice with real data in a real system without fear of consequences — substantially reduces anxiety about making mistakes and builds confidence before go-live.
 
+![Five change management elements that work: early and clear communication, benefits from the end user's view, super users, visible leadership use and a safe practice space.](~/assets/images/insights/erpu-05-five-change-elements-en.svg)
+
 ---
 
 ## Self-Assessment
+
+![Six self-assessment questions on change management readiness: project awareness, benefits per user group, hands-on practice, super users, leadership commitment and post-go-live support.](~/assets/images/insights/erpu-06-six-readiness-questions-en.svg)
 
 - Do your employees know where the ERP project stands in the timeline and how it will affect their specific jobs?
 - Can you articulate the concrete benefits of the new system from the perspective of each user group?
