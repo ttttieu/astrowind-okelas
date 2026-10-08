@@ -20,7 +20,7 @@ secondaryKeywords:
   - "traceability ISO 9001"
   - "bằng chứng chất lượng"
   - "evidence-based QMS"
-assessmentHref: '/lien-he'
+assessmentHref: '/contact'
 ctaPrimaryText: 'Liên hệ OKELAS'
 ctaSubtitle: 'Trao đổi về cách thiết kế evidence-by-design trong eQMS của bạn'
 draft: false
@@ -183,7 +183,7 @@ Các tham chiếu trong bài dựa trên ISO 9001:2015. Theo thông tin từ cá
 
 **Hệ thống chất lượng của bạn đang lưu tài liệu, hay đang tạo ra evidence có thể kiểm chứng?**
 
-→ [Liên hệ OKELAS](/lien-he) để trao đổi về cách tổ chức evidence trong eQMS phù hợp với mức trưởng thành và nhu cầu của doanh nghiệp sản xuất của bạn.
+→ [Liên hệ OKELAS](/contact) để trao đổi về cách tổ chức evidence trong eQMS phù hợp với mức trưởng thành và nhu cầu của doanh nghiệp sản xuất của bạn.
 
 **Đọc thêm:**
 

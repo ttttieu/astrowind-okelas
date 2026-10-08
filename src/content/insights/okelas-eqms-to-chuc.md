@@ -20,7 +20,7 @@ secondaryKeywords:
   - "hệ thống QMS có audit trail"
   - "eQMS OKELAS"
   - "quality management knowledge"
-assessmentHref: '/lien-he'
+assessmentHref: '/contact'
 ctaPrimaryText: 'Liên hệ OKELAS'
 ctaSubtitle: 'Trao đổi về cách tổ chức eQMS phù hợp với doanh nghiệp sản xuất của bạn'
 draft: false
@@ -180,7 +180,7 @@ Các tham chiếu trong bài dựa trên ISO 9001:2015. Theo thông tin từ cá
 
 **Hệ thống chất lượng của bạn đang ghi nhận tài liệu, hay đang ghi nhận những gì thực sự xảy ra?**
 
-→ [Liên hệ OKELAS](/lien-he) để trao đổi về cách tổ chức eQMS phù hợp với mức trưởng thành và nhu cầu của doanh nghiệp sản xuất của bạn.
+→ [Liên hệ OKELAS](/contact) để trao đổi về cách tổ chức eQMS phù hợp với mức trưởng thành và nhu cầu của doanh nghiệp sản xuất của bạn.
 
 **Đọc thêm:**
 
