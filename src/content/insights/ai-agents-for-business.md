@@ -2,7 +2,9 @@
 title: "AI Agents for Business: What They Are, What They Can Do, and What They Need"
 description: "AI agents are not chatbots and they don't replace employees. This article explains what an AI agent actually is, what it can do in operational workflows, and what conditions it needs to work."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/ai-agents-for-business.png'
+coverImage: '~/assets/images/insights/ai-agents-for-business/agt-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/ai-agents-for-business/agt-00-og-cover-en.png'
+coverImageAlt: "On the left, a chatbot as a question-and-answer block; on the right, an agent running a sequence of steps: goal, steps, check."
 category: 'ai'
 tags: ['AI Agents', 'Workflow Automation', 'Enterprise AI', 'Operational AI']
 translationId: 'ai-agents-for-business'
@@ -18,6 +20,8 @@ secondaryKeywords:
   - "AI workflow automation"
   - "AI agent vs chatbot"
 assessmentHref: '/en/readiness/ai'
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Identify your AI readiness level'
 draft: false
 ---
 
@@ -48,6 +52,8 @@ To understand AI agents correctly, a more precise definition is needed.
 
 ## How agents differ from chatbots
 
+![Two comparison cards: a chatbot answers questions and keeps no state; an agent receives a goal, plans, calls tools and adjusts to results.](~/assets/images/insights/ai-agents-for-business/agt-01-chatbot-vs-agent-en.svg)
+
 The core difference between a chatbot and an agent isn't intelligence — it's **how they engage with a task**.
 
 **A chatbot** operates on a question-and-answer model: receive an input, produce an output. Each interaction is a self-contained unit. A chatbot doesn't maintain state between queries, doesn't determine next steps on its own, and doesn't take action in any system other than displaying a response.
@@ -70,6 +76,8 @@ The outputs are fundamentally different: a chatbot answers using whatever it has
 
 ## What agents can do inside operational workflows
 
+![Five boxes in sequence from goal to report with evidence; a loop arrow returns from evaluating the result to querying when the result is not enough.](~/assets/images/insights/ai-agents-for-business/agt-02-agent-loop-en.svg)
+
 In the context of a manufacturing SME, an agent is not a fully autonomous system. It works most effectively when positioned as a **participant in a workflow** — a defined entity with a specific task, bounded permissions, and oversight built into the process it participates in.
 
 Practical applications with genuine operational value:
@@ -86,9 +94,13 @@ The agent monitors a list of recurring tasks — periodic equipment inspections,
 **Agent supporting approval workflows:**
 When a process change is submitted, the agent can verify whether the submission contains all required information, identify who needs to be notified based on the organizational structure, and list which related documents would need to be updated alongside the change. The agent doesn't approve — but it makes the approval process faster and more complete for the person with authority.
 
+![Four cards: audit preparation, incoming inspection, compliance tracking, approval workflows; the approval card states the agent does not approve.](~/assets/images/insights/ai-agents-for-business/agt-03-four-workflows-en.svg)
+
 ---
 
 ## What agents need to function in practice
+
+![Four numbered columns of conditions: defined processes, structured data, organizational context, governance.](~/assets/images/insights/ai-agents-for-business/agt-04-four-conditions-en.svg)
 
 This is the most important section — and the one most often absent from vendor conversations about AI agents.
 
@@ -129,6 +141,8 @@ Agents are more technically complex than chatbots, more expensive in compute, an
 ---
 
 ## A practical way to frame the question
+
+![Two columns: steps that suit an agent have clear logic and verifiable output; steps to keep with people need complex judgment or deep expertise.](~/assets/images/insights/ai-agents-for-business/agt-05-candidate-steps-en.svg)
 
 Rather than asking *"should we deploy AI agents?"* — a more productive starting point is:
 

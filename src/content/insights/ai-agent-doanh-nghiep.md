@@ -2,7 +2,9 @@
 title: "AI Agent trong doanh nghiệp — không phải chatbot, không phải con người"
 description: "AI agent không phải chatbot thông thường và cũng không thay thế con người. Bài viết giải thích AI agent là gì, làm được gì và điều kiện để triển khai trong vận hành thực tế."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/ai-agents-for-business.png'
+coverImage: '~/assets/images/insights/ai-agent-doanh-nghiep/agt-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/ai-agent-doanh-nghiep/agt-00-og-cover-vi.png'
+coverImageAlt: "Bên trái là chatbot hỏi-đáp; bên phải là agent thực hiện chuỗi bước: mục tiêu, bước, kiểm tra."
 category: 'ai'
 tags: ['AI Agent', 'Workflow Automation', 'Enterprise AI', 'Operational AI']
 translationId: 'ai-agents-for-business'
@@ -18,6 +20,8 @@ secondaryKeywords:
   - "agentic AI"
   - "AI tự động doanh nghiệp"
 assessmentHref: '/readiness/ai'
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---
 
@@ -48,6 +52,8 @@ Cả hai hiểu lầm này đều dẫn đến kỳ vọng sai lệch: một nh�
 
 ## AI agent khác chatbot ở điểm gì
 
+![Hai thẻ so sánh: chatbot hỏi-đáp, không giữ trạng thái; agent nhận mục tiêu, lập kế hoạch, gọi công cụ và điều chỉnh theo kết quả.](~/assets/images/insights/ai-agent-doanh-nghiep/agt-01-chatbot-vs-agent-vi.svg)
+
 Sự khác biệt cốt lõi giữa chatbot và agent không nằm ở độ thông minh — mà nằm ở **cách chúng tương tác với nhiệm vụ**.
 
 **Chatbot** hoạt động theo mô hình hỏi-đáp: nhận một input, tạo ra một output. Mỗi lần tương tác là một đơn vị độc lập. Chatbot không giữ trạng thái giữa các lần hỏi, không tự quyết định bước tiếp theo, và không tác động vào bất kỳ hệ thống nào ngoài việc hiển thị câu trả lời.
@@ -70,6 +76,8 @@ Kết quả là khác nhau về bản chất: chatbot trả lời câu hỏi b�
 
 ## Agent có thể làm gì trong workflow vận hành
 
+![Năm ô nối tiếp từ mục tiêu đến báo cáo kèm bằng chứng; mũi tên vòng từ đánh giá kết quả quay lại bước truy vấn khi chưa đủ.](~/assets/images/insights/ai-agent-doanh-nghiep/agt-02-agent-loop-vi.svg)
+
 Trong bối cảnh doanh nghiệp sản xuất SME, agent không phải là hệ thống tự chủ toàn diện. Nó hoạt động hiệu quả nhất khi được định nghĩa là **participant trong workflow** — một thực thể có nhiệm vụ cụ thể, có quyền hạn xác định, và hoạt động trong một quy trình có giám sát.
 
 Một số ứng dụng thực tế có giá trị trong sản xuất và vận hành:
@@ -86,9 +94,13 @@ Agent có thể được giao giám sát danh sách công việc định kỳ �
 **Agent hỗ trợ quy trình phê duyệt:**
 Khi một thay đổi quy trình được đề xuất, agent có thể kiểm tra xem đề xuất đó có đầy đủ thông tin bắt buộc không, ai cần được thông báo theo cấu trúc tổ chức, và tài liệu liên quan nào cần được cập nhật kèm theo. Agent không phê duyệt — nhưng làm cho quy trình phê duyệt của người có thẩm quyền trở nên nhanh và đầy đủ hơn.
 
+![Bốn thẻ: kiểm tra chuẩn bị audit, kiểm tra đầu vào, theo dõi compliance task, hỗ trợ phê duyệt; thẻ phê duyệt ghi rõ agent không tự phê duyệt.](~/assets/images/insights/ai-agent-doanh-nghiep/agt-03-four-workflows-vi.svg)
+
 ---
 
 ## Điều kiện để agent hoạt động được trong thực tế
+
+![Bốn cột điều kiện đánh số: quy trình được định nghĩa, dữ liệu có cấu trúc, bối cảnh tổ chức, governance.](~/assets/images/insights/ai-agent-doanh-nghiep/agt-04-four-conditions-vi.svg)
 
 Đây là phần quan trọng nhất — và thường bị bỏ qua khi các nhà cung cấp công nghệ giới thiệu về AI agent.
 
@@ -129,6 +141,8 @@ Agent phức tạp hơn chatbot về mặt kỹ thuật, đắt hơn về chi ph
 ---
 
 ## Một cách đặt câu hỏi thực tế
+
+![Hai cột: bước phù hợp với agent có logic rõ và đầu ra kiểm chứng được; bước giữ cho con người cần phán đoán phức tạp hoặc chuyên môn sâu.](~/assets/images/insights/ai-agent-doanh-nghiep/agt-05-candidate-steps-vi.svg)
 
 Thay vì hỏi *"chúng ta có nên triển khai AI agent không?"* — câu hỏi có ích hơn là:
 
