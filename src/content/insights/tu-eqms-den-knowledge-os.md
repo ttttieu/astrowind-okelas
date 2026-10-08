@@ -2,7 +2,10 @@
 title: "Từ eQMS đến Knowledge OS — bước tiến tự nhiên tiếp theo sau hệ thống chất lượng"
 description: "eQMS giải quyết bài toán compliance và hồ sơ. Nhưng knowledge tổ chức — quy trình, tri thức chất lượng, evidence — cần được khai thác thêm. Đây là bước tiếp theo sau eQMS."
 publishDate: 2026-10-04T00:00:00Z
-image: '~/assets/images/insights/tu-eqms-den-knowledge-os.png'
+image: '~/assets/images/insights/akos-knowledge-os/akos-00-og-cover-vi.png'
+coverImage: '~/assets/images/insights/akos-knowledge-os/akos-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/akos-knowledge-os/akos-00-og-cover-vi.png'
+coverImageAlt: "Hai hộp nối bằng mũi tên: hồ sơ sự cố cũ bên trái, trí nhớ người lâu năm bên phải."
 category: 'compliance'
 tags: ['eQMS', 'Knowledge OS', 'Knowledge Management', 'AI Readiness', 'OKELAS']
 translationId: 'eqms-to-knowledge-os'
@@ -18,6 +21,8 @@ secondaryKeywords:
   - "quality knowledge management"
   - "eQMS bước tiếp theo"
 assessmentHref: '/readiness/ai-readiness'
+ctaPrimaryText: 'Làm AI Readiness Assessment'
+ctaSubtitle: 'Đánh giá sẵn sàng của tổ chức cho các hoạt động hỗ trợ AI'
 draft: false
 ---
 
@@ -38,6 +43,8 @@ Một nhà máy đã vận hành eQMS vài năm. Kiểm soát tài liệu ổn �
 Rồi một kỹ sư chất lượng mới hỏi: *"Vì sao chúng ta kiểm tra thông số này hai lần ở hai công đoạn?"*
 
 Không ai trả lời ngay. Cuối cùng, một người làm lâu năm nhớ ra: có một sự cố nhiều năm trước, một sự không phù hợp lớn, một buổi họp xem xét nguyên nhân. Câu trả lời nằm trong một phiếu cũ và một biên bản. Hệ thống **có** dữ liệu. Nhưng không ai tìm được nếu không có người nhớ ra.
+
+![Hai thẻ đối chiếu: hồ sơ sự cố cũ bên trái, trí nhớ người lâu năm bên phải; bên dưới là một thanh kết luận.](~/assets/images/insights/akos-knowledge-os/akos-01-opening-question-vi.svg)
 
 Đây không phải thất bại của eQMS. Nó là giới hạn của những gì một eQMS được thiết kế để làm. Và nó cho thấy điều gì nằm ở bước tiếp theo.
 
@@ -63,6 +70,8 @@ Câu hỏi của bài này dành cho những ai đã tới đó và thấy vẫn
 
 Một eQMS ghi lại **điều đã xảy ra** rất tốt. Nó thường chưa chuyển điều đó thành **sự hiểu biết**. Có năm khoảng trống thường gặp.
 
+![Năm thẻ khoảng trống xếp dọc, bên dưới là một thanh nhận định về phần eQMS đã làm tốt.](~/assets/images/insights/akos-knowledge-os/akos-02-five-gaps-vi.svg)
+
 **1. Tri thức ngầm.** Kinh nghiệm xử lý tình huống của người làm lâu năm, những điều "đúng theo hướng dẫn nhưng vẫn cần điều chỉnh". Hồ sơ đào tạo không ghi được, SOP hiếm khi chứa, như đã nói ở bài [Training records và năng lực nhân viên](/insights/compliance/training-records-iso-9001).
 
 **2. Câu hỏi "vì sao".** Tài liệu ghi cái gì. Lý do một quy trình được thiết lập như vậy, và những gì đã được thử trước đó, thường nằm rải rác trong phiếu cũ, biên bản hoặc trí nhớ.
@@ -85,12 +94,16 @@ Tri thức tổ chức không đồng nghĩa với "nhiều tài liệu hơn". N
 
 **Tri thức ngầm → tri thức tường minh → tri thức tổ chức có cấu trúc → tri thức vận hành → tri thức dùng được cho AI.**
 
+![Chuỗi bảy bước: bốn bước đầu thuộc eQMS, ba bước sau thuộc hướng phát triển Knowledge OS; bên dưới là thanh ghi chú.](~/assets/images/insights/akos-knowledge-os/akos-03-knowledge-chain-vi.svg)
+
 Trong ngữ cảnh chất lượng, bốn loại câu hỏi minh họa điều mà tri thức có cấu trúc cho phép trả lời (xem thêm bài [Từ DMS đến Knowledge Management](/insights/knowledge-management/dms-va-knowledge-management)):
 
 - **Ngữ cảnh:** quy trình kiểm tra này áp dụng thế nào cho sản phẩm mới?
 - **Lịch sử và nguyên nhân:** vì sao bước này tồn tại, đã từng thử cách khác chưa?
 - **Quan hệ:** thay đổi thông số này ảnh hưởng đến gì?
 - **Bài học:** các sự việc cùng loại trong ba năm qua cho thấy điều gì về nguyên nhân hệ thống?
+
+![Bốn thẻ loại câu hỏi xếp hàng ngang, mỗi thẻ có một câu hỏi mẫu.](~/assets/images/insights/akos-knowledge-os/akos-04-question-types-vi.svg)
 
 Điều đáng nói là hệ thống chất lượng đã chứa nguyên liệu thô phong phú cho loại tri thức này: nguyên nhân gốc trong các phiếu hành động khắc phục, phát hiện đánh giá, lịch sử quyết định trong xem xét của lãnh đạo, kết quả đánh giá nhà cung cấp, thay đổi tài liệu và lý do. Khi các sự kiện này được ghi cùng bối cảnh và bằng chứng, như ở các bài trước, chúng là nền để xây tri thức. Phần còn thiếu là **kết nối chúng thành một mạng lưới có thể truy vấn**, thường được gọi bằng thuật ngữ knowledge graph, nhưng điều quan trọng là cách tổ chức, không phải thuật ngữ. Chủ đề này được phân tích rộng hơn trong bài trụ cột [Từ tri thức cá nhân đến tri thức tổ chức](/insights/knowledge-management/quan-ly-tri-thuc-doanh-nghiep-san-xuat).
 
@@ -142,6 +155,8 @@ Bài này mô tả **cách tiếp cận và định hướng**, không mô tả 
 ## Doanh nghiệp bạn đã sẵn sàng cho bước này chưa?
 
 Nếu doanh nghiệp bạn có **ba trong tám** dấu hiệu dưới đây, lớp tri thức có thể đáng được xem xét nghiêm túc:
+
+![Tám thẻ dấu hiệu xếp thành lưới hai cột, bên dưới là thanh ngưỡng ba dấu hiệu và dấu hiệu tiên quyết.](~/assets/images/insights/akos-knowledge-os/akos-05-readiness-signs-vi.svg)
 
 1. Bạn lo ngại về **tri thức mất đi** khi một vài người chủ chốt nghỉ hoặc nghỉ hưu.
 2. Những câu hỏi "vì sao chúng ta làm thế này" thường chỉ **một người** trả lời được.

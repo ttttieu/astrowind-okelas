@@ -2,7 +2,10 @@
 title: "From eQMS to Knowledge OS: The Natural Next Step After Digital Quality Management"
 description: "eQMS solves compliance and records management. But organizational quality knowledge — processes, decisions, evidence — can go further. Here's what comes after eQMS."
 publishDate: 2026-10-04T00:00:00Z
-image: '~/assets/images/insights/tu-eqms-den-knowledge-os.png'
+image: '~/assets/images/insights/akos-knowledge-os/akos-00-og-cover-en.png'
+coverImage: '~/assets/images/insights/akos-knowledge-os/akos-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/akos-knowledge-os/akos-00-og-cover-en.png'
+coverImageAlt: "Two boxes joined by an arrow: an old incident record on the left, a long-serving employee's memory on the right."
 category: 'compliance'
 tags: ['eQMS', 'Knowledge OS', 'Knowledge Management', 'AI Readiness', 'OKELAS']
 translationId: 'eqms-to-knowledge-os'
@@ -19,6 +22,8 @@ secondaryKeywords:
   - "organizational knowledge quality"
   - "quality management next step"
 assessmentHref: '/en/readiness/ai-readiness'
+ctaPrimaryText: 'Take the AI Readiness Assessment'
+ctaSubtitle: 'Assess readiness for AI-supported operations'
 draft: false
 ---
 
@@ -39,6 +44,8 @@ A plant has run an eQMS for a few years. Document control is steady. Nonconformi
 Then a new quality engineer asks: *"Why do we check this parameter twice, at two different steps?"*
 
 Nobody answers right away. Eventually a long-serving employee remembers: there was an incident years ago, a major nonconformity, a meeting to review its cause. The answer lies in an old record and a set of minutes. The system **does** hold the data. But nobody could find it without someone remembering.
+
+![Two comparison cards: an old incident record on the left, a long-serving employee's memory on the right; a takeaway bar below.](~/assets/images/insights/akos-knowledge-os/akos-01-opening-question-en.svg)
 
 This isn't a failure of the eQMS. It's a limit of what an eQMS is designed to do. And it points to what lies in the next step.
 
@@ -64,6 +71,8 @@ The question in this article is for those who've reached that point and see anot
 
 An eQMS records **what happened** very well. It usually doesn't turn that into **understanding**. Five gaps are common.
 
+![Five gap cards in a column, with a bar below noting what eQMS already does well.](~/assets/images/insights/akos-knowledge-os/akos-02-five-gaps-en.svg)
+
 **1. Tacit knowledge.** The experience of long-serving people in handling situations, the things that are "right per the instruction but still need adjusting." Training records can't capture it, and SOPs rarely contain it, as discussed in [Training Records vs. Employee Competence](/en/insights/compliance/iso-9001-training-records-competence).
 
 **2. The "why" question.** Documents record what. The reason a process was set up as it was, and what was tried before, usually sits scattered across old records, minutes or memory.
@@ -86,12 +95,16 @@ Organizational knowledge doesn't mean "more documents." It's a chain of conversi
 
 **Tacit knowledge → explicit knowledge → structured organizational knowledge → operational knowledge → AI-usable knowledge.**
 
+![A seven-step chain: the first four steps belong to eQMS, the last three to the Knowledge OS direction; a note bar below.](~/assets/images/insights/akos-knowledge-os/akos-03-knowledge-chain-en.svg)
+
 In a quality context, four kinds of questions illustrate what structured knowledge makes answerable (see also [From DMS to Knowledge Management](/en/insights/knowledge-management/dms-vs-knowledge-management)):
 
 - **Context:** how does this inspection procedure apply to a new product?
 - **History and cause:** why does this step exist, was another approach tried?
 - **Relationship:** what does changing this parameter affect?
 - **Lessons:** what do similar events over the past three years say about systemic causes?
+
+![Four question-type cards in a row, each with a sample question.](~/assets/images/insights/akos-knowledge-os/akos-04-question-types-en.svg)
 
 Worth noting: a quality system already holds rich raw material for this kind of knowledge: root causes in corrective action records, audit findings, decision history in management review, supplier evaluation results, document changes and their reasons. When these events are recorded with context and evidence, as in the earlier articles, they're the foundation for building knowledge. What's missing is **connecting them into a network that can be queried**, often called a knowledge graph, though what matters is the organization, not the term. This is analyzed more broadly in the pillar article [From Individual Knowledge to Organizational Knowledge](/en/insights/knowledge-management/knowledge-management-manufacturing).
 
@@ -143,6 +156,8 @@ This article describes an **approach and a direction**. It doesn't describe the 
 ## Is your company ready for this step?
 
 If your company shows **three of the eight** signs below, a knowledge layer may deserve serious consideration:
+
+![Eight sign cards in a two-column grid, with a threshold bar below and the prerequisite marked.](~/assets/images/insights/akos-knowledge-os/akos-05-readiness-signs-en.svg)
 
 1. You worry about **knowledge walking out** when a few key people leave or retire.
 2. Questions of "why do we do it this way" can usually be answered by **only one person**.
