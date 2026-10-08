@@ -18,6 +18,12 @@ secondaryKeywords:
   - "ERP nhà máy"
   - "phần mềm quản lý sản xuất ERP"
   - "ERP chế biến thực phẩm |"
+assessmentHref: /readiness/erp
+ctaPrimaryText: 'Assess your ERP readiness'
+ctaSubtitle: 'Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn'
+coverImage: '~/assets/images/insights/erpm-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/erpm-00-og-cover-vi.png'
+coverImageAlt: "Nguyên liệu đi vào khối ERP có các chip BOM, Routing, Lot và QC, rồi ra thành phẩm."
 draft: false
 ---
 
@@ -44,6 +50,8 @@ draft: false
 
 ## Tại sao ERP cho sản xuất khác với ERP thương mại?
 
+![ERP sản xuất khác ở phần giữa mua nguyên liệu và giao hàng: chuyển đổi vật liệu, theo dõi số lượng và chất lượng từng công đoạn, hao hụt, năng lực máy và nhân công, hồ sơ lot/batch.](~/assets/images/insights/erpm-01-middle-of-the-chain-vi.svg)
+
 Nhiều CEO và COO của doanh nghiệp sản xuất bắt đầu hành trình ERP bằng cách xem các giải pháp được thiết kế chủ yếu cho doanh nghiệp thương mại hoặc dịch vụ — mua/bán hàng, quản lý công nợ, kế toán. Những module này quan trọng và cần có trong ERP sản xuất, nhưng không phải là phần tạo ra sự khác biệt.
 
 Sự khác biệt nằm ở những thứ xảy ra *giữa* lúc mua nguyên liệu vào và lúc sản phẩm đến tay khách hàng: quá trình chuyển đổi vật liệu thành sản phẩm, theo dõi số lượng và chất lượng qua từng công đoạn, hao hụt và tỷ lệ thu hồi, năng lực máy móc và nhân công, lot và batch tracking.
@@ -53,6 +61,8 @@ Một hệ thống ERP không có hoặc không cấu hình đúng các module s
 ---
 
 ## Bill of Materials (BOM) — nền tảng của mọi thứ
+
+![Ba vấn đề phổ biến của BOM ở doanh nghiệp sản xuất SME: chưa được tài liệu hóa, không chính xác hoặc lỗi thời, và phức tạp do nhiều cấp.](~/assets/images/insights/erpm-02-three-bom-problems-vi.svg)
 
 BOM là danh sách tất cả nguyên vật liệu, bán thành phẩm và thành phần cần thiết để tạo ra một sản phẩm, cùng với số lượng tương ứng. Đây là tài liệu trung tâm của sản xuất trong ERP — không có BOM chính xác, mọi thứ liên quan đến kế hoạch sản xuất, tính giá thành, và quản lý kho nguyên vật liệu đều không thể vận hành đúng.
 
@@ -73,6 +83,8 @@ BOM là danh sách tất cả nguyên vật liệu, bán thành phẩm và thàn
 
 ## Routing và Production Order — quản lý quy trình sản xuất
 
+![BOM và routing kết hợp cho phép ERP tính chi phí sản xuất dự kiến, lập kế hoạch theo năng lực, tạo Production Order và theo dõi tiến độ từng công đoạn.](~/assets/images/insights/erpm-03-bom-routing-outputs-vi.svg)
+
 Routing mô tả chuỗi các công đoạn (operations) cần thực hiện để sản xuất một sản phẩm — thứ tự, thời gian, máy móc hoặc trung tâm làm việc (work center) được dùng, và nhân công cần thiết.
 
 Kết hợp BOM và Routing, ERP có thể:
@@ -90,6 +102,8 @@ Nhiều doanh nghiệp sản xuất nhỏ không có routing được định ng
 ---
 
 ## Traceability — yêu cầu đặc biệt quan trọng với thực phẩm và chế biến
+
+![Lot tracking ghi nhận số lot, ngày sản xuất, hạn sử dụng và nhà cung cấp; serial tracking theo dõi từng đơn vị bằng số serial riêng cho sản phẩm giá trị cao hoặc bảo hành theo đơn vị.](~/assets/images/insights/erpm-04-lot-vs-serial-vi.svg)
 
 Traceability là khả năng truy ngược nguồn gốc của một sản phẩm: nguyên liệu này đến từ nhà cung cấp nào, được nhập trong lô nào, đi qua công đoạn nào, được sản xuất trong ca nào, và đã đến tay khách hàng nào.
 
@@ -114,6 +128,8 @@ Nếu những điều kiện này chưa có, ERP sẽ có tính năng traceabili
 
 ## Quản lý chất lượng trong ERP sản xuất
 
+![Ba yêu cầu quản lý chất lượng trong ERP sản xuất: kiểm tra tại các điểm kiểm tra, ghi nhận sự cố và hành động khắc phục, và quản lý hạn sử dụng theo FEFO.](~/assets/images/insights/erpm-05-three-quality-needs-vi.svg)
+
 ERP cho sản xuất cần hỗ trợ:
 
 **Quality Control (QC) tại các điểm kiểm tra.** Ví dụ: kiểm tra nguyên liệu khi nhập kho, kiểm tra bán thành phẩm giữa công đoạn, kiểm tra thành phẩm trước xuất kho. ERP cần cho phép ghi nhận kết quả kiểm tra, quyết định chấp nhận hay từ chối, và xử lý hàng không đạt tiêu chuẩn.
@@ -125,6 +141,8 @@ ERP cho sản xuất cần hỗ trợ:
 ---
 
 ## Các đặc thù ngành cụ thể mà manufacturing SME cần cân nhắc
+
+![Bốn đặc thù ngành: thực phẩm và thủy sản, sản xuất theo đơn đặt hàng, sản xuất có mùa vụ và sản xuất trà.](~/assets/images/insights/erpm-06-four-industry-cases-vi.svg)
 
 Ngoài các yêu cầu phổ biến, mỗi ngành sản xuất còn có những đặc thù riêng:
 
@@ -152,6 +170,8 @@ Ngoài các yêu cầu phổ biến, mỗi ngành sản xuất còn có những 
 ---
 
 ## Tự đánh giá manufacturing readiness
+
+![Bốn nhóm câu hỏi tự đánh giá manufacturing readiness, mỗi nhóm một câu hỏi đại diện: BOM và routing, traceability, chất lượng và đặc thù ngành.](~/assets/images/insights/erpm-07-readiness-self-check-vi.svg)
 
 Trước khi bắt đầu dự án ERP, doanh nghiệp sản xuất cần tự hỏi:
 

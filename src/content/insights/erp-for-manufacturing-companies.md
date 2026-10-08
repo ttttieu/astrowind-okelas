@@ -18,6 +18,12 @@ secondaryKeywords:
   - "ERP for food manufacturing"
   - "ERP production management"
   - "manufacturing SME ERP |"
+assessmentHref: /en/readiness/erp
+ctaPrimaryText: 'Assess your ERP readiness'
+ctaSubtitle: 'Identify your ERP readiness level'
+coverImage: '~/assets/images/insights/erpm-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/erpm-00-og-cover-en.png'
+coverImageAlt: "Materials enter an ERP block marked with BOM, Routing, Lot and QC chips, and finished goods come out."
 draft: false
 ---
 
@@ -32,6 +38,8 @@ draft: false
 
 ## Why Manufacturing ERP Is Different
 
+![Manufacturing ERP differs in the middle between procuring materials and shipping: converting materials, tracking quantity and quality at each stage, yield and loss, machine and labor capacity and lot and batch records.](~/assets/images/insights/erpm-01-middle-of-the-chain-en.svg)
+
 Many manufacturing CEOs and COOs begin their ERP evaluation by looking at solutions designed primarily for commercial or service businesses — procurement, inventory, receivables, payables, accounting. These modules are important and necessary in manufacturing ERP too, but they are not where the distinctive value lies.
 
 The difference lies in what happens *between* purchasing raw materials and delivering a finished product to the customer: converting materials into products, tracking quantity and quality through each production stage, managing yield and loss rates, monitoring machine and labor capacity, and maintaining lot and batch records.
@@ -41,6 +49,8 @@ An ERP system that lacks — or has not configured — manufacturing-specific mo
 ---
 
 ## Bill of Materials (BOM) — The Foundation of Manufacturing ERP
+
+![Three common BOM problems in manufacturing SMEs: never formally documented, inaccurate or outdated, and multi-level complexity.](~/assets/images/insights/erpm-02-three-bom-problems-en.svg)
 
 A bill of materials is the complete list of all raw materials, subassemblies, and components required to produce one unit of a finished product, along with the quantities needed for each. This is the central document of manufacturing in ERP — without an accurate BOM, production planning, cost calculation, and raw material inventory management cannot function correctly.
 
@@ -61,6 +71,8 @@ A bill of materials is the complete list of all raw materials, subassemblies, an
 
 ## Routing and Production Orders — Managing the Production Process
 
+![Together BOM and routing let ERP calculate expected production cost, plan against capacity, generate production orders and track progress by operation.](~/assets/images/insights/erpm-03-bom-routing-outputs-en.svg)
+
 Routing describes the sequence of operations required to manufacture a product — the order, the time required for each step, the machines or work centers involved, and the labor required.
 
 Combined with BOM, ERP can use routing to:
@@ -78,6 +90,8 @@ This does not mean routing is unnecessary — it means the business needs to bui
 ---
 
 ## Traceability — A Critical Requirement for Food, Processing, and Regulated Industries
+
+![Lot tracking records lot number, production date, expiry date and supplier; serial tracking follows each unit with its own serial number for high-value products or unit-level warranty.](~/assets/images/insights/erpm-04-lot-vs-serial-en.svg)
 
 Traceability is the ability to trace a product backward through its complete history: which supplier provided this raw material, which lot it arrived in, which production batches it was used in, which shift produced the finished product, and which customers received it.
 
@@ -102,6 +116,8 @@ If these conditions are not in place, ERP will have traceability features — bu
 
 ## Quality Management in Manufacturing ERP
 
+![Three quality management needs in manufacturing ERP: quality control at inspection points, non-conformance and corrective action, and expiry management with FEFO.](~/assets/images/insights/erpm-05-three-quality-needs-en.svg)
+
 Manufacturing ERP needs to support:
 
 **Quality control at inspection points.** For example: incoming material inspection, in-process inspection between production stages, and finished goods inspection before dispatch. ERP needs to allow recording of inspection results, accept/reject decisions, and handling of non-conforming material.
@@ -113,6 +129,8 @@ Manufacturing ERP needs to support:
 ---
 
 ## Industry-Specific Considerations for Manufacturing SMEs
+
+![Four industry-specific considerations: food processing and seafood, make-to-order, seasonal manufacturing and tea production.](~/assets/images/insights/erpm-06-four-industry-cases-en.svg)
 
 Beyond common requirements, each manufacturing sector has additional specific characteristics:
 
@@ -140,6 +158,8 @@ Beyond common requirements, each manufacturing sector has additional specific ch
 ---
 
 ## Manufacturing Readiness Self-Assessment
+
+![Four self-assessment areas for manufacturing readiness, each with one representative question: BOM and routing, traceability, quality and industry-specific needs.](~/assets/images/insights/erpm-07-readiness-self-check-en.svg)
 
 Before starting an ERP project, manufacturing businesses should answer these questions:
 
