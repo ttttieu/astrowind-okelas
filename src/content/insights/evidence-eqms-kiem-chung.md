@@ -2,7 +2,10 @@
 title: "Evidence trong eQMS: khi mỗi hành động cần có thể kiểm chứng được"
 description: "Lưu tài liệu không phải evidence. Evidence trong eQMS là bằng chứng rằng một hành động cụ thể đã xảy ra, ai thực hiện, khi nào và trong context nào — và có thể được truy vết và kiểm chứng."
 publishDate: 2026-10-04T00:00:00Z
-image: '~/assets/images/insights/evidence-eqms-kiem-chung.png'
+image: '~/assets/images/insights/aet-evidence-eqms/aet-00-og-cover-vi.png'
+coverImage: '~/assets/images/insights/aet-evidence-eqms/aet-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/aet-evidence-eqms/aet-00-og-cover-vi.png'
+coverImageAlt: "Hai hộp nối bằng mũi tên: quy trình nói gì bên trái, bằng chứng chứng minh gì bên phải."
 category: 'compliance'
 tags: ['Evidence', 'eQMS', 'Audit Trail', 'Traceability', 'ISO 9001']
 translationId: 'eqms-evidence-traceability'
@@ -18,6 +21,8 @@ secondaryKeywords:
   - "bằng chứng chất lượng"
   - "evidence-based QMS"
 assessmentHref: '/lien-he'
+ctaPrimaryText: 'Liên hệ OKELAS'
+ctaSubtitle: 'Trao đổi về cách thiết kế evidence-by-design trong eQMS của bạn'
 draft: false
 ---
 
@@ -40,6 +45,8 @@ Trưởng phòng chất lượng trả lời, rất rõ ràng, theo đúng quy t
 Từ lúc đó, câu hỏi thay đổi. Nó không còn là "quy trình nói gì" mà là "việc đã được làm theo quy trình chưa, và bạn chứng minh bằng gì".
 
 Khoảng cách giữa hai câu hỏi đó là khoảng cách giữa **tài liệu** và **evidence**. Bài này nói về evidence: nó là gì, vì sao đánh giá viên cần nó, nó trông như thế nào ở từng thành phần của eQMS, và làm sao thiết kế để nó tồn tại ngay từ đầu.
+
+![Hai hộp nối bằng mũi tên: quy trình được viết bên trái, bằng chứng chứng minh thực thi bên phải; thanh kết luận bên dưới.](~/assets/images/insights/aet-evidence-eqms/aet-01-procedure-vs-show-me-vi.svg)
 
 ---
 
@@ -78,6 +85,8 @@ Không chỉ đánh giá viên. Khách hàng hỏi về một lô hàng, cơ qua
 
 Theo quan sát tại nhiều doanh nghiệp sản xuất, evidence yếu thường rơi vào vài dạng quen thuộc. (Đây là quan sát chung, không phải số liệu đo lường.)
 
+![Sáu biểu tượng xếp hàng ngang với nhãn: ghi bù, không bối cảnh, chứng minh ý định không kết quả, sửa được mà không để dấu, mồ côi, nơi không kiểm soát; dưới là ba ghi chú về hậu quả.](~/assets/images/insights/aet-evidence-eqms/aet-02-six-weak-forms-vi.svg)
+
 **1. Ghi bù.** Hồ sơ được điền sau sự việc, đôi khi cả tuần, để "cho đủ". Dù có thiện chí, nó không còn là bằng chứng đồng thời, và khó biện hộ khi bị hỏi.
 
 **2. Chữ ký không kèm bối cảnh.** Biểu mẫu có chữ ký và ngày nhưng không cho biết ký trên căn cứ gì hoặc xem xét điều gì.
@@ -95,6 +104,8 @@ Theo quan sát tại nhiều doanh nghiệp sản xuất, evidence yếu thườ
 ## Evidence trong từng module eQMS
 
 Mỗi thành phần của hệ thống chất lượng tạo ra một loại evidence riêng. Bảng dưới tóm tắt khác biệt giữa điều tài liệu nói và điều evidence cần cho thấy. Mức độ chi tiết cụ thể nên tương xứng với rủi ro, vì tiêu chuẩn yêu cầu thông tin lưu giữ ở mức phù hợp, không phải ở mức tối đa.
+
+![Một lưới với tên các module eQMS bên cột trái và hai cột bên phải cho biết yêu cầu về tài liệu so với evidence cho từng module.](~/assets/images/insights/aet-evidence-eqms/aet-03-document-vs-evidence-rows-vi.svg)
 
 | Thành phần | Tài liệu nói | Evidence cần cho thấy |
 |---|---|---|
@@ -116,6 +127,8 @@ Cột bên phải là điều đánh giá viên, khách hàng và lãnh đạo t
 ## OKELAS và evidence-by-design
 
 Cách tiếp cận mà OKELAS theo đuổi gói trong nguyên tắc **evidence-by-design**: bằng chứng được tạo ra tại thời điểm hành động xảy ra, như một phần của workflow, thay vì được lập sau đó. Đây là mô tả về định hướng thiết kế, như đã nói ở [bài trước](/insights/compliance/okelas-eqms-to-chuc), và nó có bốn ý chính.
+
+![Bốn bước trong một chu kỳ với mũi tên: tạo đồng thời với hành động, gắn với bối cảnh, bảo vệ toàn vẹn, truy vết được; dưới là ghi chú về thiết kế audit trail.](~/assets/images/insights/aet-evidence-eqms/aet-04-four-principles-vi.svg)
 
 **Tạo bằng chứng đồng thời với hành động.** Khi một người phê duyệt, xác nhận hoặc xử lý, sự kiện được ghi lại ở chính lúc đó, kèm người thực hiện và thời điểm, thay vì phải điền sau.
 
@@ -144,6 +157,8 @@ Như đã nói ở bài trước, bài này mô tả cách tiếp cận và đ�
 ## Tự kiểm tra: bài kiểm tra evidence
 
 Chọn ngẫu nhiên một hành động gần đây trong hệ thống chất lượng, ví dụ một sự không phù hợp đã đóng, một tài liệu mới phát hành, một đánh giá nhà cung cấp, rồi hỏi:
+
+![Mười điểm kiểm tra xếp thẳng đứng: ai và khi nào, phiên bản tài liệu, liên kết bối cảnh, chứng minh kết quả, lịch sử chỉnh sửa, tạo đồng thời, truy vết chuỗi, nơi kiểm soát, chi tiết tương xứng, trả lời bằng mở hồ sơ hay dựng lại.](~/assets/images/insights/aet-evidence-eqms/aet-05-module-comparison-vi.svg)
 
 1. Bạn có chỉ ra được **ai** thực hiện và **khi nào thực sự** không, không phải ngày điền biểu mẫu?
 2. Bản ghi có cho biết hành động diễn ra trên **phiên bản tài liệu** nào và với **thẩm quyền** gì không?

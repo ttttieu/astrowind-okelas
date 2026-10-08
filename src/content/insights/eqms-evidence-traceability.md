@@ -2,7 +2,10 @@
 title: "Evidence in eQMS: When Every Quality Action Needs to Be Verifiable"
 description: "Storing a document is not the same as evidence. Evidence in eQMS is proof that a specific action occurred — who did it, when, under what authority and in what context — and can be traced and verified."
 publishDate: 2026-10-04T00:00:00Z
-image: '~/assets/images/insights/evidence-eqms-kiem-chung.png'
+image: '~/assets/images/insights/aet-evidence-eqms/aet-00-og-cover-en.png'
+coverImage: '~/assets/images/insights/aet-evidence-eqms/aet-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/aet-evidence-eqms/aet-00-og-cover-en.png'
+coverImageAlt: "Two boxes joined by an arrow: what a procedure says on the left, what evidence proves on the right."
 category: 'compliance'
 tags: ['Evidence', 'eQMS', 'Audit Trail', 'Traceability', 'ISO 9001']
 translationId: 'eqms-evidence-traceability'
@@ -18,6 +21,8 @@ secondaryKeywords:
   - "ISO 9001 evidence records"
   - "traceability QMS"
 assessmentHref: '/en/contact'
+ctaPrimaryText: 'Contact OKELAS'
+ctaSubtitle: 'Discuss how to design evidence-by-design in your eQMS'
 draft: false
 ---
 
@@ -40,6 +45,8 @@ The quality manager answers, clearly, exactly as the released procedure says. Th
 From that moment the question changes. It's no longer "what does the procedure say" but "was it done as the procedure says, and how do you prove it?"
 
 The distance between those two questions is the distance between a **document** and **evidence**. This article is about evidence: what it is, why auditors need it, what it looks like in each part of an eQMS, and how to design for it to exist from the start.
+
+![Two boxes joined by an arrow: the procedure is written on the left, evidence proves execution on the right; a takeaway bar below.](~/assets/images/insights/aet-evidence-eqms/aet-01-procedure-vs-show-me-en.svg)
 
 ---
 
@@ -78,6 +85,8 @@ And not only auditors. A customer asks about a batch, a regulator asks about an 
 
 Across many manufacturing operations, weak evidence tends to fall into a few familiar forms. (A general observation, not measured figures.)
 
+![Six icons in a row with labels: back-filling, no context, intent not outcome, editable traces, orphan records, uncontrolled places; below are three notes about consequences.](~/assets/images/insights/aet-evidence-eqms/aet-02-six-weak-forms-en.svg)
+
 **1. Back-filling.** Records are completed after the event, sometimes a week later, "to make it complete." Even with good intentions, it's no longer contemporaneous evidence and is hard to defend when asked.
 
 **2. Signatures without context.** A form has a signature and date but doesn't show what the signer based it on or reviewed.
@@ -95,6 +104,8 @@ Across many manufacturing operations, weak evidence tends to fall into a few fam
 ## Evidence across eQMS modules
 
 Each component of the quality system produces its own kind of evidence. The table summarizes the difference between what the document says and what the evidence needs to show. The specific level of detail should be proportionate to risk, since the standard asks for retained information at an appropriate level, not a maximum one.
+
+![A grid with eQMS module names on the left column and two columns on the right showing document vs evidence requirements for each module.](~/assets/images/insights/aet-evidence-eqms/aet-03-document-vs-evidence-rows-en.svg)
 
 | Component | The document says | The evidence needs to show |
 |---|---|---|
@@ -116,6 +127,8 @@ The right-hand column is what auditors, customers and leadership actually want t
 ## OKELAS and evidence-by-design
 
 The approach OKELAS follows is captured in the principle of **evidence-by-design**: evidence is created at the moment an action happens, as part of the workflow, rather than assembled afterward. This describes a design direction, as stated in the [previous article](/en/insights/compliance/okelas-eqms-approach), and it has four main ideas.
+
+![Four steps in a cycle with arrows: create concurrent with action, tie to context, protect integrity, make traceable; below is a note about audit trail design.](~/assets/images/insights/aet-evidence-eqms/aet-04-four-principles-en.svg)
 
 **Create evidence concurrently with the action.** When a person approves, confirms or handles something, the event is recorded at that moment, with who did it and when, rather than filled in later.
 
@@ -144,6 +157,8 @@ As in the previous article, this article describes an approach and design direct
 ## A self-check: the evidence test
 
 Pick a recent action at random in your quality system, for example a closed nonconformity, a newly released document, a supplier evaluation, then ask:
+
+![Ten checkpoints laid out vertically: who and when, document version, context link, outcome proof, edit history, concurrent creation, chain trace, controlled location, proportionate detail, answer by opening vs. reconstructing.](~/assets/images/insights/aet-evidence-eqms/aet-05-module-comparison-en.svg)
 
 1. Can you show **who** did it and **when it really happened**, not the date the form was filled in?
 2. Does the record show which **document version** the action took place on, and under what **authority**?
