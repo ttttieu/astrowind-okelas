@@ -3,7 +3,9 @@ import Layout from '~/layouts/PageLayout.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
 import Content from '~/components/widgets/Content.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
+import { Image } from 'astro:assets';
 import { getArticlesByCategory } from '~/lib/insights';
+import type { ImageMetadata } from 'astro';
 
 const metadata = {
   title: 'AI — OKELAS Insights',
@@ -13,6 +15,57 @@ const metadata = {
 
 const { grouped } = await getArticlesByCategory('vi');
 const aiArticles = grouped.ai || [];
+
+// Import all VI AI cover images from src/assets (flat directory)
+const viCoverGlob = import.meta.glob<{ default: ImageMetadata }>(
+  '/src/assets/images/insights/*-00-og-cover-vi.png',
+  { eager: true }
+);
+const viCovers: Record<string, ImageMetadata> = {};
+for (const [path, mod] of Object.entries(viCoverGlob)) {
+  const match = path.match(/\/([a-z0-9]+)-00-og-cover-vi\.png$/);
+  if (match) viCovers[match[1]] = mod.default;
+}
+
+// Map VI article ID → cover image prefix (Pillar 2: AI Readiness)
+const pillar2CoverPrefix: Record<string, string> = {
+  'ai-readiness-doanh-nghiep': 'aip',
+  'ai-tang-nang-suat-doanh-nghiep': 'aiop',
+  'ai-nang-suat-va-tri-thuc-tong-the': 'aiop',
+  'rag-la-gi-han-che-ai': 'rag',
+  'dieu-kien-trien-khai-ai-van-hanh': 'aip',
+  'du-lieu-khong-co-context-ai': 'aid',
+  'ai-agent-doanh-nghiep': 'aid',
+  'evidence-based-ai-kiem-chung': 'ebai',
+  'lo-trinh-ai-thuc-te-manufacturing-sme': 'aip',
+  'ai-iso-gmp-compliance': 'aip',
+  'organizational-ai-doanh-nghiep': 'aiop',
+};
+
+// Map VI article ID → cover image prefix (Pillar 6: AI Control Layer)
+const pillar6CoverPrefix: Record<string, string> = {
+  'kiem-soat-ai-doanh-nghiep': 'acl',
+  'ai-vuot-khoi-chatbot': 'agc',
+  'ai-giai-quyet-bai-toan-phuc-tap': 'agc',
+  'agentic-ai-vs-ai-assistant-vi': 'agc',
+  'ai-tu-chu-control-problem': 'agc',
+  'ai-vuot-qua-gioi-han-nghien-cuu': 'agt',
+  'multi-agent-ai-phoi-hop': 'agv',
+  'ai-khong-minh-bach-hanh-dong': 'agac',
+  'ai-agent-va-cybersecurity': 'agbr',
+  'trao-quyen-ai-agent-doanh-nghiep': 'aid',
+  'chatbot-sai-khac-agent-sai': 'agc',
+  'ai-authority-vs-intelligence-vi': 'aaa',
+  'least-privilege-cho-ai': 'aaa',
+  'ai-control-layer-doanh-nghiep': 'acl',
+  'kvm-la-gi': 'aaa',
+  'ai-ly-luan-vs-su-that-to-chuc': 'aaa',
+  'ho-so-quyen-han-ai-agent': 'aaa',
+  'ai-employee-tu-assistant': 'aaa',
+  'ai-safety-frontier-va-doanh-nghiep': 'aaa',
+  'frontier-safety-vs-enterprise-control': 'aaa',
+  'kvm-control-layer-ai-doanh-nghiep': 'aaa',
+};
 
 // Pillar 2: AI Readiness series
 const pillar2Order: Record<string, number> = {
@@ -98,48 +151,90 @@ const typeBadgeClass: Record<string, string> = {
   <div class="relative not-prose scroll-mt-[72px]">
     <div class="relative mx-auto px-4 sm:px-6 py-8 md:py-12" style="max-width: 900.5px;">
       <div>
-        <h2 class="text-2xl font-bold mb-2 text-slate-900 dark:text-white">Chuỗi 1: AI Readiness</h2>
+        <h2 class="text-2xl font-bold mb-6 text-slate-900 dark:text-white">Chuỗi 1: AI Readiness</h2>
         <p class="text-muted mb-6">Những điều kiện quyết định AI có thực sự hữu ích trong vận hành hay không.</p>
-        <ul class="space-y-4 mb-12">
-          {pillar2Articles.map((article) => (
-            <li key={article.id} class="flex items-start gap-4 group">
-              <a
-                href={`/insights/${article.data.category}/${article.id}`}
-                class="flex-1 hover:underline"
-              >
-                <div class="font-medium text-slate-900 dark:text-white group-hover:text-primary transition-colors">
-                  {article.data.title}
-                </div>
-              </a>
-              {article.data.funnelStage?.[0] && (
-                <span class="px-2 py-1 rounded text-xs font-medium bg-gray-50 text-gray-500 dark:bg-gray-800 dark:text-gray-400 whitespace-nowrap">
-                  {article.data.funnelStage[0]}
-                </span>
-              )}
-            </li>
-          ))}
+        <ul class="space-y-6">
+          {pillar2Articles.map((article) => {
+            const prefix = pillar2CoverPrefix[article.id];
+            const coverImg = prefix ? viCovers[prefix] : undefined;
+            return (
+              <li key={article.id} class="flex items-start gap-6 group">
+                {coverImg && (
+                  <div class="flex-shrink-0 w-60 rounded overflow-hidden">
+                    <Image
+                      src={coverImg}
+                      alt={article.data.title}
+                      class="w-full h-auto block"
+                    />
+                  </div>
+                )}
+                <a
+                  href={`/insights/${article.data.category}/${article.id}`}
+                  class="flex-1 hover:underline"
+                >
+                  <div class="font-medium text-slate-900 dark:text-white group-hover:text-primary transition-colors">
+                    {article.data.title}
+                  </div>
+                  <div class="flex flex-wrap gap-2 mt-1">
+                    {article.data.contentType && (
+                      <span class="text-xs bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-400 px-2 py-0.5 rounded">
+                        {article.data.contentType}
+                      </span>
+                    )}
+                    {article.data.funnelStage?.[0] && (
+                      <span class="text-xs bg-gray-50 text-gray-500 dark:bg-gray-800 dark:text-gray-400 px-2 py-0.5 rounded">
+                        {article.data.funnelStage[0]}
+                      </span>
+                    )}
+                  </div>
+                </a>
+              </li>
+            );
+          })}
         </ul>
+      </div>
 
-        <h2 class="text-2xl font-bold mb-2 text-slate-900 dark:text-white">Chuỗi 2: AI Control Layer</h2>
+      <div class="mt-12">
+        <h2 class="text-2xl font-bold mb-6 text-slate-900 dark:text-white">Chuỗi 2: AI Control Layer</h2>
         <p class="text-muted mb-6">Khi AI agent bắt đầu hành động thay vì chỉ trả lời — ai kiểm soát, phạm vi nào, và làm sao.</p>
-        <ul class="space-y-4">
-          {pillar6Articles.map((article) => (
-            <li key={article.id} class="flex items-start gap-4 group">
-              <a
-                href={`/insights/${article.data.category}/${article.id}`}
-                class="flex-1 hover:underline"
-              >
-                <div class="font-medium text-slate-900 dark:text-white group-hover:text-primary transition-colors">
-                  {article.data.title}
-                </div>
-              </a>
-              {article.data.funnelStage?.[0] && (
-                <span class="px-2 py-1 rounded text-xs font-medium bg-gray-50 text-gray-500 dark:bg-gray-800 dark:text-gray-400 whitespace-nowrap">
-                  {article.data.funnelStage[0]}
-                </span>
-              )}
-            </li>
-          ))}
+        <ul class="space-y-6">
+          {pillar6Articles.map((article) => {
+            const prefix = pillar6CoverPrefix[article.id];
+            const coverImg = prefix ? viCovers[prefix] : undefined;
+            return (
+              <li key={article.id} class="flex items-start gap-6 group">
+                {coverImg && (
+                  <div class="flex-shrink-0 w-60 rounded overflow-hidden">
+                    <Image
+                      src={coverImg}
+                      alt={article.data.title}
+                      class="w-full h-auto block"
+                    />
+                  </div>
+                )}
+                <a
+                  href={`/insights/${article.data.category}/${article.id}`}
+                  class="flex-1 hover:underline"
+                >
+                  <div class="font-medium text-slate-900 dark:text-white group-hover:text-primary transition-colors">
+                    {article.data.title}
+                  </div>
+                  <div class="flex flex-wrap gap-2 mt-1">
+                    {article.data.contentType && (
+                      <span class="text-xs bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-400 px-2 py-0.5 rounded">
+                        {article.data.contentType}
+                      </span>
+                    )}
+                    {article.data.funnelStage?.[0] && (
+                      <span class="text-xs bg-gray-50 text-gray-500 dark:bg-gray-800 dark:text-gray-400 px-2 py-0.5 rounded">
+                        {article.data.funnelStage[0]}
+                      </span>
+                    )}
+                  </div>
+                </a>
+              </li>
+            );
+          })}
         </ul>
       </div>
     </div>
