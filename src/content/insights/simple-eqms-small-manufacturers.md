@@ -2,7 +2,9 @@
 title: "eQMS for Small Manufacturers — It Doesn't Have to Be as Complex as You Think"
 description: "Many SMEs look at enterprise eQMS systems and assume they're not a fit. But an eQMS appropriate for a small manufacturer doesn't need a hundred features — just the right components in the right order."
 publishDate: 2026-10-04T00:00:00Z
-image: '~/assets/images/insights/eqms-sme-don-gian.png'
+coverImage: '~/assets/images/insights/aesm-small-manufacturers/aesm-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/aesm-small-manufacturers/aesm-00-og-cover-en.png'
+coverImageAlt: "eQMS for small manufacturers does not have to be complex: four starting component boxes in a row."
 category: 'compliance'
 tags: ['eQMS', 'SME', 'ISO 9001', 'QMS Software', 'Manufacturing SME']
 translationId: 'simple-eqms-small-manufacturers'
@@ -18,6 +20,8 @@ secondaryKeywords:
   - "affordable eQMS"
   - "eQMS manufacturing startup"
 assessmentHref: '/en/readiness/digitalization-level'
+ctaPrimaryText: 'Assess your digitalization level'
+ctaSubtitle: 'Identify your current digitalization level and what the next step should be'
 draft: false
 ---
 
@@ -46,6 +50,8 @@ That feeling has a basis. But the conclusion drawn from it — that an eQMS isn'
 
 Three things make eQMS products look heavy, and none of them says anything about what a small manufacturer actually needs.
 
+![Three reasons eQMS appears complex: designed for large organizations, demos always show everything, and software is sold in feature bundles. Each reason listed as a separate box.](~/assets/images/insights/aesm-small-manufacturers/aesm-01-three-reasons-en.svg)
+
 **Many products are designed for large organizations or heavily regulated sectors.** Industries such as pharmaceuticals and medical devices have specific expectations around system validation and electronic records, so products built for them carry many features. To the naked eye it's hard to tell which parts are for that sector and which are for you.
 
 **Demos always show everything.** There's no reason a demo would show only three features. You see the full suite and then wonder whether you have to use all of it.
@@ -60,6 +66,8 @@ ISO 9001:2015 doesn't provide a mandatory module list either. The standard asks 
 
 Looking at how small and mid-sized manufacturers operate in practice, a sensible starting eQMS usually needs just four things:
 
+![Four starting components at the top: document control, nonconformance handling, internal audit, training. A dashed box below shows additional functions that can be added later.](~/assets/images/insights/aesm-small-manufacturers/aesm-02-four-components-en.svg)
+
 **1. Document control.** Users see the correct current version, with approval and change history. This is often where impact is clearest and risk is lowest.
 
 **2. Nonconformance and corrective action.** Record, analyze, correct, verify effectiveness, with an owner and a deadline.
@@ -72,11 +80,15 @@ Everything else — risk management, supplier evaluation, management reporting, 
 
 A useful principle for filtering proposals: **solve the operational problem with the smallest system that is sufficient.** A feature is worth having only when you can name the specific problem it solves.
 
+![Nested boxes showing concentric layers: outermost is all eQMS features, middle layers add specific functions, innermost is the smallest sufficient system with four core components.](~/assets/images/insights/aesm-small-manufacturers/aesm-05-smallest-sufficient-en.svg)
+
 ---
 
 ## Where to start
 
 Complexity doesn't come only from software. It comes from doing too much at once. A few ways to keep the project small:
+
+![Five numbered steps to start small: 1. Start from specific pain 2. One component first 3. Clarify processes 4. Let users try 5. Limit customization. Each step shown as a separate box.](~/assets/images/insights/aesm-small-manufacturers/aesm-03-start-small-en.svg)
 
 - **Start from the most specific pain:** which records cost the most effort at each audit, which procedures most often end up in the wrong version.
 - **One component, one area first.** Pilot document control in one production area or one group of processes, then expand.
@@ -91,6 +103,8 @@ This step-by-step approach is the foundation of progressive eQMS thinking; see [
 ## Questions to ask yourself
 
 If you're considering an eQMS, try these five questions before sitting through another demo:
+
+![Five self-assessment questions: Four boxes in a grid layout, each containing one question; a wider box at the bottom with the fifth question.](~/assets/images/insights/aesm-small-manufacturers/aesm-04-five-questions-en.svg)
 
 1. What's the biggest pain in my current quality system, in one sentence?
 2. Of the four components above, which one addresses that pain?

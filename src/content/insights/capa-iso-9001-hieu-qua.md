@@ -2,7 +2,9 @@
 title: "CAPA hiệu quả — tại sao corrective action hay bị xử lý sai và cách làm đúng"
 description: "Nhiều doanh nghiệp có CAPA trên giấy nhưng vấn đề vẫn tái phát. Nguyên nhân thường không phải thiếu form mà thiếu root cause analysis thực sự. Bài viết phân tích cách CAPA đúng nghĩa hoạt động."
 publishDate: 2026-10-04T00:00:00Z
-image: '~/assets/images/insights/capa-iso-9001-hieu-qua.png'
+coverImage: '~/assets/images/insights/acapa-effective-capa/acapa-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/acapa-effective-capa/acapa-00-og-cover-vi.png'
+coverImageAlt: "CAPA hiệu quả: vì sao hành động khắc phục thường trượt — hộp phiếu đã đóng nối với hộp nguyên nhân đã được loại bỏ chưa."
 category: 'compliance'
 tags: ['CAPA', 'Corrective Action', 'ISO 9001', 'Root Cause Analysis', 'eQMS']
 translationId: 'effective-capa-iso-9001'
@@ -18,6 +20,8 @@ secondaryKeywords:
   - "xử lý CAPA đúng cách"
   - "root cause analysis CAPA"
 assessmentHref: '/readiness/knowledge-management'
+ctaPrimaryText: 'Làm Knowledge Management Maturity Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 
@@ -38,6 +42,8 @@ Một tình huống nhiều người làm chất lượng nhận ra ngay: phiế
 Hệ thống vẫn "đạt" khi audit, vì hồ sơ đầy đủ. Nhưng về mặt vận hành, CAPA đã không làm được việc nó sinh ra để làm: **loại bỏ nguyên nhân để vấn đề không tái diễn.**
 
 Bài này giải thích vì sao điều đó hay xảy ra, và một vòng CAPA có giá trị thực sự trông như thế nào.
+
+![Ba thẻ nối thành hàng: phiếu đóng đúng hạn, lỗi quay lại ba tháng sau, audit vẫn đạt. Cho thấy vòng lặp nơi vấn đề thực sự bị bỏ qua.](~/assets/images/insights/acapa-effective-capa/acapa-01-closed-ticket-recurs-vi.svg)
 
 ---
 
@@ -63,6 +69,8 @@ Hành động khắc phục phải **tương xứng** với tác động của s
 
 Từ danh sách trên, có thể thấy những chỗ CAPA thường gãy. Theo quan sát tại nhiều doanh nghiệp sản xuất, sáu lỗi sau xuất hiện thường xuyên nhất. (Đây là quan sát chung, không phải số liệu đo lường.)
 
+![Sáu thẻ vấn đề xếp lưới 3 cột 2 hàng: nhầm khắc phục/hành động khắc phục, lỗi con người, đào tạo mặc định, không kiểm tra hiệu lực, không kiểm tra nơi khác, chỉ số là đóng đúng hạn.](~/assets/images/insights/acapa-effective-capa/acapa-02-six-failures-vi.svg)
+
 **1. Nhầm khắc phục với hành động khắc phục.** Khắc phục (correction) là xử lý sự việc đã xảy ra: loại bỏ lô hàng lỗi, làm lại, sửa hồ sơ. Hành động khắc phục (corrective action) là loại bỏ **nguyên nhân** để sự việc không tái diễn. Một phiếu chỉ mô tả việc làm lại lô hàng đã xử lý xong triệu chứng, chưa động đến nguyên nhân.
 
 **2. Nguyên nhân gốc là "lỗi con người".** "Nhân viên chưa chú ý", "chưa tuân thủ quy trình" là câu trả lời dễ viết nhất và ít hữu ích nhất. Nó dừng lại đúng chỗ lẽ ra phải bắt đầu hỏi tiếp: vì sao một người bình thường lại làm sai ở điều kiện này? Hướng dẫn có rõ không? Thiết bị có dễ gây nhầm không? Họ có được đào tạo đúng bản không?
@@ -81,7 +89,11 @@ Từ danh sách trên, có thể thấy những chỗ CAPA thường gãy. Theo 
 
 ## Root cause analysis: bước bị bỏ qua nhiều nhất
 
+![Ba phiếu xếp cạnh nhau: hai phiếu đầu ghi nguyên nhân "thao tác con người", phiếu thứ ba phát hiện bảng cài đặt cũ. Dưới đó: hành động thay đổi từ đào tạo sang cập nhật bảng và kiểm tra nơi khác.](~/assets/images/insights/acapa-effective-capa/acapa-04-third-ticket-vi.svg)
+
 ISO 9001 không quy định phương pháp phân tích nguyên nhân. Doanh nghiệp tự chọn: 5 Whys, sơ đồ xương cá, hay một cách đặt câu hỏi có cấu trúc khác. Phương pháp ít quan trọng hơn **độ sâu** của câu hỏi.
+
+![Hai phương pháp: sơ đồ 5 Whys và sơ đồ xương cá (Ishikawa). Bên dưới khung cảnh báo: "Cẩn thận với nguyên nhân có thể áp dụng cho bất kỳ sự không phù hợp nào — chúng quá chung chung để dẫn tới hành động có tác dụng."](~/assets/images/insights/acapa-effective-capa/acapa-05-root-cause-methods-vi.svg)
 
 Vài câu hỏi giúp đẩy phân tích đi xa hơn "lỗi con người":
 
@@ -100,6 +112,8 @@ Cũng cần tương xứng. Không phải sự không phù hợp nào cũng cầ
 ## Vòng lặp hiệu quả: phát hiện → phân tích → khắc phục → kiểm tra
 
 Từ yêu cầu của điều 10.2, một vòng CAPA có giá trị đi qua bốn bước, và mỗi bước có một câu hỏi kiểm chứng.
+
+![Bốn ô nối thành vòng: Phát hiện → Phân tích → Khắc phục → Kiểm tra, với mũi tên chỉ hướng vòng lặp. Mỗi ô ghi hành động chính.](~/assets/images/insights/acapa-effective-capa/acapa-03-four-step-loop-vi.svg)
 
 | Bước | Việc cần làm | Câu hỏi kiểm chứng |
 |---|---|---|

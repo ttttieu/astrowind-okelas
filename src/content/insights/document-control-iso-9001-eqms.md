@@ -2,7 +2,9 @@
 title: "Document Control in eQMS: What ISO 9001 Really Requires"
 description: "Document control is not just storing files in folders. ISO 9001 requires version control, approval workflows, distribution management and ensuring users always access the correct version. Here's how to do it properly."
 publishDate: 2026-10-04T00:00:00Z
-image: '~/assets/images/insights/document-control-iso-9001.png'
+coverImage: '~/assets/images/insights/adcn-document-control/adcn-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/adcn-document-control/adcn-00-og-cover-en.png'
+coverImageAlt: "Document control in eQMS: what ISO 9001 really requires — approved version box joined to right person, right time, provable box."
 category: 'compliance'
 tags: ['Document Control', 'ISO 9001', 'eQMS', 'Version Control', 'Controlled Documents']
 translationId: 'document-control-iso-9001-eqms'
@@ -18,6 +20,8 @@ secondaryKeywords:
   - "document approval workflow"
   - "controlled documents ISO"
 assessmentHref: '/en/readiness/knowledge-management'
+ctaPrimaryText: 'Take the Knowledge Management Maturity Assessment'
+ctaSubtitle: 'Identify your maturity level and the first improvement to make'
 draft: false
 ---
 
@@ -39,6 +43,8 @@ Nobody did anything deliberately wrong. The operator followed what they could se
 
 This is the problem document control exists to solve. And it shows why document control isn't about storage: **it's about making sure the right version reaches the right person at the right time.**
 
+![Two source boxes on the left (new version in folder, old version beside machine) point to one result box on the right: product made to version no longer valid.](~/assets/images/insights/adcn-document-control/adcn-01-old-copy-en.svg)
+
 ---
 
 ## What ISO 9001 requires for document control
@@ -46,6 +52,8 @@ This is the problem document control exists to solve. And it shows why document 
 The statements below are based on **ISO 9001:2015, clause 7.5 (Documented information)**, summarized in practical terms.
 
 The clause has three parts bearing directly on document control:
+
+![Seven connected boxes in sequence: identify, approve, protect, distribute, change control, retain, dispose. Represents the seven aspects of document control requirements.](~/assets/images/insights/adcn-document-control/adcn-02-seven-aspects-en.svg)
 
 **General (7.5.1).** The system must include documented information the standard requires, plus whatever the organization determines is needed for the system to be effective. How much depends on organization size, process complexity and people's competence.
 
@@ -60,6 +68,8 @@ Two things to note. First, the list describes **control outcomes**, not tools. S
 ## Version, approval and distribution
 
 From those requirements, document control in practice revolves around three closely linked tasks.
+
+![Three columns labeled: Version (document register, revision, effective date), Approval (authority, information, signature), Distribution (recipient list, access control, confirmation). Each column shows 4-5 specific tasks.](~/assets/images/insights/adcn-document-control/adcn-03-version-approval-distribution-en.svg)
 
 ### Version
 
@@ -84,6 +94,8 @@ Don't overlook **documents of external origin** if the system relies on them: st
 ## The most common problems
 
 From what's seen across many manufacturing operations, six problems come up most often. (A general observation, not measured figures.)
+
+![Six problem boxes arranged in a 3×2 grid: outdated copies, no version tracking, slow approvals, no change trail, mixed documents/records, too many documents.](~/assets/images/insights/adcn-document-control/adcn-04-six-problems-en.svg)
 
 **1. Outdated copies in circulation.** Printouts on the floor, copies on personal computers, old files in shared folders. The most direct problem, and the most dangerous.
 
@@ -126,6 +138,8 @@ If you're weighing a move to an eQMS, document control is often a sensible start
 ## A practical checklist
 
 Use these 10 questions to review your document control, whether you use paper, files or software.
+
+![Flowchart: 10-point checklist on the left; decision diamond "3+ answers no or unsure?"; if yes, arrow to "revisit control organization"; if no, arrow to "tool selection is next step."](~/assets/images/insights/adcn-document-control/adcn-05-three-no-signal-en.svg)
 
 1. Is there a **document register** showing which version is current at any time?
 2. Does every document carry a clear **number, revision and effective date**?

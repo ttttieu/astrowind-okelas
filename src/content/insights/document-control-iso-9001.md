@@ -2,7 +2,9 @@
 title: "Document Control trong eQMS — kiểm soát tài liệu ISO 9001 thực sự nghĩa là gì"
 description: "Document control không phải chỉ là lưu tài liệu vào folder. ISO 9001 yêu cầu kiểm soát phiên bản, phê duyệt, phân phối và đảm bảo người dùng đang dùng đúng bản. Đây là cách làm đúng."
 publishDate: 2026-10-04T00:00:00Z
-image: '~/assets/images/insights/document-control-iso-9001.png'
+coverImage: '~/assets/images/insights/adcn-document-control/adcn-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/adcn-document-control/adcn-00-og-cover-vi.png'
+coverImageAlt: "Document control trong eQMS: ISO 9001 thực sự yêu cầu gì — hộp thông tin được kiểm soát nối với hộp đúng người, đúng lúc, chứng minh được."
 category: 'compliance'
 tags: ['Document Control', 'ISO 9001', 'eQMS', 'Kiểm Soát Tài Liệu', 'Quản Lý Phiên Bản']
 translationId: 'document-control-iso-9001-eqms'
@@ -18,6 +20,8 @@ secondaryKeywords:
   - "quản lý phiên bản tài liệu"
   - "phê duyệt tài liệu ISO"
 assessmentHref: '/readiness/knowledge-management'
+ctaPrimaryText: 'Làm Knowledge Management Maturity Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 
@@ -39,6 +43,8 @@ Không ai làm sai cố ý. Công nhân làm đúng theo những gì họ nhìn 
 
 Đây chính là bài toán mà document control sinh ra để giải quyết. Và nó cho thấy vì sao document control không phải là chuyện lưu trữ: **nó là chuyện bảo đảm đúng bản đến đúng người đúng lúc.**
 
+![Hai thẻ nguồn bên trái (bản mới trong thư mục, bản cũ cạnh máy) trỏ tới một thẻ kết quả bên phải: sản phẩm được làm theo bản không còn hiệu lực.](~/assets/images/insights/adcn-document-control/adcn-01-old-copy-vi.svg)
+
 ---
 
 ## ISO 9001 yêu cầu gì về document control
@@ -46,6 +52,8 @@ Không ai làm sai cố ý. Công nhân làm đúng theo những gì họ nhìn 
 Các nhận định dưới đây dựa trên **ISO 9001:2015, điều khoản 7.5 (Thông tin dạng văn bản)**, tóm lược bằng ngôn ngữ thực hành.
 
 Điều khoản này chia thành ba phần liên quan trực tiếp đến kiểm soát tài liệu:
+
+![Bảy ô nối thành hàng: nhận diện, phê duyệt, bảo vệ, phân phối, kiểm soát thay đổi, lưu giữ, hủy bỏ. Đại diện bảy khía cạnh yêu cầu document control.](~/assets/images/insights/adcn-document-control/adcn-02-seven-aspects-vi.svg)
 
 **Nhận định chung (7.5.1).** Hệ thống phải có thông tin dạng văn bản mà tiêu chuẩn yêu cầu, và thông tin mà tổ chức tự xác định là cần để hệ thống hoạt động hiệu lực. Mức độ nhiều hay ít phụ thuộc vào quy mô, độ phức tạp của quá trình và năng lực nhân sự.
 
@@ -60,6 +68,8 @@ Hai điều cần lưu ý. Thứ nhất, danh sách này mô tả **kết quả 
 ## Phiên bản, phê duyệt và phân phối
 
 Từ yêu cầu trên, document control trong thực tế xoay quanh ba việc liên quan chặt với nhau.
+
+![Ba cột: phiên bản (danh mục, số phiên bản, ngày hiệu lực), phê duyệt (thẩm quyền, thông tin, chữ ký), phân phối (danh sách nhận, phân quyền, xác nhận). Mỗi cột có 4-5 nhiệm vụ cụ thể.](~/assets/images/insights/adcn-document-control/adcn-03-version-approval-distribution-vi.svg)
 
 ### Phiên bản
 
@@ -84,6 +94,8 @@ Tài liệu phải đến đúng người cần dùng, đúng nơi họ làm vi�
 ## Những vấn đề phổ biến nhất
 
 Theo quan sát thực tế tại nhiều doanh nghiệp sản xuất, sáu vấn đề sau xuất hiện thường xuyên nhất. (Đây là quan sát chung, không phải số liệu đo lường.)
+
+![Sáu thẻ vấn đề xếp lưới 3 cột 2 hàng: bản cũ lưu hành, không biết ai dùng bản nào, phê duyệt chậm, không có dấu vết thay đổi, tài liệu/hồ sơ lẫn, quá nhiều tài liệu.](~/assets/images/insights/adcn-document-control/adcn-04-six-problems-vi.svg)
 
 **1. Bản cũ còn lưu hành.** Bản in dán tại xưởng, bản sao trong máy cá nhân, file cũ trong thư mục chung. Đây là vấn đề trực tiếp nhất và cũng nguy hiểm nhất.
 
@@ -126,6 +138,8 @@ Nếu bạn đang cân nhắc có nên chuyển lên eQMS, document control thư
 ## Checklist thực hành
 
 Dùng 10 câu hỏi dưới đây để rà soát document control hiện tại, dù bạn dùng giấy, file hay phần mềm.
+
+![Sơ đồ hai nhánh: danh sách 10 câu hỏi bên trái; kim cương quyết định "3+ câu trả lời không hoặc chưa chắc?" ở giữa; nếu có, mũi tên sang "xem lại tổ chức kiểm soát"; nếu không, sang "lựa chọn công cụ là bước tiếp."](~/assets/images/insights/adcn-document-control/adcn-05-three-no-signal-vi.svg)
 
 1. Có **danh mục tài liệu** cho biết bản nào đang hiện hành ở từng thời điểm không?
 2. Mỗi tài liệu có **mã số, phiên bản và ngày hiệu lực** rõ ràng không?

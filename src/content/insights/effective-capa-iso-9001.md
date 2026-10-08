@@ -2,7 +2,9 @@
 title: "Effective CAPA: Why Corrective Actions Often Miss the Mark — and How to Fix That"
 description: "Many organizations have CAPA on paper but still see problems recur. The issue is usually not missing forms — it's the absence of real root cause analysis. Here's what effective CAPA looks like."
 publishDate: 2026-10-04T00:00:00Z
-image: '~/assets/images/insights/capa-iso-9001-hieu-qua.png'
+coverImage: '~/assets/images/insights/acapa-effective-capa/acapa-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/acapa-effective-capa/acapa-00-og-cover-en.png'
+coverImageAlt: "Effective CAPA: why corrective actions often miss the mark — ticket closed box joined to cause removed? box."
 category: 'compliance'
 tags: ['CAPA', 'Corrective Action', 'ISO 9001', 'Root Cause Analysis', 'eQMS']
 translationId: 'effective-capa-iso-9001'
@@ -18,6 +20,8 @@ secondaryKeywords:
   - "root cause analysis ISO"
   - "CAPA not working"
 assessmentHref: '/en/readiness/knowledge-management'
+ctaPrimaryText: 'Take the Knowledge Management Maturity Assessment'
+ctaSubtitle: 'Identify your maturity level and the first improvement to make'
 draft: false
 ---
 
@@ -38,6 +42,8 @@ A scene many quality professionals will recognize: a corrective action record is
 The system still passes audits, because the records are complete. But operationally, CAPA has failed at the one thing it exists to do: **eliminate the cause so the problem doesn't come back.**
 
 This article explains why that happens so often, and what a CAPA loop that works actually looks like.
+
+![Three boxes in sequence: ticket closed on time, defect reappears three months later, audit still passes. Shows the loop where the real problem is missed.](~/assets/images/insights/acapa-effective-capa/acapa-01-closed-ticket-recurs-en.svg)
 
 ---
 
@@ -63,6 +69,8 @@ Read that list carefully and you'll see the standard centers on **cause** and **
 
 From that list, it's easy to see where CAPA tends to break. Across many manufacturing operations, six failures show up most often. (A general observation, not measured figures.)
 
+![Six failure boxes arranged in 3×2 grid: confusion between correction and action, human error as root cause, retrain as default, no effectiveness review, no check elsewhere, metric on-time closure.](~/assets/images/insights/acapa-effective-capa/acapa-02-six-failures-en.svg)
+
 **1. Confusing correction with corrective action.** Correction deals with what happened: scrap the faulty batch, rework, fix the record. Corrective action eliminates the **cause** so it doesn't recur. A record that only describes reworking the batch has treated the symptom and left the cause alone.
 
 **2. "Human error" as root cause.** "Operator not attentive" or "procedure not followed" is the easiest answer to write and the least useful. It stops exactly where the questions should begin: why did an ordinary person get this wrong under these conditions? Was the instruction clear? Does the equipment invite mistakes? Were they trained on the right revision?
@@ -81,7 +89,11 @@ From that list, it's easy to see where CAPA tends to break. Across many manufact
 
 ## Root cause analysis: the most skipped step
 
+![Three tickets side by side: first two attribute cause to "operator technique," third digs deeper and finds outdated settings sheet. Below: action changes from retrain to replace sheet and check other lines.](~/assets/images/insights/acapa-effective-capa/acapa-04-third-ticket-en.svg)
+
 ISO 9001 doesn't prescribe a method for analyzing causes. Organizations choose: 5 Whys, a fishbone diagram, or another structured way of questioning. The method matters less than the **depth** of the questions.
+
+![Two method boxes: 5 Whys diagram and Fishbone (Ishikawa) diagram. Below a warning box: "Watch for root causes that could apply to any nonconformity — they're too vague to lead to effective action."](~/assets/images/insights/acapa-effective-capa/acapa-05-root-cause-methods-en.svg)
 
 A few questions that push analysis past "human error":
 
@@ -100,6 +112,8 @@ Proportion matters too. Not every nonconformity needs deep analysis by a multi-p
 ## The effective loop: detect → analyze → correct → verify
 
 From clause 10.2, a CAPA loop that adds value passes through four steps, each with a verification question.
+
+![Four connected boxes in a loop: Detect → Analyze → Correct → Verify, with arrows showing the cycle. Each step labeled with its main action.](~/assets/images/insights/acapa-effective-capa/acapa-03-four-step-loop-en.svg)
 
 | Step | What to do | Verification question |
 |---|---|---|

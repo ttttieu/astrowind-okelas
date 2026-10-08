@@ -2,7 +2,9 @@
 title: "Nonconformance Is Not an Error Report — the Right Way to Handle It in ISO 9001"
 description: "NCRs and nonconformance reports are often filled out for audit purposes and forgotten. But nonconformance is one of the most powerful improvement tools in ISO 9001 — when used correctly."
 publishDate: 2026-10-04T00:00:00Z
-image: '~/assets/images/insights/nonconformance-iso-9001.png'
+coverImage: '~/assets/images/insights/anc-nonconformance/anc-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/anc-nonconformance/anc-00-og-cover-en.png'
+coverImageAlt: "Two boxes joined by an arrow: NCR closed for the audit on the left, NCR as improvement data on the right."
 category: 'compliance'
 tags: ['Nonconformance', 'NCR', 'ISO 9001', 'Nonconformity', 'eQMS']
 translationId: 'nonconformance-iso-9001-management'
@@ -18,6 +20,8 @@ secondaryKeywords:
   - "handling nonconformance"
   - "nonconformance as improvement tool"
 assessmentHref: '/en/readiness/knowledge-management'
+ctaPrimaryText: 'Take the Knowledge Management Maturity Assessment'
+ctaSubtitle: 'Identify your maturity level and the first improvement to make'
 draft: false
 ---
 
@@ -38,6 +42,8 @@ A plant reports at quarter-end: no nonconformances recorded. Leadership is pleas
 They ask because experience shows a real manufacturing operation, with real people, equipment and materials, rarely runs flawlessly for three months. If there are no NCRs, there are two possibilities. Either everything truly was perfect. Or what went wrong is being dealt with somewhere, but not entering the system.
 
 The second is more common than people think, and it shows why nonconformance is so often misunderstood. It isn't an error report to be filed. It's the quality system's most important **data input**.
+
+![Two cards: top shows two quarters with no NCRs; bottom shows the same problems being handled off-system. Below is a note: "A zero count is a sign to ask questions, not a sign of good performance."](~/assets/images/insights/anc-nonconformance/anc-01-zero-ncr-en.png)
 
 ---
 
@@ -60,11 +66,15 @@ The statements about the standard below are based on **ISO 9001:2015**, summariz
 
 The two clauses complement each other. 8.7 answers "how do we handle what went wrong." 10.2 answers "how do we stop it going wrong again."
 
+![Two clause cards side by side: Clause 8.7 (control outputs, handle what happened) and Clause 10.2 (eliminate causes, prevent recurrence). Below: "Together they cover the full loop."](~/assets/images/insights/anc-nonconformance/anc-02-clauses-8-7-10-2-en.png)
+
 ---
 
 ## Why NCRs become a formality
 
 From what's seen across many manufacturing operations, these problems show up most often. (A general observation, not measured figures.)
+
+![Six pattern cards in a column: filled for audit, blame culture, vague description, unrecorded decisions, no differentiation, nobody looks at the whole.](~/assets/images/insights/anc-nonconformance/anc-03-six-patterns-en.png)
 
 **1. NCRs are filled in for the audit, not for operations.** When the goal is having records to show, NCRs get written after the fact, sometimes batched at month-end, with generic descriptions just good enough to "have a record."
 
@@ -88,6 +98,8 @@ Worth stressing the second point. To an experienced auditor, **a very low NCR co
 
 From that example, the greatest value of an NCR isn't in any one record but in **aggregated data over time.**
 
+![Two rows of classification chips: Impact row has three items (Customer, Safety, Regulatory); Source row has five items (Material, Process, Equipment, People, Documents).](~/assets/images/insights/anc-nonconformance/anc-04-classify-en.png)
+
 A few practical ways to use it, none needing complex tools:
 
 **Look at trends, not just counts.** The useful question isn't "how many NCRs this month" but "what type, where, from what source, rising or falling." The standard also asks the organization to analyze and evaluate data from monitoring and measurement, including conformity of products and the performance of external providers (clause 9.1.3).
@@ -105,6 +117,8 @@ A useful practice, though not a mandatory requirement of the standard: record ne
 ## From NCR to CAPA
 
 Not every NCR needs a full CAPA loop. The standard asks you to **evaluate the need** for action to eliminate the cause, and for action to be appropriate to the effects. So a decision has to be made, and it's best made against clear criteria.
+
+![Four question cards in a row: Has it recurred or show a trend? Is impact serious? Is the cause systemic? Could it be elsewhere? Below: "Record your reasoning when you decide NOT to open CAPA."](~/assets/images/insights/anc-nonconformance/anc-05-ncr-to-capa-en.png)
 
 Questions commonly used to decide:
 

@@ -2,7 +2,9 @@
 title: "eQMS cho manufacturing SME — không cần phức tạp như bạn nghĩ"
 description: "Nhiều SME nhìn vào eQMS của các tập đoàn lớn và nghĩ đó không dành cho mình. Nhưng eQMS phù hợp với SME không cần trăm tính năng — chỉ cần đúng thành phần, đúng thứ tự."
 publishDate: 2026-10-04T00:00:00Z
-image: '~/assets/images/insights/eqms-sme-don-gian.png'
+coverImage: '~/assets/images/insights/aesm-small-manufacturers/aesm-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/aesm-small-manufacturers/aesm-00-og-cover-vi.png'
+coverImageAlt: "eQMS cho SME sản xuất không cần phức tạp như bạn nghĩ: bốn ô thành phần khởi đầu xếp hàng ngang."
 category: 'compliance'
 tags: ['eQMS', 'SME', 'ISO 9001', 'Phần Mềm QMS', 'Manufacturing SME']
 translationId: 'simple-eqms-small-manufacturers'
@@ -18,6 +20,8 @@ secondaryKeywords:
   - "hệ thống QMS phù hợp SME"
   - "triển khai eQMS nhỏ"
 assessmentHref: '/readiness/digitalization-level'
+ctaPrimaryText: 'Đánh giá mức độ số hóa'
+ctaSubtitle: 'Xác định mức độ số hóa hiện tại và bước tiếp theo hợp lý'
 draft: false
 ---
 
@@ -46,6 +50,8 @@ Cảm giác đó có cơ sở. Nhưng kết luận rút ra từ nó, rằng eQMS
 
 Có ba lý do khiến eQMS trên thị trường trông nặng nề, và không lý do nào nói về nhu cầu thực của một SME.
 
+![Ba thẻ lý do xếp hàng ngang: nhiều sản phẩm cho tổ chức lớn, demo luôn cho thấy toàn bộ, phần mềm bán theo gói. Mỗi thẻ có một dòng giải thích.](~/assets/images/insights/aesm-small-manufacturers/aesm-01-three-reasons-vi.svg)
+
 **Nhiều sản phẩm được thiết kế cho tổ chức lớn hoặc ngành chịu quy định nặng.** Những ngành như dược hay thiết bị y tế có các yêu cầu riêng về xác nhận hiệu lực hệ thống và hồ sơ điện tử, nên sản phẩm cho họ cần nhiều chức năng. Nhìn bằng mắt thường, rất khó tách phần nào là cần cho ngành đó, phần nào là cần cho bạn.
 
 **Demo luôn cho thấy toàn bộ.** Một buổi demo không có lý do gì để chỉ trình bày ba chức năng. Bạn thấy cả bộ, rồi tự hỏi mình có phải dùng cả bộ không.
@@ -60,6 +66,8 @@ ISO 9001:2015 cũng không cung cấp danh sách module bắt buộc. Tiêu chu�
 
 Nhìn từ vận hành thực tế của doanh nghiệp sản xuất cỡ vừa và nhỏ, một eQMS khởi đầu hợp lý thường chỉ cần bốn thứ:
 
+![Bốn ô thành phần khởi đầu ở trên: kiểm soát tài liệu, xử lý sự không phù hợp, đánh giá nội bộ, đào tạo. Một khung nét đứt bên dưới ghi các chức năng thêm sau.](~/assets/images/insights/aesm-small-manufacturers/aesm-02-four-components-vi.svg)
+
 **1. Kiểm soát tài liệu.** Người dùng thấy đúng bản hiện hành, có phê duyệt, có lịch sử thay đổi. Đây thường là nơi tác động rõ nhất và rủi ro thấp nhất.
 
 **2. Xử lý sự không phù hợp và hành động khắc phục.** Ghi nhận, phân tích, khắc phục, kiểm tra hiệu lực, có người chịu trách nhiệm và có hạn.
@@ -72,11 +80,15 @@ Còn lại, như quản lý rủi ro, đánh giá nhà cung cấp, báo cáo cho
 
 Một nguyên tắc hữu ích để lọc đề xuất: **giải quyết vấn đề vận hành bằng hệ thống nhỏ nhất đủ dùng.** Một chức năng chỉ đáng có khi bạn chỉ ra được vấn đề cụ thể nó giải quyết.
 
+![Ba khung lồng nhau: khung lớn nhất là toàn bộ tính năng eQMS, khung giữa là các chức năng phù hợp với SME, khung nhỏ nhất là hệ thống nhỏ nhất đủ dùng với bốn thành phần lõi.](~/assets/images/insights/aesm-small-manufacturers/aesm-05-smallest-sufficient-vi.svg)
+
 ---
 
 ## Bắt đầu từ đâu
 
 Độ phức tạp không chỉ đến từ phần mềm. Nó đến từ việc làm quá nhiều cùng lúc. Một vài cách giữ cho dự án nhỏ:
+
+![Năm thẻ đánh số 1 đến 5 xếp hàng ngang, mỗi thẻ là một bước bắt đầu: bắt đầu từ nỗi đau, một thành phần trước, làm rõ quy trình, cho người dùng thử, hạn chế tùy biến.](~/assets/images/insights/aesm-small-manufacturers/aesm-03-start-small-vi.svg)
 
 - **Bắt đầu từ nỗi đau cụ thể nhất:** hồ sơ nào tốn công nhất mỗi lần audit, quy trình nào hay bị sai phiên bản nhất.
 - **Một thành phần, một khu vực trước.** Chạy thử với kiểm soát tài liệu ở một xưởng hoặc một nhóm quy trình, rồi mở rộng.
@@ -91,6 +103,8 @@ Cách tiếp cận từng bước này là nền tảng của tư duy progressiv
 ## Câu hỏi để tự đánh giá
 
 Nếu bạn đang cân nhắc eQMS, thử trả lời năm câu hỏi này trước khi xem thêm demo nào:
+
+![Năm thẻ câu hỏi: bốn thẻ xếp lưới, mỗi thẻ là một câu hỏi; một thẻ rộng ở cuối là câu hỏi thứ năm.](~/assets/images/insights/aesm-small-manufacturers/aesm-04-five-questions-vi.svg)
 
 1. Điểm đau lớn nhất của hệ thống chất lượng hiện tại của tôi là gì, nói được bằng một câu?
 2. Trong bốn thành phần ở trên, thành phần nào giải quyết điểm đau đó?

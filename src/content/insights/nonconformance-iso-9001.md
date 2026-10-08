@@ -2,7 +2,9 @@
 title: "Nonconformance không phải báo cáo lỗi — cách tiếp cận đúng trong ISO 9001"
 description: "NCR và nonconformance report thường được điền cho có để đối phó audit. Nhưng đây là một trong những công cụ mạnh nhất để cải tiến vận hành — nếu được dùng đúng."
 publishDate: 2026-10-04T00:00:00Z
-image: '~/assets/images/insights/nonconformance-iso-9001.png'
+coverImage: '~/assets/images/insights/anc-nonconformance/anc-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/anc-nonconformance/anc-00-og-cover-vi.png'
+coverImageAlt: "Hai hộp được kết nối bằng một mũi tên: NCR đóng cho audit ở bên trái, NCR như dữ liệu cải tiến ở bên phải."
 category: 'compliance'
 tags: ['Nonconformance', 'NCR', 'ISO 9001', 'Sự Không Phù Hợp', 'eQMS']
 translationId: 'nonconformance-iso-9001-management'
@@ -18,6 +20,8 @@ secondaryKeywords:
   - "nonconformity ISO"
   - "sự không phù hợp ISO 9001"
 assessmentHref: '/readiness/knowledge-management'
+ctaPrimaryText: 'Làm Knowledge Management Maturity Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 
@@ -38,6 +42,8 @@ Một nhà máy báo cáo cuối quý: không có sự không phù hợp nào đ
 Họ hỏi vì kinh nghiệm cho thấy một nhà máy sản xuất thật sự, với con người, thiết bị và nguyên liệu thật, hiếm khi chạy hoàn hảo trong ba tháng. Nếu không có NCR, có hai khả năng. Hoặc mọi thứ thực sự hoàn hảo. Hoặc những gì đã sai đang được xử lý ở đâu đó, nhưng không đi vào hệ thống.
 
 Khả năng thứ hai phổ biến hơn người ta nghĩ, và nó cho thấy vì sao nonconformance thường bị hiểu sai. Nó không phải một báo cáo lỗi để nộp. Nó là **đầu vào dữ liệu** quan trọng nhất của hệ thống chất lượng.
+
+![Hai thẻ: trên cùng hiển thị hai quý không có NCR; dưới cùng hiển thị các vấn đề tương tự được xử lý ngoài hệ thống. Dưới là ghi chú: "Số 0 là dấu hiệu để hỏi, không phải dấu hiệu hiệu suất tốt."](~/assets/images/insights/anc-nonconformance/anc-01-zero-ncr-vi.png)
 
 ---
 
@@ -60,11 +66,15 @@ Các nhận định về tiêu chuẩn dưới đây dựa trên **ISO 9001:2015
 
 Hai điều khoản bổ sung cho nhau. 8.7 trả lời "xử lý cái đã sai như thế nào". 10.2 trả lời "làm sao để nó không sai nữa".
 
+![Hai thẻ điều khoản side by side: Điều khoản 8.7 (kiểm soát đầu ra, xử lý những gì đã xảy ra) và Điều khoản 10.2 (loại bỏ nguyên nhân, ngăn chặn tái diễn). Dưới: "Cùng nhau, chúng cover toàn bộ vòng lặp."](~/assets/images/insights/anc-nonconformance/anc-02-clauses-8-7-10-2-vi.png)
+
 ---
 
 ## Tại sao NCR thường thành hình thức
 
 Theo quan sát tại nhiều doanh nghiệp sản xuất, các vấn đề sau xuất hiện thường xuyên nhất. (Đây là quan sát chung, không phải số liệu đo lường.)
+
+![Sáu thẻ mô tả trong một cột: điền cho audit, văn hóa quy lỗi, mô tả mơ hồ, quyết định không được ghi, không phân loại, không ai nhìn toàn bộ.](~/assets/images/insights/anc-nonconformance/anc-03-six-patterns-vi.png)
 
 **1. NCR được điền cho audit, không cho vận hành.** Khi mục đích là có hồ sơ để trình, NCR được viết sau sự việc, đôi khi gom lại cuối tháng, với mô tả chung chung đủ để "có phiếu".
 
@@ -90,6 +100,8 @@ Từ ví dụ trên, giá trị lớn nhất của NCR không nằm ở từng p
 
 Một vài cách khai thác thực tế, không đòi hỏi công cụ phức tạp:
 
+![Hai hàng chip phân loại: hàng Tác động có ba mục (Khách hàng, An toàn, Quy định); hàng Nguồn có năm mục (Nguyên liệu, Quá trình, Thiết bị, Con người, Tài liệu).](~/assets/images/insights/anc-nonconformance/anc-04-classify-vi.png)
+
 **Nhìn xu hướng, không chỉ số lượng.** Điều đáng hỏi không phải "tháng này bao nhiêu NCR" mà là "loại lỗi nào, ở đâu, từ nguồn nào, đang tăng hay giảm". Tiêu chuẩn cũng yêu cầu tổ chức phân tích và đánh giá dữ liệu từ giám sát và đo lường để đánh giá, trong đó có sự phù hợp của sản phẩm và kết quả của nhà cung cấp (điều khoản 9.1.3).
 
 **Phân loại có chủ đích.** Một cách phân loại đơn giản theo mức độ tác động (ảnh hưởng khách hàng, an toàn, quy định) và theo nguồn (nguyên liệu, quá trình, thiết bị, con người, tài liệu) đủ để các phiếu bắt đầu có ý nghĩa khi gom lại.
@@ -105,6 +117,8 @@ Một thực hành hữu ích dù không phải yêu cầu bắt buộc của ti
 ## Từ NCR đến CAPA
 
 Không phải NCR nào cũng cần một vòng CAPA đầy đủ. Tiêu chuẩn yêu cầu **đánh giá nhu cầu** hành động để loại bỏ nguyên nhân, và hành động phải tương xứng với tác động. Nghĩa là có một quyết định cần được đưa ra, và tốt nhất là có tiêu chí rõ.
+
+![Bốn thẻ câu hỏi trong một hàng: Đã lặp lại hoặc có xu hướng? Tác động nghiêm trọng? Nguyên nhân mang tính hệ thống? Có thể xảy ra ở nơi khác? Dưới: "Ghi lại lý do khi bạn quyết định KHÔNG mở CAPA."](~/assets/images/insights/anc-nonconformance/anc-05-ncr-to-capa-vi.png)
 
 Một số câu hỏi thường dùng để quyết định:
 
@@ -170,7 +184,7 @@ Bài viết tham chiếu ISO 9001:2015. Theo thông tin từ các tổ chức ch
 
 → [Làm Knowledge Management Maturity Assessment](/readiness/knowledge-management) để xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên.
 
-**Đọc thêm:**
+**Tham khảo thêm:**
 
 - [CAPA hiệu quả — tại sao corrective action hay bị xử lý sai](/insights/compliance/capa-iso-9001-hieu-qua) *(bài trước)*
 - [Internal audit không phải kỳ thi — cách tổ chức audit có giá trị thực](/insights/compliance/internal-audit-iso-9001-hieu-qua) *(bài tiếp theo)*
