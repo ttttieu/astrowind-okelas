@@ -2,6 +2,9 @@
 title: "KVM: The Layer Between AI Agents and Organizational Knowledge"
 description: "KVM sits between an AI agent and an organization's knowledge, helping AI retrieve the right evidence, understand context and operate within defined boundaries — not a chatbot, not a standard RAG system."
 publishDate: 2026-09-23T00:00:00Z
+coverImage: '~/assets/images/insights/kvm-knowledge-vault-manager/akvm-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/kvm-knowledge-vault-manager/akvm-00-og-cover-en.png'
+coverImageAlt: "Three boxes joined by arrows: AI agent, KVM highlighted in the middle, and organizational knowledge; a caption sits below KVM."
 translationId: article-6-14-what-is-kvm
 lang: en
 category: ai
@@ -19,6 +22,8 @@ secondaryKeywords:
   - "organizational knowledge AI control"
   - "knowledge vault manager"
 assessmentHref: /en/readiness/ai
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Identify your AI readiness level'
 draft: false
 ---
 
@@ -42,6 +47,8 @@ This is the core problem to solve before mentioning any acronym: when an AI agen
 
 ## Why KVM Is Needed
 
+![Two side-by-side cards: general AI knowledge and the organization's facts, each with two bullet points.](~/assets/images/insights/kvm-knowledge-vault-manager/akvm-01-reasoning-vs-facts-en.svg)
+
 **Claim:** There's a fundamental difference between general AI knowledge and organizational knowledge, and this gap becomes more dangerous as AI is granted more authority to reason and act.
 
 **General AI knowledge** is what a model learns from a massive volume of training data — universal knowledge, language patterns, reasoning styles.
@@ -51,6 +58,8 @@ This is the core problem to solve before mentioning any acronym: when an AI agen
 A common technique for filling this gap is retrieval-augmented generation (RAG) — letting a model retrieve relevant documents before answering. But in the very paper that introduced this technique (Lewis et al., Meta AI Research, NeurIPS 2020), the authors state clearly: the ability to provide **provenance** for a model's decisions, and the ability to update its knowledge in real time, remain open research problems — meaning retrieving a relevant document doesn't automatically guarantee the AI knows whether that document is still valid, is the latest version, or accurately represents the organization's current "truth."
 
 If AI is left free to directly access a database, a Knowledge Graph, or an internal document store and decide for itself what's true, it inadvertently becomes the organization's source of truth — a role it shouldn't hold, especially when its reasoning capability is used to confidently present a conclusion that could be wrong.
+
+![Two flows: letting AI read raw data leads to AI deciding what is true; going through KVM leads to knowledge with evidence.](~/assets/images/insights/kvm-knowledge-vault-manager/akvm-02-raw-data-vs-kvm-en.svg)
 
 ---
 
@@ -62,6 +71,8 @@ Worth clarifying immediately: "Virtual Machine" here is an **architectural metap
 
 The core division of labor: **AI reasons and explains. KVM retrieves, resolves and traces organizational knowledge.** AI handles the reasoning, explaining, and content generation — but doesn't decide on its own "where organizational truth lives," "which entity is being discussed," or "which evidence is genuinely relevant."
 
+![Three operation cards: Trace, FindEvidence, Resolve, each with a question and a short definition.](~/assets/images/insights/kvm-knowledge-vault-manager/akvm-03-three-operations-en.svg)
+
 KVM is currently built around three deterministic primitives:
 
 - **Trace** — tracing the origin, relationships, or provenance of a piece of knowledge. This is exactly the capability Lewis et al. (2020) flagged as missing in typical RAG systems.
@@ -70,11 +81,15 @@ KVM is currently built around three deterministic primitives:
 
 AI uses the output of these primitives to reason, explain, or generate content. A future direction is **FindGap** — automatically detecting knowledge gaps not yet recorded within the organization; this isn't a current capability, only a development direction.
 
+![Four stage boxes Request, Review, Approval, Execution, with a KVM operations band below.](~/assets/images/insights/kvm-knowledge-vault-manager/akvm-04-workflow-en.svg)
+
 **Illustrative example:** in a Request → Review → Approval → Execution workflow, if an AI agent participates at the Review step, instead of searching or accessing a database on its own, the agent calls KVM in sequence — FindEvidence → Resolve → Trace — and only then reasons over the returned evidence/context to produce a recommendation or explanation for the reviewer.
 
 ---
 
 ## KVM and Boundary Management
+
+![Chain AI → KVM → organizational knowledge, with four cards below stating what KVM is not: sandbox, Knowledge Graph, LLM, or a complete permission system.](~/assets/images/insights/kvm-knowledge-vault-manager/akvm-05-not-list-en.svg)
 
 A fair question: is KVM the answer to the entire authority-boundary problem covered in articles 6.11, 6.12, and 6.13?
 

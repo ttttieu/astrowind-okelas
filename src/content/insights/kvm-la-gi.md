@@ -2,6 +2,9 @@
 title: "KVM là gì: lớp nằm giữa AI agent và organizational knowledge"
 description: "KVM là lớp nằm giữa AI agent và organizational knowledge của doanh nghiệp, giúp AI truy xuất evidence đúng, hiểu context và hoạt động trong boundary được xác định — không phải chatbot, không phải RAG thông thường."
 publishDate: 2026-09-23T00:00:00Z
+coverImage: '~/assets/images/insights/kvm-la-gi/akvm-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/kvm-la-gi/akvm-00-og-cover-vi.png'
+coverImageAlt: "Ba khối nối bằng mũi tên: AI agent, KVM được tô nổi bật ở giữa, và tri thức tổ chức; dưới KVM có dòng chú thích."
 translationId: article-6-14-what-is-kvm
 lang: vi
 category: ai
@@ -18,6 +21,8 @@ secondaryKeywords:
   - "AI evidence retrieval"
   - "knowledge management AI control"
 assessmentHref: /readiness/ai
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---
 
@@ -41,6 +46,8 @@ Xuyên suốt series này, năng lực lập luận của AI đã được nhìn
 
 ## Tại sao cần KVM
 
+![Hai thẻ song song: kiến thức chung của AI và sự thật của tổ chức, mỗi thẻ có hai gạch đầu dòng.](~/assets/images/insights/kvm-la-gi/akvm-01-reasoning-vs-facts-vi.svg)
+
 **Claim:** Có một khác biệt căn bản giữa tri thức AI tổng quát và tri thức tổ chức, và khoảng cách này trở nên nguy hiểm hơn khi AI được trao nhiều quyền lập luận và hành động hơn.
 
 **Tri thức AI tổng quát** là những gì một mô hình học được từ khối lượng dữ liệu huấn luyện khổng lồ — kiến thức phổ quát, mẫu hình ngôn ngữ, cách suy luận. Đây là nguồn gốc của năng lực đã được phân tích ở bài 6.2.
@@ -50,6 +57,8 @@ Xuyên suốt series này, năng lực lập luận của AI đã được nhìn
 Kỹ thuật phổ biến để lấp khoảng trống này là retrieval-augmented generation (RAG). Nhưng ngay trong bài báo giới thiệu kỹ thuật này (Lewis và cộng sự, Meta AI Research, NeurIPS 2020), các tác giả tự nêu rõ: khả năng cung cấp **provenance** cho quyết định của mô hình, và khả năng cập nhật tri thức của nó theo thời gian thực, vẫn là những bài toán nghiên cứu mở — nghĩa là việc truy xuất được một tài liệu liên quan không tự động đảm bảo AI biết tài liệu đó có còn hiệu lực, có phải phiên bản mới nhất hay không.
 
 Nếu để AI tự do truy cập trực tiếp vào database, Knowledge Graph, hay kho tài liệu nội bộ và tự quyết định điều gì là đúng, AI vô tình trở thành nguồn sự thật của tổ chức — một vai trò nó không nên đảm nhận, đặc biệt khi năng lực lập luận của nó dùng để tự tin trình bày một kết luận có thể sai.
+
+![Hai luồng: đưa AI đọc thẳng dữ liệu thô dẫn đến AI tự quyết định sự thật; đi qua KVM dẫn đến tri thức có bằng chứng.](~/assets/images/insights/kvm-la-gi/akvm-02-raw-data-vs-kvm-vi.svg)
 
 ---
 
@@ -61,6 +70,8 @@ Cần nói rõ ngay: "Virtual Machine" ở đây là một **ẩn dụ kiến tr
 
 Nguyên tắc phân vai cốt lõi: **AI reasons and explains. KVM retrieves, resolves and traces organizational knowledge.** AI đảm nhận phần lập luận, giải thích, tạo nội dung — nhưng không tự mình quyết định "sự thật tổ chức nằm ở đâu", "entity nào đang được nhắc tới", hay "evidence nào thực sự liên quan".
 
+![Ba thẻ thao tác: Trace, FindEvidence, Resolve, mỗi thẻ có câu hỏi và định nghĩa ngắn.](~/assets/images/insights/kvm-la-gi/akvm-03-three-operations-vi.svg)
+
 KVM hiện được thiết kế xoay quanh ba primitive (thao tác nền tảng) mang tính xác định:
 
 - **Trace** — truy nguyên nguồn gốc, quan hệ, hoặc provenance của một mẩu tri thức.
@@ -69,9 +80,13 @@ KVM hiện được thiết kế xoay quanh ba primitive (thao tác nền tảng
 
 AI sử dụng kết quả của các primitive này để lập luận, giải thích, hoặc tạo nội dung. Một hướng phát triển trong tương lai là khả năng **FindGap** — tự động phát hiện những khoảng trống tri thức chưa được ghi nhận trong tổ chức; đây chưa phải năng lực hiện có, chỉ là định hướng phát triển.
 
+![Bốn ô giai đoạn Request, Review, Approval, Execution, phía dưới là dải thao tác KVM.](~/assets/images/insights/kvm-la-gi/akvm-04-workflow-vi.svg)
+
 ---
 
 ## KVM và boundary
+
+![Chuỗi AI → KVM → tri thức tổ chức, phía dưới là bốn thẻ nêu KVM không phải sandbox, Knowledge Graph, LLM hay hệ thống phân quyền đầy đủ.](~/assets/images/insights/kvm-la-gi/akvm-05-not-list-vi.svg)
 
 Một câu hỏi hợp lý: KVM có phải là câu trả lời cho toàn bộ vấn đề kiểm soát quyền hạn đã bàn ở các bài 6.11-6.13 hay không?
 
