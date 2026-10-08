@@ -1,0 +1,29 @@
+
+> @arthelokyo/astrowind@1.0.0-beta.66 build
+> astro build
+
+[2m17:02:11[22m [34m[astrowind][39m Astrowind `./src/config.yaml` has been loaded.
+[2m17:02:14[22m [34m[content][39m Syncing content
+[33m[1m17:02:14[22m [WARN] [glob-loader][39m No files found matching "*.md,*.mdx" in directory "src\data\post"
+[2m17:02:15[22m [34m[content][39m Synced content
+[2m17:02:15[22m [34m[types][39m Generated [2m3.65s[22m
+[2m17:02:15[22m [34m[build][39m output: [34m"static"[39m
+[2m17:02:15[22m [34m[build][39m mode: [34m"static"[39m
+[2m17:02:15[22m [34m[build][39m directory: [34mD:\projects\okelas-com\dist\[39m
+[2m17:02:15[22m [34m[build][39m Collecting build info...
+[2m17:02:15[22m [34m[build][39m [32m✓ Completed in 4.03s.[39m
+[2m17:02:15[22m [34m[build][39m Building static entrypoints...
+[2m17:02:24[22m [34m[astro-icon][39m Loaded icons from src/assets/icons, flat-color-icons, tabler
+[2m17:02:29[22m [34m[assets][39m Copying fonts (4 files)...
+[2m17:02:44[22m [34m[vite][39m [32m✓ built in 28.58s[39m
+[2m17:02:44[22m [34m[vite][39m [32m✓ built in 420ms[39m
+[2m17:02:45[22m [34m[build][39m Rearranging server assets...
+ENOENT: no such file or directory, rename 'D:\projects\okelas-com\dist\.prerender\_astro\aip-00-og-cover-vi.CijDOm6S.svg' -> 'D:\projects\okelas-com\dist\_astro\aip-00-og-cover-vi.CijDOm6S.svg'
+  [1mLocation:[22m
+    [4mD:\projects\okelas-com\node_modules\astro\dist\core\build\static-build.js:257:5[24m
+  [1mStack trace:[22m
+[2m    at async Object.rename (node:internal/fs/promises:784:10)
+    at async ssrMoveAssets (file:///D:/projects/okelas-com/node_modules/astro/dist/core/build/static-build.js:257:5)
+    at async Object.buildApp (file:///D:/projects/okelas-com/node_modules/vite/dist/node/chunks/node.js:34085:5)
+    at async viteBuild (file:///D:/projects/okelas-com/node_modules/astro/dist/core/build/static-build.js:68:3)
+    at async AstroBuilder.run (file:///D:/projects/okelas-com/node_modules/astro/dist/core/build/index.js:202:7)[22m

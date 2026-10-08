@@ -1,0 +1,26 @@
+
+> @arthelokyo/astrowind@1.0.0-beta.66 build
+> astro build
+
+[2m15:22:48[22m [34m[astrowind][39m Astrowind `./src/config.yaml` has been loaded.
+[2m15:22:51[22m [34m[content][39m Syncing content
+[33m[1m15:22:51[22m [WARN] [glob-loader][39m No files found matching "*.md,*.mdx" in directory "src\data\post"
+[2m15:22:53[22m [34m[content][39m Synced content
+[2m15:22:53[22m [34m[types][39m Generated [2m4.29s[22m
+[2m15:22:53[22m [34m[build][39m output: [34m"static"[39m
+[2m15:22:53[22m [34m[build][39m mode: [34m"static"[39m
+[2m15:22:53[22m [34m[build][39m directory: [34mD:\projects\okelas-com\dist\[39m
+[2m15:22:53[22m [34m[build][39m Collecting build info...
+[2m15:22:53[22m [34m[build][39m [32m✓ Completed in 4.94s.[39m
+[2m15:22:54[22m [34m[build][39m Building static entrypoints...
+[2m15:23:04[22m [34m[astro-icon][39m Loaded icons from src/assets/icons, flat-color-icons, tabler
+[2m15:23:07[22m [34m[assets][39m Copying fonts (4 files)...
+[31m[1m15:23:07[22m [ERROR] [vite][39m [31m✗[39m Build failed in 12.47s
+[31m[ImageNotFound][39m Could not find requested image `D:\projects\okelas-com\src/assets/images/insights/ai-iso-gmp-compliance/icg-03-five-principles-vi.svg`. Does it exist?
+  [1mHint:[22m
+[33m    This is often caused by a typo in the image path. Please make sure the file exists, and is spelled correctly.[39m
+  [1mError reference:[22m
+    [36m[4mhttps://docs.astro.build/en/reference/errors/image-not-found/[24m[39m
+  [1mStack trace:[22m
+[2m    at PluginContextImpl.handler (file:///D:/projects/okelas-com/node_modules/astro/dist/content/vite-plugin-content-assets.js:42:19)
+    at async plugin.<computed> (file:///D:/projects/okelas-com/node_modules/rolldown/dist/shared/bindingify-input-options-BHixd47T.mjs:2125:12)[22m
