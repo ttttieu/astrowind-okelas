@@ -2,7 +2,9 @@
 title: "AI Productivity và Organizational Intelligence — Hai Khái Niệm Khác Nhau Mà CEO Cần Phân Biệt"
 description: "AI giúp cá nhân làm việc nhanh hơn. Nhưng một tổ chức gồm nhiều cá nhân dùng AI không tự nhiên trở thành tổ chức thông minh hơn. Đây là sự khác biệt quan trọng."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/ai-productivity-vs-organizational-intelligence.png'
+coverImage: '~/assets/images/insights/ai-nang-suat-va-tri-thuc-tong-the/aiop-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/ai-nang-suat-va-tri-thuc-tong-the/aiop-00-og-cover-vi.png'
+coverImageAlt: "Năm cột xanh tăng dần ở bên trái đại diện cho năng suất từng cá nhân; năm cột viền đứt nét tím ở bên phải còn trống, đại diện cho kết quả tổ chức không tự động đi theo."
 category: 'ai'
 tags: ['AI Productivity', 'Organizational Intelligence', 'Business Impact', 'Strategy']
 translationId: 'ai-productivity-vs-organizational-intelligence'
@@ -17,6 +19,8 @@ secondaryKeywords:
   - 'AI cho vận hành doanh nghiệp'
   - 'AI cá nhân vs AI tổ chức'
 assessmentHref: '/readiness/ai'
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---
 
@@ -30,6 +34,8 @@ draft: false
 ---
 
 ## Một bức tranh quen thuộc
+
+![Bên trái là kết quả cá nhân thấy rõ như soạn báo giá, tóm tắt hợp đồng, viết báo cáo QA nhanh hơn; bên phải là vận hành tổ chức vẫn như cũ: phê duyệt chờ người, thông tin sự cố gom tay, tri thức đi theo người nghỉ, audit vẫn mất nhiều ngày.](~/assets/images/insights/ai-nang-suat-va-tri-thuc-tong-the/aiop-01-individual-vs-organization-vi.svg)
 
 Hãy hình dung một doanh nghiệp sản xuất với 60 nhân viên. Sau sáu tháng triển khai AI tools, kết quả đo được khá ấn tượng ở cấp cá nhân.
 
@@ -82,9 +88,13 @@ Nói cụ thể hơn theo ngôn ngữ vận hành, organizational intelligence b
 
 Đây là những năng lực của tổ chức như một thực thể. Không phải năng lực của từng cá nhân trong tổ chức đó.
 
+![AI productivity đo đầu ra cá nhân như thời gian soạn và số email mỗi ca; organizational intelligence đo năm năng lực tập thể: ra quyết định, thực thi nhất quán, học hỏi, giải thích và truy xuất, duy trì tri thức.](~/assets/images/insights/ai-nang-suat-va-tri-thuc-tong-the/aiop-02-two-measures-vi.svg)
+
 ---
 
 ## Tại sao cá nhân dùng AI không tự động tạo ra tổ chức thông minh hơn
+
+![Bốn nơi cá nhân dùng AI chưa làm tổ chức thông minh hơn: ra quyết định, thực thi nhất quán, học hỏi từ kinh nghiệm và duy trì tri thức; mỗi nơi nêu điều AI giúp và điều còn thiếu.](~/assets/images/insights/ai-nang-suat-va-tri-thuc-tong-the/aiop-03-four-gaps-vi.svg)
 
 Đây là điểm nhiều doanh nghiệp đang hiểu nhầm, và sự hiểu nhầm này tốn kém.
 
@@ -122,6 +132,8 @@ Khi họ rời đi, tri thức đó vẫn đi theo.
 
 ## Điều kiện để AI tạo ra organizational intelligence
 
+![Năm nền tảng để AI tạo giá trị cho cả tổ chức: quy trình, dữ liệu vận hành, tri thức, governance và organizational context; khoảng cách là khoảng cách tổ chức, không phải công nghệ.](~/assets/images/insights/ai-nang-suat-va-tri-thuc-tong-the/aiop-04-five-foundations-vi.svg)
+
 Khoảng cách giữa AI productivity và organizational intelligence không phải khoảng cách công nghệ. Đây là khoảng cách tổ chức.
 
 Để AI tạo ra giá trị ở cấp độ tổ chức — không chỉ ở cấp độ cá nhân — cần có một số điều kiện nền tảng.
@@ -141,6 +153,8 @@ Khi những điều kiện này chưa có, AI vẫn hữu ích — nhưng ở c�
 ---
 
 ## Một cách đặt câu hỏi khác
+
+![Năm câu hỏi thay cho việc hỏi AI tiết kiệm bao nhiêu giờ: quyết định, xử lý sự cố, nhân viên mới, chuẩn bị audit và mất thông tin khi người quan trọng rời đi.](~/assets/images/insights/ai-nang-suat-va-tri-thuc-tong-the/aiop-05-five-questions-vi.svg)
 
 Thay vì hỏi *"AI đã tiết kiệm bao nhiêu giờ làm việc?"* — câu hỏi có giá trị hơn cho cấp quản trị là:
 

@@ -2,7 +2,9 @@
 title: "AI Productivity vs. Organizational Intelligence: A Distinction Most Leaders Miss"
 description: "AI makes individuals faster. But an organization of AI-assisted individuals doesn't automatically become a more intelligent organization. Here's the distinction that matters."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/ai-productivity-vs-organizational-intelligence.png'
+coverImage: '~/assets/images/insights/ai-productivity-vs-organizational-intelligence/aiop-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/ai-productivity-vs-organizational-intelligence/aiop-00-og-cover-en.png'
+coverImageAlt: "Five rising blue bars on the left represent individual productivity; five empty dashed purple bars on the right represent organizational outcomes that do not automatically follow."
 category: 'ai'
 tags: ['AI Productivity', 'Organizational Intelligence', 'Business Impact', 'Strategy']
 translationId: 'ai-productivity-vs-organizational-intelligence'
@@ -18,6 +20,8 @@ secondaryKeywords:
   - 'AI for business operations'
   - 'AI organizational value'
 assessmentHref: '/en/readiness/ai'
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Identify your AI readiness level'
 draft: false
 ---
 
@@ -31,6 +35,8 @@ draft: false
 ---
 
 ## A familiar picture
+
+![On the left, visible individual results such as faster quotes, contract summaries and QA reports; on the right, organizational operations unchanged: approvals wait on people, incident information is gathered by hand, knowledge leaves with people, audits still take days.](~/assets/images/insights/ai-productivity-vs-organizational-intelligence/aiop-01-individual-vs-organization-en.svg)
 
 Picture a 60-person manufacturing business. After six months of AI tool deployment, the individual-level results look solid.
 
@@ -79,6 +85,8 @@ In operational terms, organizational intelligence encompasses:
 
 **The capacity to explain and trace** — the organization can answer "why was that decision made," "who approved it," and "what evidence was used" — especially important for businesses with compliance requirements.
 
+![AI productivity measures individual output such as drafting time and emails per shift; organizational intelligence measures five collective capacities: deciding, consistent execution, learning, explaining and tracing, retaining knowledge.](~/assets/images/insights/ai-productivity-vs-organizational-intelligence/aiop-02-two-measures-en.svg)
+
 **The capacity to retain knowledge** — when an important employee leaves, the organization does not lose the understanding that person was carrying.
 
 These are capacities of the organization as an entity. Not capacities of the individuals within it.
@@ -86,6 +94,8 @@ These are capacities of the organization as an entity. Not capacities of the ind
 ---
 
 ## Why individual AI use doesn't automatically create organizational intelligence
+
+![Four places where individual AI use does not make the organization smarter: decision-making, consistent execution, learning from experience and knowledge retention; each shows what AI helps and what is missing.](~/assets/images/insights/ai-productivity-vs-organizational-intelligence/aiop-03-four-gaps-en.svg)
 
 This is where many organizations are currently misaligned — and the misalignment is expensive.
 
@@ -123,6 +133,8 @@ When they leave, it goes with them.
 
 ## The conditions that bridge the gap
 
+![Five foundations for AI to create organization-level value: processes, operational data, knowledge, governance and organizational context; the gap is organizational, not technological.](~/assets/images/insights/ai-productivity-vs-organizational-intelligence/aiop-04-five-foundations-en.svg)
+
 The gap between AI productivity and organizational intelligence is not a technology gap. It is an organizational gap.
 
 For AI to create value at the organizational level — not only at the individual level — certain foundational conditions need to be in place.
@@ -142,6 +154,8 @@ When these conditions are absent, AI remains useful — but at the individual le
 ---
 
 ## A different set of questions
+
+![Five questions to ask instead of how many hours AI saved: decisions, incident handling, new employees, audit preparation and information loss when key people leave.](~/assets/images/insights/ai-productivity-vs-organizational-intelligence/aiop-05-five-questions-en.svg)
 
 Instead of asking *"how many hours of work has AI saved?"* — the more valuable governance question is:
 
