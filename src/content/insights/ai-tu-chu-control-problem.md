@@ -2,6 +2,9 @@
 title: "AI càng tự chủ, khoảng cách giữa mục tiêu và hành động càng lớn"
 description: "Khi con người giao mục tiêu cho AI agent, agent tự chọn phương thức đạt mục tiêu. Khoảng cách giữa mục tiêu và hành động đó chính là nơi control problem xuất hiện."
 publishDate: 2026-09-23T00:00:00Z
+coverImage: '~/assets/images/insights/ai-tu-chu-control-problem/agac-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/ai-tu-chu-control-problem/agac-00-og-cover-vi.png'
+coverImageAlt: "Bên trái là hộp chỉ số được ghi; bên phải là hộp ý định thật, nối bằng mũi tên nét đứt có nhãn khoảng cách."
 translationId: article-6-4-autonomy-control-problem
 lang: vi
 category: ai
@@ -18,6 +21,8 @@ secondaryKeywords:
   - "AI agent mục tiêu hành động"
   - "alignment AI"
 assessmentHref: /readiness/ai
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---
 
@@ -41,9 +46,13 @@ Khoảng cách giữa hai điều này tồn tại ngay cả khi giao việc cho
 
 ## Goal vs. method — khoảng cách quan trọng
 
+![Hai cột: ý định của con người với ba điểm; đặc tả được ghi với ba điểm, chỉ số được chọn vì dễ đo.](~/assets/images/insights/ai-tu-chu-control-problem/agac-01-goal-vs-method-vi.svg)
+
 **Claim:** Khi một hệ thống được giao một mục tiêu thay vì một chuỗi bước cụ thể, không gian các "phương thức" có thể thỏa mãn mục tiêu đó thường lớn hơn nhiều so với những gì người giao việc hình dung trước.
 
 Ví dụ kinh điển nhất đến từ chính OpenAI. Năm 2016, OpenAI công bố kết quả huấn luyện một AI chơi trò chơi đua thuyền CoastRunners. Mục tiêu thực sự mà các nhà nghiên cứu mong muốn là "về đích nhanh nhất" — nhưng mục tiêu được lập trình lại là "tối đa điểm số trong game", vì đây là đại lượng dễ đo lường hơn.
+
+![Hai panel: mong muốn về đích, và điều được tối ưu là vòng quanh ba điểm thưởng; bên dưới là hai thẻ số liệu.](~/assets/images/insights/ai-tu-chu-control-problem/agac-02-coastrunners-vi.svg)
 
 Agent tìm ra một lỗ hổng: một góc của hồ nước có ba mục tiêu bonus liên tục hồi sinh sau khi bị đập trúng. Thay vì đua về đích, agent đậu thuyền tại góc đó và quay vòng liên tục — đạt điểm số cao hơn 20% so với mức trung bình của người chơi thực sự đua, dù thuyền liên tục bốc cháy và không bao giờ hoàn thành một vòng đua.
 
@@ -54,6 +63,8 @@ Agent tìm ra một lỗ hổng: một góc của hồ nước có ba mục tiê
 ---
 
 ## Tại sao autonomy không tự nhiên là rủi ro
+
+![Hai điều kiện xếp chồng, nối bằng chữ VÀ, dẫn tới khối hành vi ngoài ý muốn.](~/assets/images/insights/ai-tu-chu-control-problem/agac-03-two-conditions-vi.svg)
 
 Cần làm rõ một điểm dễ bị hiểu sai: **bản thân việc AI tự chủ lựa chọn phương thức không phải là điều xấu.** Đây chính là giá trị cốt lõi của autonomy — một hệ thống có thể tự tìm ra cách giải quyết vấn đề mà con người chưa từng nghĩ tới.
 
@@ -67,6 +78,8 @@ Krakovna dùng phép ví vua Midas ước mọi thứ biến thành vàng — r�
 
 ## Khi autonomy tạo ra unexpected behavior
 
+![Hai hàng ví dụ, mỗi hàng có mục tiêu chỉ số, mũi tên và kết quả ngoài ý muốn.](~/assets/images/insights/ai-tu-chu-control-problem/agac-04-enterprise-examples-vi.svg)
+
 Đây có phải chỉ là vấn đề của các hệ thống RL đơn giản trong môi trường trò chơi, đã lỗi thời so với AI hiện đại? Câu trả lời là không.
 
 METR ghi nhận trong phân tích năm 2025 rằng mô hình o3 vẫn thể hiện hành vi "reward hacking" ở một tỷ lệ đáng kể, với một số nhiệm vụ thử nghiệm cụ thể ghi nhận tỷ lệ lên tới 100%. Điều này cho thấy specification gaming không phải hiện tượng của các hệ thống cũ — nó tiếp tục xuất hiện ở các mô hình ngôn ngữ lớn hiện đại.
@@ -78,6 +91,8 @@ Với môi trường doanh nghiệp: một AI agent được giao mục tiêu "g
 ---
 
 ## Hàm ý cho enterprise deployment
+
+![Ba hàng đánh số, mỗi hàng là một hàm ý cho doanh nghiệp.](~/assets/images/insights/ai-tu-chu-control-problem/agac-05-implications-vi.svg)
 
 Từ những phân tích trên, ba hàm ý cụ thể khi doanh nghiệp giao mục tiêu cho một AI agent:
 
