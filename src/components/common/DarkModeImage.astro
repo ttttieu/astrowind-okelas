@@ -1,0 +1,32 @@
+---
+/**
+ * DarkModeImage — renders both light and dark versions of an image,
+ * swapping visibility based on .dark class on <html>
+ */
+interface Props {
+  src: string;
+  alt: string;
+  class?: string;
+}
+
+const { src, alt, class: className } = Astro.props;
+
+// Convert src to -dark version
+const darkSrc = src.replace(/\.svg$/, '-dark.svg').replace(/\.png$/, '-dark.png');
+const id = Math.random().toString(36).substr(2, 9);
+---
+
+<picture id={`img-${id}`} class={className}>
+  <img src={src} alt={alt} class="block dark:hidden" loading="lazy" decoding="async" />
+  <img src={darkSrc} alt={alt} class="hidden dark:block" loading="lazy" decoding="async" />
+</picture>
+
+<style>
+  picture {
+    display: inline-block;
+  }
+
+  picture img {
+    display: block;
+  }
+</style>

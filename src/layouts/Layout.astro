@@ -53,5 +53,30 @@ const { language, textDirection } = I18N;
     <slot />
 
     <Intersect />
+
+    <script>
+      // Swap anc (nonconformance) images between light and dark versions based on .dark class
+      function swapDarkModeImages() {
+        const isDark = document.documentElement.classList.contains('dark');
+        const ancImages = document.querySelectorAll('img[src*="/anc-"]');
+
+        ancImages.forEach((img) => {
+          const src = img.getAttribute('src');
+          if (!src) return;
+
+          const hasDarkSuffix = src.includes('-dark.');
+          const baseSrc = hasDarkSuffix ? src.replace('-dark.', '.') : src;
+          const darkSrc = baseSrc.replace(/\.(svg|png)$/, '-dark.$1');
+
+          img.setAttribute('src', isDark ? darkSrc : baseSrc);
+        });
+      }
+
+      // Run on page load
+      swapDarkModeImages();
+
+      // Run on theme changes (after .dark class is toggled)
+      document.addEventListener('aw:theme-change', swapDarkModeImages);
+    </script>
   </body>
 </html>
