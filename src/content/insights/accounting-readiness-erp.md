@@ -18,6 +18,12 @@ secondaryKeywords:
   - "chart of accounts ERP"
   - "CFO ERP implementation"
   - "finance ERP readiness |"
+assessmentHref: /en/readiness/erp
+ctaPrimaryText: 'Assess your ERP readiness'
+ctaSubtitle: 'Identify your ERP readiness level'
+coverImage: '~/assets/images/insights/erpa-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/erpa-00-og-cover-en.png'
+coverImageAlt: "An ERP block resting on three pillars, chart of accounts, cost allocation and opening balances, showing the three areas to standardize before the project starts."
 draft: false
 ---
 
@@ -32,6 +38,8 @@ draft: false
 
 ## Why Finance and Accounting Is Consistently the Most Delayed ERP Component
 
+![Operational transactions such as purchase orders, goods receipts and sales invoices all flow into accounting as entries and then into the financial output used for decisions; if accounting data is wrong, every report is unreliable.](~/assets/images/insights/erpa-01-operations-flow-into-accounting-en.svg)
+
 In many ERP projects, the finance and accounting module is treated as something to configure last — after procurement, inventory, and production modules are in place. The reasoning is usually that accounting seems simpler, less operationally complex, and CFOs or finance leads are often not brought into the project until late.
 
 This is one of the most consistently repeated mistakes in ERP implementation.
@@ -43,6 +51,8 @@ And when the CFO does not trust ERP's financial figures — even after go-live �
 ---
 
 ## What ERP Requires From Your Accounting System
+
+![Four things ERP requires from the accounting system: a consistent chart of accounts, a cost allocation method, defined accounting periods and clean reconciled opening balances.](~/assets/images/insights/erpa-02-four-requirements-en.svg)
 
 Understanding why accounting readiness matters starts with knowing what ERP requires from the finance side.
 
@@ -57,6 +67,8 @@ Understanding why accounting readiness matters starts with knowing what ERP requ
 ---
 
 ## Chart of Accounts: Why Getting This Right Matters
+
+![Four common problems with the chart of accounts: too few accounts, too many with no structure, inconsistent application and misalignment with new reporting needs.](~/assets/images/insights/erpa-03-coa-four-problems-en.svg)
 
 The Chart of Accounts is one of the most consequential long-term decisions in ERP financial configuration. A well-designed CoA from the start makes reporting, cost analysis, and audit compliance straightforward for years. A poorly designed one creates persistent problems.
 
@@ -76,6 +88,8 @@ The Chart of Accounts is one of the most consequential long-term decisions in ER
 
 ## Which Accounting Records Need Preparation Before Migration?
 
+![Five accounting records to prepare before ERP: opening balances, accounts receivable, accounts payable, fixed assets and inventory.](~/assets/images/insights/erpa-04-five-record-groups-en.svg)
+
 Beyond the CoA, specific categories of accounting data need to be reviewed and prepared before migration:
 
 **Opening balances.** These are the starting point for the entire accounting system in ERP. All accounts — cash, accounts receivable, accounts payable, inventory, fixed assets, equity — need accurate balances at the cutover date. Errors here will persist throughout the system's operational life.
@@ -94,6 +108,8 @@ Beyond the CoA, specific categories of accounting data need to be reviewed and p
 
 ## Cost Allocation in Manufacturing — A Specific Complexity
 
+![Product cost combines direct materials, direct labor and manufacturing overhead, where overhead depends on the chosen method; three questions cover the costing method, the allocation basis and regular updating of the rate.](~/assets/images/insights/erpa-05-cost-allocation-questions-en.svg)
+
 This is particularly important for manufacturing businesses — and typically the most complex accounting preparation challenge.
 
 Manufacturing ERP calculates product cost from three components: direct material cost, direct labor cost, and manufacturing overhead. How overhead is allocated to individual products or production batches depends on the cost accounting method the business chooses.
@@ -109,6 +125,8 @@ If these questions do not have clear, documented answers — or if different peo
 ---
 
 ## Pre-ERP Accounting Readiness Checklist
+
+![Five areas in the accounting readiness checklist, each with one representative question: chart of accounts, opening balances, inventory and assets, manufacturing costing and accounting periods.](~/assets/images/insights/erpa-06-readiness-checklist-en.svg)
 
 Use this checklist to self-assess before beginning an ERP project:
 

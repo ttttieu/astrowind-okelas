@@ -18,6 +18,12 @@ secondaryKeywords:
   - "hệ thống kế toán trước ERP"
   - "chart of accounts ERP"
   - "CFO chuẩn bị ERP |"
+assessmentHref: /readiness/erp
+ctaPrimaryText: 'Assess your ERP readiness'
+ctaSubtitle: 'Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn'
+coverImage: '~/assets/images/insights/erpa-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/erpa-00-og-cover-vi.png'
+coverImageAlt: "Khối ERP nằm trên ba trụ cột là chart of accounts, phân bổ chi phí và số dư đầu kỳ, thể hiện ba điểm cần chuẩn hóa trước khi bắt đầu dự án."
 draft: false
 ---
 
@@ -44,6 +50,8 @@ draft: false
 
 ## Tại sao tài chính - kế toán thường là điểm gây chậm nhất trong ERP?
 
+![Các giao dịch vận hành như đơn mua, nhập kho và hóa đơn bán đều đi vào kế toán dưới dạng bút toán, rồi thành báo cáo đầu ra dùng để ra quyết định; dữ liệu kế toán sai thì mọi báo cáo không đáng tin.](~/assets/images/insights/erpa-01-operations-flow-into-accounting-vi.svg)
+
 Trong nhiều dự án ERP, module tài chính và kế toán được coi là "xử lý sau" — sau khi các module vận hành như mua hàng, kho, sản xuất đã được cấu hình. Lý do thường là: module kế toán có vẻ đơn giản hơn, ít quy trình phức tạp hơn, và CFO hoặc kế toán trưởng thường không tham gia sớm vào dự án.
 
 Trên thực tế, đây là một trong những sai lầm phổ biến nhất trong ERP implementation.
@@ -55,6 +63,8 @@ Và khi CFO không tin vào số liệu từ ERP — dù hệ thống đã go-li
 ---
 
 ## ERP cần gì từ hệ thống kế toán?
+
+![Bốn yêu cầu ERP đặt ra với hệ thống kế toán: chart of accounts nhất quán, phương pháp phân bổ chi phí, kỳ kế toán và số dư đầu kỳ sạch đã đối chiếu.](~/assets/images/insights/erpa-02-four-requirements-vi.svg)
 
 Để hiểu tại sao accounting readiness quan trọng, cần biết ERP yêu cầu gì từ phía tài chính - kế toán.
 
@@ -69,6 +79,8 @@ Và khi CFO không tin vào số liệu từ ERP — dù hệ thống đã go-li
 ---
 
 ## Chart of accounts — tại sao nó quan trọng hơn bạn nghĩ
+
+![Bốn vấn đề phổ biến của chart of accounts: quá ít tài khoản, quá nhiều và thiếu cấu trúc, áp dụng không nhất quán và không đáp ứng yêu cầu báo cáo mới.](~/assets/images/insights/erpa-03-coa-four-problems-vi.svg)
 
 Chart of accounts là một trong những quyết định có hậu quả lâu dài nhất trong cấu hình ERP tài chính. Một CoA được thiết kế tốt từ đầu giúp doanh nghiệp dễ dàng tạo báo cáo, phân tích chi phí và đáp ứng yêu cầu audit trong nhiều năm. Một CoA kém sẽ tạo ra rắc rối liên tục.
 
@@ -88,6 +100,8 @@ Chart of accounts là một trong những quyết định có hậu quả lâu d
 
 ## Dữ liệu kế toán nào cần chuẩn bị trước ERP?
 
+![Năm nhóm dữ liệu kế toán cần chuẩn bị trước ERP: số dư đầu kỳ, công nợ phải thu, công nợ phải trả, tài sản cố định và tồn kho kế toán.](~/assets/images/insights/erpa-04-five-record-groups-vi.svg)
+
 Ngoài CoA, có một số loại dữ liệu kế toán cụ thể cần được kiểm tra và chuẩn hóa trước khi migration:
 
 **Số dư tài khoản đầu kỳ (Opening Balances).** Đây là điểm xuất phát của toàn bộ hệ thống kế toán trong ERP. Tất cả tài khoản — tiền mặt, công nợ phải thu, công nợ phải trả, tồn kho, tài sản cố định, vốn chủ sở hữu — cần có số dư chính xác tại ngày cutover. Sai lệch ở bước này sẽ đeo bám hệ thống trong suốt vòng đời hoạt động.
@@ -106,6 +120,8 @@ Ngoài CoA, có một số loại dữ liệu kế toán cụ thể cần đư�
 
 ## Vấn đề phân bổ chi phí trong sản xuất
 
+![Giá thành gồm nguyên vật liệu, nhân công trực tiếp và chi phí sản xuất chung, trong đó overhead phụ thuộc phương pháp đã chọn; ba câu hỏi cần trả lời về phương pháp tính giá thành, tiêu chí phân bổ và việc cập nhật tỷ lệ.](~/assets/images/insights/erpa-05-cost-allocation-questions-vi.svg)
+
 Đây là điểm đặc biệt quan trọng với doanh nghiệp sản xuất — và cũng là điểm phức tạp nhất.
 
 ERP sản xuất tính chi phí sản phẩm dựa trên: nguyên vật liệu (Material Cost), nhân công trực tiếp (Labor Cost), và chi phí sản xuất chung (Overhead Cost). Cách phân bổ Overhead cho từng sản phẩm hoặc lô hàng phụ thuộc vào phương pháp kế toán chi phí mà doanh nghiệp lựa chọn.
@@ -121,6 +137,8 @@ Nếu những câu hỏi này chưa có câu trả lời — hoặc câu trả l
 ---
 
 ## Checklist accounting readiness cho CFO
+
+![Năm nhóm cần kiểm tra trong checklist accounting readiness, mỗi nhóm một câu hỏi đại diện: chart of accounts, số dư đầu kỳ, tồn kho và tài sản, chi phí sản xuất và kỳ kế toán.](~/assets/images/insights/erpa-06-readiness-checklist-vi.svg)
 
 Sử dụng danh sách này để tự đánh giá trước khi bắt đầu dự án ERP:
 
