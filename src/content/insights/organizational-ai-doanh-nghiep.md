@@ -180,7 +180,7 @@ Câu trả lời không nằm ở mô hình AI mạnh hơn. Nó nằm ở nền 
 
 **Trao đổi về organizational AI cho doanh nghiệp sản xuất của bạn**
 
-→ [Liên hệ OKELAS](/lien-he) — OKELAS đang xây dựng nền tảng organizational AI cho manufacturing SME: từ process standardization đến knowledge structure, workflow và AI agent trong vận hành.
+→ [Liên hệ OKELAS](/contact) — OKELAS đang xây dựng nền tảng organizational AI cho manufacturing SME: từ process standardization đến knowledge structure, workflow và AI agent trong vận hành.
 
 → [Làm AI Readiness Assessment](/readiness/ai) để xác định doanh nghiệp đang ở bước nào và bước tiếp theo là gì.
 

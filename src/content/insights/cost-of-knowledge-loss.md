@@ -19,7 +19,7 @@ secondaryKeywords:
   - "knowledge loss ROI"
   - "tacit knowledge business impact"
   - "organizational knowledge retention cost"
-assessmentHref: '/en/readiness/knowledge-management'
+assessmentHref: '/en/readiness/knowledge'
 ctaPrimaryText: 'Assess your KM maturity'
 ctaSubtitle: 'Identify your knowledge management maturity level in your organization'
 draft: false
@@ -187,7 +187,7 @@ When CEOs and CFOs begin treating knowledge retention not as an HR expense but a
 
 **What level of knowledge loss cost is your organization currently absorbing?**
 
-→ [Take the Knowledge Management Readiness Assessment](/en/readiness/knowledge-management) to evaluate your organization's knowledge retention practices.
+→ [Take the Knowledge Management Readiness Assessment](/en/readiness/knowledge) to evaluate your organization's knowledge retention practices.
 
 **Further reading:**
 

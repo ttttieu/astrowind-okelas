@@ -22,7 +22,7 @@ secondaryKeywords:
   - "ISO 9001 phần mềm"
   - "eQMS SME"
   - "quản lý chất lượng số hóa"
-assessmentHref: '/readiness/digitalization-level'
+assessmentHref: '/readiness/digitalization'
 ctaPrimaryText: 'Đánh giá mức độ số hóa'
 ctaSubtitle: 'Xác định mức độ số hóa hiện tại và bước tiếp theo hợp lý'
 draft: false
@@ -246,9 +246,9 @@ Bài viết này tham chiếu ISO 9001:2015 — phiên bản mà đa số chứn
 
 **Doanh nghiệp của bạn đang ở mức nào — và bước tiếp theo hợp lý là gì?**
 
-→ [Làm Digitalization Level Assessment](/readiness/digitalization-level) để xác định mức độ số hóa hiện tại và khoảng cách đến bước tiếp theo.
+→ [Làm Digitalization Level Assessment](/readiness/digitalization) để xác định mức độ số hóa hiện tại và khoảng cách đến bước tiếp theo.
 
-→ [Liên hệ OKELAS](/lien-he) để trao đổi về cách tổ chức eQMS phù hợp với doanh nghiệp sản xuất của bạn.
+→ [Liên hệ OKELAS](/contact) để trao đổi về cách tổ chức eQMS phù hợp với doanh nghiệp sản xuất của bạn.
 
 **Đọc thêm trong chuyên đề eQMS và ISO 9001:**
 

@@ -100,7 +100,7 @@ Nếu số hóa chỉ thay đổi phương tiện, thì tối ưu hóa (digitali
 
 Ba lớp này không đến từ việc mua thêm phần mềm workflow tốt hơn. Chúng đến từ việc **xem lại chính quy trình nghiệp vụ** trước khi quyết định công nghệ nào sẽ vận hành nó.
 
-→ *Xem thêm: [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-thong-minh-the-he-moi)*
+→ *Xem thêm: [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-doanh-nghiep-san-xuat)*
 
 ---
 
@@ -132,6 +132,6 @@ Sự khác biệt giữa số hóa và tối ưu không nằm ở công nghệ, 
 **Bài liên quan:**
 - [Đã có workflow rồi — tại sao công việc vẫn chậm?](/insights/workflow/co-workflow-van-lam-viec-cham)
 - [Từ approval workflow đến end-to-end workflow](/insights/workflow/approval-workflow-den-end-to-end)
-- [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-thong-minh-the-he-moi)
+- [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-doanh-nghiep-san-xuat)
 
 **→ [Làm Digitalization Readiness Assessment](/readiness/digitalization)**

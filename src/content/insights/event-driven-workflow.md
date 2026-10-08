@@ -129,6 +129,6 @@ Event-driven workflow isn't a single technology feature — it's a shift in how 
 **Related articles:**
 - [Your Workflow Is Already Fast. Here's What the Next Level Looks Like.](/en/insights/workflow/workflow-improvement-next-level)
 - [Workflow Depends Too Much on People: The Design Problem Behind Every Bottleneck](/en/insights/workflow/workflow-human-bottleneck)
-- [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/intelligent-workflow-next-generation)
+- [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/workflow-for-manufacturing-companies)
 
 **→ [Complete the Digitalization Readiness Assessment](/en/readiness/digitalization)**

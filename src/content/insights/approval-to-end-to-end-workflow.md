@@ -116,7 +116,7 @@ There's no need, and no reason, to turn every approval workflow into an end-to-e
 
 **Step 5 — Only then think about technology.** Choosing the tool to run an end-to-end workflow only becomes meaningful once the boundary, the handoffs, and the accountability are already clear.
 
-→ *Related: [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/intelligent-workflow-next-generation)*
+→ *Related: [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/workflow-for-manufacturing-companies)*
 
 ---
 
@@ -131,6 +131,6 @@ Approval workflow isn't wrong — it just answers a very narrow question. The pr
 **Related articles:**
 - [You Have Workflow. Why Is Work Still Moving Slowly?](/en/insights/workflow/workflow-digitized-still-slow)
 - [Digitized Workflow Is Not the Same as Optimized Workflow](/en/insights/workflow/digitized-vs-optimized-workflow)
-- [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/intelligent-workflow-next-generation)
+- [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/workflow-for-manufacturing-companies)
 
 **→ [Complete the Digitalization Readiness Assessment](/en/readiness/digitalization)**

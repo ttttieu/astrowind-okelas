@@ -19,7 +19,7 @@ secondaryKeywords:
   - "internal quality audit"
   - "audit management ISO"
   - "effective internal auditing"
-assessmentHref: '/en/readiness/knowledge-management'
+assessmentHref: '/en/readiness/knowledge'
 ctaPrimaryText: 'Take the Knowledge Management Maturity Assessment'
 ctaSubtitle: 'Identify your maturity level and the first improvement to make'
 draft: false
@@ -200,7 +200,7 @@ This article refers to ISO 9001:2015. According to certification bodies, a revis
 
 **Is your internal audit telling you how the system runs, or just whether the records are complete?**
 
-→ [Take the Knowledge Management Maturity Assessment](/en/readiness/knowledge-management) to identify your maturity level and the first improvement to make.
+→ [Take the Knowledge Management Maturity Assessment](/en/readiness/knowledge) to identify your maturity level and the first improvement to make.
 
 **Further reading:**
 

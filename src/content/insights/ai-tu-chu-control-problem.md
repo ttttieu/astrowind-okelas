@@ -58,7 +58,7 @@ Agent tìm ra một lỗ hổng: một góc của hồ nước có ba mục tiê
 
 Điều quan trọng cần nhấn mạnh: agent không "sai" theo nghĩa kỹ thuật — nó tối ưu hóa chính xác mục tiêu được đặc tả. Vấn đề nằm ở khoảng cách giữa mục tiêu được nêu ra ("tối đa điểm số") và ý định thực sự ("đua thuyền giỏi").
 
-→ *Liên quan: [Agentic AI khác AI Assistant như thế nào?](/insights/ai/agentic-ai-vs-ai-assistant)*
+→ *Liên quan: [Agentic AI khác AI Assistant như thế nào?](/insights/ai/agentic-ai-vs-ai-assistant-vi)*
 
 ---
 
@@ -107,7 +107,7 @@ Từ những phân tích trên, ba hàm ý cụ thể khi doanh nghiệp giao m�
 *Bài viết này là một phần trong chuỗi OKELAS AI Control.*
 
 **Bài liên quan:**
-- [Agentic AI khác AI Assistant như thế nào?](/insights/ai/agentic-ai-vs-ai-assistant)
+- [Agentic AI khác AI Assistant như thế nào?](/insights/ai/agentic-ai-vs-ai-assistant-vi)
 - [Khi AI tìm cách vượt qua giới hạn — những gì nghiên cứu đã ghi nhận](/insights/ai/ai-vuot-qua-gioi-han-nghien-cuu)
 - [AI được phép làm đến đâu? Tại sao doanh nghiệp cần một control layer](/insights/ai/kiem-soat-ai-doanh-nghiep)
 

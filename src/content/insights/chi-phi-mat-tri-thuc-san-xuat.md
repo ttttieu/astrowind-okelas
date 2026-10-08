@@ -19,7 +19,7 @@ secondaryKeywords:
   - "knowledge loss ROI"
   - "chi phí mất tri thức"
   - "cost of knowledge retention"
-assessmentHref: '/readiness/knowledge-management'
+assessmentHref: '/readiness/knowledge'
 ctaPrimaryText: 'Assess your KM maturity'
 ctaSubtitle: 'Xác định mức độ trưởng thành về quản lý tri thức trong công ty bạn'
 draft: false
@@ -187,7 +187,7 @@ Khi CEO và CFO bắt đầu nhìn nhận knowledge retention không phải là 
 
 **Doanh nghiệp của bạn đang trả chi phí knowledge loss ở mức nào?**
 
-→ [Làm Knowledge Management Readiness Assessment](/readiness/knowledge-management) để đánh giá mức độ rủi ro.
+→ [Làm Knowledge Management Readiness Assessment](/readiness/knowledge) để đánh giá mức độ rủi ro.
 
 **Đọc thêm:**
 

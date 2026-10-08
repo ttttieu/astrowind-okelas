@@ -19,7 +19,7 @@ secondaryKeywords:
   - "nhân viên không tuân thủ SOP"
   - "SOP doanh nghiệp sản xuất"
   - "quy trình không được thực hiện"
-assessmentHref: '/readiness/knowledge-management'
+assessmentHref: '/readiness/knowledge'
 ctaPrimaryText: 'Assess your KM maturity'
 ctaSubtitle: 'Xác định mức độ trưởng thành về quản lý tri thức trong công ty bạn'
 draft: false
@@ -166,7 +166,7 @@ Khi SOP phản ánh đúng thực tế, tiếp cận được tại điểm cầ
 
 **Doanh nghiệp của bạn đang gặp nguyên nhân nào trong ba nguyên nhân trên?**
 
-→ [Làm Knowledge Management Readiness Assessment](/readiness/knowledge-management) để đánh giá chất lượng SOP và quy trình hiện tại.
+→ [Làm Knowledge Management Readiness Assessment](/readiness/knowledge) để đánh giá chất lượng SOP và quy trình hiện tại.
 
 **Đọc thêm:**
 

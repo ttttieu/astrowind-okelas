@@ -92,7 +92,7 @@ Sự khác biệt nằm ở bản chất của nhiệm vụ. Một bài toán Ol
 
 Một mô hình đạt hiệu suất ấn tượng trên benchmark không tự động đảm bảo độ tin cậy tương ứng khi triển khai vào một quy trình doanh nghiệp cụ thể. Đây chính xác là lý do vì sao năng lực (capability) và độ tin cậy vận hành (operational reliability) cần được đánh giá tách biệt.
 
-→ *Liên quan: [Agentic AI khác AI Assistant như thế nào?](/insights/ai/agentic-ai-vs-ai-assistant)*
+→ *Liên quan: [Agentic AI khác AI Assistant như thế nào?](/insights/ai/agentic-ai-vs-ai-assistant-vi)*
 
 ---
 
@@ -118,7 +118,7 @@ Từ những phân tích trên, có ba hàm ý thực tế cho doanh nghiệp đ
 
 **Bài liên quan:**
 - [AI đã vượt khỏi chatbot — từ assistant đến agentic](/insights/ai/ai-vuot-khoi-chatbot)
-- [Agentic AI khác AI Assistant như thế nào?](/insights/ai/agentic-ai-vs-ai-assistant)
+- [Agentic AI khác AI Assistant như thế nào?](/insights/ai/agentic-ai-vs-ai-assistant-vi)
 - [AI được phép làm đến đâu? Tại sao doanh nghiệp cần một control layer](/insights/ai/kiem-soat-ai-doanh-nghiep)
 
 **→ [AI Readiness Assessment](/readiness/ai)**

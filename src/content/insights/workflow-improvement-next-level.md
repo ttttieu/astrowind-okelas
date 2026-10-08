@@ -70,7 +70,7 @@ The next layer doesn't come from adding more approval steps or tighter process c
 
 Neither direction requires giving up human control over important decisions — they simply cut out the preparation and detection work, which takes time but adds little real judgment.
 
-→ *Related: [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/intelligent-workflow-next-generation)*
+→ *Related: [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/workflow-for-manufacturing-companies)*
 
 ---
 
@@ -93,6 +93,6 @@ If the answer to question 3 is yes, that's a sign worth exploring event-driven w
 **Related articles:**
 - [Workflow Automation vs. Intelligent Workflow: Why They're Not the Same](/en/insights/workflow/workflow-automation-vs-intelligent-workflow)
 - [You Have Workflow. Why Is Work Still Moving Slowly?](/en/insights/workflow/workflow-digitized-still-slow)
-- [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/intelligent-workflow-next-generation)
+- [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/workflow-for-manufacturing-companies)
 
 **→ [Complete the Digitalization Readiness Assessment](/en/readiness/digitalization)**

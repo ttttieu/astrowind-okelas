@@ -20,7 +20,7 @@ secondaryKeywords:
   - "eQMS và AI"
   - "quality knowledge management"
   - "eQMS bước tiếp theo"
-assessmentHref: '/readiness/ai-readiness'
+assessmentHref: '/readiness/ai'
 ctaPrimaryText: 'Làm AI Readiness Assessment'
 ctaSubtitle: 'Đánh giá sẵn sàng của tổ chức cho các hoạt động hỗ trợ AI'
 draft: false
@@ -181,9 +181,9 @@ Các tham chiếu trong bài dựa trên ISO 9001:2015. Theo thông tin từ cá
 
 **Doanh nghiệp bạn đã sẵn sàng để AI hiểu doanh nghiệp, hay mới chỉ có AI trả lời câu hỏi?**
 
-→ [Làm AI Readiness Assessment](/readiness/ai-readiness) để xác định mức độ sẵn sàng về dữ liệu, quy trình, tri thức, bằng chứng và quản trị.
+→ [Làm AI Readiness Assessment](/readiness/ai) để xác định mức độ sẵn sàng về dữ liệu, quy trình, tri thức, bằng chứng và quản trị.
 
-→ [Liên hệ OKELAS](/lien-he) để trao đổi về cách đi từ eQMS đến tổ chức tri thức phù hợp với doanh nghiệp sản xuất của bạn.
+→ [Liên hệ OKELAS](/contact) để trao đổi về cách đi từ eQMS đến tổ chức tri thức phù hợp với doanh nghiệp sản xuất của bạn.
 
 **Đọc thêm:**
 

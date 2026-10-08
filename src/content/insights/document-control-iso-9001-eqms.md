@@ -19,7 +19,7 @@ secondaryKeywords:
   - "version control QMS"
   - "document approval workflow"
   - "controlled documents ISO"
-assessmentHref: '/en/readiness/knowledge-management'
+assessmentHref: '/en/readiness/knowledge'
 ctaPrimaryText: 'Take the Knowledge Management Maturity Assessment'
 ctaSubtitle: 'Identify your maturity level and the first improvement to make'
 draft: false
@@ -164,7 +164,7 @@ This article refers to ISO 9001:2015. According to certification bodies, a revis
 
 **Where does your organization's knowledge and document control stand?**
 
-→ [Take the Knowledge Management Maturity Assessment](/en/readiness/knowledge-management) to identify your maturity level and the first improvement to make.
+→ [Take the Knowledge Management Maturity Assessment](/en/readiness/knowledge) to identify your maturity level and the first improvement to make.
 
 → [Contact OKELAS](/en/contact) to discuss how to organize document control for your manufacturing business.
 

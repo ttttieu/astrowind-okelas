@@ -22,7 +22,7 @@ secondaryKeywords:
   - "eQMS small manufacturer"
   - "digital QMS"
   - "quality management system software"
-assessmentHref: '/en/readiness/digitalization-level'
+assessmentHref: '/en/readiness/digitalization'
 ctaPrimaryText: 'Assess your digitalization level'
 ctaSubtitle: 'Identify your current digitalization level and what the next step should be'
 draft: false
@@ -173,7 +173,7 @@ A practical approach for an SME: attach risks to each important process, revisit
 
 Clause 8.4 expects the organization to determine and apply criteria for the evaluation, selection, performance monitoring and re-evaluation of external providers, and to retain documented information on those activities.
 
-An approved supplier list is a starting point, not a process. When an auditor asks "on what basis is this supplier on the list, and when was the last re-evaluation?", what's needed is evidence, not a list. In an eQMS, initial evaluation, delivery performance, supplier-related nonconformances and the re-evaluation schedule are connected. Continue with [Supplier Qualification in ISO 9001](/en/insights/compliance/supplier-qualification-iso-9001).
+An approved supplier list is a starting point, not a process. When an auditor asks "on what basis is this supplier on the list, and when was the last re-evaluation?", what's needed is evidence, not a list. In an eQMS, initial evaluation, delivery performance, supplier-related nonconformances and the re-evaluation schedule are connected. Continue with [Supplier Qualification in ISO 9001](/en/insights/compliance/iso-9001-supplier-qualification).
 
 ---
 
@@ -246,7 +246,7 @@ This article refers to ISO 9001:2015, the edition on which most current certific
 
 **Where is your organization — and what is the sensible next step?**
 
-→ [Take the Digitalization Level Assessment](/en/readiness/digitalization-level) to identify your current digitalization level and the gap to the next step.
+→ [Take the Digitalization Level Assessment](/en/readiness/digitalization) to identify your current digitalization level and the gap to the next step.
 
 → [Contact OKELAS](/en/contact) to discuss how to organize an eQMS suited to your manufacturing business.
 
@@ -263,7 +263,7 @@ This article refers to ISO 9001:2015, the edition on which most current certific
 - [Nonconformance in ISO 9001: More Than an Error Report](/en/insights/compliance/nonconformance-iso-9001-management)
 - [Internal Audit in ISO 9001: Not an Exam](/en/insights/compliance/effective-internal-audit-iso-9001)
 - [Training Records vs. Employee Competence](/en/insights/compliance/iso-9001-training-records-competence)
-- [Supplier Qualification in ISO 9001](/en/insights/compliance/supplier-qualification-iso-9001)
+- [Supplier Qualification in ISO 9001](/en/insights/compliance/iso-9001-supplier-qualification)
 - [ISO 9001 Clause 6 Risk Management](/en/insights/compliance/iso-9001-risk-management-clause-6)
 - [Management Review in ISO 9001](/en/insights/compliance/management-review-iso-9001-effective)
 

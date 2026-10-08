@@ -20,7 +20,7 @@ secondaryKeywords:
   - "risks and opportunities ISO"
   - "clause 6.1 ISO 9001"
   - "risk management QMS"
-assessmentHref: '/en/readiness/knowledge-management'
+assessmentHref: '/en/readiness/knowledge'
 ctaPrimaryText: 'Take the Knowledge Management Maturity Assessment'
 ctaSubtitle: 'Identify your maturity level and the first improvement to make'
 draft: false
@@ -111,7 +111,7 @@ Rather than starting from a blank table, start from what the company already kno
 
 **Start from the process.** For each important process, ask one simple question: *what could stop this process achieving its intended result?* That tends to produce more real risks than an abstract listing.
 
-**Use the data you already have.** Nonconformities, complaints, audit findings, equipment failures and supplier results are real sources of risk, because they've already happened. This is also where risk connects to [nonconformance](/en/insights/compliance/nonconformance-iso-9001-management) and [suppliers](/en/insights/compliance/supplier-qualification-iso-9001).
+**Use the data you already have.** Nonconformities, complaints, audit findings, equipment failures and supplier results are real sources of risk, because they've already happened. This is also where risk connects to [nonconformance](/en/insights/compliance/nonconformance-iso-9001-management) and [suppliers](/en/insights/compliance/iso-9001-supplier-qualification).
 
 **Look at change.** New equipment, a key person moving on, new materials or suppliers, changes in regulation or customer requirements are where new risks tend to appear.
 
@@ -208,11 +208,11 @@ This article refers to ISO 9001:2015. According to certification bodies, a revis
 
 **Is your approach to risk a record for the audit, or a way of thinking while operating?**
 
-→ [Take the Knowledge Management Maturity Assessment](/en/readiness/knowledge-management) to identify your maturity level and the first improvement to make.
+→ [Take the Knowledge Management Maturity Assessment](/en/readiness/knowledge) to identify your maturity level and the first improvement to make.
 
 **Further reading:**
 
-- [Supplier Qualification in ISO 9001: Beyond the Approved Supplier List](/en/insights/compliance/supplier-qualification-iso-9001) *(previous)*
+- [Supplier Qualification in ISO 9001: Beyond the Approved Supplier List](/en/insights/compliance/iso-9001-supplier-qualification) *(previous)*
 - [Management Review in ISO 9001: Why the Meeting Rarely Works — and How to Change That](/en/insights/compliance/management-review-iso-9001-effective) *(next)*
 - [eQMS for Manufacturing SMEs: A Practical Guide](/en/insights/compliance/eqms-for-manufacturing-sme) *(pillar)*
 

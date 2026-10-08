@@ -113,7 +113,7 @@ Không phải quy trình nào cũng cần intelligent workflow. Một cách ki�
 
 Nếu không rơi vào các trường hợp trên, việc "thêm AI vào workflow" thường chỉ làm tăng chi phí và độ phức tạp mà không tạo ra giá trị tương xứng — một quan sát nhất quán với nguyên tắc đã đề cập ở bài phân tích trước trong series này: thiết kế lại quy trình quan trọng hơn việc thêm công nghệ.
 
-→ *Xem thêm: [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-thong-minh-the-he-moi)*
+→ *Xem thêm: [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-doanh-nghiep-san-xuat)*
 
 ---
 
@@ -128,6 +128,6 @@ Automation và intelligent workflow không cạnh tranh nhau — chúng giải q
 **Bài liên quan:**
 - [Tại sao nhân viên vẫn dùng email và Excel để theo dõi công việc?](/insights/workflow/theo-doi-cong-viec-email-excel)
 - [Workflow vẫn phụ thuộc quá nhiều vào con người](/insights/workflow/workflow-phu-thuoc-con-nguoi)
-- [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-thong-minh-the-he-moi)
+- [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-doanh-nghiep-san-xuat)
 
 **→ [Làm Digitalization Readiness Assessment](/readiness/digitalization)**

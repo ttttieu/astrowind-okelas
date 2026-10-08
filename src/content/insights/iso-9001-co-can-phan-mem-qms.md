@@ -19,7 +19,7 @@ secondaryKeywords:
   - "tiêu chuẩn ISO 9001 phần mềm"
   - "documented information ISO 9001"
   - "hồ sơ ISO 9001"
-assessmentHref: '/readiness/digitalization-level'
+assessmentHref: '/readiness/digitalization'
 ctaPrimaryText: 'Đánh giá mức độ số hóa'
 ctaSubtitle: 'Xác định mức độ số hóa hiện tại và bước tiếp theo hợp lý'
 draft: false
@@ -156,7 +156,7 @@ Bài viết tham chiếu ISO 9001:2015. Theo thông tin từ các tổ chức ch
 
 **Hệ thống kiểm soát hiện tại của bạn đang ở mức nào?**
 
-→ [Làm Digitalization Level Assessment](/readiness/digitalization-level) để xác định mức độ số hóa hiện tại và bước tiếp theo có ý nghĩa kinh tế.
+→ [Làm Digitalization Level Assessment](/readiness/digitalization) để xác định mức độ số hóa hiện tại và bước tiếp theo có ý nghĩa kinh tế.
 
 **Đọc thêm:**
 

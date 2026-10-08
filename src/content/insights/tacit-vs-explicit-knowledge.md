@@ -19,7 +19,7 @@ secondaryKeywords:
   - "explicit knowledge documentation"
   - "knowledge types organization"
   - "knowledge management framework"
-assessmentHref: '/en/readiness/knowledge-management'
+assessmentHref: '/en/readiness/knowledge'
 ctaPrimaryText: 'Assess your KM maturity'
 ctaSubtitle: 'Identify your knowledge management maturity level in your organization'
 draft: false
@@ -174,7 +174,7 @@ These are the questions a knowledge management strategy needs to answer — and 
 
 **Which type of knowledge is your organization managing — and which is being left unaddressed?**
 
-→ [Take the KM Maturity Assessment](/en/readiness/knowledge-management)
+→ [Take the KM Maturity Assessment](/en/readiness/knowledge)
 
 **Further reading:**
 

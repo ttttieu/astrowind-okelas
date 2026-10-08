@@ -100,7 +100,7 @@ If digitization only changes the medium, then optimization (digitalization, in G
 
 None of these three layers come from buying a better workflow tool. They come from **re-examining the business process itself** before deciding what technology will run it.
 
-→ *Related: [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/intelligent-workflow-next-generation)*
+→ *Related: [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/workflow-for-manufacturing-companies)*
 
 ---
 
@@ -132,6 +132,6 @@ This is also why evaluating a workflow shouldn't start with "which software shou
 **Related articles:**
 - [You Have Workflow. Why Is Work Still Moving Slowly?](/en/insights/workflow/workflow-digitized-still-slow)
 - [From Approval Workflow to End-to-End Workflow](/en/insights/workflow/approval-to-end-to-end-workflow)
-- [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/intelligent-workflow-next-generation)
+- [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/workflow-for-manufacturing-companies)
 
 **→ [Complete the Digitalization Readiness Assessment](/en/readiness/digitalization)**

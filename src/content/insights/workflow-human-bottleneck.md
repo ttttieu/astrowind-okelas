@@ -103,7 +103,7 @@ Reducing human dependency doesn't mean taking people out of the process — for 
 
 None of these four directions require complex technology to start. The first step is simply: list your most important processes, and for each one, ask "if the person handling this step were out for a week, what would happen?" If the honest answer is "everything would stop," that's the process to redesign first.
 
-→ *Related: [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/intelligent-workflow-next-generation)*
+→ *Related: [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/workflow-for-manufacturing-companies)*
 
 ---
 
@@ -118,6 +118,6 @@ A workflow that depends too much on people isn't a sign that people in the organ
 **Related articles:**
 - [From Approval Workflow to End-to-End Workflow](/en/insights/workflow/approval-to-end-to-end-workflow)
 - [You Have Workflow. Why Is Work Still Moving Slowly?](/en/insights/workflow/workflow-digitized-still-slow)
-- [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/intelligent-workflow-next-generation)
+- [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/workflow-for-manufacturing-companies)
 
 **→ [Complete the Digitalization Readiness Assessment](/en/readiness/digitalization)**

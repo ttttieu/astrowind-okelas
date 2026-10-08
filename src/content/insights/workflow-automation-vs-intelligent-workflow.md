@@ -113,7 +113,7 @@ Not every process needs intelligent workflow. A quick test: if a process has a *
 
 If none of these apply, "adding AI to the workflow" usually just adds cost and complexity without proportional value — consistent with a point made in an earlier article in this series: redesigning the process matters more than adding technology.
 
-→ *Related: [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/intelligent-workflow-next-generation)*
+→ *Related: [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/workflow-for-manufacturing-companies)*
 
 ---
 
@@ -128,6 +128,6 @@ Automation and intelligent workflow aren't competing with each other — they so
 **Related articles:**
 - [Why Employees Still Track Work Through Email and Excel](/en/insights/workflow/email-spreadsheet-work-tracking)
 - [Workflow Depends Too Much on People: The Design Problem Behind Every Bottleneck](/en/insights/workflow/workflow-human-bottleneck)
-- [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/intelligent-workflow-next-generation)
+- [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/workflow-for-manufacturing-companies)
 
 **→ [Complete the Digitalization Readiness Assessment](/en/readiness/digitalization)**

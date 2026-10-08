@@ -19,7 +19,7 @@ secondaryKeywords:
   - "hệ thống quản lý tri thức"
   - "vượt ra ngoài lưu trữ tài liệu"
   - "knowledge graph doanh nghiệp"
-assessmentHref: '/readiness/knowledge-management'
+assessmentHref: '/readiness/knowledge'
 ctaPrimaryText: 'Assess your KM maturity'
 ctaSubtitle: 'Xác định mức độ trưởng thành về quản lý tri thức trong công ty bạn'
 draft: false
@@ -170,9 +170,9 @@ Và nếu mục tiêu dài hạn là AI có thể hỗ trợ vận hành có ng�
 
 **Doanh nghiệp của bạn đang ở bước nào — và bài toán tri thức nào đang chưa được giải quyết?**
 
-→ [Làm Knowledge Management Readiness Assessment](/readiness/knowledge-management) để xác định mức độ trưởng thành và bước đầu tư tiếp theo.
+→ [Làm Knowledge Management Readiness Assessment](/readiness/knowledge) để xác định mức độ trưởng thành và bước đầu tư tiếp theo.
 
-→ [Liên hệ OKELAS](/lien-he) để trao đổi về cách tiếp cận phù hợp với doanh nghiệp sản xuất của bạn.
+→ [Liên hệ OKELAS](/contact) để trao đổi về cách tiếp cận phù hợp với doanh nghiệp sản xuất của bạn.
 
 **Đọc thêm:**
 

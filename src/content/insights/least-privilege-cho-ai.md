@@ -116,7 +116,7 @@ Bốn bước cụ thể để chuyển từ nguyên tắc sang thực hành:
 *Bài viết này là một phần trong chuỗi OKELAS AI Control.*
 
 **Bài liên quan:**
-- [AI cần Authority, không chỉ Intelligence](/insights/ai/ai-authority-vs-intelligence)
+- [AI cần Authority, không chỉ Intelligence](/insights/ai/ai-authority-vs-intelligence-vi)
 - [AI cần một Control Layer: lớp nằm giữa agent và organizational knowledge](/insights/ai/ai-control-layer-doanh-nghiep)
 - [AI được phép làm đến đâu? Tại sao doanh nghiệp cần một control layer](/insights/ai/kiem-soat-ai-doanh-nghiep)
 

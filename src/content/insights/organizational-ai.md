@@ -180,7 +180,7 @@ That's also why the journey to organizational AI begins with questions about the
 
 **Discuss organizational AI for your manufacturing business**
 
-→ [Contact OKELAS](/contact) — OKELAS is building the organizational AI foundation for manufacturing SMEs: from process standardization to knowledge structure, workflow, and AI agents in operations.
+→ [Contact OKELAS](/en/contact) — OKELAS is building the organizational AI foundation for manufacturing SMEs: from process standardization to knowledge structure, workflow, and AI agents in operations.
 
 → [Take the AI Readiness Assessment](/en/readiness/ai) to identify where your organization is in this progression and what the next step looks like.
 

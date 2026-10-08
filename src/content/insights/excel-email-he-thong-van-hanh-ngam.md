@@ -19,7 +19,7 @@ secondaryKeywords:
   - "shadow IT là gì"
   - "Excel làm hệ thống vận hành"
   - "rủi ro file Excel"
-assessmentHref: '/readiness/knowledge-management'
+assessmentHref: '/readiness/knowledge'
 ctaPrimaryText: 'Assess your KM maturity'
 ctaSubtitle: 'Xác định mức độ trưởng thành về quản lý tri thức trong công ty bạn'
 draft: false
@@ -173,7 +173,7 @@ Khi hiểu điều đó, câu hỏi không còn là "làm sao để loại bỏ 
 
 **Doanh nghiệp của bạn đang có bao nhiêu "hệ thống ngầm" như vậy?**
 
-→ [Làm Knowledge Management Readiness Assessment](/readiness/knowledge-management) để đánh giá mức độ phụ thuộc vào hệ thống không chính thức.
+→ [Làm Knowledge Management Readiness Assessment](/readiness/knowledge) để đánh giá mức độ phụ thuộc vào hệ thống không chính thức.
 
 **Đọc thêm:**
 

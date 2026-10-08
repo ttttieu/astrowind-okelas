@@ -19,7 +19,7 @@ secondaryKeywords:
   - "tổ chức tri thức doanh nghiệp"
   - "knowledge graph AI"
   - "tri thức có cấu trúc"
-assessmentHref: '/readiness/knowledge-management'
+assessmentHref: '/readiness/knowledge'
 ctaPrimaryText: 'Assess your KM maturity'
 ctaSubtitle: 'Xác định mức độ trưởng thành về quản lý tri thức trong công ty bạn'
 draft: false
@@ -169,9 +169,9 @@ Doanh nghiệp nào bắt đầu ghi nhận và cấu trúc hóa tri thức theo
 
 **Doanh nghiệp của bạn đang tổ chức tri thức theo folder hay theo quan hệ?**
 
-→ [Làm Knowledge Management Readiness Assessment](/readiness/knowledge-management) để đánh giá trưởng thành.
+→ [Làm Knowledge Management Readiness Assessment](/readiness/knowledge) để đánh giá trưởng thành.
 
-→ [Liên hệ OKELAS](/lien-he) để trao đổi về cách tiếp cận knowledge graph phù hợp.
+→ [Liên hệ OKELAS](/contact) để trao đổi về cách tiếp cận knowledge graph phù hợp.
 
 **Đọc thêm:**
 

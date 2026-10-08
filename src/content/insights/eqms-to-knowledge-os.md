@@ -21,7 +21,7 @@ secondaryKeywords:
   - "eQMS and AI"
   - "organizational knowledge quality"
   - "quality management next step"
-assessmentHref: '/en/readiness/ai-readiness'
+assessmentHref: '/en/readiness/ai'
 ctaPrimaryText: 'Take the AI Readiness Assessment'
 ctaSubtitle: 'Assess readiness for AI-supported operations'
 draft: false
@@ -182,7 +182,7 @@ References in this article are to ISO 9001:2015. According to certification bodi
 
 **Is your company ready for AI that understands the business, or only AI that answers questions?**
 
-→ [Take the AI Readiness Assessment](/en/readiness/ai-readiness) to assess readiness across data, process, knowledge, evidence and governance.
+→ [Take the AI Readiness Assessment](/en/readiness/ai) to assess readiness across data, process, knowledge, evidence and governance.
 
 → [Contact OKELAS](/en/contact) to discuss how to move from eQMS to organizational knowledge in a way that suits your manufacturing business.
 

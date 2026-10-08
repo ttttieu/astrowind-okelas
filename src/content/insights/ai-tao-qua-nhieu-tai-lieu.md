@@ -19,7 +19,7 @@ secondaryKeywords:
   - "quản lý tài liệu AI"
   - "AI content doanh nghiệp"
   - "tài liệu doanh nghiệp tăng nhanh"
-assessmentHref: '/readiness/knowledge-management'
+assessmentHref: '/readiness/knowledge'
 ctaPrimaryText: 'Assess your KM maturity'
 ctaSubtitle: 'Xác định mức độ trưởng thành về quản lý tri thức trong công ty bạn'
 draft: false
@@ -128,7 +128,7 @@ Không có câu trả lời "đúng" phổ quát — nhưng những câu hỏi n
 
 **Tổ chức của bạn đang ở đâu trong bài toán quản lý tài liệu?**
 
-→ [Làm Knowledge Management Readiness Assessment](/readiness/knowledge-management)
+→ [Làm Knowledge Management Readiness Assessment](/readiness/knowledge)
 
 → [Đọc tiếp: Từ DMS đến Knowledge Management — sự khác biệt quan trọng](/insights/knowledge-management/dms-va-knowledge-management)
 

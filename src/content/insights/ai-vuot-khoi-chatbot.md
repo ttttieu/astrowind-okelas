@@ -95,7 +95,7 @@ Nếu bạn không chắc câu trả lời cho cả ba câu hỏi trên, đó l�
 *Bài viết này là một phần trong chuỗi OKELAS AI Control.*
 
 **Bài liên quan:**
-- [Agentic AI khác AI Assistant như thế nào?](/insights/ai/agentic-ai-vs-ai-assistant)
+- [Agentic AI khác AI Assistant như thế nào?](/insights/ai/agentic-ai-vs-ai-assistant-vi)
 - [AI được phép làm đến đâu? Tại sao doanh nghiệp cần một control layer](/insights/ai/kiem-soat-ai-doanh-nghiep)
 
 **→ [AI Readiness Assessment](/readiness/ai)**

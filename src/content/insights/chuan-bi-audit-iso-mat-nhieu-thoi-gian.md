@@ -19,7 +19,7 @@ secondaryKeywords:
   - "kiểm toán GMP"
   - "audit readiness"
   - "bằng chứng documentation"
-assessmentHref: '/readiness/knowledge-management'
+assessmentHref: '/readiness/knowledge'
 ctaPrimaryText: 'Assess your KM maturity'
 ctaSubtitle: 'Xác định mức độ trưởng thành về quản lý tri thức trong công ty bạn'
 draft: false
@@ -95,7 +95,7 @@ Khi auditor đến hỏi: *"Chứng minh rằng quy trình kiểm tra nguyên li
 
 *"Audit đang tốn nhiều thời gian vì audit khó — hay vì hệ thống của chúng ta không được thiết kế để sẵn sàng cho việc được kiểm tra?"*
 
-→ [Làm Knowledge Management Readiness Assessment](/readiness/knowledge-management) để đánh giá audit-readiness.
+→ [Làm Knowledge Management Readiness Assessment](/readiness/knowledge) để đánh giá audit-readiness.
 
 → [Đọc thêm: ISO và GMP trong bối cảnh số hóa](/insights/business-operations/so-hoa-ho-so-iso-gmp)
 
