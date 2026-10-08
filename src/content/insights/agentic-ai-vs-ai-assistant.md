@@ -1,7 +1,10 @@
 ---
 title: "Agentic AI vs. AI Assistant: The Distinction That Changes Everything About Risk"
 description: "An AI assistant receives a prompt and returns a response. An agentic AI receives a goal, forms a plan, selects tools and executes actions. This difference creates an entirely different kind of control problem."
-publishDate: 2026-09-23T00:00:00Z
+publishDate: 2025-09-24T00:00:00Z
+coverImage: '~/assets/images/insights/agentic-ai-vs-ai-assistant/agc-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/agentic-ai-vs-ai-assistant/agc-00-og-cover-en.png'
+coverImageAlt: "On the left, a box for one-pass answering; on the right, three nodes forming a loop of think, act and observe."
 translationId: article-6-3-agentic-vs-assistant
 lang: en
 category: ai
@@ -41,6 +44,8 @@ This article digs into the concrete technical difference between two models — 
 
 ## The Prompt → Response Model
 
+![Two lanes: on top, prompt, model, response and person decides; below, goal, plan, select tool and action, with a return arrow.](~/assets/images/insights/agentic-ai-vs-ai-assistant/agc-01-two-models-en.svg)
+
 An AI assistant operates on a simple cycle: it receives a **prompt** (a question or request), processes it in a single reasoning pass, and returns a **response**. The cycle ends there.
 
 Technical traits of this model:
@@ -55,6 +60,8 @@ This is the most familiar model, and also the lowest-risk one — not because th
 
 ## The Goal → Plan → Tool → Action Model
 
+![Three-node loop: reason about the next step, call a tool, observe the result; beside it, a card with the source and recorded failure.](~/assets/images/insights/agentic-ai-vs-ai-assistant/agc-02-react-loop-en.svg)
+
 Agentic AI operates on an entirely different cycle: it receives a **goal** (not a specific question), **plans** the steps needed on its own, **selects a tool** from the ones it's authorized to use, and **executes an action** — then repeats the cycle based on the result it gets back.
 
 The technical foundation of this model is clearly established in "ReAct: Synergizing Reasoning and Acting in Language Models" (Yao et al., Google Research, 2022) — one of the foundational papers in the AI agent field, now cited more than 6,000 times. This research introduced the **Thought → Action → Observation** loop: the model produces a "thought" step (reasoning about what to do next), takes an "action" (calling a tool), receives back an "observation" (the result of that action), and continues reasoning based on the new observation — repeating until the goal is accomplished.
@@ -66,6 +73,8 @@ Anthropic, in its technical guide "Building Effective Agents" (2024), describes 
 ---
 
 ## Why This Difference Creates Different Risks
+
+![Two lanes: prompt-response has one person decision point; the agent has a chain of consecutive steps before a person reviews.](~/assets/images/insights/agentic-ai-vs-ai-assistant/agc-03-decision-points-en.svg)
 
 The number of "decision points with no human oversight" in a processing cycle is the variable that determines the level of risk — and the two models above differ in that count to a degree that makes them incomparable in practice.
 
@@ -79,6 +88,10 @@ The risk in the agentic model isn't that the model is "less intelligent" — it'
 
 ---
 
+![Five-step pipeline with control points at the action step, and a step-limit bar underneath.](~/assets/images/insights/agentic-ai-vs-ai-assistant/agc-04-control-points-en.svg)
+
+---
+
 ## Enterprise Implications
 
 From the analysis above, three concrete implications for evaluating any system labeled "AI":
@@ -88,6 +101,8 @@ From the analysis above, three concrete implications for evaluating any system l
 **2. Place control points at each Action step, not just at the final output.** For the agentic model, control at the input (prompt) or the final output alone isn't enough — because the risk lives in the action steps in the middle of the cycle, where the system interacts directly with real data or real systems.
 
 **3. The number of steps in the loop is a parameter to be deliberately limited, not left to default.** Setting a maximum number of steps, or a mandatory confirmation point after a certain number of actions, is a concrete control mechanism — not an arbitrary preference.
+
+![Three numbered rows, each an implication for enterprises.](~/assets/images/insights/agentic-ai-vs-ai-assistant/agc-05-implications-en.svg)
 
 ---
 
