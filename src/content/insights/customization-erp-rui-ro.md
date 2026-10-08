@@ -18,6 +18,12 @@ secondaryKeywords:
   - "ERP customization vs configuration"
   - "chi phí bảo trì ERP"
   - "nâng cấp ERP khó khăn |"
+assessmentHref: /readiness/erp
+ctaPrimaryText: 'Assess your ERP readiness'
+ctaSubtitle: 'Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn'
+coverImage: '~/assets/images/insights/erpk-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/erpk-00-og-cover-vi.png'
+coverImageAlt: "Khối ERP ở giữa: bên trái là các mục configuration nằm trong phạm vi phần mềm, bên phải là các khối customization đứt nét thêm code và nợ kỹ thuật."
 draft: false
 ---
 
@@ -44,6 +50,8 @@ draft: false
 
 ## Customization và Configuration — sự khác biệt quan trọng
 
+![Configuration điều chỉnh trong phạm vi phần mềm hỗ trợ (workflow phê duyệt, tiền tệ, danh mục sản phẩm, phân quyền) không cần sửa code; customization thay đổi hành vi mặc định bằng code (logic tính giá, màn hình nhập liệu mới, tích hợp hệ thống ngoài).](~/assets/images/insights/erpk-01-configuration-vs-customization-vi.svg)
+
 Trước khi thảo luận về rủi ro, cần phân biệt rõ hai khái niệm thường bị dùng lẫn lộn.
 
 **Configuration** là điều chỉnh hệ thống ERP trong phạm vi những gì phần mềm đã được thiết kế để hỗ trợ. Ví dụ: thiết lập workflow phê duyệt với ba cấp thay vì hai, cấu hình đơn vị tiền tệ, xác định danh mục sản phẩm, phân quyền người dùng. Đây là những thứ ERP được xây dựng để làm — không cần thay đổi code, và thường không ảnh hưởng đến khả năng nâng cấp phiên bản sau này.
@@ -55,6 +63,8 @@ Ranh giới giữa hai thứ không phải lúc nào cũng rõ ràng — nhưng 
 ---
 
 ## Khi nào customization là hợp lý?
+
+![Ba trường hợp customization hợp lý: yêu cầu pháp lý hoặc compliance, quy trình tạo lợi thế cạnh tranh không thể làm bằng configuration, và tích hợp không thể thay thế với thiết bị hoặc phần mềm ngành.](~/assets/images/insights/erpk-02-three-justified-cases-vi.svg)
 
 Không phải mọi customization đều là sai lầm. Có những trường hợp customization thực sự cần thiết và giá trị kinh doanh vượt qua chi phí và rủi ro.
 
@@ -69,6 +79,8 @@ Không phải mọi customization đều là sai lầm. Có những trường h�
 ---
 
 ## Khi nào customization trở thành vấn đề?
+
+![Bốn nguồn customization không cần thiết: quy trình chưa chuẩn hóa, không muốn thay đổi cách làm việc, áp lực timeline và yêu cầu báo cáo chưa phân tích.](~/assets/images/insights/erpk-03-four-unnecessary-sources-vi.svg)
 
 Phần lớn customization trong thực tế không xuất phát từ những lý do vừa nêu. Nó xuất phát từ:
 
@@ -85,6 +97,8 @@ Phần lớn customization trong thực tế không xuất phát từ những l�
 ---
 
 ## Chi phí ẩn của customization quá mức
+
+![Năm chi phí ẩn của customization quá mức: bảo trì định kỳ, rủi ro khi nâng cấp, phụ thuộc vào vài người, khó tích hợp công cụ mới và mất best practice.](~/assets/images/insights/erpk-04-five-hidden-costs-vi.svg)
 
 Đây là phần mà phần lớn quyết định customization không được xem xét đầy đủ: chi phí thực sự không chỉ là chi phí lập trình ban đầu.
 
@@ -103,6 +117,8 @@ Phần lớn customization trong thực tế không xuất phát từ những l�
 ---
 
 ## Framework để ra quyết định customization
+
+![Năm câu hỏi trước khi chấp nhận customization: là customization hay configuration, có đổi quy trình được không, chi phí thực tế, lợi ích có đo lường được không và ai là người quyết định.](~/assets/images/insights/erpk-05-five-decision-questions-vi.svg)
 
 Trước khi chấp nhận bất kỳ yêu cầu customization nào, cần trả lời đầy đủ năm câu hỏi:
 

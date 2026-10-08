@@ -18,6 +18,12 @@ secondaryKeywords:
   - "cost of ERP customization"
   - "ERP upgrade complexity"
   - "over-customized ERP |"
+assessmentHref: /en/readiness/erp
+ctaPrimaryText: 'Assess your ERP readiness'
+ctaSubtitle: 'Identify your ERP readiness level'
+coverImage: '~/assets/images/insights/erpk-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/erpk-00-og-cover-en.png'
+coverImageAlt: "An ERP block in the middle: configuration items inside the software's scope on the left, dashed customization blocks adding code and technical debt on the right."
 draft: false
 ---
 
@@ -32,6 +38,8 @@ draft: false
 
 ## Customization vs Configuration: Why the Distinction Matters
 
+![Configuration works within the software's design with no code changes (approval workflow, currencies and tax rates, product categories, user permissions); customization changes default behavior through code (custom pricing logic, a new data entry screen, integration with an external system).](~/assets/images/insights/erpk-01-configuration-vs-customization-en.svg)
+
 Before discussing risk, it is worth being precise about two terms that are frequently used interchangeably.
 
 **Configuration** is adjusting the ERP system within the range of what the software was designed to support. Setting up a three-level approval workflow instead of two. Configuring currencies and tax rates. Defining product categories. Assigning user permissions. These are things ERP is built to accommodate — no code changes are required, and they typically do not affect the ability to upgrade to future versions.
@@ -43,6 +51,8 @@ The line between the two is not always obvious — but the consequences of misun
 ---
 
 ## When Customization Is Justified
+
+![Three cases where customization is justified: regulatory or compliance requirements, a competitive-advantage process configuration cannot meet, and irreplaceable systems such as production equipment or industry software.](~/assets/images/insights/erpk-02-three-justified-cases-en.svg)
 
 Not all customization is a mistake. There are cases where it is genuinely necessary and where the business value clearly outweighs the cost and risk.
 
@@ -57,6 +67,8 @@ What these justified cases have in common: a clear business rationale, a full co
 ---
 
 ## When Customization Becomes a Problem
+
+![Four sources of unnecessary customization: unstandardized processes, resistance to change, timeline pressure and unanalyzed reporting needs.](~/assets/images/insights/erpk-03-four-unnecessary-sources-en.svg)
 
 Most customization in practice does not originate from the justified cases above. It originates from:
 
@@ -73,6 +85,8 @@ This is the source of a large proportion of unnecessary customization: using ERP
 ---
 
 ## The Hidden Cost of Over-Customized ERP
+
+![Five hidden costs of over-customized ERP: ongoing maintenance, upgrade risk, knowledge concentration, harder integration and departure from best practice.](~/assets/images/insights/erpk-04-five-hidden-costs-en.svg)
 
 This is the part of the customization decision that is most consistently underweighted: the true cost is not the initial development fee.
 
@@ -91,6 +105,8 @@ This is a form of knowledge concentration risk: operational risk created by havi
 ---
 
 ## A Framework for Making the Customization Decision
+
+![Five questions before approving a customization: is it customization or configuration, can the process adapt, what is the true total cost, is the value measurable and who decides.](~/assets/images/insights/erpk-05-five-decision-questions-en.svg)
 
 Before accepting any customization request, five questions need full answers:
 
