@@ -53,6 +53,8 @@ Quy trình kiểm soát chất lượng vẫn phụ thuộc vào kinh nghiệm c
 
 ## AI productivity và organizational intelligence — hai khái niệm khác nhau
 
+![AI productivity là cá nhân làm việc nhanh hơn ở từng tác vụ; organizational intelligence là năng lực của tổ chức: quyết định đúng, thực thi nhất quán, học hỏi, phát hiện sớm và giải thích được quyết định.](~/assets/images/insights/ai-readiness-doanh-nghiep/aip-01-productivity-vs-intelligence-vi.svg)
+
 Trước khi đặt câu hỏi "AI đã sẵn sàng chưa", cần làm rõ một sự phân biệt quan trọng mà nhiều tổ chức đang bỏ qua.
 
 ### AI productivity — cá nhân làm việc nhanh hơn
@@ -94,6 +96,8 @@ Một insight quan trọng cần ghi nhớ:
 
 ## Tại sao chatbot "biết nhiều" vẫn không trả lời được câu hỏi vận hành
 
+![RAG trả lời được câu hỏi về nội dung tài liệu như SOP; các câu hỏi về lô hàng cụ thể, phê duyệt và evidence, hay tuân thủ thực tế cần context vận hành, không nằm trong nội dung tài liệu.](~/assets/images/insights/ai-readiness-doanh-nghiep/aip-02-rag-limits-vi.svg)
+
 Nhiều tổ chức bắt đầu AI journey bằng một chatbot: tải tài liệu lên, để AI đọc, rồi hỏi.
 
 Về mặt kỹ thuật, đây là kiến trúc RAG — Retrieval-Augmented Generation. AI tìm kiếm trong kho tài liệu và tổng hợp câu trả lời.
@@ -121,6 +125,8 @@ Khoảng cách giữa "AI biết quy định" và "AI hiểu doanh nghiệp đan
 ---
 
 ## 6 điều kiện để AI thực sự có ích trong vận hành
+
+![Sáu điều kiện để AI có ích trong vận hành: dữ liệu có cấu trúc, quy trình rõ, tri thức tổ chức được cấu trúc hóa, governance và phân quyền, tích hợp hệ thống, organizational context.](~/assets/images/insights/ai-readiness-doanh-nghiep/aip-03-six-conditions-vi.svg)
 
 Dựa trên phân tích cấu trúc của bài toán, có 6 điều kiện nền tảng mà một tổ chức cần chuẩn bị trước khi AI có thể tạo ra giá trị bền vững ở cấp vận hành. Đây là phân tích từ góc độ tổ chức và quản trị — không phải danh sách tính năng phần mềm.
 
@@ -218,6 +224,8 @@ Không có organizational context, AI hoạt động như một người mới t
 
 ## Doanh nghiệp sản xuất cần chuẩn bị gì — và tại sao yêu cầu cao hơn
 
+![Doanh nghiệp sản xuất có thêm ba yêu cầu với AI: truy xuất nguồn gốc, sẵn sàng cho audit và nhất quán giữa các ca; AI không thể tạo bằng chứng sau khi sự kiện đã xảy ra.](~/assets/images/insights/ai-readiness-doanh-nghiep/aip-04-manufacturing-evidence-vi.svg)
+
 Với doanh nghiệp sản xuất, đặc biệt trong các ngành có yêu cầu ISO, GMP, FSSC, HACCP hoặc các tiêu chuẩn tương đương, AI readiness có thêm một chiều phức tạp: **compliance và evidence**.
 
 ### Yêu cầu traceability
@@ -243,6 +251,8 @@ AI có thể hỗ trợ điều này — nhưng chỉ khi quy trình được đ
 ---
 
 ## Lộ trình AI readiness — không phải một đích đến, mà là một hành trình
+
+![Ba giai đoạn AI readiness: AI productivity cho cá nhân, AI với context tổ chức, AI trong workflow vận hành; mỗi giai đoạn có điều kiện cần, giá trị và rủi ro riêng.](~/assets/images/insights/ai-readiness-doanh-nghiep/aip-05-three-stage-roadmap-vi.svg)
 
 AI readiness không phải trạng thái nhị phân: hoặc sẵn sàng hoặc không. Nó là một quá trình tiến dần.
 
@@ -304,6 +314,8 @@ Nếu doanh nghiệp nhận ra mình trong nhiều dấu hiệu trên, vấn đ�
 ---
 
 ## Một câu hỏi cần đặt ra trước khi quyết định
+
+![Câu hỏi chẩn đoán trước khi quyết định về AI rẽ ba nhánh: quy trình chưa chuẩn hóa, tri thức nằm trong đầu người, dữ liệu không có cấu trúc; AI không giải quyết được nếu thiếu nền tảng đó.](~/assets/images/insights/ai-readiness-doanh-nghiep/aip-06-diagnostic-question-vi.svg)
 
 Trước khi đưa ra bất kỳ quyết định nào về AI, có một câu hỏi quan trọng hơn tất cả các câu hỏi về công nghệ:
 

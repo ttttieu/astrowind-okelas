@@ -53,6 +53,8 @@ This isn't the story of one company. It's a pattern repeating across many organi
 
 ## AI productivity vs. organizational intelligence — a distinction that matters
 
+![AI productivity is individuals working faster on single tasks; organizational intelligence is the organization's capacity to decide well, execute consistently, learn, detect problems early and explain decisions.](~/assets/images/insights/organizational-ai-readiness/aip-01-productivity-vs-intelligence-en.svg)
+
 Before asking whether AI is ready, it's worth clarifying a distinction that most organizations are conflating.
 
 ### AI productivity — individuals working faster
@@ -94,6 +96,8 @@ A core insight to carry forward:
 
 ## Why a chatbot that "knows everything" still can't answer operational questions
 
+![RAG can answer questions about document content such as SOPs; questions about a specific batch, approvals and evidence, or actual compliance need operational context that documents do not hold.](~/assets/images/insights/organizational-ai-readiness/aip-02-rag-limits-en.svg)
+
 Many organizations begin their AI journey with a chatbot: upload documents, let AI read them, then ask questions.
 
 Technically, this is a RAG architecture — Retrieval-Augmented Generation. The AI searches a document repository and synthesizes answers.
@@ -119,6 +123,8 @@ The gap between "AI knows the rules" and "AI understands how the business actual
 ---
 
 ## 6 conditions for AI to deliver lasting operational value
+
+![Six conditions for AI to deliver operational value: structured data, clear processes, structured organizational knowledge, governance and authorization, system integration, organizational context.](~/assets/images/insights/organizational-ai-readiness/aip-03-six-conditions-en.svg)
 
 Based on structural analysis of the problem, there are six foundational conditions an organization needs before AI can create lasting value at the operational level. This is an organizational and governance analysis — not a list of software features.
 
@@ -216,6 +222,8 @@ Without organizational context, AI operates like a highly capable new hire hande
 
 ## What manufacturing businesses need to prepare — and why requirements are higher
 
+![Manufacturing adds three requirements for AI: traceability, audit readiness and consistency across shifts; AI cannot create evidence after the event has happened.](~/assets/images/insights/organizational-ai-readiness/aip-04-manufacturing-evidence-en.svg)
+
 For manufacturing organizations — particularly those operating under ISO, GMP, FSSC, HACCP, or equivalent standards — AI readiness has an additional dimension: **compliance and evidence**.
 
 ### Traceability requirements
@@ -241,6 +249,8 @@ AI can support this — but only when processes are clearly defined, stored in s
 ---
 
 ## An AI readiness roadmap — not a destination, but a progression
+
+![Three stages of AI readiness: individual AI productivity, AI with organizational context, AI within operational workflow; each stage has its own needs, value and risk.](~/assets/images/insights/organizational-ai-readiness/aip-05-three-stage-roadmap-en.svg)
 
 AI readiness is not binary: either ready or not. It is a progression.
 
@@ -302,6 +312,8 @@ If many of these signals describe your organization, the issue is not that AI is
 ---
 
 ## The question to ask before making any AI decision
+
+![A diagnostic question before any AI decision branches three ways: processes not standardized, knowledge in people's heads, data without structure; AI cannot fix these without the foundation.](~/assets/images/insights/organizational-ai-readiness/aip-06-diagnostic-question-en.svg)
 
 Before any decision about AI technology, there is one question more important than all technical questions:
 
