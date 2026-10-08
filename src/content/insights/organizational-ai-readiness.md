@@ -354,7 +354,7 @@ The assessment takes approximately 8–10 minutes and requires no technical back
 ## Further reading
 
 **Within the AI Readiness cluster:**
-- [AI helps employees work faster — but is the organization handling more?](/en/insights/ai/ai-productivity-vs-organizational-intelligence)
+- [AI helps employees work faster — but is the organization handling more?](/en/insights/ai/ai-productivity-paradox)
 - [What is RAG — and why a chatbot that knows everything still can't answer operational questions](/en/insights/ai/rag-limitations-enterprise-ai)
 - [AI readiness: 6 conditions for operational AI to actually work](/en/insights/ai/ai-readiness-checklist)
 - [You have data but no context — why AI can't use it](/en/insights/ai/data-without-context-ai-problem)

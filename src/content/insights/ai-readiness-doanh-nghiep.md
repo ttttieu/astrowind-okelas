@@ -356,7 +356,7 @@ Assessment khoảng 8–10 phút, không yêu cầu nền tảng kỹ thuật. K
 ## Đọc thêm
 
 **Trong cluster AI Readiness:**
-- [AI giúp nhân viên viết nhanh hơn, nhưng doanh nghiệp có xử lý được nhiều hơn không?](/insights/ai/ai-nang-suat-va-tri-thuc-tong-the)
+- [AI giúp nhân viên viết nhanh hơn, nhưng doanh nghiệp có xử lý được nhiều hơn không?](/insights/ai/ai-tang-nang-suat-doanh-nghiep)
 - [RAG là gì — và tại sao chatbot "biết nhiều" vẫn không trả lời được câu hỏi vận hành](/insights/ai/rag-la-gi-han-che-ai)
 - [AI readiness: 6 điều kiện để AI thực sự có ích trong vận hành](/insights/ai/dieu-kien-trien-khai-ai-van-hanh)
 - [Dữ liệu có nhưng không có context — tại sao AI không thể dùng được?](/insights/ai/du-lieu-khong-co-context-ai)
