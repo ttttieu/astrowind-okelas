@@ -2,6 +2,9 @@
 title: "Least Privilege for AI Agents: Designing Authority That Matches the Task"
 description: "An AI agent should only be granted the minimum permissions needed for a specific task — nothing more. Here's how the principle of least privilege applies to AI agents and how to implement it in enterprise environments."
 publishDate: 2026-09-23T00:00:00Z
+coverImage: '~/assets/images/insights/least-privilege-ai-agent/alp-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/least-privilege-ai-agent/alp-00-og-cover-en.png'
+coverImageAlt: "Four ascending steps labelled Read, Request, Recommend and Execute; the highest step is highlighted."
 translationId: article-6-12-least-privilege
 lang: en
 category: ai
@@ -19,6 +22,8 @@ secondaryKeywords:
   - "AI agent authorization design"
   - "AI access control principle"
 assessmentHref: /en/readiness/ai
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Identify your AI readiness level'
 draft: false
 ---
 
@@ -42,6 +47,8 @@ The answer doesn't need to be invented from scratch — it's existed in computer
 
 ## What Least Privilege Means
 
+![Two horizontal bars: broad access across the full width above; least privilege, much shorter, below.](~/assets/images/insights/least-privilege-ai-agent/alp-01-broad-vs-minimal-en.svg)
+
 **Claim:** The least-privilege principle states that an entity (a program, a user, or — in today's context — an AI agent) should only be granted exactly the amount of authority needed to complete its assigned task, no more.
 
 This principle was formally presented in "The Protection of Information in Computer Systems" (Saltzer & Schroeder, Proceedings of the IEEE, 1975) — one of the most foundational works in information security, published a full decade before the first U.S. Department of Defense computer security standard (the Orange Book, 1985). The original statement: **"every program and every privileged user of the system should operate using the least amount of privilege necessary to complete the job."**
@@ -53,6 +60,8 @@ Saltzer and Schroeder also proposed an important complementary principle: **"com
 ---
 
 ## Why This Applies to AI Agents
+
+![Three numbered cards: broad access, many steps in sequence, and data and actions blurring together.](~/assets/images/insights/least-privilege-ai-agent/alp-02-three-traits-en.svg)
 
 The least-privilege principle was born for traditional computer systems, but three traits of AI agents make applying it more urgent, if no less important:
 
@@ -68,6 +77,8 @@ The trend has already been documented: the **Excessive Agency** risk climbed fro
 
 ## Example Permission Tiers: Read / Request / Recommend / Execute
 
+![Four ascending columns labelled Read, Request, Recommend and Execute, each with a short description.](~/assets/images/insights/least-privilege-ai-agent/alp-03-four-tiers-en.svg)
+
 One practical way to apply least privilege to an AI agent is to design a four-tier model, instead of a binary "has permission" or "doesn't."
 
 **Tier 1 — Read.** The agent can query and read data to support analysis or answer questions, but has no ability to change anything. This is the lowest-risk tier, fitting most information-synthesis, lookup, or classification tasks.
@@ -78,11 +89,15 @@ One practical way to apply least privilege to an AI agent is to design a four-ti
 
 **Tier 4 — Execute.** The agent is authorized to self-execute an action without confirming each time, but only within a threshold pre-approved by a person: most repetitive, low-value cases with clear precedent go straight to action; cases exceeding the threshold automatically drop back to Tier 3.
 
+![Two example cards: internal reminder email at the Execute tier; editing financial records at the Request tier.](~/assets/images/insights/least-privilege-ai-agent/alp-04-one-agent-tiers-en.svg)
+
 These four tiers aren't fixed for an entire agent — they should be assigned separately for **each type of action** an agent can take. The same agent might sit at Tier 4 for sending an internal reminder email, but only at Tier 2 for editing a financial record.
 
 ---
 
 ## Designing a Permission Model
+
+![Four numbered step cards in order; the step to check at every action is highlighted.](~/assets/images/insights/least-privilege-ai-agent/alp-05-four-steps-en.svg)
 
 To move from principle to practice, four concrete steps:
 

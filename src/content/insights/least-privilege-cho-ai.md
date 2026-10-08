@@ -2,6 +2,9 @@
 title: "Least Privilege cho AI Agent: nguyên tắc thiết kế quyền hạn AI"
 description: "AI agent chỉ nên được cấp quyền tối thiểu cần thiết cho task cụ thể — không hơn. Bài viết phân tích nguyên tắc least privilege trong ngữ cảnh AI và cách áp dụng trong enterprise."
 publishDate: 2026-09-23T00:00:00Z
+coverImage: '~/assets/images/insights/least-privilege-cho-ai/alp-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/least-privilege-cho-ai/alp-00-og-cover-vi.png'
+coverImageAlt: "Bốn bậc thang tăng dần, nhãn Read, Request, Recommend, Execute; bậc cao nhất được tô nổi bật."
 translationId: article-6-12-least-privilege
 lang: vi
 category: ai
@@ -19,6 +22,8 @@ secondaryKeywords:
   - "AI access control"
   - "AI privilege management"
 assessmentHref: /readiness/ai
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---
 
@@ -42,6 +47,8 @@ Câu trả lời không cần phát minh mới — nó đã tồn tại trong kh
 
 ## Least privilege là gì
 
+![Hai thanh ngang: thanh quyền rộng ở trên, dài toàn bộ; thanh least privilege ở dưới, ngắn hơn nhiều.](~/assets/images/insights/least-privilege-cho-ai/alp-01-broad-vs-minimal-vi.svg)
+
 **Claim:** Nguyên tắc least privilege quy định rằng một thực thể chỉ nên được cấp đúng lượng quyền hạn cần thiết để hoàn thành nhiệm vụ được giao, không hơn.
 
 Nguyên tắc này được trình bày chính thức trong "The Protection of Information in Computer Systems" (Saltzer & Schroeder, Proceedings of the IEEE, 1975) — một trong những công trình nền tảng nhất của lĩnh vực an ninh thông tin. Phát biểu gốc, dựa trên ghi chú trước đó của Saltzer năm 1970: **"mỗi chương trình và mỗi người dùng có đặc quyền của hệ thống nên hoạt động với lượng đặc quyền tối thiểu cần thiết để hoàn thành công việc."**
@@ -53,6 +60,8 @@ Saltzer và Schroeder cũng đề xuất nguyên tắc bổ trợ quan trọng: 
 ---
 
 ## Tại sao áp dụng cho AI agent
+
+![Ba thẻ đánh số: quyền rộng, nhiều bước liên tiếp, và dữ liệu lẫn hành động.](~/assets/images/insights/least-privilege-cho-ai/alp-02-three-traits-vi.svg)
 
 Ba đặc điểm của AI agent khiến việc áp dụng nguyên tắc least privilege trở nên cấp thiết:
 
@@ -68,6 +77,8 @@ Xu hướng thực tế đã được ghi nhận: rủi ro **Excessive Agency** 
 
 ## Mô hình phân cấp: Read / Request / Recommend / Execute
 
+![Bốn cột bậc thang tăng dần: Read, Request, Recommend, Execute, mỗi cột có mô tả ngắn.](~/assets/images/insights/least-privilege-cho-ai/alp-03-four-tiers-vi.svg)
+
 Một cách áp dụng thực tế nguyên tắc least privilege là thiết kế mô hình phân cấp bốn tầng:
 
 **Tầng 1 — Read (Chỉ đọc).** Agent có thể truy vấn và đọc dữ liệu để phục vụ phân tích hoặc trả lời câu hỏi, nhưng không có khả năng thay đổi bất cứ điều gì. Đây là tầng rủi ro thấp nhất, phù hợp với phần lớn các tác vụ tổng hợp thông tin.
@@ -78,6 +89,8 @@ Một cách áp dụng thực tế nguyên tắc least privilege là thiết k�
 
 **Tầng 4 — Execute (Tự thực thi trong ngưỡng).** Agent được phép tự thực hiện hành động mà không cần xác nhận từng lần, nhưng chỉ trong phạm vi ngưỡng đã được con người phê duyệt trước. Trường hợp vượt ngưỡng tự động chuyển về Tầng 3.
 
+![Hai thẻ ví dụ: gửi email nhắc nhở nội bộ ở tầng Execute; sửa bản ghi tài chính ở tầng Request.](~/assets/images/insights/least-privilege-cho-ai/alp-04-one-agent-tiers-vi.svg)
+
 Bốn tầng này không cố định cho cả một agent — chúng nên được gán riêng cho **từng loại hành động** mà agent có thể thực hiện. Cùng một agent có thể ở Tầng 4 cho việc gửi email nhắc nhở nội bộ, nhưng chỉ ở Tầng 2 cho việc chỉnh sửa hồ sơ tài chính.
 
 → *Liên quan: [AI cần một Control Layer: lớp nằm giữa agent và organizational knowledge](/insights/ai/ai-control-layer-doanh-nghiep)*
@@ -85,6 +98,8 @@ Bốn tầng này không cố định cho cả một agent — chúng nên đư�
 ---
 
 ## Cách thiết kế permission model
+
+![Bốn thẻ bước được đánh số theo thứ tự; bước kiểm tra ở mỗi hành động được tô nổi bật.](~/assets/images/insights/least-privilege-cho-ai/alp-05-four-steps-vi.svg)
 
 Bốn bước cụ thể để chuyển từ nguyên tắc sang thực hành:
 
