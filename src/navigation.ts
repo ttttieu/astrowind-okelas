@@ -35,6 +35,7 @@ export const headerData = {
     {
       text: 'Insights',
       links: [
+        { text: 'Trending', href: '/insights/trending' },
         { text: 'Digitalization', href: '/insights/business-operations' },
         { text: 'Workflow', href: '/insights/workflow' },
         { text: 'Knowledge Management', href: '/insights/knowledge-management' },
@@ -80,6 +81,7 @@ export const footerData = {
     {
       title: 'Insights',
       links: [
+        { text: 'Trending', href: '/insights/trending' },
         { text: 'Digitalization', href: '/insights/business-operations' },
         { text: 'Workflow', href: '/insights/workflow' },
         { text: 'Knowledge Management', href: '/insights/knowledge-management' },
