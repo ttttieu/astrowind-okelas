@@ -1676,6 +1676,97 @@
         "category": "company",
         "url": "/en/contact"
       }
+    },
+    {
+      "translationId": "ung-dung-ai-van-de-thuc-su",
+      "vi": {
+        "slug": "ung-dung-ai-van-de-thuc-su",
+        "category": "trending",
+        "url": "/insights/trending/ung-dung-ai-van-de-thuc-su"
+      },
+      "en": {
+        "slug": "ai-adoption-real-problem",
+        "category": "trending",
+        "url": "/en/insights/trending/ai-adoption-real-problem"
+      }
+    },
+    {
+      "translationId": "giao-viec-qua-nhom-chat",
+      "vi": {
+        "slug": "giao-viec-qua-nhom-chat",
+        "category": "trending",
+        "url": "/insights/trending/giao-viec-qua-nhom-chat"
+      },
+      "en": {
+        "slug": "chat-group-operations",
+        "category": "trending",
+        "url": "/en/insights/trending/chat-group-operations"
+      }
+    },
+    {
+      "translationId": "ho-phu-quyet-dinh-chi-dau",
+      "vi": {
+        "slug": "ho-phu-quyet-dinh-chi-dau",
+        "category": "trending",
+        "url": "/insights/trending/ho-phu-quyet-dinh-chi-dau"
+      },
+      "en": {
+        "slug": "ho-phu-decision-audit-trail",
+        "category": "trending",
+        "url": "/en/insights/trending/ho-phu-decision-audit-trail"
+      }
+    },
+    {
+      "translationId": "ai-tim-dieu-con-nguoi-bo-sot",
+      "vi": {
+        "slug": "ai-tim-dieu-con-nguoi-bo-sot",
+        "category": "trending",
+        "url": "/insights/trending/ai-tim-dieu-con-nguoi-bo-sot"
+      },
+      "en": {
+        "slug": "php2shell-ai-readiness",
+        "category": "trending",
+        "url": "/en/insights/trending/php2shell-ai-readiness"
+      }
+    },
+    {
+      "translationId": "lien-xo-1941-khong-cung-thuc-te",
+      "vi": {
+        "slug": "lien-xo-1941-khong-cung-thuc-te",
+        "category": "trending",
+        "url": "/insights/trending/lien-xo-1941-khong-cung-thuc-te"
+      },
+      "en": {
+        "slug": "red-army-1941-connection",
+        "category": "trending",
+        "url": "/en/insights/trending/red-army-1941-connection"
+      }
+    },
+    {
+      "translationId": "he-thong-chay-khong-kiem-soat",
+      "vi": {
+        "slug": "he-thong-chay-khong-kiem-soat",
+        "category": "trending",
+        "url": "/insights/trending/he-thong-chay-khong-kiem-soat"
+      },
+      "en": {
+        "slug": "system-running-not-in-control",
+        "category": "trending",
+        "url": "/en/insights/trending/system-running-not-in-control"
+      }
+    },
+    {
+      "translationId": "so-100-m-tri-thuc-ngam",
+      "vi": {
+        "slug": "so-100-m-tri-thuc-ngam",
+        "category": "trending",
+        "url": "/insights/trending/so-100-m-tri-thuc-ngam"
+      },
+      "en": {
+        "slug": "tacit-knowledge-100m",
+        "category": "trending",
+        "url": "/en/insights/trending/tacit-knowledge-100m"
+      }
     }
   ]
 }
