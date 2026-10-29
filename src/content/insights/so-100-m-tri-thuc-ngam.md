@@ -2,16 +2,16 @@
 title: "Con số 100 m: Khi tri thức ngầm trở thành \"quy định\""
 description: "Một quy tắc ai cũng tuân theo nhưng không ai nhớ lý do. Cách tri thức ngầm biến thành \"quy định\" trong doanh nghiệp sản xuất, và cái giá tổ chức phải trả."
 publishDate: 2026-10-24T07:00:00Z
-translationId: so-100-m-tri-thuc-ngam
+translationId: tacit-knowledge-100m
 lang: vi
 category: trending
 contentType: Opening
 funnelStage: [Awareness]
-audience: [CEO, COO, Giám đốc chất lượng]
+audience: [CEO, COO, CIO]
 primaryKeyword: "tri thức ngầm"
-secondaryKeywords: [tri thức ẩn trong doanh nghiệp, quản trị tri thức, quy trình không rõ căn cứ]
-ctaPrimaryText: "Đánh giá Sẵn Sàng Tri Thức"
-ctaSubtitle: "Đánh giá cơ sở hạ tầng tri thức vận hành của doanh nghiệp."
+secondaryKeywords: [tri thức ẩn trong doanh nghiệp, quản trị tri thức doanh nghiệp sản xuất, quy trình không rõ căn cứ, mất tri thức khi nhân sự nghỉ việc, tacit knowledge là gì]
+ctaPrimaryText: "Đánh giá Quản Trị Tri Thức"
+ctaSubtitle: "Kiểm tra mức độ trưởng thành quản trị tri thức của doanh nghiệp."
 assessmentHref: /readiness/knowledge
 draft: false
 ---
@@ -24,7 +24,7 @@ Không ai phản đối. Ngành dược kiểm soát rất chặt, nhiễm chéo
 
 Nhưng có một câu hỏi đáng giá hơn mọi cái gật đầu: **100 m đến từ đâu?**
 
-Các văn bản GMP thường được viện dẫn, như quy định của FDA Hoa Kỳ hay hướng dẫn EU GMP, yêu cầu tách biệt cơ sở và hệ thống xử lý không khí cho penicillin, và yêu cầu kiểm soát nhiễm chéo dựa trên đánh giá rủi ro. Khi tra cứu, không tìm thấy một con số khoảng cách cố định nào.
+Các văn bản GMP thường được viện dẫn, như quy định của FDA Hoa Kỳ hay hướng dẫn EU GMP, yêu cầu tách biệt cơ sở và hệ thống xử lý không khí cho penicillin, và yêu cầu kiểm soát nhiễm chéo dựa trên đánh giá rủi ro. Khi tra cứu, chúng tôi không tìm thấy một con số khoảng cách cố định nào.
 
 Điều đó không có nghĩa 100 m là sai. Có thể nó từng là lời giải hợp lý cho một dự án cụ thể. Bài viết này không bàn chuyện đúng sai về kỹ thuật. Nó bàn về một hiện tượng phổ biến hơn nhiều: **trong tổ chức có những "quy định" được mọi người tuân theo, nhưng không ai còn chỉ ra được căn cứ.**
 
@@ -94,3 +94,17 @@ Tri thức không chỉ là câu trả lời. Nó là câu trả lời đi cùng
 Mục tiêu của quản trị tri thức không phải là để mọi người nhớ cùng một con số.
 
 **Mà là để họ biết khi nào con số ấy còn có nghĩa.**
+
+---
+
+**Bước tiếp theo**
+
+- Đánh giá mức độ trưởng thành quản trị tri thức của doanh nghiệp: [Knowledge Management Maturity Assessment](/readiness/knowledge)
+- Đọc bài trụ cột: [Từ tri thức cá nhân đến tri thức tổ chức](/insights/tu-tri-thuc-ca-nhan-den-tri-thuc-to-chuc)
+- Đọc tiếp: [Tri thức ngầm và tri thức hiện](/insights/tri-thuc-ngam-va-tri-thuc-hien) · [Khi nhân sự chủ chốt nghỉ việc, họ mang đi thứ gì?](/insights/nhan-su-chu-chot-nghi-viec-mang-di-gi)
+
+---
+
+**Ghi chú nguồn**
+
+Quy định của FDA Hoa Kỳ (21 CFR 211.42(d) và 211.46(d)) yêu cầu hoạt động sản xuất penicillin thực hiện trong cơ sở tách biệt và có hệ thống xử lý không khí tách biệt hoàn toàn. EU GMP Phần I, Chương 3 (mục 3.6) yêu cầu ngăn ngừa nhiễm chéo bằng thiết kế và vận hành phù hợp, với biện pháp tương xứng mức rủi ro theo nguyên tắc quản lý rủi ro chất lượng. Tình huống mở đầu là tình huống minh họa. Bài viết phân tích từ góc độ quản trị, không phải tư vấn tuân thủ hay pháp lý.

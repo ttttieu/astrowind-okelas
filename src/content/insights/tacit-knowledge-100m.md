@@ -2,16 +2,16 @@
 title: "The 100-Meter Rule: When Tribal Knowledge Becomes Policy"
 description: "A rule everyone follows but no one can explain. How tribal knowledge hardens into policy in manufacturing companies, and what it quietly costs the organization."
 publishDate: 2026-10-24T07:00:00Z
-translationId: so-100-m-tri-thuc-ngam
+translationId: tacit-knowledge-100m
 lang: en
 category: trending
 contentType: Opening
 funnelStage: [Awareness]
-audience: [CEO, COO, Quality Director]
+audience: [CEO, COO, CIO]
 primaryKeyword: "tribal knowledge"
-secondaryKeywords: [tacit knowledge in organizations, institutional knowledge loss, undocumented rules]
-ctaPrimaryText: "Assess Your Knowledge Readiness"
-ctaSubtitle: "Evaluate your organization's knowledge infrastructure."
+secondaryKeywords: [tacit knowledge in organizations, institutional knowledge loss, undocumented rules in manufacturing, knowledge management in manufacturing, why SOPs lack rationale]
+ctaPrimaryText: "Assess Knowledge Management"
+ctaSubtitle: "Evaluate your organization's knowledge management maturity."
 assessmentHref: /en/readiness/knowledge
 draft: false
 ---
@@ -94,3 +94,17 @@ Knowledge is not just the answer. It is the answer together with the reasoning t
 The goal of knowledge management is not to get everyone to remember the same number.
 
 **It is to help them know when that number still makes sense.**
+
+---
+
+**Next steps**
+
+- Assess your organization's knowledge management maturity: [Knowledge Management Maturity Assessment](/en/readiness/knowledge)
+- Read the pillar article: [From Individual Knowledge to Organizational Knowledge](/en/insights/from-individual-to-organizational-knowledge)
+- Related: [Tacit vs. Explicit Knowledge: Why the Difference Matters](/en/insights/tacit-vs-explicit-knowledge) · [When Key People Leave, What Do They Take With Them?](/en/insights/what-key-people-take-when-they-leave)
+
+---
+
+**Source note**
+
+US FDA regulations (21 CFR 211.42(d) and 211.46(d)) require penicillin manufacturing to take place in separate facilities with completely separate air-handling systems. EU GMP Part I, Chapter 3 (section 3.6) requires cross-contamination to be prevented through appropriate facility design and operation, with measures proportionate to risk under quality risk management principles. The opening scenario is illustrative. This article is a management perspective, not compliance or legal advice.
