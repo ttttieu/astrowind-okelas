@@ -10,6 +10,9 @@ funnelStage: [Understanding]
 audience: [CEO, COO, Quality Director]
 primaryKeyword: "decision audit trail"
 secondaryKeywords: [audit trail vs digital signature, decision traceability, approval audit trail, organizational memory]
+ctaPrimaryText: "Assess Your Knowledge Readiness"
+ctaSubtitle: "Evaluate your organization's knowledge infrastructure."
+assessmentHref: /en/readiness/knowledge
 draft: false
 ---
 

@@ -10,6 +10,9 @@ funnelStage: [Awareness]
 audience: [CEO, COO, Giám đốc vận hành]
 primaryKeyword: "kiểm soát vận hành"
 secondaryKeywords: [khả năng nhìn thấy vận hành, dữ liệu vận hành theo thời gian thực, quản trị vận hành]
+ctaPrimaryText: "Đánh giá Sẵn Sàng Số Hóa"
+ctaSubtitle: "Đánh giá mức độ hiển thị và kiểm soát dữ liệu vận hành của doanh nghiệp."
+assessmentHref: /readiness/digitalization
 draft: false
 ---
 

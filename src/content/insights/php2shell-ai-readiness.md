@@ -10,6 +10,9 @@ funnelStage: [Understanding]
 audience: [CEO, COO, CIO]
 primaryKeyword: "AI readiness"
 secondaryKeywords: [organizational AI readiness, PHP2Shell lessons, AI in quality management, AI readiness assessment]
+ctaPrimaryText: "Take the AI Readiness Assessment"
+ctaSubtitle: "Evaluate your organization's readiness before deploying AI at scale."
+assessmentHref: /en/readiness/ai
 draft: false
 ---
 

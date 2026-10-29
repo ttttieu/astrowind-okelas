@@ -4,12 +4,15 @@ description: "Companies invest in AI but productivity doesn't follow. Three laye
 publishDate: 2026-10-24
 translationId: ai-adoption-real-problem
 lang: en
-category: ai
+category: trending
 contentType: Opening
 funnelStage: [Awareness]
 audience: [CEO, COO]
 primaryKeyword: "AI adoption productivity"
 secondaryKeywords: [AI readiness, organizational intelligence, scaling AI, AI implementation]
+ctaPrimaryText: "Take the AI Readiness Assessment"
+ctaSubtitle: "Assess your organization's readiness before deploying AI at scale."
+assessmentHref: /en/readiness/ai
 draft: false
 ---
 

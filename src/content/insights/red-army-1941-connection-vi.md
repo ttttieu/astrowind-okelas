@@ -10,6 +10,9 @@ funnelStage: [Understanding]
 audience: [CEO, COO, Giám đốc chất lượng]
 primaryKeyword: "phối hợp liên phòng ban"
 secondaryKeywords: [bài học quản trị lịch sử, Chiến dịch Barbarossa, thông tin không đến người quyết định]
+ctaPrimaryText: "Đánh giá Sẵn Sàng Tri Thức"
+ctaSubtitle: "Kiểm tra cơ sở hạ tầng tri thức vận hành của doanh nghiệp."
+assessmentHref: /readiness/knowledge
 draft: false
 ---
 

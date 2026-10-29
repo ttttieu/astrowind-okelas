@@ -4,12 +4,15 @@ description: "Doanh nghiệp đầu tư vào AI nhưng năng suất không tăng
 publishDate: 2026-10-24
 translationId: ai-adoption-real-problem
 lang: vi
-category: ai
+category: trending
 contentType: Opening
 funnelStage: [Awareness]
 audience: [CEO, COO]
 primaryKeyword: "ứng dụng AI doanh nghiệp"
 secondaryKeywords: [AI readiness, nâng cao năng suất, quản trị AI, triển khai AI]
+ctaPrimaryText: "Đánh giá AI Readiness"
+ctaSubtitle: "Kiểm tra mức độ sẵn sàng của doanh nghiệp trước khi triển khai AI."
+assessmentHref: /readiness/ai
 draft: false
 ---
 

@@ -10,6 +10,9 @@ funnelStage: [Awareness]
 audience: [CEO, COO, Giám đốc chất lượng]
 primaryKeyword: "tri thức ngầm"
 secondaryKeywords: [tri thức ẩn trong doanh nghiệp, quản trị tri thức, quy trình không rõ căn cứ]
+ctaPrimaryText: "Đánh giá Sẵn Sàng Tri Thức"
+ctaSubtitle: "Đánh giá cơ sở hạ tầng tri thức vận hành của doanh nghiệp."
+assessmentHref: /readiness/knowledge
 draft: false
 ---
 

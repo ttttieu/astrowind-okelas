@@ -10,6 +10,9 @@ funnelStage: [Awareness]
 audience: [CEO, COO, Quality Director]
 primaryKeyword: "using group chats for work"
 secondaryKeywords: [workplace messaging app risks, managing work in chat, knowledge fragmentation]
+ctaPrimaryText: "Assess Your Workflow Readiness"
+ctaSubtitle: "Understand your current workflow and the risks of relying on chat and email."
+assessmentHref: /en/readiness/workflow
 draft: false
 ---
 

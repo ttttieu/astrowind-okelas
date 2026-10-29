@@ -10,6 +10,9 @@ funnelStage: [Understanding]
 audience: [CEO, COO, Giám đốc chất lượng]
 primaryKeyword: "audit trail"
 secondaryKeywords: [truy vết quyết định, chữ ký số, lưu vết phê duyệt, bộ nhớ tổ chức]
+ctaPrimaryText: "Đánh giá Sẵn Sàng Tri Thức"
+ctaSubtitle: "Kiểm tra cơ sở hạ tầng tri thức vận hành của doanh nghiệp."
+assessmentHref: /readiness/knowledge
 draft: false
 ---
 

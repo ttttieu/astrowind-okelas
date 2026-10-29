@@ -10,6 +10,9 @@ funnelStage: [Awareness]
 audience: [CEO, COO, Giám đốc chất lượng]
 primaryKeyword: "quản lý công việc qua nhóm chat"
 secondaryKeywords: [giao việc qua tin nhắn, rủi ro Zalo công việc, phân mảnh thông tin]
+ctaPrimaryText: "Đánh giá Sẵn Sàng Workflow"
+ctaSubtitle: "Hiểu quy trình làm việc hiện tại và những nguy hiểm khi dựa vào chat và email."
+assessmentHref: /readiness/workflow
 draft: false
 ---
 

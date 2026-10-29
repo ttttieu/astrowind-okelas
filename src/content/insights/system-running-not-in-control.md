@@ -10,6 +10,9 @@ funnelStage: [Awareness]
 audience: [CEO, COO, Operations Director]
 primaryKeyword: "operational visibility"
 secondaryKeywords: [operational control, real-time operational data, manufacturing visibility]
+ctaPrimaryText: "Assess Your Digitalization Readiness"
+ctaSubtitle: "Evaluate your visibility and control over operational data."
+assessmentHref: /en/readiness/digitalization
 draft: false
 ---
 

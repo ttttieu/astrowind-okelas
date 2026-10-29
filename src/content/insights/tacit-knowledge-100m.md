@@ -10,6 +10,9 @@ funnelStage: [Awareness]
 audience: [CEO, COO, Quality Director]
 primaryKeyword: "tribal knowledge"
 secondaryKeywords: [tacit knowledge in organizations, institutional knowledge loss, undocumented rules]
+ctaPrimaryText: "Assess Your Knowledge Readiness"
+ctaSubtitle: "Evaluate your organization's knowledge infrastructure."
+assessmentHref: /en/readiness/knowledge
 draft: false
 ---
 

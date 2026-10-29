@@ -10,6 +10,9 @@ funnelStage: [Understanding]
 audience: [CEO, COO, Quality Director]
 primaryKeyword: "cross-functional coordination"
 secondaryKeywords: [situational awareness in organizations, decision-making with bad data, leadership lessons]
+ctaPrimaryText: "Assess Your Knowledge Readiness"
+ctaSubtitle: "Evaluate your organization's knowledge infrastructure."
+assessmentHref: /en/readiness/knowledge
 draft: false
 ---
 

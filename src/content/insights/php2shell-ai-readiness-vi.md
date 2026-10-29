@@ -10,6 +10,9 @@ funnelStage: [Understanding]
 audience: [CEO, COO, CIO]
 primaryKeyword: "AI readiness doanh nghiệp"
 secondaryKeywords: [mức độ sẵn sàng AI, AI rà soát tài liệu, PHP2Shell, lỗ hổng bảo mật]
+ctaPrimaryText: "Đánh giá AI Readiness"
+ctaSubtitle: "Kiểm tra mức độ sẵn sàng của doanh nghiệp trước khi triển khai AI."
+assessmentHref: /readiness/ai
 draft: false
 ---
 
