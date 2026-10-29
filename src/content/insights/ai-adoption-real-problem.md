@@ -30,7 +30,7 @@ draft: false
 
 ## When Reality Falls Short of Expectations
 
-A recent article documented a growing pattern of disillusionment among businesses that rushed to adopt AI. Instead of reducing workloads, AI sometimes adds new ones. Instead of improving quality, it produces output that looked polished but contained hard-to-detect errors.
+A recent article in VnExpress — one of Vietnam's most widely read news outlets — documented a growing pattern of disillusionment among businesses that rushed to adopt AI. Instead of reducing workloads, AI sometimes adds new ones. Instead of improving quality, it produces output that looked polished but contained hard-to-detect errors.
 
 What made the article especially revealing was not the reporting itself, but the hundreds of public comments beneath it. Employees, managers, business owners, and technical professionals shared firsthand accounts of what AI adoption actually looks like inside organizations. Their perspectives were neither uniformly optimistic nor pessimistic — they reflected a nuanced reality that most vendor marketing overlooks.
 
@@ -68,7 +68,7 @@ Some companies have had to restrict AI tools, tighten security protocols, and re
 
 ## What Actual Users Are Saying: Six Perspectives from Public Discussion
 
-The comments section of public discussions reveals a far richer debate than simple pro-versus-anti AI sentiment. Six distinct perspectives stand out.
+The comments section of the public discussion reveals a far richer debate than simple pro-versus-anti AI sentiment. Six distinct perspectives stand out.
 
 ### Group 1 — Pragmatic AI Users: "It Helps Me Do My Job Better"
 
@@ -207,7 +207,7 @@ The lesson is not to wait until AI is perfect. The lesson is to build organizati
 
 ---
 
-*Analysis based on public discussions of AI adoption experiences in organizations. Comments are analyzed from an organizational management perspective.*
+*Analysis based on public discussions of AI adoption experiences in organizations. Opinions are analyzed from an organizational management perspective.*
 
 ---
 
