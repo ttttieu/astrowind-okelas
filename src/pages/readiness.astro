@@ -1,0 +1,90 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Content from '~/components/widgets/Content.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Readiness Assessments — OKELAS',
+  description: 'Đánh giá năng lực vận hành doanh nghiệp theo 6 trụ cột: quy trình, tri thức, dữ liệu, kiểm soát, con người và AI. Xác định điểm mạnh và lỗ hổng trước khi triển khai quy trình, ERP hoặc AI.',
+};
+
+const assessments = [
+  {
+    title: 'ERP Readiness Assessment',
+    description: 'Xác định yếu tố sẵn sàng trước khi triển khai ERP: dữ liệu, quy trình, tổ chức.',
+    href: '/readiness/erp',
+    icon: 'tabler:database',
+  },
+  {
+    title: 'AI Readiness Assessment',
+    description: 'Đánh giá 5 chiều sẵn sàng AI: workflow, tri thức, dữ liệu, kiểm soát, con người.',
+    href: '/readiness/ai',
+    icon: 'tabler:brain',
+  },
+  {
+    title: 'Knowledge Readiness Assessment',
+    description: 'Đánh giá cơ sở hạ tầng tri thức vận hành của doanh nghiệp.',
+    href: '/readiness/knowledge',
+    icon: 'tabler:book',
+  },
+  {
+    title: 'Digitalization Readiness Assessment',
+    description: 'Xác định sẵn sàng chuyển đổi số theo các trụ cột vận hành.',
+    href: '/readiness/digitalization',
+    icon: 'tabler:send',
+  },
+  {
+    title: 'Workflow Readiness Assessment',
+    description: 'Đánh giá mức độ hoàn thiện workflow hiện tại và khả năng tối ưu hóa.',
+    href: '/readiness/workflow',
+    icon: 'tabler:timeline',
+  },
+];
+---
+
+<Layout metadata={metadata}>
+  <HeroText tagline="Readiness Assessments" title="Đánh Giá Năng Lực Doanh Nghiệp" />
+
+  <Content
+    content={`
+      <p>Trước khi bắt tay vào bất kỳ sáng kiến vận hành nào — từ chuẩn hóa quy trình, đến triển khai ERP hay áp dụng AI — cần hiểu rõ điểm mạnh và lỗ hổng hiện tại. OKELAS cung cấp bộ đánh giá readiness dựa trên 6 trụ cột: quy trình, tri thức, dữ liệu, kiểm soát, con người và AI.</p>
+
+      <p class="mt-6">Mỗi đánh giá mất khoảng <strong>3-5 phút</strong> để hoàn thành, và sẽ đưa ra <strong>kết quả hành động</strong> — không chỉ là điểm số, mà là lộ trình cụ thể để cải thiện.</p>
+
+      <p class="mt-6"><strong>Chọn một bài đánh giá dưới đây để bắt đầu:</strong></p>
+    `}
+  />
+
+  <Features2
+    title="Chọn Bài Đánh Giá"
+    subtitle="Mỗi assessment giúp bạn hiểu rõ mức độ sẵn sàng của doanh nghiệp"
+    items={assessments.map((assessment) => ({
+      title: assessment.title,
+      description: assessment.description,
+      icon: assessment.icon,
+      callToAction: {
+        target: '_self',
+        text: 'Bắt Đầu Đánh Giá',
+        href: assessment.href,
+      },
+    }))}
+  />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'secondary',
+        text: 'Tìm Hiểu Thêm Về OKELAS',
+        href: '/',
+        icon: 'tabler:arrow-left',
+      },
+    ]}
+  >
+    <Fragment slot="title">Cần giúp đỡ trong việc chọn đánh giá?</Fragment>
+    <Fragment slot="subtitle">
+      Liên hệ với chúng tôi để được tư vấn về bài đánh giá phù hợp nhất cho tình huống của doanh nghiệp bạn.
+    </Fragment>
+  </CallToAction>
+</Layout>

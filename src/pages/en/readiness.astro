@@ -1,0 +1,90 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Content from '~/components/widgets/Content.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Readiness Assessments — OKELAS',
+  description: 'Assess your manufacturing business across 6 dimensions: processes, knowledge, data, controls, people, and AI. Identify strengths and gaps before implementing standards, ERP, or AI.',
+};
+
+const assessments = [
+  {
+    title: 'ERP Readiness Assessment',
+    description: 'Identify critical factors for successful ERP implementation: data quality, process clarity, organizational readiness.',
+    href: '/en/readiness/erp',
+    icon: 'tabler:database',
+  },
+  {
+    title: 'AI Readiness Assessment',
+    description: 'Evaluate 5 dimensions of AI readiness: workflow clarity, knowledge structure, data reliability, controls, people capability.',
+    href: '/en/readiness/ai',
+    icon: 'tabler:brain',
+  },
+  {
+    title: 'Knowledge Readiness Assessment',
+    description: 'Assess the infrastructure that captures and organizes operational knowledge.',
+    href: '/en/readiness/knowledge',
+    icon: 'tabler:book',
+  },
+  {
+    title: 'Digitalization Readiness Assessment',
+    description: 'Evaluate your digital transformation maturity across operational dimensions.',
+    href: '/en/readiness/digitalization',
+    icon: 'tabler:send',
+  },
+  {
+    title: 'Workflow Readiness Assessment',
+    description: 'Assess the current state of your workflows and optimization potential.',
+    href: '/en/readiness/workflow',
+    icon: 'tabler:timeline',
+  },
+];
+---
+
+<Layout metadata={metadata}>
+  <HeroText tagline="Readiness Assessments" title="Assess Your Business Readiness" />
+
+  <Content
+    content={`
+      <p>Before embarking on any operational initiative — whether process standardization, ERP implementation, or AI adoption — you need clarity on current strengths and gaps. OKELAS provides readiness assessments across 6 dimensions: processes, knowledge, data, controls, people, and AI.</p>
+
+      <p class="mt-6">Each assessment takes <strong>3–5 minutes</strong> and delivers <strong>actionable results</strong> — not just scores, but a concrete roadmap to improve.</p>
+
+      <p class="mt-6"><strong>Choose an assessment below to get started:</strong></p>
+    `}
+  />
+
+  <Features2
+    title="Select an Assessment"
+    subtitle="Each assessment helps you understand your business readiness level"
+    items={assessments.map((assessment) => ({
+      title: assessment.title,
+      description: assessment.description,
+      icon: assessment.icon,
+      callToAction: {
+        target: '_self',
+        text: 'Start Assessment',
+        href: assessment.href,
+      },
+    }))}
+  />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'secondary',
+        text: 'Learn More About OKELAS',
+        href: '/en',
+        icon: 'tabler:arrow-left',
+      },
+    ]}
+  >
+    <Fragment slot="title">Not sure which assessment to take?</Fragment>
+    <Fragment slot="subtitle">
+      Contact us to discuss which readiness assessment best fits your business situation.
+    </Fragment>
+  </CallToAction>
+</Layout>

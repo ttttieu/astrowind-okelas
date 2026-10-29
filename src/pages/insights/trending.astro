@@ -1,0 +1,132 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Content from '~/components/widgets/Content.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import { Image } from 'astro:assets';
+import { getCollection } from 'astro:content';
+import type { ImageMetadata } from 'astro';
+
+const metadata = {
+  title: 'Trending — OKELAS Insights',
+  description: 'Những bài viết nổi bật và mới nhất từ OKELAS về vận hành doanh nghiệp, quy trình, dữ liệu, AI và ERP.',
+};
+
+// Get all insights articles with category 'trending'
+const allInsights = await getCollection('insights');
+const trendingArticles = allInsights
+  .filter((article) => article.data.category === 'trending' && article.data.lang === 'vi')
+  .sort((a, b) => {
+    const dateA = a.data.publishDate || new Date(0);
+    const dateB = b.data.publishDate || new Date(0);
+    return dateB.getTime() - dateA.getTime();
+  });
+
+// Import all VI cover images from src/assets
+const viCoverGlob = import.meta.glob<{ default: ImageMetadata }>(
+  '/src/assets/images/insights/*/trending*-00-og-cover-vi.png',
+  { eager: true }
+);
+const viCovers: Record<string, ImageMetadata> = {};
+for (const [path, mod] of Object.entries(viCoverGlob)) {
+  const match = path.match(/\/insights\/([^/]+)\//);
+  if (match) viCovers[match[1]] = mod.default;
+}
+
+// Badge colors
+const typeBadgeClass: Record<string, string> = {
+  Opening: 'bg-sky-100 text-sky-800 dark:bg-sky-900 dark:text-sky-200',
+  Analysis: 'bg-violet-100 text-violet-800 dark:bg-violet-900 dark:text-violet-200',
+  'Case & Evidence': 'bg-amber-100 text-amber-800 dark:bg-amber-900 dark:text-amber-200',
+  Pillar: 'bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200',
+};
+---
+
+<Layout metadata={metadata}>
+  <HeroText tagline="Insights" title="Trending" />
+
+  <Content
+    content={`
+      <p>Những bài viết nổi bật và mới nhất từ OKELAS về vận hành doanh nghiệp. Từ câu hỏi về sẵn sàng, đến cách xây dựng hệ thống vận hành bền vững dựa trên quy trình, tri thức, dữ liệu, kiểm soát và con người.</p>
+
+      <p class="mt-6">
+        <strong>Tất cả bài viết được cập nhật theo thứ tự mới nhất trước.</strong>
+      </p>
+    `}
+  />
+
+  <div class="relative not-prose scroll-mt-[72px]">
+    <div class="relative mx-auto px-4 sm:px-6 py-8 md:py-12" style="max-width: 900.5px;">
+      <div>
+        <h2 class="text-2xl font-bold mb-6 text-slate-900 dark:text-white">Bài viết nổi bật</h2>
+        {trendingArticles.length > 0 ? (
+          <ul class="space-y-6">
+            {trendingArticles.map((article) => {
+              const coverImg = viCovers[article.id];
+              return (
+              <li key={article.id} class="flex items-start gap-6 group">
+                {coverImg && (
+                  <div class="flex-shrink-0 w-60 rounded overflow-hidden">
+                    <Image
+                      src={coverImg}
+                      alt={article.data.title}
+                      class="w-full h-auto block"
+                    />
+                  </div>
+                )}
+                <a
+                  href={`/insights/${article.data.category}/${article.id}`}
+                  class="flex-1 hover:underline"
+                >
+                  <div class="font-medium text-slate-900 dark:text-white group-hover:text-primary transition-colors">
+                    {article.data.title}
+                  </div>
+                  <p class="text-sm text-slate-600 dark:text-slate-400 mt-2">
+                    {article.data.description}
+                  </p>
+                  <div class="flex flex-wrap gap-2 mt-3">
+                    {article.data.contentType && (
+                      <span class="text-xs bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-400 px-2 py-0.5 rounded">
+                        {article.data.contentType}
+                      </span>
+                    )}
+                    {article.data.funnelStage?.[0] && (
+                      <span class="text-xs bg-gray-50 text-gray-500 dark:bg-gray-800 dark:text-gray-400 px-2 py-0.5 rounded">
+                        {article.data.funnelStage[0]}
+                      </span>
+                    )}
+                  </div>
+                </a>
+              </li>
+            );
+            })}
+          </ul>
+        ) : (
+          <p class="text-slate-600 dark:text-slate-400">Chưa có bài viết nổi bật.</p>
+        )}
+      </div>
+    </div>
+  </div>
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Đánh Giá Năng Lực Doanh Nghiệp',
+        href: '/readiness',
+        icon: 'tabler:clipboard-check',
+      },
+      {
+        variant: 'secondary',
+        text: 'Xem Tất Cả Bài Viết',
+        href: '/insights',
+        icon: 'tabler:arrow-right',
+      },
+    ]}
+  >
+    <Fragment slot="title">Bắt đầu với đánh giá readiness</Fragment>
+    <Fragment slot="subtitle">
+      Hiểu rõ mức độ sẵn sàng của doanh nghiệp trước khi bắt tay vào quy trình, AI hoặc ERP.
+    </Fragment>
+  </CallToAction>
+</Layout>
