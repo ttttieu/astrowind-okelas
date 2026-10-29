@@ -4,7 +4,7 @@ description: "Companies invest in AI but productivity doesn't follow. Three laye
 publishDate: 2026-10-24
 translationId: ai-adoption-real-problem
 lang: en
-category: trending
+category: ai
 contentType: Opening
 funnelStage: [Awareness]
 audience: [CEO, COO]
