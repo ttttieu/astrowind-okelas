@@ -2,7 +2,7 @@
 title: "Liên Xô 1941: Khi người giỏi không còn nhìn thấy cùng một thực tế"
 description: "Năm 1941, Hồng quân có lực lượng lớn nhất thế giới nhưng mất liên lạc, mất bức tranh thực tế và ra lệnh sai thời điểm. Bài học cho CEO về phối hợp và tổ chức."
 publishDate: 2026-10-24
-translationId: red-army-1941-connection
+translationId: lien-xo-1941-khong-cung-thuc-te
 lang: vi
 category: trending
 contentType: Analysis

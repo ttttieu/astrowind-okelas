@@ -2,7 +2,7 @@
 title: "Sếp gửi nhầm tin nhắn vào nhóm chung cư: Chuyện hài hước hay vấn đề quản trị?"
 description: "Gửi nhầm nhóm chỉ là phần nổi. Khi chỉ đạo, phê duyệt và quyết định nằm trong nhóm chat, doanh nghiệp mất kiểm soát thông tin, công việc và tri thức."
 publishDate: 2026-10-24
-translationId: chat-group-operations
+translationId: giao-viec-qua-nhom-chat
 lang: vi
 category: trending
 contentType: Opening

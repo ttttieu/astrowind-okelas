@@ -2,7 +2,7 @@
 title: "AI có thể tìm ra điều con người bỏ sót. Doanh nghiệp đã sẵn sàng chưa?"
 description: "Lỗ hổng PHP tồn tại khoảng 14 năm được tìm ra nhờ AI. Bài học cho CEO: AI readiness không nằm ở công cụ, mà ở tri thức, bằng chứng và cơ chế xử lý phát hiện."
 publishDate: 2026-10-24
-translationId: php2shell-ai-readiness
+translationId: ai-tim-dieu-con-nguoi-bo-sot
 lang: vi
 category: trending
 contentType: Analysis

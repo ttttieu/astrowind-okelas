@@ -2,7 +2,7 @@
 title: "Running Is Not the Same as Being in Control"
 description: "An organization can keep all its people and tools yet lose the ability to coordinate when information flow breaks down. A lesson from operational visibility."
 publishDate: 2026-10-24
-translationId: system-running-not-in-control
+translationId: he-thong-chay-khong-kiem-soat
 lang: en
 category: trending
 contentType: Opening

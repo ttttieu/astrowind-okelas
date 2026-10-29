@@ -2,7 +2,7 @@
 title: "AI Adoption: The Real Problem Is Not the Tool"
 description: "Companies invest in AI but productivity doesn't follow. Three layers of failure and five dimensions of AI readiness that CEOs should evaluate before scaling."
 publishDate: 2026-10-24
-translationId: ai-adoption-real-problem
+translationId: ung-dung-ai-van-de-thuc-su
 lang: en
 category: trending
 contentType: Opening
