@@ -17,9 +17,7 @@ assessmentHref: /en/readiness/ai
 draft: false
 ---
 
-# AI Adoption: The Real Problem Is Not the Tool
 
-## Executive Summary
 
 - AI can speed up individual tasks, but without adequate processes, data quality, and oversight mechanisms, that speed can amplify disorder rather than reduce it.
 - Individual productivity gains from AI do not automatically translate into organizational productivity. One employee saving 30 minutes may create verification work for several others.

@@ -17,9 +17,7 @@ assessmentHref: /readiness/ai
 draft: false
 ---
 
-# Ứng dụng AI: vấn đề thực sự không nằm ở công cụ
 
-## Tóm tắt cho CEO
 
 - AI có thể tăng tốc từng công đoạn, nhưng nếu quy trình, dữ liệu và cơ chế kiểm soát chưa sẵn sàng, tốc độ đó có thể biến thành hỗn độn nhanh hơn.
 - Năng suất cá nhân khi dùng AI không đồng nghĩa với năng suất tổ chức. Một nhân viên tiết kiệm 30 phút nhờ AI có thể tạo ra gánh nặng kiểm chứng cho nhiều người khác.
