@@ -2,6 +2,9 @@
 title: "From AI Assistant to AI Employee: Identity, Authority, Responsibility and Audit Trail"
 description: "The more an AI agent resembles an employee, the more it needs to be managed like one: a defined identity, clear authority, explicit responsibility and a verifiable trace of what it did."
 publishDate: 2026-09-23T00:00:00Z
+coverImage: '~/assets/images/insights/ai-employee-identity-authority-audit/aemp-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/ai-employee-identity-authority-audit/aemp-00-og-cover-en.png'
+coverImageAlt: "Two circles joined by a delegation arrow: principal on the left, agent on the right."
 translationId: article-6-17-employee-analogy
 lang: en
 category: ai
@@ -19,6 +22,8 @@ secondaryKeywords:
   - "AI identity management"
   - "AI governance employee model"
 assessmentHref: /en/readiness/ai
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Identify your AI readiness level'
 draft: false
 ---
 
@@ -42,6 +47,8 @@ Understanding this root helps answer a practical question: when should AI be tre
 
 ## Why the Employee Analogy Applies
 
+![A diagram showing a principal delegating authority to an agent; below is a box listing the agency costs that arise from this relationship.](~/assets/images/insights/ai-employee-identity-authority-audit/aemp-01-delegation-en.svg)
+
 **Claim:** "Agent" in AI agent matches the concept of an agent in economic theory, and this isn't coincidental — it precisely explains why an AI agent needs to be governed like a delegated role, not an ordinary software tool.
 
 Michael Jensen and William Meckling, in "Theory of the Firm: Managerial Behavior, Agency Costs and Ownership Structure" (Journal of Financial Economics, 1976) — one of the most cited works in the history of economics — define the agency relationship as follows: **a contract under which one or more persons (the principal) engage another person (the agent) to perform some service on their behalf, which involves delegating some decision-making authority to that agent.**
@@ -59,6 +66,8 @@ Worth noting: this is also the theoretical root of the term **"Excessive Agency"
 ---
 
 ## The Four Elements: Identity, Authority, Responsibility, Audit Trail
+
+![A diagram with two groups: Identity and Authority on the left; Responsibility and Audit Trail on the right, mapped to bonding and monitoring respectively; residual loss shown at the bottom.](~/assets/images/insights/ai-employee-identity-authority-audit/aemp-02-costs-to-elements-en.svg)
 
 The four elements presented concretely in article 6.16 — in the form of a practical authority profile — can now be viewed through the lens of agency cost theory, showing they aren't four arbitrary items but four mechanisms mapping directly onto the theoretical structure:
 
@@ -80,9 +89,15 @@ From the agency-cost perspective, three practical implementation principles for 
 
 **1. Investment in monitoring and bonding should scale with the level of authority granted, not be fixed for every agent.** An AI agent granted only Read-tier authority needs far lower agency costs than one at the Execute tier. Applying the same level of oversight to every agent regardless of authority level wastes resources where risk is low and leaves gaps where risk is high.
 
+![A two-column chart: Read authority shown with a short column, Execute authority with a much taller column, illustrating the stark difference in agency costs between permission tiers.](~/assets/images/insights/ai-employee-identity-authority-audit/aemp-03-oversight-by-tier-en.svg)
+
 **2. Don't build an entirely separate governance system for AI employees.** Most of the necessary infrastructure — identity and access management (IAM), approval processes, logging mechanisms — already exists within the organization to govern human employees and other privileged systems. The real task is extending that infrastructure to include AI agents as a new type of "agent," not building a separate parallel system.
 
+![A diagram showing three existing systems (IAM, approval processes, and logging mechanisms) feeding into one AI agent block, illustrating infrastructure reuse.](~/assets/images/insights/ai-employee-identity-authority-audit/aemp-04-reuse-infrastructure-en.svg)
+
 **3. Accept that residual loss will always exist, and design for early detection rather than absolute prevention.** No level of monitoring investment fully eliminates the gap between an agent's actions and the organization's optimal interest. The realistic goal is detecting early when this loss exceeds an acceptable threshold — not the illusion that it can be reduced to zero.
+
+![Two comparison cards: one labeled "Prevent completely" (not realistic), the other labeled "Design for early detection" (realistic goal).](~/assets/images/insights/ai-employee-identity-authority-audit/aemp-05-residual-loss-en.svg)
 
 ---
 

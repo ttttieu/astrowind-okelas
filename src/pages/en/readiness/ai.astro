@@ -1,0 +1,20 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import AssessmentForm from '~/components/widgets/AssessmentForm.astro';
+
+const metadata = {
+  title: "AI Readiness Assessment - OKELAS",
+  description: "Is your organization ready for AI to create value at the organizational level? 12 questions for CEOs, approximately 6 minutes.",
+};
+---
+
+<Layout metadata={metadata}>
+  <HeroText
+    tagline="Readiness Assessment"
+    title="AI Readiness"
+    subtitle="Which type of AI fits your organization's current operational foundation — and what needs to be built first"
+  />
+
+  <AssessmentForm assessmentId="ai_readiness" language="en" />
+</Layout>

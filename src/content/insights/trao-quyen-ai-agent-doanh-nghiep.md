@@ -2,6 +2,9 @@
 title: "Nếu AI có thể tự hành động — doanh nghiệp có nên cho AI toàn quyền?"
 description: "Khi AI agent có khả năng tự thực hiện công việc trong ERP, email và workflow, câu hỏi quan trọng không phải là AI có làm được không — mà là doanh nghiệp có nên cho phép không và đến mức nào."
 publishDate: 2026-09-23T00:00:00Z
+coverImage: '~/assets/images/insights/trao-quyen-ai-agent-doanh-nghiep/aagt-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/trao-quyen-ai-agent-doanh-nghiep/aagt-00-og-cover-vi.png'
+coverImageAlt: "Hộp \"Năng lực\" nối với hộp \"Quyền hạn\" bằng mũi tên nét đứt ghi \"không tự động đi theo\"."
 translationId: article-6-9-should-ai-have-authority
 lang: vi
 category: ai
@@ -18,6 +21,8 @@ secondaryKeywords:
   - "cho phép AI làm gì"
   - "AI authority"
 assessmentHref: /readiness/ai
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---
 
@@ -31,15 +36,21 @@ Câu hỏi này nghe có vẻ hiển nhiên, nhưng thực tế, phần lớn qu
 
 ## Khả năng ≠ quyền được làm
 
+![Hai thang đo ngang: năng lực với một điểm ở bên phải, quyền hạn với một điểm ở bên trái; minh họa hai trục độc lập.](~/assets/images/insights/trao-quyen-ai-agent-doanh-nghiep/aagt-01-two-axes-vi.svg)
+
 Đây là điểm cốt lõi đã được nhắc tới xuyên suốt các bài trước: việc một AI agent **có thể** làm một việc gì đó — về mặt kỹ thuật — hoàn toàn khác với việc nó **nên được phép** làm việc đó.
 
 Một chiếc xe có thể chạy 200km/h không có nghĩa là nên lái nó ở tốc độ đó trên đường phố đông đúc. Một nhân sự mới có năng lực xuất sắc không có nghĩa nên được giao ngay quyền ký duyệt hợp đồng triệu đô trong tuần làm việc đầu tiên. Nguyên tắc tương tự áp dụng cho AI: năng lực (capability) và quyền hạn (authority) là hai trục hoàn toàn độc lập, và quyết định về trục thứ hai luôn thuộc về con người — không phải một hệ quả tự động của trục thứ nhất.
+
+![Hai thẻ ví dụ: xe nhanh trên phố đông và nhân sự mới ngày đầu.](~/assets/images/insights/trao-quyen-ai-agent-doanh-nghiep/aagt-05-analogies-vi.svg)
 
 Vấn đề là: trong khi năng lực AI được quảng bá rộng rãi và dễ đo lường, quyết định về quyền hạn lại thường bị bỏ ngỏ — vì nó đòi hỏi doanh nghiệp phải tự trả lời những câu hỏi không có sẵn công thức chung.
 
 ---
 
 ## Frontier vs enterprise: hai môi trường khác nhau
+
+![Hai cột: môi trường nghiên cứu với ba điểm; môi trường doanh nghiệp với ba điểm.](~/assets/images/insights/trao-quyen-ai-agent-doanh-nghiep/aagt-02-research-vs-enterprise-vi.svg)
 
 Một nhầm lẫn phổ biến: đánh đồng năng lực của AI trong môi trường nghiên cứu frontier với mức độ quyền hạn nên được trao trong môi trường doanh nghiệp.
 
@@ -51,6 +62,8 @@ Hai môi trường này khác nhau ở những điểm quan trọng. Trong môi 
 
 ## Câu hỏi về authorization
 
+![Bốn hàng đánh số, mỗi hàng là một câu hỏi quản trị.](~/assets/images/insights/trao-quyen-ai-agent-doanh-nghiep/aagt-03-four-questions-vi.svg)
+
 Thay vì hỏi "AI này có thông minh/có năng lực đủ để làm việc X không", câu hỏi đúng hơn cho doanh nghiệp là một chuỗi câu hỏi về authorization (ủy quyền):
 
 1. **Hậu quả nếu AI làm sai việc này là gì, và có thể đảo ngược được không?**
@@ -59,6 +72,8 @@ Thay vì hỏi "AI này có thông minh/có năng lực đủ để làm việc 
 4. **Nếu phải thu hồi quyền này ngay lập tức, doanh nghiệp có cơ chế để làm điều đó không?**
 
 Bốn câu hỏi này không đòi hỏi hiểu biết kỹ thuật sâu về AI — chúng là những câu hỏi quản trị mà bất kỳ CEO/CIO nào cũng có thể tự đặt ra cho bất kỳ quyết định trao quyền nào, dù là cho một con người hay một hệ thống AI.
+
+![Lưới hai chiều hậu quả và khả năng đảo ngược, với bốn ô.](~/assets/images/insights/trao-quyen-ai-agent-doanh-nghiep/aagt-04-tiers-vi.svg)
 
 ---
 

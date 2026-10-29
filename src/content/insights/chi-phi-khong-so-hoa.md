@@ -18,6 +18,8 @@ secondaryKeywords:
   - "tại sao cần số hóa"
   - "ROI số hóa"
 assessmentHref: '/readiness/digitalization'
+ctaPrimaryText: 'Digital Transformation Maturity Assessment'
+ctaSubtitle: 'Hiểu rõ mức độ trưởng thành số hóa của bạn và bước tiếp theo có ý nghĩa'
 draft: false
 ---
 
@@ -34,6 +36,8 @@ draft: false
 
 ## Tại sao chi phí không số hóa ít được tính
 
+![Chi phí đầu tư số hóa có dòng ngân sách riêng, còn bốn loại chi phí của việc không số hóa nằm ẩn trong lương và vận hành](/assets/images/insights/chi-phi-khong-so-hoa/cn-01-visible-vs-hidden-cost-vi.svg)
+
 Có một bias cấu trúc trong cách doanh nghiệp đánh giá chi phí số hóa: chi phí đầu tư (phần mềm, triển khai, đào tạo) xuất hiện rõ ràng trong ngân sách và được xem xét kỹ. Chi phí của việc không số hóa thì không — chúng ẩn trong nhiều dòng ngân sách khác nhau hoặc không có dòng ngân sách nào.
 
 Điều này tạo ra một bất cân xứng trong việc ra quyết định: CEO và CFO thấy rõ "số hóa tốn bao nhiêu" nhưng không thấy rõ "không số hóa đang tốn bao nhiêu". Và khi không thấy được chi phí hiện tại, quyết định trì hoãn trông có vẻ an toàn hơn là thực sự.
@@ -41,6 +45,8 @@ Có một bias cấu trúc trong cách doanh nghiệp đánh giá chi phí số 
 ---
 
 ## Bốn loại chi phí vận hành thủ công
+
+![Bốn loại chi phí của vận hành thủ công, từ dễ tính đến khó đo: thời gian nhân viên, sai sót, thời gian quản lý, chi phí cơ hội của quyết định chậm](/assets/images/insights/chi-phi-khong-so-hoa/cn-02-four-cost-types-vi.svg)
 
 ### Chi phí 1 — Thời gian nhân viên cho các tác vụ thủ công có thể tự động hóa
 
@@ -96,6 +102,8 @@ Chi phí cơ hội này thay đổi rất nhiều giữa các ngành và doanh n
 
 ## Tình huống minh họa — ước tính chi phí vận hành thủ công
 
+![Ước tính minh họa chi phí thời gian vận hành thủ công của doanh nghiệp thực phẩm 100 nhân viên: tổng 150 đến 245 triệu đồng mỗi năm, số liệu giả định](/assets/images/insights/chi-phi-khong-so-hoa/cn-03-illustrative-scenario-vi.svg)
+
 *Quan trọng: Đây là tình huống giả định với số liệu minh họa, không phải case study hay số liệu nghiên cứu. Mục đích là minh họa cấu trúc chi phí để CEO/CFO có framework tự ước tính cho doanh nghiệp của mình.*
 
 ---
@@ -139,6 +147,8 @@ Kết quả: quyết định trì hoãn số hóa trông "an toàn" — không t
 ---
 
 ## Cách ước tính chi phí không số hóa cho doanh nghiệp của bạn
+
+![Bốn bước tự ước tính chi phí của việc không số hóa: liệt kê tác vụ, ước tính thời gian và người, tính chi phí lao động, ước tính chi phí sai sót](/assets/images/insights/chi-phi-khong-so-hoa/cn-04-estimate-your-own-vi.svg)
 
 Thay vì dựa vào số liệu minh họa từ bài này, hữu ích hơn là tự ước tính dựa trên thực tế của doanh nghiệp:
 

@@ -18,6 +18,8 @@ secondaryKeywords:
   - "cost of paper processes"
   - "digitalization ROI"
 assessmentHref: '/en/readiness/digitalization'
+ctaPrimaryText: 'Digital Transformation Maturity Assessment'
+ctaSubtitle: 'Understand your digitalization maturity and the next step that makes economic sense'
 draft: false
 ---
 
@@ -34,6 +36,8 @@ draft: false
 
 ## Why the cost of not digitalizing isn't counted
 
+![Digitalization investment has its own budget line, while four costs of not digitalizing stay hidden in wages and operations](/assets/images/insights/cost-of-not-digitalizing/cn-01-visible-vs-hidden-cost-en.svg)
+
 There's a structural bias in how businesses evaluate digitalization costs: investment costs (software, implementation, training) appear clearly in budgets and receive careful scrutiny. The cost of staying manual doesn't — it's hidden across many different budget lines or has no budget line at all.
 
 This creates an asymmetry in decision-making: CEOs and CFOs can clearly see "how much digitalization costs" but can't clearly see "how much staying manual is costing." When the current cost is invisible, delayed decisions look safer than they actually are.
@@ -41,6 +45,8 @@ This creates an asymmetry in decision-making: CEOs and CFOs can clearly see "how
 ---
 
 ## Four types of manual operation costs
+
+![Four types of manual operation cost, from easiest to hardest to measure: employee time, errors, management time and opportunity cost of slow decisions](/assets/images/insights/cost-of-not-digitalizing/cn-02-four-cost-types-en.svg)
 
 ### Cost 1 — Employee time on manual tasks that could be automated
 
@@ -96,6 +102,8 @@ This opportunity cost varies considerably between industries and businesses — 
 
 ## An illustrative scenario — estimating manual operation costs
 
+![Illustrative estimate of the time cost of manual operations for a 100-employee food manufacturer: $6,450 to $10,600 per year, assumed figures](/assets/images/insights/cost-of-not-digitalizing/cn-03-illustrative-scenario-en.svg)
+
 *Important: The scenario and figures below are illustrative assumptions — not case study data or research statistics. The purpose is to demonstrate cost structure so CEOs and CFOs have a framework to estimate for their own organization.*
 
 ---
@@ -139,6 +147,8 @@ The result: delaying digitalization looks "safe" — not spending money. But in 
 ---
 
 ## How to estimate the cost of not digitalizing for your organization
+
+![Four steps to estimate the cost of not digitalizing: list tasks, estimate time and people, calculate labor cost, estimate error costs](/assets/images/insights/cost-of-not-digitalizing/cn-04-estimate-your-own-en.svg)
 
 Rather than relying on illustrative figures from this article, it's more useful to estimate based on your organization's actual reality:
 

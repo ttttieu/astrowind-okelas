@@ -2,6 +2,9 @@
 title: "Every AI Agent Needs an Authority Profile: Designing Accountability Into AI"
 description: "As AI agents increasingly resemble employees — with defined tasks, authority and accountability — they need a clear profile: what they can read, which tools they can call, which entities they can affect, where approval is required."
 publishDate: 2026-09-23T00:00:00Z
+coverImage: '~/assets/images/insights/ai-agent-authority-profile/aaprof-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/ai-agent-authority-profile/aaprof-00-og-cover-en.png'
+coverImageAlt: "A split panel showing an AI assistant on the left and an AI employee on the right, illustrating the distinction between a question-and-answer interaction and a continuous operational role."
 translationId: article-6-16-agent-authority-profile
 lang: en
 category: ai
@@ -19,6 +22,8 @@ secondaryKeywords:
   - "AI agent governance"
   - "AI agent accountability"
 assessmentHref: /en/readiness/ai
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Identify your AI readiness level'
 draft: false
 ---
 
@@ -41,6 +46,8 @@ A natural question, after going through the previous articles in this series: if
 
 ## AI Assistant vs. AI Employee
 
+![A side-by-side comparison showing an AI assistant on the left (responding to a single question with no ongoing role) and an AI employee on the right (with a defined task, access permissions, and continuous responsibilities).](~/assets/images/insights/ai-agent-authority-profile/aaprof-01-assistant-vs-employee-en.svg)
+
 The distinction between these two roles: an AI assistant receives a question, answers, and stops — each interaction is independent, with no continuous "role" over time. An AI agent taking on an **AI employee** role is entirely different: it's given a specific, recurring, ongoing task.
 
 The key point: an AI assistant, used for a single question, doesn't need a complex authority profile — its risk stops at one answer, as analyzed in article 6.10. But an AI employee — existing continuously, holding stable access, repeatedly participating in the same process — accumulates risk over time without a governance mechanism matched to a continuous role.
@@ -52,6 +59,8 @@ This is exactly the gap many organizations overlook: they govern AI as though it
 ## What an Authority Profile Contains
 
 **Claim:** An AI agent holding a continuous role needs a governance document equivalent to a personnel record — not to "personify" AI, but to ensure its authority is defined, monitored, and revocable like any other privileged role.
+
+![A diagram showing the four core components of an AI agent authority profile: Owner (a specific individual responsible for the agent), Purpose (the defined role and mission), Risk Profile (severity of potential impact), and Least-Privilege Access (minimal permissions needed).](~/assets/images/insights/ai-agent-authority-profile/aaprof-02-four-components-en.svg)
 
 The Cloud Security Alliance, in its "Agent Identity Governance Framework" (2026), proposes exactly this approach at the identity-infrastructure level: instead of treating an AI agent as a shared service account nobody actually owns, the framework requires every agent to have a specific **owner** within the organization, a clearly defined **purpose**, a **risk profile** reflecting the severity if it's misused or acts incorrectly, and access granted under a **least, just-in-time** model rather than persistent long-term grants.
 
@@ -71,6 +80,8 @@ These four components aren't a new invention for this article — they're the co
 
 **Identity.** Who this agent is — not sharing an account or API key with another agent, having its own name/ID, having a specific owner within the organization. This is the foundation for the other three components to have any meaning.
 
+![A comparison diagram: on the left, an AI agent with a shared identity (identity blurred or generic), on the right, an AI agent with its own distinct identity (clear name, owner assignment, individual responsibility).](~/assets/images/insights/ai-agent-authority-profile/aaprof-03-shared-vs-own-identity-en.svg)
+
 **Authority.** The specific scope of action an agent is authorized to take, following the tiered model covered in article 6.12 (Read/Request/Recommend/Execute) — not a generic authority "to help support operations." This is exactly where Fayol's principle applies directly: authority needs to be granted explicitly, separate from evaluating a model's capability, as analyzed in article 6.11.
 
 **Responsibility.** Fayol emphasized: authority can't be separated from responsibility — wherever authority is exercised, responsibility arises. For an AI agent, this means: the authority profile needs to clearly name a specific individual within the organization accountable if the agent acts incorrectly — not letting accountability fall into the gap between the technical team, the operations team, and the technology vendor.
@@ -85,11 +96,15 @@ These four components need to be recorded in the same document, not scattered �
 
 Three concrete steps to implement authority profiles for AI agents in an organization:
 
+![A three-step implementation roadmap: Step 1 (Create mandatory authority profile before operation), Step 2 (Assign specific owner responsibility), Step 3 (Schedule regular profile reviews, not just incident-driven).](~/assets/images/insights/ai-agent-authority-profile/aaprof-04-three-steps-en.svg)
+
 **1. Treat creating an authority profile as a mandatory step before an agent goes into operation** — the same way a new employee can't start working without a job description and system access grant. An agent shouldn't be allowed to quietly show up in a process with nobody having actively created a profile for it.
 
 **2. Assign a specific owner for each agent** — per the CSA model — not the IT team generically, but a specific individual or role accountable for periodically reviewing and updating the profile.
 
 **3. Review profiles on a fixed schedule, not just after an incident.** Access granted under a just-in-time model needs to be re-evaluated as an agent's task changes, not kept unchanged permanently from the moment it was first granted.
+
+![A complete AI agent authority profile template showing fields for: Agent Name/ID, Owner/Manager, Purpose/Task, Risk Level, Read Permissions, Tool/API Access, Entity Scope, Approval Requirements, Audit Review Schedule, and Revocation Procedure.](~/assets/images/insights/ai-agent-authority-profile/aaprof-05-template-en.svg)
 
 ---
 

@@ -2,6 +2,9 @@
 title: "AI cần Authority, không chỉ Intelligence"
 description: "AI biết cách làm một việc không có nghĩa AI được phép làm việc đó. Intelligence và Authority là hai chiều khác nhau — và doanh nghiệp cần quản lý cả hai."
 publishDate: 2026-09-23T00:00:00Z
+coverImage: '~/assets/images/insights/ai-authority-vs-intelligence-vi/aaav-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/ai-authority-vs-intelligence-vi/aaav-00-og-cover-vi.png'
+coverImageAlt: "Hai hộp xếp chồng \"Intelligence\" và \"Authority\", có dấu ngoặc nhọn bên phải ghi \"Quản lý cả hai\"."
 translationId: article-6-11-authority-vs-intelligence
 lang: vi
 category: ai
@@ -19,6 +22,8 @@ secondaryKeywords:
   - "AI được phép làm gì"
   - "AI authorization"
 assessmentHref: /readiness/ai
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---
 
@@ -42,6 +47,8 @@ Có một câu hỏi mà nhiều CEO/CIO đặt ra khi đánh giá một AI agen
 
 ## Intelligence là gì trong ngữ cảnh AI
 
+![Hai thẻ song song: Intelligence là thuộc tính của mô hình; Authority là quyền hạn được trao và đi kèm trách nhiệm.](~/assets/images/insights/ai-authority-vs-intelligence-vi/aaav-01-two-definitions-vi.svg)
+
 **Intelligence**, trong ngữ cảnh AI, là năng lực suy luận, phân tích, và tạo ra đề xuất hoặc kết quả có chất lượng cao — những năng lực đã có bước tiến rõ rệt như đã phân tích ở bài 6.2.
 
 Điểm quan trọng cần nắm: intelligence là một thuộc tính của **mô hình** — nó tồn tại độc lập với việc mô hình đó được triển khai trong bối cảnh nào, được cấp quyền truy cập gì. Một mô hình có thể cực kỳ thông minh trong phòng thí nghiệm, nhưng hoàn toàn không được cấp bất kỳ quyền truy cập hệ thống nào trong thực tế — và đó vẫn là một cách triển khai hợp lý, không phải lãng phí năng lực.
@@ -49,6 +56,8 @@ Có một câu hỏi mà nhiều CEO/CIO đặt ra khi đánh giá một AI agen
 ---
 
 ## Authority là gì trong ngữ cảnh enterprise
+
+![Sơ đồ phân nhánh: quyền hạn chia thành quyền hạn chính thức và quyền hạn cá nhân, kèm ghi chú về AI.](~/assets/images/insights/ai-authority-vs-intelligence-vi/aaav-02-official-vs-personal-vi.svg)
 
 **Authority**, trong ngữ cảnh doanh nghiệp, là một khái niệm hoàn toàn khác.
 
@@ -65,6 +74,8 @@ Henri Fayol, trong "Administration Industrielle et Générale" (1916) — một 
 
 ## Tại sao tách biệt hai khái niệm này quan trọng
 
+![Hai thẻ so sánh: agent đã hiểu chỉ dẫn, và agent có đủ quyền để thực hiện.](~/assets/images/insights/ai-authority-vs-intelligence-vi/aaav-03-instruction-vs-access-vi.svg)
+
 **Claim:** Một AI agent có thể sở hữu mức độ "authority cá nhân" (theo nghĩa của Fayol) rất cao — năng lực của nó đủ thuyết phục để người dùng tin tưởng — mà không hề đi kèm bất kỳ cơ chế "authority chính thức" hay trách nhiệm giải trình tương ứng nào.
 
 Đây chính xác là điểm dễ gây nhầm lẫn nhất khi doanh nghiệp triển khai AI agent. Một mô hình càng thông minh, càng đưa ra đề xuất chất lượng cao, con người càng có xu hướng tin tưởng nó — và ranh giới giữa "tin tưởng đề xuất" và "trao quyền tự thực thi" dễ dàng bị xóa nhòa một cách không chủ ý. Đây chính là điều đã xảy ra trong sự cố Replit: agent đủ năng lực để hiểu yêu cầu "không thay đổi gì mà không xin phép" — nhưng vẫn được cấp quyền truy cập đủ để thực thi lệnh xóa dữ liệu, một dạng authority chính thức mà không ai chủ động trao một cách có kiểm soát.
@@ -79,6 +90,8 @@ Nếu doanh nghiệp để năng lực của mô hình tự động quyết đ�
 
 ## Framework quản lý AI authority
 
+![Hai luồng: đánh giá năng lực ở trên, quyết định quyền hạn ở dưới, nối bằng mũi tên nét đứt.](~/assets/images/insights/ai-authority-vs-intelligence-vi/aaav-05-two-tracks-vi.svg)
+
 Từ phân tích trên, bốn nguyên tắc tách biệt hoàn toàn quyết định về authority khỏi đánh giá về intelligence:
 
 **1. Authority phải được trao một cách tường minh, không được suy diễn từ năng lực.** Cần một quyết định riêng biệt, do người có thẩm quyền trong tổ chức đưa ra, xác định rõ agent được phép làm gì.
@@ -88,6 +101,8 @@ Từ phân tích trên, bốn nguyên tắc tách biệt hoàn toàn quyết đ�
 **3. Authority cần được phân cấp theo hậu quả và khả năng đảo ngược, không phải theo mức độ thông minh của mô hình.** Một mô hình cực kỳ thông minh vẫn nên chỉ được cấp authority thấp cho những hành động có hậu quả nghiêm trọng, khó đảo ngược.
 
 **4. Authority cần có cơ chế thu hồi rõ ràng, độc lập với việc đánh giá lại năng lực.** Nếu một agent hành xử ngoài dự kiến, tổ chức cần khả năng thu hồi authority ngay lập tức.
+
+![Bốn thẻ nguyên tắc được đánh số theo dạng lưới 2×2.](~/assets/images/insights/ai-authority-vs-intelligence-vi/aaav-04-four-principles-vi.svg)
 
 ---
 

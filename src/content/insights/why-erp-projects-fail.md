@@ -22,7 +22,12 @@ secondaryKeywords:
   - "ERP failure manufacturing"
   - "ERP readiness assessment"
   - "ERP implementation challenges SME"
-assessmentHref: /readiness/erp
+assessmentHref: /en/readiness/erp
+ctaPrimaryText: 'Assess your ERP readiness'
+ctaSubtitle: 'Identify your ERP readiness level'
+coverImage: '~/assets/images/insights/erpf-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/erpf-00-og-cover-en.png'
+coverImageAlt: "Two input streams pass through the same ERP block: the orderly one comes out as multiplied order, the messy one as multiplied chaos."
 draft: false
 ---
 
@@ -39,6 +44,8 @@ draft: false
 ---
 
 ## What Does ERP "Failure" Actually Mean?
+
+![A "finished" ERP project has a visible side (software installed, employees logging in, data entered) and a hidden side (real work still on spreadsheets and email, data not trusted, customization growing, operations unchanged); without changed operations it is still a business failure.](~/assets/images/insights/erpf-01-what-failure-looks-like-en.svg)
 
 Before examining the causes, it is worth defining the term.
 
@@ -62,6 +69,8 @@ If your organization is in any of these situations — even with ERP running —
 ---
 
 ## The Problem Is Not the Software
+
+![An organization with foundations passing through ERP has its strengths multiplied; an organization not yet ready passing through the same ERP has its weaknesses multiplied on a more complex and expensive system.](~/assets/images/insights/erpf-02-erp-is-an-amplifier-en.svg)
 
 This is the most important point to state clearly.
 
@@ -99,7 +108,7 @@ When a company starts ERP implementation without clear answers to questions like
 
 The result: delayed timelines, uncontrolled customization, and ultimately a system that reflects the chaos of the old process rather than a better new one.
 
-→ *Related: [Process Readiness: The Biggest Risk Before ERP Implementation]*
+→ *Related: [Process Readiness: The Biggest Risk Before ERP Implementation](/en/insights/erp/process-standardization-before-erp)*
 
 ### 2. Data Is Unclean, Incomplete, or Inconsistent
 
@@ -109,7 +118,7 @@ Many organizations do not actually know how many active vendors they have, which
 
 Poor data quality is one of the most common reasons ERP reports are not trusted and not used for decision-making after go-live.
 
-→ *Related: [Data Readiness: Why "Clean Data" Is Harder Than Organizations Expect]*
+→ *Related: [Data Readiness: Why "Clean Data" Is Harder Than Organizations Expect](/en/insights/erp/erp-data-readiness)*
 
 ### 3. Scope Is Not Controlled
 
@@ -119,7 +128,7 @@ It typically starts with individually reasonable requests: *"We need this additi
 
 Organizations without clear governance for who can add requirements and through what process consistently find themselves trapped in this cycle.
 
-→ *Related: [Scope Creep in ERP: When the Project Keeps Growing Beyond the Plan]*
+→ *Related: [Scope Creep in ERP: When the Project Keeps Growing Beyond the Plan](/en/insights/erp/erp-scope-creep)*
 
 ### 4. Too Much Customization Without a Strategy
 
@@ -129,7 +138,7 @@ ERP systems are designed around established industry best practices. When organi
 
 Every customization is a form of technical debt. Enough of it accumulates and the system becomes a black box that no one dares to touch.
 
-→ *Related: [ERP Customization: The Line Between Flexibility and Risk]*
+→ *Related: [ERP Customization: The Line Between Flexibility and Risk](/en/insights/erp/erp-customization-risks)*
 
 ### 5. People Do Not Understand Why — and Do Not Change How They Work
 
@@ -139,7 +148,7 @@ If employees do not understand why the new system is better than how they worked
 
 User adoption is not a training problem. It is a change management problem — and it needs to start before go-live, not after.
 
-→ *Related: [ERP and People: Why User Adoption Determines Success or Failure]*
+→ *Related: [ERP and People: Why User Adoption Determines Success or Failure](/en/insights/erp/erp-user-adoption)*
 
 ### 6. No Governance After Go-Live
 
@@ -149,7 +158,7 @@ Who is responsible when data in the system is inaccurate? Who decides when a pro
 
 Without governance, an ERP system quickly becomes a system without an owner — and systems without owners are systems that no one wants to use.
 
-→ *Related: [ERP Governance: Who Is Responsible When ERP Does Not Work?]*
+→ *Related: [ERP Governance: Who Is Responsible When ERP Does Not Work?](/en/insights/erp/erp-governance)*
 
 ### 7. Finance and Accounting Were Not Ready
 
@@ -157,7 +166,7 @@ This is a point where many SMEs are caught off guard.
 
 ERP financial modules — particularly general ledger, accounts payable, accounts receivable, and cost accounting — require a clear chart of accounts, consistent cost allocation methods, and reconciliation processes. When these are not in place before implementation, the finance module takes significantly longer than expected and produces results that are less reliable than anticipated.
 
-→ *Related: [Accounting Readiness Before ERP: What CFOs Need to Know]*
+→ *Related: [Accounting Readiness Before ERP: What CFOs Need to Know](/en/insights/erp/accounting-readiness-erp)*
 
 ### 8. No Clear Definition of What Success Looks Like
 
@@ -167,9 +176,13 @@ If a project begins without a clear, measurable definition of success, it become
 
 Without defined objectives, an ERP project will always be declared "done" from a technical standpoint — even when it has not generated meaningful business value.
 
+![Eight common root causes of ERP underperformance: unstandardized processes, poor data, uncontrolled scope, too much customization, people not changing how they work, no governance after go-live, finance not ready, and no definition of success.](~/assets/images/insights/erpf-03-eight-root-causes-en.svg)
+
 ---
 
 ## Manufacturing SMEs Face Additional Challenges
+
+![Five challenges specific to manufacturing SMEs implementing ERP: BOM, quality and traceability, equipment integration, units of measure and yield, and seasonality.](~/assets/images/insights/erpf-05-manufacturing-challenges-en.svg)
 
 Beyond the eight causes above — which apply across industries — manufacturing SMEs face additional implementation challenges specific to their operations.
 
@@ -183,11 +196,13 @@ Beyond the eight causes above — which apply across industries — manufacturin
 
 **Seasonality and demand variability.** Businesses with pronounced seasonal patterns need ERP capable of managing large fluctuations in inventory, production volume, and labor — a requirement that is not always accounted for in default configurations.
 
-→ *Related: [Manufacturing Readiness: How Is ERP for Production Different?]*
+→ *Related: [Manufacturing Readiness: How Is ERP for Production Different?](/en/insights/erp/erp-for-manufacturing-companies)*
 
 ---
 
 ## Early Warning Signs — Before the Project Runs Into Trouble
+
+![Early warning signs of an ERP project in trouble, in three project stages: preparation, implementation and after go-live, four signs each.](~/assets/images/insights/erpf-04-early-warning-signs-en.svg)
 
 The signals below typically appear in the early stages of an ERP project but are often ignored due to timeline pressure.
 
@@ -212,6 +227,8 @@ The signals below typically appear in the early stages of an ERP project but are
 ---
 
 ## The Right Question Is Not "Which ERP?"
+
+![Six questions on processes, data, scope, decision-makers, change management and post-project ownership must be answered before the question of which ERP and which implementation partner.](~/assets/images/insights/erpf-06-readiness-before-selection-en.svg)
 
 When leadership begins discussing ERP, the questions that typically emerge are:
 
@@ -255,7 +272,7 @@ This is why many organizations, even after a successful ERP implementation, rema
 
 ERP is an important component. But it is not the end of the operational transformation journey.
 
-→ *Related: [After ERP: How to Actually Use the Data You Now Have]*
+→ *Related: [After ERP: How to Actually Use the Data You Now Have](/en/insights/erp/how-to-use-erp-data)*
 
 ---
 
@@ -281,7 +298,7 @@ Before starting an ERP project — or to understand why your current ERP is unde
 
 If several of these questions do not have clear answers, that is a signal that your organization needs additional preparation — regardless of which ERP you are considering.
 
-**→ Complete the [ERP Readiness Assessment] for a more structured evaluation of where your organization stands.**
+**→ Complete the [Complete the ERP Readiness Assessment](/en/readiness/erp) for a more structured evaluation of where your organization stands.**
 
 ---
 
@@ -304,11 +321,11 @@ An honest answer to that question will tell you more than any software demo.
 *This article is part of a series on ERP, digital transformation, and operational management for manufacturing SMEs.*
 
 **Related articles:**
-- [Is Your Business Actually Ready to Implement ERP?]
-- [Process Readiness: The Biggest Risk Before ERP Implementation]
-- [Data Readiness: Why "Clean Data" Is Harder Than Organizations Expect]
-- [ERP Customization: The Line Between Flexibility and Risk]
-- [ERP and People: Why User Adoption Determines Success or Failure]
-- [ERP Governance: Who Is Responsible When ERP Does Not Work?]
+- [Is Your Business Actually Ready to Implement ERP?](/en/insights/erp/is-your-business-ready-for-erp)
+- [Process Readiness: The Biggest Risk Before ERP Implementation](/en/insights/erp/process-standardization-before-erp)
+- [Data Readiness: Why "Clean Data" Is Harder Than Organizations Expect](/en/insights/erp/erp-data-readiness)
+- [ERP Customization: The Line Between Flexibility and Risk](/en/insights/erp/erp-customization-risks)
+- [ERP and People: Why User Adoption Determines Success or Failure](/en/insights/erp/erp-user-adoption)
+- [ERP Governance: Who Is Responsible When ERP Does Not Work?](/en/insights/erp/erp-governance)
 
-**→ [Complete the ERP Readiness Assessment]**
+**→ [Complete the ERP Readiness Assessment](/en/readiness/erp)**

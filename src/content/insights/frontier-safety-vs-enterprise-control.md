@@ -2,6 +2,9 @@
 title: "Frontier AI cần Safety Layer — Enterprise AI cần Control Layer"
 description: "Câu hỏi của frontier AI: làm sao kiểm soát AI ngày càng mạnh? Câu hỏi của enterprise AI: làm sao cho AI làm được nhiều hơn mà không làm được tất cả? Hai câu hỏi khác nhau, cùng một nhu cầu về control."
 publishDate: 2026-09-23T00:00:00Z
+coverImage: '~/assets/images/insights/frontier-safety-vs-enterprise-control/afsc-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/frontier-safety-vs-enterprise-control/afsc-00-og-cover-vi.png'
+coverImageAlt: "Frontier safety và enterprise control: hai câu hỏi; hai thanh xếp chồng, an toàn mô hình ở trên, kiểm soát vận hành ở dưới."
 translationId: article-6-19-frontier-vs-enterprise
 lang: vi
 category: ai
@@ -18,6 +21,8 @@ secondaryKeywords:
   - "AI control layer enterprise"
   - "AI governance framework"
 assessmentHref: /readiness/ai
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---
 
@@ -41,6 +46,8 @@ Câu trả lời ngắn gọn là không — và hiểu tại sao lại không s
 
 ## Hai câu hỏi khác nhau
 
+![Hai thẻ đặt cạnh nhau so sánh câu hỏi của developer bên trái với câu hỏi của enterprise deployer bên phải, minh họa sự khác biệt cơ bản.](~/assets/images/insights/frontier-safety-vs-enterprise-control/afsc-01-two-questions-vi.svg)
+
 **Claim:** "An toàn ở cấp độ mô hình" (frontier safety) và "kiểm soát ở cấp độ vận hành" (enterprise control) là hai câu hỏi khác nhau về bản chất, tương ứng với hai vai trò khác nhau trong vòng đời của một hệ thống AI.
 
 NIST AI Risk Management Framework — khung quản trị rủi ro AI cấp độ tổ chức đã được nhắc tới nhiều lần trong series này — phân loại rõ các vai trò khác nhau tham gia vào vòng đời một hệ thống AI, trong đó có hai vai trò quan trọng cho bài này: **AI developer** — bên thiết kế và huấn luyện mô hình — và **AI deployer** — bên đưa mô hình đó vào sử dụng trong một bối cảnh cụ thể. Framework này nhấn mạnh rằng trách nhiệm quản trị rủi ro không dừng lại ở developer — deployer có trách nhiệm riêng, gắn với bối cảnh sử dụng cụ thể của chính họ.
@@ -52,6 +59,8 @@ Câu hỏi của một enterprise deployer — doanh nghiệp bạn — hoàn to
 ---
 
 ## Tại sao enterprise cần control layer
+
+![Ba ô nối bằng mũi tên: mô hình đạt chuẩn an toàn, doanh nghiệp cấp quyền truy cập, gây hại nghiêm trọng; kèm ghi chú rằng ASL-2 không đưa ra cam kết về hành vi sau khi cấp quyền.](~/assets/images/insights/frontier-safety-vs-enterprise-control/afsc-02-model-access-harm-vi.svg)
 
 **Claim:** Việc một mô hình đáp ứng các tiêu chuẩn an toàn của developer không đồng nghĩa với việc nó an toàn trong bối cảnh sử dụng cụ thể của một deployer — vì developer không thể biết trước, và không chịu trách nhiệm về, cách một doanh nghiệp cụ thể sẽ cấp quyền cho nó.
 
@@ -75,9 +84,13 @@ Các khái niệm cốt lõi trong chính sách frontier safety (bài 6.18) có 
 
 Bảng ánh xạ này cho thấy: doanh nghiệp không cần phát minh một hệ thống quản trị hoàn toàn mới — cấu trúc đã được kiểm chứng ở cấp độ developer, việc còn lại là triển khai đúng cấu trúc tương đương ở cấp độ deployer, phù hợp với quy mô và bối cảnh của tổ chức mình.
 
+![Bảng năm hàng ánh xạ các khái niệm frontier safety ở cột trái (trách nhiệm developer) sang các khái niệm enterprise governance tương đương ở cột phải (trách nhiệm deployer).](~/assets/images/insights/frontier-safety-vs-enterprise-control/afsc-03-mapping-table-vi.svg)
+
 ---
 
 ## KVM như enterprise control layer
+
+![Sơ đồ cho thấy AI agent đi qua hộp KVM có ba thao tác (Trace, FindEvidence, Resolve) rồi tiếp cận tri thức tổ chức; kèm ghi chú về những gì KVM làm và không làm.](~/assets/images/insights/frontier-safety-vs-enterprise-control/afsc-04-kvm-deployer-vi.svg)
 
 Trong toàn bộ bức tranh này, KVM — như đã giới thiệu ở bài 6.14 — đóng vai trò một cơ chế cụ thể trong control layer ở cấp độ deployer, không phải cấp độ developer. Nó không can thiệp vào cách mô hình được huấn luyện hay các cam kết an toàn của nhà phát triển — đó là trách nhiệm và phạm vi hoàn toàn khác. Thay vào đó, KVM giải quyết một phần cụ thể của trách nhiệm deployer: đảm bảo khi AI agent lập luận dựa trên dữ liệu và quan hệ trong tổ chức, nó truy cập tri thức đó thông qua các thao tác đã được xác định (Trace, FindEvidence, Resolve) thay vì tự do truy cập dữ liệu thô — đúng như đã trình bày chi tiết ở bài 6.14 và 6.15.
 
@@ -86,6 +99,8 @@ Trong toàn bộ bức tranh này, KVM — như đã giới thiệu ở bài 6.1
 ---
 
 ## Kết luận
+
+![Hai thanh xếp chồng biểu diễn an toàn mô hình của developer ở trên và kiểm soát vận hành của deployer ở dưới, nối bằng ghi chú rằng mô hình đạt chuẩn vẫn cần control layer riêng.](~/assets/images/insights/frontier-safety-vs-enterprise-control/afsc-05-two-layers-vi.svg)
 
 Chính sách an toàn của các phòng thí nghiệm frontier và nhu cầu kiểm soát của một doanh nghiệp triển khai AI không phải cùng một vấn đề nhìn ở hai góc độ — chúng là hai trách nhiệm khác nhau, tương ứng với hai vai trò khác nhau trong vòng đời AI theo phân loại của NIST: developer và deployer. Một mô hình an toàn theo mọi tiêu chuẩn của developer vẫn cần một control layer riêng ở cấp độ deployer — vì developer không thể, và không chịu trách nhiệm, kiểm soát cách một doanh nghiệp cụ thể sẽ cấp quyền cho nó.
 

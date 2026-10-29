@@ -1,8 +1,10 @@
-﻿---
+---
 title: "Knowledge Graph trong doanh nghiệp — không phải công nghệ, là cách tổ chức tri thức"
 description: "Knowledge graph không chỉ là công nghệ — đây là cách tổ chức tri thức có cấu trúc để có thể truy vấn, liên kết và dùng cho AI."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/knowledge-graph-business.png'
+coverImage: '~/assets/images/insights/kgb-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/kgb-00-og-cover-vi.png'
+coverImageAlt: "Thư viện file với tài liệu độc lập bên trái và mạng lưới tri thức kết nối thực thể, quan hệ bên phải."
 category: 'knowledge-management'
 tags: ['Knowledge Graph', 'Knowledge Management', 'Cấu Trúc Dữ Liệu', 'AI Ready']
 translationId: 'knowledge-graph-business-structure'
@@ -17,7 +19,9 @@ secondaryKeywords:
   - "tổ chức tri thức doanh nghiệp"
   - "knowledge graph AI"
   - "tri thức có cấu trúc"
-assessmentHref: '/readiness/knowledge-management'
+assessmentHref: '/readiness/knowledge'
+ctaPrimaryText: 'Assess your KM maturity'
+ctaSubtitle: 'Xác định mức độ trưởng thành về quản lý tri thức trong công ty bạn'
 draft: false
 ---
 
@@ -31,6 +35,8 @@ draft: false
 ---
 
 ## Từ thư viện file sang mạng lưới tri thức
+
+![Thư viện file: mỗi tài liệu tồn tại độc lập trong folder; mạng lưới tri thức: thực thể và quan hệ được ghi nhận — Sản phẩm A → dùng Nguyên liệu M → cung cấp bởi NCC XYZ → kiểm tra theo KT-003.](~/assets/images/insights/kgb-01-file-library-vs-network-vi.svg)
 
 Hãy so sánh hai cách tổ chức cùng một thông tin.
 
@@ -69,6 +75,8 @@ Bây giờ, câu hỏi "nguyên liệu từ nhà cung cấp XYZ cho sản phẩm
 
 ## Knowledge graph là gì — giải thích không kỹ thuật
 
+![Ba thành phần của knowledge graph: thực thể (sản phẩm, quy trình, nhà cung cấp), quan hệ (dùng, áp dụng, dẫn đến) và thuộc tính (thông số, ngày hiệu lực, người phụ trách) — cho phép truy vấn quan hệ, phân tích tác động và AI có ngữ cảnh.](~/assets/images/insights/kgb-02-three-blocks-three-capabilities-vi.svg)
+
 Knowledge graph, ở mức độ khái niệm, là một cách biểu diễn tri thức trong đó:
 
 - **Thực thể** (entities) là những "thứ" trong doanh nghiệp: sản phẩm, quy trình, nguyên liệu, nhà cung cấp, thiết bị, nhân viên, sự kiện, quyết định.
@@ -86,6 +94,8 @@ Khi tri thức được tổ chức theo cấu trúc này, ba điều trở nên
 ---
 
 ## Tại sao tri thức cần có cấu trúc mới dùng được
+
+![Câu hỏi vận hành cần chuỗi quan hệ: sai sót → sản phẩm → nguyên liệu → nhà cung cấp — không có cấu trúc quan hệ, AI không thể trả lời dù dữ liệu đầy đủ.](~/assets/images/insights/kgb-03-chain-of-relationships-vi.svg)
 
 Đây là điểm mà nhiều doanh nghiệp hiểu nhầm khi nghĩ đến AI.
 
@@ -106,6 +116,8 @@ Knowledge graph là cách giải quyết vấn đề đó: ghi nhận quan hệ 
 ---
 
 ## Knowledge graph trong ngữ cảnh ERP và AI
+
+![Knowledge graph trong ba ngữ cảnh: trước ERP (bức tranh tổng thể trước implementation), sau ERP (lớp ngữ nghĩa khai thác dữ liệu), và cho AI (nền tảng vượt qua giới hạn RAG).](~/assets/images/insights/kgb-04-erp-and-ai-vi.svg)
 
 Với doanh nghiệp sản xuất đang có hoặc đang cân nhắc ERP, knowledge graph có vai trò đặc biệt ở hai điểm nối.
 
@@ -131,6 +143,8 @@ Knowledge graph là nền tảng để AI vượt qua giới hạn của RAG: th
 
 ## Ứng dụng thực tế — không phải dự án công nghệ lớn
 
+![Bắt đầu nhỏ với knowledge graph: xác định thực thể chính, ghi nhận quan hệ giữa chúng, ghi thông tin quan trọng về mỗi thực thể — dù chỉ trong spreadsheet có cấu trúc, tạo ra giá trị ngay lập tức.](~/assets/images/insights/kgb-05-start-small-vi.svg)
+
 Một điểm quan trọng cần làm rõ: knowledge graph không nhất thiết phải là một dự án công nghệ lớn và phức tạp.
 
 Ở mức độ đơn giản nhất, knowledge graph bắt đầu bằng việc trả lời những câu hỏi có cấu trúc:
@@ -155,15 +169,15 @@ Doanh nghiệp nào bắt đầu ghi nhận và cấu trúc hóa tri thức theo
 
 **Doanh nghiệp của bạn đang tổ chức tri thức theo folder hay theo quan hệ?**
 
-→ [Làm Knowledge Management Readiness Assessment](/readiness/knowledge-management) để đánh giá trưởng thành.
+→ [Làm Knowledge Management Readiness Assessment](/readiness/knowledge) để đánh giá trưởng thành.
 
-→ [Liên hệ OKELAS](/lien-he) để trao đổi về cách tiếp cận knowledge graph phù hợp.
+→ [Liên hệ OKELAS](/contact) để trao đổi về cách tiếp cận knowledge graph phù hợp.
 
 **Đọc thêm:**
 
-- [Từ DMS đến Knowledge Management — sự khác biệt quan trọng](/insights/knowledge-management/dms-vs-knowledge-management) *(bài trước)*
-- [RAG là gì — và tại sao chatbot không đủ](/insights/ai/rag-limitations-enterprise-ai) *(Cluster 2 — cross-cluster)*
-- [Dữ liệu có nhưng không có context — tại sao AI không thể dùng](/insights/ai/data-without-context-ai-problem) *(Cluster 2 — cross-cluster)*
+- [Từ DMS đến Knowledge Management — sự khác biệt quan trọng](/insights/knowledge-management/dms-va-knowledge-management) *(bài trước)*
+- [RAG là gì — và tại sao chatbot không đủ](/insights/ai/rag-la-gi-han-che-ai) *(Cluster 2 — cross-cluster)*
+- [Dữ liệu có nhưng không có context — tại sao AI không thể dùng](/insights/ai/du-lieu-khong-co-context-ai) *(Cluster 2 — cross-cluster)*
 - [Từ tri thức cá nhân đến tri thức tổ chức](/insights/knowledge-management/quan-ly-tri-thuc-doanh-nghiep-san-xuat) *(pillar)*
 
 ---

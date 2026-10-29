@@ -3,7 +3,9 @@ import Layout from '~/layouts/PageLayout.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
 import Content from '~/components/widgets/Content.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
+import { Image } from 'astro:assets';
 import { getArticlesByCategory } from '~/lib/insights';
+import type { ImageMetadata } from 'astro';
 
 const metadata = {
   title: 'AI — OKELAS Insights',
@@ -13,6 +15,57 @@ const metadata = {
 
 const { grouped } = await getArticlesByCategory('en');
 const aiArticles = grouped.ai || [];
+
+// Import all EN AI cover images from src/assets (flat directory)
+const enCoverGlob = import.meta.glob<{ default: ImageMetadata }>(
+  '/src/assets/images/insights/*-00-og-cover-en.png',
+  { eager: true }
+);
+const enCovers: Record<string, ImageMetadata> = {};
+for (const [path, mod] of Object.entries(enCoverGlob)) {
+  const match = path.match(/\/([a-z0-9]+)-00-og-cover-en\.png$/);
+  if (match) enCovers[match[1]] = mod.default;
+}
+
+// Map EN article ID → cover image prefix (Pillar 2: AI Readiness)
+const pillar2CoverPrefix: Record<string, string> = {
+  'organizational-ai-readiness': 'aip',
+  'ai-productivity-paradox': 'aipp',
+  'ai-productivity-vs-organizational-intelligence': 'aiop',
+  'rag-limitations-enterprise-ai': 'rag',
+  'ai-readiness-checklist': 'rdy',
+  'data-without-context-ai-problem': 'dwc',
+  'ai-agents-for-business': 'agt',
+  'evidence-based-ai': 'ebai',
+  'ai-implementation-roadmap-manufacturing': 'rmp',
+  'ai-compliance-iso-gmp-manufacturing': 'icg',
+  'organizational-ai': 'oai',
+};
+
+// Map EN article ID → cover image prefix (Pillar 6: AI Control Layer)
+const pillar6CoverPrefix: Record<string, string> = {
+  'enterprise-ai-control-layer': 'ctl',
+  'ai-beyond-chatbot-agentic': 'agv',
+  'frontier-ai-capabilities-business': 'afc',
+  'agentic-ai-vs-ai-assistant': 'agc',
+  'ai-autonomy-control-problem': 'agac',
+  'ai-bypassing-restrictions-research': 'agbr',
+  'multi-agent-ai-system-risks': 'amas',
+  'ai-transparency-audit-trail': 'atrn',
+  'ai-agent-cybersecurity-enterprise': 'acys',
+  'should-ai-agent-have-full-access': 'aagt',
+  'ai-agent-error-vs-chatbot-error': 'aaer',
+  'ai-authority-vs-intelligence': 'aaav',
+  'least-privilege-ai-agent': 'alp',
+  'enterprise-ai-control-layer-architecture': 'aecl',
+  'what-is-kvm': 'akvm',
+  'ai-reasoning-vs-organizational-truth': 'arot',
+  'ai-agent-authority-profile': 'aaprof',
+  'ai-employee-identity-authority-audit': 'aemp',
+  'ai-safety-frontier-enterprise-lessons': 'afse',
+  'frontier-ai-safety-enterprise-ai-control': 'afsc',
+  'kvm-enterprise-ai-control-layer': 'akvc',
+};
 
 // Pillar 2: AI Readiness series
 const pillar2Order: Record<string, number> = {
@@ -45,7 +98,7 @@ const pillar6Order: Record<string, number> = {
   'ai-authority-vs-intelligence': 11,
   'least-privilege-ai-agent': 12,
   'enterprise-ai-control-layer-architecture': 13,
-  'kvm-knowledge-vault-manager': 14,
+  'what-is-kvm': 14,
   'ai-reasoning-vs-organizational-truth': 15,
   'ai-agent-authority-profile': 16,
   'ai-employee-identity-authority-audit': 17,
@@ -98,48 +151,90 @@ const typeBadgeClass: Record<string, string> = {
   <div class="relative not-prose scroll-mt-[72px]">
     <div class="relative mx-auto px-4 sm:px-6 py-8 md:py-12" style="max-width: 900.5px;">
       <div>
-        <h2 class="text-2xl font-bold mb-2 text-slate-900 dark:text-white">Series 1: AI Readiness</h2>
+        <h2 class="text-2xl font-bold mb-6 text-slate-900 dark:text-white">Series 1: AI Readiness</h2>
         <p class="text-muted mb-6">The conditions that determine whether AI is actually useful in operations — or just fast at generating output.</p>
-        <ul class="space-y-4 mb-12">
-          {pillar2Articles.map((article) => (
-            <li key={article.id} class="flex items-start gap-4 group">
-              <a
-                href={`/en/insights/${article.data.category}/${article.id}`}
-                class="flex-1 hover:underline"
-              >
-                <div class="font-medium text-slate-900 dark:text-white group-hover:text-primary transition-colors">
-                  {article.data.title}
-                </div>
-              </a>
-              {article.data.funnelStage?.[0] && (
-                <span class="px-2 py-1 rounded text-xs font-medium bg-gray-50 text-gray-500 dark:bg-gray-800 dark:text-gray-400 whitespace-nowrap">
-                  {article.data.funnelStage[0]}
-                </span>
-              )}
-            </li>
-          ))}
+        <ul class="space-y-6">
+          {pillar2Articles.map((article) => {
+            const prefix = pillar2CoverPrefix[article.id];
+            const coverImg = prefix ? enCovers[prefix] : undefined;
+            return (
+              <li key={article.id} class="flex items-start gap-6 group">
+                {coverImg && (
+                  <div class="flex-shrink-0 w-60 rounded overflow-hidden">
+                    <Image
+                      src={coverImg}
+                      alt={article.data.title}
+                      class="w-full h-auto block"
+                    />
+                  </div>
+                )}
+                <a
+                  href={`/en/insights/${article.data.category}/${article.id}`}
+                  class="flex-1 hover:underline"
+                >
+                  <div class="font-medium text-slate-900 dark:text-white group-hover:text-primary transition-colors">
+                    {article.data.title}
+                  </div>
+                  <div class="flex flex-wrap gap-2 mt-1">
+                    {article.data.contentType && (
+                      <span class="text-xs bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-400 px-2 py-0.5 rounded">
+                        {article.data.contentType}
+                      </span>
+                    )}
+                    {article.data.funnelStage?.[0] && (
+                      <span class="text-xs bg-gray-50 text-gray-500 dark:bg-gray-800 dark:text-gray-400 px-2 py-0.5 rounded">
+                        {article.data.funnelStage[0]}
+                      </span>
+                    )}
+                  </div>
+                </a>
+              </li>
+            );
+          })}
         </ul>
+      </div>
 
-        <h2 class="text-2xl font-bold mb-2 text-slate-900 dark:text-white">Series 2: AI Control Layer</h2>
+      <div class="mt-12">
+        <h2 class="text-2xl font-bold mb-6 text-slate-900 dark:text-white">Series 2: AI Control Layer</h2>
         <p class="text-muted mb-6">When AI agents start acting instead of just answering — who controls them, within what scope, and how.</p>
-        <ul class="space-y-4">
-          {pillar6Articles.map((article) => (
-            <li key={article.id} class="flex items-start gap-4 group">
-              <a
-                href={`/en/insights/${article.data.category}/${article.id}`}
-                class="flex-1 hover:underline"
-              >
-                <div class="font-medium text-slate-900 dark:text-white group-hover:text-primary transition-colors">
-                  {article.data.title}
-                </div>
-              </a>
-              {article.data.funnelStage?.[0] && (
-                <span class="px-2 py-1 rounded text-xs font-medium bg-gray-50 text-gray-500 dark:bg-gray-800 dark:text-gray-400 whitespace-nowrap">
-                  {article.data.funnelStage[0]}
-                </span>
-              )}
-            </li>
-          ))}
+        <ul class="space-y-6">
+          {pillar6Articles.map((article) => {
+            const prefix = pillar6CoverPrefix[article.id];
+            const coverImg = prefix ? enCovers[prefix] : undefined;
+            return (
+              <li key={article.id} class="flex items-start gap-6 group">
+                {coverImg && (
+                  <div class="flex-shrink-0 w-60 rounded overflow-hidden">
+                    <Image
+                      src={coverImg}
+                      alt={article.data.title}
+                      class="w-full h-auto block"
+                    />
+                  </div>
+                )}
+                <a
+                  href={`/en/insights/${article.data.category}/${article.id}`}
+                  class="flex-1 hover:underline"
+                >
+                  <div class="font-medium text-slate-900 dark:text-white group-hover:text-primary transition-colors">
+                    {article.data.title}
+                  </div>
+                  <div class="flex flex-wrap gap-2 mt-1">
+                    {article.data.contentType && (
+                      <span class="text-xs bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-400 px-2 py-0.5 rounded">
+                        {article.data.contentType}
+                      </span>
+                    )}
+                    {article.data.funnelStage?.[0] && (
+                      <span class="text-xs bg-gray-50 text-gray-500 dark:bg-gray-800 dark:text-gray-400 px-2 py-0.5 rounded">
+                        {article.data.funnelStage[0]}
+                      </span>
+                    )}
+                  </div>
+                </a>
+              </li>
+            );
+          })}
         </ul>
       </div>
     </div>

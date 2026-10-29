@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Five levels of digitalization for a manufacturing company, from paper to AI-assisted operations"><style>
+  :root{--p:1 97 239;--s:1 84 207;--a:109 40 217;--bg:255 255 255;--tx:0 0 0;--mut:16 16 16;--line:16 16 16}
+  @media (prefers-color-scheme: dark){:root{--bg:8 9 10;--tx:247 248 248;--mut:229 236 246;--line:229 236 246}}
+  text{font-family:Inter,Roboto,'Segoe UI',system-ui,-apple-system,Arial,sans-serif}
+  .bg{fill:rgb(var(--bg))}
+  .title{font-size:32px;font-weight:700;fill:rgb(var(--tx))}
+  .big{font-size:50px;font-weight:700;fill:rgb(var(--tx))}
+  .subtitle{font-size:17px;fill:rgb(var(--mut)/.66)}
+  .term{font-size:16px;font-weight:700;fill:rgb(var(--tx))}
+  .h2{font-size:19px;font-weight:700;fill:rgb(var(--tx))}
+  .lbl{font-size:11.5px;font-weight:600;letter-spacing:.08em;fill:rgb(var(--mut)/.66)}
+  .desc{font-size:13.5px;fill:rgb(var(--mut)/.85)}
+  .body{font-size:14.5px;fill:rgb(var(--mut)/.88)}
+  .mut{font-size:13px;fill:rgb(var(--mut)/.66)}
+  .val{font-size:15px;font-weight:600;fill:rgb(var(--tx))}
+  .foot{font-size:13px;fill:rgb(var(--mut)/.5)}
+  .chip{font-size:12px;font-weight:700;letter-spacing:.06em}
+  .g1 .box{fill:rgb(var(--p)/.08);stroke:rgb(var(--p))}
+  .g2 .box{fill:rgb(var(--s)/.12);stroke:rgb(var(--s))}
+  .g3 .box{fill:rgb(var(--a)/.09);stroke:rgb(var(--a))}
+  .g1 .bar{fill:rgb(var(--p))}.g2 .bar{fill:rgb(var(--s))}.g3 .bar{fill:rgb(var(--a))}
+  .g1 .acc{fill:rgb(var(--p))}.g2 .acc{fill:rgb(var(--s))}.g3 .acc{fill:rgb(var(--a))}
+  .box{stroke-width:1.5}
+  .card{fill:rgb(var(--bg));stroke:rgb(var(--line)/.2);stroke-width:1.5}
+  .soft{fill:rgb(var(--line)/.05)}
+  .ghost{fill:rgb(var(--line)/.22)}
+  .rule{stroke:rgb(var(--line)/.45);stroke-width:2;fill:none}
+  .ring{stroke:rgb(var(--line)/.18);stroke-width:1;fill:none}
+  .axis{stroke:rgb(var(--line)/.18);stroke-width:1}
+  .poly{fill:rgb(var(--p)/.18);stroke:rgb(var(--p));stroke-width:2.5;stroke-linejoin:round}
+  .dot{fill:rgb(var(--p));stroke:rgb(var(--bg));stroke-width:2}
+  .ah{fill:rgb(var(--line)/.45)}
+  .chipbox{fill:rgb(var(--a)/.12);stroke:rgb(var(--a));stroke-width:1.2}
+  .chiptx{fill:rgb(var(--a))}
+  .blue{fill:rgb(var(--p))}.purp{fill:rgb(var(--a))}
+  .ok{fill:rgb(var(--p)/.10);stroke:rgb(var(--p));stroke-width:1.5}
+  .pr{fill:rgb(var(--a)/.10);stroke:rgb(var(--a));stroke-width:1.5}
+  .final{fill:rgb(var(--tx));}
+  .finaltx{font-size:18px;font-weight:700;fill:rgb(var(--bg))}
+  @media (prefers-color-scheme: dark){
+    .g1 .box{fill:rgb(var(--p)/.18)}.g2 .box{fill:rgb(var(--s)/.22)}.g3 .box{fill:rgb(var(--a)/.2)}
+    .chiptx{fill:rgb(167 139 250)}.chipbox{stroke:rgb(167 139 250)}.purp{fill:rgb(167 139 250)}.pr{stroke:rgb(167 139 250)}
+    .g3 .acc{fill:rgb(167 139 250)}
+  }
+</style><rect class="bg" width="1200" height="630"/>
+<text class="big" x="60" y="120" text-anchor="start">Digital transformation</text>
+<text class="big" x="60" y="180" text-anchor="start">for manufacturing SMEs</text>
+<text class="subtitle" x="60" y="224" text-anchor="start">What it really means and where to start</text>
+<g class="g1"><rect class="box" x="61.0" y="475" width="206" height="95" rx="12"/><rect class="bar" x="61.0" y="475" width="206" height="6" rx="3"/>
+<text class="lbl" x="77.0" y="505" text-anchor="start">LEVEL 1</text>
+<text class="term" x="77.0" y="529" text-anchor="start">Paper-based</text>
+<text class="term" x="77.0" y="550" text-anchor="start">operations</text>
+</g>
+<g class="g1"><rect class="box" x="279.0" y="440" width="206" height="130" rx="12"/><rect class="bar" x="279.0" y="440" width="206" height="6" rx="3"/>
+<text class="lbl" x="295.0" y="470" text-anchor="start">LEVEL 2</text>
+<text class="term" x="295.0" y="494" text-anchor="start">Digital documents,</text>
+<text class="term" x="295.0" y="515" text-anchor="start">scattered</text>
+</g>
+<g class="g2"><rect class="box" x="497.0" y="405" width="206" height="165" rx="12"/><rect class="bar" x="497.0" y="405" width="206" height="6" rx="3"/>
+<text class="lbl" x="513.0" y="435" text-anchor="start">LEVEL 3</text>
+<text class="term" x="513.0" y="459" text-anchor="start">Workflow through</text>
+<text class="term" x="513.0" y="480" text-anchor="start">systems</text>
+</g>
+<g class="g3"><rect class="box" x="715.0" y="370" width="206" height="200" rx="12"/><rect class="bar" x="715.0" y="370" width="206" height="6" rx="3"/>
+<text class="lbl" x="731.0" y="400" text-anchor="start">LEVEL 4</text>
+<text class="term" x="731.0" y="424" text-anchor="start">Integration and</text>
+<text class="term" x="731.0" y="445" text-anchor="start">analyzable data</text>
+</g>
+<g class="g3"><rect class="box" x="933.0" y="335" width="206" height="235" rx="12"/><rect class="bar" x="933.0" y="335" width="206" height="6" rx="3"/>
+<text class="lbl" x="949.0" y="365" text-anchor="start">LEVEL 5</text>
+<text class="term" x="949.0" y="389" text-anchor="start">AI-assisted</text>
+<text class="term" x="949.0" y="410" text-anchor="start">operations</text>
+</g>
+<text class="foot" x="60" y="602" text-anchor="start">okelas.com</text>
+</svg>

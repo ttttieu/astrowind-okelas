@@ -2,7 +2,9 @@
 title: "From Individual Knowledge to Organizational Knowledge: A Manufacturing Challenge You Can't Avoid"
 description: "When skilled employees leave, what exactly do they take with them? Knowledge management in manufacturing SMEs and how to approach it systematically."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/knowledge-management-manufacturing.png'
+coverImage: '~/assets/images/insights/kmp-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/kmp-00-og-cover-en.png'
+coverImageAlt: "A single isolated individual-knowledge node on the left and a connected network of nodes on the right representing organizational knowledge."
 category: 'knowledge-management'
 tags: ['Knowledge Management', 'Manufacturing', 'Organizational Learning', 'Tacit Knowledge']
 translationId: 'knowledge-management-manufacturing'
@@ -17,7 +19,9 @@ secondaryKeywords:
   - "tacit knowledge capture"
   - "employee knowledge retention"
   - "knowledge management SME"
-assessmentHref: '/en/readiness/knowledge-management'
+assessmentHref: '/en/readiness/knowledge'
+ctaPrimaryText: 'Assess your KM maturity'
+ctaSubtitle: 'Identify your knowledge management maturity level in your organization'
 draft: false
 ---
 
@@ -48,6 +52,8 @@ After he left, situations he handled in five minutes would take hours and multip
 
 ## What organizational knowledge is — and isn't
 
+![Documentation is text that records information and may be wrong or outdated without the reader knowing; organizational knowledge is the capacity to decide correctly, handle new situations, execute consistently and learn, regardless of who is present.](~/assets/images/insights/kmp-01-documents-vs-knowledge-en.svg)
+
 One clarification matters: organizational knowledge is not the same as documentation.
 
 When most businesses think about knowledge management, they think about documents: SOPs, work instructions, forms, reports. Some organizations have large volumes of documentation — yet still experience exactly the problems knowledge management should solve.
@@ -65,6 +71,8 @@ When organizational knowledge is built, new employees get up to speed faster, op
 ---
 
 ## Tacit knowledge and explicit knowledge — why this distinction matters
+
+![Explicit knowledge can be written down and passed on through documents such as SOPs; tacit knowledge lives in personal experience, like sensing a machine is off, and often decides quality under non-standard conditions.](~/assets/images/insights/kmp-02-explicit-vs-tacit-en.svg)
 
 In knowledge management, there is a foundational distinction between two types of knowledge.
 
@@ -96,6 +104,8 @@ Converting tacit knowledge to explicit knowledge — never completely, but meani
 
 ## Why manufacturing SMEs are especially vulnerable
 
+![Four characteristics that make manufacturing SMEs vulnerable to knowledge loss: shift operations, non-standard conditions, compliance requirements and staff turnover.](~/assets/images/insights/kmp-03-four-vulnerabilities-en.svg)
+
 Not every industry depends on tacit knowledge equally. And not every organization suffers the same consequences when knowledge is lost.
 
 In manufacturing businesses — particularly SMEs — several characteristics make the knowledge problem especially serious.
@@ -119,6 +129,8 @@ Manufacturing SMEs often face higher turnover — particularly at operational an
 ---
 
 ## The cost of not building organizational knowledge
+
+![Knowledge in people's heads leads to five consequences that accumulate: inconsistent quality, long training, key people leaving, hard audits and inability to scale.](~/assets/images/insights/kmp-04-five-consequences-en.svg)
 
 When an organization doesn't build organizational knowledge, consequences don't appear immediately. They accumulate — and usually only become visible when already difficult to address.
 
@@ -155,6 +167,8 @@ Each scaling effort requires solving the knowledge problem from scratch. And the
 ---
 
 ## A knowledge management maturity roadmap — from where you are
+
+![Five maturity levels of knowledge management, from knowledge in people's heads to an organization that learns and improves; Level 3 still does not address tacit knowledge and real operational value starts at Level 4.](~/assets/images/insights/kmp-05-maturity-ladder-en.svg)
 
 Knowledge management isn't a software system you buy and install. It is a progression with multiple stages — and the right stage depends on where your organization currently stands.
 
@@ -202,6 +216,8 @@ The right starting point is an honest assessment: **where is the organization no
 
 Some questions for self-assessment:
 
+![Four self-assessment questions on dependence on individuals: key people leaving, tracing an incident, new employees looking things up, and audit preparation time.](~/assets/images/insights/kmp-06-four-self-check-questions-en.svg)
+
 If 2–3 of the most important employees left simultaneously, could the organization continue operating normally?
 
 When a quality incident occurs, can the organization identify the cause within one day — or does it take days to gather information from multiple people?
@@ -228,7 +244,7 @@ Organizations that continue leaving knowledge in people's heads will continue pa
 
 **Which maturity level does your organization most closely resemble?**
 
-→ [Take the Knowledge Management Readiness Assessment](/en/readiness/knowledge-management) — evaluate knowledge management maturity and identify priority areas for improvement.
+→ [Take the Knowledge Management Readiness Assessment](/en/readiness/knowledge) — evaluate knowledge management maturity and identify priority areas for improvement.
 
 ---
 

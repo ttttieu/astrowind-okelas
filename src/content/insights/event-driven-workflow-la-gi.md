@@ -19,6 +19,11 @@ secondaryKeywords:
   - "sự kiện kích hoạt quy trình"
   - "workflow event"
 assessmentHref: /readiness/workflow
+coverImage: '~/assets/images/insights/event-driven-workflow-la-gi/wfv-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/event-driven-workflow-la-gi/wfv-00-og-cover-vi.png'
+coverImageAlt: "Trên trục thời gian, workflow request-based chờ một khoảng trễ phát hiện trước khi bắt đầu, còn event-driven workflow bắt đầu gần như ngay khi sự việc xảy ra."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---
 
@@ -40,11 +45,13 @@ Phần lớn workflow hiện nay hoạt động theo mô hình: có người t�
 
 Event-driven workflow là một cách tiếp cận khác: thay vì chờ người, hệ thống tự nhận biết một sự kiện đã xảy ra trong dữ liệu hoặc trong thực tế vận hành, và tự khởi động quy trình phù hợp.
 
-→ *Xem thêm: [Workflow đã nhanh — còn có thể nhanh hơn không?]*
+→ *Xem thêm: [Workflow đã nhanh — còn có thể nhanh hơn không?](/insights/workflow/workflow-co-the-nhanh-hon)*
 
 ---
 
 ## Request-based vs event-driven
+
+![Mô hình request-based bắt đầu khi có người nhận ra và tạo yêu cầu, nên độ trễ nằm ở bước đầu; mô hình event-driven để hệ thống nhận biết sự kiện theo điều kiện định sẵn rồi tự khởi động workflow.](~/assets/images/insights/event-driven-workflow-la-gi/wfv-01-request-vs-event-vi-dark.svg)
 
 Sự khác biệt cốt lõi giữa hai mô hình không nằm ở công nghệ, mà nằm ở **cái gì khởi động workflow**.
 
@@ -59,6 +66,8 @@ Chênh lệch giữa hai mô hình không chỉ là vài giờ tiết kiệm đ�
 ---
 
 ## Sự kiện nào có thể kích hoạt workflow
+
+![Bốn loại sự kiện có thể khởi động workflow: vượt ngưỡng, đổi trạng thái, bất thường và bên ngoài, kèm ví dụ cho từng loại.](~/assets/images/insights/event-driven-workflow-la-gi/wfv-02-four-event-types-vi-dark.svg)
 
 Không phải mọi thứ xảy ra trong doanh nghiệp đều nên được coi là một "sự kiện" đáng kích hoạt workflow. Một sự kiện đáng kích hoạt cần có ba đặc điểm: **có thể định nghĩa rõ ràng, có thể phát hiện được từ dữ liệu sẵn có, và việc phản ứng sớm tạo ra giá trị thực sự.**
 
@@ -75,6 +84,8 @@ Với mỗi loại, câu hỏi cần trả lời trước khi triển khai là: 
 
 ## Ứng dụng trong sản xuất và vận hành
 
+![Bốn ví dụ trong sản xuất: tồn kho dưới ngưỡng, đo lường vượt vùng kiểm soát, chứng chỉ hoặc hợp đồng sắp hết hạn, khiếu nại tăng; hệ thống tự phát hiện và khởi động.](~/assets/images/insights/event-driven-workflow-la-gi/wfv-03-four-applications-vi-dark.svg)
+
 Một vài ví dụ cụ thể cho manufacturing SME, minh họa cho cách event-driven workflow có thể hoạt động:
 
 **Quản lý tồn kho.** Khi tồn kho một nguyên liệu xuống dưới ngưỡng an toàn đã định, hệ thống tự động khởi tạo một yêu cầu mua hàng nháp, kèm lịch sử tiêu thụ và nhà cung cấp thường dùng — thay vì chờ người phụ trách kho tự nhận ra và báo cáo.
@@ -87,11 +98,13 @@ Một vài ví dụ cụ thể cho manufacturing SME, minh họa cho cách event
 
 Điểm chung của cả bốn ví dụ: hệ thống không thay thế phán đoán của con người ở bước quyết định cuối cùng — nó chỉ đảm nhận phần **phát hiện và khởi động sớm**, phần việc mà con người thường làm chậm hơn vì phải tự để ý, tự nhớ, hoặc tự tổng hợp.
 
-→ *Xem thêm: [Workflow vẫn phụ thuộc quá nhiều vào con người]*
+→ *Xem thêm: [Workflow vẫn phụ thuộc quá nhiều vào con người](/insights/workflow/workflow-phu-thuoc-con-nguoi)*
 
 ---
 
 ## Điều kiện để triển khai
+
+![Ba điều kiện trước khi triển khai: sự kiện định nghĩa rõ, dữ liệu đủ tin cậy và cách xử lý cảnh báo sai; event-driven workflow là điểm đến chứ không phải điểm bắt đầu.](~/assets/images/insights/event-driven-workflow-la-gi/wfv-04-three-preconditions-vi-dark.svg)
 
 Event-driven workflow không phải điểm khởi đầu hợp lý cho mọi doanh nghiệp. Có ba điều kiện tiên quyết:
 
@@ -100,6 +113,8 @@ Event-driven workflow không phải điểm khởi đầu hợp lý cho mọi do
 **2. Dữ liệu cần đủ tin cậy để làm căn cứ phát hiện.** Một sự kiện chỉ có thể được phát hiện nếu dữ liệu liên quan được ghi nhận đầy đủ, đúng thời điểm, và đủ chính xác. Đây là lý do event-driven workflow thường chỉ khả thi sau khi doanh nghiệp đã có nền tảng process và data readiness — không thể xây trên một quy trình còn ghi chép rời rạc hoặc chậm trễ.
 
 **3. Cần có cơ chế xử lý cảnh báo sai (false positive).** Không hệ thống phát hiện sự kiện nào chính xác tuyệt đối. Nếu tổ chức không có cách xử lý hợp lý các cảnh báo sai — ví dụ một quy trình để nhanh chóng xác nhận hoặc loại bỏ cảnh báo không chính xác — nhân sự sẽ dần bỏ qua toàn bộ cảnh báo, kể cả những cảnh báo đúng.
+
+![Nên bắt đầu với một đến hai loại sự kiện có tần suất vừa, tác động rõ và dữ liệu sẵn có, thay vì phủ toàn tổ chức cùng lúc.](~/assets/images/insights/event-driven-workflow-la-gi/wfv-05-start-small-vi-dark.svg)
 
 Một lộ trình triển khai hợp lý là bắt đầu từ 1–2 loại sự kiện có tần suất trung bình, tác động rõ ràng, và dữ liệu đã sẵn có — thay vì cố gắng bao phủ toàn bộ tổ chức cùng lúc.
 
@@ -114,8 +129,8 @@ Event-driven workflow không phải một tính năng công nghệ đơn lẻ �
 *Bài viết này là một phần của chuỗi chuyên đề về workflow, ứng dụng AI và quản trị vận hành cho doanh nghiệp sản xuất SME.*
 
 **Bài liên quan:**
-- [Workflow đã nhanh — còn có thể nhanh hơn không?]
-- [Workflow vẫn phụ thuộc quá nhiều vào con người]
-- [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành]
+- [Workflow đã nhanh — còn có thể nhanh hơn không?](/insights/workflow/workflow-co-the-nhanh-hon)
+- [Workflow vẫn phụ thuộc quá nhiều vào con người](/insights/workflow/workflow-phu-thuoc-con-nguoi)
+- [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-doanh-nghiep-san-xuat)
 
-**→ [Làm Workflow Readiness Assessment]**
+**→ [Làm Digitalization Readiness Assessment](/readiness/digitalization)**

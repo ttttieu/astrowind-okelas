@@ -1,0 +1,47 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import ContactForm from '~/components/widgets/ContactForm.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Talk to OKELAS — Contact Advisory',
+  description:
+    'Most conversations start with a question, not a commitment: "Are we actually ready for this?" Start with the relevant readiness assessment, or tell us the problem you\'re seeing.',
+};
+---
+
+<Layout metadata={metadata} translationId="contact">
+  <HeroText
+    tagline="Company"
+    title="Talk to OKELAS"
+    subtitle="Most conversations with us start with a question, not a commitment."
+  />
+
+  <section class="py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="max-w-2xl mx-auto text-center mb-8">
+        <p class="text-gray-700 dark:text-gray-300 text-lg leading-relaxed">
+          If you already know roughly where the gap is, the fastest way to start is the relevant readiness assessment — it takes about three minutes and gives you something useful whether or not you talk to us afterward. If you're not sure where to start, tell us the problem you're seeing on the floor or in the numbers — that's usually the more useful starting point for us too.
+        </p>
+      </div>
+      <ContactForm language="en" />
+    </div>
+  </section>
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Start Readiness Assessment',
+        href: '/en/#assessment',
+        icon: 'tabler:clipboard-check',
+      },
+    ]}
+  >
+    <Fragment slot="title">Or start with a self-assessment</Fragment>
+    <Fragment slot="subtitle">
+      Three minutes. No commitment. Useful output regardless of what comes next.
+    </Fragment>
+  </CallToAction>
+</Layout>

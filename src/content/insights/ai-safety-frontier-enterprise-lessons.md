@@ -2,6 +2,9 @@
 title: "Why Frontier AI Organizations Prioritize Control — and the Enterprise Lesson"
 description: "Leading AI organizations are investing seriously in control and safety — not because AI is sensationally dangerous, but because increasing capability requires increasing control. Here's the business lesson."
 publishDate: 2026-09-23T00:00:00Z
+coverImage: '~/assets/images/insights/ai-safety-frontier-enterprise-lessons/afse-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/ai-safety-frontier-enterprise-lessons/afse-00-og-cover-en.png'
+coverImageAlt: "Capability growth must be matched by control: four pairs of rising columns, blue for capability, purple for control."
 translationId: article-6-18-frontier-safety-enterprise
 lang: en
 category: ai
@@ -18,6 +21,8 @@ secondaryKeywords:
   - "why AI control matters"
   - "AI capability control"
 assessmentHref: /en/readiness/ai
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Identify your AI readiness level'
 draft: false
 ---
 
@@ -41,6 +46,8 @@ This article looks at how the very organizations building today's most capable A
 
 ## Capability ↑ → Autonomy ↑ → Control Difficulty ↑
 
+![A chain of three connected boxes: capability on the left, autonomy in the middle, and control difficulty on the right, with the last box highlighted to emphasize escalating control requirements.](~/assets/images/insights/ai-safety-frontier-enterprise-lessons/afse-01-chain-en.svg)
+
 **Claim:** The relationship between capability, autonomy, and how hard something is to control isn't an observation unique to this article — it's already been formalized into public policy by leading AI development organizations.
 
 Anthropic, in its "Responsible Scaling Policy" (RSP) — first published September 2023, version 3.0 effective February 24, 2026 — introduces the **AI Safety Levels (ASL)** system, modeled on the biosafety levels long used in the life sciences. This policy is a public commitment: not to train or deploy a model capable of causing catastrophic harm unless safety and security measures keep the risk at an acceptable level.
@@ -55,6 +62,10 @@ All three policies, though differing in detail, share a common structure: **capa
 
 ## Industry Consensus on Control
 
+![A table showing three leading labs: Anthropic (AI Safety Levels, first published Sep 2023), OpenAI (Preparedness Framework, first published Dec 2023), and Google DeepMind (Critical Capability Levels, first published May 2024).](~/assets/images/insights/ai-safety-frontier-enterprise-lessons/afse-02-three-labs-en.svg)
+
+![Two large cards showing industry adoption: more than 12 major AI companies had published similar policies by late 2024, and 16 companies signed voluntary commitments at the Seoul Summit (May 2024).](~/assets/images/insights/ai-safety-frontier-enterprise-lessons/afse-03-industry-figures-en.svg)
+
 What's notable isn't the mere existence of these policies — it's the degree of industry consensus that they're necessary. By late 2024, more than 12 major AI companies had published some form of similar frontier safety policy, and at the Seoul Summit (May 2024), 16 companies signed voluntary commitments in this direction.
 
 All three main policies get updated periodically — not written once and left static. Anthropic upgraded to version 3.0 in early 2026; DeepMind has also had major updates in 2025-2026. This reflects the exact principle covered in article 6.11, on separating the authority-evaluation process from the capability-evaluation process: as model capability changes, the control policy needs re-examination, not fixed permanence.
@@ -64,6 +75,8 @@ An important detail worth stating to avoid sensationalizing: the capability thre
 ---
 
 ## Lessons from Frontier for Enterprise
+
+![A four-tier threshold bar showing Read, Request, Recommend, and Execute levels, with a marking between Recommend and Execute indicating the threshold for additional controls; below are three lesson cards: define thresholds in advance, implement safeguards before deployment, and review policies regularly.](~/assets/images/insights/ai-safety-frontier-enterprise-lessons/afse-04-threshold-lessons-en.svg)
 
 Three concrete lessons a business can draw from how frontier labs approach this problem, scaled correctly for an enterprise:
 
@@ -76,6 +89,8 @@ Three concrete lessons a business can draw from how frontier labs approach this 
 ---
 
 ## The Continuum from Safety to Governance
+
+![A continuum showing frontier AI safety research on the left and enterprise AI governance on the right, connected by an arrow, with a box in the middle representing the shared principles linking them.](~/assets/images/insights/ai-safety-frontier-enterprise-lessons/afse-05-continuum-en.svg)
 
 "AI safety" at the frontier level and "AI governance" at the enterprise level aren't two separate fields — they sit on the same continuum. The research on specification gaming (article 6.4), in-context scheming (article 6.5), and alignment faking (article 6.7) covered throughout this series is exactly the kind of research that feeds frontier safety policies. Conversely, the concrete control principles for business — Intelligence ≠ Authority, tiered least privilege, an Identity-Authority-Responsibility-Audit profile — are the practical translation of those same principles down to the scale of a single organization.
 

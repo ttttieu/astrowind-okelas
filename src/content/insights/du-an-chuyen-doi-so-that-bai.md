@@ -18,6 +18,8 @@ secondaryKeywords:
   - "rủi ro dự án số hóa"
   - "bài học chuyển đổi số"
 assessmentHref: '/readiness/digitalization'
+ctaPrimaryText: 'Digital Transformation Maturity Assessment'
+ctaSubtitle: 'Hiểu rõ mức độ trưởng thành số hóa của bạn và bước tiếp theo có ý nghĩa'
 draft: false
 ---
 
@@ -34,6 +36,8 @@ draft: false
 
 ## Vấn đề với số liệu "X% dự án chuyển đổi số thất bại"
 
+![So sánh con số tỷ lệ thất bại, khó so sánh vì định nghĩa khác nhau, với phân tích cơ chế thất bại giúp thiết kế để tránh](/assets/images/insights/du-an-chuyen-doi-so-that-bai/dp-01-statistics-vs-mechanism-vi.svg)
+
 Trước khi đi vào phân tích, cần nói thẳng về một loại số liệu thường xuất hiện trong bài viết về chủ đề này.
 
 Bạn có thể đã đọc những con số như "70–85% dự án chuyển đổi số thất bại" từ nhiều nguồn khác nhau. Những con số này nghe ấn tượng và dễ trích dẫn — nhưng chúng có vấn đề nghiêm trọng về phương pháp: định nghĩa "thất bại" khác nhau đáng kể giữa các nghiên cứu, phạm vi khảo sát thay đổi từ vài trăm đến vài nghìn doanh nghiệp từ nhiều ngành khác nhau, và "chuyển đổi số" được định nghĩa rất khác nhau.
@@ -45,6 +49,8 @@ Thay vào đó, bài tập trung vào điều có giá trị thực hơn: phân 
 ---
 
 ## Tại sao "dự án lớn" có xu hướng thất bại nhiều hơn
+
+![Dòng thời gian big bang chỉ có một điểm kiểm chứng ở cuối so với làm từng bước có nhiều điểm kiểm chứng, và ba rủi ro cấu trúc của big bang](/assets/images/insights/du-an-chuyen-doi-so-that-bai/dp-02-three-structural-risks-vi.svg)
 
 Không phải dự án lớn nào cũng thất bại. Nhưng có một số đặc điểm của cách tiếp cận "big bang" — triển khai toàn bộ cùng một lúc — tạo ra rủi ro cấu trúc cao hơn so với cách tiếp cận từng bước.
 
@@ -67,6 +73,8 @@ Dự án lớn thường kết thúc trễ hơn và tốn hơn so với kế ho�
 ---
 
 ## Ba bẫy phổ biến nhất
+
+![Ba bẫy phổ biến của dự án chuyển đổi số lớn và hậu quả của từng bẫy: scope theo kỳ vọng, tổ chức chưa sẵn sàng, đòi kết quả ngắn hạn](/assets/images/insights/du-an-chuyen-doi-so-that-bai/dp-03-three-traps-vi.svg)
 
 ### Bẫy 1 — Scope được định nghĩa bởi kỳ vọng, không phải bởi năng lực tổ chức
 
@@ -95,6 +103,8 @@ Nhưng áp lực từ các bên liên quan (BOD, shareholders, đội ngũ quả
 ---
 
 ## Tình huống minh họa — "Dự án số hóa toàn diện"
+
+![Tình huống giả định về dự án số hóa toàn diện ở doanh nghiệp chế biến 150 nhân viên: ba giai đoạn kéo dài và kết quả sau 20 tháng, số liệu minh họa](/assets/images/insights/du-an-chuyen-doi-so-that-bai/dp-04-illustrative-timeline-vi.svg)
 
 *Đây là tình huống giả định tổng hợp từ các pattern phổ biến. Không phải case study của một doanh nghiệp cụ thể.*
 
@@ -125,6 +135,8 @@ Dự án không phải hoàn toàn thất bại — có một số giá trị đ
 ---
 
 ## Cách tiếp cận thay thế — không phải big bang, là progressive
+
+![Cách tiếp cận từng bước có cổng kiểm tra: giai đoạn 1, kiểm tra vận hành ở mức kỳ vọng, rồi mới sang giai đoạn 2; nếu chưa thì khắc phục nền tảng; kèm bốn nguyên tắc](/assets/images/insights/du-an-chuyen-doi-so-that-bai/dp-05-progressive-gates-vi.svg)
 
 Thay vì "số hóa toàn bộ" trong một dự án, cách tiếp cận alternative là progressive:
 

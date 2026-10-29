@@ -1,0 +1,20 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import AssessmentForm from '~/components/widgets/AssessmentForm.astro';
+
+const metadata = {
+  title: "ERP Readiness Assessment - OKELAS",
+  description: "Assess your organization's readiness before implementing an ERP system.",
+};
+---
+
+<Layout metadata={metadata}>
+  <HeroText
+    tagline="Readiness Assessment"
+    title="ERP Readiness"
+    subtitle="Identify exactly where your process and data gaps are before committing to an ERP project"
+  />
+
+  <AssessmentForm assessmentId="erp_readiness" language="en" />
+</Layout>

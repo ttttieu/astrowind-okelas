@@ -18,6 +18,11 @@ secondaryKeywords:
   - "workflow toàn trình"
   - "process workflow"
 assessmentHref: /readiness/workflow
+coverImage: '~/assets/images/insights/approval-workflow-den-end-to-end/wfe-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/approval-workflow-den-end-to-end/wfe-00-og-cover-vi.png'
+coverImageAlt: "Approval workflow chỉ phủ một đoạn giữa; end-to-end workflow phủ cả hành trình từ sự kiện khởi phát đến kết quả cuối."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---
 
@@ -37,11 +42,13 @@ Nếu hỏi một Operations Director: "công ty bạn có bao nhiêu workflow?"
 
 Đây không phải nghịch lý ngẫu nhiên. Nó phản ánh cách hầu hết doanh nghiệp xây dựng workflow: bắt đầu từ **approval** — thứ dễ chuẩn hóa nhất, dễ đo lường nhất, và thường là thứ đầu tiên được số hóa. Nhưng approval chỉ là một lát cắt rất mỏng trong toàn bộ những gì thực sự cần được quản lý.
 
-→ *Xem thêm: [Workflow được số hóa không có nghĩa là workflow đã được tối ưu]*
+→ *Xem thêm: [Workflow được số hóa không có nghĩa là workflow đã được tối ưu](/insights/workflow/so-hoa-workflow-vs-toi-uu-workflow)*
 
 ---
 
 ## Approval workflow là gì và làm được gì
+
+![Approval workflow chỉ trả lời việc yêu cầu đã được duyệt chưa; câu hỏi việc này kết thúc ở đâu và ai chịu trách nhiệm đến khi xong thì không được trả lời.](~/assets/images/insights/approval-workflow-den-end-to-end/wfe-01-two-questions-vi.svg)
 
 Approval workflow giải quyết tốt một loại vấn đề cụ thể: kiểm soát quyền quyết định tại một hoặc vài điểm trong quy trình.
 
@@ -59,6 +66,8 @@ Approval workflow giải quyết tốt một loại vấn đề cụ thể: ki�
 
 ## Những gì nằm ngoài approval
 
+![Trong hành trình xử lý khiếu nại chất lượng qua kinh doanh, QA và sản xuất, bước duyệt hành động khắc phục chỉ là một điểm giữa nhiều bước và nhiều điểm bàn giao.](~/assets/images/insights/approval-workflow-den-end-to-end/wfe-02-complaint-journey-vi.svg)
+
 Đây là phần thường bị bỏ sót nhất khi doanh nghiệp đánh giá mức độ trưởng thành workflow của mình.
 
 Lấy một ví dụ cụ thể: xử lý khiếu nại chất lượng từ khách hàng. Bước "phê duyệt hành động khắc phục" — nếu có — chỉ là một khoảnh khắc rất nhỏ trong toàn bộ sự việc. Những gì nằm ngoài phạm vi approval bao gồm:
@@ -72,9 +81,13 @@ Nghiên cứu của Maddern, Smart, Maull và Childe (Đại học Exeter, 2013)
 
 Nghiên cứu này cũng lưu ý rằng việc chuyển từ quản lý theo chức năng (functional) sang quản lý end-to-end thường khó hơn kỳ vọng — không chỉ vì kỹ thuật, mà vì nó đòi hỏi một cách nhìn hệ thống về quy trình, chứ không chỉ vẽ lại sơ đồ các bước.
 
+![Approval workflow chỉ phủ đoạn giữa hành trình; end-to-end phủ từ sự kiện khởi phát đến kết quả cuối theo góc nhìn người nhận.](~/assets/images/insights/approval-workflow-den-end-to-end/wfe-03-scope-boundary-vi.svg)
+
 ---
 
 ## End-to-end workflow trông như thế nào
+
+![Bốn điều kiện của end-to-end workflow: sự kiện khởi phát rõ, kết quả cuối rõ, truy vết liên phòng ban và một người sở hữu quy trình.](~/assets/images/insights/approval-workflow-den-end-to-end/wfe-04-four-requirements-vi.svg)
 
 Một cách nhìn thực tế khác đến từ giới phân tích BPM: phần lớn thất bại trong vận hành không xảy ra *bên trong* một phòng ban, mà xảy ra tại **điểm chuyển giao (handoff)** giữa các phòng ban — nơi chi phí, độ trễ và việc phải làm lại tích tụ nhiều nhất. Đáng chú ý, các nỗ lực tối ưu hóa cục bộ trong một phòng ban đơn lẻ đôi khi còn làm cho các điểm chuyển giao này tệ hơn, vì phòng ban đó tối ưu cho chỉ số riêng của mình mà không tính đến việc nó khớp thế nào với phần còn lại của chuỗi.
 
@@ -91,6 +104,8 @@ Từ hai quan sát trên, một end-to-end workflow cần có:
 
 ## Lộ trình mở rộng
 
+![Năm bước mở rộng từ approval sang end-to-end: chọn quy trình, xác định lại ranh giới, lập bản đồ điểm bàn giao, chỉ định chủ quy trình, rồi mới chọn công nghệ.](~/assets/images/insights/approval-workflow-den-end-to-end/wfe-05-five-step-roadmap-vi.svg)
+
 Không cần và không nên cố gắng biến mọi approval workflow thành end-to-end workflow cùng lúc. Một lộ trình hợp lý:
 
 **Bước 1 — Chọn đúng quy trình để bắt đầu.** Ưu tiên những quy trình có tính lặp lại cao, xuyên nhiều phòng ban, và có ảnh hưởng trực tiếp tới khách hàng hoặc compliance — ví dụ xử lý khiếu nại chất lượng, quản lý thay đổi kỹ thuật (change control), hoặc xử lý sự cố.
@@ -103,7 +118,7 @@ Không cần và không nên cố gắng biến mọi approval workflow thành e
 
 **Bước 5 — Mới tính đến công nghệ.** Chỉ sau khi ranh giới, điểm chuyển giao và trách nhiệm đã rõ, việc chọn công cụ để vận hành end-to-end workflow mới thực sự có ý nghĩa.
 
-→ *Xem thêm: [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành]*
+→ *Xem thêm: [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-doanh-nghiep-san-xuat)*
 
 ---
 
@@ -116,8 +131,8 @@ Approval workflow không sai — nó chỉ trả lời một câu hỏi rất h�
 *Bài viết này là một phần của chuỗi chuyên đề về workflow, ứng dụng AI và quản trị vận hành cho doanh nghiệp sản xuất SME.*
 
 **Bài liên quan:**
-- [Đã có workflow rồi — tại sao công việc vẫn chậm?]
-- [Workflow được số hóa không có nghĩa là workflow đã được tối ưu]
-- [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành]
+- [Đã có workflow rồi — tại sao công việc vẫn chậm?](/insights/workflow/co-workflow-van-lam-viec-cham)
+- [Workflow được số hóa không có nghĩa là workflow đã được tối ưu](/insights/workflow/so-hoa-workflow-vs-toi-uu-workflow)
+- [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-doanh-nghiep-san-xuat)
 
-**→ [Làm Workflow Readiness Assessment]**
+**→ [Làm Digitalization Readiness Assessment](/readiness/digitalization)**

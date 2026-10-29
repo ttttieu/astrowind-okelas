@@ -27,7 +27,7 @@ relatedInternalLinks:
   - "ai-safety-frontier-enterprise-lessons" # article 6.18, previous
   - "kvm-conclusion" # article 6.20 (proposed), next
   - "enterprise-ai-control-layer-architecture" # article 6.13, back-reference
-  - "kvm-knowledge-vault-manager" # article 6.14, forward
+  - "what-is-kvm" # article 6.14, forward
 evidenceSources:
   - "NIST AI Risk Management Framework (AI RMF 1.0) — classification of AI actor roles across the lifecycle (developer vs. deployer)"
   - "Anthropic, OpenAI, Google DeepMind — the frontier safety policies covered in article 6.18"

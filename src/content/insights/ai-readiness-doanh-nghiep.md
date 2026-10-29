@@ -2,7 +2,9 @@
 title: "AI Readiness — Tại Sao AI Không Tự Động Làm Doanh Nghiệp Thông Minh Hơn"
 description: "Nhiều doanh nghiệp đã dùng AI nhưng không thấy kết quả ở cấp tổ chức. Bài viết phân tích điều kiện thực sự để AI tạo ra giá trị trong vận hành."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/ai-readiness-doanh-nghiep.png'
+coverImage: '~/assets/images/insights/ai-readiness-doanh-nghiep/aip-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/ai-readiness-doanh-nghiep/aip-00-og-cover-vi.png'
+coverImageAlt: "Một nút AI productivity đơn lẻ ở bên trái, sáu khối nền tảng nâng đỡ nút organizational intelligence ở bên phải."
 category: 'ai'
 tags: ['AI Readiness', 'Organizational Intelligence', 'AI Implementation', 'Manufacturing']
 translationId: 'organizational-ai-readiness'
@@ -21,6 +23,8 @@ secondaryKeywords:
   - 'AI không hiệu quả'
   - 'organizational AI'
 assessmentHref: '/readiness/ai'
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---
 
@@ -48,6 +52,8 @@ Quy trình kiểm soát chất lượng vẫn phụ thuộc vào kinh nghiệm c
 ---
 
 ## AI productivity và organizational intelligence — hai khái niệm khác nhau
+
+![AI productivity là cá nhân làm việc nhanh hơn ở từng tác vụ; organizational intelligence là năng lực của tổ chức: quyết định đúng, thực thi nhất quán, học hỏi, phát hiện sớm và giải thích được quyết định.](~/assets/images/insights/ai-readiness-doanh-nghiep/aip-01-productivity-vs-intelligence-vi.svg)
 
 Trước khi đặt câu hỏi "AI đã sẵn sàng chưa", cần làm rõ một sự phân biệt quan trọng mà nhiều tổ chức đang bỏ qua.
 
@@ -90,6 +96,8 @@ Một insight quan trọng cần ghi nhớ:
 
 ## Tại sao chatbot "biết nhiều" vẫn không trả lời được câu hỏi vận hành
 
+![RAG trả lời được câu hỏi về nội dung tài liệu như SOP; các câu hỏi về lô hàng cụ thể, phê duyệt và evidence, hay tuân thủ thực tế cần context vận hành, không nằm trong nội dung tài liệu.](~/assets/images/insights/ai-readiness-doanh-nghiep/aip-02-rag-limits-vi.svg)
+
 Nhiều tổ chức bắt đầu AI journey bằng một chatbot: tải tài liệu lên, để AI đọc, rồi hỏi.
 
 Về mặt kỹ thuật, đây là kiến trúc RAG — Retrieval-Augmented Generation. AI tìm kiếm trong kho tài liệu và tổng hợp câu trả lời.
@@ -117,6 +125,8 @@ Khoảng cách giữa "AI biết quy định" và "AI hiểu doanh nghiệp đan
 ---
 
 ## 6 điều kiện để AI thực sự có ích trong vận hành
+
+![Sáu điều kiện để AI có ích trong vận hành: dữ liệu có cấu trúc, quy trình rõ, tri thức tổ chức được cấu trúc hóa, governance và phân quyền, tích hợp hệ thống, organizational context.](~/assets/images/insights/ai-readiness-doanh-nghiep/aip-03-six-conditions-vi.svg)
 
 Dựa trên phân tích cấu trúc của bài toán, có 6 điều kiện nền tảng mà một tổ chức cần chuẩn bị trước khi AI có thể tạo ra giá trị bền vững ở cấp vận hành. Đây là phân tích từ góc độ tổ chức và quản trị — không phải danh sách tính năng phần mềm.
 
@@ -214,6 +224,8 @@ Không có organizational context, AI hoạt động như một người mới t
 
 ## Doanh nghiệp sản xuất cần chuẩn bị gì — và tại sao yêu cầu cao hơn
 
+![Doanh nghiệp sản xuất có thêm ba yêu cầu với AI: truy xuất nguồn gốc, sẵn sàng cho audit và nhất quán giữa các ca; AI không thể tạo bằng chứng sau khi sự kiện đã xảy ra.](~/assets/images/insights/ai-readiness-doanh-nghiep/aip-04-manufacturing-evidence-vi.svg)
+
 Với doanh nghiệp sản xuất, đặc biệt trong các ngành có yêu cầu ISO, GMP, FSSC, HACCP hoặc các tiêu chuẩn tương đương, AI readiness có thêm một chiều phức tạp: **compliance và evidence**.
 
 ### Yêu cầu traceability
@@ -239,6 +251,8 @@ AI có thể hỗ trợ điều này — nhưng chỉ khi quy trình được đ
 ---
 
 ## Lộ trình AI readiness — không phải một đích đến, mà là một hành trình
+
+![Ba giai đoạn AI readiness: AI productivity cho cá nhân, AI với context tổ chức, AI trong workflow vận hành; mỗi giai đoạn có điều kiện cần, giá trị và rủi ro riêng.](~/assets/images/insights/ai-readiness-doanh-nghiep/aip-05-three-stage-roadmap-vi.svg)
 
 AI readiness không phải trạng thái nhị phân: hoặc sẵn sàng hoặc không. Nó là một quá trình tiến dần.
 
@@ -301,6 +315,8 @@ Nếu doanh nghiệp nhận ra mình trong nhiều dấu hiệu trên, vấn đ�
 
 ## Một câu hỏi cần đặt ra trước khi quyết định
 
+![Câu hỏi chẩn đoán trước khi quyết định về AI rẽ ba nhánh: quy trình chưa chuẩn hóa, tri thức nằm trong đầu người, dữ liệu không có cấu trúc; AI không giải quyết được nếu thiếu nền tảng đó.](~/assets/images/insights/ai-readiness-doanh-nghiep/aip-06-diagnostic-question-vi.svg)
+
 Trước khi đưa ra bất kỳ quyết định nào về AI, có một câu hỏi quan trọng hơn tất cả các câu hỏi về công nghệ:
 
 > **"Nếu không có AI, vận hành của doanh nghiệp đang gặp vấn đề gì cụ thể — và vấn đề đó có phải là vấn đề thông tin, hay là vấn đề về quy trình, con người và governance?"**
@@ -340,19 +356,19 @@ Assessment khoảng 8–10 phút, không yêu cầu nền tảng kỹ thuật. K
 ## Đọc thêm
 
 **Trong cluster AI Readiness:**
-- [AI giúp nhân viên viết nhanh hơn, nhưng doanh nghiệp có xử lý được nhiều hơn không?](/insights/ai/ai-productivity-va-organizational-intelligence)
-- [RAG là gì — và tại sao chatbot "biết nhiều" vẫn không trả lời được câu hỏi vận hành](/insights/ai/rag-la-gi-va-han-che-trong-van-hanh)
-- [AI readiness: 6 điều kiện để AI thực sự có ích trong vận hành](/insights/ai/ai-readiness-6-dieu-kien)
-- [Dữ liệu có nhưng không có context — tại sao AI không thể dùng được?](/insights/ai/du-lieu-co-nhung-khong-co-context)
-- [AI agent trong doanh nghiệp — không phải chatbot, không phải con người](/insights/ai/ai-agent-trong-doanh-nghiep)
-- [Evidence-based AI: khi câu trả lời cần có khả năng kiểm chứng](/insights/ai/evidence-based-ai)
-- [Từ AI hype đến AI có thể triển khai: lộ trình thực tế cho manufacturing SME](/insights/ai/tu-ai-hype-den-ai-co-the-trien-khai)
-- [AI và compliance: doanh nghiệp ISO/GMP cần lưu ý gì trước khi dùng AI?](/insights/ai/ai-va-compliance-iso-gmp)
-- [Organizational AI: khi AI hiểu doanh nghiệp thay vì chỉ trả lời câu hỏi](/insights/ai/organizational-ai)
+- [AI giúp nhân viên viết nhanh hơn, nhưng doanh nghiệp có xử lý được nhiều hơn không?](/insights/ai/ai-tang-nang-suat-doanh-nghiep)
+- [RAG là gì — và tại sao chatbot "biết nhiều" vẫn không trả lời được câu hỏi vận hành](/insights/ai/rag-la-gi-han-che-ai)
+- [AI readiness: 6 điều kiện để AI thực sự có ích trong vận hành](/insights/ai/dieu-kien-trien-khai-ai-van-hanh)
+- [Dữ liệu có nhưng không có context — tại sao AI không thể dùng được?](/insights/ai/du-lieu-khong-co-context-ai)
+- [AI agent trong doanh nghiệp — không phải chatbot, không phải con người](/insights/ai/ai-agent-doanh-nghiep)
+- [Evidence-based AI: khi câu trả lời cần có khả năng kiểm chứng](/insights/ai/evidence-based-ai-kiem-chung)
+- [Từ AI hype đến AI có thể triển khai: lộ trình thực tế cho manufacturing SME](/insights/ai/lo-trinh-ai-thuc-te-manufacturing-sme)
+- [AI và compliance: doanh nghiệp ISO/GMP cần lưu ý gì trước khi dùng AI?](/insights/ai/ai-iso-gmp-compliance)
+- [Organizational AI: khi AI hiểu doanh nghiệp thay vì chỉ trả lời câu hỏi](/insights/ai/organizational-ai-doanh-nghiep)
 
 **Cross-cluster:**
-- [Tacit knowledge và explicit knowledge — tại sao cần phân biệt](/insights/knowledge-management/tacit-knowledge-va-explicit-knowledge)
-- [Sau ERP: doanh nghiệp cần làm gì để khai thác dữ liệu ERP?](/insights/erp/sau-erp-khai-thac-du-lieu)
+- [Tacit knowledge và explicit knowledge — tại sao cần phân biệt](/insights/knowledge-management/tacit-knowledge-explicit-knowledge)
+- [Sau ERP: doanh nghiệp cần làm gì để khai thác dữ liệu ERP?](/insights/erp/khai-thac-du-lieu-erp)
 
 ---
 

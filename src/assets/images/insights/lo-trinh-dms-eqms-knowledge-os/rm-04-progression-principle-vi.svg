@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" width="1200" height="720" role="img" aria-label="Điều kiện nền tảng để chuyển từ chưa có hệ thống sang DMS, eQMS và Knowledge OS"><style>
+  :root{--p:1 97 239;--s:1 84 207;--a:109 40 217;--bg:255 255 255;--tx:0 0 0;--mut:16 16 16;--line:16 16 16}
+  @media (prefers-color-scheme: dark){:root{--bg:8 9 10;--tx:247 248 248;--mut:229 236 246;--line:229 236 246}}
+  text{font-family:Inter,Roboto,'Segoe UI',system-ui,-apple-system,Arial,sans-serif}
+  .bg{fill:rgb(var(--bg))}
+  .title{font-size:32px;font-weight:700;fill:rgb(var(--tx))}
+  .big{font-size:50px;font-weight:700;fill:rgb(var(--tx))}
+  .subtitle{font-size:17px;fill:rgb(var(--mut)/.66)}
+  .term{font-size:16px;font-weight:700;fill:rgb(var(--tx))}
+  .h2{font-size:19px;font-weight:700;fill:rgb(var(--tx))}
+  .lbl{font-size:11.5px;font-weight:600;letter-spacing:.08em;fill:rgb(var(--mut)/.66)}
+  .desc{font-size:13.5px;fill:rgb(var(--mut)/.85)}
+  .body{font-size:14.5px;fill:rgb(var(--mut)/.88)}
+  .mut{font-size:13px;fill:rgb(var(--mut)/.66)}
+  .val{font-size:15px;font-weight:600;fill:rgb(var(--tx))}
+  .foot{font-size:13px;fill:rgb(var(--mut)/.5)}
+  .chip{font-size:12px;font-weight:700;letter-spacing:.06em}
+  .g1 .box{fill:rgb(var(--p)/.08);stroke:rgb(var(--p))}
+  .g2 .box{fill:rgb(var(--s)/.12);stroke:rgb(var(--s))}
+  .g3 .box{fill:rgb(var(--a)/.09);stroke:rgb(var(--a))}
+  .g1 .bar{fill:rgb(var(--p))}.g2 .bar{fill:rgb(var(--s))}.g3 .bar{fill:rgb(var(--a))}
+  .g1 .acc{fill:rgb(var(--p))}.g2 .acc{fill:rgb(var(--s))}.g3 .acc{fill:rgb(var(--a))}
+  .box{stroke-width:1.5}
+  .card{fill:rgb(var(--bg));stroke:rgb(var(--line)/.2);stroke-width:1.5}
+  .soft{fill:rgb(var(--line)/.05)}
+  .ghost{fill:rgb(var(--line)/.22)}
+  .rule{stroke:rgb(var(--line)/.45);stroke-width:2;fill:none}
+  .ring{stroke:rgb(var(--line)/.18);stroke-width:1;fill:none}
+  .axis{stroke:rgb(var(--line)/.18);stroke-width:1}
+  .poly{fill:rgb(var(--p)/.18);stroke:rgb(var(--p));stroke-width:2.5;stroke-linejoin:round}
+  .dot{fill:rgb(var(--p));stroke:rgb(var(--bg));stroke-width:2}
+  .ah{fill:rgb(var(--line)/.45)}
+  .chipbox{fill:rgb(var(--a)/.12);stroke:rgb(var(--a));stroke-width:1.2}
+  .chiptx{fill:rgb(var(--a))}
+  .blue{fill:rgb(var(--p))}.purp{fill:rgb(var(--a))}
+  .ok{fill:rgb(var(--p)/.10);stroke:rgb(var(--p));stroke-width:1.5}
+  .pr{fill:rgb(var(--a)/.10);stroke:rgb(var(--a));stroke-width:1.5}
+  .final{fill:rgb(var(--tx));}
+  .finaltx{font-size:18px;font-weight:700;fill:rgb(var(--bg))}
+  @media (prefers-color-scheme: dark){
+    .g1 .box{fill:rgb(var(--p)/.18)}.g2 .box{fill:rgb(var(--s)/.22)}.g3 .box{fill:rgb(var(--a)/.2)}
+    .chiptx{fill:rgb(167 139 250)}.chipbox{stroke:rgb(167 139 250)}.purp{fill:rgb(167 139 250)}.pr{stroke:rgb(167 139 250)}
+    .g3 .acc{fill:rgb(167 139 250)}
+  }
+</style><style>
+  .tool{fill:rgb(var(--line)/.06);stroke:rgb(var(--line)/.25);stroke-width:1.2}
+  .toolb{fill:rgb(var(--p)/.12);stroke:rgb(var(--p));stroke-width:1.5}
+  .island{fill:rgb(var(--line)/.04);stroke:rgb(var(--line)/.35);stroke-width:1.5;stroke-dasharray:6 5}
+  .manual{stroke:rgb(var(--line)/.45);stroke-width:2;stroke-dasharray:3 5;fill:none;stroke-linecap:round}
+  .flow{stroke:rgb(var(--p));stroke-width:3;fill:none;stroke-linecap:round}
+  .flowh{fill:rgb(var(--p))}
+  .warn{fill:rgb(var(--a)/.12);stroke:rgb(var(--a));stroke-width:1.2}
+  .warntx{font-size:12.5px;font-weight:600;fill:rgb(var(--a))}
+  .slot{fill:rgb(var(--bg));stroke:rgb(var(--line)/.2);stroke-width:1.5}
+  .yes{fill:rgb(var(--p))}.no{fill:rgb(var(--a))}
+  .trk{fill:rgb(var(--line)/.10)}
+  .neq{font-size:64px;font-weight:700;fill:rgb(var(--a))}
+  @media (prefers-color-scheme: dark){
+    .warntx{fill:rgb(167 139 250)}.neq{fill:rgb(167 139 250)}.no{fill:rgb(167 139 250)}
+    .warn{stroke:rgb(167 139 250)}
+  }
+</style><style>
+  .gate{fill:rgb(var(--bg));stroke:rgb(var(--line)/.3);stroke-width:1.5}
+  .need{fill:rgb(var(--p)/.08);stroke:rgb(var(--p));stroke-width:1.2}
+  .node{fill:rgb(var(--bg));stroke:rgb(var(--p));stroke-width:1.8}
+  .nodep{fill:rgb(var(--a)/.10);stroke:rgb(var(--a));stroke-width:1.8}
+  .edge{stroke:rgb(var(--line)/.35);stroke-width:1.8;fill:none}
+  .edgep{stroke:rgb(var(--a));stroke-width:2.2;fill:none}
+  .tiny{font-size:12px;fill:rgb(var(--mut)/.66)}
+  .h32{font-size:32px;font-weight:700;fill:rgb(var(--tx))}
+  .good{fill:rgb(var(--p)/.10);stroke:rgb(var(--p));stroke-width:1.5}
+  .stop{fill:rgb(var(--a)/.08);stroke:rgb(var(--a));stroke-width:1.5}
+  .limit{fill:rgb(var(--a)/.08)}
+  .glow{fill:rgb(var(--a)/.06);stroke:rgb(var(--a));stroke-width:1.5;stroke-dasharray:6 5}
+  @media (prefers-color-scheme: dark){
+    .nodep{stroke:rgb(167 139 250)}.edgep{stroke:rgb(167 139 250)}.stop{stroke:rgb(167 139 250)}.glow{stroke:rgb(167 139 250)}
+  }
+</style><style>
+  .tag{font-size:12px;font-weight:700;letter-spacing:.06em;fill:rgb(var(--mut)/.66)}
+  .big2{font-size:44px;font-weight:700;fill:rgb(var(--tx))}
+  .metric{font-size:26px;font-weight:700;fill:rgb(var(--tx))}
+  .metricp{font-size:26px;font-weight:700;fill:rgb(var(--a))}
+  .step{fill:rgb(var(--line)/.05);stroke:rgb(var(--line)/.18);stroke-width:1.2}
+  .stepp{fill:rgb(var(--a)/.10);stroke:rgb(var(--a));stroke-width:1.2}
+  .stepb{fill:rgb(var(--p)/.10);stroke:rgb(var(--p));stroke-width:1.2}
+  .lane{fill:rgb(var(--bg));stroke:rgb(var(--line)/.2);stroke-width:1.5}
+  .lanep{fill:rgb(var(--a)/.06);stroke:rgb(var(--a));stroke-width:1.5}
+  .lanb{fill:rgb(var(--p)/.05);stroke:rgb(var(--p));stroke-width:1.5}
+  .cross{stroke:rgb(var(--line)/.55);stroke-width:2.5;stroke-linecap:round}
+  .tick{stroke:rgb(var(--p));stroke-width:3;stroke-linecap:round;stroke-linejoin:round;fill:none}
+  .tickp{stroke:rgb(var(--a));stroke-width:3;stroke-linecap:round;stroke-linejoin:round;fill:none}
+  .bridge{fill:rgb(var(--a)/.10);stroke:rgb(var(--a));stroke-width:1.5}
+  .endl{fill:rgb(var(--line)/.07);stroke:rgb(var(--line)/.25);stroke-width:1.5}
+  .endr{fill:rgb(var(--p)/.10);stroke:rgb(var(--p));stroke-width:1.5}
+  .dashv{stroke:rgb(var(--line)/.35);stroke-width:1.5;stroke-dasharray:5 5}
+  .chipbox2{fill:rgb(var(--a)/.12);stroke:rgb(var(--a));stroke-width:1.2}
+  @media (prefers-color-scheme: dark){
+    .metricp{fill:rgb(167 139 250)}.tickp{stroke:rgb(167 139 250)}
+    .stepp{stroke:rgb(167 139 250)}.lanep{stroke:rgb(167 139 250)}.bridge{stroke:rgb(167 139 250)}
+    .chipbox2{stroke:rgb(167 139 250)}
+  }
+</style><style>
+  .numw{font-size:18px;font-weight:700;fill:#fff}
+  .chipfill{fill:rgb(var(--a))}
+  .chipw{font-size:14px;font-weight:700;fill:#fff}
+  .cell{fill:rgb(var(--line)/.07)}
+  .c1{fill:rgb(var(--p))}.c2{fill:rgb(var(--s))}.c3{fill:rgb(var(--a))}
+  .hl{fill:rgb(var(--a)/.07);stroke:rgb(var(--a));stroke-width:1.5}
+  .dash{stroke:rgb(var(--line)/.4);stroke-width:2;stroke-dasharray:6 5;fill:none}
+  .pa{stroke:rgb(var(--a));stroke-width:3;fill:none}
+  .pah{fill:rgb(var(--a))}
+  .bold-p{font-size:14.5px;font-weight:700;fill:rgb(var(--a))}
+  @media (prefers-color-scheme: dark){
+    .bold-p{fill:rgb(167 139 250)}.pa{stroke:rgb(167 139 250)}.pah{fill:rgb(167 139 250)}.c3{fill:rgb(167 139 250)}
+    .hl{stroke:rgb(167 139 250)}.chipfill{fill:rgb(109 40 217)}
+  }
+</style><rect class="bg" width="1200" height="720"/>
+<text class="title" x="60" y="78" text-anchor="start">Nguyên tắc chuyển giai đoạn</text>
+<text class="subtitle" x="60" y="110" text-anchor="start">Điều kiện chuyển bước không phải “đủ ngân sách”, mà là đã khai thác hết giá trị giai đoạn hiện tại</text>
+<rect class="endl" x="60" y="150" width="210" height="70" rx="14"/>
+<text class="h2" x="165.0" y="192" text-anchor="middle">Chưa có hệ thống</text>
+<line class="rule" x1="276" y1="185" x2="335" y2="185"/><path class="ah" d="M344 185 l-9 -5 v10 z"/>
+<line class="dashv" x1="310" y1="190" x2="310" y2="262"/>
+<rect class="need" x="175" y="262" width="270" height="136" rx="12"/>
+<text class="lbl" x="191.0" y="288" text-anchor="start">ĐIỀU KIỆN NỀN TẢNG</text>
+<text class="body" x="191.0" y="314" text-anchor="start">Tài liệu đã số hóa cơ bản</text>
+<text class="mut" x="191.0" y="339" text-anchor="start">(không chỉ là PDF scan)</text>
+<rect class="stepb" x="350" y="150" width="210" height="70" rx="14"/>
+<text class="h2" x="455.0" y="192" text-anchor="middle">DMS</text>
+<line class="rule" x1="566" y1="185" x2="625" y2="185"/><path class="ah" d="M634 185 l-9 -5 v10 z"/>
+<line class="dashv" x1="600" y1="190" x2="600" y2="262"/>
+<rect class="need" x="465" y="262" width="270" height="136" rx="12"/>
+<text class="lbl" x="481.0" y="288" text-anchor="start">ĐIỀU KIỆN NỀN TẢNG</text>
+<text class="body" x="481.0" y="314" text-anchor="start">Quy trình đã được tài liệu hóa</text>
+<text class="mut" x="481.0" y="339" text-anchor="start">Người phụ trách rõ ràng</text>
+<rect class="stepb" x="640" y="150" width="210" height="70" rx="14"/>
+<text class="h2" x="745.0" y="192" text-anchor="middle">eQMS</text>
+<line class="rule" x1="856" y1="185" x2="915" y2="185"/><path class="ah" d="M924 185 l-9 -5 v10 z"/>
+<line class="dashv" x1="890" y1="190" x2="890" y2="262"/>
+<rect class="need" x="755" y="262" width="270" height="136" rx="12"/>
+<text class="lbl" x="771.0" y="288" text-anchor="start">ĐIỀU KIỆN NỀN TẢNG</text>
+<text class="body" x="771.0" y="314" text-anchor="start">Dữ liệu chất lượng có cấu trúc</text>
+<text class="body" x="771.0" y="333" text-anchor="start">nhất quán</text>
+<text class="mut" x="771.0" y="358" text-anchor="start">ERP (nếu có) hoạt động tốt</text>
+<rect class="stepp" x="930" y="150" width="210" height="70" rx="14"/>
+<text class="h2" x="1035.0" y="192" text-anchor="middle">Knowledge OS</text>
+<rect class="good" x="60" y="428" width="530" height="212" rx="14"/>
+<rect class="stop" x="610" y="428" width="530" height="212" rx="14"/>
+<circle cx="92" cy="464" r="14" fill="rgb(var(--p)/.15)"/>
+<path d="M86 464 l4.5 5 l8 -10" fill="none" stroke="rgb(var(--p))" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="h2" x="118" y="470" text-anchor="start">Chuyển lên khi</text>
+<circle class="blue" cx="86" cy="503" r="3.5"/>
+<text class="body" x="100" y="508" text-anchor="start">Đã khai thác đủ giá trị giai đoạn hiện tại</text>
+<circle class="blue" cx="86" cy="535" r="3.5"/>
+<text class="body" x="100" y="540" text-anchor="start">Đang gặp giới hạn cụ thể mà giai đoạn sau giải</text>
+<text class="body" x="100" y="558" text-anchor="start">quyết</text>
+<circle class="blue" cx="86" cy="585" r="3.5"/>
+<text class="body" x="100" y="590" text-anchor="start">Có đủ nền tảng</text>
+<circle cx="642" cy="464" r="14" fill="rgb(var(--a)/.15)"/>
+<path class="tickp" d="M636 458 l12 12 M648 458 l-12 12" stroke-width="3"/>
+<text class="h2" x="668" y="470" text-anchor="start">Chưa chuyển khi</text>
+<circle class="purp" cx="636" cy="503" r="3.5"/>
+<text class="body" x="650" y="508" text-anchor="start">Chưa khai thác hết giá trị giai đoạn hiện tại</text>
+<circle class="purp" cx="636" cy="535" r="3.5"/>
+<text class="body" x="650" y="540" text-anchor="start">Nền tảng chưa đủ</text>
+<text class="foot" x="60" y="696" text-anchor="start">okelas.com</text>
+</svg>

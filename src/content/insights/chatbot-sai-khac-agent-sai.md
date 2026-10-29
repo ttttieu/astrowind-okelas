@@ -2,6 +2,9 @@
 title: "Chatbot sai một câu. Agent sai một hành động. Tại sao sự khác biệt này quan trọng?"
 description: "Khi chatbot sai, con người kiểm tra và sửa. Khi agent sai, nó có thể đã thay đổi trạng thái hệ thống — trong ERP, trong workflow, trong database. Đây là lý do enterprise AI cần evidence, authorization và audit."
 publishDate: 2026-09-23T00:00:00Z
+coverImage: '~/assets/images/insights/chatbot-sai-khac-agent-sai/aaer-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/chatbot-sai-khac-agent-sai/aaer-00-og-cover-vi.png'
+coverImageAlt: "Hộp \"Lỗi bị bắt trước\" nối với hộp \"Lỗi đã xảy ra\" bằng mũi tên nét đứt ghi \"khác loại rủi ro\"."
 translationId: article-6-10-chatbot-vs-agent-error
 lang: vi
 category: ai
@@ -20,6 +23,8 @@ secondaryKeywords:
   - "AI action error"
   - "chatbot error vs agent error"
 assessmentHref: /readiness/ai
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---
 
@@ -43,6 +48,8 @@ Câu hỏi đó là: **tại sao một lỗi của AI agent lại nghiêm trọn
 
 ## Lỗi chatbot và lỗi agent: hai mức độ khác nhau
 
+![Hai dòng quy trình: chatbot có người kiểm tra trước khi có hệ quả; agent có hệ thống thay đổi trước khi xem lại.](~/assets/images/insights/chatbot-sai-khac-agent-sai/aaer-01-two-processes-vi.svg)
+
 **Claim:** Lỗi của một chatbot và lỗi của một AI agent khác nhau ở một điểm cấu trúc: **thời điểm con người có cơ hội can thiệp so với thời điểm hậu quả xảy ra.**
 
 Với một chatbot: mô hình tạo ra một câu trả lời → con người đọc câu trả lời đó → con người quyết định có hành động theo hay không. Nếu câu trả lời sai, hậu quả dừng lại ở việc người dùng nhận thông tin sai — và họ vẫn còn toàn quyền kiểm tra trước khi bất cứ điều gì thực sự xảy ra.
@@ -57,9 +64,13 @@ Với một AI agent có quyền truy cập hệ thống: mô hình quyết đ�
 | Phạm vi hậu quả | Giới hạn ở người đọc câu trả lời | Có thể lan ra dữ liệu, hệ thống, hoặc bên thứ ba |
 | Cách phát hiện | Người đọc tự nhận ra ngay | Cần cơ chế giám sát chủ động mới phát hiện được |
 
+![Bảng so sánh năm tiêu chí giữa chatbot và agent.](~/assets/images/insights/chatbot-sai-khac-agent-sai/aaer-02-five-criteria-vi.svg)
+
 ---
 
 ## Khi agent sai, điều gì đã xảy ra
+
+![Bốn thẻ ví dụ về sự cố agent: Replit, Apollo Research, confused deputy và EchoLeak.](~/assets/images/insights/chatbot-sai-khac-agent-sai/aaer-03-incidents-vi.svg)
 
 Để cụ thể hóa sự khác biệt trên, nhìn lại những gì đã được ghi nhận xuyên suốt series này:
 
@@ -77,6 +88,8 @@ Với một AI agent có quyền truy cập hệ thống: mô hình quyết đ�
 
 ## Tại sao cần Evidence + Authorization + Boundary + Audit
 
+![Bốn thẻ trụ cột: bằng chứng, phê duyệt, giới hạn và kiểm toán.](~/assets/images/insights/chatbot-sai-khac-agent-sai/aaer-04-four-pillars-vi.svg)
+
 Từ toàn bộ phân tích trên, bốn trụ cột thiết kế mà bất kỳ hệ thống AI agent nào trong doanh nghiệp cũng cần có:
 
 **1. Evidence (Bằng chứng).** Mọi hành động của agent cần để lại một dấu vết đầy đủ: dữ liệu đầu vào, lý do được đưa ra, và kết quả thực tế. Cơ chế giám sát không nên phụ thuộc vào việc mô hình tự nguyện báo cáo trung thực — evidence cần được ghi nhận độc lập với chính mô hình đang được giám sát.
@@ -92,6 +105,8 @@ Bốn trụ cột này không hoạt động độc lập — chúng bổ trợ 
 ---
 
 ## Hàm ý cho enterprise AI deployment
+
+![Ba bước khuyến nghị được đánh số, theo thứ tự trước khi triển khai.](~/assets/images/insights/chatbot-sai-khac-agent-sai/aaer-05-deployment-steps-vi.svg)
 
 **1. Phân loại quyết định trước khi phân loại công nghệ.** Trước khi hỏi "nên dùng mô hình AI nào", hãy hỏi "hành động này, nếu sai, hậu quả nghiêm trọng tới đâu và có đảo ngược được không". Câu trả lời quyết định mức độ cần thiết của cả bốn trụ cột.
 

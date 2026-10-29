@@ -1,0 +1,46 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Content from '~/components/widgets/Content.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'OKELAS Là Gì — Giới Thiệu',
+  description:
+    'OKELAS là hệ điều hành tri thức tổ chức cho doanh nghiệp sản xuất vừa và nhỏ — lớp kết nối con người, quy trình, tài liệu, sự kiện và bằng chứng thành một thể thống nhất.',
+};
+---
+
+<Layout metadata={metadata} translationId="about-okelas">
+  <HeroText
+    tagline="Giới Thiệu"
+    title="OKELAS Là Gì"
+    subtitle="Hệ điều hành tri thức tổ chức cho doanh nghiệp sản xuất vừa và nhỏ."
+  />
+
+  <Content
+    content={`
+      <p>OKELAS giúp doanh nghiệp chuyển từ vận hành dựa trên tài liệu, trí nhớ cá nhân và kinh nghiệm chủ quan sang vận hành dựa trên quy trình, workflow, bằng chứng và tri thức tổ chức. Đó là điểm khởi đầu khác biệt so với hầu hết các phần mềm hiện tại.</p>
+
+      <p>OKELAS không phải hệ thống quản lý tài liệu, không phải QMS, không phải ERP, cũng không phải chatbot AI — dù nó có thể kết nối và làm việc song song với tất cả những hệ thống đó. Nó là lớp liên kết con người, quy trình, tài liệu, sự kiện và bằng chứng lại với nhau, để doanh nghiệp có một sự hiểu biết nhất quán về cách mình thực sự vận hành — điều mà ERP đơn thuần (chỉ quản lý giao dịch) và AI đơn thuần (thiếu ngữ cảnh doanh nghiệp) không thể cung cấp.</p>
+
+      <p>OKELAS có thể bao gồm: nền tảng tri thức cốt lõi (Core Knowledge Layer), lớp Copilot/Agent tích hợp trong workflow thực tế thay vì hoạt động như chatbot độc lập, và — với doanh nghiệp đã sẵn sàng — ERPNext với ERP Knowledge Graph và môi trường sandbox. Không phải doanh nghiệp nào cũng cần toàn bộ ngay từ ngày đầu. Điểm khởi đầu luôn là như nhau: hiểu doanh nghiệp thực sự đang vận hành như thế nào, trước khi thêm phần mềm lên trên.</p>
+    `}
+  />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Phương Pháp Tiếp Cận',
+        href: '/gioi-thieu/phuong-phap',
+        icon: 'tabler:arrow-right',
+      },
+    ]}
+  >
+    <Fragment slot="title">Tiếp Theo</Fragment>
+    <Fragment slot="subtitle">
+      Tìm hiểu cách OKELAS thường bắt đầu một dự án — và tại sao chúng tôi luôn bắt đầu bằng chẩn đoán, không phải đề xuất.
+    </Fragment>
+  </CallToAction>
+</Layout>

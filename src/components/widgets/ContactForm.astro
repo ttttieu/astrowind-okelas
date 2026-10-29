@@ -1,0 +1,156 @@
+---
+interface Props {
+  language: 'vi' | 'en';
+}
+const { language } = Astro.props;
+---
+
+<div class="max-w-xl mx-auto px-4 py-2">
+  <form id="contact-form" novalidate class="bg-white dark:bg-slate-900 rounded-lg border border-gray-200 dark:border-gray-700 shadow p-6 sm:p-8 space-y-5">
+    <!-- honeypot — bots fill this, humans don't -->
+    <input type="text" name="_honey" class="hidden" tabindex="-1" autocomplete="off" aria-hidden="true" />
+
+    <div>
+      <label for="cf-name" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+        {language === 'vi' ? 'Họ và tên' : 'Name'}
+      </label>
+      <input
+        type="text" id="cf-name" name="name" required
+        class="w-full px-4 py-3 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-800 text-gray-900 dark:text-gray-100 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+      />
+    </div>
+
+    <div>
+      <label for="cf-email" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Email</label>
+      <input
+        type="email" id="cf-email" name="email" required
+        class="w-full px-4 py-3 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-800 text-gray-900 dark:text-gray-100 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+      />
+    </div>
+
+    <div>
+      <label for="cf-company" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+        {language === 'vi' ? 'Doanh nghiệp' : 'Company'}
+      </label>
+      <input
+        type="text" id="cf-company" name="company"
+        class="w-full px-4 py-3 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-800 text-gray-900 dark:text-gray-100 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+      />
+    </div>
+
+    <div>
+      <label for="cf-message" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+        {language === 'vi' ? 'Bạn đang gặp vấn đề gì?' : 'What problem are you seeing?'}
+      </label>
+      <textarea
+        id="cf-message" name="message" rows="4"
+        class="w-full px-4 py-3 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-800 text-gray-900 dark:text-gray-100 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+      ></textarea>
+    </div>
+
+    <div class="flex items-start gap-3">
+      <input type="checkbox" id="cf-disclaimer" required class="mt-1 w-4 h-4 cursor-pointer rounded" />
+      <label for="cf-disclaimer" class="text-sm text-gray-600 dark:text-gray-400 cursor-pointer select-none">
+        {language === 'vi'
+          ? 'Bằng cách gửi form này, bạn đồng ý để chúng tôi lưu thông tin liên hệ phục vụ cho yêu cầu này.'
+          : 'By submitting this form, you agree to the collection of your contact information for the purpose of this enquiry.'}
+      </label>
+    </div>
+
+    <button
+      type="submit" id="cf-submit"
+      class="w-full px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+    >
+      {language === 'vi' ? 'Gửi' : 'Contact us'}
+    </button>
+
+    <p id="cf-error" class="hidden text-sm text-red-600 dark:text-red-400 text-center"></p>
+  </form>
+
+  <p class="text-sm text-gray-500 dark:text-gray-400 text-center mt-4">
+    {language === 'vi'
+      ? 'Chúng tôi thường phản hồi trong vòng một ngày làm việc.'
+      : 'We typically respond within one business day.'}
+  </p>
+</div>
+
+<script define:vars={{ language }}>
+  const form = document.getElementById('contact-form');
+  const submitBtn = document.getElementById('cf-submit');
+  const errorEl = document.getElementById('cf-error');
+
+  form?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    // Honeypot: if filled, silently discard
+    if (form.querySelector('[name="_honey"]')?.value) return;
+
+    const name = document.getElementById('cf-name').value.trim();
+    const email = document.getElementById('cf-email').value.trim();
+    const company = document.getElementById('cf-company').value.trim();
+    const message = document.getElementById('cf-message').value.trim();
+    const disclaimer = document.getElementById('cf-disclaimer').checked;
+
+    if (!name || !email) {
+      errorEl.textContent = language === 'vi' ? 'Vui lòng điền họ tên và email.' : 'Please enter your name and email.';
+      errorEl.classList.remove('hidden');
+      return;
+    }
+    if (!disclaimer) {
+      errorEl.textContent = language === 'vi' ? 'Vui lòng xác nhận điều khoản.' : 'Please accept the terms.';
+      errorEl.classList.remove('hidden');
+      return;
+    }
+
+    errorEl.classList.add('hidden');
+    submitBtn.disabled = true;
+    const originalLabel = submitBtn.textContent;
+    submitBtn.textContent = language === 'vi' ? 'Đang gửi...' : 'Sending...';
+
+    const utmParams = new URLSearchParams(window.location.search);
+
+    try {
+      const res = await fetch('/api/contact?language=' + language, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name,
+          email,
+          company: company || null,
+          message: message || null,
+          language,
+          utm_source: utmParams.get('utm_source') || null,
+          utm_medium: utmParams.get('utm_medium') || null,
+          utm_campaign: utmParams.get('utm_campaign') || null,
+        }),
+      });
+
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+
+      // Replace form with success message
+      const wrapper = form.closest('.max-w-xl');
+      if (wrapper) {
+        wrapper.innerHTML = `
+          <div class="bg-green-50 dark:bg-green-900/20 rounded-lg border border-green-200 dark:border-green-700 p-10 text-center">
+            <div class="text-5xl mb-4">✓</div>
+            <p class="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
+              ${language === 'vi' ? 'Cảm ơn!' : 'Thank you!'}
+            </p>
+            <p class="text-gray-600 dark:text-gray-400">
+              ${language === 'vi'
+                ? 'Đội OKELAS sẽ liên hệ trong vòng một ngày làm việc.'
+                : 'The OKELAS team will get back to you within one business day.'}
+            </p>
+          </div>
+        `;
+      }
+    } catch (_err) {
+      submitBtn.disabled = false;
+      submitBtn.textContent = originalLabel;
+      errorEl.textContent = language === 'vi'
+        ? 'Gửi không thành công. Vui lòng thử lại.'
+        : 'Failed to send. Please try again.';
+      errorEl.classList.remove('hidden');
+    }
+  });
+</script>

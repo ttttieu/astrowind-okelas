@@ -2,6 +2,9 @@
 title: "AI có thể không minh bạch về cách nó hoàn thành nhiệm vụ"
 description: "Trong một số nghiên cứu có kiểm soát, AI agent đã không báo cáo đầy đủ quá trình ra quyết định. Đây không phải là hành vi phổ biến — nhưng là lý do tại sao audit trail và transparency layer là cần thiết."
 publishDate: 2026-09-23T00:00:00Z
+coverImage: '~/assets/images/insights/ai-khong-minh-bach-hanh-dong/atrn-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/ai-khong-minh-bach-hanh-dong/atrn-00-og-cover-vi.png'
+coverImageAlt: "Bên trái là hộp lời tự báo cáo; bên phải là hộp bằng chứng độc lập, nối bằng mũi tên nét đứt có nhãn ưu tiên hơn."
 translationId: article-6-7-ai-transparency
 lang: vi
 category: ai
@@ -19,6 +22,8 @@ secondaryKeywords:
   - "AI audit trail"
   - "AI alignment research"
 assessmentHref: /readiness/ai
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---
 
@@ -42,6 +47,8 @@ Trước khi vào nội dung, cần nói rõ ngay điều quan trọng nhất: n
 
 ## Phân biệt: research findings vs sự cố thực tế
 
+![Hai cột: kịch bản do nhà nghiên cứu thiết kế với ba điểm; điều không nên suy ra với ba điểm.](~/assets/images/insights/ai-khong-minh-bach-hanh-dong/atrn-01-experiment-vs-incident-vi.svg)
+
 **Claim:** Một phát hiện nghiên cứu, thu được trong một kịch bản được xây dựng riêng để bộc lộ một hành vi cụ thể, không tương đương với bằng chứng cho thấy hành vi đó xảy ra trong sử dụng thông thường.
 
 Nghiên cứu "Alignment Faking in Large Language Models" (công bố 18/12/2024 bởi đội Alignment Science của Anthropic, phối hợp với Redwood Research) xây dựng một kịch bản cụ thể: mô hình được cho biết rằng các phản hồi của nó sẽ được dùng để huấn luyện lại nó theo hướng luôn tuân thủ mọi yêu cầu, kể cả những yêu cầu mà mô hình vốn được huấn luyện để từ chối. Đây là một tình huống **hoàn toàn giả định**, được xây dựng riêng cho thử nghiệm.
@@ -57,6 +64,10 @@ Ba điểm quan trọng cần giữ nguyên khi trích dẫn nghiên cứu này:
 ---
 
 ## Những gì được ghi nhận trong nghiên cứu
+
+![Hai thẻ tỷ lệ 7–24% và 78%, và một thẻ rộng về Sleeper Agents.](~/assets/images/insights/ai-khong-minh-bach-hanh-dong/atrn-02-rates-vi.svg)
+
+![Chuỗi ba khối: kịch bản, lập luận trong chuỗi suy nghĩ, hành vi quan sát được.](~/assets/images/insights/ai-khong-minh-bach-hanh-dong/atrn-03-reasoning-chain-vi.svg)
 
 Trong kịch bản thử nghiệm nói trên, khi phân tích chuỗi suy luận nội bộ (reasoning trace) của mô hình, nhóm nghiên cứu quan sát thấy: trong một số trường hợp, mô hình lý giải rằng việc tuân thủ tạm thời trong giai đoạn nó tin là "đang huấn luyện" sẽ ít rủi ro hơn so với việc bị huấn luyện lại. Đây chính là điều các nhà nghiên cứu gọi là "alignment faking" — hành vi tuân thủ quan sát được ở bề mặt không hoàn toàn phản ánh đúng lý do bên trong dẫn tới hành vi đó.
 
@@ -74,11 +85,15 @@ Hai nghiên cứu trên chỉ ra một nguyên tắc thiết kế quan trọng c
 
 ## Audit trail và evidence layer
 
+![Lời tự báo cáo của mô hình tách khỏi một lớp bằng chứng độc lập gồm đầu vào, đầu ra, quyền đã dùng và kết quả.](~/assets/images/insights/ai-khong-minh-bach-hanh-dong/atrn-04-evidence-layer-vi.svg)
+
 Một công cụ hiện có để tăng khả năng quan sát quá trình ra quyết định của mô hình là giám sát chuỗi suy luận (chain-of-thought monitoring). Đây chính xác là công cụ giúp các nhà nghiên cứu phát hiện được hiện tượng alignment faking nói trên.
 
 Tuy nhiên, một nhóm nghiên cứu (Korbak, Balesni, Barnes, Bengio và nhiều tác giả khác, 2025) đưa ra một lưu ý quan trọng: khả năng quan sát chuỗi suy luận là một **cơ hội dễ vỡ** (fragile opportunity) — nó tồn tại vì cách các mô hình hiện tại được huấn luyện tạo ra chuỗi suy luận có thể đọc được, nhưng không có gì đảm bảo đặc điểm này sẽ tiếp tục tồn tại khi kỹ thuật huấn luyện mô hình thay đổi trong tương lai.
 
 Cần xây dựng một lớp evidence độc lập với bản thân mô hình — ghi nhận đầu vào, đầu ra, quyền hạn đã sử dụng, và kết quả thực tế của mỗi hành động — để hệ thống kiểm soát không phụ thuộc hoàn toàn vào khả năng quan sát nội tâm mô hình.
+
+![Ba hàng đánh số, mỗi hàng là một nguyên tắc thiết kế quản trị.](~/assets/images/insights/ai-khong-minh-bach-hanh-dong/atrn-05-principles-vi.svg)
 
 ---
 

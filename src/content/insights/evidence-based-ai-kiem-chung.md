@@ -2,7 +2,9 @@
 title: "Evidence-Based AI: khi câu trả lời cần có khả năng kiểm chứng"
 description: "Trong môi trường ISO, GMP hay regulated industry, AI không thể chỉ đưa ra câu trả lời — câu trả lời đó phải có evidence, trace và audit trail. Bài viết phân tích yêu cầu này."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/evidence-based-ai.png'
+coverImage: '~/assets/images/insights/evidence-based-ai-kiem-chung/ebai-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/evidence-based-ai-kiem-chung/ebai-00-og-cover-vi.png'
+coverImageAlt: "Bên trái là câu trả lời đúng nhưng không chứng minh được; bên phải là ba bước có bằng chứng: đầu vào, giải thích, người duyệt."
 category: 'ai'
 tags: ['Evidence-Based AI', 'Compliance', 'AI Governance', 'Regulated Industries']
 translationId: 'evidence-based-ai'
@@ -19,6 +21,8 @@ secondaryKeywords:
   - "AI trong ISO GMP"
   - "AI audit trail"
 assessmentHref: '/readiness/ai'
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---
 
@@ -32,6 +36,8 @@ draft: false
 ---
 
 ## Câu hỏi auditor không ai muốn nghe
+
+![Hai thẻ: hồ sơ quyết định cần có gồm kết quả kiểm tra, tiêu chuẩn và người duyệt; khi AI tham gia, auditor hỏi thêm về dữ liệu, phiên bản tiêu chuẩn và khả năng xem lại.](~/assets/images/insights/evidence-based-ai-kiem-chung/ebai-01-records-vs-ai-questions-vi.svg)
 
 Một tình huống quen thuộc với Quality Director trong bất kỳ doanh nghiệp sản xuất nào đang qua audit.
 
@@ -48,6 +54,8 @@ Nếu câu trả lời là "hệ thống không lưu lại" hoặc "chúng tôi 
 ---
 
 ## Tại sao AI không có evidence là rủi ro trong môi trường regulated
+
+![Ba thẻ rủi ro: quyết định không dựng lại được, không biết phiên bản dữ liệu, trách nhiệm không rõ ràng.](~/assets/images/insights/evidence-based-ai-kiem-chung/ebai-02-three-risks-vi.svg)
 
 Trong môi trường sản xuất thông thường, một câu trả lời sai nhưng tự tin có thể gây ra vấn đề. Trong môi trường có ISO, GMP, hay các tiêu chuẩn an toàn thực phẩm, một câu trả lời không thể kiểm chứng — dù đúng — cũng là vấn đề.
 
@@ -73,6 +81,8 @@ AI không phải thực thể pháp lý. Tổ chức chịu trách nhiệm về 
 ---
 
 ## Compliance context yêu cầu gì từ AI
+
+![Bốn thẻ yêu cầu: traceability đầu vào, explainability đầu ra, điểm review của con người, audit trail đầy đủ.](~/assets/images/insights/evidence-based-ai-kiem-chung/ebai-03-four-requirements-vi.svg)
 
 Để AI hoạt động trong môi trường có yêu cầu compliance, có một số yêu cầu cụ thể mà hệ thống AI cần đáp ứng — vượt ra ngoài yêu cầu "trả lời đúng".
 
@@ -104,6 +114,8 @@ Audit trail của AI phải là một phần của audit trail tổng thể củ
 
 ## Evidence, trace và audit trail — phân biệt ba khái niệm
 
+![Ba ô nối tiếp: bằng chứng, truy vết và audit trail, mỗi ô có định nghĩa ngắn.](~/assets/images/insights/evidence-based-ai-kiem-chung/ebai-04-three-concepts-vi.svg)
+
 Ba thuật ngữ này thường bị dùng lẫn nhau, nhưng chúng có nghĩa cụ thể trong ngữ cảnh compliance.
 
 **Evidence** là bằng chứng cụ thể rằng một sự kiện hoặc kết quả đã xảy ra. Ví dụ: kết quả đo nhiệt độ, phiếu kiểm tra đầu vào, ảnh chụp kết quả kiểm tra ngoại quan. Evidence là thứ auditor yêu cầu xem.
@@ -117,6 +129,8 @@ Khi AI tham gia vào quy trình, cả ba đều cần bao gồm hoạt động c
 ---
 
 ## Cách tiếp cận phù hợp cho doanh nghiệp sản xuất có yêu cầu compliance
+
+![Hai cột: hậu quả thấp khi AI nhận diện sai quy trình tra cứu; hậu quả rất cao khi AI phân tích sai kết quả kiểm tra.](~/assets/images/insights/evidence-based-ai-kiem-chung/ebai-05-consequence-levels-vi.svg)
 
 Không phải mọi ứng dụng AI trong doanh nghiệp đều cần mức độ evidence như nhau. Một chatbot giúp nhân viên tìm quy trình nhanh hơn không cần audit trail phức tạp. Nhưng AI tham gia vào phân tích quyết định, gợi ý hành động, hay tạo ra tài liệu có ý nghĩa compliance thì yêu cầu là khác hẳn.
 

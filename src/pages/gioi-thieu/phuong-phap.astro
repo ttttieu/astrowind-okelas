@@ -1,0 +1,50 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Content from '~/components/widgets/Content.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Phương Pháp Tiếp Cận — OKELAS',
+  description:
+    'Chúng tôi không bắt đầu từ phần mềm. Chúng tôi bắt đầu từ cách doanh nghiệp thực sự vận hành — và tại sao ERP hay AI chỉ tạo ra giá trị thực khi quy trình và tri thức nền tảng đã sẵn sàng.',
+};
+---
+
+<Layout metadata={metadata} translationId="about-approach">
+  <HeroText
+    tagline="Giới Thiệu"
+    title="Phương Pháp Tiếp Cận"
+    subtitle="Chúng tôi không bắt đầu từ phần mềm. Chúng tôi bắt đầu từ cách doanh nghiệp thực sự vận hành."
+  />
+
+  <Content
+    content={`
+      <p>Thực tế thường lộn xộn hơn, tạm bợ hơn, và phụ thuộc vào một vài người chủ chốt nhiều hơn bất kỳ sơ đồ tổ chức nào cho thấy.</p>
+
+      <p><strong>Giải quyết vấn đề vận hành bằng hệ thống vừa đủ nhỏ.</strong> Chúng tôi không giả định rằng doanh nghiệp sản xuất SME cần một nền tảng quy mô doanh nghiệp lớn để tạo ra giá trị. Nhiều cải tiến có tác động cao nhất lại rất nhỏ: một quy trình được tài liệu hóa thay vì được ngầm hiểu, một điểm kiểm tra phát hiện lỗi trước khi đến tay khách hàng, một hồ sơ tồn tại để audit không phải tái tạo từ trí nhớ.</p>
+
+      <p>Đó cũng là lý do chúng tôi không coi ERP hay AI là đích đến. ERP quản lý giao dịch — nó không tự động tạo ra sự hiểu biết về tổ chức. AI có thể tạo ra câu trả lời nhanh — nhưng nó không tự nhiên hiểu cách doanh nghiệp của bạn vận hành. Cả hai đều tạo ra giá trị thực — nhưng chỉ khi quy trình và tri thức nền tảng bên dưới đã sẵn sàng để hỗ trợ.</p>
+
+      <p>Các dự án của chúng tôi thường bắt đầu bằng đánh giá readiness, không phải bài thuyết trình bán hàng, vì câu trả lời trung thực cho câu hỏi "chúng tôi có nên làm ngay bây giờ không" đôi khi là: chưa, và đây là những gì cần sửa trước.</p>
+
+      <p>Chúng tôi triển khai on-premise hoặc cloud tùy theo yêu cầu compliance và chi phí của từng doanh nghiệp — không mặc định giả sử mọi công ty cần chạy AI trên cloud công cộng hay duy trì một stack SaaS không cần thiết.</p>
+    `}
+  />
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Đánh Giá Readiness',
+        href: '/readiness',
+        icon: 'tabler:clipboard-check',
+      },
+    ]}
+  >
+    <Fragment slot="title">Bước Tiếp Theo</Fragment>
+    <Fragment slot="subtitle">
+      Cách nhanh nhất để bắt đầu là đánh giá readiness — ba phút, kết quả hành động được dù kết quả là gì.
+    </Fragment>
+  </CallToAction>
+</Layout>

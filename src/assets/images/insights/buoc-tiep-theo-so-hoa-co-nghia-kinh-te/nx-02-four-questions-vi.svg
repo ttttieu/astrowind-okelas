@@ -1,0 +1,197 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600" role="img" aria-label="Framework bốn câu hỏi: vấn đề tốn nhiều nhất, cấp độ và chiều yếu nhất, điều kiện để thành công, cách đo giá trị trong 6 đến 12 tháng"><style>
+  :root{--p:1 97 239;--s:1 84 207;--a:109 40 217;--bg:255 255 255;--tx:0 0 0;--mut:16 16 16;--line:16 16 16}
+  @media (prefers-color-scheme: dark){:root{--bg:8 9 10;--tx:247 248 248;--mut:229 236 246;--line:229 236 246}}
+  text{font-family:Inter,Roboto,'Segoe UI',system-ui,-apple-system,Arial,sans-serif}
+  .bg{fill:rgb(var(--bg))}
+  .title{font-size:32px;font-weight:700;fill:rgb(var(--tx))}
+  .big{font-size:50px;font-weight:700;fill:rgb(var(--tx))}
+  .subtitle{font-size:17px;fill:rgb(var(--mut)/.66)}
+  .term{font-size:16px;font-weight:700;fill:rgb(var(--tx))}
+  .h2{font-size:19px;font-weight:700;fill:rgb(var(--tx))}
+  .lbl{font-size:11.5px;font-weight:600;letter-spacing:.08em;fill:rgb(var(--mut)/.66)}
+  .desc{font-size:13.5px;fill:rgb(var(--mut)/.85)}
+  .body{font-size:14.5px;fill:rgb(var(--mut)/.88)}
+  .mut{font-size:13px;fill:rgb(var(--mut)/.66)}
+  .val{font-size:15px;font-weight:600;fill:rgb(var(--tx))}
+  .foot{font-size:13px;fill:rgb(var(--mut)/.5)}
+  .chip{font-size:12px;font-weight:700;letter-spacing:.06em}
+  .g1 .box{fill:rgb(var(--p)/.08);stroke:rgb(var(--p))}
+  .g2 .box{fill:rgb(var(--s)/.12);stroke:rgb(var(--s))}
+  .g3 .box{fill:rgb(var(--a)/.09);stroke:rgb(var(--a))}
+  .g1 .bar{fill:rgb(var(--p))}.g2 .bar{fill:rgb(var(--s))}.g3 .bar{fill:rgb(var(--a))}
+  .g1 .acc{fill:rgb(var(--p))}.g2 .acc{fill:rgb(var(--s))}.g3 .acc{fill:rgb(var(--a))}
+  .box{stroke-width:1.5}
+  .card{fill:rgb(var(--bg));stroke:rgb(var(--line)/.2);stroke-width:1.5}
+  .soft{fill:rgb(var(--line)/.05)}
+  .ghost{fill:rgb(var(--line)/.22)}
+  .rule{stroke:rgb(var(--line)/.45);stroke-width:2;fill:none}
+  .ring{stroke:rgb(var(--line)/.18);stroke-width:1;fill:none}
+  .axis{stroke:rgb(var(--line)/.18);stroke-width:1}
+  .poly{fill:rgb(var(--p)/.18);stroke:rgb(var(--p));stroke-width:2.5;stroke-linejoin:round}
+  .dot{fill:rgb(var(--p));stroke:rgb(var(--bg));stroke-width:2}
+  .ah{fill:rgb(var(--line)/.45)}
+  .chipbox{fill:rgb(var(--a)/.12);stroke:rgb(var(--a));stroke-width:1.2}
+  .chiptx{fill:rgb(var(--a))}
+  .blue{fill:rgb(var(--p))}.purp{fill:rgb(var(--a))}
+  .ok{fill:rgb(var(--p)/.10);stroke:rgb(var(--p));stroke-width:1.5}
+  .pr{fill:rgb(var(--a)/.10);stroke:rgb(var(--a));stroke-width:1.5}
+  .final{fill:rgb(var(--tx));}
+  .finaltx{font-size:18px;font-weight:700;fill:rgb(var(--bg))}
+  @media (prefers-color-scheme: dark){
+    .g1 .box{fill:rgb(var(--p)/.18)}.g2 .box{fill:rgb(var(--s)/.22)}.g3 .box{fill:rgb(var(--a)/.2)}
+    .chiptx{fill:rgb(167 139 250)}.chipbox{stroke:rgb(167 139 250)}.purp{fill:rgb(167 139 250)}.pr{stroke:rgb(167 139 250)}
+    .g3 .acc{fill:rgb(167 139 250)}
+  }
+</style><style>
+  .tool{fill:rgb(var(--line)/.06);stroke:rgb(var(--line)/.25);stroke-width:1.2}
+  .toolb{fill:rgb(var(--p)/.12);stroke:rgb(var(--p));stroke-width:1.5}
+  .island{fill:rgb(var(--line)/.04);stroke:rgb(var(--line)/.35);stroke-width:1.5;stroke-dasharray:6 5}
+  .manual{stroke:rgb(var(--line)/.45);stroke-width:2;stroke-dasharray:3 5;fill:none;stroke-linecap:round}
+  .flow{stroke:rgb(var(--p));stroke-width:3;fill:none;stroke-linecap:round}
+  .flowh{fill:rgb(var(--p))}
+  .warn{fill:rgb(var(--a)/.12);stroke:rgb(var(--a));stroke-width:1.2}
+  .warntx{font-size:12.5px;font-weight:600;fill:rgb(var(--a))}
+  .slot{fill:rgb(var(--bg));stroke:rgb(var(--line)/.2);stroke-width:1.5}
+  .yes{fill:rgb(var(--p))}.no{fill:rgb(var(--a))}
+  .trk{fill:rgb(var(--line)/.10)}
+  .neq{font-size:64px;font-weight:700;fill:rgb(var(--a))}
+  @media (prefers-color-scheme: dark){
+    .warntx{fill:rgb(167 139 250)}.neq{fill:rgb(167 139 250)}.no{fill:rgb(167 139 250)}
+    .warn{stroke:rgb(167 139 250)}
+  }
+</style><style>
+  .gate{fill:rgb(var(--bg));stroke:rgb(var(--line)/.3);stroke-width:1.5}
+  .need{fill:rgb(var(--p)/.08);stroke:rgb(var(--p));stroke-width:1.2}
+  .node{fill:rgb(var(--bg));stroke:rgb(var(--p));stroke-width:1.8}
+  .nodep{fill:rgb(var(--a)/.10);stroke:rgb(var(--a));stroke-width:1.8}
+  .edge{stroke:rgb(var(--line)/.35);stroke-width:1.8;fill:none}
+  .edgep{stroke:rgb(var(--a));stroke-width:2.2;fill:none}
+  .tiny{font-size:12px;fill:rgb(var(--mut)/.66)}
+  .h32{font-size:32px;font-weight:700;fill:rgb(var(--tx))}
+  .good{fill:rgb(var(--p)/.10);stroke:rgb(var(--p));stroke-width:1.5}
+  .stop{fill:rgb(var(--a)/.08);stroke:rgb(var(--a));stroke-width:1.5}
+  .limit{fill:rgb(var(--a)/.08)}
+  .glow{fill:rgb(var(--a)/.06);stroke:rgb(var(--a));stroke-width:1.5;stroke-dasharray:6 5}
+  @media (prefers-color-scheme: dark){
+    .nodep{stroke:rgb(167 139 250)}.edgep{stroke:rgb(167 139 250)}.stop{stroke:rgb(167 139 250)}.glow{stroke:rgb(167 139 250)}
+  }
+</style><style>
+  .tag{font-size:12px;font-weight:700;letter-spacing:.06em;fill:rgb(var(--mut)/.66)}
+  .big2{font-size:44px;font-weight:700;fill:rgb(var(--tx))}
+  .metric{font-size:26px;font-weight:700;fill:rgb(var(--tx))}
+  .metricp{font-size:26px;font-weight:700;fill:rgb(var(--a))}
+  .step{fill:rgb(var(--line)/.05);stroke:rgb(var(--line)/.18);stroke-width:1.2}
+  .stepp{fill:rgb(var(--a)/.10);stroke:rgb(var(--a));stroke-width:1.2}
+  .stepb{fill:rgb(var(--p)/.10);stroke:rgb(var(--p));stroke-width:1.2}
+  .lane{fill:rgb(var(--bg));stroke:rgb(var(--line)/.2);stroke-width:1.5}
+  .lanep{fill:rgb(var(--a)/.06);stroke:rgb(var(--a));stroke-width:1.5}
+  .lanb{fill:rgb(var(--p)/.05);stroke:rgb(var(--p));stroke-width:1.5}
+  .cross{stroke:rgb(var(--line)/.55);stroke-width:2.5;stroke-linecap:round}
+  .tick{stroke:rgb(var(--p));stroke-width:3;stroke-linecap:round;stroke-linejoin:round;fill:none}
+  .tickp{stroke:rgb(var(--a));stroke-width:3;stroke-linecap:round;stroke-linejoin:round;fill:none}
+  .bridge{fill:rgb(var(--a)/.10);stroke:rgb(var(--a));stroke-width:1.5}
+  .endl{fill:rgb(var(--line)/.07);stroke:rgb(var(--line)/.25);stroke-width:1.5}
+  .endr{fill:rgb(var(--p)/.10);stroke:rgb(var(--p));stroke-width:1.5}
+  .dashv{stroke:rgb(var(--line)/.35);stroke-width:1.5;stroke-dasharray:5 5}
+  .chipbox2{fill:rgb(var(--a)/.12);stroke:rgb(var(--a));stroke-width:1.2}
+  @media (prefers-color-scheme: dark){
+    .metricp{fill:rgb(167 139 250)}.tickp{stroke:rgb(167 139 250)}
+    .stepp{stroke:rgb(167 139 250)}.lanep{stroke:rgb(167 139 250)}.bridge{stroke:rgb(167 139 250)}
+    .chipbox2{stroke:rgb(167 139 250)}
+  }
+</style><style>
+  .numw{font-size:18px;font-weight:700;fill:#fff}
+  .chipfill{fill:rgb(var(--a))}
+  .chipw{font-size:14px;font-weight:700;fill:#fff}
+  .cell{fill:rgb(var(--line)/.07)}
+  .c1{fill:rgb(var(--p))}.c2{fill:rgb(var(--s))}.c3{fill:rgb(var(--a))}
+  .hl{fill:rgb(var(--a)/.07);stroke:rgb(var(--a));stroke-width:1.5}
+  .dash{stroke:rgb(var(--line)/.4);stroke-width:2;stroke-dasharray:6 5;fill:none}
+  .pa{stroke:rgb(var(--a));stroke-width:3;fill:none}
+  .pah{fill:rgb(var(--a))}
+  .bold-p{font-size:14.5px;font-weight:700;fill:rgb(var(--a))}
+  @media (prefers-color-scheme: dark){
+    .bold-p{fill:rgb(167 139 250)}.pa{stroke:rgb(167 139 250)}.pah{fill:rgb(167 139 250)}.c3{fill:rgb(167 139 250)}
+    .hl{stroke:rgb(167 139 250)}.chipfill{fill:rgb(109 40 217)}
+  }
+</style><rect class="bg" width="1200" height="600"/>
+<text class="title" x="60" y="78" text-anchor="start">Framework bốn câu hỏi để tự đánh giá bước tiếp theo</text>
+<text class="subtitle" x="60" y="110" text-anchor="start">Không phải công thức tính ROI: bộ câu hỏi để lãnh đạo thảo luận trước khi quyết định đầu tư</text>
+<g class="g1"><rect class="box" x="60" y="140" width="246" height="410" rx="14"/><rect class="bar" x="60" y="140" width="246" height="6" rx="3"/></g>
+<circle class="blue" cx="94" cy="178" r="15"/>
+<text class="numw" x="94" y="184" text-anchor="middle">1</text>
+<text class="term" x="84" y="224" text-anchor="start">Vấn đề nào đang tốn</text>
+<text class="term" x="84" y="244" text-anchor="start">nhiều nhất?</text>
+<circle class="blue" cx="86" cy="281" r="3.5"/>
+<text class="body" x="100" y="286" text-anchor="start">Bắt đầu từ “chúng ta đang</text>
+<text class="body" x="100" y="304" text-anchor="start">mất gì”, không từ “muốn</text>
+<text class="body" x="100" y="322" text-anchor="start">đạt được gì”</text>
+<circle class="blue" cx="86" cy="349" r="3.5"/>
+<text class="body" x="100" y="354" text-anchor="start">Nhìn lại 12 tháng qua: 3</text>
+<text class="body" x="100" y="372" text-anchor="start">vấn đề tốn nhiều thời</text>
+<text class="body" x="100" y="390" text-anchor="start">gian, tiền hoặc cơ hội</text>
+<text class="body" x="100" y="408" text-anchor="start">nhất</text>
+<circle class="blue" cx="86" cy="435" r="3.5"/>
+<text class="body" x="100" y="440" text-anchor="start">Mọi khoản đầu tư được</text>
+<text class="body" x="100" y="458" text-anchor="start">kiểm tra: có giải quyết</text>
+<text class="body" x="100" y="476" text-anchor="start">một trong số đó không?</text>
+<line class="rule" x1="309" y1="178" x2="326" y2="178"/><path class="ah" d="M335 178 l-9 -5 v10 z"/>
+<g class="g1"><rect class="box" x="338" y="140" width="246" height="410" rx="14"/><rect class="bar" x="338" y="140" width="246" height="6" rx="3"/></g>
+<circle class="blue" cx="372" cy="178" r="15"/>
+<text class="numw" x="372" y="184" text-anchor="middle">2</text>
+<text class="term" x="362" y="224" text-anchor="start">Đang ở cấp độ nào,</text>
+<text class="term" x="362" y="244" text-anchor="start">chiều nào yếu nhất?</text>
+<circle class="blue" cx="364" cy="281" r="3.5"/>
+<text class="body" x="378" y="286" text-anchor="start">Không phải bộ phận nào</text>
+<text class="body" x="378" y="304" text-anchor="start">cũng ở cùng cấp độ</text>
+<circle class="blue" cx="364" cy="331" r="3.5"/>
+<text class="body" x="378" y="336" text-anchor="start">Bộ phận hoặc quy trình</text>
+<text class="body" x="378" y="354" text-anchor="start">thấp nhất đang tạo rủi ro</text>
+<text class="body" x="378" y="372" text-anchor="start">hay chi phí gì?</text>
+<circle class="blue" cx="364" cy="399" r="3.5"/>
+<text class="body" x="378" y="404" text-anchor="start">Thường nên nâng chiều yếu</text>
+<text class="body" x="378" y="422" text-anchor="start">nhất lên cấp tiếp theo,</text>
+<text class="body" x="378" y="440" text-anchor="start">không nâng thêm chiều đã</text>
+<text class="body" x="378" y="458" text-anchor="start">tốt</text>
+<line class="rule" x1="587" y1="178" x2="604" y2="178"/><path class="ah" d="M613 178 l-9 -5 v10 z"/>
+<g class="g1"><rect class="box" x="616" y="140" width="246" height="410" rx="14"/><rect class="bar" x="616" y="140" width="246" height="6" rx="3"/></g>
+<circle class="blue" cx="650" cy="178" r="15"/>
+<text class="numw" x="650" y="184" text-anchor="middle">3</text>
+<text class="term" x="640" y="224" text-anchor="start">Điều kiện để thành</text>
+<text class="term" x="640" y="244" text-anchor="start">công là gì, đã có</text>
+<text class="term" x="640" y="264" text-anchor="start">chưa?</text>
+<circle class="blue" cx="642" cy="301" r="3.5"/>
+<text class="body" x="656" y="306" text-anchor="start">Quy trình cần chuẩn hóa</text>
+<text class="body" x="656" y="324" text-anchor="start">đến mức nào</text>
+<circle class="blue" cx="642" cy="351" r="3.5"/>
+<text class="body" x="656" y="356" text-anchor="start">Dữ liệu cần có cấu trúc</text>
+<text class="body" x="656" y="374" text-anchor="start">gì</text>
+<circle class="blue" cx="642" cy="401" r="3.5"/>
+<text class="body" x="656" y="406" text-anchor="start">Người dùng cần nhận thức</text>
+<text class="body" x="656" y="424" text-anchor="start">và kỹ năng gì; ai chịu</text>
+<text class="body" x="656" y="442" text-anchor="start">trách nhiệm vận hành sau</text>
+<text class="body" x="656" y="460" text-anchor="start">triển khai</text>
+<circle class="blue" cx="642" cy="487" r="3.5"/>
+<text class="body" x="656" y="492" text-anchor="start">Chưa đủ: có thể và sẵn</text>
+<text class="body" x="656" y="510" text-anchor="start">sàng tạo ra điều kiện đó</text>
+<text class="body" x="656" y="528" text-anchor="start">không?</text>
+<line class="rule" x1="865" y1="178" x2="882" y2="178"/><path class="ah" d="M891 178 l-9 -5 v10 z"/>
+<g class="g1"><rect class="box" x="894" y="140" width="246" height="410" rx="14"/><rect class="bar" x="894" y="140" width="246" height="6" rx="3"/></g>
+<circle class="blue" cx="928" cy="178" r="15"/>
+<text class="numw" x="928" y="184" text-anchor="middle">4</text>
+<text class="term" x="918" y="224" text-anchor="start">Giá trị đo thế nào</text>
+<text class="term" x="918" y="244" text-anchor="start">trong 6–12 tháng tới?</text>
+<circle class="blue" cx="920" cy="281" r="3.5"/>
+<text class="body" x="934" y="286" text-anchor="start">Xác định giá trị trước</text>
+<text class="body" x="934" y="304" text-anchor="start">khi đầu tư, không sau</text>
+<circle class="blue" cx="920" cy="331" r="3.5"/>
+<text class="body" x="934" y="336" text-anchor="start">Chỉ số nào sẽ thay đổi,</text>
+<text class="body" x="934" y="354" text-anchor="start">thay đổi bao nhiêu, đo</text>
+<text class="body" x="934" y="372" text-anchor="start">bằng cách nào?</text>
+<circle class="blue" cx="920" cy="399" r="3.5"/>
+<text class="body" x="934" y="404" text-anchor="start">Không xác định được chỉ</text>
+<text class="body" x="934" y="422" text-anchor="start">số: bước chưa đủ rõ, hoặc</text>
+<text class="body" x="934" y="440" text-anchor="start">cần làm rõ kỳ vọng</text>
+<text class="foot" x="60" y="576" text-anchor="start">okelas.com</text>
+<text class="foot" x="1140" y="576" text-anchor="end">Công cụ thảo luận định hướng, không phải phương pháp luận được chứng nhận.</text>
+</svg>

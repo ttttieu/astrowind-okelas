@@ -1,0 +1,11 @@
+.git
+.gitignore
+*.md
+!src/content/**
+node_modules
+.env
+.env.local
+test_*.py
+*.pyc
+__pycache__
+.pytest_cache

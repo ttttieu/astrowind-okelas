@@ -18,7 +18,12 @@ secondaryKeywords:
   - "approval bottleneck"
   - "workflow delays"
   - "reducing human dependency workflow"
-assessmentHref: /readiness/workflow
+assessmentHref: /en/readiness/workflow
+coverImage: '~/assets/images/insights/workflow-human-bottleneck/wfh-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/workflow-human-bottleneck/wfh-00-og-cover-en.png'
+coverImageAlt: "One chain funnelled through a gate waiting on exactly one person, versus a chain routed by threshold along several paths."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: "How's your work flowing?"
 draft: false
 ---
 
@@ -38,11 +43,13 @@ There's a familiar line in almost every operations meeting: "that's waiting on [
 
 The usual organizational response is to blame the individual: "they're too slow to approve things," or to send more reminders. That's the wrong lens. When a process repeatedly stalls waiting on a person, it isn't a work-ethic problem — it's a **systematic sign of a process design flaw**, repeating itself over and over.
 
-→ *Related: [From Approval Workflow to End-to-End Workflow]*
+→ *Related: [From Approval Workflow to End-to-End Workflow](/en/insights/workflow/approval-to-end-to-end-workflow)*
 
 ---
 
 ## What a Human Bottleneck Actually Is
+
+![A step waiting for information and conditions to be ready differs from a step waiting for exactly one person, who may be absent, overloaded or forget.](~/assets/images/insights/workflow-human-bottleneck/wfh-01-waiting-for-whom-en.svg)
 
 A human bottleneck occurs when a process is designed so its progress depends on one specific person's availability at one specific moment — instead of depending on whether the information and conditions needed to decide are actually ready.
 
@@ -56,6 +63,8 @@ That's evidence for an important point: **slower doesn't mean more careful, and 
 
 ## Three Common Dependency Patterns
 
+![Three ways a workflow depends on people: single-point approval, memory-based tracking and chase-driven progress.](~/assets/images/insights/workflow-human-bottleneck/wfh-02-three-patterns-en.svg)
+
 **1. Single-point approval.** A critical step in the process has exactly one person with the authority or the information needed to decide. When that person is on leave, traveling, or changes roles, the entire process stops — not because the process is missing, but because it was never designed to account for that person's absence.
 
 **2. Memory-based tracking.** No one formally "owns" tracking a process's progress — instead, a handful of people in the organization keep it in their heads: where things stand, who needs a nudge. When that person is pulled into something else, or leaves the organization, the tracking disappears with them.
@@ -67,6 +76,8 @@ These three patterns typically coexist in the same process, and they reinforce e
 ---
 
 ## The Cost of Waiting
+
+![The cost of waiting includes the visible waiting time, plus defensive behavior and opportunity loss accumulating across many processes.](~/assets/images/insights/workflow-human-bottleneck/wfh-03-cost-of-waiting-en.svg)
 
 The most visible cost is time — a request taking three days instead of three hours. But two less-discussed costs are usually larger:
 
@@ -80,6 +91,8 @@ Worth noting: these costs grow with organizational size. As a company grows more
 
 ## How to Reduce Dependency Without Removing Accountability
 
+![Four ways to cut dependency: delegate by threshold instead of title, formal backup, system tracking and system prompts.](~/assets/images/insights/workflow-human-bottleneck/wfh-04-four-redesigns-en.svg)
+
 Reducing human dependency doesn't mean taking people out of the process — for many decisions, human judgment is genuinely necessary and shouldn't be replaced. The problem is *how* people are involved. There are four directions worth pursuing:
 
 **1. Delegate by threshold, not by title.** Instead of routing every request to one person simply because of their position, define which threshold — value, risk level, transaction type — genuinely needs that person's judgment, and which can be handled by someone else or by a pre-defined rule.
@@ -92,7 +105,7 @@ Reducing human dependency doesn't mean taking people out of the process — for 
 
 None of these four directions require complex technology to start. The first step is simply: list your most important processes, and for each one, ask "if the person handling this step were out for a week, what would happen?" If the honest answer is "everything would stop," that's the process to redesign first.
 
-→ *Related: [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates]*
+→ *Related: [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/workflow-for-manufacturing-companies)*
 
 ---
 
@@ -105,8 +118,8 @@ A workflow that depends too much on people isn't a sign that people in the organ
 *This article is part of a series on workflow, AI adoption, and operational management for manufacturing SMEs.*
 
 **Related articles:**
-- [From Approval Workflow to End-to-End Workflow]
-- [You Have Workflow. Why Is Work Still Moving Slowly?]
-- [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates]
+- [From Approval Workflow to End-to-End Workflow](/en/insights/workflow/approval-to-end-to-end-workflow)
+- [You Have Workflow. Why Is Work Still Moving Slowly?](/en/insights/workflow/workflow-digitized-still-slow)
+- [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/workflow-for-manufacturing-companies)
 
-**→ [Complete the Workflow Readiness Assessment]**
+**→ [Complete the Digitalization Readiness Assessment](/en/readiness/digitalization)**

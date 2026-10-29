@@ -1,7 +1,10 @@
 ---
 title: "Agentic AI khác AI Assistant như thế nào?"
 description: "AI assistant nhận prompt và trả lời. Agentic AI nhận goal, lập kế hoạch, chọn tool và thực hiện action. Đây là sự khác biệt căn bản tạo ra control problem hoàn toàn khác."
-publishDate: 2026-09-23T00:00:00Z
+publishDate: 2025-09-24T00:00:00Z
+coverImage: '~/assets/images/insights/agentic-ai-vs-ai-assistant-vi/agc-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/agentic-ai-vs-ai-assistant-vi/agc-00-og-cover-vi.png'
+coverImageAlt: "Bên trái là một hộp trả lời một lượt; bên phải là ba nút tạo thành vòng lặp nghĩ, làm và xem."
 translationId: article-6-3-agentic-vs-assistant
 lang: vi
 category: ai
@@ -18,6 +21,8 @@ secondaryKeywords:
   - "prompt response vs goal action"
   - "AI tự chủ"
 assessmentHref: /readiness/ai
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---
 
@@ -41,6 +46,8 @@ Bài này đi sâu vào sự khác biệt kỹ thuật cụ thể giữa hai mô
 
 ## Mô hình Prompt → Response
 
+![Hai làn: trên là prompt, mô hình, phản hồi và người quyết định; dưới là mục tiêu, lập kế hoạch, chọn công cụ, hành động, kèm mũi tên quay lại.](~/assets/images/insights/agentic-ai-vs-ai-assistant-vi/agc-01-two-models-vi.svg)
+
 Một AI assistant vận hành theo một chu trình đơn giản: nhận một **prompt** (câu hỏi hoặc yêu cầu), xử lý nó bằng một lượt suy luận, và trả về một **response**. Chu trình dừng lại ở đó.
 
 Đặc điểm kỹ thuật của mô hình này:
@@ -55,17 +62,21 @@ Một AI assistant vận hành theo một chu trình đơn giản: nhận một 
 
 ## Mô hình Goal → Plan → Tool → Action
 
+![Vòng lặp ba nút: suy nghĩ bước tiếp, gọi công cụ, quan sát kết quả; cạnh là thẻ ghi nguồn và lỗi được ghi nhận.](~/assets/images/insights/agentic-ai-vs-ai-assistant-vi/agc-02-react-loop-vi.svg)
+
 Agentic AI vận hành theo một chu trình hoàn toàn khác: nhận một **goal** (mục tiêu, không phải một câu hỏi cụ thể), tự **lập kế hoạch** các bước cần thiết, tự **chọn công cụ** (tool) phù hợp trong số những công cụ được cấp quyền sử dụng, và tự thực hiện **hành động** (action) — sau đó lặp lại chu trình dựa trên kết quả nhận được.
 
 Nền tảng kỹ thuật của mô hình này được thiết lập rõ ràng trong nghiên cứu "ReAct: Synergizing Reasoning and Acting in Language Models" (Yao và cộng sự, Google Research, 2022) — một trong những nghiên cứu nền tảng của lĩnh vực AI agent, hiện đã được trích dẫn hơn 6.000 lần. Nghiên cứu này giới thiệu vòng lặp **Thought → Action → Observation**: mô hình tạo ra một bước "tư duy" (suy nghĩ nên làm gì tiếp theo), thực hiện một "hành động" (gọi một công cụ), nhận về một "quan sát" (kết quả từ hành động đó), rồi tiếp tục tư duy dựa trên quan sát mới — lặp lại cho tới khi hoàn thành mục tiêu.
 
 Anthropic, trong tài liệu kỹ thuật "Building Effective Agents" (2024), mô tả sự khác biệt này ở cấp độ kiến trúc: với workflow, người thiết kế kiểm soát toàn bộ đường đi xử lý; với agent, mô hình tự quyết định bước tiếp theo dựa trên phản hồi từ môi trường.
 
-→ *Liên quan: [Khi AI tự lựa chọn phương pháp: vấn đề kiểm soát và tự chủ](/insights/ai/autonomy-va-control-problem)*
+→ *Liên quan: [Khi AI tự lựa chọn phương pháp: vấn đề kiểm soát và tự chủ](/insights/ai/ai-tu-chu-control-problem)*
 
 ---
 
 ## Tại sao sự khác biệt tạo ra rủi ro khác nhau
+
+![Hai làn: prompt-response có một điểm người quyết định; agent có chuỗi bước liên tiếp trước khi người xem lại.](~/assets/images/insights/agentic-ai-vs-ai-assistant-vi/agc-03-decision-points-vi.svg)
 
 **Claim:** Số lượng "điểm quyết định không có con người giám sát" trong một chu trình xử lý là biến số quyết định mức độ rủi ro — và hai mô hình trên có số điểm quyết định khác nhau tới mức không thể so sánh trực tiếp.
 
@@ -79,6 +90,10 @@ Rủi ro của mô hình agentic không nằm ở việc mô hình "kém thông 
 
 ---
 
+![Chuỗi năm bước; điểm kiểm soát đặt ở bước hành động, và một thanh giới hạn số bước ở dưới.](~/assets/images/insights/agentic-ai-vs-ai-assistant-vi/agc-04-control-points-vi.svg)
+
+---
+
 ## Hàm ý cho enterprise
 
 Từ phân tích trên, ba hàm ý cụ thể cho doanh nghiệp khi đánh giá một hệ thống có gắn nhãn "AI":
@@ -89,12 +104,14 @@ Từ phân tích trên, ba hàm ý cụ thể cho doanh nghiệp khi đánh giá
 
 **3. Số lượng bước trong vòng lặp là một tham số cần được giới hạn có chủ đích, không phải để mặc định.** Việc đặt một số bước tối đa, hoặc một điểm xác nhận bắt buộc sau một số lượng hành động nhất định, là một cơ chế kiểm soát cụ thể.
 
+![Ba hàng đánh số, mỗi hàng là một hàm ý cho doanh nghiệp.](~/assets/images/insights/agentic-ai-vs-ai-assistant-vi/agc-05-implications-vi.svg)
+
 ---
 
 *Bài viết này là một phần trong chuỗi OKELAS AI Control.*
 
 **Bài liên quan:**
-- [Khi AI tự lựa chọn phương pháp: vấn đề kiểm soát và tự chủ](/insights/ai/autonomy-va-control-problem)
+- [Khi AI tự lựa chọn phương pháp: vấn đề kiểm soát và tự chủ](/insights/ai/ai-tu-chu-control-problem)
 - [AI được phép làm đến đâu? Tại sao doanh nghiệp cần một control layer](/insights/ai/kiem-soat-ai-doanh-nghiep)
 - [Chatbot sai khác agent sai: sự khác biệt định hình rủi ro AI trong doanh nghiệp](/insights/ai/chatbot-sai-khac-agent-sai)
 

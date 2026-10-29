@@ -2,6 +2,43 @@
 
 @plugin "@tailwindcss/typography";
 
+/* SVG color variables for inline SVGs with embedded CSS */
+:root {
+  --svg-p: #0161EF;
+  --svg-s: #0154CF;
+  --svg-a: #6D28D9;
+  --svg-bg: #FFFFFF;
+  --svg-tx: #273244;
+  --svg-mut: #5B677A;
+  --svg-line: #D5DCE7;
+  --svg-hd: #0B1220;
+  --svg-pt: #EAF2FF;
+  --svg-at: #F3EDFF;
+  --svg-gt: #F2F4F8;
+  --svg-ink: #0B1220;
+  --svg-onink: #FFFFFF;
+  --svg-wh: #FFFFFF;
+  --svg-gm: #98A2B3;
+}
+
+.dark {
+  --svg-p: #2B74F5;
+  --svg-s: #5FA0FF;
+  --svg-a: #A78BFA;
+  --svg-bg: #08090A;
+  --svg-tx: #E5ECF6;
+  --svg-mut: #9AA6B8;
+  --svg-line: #2A2F38;
+  --svg-hd: #F7F8F8;
+  --svg-pt: #0E1D38;
+  --svg-at: #1E1636;
+  --svg-gt: #14161A;
+  --svg-ink: #F7F8F8;
+  --svg-onink: #08090A;
+  --svg-wh: #FFFFFF;
+  --svg-gm: #5B6575;
+}
+
 /* shadcn/ui-compatible tokens derived from the --aw-* variables. */
 @import './shadcn.css';
 

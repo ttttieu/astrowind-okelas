@@ -1,8 +1,8 @@
-﻿---
+---
 title: "Paperless Is Not Digital Transformation: Here's the Distinction That Matters"
 description: "A paperless office is a first step — but it's not digital transformation. Here's why eliminating paper doesn't change how your business actually operates, and what needs to happen next."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/paperless-vs-digital.png'
+image: '~/assets/images/insights/pl-04-og-cover-en.png'
 category: 'business-operations'
 tags: ['Paperless', 'Digital Transformation', 'Digital Operations', 'Manufacturing']
 translationId: 'biz-ops-paperless-vs-digital'
@@ -18,6 +18,8 @@ secondaryKeywords:
   - "paperless manufacturing"
   - "digital operations"
 assessmentHref: '/en/readiness/digitalization'
+ctaPrimaryText: 'Digital Transformation Maturity Assessment'
+ctaSubtitle: 'Understand your digitalization maturity and the next step that makes economic sense'
 draft: false
 ---
 
@@ -64,6 +66,8 @@ Before discussing what paperless doesn't do, it's worth acknowledging what it do
 
 ## What going paperless doesn't change
 
+![Comparison of what paperless achieves and doesn't achieve, and the elements required for digital operations](~/assets/images/insights/pl-02-paperless-does-and-does-not-en.svg)
+
 This is the more important part to understand.
 
 The actual problem with paper-based operations isn't the paper — it's how information is organized and used. And going paperless, at its most basic (scanning to PDF and saving in folders), doesn't address those core problems.
@@ -94,6 +98,8 @@ A PDF of an SOP contains procedure as text — but isn't linked to context: whic
 
 ## The gap between paperless and digital operations
 
+![Three different environments: paper-based, paperless (PDFs/folders), digital operations — how information is organized and queried](~/assets/images/insights/pl-01-one-question-three-environments-en.svg)
+
 To make this gap concrete, compare three environments against one question: **"Last month, how many quality incidents occurred on line 2, what were the primary causes, and which suppliers were involved?"**
 
 **Paper-based environment:**
@@ -110,6 +116,8 @@ The difference is not in the material (paper vs digital file) — it's in how in
 ---
 
 ## From paperless to digital operations — what's required
+
+![Four elements bridging paperless and digital operations: structured data, digital workflows, entity links, context and decision history](~/assets/images/insights/pl-03-four-elements-bridge-en.svg)
 
 Moving from paperless to genuine digital operations requires changes in how information is captured and organized — not only in how it's stored.
 
@@ -144,8 +152,8 @@ That is the real difference between "information that's stored" and "information
 **Further reading:**
 
 - [The 5 Stages of Business Digitalization: Where Are You?](/en/insights/business-operations/digital-maturity-levels) *(previous)*
-- [From DMS to eQMS to Knowledge OS — A Practical Progression](/en/insights/business-operations/dms-to-eqms-to-knowledge-os) *(next)*
-- [DMS vs. Knowledge Management — Why They're Not the Same](/en/insights/business-operations/dms-vs-knowledge-management) *(cross-cluster)*
+- [From DMS to eQMS to Knowledge OS — A Practical Progression](/en/insights/business-operations/dms-eqms-knowledge-os-roadmap) *(next)*
+- [DMS vs. Knowledge Management — Why They're Not the Same](/en/insights/knowledge-management/dms-vs-knowledge-management) *(cross-cluster)*
 - [Digital Transformation for Manufacturing SMEs — What It Actually Means](/en/insights/business-operations/digital-transformation-manufacturing-sme) *(pillar)*
 
 ---

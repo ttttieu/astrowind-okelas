@@ -8,7 +8,7 @@ category: erp
 contentType: Case & Evidence
 funnelStage:
   - Consideration
-assessmentHref: /readiness/erp
+assessmentHref: /en/readiness/erp
 audience:
   - COO
   - Operations Director
@@ -19,6 +19,11 @@ secondaryKeywords:
   - "ERP value realization"
   - "ERP adoption after implementation"
   - "maximizing ERP investment |"
+ctaPrimaryText: 'Assess your ERP readiness'
+ctaSubtitle: 'Identify your ERP readiness level'
+coverImage: '~/assets/images/insights/erpi-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/erpi-00-og-cover-en.png'
+coverImageAlt: "A go-live node and a dashed adoption node joined by a dashed line labeled the gap, showing a deliberate post-go-live roadmap."
 draft: false
 ---
 
@@ -33,7 +38,7 @@ draft: false
 
 ## Introduction
 
-→ **[Explore ERP Readiness Solutions](/solutions/erp-readiness)**
+→ **[Explore ERP Readiness Solutions](/en/readiness/erp)**
 
 *For perspective on data quality and governance as prerequisites: [ERP Governance — Who Is Responsible When Your ERP Stops Working Properly?](/en/insights/erp/erp-governance)*
 
@@ -47,6 +52,8 @@ draft: false
 
 ## When Does Implementation Actually End?
 
+![Implementation is complete once the system works technically, while adoption begins when the system changes how the business runs and decides; the gap between the two is usually larger than post-go-live announcements imply.](~/assets/images/insights/erpi-01-golive-is-not-adoption-en.svg)
+
 In most ERP projects, the "end" is clearly defined: go-live day, when the system officially enters operation and the implementation partner hands over.
 
 But if you ask directly: *"After go-live, has the business actually been able to leverage ERP?"* — the answer is almost always more complicated.
@@ -58,6 +65,8 @@ And the confusion between these two moments — treating go-live as the finish l
 ---
 
 ## What Adoption Actually Looks Like
+
+![Five signs that adoption has actually happened: reports drive decisions, processes run through ERP, leaders trust the data, staff check the system first and knowledge lives in the system.](~/assets/images/insights/erpi-02-five-adoption-signs-en.svg)
 
 To understand the gap, adoption needs to be defined not by login rates or transaction volumes — but by real changes in how the business operates and makes decisions.
 
@@ -74,6 +83,8 @@ By this definition, most organizations achieve implementation — but have not a
 ---
 
 ## An Illustrative Scenario: What the Gap Looks Like in Practice
+
+![An illustrative scenario six months after go-live at a hypothetical food processor: the warehouse keeps its own Excel, production plans from experience, accounting exports to Excel monthly and the CEO still receives weekly emailed reports.](~/assets/images/insights/erpi-03-illustrative-scenario-en.svg)
 
 *Note: The following is a composite illustrative scenario, not a specific customer case.*
 
@@ -95,6 +106,8 @@ In this scenario, ERP is functioning as a parallel data storage system — not a
 
 ## Why the Gap Exists
 
+![Five reasons the gap exists: data not reliable at go-live, configuration that does not match reality, no post-go-live roadmap, no governance and data that is not used.](~/assets/images/insights/erpi-04-five-gap-causes-en.svg)
+
 Looking back from the scenario above, the causes are typically interrelated:
 
 **Data was not reliable enough at go-live.** When going live with insufficiently cleaned data, early discrepancies create distrust in the system — and users revert to familiar methods for safety.
@@ -111,6 +124,8 @@ Looking back from the scenario above, the causes are typically interrelated:
 
 ## What the Post Go-Live Roadmap Should Include
 
+![A post go-live roadmap with five parts: an honest current-state assessment, fixing data quality first, leadership-ready reporting, a clear governance structure and ERP knowledge management.](~/assets/images/insights/erpi-05-post-golive-roadmap-en.svg)
+
 Closing the adoption gap is not a new project — it is the next phase of the ERP journey, with different objectives and methods from the implementation phase.
 
 **An honest current-state assessment.** Six to twelve months after go-live is an appropriate time for a straightforward evaluation: where is the system being used correctly, where are the gaps, and where is the largest gap? This assessment needs to look at both data (quality and completeness) and user behavior (who is using what and how).
@@ -126,6 +141,8 @@ Closing the adoption gap is not a new project — it is the next phase of the ER
 ---
 
 ## Does this describe your organization?
+
+![Seven signs that ERP is implemented but not adopted, with a threshold of three or more.](~/assets/images/insights/erpi-06-seven-signs-checklist-en.svg)
 
 - Some employees keep a personal Excel "shadow system" they trust more than the ERP
 - Reports generated from ERP require manual double-checking before anyone trusts the numbers
@@ -147,17 +164,17 @@ When ERP data is sufficiently high quality, processes are accurately reflected, 
 
 But all of those capabilities require ERP adoption as a prerequisite. Without it, data exists but cannot be trusted enough to act on.
 
-→ *Related: [After ERP — How to Actually Use the Data You Now Have]*
+→ *Related: [After ERP — How to Actually Use the Data You Now Have](/en/insights/erp/how-to-use-erp-data)*
 
-→ *Related: [Organizational AI — When AI Understands Your Business Rather Than Just Answering Questions]*
+→ *Related: [Organizational AI — When AI Understands Your Business Rather Than Just Answering Questions](/en/insights/ai/organizational-ai)*
 
-**→ If your organization has completed ERP implementation but has not yet seen the results you expected — [contact OKELAS to discuss what the right roadmap looks like for your situation].**
+**→ If your organization has completed ERP implementation but has not yet seen the results you expected — [contact OKELAS to discuss what the right roadmap looks like for your situation](/en/contact).**
 
 ---
 
 *This article is part of a series on ERP readiness and ERP adoption for manufacturing SMEs.*
 
 **Related articles:**
-- [Why ERP Projects Fail — and What the Software Cannot Fix]
+- [Why ERP Projects Fail — and What the Software Cannot Fix](/en/insights/erp/why-erp-projects-fail)
 - [You Have ERP, But Your Team Still Runs on Excel. Here's Why.]
-- [After ERP: How to Actually Use the Data You Now Have]
+- [After ERP: How to Actually Use the Data You Now Have](/en/insights/erp/how-to-use-erp-data)

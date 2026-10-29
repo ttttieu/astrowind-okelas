@@ -30,6 +30,7 @@ export const headerData = {
         { text: 'Digitalization Readiness', href: '/readiness/digitalization' },
         { text: 'AI Readiness', href: '/readiness/ai' },
         { text: 'Knowledge Readiness', href: '/readiness/knowledge' },
+        { text: 'Workflow Readiness', href: '/readiness/workflow' },
       ],
     },
     {
@@ -47,15 +48,15 @@ export const headerData = {
     {
       text: 'About',
       links: [
-        { text: 'About OKELAS', href: '/about' },
-        { text: 'Our Approach', href: '/about/approach' },
-        { text: 'Technology', href: '/about/technology' },
-        { text: 'Partners', href: '/about/partners' },
-        { text: 'Contact', href: '/contact' },
+        { text: 'About OKELAS', href: '/gioi-thieu', hrefEn: '/en/about' },
+        { text: 'Our Approach', href: '/gioi-thieu/phuong-phap', hrefEn: '/en/about/approach' },
+        { text: 'Technology', href: '/gioi-thieu/cong-nghe', hrefEn: '/en/about/technology' },
+        { text: 'Partners', href: '/gioi-thieu/doi-tac', hrefEn: '/en/about/partners' },
+        { text: 'Contact', href: '/contact', hrefEn: '/en/contact' },
       ],
     },
   ],
-  actions: [{ text: 'Assess Your Business', href: '/readiness' }],
+  actions: [{ text: 'Assess Your Business', href: '/#assessment' }],
 };
 
 // --- Bổ sung đoạn footerData dưới đây ---
@@ -64,8 +65,8 @@ export const footerData = {
     {
       title: 'Solutions',
       links: [
-        { text: 'Digitalize Operations', href: '/solutions/digitalize-operations' },
-        { text: 'Standardize Processes', href: '/solutions/standardize-processes' },
+        { text: 'Digitalize Operations', href: '/solutions/so-hoa-van-hanh' },
+        { text: 'Standardize Processes', href: '/solutions/chuan-hoa-quy-trinh' },
         { text: 'Progressive eQMS', href: '/solutions/progressive-eqms' },
         { text: 'ERP Readiness', href: '/solutions/erp-readiness' },
       ],
@@ -76,6 +77,7 @@ export const footerData = {
         { text: 'ERP Readiness Assessment', href: '/readiness/erp' },
         { text: 'Digitalization Assessment', href: '/readiness/digitalization' },
         { text: 'AI Readiness Assessment', href: '/readiness/ai' },
+        { text: 'Workflow Readiness Assessment', href: '/readiness/workflow' },
       ],
     },
     {
@@ -93,8 +95,8 @@ export const footerData = {
     {
       title: 'Company',
       links: [
-        { text: 'About OKELAS', href: '/about' },
-        { text: 'Our Approach', href: '/about/approach' },
+        { text: 'About OKELAS', href: '/gioi-thieu' },
+        { text: 'Our Approach', href: '/gioi-thieu/phuong-phap' },
         { text: 'Contact Advisory', href: '/contact' },
       ],
     },

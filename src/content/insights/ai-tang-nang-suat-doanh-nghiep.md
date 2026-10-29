@@ -2,7 +2,9 @@
 title: "AI Giúp Nhân Viên Viết Nhanh Hơn — Nhưng Doanh Nghiệp Có Xử Lý Được Nhiều Hơn Không?"
 description: "AI có thể giúp một nhóm 50 người tạo ra lượng tài liệu như 500 người. Nhưng điều đó không có nghĩa là họ xử lý được nhiều việc hơn. Đây là nghịch lý mà nhiều CEO đang bỏ qua."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/ai-productivity-paradox.png'
+coverImage: '~/assets/images/insights/ai-tang-nang-suat-doanh-nghiep/aipp-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/ai-tang-nang-suat-doanh-nghiep/aipp-00-og-cover-vi.png'
+coverImageAlt: "Ba mũi tên nhanh đi tới một khe hẹp; chỉ một đường mảnh đi qua, đại diện cho năng lực xử lý của tổ chức."
 category: 'ai'
 tags: ['AI Productivity', 'Organizational Capacity', 'AI Implementation', 'Business Value']
 translationId: 'ai-productivity-paradox'
@@ -18,6 +20,8 @@ secondaryKeywords:
   - 'AI tạo văn bản'
   - 'năng suất AI'
 assessmentHref: '/readiness/ai'
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---
 
@@ -51,9 +55,15 @@ Nếu AI giúp một nhân viên kinh doanh soạn đề xuất trong 20 phút t
 
 AI đã tiết kiệm 100 phút ở bước soạn thảo. Nhưng nếu bottleneck nằm ở bước phê duyệt vốn mất 3 ngày — thì tốc độ soạn thảo không thay đổi được gì đáng kể về đầu ra thực tế của tổ chức.
 
+![Chuỗi năm bước của một đề xuất kinh doanh: nhân viên soạn, trưởng phòng review, giám đốc phê duyệt, chờ khách hàng phản hồi, xử lý hợp đồng; AI chỉ rút ngắn bước soạn, các bước còn lại vẫn phải đi qua.](~/assets/images/insights/ai-tang-nang-suat-doanh-nghiep/aipp-01-drafting-vs-process-vi.svg)
+
+![Thanh thời gian giả định cho một đề xuất: soạn thảo giảm từ 2 giờ còn 20 phút, tiết kiệm 100 phút, nhưng 3 ngày chờ phê duyệt chiếm gần hết thanh và không đổi. *Số liệu minh họa giả định, không phải thống kê.](~/assets/images/insights/ai-tang-nang-suat-doanh-nghiep/aipp-02-time-saved-vs-wait-vi.svg)
+
 ---
 
 ## Bottleneck thực sự ở đâu?
+
+![Bốn điểm nghẽn hạn chế năng lực xử lý của tổ chức: phê duyệt tập trung, năng lực xử lý thông tin, quy trình chưa chuẩn hóa và thiếu organizational context.](~/assets/images/insights/ai-tang-nang-suat-doanh-nghiep/aipp-03-four-bottlenecks-vi.svg)
 
 Trong vận hành doanh nghiệp, tốc độ của toàn hệ thống bị giới hạn bởi điểm chậm nhất — không phải điểm nhanh nhất.
 
@@ -71,6 +81,8 @@ Với hầu hết doanh nghiệp vừa và nhỏ, bottleneck thường không ph
 
 ## Câu hỏi CEO cần tự đặt ra
 
+![Bốn câu hỏi để phân biệt giá trị thực với cảm giác năng suất: khối lượng công việc có tăng không, AI tiết kiệm ở bước nào, ai xử lý thêm văn bản, quy trình có thay đổi không.](~/assets/images/insights/ai-tang-nang-suat-doanh-nghiep/aipp-04-four-questions-vi.svg)
+
 Nếu doanh nghiệp đang dùng AI — hoặc đang cân nhắc mở rộng ứng dụng AI — có một số câu hỏi đáng suy nghĩ trước khi đánh giá kết quả:
 
 **Nhân viên viết nhanh hơn, nhưng khối lượng công việc thực sự được xử lý có tăng không?** Hay chỉ là cùng lượng công việc nhưng báo cáo đẹp hơn?
@@ -86,6 +98,8 @@ Không có câu trả lời "đúng" phổ quát. Nhưng những câu hỏi này
 ---
 
 ## Điều này không có nghĩa AI không có giá trị
+
+![AI cần nền tảng gồm quy trình rõ ràng, dữ liệu có cấu trúc, organizational context và tích hợp vào workflow; khi đó AI có thể hỗ trợ ra quyết định tốt hơn, phát hiện vấn đề sớm hơn và thực thi nhất quán hơn.](~/assets/images/insights/ai-tang-nang-suat-doanh-nghiep/aipp-05-foundation-for-value-vi.svg)
 
 Hoàn toàn ngược lại.
 

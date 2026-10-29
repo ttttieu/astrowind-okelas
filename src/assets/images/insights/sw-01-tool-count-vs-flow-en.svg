@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="Comparison of a company with 15 unconnected tools and a company with 3 well-integrated tools"><style>
+  :root{--p:1 97 239;--s:1 84 207;--a:109 40 217;--bg:255 255 255;--tx:0 0 0;--mut:16 16 16;--line:16 16 16}
+  @media (prefers-color-scheme: dark){:root{--bg:8 9 10;--tx:247 248 248;--mut:229 236 246;--line:229 236 246}}
+  text{font-family:Inter,Roboto,'Segoe UI',system-ui,-apple-system,Arial,sans-serif}
+  .bg{fill:rgb(var(--bg))}
+  .title{font-size:32px;font-weight:700;fill:rgb(var(--tx))}
+  .big{font-size:50px;font-weight:700;fill:rgb(var(--tx))}
+  .subtitle{font-size:17px;fill:rgb(var(--mut)/.66)}
+  .term{font-size:16px;font-weight:700;fill:rgb(var(--tx))}
+  .h2{font-size:19px;font-weight:700;fill:rgb(var(--tx))}
+  .lbl{font-size:11.5px;font-weight:600;letter-spacing:.08em;fill:rgb(var(--mut)/.66)}
+  .desc{font-size:13.5px;fill:rgb(var(--mut)/.85)}
+  .body{font-size:14.5px;fill:rgb(var(--mut)/.88)}
+  .mut{font-size:13px;fill:rgb(var(--mut)/.66)}
+  .val{font-size:15px;font-weight:600;fill:rgb(var(--tx))}
+  .foot{font-size:13px;fill:rgb(var(--mut)/.5)}
+  .chip{font-size:12px;font-weight:700;letter-spacing:.06em}
+  .g1 .box{fill:rgb(var(--p)/.08);stroke:rgb(var(--p))}
+  .g2 .box{fill:rgb(var(--s)/.12);stroke:rgb(var(--s))}
+  .g3 .box{fill:rgb(var(--a)/.09);stroke:rgb(var(--a))}
+  .g1 .bar{fill:rgb(var(--p))}.g2 .bar{fill:rgb(var(--s))}.g3 .bar{fill:rgb(var(--a))}
+  .g1 .acc{fill:rgb(var(--p))}.g2 .acc{fill:rgb(var(--s))}.g3 .acc{fill:rgb(var(--a))}
+  .box{stroke-width:1.5}
+  .card{fill:rgb(var(--bg));stroke:rgb(var(--line)/.2);stroke-width:1.5}
+  .soft{fill:rgb(var(--line)/.05)}
+  .ghost{fill:rgb(var(--line)/.22)}
+  .rule{stroke:rgb(var(--line)/.45);stroke-width:2;fill:none}
+  .ring{stroke:rgb(var(--line)/.18);stroke-width:1;fill:none}
+  .axis{stroke:rgb(var(--line)/.18);stroke-width:1}
+  .poly{fill:rgb(var(--p)/.18);stroke:rgb(var(--p));stroke-width:2.5;stroke-linejoin:round}
+  .dot{fill:rgb(var(--p));stroke:rgb(var(--bg));stroke-width:2}
+  .ah{fill:rgb(var(--line)/.45)}
+  .chipbox{fill:rgb(var(--a)/.12);stroke:rgb(var(--a));stroke-width:1.2}
+  .chiptx{fill:rgb(var(--a))}
+  .blue{fill:rgb(var(--p))}.purp{fill:rgb(var(--a))}
+  .ok{fill:rgb(var(--p)/.10);stroke:rgb(var(--p));stroke-width:1.5}
+  .pr{fill:rgb(var(--a)/.10);stroke:rgb(var(--a));stroke-width:1.5}
+  .final{fill:rgb(var(--tx));}
+  .finaltx{font-size:18px;font-weight:700;fill:rgb(var(--bg))}
+  @media (prefers-color-scheme: dark){
+    .g1 .box{fill:rgb(var(--p)/.18)}.g2 .box{fill:rgb(var(--s)/.22)}.g3 .box{fill:rgb(var(--a)/.2)}
+    .chiptx{fill:rgb(167 139 250)}.chipbox{stroke:rgb(167 139 250)}.purp{fill:rgb(167 139 250)}.pr{stroke:rgb(167 139 250)}
+    .g3 .acc{fill:rgb(167 139 250)}
+  }
+</style><style>
+  .tool{fill:rgb(var(--line)/.06);stroke:rgb(var(--line)/.25);stroke-width:1.2}
+  .toolb{fill:rgb(var(--p)/.12);stroke:rgb(var(--p));stroke-width:1.5}
+  .island{fill:rgb(var(--line)/.04);stroke:rgb(var(--line)/.35);stroke-width:1.5;stroke-dasharray:6 5}
+  .manual{stroke:rgb(var(--line)/.45);stroke-width:2;stroke-dasharray:3 5;fill:none;stroke-linecap:round}
+  .flow{stroke:rgb(var(--p));stroke-width:3;fill:none;stroke-linecap:round}
+  .flowh{fill:rgb(var(--p))}
+  .warn{fill:rgb(var(--a)/.12);stroke:rgb(var(--a));stroke-width:1.2}
+  .warntx{font-size:12.5px;font-weight:600;fill:rgb(var(--a))}
+  .slot{fill:rgb(var(--bg));stroke:rgb(var(--line)/.2);stroke-width:1.5}
+  .yes{fill:rgb(var(--p))}.no{fill:rgb(var(--a))}
+  .trk{fill:rgb(var(--line)/.10)}
+  .neq{font-size:64px;font-weight:700;fill:rgb(var(--a))}
+  @media (prefers-color-scheme: dark){
+    .warntx{fill:rgb(167 139 250)}.neq{fill:rgb(167 139 250)}.no{fill:rgb(167 139 250)}
+    .warn{stroke:rgb(167 139 250)}
+  }
+</style><style>
+  .tag{font-size:12px;font-weight:700;letter-spacing:.06em;fill:rgb(var(--mut)/.66)}
+  .big2{font-size:44px;font-weight:700;fill:rgb(var(--tx))}
+  .metric{font-size:26px;font-weight:700;fill:rgb(var(--tx))}
+  .metricp{font-size:26px;font-weight:700;fill:rgb(var(--a))}
+  .step{fill:rgb(var(--line)/.05);stroke:rgb(var(--line)/.18);stroke-width:1.2}
+  .stepp{fill:rgb(var(--a)/.10);stroke:rgb(var(--a));stroke-width:1.2}
+  .stepb{fill:rgb(var(--p)/.10);stroke:rgb(var(--p));stroke-width:1.2}
+  .lane{fill:rgb(var(--bg));stroke:rgb(var(--line)/.2);stroke-width:1.5}
+  .lanep{fill:rgb(var(--a)/.06);stroke:rgb(var(--a));stroke-width:1.5}
+  .lanb{fill:rgb(var(--p)/.05);stroke:rgb(var(--p));stroke-width:1.5}
+  .cross{stroke:rgb(var(--line)/.55);stroke-width:2.5;stroke-linecap:round}
+  .tick{stroke:rgb(var(--p));stroke-width:3;stroke-linecap:round;stroke-linejoin:round;fill:none}
+  .tickp{stroke:rgb(var(--a));stroke-width:3;stroke-linecap:round;stroke-linejoin:round;fill:none}
+  .bridge{fill:rgb(var(--a)/.10);stroke:rgb(var(--a));stroke-width:1.5}
+  .endl{fill:rgb(var(--line)/.07);stroke:rgb(var(--line)/.25);stroke-width:1.5}
+  .endr{fill:rgb(var(--p)/.10);stroke:rgb(var(--p));stroke-width:1.5}
+  .dashv{stroke:rgb(var(--line)/.35);stroke-width:1.5;stroke-dasharray:5 5}
+  .chipbox2{fill:rgb(var(--a)/.12);stroke:rgb(var(--a));stroke-width:1.2}
+  @media (prefers-color-scheme: dark){
+    .metricp{fill:rgb(167 139 250)}.tickp{stroke:rgb(167 139 250)}
+    .stepp{stroke:rgb(167 139 250)}.lanep{stroke:rgb(167 139 250)}.bridge{stroke:rgb(167 139 250)}
+    .chipbox2{stroke:rgb(167 139 250)}
+  }
+</style><style>
+  .numw{font-size:18px;font-weight:700;fill:#fff}
+  .chipfill{fill:rgb(var(--a))}
+  .chipw{font-size:14px;font-weight:700;fill:#fff}
+  .cell{fill:rgb(var(--line)/.07)}
+  .c1{fill:rgb(var(--p))}.c2{fill:rgb(var(--s))}.c3{fill:rgb(var(--a))}
+  .hl{fill:rgb(var(--a)/.07);stroke:rgb(var(--a));stroke-width:1.5}
+  .dash{stroke:rgb(var(--line)/.4);stroke-width:2;stroke-dasharray:6 5;fill:none}
+  .pa{stroke:rgb(var(--a));stroke-width:3;fill:none}
+  .pah{fill:rgb(var(--a))}
+  .bold-p{font-size:14.5px;font-weight:700;fill:rgb(var(--a))}
+  @media (prefers-color-scheme: dark){
+    .bold-p{fill:rgb(167 139 250)}.pa{stroke:rgb(167 139 250)}.pah{fill:rgb(167 139 250)}.c3{fill:rgb(167 139 250)}
+    .hl{stroke:rgb(167 139 250)}.chipfill{fill:rgb(109 40 217)}
+  }
+</style><rect class="bg" width="1200" height="700"/>
+<text class="title" x="60" y="78" text-anchor="start">The number of tools does not measure digitalization</text>
+<text class="subtitle" x="60" y="110" text-anchor="start">The real measure is the quality of information flow between tools</text>
+<rect class="chipbox" x="60" y="128" width="425" height="28" rx="14"/><text class="chip chiptx" x="73" y="147">ILLUSTRATIVE EXAMPLE · TWO HYPOTHETICAL COMPANIES</text>
+<rect class="lane" x="60" y="176" width="510" height="400" rx="14"/>
+<text class="h2" x="88" y="214" text-anchor="start">15 tools, not connected</text>
+<text class="mut" x="88" y="240" text-anchor="start">Information stops at each tool;</text>
+<text class="mut" x="88" y="258" text-anchor="start">consolidating means re-entry or asking people</text>
+<rect class="lanb" x="630" y="176" width="510" height="400" rx="14"/>
+<text class="h2" x="658" y="214" text-anchor="start">3 tools, well integrated</text>
+<text class="mut" x="658" y="240" text-anchor="start">Information reaches the right place, time</text>
+<text class="mut" x="658" y="258" text-anchor="start">and person without being re-typed</text>
+<rect class="tool" x="96" y="296" width="74" height="50" rx="8"/>
+<circle cx="110" cy="312" r="3.5" fill="rgb(var(--line)/.35)"/>
+<rect x="120" y="309" width="36" height="6" rx="3" fill="rgb(var(--line)/.2)"/>
+<rect x="108" y="328" width="50" height="5" rx="2.5" fill="rgb(var(--line)/.12)"/>
+<rect class="tool" x="184" y="296" width="74" height="50" rx="8"/>
+<circle cx="198" cy="312" r="3.5" fill="rgb(var(--line)/.35)"/>
+<rect x="208" y="309" width="36" height="6" rx="3" fill="rgb(var(--line)/.2)"/>
+<rect x="196" y="328" width="50" height="5" rx="2.5" fill="rgb(var(--line)/.12)"/>
+<rect class="tool" x="272" y="296" width="74" height="50" rx="8"/>
+<circle cx="286" cy="312" r="3.5" fill="rgb(var(--line)/.35)"/>
+<rect x="296" y="309" width="36" height="6" rx="3" fill="rgb(var(--line)/.2)"/>
+<rect x="284" y="328" width="50" height="5" rx="2.5" fill="rgb(var(--line)/.12)"/>
+<rect class="tool" x="360" y="296" width="74" height="50" rx="8"/>
+<circle cx="374" cy="312" r="3.5" fill="rgb(var(--line)/.35)"/>
+<rect x="384" y="309" width="36" height="6" rx="3" fill="rgb(var(--line)/.2)"/>
+<rect x="372" y="328" width="50" height="5" rx="2.5" fill="rgb(var(--line)/.12)"/>
+<rect class="tool" x="448" y="296" width="74" height="50" rx="8"/>
+<circle cx="462" cy="312" r="3.5" fill="rgb(var(--line)/.35)"/>
+<rect x="472" y="309" width="36" height="6" rx="3" fill="rgb(var(--line)/.2)"/>
+<rect x="460" y="328" width="50" height="5" rx="2.5" fill="rgb(var(--line)/.12)"/>
+<rect class="tool" x="96" y="368" width="74" height="50" rx="8"/>
+<circle cx="110" cy="384" r="3.5" fill="rgb(var(--line)/.35)"/>
+<rect x="120" y="381" width="36" height="6" rx="3" fill="rgb(var(--line)/.2)"/>
+<rect x="108" y="400" width="50" height="5" rx="2.5" fill="rgb(var(--line)/.12)"/>
+<rect class="tool" x="184" y="368" width="74" height="50" rx="8"/>
+<circle cx="198" cy="384" r="3.5" fill="rgb(var(--line)/.35)"/>
+<rect x="208" y="381" width="36" height="6" rx="3" fill="rgb(var(--line)/.2)"/>
+<rect x="196" y="400" width="50" height="5" rx="2.5" fill="rgb(var(--line)/.12)"/>
+<rect class="tool" x="272" y="368" width="74" height="50" rx="8"/>
+<circle cx="286" cy="384" r="3.5" fill="rgb(var(--line)/.35)"/>
+<rect x="296" y="381" width="36" height="6" rx="3" fill="rgb(var(--line)/.2)"/>
+<rect x="284" y="400" width="50" height="5" rx="2.5" fill="rgb(var(--line)/.12)"/>
+<rect class="tool" x="360" y="368" width="74" height="50" rx="8"/>
+<circle cx="374" cy="384" r="3.5" fill="rgb(var(--line)/.35)"/>
+<rect x="384" y="381" width="36" height="6" rx="3" fill="rgb(var(--line)/.2)"/>
+<rect x="372" y="400" width="50" height="5" rx="2.5" fill="rgb(var(--line)/.12)"/>
+<rect class="tool" x="448" y="368" width="74" height="50" rx="8"/>
+<circle cx="462" cy="384" r="3.5" fill="rgb(var(--line)/.35)"/>
+<rect x="472" y="381" width="36" height="6" rx="3" fill="rgb(var(--line)/.2)"/>
+<rect x="460" y="400" width="50" height="5" rx="2.5" fill="rgb(var(--line)/.12)"/>
+<rect class="tool" x="96" y="440" width="74" height="50" rx="8"/>
+<circle cx="110" cy="456" r="3.5" fill="rgb(var(--line)/.35)"/>
+<rect x="120" y="453" width="36" height="6" rx="3" fill="rgb(var(--line)/.2)"/>
+<rect x="108" y="472" width="50" height="5" rx="2.5" fill="rgb(var(--line)/.12)"/>
+<rect class="tool" x="184" y="440" width="74" height="50" rx="8"/>
+<circle cx="198" cy="456" r="3.5" fill="rgb(var(--line)/.35)"/>
+<rect x="208" y="453" width="36" height="6" rx="3" fill="rgb(var(--line)/.2)"/>
+<rect x="196" y="472" width="50" height="5" rx="2.5" fill="rgb(var(--line)/.12)"/>
+<rect class="tool" x="272" y="440" width="74" height="50" rx="8"/>
+<circle cx="286" cy="456" r="3.5" fill="rgb(var(--line)/.35)"/>
+<rect x="296" y="453" width="36" height="6" rx="3" fill="rgb(var(--line)/.2)"/>
+<rect x="284" y="472" width="50" height="5" rx="2.5" fill="rgb(var(--line)/.12)"/>
+<rect class="tool" x="360" y="440" width="74" height="50" rx="8"/>
+<circle cx="374" cy="456" r="3.5" fill="rgb(var(--line)/.35)"/>
+<rect x="384" y="453" width="36" height="6" rx="3" fill="rgb(var(--line)/.2)"/>
+<rect x="372" y="472" width="50" height="5" rx="2.5" fill="rgb(var(--line)/.12)"/>
+<rect class="tool" x="448" y="440" width="74" height="50" rx="8"/>
+<circle cx="462" cy="456" r="3.5" fill="rgb(var(--line)/.35)"/>
+<rect x="472" y="453" width="36" height="6" rx="3" fill="rgb(var(--line)/.2)"/>
+<rect x="460" y="472" width="50" height="5" rx="2.5" fill="rgb(var(--line)/.12)"/>
+<text class="val" x="345" y="534" text-anchor="middle">Many tools, few connections</text>
+<rect fill="rgb(var(--bg))" x="826.0" y="299.0" width="118" height="62" rx="10"/>
+<rect class="toolb" x="826.0" y="299.0" width="118" height="62" rx="10"/>
+<text class="term" x="885" y="336" text-anchor="middle">ERP</text>
+<rect fill="rgb(var(--bg))" x="711.0" y="439.0" width="118" height="62" rx="10"/>
+<rect class="toolb" x="711.0" y="439.0" width="118" height="62" rx="10"/>
+<text class="term" x="770" y="476" text-anchor="middle">QC</text>
+<rect fill="rgb(var(--bg))" x="941.0" y="439.0" width="118" height="62" rx="10"/>
+<rect class="toolb" x="941.0" y="439.0" width="118" height="62" rx="10"/>
+<text class="term" x="1000" y="476" text-anchor="middle">Warehouse</text>
+<line class="flow" x1="863" y1="356" x2="799" y2="434"/><path class="flowh" d="M795 439 L798 430 L804 434 z"/><line class="flow" x1="792" y1="444" x2="856" y2="366"/><path class="flowh" d="M860 361 L857 370 L851 366 z"/>
+<line class="flow" x1="907" y1="356" x2="971" y2="434"/><path class="flowh" d="M975 439 L966 434 L972 430 z"/><line class="flow" x1="978" y1="444" x2="914" y2="366"/><path class="flowh" d="M910 361 L919 366 L913 370 z"/>
+<line class="flow" x1="836" y1="470" x2="934" y2="470"/>
+<text class="val" x="885" y="534" text-anchor="middle">Few tools, many connections</text>
+<circle cx="600" cy="376" r="30" fill="rgb(var(--bg))" stroke="rgb(var(--line)/.2)" stroke-width="1.5"/>
+<text class="term" x="600" y="388" text-anchor="middle">≠</text>
+<text class="h2" x="600" y="622" text-anchor="middle">The right question: can information move without being re-entered or manually passed on?</text>
+<text class="foot" x="60" y="676" text-anchor="start">okelas.com</text>
+</svg>

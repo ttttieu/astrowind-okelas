@@ -1,0 +1,183 @@
+// ERP Readiness Assessment - Vietnamese
+export default {
+  "assessment_id": "erp_readiness",
+  "title": "ERP Readiness Assessment",
+  "intro": "Bộ câu hỏi này giúp bạn tự đánh giá mức độ sẵn sàng của doanh nghiệp trước khi triển khai ERP. Không có câu trả lời \"đúng\" hay \"sai\" — hãy chọn tình huống mô tả gần nhất với thực tế hiện tại của doanh nghiệp bạn.",
+  "questions": [
+    {
+      "id": "Q0-CONTEXT",
+      "type": "context",
+      "scored": false,
+      "text": "Doanh nghiệp của anh/chị đang ở giai đoạn nào với ERP?",
+      "options": [
+        { "key": "A", "text": "Chưa có ERP, đang cân nhắc có nên triển khai không" },
+        { "key": "B", "text": "Đã quyết định triển khai, đang tìm giải pháp/đối tác" },
+        { "key": "C", "text": "Đang trong quá trình triển khai" },
+        { "key": "D", "text": "Đã go-live nhưng kết quả chưa như kỳ vọng" },
+        { "key": "E", "text": "Đã go-live, vận hành tương đối ổn, muốn khai thác sâu hơn" }
+      ]
+    },
+    {
+      "id": "Q1-PROCESS-EXISTENCE",
+      "dimension": "process_existence",
+      "claim_type": "existence",
+      "scored": true,
+      "text": "Nếu hỏi 3 nhân viên cùng làm một việc cốt lõi — ví dụ nhập kho nguyên liệu, hoặc duyệt đề nghị mua hàng — họ sẽ mô tả cách làm thế nào?",
+      "options": [
+        { "key": "A", "score": 1, "text": "Mỗi người một kiểu, tùy người phụ trách và tùy tình huống" },
+        { "key": "B", "score": 2, "text": "Giống nhau ở các bước chính, nhưng khác nhau nhiều ở ngoại lệ và người phê duyệt" },
+        { "key": "C", "score": 3, "text": "Cơ bản giống nhau; có quy trình văn bản nhưng không được cập nhật thường xuyên" },
+        { "key": "D", "score": 4, "text": "Giống nhau; quy trình có văn bản, được cập nhật và đúng là cách đang làm" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "Tôi chưa nắm rõ" }
+      ]
+    },
+    {
+      "id": "Q2-PROCESS-ENFORCEMENT",
+      "dimension": "process_enforcement",
+      "claim_type": "enforcement",
+      "scored": true,
+      "text": "Nếu một nhân sự chủ chốt (thủ kho, kế toán trưởng, quản đốc, trưởng QA…) nghỉ việc đột ngột trong tuần tới, điều gì sẽ xảy ra?",
+      "options": [
+        { "key": "A", "score": 1, "text": "Một số hoạt động đình trệ — cách làm chủ yếu nằm trong đầu người đó" },
+        { "key": "B", "score": 2, "text": "Vẫn chạy được nhưng sai sót nhiều trong vài tháng; người thay phải tự mò lại" },
+        { "key": "C", "score": 3, "text": "Có tài liệu/bàn giao; người thay mất vài tuần để nắm được" },
+        { "key": "D", "score": 4, "text": "Người thay làm được theo quy trình, biểu mẫu và hồ sơ sẵn có, ít xáo trộn" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "Tôi chưa nắm rõ" }
+      ]
+    },
+    {
+      "id": "Q3-DATA-MASTER",
+      "dimension": "data_foundation",
+      "claim_type": "existence_currency",
+      "scored": true,
+      "text": "Danh mục nền — mã hàng/nguyên vật liệu, nhà cung cấp, khách hàng — hiện được quản lý thế nào?",
+      "options": [
+        { "key": "A", "score": 1, "text": "Mỗi phòng một danh sách riêng; cùng một mặt hàng mà kinh doanh, kho, kế toán gọi khác nhau" },
+        { "key": "B", "score": 2, "text": "Có một danh mục chính nhưng nhiều mã trùng, mã cũ không dùng, thiếu thông tin" },
+        { "key": "C", "score": 3, "text": "Tương đối thống nhất, có người phụ trách, nhưng chưa có quy tắc tạo/sửa mã rõ ràng" },
+        { "key": "D", "score": 4, "text": "Thống nhất; có người chịu trách nhiệm và quy tắc tạo, sửa, ngừng dùng mã" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "Tôi chưa nắm rõ" }
+      ]
+    },
+    {
+      "id": "Q4-DATA-ALIGNMENT",
+      "dimension": "data_foundation",
+      "claim_type": "enforcement",
+      "scored": true,
+      "text": "Trong cuộc họp giao ban, số liệu tồn kho, sản lượng, công nợ từ các phòng ban có khớp nhau không?",
+      "options": [
+        { "key": "A", "score": 1, "text": "Thường vênh; mất nhiều thời gian tranh luận số nào đúng" },
+        { "key": "B", "score": 2, "text": "Hay lệch; phải có người đối chiếu thủ công trước mỗi cuộc họp" },
+        { "key": "C", "score": 3, "text": "Nhìn chung khớp; có lệch nhỏ và giải thích được" },
+        { "key": "D", "score": 4, "text": "Khớp, dùng chung một nguồn; tồn kho sổ sách được đối chiếu với kiểm kê định kỳ" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "Tôi chưa nắm rõ" }
+      ]
+    },
+    {
+      "id": "Q5-BOM-ROUTING",
+      "dimension": "accounting_manufacturing",
+      "claim_type": "existence_currency",
+      "scored": true,
+      "text": "Định mức nguyên vật liệu (BOM/công thức) và trình tự công đoạn sản xuất hiện nằm ở đâu?",
+      "options": [
+        { "key": "A", "score": 1, "text": "Chủ yếu trong kinh nghiệm của quản đốc hoặc thợ lành nghề" },
+        { "key": "B", "score": 2, "text": "Có ghi chép nhưng không khớp với thực tế đang làm, hoặc có nhiều phiên bản" },
+        { "key": "C", "score": 3, "text": "Có văn bản cho phần lớn sản phẩm, nhưng cập nhật chưa đều" },
+        { "key": "D", "score": 4, "text": "Có văn bản cho các sản phẩm chính, có kiểm soát phiên bản và người chịu trách nhiệm" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "Tôi chưa nắm rõ — không áp dụng (không sản xuất)" }
+      ]
+    },
+    {
+      "id": "Q6-COSTING",
+      "dimension": "accounting_manufacturing",
+      "claim_type": "perception",
+      "scored": true,
+      "text": "Anh/chị có biết giá thành thực tế và lợi nhuận của từng dòng sản phẩm chính không?",
+      "options": [
+        { "key": "A", "score": 1, "text": "Không — chỉ biết lãi/lỗ tổng của công ty" },
+        { "key": "B", "score": 2, "text": "Có ước tính, dựa trên kinh nghiệm hoặc số liệu cũ" },
+        { "key": "C", "score": 3, "text": "Có tính, nhưng tổng hợp thủ công và có số khá lâu sau khi đóng sổ" },
+        { "key": "D", "score": 4, "text": "Có, theo phương pháp phân bổ chi phí thống nhất, cập nhật hàng tháng" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "Tôi chưa nắm rõ — bộ phận kế toán nắm" }
+      ]
+    },
+    {
+      "id": "Q7-OBJECTIVES",
+      "dimension": "scope_objectives",
+      "claim_type": "existence",
+      "scored": true,
+      "text": "Với dự án ERP (dự kiến hoặc đã triển khai), doanh nghiệp đã xác định \"thành công\" nghĩa là gì chưa?",
+      "options": [
+        { "key": "A", "score": 1, "text": "Chưa — mục tiêu chung chung như \"quản lý tốt hơn\", \"chuyển đổi số\"" },
+        { "key": "B", "score": 2, "text": "Có, nhưng mang tính kỹ thuật: triển khai xong các module, go-live đúng hạn" },
+        { "key": "C", "score": 3, "text": "Có mục tiêu kinh doanh (giảm tồn kho, kiểm soát chi phí…) nhưng chưa đo được" },
+        { "key": "D", "score": 4, "text": "Có mục tiêu kinh doanh đo được, có mốc thời gian và người chịu trách nhiệm" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "Tôi chưa nắm rõ" }
+      ]
+    },
+    {
+      "id": "Q8-SCOPE",
+      "dimension": "scope_objectives",
+      "claim_type": "existence",
+      "scored": true,
+      "text": "Cách tiếp cận giai đoạn đầu của ERP (dự kiến hoặc đã diễn ra) gần nhất với mô tả nào?",
+      "options": [
+        { "key": "A", "score": 1, "text": "Triển khai đồng bộ mọi phòng ban một lần; phần mềm phải chạy đúng cách mình đang làm" },
+        { "key": "B", "score": 2, "text": "Làm nhiều module ngay; chỗ nào không khớp thì sửa phần mềm (customize)" },
+        { "key": "C", "score": 3, "text": "Ưu tiên vài module cốt lõi, nhưng chưa rõ ai quyết định khi có yêu cầu phát sinh" },
+        { "key": "D", "score": 4, "text": "Phạm vi giai đoạn 1 nhỏ, có văn bản; sẵn sàng điều chỉnh cách làm theo chuẩn phần mềm; yêu cầu phát sinh phải qua đánh giá tác động" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "Tôi chưa nắm rõ" }
+      ]
+    },
+    {
+      "id": "Q9-LEADERSHIP",
+      "dimension": "people_change",
+      "claim_type": "perception",
+      "scored": true,
+      "text": "Vai trò của Ban lãnh đạo trong dự án ERP (dự kiến hoặc đã diễn ra) là gì?",
+      "options": [
+        { "key": "A", "score": 1, "text": "Giao cho IT hoặc đối tác triển khai; lãnh đạo duyệt ngân sách và nghe báo cáo" },
+        { "key": "B", "score": 2, "text": "Có một lãnh đạo phụ trách nhưng quá bận, thường vắng ở các buổi cần ra quyết định" },
+        { "key": "C", "score": 3, "text": "Lãnh đạo tham gia quyết định lớn; trưởng bộ phận chưa được giao quyền và thời gian rõ ràng" },
+        { "key": "D", "score": 4, "text": "Có người đủ thẩm quyền dành thời gian cố định; trưởng bộ phận được giao trách nhiệm và thời gian tham gia" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "Tôi chưa nắm rõ" }
+      ]
+    },
+    {
+      "id": "Q10-CHANGE-HISTORY",
+      "dimension": "people_change",
+      "claim_type": "enforcement",
+      "scored": true,
+      "text": "Lần gần nhất doanh nghiệp thay đổi cách làm (phần mềm mới, quy trình mới, biểu mẫu mới), đội ngũ phản ứng thế nào?",
+      "options": [
+        { "key": "A", "score": 1, "text": "Làm lấy lệ rồi quay về cách cũ — hoặc gần đây chưa có thay đổi đáng kể nào" },
+        { "key": "B", "score": 2, "text": "Chấp nhận khi bị yêu cầu, nhưng vẫn duy trì song song Excel, sổ tay, cách cũ" },
+        { "key": "C", "score": 3, "text": "Thích nghi sau một thời gian, cần lãnh đạo nhắc nhở nhiều" },
+        { "key": "D", "score": 4, "text": "Thích nghi tương đối tốt vì được giải thích lý do, có người hướng dẫn và theo dõi" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "Tôi chưa nắm rõ" }
+      ]
+    },
+    {
+      "id": "Q11-GOVERNANCE",
+      "dimension": "governance_ownership",
+      "claim_type": "existence",
+      "scored": true,
+      "text": "Với các hệ thống và quy trình đang có (phần mềm kế toán, quy trình ISO, file Excel dùng chung…), khi cần thay đổi hoặc có sự cố thì ai quyết định và ai chịu trách nhiệm?",
+      "options": [
+        { "key": "A", "score": 1, "text": "Không rõ — ai cần thì tự sửa, hoặc chờ lãnh đạo xử lý từng việc" },
+        { "key": "B", "score": 2, "text": "Dồn về một vài người (thường là IT hoặc kế toán trưởng), không có quy trình" },
+        { "key": "C", "score": 3, "text": "Có người phụ trách từng hệ thống, nhưng thay đổi không được đánh giá tác động hay lưu vết" },
+        { "key": "D", "score": 4, "text": "Có người sở hữu rõ ràng; thay đổi đi qua đề xuất – đánh giá – phê duyệt – lưu vết" },
+        { "key": "E", "score": null, "flag": "uncertain", "text": "Tôi chưa nắm rõ" }
+      ]
+    },
+    {
+      "id": "Q12-REFLECTION",
+      "dimension": null,
+      "claim_type": null,
+      "scored": false,
+      "type": "open_text",
+      "text": "Nhìn lại các câu trả lời trên: điều gì khiến bạn ngạc nhiên nhất về tình trạng thực tế của doanh nghiệp mình?"
+    }
+  ]
+};

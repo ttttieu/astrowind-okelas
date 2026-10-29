@@ -19,6 +19,11 @@ secondaryKeywords:
   - "event triggered process"
   - "workflow events"
 assessmentHref: /en/readiness/workflow
+coverImage: '~/assets/images/insights/event-driven-workflow/wfv-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/event-driven-workflow/wfv-00-og-cover-en.png'
+coverImageAlt: "On a timeline, a request-based workflow waits through a detection delay before starting, while an event-driven workflow starts almost as soon as the event happens."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: "How's your work flowing?"
 draft: false
 ---
 
@@ -40,11 +45,13 @@ Most workflow today runs on this model: someone creates a request, and the syste
 
 Event-driven workflow takes a different approach: instead of waiting for a person, the system detects that an event has occurred — in the data or in real-world operations — and starts the right process on its own.
 
-→ *Related: [Your Workflow Is Already Fast. Here's What the Next Level Looks Like.]*
+→ *Related: [Your Workflow Is Already Fast. Here's What the Next Level Looks Like.](/en/insights/workflow/workflow-improvement-next-level)*
 
 ---
 
 ## Request-Based vs. Event-Driven
+
+![The request-based model starts when someone notices and creates a request, so the delay sits at the first step; the event-driven model lets the system detect an event against pre-defined conditions and start the workflow itself.](~/assets/images/insights/event-driven-workflow/wfv-01-request-vs-event-en-dark.svg)
 
 The core difference between the two models isn't the technology — it's **what actually starts the workflow**.
 
@@ -59,6 +66,8 @@ The gap between these two models isn't just a few hours saved. It's the differen
 ---
 
 ## What Kinds of Events Can Trigger Workflow
+
+![Four event types that can start a workflow: threshold, state-change, anomaly and external, with examples of each.](~/assets/images/insights/event-driven-workflow/wfv-02-four-event-types-en-dark.svg)
 
 Not everything that happens in a business deserves to be treated as an "event" worth triggering a workflow. A worthwhile triggering event needs three properties: **it can be clearly defined, it can be detected from data already available, and reacting to it early creates real value.**
 
@@ -75,6 +84,8 @@ For each type, the question to answer before implementing is: **if the system de
 
 ## Applications in Manufacturing and Operations
 
+![Four manufacturing examples: inventory below threshold, a measurement outside control range, a certificate or contract nearing expiry, and a complaint spike; the system detects and initiates.](~/assets/images/insights/event-driven-workflow/wfv-03-four-applications-en-dark.svg)
+
 A few concrete examples for a manufacturing SME, illustrating how event-driven workflow can work in practice:
 
 **Inventory management.** When a raw material's stock drops below a defined safety threshold, the system automatically drafts a purchase request, with consumption history and the usual supplier attached — instead of waiting for the warehouse manager to notice and report it.
@@ -87,11 +98,13 @@ A few concrete examples for a manufacturing SME, illustrating how event-driven w
 
 What all four examples have in common: the system doesn't replace human judgment at the final decision point — it only takes over the part of **detecting and initiating early**, work that people typically do slower because they have to notice, remember, or piece it together themselves.
 
-→ *Related: [Workflow Depends Too Much on People: The Design Problem Behind Every Bottleneck]*
+→ *Related: [Workflow Depends Too Much on People: The Design Problem Behind Every Bottleneck](/en/insights/workflow/workflow-human-bottleneck)*
 
 ---
 
 ## Prerequisites for Implementation
+
+![Three preconditions before going event-driven: clearly defined events, reliable data and a way to handle false alerts; event-driven workflow is a destination, not a starting point.](~/assets/images/insights/event-driven-workflow/wfv-04-three-preconditions-en-dark.svg)
 
 Event-driven workflow isn't a sensible starting point for every company. There are three prerequisites:
 
@@ -100,6 +113,8 @@ Event-driven workflow isn't a sensible starting point for every company. There a
 **2. Data needs to be reliable enough to serve as the detection basis.** An event can only be detected if the relevant data is captured completely, at the right time, and with enough accuracy. This is why event-driven workflow is usually only viable once a company already has a decent process and data readiness foundation — it can't be built on top of a process that still records things inconsistently or with a lag.
 
 **3. There needs to be a mechanism for handling false positives.** No event-detection system is perfectly accurate. If the organization has no reasonable way to handle false alarms — a process to quickly confirm or dismiss an inaccurate alert, for example — people will gradually start ignoring all alerts, including the correct ones.
+
+![Start with one or two event types of moderate frequency, clear impact and available data, rather than covering the whole organization at once.](~/assets/images/insights/event-driven-workflow/wfv-05-start-small-en-dark.svg)
 
 A sensible rollout path is to start with one or two event types that occur at a moderate frequency, have a clear impact, and already have available data — rather than trying to cover the whole organization at once.
 
@@ -114,8 +129,8 @@ Event-driven workflow isn't a single technology feature — it's a shift in how 
 *This article is part of a series on workflow, AI adoption, and operational management for manufacturing SMEs.*
 
 **Related articles:**
-- [Your Workflow Is Already Fast. Here's What the Next Level Looks Like.]
-- [Workflow Depends Too Much on People: The Design Problem Behind Every Bottleneck]
-- [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates]
+- [Your Workflow Is Already Fast. Here's What the Next Level Looks Like.](/en/insights/workflow/workflow-improvement-next-level)
+- [Workflow Depends Too Much on People: The Design Problem Behind Every Bottleneck](/en/insights/workflow/workflow-human-bottleneck)
+- [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/workflow-for-manufacturing-companies)
 
-**→ [Complete the Workflow Readiness Assessment]**
+**→ [Complete the Digitalization Readiness Assessment](/en/readiness/digitalization)**

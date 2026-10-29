@@ -2,7 +2,7 @@
 title: "Chuyển đổi số với Manufacturing SME — thực sự là gì và bắt đầu từ đâu"
 description: "Chuyển đổi số không phải là mua phần mềm hay số hóa tài liệu. Bài viết giải thích chuyển đổi số thực sự có nghĩa là gì với manufacturing SME — và lộ trình phù hợp."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/digital-transformation-sme.png'
+image: '~/assets/images/insights/dt-01b-og-cover-vi.png'
 category: 'business-operations'
 tags: ['Chuyển đổi số', 'Số hóa', 'Manufacturing SME', 'Chiến lược']
 translationId: 'biz-ops-pillar-digital-transformation'
@@ -20,6 +20,8 @@ secondaryKeywords:
   - "chuyển đổi số thực sự là gì"
   - "digitalization manufacturing"
 assessmentHref: '/readiness/digitalization'
+ctaPrimaryText: 'Digital Transformation Maturity Assessment'
+ctaSubtitle: 'Hiểu rõ mức độ trưởng thành số hóa của bạn và bước tiếp theo có ý nghĩa'
 draft: false
 ---
 
@@ -52,6 +54,8 @@ Bài viết này không cố gắng đưa ra một định nghĩa mới về "ch
 ---
 
 ## Số hóa không phải là đích đến — đó là hành trình có các giai đoạn
+
+![Năm giai đoạn số hóa doanh nghiệp — từ giai đoạn 1 (giấy tờ) đến giai đoạn 5 (vận hành có AI hỗ trợ)](~/assets/images/insights/dt-01-five-stages-vi.svg)
 
 Một trong những hiểu lầm phổ biến nhất về chuyển đổi số là nó được frame như một đích đến: "doanh nghiệp đã chuyển đổi số" hoặc "chưa chuyển đổi số". Thực tế phức tạp hơn — và hữu ích hơn khi được nhìn theo cách khác.
 
@@ -111,6 +115,8 @@ Doanh nghiệp ở giai đoạn này: còn rất ít manufacturing SME ở giai 
 
 ## Doanh nghiệp của bạn thực sự đang ở đâu?
 
+![Minh họa mức độ trưởng thành của các chiều số hóa khác nhau trong doanh nghiệp (ví dụ minh họa, không phải dữ liệu thực)](~/assets/images/insights/dt-02-digitalization-profile-vi.svg)
+
 Một nhận xét quan trọng trước khi đọc tiếp: hầu hết manufacturing SME không ở cùng giai đoạn trên tất cả các chiều. Một doanh nghiệp có thể:
 
 - Có ERP nhưng nhân viên vẫn dùng Excel vì ERP không phù hợp với workflow thực tế (giai đoạn 3 về hệ thống, nhưng giai đoạn 2 về vận hành thực tế).
@@ -132,6 +138,8 @@ Phần mềm không cải thiện quy trình lộn xộn — nó chỉ làm cho 
 Quy trình chuẩn hóa phải đến trước — hoặc ít nhất là song song với — triển khai phần mềm.
 
 ### Sai lầm 2 — Nhầm "scan tài liệu" với số hóa
+
+![So sánh giữa scan tài liệu (thông tin dạng ảnh, không tìm kiếm được) và dữ liệu có cấu trúc (có thể phân tích và truy vấn)](~/assets/images/insights/dt-03-scan-vs-structured-vi.svg)
 
 Nhiều doanh nghiệp nghĩ rằng khi tất cả tài liệu đã được scan thành PDF, họ đã "số hóa". Điều này không đúng.
 
@@ -210,21 +218,21 @@ Những bước nhỏ đó, được thực hiện đúng và theo thứ tự đ
 ## Đọc thêm trong cluster này
 
 **Về các giai đoạn:**
-- [Doanh nghiệp của bạn đang ở giai đoạn số hóa nào?](/insights/business-operations/doanh-nghiep-dang-o-giai-doan-so-hoa-nao)
+- [Doanh nghiệp của bạn đang ở giai đoạn số hóa nào?](/insights/business-operations/giai-doan-so-hoa-doanh-nghiep)
 - [Paperless không phải chuyển đổi số — đây là sự khác biệt](/insights/business-operations/paperless-khong-phai-chuyen-doi-so)
-- [Tại sao nhiều phần mềm không có nghĩa là doanh nghiệp đã số hóa](/insights/business-operations/nhieu-phan-mem-khong-phai-da-so-hoa)
+- [Tại sao nhiều phần mềm không có nghĩa là doanh nghiệp đã số hóa](/insights/business-operations/nhieu-phan-mem-chua-so-hoa)
 
 **Về lộ trình:**
-- [Từ DMS đến eQMS đến Knowledge OS — lộ trình thực tế](/insights/business-operations/tu-dms-den-eqms-den-knowledge-os)
+- [Từ DMS đến eQMS đến Knowledge OS — lộ trình thực tế](/insights/business-operations/lo-trinh-dms-eqms-knowledge-os)
 - [Progressive eQMS là gì — tại sao không bắt đầu bằng hệ thống hoàn chỉnh](/solutions/progressive-eqms)
-- [Bước tiếp theo có nghĩa kinh tế là gì — framework tự đánh giá cho CEO](/insights/business-operations/buoc-tiep-theo-co-nghia-kinh-te)
+- [Bước tiếp theo có nghĩa kinh tế là gì — framework tự đánh giá cho CEO](/insights/business-operations/buoc-tiep-theo-so-hoa-co-nghia-kinh-te)
 
 **Về chi phí và rủi ro:**
 - [Chi phí thực sự của việc không số hóa — những gì doanh nghiệp thường không tính](/insights/business-operations/chi-phi-khong-so-hoa)
-- [Bẫy của "dự án chuyển đổi số lớn" — tại sao nhiều doanh nghiệp thất bại](/insights/business-operations/bay-du-an-chuyen-doi-so-lon)
+- [Bẫy của "dự án chuyển đổi số lớn" — tại sao nhiều doanh nghiệp thất bại](/insights/business-operations/du-an-chuyen-doi-so-that-bai)
 
 **Cross-cluster:**
-- [Tại sao ERP không phải transformation](/insights/erp/tai-sao-erp-khong-phai-transformation) *(Cluster 1 — ERP)*
+- [Tại sao nhiều dự án ERP thất bại](/insights/erp/tai-sao-du-an-erp-that-bai) *(Cluster 1 — ERP)*
 - [Từ tri thức cá nhân đến tri thức tổ chức](/insights/knowledge-management/quan-ly-tri-thuc-doanh-nghiep-san-xuat) *(Cluster 3 — KM)*
 
 ---

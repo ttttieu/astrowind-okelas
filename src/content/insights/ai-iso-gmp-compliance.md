@@ -2,7 +2,9 @@
 title: "AI và ISO/GMP: những gì doanh nghiệp compliance cần lưu ý"
 description: "Doanh nghiệp có ISO/GMP không thể áp dụng AI một cách tùy tiện. Bài viết phân tích những yêu cầu compliance đặc thù và cách tiếp cận AI phù hợp."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/ai-compliance-iso-gmp-manufacturing.png'
+coverImage: '~/assets/images/insights/ai-iso-gmp-compliance/icg-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/ai-iso-gmp-compliance/icg-00-og-cover-vi.png'
+coverImageAlt: "Bên trái là AI dùng tùy tiện, chưa rõ phạm vi và kiểm soát; bên phải là ba kiểm soát: phạm vi, audit trail, người duyệt."
 category: 'ai'
 tags: ['AI Compliance', 'ISO', 'GMP', 'Quality Management']
 translationId: 'ai-compliance-iso-gmp-manufacturing'
@@ -19,6 +21,8 @@ secondaryKeywords:
   - "AI compliance"
   - "dùng AI trong nhà máy có ISO"
 assessmentHref: '/readiness/ai'
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---
 
@@ -46,6 +50,8 @@ Quality Director và Compliance Officer cần hỏi: *"AI đang được dùng t
 ---
 
 ## ISO/GMP yêu cầu gì có liên quan đến AI
+
+![Bốn thẻ yêu cầu: kiểm soát tài liệu, traceability, validation hệ thống CSV/CSA, quyết định dựa trên bằng chứng.](~/assets/images/insights/ai-iso-gmp-compliance/icg-02-four-requirements-vi.svg)
 
 Hầu hết các tiêu chuẩn ISO và GMP không có quy định riêng về AI — bởi vì hầu hết được viết trước khi AI trở nên phổ biến trong vận hành doanh nghiệp. Nhưng các nguyên tắc nền tảng của những tiêu chuẩn này tạo ra yêu cầu rõ ràng với bất kỳ công cụ hay hệ thống nào được dùng trong quy trình có ảnh hưởng đến chất lượng sản phẩm.
 
@@ -83,6 +89,8 @@ Khi AI tham gia vào quá trình ra quyết định, nguyên tắc này áp dụ
 
 ## Ba vùng rủi ro chính cần đánh giá
 
+![Ba cột vùng rủi ro: vùng thấp, vùng trung bình, vùng cao; mỗi cột có ví dụ và yêu cầu governance tương ứng, vùng cao vẽ nét đứt.](~/assets/images/insights/ai-iso-gmp-compliance/icg-01-three-risk-zones-vi.svg)
+
 Thay vì xem xét AI trong môi trường ISO/GMP như một vấn đề tổng thể, hữu ích hơn là phân loại theo ba vùng rủi ro — mỗi vùng cần cách tiếp cận khác nhau.
 
 ### Vùng rủi ro thấp — AI hỗ trợ tác vụ cá nhân ngoài quy trình GMP/ISO
@@ -113,6 +121,8 @@ Ví dụ: AI phân tích kết quả kiểm tra để gợi ý pass/fail, AI t�
 
 ## Rủi ro không chỉ từ AI — mà từ cách triển khai
 
+![Ba hàng: mỗi kiểu triển khai bên trái dẫn sang hệ quả tương ứng bên phải.](~/assets/images/insights/ai-iso-gmp-compliance/icg-04-deployment-patterns-vi.svg)
+
 Một điểm quan trọng cần nhấn mạnh: ISO/GMP không cấm AI. Các tiêu chuẩn này không nói "không được dùng công nghệ mới". Họ nói: bất kỳ công cụ hay hệ thống nào được dùng trong quy trình có ảnh hưởng đến chất lượng phải được kiểm soát phù hợp.
 
 Rủi ro thực sự không đến từ AI tự nó — mà đến từ ba tình huống triển khai phổ biến:
@@ -130,6 +140,8 @@ Như đã phân tích trong bài về evidence-based AI — đây là khoảng t
 
 ## Cách tiếp cận AI phù hợp với môi trường compliance
 
+![Năm hàng nguyên tắc đánh số, từ bắt đầu ở vùng thấp đến phân biệt công cụ AI đang dùng.](~/assets/images/insights/ai-iso-gmp-compliance/icg-03-five-principles-vi.svg)
+
 Không có template "triển khai AI cho ISO" áp dụng được cho mọi doanh nghiệp và mọi tiêu chuẩn. Nhưng có một số nguyên tắc chung mà Quality Director có thể áp dụng để xây dựng cách tiếp cận phù hợp.
 
 **Nguyên tắc 1 — Bắt đầu từ vùng rủi ro thấp.**
@@ -145,6 +157,9 @@ Trong mọi quyết định có ảnh hưởng đến sản phẩm hay complianc
 Khi AI được tích hợp vào quy trình có compliance requirement, đây là một thay đổi hệ thống — và nên được xử lý theo quy trình quản lý thay đổi của doanh nghiệp, bao gồm đánh giá rủi ro, training nhân viên, và cập nhật tài liệu liên quan nếu cần.
 
 **Nguyên tắc 5 — Phân biệt rõ AI tools nào đang được dùng.**
+
+![Ba cột loại công cụ: chatbot cá nhân, API có kiểm soát lưu giữ dữ liệu, AI on-premise; mỗi cột có ý nghĩa compliance.](~/assets/images/insights/ai-iso-gmp-compliance/icg-05-tool-types-vi.svg)
+
 Có sự khác biệt lớn giữa: nhân viên dùng ChatGPT cá nhân trên trình duyệt (dữ liệu có thể được dùng để train mô hình), dùng API AI với data retention controls, và dùng AI deploy on-premise không chia sẻ dữ liệu ra bên ngoài. Với dữ liệu nhạy cảm về công thức, quy trình, hay dữ liệu khách hàng — sự phân biệt này có ý nghĩa compliance và data privacy thực sự.
 
 ---

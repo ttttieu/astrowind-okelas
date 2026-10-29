@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" width="1200" height="640" role="img" aria-label="Cách tiếp cận từng bước có cổng kiểm tra: giai đoạn 1, kiểm tra vận hành ở mức kỳ vọng, rồi mới sang giai đoạn 2; nếu chưa thì khắc phục nền tảng; kèm bốn nguyên tắc"><style>
+  :root{--p:1 97 239;--s:1 84 207;--a:109 40 217;--bg:255 255 255;--tx:0 0 0;--mut:16 16 16;--line:16 16 16}
+  @media (prefers-color-scheme: dark){:root{--bg:8 9 10;--tx:247 248 248;--mut:229 236 246;--line:229 236 246}}
+  text{font-family:Inter,Roboto,'Segoe UI',system-ui,-apple-system,Arial,sans-serif}
+  .bg{fill:rgb(var(--bg))}
+  .title{font-size:32px;font-weight:700;fill:rgb(var(--tx))}
+  .big{font-size:50px;font-weight:700;fill:rgb(var(--tx))}
+  .subtitle{font-size:17px;fill:rgb(var(--mut)/.66)}
+  .term{font-size:16px;font-weight:700;fill:rgb(var(--tx))}
+  .h2{font-size:19px;font-weight:700;fill:rgb(var(--tx))}
+  .lbl{font-size:11.5px;font-weight:600;letter-spacing:.08em;fill:rgb(var(--mut)/.66)}
+  .desc{font-size:13.5px;fill:rgb(var(--mut)/.85)}
+  .body{font-size:14.5px;fill:rgb(var(--mut)/.88)}
+  .mut{font-size:13px;fill:rgb(var(--mut)/.66)}
+  .val{font-size:15px;font-weight:600;fill:rgb(var(--tx))}
+  .foot{font-size:13px;fill:rgb(var(--mut)/.5)}
+  .chip{font-size:12px;font-weight:700;letter-spacing:.06em}
+  .g1 .box{fill:rgb(var(--p)/.08);stroke:rgb(var(--p))}
+  .g2 .box{fill:rgb(var(--s)/.12);stroke:rgb(var(--s))}
+  .g3 .box{fill:rgb(var(--a)/.09);stroke:rgb(var(--a))}
+  .g1 .bar{fill:rgb(var(--p))}.g2 .bar{fill:rgb(var(--s))}.g3 .bar{fill:rgb(var(--a))}
+  .g1 .acc{fill:rgb(var(--p))}.g2 .acc{fill:rgb(var(--s))}.g3 .acc{fill:rgb(var(--a))}
+  .box{stroke-width:1.5}
+  .card{fill:rgb(var(--bg));stroke:rgb(var(--line)/.2);stroke-width:1.5}
+  .soft{fill:rgb(var(--line)/.05)}
+  .ghost{fill:rgb(var(--line)/.22)}
+  .rule{stroke:rgb(var(--line)/.45);stroke-width:2;fill:none}
+  .ring{stroke:rgb(var(--line)/.18);stroke-width:1;fill:none}
+  .axis{stroke:rgb(var(--line)/.18);stroke-width:1}
+  .poly{fill:rgb(var(--p)/.18);stroke:rgb(var(--p));stroke-width:2.5;stroke-linejoin:round}
+  .dot{fill:rgb(var(--p));stroke:rgb(var(--bg));stroke-width:2}
+  .ah{fill:rgb(var(--line)/.45)}
+  .chipbox{fill:rgb(var(--a)/.12);stroke:rgb(var(--a));stroke-width:1.2}
+  .chiptx{fill:rgb(var(--a))}
+  .blue{fill:rgb(var(--p))}.purp{fill:rgb(var(--a))}
+  .ok{fill:rgb(var(--p)/.10);stroke:rgb(var(--p));stroke-width:1.5}
+  .pr{fill:rgb(var(--a)/.10);stroke:rgb(var(--a));stroke-width:1.5}
+  .final{fill:rgb(var(--tx));}
+  .finaltx{font-size:18px;font-weight:700;fill:rgb(var(--bg))}
+  @media (prefers-color-scheme: dark){
+    .g1 .box{fill:rgb(var(--p)/.18)}.g2 .box{fill:rgb(var(--s)/.22)}.g3 .box{fill:rgb(var(--a)/.2)}
+    .chiptx{fill:rgb(167 139 250)}.chipbox{stroke:rgb(167 139 250)}.purp{fill:rgb(167 139 250)}.pr{stroke:rgb(167 139 250)}
+    .g3 .acc{fill:rgb(167 139 250)}
+  }
+</style><style>
+  .tool{fill:rgb(var(--line)/.06);stroke:rgb(var(--line)/.25);stroke-width:1.2}
+  .toolb{fill:rgb(var(--p)/.12);stroke:rgb(var(--p));stroke-width:1.5}
+  .island{fill:rgb(var(--line)/.04);stroke:rgb(var(--line)/.35);stroke-width:1.5;stroke-dasharray:6 5}
+  .manual{stroke:rgb(var(--line)/.45);stroke-width:2;stroke-dasharray:3 5;fill:none;stroke-linecap:round}
+  .flow{stroke:rgb(var(--p));stroke-width:3;fill:none;stroke-linecap:round}
+  .flowh{fill:rgb(var(--p))}
+  .warn{fill:rgb(var(--a)/.12);stroke:rgb(var(--a));stroke-width:1.2}
+  .warntx{font-size:12.5px;font-weight:600;fill:rgb(var(--a))}
+  .slot{fill:rgb(var(--bg));stroke:rgb(var(--line)/.2);stroke-width:1.5}
+  .yes{fill:rgb(var(--p))}.no{fill:rgb(var(--a))}
+  .trk{fill:rgb(var(--line)/.10)}
+  .neq{font-size:64px;font-weight:700;fill:rgb(var(--a))}
+  @media (prefers-color-scheme: dark){
+    .warntx{fill:rgb(167 139 250)}.neq{fill:rgb(167 139 250)}.no{fill:rgb(167 139 250)}
+    .warn{stroke:rgb(167 139 250)}
+  }
+</style><style>
+  .gate{fill:rgb(var(--bg));stroke:rgb(var(--line)/.3);stroke-width:1.5}
+  .need{fill:rgb(var(--p)/.08);stroke:rgb(var(--p));stroke-width:1.2}
+  .node{fill:rgb(var(--bg));stroke:rgb(var(--p));stroke-width:1.8}
+  .nodep{fill:rgb(var(--a)/.10);stroke:rgb(var(--a));stroke-width:1.8}
+  .edge{stroke:rgb(var(--line)/.35);stroke-width:1.8;fill:none}
+  .edgep{stroke:rgb(var(--a));stroke-width:2.2;fill:none}
+  .tiny{font-size:12px;fill:rgb(var(--mut)/.66)}
+  .h32{font-size:32px;font-weight:700;fill:rgb(var(--tx))}
+  .good{fill:rgb(var(--p)/.10);stroke:rgb(var(--p));stroke-width:1.5}
+  .stop{fill:rgb(var(--a)/.08);stroke:rgb(var(--a));stroke-width:1.5}
+  .limit{fill:rgb(var(--a)/.08)}
+  .glow{fill:rgb(var(--a)/.06);stroke:rgb(var(--a));stroke-width:1.5;stroke-dasharray:6 5}
+  @media (prefers-color-scheme: dark){
+    .nodep{stroke:rgb(167 139 250)}.edgep{stroke:rgb(167 139 250)}.stop{stroke:rgb(167 139 250)}.glow{stroke:rgb(167 139 250)}
+  }
+</style><style>
+  .tag{font-size:12px;font-weight:700;letter-spacing:.06em;fill:rgb(var(--mut)/.66)}
+  .big2{font-size:44px;font-weight:700;fill:rgb(var(--tx))}
+  .metric{font-size:26px;font-weight:700;fill:rgb(var(--tx))}
+  .metricp{font-size:26px;font-weight:700;fill:rgb(var(--a))}
+  .step{fill:rgb(var(--line)/.05);stroke:rgb(var(--line)/.18);stroke-width:1.2}
+  .stepp{fill:rgb(var(--a)/.10);stroke:rgb(var(--a));stroke-width:1.2}
+  .stepb{fill:rgb(var(--p)/.10);stroke:rgb(var(--p));stroke-width:1.2}
+  .lane{fill:rgb(var(--bg));stroke:rgb(var(--line)/.2);stroke-width:1.5}
+  .lanep{fill:rgb(var(--a)/.06);stroke:rgb(var(--a));stroke-width:1.5}
+  .lanb{fill:rgb(var(--p)/.05);stroke:rgb(var(--p));stroke-width:1.5}
+  .cross{stroke:rgb(var(--line)/.55);stroke-width:2.5;stroke-linecap:round}
+  .tick{stroke:rgb(var(--p));stroke-width:3;stroke-linecap:round;stroke-linejoin:round;fill:none}
+  .tickp{stroke:rgb(var(--a));stroke-width:3;stroke-linecap:round;stroke-linejoin:round;fill:none}
+  .bridge{fill:rgb(var(--a)/.10);stroke:rgb(var(--a));stroke-width:1.5}
+  .endl{fill:rgb(var(--line)/.07);stroke:rgb(var(--line)/.25);stroke-width:1.5}
+  .endr{fill:rgb(var(--p)/.10);stroke:rgb(var(--p));stroke-width:1.5}
+  .dashv{stroke:rgb(var(--line)/.35);stroke-width:1.5;stroke-dasharray:5 5}
+  .chipbox2{fill:rgb(var(--a)/.12);stroke:rgb(var(--a));stroke-width:1.2}
+  @media (prefers-color-scheme: dark){
+    .metricp{fill:rgb(167 139 250)}.tickp{stroke:rgb(167 139 250)}
+    .stepp{stroke:rgb(167 139 250)}.lanep{stroke:rgb(167 139 250)}.bridge{stroke:rgb(167 139 250)}
+    .chipbox2{stroke:rgb(167 139 250)}
+  }
+</style><style>
+  .numw{font-size:18px;font-weight:700;fill:#fff}
+  .chipfill{fill:rgb(var(--a))}
+  .chipw{font-size:14px;font-weight:700;fill:#fff}
+  .cell{fill:rgb(var(--line)/.07)}
+  .c1{fill:rgb(var(--p))}.c2{fill:rgb(var(--s))}.c3{fill:rgb(var(--a))}
+  .hl{fill:rgb(var(--a)/.07);stroke:rgb(var(--a));stroke-width:1.5}
+  .dash{stroke:rgb(var(--line)/.4);stroke-width:2;stroke-dasharray:6 5;fill:none}
+  .pa{stroke:rgb(var(--a));stroke-width:3;fill:none}
+  .pah{fill:rgb(var(--a))}
+  .bold-p{font-size:14.5px;font-weight:700;fill:rgb(var(--a))}
+  @media (prefers-color-scheme: dark){
+    .bold-p{fill:rgb(167 139 250)}.pa{stroke:rgb(167 139 250)}.pah{fill:rgb(167 139 250)}.c3{fill:rgb(167 139 250)}
+    .hl{stroke:rgb(167 139 250)}.chipfill{fill:rgb(109 40 217)}
+  }
+</style><rect class="bg" width="1200" height="640"/>
+<text class="title" x="60" y="78" text-anchor="start">Cách tiếp cận thay thế: từng bước, có cổng kiểm tra</text>
+<text class="subtitle" x="60" y="110" text-anchor="start">Không mở rộng khi giai đoạn trước chưa vận hành được ở mức kỳ vọng</text>
+<rect class="ok" x="60" y="190" width="300" height="90" rx="12"/>
+<text class="term" x="210" y="228" text-anchor="middle">Giai đoạn 1</text>
+<text class="body" x="210" y="252" text-anchor="middle">Một vấn đề, scope nhỏ</text>
+<polygon class="pr" points="600,164 750,235 600,306 450,235"/>
+<text class="term" x="600" y="230" text-anchor="middle">Vận hành ở mức</text>
+<text class="term" x="600" y="250" text-anchor="middle">kỳ vọng chưa?</text>
+<rect class="ok" x="840" y="190" width="300" height="90" rx="12"/>
+<text class="term" x="990" y="228" text-anchor="middle">Giai đoạn 2</text>
+<text class="body" x="990" y="252" text-anchor="middle">Mở rộng sang phần kế tiếp</text>
+<line class="rule" x1="364" y1="235" x2="437" y2="235"/><path class="ah" d="M446 235 l-9 -5 v10 z"/>
+<line class="rule" x1="754" y1="235" x2="827" y2="235"/><path class="ah" d="M836 235 l-9 -5 v10 z"/>
+<text class="mut" x="795" y="224" text-anchor="middle">Rồi</text>
+<line class="rule" x1="600" y1="308" x2="600" y2="330"/><polygon class="ah" points="594,329 606,329 600,338"/>
+<text class="mut" x="614" y="326" text-anchor="start">Chưa</text>
+<rect class="stop" x="450" y="340" width="300" height="46" rx="10"/>
+<text class="term" x="600" y="369" text-anchor="middle">Khắc phục nền tảng, chưa mở rộng</text>
+<path class="rule" d="M446 363 H210 V288" fill="none"/>
+<polygon class="ah" points="203,291 217,291 210,279"/>
+<text class="lbl" x="60" y="424" text-anchor="start">BỐN NGUYÊN TẮC</text>
+<g class="g1"><rect class="box" x="60" y="438" width="240" height="152" rx="12"/><rect class="bar" x="60" y="438" width="240" height="5" rx="2"/></g>
+<text class="term" x="78" y="468" text-anchor="start">Bắt đầu từ vấn đề</text>
+<text class="desc" x="78" y="492" text-anchor="start">Không từ kỳ vọng về</text>
+<text class="desc" x="78" y="509" text-anchor="start">“transformation”: vấn đề vận</text>
+<text class="desc" x="78" y="526" text-anchor="start">hành quan trọng nhất là gì,</text>
+<text class="desc" x="78" y="543" text-anchor="start">bước nhỏ nhất để bắt đầu giải</text>
+<text class="desc" x="78" y="560" text-anchor="start">quyết là gì.</text>
+<g class="g1"><rect class="box" x="340" y="438" width="240" height="152" rx="12"/><rect class="bar" x="340" y="438" width="240" height="5" rx="2"/></g>
+<text class="term" x="358" y="468" text-anchor="start">Scope vừa đủ</text>
+<text class="desc" x="358" y="492" text-anchor="start">Đủ nhỏ để kiểm soát, đủ ý</text>
+<text class="desc" x="358" y="509" text-anchor="start">nghĩa để tạo giá trị; mỗi</text>
+<text class="desc" x="358" y="526" text-anchor="start">giai đoạn có kết quả đo được</text>
+<text class="desc" x="358" y="543" text-anchor="start">(bài đề xuất khoảng 3–6</text>
+<text class="desc" x="358" y="560" text-anchor="start">tháng).</text>
+<g class="g1"><rect class="box" x="620" y="438" width="240" height="152" rx="12"/><rect class="bar" x="620" y="438" width="240" height="5" rx="2"/></g>
+<text class="term" x="638" y="468" text-anchor="start">Nền tảng trước khi mở rộng</text>
+<text class="desc" x="638" y="492" text-anchor="start">Giai đoạn 1 chưa vận hành ở</text>
+<text class="desc" x="638" y="509" text-anchor="start">mức kỳ vọng thì không sang</text>
+<text class="desc" x="638" y="526" text-anchor="start">giai đoạn 2, dù có áp lực</text>
+<text class="desc" x="638" y="543" text-anchor="start">phải đi nhanh hơn.</text>
+<g class="g1"><rect class="box" x="900" y="438" width="240" height="152" rx="12"/><rect class="bar" x="900" y="438" width="240" height="5" rx="2"/></g>
+<text class="term" x="918" y="468" text-anchor="start">Đo lường và học</text>
+<text class="desc" x="918" y="492" text-anchor="start">Mỗi bước hỏi: có tạo giá trị</text>
+<text class="desc" x="918" y="509" text-anchor="start">như kỳ vọng không, bài học là</text>
+<text class="desc" x="918" y="526" text-anchor="start">gì, giai đoạn tiếp theo nên</text>
+<text class="desc" x="918" y="543" text-anchor="start">là gì.</text>
+<text class="foot" x="60" y="616" text-anchor="start">okelas.com</text>
+<text class="foot" x="1140" y="616" text-anchor="end">Phân tích từ góc độ quản trị, không phải tư vấn tuân thủ hay pháp lý.</text>
+</svg>

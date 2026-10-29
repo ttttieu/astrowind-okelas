@@ -18,6 +18,8 @@ secondaryKeywords:
   - "digital transformation lessons"
   - "phased vs big bang transformation"
 assessmentHref: '/en/readiness/digitalization'
+ctaPrimaryText: 'Digital Transformation Maturity Assessment'
+ctaSubtitle: 'Understand your digitalization maturity and the next step that makes economic sense'
 draft: false
 ---
 
@@ -34,6 +36,8 @@ draft: false
 
 ## The problem with "X% of digital transformation projects fail"
 
+![Comparing failure-rate statistics, hard to compare because definitions differ, with failure mechanisms that can be designed against](/assets/images/insights/digital-transformation-project-failure/dp-01-statistics-vs-mechanism-en.svg)
+
 Before getting into the analysis, it's worth addressing a type of statistic that commonly appears on this topic.
 
 You may have encountered figures like "70–85% of digital transformation projects fail" from various sources. These numbers sound compelling and are easy to cite — but they have significant methodological problems: the definition of "failure" varies considerably between studies, sample sizes range from a few hundred to several thousand companies across many different industries and geographies, and "digital transformation" itself is defined very differently.
@@ -45,6 +49,8 @@ Instead, it focuses on something more practically valuable: analyzing the mechan
 ---
 
 ## Why "big bang" projects carry disproportionate risk
+
+![A big bang timeline with a single checkpoint at the end versus a step-by-step timeline with a checkpoint at every step, and the three structural risks of big bang](/assets/images/insights/digital-transformation-project-failure/dp-02-three-structural-risks-en.svg)
 
 Not every large project fails. But certain characteristics of the "big bang" approach — implementing everything at once — create structurally higher risk compared to a phased approach.
 
@@ -67,6 +73,8 @@ Large projects tend to finish later and cost more than planned — this is a bro
 ---
 
 ## Three most common traps
+
+![Three common traps of large digital transformation projects and the consequence of each: ambition-set scope, an unready organization, and short-term results demanded](/assets/images/insights/digital-transformation-project-failure/dp-03-three-traps-en.svg)
 
 ### Trap 1 — Scope defined by ambition, not by organizational capacity
 
@@ -95,6 +103,8 @@ But pressure from stakeholders (BOD, shareholders, management teams) often deman
 ---
 
 ## An illustrative scenario — "Comprehensive digitalization project"
+
+![Hypothetical comprehensive digitalization project at a 150-employee processor: three stretched phases and results after 20 months, illustrative figures](/assets/images/insights/digital-transformation-project-failure/dp-04-illustrative-timeline-en.svg)
 
 *This is a composite illustrative scenario drawn from common patterns. Not a case study of a specific organization.*
 
@@ -125,6 +135,8 @@ The project hasn't completely failed — some value was created. But the gap bet
 ---
 
 ## The alternative — not big bang, but progressive
+
+![A step-by-step approach with a gate: phase 1, a check that operation is at the expected level, then phase 2; if not, fix the foundation; with four principles](/assets/images/insights/digital-transformation-project-failure/dp-05-progressive-gates-en.svg)
 
 Instead of "digitalize everything" in one project, a progressive approach works differently:
 

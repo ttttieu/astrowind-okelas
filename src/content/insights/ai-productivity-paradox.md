@@ -2,7 +2,9 @@
 title: "AI Helps Employees Work Faster. Why Isn't the Business Doing More?"
 description: "AI can help a team of 50 produce the output of 500. But that doesn't mean they can handle 500 people's worth of work. Here's the productivity paradox that most executives miss."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/ai-productivity-paradox.png'
+coverImage: '~/assets/images/insights/ai-productivity-paradox/aipp-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/ai-productivity-paradox/aipp-00-og-cover-en.png'
+coverImageAlt: "Three fast arrows run into a narrow gap; only one thin line passes through, representing the organization's processing capacity."
 category: 'ai'
 tags: ['AI Productivity', 'Organizational Capacity', 'AI Implementation', 'Business Value']
 translationId: 'ai-productivity-paradox'
@@ -18,6 +20,8 @@ secondaryKeywords:
   - 'AI and organizational capacity'
   - 'ChatGPT business productivity'
 assessmentHref: '/en/readiness/ai'
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Identify your AI readiness level'
 draft: false
 ---
 
@@ -51,9 +55,15 @@ AI helps a sales employee draft a proposal in 20 minutes instead of two hours. W
 
 AI saved 100 minutes at the drafting stage. But if the real bottleneck is an approval step that takes three days — the drafting speed hasn't meaningfully changed actual organizational output.
 
+![A five-step chain for a sales proposal: employee drafts, manager reviews, director approves, client responds, contract processing; AI shortens only the drafting step and the other steps still apply.](~/assets/images/insights/ai-productivity-paradox/aipp-01-drafting-vs-process-en.svg)
+
+![A hypothetical timeline bar for one proposal: drafting drops from 2 hours to 20 minutes, saving 100 minutes, but the 3-day approval wait fills almost the whole bar and does not change. *Illustrative figures, not statistics.](~/assets/images/insights/ai-productivity-paradox/aipp-02-time-saved-vs-wait-en.svg)
+
 ---
 
 ## Where the real bottleneck is
+
+![Four bottlenecks that limit organizational capacity: concentrated approvals, information processing capacity, undefined processes and missing organizational context.](~/assets/images/insights/ai-productivity-paradox/aipp-03-four-bottlenecks-en.svg)
 
 In operational terms, the speed of the whole system is limited by its slowest point — not its fastest.
 
@@ -71,6 +81,8 @@ For most small and mid-sized businesses, the bottleneck isn't writing speed. The
 
 ## Questions worth asking
 
+![Four questions to tell real value from the feeling of productivity: is throughput rising, where is AI saving time, who processes the extra content, has the process changed.](~/assets/images/insights/ai-productivity-paradox/aipp-04-four-questions-en.svg)
+
 If your business is already using AI — or is considering expanding it — a few questions are worth sitting with before evaluating the results:
 
 **Are employees writing faster, but is actual work throughput increasing?** Or is the same volume of work getting more polished documentation?
@@ -86,6 +98,8 @@ There's no universal right answer. But these questions help distinguish between 
 ---
 
 ## This isn't an argument against AI
+
+![AI needs a foundation of clear processes, structured data, organizational context and workflow integration; then it can support better decisions, earlier problem detection and more consistent execution.](~/assets/images/insights/ai-productivity-paradox/aipp-05-foundation-for-value-en.svg)
 
 The opposite.
 

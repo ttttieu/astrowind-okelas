@@ -2,7 +2,9 @@
 title: "From AI Hype to Operational AI: A Realistic Roadmap for Manufacturing SMEs"
 description: "There's no shortage of AI hype. But for manufacturing SMEs, what does a realistic AI roadmap actually look like? Here's a practical framework from starting point to measurable results."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/ai-implementation-roadmap-manufacturing.png'
+coverImage: '~/assets/images/insights/ai-implementation-roadmap-manufacturing/rmp-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/ai-implementation-roadmap-manufacturing/rmp-00-og-cover-en.png'
+coverImageAlt: "On the left, the AI hype wave, leading to three stages in order: foundation, supported AI, workflow."
 category: 'ai'
 tags: ['AI Roadmap', 'Manufacturing', 'AI Strategy', 'Implementation']
 translationId: 'ai-implementation-roadmap-manufacturing'
@@ -18,6 +20,8 @@ secondaryKeywords:
   - "manufacturing AI strategy"
   - "getting started with AI manufacturing"
 assessmentHref: '/en/readiness/ai'
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Identify your AI readiness level'
 draft: false
 ---
 
@@ -31,6 +35,8 @@ draft: false
 ---
 
 ## The problem with AI hype
+
+![Rushing leads to only a drafting assistant; waiting indefinitely lets competitors build foundations.](~/assets/images/insights/ai-implementation-roadmap-manufacturing/rmp-05-rush-vs-wait-en.svg)
 
 The 2023–2024 period saw an AI hype cycle with few recent parallels. Every conference, every business publication, every leadership conversation included AI.
 
@@ -49,6 +55,8 @@ Both carry real costs. The question isn't "should we do AI?" — it's "where do 
 ---
 
 ## The real starting point — not selecting an AI tool
+
+![Three assessment cards: process, data, knowledge and context, each with a question.](~/assets/images/insights/ai-implementation-roadmap-manufacturing/rmp-01-three-dimensions-en.svg)
 
 Most AI discussions begin with the wrong question: *"Which AI tool is right for us?"*
 
@@ -86,6 +94,8 @@ A food processing company, 120 employees, producing for export markets while mai
 
 **What can be done immediately — and what needs to come first:**
 
+![Three columns by month range: foundation, supported AI, evaluate; each has its actions.](~/assets/images/insights/ai-implementation-roadmap-manufacturing/rmp-04-twelve-month-roadmap-en.svg)
+
 Rather than adding another AI tool, leadership decides to proceed in this sequence:
 
 *Months 1–3: Foundation*
@@ -108,6 +118,8 @@ Most importantly: this organization didn't start with "which AI tool?" — they 
 ---
 
 ## A three-stage AI adoption framework for manufacturing SMEs
+
+![Three stage columns: foundation, supported AI, AI within workflow; stage three is drawn dashed because it is used only when needed.](~/assets/images/insights/ai-implementation-roadmap-manufacturing/rmp-02-three-stages-en.svg)
 
 From the illustrative scenario and practical analysis, a three-stage framework can be mapped that applies across most manufacturing SMEs — with entry conditions, required outcomes, and criteria for progressing.
 
@@ -152,6 +164,8 @@ From the illustrative scenario and practical analysis, a three-stage framework c
 ### Stage 3 — AI within workflow
 
 **Objective:** Integrate AI into operational workflows at specific steps where conditions and value are clear.
+
+![Three conditions with check boxes: structured data from a critical system, a sufficiently defined process, clear agent governance.](~/assets/images/insights/ai-implementation-roadmap-manufacturing/rmp-03-entry-conditions-en.svg)
 
 **Entry conditions (required):**
 - Operational data from at least one critical system (ERP, QMS) is structured well enough for AI to query and analyze.

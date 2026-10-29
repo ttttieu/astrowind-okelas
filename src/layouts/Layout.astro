@@ -53,5 +53,56 @@ const { language, textDirection } = I18N;
     <slot />
 
     <Intersect />
+
+    <script>
+      // Swap dark mode images between light and dark versions based on .dark class
+      // Supports multiple article series by matching image prefixes
+      function swapDarkModeImages() {
+        const isDark = document.documentElement.classList.contains('dark');
+        // Match images from multiple article series: anc (nonconformance), aia (internal audit), atrc (training records), asq (supplier qualification), arm (risk management), amr (management review), aoe (okelas eqms approach), aet (evidence traceability), akos (knowledge os), etc.
+        const prefixes = ['anc-', 'aia-', 'atrc-', 'asq-', 'arm-', 'amr-', 'aoe-', 'aet-', 'akos-'];
+        const selector = prefixes.map(p => `img[src*="${p}"]`).join(', ');
+        const images = document.querySelectorAll(selector);
+
+        console.log(`[dark-mode-swap] isDark=${isDark}, found ${images.length} images`);
+
+        images.forEach((img) => {
+          const originalSrc = img.getAttribute('src');
+          if (!originalSrc) return;
+
+          // Check if current src is dark or light version
+          const isDarkVersion = originalSrc.includes('-dark.');
+
+          // Build target src by adding or removing -dark suffix
+          let targetSrc;
+          if (isDark && !isDarkVersion) {
+            // Need to add -dark
+            targetSrc = originalSrc.replace(/\.(svg|png)$/, '-dark.$1');
+          } else if (!isDark && isDarkVersion) {
+            // Need to remove -dark
+            targetSrc = originalSrc.replace('-dark.', '.');
+          } else {
+            // Already correct
+            return;
+          }
+
+          console.log(`[dark-mode-swap] ${originalSrc} → ${targetSrc}`);
+          img.setAttribute('src', targetSrc);
+        });
+      }
+
+      // Run on page load (after DOM is ready)
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', swapDarkModeImages);
+      } else {
+        swapDarkModeImages();
+      }
+
+      // Run on theme changes (after .dark class is toggled)
+      document.addEventListener('aw:theme-change', () => {
+        console.log('[dark-mode-swap] theme changed, swapping...');
+        swapDarkModeImages();
+      });
+    </script>
   </body>
 </html>

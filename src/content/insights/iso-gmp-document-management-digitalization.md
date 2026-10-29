@@ -18,6 +18,8 @@ secondaryKeywords:
   - "ISO records management system"
   - "GMP document digitalization"
 assessmentHref: '/en/readiness/digitalization'
+ctaPrimaryText: 'Digital Transformation Maturity Assessment'
+ctaSubtitle: 'Understand your digitalization maturity and the next step that makes economic sense'
 draft: false
 ---
 
@@ -50,11 +52,15 @@ ISO 9001, ISO 22000, and GMP standards all address "documented information" — 
 
 These are requirements about **information control and management** — not requirements about format (paper or digital). The standards don't say "must use paper" and they don't say "must use software." They say records must be controllable, retrievable, and protected.
 
+![Five records control principles under ISO and GMP, applying to both paper and digital](/assets/images/insights/iso-gmp-document-management-digitalization/iso-01-control-principles-en.svg)
+
 *Note: Specific records requirements vary significantly across ISO 9001, ISO 22000, GMP variants (EU GMP, US FDA cGMP, etc.), FSSC 22000, and other standards. This article describes general principles — not legal interpretation of any specific standard.*
 
 ---
 
 ## Limitations of uncontrolled paper and PDF approaches
+
+![Limitations of paper records and PDFs in uncontrolled folders](/assets/images/insights/iso-gmp-document-management-digitalization/iso-02-paper-vs-uncontrolled-pdf-en.svg)
 
 Understanding the standard requirements makes it possible to analyze the risks of the most common approach: paper records or PDFs in shared folders without control mechanisms.
 
@@ -83,6 +89,8 @@ PDFs address some paper issues (easier to back up, easier to transmit) but creat
 
 ## What eQMS and digital document control provide
 
+![Mapping the risks of uncontrolled PDFs to the control mechanisms of an eQMS](/assets/images/insights/iso-gmp-document-management-digitalization/iso-03-risk-to-control-mechanism-en.svg)
+
 Document and quality management systems designed for compliance — a DMS with proper document control or an eQMS — address these limitations in a structured way.
 
 **Verifiable document control.** The system records: which document is currently in effect, who created it, who approved it, when it took effect, and which version it superseded. Users can only access the current version — previous versions are retained but clearly identified as superseded.
@@ -98,6 +106,8 @@ Document and quality management systems designed for compliance — a DMS with p
 ---
 
 ## Specific requirements when digitalizing ISO/GMP records
+
+![Four considerations when digitalizing ISO/GMP records: validation, migration, backup and continuity](/assets/images/insights/iso-gmp-document-management-digitalization/iso-04-four-considerations-en.svg)
 
 When an organization decides to digitalize records, several specific requirements need to be addressed in the system design and implementation.
 

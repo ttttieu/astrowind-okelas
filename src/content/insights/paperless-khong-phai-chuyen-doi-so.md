@@ -1,8 +1,8 @@
-﻿---
+---
 title: "Paperless không phải chuyển đổi số — và đây là sự khác biệt"
 description: "Văn phòng không giấy là bước đầu tiên — nhưng không phải chuyển đổi số. Bài viết phân tích tại sao paperless chưa đủ và những gì cần làm tiếp theo."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/paperless-vs-digital.png'
+image: '~/assets/images/insights/pl-04-og-cover-vi.png'
 category: 'business-operations'
 tags: ['Paperless', 'Chuyển đổi số', 'Digital Operations', 'Manufacturing']
 translationId: 'biz-ops-paperless-vs-digital'
@@ -18,6 +18,8 @@ secondaryKeywords:
   - "số hóa tài liệu"
   - "digitalization là gì"
 assessmentHref: '/readiness/digitalization'
+ctaPrimaryText: 'Digital Transformation Maturity Assessment'
+ctaSubtitle: 'Hiểu rõ mức độ trưởng thành số hóa của bạn và bước tiếp theo có ý nghĩa'
 draft: false
 ---
 
@@ -64,6 +66,8 @@ Trước khi nói về những gì paperless không làm được, cần thừa 
 
 ## Những gì paperless không thay đổi
 
+![So sánh điều mà paperless làm được và không làm được, những yếu tố để digital operations](~/assets/images/insights/pl-02-paperless-does-and-does-not-vi.svg)
+
 Đây là phần quan trọng hơn để hiểu.
 
 Vấn đề thực sự của vận hành dựa trên giấy tờ không phải là giấy — mà là cách thông tin được tổ chức và sử dụng. Và paperless, ở dạng cơ bản nhất (scan PDF và lưu vào folder), không thay đổi những vấn đề cốt lõi đó.
@@ -94,6 +98,8 @@ PDF của một SOP chứa quy trình dưới dạng văn bản — nhưng khôn
 
 ## Khoảng cách giữa paperless và digital operations
 
+![Ba môi trường khác nhau: giấy tờ, paperless (PDF/folder), digital operations — cách thông tin được tổ chức và truy vấn](~/assets/images/insights/pl-01-one-question-three-environments-vi.svg)
+
 Để rõ ràng hơn về khoảng cách này, có thể so sánh trực tiếp ba khả năng với cùng một tình huống: **"Tháng vừa qua có bao nhiêu sự cố chất lượng ở dây chuyền 2, nguyên nhân chính là gì, và nhà cung cấp nào liên quan?"**
 
 **Môi trường giấy tờ:**
@@ -110,6 +116,8 @@ Sự khác biệt không phải ở vật liệu (giấy vs file số) — mà �
 ---
 
 ## Từ paperless đến digital operations — những gì cần có
+
+![Bốn yếu tố cầu nối giữa paperless và digital operations: dữ liệu cấu trúc, workflow số, liên kết thực thể, context và lịch sử](~/assets/images/insights/pl-03-four-elements-bridge-vi.svg)
 
 Để vượt qua khoảng cách từ paperless đến digital operations thực sự, cần những thay đổi về cách thông tin được capture và tổ chức — không chỉ về vật liệu lưu trữ.
 
@@ -144,8 +152,8 @@ Bước tiếp theo thực tế có thể là: thay vì ghi kết quả kiểm t
 **Đọc thêm:**
 
 - [Doanh nghiệp của bạn đang ở giai đoạn số hóa nào?](/insights/business-operations/giai-doan-so-hoa-doanh-nghiep) *(bài trước)*
-- [Từ DMS đến eQMS đến Knowledge OS — lộ trình thực tế](/insights/business-operations/tu-dms-den-eqms-den-knowledge-os) *(bài tiếp theo)*
-- [DMS và Knowledge Management — tại sao chúng không giống nhau](/insights/business-operations/dms-vs-knowledge-management) *(cross-cluster)*
+- [Từ DMS đến eQMS đến Knowledge OS — lộ trình thực tế](/insights/business-operations/lo-trinh-dms-eqms-knowledge-os) *(bài tiếp theo)*
+- [DMS và Knowledge Management — tại sao chúng không giống nhau](/insights/knowledge-management/dms-va-knowledge-management) *(cross-cluster)*
 - [Chuyển đổi số với manufacturing SME — thực sự là gì](/insights/business-operations/chuyen-doi-so-doanh-nghiep-san-xuat) *(pillar)*
 
 ---

@@ -1,0 +1,20 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import AssessmentForm from '~/components/widgets/AssessmentForm.astro';
+
+const metadata = {
+  title: "Digitalization Readiness Assessment - OKELAS",
+  description: "Đánh giá mức độ sẵn sàng số hóa của doanh nghiệp.",
+};
+---
+
+<Layout metadata={metadata}>
+  <HeroText
+    tagline="Readiness Assessment"
+    title="Digitalization Readiness"
+    subtitle="Hiểu rõ mức độ trưởng thành số hóa của bạn và bước tiếp theo có ý nghĩa"
+  />
+
+  <AssessmentForm assessmentId="digitalization_level" language="vi" />
+</Layout>

@@ -26,7 +26,7 @@ cta:
 relatedInternalLinks:
   - "enterprise-ai-control-layer" # Pillar 6, parent
   - "frontier-ai-safety-enterprise-ai-control" # article 6.19, previous
-  - "kvm-knowledge-vault-manager" # article 6.14, back-reference
+  - "what-is-kvm" # article 6.14, back-reference
   - "agentic-workflow" # article 5.16, cross-cluster
 evidenceSources:
   - "Synthesis of all evidence used throughout cluster 6.1-6.19 (Replit incident 2025, OWASP Top 10 Agentic 2026, NIST AI RMF, Apollo Research 2024, Anthropic Alignment Faking 2024, ISO 9000:2015, the three frontier safety policies RSP/Preparedness/FSF)"

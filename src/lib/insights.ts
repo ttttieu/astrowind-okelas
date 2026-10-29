@@ -8,6 +8,7 @@ export async function getArticlesByCategory(lang: 'vi' | 'en') {
     'knowledge-management': 'Knowledge Management',
     erp: 'ERP',
     ai: 'AI',
+    workflow: 'Workflow',
     compliance: 'Compliance',
   };
 

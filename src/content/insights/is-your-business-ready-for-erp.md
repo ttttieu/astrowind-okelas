@@ -19,6 +19,11 @@ secondaryKeywords:
   - "when to implement ERP"
   - "ERP prerequisites |"
 assessmentHref: /en/readiness/erp
+ctaPrimaryText: 'Assess your ERP readiness'
+ctaSubtitle: 'Identify your ERP readiness level'
+coverImage: '~/assets/images/insights/erpr-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/erpr-00-og-cover-en.png'
+coverImageAlt: "Eight dots, half solid and half dashed, must pass through a readiness gate before reaching the ERP block."
 draft: false
 ---
 
@@ -34,6 +39,8 @@ Not ready in terms of budget. Not ready in terms of intent. Ready in terms of th
 
 ## Why ERP Readiness Matters More Than ERP Selection
 
+![ERP, which is process-driven, stands on four organizational foundations: clear processes, clean data, people willing to change and governance with clear responsibility; without them ERP amplifies disorder.](~/assets/images/insights/erpr-01-four-foundations-en.svg)
+
 ERP is a process-driven system. It records transactions, connects data across departments, and generates reporting — but only when the organization has processes clear enough to configure, data clean enough to trust, and people willing to change how they work.
 
 When those conditions are not in place, ERP does not create order. It encodes and amplifies the disorder that already exists — at significantly greater cost and complexity.
@@ -44,11 +51,15 @@ This is the reason many ERP projects end with software running but operations st
 
 ## 8 Questions to Assess Your Readiness
 
+![Eight self-assessment questions on ERP readiness, grouped into four dimensions: processes, data, people, and scope and governance.](~/assets/images/insights/erpr-02-eight-questions-en.svg)
+
 No consultant required. Just honest answers.
 
 **1. Are your processes documented and consistently followed?**
 
 If you ask three different employees how they handle the same task — say, the goods receiving process or a purchase approval — do you get the same answer? If not, ERP will run into difficulty at the configuration stage before the project has properly started.
+
+![Ask three employees to describe the same task: if answers match, the process is consistent and ERP has something to configure; if everyone does it their own way, ERP is hard to configure. Hypothetical illustration.](~/assets/images/insights/erpr-03-three-employee-test-en.svg)
 
 **2. Is there someone with the authority and time to make decisions throughout the project?**
 
@@ -82,6 +93,8 @@ This means being present for key decisions, attending project reviews, and sendi
 
 ## If Your Honest Answer Is "Not Yet"
 
+![Five things to prepare when not yet ready: standardize processes, clean master data, choose a small first scope, assign clear ownership and communicate with employees.](~/assets/images/insights/erpr-04-preparation-priorities-en.svg)
+
 That is a useful answer, not a discouraging one.
 
 It does not mean ERP is the wrong direction. It means the organization needs preparation first — and preparation done well typically shortens the actual implementation, reduces cost overruns, and substantially increases the likelihood that ERP generates lasting value after go-live.
@@ -94,12 +107,12 @@ The most common preparation steps:
 - Assign clear internal ownership for the project and for the system post go-live.
 - Communicate clearly with employees about what is changing and why — before the project starts.
 
-→ *Related: [Process Readiness: The Biggest Risk Before ERP Implementation]*
+→ *Related: [Process Readiness: The Biggest Risk Before ERP Implementation](/en/insights/erp/process-standardization-before-erp)*
 
 ---
 
 For a more complete picture across data readiness, governance, accounting, and manufacturing-specific dimensions, the assessment below gives you a structured view of where your organization stands.
 
-**→ [Complete the ERP Readiness Assessment]**
+**→ [Complete the ERP Readiness Assessment](/en/readiness/erp)**
 
-*For a deeper analysis of why most ERP projects underperform and what the root causes actually are: [Why ERP Projects Fail — and What the Software Cannot Fix]*
+*For a deeper analysis of why most ERP projects underperform and what the root causes actually are: [Why ERP Projects Fail — and What the Software Cannot Fix](/en/insights/erp/why-erp-projects-fail)*

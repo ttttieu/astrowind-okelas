@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Doanh nghiệp của bạn đang ở cấp độ số hóa nào? Thang năm cấp độ"><style>
+  :root{--p:1 97 239;--s:1 84 207;--a:109 40 217;--bg:255 255 255;--tx:0 0 0;--mut:16 16 16;--line:16 16 16}
+  @media (prefers-color-scheme: dark){:root{--bg:8 9 10;--tx:247 248 248;--mut:229 236 246;--line:229 236 246}}
+  text{font-family:Inter,Roboto,'Segoe UI',system-ui,-apple-system,Arial,sans-serif}
+  .bg{fill:rgb(var(--bg))}
+  .title{font-size:32px;font-weight:700;fill:rgb(var(--tx))}
+  .big{font-size:50px;font-weight:700;fill:rgb(var(--tx))}
+  .subtitle{font-size:17px;fill:rgb(var(--mut)/.66)}
+  .term{font-size:16px;font-weight:700;fill:rgb(var(--tx))}
+  .h2{font-size:19px;font-weight:700;fill:rgb(var(--tx))}
+  .lbl{font-size:11.5px;font-weight:600;letter-spacing:.08em;fill:rgb(var(--mut)/.66)}
+  .desc{font-size:13.5px;fill:rgb(var(--mut)/.85)}
+  .body{font-size:14.5px;fill:rgb(var(--mut)/.88)}
+  .mut{font-size:13px;fill:rgb(var(--mut)/.66)}
+  .val{font-size:15px;font-weight:600;fill:rgb(var(--tx))}
+  .foot{font-size:13px;fill:rgb(var(--mut)/.5)}
+  .chip{font-size:12px;font-weight:700;letter-spacing:.06em}
+  .g1 .box{fill:rgb(var(--p)/.08);stroke:rgb(var(--p))}
+  .g2 .box{fill:rgb(var(--s)/.12);stroke:rgb(var(--s))}
+  .g3 .box{fill:rgb(var(--a)/.09);stroke:rgb(var(--a))}
+  .g1 .bar{fill:rgb(var(--p))}.g2 .bar{fill:rgb(var(--s))}.g3 .bar{fill:rgb(var(--a))}
+  .g1 .acc{fill:rgb(var(--p))}.g2 .acc{fill:rgb(var(--s))}.g3 .acc{fill:rgb(var(--a))}
+  .box{stroke-width:1.5}
+  .card{fill:rgb(var(--bg));stroke:rgb(var(--line)/.2);stroke-width:1.5}
+  .soft{fill:rgb(var(--line)/.05)}
+  .ghost{fill:rgb(var(--line)/.22)}
+  .rule{stroke:rgb(var(--line)/.45);stroke-width:2;fill:none}
+  .ring{stroke:rgb(var(--line)/.18);stroke-width:1;fill:none}
+  .axis{stroke:rgb(var(--line)/.18);stroke-width:1}
+  .poly{fill:rgb(var(--p)/.18);stroke:rgb(var(--p));stroke-width:2.5;stroke-linejoin:round}
+  .dot{fill:rgb(var(--p));stroke:rgb(var(--bg));stroke-width:2}
+  .ah{fill:rgb(var(--line)/.45)}
+  .chipbox{fill:rgb(var(--a)/.12);stroke:rgb(var(--a));stroke-width:1.2}
+  .chiptx{fill:rgb(var(--a))}
+  .blue{fill:rgb(var(--p))}.purp{fill:rgb(var(--a))}
+  .ok{fill:rgb(var(--p)/.10);stroke:rgb(var(--p));stroke-width:1.5}
+  .pr{fill:rgb(var(--a)/.10);stroke:rgb(var(--a));stroke-width:1.5}
+  .final{fill:rgb(var(--tx));}
+  .finaltx{font-size:18px;font-weight:700;fill:rgb(var(--bg))}
+  @media (prefers-color-scheme: dark){
+    .g1 .box{fill:rgb(var(--p)/.18)}.g2 .box{fill:rgb(var(--s)/.22)}.g3 .box{fill:rgb(var(--a)/.2)}
+    .chiptx{fill:rgb(167 139 250)}.chipbox{stroke:rgb(167 139 250)}.purp{fill:rgb(167 139 250)}.pr{stroke:rgb(167 139 250)}
+    .g3 .acc{fill:rgb(167 139 250)}
+  }
+</style><style>
+  .numw{font-size:18px;font-weight:700;fill:#fff}
+  .chipfill{fill:rgb(var(--a))}
+  .chipw{font-size:14px;font-weight:700;fill:#fff}
+  .cell{fill:rgb(var(--line)/.07)}
+  .c1{fill:rgb(var(--p))}.c2{fill:rgb(var(--s))}.c3{fill:rgb(var(--a))}
+  .hl{fill:rgb(var(--a)/.07);stroke:rgb(var(--a));stroke-width:1.5}
+  .dash{stroke:rgb(var(--line)/.4);stroke-width:2;stroke-dasharray:6 5;fill:none}
+  .pa{stroke:rgb(var(--a));stroke-width:3;fill:none}
+  .pah{fill:rgb(var(--a))}
+  .bold-p{font-size:14.5px;font-weight:700;fill:rgb(var(--a))}
+  @media (prefers-color-scheme: dark){
+    .bold-p{fill:rgb(167 139 250)}.pa{stroke:rgb(167 139 250)}.pah{fill:rgb(167 139 250)}.c3{fill:rgb(167 139 250)}
+    .hl{stroke:rgb(167 139 250)}.chipfill{fill:rgb(109 40 217)}
+  }
+</style><rect class="bg" width="1200" height="630"/>
+<text class="big" x="60" y="120" text-anchor="start">Doanh nghiệp của bạn đang</text>
+<text class="big" x="60" y="180" text-anchor="start">ở cấp độ số hóa nào?</text>
+<text class="subtitle" x="60" y="224" text-anchor="start">Năm cấp độ, từ vận hành bằng giấy đến AI hỗ trợ vận hành</text>
+<line class="rule" x1="120" y1="450" x2="1080" y2="450"/>
+<rect class="chipfill" x="511" y="372" width="178" height="36" rx="18"/>
+<text class="chipw" x="600" y="396" text-anchor="middle">Bạn đang ở đâu?</text>
+<circle class="c1" cx="120" cy="450" r="24"/>
+<text class="numw" x="120" y="456.5" text-anchor="middle">1</text>
+<text class="desc" x="120" y="504" text-anchor="middle">Vận hành</text>
+<text class="desc" x="120" y="522" text-anchor="middle">bằng giấy</text>
+<circle class="c1" cx="360" cy="450" r="24"/>
+<text class="numw" x="360" y="456.5" text-anchor="middle">2</text>
+<text class="desc" x="360" y="504" text-anchor="middle">Tài liệu số</text>
+<text class="desc" x="360" y="522" text-anchor="middle">nhưng rải rác</text>
+<circle class="c2" cx="600" cy="450" r="24"/>
+<text class="numw" x="600" y="456.5" text-anchor="middle">3</text>
+<text class="desc" x="600" y="504" text-anchor="middle">Workflow</text>
+<text class="desc" x="600" y="522" text-anchor="middle">qua hệ thống</text>
+<circle class="c3" cx="840" cy="450" r="24"/>
+<text class="numw" x="840" y="456.5" text-anchor="middle">4</text>
+<text class="desc" x="840" y="504" text-anchor="middle">Tích hợp và dữ liệu</text>
+<text class="desc" x="840" y="522" text-anchor="middle">phân tích được</text>
+<circle class="c3" cx="1080" cy="450" r="24"/>
+<text class="numw" x="1080" y="456.5" text-anchor="middle">5</text>
+<text class="desc" x="1080" y="504" text-anchor="middle">AI hỗ trợ</text>
+<text class="desc" x="1080" y="522" text-anchor="middle">vận hành</text>
+<text class="foot" x="60" y="602" text-anchor="start">okelas.com</text>
+</svg>

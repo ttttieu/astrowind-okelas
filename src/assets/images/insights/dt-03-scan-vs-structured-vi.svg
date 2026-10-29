@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 660" width="1200" height="660" role="img" aria-label="So sánh PDF scan và dữ liệu có cấu trúc cho cùng một biểu mẫu"><style>
+  :root{--p:1 97 239;--s:1 84 207;--a:109 40 217;--bg:255 255 255;--tx:0 0 0;--mut:16 16 16;--line:16 16 16}
+  @media (prefers-color-scheme: dark){:root{--bg:8 9 10;--tx:247 248 248;--mut:229 236 246;--line:229 236 246}}
+  text{font-family:Inter,Roboto,'Segoe UI',system-ui,-apple-system,Arial,sans-serif}
+  .bg{fill:rgb(var(--bg))}
+  .title{font-size:32px;font-weight:700;fill:rgb(var(--tx))}
+  .big{font-size:50px;font-weight:700;fill:rgb(var(--tx))}
+  .subtitle{font-size:17px;fill:rgb(var(--mut)/.66)}
+  .term{font-size:17px;font-weight:700;fill:rgb(var(--tx))}
+  .h2{font-size:19px;font-weight:700;fill:rgb(var(--tx))}
+  .lbl{font-size:11.5px;font-weight:600;letter-spacing:.08em;fill:rgb(var(--mut)/.66)}
+  .desc{font-size:13.5px;fill:rgb(var(--mut)/.85)}
+  .body{font-size:14.5px;fill:rgb(var(--mut)/.88)}
+  .mut{font-size:13px;fill:rgb(var(--mut)/.66)}
+  .val{font-size:15px;font-weight:600;fill:rgb(var(--tx))}
+  .foot{font-size:13px;fill:rgb(var(--mut)/.5)}
+  .chip{font-size:12px;font-weight:700;letter-spacing:.06em}
+  .g1 .box{fill:rgb(var(--p)/.08);stroke:rgb(var(--p))}
+  .g2 .box{fill:rgb(var(--s)/.12);stroke:rgb(var(--s))}
+  .g3 .box{fill:rgb(var(--a)/.09);stroke:rgb(var(--a))}
+  .g1 .bar{fill:rgb(var(--p))}.g2 .bar{fill:rgb(var(--s))}.g3 .bar{fill:rgb(var(--a))}
+  .g1 .acc{fill:rgb(var(--p))}.g2 .acc{fill:rgb(var(--s))}.g3 .acc{fill:rgb(var(--a))}
+  .box{stroke-width:1.5}
+  .card{fill:rgb(var(--bg));stroke:rgb(var(--line)/.2);stroke-width:1.5}
+  .soft{fill:rgb(var(--line)/.05)}
+  .ghost{fill:rgb(var(--line)/.22)}
+  .rule{stroke:rgb(var(--line)/.45);stroke-width:2;fill:none}
+  .ring{stroke:rgb(var(--line)/.18);stroke-width:1;fill:none}
+  .axis{stroke:rgb(var(--line)/.18);stroke-width:1}
+  .poly{fill:rgb(var(--p)/.18);stroke:rgb(var(--p));stroke-width:2.5;stroke-linejoin:round}
+  .dot{fill:rgb(var(--p));stroke:rgb(var(--bg));stroke-width:2}
+  .ah{fill:rgb(var(--line)/.45)}
+  .chipbox{fill:rgb(var(--a)/.12);stroke:rgb(var(--a));stroke-width:1.2}
+  .chiptx{fill:rgb(var(--a))}
+  .blue{fill:rgb(var(--p))}.purp{fill:rgb(var(--a))}
+  .ok{fill:rgb(var(--p)/.10);stroke:rgb(var(--p));stroke-width:1.5}
+  .pr{fill:rgb(var(--a)/.10);stroke:rgb(var(--a));stroke-width:1.5}
+  .final{fill:rgb(var(--tx));}
+  .finaltx{font-size:18px;font-weight:700;fill:rgb(var(--bg))}
+  @media (prefers-color-scheme: dark){
+    .g1 .box{fill:rgb(var(--p)/.18)}.g2 .box{fill:rgb(var(--s)/.22)}.g3 .box{fill:rgb(var(--a)/.2)}
+    .chiptx{fill:rgb(167 139 250)}.chipbox{stroke:rgb(167 139 250)}.purp{fill:rgb(167 139 250)}.pr{stroke:rgb(167 139 250)}
+    .g3 .acc{fill:rgb(167 139 250)}
+  }
+</style><rect class="bg" width="1200" height="660"/>
+<text class="title" x="60" y="78" text-anchor="start">Scan tài liệu chưa phải là số hóa</text>
+<text class="subtitle" x="60" y="110" text-anchor="start">Cùng một biểu mẫu: một bên là ảnh, một bên là dữ liệu dùng được</text>
+<rect class="card" x="60" y="150" width="480" height="440" rx="14"/>
+<rect class="card" x="660" y="150" width="480" height="440" rx="14"/>
+<text class="h2" x="84" y="186" text-anchor="start">Bản scan (PDF ảnh)</text>
+<text class="h2" x="684" y="186" text-anchor="start">Dữ liệu có cấu trúc</text>
+<g transform="rotate(-1.5 300 322)">
+<rect class="card" x="180" y="212" width="240" height="215" rx="4"/>
+<rect class="ghost" x="202" y="232" width="120" height="10" rx="2"/>
+<rect class="ghost" x="202" y="260" width="196" height="6" rx="2" opacity=".7"/>
+<rect class="ghost" x="202" y="276" width="170" height="6" rx="2" opacity=".7"/>
+<rect class="ghost" x="202" y="292" width="190" height="6" rx="2" opacity=".7"/>
+<rect class="ghost" x="202" y="308" width="150" height="6" rx="2" opacity=".7"/>
+<rect class="ghost" x="202" y="324" width="186" height="6" rx="2" opacity=".7"/>
+<rect class="ghost" x="202" y="340" width="160" height="6" rx="2" opacity=".7"/>
+<rect class="ghost" x="202" y="356" width="190" height="6" rx="2" opacity=".7"/>
+<rect class="ghost" x="202" y="372" width="120" height="6" rx="2" opacity=".7"/>
+<rect class="ghost" x="202" y="388" width="176" height="6" rx="2" opacity=".7"/>
+<path d="M330 412 q10 -22 20 -6 t24 -4" fill="none" stroke="rgb(var(--line)/.4)" stroke-width="2"/>
+</g>
+<text class="mut" x="300" y="457" text-anchor="middle">Biểu mẫu minh họa</text>
+<rect class="soft" x="690" y="212" width="420" height="34" rx="4"/>
+<text class="mut" x="704" y="234" text-anchor="start">Mã lô</text>
+<text class="val" x="860" y="234" text-anchor="start">LOT-001</text>
+<text class="mut" x="704" y="268" text-anchor="start">Công đoạn</text>
+<text class="val" x="860" y="268" text-anchor="start">Đóng gói</text>
+<rect class="soft" x="690" y="280" width="420" height="34" rx="4"/>
+<text class="mut" x="704" y="302" text-anchor="start">Chỉ tiêu</text>
+<text class="val" x="860" y="302" text-anchor="start">Nhiệt độ bảo quản</text>
+<text class="mut" x="704" y="336" text-anchor="start">Giá trị</text>
+<text class="val" x="860" y="336" text-anchor="start">4 °C</text>
+<rect class="soft" x="690" y="348" width="420" height="34" rx="4"/>
+<text class="mut" x="704" y="370" text-anchor="start">Giới hạn</text>
+<text class="val" x="860" y="370" text-anchor="start">≤ 5 °C</text>
+<text class="mut" x="704" y="404" text-anchor="start">Kết quả</text>
+<text class="val" x="860" y="404" text-anchor="start">Đạt</text>
+<rect fill="none" stroke="rgb(var(--p))" stroke-width="1.5" x="690" y="212" width="420" height="204" rx="6"/>
+<text class="mut" x="900" y="457" text-anchor="middle">Biểu mẫu minh họa</text>
+<line class="axis" x1="84" y1="467" x2="516" y2="467"/>
+<line class="axis" x1="684" y1="467" x2="1116" y2="467"/>
+<circle cx="92" cy="484" r="4" fill="rgb(var(--line)/.4)"/>
+<text class="body" x="106" y="489" text-anchor="start">Không tìm kiếm được theo nội dung</text>
+<circle cx="92" cy="510" r="4" fill="rgb(var(--line)/.4)"/>
+<text class="body" x="106" y="515" text-anchor="start">Không lọc, thống kê được</text>
+<circle cx="92" cy="536" r="4" fill="rgb(var(--line)/.4)"/>
+<text class="body" x="106" y="541" text-anchor="start">Không liên kết được với lô hay thiết bị</text>
+<circle class="blue" cx="692" cy="484" r="4"/>
+<text class="body" x="706" y="489" text-anchor="start">Tìm, lọc, thống kê được</text>
+<circle class="blue" cx="692" cy="510" r="4"/>
+<text class="body" x="706" y="515" text-anchor="start">Liên kết được tới lô và thiết bị</text>
+<circle class="blue" cx="692" cy="536" r="4"/>
+<text class="body" x="706" y="541" text-anchor="start">Là nền để truy vết và làm bằng chứng</text>
+<line class="rule" x1="552" y1="300" x2="640" y2="300"/><path class="ah" d="M650 300 l-9 -5 v10 z"/>
+<text class="mut" x="600" y="330" text-anchor="middle">Cùng một</text>
+<text class="mut" x="600" y="347" text-anchor="middle">thông tin</text>
+<text class="foot" x="60" y="636" text-anchor="start">okelas.com</text>
+<text class="foot" x="1140" y="636" text-anchor="end">Biểu mẫu và giá trị trong hình chỉ mang tính minh họa</text>
+</svg>

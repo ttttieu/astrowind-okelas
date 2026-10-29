@@ -19,6 +19,11 @@ secondaryKeywords:
   - "ERP không tạo ra kết quả"
   - "khai thác ERP sau triển khai"
   - "ERP adoption |"
+ctaPrimaryText: 'Assess your ERP readiness'
+ctaSubtitle: 'Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn'
+coverImage: '~/assets/images/insights/erpi-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/erpi-00-og-cover-vi.png'
+coverImageAlt: "Một nút go-live và một nút adoption nét đứt được nối bằng đường nét đứt có nhãn khoảng cách, thể hiện lộ trình sau go-live có chủ đích."
 draft: false
 ---
 
@@ -33,7 +38,7 @@ draft: false
 
 ## Giới thiệu
 
-→ **[Khám phá các giải pháp ERP Readiness](/solutions/erp-readiness)**
+→ **[Khám phá các giải pháp ERP Readiness](/readiness/erp)**
 
 *Để hiểu về data quality và governance như là tiền đề: [ERP Governance: ai chịu trách nhiệm khi ERP không hoạt động đúng?](/insights/erp/quan-tri-erp-governance)*
 
@@ -47,6 +52,8 @@ draft: false
 
 ## Implementation kết thúc khi nào?
 
+![Implementation hoàn thành khi hệ thống chạy được về kỹ thuật, adoption bắt đầu khi hệ thống thay đổi cách vận hành và ra quyết định; giữa hai điểm có một khoảng cách thường lớn hơn các thông báo sau go-live.](~/assets/images/insights/erpi-01-golive-is-not-adoption-vi.svg)
+
 Trong hầu hết dự án ERP, thời điểm "kết thúc" được xác định khá rõ ràng: ngày go-live, khi hệ thống chính thức đi vào vận hành và nhà triển khai bàn giao.
 
 Nhưng nếu hỏi thẳng: *"Sau ngày go-live, doanh nghiệp đã thực sự khai thác được ERP chưa?"* — câu trả lời thường phức tạp hơn nhiều.
@@ -58,6 +65,8 @@ Và sự nhầm lẫn giữa hai điểm này — coi go-live là kết thúc th
 ---
 
 ## Adoption thực sự trông như thế nào?
+
+![Năm dấu hiệu adoption đã thực sự xảy ra: báo cáo dùng để ra quyết định, quy trình chạy qua ERP, lãnh đạo tin dữ liệu, nhân viên tìm trong hệ thống trước và tri thức nằm trong hệ thống.](~/assets/images/insights/erpi-02-five-adoption-signs-vi.svg)
 
 Để hiểu khoảng cách, cần định nghĩa adoption không phải bằng tỷ lệ đăng nhập hay số lượng giao dịch được nhập — mà bằng những thay đổi thực sự trong cách doanh nghiệp vận hành và ra quyết định.
 
@@ -74,6 +83,8 @@ Theo định nghĩa này, phần lớn doanh nghiệp đạt được implementa
 ---
 
 ## Tình huống minh họa: Khoảng cách trông như thế nào trong thực tế
+
+![Tình huống minh họa sáu tháng sau go-live ở một doanh nghiệp chế biến thực phẩm giả định: kho giữ Excel riêng, sản xuất lập kế hoạch theo kinh nghiệm, kế toán xuất Excel hằng tháng và CEO vẫn nhận báo cáo tuần qua email.](~/assets/images/insights/erpi-03-illustrative-scenario-vi.svg)
 
 *Lưu ý: Tình huống dưới đây là tình huống minh họa tổng hợp, không phải case khách hàng cụ thể.*
 
@@ -95,6 +106,8 @@ Trong tình huống này, ERP đang hoạt động như một hệ thống lưu 
 
 ## Tại sao khoảng cách này tồn tại?
 
+![Năm nguyên nhân tồn tại khoảng cách: dữ liệu chưa tin cậy khi go-live, cấu hình không khớp thực tế, không có lộ trình sau go-live, thiếu governance và dữ liệu không được khai thác.](~/assets/images/insights/erpi-04-five-gap-causes-vi.svg)
+
 Nhìn lại từ góc độ của tình huống trên, các nguyên nhân thường đan xen nhau:
 
 **Dữ liệu không đủ tin cậy ngay từ đầu.** Khi go-live với dữ liệu chưa được làm sạch kỹ, những sai lệch ban đầu tạo ra mất tin tưởng vào hệ thống — và người dùng quay về cách cũ để đảm bảo an toàn.
@@ -111,6 +124,8 @@ Nhìn lại từ góc độ của tình huống trên, các nguyên nhân thư�
 
 ## Những gì cần làm sau go-live để thu hẹp khoảng cách
 
+![Lộ trình sau go-live gồm năm việc: đánh giá hiện trạng trung thực, xử lý chất lượng dữ liệu trước, báo cáo và dashboard cho lãnh đạo, cấu trúc governance rõ ràng và quản lý tri thức ERP.](~/assets/images/insights/erpi-05-post-golive-roadmap-vi.svg)
+
 Closing the adoption gap không phải là một dự án mới — nó là giai đoạn tiếp theo của hành trình ERP, với mục tiêu và phương pháp khác với giai đoạn implementation.
 
 **Đánh giá lại trạng thái hiện tại.** Sáu đến mười hai tháng sau go-live là thời điểm thích hợp để đánh giá thẳng thắn: hệ thống đang được dùng ở đâu đúng cách, ở đâu có gap, và gap lớn nhất nằm ở đâu. Đánh giá này cần nhìn vào cả dữ liệu (chất lượng và tính đầy đủ) lẫn hành vi người dùng (ai đang dùng gì và như thế nào).
@@ -126,6 +141,8 @@ Closing the adoption gap không phải là một dự án mới — nó là giai
 ---
 
 ## Doanh nghiệp bạn có đang như thế này?
+
+![Bảy dấu hiệu ERP đã triển khai nhưng chưa được áp dụng, với ngưỡng từ ba dấu hiệu trở lên.](~/assets/images/insights/erpi-06-seven-signs-checklist-vi.svg)
 
 - Một số nhân viên vẫn giữ một file Excel "ngầm" mà họ tin tưởng hơn cả hệ thống ERP
 - Báo cáo xuất ra từ ERP luôn cần kiểm tra thủ công lại trước khi ai đó tin dùng số liệu
@@ -147,17 +164,17 @@ Khi dữ liệu trong ERP đủ chất lượng, quy trình được phản ánh
 
 Nhưng tất cả những điều đó đều đòi hỏi nền tảng ERP adoption đã được xây dựng vững.
 
-→ *Xem thêm: [Sau ERP — doanh nghiệp cần làm gì để khai thác dữ liệu ERP?]*
+→ *Xem thêm: [Sau ERP — doanh nghiệp cần làm gì để khai thác dữ liệu ERP?](/insights/erp/khai-thac-du-lieu-erp)*
 
-→ *Xem thêm: [Organizational AI — khi AI hiểu doanh nghiệp thay vì chỉ trả lời câu hỏi]*
+→ *Xem thêm: [Organizational AI — khi AI hiểu doanh nghiệp thay vì chỉ trả lời câu hỏi](/insights/ai/organizational-ai-doanh-nghiep)*
 
-**→ Nếu doanh nghiệp bạn đang ở trong giai đoạn này — đã có ERP nhưng chưa thấy kết quả như kỳ vọng — [liên hệ OKELAS để trao đổi về lộ trình phù hợp].**
+**→ Nếu doanh nghiệp bạn đang ở trong giai đoạn này — đã có ERP nhưng chưa thấy kết quả như kỳ vọng — [liên hệ OKELAS để trao đổi về lộ trình phù hợp](/contact).**
 
 ---
 
 *Bài viết này là một phần của chuỗi chuyên đề về ERP readiness và ERP adoption cho doanh nghiệp sản xuất SME.*
 
 **Bài liên quan:**
-- [Tại sao dự án ERP không đạt mục tiêu — pillar]
-- [Doanh nghiệp đã có ERP nhưng vẫn chạy bằng Excel — tại sao?]
-- [Sau ERP: doanh nghiệp cần làm gì để khai thác dữ liệu ERP?]
+- [Tại sao dự án ERP không đạt mục tiêu — pillar](/insights/erp/tai-sao-du-an-erp-that-bai)
+- [Doanh nghiệp đã có ERP nhưng vẫn chạy bằng Excel — tại sao?](/insights/erp/co-erp-van-dung-excel)
+- [Sau ERP: doanh nghiệp cần làm gì để khai thác dữ liệu ERP?](/insights/erp/khai-thac-du-lieu-erp)

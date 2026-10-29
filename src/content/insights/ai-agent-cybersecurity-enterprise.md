@@ -2,6 +2,9 @@
 title: "AI Agents and Cybersecurity: Managing AI Access to Enterprise Systems"
 description: "AI agents don't just answer questions — they can access APIs, databases, email and internal systems. In an enterprise environment, this creates a new attack surface that needs to be controlled."
 publishDate: 2026-09-23T00:00:00Z
+coverImage: '~/assets/images/insights/ai-agent-cybersecurity-enterprise/acys-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/ai-agent-cybersecurity-enterprise/acys-00-og-cover-en.png'
+coverImageAlt: "On the left, an AI agent box with system access; on the right, enterprise systems, joined by a dashed arrow labelled blast radius."
 translationId: article-6-8-ai-agent-cybersecurity
 lang: en
 category: ai
@@ -19,6 +22,8 @@ secondaryKeywords:
   - "AI agent access control"
   - "AI security risk"
 assessmentHref: /en/readiness/ai
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Identify your AI readiness level'
 draft: false
 ---
 
@@ -42,6 +47,8 @@ This is exactly the lens the security community is now applying to AI agents: no
 
 ## What AI Agents Can Do With System Access
 
+![An AI agent hub connected to five access points: databases, APIs, email, internal documents, code execution.](~/assets/images/insights/ai-agent-cybersecurity-enterprise/acys-01-access-points-en.svg)
+
 **Claim:** An AI agent granted system access becomes part of the organization's attack surface, exactly the way any privileged account would.
 
 To complete its task, an enterprise AI agent typically needs one or more of the following: read/write access to a database, the ability to call other systems' APIs (CRM, ERP, payment systems), read and send email, access to internal documents, or the ability to execute code in a development environment.
@@ -52,6 +59,8 @@ The AI agent security research community makes an important distinction when ass
 
 ## Enterprise Environments as an Attack Surface
 
+![Two columns: attacks on the agent with two controls; attacks through the agent with three points.](~/assets/images/insights/ai-agent-cybersecurity-enterprise/acys-02-two-directions-en.svg)
+
 This is no longer a theoretical risk. The OWASP GenAI Security Project, in publishing "OWASP Top 10 for Agentic Applications 2026" on December 9, 2025 — a framework built and peer-reviewed by more than 100 security experts, researchers, and practitioners — emphasizes that its ten risk categories (ASI01 through ASI10) are built from **real incidents that occurred in 2025**, not projected scenarios.
 
 Three specific incidents illustrate this:
@@ -60,11 +69,15 @@ Three specific incidents illustrate this:
 - **A supply-chain incident involving Amazon Q Developer** — an AI coding assistant extension with nearly 950,000 installs, where a hijacked pull request shipped data-wiping commands into users' environments through the AI tool itself.
 - **The Replit incident**, covered in detail in Pillar 6's opening article — an agent that executed a command deleting a production database despite being explicitly told not to change anything without approval.
 
+![Three permission blocks added together, leading to a blast-radius block.](~/assets/images/insights/ai-agent-cybersecurity-enterprise/acys-03-blast-radius-en.svg)
+
 What these three share: the attacker (or the system flaw) doesn't need to "hack" the AI model directly in the traditional sense — they exploit the fact that the agent holds broad access and treats content from multiple sources (email, a pull request, user data) as though it were all trustworthy instruction. The OWASP GenAI Security Project describes agentic risk as a **"blast-radius problem"**: an agent's exposure equals the sum of every credential, tool, and API it can reach — and because an agent operates through multiple autonomous steps, damage can compound across an entire plan, not stop at a single response.
 
 ---
 
 ## Access Control Principles for AI
+
+![Three numbered rows, each a way to apply Least-Agency.](~/assets/images/insights/ai-agent-cybersecurity-enterprise/acys-04-least-agency-en.svg)
 
 From these incidents and the analysis above, the security community proposes a specific extended principle for AI agents: **Least-Agency** — a variant of the least-privilege principle, applied specifically to the degree of action autonomy, not just data scope.
 
@@ -77,6 +90,8 @@ This principle states: an agent should be granted only the amount of autonomy ge
 ---
 
 ## Connecting to Enterprise Security Frameworks
+
+![Three 2025 incident cards and one statistic card showing LLM06 to LLM03.](~/assets/images/insights/ai-agent-cybersecurity-enterprise/acys-05-incidents-en.svg)
 
 An important point worth emphasizing: AI agent security shouldn't be built as a separate program running parallel to a company's existing cybersecurity program — it should be integrated into it.
 

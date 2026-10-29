@@ -19,6 +19,11 @@ secondaryKeywords:
   - "workflow bị chặn"
   - "human bottleneck"
 assessmentHref: /readiness/workflow
+coverImage: '~/assets/images/insights/workflow-phu-thuoc-con-nguoi/wfh-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/workflow-phu-thuoc-con-nguoi/wfh-00-og-cover-vi.png'
+coverImageAlt: "Một chuỗi dồn qua một cổng chờ đúng một người, so với một chuỗi được điều hướng theo ngưỡng qua nhiều đường."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---
 
@@ -38,11 +43,13 @@ Có một câu quen thuộc trong hầu hết các cuộc họp vận hành: "c�
 
 Phản ứng thường thấy của tổ chức là đổ lỗi cho cá nhân: "anh A duyệt chậm quá", hoặc tìm cách nhắc nhở nhiều hơn. Nhưng đây là cách nhìn sai vấn đề. Khi một quy trình liên tục bị chặn vì chờ người, đó không phải là vấn đề về thái độ làm việc — đó là **dấu hiệu của một lỗi thiết kế quy trình**, lặp đi lặp lại có hệ thống.
 
-→ *Xem thêm: [Từ Approval Workflow đến End-to-End Workflow]*
+→ *Xem thêm: [Từ Approval Workflow đến End-to-End Workflow](/insights/workflow/approval-workflow-den-end-to-end)*
 
 ---
 
 ## Human bottleneck là gì
+
+![Một bước chờ thông tin và điều kiện sẵn sàng khác với một bước chờ đúng một người, khi người đó vắng mặt, quá tải hoặc bỏ sót.](~/assets/images/insights/workflow-phu-thuoc-con-nguoi/wfh-01-waiting-for-whom-vi.svg)
 
 Human bottleneck xảy ra khi một quy trình được thiết kế sao cho tiến độ của nó phụ thuộc vào sự sẵn sàng của một cá nhân cụ thể, tại một thời điểm cụ thể — thay vì phụ thuộc vào việc thông tin và điều kiện quyết định đã sẵn sàng hay chưa.
 
@@ -56,6 +63,8 @@ Khảo sát của McKinsey với hơn 1.200 lãnh đạo doanh nghiệp toàn c�
 
 ## Ba dạng phụ thuộc phổ biến
 
+![Ba dạng phụ thuộc vào con người: phê duyệt một điểm, theo dõi bằng trí nhớ, tiến triển nhờ bị đòi việc.](~/assets/images/insights/workflow-phu-thuoc-con-nguoi/wfh-02-three-patterns-vi.svg)
+
 **1. Phụ thuộc vào một người duy nhất (single point of approval).** Một bước quan trọng trong quy trình chỉ có đúng một người có quyền hoặc có đủ thông tin để quyết định. Khi người đó nghỉ phép, đi công tác, hoặc chuyển việc, toàn bộ quy trình đứng lại — không phải vì thiếu quy trình, mà vì quy trình chưa từng tính đến khả năng người đó vắng mặt.
 
 **2. Phụ thuộc vào trí nhớ (tacit tracking).** Không có ai chính thức "sở hữu" việc theo dõi tiến độ của một quy trình — thay vào đó, một vài người trong tổ chức tự nhớ trong đầu "việc này đang ở đâu, cần nhắc ai". Khi người đó bận việc khác, hoặc rời tổ chức, thông tin theo dõi cũng biến mất theo.
@@ -67,6 +76,8 @@ Ba dạng này thường tồn tại đồng thời trong cùng một quy trình
 ---
 
 ## Chi phí của việc chờ đợi
+
+![Chi phí của việc chờ gồm thời gian chờ dễ thấy, cộng với hành vi tự bảo vệ và tổn thất cơ hội cộng dồn qua nhiều quy trình.](~/assets/images/insights/workflow-phu-thuoc-con-nguoi/wfh-03-cost-of-waiting-vi.svg)
 
 Chi phí dễ thấy nhất là thời gian — một yêu cầu mất ba ngày thay vì ba giờ. Nhưng có hai loại chi phí ít được nhắc tới hơn, và thường lớn hơn:
 
@@ -80,6 +91,8 @@ Chi phí dễ thấy nhất là thời gian — một yêu cầu mất ba ngày 
 
 ## Cách giảm human dependency hợp lý
 
+![Bốn cách giảm phụ thuộc: ủy quyền theo ngưỡng thay vì chức danh, dự phòng chính thức, hệ thống theo dõi và hệ thống nhắc việc.](~/assets/images/insights/workflow-phu-thuoc-con-nguoi/wfh-04-four-redesigns-vi.svg)
+
 Giảm phụ thuộc con người không có nghĩa là loại bỏ con người khỏi quy trình — với nhiều quyết định, sự phán đoán của con người vẫn cần thiết và không nên bị thay thế. Vấn đề là thiết kế lại **cách** con người tham gia, theo bốn hướng:
 
 **1. Phân quyền theo ngưỡng, không theo cấp bậc.** Thay vì mọi yêu cầu đều phải qua đúng một người vì họ giữ chức vụ đó, xác định rõ ngưỡng nào (giá trị, mức rủi ro, loại giao dịch) thực sự cần quyết định của người đó, và ngưỡng nào có thể được xử lý bởi người khác hoặc theo quy tắc đã định trước.
@@ -92,7 +105,7 @@ Giảm phụ thuộc con người không có nghĩa là loại bỏ con người
 
 Bốn hướng này không đòi hỏi công nghệ phức tạp để bắt đầu. Bước đầu tiên chỉ là: liệt kê những quy trình quan trọng nhất, và với mỗi quy trình, hỏi "nếu người phụ trách bước này nghỉ một tuần, chuyện gì sẽ xảy ra?" Nếu câu trả lời là "mọi thứ sẽ đứng lại", đó chính là điểm cần thiết kế lại trước tiên.
 
-→ *Xem thêm: [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành]*
+→ *Xem thêm: [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-doanh-nghiep-san-xuat)*
 
 ---
 
@@ -105,8 +118,8 @@ Một workflow phụ thuộc quá nhiều vào con người không phải vì co
 *Bài viết này là một phần của chuỗi chuyên đề về workflow, ứng dụng AI và quản trị vận hành cho doanh nghiệp sản xuất SME.*
 
 **Bài liên quan:**
-- [Từ Approval Workflow đến End-to-End Workflow]
-- [Đã có workflow rồi — tại sao công việc vẫn chậm?]
-- [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành]
+- [Từ Approval Workflow đến End-to-End Workflow](/insights/workflow/approval-workflow-den-end-to-end)
+- [Đã có workflow rồi — tại sao công việc vẫn chậm?](/insights/workflow/co-workflow-van-lam-viec-cham)
+- [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-doanh-nghiep-san-xuat)
 
-**→ [Làm Workflow Readiness Assessment]**
+**→ [Làm Digitalization Readiness Assessment](/readiness/digitalization)**

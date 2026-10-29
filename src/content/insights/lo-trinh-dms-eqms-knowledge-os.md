@@ -18,6 +18,8 @@ secondaryKeywords:
   - "eQMS là gì"
   - "knowledge operating system"
 assessmentHref: '/readiness/digitalization'
+ctaPrimaryText: 'Digital Transformation Maturity Assessment'
+ctaSubtitle: 'Hiểu rõ mức độ trưởng thành số hóa của bạn và bước tiếp theo có ý nghĩa'
 draft: false
 ---
 
@@ -43,6 +45,8 @@ Một doanh nghiệp đầu tư Knowledge OS khi dữ liệu vận hành chưa c
 Ngược lại, một doanh nghiệp dừng lại ở DMS khi đã cần eQMS sẽ tiếp tục phụ thuộc vào quy trình thủ công cho những việc có thể tự động hóa được.
 
 Hiểu lộ trình giúp đầu tư đúng bước, đúng thời điểm.
+
+![Ba giai đoạn, ba vấn đề khác nhau: Từ DMS đến eQMS đến Knowledge OS](/assets/images/insights/lo-trinh-dms-eqms-knowledge-os/rm-01-three-stages-three-problems-vi.svg)
 
 ---
 
@@ -101,6 +105,8 @@ Sự khác biệt căn bản: eQMS không chỉ lưu tài liệu — eQMS **gắ
 
 **Traceability:** Có thể truy vết từ sản phẩm cuối về nguyên liệu đầu vào, quy trình sản xuất, và kết quả kiểm tra — theo chuỗi.
 
+![DMS vs eQMS: Lưu trữ tài liệu versus Quản lý quy trình chất lượng](/assets/images/insights/lo-trinh-dms-eqms-knowledge-os/rm-02-dms-vs-eqms-vi.svg)
+
 ### Khi nào eQMS phù hợp
 
 eQMS phù hợp khi:
@@ -137,6 +143,8 @@ Knowledge OS giải quyết bài toán ở cấp tổ chức: *"Chúng ta có qu
 
 **Cross-system intelligence:** Kết nối dữ liệu từ ERP, QMS, và các nguồn khác để trả lời câu hỏi mà không hệ thống đơn lẻ nào có thể trả lời.
 
+![Knowledge OS ngữ cảnh tổ chức: Kết nối tri thức, quy trình, dữ liệu, và quyết định](/assets/images/insights/lo-trinh-dms-eqms-knowledge-os/rm-03-knowledge-os-context-vi.svg)
+
 ### Khi nào Knowledge OS phù hợp
 
 Knowledge OS phù hợp khi:
@@ -163,6 +171,8 @@ Một nguyên tắc đơn giản để quyết định khi nào nên chuyển gi
 | Không có → DMS | Tài liệu đã được số hóa cơ bản (không phải scan PDF) |
 | DMS → eQMS | Quy trình chính đã được tài liệu hóa; có người phụ trách rõ ràng |
 | eQMS → Knowledge OS | Dữ liệu chất lượng có cấu trúc nhất quán; ERP (nếu có) đang hoạt động tốt |
+
+![Nguyên tắc chuyển giai đoạn: Khai thác đủ giá trị, gặp giới hạn, có nền tảng](/assets/images/insights/lo-trinh-dms-eqms-knowledge-os/rm-04-progression-principle-vi.svg)
 
 ---
 

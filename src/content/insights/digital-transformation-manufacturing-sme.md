@@ -1,8 +1,8 @@
-﻿---
+---
 title: "Digital Transformation for Manufacturing SMEs: What It Really Means"
 description: "Digital transformation is not about buying software or scanning documents. This article reframes what digitalization actually means for manufacturing SMEs — and what a practical roadmap looks like."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/digital-transformation-sme.png'
+image: '~/assets/images/insights/dt-01b-og-cover-en.png'
 category: 'business-operations'
 tags: ['Digital Transformation', 'Digitalization', 'Manufacturing SME', 'Strategy']
 translationId: 'biz-ops-pillar-digital-transformation'
@@ -20,6 +20,8 @@ secondaryKeywords:
   - "manufacturing SME digital strategy"
   - "digital transformation roadmap"
 assessmentHref: '/en/readiness/digitalization'
+ctaPrimaryText: 'Digital Transformation Maturity Assessment'
+ctaSubtitle: 'Understand your digitalization maturity and the next step that makes economic sense'
 draft: false
 ---
 
@@ -52,6 +54,8 @@ This article doesn't attempt to provide a new definition of "digital transformat
 ---
 
 ## Digitalization is not a destination — it's a journey with stages
+
+![Five stages of business digitalization — from stage 1 (paper-based) to stage 5 (AI-assisted operations)](~/assets/images/insights/dt-01-five-stages-en.svg)
 
 One of the most common misconceptions about digital transformation is that it's framed as a binary destination: the business "has digitalized" or "hasn't digitalized." Reality is more complex — and more useful when viewed differently.
 
@@ -111,6 +115,8 @@ Organizations at this stage: very few manufacturing SMEs are here yet. This is a
 
 ## Where is your business actually?
 
+![Business digitalization profile showing maturity levels across different dimensions (illustrative example, not actual data)](~/assets/images/insights/dt-02-digitalization-profile-en.svg)
+
 An important observation before reading further: most manufacturing SMEs are not at the same stage across all dimensions. A single business may:
 
 - Have an ERP but employees still use Excel because the ERP doesn't fit actual workflows (stage 3 in terms of systems, stage 2 in terms of operational reality).
@@ -150,6 +156,8 @@ This isn't a reason not to start. It's a reason to start correctly — with real
 ---
 
 ## A straightforward principle for manufacturing SMEs
+
+![Decision framework: Is the problem an information problem or a process problem?](~/assets/images/insights/dt-04-information-or-process-en.svg)
 
 Before thinking about technology, answer this question:
 
@@ -210,21 +218,21 @@ These small steps, done correctly and in the right sequence, are real digital tr
 ## Further reading in this cluster
 
 **On the stages:**
-- [Which Digitalization Stage Is Your Business At?](/en/insights/business-operations/digitalization-stages-assessment)
+- [Which Digitalization Stage Is Your Business At?](/en/insights/business-operations/digital-maturity-levels)
 - [Paperless Is Not Digital Transformation — Here's the Difference](/en/insights/business-operations/paperless-vs-digital-transformation)
-- [Why Having More Software Doesn't Mean You've Digitalized](/en/insights/business-operations/more-software-not-digitalized)
+- [Why Having More Software Doesn't Mean You've Digitalized](/en/insights/business-operations/software-tools-not-digitalization)
 
 **On the roadmap:**
-- [From DMS to eQMS to Knowledge OS — A Practical Progression](/en/insights/business-operations/dms-to-eqms-to-knowledge-os)
+- [From DMS to eQMS to Knowledge OS — A Practical Progression](/en/insights/business-operations/dms-eqms-knowledge-os-roadmap)
 - [What Is Progressive eQMS — and Why Not to Start With a Complete System](/en/solutions/progressive-eqms)
-- [The Next Economically Meaningful Step — A Self-Assessment Framework for CEOs](/en/insights/business-operations/next-economically-meaningful-step)
+- [The Next Economically Meaningful Step — A Self-Assessment Framework for CEOs](/en/insights/business-operations/next-step-digitalization-roi)
 
 **On cost and risk:**
-- [The Real Cost of Not Digitalizing — What Organizations Don't Calculate](/en/insights/business-operations/true-cost-of-not-digitalizing)
-- [The Large Digital Transformation Project Trap — Why Many Businesses Fail](/en/insights/business-operations/large-digital-transformation-trap)
+- [The Real Cost of Not Digitalizing — What Organizations Don't Calculate](/en/insights/business-operations/cost-of-not-digitalizing)
+- [The Large Digital Transformation Project Trap — Why Many Businesses Fail](/en/insights/business-operations/digital-transformation-project-failure)
 
 **Cross-cluster:**
-- [Why ERP Is Not Transformation](/en/insights/erp/why-erp-is-not-transformation) *(Cluster 1 — ERP)*
+- [Why ERP Projects Fail](/en/insights/erp/why-erp-projects-fail) *(Cluster 1 — ERP)*
 - [From Individual Knowledge to Organizational Knowledge](/en/insights/knowledge-management/knowledge-management-manufacturing) *(Cluster 3 — KM)*
 
 ---

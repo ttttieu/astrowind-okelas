@@ -72,6 +72,10 @@ class PublicAssessmentResult(BaseModel):
     insufficient_data_message: Optional[str] = None
     related_links: list[PublicResultRelatedLink] = Field(default_factory=list)
     submission_id: str  # id của Evidence record đã tạo trên OKELAS Core
+    archetype: Optional[str] = None  # Business profile classification
+    critical_flags: list[str] = Field(default_factory=list)  # F1-F5 flags
+    dimension_scores: dict[str, float] = Field(default_factory=dict)  # Scores per dimension
+    flags: list[str] = Field(default_factory=list)  # All flags (critical + straight-lining + uncertain)
 
 
 class WorkflowExecutionResult(BaseModel):

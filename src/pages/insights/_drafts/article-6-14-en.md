@@ -1,6 +1,6 @@
 ---
 title: "KVM: The Layer Between AI Agents and Organizational Knowledge"
-slug: "kvm-knowledge-vault-manager"
+slug: "what-is-kvm"
 language: "en"
 translationKey: "article-6-14-what-is-kvm"
 type: "analysis"

@@ -18,7 +18,12 @@ secondaryKeywords:
   - "digital workflow problems"
   - "workflow inefficiency"
   - "workflow not working"
-assessmentHref: /readiness/workflow
+assessmentHref: /en/readiness/workflow
+coverImage: '~/assets/images/insights/workflow-digitized-still-slow/wfs-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/workflow-digitized-still-slow/wfs-00-og-cover-en.png'
+coverImageAlt: "Two identical chains of steps, one on paper or email and one as electronic forms: digitizing didn't change the sequence."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: "How's your work flowing?"
 draft: false
 ---
 
@@ -34,6 +39,8 @@ If that sounds familiar, the right question isn't "is this workflow software any
 
 ## Digitized Workflow Is Not the Same as Optimized Workflow
 
+![Digitizing turns a paper or email process into an electronic form and signature chain: the process gets clearer, but it stays sequential and doesn't start itself, so it isn't necessarily faster.](~/assets/images/insights/workflow-digitized-still-slow/wfs-01-digitized-vs-optimized-en.svg)
+
 This is the most common confusion. Digitizing a process means taking a sequence of steps that used to run on paper or by email and turning it into an electronic form with a chain of people signing one after another.
 
 That solves a real problem — lost documents, delays because nobody could find a file, the difficulty of reconstructing an approval history. But it **doesn't change the nature of the process**. The sequence is still linear, the next person still waits on the last one, and the system still doesn't know when to act unless someone manually clicks a button.
@@ -43,6 +50,8 @@ In other words: digitization makes a process *clearer*, but not necessarily *fas
 ---
 
 ## Three Reasons Workflow Still Creates Friction
+
+![Three reasons a digitized workflow stays slow: steps stay sequential when they could run in parallel, approvers lack context, and exceptions fall back to calls, texts and private email.](~/assets/images/insights/workflow-digitized-still-slow/wfs-02-three-friction-causes-en.svg)
 
 **1. Steps stay sequential when they don't need to be.** Many approval steps are chained one after another (A, then B, then C) simply because that's how it was done on paper — not because the actual business logic requires that order. When the process gets digitized, that sequential habit is usually carried over instead of being reconsidered.
 
@@ -56,6 +65,8 @@ None of these three causes are the fault of a specific piece of software. They'r
 
 ## Warning Signs
 
+![Four signs a workflow was digitized but never redesigned; two or more suggests the problem is process design.](~/assets/images/insights/workflow-digitized-still-slow/wfs-03-four-signs-en.svg)
+
 Your company may be facing exactly this problem if:
 
 - A request gets "stuck" and nobody can say for sure which step it's at until someone asks the person handling it directly.
@@ -68,6 +79,8 @@ If two or more of these are true for your company, the problem is almost certain
 ---
 
 ## Questions Worth Asking Before You Look for New Software
+
+![Three questions for a CEO on sequencing, context and exception handling before looking for another workflow tool.](~/assets/images/insights/workflow-digitized-still-slow/wfs-04-three-ceo-questions-en.svg)
 
 Before adding another workflow tool, or another feature to the one you already have, three questions are worth asking:
 
@@ -84,7 +97,7 @@ That's also a good reason to assess your workflow systematically, rather than re
 *This article is part of a series on workflow, AI adoption, and operational management for manufacturing SMEs.*
 
 **Related articles:**
-- [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates]
-- [Digitized vs. Optimized Workflow: What's the Difference?]
+- [Next-Generation Workflow: When AI and Organizational Knowledge Change How Work Operates](/en/insights/workflow/workflow-for-manufacturing-companies)
+- [Digitized vs. Optimized Workflow: What's the Difference?](/en/insights/workflow/digitized-vs-optimized-workflow)
 
-**→ [Complete the Workflow Readiness Assessment]**
+**→ [Complete the Digitalization Readiness Assessment](/en/readiness/digitalization)**

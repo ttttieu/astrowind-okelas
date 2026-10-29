@@ -2,7 +2,9 @@
 title: "You Have the Data. AI Still Can't Use It. Here's Why."
 description: "Many businesses have plenty of data but AI still can't answer operational questions. The issue isn't data volume — it's the absence of organizational context. Here's what that means."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/data-without-context-ai-problem.png'
+coverImage: '~/assets/images/insights/data-without-context-ai-problem/dwc-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/data-without-context-ai-problem/dwc-00-og-cover-en.png'
+coverImageAlt: "On the left, raw data tiles (25°C, 48h, 500 kg); on the right, data with context, the operational meaning that makes it usable."
 category: 'ai'
 tags: ['Data Context', 'Organizational Context', 'AI Implementation', 'Data Strategy']
 translationId: 'data-without-context-ai'
@@ -18,6 +20,8 @@ secondaryKeywords:
   - "data without context problem"
   - "AI data requirements business"
 assessmentHref: '/en/readiness/ai'
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Identify your AI readiness level'
 draft: false
 ---
 
@@ -52,6 +56,8 @@ The reason isn't data volume. The reason is context.
 
 ## Data and context — a fundamental distinction
 
+![On the left, raw data: a temperature reading, a QC form, an ERP purchase order; on the right, context: questions that explain what they mean operationally.](~/assets/images/insights/data-without-context-ai-problem/dwc-01-data-vs-context-en.svg)
+
 To understand the problem, two concepts that are commonly conflated need to be separated clearly.
 
 **Data** is raw information, not yet given meaning beyond what it literally contains.
@@ -75,6 +81,8 @@ Context transforms data into information that can be used operationally. Without
 ---
 
 ## Four dimensions of missing context in business data
+
+![Four boxes, one for each dimension missing context: inconsistent structure, missing business definitions, missing relationships between entities, missing state and validity; each has an example and a consequence for AI.](~/assets/images/insights/data-without-context-ai-problem/dwc-02-four-dimensions-en.svg)
 
 Business data typically lacks context across four main dimensions. Understanding each one helps identify the specific gap and prioritize what to address first.
 
@@ -103,6 +111,8 @@ Without business definitions, AI can read a number but cannot judge what that nu
 
 ### Dimension 3 — Absent relationships between entities
 
+![A chain of five boxes from raw material batch to customer, joined by links; an unrecorded link breaks the chain.](~/assets/images/insights/data-without-context-ai-problem/dwc-03-traceability-chain-en.svg)
+
 Business data typically lives in silos. A purchase order in the ERP has no link to the incoming inspection result in the QMS Excel. An SOP file doesn't know which production batches were made following it. An email approval isn't linked to the record it approved in another system.
 
 The consequence: AI can answer questions within each silo, but cannot answer questions that bridge across silos.
@@ -126,6 +136,8 @@ Without state tracking, AI may answer based on outdated information — and the 
 
 ## What organizational context for AI actually requires
 
+![Five components of context around a central "Context" label: consistent structure, business definitions, recorded relationships, queryable state, ownership and authority.](~/assets/images/insights/data-without-context-ai-problem/dwc-04-five-components-ring-en.svg)
+
 From the four dimensions of missing context above, it becomes clearer what "organizational context for AI" actually consists of:
 
 **Consistent structure:** the same type of information is recorded using a consistent schema, allowing comparison and aggregation over time.
@@ -143,6 +155,8 @@ This is not a list of software features. It is a description of how data needs t
 ---
 
 ## Why "data cleaning" doesn't solve the problem
+
+![Two columns: cleaning fixes errors, removes duplicates and standardizes formats; still missing are thresholds, links for tracing and the version in effect.](~/assets/images/insights/data-without-context-ai-problem/dwc-05-cleaning-vs-context-en.svg)
 
 A common reaction when organizations recognize their data isn't AI-ready is: *"We need to do data cleaning."*
 

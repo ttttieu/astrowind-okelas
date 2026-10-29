@@ -26,6 +26,9 @@ const insightsCollection = defineCollection({
     publishDate: z.date().optional(),
     updatedDate: z.date().optional(),
     image: z.string().optional(),
+    coverImage: z.string().optional(),
+    ogImage: z.string().optional(),
+    coverImageAlt: z.string().optional(),
 
     // Bilingual linking
     translationId: z.string(),       // shared between EN + VI versions
@@ -56,6 +59,10 @@ const insightsCollection = defineCollection({
     // Links
     assessmentHref: z.string().optional(),
     internalLinks: z.array(z.string()).optional(),
+
+    // CTA block (Block 8 in InsightArticleLayout)
+    ctaPrimaryText: z.string().optional(),
+    ctaSubtitle: z.string().optional(),
 
     // Draft flag — draft: true articles are excluded from production builds
     draft: z.boolean().default(false),

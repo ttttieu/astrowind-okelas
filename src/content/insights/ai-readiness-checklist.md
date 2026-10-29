@@ -2,7 +2,9 @@
 title: "AI Readiness: 6 Conditions That Determine Whether AI Delivers Operational Value"
 description: "Not every organization is ready for operational AI. This article outlines 6 specific conditions that leaders should evaluate before investing in AI for operations."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/ai-readiness-checklist.png'
+coverImage: '~/assets/images/insights/ai-readiness-checklist/rdy-00-og-cover-en.png'
+ogImage: '~/assets/images/insights/ai-readiness-checklist/rdy-00-og-cover-en.png'
+coverImageAlt: "A grid of six squares, four with ticks, next to an \"operational value\" box connected by an arrow."
 category: 'ai'
 tags: ['AI Readiness', 'Operational AI', 'AI Implementation', 'Enterprise']
 translationId: 'ai-readiness-checklist'
@@ -18,6 +20,8 @@ secondaryKeywords:
   - 'AI readiness framework for manufacturing'
   - 'organizational AI preparation'
 assessmentHref: '/en/readiness/ai'
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Identify your AI readiness level'
 draft: false
 ---
 
@@ -31,6 +35,8 @@ draft: false
 ---
 
 ## Why a readiness framework matters
+
+![Six checkboxes in a grid, each a readiness dimension with one self-check question; the dimensions run in parallel, not in sequence.](~/assets/images/insights/ai-readiness-checklist/rdy-01-six-dimensions-checklist-en.svg)
 
 Most AI discussions in business start from the wrong question.
 
@@ -60,6 +66,8 @@ An organization may be strong on some dimensions and weak on others. What matter
 
 ### Condition 1 — Structured, queryable data
 
+![Two columns compared: static data such as documents and SOPs is enough for lookup; operational data such as inspection results and order status needs structure for AI to answer operational questions.](~/assets/images/insights/ai-readiness-checklist/rdy-02-static-vs-operational-en.svg)
+
 **The core issue:** AI needs data. But not all "data" is usable for operational AI.
 
 Two categories of data need to be distinguished clearly.
@@ -78,6 +86,8 @@ Operational data meets AI readiness requirements when:
 ---
 
 ### Condition 2 — Processes defined clearly enough for AI to participate
+
+![Four questions to test a process: who performs which step, which steps create evidence, what conditions apply before the next step, who approves; each has checkboxes for written answer or unclear.](~/assets/images/insights/ai-readiness-checklist/rdy-03-four-process-questions-en.svg)
 
 **The core issue:** AI cannot execute, support, or monitor a process that isn't clearly defined.
 
@@ -113,6 +123,8 @@ When organizational knowledge exists only as Word and PDF files in a folder — 
 ---
 
 ### Condition 4 — Governance: what is AI authorized to do?
+
+![Four governance areas, each with one question: authorization, verification, traceability and escalation when AI is uncertain.](~/assets/images/insights/ai-readiness-checklist/rdy-04-governance-four-areas-en.svg)
 
 **The core issue:** AI in a business environment doesn't operate in a vacuum. It is a component in a system with people and legal accountability.
 
@@ -173,6 +185,8 @@ Organizational context isn't something that can be "uploaded" once and maintaine
 ---
 
 ## How to read this framework
+
+![Three pairs of labels contrasting a strong dimension with a weak one, each with a consequence: AI can analyze history but not support the workflow; AI can take part but accountability is unaddressed; AI understands procedures but cannot reach data in other systems.](~/assets/images/insights/ai-readiness-checklist/rdy-05-imbalance-examples-en.svg)
 
 The six conditions are not sequential gates. They are six assessment dimensions.
 

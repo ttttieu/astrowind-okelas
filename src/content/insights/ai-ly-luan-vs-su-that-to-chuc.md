@@ -2,6 +2,9 @@
 title: "AI lập luận dựa trên gì? Khi AI reason xung đột với organizational truth"
 description: "AI có thể giải thích, suy luận và đề xuất. Nhưng organizational truth cần phải có thể truy xuất, quy kết và kiểm chứng được. Đây là lý do AI reasoning không thể thay thế organizational evidence."
 publishDate: 2026-09-23T00:00:00Z
+coverImage: '~/assets/images/insights/ai-ly-luan-vs-su-that-to-chuc/arot-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/ai-ly-luan-vs-su-that-to-chuc/arot-00-og-cover-vi.png'
+coverImageAlt: "Một khung chia đôi: bên trái là AI reasoning, bên phải là bằng chứng tổ chức; ở giữa có dấu ≠."
 translationId: article-6-15-reasoning-vs-truth
 lang: vi
 category: ai
@@ -19,6 +22,8 @@ secondaryKeywords:
   - "organizational evidence"
   - "AI traceable"
 assessmentHref: /readiness/ai
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---
 
@@ -42,6 +47,8 @@ Có một khoảnh khắc quen thuộc đang xảy ra ngày càng nhiều trong 
 
 ## AI reasoning là gì
 
+![Hai thẻ song song: lập luận và bằng chứng của tổ chức, mỗi thẻ có hai gạch đầu dòng.](~/assets/images/insights/ai-ly-luan-vs-su-that-to-chuc/arot-01-two-kinds-vi.svg)
+
 **AI reasoning** là khả năng tổng hợp thông tin, xây dựng một chuỗi lập luận mạch lạc, và trình bày một kết luận có vẻ hợp lý — năng lực đã được phân tích ở bài 6.2.
 
 Điểm quan trọng cần nắm: reasoning là một quá trình **tạo sinh** (generative) — mô hình tạo ra một chuỗi văn bản mô tả một quá trình suy luận, dựa trên những gì nó được huấn luyện để coi là một câu trả lời hợp lý. Chất lượng của reasoning được đánh giá qua việc nó có mạch lạc, có thuyết phục hay không — không nhất thiết qua việc nó có phản ánh chính xác một sự kiện đã xảy ra trong thế giới thực hay không.
@@ -51,6 +58,8 @@ Có một khoảnh khắc quen thuộc đang xảy ra ngày càng nhiều trong 
 ---
 
 ## Organizational truth cần gì
+
+![Hai thẻ định nghĩa ISO 9000:2015: bằng chứng khách quan và bằng chứng kiểm toán.](~/assets/images/insights/ai-ly-luan-vs-su-that-to-chuc/arot-05-iso-definitions-vi.svg)
 
 **Claim:** Trong môi trường có yêu cầu tuân thủ, "sự thật của tổ chức" (organizational truth) cần đáp ứng một tiêu chuẩn cụ thể hơn nhiều so với việc nghe có vẻ hợp lý.
 
@@ -64,9 +73,13 @@ Hai định nghĩa này có một điểm chung quan trọng: cả hai đều nh
 
 ## Tại sao chúng không thay thế được nhau
 
+![Ba ô nối bằng mũi tên: kết luận sai, lời giải thích nghe hợp lý, kiểm toán phát hiện muộn.](~/assets/images/insights/ai-ly-luan-vs-su-that-to-chuc/arot-03-wrong-but-plausible-vi.svg)
+
 **Claim:** Một lời giải thích do AI tạo ra, dù mạch lạc tới đâu, không tự động thỏa mãn tiêu chuẩn "có thể kiểm chứng" theo định nghĩa ISO — trừ khi nó được neo vào dữ liệu có nguồn gốc rõ ràng.
 
 Đây chính là khoảng cách cốt lõi giữa hai khái niệm: reasoning tối ưu hóa cho tính mạch lạc và thuyết phục; organizational truth, theo chuẩn ISO, đòi hỏi tính truy xuất được, quy kết được, và kiểm chứng độc lập được. Một AI agent có thể tạo ra một lời giải thích hoàn toàn mạch lạc cho một kết luận sai — không phải vì nó "cố tình" sai, mà vì bản chất của reasoning là tạo ra chuỗi lập luận hợp lý, không phải tự động xác minh từng bước với dữ liệu gốc.
+
+![Bảng ba hàng so sánh truy xuất nguồn, quy kết và kiểm chứng: lời giải thích AI thuần ghi "Chưa đủ", dữ liệu có nguồn ghi "Có thể đạt".](~/assets/images/insights/ai-ly-luan-vs-su-that-to-chuc/arot-02-three-attributes-vi.svg)
 
 Vấn đề trở nên phức tạp hơn khi kết hợp với điều đã phân tích ở bài 6.7: trong một số điều kiện thử nghiệm đặc biệt, nghiên cứu cho thấy ngay cả lời giải thích của chính mô hình về lý do đằng sau hành động của nó cũng không đảm bảo phản ánh đúng quá trình thực sự. Điều này không có nghĩa AI "nói dối" trong sử dụng thông thường — nhưng nó củng cố thêm lý do vì sao lời giải thích của AI, tự thân nó, không nên được coi ngang hàng với bằng chứng đã được kiểm chứng độc lập.
 
@@ -75,6 +88,8 @@ Nếu một tổ chức để AI agent tạo ra các giải thích cho quyết �
 ---
 
 ## KVM như là bridge giữa AI và organizational truth
+
+![Ba tầng xếp chồng: AI ở trên, KVM ở giữa, bằng chứng tổ chức ở dưới; bên phải là ghi chú về các cơ chế bổ sung.](~/assets/images/insights/ai-ly-luan-vs-su-that-to-chuc/arot-04-bridge-layers-vi.svg)
 
 Đây chính xác là vấn đề mà KVM, như đã giới thiệu ở bài 6.14, được thiết kế để giải quyết một phần.
 

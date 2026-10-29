@@ -36,6 +36,9 @@ const clusterLabel: Record<string, string> = {
   funnelStage={article.data.funnelStage?.[0]}
   publishDate={article.data.publishDate?.toISOString().slice(0, 10)}
   selfAssessmentHref={article.data.assessmentHref}
+  ctaPrimaryHref={article.data.ctaPrimaryText ? article.data.assessmentHref : undefined}
+  ctaPrimaryText={article.data.ctaPrimaryText}
 >
   <Content />
+  {article.data.ctaSubtitle && <Fragment slot="cta-subtitle">{article.data.ctaSubtitle}</Fragment>}
 </InsightArticleLayout>

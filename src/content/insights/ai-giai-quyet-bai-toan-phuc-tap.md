@@ -1,7 +1,10 @@
 ---
 title: "Khi AI bắt đầu tự giải quyết những bài toán phức tạp"
 description: "AI hiện đại không chỉ trả lời câu hỏi. Trong các lĩnh vực như lập trình, nghiên cứu khoa học và toán học, AI đang đạt được kết quả mà trước đây chỉ con người làm được. Bài viết nhìn vào năng lực thực tế."
-publishDate: 2026-09-23T00:00:00Z
+publishDate: 2025-09-24T00:00:00Z
+coverImage: '~/assets/images/insights/ai-giai-quyet-bai-toan-phuc-tap/afc-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/ai-giai-quyet-bai-toan-phuc-tap/afc-00-og-cover-vi.png'
+coverImageAlt: "Bên trái là nút chạy nhanh đại diện cho năng lực benchmark; bên phải là đường zigzag cho vận hành lởm chởm, kèm ba nhãn."
 translationId: article-6-2-frontier-capabilities
 lang: vi
 category: ai
@@ -20,6 +23,8 @@ secondaryKeywords:
   - "AI reasoning"
   - "AI năng lực thực tế"
 assessmentHref: /readiness/ai
+ctaPrimaryText: 'Assess your AI readiness'
+ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---
 
@@ -42,6 +47,8 @@ Bài này nhìn vào năng lực thực tế của frontier AI — dựa trên c
 
 ## Năng lực AI đang ở đâu thực sự
 
+![Bốn thẻ, mỗi thẻ là một bài đo với tên, mốc số liệu và mô tả ngắn.](~/assets/images/insights/ai-giai-quyet-bai-toan-phuc-tap/afc-01-benchmarks-vi.svg)
+
 **Claim:** Trên một loạt benchmark đo năng lực suy luận và giải quyết vấn đề, các mô hình AI frontier đã có bước tiến rõ rệt chỉ trong khoảng một năm gần đây.
 
 AI Index Report 2026 của Stanford HAI — báo cáo thường niên lần thứ chín, một trong những nguồn dữ liệu độc lập được trích dẫn rộng rãi nhất về năng lực AI — ghi nhận một loạt cải thiện đáng chú ý:
@@ -56,6 +63,8 @@ AI Index Report 2026 của Stanford HAI — báo cáo thường niên lần th�
 ---
 
 ## Các lĩnh vực AI đạt kết quả đáng chú ý
+
+![Ba thẻ lĩnh vực: lập trình, toán học, nghiên cứu khoa học; mỗi thẻ có một kết quả được bài viết nêu.](~/assets/images/insights/ai-giai-quyet-bai-toan-phuc-tap/afc-02-fields-vi.svg)
 
 Ba lĩnh vực cụ thể đáng chú ý nhất:
 
@@ -73,6 +82,8 @@ Ba lĩnh vực cụ thể đáng chú ý nhất:
 
 ## Từ năng lực cá nhân đến tác động tổ chức
 
+![Hai cột so sánh: bài toán olympiad rõ ràng; quy trình doanh nghiệp lộn xộn hơn với bốn ràng buộc.](~/assets/images/insights/ai-giai-quyet-bai-toan-phuc-tap/afc-03-olympiad-vs-ops-vi.svg)
+
 Đây là phần dễ bị bỏ qua nhất khi các con số benchmark ấn tượng lan truyền trên truyền thông.
 
 Chính AI Index Report 2026 đưa ra lời cảnh báo cân bằng: dù năng lực trên benchmark tăng vọt, **AI agent hiện vẫn thất bại khoảng một phần ba số lần thử trên các benchmark có cấu trúc khi được nhúng vào quy trình vận hành doanh nghiệp thực tế.** Các nhà nghiên cứu Stanford HAI gọi khoảng cách này là "jagged frontier" (đường biên gồ ghề): AI có thể đạt huy chương vàng Olympic Toán học, nhưng vẫn có thể không đọc đúng giờ trên một chiếc đồng hồ.
@@ -81,7 +92,11 @@ Sự khác biệt nằm ở bản chất của nhiệm vụ. Một bài toán Ol
 
 Một mô hình đạt hiệu suất ấn tượng trên benchmark không tự động đảm bảo độ tin cậy tương ứng khi triển khai vào một quy trình doanh nghiệp cụ thể. Đây chính xác là lý do vì sao năng lực (capability) và độ tin cậy vận hành (operational reliability) cần được đánh giá tách biệt.
 
-→ *Liên quan: [Agentic AI khác AI Assistant như thế nào?](/insights/ai/agentic-ai-vs-ai-assistant)*
+→ *Liên quan: [Agentic AI khác AI Assistant như thế nào?](/insights/ai/agentic-ai-vs-ai-assistant-vi)*
+
+---
+
+![Bốn khối nối tiếp: năng lực cao hơn, phạm vi giao việc rộng hơn, hậu quả lớn hơn, control layer cần hơn.](~/assets/images/insights/ai-giai-quyet-bai-toan-phuc-tap/afc-04-scope-chain-vi.svg)
 
 ---
 
@@ -95,13 +110,15 @@ Từ những phân tích trên, có ba hàm ý thực tế cho doanh nghiệp đ
 
 **3. Năng lực tăng nhanh không có nghĩa control layer trở nên ít cần thiết hơn — ngược lại.** Khi AI càng có khả năng xử lý những nhiệm vụ phức tạp hơn, phạm vi hành động mà nó có thể được giao càng lớn hơn — và hậu quả của một lần thất bại cũng lớn hơn tương ứng.
 
+![Ba hàng đánh số, mỗi hàng là một hệ quả thực tế cho doanh nghiệp.](~/assets/images/insights/ai-giai-quyet-bai-toan-phuc-tap/afc-05-implications-vi.svg)
+
 ---
 
 *Bài viết này là một phần trong chuỗi OKELAS AI Control.*
 
 **Bài liên quan:**
 - [AI đã vượt khỏi chatbot — từ assistant đến agentic](/insights/ai/ai-vuot-khoi-chatbot)
-- [Agentic AI khác AI Assistant như thế nào?](/insights/ai/agentic-ai-vs-ai-assistant)
+- [Agentic AI khác AI Assistant như thế nào?](/insights/ai/agentic-ai-vs-ai-assistant-vi)
 - [AI được phép làm đến đâu? Tại sao doanh nghiệp cần một control layer](/insights/ai/kiem-soat-ai-doanh-nghiep)
 
 **→ [AI Readiness Assessment](/readiness/ai)**

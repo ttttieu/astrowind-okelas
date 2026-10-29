@@ -18,6 +18,11 @@ secondaryKeywords:
   - "nâng cấp workflow"
   - "workflow next level"
 assessmentHref: /readiness/workflow
+coverImage: '~/assets/images/insights/workflow-co-the-nhanh-hon/wfn-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/workflow-co-the-nhanh-hon/wfn-00-og-cover-vi.png'
+coverImageAlt: "Một workflow khởi động khi có người tạo yêu cầu, so với một workflow được kích hoạt theo sự kiện với ngữ cảnh chuẩn bị sẵn."
+ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---
 
@@ -27,11 +32,13 @@ Nếu bạn đang ở nhóm này, câu hỏi phù hợp không còn là "làm sa
 
 Đây là câu hỏi ít doanh nghiệp tự đặt ra, vì "workflow đang chạy ổn" thường được coi là một trạng thái nghỉ ngơi, không phải một điểm để tiếp tục cải thiện. Nhưng đúng lúc mọi thứ đang ổn định lại là thời điểm tốt nhất để nhìn xa hơn — trước khi một đối thủ hoặc một thay đổi thị trường buộc phải làm việc đó trong áp lực.
 
-→ *Xem thêm: [Workflow Automation và Intelligent Workflow: Hai Khái Niệm Khác Nhau]*
+→ *Xem thêm: [Workflow Automation và Intelligent Workflow: Hai Khái Niệm Khác Nhau](/insights/workflow/workflow-automation-vs-intelligent)*
 
 ---
 
 ## Khi workflow đã đủ tốt
+
+![Workflow đã đủ tốt có approval hợp lý, đủ ngữ cảnh, đường đi cho ngoại lệ và theo dõi tiến độ, nhưng đó chỉ là giới hạn của công nghệ và cách thiết kế hiện nay, chưa phải trần tuyệt đối.](~/assets/images/insights/workflow-co-the-nhanh-hon/wfn-01-good-enough-ceiling-vi-dark.svg)
 
 Một workflow "đủ tốt" thường có những đặc điểm sau: các bước phê duyệt hợp lý, không dư thừa; người xử lý có đủ ngữ cảnh cần thiết; ngoại lệ có đường đi rõ ràng thay vì rơi ra ngoài hệ thống; và tiến độ có thể tra cứu được mà không cần hỏi trực tiếp ai.
 
@@ -40,6 +47,8 @@ Một workflow "đủ tốt" thường có những đặc điểm sau: các bư�
 ---
 
 ## Những giới hạn ẩn còn lại
+
+![Ba giới hạn ẩn: workflow chỉ bắt đầu khi có người tạo yêu cầu, xử lý từng ca riêng lẻ không nhận ra mẫu lặp, và người quyết định tự tổng hợp thông tin.](~/assets/images/insights/workflow-co-the-nhanh-hon/wfn-02-hidden-limits-vi-dark.svg)
 
 Ngay cả một workflow được thiết kế tốt vẫn thường mang theo một số giới hạn khó nhận ra, vì chúng không gây ra sự cố rõ ràng — chỉ âm thầm giữ tốc độ ở một mức nhất định:
 
@@ -53,6 +62,8 @@ Những giới hạn này không làm workflow "tệ" — chúng chỉ đại di
 
 ## Tầng tiếp theo của workflow speed
 
+![Hai hướng tiếp theo: kích hoạt theo sự kiện thay vì chờ người phát hiện, và ngữ cảnh được chuẩn bị sẵn để người quyết định chuyển từ điều tra sang xác nhận.](~/assets/images/insights/workflow-co-the-nhanh-hon/wfn-03-two-directions-vi-dark.svg)
+
 Tầng tiếp theo không đến từ việc thêm nhiều bước phê duyệt hơn hay quy trình chặt hơn — ngược lại, nó đến từ việc giảm bớt số lần cần con người khởi động hoặc tổng hợp thủ công. Hai hướng đáng chú ý:
 
 **Phản ứng theo sự kiện thay vì chờ khởi động thủ công.** Khi hệ thống có thể tự nhận diện một sự kiện đáng chú ý và khởi động quy trình phù hợp trước khi ai đó phải chủ động phát hiện ra, thời gian phản ứng không còn phụ thuộc vào việc ai đó "để ý thấy".
@@ -61,11 +72,13 @@ Tầng tiếp theo không đến từ việc thêm nhiều bước phê duyệt 
 
 Cả hai hướng này đều không đòi hỏi từ bỏ sự kiểm soát của con người ở những quyết định quan trọng — chúng chỉ giảm bớt phần việc chuẩn bị và phát hiện, vốn tốn thời gian nhưng ít giá trị phán đoán thực sự.
 
-→ *Xem thêm: [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành]*
+→ *Xem thêm: [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-doanh-nghiep-san-xuat)*
 
 ---
 
 ## Câu hỏi để tự đánh giá
+
+![Ba câu hỏi tự đánh giá: quy trình chỉ bắt đầu khi có người phát hiện vấn đề, người quyết định mất thời gian tổng hợp thông tin, và phản hồi nhanh hơn có tạo tác động kinh doanh đáng kể không.](~/assets/images/insights/workflow-co-the-nhanh-hon/wfn-04-self-assessment-vi-dark.svg)
 
 Nếu workflow của bạn đã ở mức "đủ tốt", ba câu hỏi sau giúp xác định liệu có đáng để đầu tư thêm một tầng nữa:
 
@@ -80,8 +93,8 @@ Nếu câu trả lời cho câu 3 là có, đó là dấu hiệu đáng để t�
 *Bài viết này là một phần của chuỗi chuyên đề về workflow, ứng dụng AI và quản trị vận hành cho doanh nghiệp sản xuất SME.*
 
 **Bài liên quan:**
-- [Workflow Automation và Intelligent Workflow: Hai Khái Niệm Khác Nhau]
-- [Đã có workflow rồi — tại sao công việc vẫn chậm?]
-- [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành]
+- [Workflow Automation và Intelligent Workflow: Hai Khái Niệm Khác Nhau](/insights/workflow/workflow-automation-vs-intelligent)
+- [Đã có workflow rồi — tại sao công việc vẫn chậm?](/insights/workflow/co-workflow-van-lam-viec-cham)
+- [Workflow thế hệ mới: khi AI và organizational knowledge thay đổi cách công việc vận hành](/insights/workflow/workflow-doanh-nghiep-san-xuat)
 
-**→ [Làm Workflow Readiness Assessment]**
+**→ [Làm Digitalization Readiness Assessment](/readiness/digitalization)**
