@@ -68,7 +68,7 @@ Some companies have had to restrict AI tools, tighten security protocols, and re
 
 ## What Actual Users Are Saying: Six Perspectives from Public Discussion
 
-The comments section reveals a far richer debate than simple pro-versus-anti AI sentiment. Six distinct perspectives stand out.
+The comments section of public discussions reveals a far richer debate than simple pro-versus-anti AI sentiment. Six distinct perspectives stand out.
 
 ### Group 1 — Pragmatic AI Users: "It Helps Me Do My Job Better"
 
@@ -207,14 +207,14 @@ The lesson is not to wait until AI is perfect. The lesson is to build organizati
 
 ---
 
-*Analysis based on real-world observations of AI deployment in organizations and diverse perspectives from actual users. Opinions are analyzed from an organizational management perspective.*
+*Analysis based on public discussions of AI adoption experiences in organizations. Comments are analyzed from an organizational management perspective.*
 
 ---
 
 **Read next:**
-- What Is AI Readiness — Six Conditions for AI to Actually Work in Operations
-- The Difference Between AI Productivity and Organizational Intelligence
-- When Key Employees Leave, What Do They Take with Them?
+- [What Is AI Readiness — Six Conditions for AI to Actually Work in Operations](/en/insights/ai-readiness-framework)
+- [The Difference Between AI Productivity and Organizational Intelligence](/en/insights/ai-productivity-vs-organizational-intelligence)
+- [When Key Employees Leave, What Do They Take with Them?](/en/insights/what-key-people-take)
 
 **Self-assessment:**
-→ Is your organization ready for AI? Take the AI Readiness Assessment
+→ Is your organization ready for AI? [Take the AI Readiness Assessment](/en/readiness/ai)

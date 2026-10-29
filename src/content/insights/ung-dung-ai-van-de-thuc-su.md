@@ -30,7 +30,7 @@ draft: false
 
 ## Bối cảnh: khi thực tế không như kỳ vọng
 
-Một bài viết gần đây đã phản ánh một hiện tượng ngày càng rõ nét: nhiều doanh nghiệp triển khai AI nhanh, đầu tư đáng kể, nhưng kết quả không tương xứng với kỳ vọng. Thay vì giảm việc, AI đôi khi tạo thêm việc. Thay vì nâng cao chất lượng, AI có thể tạo ra nội dung trông hoàn chỉnh nhưng thiếu chiều sâu hoặc chứa lỗi khó phát hiện.
+Một [bài viết trên VnExpress](https://vnexpress.net/vo-mong-vi-voi-ung-dung-ai-5137139.html) gần đây đã phản ánh một hiện tượng ngày càng rõ nét: nhiều doanh nghiệp triển khai AI nhanh, đầu tư đáng kể, nhưng kết quả không tương xứng với kỳ vọng. Thay vì giảm việc, AI đôi khi tạo thêm việc. Thay vì nâng cao chất lượng, AI có thể tạo ra nội dung trông hoàn chỉnh nhưng thiếu chiều sâu hoặc chứa lỗi khó phát hiện.
 
 Đáng chú ý hơn cả bài viết là phần bình luận phía dưới. Hàng trăm người — từ nhân viên văn phòng đến quản lý, từ người trực tiếp sử dụng AI đến người phải tiếp nhận sản phẩm do AI tạo ra — đã chia sẻ trải nghiệm thực tế của mình. Những bình luận này không đơn giản là ủng hộ hay phản đối AI. Chúng phản ánh một bức tranh phức tạp hơn về khoảng cách giữa khả năng công nghệ và năng lực tổ chức.
 
@@ -68,31 +68,31 @@ Một số doanh nghiệp đã phải hạn chế công cụ AI, siết chặt b
 
 ## Người dùng thực tế nói gì? Sáu góc nhìn từ bình luận công khai
 
-Phần bình luận dưới các bài viết cho thấy cuộc tranh luận phong phú hơn nhiều so với câu hỏi "AI tốt hay xấu". Có thể nhận ra sáu nhóm góc nhìn nổi bật.
+Phần bình luận dưới [bài viết VnExpress](https://vnexpress.net/vo-mong-vi-voi-ung-dung-ai-5137139.html) cho thấy cuộc tranh luận phong phú hơn nhiều so với câu hỏi "AI tốt hay xấu". Có thể nhận ra sáu nhóm góc nhìn nổi bật.
 
 ### Nhóm 1 — Người dùng AI thực dụng: "AI giúp tôi làm việc tốt hơn"
 
-Những người như này cho biết AI giúp họ tiết kiệm thời gian, soạn bản nháp, tìm kiếm hồ sơ, tổng hợp thông tin và xử lý tác vụ lặp lại. Điểm chung của nhóm này: họ xác định rõ công việc cần AI hỗ trợ và sử dụng AI như một trợ lý, không phải người thay thế.
+Những người như Hien Bui, demynguyenvn và khoaphamduy cho biết AI giúp họ tiết kiệm thời gian, soạn bản nháp, tìm kiếm hồ sơ, tổng hợp thông tin và xử lý tác vụ lặp lại. Điểm chung của nhóm này: họ xác định rõ công việc cần AI hỗ trợ và sử dụng AI như một trợ lý, không phải người thay thế.
 
 ### Nhóm 2 — Người tiếp nhận "rác AI": "Tôi phải xử lý hậu quả"
 
-Nhiều người phản ánh tình trạng nội dung rập khuôn, thiếu chiều sâu. Họ không phản đối AI, mà phản đối việc lượng nội dung tăng nhưng giá trị không tăng tương ứng. Đây là một nghịch lý đáng suy nghĩ: người tạo nội dung có thể tiết kiệm 30 phút, nhưng nhiều người đọc lại mất thêm thời gian để xác minh.
+Mèo Ú, trung và Người Phản Biện phản ánh tình trạng nội dung rập khuôn, thiếu chiều sâu. Họ không phản đối AI, mà phản đối việc lượng nội dung tăng nhưng giá trị không tăng tương ứng. Đây là một nghịch lý đáng suy nghĩ: người tạo nội dung có thể tiết kiệm 30 phút, nhưng nhiều người đọc lại mất thêm thời gian để xác minh.
 
 ### Nhóm 3 — Người có chuyên môn: "AI cần được giám sát"
 
-Nhiều người nhấn mạnh rằng AI có thể hỗ trợ tốt nhưng không thay thế được tư duy phản biện, kinh nghiệm chuyên môn và thảo luận giữa đồng nghiệp. Họ lo ngại AI đưa ra câu trả lời sai nhưng rất tự tin — và tạo ra sản phẩm trông có vẻ hoàn chỉnh nhưng thiếu chiều sâu.
+Là Huyền đây!!!!, quoc130568 và phamtuan27490 nhấn mạnh rằng AI có thể hỗ trợ tốt nhưng không thay thế được tư duy phản biện, kinh nghiệm chuyên môn và thảo luận giữa đồng nghiệp. Họ lo ngại AI đưa ra câu trả lời sai nhưng rất tự tin — và tạo ra sản phẩm trông có vẻ hoàn chỉnh nhưng thiếu chiều sâu.
 
 ### Nhóm 4 — Người cho rằng lỗi ở cách triển khai: "AI chỉ là cái xẻng"
 
-Nhiều người cho rằng kết quả phụ thuộc vào câu hỏi, dữ liệu đầu vào và khả năng sử dụng. Hình ảnh "AI chỉ là cái xẻng" diễn đạt rõ quan điểm: công cụ tốt không bù đắp cho người dùng thiếu kỹ năng hoặc tổ chức thiếu quy trình.
+YoonA, khoaphamduy và nhiều người khác cho rằng kết quả phụ thuộc vào câu hỏi, dữ liệu đầu vào và khả năng sử dụng. Hình ảnh "AI chỉ là cái xẻng" diễn đạt rõ quan điểm: công cụ tốt không bù đắp cho người dùng thiếu kỹ năng hoặc tổ chức thiếu quy trình.
 
 ### Nhóm 5 — Người hoài nghi động cơ doanh nghiệp: "AI là cái cớ để cắt người"
 
-Nhiều người nghi ngờ doanh nghiệp dùng AI như lý do giảm biên chế. Một mối lo đáng chú ý: người giàu kinh nghiệm bị loại bỏ trước khi doanh nghiệp nhận ra rằng chính tri thức và phán đoán của họ mới giúp AI hoạt động hiệu quả.
+Xuan Toan, truongpham2402, tam.vqs và thegunner nghi ngờ doanh nghiệp dùng AI như lý do giảm biên chế. Một mối lo đáng chú ý: người giàu kinh nghiệm bị loại bỏ trước khi doanh nghiệp nhận ra rằng chính tri thức và phán đoán của họ mới giúp AI hoạt động hiệu quả.
 
 ### Nhóm 6 — Người lo ngại dài hạn: "Chất lượng thông tin đang xuống cấp"
 
-Nhiều người dự đoán người dùng có thể dần mệt mỏi với nội dung AI và tìm về sản phẩm có dấu ấn con người. Nhóm này đặt câu hỏi không chỉ về hiệu suất, mà về niềm tin và chất lượng thông tin khi AI được sử dụng trên diện rộng.
+Mèo Ú và khoaphamduy dự đoán người dùng có thể dần mệt mỏi với nội dung AI và tìm về sản phẩm có dấu ấn con người. Nhóm này đặt câu hỏi không chỉ về hiệu suất, mà về niềm tin và chất lượng thông tin khi AI được sử dụng trên diện rộng.
 
 ---
 
@@ -197,7 +197,7 @@ Nếu doanh nghiệp trả lời "chưa" cho ba trong năm câu hỏi trên, v�
 
 ## Kết luận: AI có thể tăng tốc, nhưng chỉ tổ chức tốt mới biến tốc độ thành giá trị
 
-Bài viết và hàng trăm bình luận bên dưới không nói rằng AI vô dụng. Chúng nói rằng có một khoảng cách — đôi khi rất lớn — giữa khả năng tạo ra kết quả của AI và khả năng biến kết quả ấy thành giá trị thực tế của tổ chức.
+Bài viết VnExpress và hàng trăm bình luận bên dưới không nói rằng AI vô dụng. Chúng nói rằng có một khoảng cách — đôi khi rất lớn — giữa khả năng tạo ra kết quả của AI và khả năng biến kết quả ấy thành giá trị thực tế của tổ chức.
 
 Người dùng có kinh nghiệm biết AI nên làm gì, không nên làm gì và kết quả nào cần kiểm chứng. Tổ chức triển khai theo phong trào dễ nhầm sản lượng với năng suất, tốc độ với hiệu quả, và khả năng tạo nội dung với khả năng tạo tri thức.
 
@@ -207,14 +207,14 @@ Bài học không phải là chờ AI hoàn hảo mới sử dụng. Bài học 
 
 ---
 
-*Bài viết phân tích từ quan sát thực tế về triển khai AI trong các tổ chức, và các góc nhìn đa chiều từ người dùng thực tế. Các ý kiến được phân tích từ góc nhìn quản trị doanh nghiệp.*
+*Bài viết phân tích từ [bài báo "Vỡ mộng vì vội ứng dụng AI" trên VnExpress](https://vnexpress.net/vo-mong-vi-voi-ung-dung-ai-5137139.html) và các bình luận công khai của độc giả. Các ý kiến trích dẫn thuộc về người bình luận, được phân tích từ góc nhìn quản trị doanh nghiệp.*
 
 ---
 
 **Đọc tiếp:**
-- AI Readiness là gì — 6 điều kiện để AI thực sự có ích trong vận hành
-- Sự khác biệt giữa AI productivity và organizational intelligence
-- Khi nhân sự chủ chốt nghỉ việc, họ mang đi thứ gì?
+- [AI Readiness là gì — 6 điều kiện để AI thực sự có ích trong vận hành](/insights/ai-readiness-la-gi)
+- [Sự khác biệt giữa AI productivity và organizational intelligence](/insights/ai-productivity-vs-organizational-intelligence)
+- [Khi nhân sự chủ chốt nghỉ việc, họ mang đi thứ gì?](/insights/nhan-su-chu-chot-nghi-viec-mang-di-gi)
 
 **Tự đánh giá:**
-→ Doanh nghiệp của bạn đã sẵn sàng cho AI chưa? Làm bài đánh giá AI Readiness
+→ Doanh nghiệp của bạn đã sẵn sàng cho AI chưa? [Làm bài đánh giá AI Readiness](/readiness/ai)
