@@ -1,7 +1,7 @@
 ---
 title: "Khi hệ thống vẫn chạy nhưng doanh nghiệp đã mất khả năng kiểm soát"
 description: "Hệ thống của bạn vẫn chạy, nhưng nó có còn cho bạn thấy điều đang thực sự xảy ra, đúng lúc bạn cần thấy không? Bài học từ sự cố Starlink ở Ukraine."
-publishDate: 2026-10-24
+publishDate: 2026-10-24T06:00:00Z
 translationId: he-thong-chay-khong-kiem-soat
 lang: vi
 category: trending

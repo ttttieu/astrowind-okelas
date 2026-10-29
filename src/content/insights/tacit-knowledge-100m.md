@@ -1,7 +1,7 @@
 ---
 title: "The 100-Meter Rule: When Tribal Knowledge Becomes Policy"
 description: "A rule everyone follows but no one can explain. How tribal knowledge hardens into policy in manufacturing companies, and what it quietly costs the organization."
-publishDate: 2026-10-24
+publishDate: 2026-10-24T07:00:00Z
 translationId: so-100-m-tri-thuc-ngam
 lang: en
 category: trending

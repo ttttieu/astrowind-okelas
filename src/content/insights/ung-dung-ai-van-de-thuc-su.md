@@ -1,7 +1,7 @@
 ---
 title: "Ứng dụng AI: vấn đề thực sự không nằm ở công cụ"
 description: "Doanh nghiệp đầu tư vào AI nhưng năng suất không tăng. Ba tầng vấn đề — công nghệ, con người, hệ thống tổ chức — và năm chiều đánh giá AI readiness."
-publishDate: 2026-10-24
+publishDate: 2026-10-24T01:00:00Z
 translationId: ung-dung-ai-van-de-thuc-su
 lang: vi
 category: trending

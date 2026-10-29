@@ -1,7 +1,7 @@
 ---
 title: "The Red Army in 1941: When Capable People Stop Seeing the Same Reality"
 description: "In 1941 the Red Army was the world's largest military, yet it lost contact, lost the picture and issued orders for a war that no longer existed. Lessons for CEOs."
-publishDate: 2026-10-24
+publishDate: 2026-10-24T05:00:00Z
 translationId: lien-xo-1941-khong-cung-thuc-te
 lang: en
 category: trending

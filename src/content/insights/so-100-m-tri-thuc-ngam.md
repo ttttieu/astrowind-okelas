@@ -1,7 +1,7 @@
 ---
 title: "Con số 100 m: Khi tri thức ngầm trở thành \"quy định\""
 description: "Một quy tắc ai cũng tuân theo nhưng không ai nhớ lý do. Cách tri thức ngầm biến thành \"quy định\" trong doanh nghiệp sản xuất, và cái giá tổ chức phải trả."
-publishDate: 2026-10-24
+publishDate: 2026-10-24T07:00:00Z
 translationId: so-100-m-tri-thuc-ngam
 lang: vi
 category: trending

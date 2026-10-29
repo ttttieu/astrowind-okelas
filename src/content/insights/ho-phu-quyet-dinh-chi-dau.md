@@ -1,7 +1,7 @@
 ---
 title: "Hổ phù, chữ ký số và câu hỏi doanh nghiệp hay bỏ quên: quyết định đã được hình thành thế nào?"
 description: "Hổ phù xác thực mệnh lệnh, chữ ký số xác thực người ký. Nhưng khi audit hay khi người ký nghỉ việc, doanh nghiệp cần nhớ được vì sao quyết định đã được đưa ra."
-publishDate: 2026-10-24
+publishDate: 2026-10-24T03:00:00Z
 translationId: ho-phu-quyet-dinh-chi-dau
 lang: vi
 category: trending

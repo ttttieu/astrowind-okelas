@@ -5,7 +5,7 @@ slug: php2shell-ai-readiness
 lang: en
 translationId: ai-tim-dieu-con-nguoi-bo-sot
 description: "A 14-year-old PHP flaw was found with AI's help. The lesson for leaders: AI readiness isn't about tools, it's about knowledge, evidence and the capacity to act on findings."
-publishDate: 2026-10-24
+publishDate: 2026-10-24T04:00:00Z
 category: trending
 contentType: Analysis
 funnelStage: [Understanding]

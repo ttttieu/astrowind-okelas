@@ -5,7 +5,7 @@ slug: ai-tim-ra-dieu-con-nguoi-bo-sot-doanh-nghiep-da-san-sang-chua
 lang: vi
 translationId: ai-tim-dieu-con-nguoi-bo-sot
 description: "Lỗ hổng PHP tồn tại khoảng 14 năm được tìm ra nhờ AI. Bài học cho CEO: AI readiness không nằm ở công cụ, mà ở tri thức, bằng chứng và cơ chế xử lý phát hiện."
-publishDate: 2026-10-24
+publishDate: 2026-10-24T04:00:00Z
 category: trending
 contentType: Analysis
 funnelStage: [Understanding]

@@ -1,7 +1,7 @@
 ---
 title: "The Boss Sent It to the Building Group Chat: A Funny Slip or a Management Problem?"
 description: "A misdirected message is only the visible part. When instructions, approvals and decisions live in group chats, a company loses control of information, work and knowledge."
-publishDate: 2026-10-24
+publishDate: 2026-10-24T02:00:00Z
 translationId: giao-viec-qua-nhom-chat
 lang: en
 category: trending
