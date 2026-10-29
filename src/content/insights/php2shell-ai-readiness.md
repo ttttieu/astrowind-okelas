@@ -1,15 +1,17 @@
 ---
 title: "PHP2Shell and AI Readiness: When AI Finds What Your Organization Missed"
+seo_title: "PHP2Shell Lessons: What AI Readiness Really Means"
+slug: php2shell-ai-readiness-what-ai-finds-humans-miss
+lang: en
+translationId: ai-tim-dieu-con-nguoi-bo-sot
 description: "A 14-year-old PHP flaw was found with AI's help. The lesson for leaders: AI readiness isn't about tools, it's about knowledge, evidence and the capacity to act on findings."
 publishDate: 2026-10-24
-translationId: ai-tim-dieu-con-nguoi-bo-sot
-lang: en
 category: trending
 contentType: Analysis
 funnelStage: [Understanding]
 audience: [CEO, COO, CIO]
 primaryKeyword: "AI readiness"
-secondaryKeywords: [organizational AI readiness, PHP2Shell lessons, AI in quality management, AI readiness assessment]
+secondaryKeywords: [organizational AI readiness, PHP2Shell lessons, AI in quality management, AI-assisted audit, AI document review compliance, AI readiness assessment]
 ctaPrimaryText: "Take the AI Readiness Assessment"
 ctaSubtitle: "Evaluate your organization's readiness before deploying AI at scale."
 assessmentHref: /en/readiness/ai
@@ -167,9 +169,9 @@ So the question for leadership isn't whether AI will find problems in your organ
 **Next steps**
 
 - Take the [AI Readiness Assessment](/en/readiness/ai) to see which foundation is weakest.
-- Read the pillar: [Why AI doesn't make an organization intelligent unless it's ready](/en/insights/ai)
-- Continue with: [AI readiness: six conditions for AI to be useful in operations](/en/insights/ai)
-- Related: [Evidence-based AI](/en/insights/ai) · [AI and compliance in ISO/GMP environments](/en/insights/ai) · [Why audit preparation takes weeks](/en/insights/ai)
+- Read the pillar: [Why AI doesn't make an organization intelligent unless it's ready](/en/insights/why-ai-does-not-make-organizations-intelligent)
+- Continue with: [AI readiness: six conditions for AI to be useful in operations](/en/insights/ai-readiness-six-conditions)
+- Related: [Evidence-based AI](/en/insights/evidence-based-ai) · [AI and compliance in ISO/GMP environments](/en/insights/ai-and-compliance-iso-gmp) · [Why audit preparation takes weeks](/en/insights/why-audit-preparation-takes-weeks)
 
 *This article is a management perspective, not security, compliance or legal advice.*
 
