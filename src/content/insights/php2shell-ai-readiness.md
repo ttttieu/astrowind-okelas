@@ -1,7 +1,7 @@
 ---
 title: "PHP2Shell and AI Readiness: When AI Finds What Your Organization Missed"
 seo_title: "PHP2Shell Lessons: What AI Readiness Really Means"
-slug: php2shell-ai-readiness-what-ai-finds-humans-miss
+slug: php2shell-ai-readiness
 lang: en
 translationId: ai-tim-dieu-con-nguoi-bo-sot
 description: "A 14-year-old PHP flaw was found with AI's help. The lesson for leaders: AI readiness isn't about tools, it's about knowledge, evidence and the capacity to act on findings."
