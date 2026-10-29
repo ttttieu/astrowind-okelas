@@ -1767,6 +1767,19 @@
         "category": "trending",
         "url": "/en/insights/trending/tacit-knowledge-100m"
       }
+    },
+    {
+      "translationId": "cover-note-knowledge-loss",
+      "vi": {
+        "slug": "to-giay-note-that-thoat-tri-thuc",
+        "category": "trending",
+        "url": "/insights/trending/to-giay-note-that-thoat-tri-thuc"
+      },
+      "en": {
+        "slug": "cover-note-institutional-knowledge-loss",
+        "category": "trending",
+        "url": "/en/insights/trending/cover-note-institutional-knowledge-loss"
+      }
     }
   ]
 }
