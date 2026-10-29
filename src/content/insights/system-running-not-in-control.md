@@ -1,6 +1,6 @@
 ---
 title: "Running Is Not the Same as Being in Control"
-description: "An organization can keep all its people and tools yet lose the ability to coordinate when information flow breaks down. A lesson from operational visibility."
+description: "Ukraine's Starshield disruption shows how an organization can keep its people and tools yet lose coordination. Four questions to test your operational visibility and control."
 publishDate: 2026-10-24T06:00:00Z
 translationId: he-thong-chay-khong-kiem-soat
 lang: en
@@ -9,7 +9,7 @@ contentType: Opening
 funnelStage: [Awareness]
 audience: [CEO, COO, CIO]
 primaryKeyword: "operational visibility"
-secondaryKeywords: [operational control in manufacturing, real-time operational data, manufacturing visibility, data silos]
+secondaryKeywords: [operational control in manufacturing, real-time operational data, manufacturing visibility, data silos manufacturing, management reporting lag, digital transformation for manufacturers]
 ctaPrimaryText: "Assess Digitalization Level"
 ctaSubtitle: "Evaluate your organization's operational visibility and control."
 assessmentHref: /en/readiness/digitalization
@@ -34,7 +34,7 @@ According to Reuters and CNN reporting in mid-October 2026, restrictions were pl
 Three caveats matter if the analogy that follows is to be credible:
 
 - **This was not a total blackout.** The heaviest impact was reported on equipment mounted on fast-moving platforms.
-- **Who made the decision is disputed.** Different reports point to different parties, and those involved have offered conflicting accounts.
+- **Who made the decision is disputed.** Different reports point to the White House or to SpaceX, and the parties involved have denied responsibility or offered conflicting accounts.
 - **The story is still developing.** As of 23 October 2026, Ukrainian officials said the restrictions had not been fully lifted.
 
 ## The telling detail: the link failed exactly where speed mattered most
@@ -44,6 +44,8 @@ What makes this worth a manager's attention is not that a supplier can restrict 
 Connectivity did not vanish. It still worked under some conditions. But it degraded precisely where speed is everything: an interceptor drone has to move fast to reach its target, and a link that only works at rest is close to useless for that job.
 
 Put differently: **the capability was still there, but it no longer worked at the pace the work demanded.**
+
+A battlefield and a factory are worlds apart in what is at stake. The point here is the shape of the problem, not a comparison of consequences.
 
 ## On a factory floor, what counts as "speed"?
 
@@ -82,18 +84,18 @@ Many digitization efforts stop at layer one, often in the form of a dashboard. B
 
 How many of these sound familiar?
 
-- [ ] In operations meetings, departments bring different numbers.
-- [ ] Problems on the floor are usually heard about by phone or chat before they appear in any system.
+- [ ] In operations meetings, departments bring different numbers and time is spent agreeing on which one is right.
+- [ ] Problems on the floor are usually heard about by phone or chat message before they appear in any system.
 - [ ] Records and forms are often completed after the fact, at the end of a shift or week.
 - [ ] When an incident occurs, it takes a while to establish who should handle it.
 - [ ] Corrective actions get assigned but are rarely checked for effectiveness.
 - [ ] Preparing for an audit means pulling evidence together from many different places.
 
-If three or more apply, the issue may not be a lack of software or people. It may be **the connection between people, process, data and action.**
+This is not a scored test. But if three or more apply, the issue may not be a lack of software or people. It may be **the connection between people, process, data and action.**
 
 ## Digitizing departments is not the same as controlling the whole
 
-Many manufacturers have bought software function by function. Each part is "digital". But control lives **in the connections between the parts**, and those are usually the parts nobody owns.
+Many manufacturers have bought software function by function: accounting has its package, the warehouse has its own, QA has its spreadsheets. Each part is "digital". But control lives **in the connections between the parts**, and those are usually the parts nobody owns.
 
 OKELAS approaches this by starting from how the business actually runs: linking processes to workflows, workflows to the events they generate, and events to evidence, so that information flows on to decisions and actions instead of ending in a report. Software alone does not guarantee this. Data quality, process design and human accountability still decide the outcome.
 
@@ -109,4 +111,14 @@ An organization's capability lies not only in what it owns, but in its ability t
 
 **Next steps**
 
-- Take the [Digitalization Level Assessment](/en/readiness/digitalization) to see where your company stands.
+- Take the [Digitalization Level Assessment](/en/readiness/digitalization) to see where your company stands and what a sensible next step looks like.
+
+**Sources** (accessed 24 October 2026)
+
+- Reuters (via U.S. News), 16 Oct 2026 — Starlink Disruptions Are Being Felt on the Front Lines of Ukraine
+- Reuters, 15–16 Oct 2026 — Order to limit Starshield for Ukraine came from inside White House, sources say
+- CNN, 14 Oct 2026 — Ukraine says Starlink restriction disrupting military
+- Outlook India (citing President Zelensky and the WSJ), 21 Oct 2026 — Starlink slowdown disrupted Ukraine drone operations
+- Snopes, 21 Oct 2026 — Who ordered Starlink, Starshield slowdown in Ukraine? What we know
+- Reuters (syndicated), 23 Oct 2026 — Explainer: What is going on with SpaceX's Starlink and Starshield in Ukraine?
+- CNN, 23 Oct 2026 — Ukrainian officials say Starshield restrictions still in place
