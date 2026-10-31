@@ -18,6 +18,8 @@ export interface Props {
   // --- SEO ---
   title: string;
   description?: string;
+  ogImage?: string;
+  coverImageAlt?: string;
 
   // --- Bilingual linking ---
   translationId?: string;
@@ -57,6 +59,8 @@ export interface Props {
 const {
   title,
   description,
+  ogImage,
+  coverImageAlt,
   translationId,
   lang,
   contentType,
@@ -119,7 +123,7 @@ const ctaTertiaryHrefWithLang = ctaTertiaryHref ? addLanguagePrefix(ctaTertiaryH
 const selfAssessmentHrefWithLang = selfAssessmentHref ? addLanguagePrefix(selfAssessmentHref) : undefined;
 ---
 
-<Layout metadata={{ title, description }} translationId={translationId}>
+<Layout metadata={{ title, description, ogImage, coverImageAlt, lang }} translationId={translationId}>
   {translationId && lang && (
     <script define:vars={{ translationId, lang }}>
       // Make translation info available to the language switcher
