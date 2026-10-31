@@ -25,7 +25,7 @@ coverImage: '~/assets/images/insights/tu-request-approval-sang-event-action/wfr-
 ogImage: '~/assets/images/insights/tu-request-approval-sang-event-action/wfr-00-og-cover-vi.png'
 coverImageAlt: "Request → Approval có bước chờ duyệt ở giữa mỗi ca; Event → Action dùng rule do người có thẩm quyền ban hành trước để hành động đúng lúc, và chuyển ca ngoài rule cho con người phán đoán."
 ctaPrimaryText: 'Làm Workflow Readiness Assessment'
-ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
+ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---
 

@@ -25,7 +25,7 @@ coverImage: '~/assets/images/insights/giao-viec-cho-ai-theo-buoc-workflow/wfl-00
 ogImage: '~/assets/images/insights/giao-viec-cho-ai-theo-buoc-workflow/wfl-00-og-cover-vi.png'
 coverImageAlt: "Câu hỏi thường gặp 'AI thay được ai' so với câu hỏi hữu ích 'bước nào nên giao cho AI'."
 ctaPrimaryText: 'Làm Workflow Readiness Assessment'
-ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
+ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---
 

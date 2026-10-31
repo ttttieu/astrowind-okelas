@@ -22,7 +22,7 @@ coverImage: '~/assets/images/insights/co-workflow-van-lam-viec-cham/wfs-00-og-co
 ogImage: '~/assets/images/insights/co-workflow-van-lam-viec-cham/wfs-00-og-cover-vi.png'
 coverImageAlt: "Hai chuỗi bước giống hệt nhau, một chuỗi trên giấy hoặc email và một chuỗi form điện tử: số hóa chưa đổi thứ tự tuần tự."
 ctaPrimaryText: 'Làm Workflow Readiness Assessment'
-ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
+ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---
 

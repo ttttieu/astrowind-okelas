@@ -1,4 +1,4 @@
-﻿---
+---
 title: "ISO 9001 không bắt buộc phần mềm QMS — nhưng đây là lý do eQMS vẫn quan trọng"
 description: "ISO 9001:2015 không yêu cầu doanh nghiệp phải dùng phần mềm QMS. Nhưng khi quy mô tăng và yêu cầu traceability cao hơn, eQMS trở thành lựa chọn thực tế hơn là giấy. Bài viết phân tích tại sao."
 publishDate: 2026-10-04T00:00:00Z
@@ -20,8 +20,8 @@ secondaryKeywords:
   - "documented information ISO 9001"
   - "hồ sơ ISO 9001"
 assessmentHref: '/readiness/digitalization'
-ctaPrimaryText: 'Làm Digitalization Assessment'
-ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
+ctaPrimaryText: 'Đánh giá mức độ số hóa'
+ctaSubtitle: 'Xác định mức độ số hóa hiện tại và bước tiếp theo hợp lý'
 draft: false
 ---
 

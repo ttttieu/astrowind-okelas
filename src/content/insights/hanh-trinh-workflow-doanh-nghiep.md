@@ -26,7 +26,7 @@ coverImage: '~/assets/images/insights/hanh-trinh-workflow-doanh-nghiep/wfj-00-og
 ogImage: '~/assets/images/insights/hanh-trinh-workflow-doanh-nghiep/wfj-00-og-cover-vi.png'
 coverImageAlt: "Câu hỏi thường gặp 'workflow của mình đang ở mức nào' và câu hỏi hữu ích hơn 'bước tiếp theo có ý nghĩa kinh tế cho quy trình này là gì'."
 ctaPrimaryText: 'Làm Workflow Readiness Assessment'
-ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
+ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---
 

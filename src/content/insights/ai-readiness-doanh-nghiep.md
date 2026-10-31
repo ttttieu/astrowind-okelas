@@ -24,7 +24,7 @@ secondaryKeywords:
   - 'organizational AI'
 assessmentHref: '/readiness/ai'
 ctaPrimaryText: 'Làm AI Readiness Assessment'
-ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
+ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---
 

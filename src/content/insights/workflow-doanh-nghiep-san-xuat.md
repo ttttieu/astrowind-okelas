@@ -26,7 +26,7 @@ coverImage: '~/assets/images/insights/workflow-doanh-nghiep-san-xuat/wfq-00-og-c
 ogImage: '~/assets/images/insights/workflow-doanh-nghiep-san-xuat/wfq-00-og-cover-vi.png'
 coverImageAlt: "Câu hỏi thường gặp so với câu hỏi hữu ích về workflow doanh nghiệp sản xuất."
 ctaPrimaryText: 'Làm Workflow Readiness Assessment'
-ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
+ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---
 

@@ -20,7 +20,7 @@ secondaryKeywords:
   - "đào tạo ERP |"
 assessmentHref: /readiness/erp
 ctaPrimaryText: 'Làm ERP Readiness Assessment'
-ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
+ctaSubtitle: 'Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn'
 coverImage: '~/assets/images/insights/erpu-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/erpu-00-og-cover-vi.png'
 coverImageAlt: "Một vòng tròn công việc thực tế gửi nhiều luồng tới Excel, email và tin nhắn, chỉ một luồng mảnh đi vào khối ERP."

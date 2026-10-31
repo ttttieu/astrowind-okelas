@@ -21,7 +21,7 @@ secondaryKeywords:
   - "duy trì hệ thống ERP |"
 assessmentHref: /readiness/erp
 ctaPrimaryText: 'Làm ERP Readiness Assessment'
-ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
+ctaSubtitle: 'Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn'
 coverImage: '~/assets/images/insights/erpg-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/erpg-00-og-cover-vi.png'
 coverImageAlt: "Một đường go-live ngăn cách nhà triển khai ở bên trái với khối ERP ở bên phải, bên dưới là bốn vai trò System Owner, Master Data, Key Users và IT chịu trách nhiệm sau go-live."

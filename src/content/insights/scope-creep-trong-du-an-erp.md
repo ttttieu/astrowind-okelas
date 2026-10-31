@@ -20,7 +20,7 @@ secondaryKeywords:
   - "kiểm soát yêu cầu ERP |"
 assessmentHref: /readiness/erp
 ctaPrimaryText: 'Làm ERP Readiness Assessment'
-ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
+ctaSubtitle: 'Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn'
 coverImage: '~/assets/images/insights/erpc-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/erpc-00-og-cover-vi.png'
 coverImageAlt: "Một khối phạm vi ban đầu và các khối nhỏ cộng dồn thêm, mỗi khối cao hơn khối trước, thể hiện phạm vi dự án lớn dần qua từng yêu cầu."

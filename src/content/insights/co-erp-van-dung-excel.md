@@ -20,7 +20,7 @@ secondaryKeywords:
   - "sau khi triển khai ERP |"
 assessmentHref: /readiness/erp
 ctaPrimaryText: 'Làm ERP Readiness Assessment'
-ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
+ctaSubtitle: 'Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn'
 coverImage: '~/assets/images/insights/erpx-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/erpx-00-og-cover-vi.png'
 coverImageAlt: "Một khối ERP được đánh dấu đã cài, đặt cạnh một lưới bảng tính nét đứt là nơi công việc thực tế đang chạy."

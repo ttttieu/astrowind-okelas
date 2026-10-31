@@ -23,7 +23,7 @@ coverImage: '~/assets/images/insights/workflow-automation-vs-intelligent/wfa-00-
 ogImage: '~/assets/images/insights/workflow-automation-vs-intelligent/wfa-00-og-cover-vi.png'
 coverImageAlt: "Một chuỗi automation dừng lại ở tình huống lạ, so với một chuỗi intelligent workflow phân loại ngoại lệ và chuyển người đúng ca."
 ctaPrimaryText: 'Làm Workflow Readiness Assessment'
-ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
+ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---
 

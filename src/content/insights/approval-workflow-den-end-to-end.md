@@ -22,7 +22,7 @@ coverImage: '~/assets/images/insights/approval-workflow-den-end-to-end/wfe-00-og
 ogImage: '~/assets/images/insights/approval-workflow-den-end-to-end/wfe-00-og-cover-vi.png'
 coverImageAlt: "Approval workflow chỉ phủ một đoạn giữa; end-to-end workflow phủ cả hành trình từ sự kiện khởi phát đến kết quả cuối."
 ctaPrimaryText: 'Làm Workflow Readiness Assessment'
-ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
+ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Training records và năng lực nhân viên trong ISO 9001 — những gì tiêu chuẩn thực sự yêu cầu"
 description: "ISO 9001 không chỉ yêu cầu lưu hồ sơ đào tạo — mà yêu cầu chứng minh nhân viên có năng lực để thực hiện công việc ảnh hưởng đến chất lượng. Đây là sự khác biệt quan trọng."
 publishDate: 2026-10-04T00:00:00Z
@@ -21,7 +21,7 @@ secondaryKeywords:
   - "competence ISO 9001"
   - "đào tạo chất lượng"
 assessmentHref: '/readiness/knowledge'
-ctaPrimaryText: 'Làm Knowledge Management Assessment'
+ctaPrimaryText: 'Làm Knowledge Management Maturity Assessment'
 ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---

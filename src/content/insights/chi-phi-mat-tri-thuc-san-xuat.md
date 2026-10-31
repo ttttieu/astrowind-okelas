@@ -20,7 +20,7 @@ secondaryKeywords:
   - "chi phí mất tri thức"
   - "cost of knowledge retention"
 assessmentHref: '/readiness/knowledge'
-ctaPrimaryText: 'Làm Knowledge Management Assessment'
+ctaPrimaryText: 'Làm Knowledge Management Maturity Assessment'
 ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---

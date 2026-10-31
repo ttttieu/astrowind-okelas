@@ -25,7 +25,7 @@ coverImage: '~/assets/images/insights/ai-chuan-bi-evidence-con-nguoi-quyet-dinh/
 ogImage: '~/assets/images/insights/ai-chuan-bi-evidence-con-nguoi-quyet-dinh/wfp-00-og-cover-vi.png'
 coverImageAlt: "Hồ sơ kém dẫn người quyết định đi sai; hồ sơ tốt truy vết được, cân bằng và không thay người quyết định kết luận."
 ctaPrimaryText: 'Làm Workflow Readiness Assessment'
-ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
+ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---
 

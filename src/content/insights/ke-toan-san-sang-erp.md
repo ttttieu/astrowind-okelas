@@ -20,7 +20,7 @@ secondaryKeywords:
   - "CFO chuẩn bị ERP |"
 assessmentHref: /readiness/erp
 ctaPrimaryText: 'Làm ERP Readiness Assessment'
-ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
+ctaSubtitle: 'Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn'
 coverImage: '~/assets/images/insights/erpa-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/erpa-00-og-cover-vi.png'
 coverImageAlt: "Khối ERP nằm trên ba trụ cột là chart of accounts, phân bổ chi phí và số dư đầu kỳ, thể hiện ba điểm cần chuẩn hóa trước khi bắt đầu dự án."

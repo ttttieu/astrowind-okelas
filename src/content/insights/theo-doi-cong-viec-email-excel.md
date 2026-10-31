@@ -22,7 +22,7 @@ coverImage: '~/assets/images/insights/theo-doi-cong-viec-email-excel/wft-00-og-c
 ogImage: '~/assets/images/insights/theo-doi-cong-viec-email-excel/wft-00-og-cover-vi.png'
 coverImageAlt: "Hệ thống chính thức ghi nhận trạng thái, trong khi một hệ thống theo dõi song song gồm Excel, email và Zalo mọc lên để lấp khoảng trống."
 ctaPrimaryText: 'Làm Workflow Readiness Assessment'
-ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
+ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---
 

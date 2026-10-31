@@ -20,7 +20,7 @@ secondaryKeywords:
   - "khai thác ERP sau triển khai"
   - "ERP adoption |"
 ctaPrimaryText: 'Làm ERP Readiness Assessment'
-ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
+ctaSubtitle: 'Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn'
 coverImage: '~/assets/images/insights/erpi-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/erpi-00-og-cover-vi.png'
 coverImageAlt: "Một nút go-live và một nút adoption nét đứt được nối bằng đường nét đứt có nhãn khoảng cách, thể hiện lộ trình sau go-live có chủ đích."

@@ -20,7 +20,7 @@ secondaryKeywords:
   - "làm sạch dữ liệu trước ERP |"
 assessmentHref: /readiness/erp
 ctaPrimaryText: 'Làm ERP Readiness Assessment'
-ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
+ctaSubtitle: 'Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn'
 coverImage: '~/assets/images/insights/erpd-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/erpd-00-og-cover-vi.png'
 coverImageAlt: "Một lưới bản ghi có vài ô lỗi đi vào khối ERP, và các lỗi xuất hiện lại ở báo cáo, cảnh báo tồn kho và đơn mua hàng."

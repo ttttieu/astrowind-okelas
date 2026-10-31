@@ -24,7 +24,7 @@ coverImage: '~/assets/images/insights/xu-ly-ngoai-le-trong-workflow/wfx-00-og-co
 ogImage: '~/assets/images/insights/xu-ly-ngoai-le-trong-workflow/wfx-00-og-cover-vi.png'
 coverImageAlt: "Ngoại lệ xử lý tắt qua Zalo hoặc email không để lại evidence; đường ngoại lệ được thiết kế chuyển ca tới người có thẩm quyền kèm evidence, ghi lại quyết định và tích lũy thành tiền lệ."
 ctaPrimaryText: 'Làm Workflow Readiness Assessment'
-ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
+ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---
 

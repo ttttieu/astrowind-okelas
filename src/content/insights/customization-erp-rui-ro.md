@@ -20,7 +20,7 @@ secondaryKeywords:
   - "nâng cấp ERP khó khăn |"
 assessmentHref: /readiness/erp
 ctaPrimaryText: 'Làm ERP Readiness Assessment'
-ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
+ctaSubtitle: 'Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn'
 coverImage: '~/assets/images/insights/erpk-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/erpk-00-og-cover-vi.png'
 coverImageAlt: "Khối ERP ở giữa: bên trái là các mục configuration nằm trong phạm vi phần mềm, bên phải là các khối customization đứt nét thêm code và nợ kỹ thuật."

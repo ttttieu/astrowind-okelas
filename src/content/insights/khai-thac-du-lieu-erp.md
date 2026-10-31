@@ -21,7 +21,7 @@ secondaryKeywords:
   - "dữ liệu ERP ra quyết định"
 assessmentHref: /readiness/erp
 ctaPrimaryText: 'Làm ERP Readiness Assessment'
-ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
+ctaSubtitle: 'Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn'
 coverImage: '~/assets/images/insights/erpt-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/erpt-00-og-cover-vi.png'
 coverImageAlt: "Bốn bậc thang tăng dần thể hiện bốn cấp độ khai thác dữ liệu ERP, từ ghi nhận giao dịch đến dự báo và hỗ trợ quyết định."

@@ -25,7 +25,7 @@ coverImage: '~/assets/images/insights/automation-va-ai-ho-tro-workflow/wfa-00-og
 ogImage: '~/assets/images/insights/automation-va-ai-ho-tro-workflow/wfa-00-og-cover-vi.png'
 coverImageAlt: "Automation và AI hỗ trợ là hai việc khác nhau: automation thực thi theo rule, AI đọc đầu vào phi cấu trúc và chuẩn bị evidence — quyền quyết định ở lại với rule hoặc con người."
 ctaPrimaryText: 'Làm Workflow Readiness Assessment'
-ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
+ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---
 

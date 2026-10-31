@@ -23,7 +23,7 @@ coverImage: '~/assets/images/insights/workflow-phu-thuoc-con-nguoi/wfh-00-og-cov
 ogImage: '~/assets/images/insights/workflow-phu-thuoc-con-nguoi/wfh-00-og-cover-vi.png'
 coverImageAlt: "Một chuỗi dồn qua một cổng chờ đúng một người, so với một chuỗi được điều hướng theo ngưỡng qua nhiều đường."
 ctaPrimaryText: 'Làm Workflow Readiness Assessment'
-ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
+ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---
 

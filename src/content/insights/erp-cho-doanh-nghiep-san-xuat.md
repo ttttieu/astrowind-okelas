@@ -20,7 +20,7 @@ secondaryKeywords:
   - "ERP chế biến thực phẩm |"
 assessmentHref: /readiness/erp
 ctaPrimaryText: 'Làm ERP Readiness Assessment'
-ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
+ctaSubtitle: 'Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn'
 coverImage: '~/assets/images/insights/erpm-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/erpm-00-og-cover-vi.png'
 coverImageAlt: "Nguyên liệu đi vào khối ERP có các chip BOM, Routing, Lot và QC, rồi ra thành phẩm."

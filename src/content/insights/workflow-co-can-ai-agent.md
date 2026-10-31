@@ -25,7 +25,7 @@ coverImage: '~/assets/images/insights/workflow-co-can-ai-agent/wfg-00-og-cover-v
 ogImage: '~/assets/images/insights/workflow-co-can-ai-agent/wfg-00-og-cover-vi.png'
 coverImageAlt: "Câu hỏi thường gặp 'workflow có nên thay bằng AI agent không' so với câu hỏi hữu ích 'mức AI nào vừa đủ cho quy trình này'."
 ctaPrimaryText: 'Làm Workflow Readiness Assessment'
-ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
+ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---
 

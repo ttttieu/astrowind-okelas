@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Document Control trong eQMS — kiểm soát tài liệu ISO 9001 thực sự nghĩa là gì"
 description: "Document control không phải chỉ là lưu tài liệu vào folder. ISO 9001 yêu cầu kiểm soát phiên bản, phê duyệt, phân phối và đảm bảo người dùng đang dùng đúng bản. Đây là cách làm đúng."
 publishDate: 2026-10-04T00:00:00Z
@@ -20,7 +20,7 @@ secondaryKeywords:
   - "quản lý phiên bản tài liệu"
   - "phê duyệt tài liệu ISO"
 assessmentHref: '/readiness/knowledge'
-ctaPrimaryText: 'Làm Knowledge Management Assessment'
+ctaPrimaryText: 'Làm Knowledge Management Maturity Assessment'
 ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---

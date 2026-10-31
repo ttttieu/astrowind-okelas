@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Nonconformance không phải báo cáo lỗi — cách tiếp cận đúng trong ISO 9001"
 description: "NCR và nonconformance report thường được điền cho có để đối phó audit. Nhưng đây là một trong những công cụ mạnh nhất để cải tiến vận hành — nếu được dùng đúng."
 publishDate: 2026-10-04T00:00:00Z
@@ -20,7 +20,7 @@ secondaryKeywords:
   - "nonconformity ISO"
   - "sự không phù hợp ISO 9001"
 assessmentHref: '/readiness/knowledge'
-ctaPrimaryText: 'Làm Knowledge Management Assessment'
+ctaPrimaryText: 'Làm Knowledge Management Maturity Assessment'
 ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---

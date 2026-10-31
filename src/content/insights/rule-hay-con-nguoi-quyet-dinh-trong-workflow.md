@@ -24,7 +24,7 @@ coverImage: '~/assets/images/insights/rule-hay-con-nguoi-quyet-dinh-trong-workfl
 ogImage: '~/assets/images/insights/rule-hay-con-nguoi-quyet-dinh-trong-workflow/wfd-00-og-cover-vi.png'
 coverImageAlt: "Dải liên tục từ quyết định lặp lại (encode thành rule) tới quyết định phức tạp (cần con người phán đoán); AI hỗ trợ đầu vào ở cả hai đầu."
 ctaPrimaryText: 'Làm Workflow Readiness Assessment'
-ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
+ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---
 

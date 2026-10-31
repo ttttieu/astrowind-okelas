@@ -1,4 +1,4 @@
-﻿---
+---
 title: "eQMS cho doanh nghiệp sản xuất — hướng dẫn thực hành từ ISO 9001 đến vận hành số"
 description: "eQMS không chỉ là phần mềm thay thế hồ sơ giấy. Bài viết hướng dẫn thực hành cách tổ chức hệ thống quản lý chất lượng điện tử phù hợp với manufacturing SME — từ document control đến audit, CAPA và knowledge."
 publishDate: 2026-10-04T00:00:00Z
@@ -23,8 +23,8 @@ secondaryKeywords:
   - "eQMS SME"
   - "quản lý chất lượng số hóa"
 assessmentHref: '/readiness/digitalization'
-ctaPrimaryText: 'Làm Digitalization Assessment'
-ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
+ctaPrimaryText: 'Đánh giá mức độ số hóa'
+ctaSubtitle: 'Xác định mức độ số hóa hiện tại và bước tiếp theo hợp lý'
 draft: false
 ---
 

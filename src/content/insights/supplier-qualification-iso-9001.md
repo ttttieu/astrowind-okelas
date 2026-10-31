@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Supplier Qualification trong ISO 9001 — vượt ra ngoài danh sách nhà cung cấp được duyệt"
 description: "Approved supplier list không phải là supplier qualification. ISO 9001 yêu cầu doanh nghiệp có quy trình đánh giá, lựa chọn và theo dõi hiệu suất nhà cung cấp bên ngoài — có evidence. Đây là cách làm đúng."
 publishDate: 2026-10-04T00:00:00Z
@@ -21,7 +21,7 @@ secondaryKeywords:
   - "vendor qualification"
   - "kiểm soát nhà cung cấp ISO"
 assessmentHref: '/readiness/knowledge'
-ctaPrimaryText: 'Làm Knowledge Management Assessment'
+ctaPrimaryText: 'Làm Knowledge Management Maturity Assessment'
 ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---

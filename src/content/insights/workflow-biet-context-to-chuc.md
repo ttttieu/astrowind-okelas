@@ -25,7 +25,7 @@ coverImage: '~/assets/images/insights/workflow-biet-context-to-chuc/wfb-00-og-co
 ogImage: '~/assets/images/insights/workflow-biet-context-to-chuc/wfb-00-og-cover-vi.png'
 coverImageAlt: "Rule đơn thuần so với workflow có bối cảnh: cùng dữ liệu giao dịch, ý nghĩa khác nhau tùy bối cảnh tổ chức duy trì."
 ctaPrimaryText: 'Làm Workflow Readiness Assessment'
-ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
+ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---
 

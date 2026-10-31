@@ -23,7 +23,7 @@ coverImage: '~/assets/images/insights/so-hoa-workflow-vs-toi-uu-workflow/wfo-00-
 ogImage: '~/assets/images/insights/so-hoa-workflow-vs-toi-uu-workflow/wfo-00-og-cover-vi.png'
 coverImageAlt: "Ba bảng giấy, số hóa và tối ưu: hai bảng đầu cùng một chuỗi tuần tự, bảng thứ ba là chuỗi đã gộp và chạy song song."
 ctaPrimaryText: 'Làm Workflow Readiness Assessment'
-ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
+ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---
 

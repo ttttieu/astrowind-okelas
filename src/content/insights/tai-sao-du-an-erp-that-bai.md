@@ -25,7 +25,7 @@ secondaryKeywords:
   - "ERP readiness"
 assessmentHref: /readiness/erp
 ctaPrimaryText: 'Làm ERP Readiness Assessment'
-ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
+ctaSubtitle: 'Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn'
 coverImage: '~/assets/images/insights/erpf-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/erpf-00-og-cover-vi.png'
 coverImageAlt: "Hai chuỗi đầu vào đi qua cùng một khối ERP: chuỗi có trật tự cho ra kết quả có trật tự được nhân lên, chuỗi lộn xộn cho ra sự lộn xộn được nhân lên."

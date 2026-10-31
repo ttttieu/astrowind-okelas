@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Management Review ISO 9001 — tại sao buổi họp này thường lãng phí và cách cải thiện"
 description: "Management review theo ISO 9001 thường thành buổi trình bày hồ sơ định kỳ, không có quyết định thực sự. Bài viết phân tích mục đích thực của clause 9.3 và cách tổ chức để tạo giá trị."
 publishDate: 2026-10-04T00:00:00Z
@@ -21,7 +21,7 @@ secondaryKeywords:
   - "họp review chất lượng"
   - "clause 9.3 ISO 9001"
 assessmentHref: '/readiness/knowledge'
-ctaPrimaryText: 'Làm Knowledge Management Assessment'
+ctaPrimaryText: 'Làm Knowledge Management Maturity Assessment'
 ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---

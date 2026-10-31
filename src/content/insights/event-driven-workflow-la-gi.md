@@ -23,7 +23,7 @@ coverImage: '~/assets/images/insights/event-driven-workflow-la-gi/wfv-00-og-cove
 ogImage: '~/assets/images/insights/event-driven-workflow-la-gi/wfv-00-og-cover-vi.png'
 coverImageAlt: "Trên trục thời gian, workflow request-based chờ một khoảng trễ phát hiện trước khi bắt đầu, còn event-driven workflow bắt đầu gần như ngay khi sự việc xảy ra."
 ctaPrimaryText: 'Làm Workflow Readiness Assessment'
-ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
+ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---
 

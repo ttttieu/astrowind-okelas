@@ -18,8 +18,8 @@ secondaryKeywords:
   - "doanh nghiệp mua nhiều phần mềm"
   - "integration phần mềm"
 assessmentHref: '/readiness/digitalization'
-ctaPrimaryText: 'Làm Digitalization Assessment'
-ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
+ctaPrimaryText: 'Làm Digital Transformation Maturity Assessment'
+ctaSubtitle: 'Hiểu rõ mức độ trưởng thành số hóa của bạn và bước tiếp theo có ý nghĩa'
 draft: false
 ---
 
