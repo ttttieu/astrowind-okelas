@@ -101,7 +101,7 @@ Mục tiêu của quản trị tri thức không phải là để mọi người
 
 - Đánh giá mức độ trưởng thành quản trị tri thức của doanh nghiệp: [Knowledge Management Maturity Assessment](/readiness/knowledge)
 - Đọc bài trụ cột: [Từ tri thức cá nhân đến tri thức tổ chức](/insights/knowledge-management/quan-ly-tri-thuc-doanh-nghiep-san-xuat)
-- Đọc tiếp: [Tri thức ngầm và tri thức hiện](/insights/tri-thuc-ngam-va-tri-thuc-hien) · [Khi nhân sự chủ chốt nghỉ việc, họ mang đi thứ gì?](/insights/knowledge-management/nhan-su-nghi-viec-mang-di-tri-thuc)
+- Đọc tiếp: [Tri thức ngầm và tri thức hiện](/insights/knowledge-management/tacit-knowledge-explicit-knowledge) · [Khi nhân sự chủ chốt nghỉ việc, họ mang đi thứ gì?](/insights/knowledge-management/nhan-su-nghi-viec-mang-di-tri-thuc)
 
 ---
 

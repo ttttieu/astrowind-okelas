@@ -101,7 +101,7 @@ The goal of knowledge management is not to get everyone to remember the same num
 
 - Assess your organization's knowledge management maturity: [Knowledge Management Maturity Assessment](/en/readiness/knowledge)
 - Read the pillar article: [From Individual Knowledge to Organizational Knowledge](/en/insights/knowledge-management/knowledge-management-manufacturing)
-- Related: [Tacit vs. Explicit Knowledge: Why the Difference Matters](/en/insights/knowledge-management/tacit-vs-explicit-knowledge) · [When Key People Leave, What Do They Take With Them?](/en/insights/what-key-people-take-when-they-leave)
+- Related: [Tacit vs. Explicit Knowledge: Why the Difference Matters](/en/insights/knowledge-management/tacit-vs-explicit-knowledge) · [When Key People Leave, What Do They Take With Them?](/en/insights/knowledge-management/knowledge-loss-when-employees-leave)
 
 ---
 
