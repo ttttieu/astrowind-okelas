@@ -1,31 +1,37 @@
----
-title: "Automation và AI hỗ trợ trong workflow: hai việc khác nhau, không phải hai nấc thang"
-description: "Automation thực thi theo rule do người có thẩm quyền ban hành. AI hỗ trợ đọc đầu vào mà rule không đọc được và chuẩn bị evidence cho con người. Bài này giúp COO/CIO tránh hai sai lầm đầu tư: thêm AI vào quy trình chưa có rule, và kỳ vọng AI tự xử lý ngoại lệ."
-publishDate: 2026-10-06T00:00:00Z
+﻿---
+title: 'Automation và AI hỗ trợ trong workflow: hai việc khác nhau, không phải hai
+  nấc thang'
+description: 'Automation thực thi theo rule do người có thẩm quyền ban hành. AI hỗ
+  trợ đọc đầu vào mà rule không đọc được và chuẩn bị evidence cho con người. Bài này
+  giúp COO/CIO tránh hai sai lầm đầu tư: thêm AI vào quy trình chưa có rule, và kỳ
+  vọng AI tự xử lý ngoại lệ.'
+publishDate: 2026-10-06 00:00:00+00:00
 translationId: article-5-12-automation-ai-workflow
 lang: vi
 category: workflow
 contentType: Analysis
 funnelStage:
-  - Understanding
-  - Consideration
+- Understanding
+- Consideration
 audience:
-  - COO
-  - CIO
-  - Operations Director
-primaryKeyword: "automation và AI trong workflow"
+- COO
+- CIO
+- Operations Director
+primaryKeyword: automation và AI trong workflow
 secondaryKeywords:
-  - "RPA workflow"
-  - "hyperautomation"
-  - "AI hỗ trợ workflow"
-  - "automation vs AI"
-  - "workflow automation rule"
+- RPA workflow
+- hyperautomation
+- AI hỗ trợ workflow
+- automation vs AI
+- workflow automation rule
 assessmentHref: /readiness/workflow
-coverImage: '~/assets/images/insights/automation-va-ai-ho-tro-workflow/wfa-00-og-cover-vi.png'
-ogImage: '~/assets/images/insights/automation-va-ai-ho-tro-workflow/wfa-00-og-cover-vi.png'
-coverImageAlt: "Automation và AI hỗ trợ là hai việc khác nhau: automation thực thi theo rule, AI đọc đầu vào phi cấu trúc và chuẩn bị evidence — quyền quyết định ở lại với rule hoặc con người."
-ctaPrimaryText: 'Workflow Readiness Assessment'
-ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
+coverImage: ~/assets/images/insights/automation-va-ai-ho-tro-workflow/wfa-00-og-cover-vi.png
+ogImage: ~/assets/images/insights/automation-va-ai-ho-tro-workflow/wfa-00-og-cover-vi.png
+coverImageAlt: 'Automation và AI hỗ trợ là hai việc khác nhau: automation thực thi
+  theo rule, AI đọc đầu vào phi cấu trúc và chuẩn bị evidence — quyền quyết định ở
+  lại với rule hoặc con người.'
+ctaPrimaryText: Làm Workflow Readiness Assessment
+ctaSubtitle: Workflow của bạn đang vận hành như thế nào?
 draft: false
 ---
 

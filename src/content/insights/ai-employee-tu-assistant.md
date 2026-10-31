@@ -1,29 +1,32 @@
----
-title: "Từ AI Assistant đến AI Employee: khi AI cần Identity, Authority và Audit Trail"
-description: "AI agent càng giống employee thì càng cần được quản lý như employee: có danh tính, có quyền hạn rõ ràng, có trách nhiệm và để lại dấu vết kiểm chứng được. Đây là tầm nhìn AI employee trong enterprise."
-publishDate: 2026-09-23T00:00:00Z
-coverImage: '~/assets/images/insights/ai-employee-tu-assistant/aemp-00-og-cover-vi.png'
-ogImage: '~/assets/images/insights/ai-employee-tu-assistant/aemp-00-og-cover-vi.png'
-coverImageAlt: "Hai vòng tròn nối bằng mũi tên 'ủy quyền': bên trái là người giao quyền, bên phải là agent."
+﻿---
+title: 'Từ AI Assistant đến AI Employee: khi AI cần Identity, Authority và Audit Trail'
+description: 'AI agent càng giống employee thì càng cần được quản lý như employee:
+  có danh tính, có quyền hạn rõ ràng, có trách nhiệm và để lại dấu vết kiểm chứng
+  được. Đây là tầm nhìn AI employee trong enterprise.'
+publishDate: 2026-09-23 00:00:00+00:00
+coverImage: ~/assets/images/insights/ai-employee-tu-assistant/aemp-00-og-cover-vi.png
+ogImage: ~/assets/images/insights/ai-employee-tu-assistant/aemp-00-og-cover-vi.png
+coverImageAlt: 'Hai vòng tròn nối bằng mũi tên ''ủy quyền'': bên trái là người giao
+  quyền, bên phải là agent.'
 translationId: article-6-17-employee-analogy
 lang: vi
 category: ai
 contentType: Analysis
 funnelStage:
-  - Consideration
+- Consideration
 audience:
-  - CEO
-  - CIO
-  - COO
-primaryKeyword: "AI employee identity authority audit"
+- CEO
+- CIO
+- COO
+primaryKeyword: AI employee identity authority audit
 secondaryKeywords:
-  - "AI agent như nhân viên"
-  - "AI identity enterprise"
-  - "AI accountability"
-  - "quản lý AI như nhân viên"
+- AI agent như nhân viên
+- AI identity enterprise
+- AI accountability
+- quản lý AI như nhân viên
 assessmentHref: /readiness/ai
-ctaPrimaryText: 'Assess your AI readiness'
-ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
+ctaPrimaryText: Làm AI Readiness Assessment
+ctaSubtitle: Xác định mức độ sẵn sàng AI của doanh nghiệp bạn
 draft: false
 ---
 

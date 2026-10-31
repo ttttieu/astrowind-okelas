@@ -1,27 +1,37 @@
----
-title: "AI Readiness: 6 điều kiện để AI thực sự có ích trong vận hành"
-description: "Không phải doanh nghiệp nào cũng sẵn sàng cho AI ở cấp vận hành. Bài viết trình bày 6 điều kiện cụ thể mà CEO/CIO cần đánh giá trước khi đầu tư."
-publishDate: 2025-09-24T00:00:00Z
-coverImage: '~/assets/images/insights/dieu-kien-trien-khai-ai-van-hanh/rdy-00-og-cover-vi.png'
-ogImage: '~/assets/images/insights/dieu-kien-trien-khai-ai-van-hanh/rdy-00-og-cover-vi.png'
-coverImageAlt: "Lưới sáu ô vuông, bốn ô có dấu tích, đặt cạnh một khối \"giá trị vận hành\" với mũi tên nối."
-category: 'ai'
-tags: ['AI Readiness', 'AI Vận Hành', 'Triển Khai AI', 'Doanh Nghiệp']
-translationId: 'ai-readiness-checklist'
-lang: 'vi'
-contentType: 'Analysis'
+﻿---
+title: 'AI Readiness: 6 điều kiện để AI thực sự có ích trong vận hành'
+description: Không phải doanh nghiệp nào cũng sẵn sàng cho AI ở cấp vận hành. Bài
+  viết trình bày 6 điều kiện cụ thể mà CEO/CIO cần đánh giá trước khi đầu tư.
+publishDate: 2025-09-24 00:00:00+00:00
+coverImage: ~/assets/images/insights/dieu-kien-trien-khai-ai-van-hanh/rdy-00-og-cover-vi.png
+ogImage: ~/assets/images/insights/dieu-kien-trien-khai-ai-van-hanh/rdy-00-og-cover-vi.png
+coverImageAlt: Lưới sáu ô vuông, bốn ô có dấu tích, đặt cạnh một khối "giá trị vận
+  hành" với mũi tên nối.
+category: ai
+tags:
+- AI Readiness
+- AI Vận Hành
+- Triển Khai AI
+- Doanh Nghiệp
+translationId: ai-readiness-checklist
+lang: vi
+contentType: Analysis
 funnelStage:
-  - Understanding
-audience: ['CEO', 'COO', 'CIO', 'Operations Director']
-primaryKeyword: 'điều kiện triển khai AI doanh nghiệp'
+- Understanding
+audience:
+- CEO
+- COO
+- CIO
+- Operations Director
+primaryKeyword: điều kiện triển khai AI doanh nghiệp
 secondaryKeywords:
-  - 'AI readiness framework'
-  - 'chuẩn bị triển khai AI'
-  - 'yêu cầu AI vận hành'
-  - 'organizational AI preparation'
-assessmentHref: '/readiness/ai'
-ctaPrimaryText: 'Assess your AI readiness'
-ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
+- AI readiness framework
+- chuẩn bị triển khai AI
+- yêu cầu AI vận hành
+- organizational AI preparation
+assessmentHref: /readiness/ai
+ctaPrimaryText: Làm AI Readiness Assessment
+ctaSubtitle: Xác định mức độ sẵn sàng AI của doanh nghiệp bạn
 draft: false
 ---
 

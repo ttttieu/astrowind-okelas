@@ -1,29 +1,32 @@
----
-title: "AI Agent và Cybersecurity: khi AI có khả năng tác động lên hệ thống"
-description: "AI agent không chỉ trả lời câu hỏi — nó có thể truy cập API, database, email và hệ thống nội bộ. Trong ngữ cảnh enterprise, điều này tạo ra mặt tấn công mới cần được kiểm soát."
-publishDate: 2026-09-23T00:00:00Z
-coverImage: '~/assets/images/insights/ai-agent-va-cybersecurity/acys-00-og-cover-vi.png'
-ogImage: '~/assets/images/insights/ai-agent-va-cybersecurity/acys-00-og-cover-vi.png'
-coverImageAlt: "Bên trái là hộp AI agent có quyền truy cập; bên phải là hệ thống doanh nghiệp, nối bằng mũi tên nét đứt có nhãn bán kính ảnh hưởng."
+﻿---
+title: 'AI Agent và Cybersecurity: khi AI có khả năng tác động lên hệ thống'
+description: AI agent không chỉ trả lời câu hỏi — nó có thể truy cập API, database,
+  email và hệ thống nội bộ. Trong ngữ cảnh enterprise, điều này tạo ra mặt tấn công
+  mới cần được kiểm soát.
+publishDate: 2026-09-23 00:00:00+00:00
+coverImage: ~/assets/images/insights/ai-agent-va-cybersecurity/acys-00-og-cover-vi.png
+ogImage: ~/assets/images/insights/ai-agent-va-cybersecurity/acys-00-og-cover-vi.png
+coverImageAlt: Bên trái là hộp AI agent có quyền truy cập; bên phải là hệ thống doanh
+  nghiệp, nối bằng mũi tên nét đứt có nhãn bán kính ảnh hưởng.
 translationId: article-6-8-ai-agent-cybersecurity
 lang: vi
 category: ai
 contentType: Analysis
 funnelStage:
-  - Understanding
+- Understanding
 audience:
-  - CIO
-  - IT Security
-  - CEO
-primaryKeyword: "AI agent và cybersecurity doanh nghiệp"
+- CIO
+- IT Security
+- CEO
+primaryKeyword: AI agent và cybersecurity doanh nghiệp
 secondaryKeywords:
-  - "AI security"
-  - "AI agent tác động hệ thống"
-  - "AI cybersecurity risk"
-  - "AI network access"
+- AI security
+- AI agent tác động hệ thống
+- AI cybersecurity risk
+- AI network access
 assessmentHref: /readiness/ai
-ctaPrimaryText: 'Assess your AI readiness'
-ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
+ctaPrimaryText: Làm AI Readiness Assessment
+ctaSubtitle: Xác định mức độ sẵn sàng AI của doanh nghiệp bạn
 draft: false
 ---
 

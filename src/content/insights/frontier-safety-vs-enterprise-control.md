@@ -1,28 +1,31 @@
----
-title: "Frontier AI cần Safety Layer — Enterprise AI cần Control Layer"
-description: "Câu hỏi của frontier AI: làm sao kiểm soát AI ngày càng mạnh? Câu hỏi của enterprise AI: làm sao cho AI làm được nhiều hơn mà không làm được tất cả? Hai câu hỏi khác nhau, cùng một nhu cầu về control."
-publishDate: 2026-09-23T00:00:00Z
-coverImage: '~/assets/images/insights/frontier-safety-vs-enterprise-control/afsc-00-og-cover-vi.png'
-ogImage: '~/assets/images/insights/frontier-safety-vs-enterprise-control/afsc-00-og-cover-vi.png'
-coverImageAlt: "Frontier safety và enterprise control: hai câu hỏi; hai thanh xếp chồng, an toàn mô hình ở trên, kiểm soát vận hành ở dưới."
+﻿---
+title: Frontier AI cần Safety Layer — Enterprise AI cần Control Layer
+description: 'Câu hỏi của frontier AI: làm sao kiểm soát AI ngày càng mạnh? Câu hỏi
+  của enterprise AI: làm sao cho AI làm được nhiều hơn mà không làm được tất cả? Hai
+  câu hỏi khác nhau, cùng một nhu cầu về control.'
+publishDate: 2026-09-23 00:00:00+00:00
+coverImage: ~/assets/images/insights/frontier-safety-vs-enterprise-control/afsc-00-og-cover-vi.png
+ogImage: ~/assets/images/insights/frontier-safety-vs-enterprise-control/afsc-00-og-cover-vi.png
+coverImageAlt: 'Frontier safety và enterprise control: hai câu hỏi; hai thanh xếp
+  chồng, an toàn mô hình ở trên, kiểm soát vận hành ở dưới.'
 translationId: article-6-19-frontier-vs-enterprise
 lang: vi
 category: ai
 contentType: Analysis
 funnelStage:
-  - Consideration
+- Consideration
 audience:
-  - CIO
-  - CEO
-primaryKeyword: "frontier AI safety vs enterprise AI control"
+- CIO
+- CEO
+primaryKeyword: frontier AI safety vs enterprise AI control
 secondaryKeywords:
-  - "enterprise AI governance"
-  - "AI safety layer"
-  - "AI control layer enterprise"
-  - "AI governance framework"
+- enterprise AI governance
+- AI safety layer
+- AI control layer enterprise
+- AI governance framework
 assessmentHref: /readiness/ai
-ctaPrimaryText: 'Assess your AI readiness'
-ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
+ctaPrimaryText: Làm AI Readiness Assessment
+ctaSubtitle: Xác định mức độ sẵn sàng AI của doanh nghiệp bạn
 draft: false
 ---
 

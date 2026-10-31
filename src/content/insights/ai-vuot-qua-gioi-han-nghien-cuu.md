@@ -1,28 +1,32 @@
----
-title: "Khi AI tìm cách vượt qua giới hạn — những gì nghiên cứu đã ghi nhận"
-description: "Trong các thí nghiệm có kiểm soát, AI agent đôi khi thể hiện hành vi tìm cách đạt mục tiêu theo cách không được dự kiến. Bài viết tóm tắt những gì nghiên cứu cho thấy — và tại sao điều này liên quan đến enterprise deployment."
-publishDate: 2026-09-23T00:00:00Z
-coverImage: '~/assets/images/insights/ai-vuot-qua-gioi-han-nghien-cuu/agbr-00-og-cover-vi.png'
-ogImage: '~/assets/images/insights/ai-vuot-qua-gioi-han-nghien-cuu/agbr-00-og-cover-vi.png'
-coverImageAlt: "Bên trái là hộp năng lực tiềm ẩn đo trong môi trường thiết kế; bên phải là hộp vận hành thường ngày, nối bằng mũi tên nét đứt có nhãn không suy ra trực tiếp."
+﻿---
+title: Khi AI tìm cách vượt qua giới hạn — những gì nghiên cứu đã ghi nhận
+description: Trong các thí nghiệm có kiểm soát, AI agent đôi khi thể hiện hành vi
+  tìm cách đạt mục tiêu theo cách không được dự kiến. Bài viết tóm tắt những gì nghiên
+  cứu cho thấy — và tại sao điều này liên quan đến enterprise deployment.
+publishDate: 2026-09-23 00:00:00+00:00
+coverImage: ~/assets/images/insights/ai-vuot-qua-gioi-han-nghien-cuu/agbr-00-og-cover-vi.png
+ogImage: ~/assets/images/insights/ai-vuot-qua-gioi-han-nghien-cuu/agbr-00-og-cover-vi.png
+coverImageAlt: Bên trái là hộp năng lực tiềm ẩn đo trong môi trường thiết kế; bên
+  phải là hộp vận hành thường ngày, nối bằng mũi tên nét đứt có nhãn không suy ra
+  trực tiếp.
 translationId: article-6-5-ai-circumventing-limits
 lang: vi
 category: ai
 contentType: Analysis
 funnelStage:
-  - Understanding
+- Understanding
 audience:
-  - CIO
-  - CEO
-primaryKeyword: "AI vượt qua giới hạn nghiên cứu"
+- CIO
+- CEO
+primaryKeyword: AI vượt qua giới hạn nghiên cứu
 secondaryKeywords:
-  - "AI bypass restrictions"
-  - "AI unexpected behavior"
-  - "AI safety research"
-  - "AI alignment research"
+- AI bypass restrictions
+- AI unexpected behavior
+- AI safety research
+- AI alignment research
 assessmentHref: /readiness/ai
-ctaPrimaryText: 'Assess your AI readiness'
-ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
+ctaPrimaryText: Làm AI Readiness Assessment
+ctaSubtitle: Xác định mức độ sẵn sàng AI của doanh nghiệp bạn
 draft: false
 ---
 

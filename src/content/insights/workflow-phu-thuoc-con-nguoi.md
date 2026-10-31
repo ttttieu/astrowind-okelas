@@ -1,29 +1,32 @@
----
-title: "Workflow vẫn phụ thuộc quá nhiều vào con người"
-description: "Khi workflow bị dừng vì chờ một người phê duyệt, đó không phải vấn đề cá nhân — đó là vấn đề thiết kế. Bài viết phân tích tại sao human dependency là điểm yếu của workflow truyền thống."
-publishDate: 2026-09-23T00:00:00Z
+﻿---
+title: Workflow vẫn phụ thuộc quá nhiều vào con người
+description: Khi workflow bị dừng vì chờ một người phê duyệt, đó không phải vấn đề
+  cá nhân — đó là vấn đề thiết kế. Bài viết phân tích tại sao human dependency là
+  điểm yếu của workflow truyền thống.
+publishDate: 2026-09-23 00:00:00+00:00
 translationId: article-5-4-human-bottleneck
 lang: vi
 category: workflow
 contentType: Analysis
 funnelStage:
-  - Understanding
+- Understanding
 audience:
-  - COO
-  - Operations Director
-  - CEO
-primaryKeyword: "workflow phụ thuộc con người"
+- COO
+- Operations Director
+- CEO
+primaryKeyword: workflow phụ thuộc con người
 secondaryKeywords:
-  - "bottleneck workflow"
-  - "chờ phê duyệt"
-  - "workflow bị chặn"
-  - "human bottleneck"
+- bottleneck workflow
+- chờ phê duyệt
+- workflow bị chặn
+- human bottleneck
 assessmentHref: /readiness/workflow
-coverImage: '~/assets/images/insights/workflow-phu-thuoc-con-nguoi/wfh-00-og-cover-vi.png'
-ogImage: '~/assets/images/insights/workflow-phu-thuoc-con-nguoi/wfh-00-og-cover-vi.png'
-coverImageAlt: "Một chuỗi dồn qua một cổng chờ đúng một người, so với một chuỗi được điều hướng theo ngưỡng qua nhiều đường."
-ctaPrimaryText: 'Workflow Readiness Assessment'
-ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
+coverImage: ~/assets/images/insights/workflow-phu-thuoc-con-nguoi/wfh-00-og-cover-vi.png
+ogImage: ~/assets/images/insights/workflow-phu-thuoc-con-nguoi/wfh-00-og-cover-vi.png
+coverImageAlt: Một chuỗi dồn qua một cổng chờ đúng một người, so với một chuỗi được
+  điều hướng theo ngưỡng qua nhiều đường.
+ctaPrimaryText: Làm Workflow Readiness Assessment
+ctaSubtitle: Workflow của bạn đang vận hành như thế nào?
 draft: false
 ---
 

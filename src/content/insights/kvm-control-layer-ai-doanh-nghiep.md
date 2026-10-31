@@ -1,29 +1,32 @@
----
-title: "KVM: Control Layer cho AI trong doanh nghiệp"
-description: "Từ AI capability đến agentic behavior đến unexpected action đến enterprise risk — và cách KVM tạo ra một lớp kiểm soát giúp doanh nghiệp triển khai AI có trách nhiệm."
-publishDate: 2026-09-23T00:00:00Z
-coverImage: '~/assets/images/insights/kvm-enterprise-ai-control-layer/akvc-00-og-cover-vi.png'
-ogImage: '~/assets/images/insights/kvm-enterprise-ai-control-layer/akvc-00-og-cover-vi.png'
-coverImageAlt: "KVM: lớp kiểm soát cho AI trong doanh nghiệp; ba thao tác Trace, FindEvidence, và Resolve."
+﻿---
+title: 'KVM: Control Layer cho AI trong doanh nghiệp'
+description: Từ AI capability đến agentic behavior đến unexpected action đến enterprise
+  risk — và cách KVM tạo ra một lớp kiểm soát giúp doanh nghiệp triển khai AI có trách
+  nhiệm.
+publishDate: 2026-09-23 00:00:00+00:00
+coverImage: ~/assets/images/insights/kvm-enterprise-ai-control-layer/akvc-00-og-cover-vi.png
+ogImage: ~/assets/images/insights/kvm-enterprise-ai-control-layer/akvc-00-og-cover-vi.png
+coverImageAlt: 'KVM: lớp kiểm soát cho AI trong doanh nghiệp; ba thao tác Trace, FindEvidence,
+  và Resolve.'
 translationId: article-6-20-kvm-conclusion
 lang: vi
 category: ai
 contentType: Analysis
 funnelStage:
-  - Consideration
+- Consideration
 audience:
-  - CIO
-  - CEO
-  - COO
-primaryKeyword: "KVM control layer AI doanh nghiệp"
+- CIO
+- CEO
+- COO
+primaryKeyword: KVM control layer AI doanh nghiệp
 secondaryKeywords:
-  - "KVM OKELAS"
-  - "AI control layer"
-  - "enterprise AI governance platform"
-  - "kiểm soát AI vận hành"
+- KVM OKELAS
+- AI control layer
+- enterprise AI governance platform
+- kiểm soát AI vận hành
 assessmentHref: /readiness/ai
-ctaPrimaryText: 'Assess your AI readiness'
-ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
+ctaPrimaryText: Làm AI Readiness Assessment
+ctaSubtitle: Xác định mức độ sẵn sàng AI của doanh nghiệp bạn
 draft: false
 ---
 

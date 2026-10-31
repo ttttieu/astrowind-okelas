@@ -1,27 +1,37 @@
----
-title: "SOP có nhưng không được thực thi — tại sao điều này xảy ra?"
-description: "Nhiều doanh nghiệp đầu tư viết SOP nhưng nhân viên không làm đúng. Vấn đề không phải nhân viên — mà là thiết kế."
-publishDate: 2025-09-24T00:00:00Z
-coverImage: '~/assets/images/insights/sop-00-og-cover-vi.png'
-ogImage: '~/assets/images/insights/sop-00-og-cover-vi.png'
-coverImageAlt: "Một tài liệu SOP ngay ngắn bên trái, thực tế vận hành bất định bên phải, và một khoảng cách nét đứt giữa hai bên."
-category: 'knowledge-management'
-tags: ['SOP', 'Standard Operating Procedures', 'Process Management', 'Operations']
-translationId: 'why-sops-are-not-followed'
-lang: 'vi'
-contentType: 'Analysis'
+﻿---
+title: SOP có nhưng không được thực thi — tại sao điều này xảy ra?
+description: Nhiều doanh nghiệp đầu tư viết SOP nhưng nhân viên không làm đúng. Vấn
+  đề không phải nhân viên — mà là thiết kế.
+publishDate: 2025-09-24 00:00:00+00:00
+coverImage: ~/assets/images/insights/sop-00-og-cover-vi.png
+ogImage: ~/assets/images/insights/sop-00-og-cover-vi.png
+coverImageAlt: Một tài liệu SOP ngay ngắn bên trái, thực tế vận hành bất định bên
+  phải, và một khoảng cách nét đứt giữa hai bên.
+category: knowledge-management
+tags:
+- SOP
+- Standard Operating Procedures
+- Process Management
+- Operations
+translationId: why-sops-are-not-followed
+lang: vi
+contentType: Analysis
 funnelStage:
-  - Understanding
-audience: ['CEO', 'COO', 'Quality Director', 'Operations Director']
-primaryKeyword: 'SOP không được thực thi'
+- Understanding
+audience:
+- CEO
+- COO
+- Quality Director
+- Operations Director
+primaryKeyword: SOP không được thực thi
 secondaryKeywords:
-  - "tại sao SOP không hiệu quả"
-  - "nhân viên không tuân thủ SOP"
-  - "SOP doanh nghiệp sản xuất"
-  - "quy trình không được thực hiện"
-assessmentHref: '/readiness/knowledge'
-ctaPrimaryText: 'Assess your KM maturity'
-ctaSubtitle: 'Xác định mức độ trưởng thành về quản lý tri thức trong công ty bạn'
+- tại sao SOP không hiệu quả
+- nhân viên không tuân thủ SOP
+- SOP doanh nghiệp sản xuất
+- quy trình không được thực hiện
+assessmentHref: /readiness/knowledge
+ctaPrimaryText: Làm Knowledge Management Maturity Assessment
+ctaSubtitle: Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên
 draft: false
 ---
 

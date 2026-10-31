@@ -1,27 +1,36 @@
 ﻿---
-title: "Khi nhân sự chủ chốt nghỉ việc, họ mang đi thứ gì?"
-description: "Khi một nhân viên giỏi rời đi, không chỉ mất một con người — doanh nghiệp mất những thứ không có trong file nhân sự nào."
-publishDate: 2025-09-24T00:00:00Z
-coverImage: '~/assets/images/insights/kll-00-og-cover-vi.png'
-ogImage: '~/assets/images/insights/kll-00-og-cover-vi.png'
-coverImageAlt: "Mạng lưới tổ chức có một nút mờ nét đứt (người đã rời đi), mũi tên tới người rời đi mang theo ba loại tri thức: vận hành, bối cảnh, quan hệ."
-category: 'knowledge-management'
-tags: ['Knowledge Loss', 'Employee Retention', 'Organizational Knowledge', 'Key Person Dependency']
-translationId: 'knowledge-loss-when-employees-leave'
-lang: 'vi'
-contentType: 'Opening'
+title: Khi nhân sự chủ chốt nghỉ việc, họ mang đi thứ gì?
+description: Khi một nhân viên giỏi rời đi, không chỉ mất một con người — doanh nghiệp
+  mất những thứ không có trong file nhân sự nào.
+publishDate: 2025-09-24 00:00:00+00:00
+coverImage: ~/assets/images/insights/kll-00-og-cover-vi.png
+ogImage: ~/assets/images/insights/kll-00-og-cover-vi.png
+coverImageAlt: 'Mạng lưới tổ chức có một nút mờ nét đứt (người đã rời đi), mũi tên
+  tới người rời đi mang theo ba loại tri thức: vận hành, bối cảnh, quan hệ.'
+category: knowledge-management
+tags:
+- Knowledge Loss
+- Employee Retention
+- Organizational Knowledge
+- Key Person Dependency
+translationId: knowledge-loss-when-employees-leave
+lang: vi
+contentType: Opening
 funnelStage:
-  - Awareness
-audience: ['CEO', 'HR Director', 'Operations Director']
-primaryKeyword: 'nhân viên nghỉ việc mang đi tri thức'
+- Awareness
+audience:
+- CEO
+- HR Director
+- Operations Director
+primaryKeyword: nhân viên nghỉ việc mang đi tri thức
 secondaryKeywords:
-  - "knowledge loss nhân sự"
-  - "nhân sự chủ chốt nghỉ"
-  - "mất tri thức doanh nghiệp"
-  - "employee turnover knowledge"
-assessmentHref: '/readiness/knowledge'
-ctaPrimaryText: 'Assess your KM maturity'
-ctaSubtitle: 'Xác định mức độ trưởng thành về quản lý tri thức trong công ty bạn'
+- knowledge loss nhân sự
+- nhân sự chủ chốt nghỉ
+- mất tri thức doanh nghiệp
+- employee turnover knowledge
+assessmentHref: /readiness/knowledge
+ctaPrimaryText: Làm Knowledge Management Maturity Assessment
+ctaSubtitle: Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên
 draft: false
 ---
 

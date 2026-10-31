@@ -1,26 +1,36 @@
----
-title: "Progressive eQMS là gì — và tại sao đây là cách tiếp cận phù hợp cho SME"
-description: "eQMS không phải chỉ có một cách triển khai. Progressive eQMS cho phép doanh nghiệp bắt đầu nhỏ, xây dần theo nhu cầu thực tế — không cần đầu tư toàn bộ ngay từ đầu."
-publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/progressive-eqms.png'
-category: 'business-operations'
-tags: ['eQMS', 'Triển khai', 'Progressive', 'Hệ thống chất lượng', 'Incremental']
-translationId: 'biz-ops-progressive-eqms-implementation'
-lang: 'vi'
-contentType: 'Analysis'
+﻿---
+title: Progressive eQMS là gì — và tại sao đây là cách tiếp cận phù hợp cho SME
+description: eQMS không phải chỉ có một cách triển khai. Progressive eQMS cho phép
+  doanh nghiệp bắt đầu nhỏ, xây dần theo nhu cầu thực tế — không cần đầu tư toàn bộ
+  ngay từ đầu.
+publishDate: 2025-09-24 00:00:00+00:00
+image: ~/assets/images/insights/progressive-eqms.png
+category: business-operations
+tags:
+- eQMS
+- Triển khai
+- Progressive
+- Hệ thống chất lượng
+- Incremental
+translationId: biz-ops-progressive-eqms-implementation
+lang: vi
+contentType: Analysis
 funnelStage:
-  - Consideration
-audience: ['CEO', 'Quality Director', 'IT Manager']
-primaryKeyword: 'progressive eQMS'
+- Consideration
+audience:
+- CEO
+- Quality Director
+- IT Manager
+primaryKeyword: progressive eQMS
 secondaryKeywords:
-  - "eQMS là gì"
-  - "triển khai eQMS từng bước"
-  - "electronic QMS"
-  - "hệ thống QMS điện tử"
-  - "eQMS SME"
-assessmentHref: '/readiness/digitalization'
-ctaPrimaryText: 'Digital Transformation Maturity Assessment'
-ctaSubtitle: 'Hiểu rõ mức độ trưởng thành số hóa của bạn và bước tiếp theo có ý nghĩa'
+- eQMS là gì
+- triển khai eQMS từng bước
+- electronic QMS
+- hệ thống QMS điện tử
+- eQMS SME
+assessmentHref: /readiness/digitalization
+ctaPrimaryText: Làm Digital Transformation Maturity Assessment
+ctaSubtitle: Hiểu rõ mức độ trưởng thành số hóa của bạn và bước tiếp theo có ý nghĩa
 draft: false
 ---
 

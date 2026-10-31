@@ -1,29 +1,32 @@
----
-title: "Workflow được số hóa không có nghĩa là workflow đã được tối ưu"
-description: "Chuyển workflow từ giấy sang phần mềm là bước đầu tiên — không phải đích đến. Bài viết phân tích sự khác biệt giữa workflow được số hóa và workflow thực sự tối ưu."
-publishDate: 2026-09-23T00:00:00Z
+﻿---
+title: Workflow được số hóa không có nghĩa là workflow đã được tối ưu
+description: Chuyển workflow từ giấy sang phần mềm là bước đầu tiên — không phải đích
+  đến. Bài viết phân tích sự khác biệt giữa workflow được số hóa và workflow thực
+  sự tối ưu.
+publishDate: 2026-09-23 00:00:00+00:00
 translationId: article-5-2-digitized-vs-optimized
 lang: vi
 category: workflow
 contentType: Analysis
 funnelStage:
-  - Understanding
+- Understanding
 audience:
-  - COO
-  - Operations Director
-  - IT Manager
-primaryKeyword: "số hóa workflow khác tối ưu workflow"
+- COO
+- Operations Director
+- IT Manager
+primaryKeyword: số hóa workflow khác tối ưu workflow
 secondaryKeywords:
-  - "workflow digitization"
-  - "tối ưu quy trình"
-  - "workflow improvement"
-  - "process optimization"
+- workflow digitization
+- tối ưu quy trình
+- workflow improvement
+- process optimization
 assessmentHref: /readiness/workflow
-coverImage: '~/assets/images/insights/so-hoa-workflow-vs-toi-uu-workflow/wfo-00-og-cover-vi.png'
-ogImage: '~/assets/images/insights/so-hoa-workflow-vs-toi-uu-workflow/wfo-00-og-cover-vi.png'
-coverImageAlt: "Ba bảng giấy, số hóa và tối ưu: hai bảng đầu cùng một chuỗi tuần tự, bảng thứ ba là chuỗi đã gộp và chạy song song."
-ctaPrimaryText: 'Workflow Readiness Assessment'
-ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
+coverImage: ~/assets/images/insights/so-hoa-workflow-vs-toi-uu-workflow/wfo-00-og-cover-vi.png
+ogImage: ~/assets/images/insights/so-hoa-workflow-vs-toi-uu-workflow/wfo-00-og-cover-vi.png
+coverImageAlt: 'Ba bảng giấy, số hóa và tối ưu: hai bảng đầu cùng một chuỗi tuần tự,
+  bảng thứ ba là chuỗi đã gộp và chạy song song.'
+ctaPrimaryText: Làm Workflow Readiness Assessment
+ctaSubtitle: Workflow của bạn đang vận hành như thế nào?
 draft: false
 ---
 

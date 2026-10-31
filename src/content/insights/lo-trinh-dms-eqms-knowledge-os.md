@@ -1,25 +1,35 @@
----
-title: "Từ DMS đến eQMS đến Knowledge OS — lộ trình số hóa từng bước"
-description: "Doanh nghiệp không cần nhảy thẳng từ giấy tờ lên hệ thống phức tạp. Bài viết mô tả lộ trình từng bước: DMS → eQMS → Knowledge Operating System — và khi nào mỗi bước có ý nghĩa."
-publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/dms-eqms-roadmap.png'
-category: 'business-operations'
-tags: ['DMS', 'eQMS', 'Knowledge OS', 'Lộ trình', 'Hệ thống chất lượng']
-translationId: 'biz-ops-dms-eqms-knowledge-os'
-lang: 'vi'
-contentType: 'Analysis'
+﻿---
+title: Từ DMS đến eQMS đến Knowledge OS — lộ trình số hóa từng bước
+description: 'Doanh nghiệp không cần nhảy thẳng từ giấy tờ lên hệ thống phức tạp.
+  Bài viết mô tả lộ trình từng bước: DMS → eQMS → Knowledge Operating System — và
+  khi nào mỗi bước có ý nghĩa.'
+publishDate: 2025-09-24 00:00:00+00:00
+image: ~/assets/images/insights/dms-eqms-roadmap.png
+category: business-operations
+tags:
+- DMS
+- eQMS
+- Knowledge OS
+- Lộ trình
+- Hệ thống chất lượng
+translationId: biz-ops-dms-eqms-knowledge-os
+lang: vi
+contentType: Analysis
 funnelStage:
-  - Understanding
-audience: ['CEO', 'Quality Director', 'IT Manager']
-primaryKeyword: 'lộ trình từ DMS đến eQMS'
+- Understanding
+audience:
+- CEO
+- Quality Director
+- IT Manager
+primaryKeyword: lộ trình từ DMS đến eQMS
 secondaryKeywords:
-  - "DMS eQMS knowledge management"
-  - "tiến trình số hóa tài liệu"
-  - "eQMS là gì"
-  - "knowledge operating system"
-assessmentHref: '/readiness/digitalization'
-ctaPrimaryText: 'Digital Transformation Maturity Assessment'
-ctaSubtitle: 'Hiểu rõ mức độ trưởng thành số hóa của bạn và bước tiếp theo có ý nghĩa'
+- DMS eQMS knowledge management
+- tiến trình số hóa tài liệu
+- eQMS là gì
+- knowledge operating system
+assessmentHref: /readiness/digitalization
+ctaPrimaryText: Làm Digital Transformation Maturity Assessment
+ctaSubtitle: Hiểu rõ mức độ trưởng thành số hóa của bạn và bước tiếp theo có ý nghĩa
 draft: false
 ---
 

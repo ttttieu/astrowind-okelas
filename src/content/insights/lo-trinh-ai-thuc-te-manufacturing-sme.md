@@ -1,27 +1,36 @@
----
-title: "Từ AI Hype đến AI Có Thể Triển Khai — lộ trình thực tế cho manufacturing SME"
-description: "AI hype không thiếu. Nhưng đối với doanh nghiệp sản xuất SME, lộ trình AI thực tế trông như thế nào? Bài viết cung cấp framework từ điểm bắt đầu đến triển khai có kết quả."
-publishDate: 2025-09-24T00:00:00Z
-coverImage: '~/assets/images/insights/lo-trinh-ai-thuc-te-manufacturing-sme/rmp-00-og-cover-vi.png'
-ogImage: '~/assets/images/insights/lo-trinh-ai-thuc-te-manufacturing-sme/rmp-00-og-cover-vi.png'
-coverImageAlt: "Bên trái là làn sóng hype AI, dẫn tới ba giai đoạn có thứ tự: nền tảng, hỗ trợ, workflow."
-category: 'ai'
-tags: ['AI Roadmap', 'Manufacturing', 'AI Strategy', 'Implementation']
-translationId: 'ai-implementation-roadmap-manufacturing'
-lang: 'vi'
-contentType: 'Case & Evidence'
+﻿---
+title: Từ AI Hype đến AI Có Thể Triển Khai — lộ trình thực tế cho manufacturing SME
+description: AI hype không thiếu. Nhưng đối với doanh nghiệp sản xuất SME, lộ trình
+  AI thực tế trông như thế nào? Bài viết cung cấp framework từ điểm bắt đầu đến triển
+  khai có kết quả.
+publishDate: 2025-09-24 00:00:00+00:00
+coverImage: ~/assets/images/insights/lo-trinh-ai-thuc-te-manufacturing-sme/rmp-00-og-cover-vi.png
+ogImage: ~/assets/images/insights/lo-trinh-ai-thuc-te-manufacturing-sme/rmp-00-og-cover-vi.png
+coverImageAlt: 'Bên trái là làn sóng hype AI, dẫn tới ba giai đoạn có thứ tự: nền
+  tảng, hỗ trợ, workflow.'
+category: ai
+tags:
+- AI Roadmap
+- Manufacturing
+- AI Strategy
+- Implementation
+translationId: ai-implementation-roadmap-manufacturing
+lang: vi
+contentType: Case & Evidence
 funnelStage:
-  - Consideration
-audience: ['CEO', 'COO']
-primaryKeyword: 'triển khai AI thực tế doanh nghiệp sản xuất'
+- Consideration
+audience:
+- CEO
+- COO
+primaryKeyword: triển khai AI thực tế doanh nghiệp sản xuất
 secondaryKeywords:
-  - "lộ trình AI SME"
-  - "AI manufacturing"
-  - "bắt đầu AI doanh nghiệp"
-  - "AI thực tế không phải hype"
-assessmentHref: '/readiness/ai'
-ctaPrimaryText: 'Assess your AI readiness'
-ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
+- lộ trình AI SME
+- AI manufacturing
+- bắt đầu AI doanh nghiệp
+- AI thực tế không phải hype
+assessmentHref: /readiness/ai
+ctaPrimaryText: Làm AI Readiness Assessment
+ctaSubtitle: Xác định mức độ sẵn sàng AI của doanh nghiệp bạn
 draft: false
 ---
 

@@ -1,25 +1,33 @@
----
-title: "Bẫy của 'dự án chuyển đổi số lớn' — và cách tránh nó"
-description: "Nhiều doanh nghiệp đầu tư lớn vào chuyển đổi số nhưng không đạt kết quả. Bài viết phân tích những bẫy phổ biến và cách tiếp cận thực tế hơn."
-publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/digital-transformation-failure.png'
-category: 'business-operations'
-tags: ['Chuyển đổi số', 'Dự án', 'Rủi ro', 'Triển khai', 'Chiến lược']
-translationId: 'biz-ops-digital-transformation-failure'
-lang: 'vi'
-contentType: 'Case & Evidence'
+﻿---
+title: Bẫy của 'dự án chuyển đổi số lớn' — và cách tránh nó
+description: Nhiều doanh nghiệp đầu tư lớn vào chuyển đổi số nhưng không đạt kết quả.
+  Bài viết phân tích những bẫy phổ biến và cách tiếp cận thực tế hơn.
+publishDate: 2025-09-24 00:00:00+00:00
+image: ~/assets/images/insights/digital-transformation-failure.png
+category: business-operations
+tags:
+- Chuyển đổi số
+- Dự án
+- Rủi ro
+- Triển khai
+- Chiến lược
+translationId: biz-ops-digital-transformation-failure
+lang: vi
+contentType: Case & Evidence
 funnelStage:
-  - Understanding
-audience: ['CEO', 'COO']
-primaryKeyword: 'dự án chuyển đổi số thất bại'
+- Understanding
+audience:
+- CEO
+- COO
+primaryKeyword: dự án chuyển đổi số thất bại
 secondaryKeywords:
-  - "digital transformation thất bại"
-  - "tại sao chuyển đổi số không thành công"
-  - "rủi ro dự án số hóa"
-  - "bài học chuyển đổi số"
-assessmentHref: '/readiness/digitalization'
-ctaPrimaryText: 'Digital Transformation Maturity Assessment'
-ctaSubtitle: 'Hiểu rõ mức độ trưởng thành số hóa của bạn và bước tiếp theo có ý nghĩa'
+- digital transformation thất bại
+- tại sao chuyển đổi số không thành công
+- rủi ro dự án số hóa
+- bài học chuyển đổi số
+assessmentHref: /readiness/digitalization
+ctaPrimaryText: Làm Digital Transformation Maturity Assessment
+ctaSubtitle: Hiểu rõ mức độ trưởng thành số hóa của bạn và bước tiếp theo có ý nghĩa
 draft: false
 ---
 

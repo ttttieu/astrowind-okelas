@@ -1,31 +1,37 @@
----
-title: "Từ Request → Approval sang Event → Action: khi nào hành động không cần chờ duyệt"
-description: "Phần lớn độ trễ chờ duyệt đến từ những quyết định đơn giản, lặp lại phải đi qua quy trình dành cho quyết định phức tạp. Event → Action chuyển phê duyệt từ từng ca sang cấp rule: người có thẩm quyền quyết định trước, sự kiện chỉ kích hoạt rule đã được duyệt."
-publishDate: 2026-09-23T00:00:00Z
-updatedDate: 2026-10-06T00:00:00Z
+﻿---
+title: 'Từ Request → Approval sang Event → Action: khi nào hành động không cần chờ
+  duyệt'
+description: 'Phần lớn độ trễ chờ duyệt đến từ những quyết định đơn giản, lặp lại
+  phải đi qua quy trình dành cho quyết định phức tạp. Event → Action chuyển phê duyệt
+  từ từng ca sang cấp rule: người có thẩm quyền quyết định trước, sự kiện chỉ kích
+  hoạt rule đã được duyệt.'
+publishDate: 2026-09-23 00:00:00+00:00
+updatedDate: 2026-10-06 00:00:00+00:00
 translationId: article-5-9-request-approval-to-event-action
 lang: vi
 category: workflow
 contentType: Analysis
 funnelStage:
-  - Understanding
+- Understanding
 audience:
-  - COO
-  - CIO
-  - Operations Director
-primaryKeyword: "event-driven workflow phê duyệt"
+- COO
+- CIO
+- Operations Director
+primaryKeyword: event-driven workflow phê duyệt
 secondaryKeywords:
-  - "request approval workflow"
-  - "phê duyệt theo ngưỡng"
-  - "event-driven workflow"
-  - "rule workflow"
-  - "tự động hóa quy trình phê duyệt"
+- request approval workflow
+- phê duyệt theo ngưỡng
+- event-driven workflow
+- rule workflow
+- tự động hóa quy trình phê duyệt
 assessmentHref: /readiness/workflow
-coverImage: '~/assets/images/insights/tu-request-approval-sang-event-action/wfr-00-og-cover-vi.png'
-ogImage: '~/assets/images/insights/tu-request-approval-sang-event-action/wfr-00-og-cover-vi.png'
-coverImageAlt: "Request → Approval có bước chờ duyệt ở giữa mỗi ca; Event → Action dùng rule do người có thẩm quyền ban hành trước để hành động đúng lúc, và chuyển ca ngoài rule cho con người phán đoán."
-ctaPrimaryText: 'Workflow Readiness Assessment'
-ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
+coverImage: ~/assets/images/insights/tu-request-approval-sang-event-action/wfr-00-og-cover-vi.png
+ogImage: ~/assets/images/insights/tu-request-approval-sang-event-action/wfr-00-og-cover-vi.png
+coverImageAlt: Request → Approval có bước chờ duyệt ở giữa mỗi ca; Event → Action
+  dùng rule do người có thẩm quyền ban hành trước để hành động đúng lúc, và chuyển
+  ca ngoài rule cho con người phán đoán.
+ctaPrimaryText: Làm Workflow Readiness Assessment
+ctaSubtitle: Workflow của bạn đang vận hành như thế nào?
 draft: false
 ---
 

@@ -1,27 +1,38 @@
----
-title: "Dữ liệu có nhưng AI không dùng được — vấn đề thực sự là gì?"
-description: "Nhiều doanh nghiệp có đủ dữ liệu nhưng AI vẫn không trả lời được câu hỏi vận hành. Vấn đề không phải là thiếu dữ liệu mà là thiếu context. Bài viết giải thích sự khác biệt."
-publishDate: 2025-09-24T00:00:00Z
-coverImage: '~/assets/images/insights/du-lieu-khong-co-context-ai/dwc-00-og-cover-vi.png'
-ogImage: '~/assets/images/insights/du-lieu-khong-co-context-ai/dwc-00-og-cover-vi.png'
-coverImageAlt: "Bên trái là dữ liệu thô (25°C, 48h, 500 kg); bên phải là dữ liệu có context, với vòng tròn ý nghĩa vận hành."
-category: 'ai'
-tags: ['Data Context', 'Organizational Context', 'AI Implementation', 'Data Strategy']
-translationId: 'data-without-context-ai'
-lang: 'vi'
-contentType: 'Analysis'
+﻿---
+title: Dữ liệu có nhưng AI không dùng được — vấn đề thực sự là gì?
+description: Nhiều doanh nghiệp có đủ dữ liệu nhưng AI vẫn không trả lời được câu
+  hỏi vận hành. Vấn đề không phải là thiếu dữ liệu mà là thiếu context. Bài viết giải
+  thích sự khác biệt.
+publishDate: 2025-09-24 00:00:00+00:00
+coverImage: ~/assets/images/insights/du-lieu-khong-co-context-ai/dwc-00-og-cover-vi.png
+ogImage: ~/assets/images/insights/du-lieu-khong-co-context-ai/dwc-00-og-cover-vi.png
+coverImageAlt: Bên trái là dữ liệu thô (25°C, 48h, 500 kg); bên phải là dữ liệu có
+  context, với vòng tròn ý nghĩa vận hành.
+category: ai
+tags:
+- Data Context
+- Organizational Context
+- AI Implementation
+- Data Strategy
+translationId: data-without-context-ai
+lang: vi
+contentType: Analysis
 funnelStage:
-  - Understanding
-audience: ['CEO', 'CIO', 'IT Manager', 'Operations Director']
-primaryKeyword: 'dữ liệu doanh nghiệp context AI'
+- Understanding
+audience:
+- CEO
+- CIO
+- IT Manager
+- Operations Director
+primaryKeyword: dữ liệu doanh nghiệp context AI
 secondaryKeywords:
-  - 'data context AI'
-  - 'dữ liệu thiếu context'
-  - 'AI cần gì từ dữ liệu'
-  - 'organizational context AI'
-assessmentHref: '/readiness/ai'
-ctaPrimaryText: 'Assess your AI readiness'
-ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
+- data context AI
+- dữ liệu thiếu context
+- AI cần gì từ dữ liệu
+- organizational context AI
+assessmentHref: /readiness/ai
+ctaPrimaryText: Làm AI Readiness Assessment
+ctaSubtitle: Xác định mức độ sẵn sàng AI của doanh nghiệp bạn
 draft: false
 ---
 

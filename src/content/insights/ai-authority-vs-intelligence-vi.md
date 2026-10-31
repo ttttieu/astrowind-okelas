@@ -1,29 +1,31 @@
----
-title: "AI cần Authority, không chỉ Intelligence"
-description: "AI biết cách làm một việc không có nghĩa AI được phép làm việc đó. Intelligence và Authority là hai chiều khác nhau — và doanh nghiệp cần quản lý cả hai."
-publishDate: 2026-09-23T00:00:00Z
-coverImage: '~/assets/images/insights/ai-authority-vs-intelligence-vi/aaav-00-og-cover-vi.png'
-ogImage: '~/assets/images/insights/ai-authority-vs-intelligence-vi/aaav-00-og-cover-vi.png'
-coverImageAlt: "Hai hộp xếp chồng \"Intelligence\" và \"Authority\", có dấu ngoặc nhọn bên phải ghi \"Quản lý cả hai\"."
+﻿---
+title: AI cần Authority, không chỉ Intelligence
+description: AI biết cách làm một việc không có nghĩa AI được phép làm việc đó. Intelligence
+  và Authority là hai chiều khác nhau — và doanh nghiệp cần quản lý cả hai.
+publishDate: 2026-09-23 00:00:00+00:00
+coverImage: ~/assets/images/insights/ai-authority-vs-intelligence-vi/aaav-00-og-cover-vi.png
+ogImage: ~/assets/images/insights/ai-authority-vs-intelligence-vi/aaav-00-og-cover-vi.png
+coverImageAlt: Hai hộp xếp chồng "Intelligence" và "Authority", có dấu ngoặc nhọn
+  bên phải ghi "Quản lý cả hai".
 translationId: article-6-11-authority-vs-intelligence
 lang: vi
 category: ai
 contentType: Analysis
 funnelStage:
-  - Understanding
+- Understanding
 audience:
-  - CEO
-  - CIO
-  - COO
-primaryKeyword: "AI authority intelligence khác nhau"
+- CEO
+- CIO
+- COO
+primaryKeyword: AI authority intelligence khác nhau
 secondaryKeywords:
-  - "AI intelligence vs authority"
-  - "quyền hạn AI"
-  - "AI được phép làm gì"
-  - "AI authorization"
+- AI intelligence vs authority
+- quyền hạn AI
+- AI được phép làm gì
+- AI authorization
 assessmentHref: /readiness/ai
-ctaPrimaryText: 'Assess your AI readiness'
-ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
+ctaPrimaryText: Làm AI Readiness Assessment
+ctaSubtitle: Xác định mức độ sẵn sàng AI của doanh nghiệp bạn
 draft: false
 ---
 

@@ -1,28 +1,31 @@
----
-title: "Agentic AI khác AI Assistant như thế nào?"
-description: "AI assistant nhận prompt và trả lời. Agentic AI nhận goal, lập kế hoạch, chọn tool và thực hiện action. Đây là sự khác biệt căn bản tạo ra control problem hoàn toàn khác."
-publishDate: 2025-09-24T00:00:00Z
-coverImage: '~/assets/images/insights/agentic-ai-vs-ai-assistant-vi/agc-00-og-cover-vi.png'
-ogImage: '~/assets/images/insights/agentic-ai-vs-ai-assistant-vi/agc-00-og-cover-vi.png'
-coverImageAlt: "Bên trái là một hộp trả lời một lượt; bên phải là ba nút tạo thành vòng lặp nghĩ, làm và xem."
+﻿---
+title: Agentic AI khác AI Assistant như thế nào?
+description: AI assistant nhận prompt và trả lời. Agentic AI nhận goal, lập kế hoạch,
+  chọn tool và thực hiện action. Đây là sự khác biệt căn bản tạo ra control problem
+  hoàn toàn khác.
+publishDate: 2025-09-24 00:00:00+00:00
+coverImage: ~/assets/images/insights/agentic-ai-vs-ai-assistant-vi/agc-00-og-cover-vi.png
+ogImage: ~/assets/images/insights/agentic-ai-vs-ai-assistant-vi/agc-00-og-cover-vi.png
+coverImageAlt: Bên trái là một hộp trả lời một lượt; bên phải là ba nút tạo thành
+  vòng lặp nghĩ, làm và xem.
 translationId: article-6-3-agentic-vs-assistant
 lang: vi
 category: ai
 contentType: Analysis
 funnelStage:
-  - Understanding
+- Understanding
 audience:
-  - CIO
-  - CEO
-primaryKeyword: "agentic AI khác AI assistant"
+- CIO
+- CEO
+primaryKeyword: agentic AI khác AI assistant
 secondaryKeywords:
-  - "agentic AI là gì"
-  - "AI assistant vs agentic"
-  - "prompt response vs goal action"
-  - "AI tự chủ"
+- agentic AI là gì
+- AI assistant vs agentic
+- prompt response vs goal action
+- AI tự chủ
 assessmentHref: /readiness/ai
-ctaPrimaryText: 'Assess your AI readiness'
-ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
+ctaPrimaryText: Làm AI Readiness Assessment
+ctaSubtitle: Xác định mức độ sẵn sàng AI của doanh nghiệp bạn
 draft: false
 ---
 

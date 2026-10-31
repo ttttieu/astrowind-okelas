@@ -1,29 +1,32 @@
----
-title: "Từ ERP implementation đến ERP adoption — khoảng cách ít ai nói tới"
-description: "Go-live chỉ là điểm bắt đầu. Nhiều doanh nghiệp nhầm lẫn giữa việc hoàn thành implementation và thực sự khai thác được ERP. Bài viết phân tích khoảng cách này. |"
-publishDate: 2026-09-24T00:00:00Z
+﻿---
+title: Từ ERP implementation đến ERP adoption — khoảng cách ít ai nói tới
+description: Go-live chỉ là điểm bắt đầu. Nhiều doanh nghiệp nhầm lẫn giữa việc hoàn
+  thành implementation và thực sự khai thác được ERP. Bài viết phân tích khoảng cách
+  này. |
+publishDate: 2026-09-24 00:00:00+00:00
 translationId: erp-implementation-vs-adoption-gap
 lang: vi
 category: erp
 contentType: Case & Evidence
 funnelStage:
-  - Consideration
+- Consideration
 assessmentHref: /readiness/erp
 audience:
-  - COO
-  - Operations Director
-  - Project Manager
-primaryKeyword: "ERP implementation vs ERP adoption |"
+- COO
+- Operations Director
+- Project Manager
+primaryKeyword: ERP implementation vs ERP adoption |
 secondaryKeywords:
-  - "sau khi go-live ERP"
-  - "ERP không tạo ra kết quả"
-  - "khai thác ERP sau triển khai"
-  - "ERP adoption |"
-ctaPrimaryText: 'Assess your ERP readiness'
-ctaSubtitle: 'Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn'
-coverImage: '~/assets/images/insights/erpi-00-og-cover-vi.png'
-ogImage: '~/assets/images/insights/erpi-00-og-cover-vi.png'
-coverImageAlt: "Một nút go-live và một nút adoption nét đứt được nối bằng đường nét đứt có nhãn khoảng cách, thể hiện lộ trình sau go-live có chủ đích."
+- sau khi go-live ERP
+- ERP không tạo ra kết quả
+- khai thác ERP sau triển khai
+- ERP adoption |
+ctaPrimaryText: Làm ERP Readiness Assessment
+ctaSubtitle: Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn
+coverImage: ~/assets/images/insights/erpi-00-og-cover-vi.png
+ogImage: ~/assets/images/insights/erpi-00-og-cover-vi.png
+coverImageAlt: Một nút go-live và một nút adoption nét đứt được nối bằng đường nét
+  đứt có nhãn khoảng cách, thể hiện lộ trình sau go-live có chủ đích.
 draft: false
 ---
 

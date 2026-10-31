@@ -1,29 +1,32 @@
----
-title: "AI cần một Control Layer: lớp nằm giữa agent và organizational knowledge"
-description: "Giữa AI agent và các hệ thống doanh nghiệp cần có một lớp kiểm soát: xác định quyền truy cập, trace hành động, kiểm chứng evidence và đảm bảo AI hoạt động trong boundary được phép."
-publishDate: 2026-09-23T00:00:00Z
-coverImage: '~/assets/images/insights/ai-control-layer-doanh-nghiep/aecl-00-og-cover-vi.png'
-ogImage: '~/assets/images/insights/ai-control-layer-doanh-nghiep/aecl-00-og-cover-vi.png'
-coverImageAlt: "Ba khối xếp chồng: AI agent, control layer ở giữa được tô nổi bật, và tổ chức ở dưới."
+﻿---
+title: 'AI cần một Control Layer: lớp nằm giữa agent và organizational knowledge'
+description: 'Giữa AI agent và các hệ thống doanh nghiệp cần có một lớp kiểm soát:
+  xác định quyền truy cập, trace hành động, kiểm chứng evidence và đảm bảo AI hoạt
+  động trong boundary được phép.'
+publishDate: 2026-09-23 00:00:00+00:00
+coverImage: ~/assets/images/insights/ai-control-layer-doanh-nghiep/aecl-00-og-cover-vi.png
+ogImage: ~/assets/images/insights/ai-control-layer-doanh-nghiep/aecl-00-og-cover-vi.png
+coverImageAlt: 'Ba khối xếp chồng: AI agent, control layer ở giữa được tô nổi bật,
+  và tổ chức ở dưới.'
 translationId: article-6-13-control-layer-architecture
 lang: vi
 category: ai
 contentType: Analysis
 funnelStage:
-  - Consideration
+- Consideration
 audience:
-  - CIO
-  - CEO
-  - COO
-primaryKeyword: "AI control layer doanh nghiệp"
+- CIO
+- CEO
+- COO
+primaryKeyword: AI control layer doanh nghiệp
 secondaryKeywords:
-  - "AI governance layer"
-  - "lớp kiểm soát AI"
-  - "AI agent control"
-  - "enterprise AI governance"
+- AI governance layer
+- lớp kiểm soát AI
+- AI agent control
+- enterprise AI governance
 assessmentHref: /readiness/ai
-ctaPrimaryText: 'Assess your AI readiness'
-ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
+ctaPrimaryText: Làm AI Readiness Assessment
+ctaSubtitle: Xác định mức độ sẵn sàng AI của doanh nghiệp bạn
 draft: false
 ---
 

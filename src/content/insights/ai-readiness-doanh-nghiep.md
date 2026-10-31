@@ -1,30 +1,40 @@
 ﻿---
-title: "AI Readiness — Tại Sao AI Không Tự Động Làm Doanh Nghiệp Thông Minh Hơn"
-description: "Nhiều doanh nghiệp đã dùng AI nhưng không thấy kết quả ở cấp tổ chức. Bài viết phân tích điều kiện thực sự để AI tạo ra giá trị trong vận hành."
-publishDate: 2025-09-24T00:00:00Z
-coverImage: '~/assets/images/insights/ai-readiness-doanh-nghiep/aip-00-og-cover-vi.png'
-ogImage: '~/assets/images/insights/ai-readiness-doanh-nghiep/aip-00-og-cover-vi.png'
-coverImageAlt: "Một nút AI productivity đơn lẻ ở bên trái, sáu khối nền tảng nâng đỡ nút organizational intelligence ở bên phải."
-category: 'ai'
-tags: ['AI Readiness', 'Organizational Intelligence', 'AI Implementation', 'Manufacturing']
-translationId: 'organizational-ai-readiness'
-lang: 'vi'
-contentType: 'Pillar'
+title: AI Readiness — Tại Sao AI Không Tự Động Làm Doanh Nghiệp Thông Minh Hơn
+description: Nhiều doanh nghiệp đã dùng AI nhưng không thấy kết quả ở cấp tổ chức.
+  Bài viết phân tích điều kiện thực sự để AI tạo ra giá trị trong vận hành.
+publishDate: 2025-09-24 00:00:00+00:00
+coverImage: ~/assets/images/insights/ai-readiness-doanh-nghiep/aip-00-og-cover-vi.png
+ogImage: ~/assets/images/insights/ai-readiness-doanh-nghiep/aip-00-og-cover-vi.png
+coverImageAlt: Một nút AI productivity đơn lẻ ở bên trái, sáu khối nền tảng nâng đỡ
+  nút organizational intelligence ở bên phải.
+category: ai
+tags:
+- AI Readiness
+- Organizational Intelligence
+- AI Implementation
+- Manufacturing
+translationId: organizational-ai-readiness
+lang: vi
+contentType: Pillar
 funnelStage:
-  - Awareness
-  - Understanding
-  - Consideration
-audience: ['CEO', 'COO', 'CIO', 'Operations Director']
-primaryKeyword: 'AI readiness doanh nghiệp'
+- Awareness
+- Understanding
+- Consideration
+audience:
+- CEO
+- COO
+- CIO
+- Operations Director
+primaryKeyword: AI readiness doanh nghiệp
 secondaryKeywords:
-  - 'sẵn sàng triển khai AI'
-  - 'AI cho doanh nghiệp sản xuất'
-  - 'ứng dụng AI vận hành'
-  - 'AI không hiệu quả'
-  - 'organizational AI'
-assessmentHref: '/readiness/ai'
-ctaPrimaryText: 'Assess your AI readiness'
-ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
+- sẵn sàng triển khai AI
+- AI cho doanh nghiệp sản xuất
+- ứng dụng AI vận hành
+- AI không hiệu quả
+- organizational AI
+assessmentHref: /readiness/ai
+ctaPrimaryText: Làm AI Readiness Assessment
+ctaSubtitle: Xác định mức độ sẵn sàng AI của doanh nghiệp bạn
 draft: false
 ---
 

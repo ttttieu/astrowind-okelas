@@ -1,29 +1,32 @@
----
-title: "Least Privilege cho AI Agent: nguyên tắc thiết kế quyền hạn AI"
-description: "AI agent chỉ nên được cấp quyền tối thiểu cần thiết cho task cụ thể — không hơn. Bài viết phân tích nguyên tắc least privilege trong ngữ cảnh AI và cách áp dụng trong enterprise."
-publishDate: 2026-09-23T00:00:00Z
-coverImage: '~/assets/images/insights/least-privilege-cho-ai/alp-00-og-cover-vi.png'
-ogImage: '~/assets/images/insights/least-privilege-cho-ai/alp-00-og-cover-vi.png'
-coverImageAlt: "Bốn bậc thang tăng dần, nhãn Read, Request, Recommend, Execute; bậc cao nhất được tô nổi bật."
+﻿---
+title: 'Least Privilege cho AI Agent: nguyên tắc thiết kế quyền hạn AI'
+description: AI agent chỉ nên được cấp quyền tối thiểu cần thiết cho task cụ thể —
+  không hơn. Bài viết phân tích nguyên tắc least privilege trong ngữ cảnh AI và cách
+  áp dụng trong enterprise.
+publishDate: 2026-09-23 00:00:00+00:00
+coverImage: ~/assets/images/insights/least-privilege-cho-ai/alp-00-og-cover-vi.png
+ogImage: ~/assets/images/insights/least-privilege-cho-ai/alp-00-og-cover-vi.png
+coverImageAlt: Bốn bậc thang tăng dần, nhãn Read, Request, Recommend, Execute; bậc
+  cao nhất được tô nổi bật.
 translationId: article-6-12-least-privilege
 lang: vi
 category: ai
 contentType: Analysis
 funnelStage:
-  - Consideration
+- Consideration
 audience:
-  - CIO
-  - IT Architect
-  - Security
-primaryKeyword: "least privilege AI agent"
+- CIO
+- IT Architect
+- Security
+primaryKeyword: least privilege AI agent
 secondaryKeywords:
-  - "AI agent permissions"
-  - "giới hạn quyền hạn AI"
-  - "AI access control"
-  - "AI privilege management"
+- AI agent permissions
+- giới hạn quyền hạn AI
+- AI access control
+- AI privilege management
 assessmentHref: /readiness/ai
-ctaPrimaryText: 'Assess your AI readiness'
-ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
+ctaPrimaryText: Làm AI Readiness Assessment
+ctaSubtitle: Xác định mức độ sẵn sàng AI của doanh nghiệp bạn
 draft: false
 ---
 

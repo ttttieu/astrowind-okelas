@@ -1,27 +1,37 @@
----
-title: "AI Agent trong doanh nghiệp — không phải chatbot, không phải con người"
-description: "AI agent không phải chatbot thông thường và cũng không thay thế con người. Bài viết giải thích AI agent là gì, làm được gì và điều kiện để triển khai trong vận hành thực tế."
-publishDate: 2025-09-24T00:00:00Z
-coverImage: '~/assets/images/insights/ai-agent-doanh-nghiep/agt-00-og-cover-vi.png'
-ogImage: '~/assets/images/insights/ai-agent-doanh-nghiep/agt-00-og-cover-vi.png'
-coverImageAlt: "Bên trái là chatbot hỏi-đáp; bên phải là agent thực hiện chuỗi bước: mục tiêu, bước, kiểm tra."
-category: 'ai'
-tags: ['AI Agent', 'Workflow Automation', 'Enterprise AI', 'Operational AI']
-translationId: 'ai-agents-for-business'
-lang: 'vi'
-contentType: 'Analysis'
+﻿---
+title: AI Agent trong doanh nghiệp — không phải chatbot, không phải con người
+description: AI agent không phải chatbot thông thường và cũng không thay thế con người.
+  Bài viết giải thích AI agent là gì, làm được gì và điều kiện để triển khai trong
+  vận hành thực tế.
+publishDate: 2025-09-24 00:00:00+00:00
+coverImage: ~/assets/images/insights/ai-agent-doanh-nghiep/agt-00-og-cover-vi.png
+ogImage: ~/assets/images/insights/ai-agent-doanh-nghiep/agt-00-og-cover-vi.png
+coverImageAlt: 'Bên trái là chatbot hỏi-đáp; bên phải là agent thực hiện chuỗi bước:
+  mục tiêu, bước, kiểm tra.'
+category: ai
+tags:
+- AI Agent
+- Workflow Automation
+- Enterprise AI
+- Operational AI
+translationId: ai-agents-for-business
+lang: vi
+contentType: Analysis
 funnelStage:
-  - Understanding
-audience: ['CEO', 'CIO', 'Operations Director']
-primaryKeyword: 'AI agent doanh nghiệp vận hành'
+- Understanding
+audience:
+- CEO
+- CIO
+- Operations Director
+primaryKeyword: AI agent doanh nghiệp vận hành
 secondaryKeywords:
-  - "AI agent là gì"
-  - "AI agent vận hành"
-  - "agentic AI"
-  - "AI tự động doanh nghiệp"
-assessmentHref: '/readiness/ai'
-ctaPrimaryText: 'Assess your AI readiness'
-ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
+- AI agent là gì
+- AI agent vận hành
+- agentic AI
+- AI tự động doanh nghiệp
+assessmentHref: /readiness/ai
+ctaPrimaryText: Làm AI Readiness Assessment
+ctaSubtitle: Xác định mức độ sẵn sàng AI của doanh nghiệp bạn
 draft: false
 ---
 

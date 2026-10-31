@@ -1,25 +1,33 @@
----
-title: "Chi phí thực sự của việc không số hóa — những thứ ít ai tính vào"
-description: "Doanh nghiệp thường lo ngại chi phí đầu tư số hóa. Nhưng ít ai tính đầy đủ chi phí của việc không số hóa. Bài viết phân tích các chi phí ẩn này."
-publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/cost-of-not-digitalizing.png'
-category: 'business-operations'
-tags: ['Phân tích chi phí', 'Số hóa', 'ROI', 'Vận hành', 'Tác động tài chính']
-translationId: 'biz-ops-cost-of-not-digitalizing'
-lang: 'vi'
-contentType: 'Case & Evidence'
+﻿---
+title: Chi phí thực sự của việc không số hóa — những thứ ít ai tính vào
+description: Doanh nghiệp thường lo ngại chi phí đầu tư số hóa. Nhưng ít ai tính đầy
+  đủ chi phí của việc không số hóa. Bài viết phân tích các chi phí ẩn này.
+publishDate: 2025-09-24 00:00:00+00:00
+image: ~/assets/images/insights/cost-of-not-digitalizing.png
+category: business-operations
+tags:
+- Phân tích chi phí
+- Số hóa
+- ROI
+- Vận hành
+- Tác động tài chính
+translationId: biz-ops-cost-of-not-digitalizing
+lang: vi
+contentType: Case & Evidence
 funnelStage:
-  - Understanding
-audience: ['CEO', 'CFO']
-primaryKeyword: 'chi phí không số hóa doanh nghiệp'
+- Understanding
+audience:
+- CEO
+- CFO
+primaryKeyword: chi phí không số hóa doanh nghiệp
 secondaryKeywords:
-  - "rủi ro không chuyển đổi số"
-  - "chi phí ẩn vận hành thủ công"
-  - "tại sao cần số hóa"
-  - "ROI số hóa"
-assessmentHref: '/readiness/digitalization'
-ctaPrimaryText: 'Digital Transformation Maturity Assessment'
-ctaSubtitle: 'Hiểu rõ mức độ trưởng thành số hóa của bạn và bước tiếp theo có ý nghĩa'
+- rủi ro không chuyển đổi số
+- chi phí ẩn vận hành thủ công
+- tại sao cần số hóa
+- ROI số hóa
+assessmentHref: /readiness/digitalization
+ctaPrimaryText: Làm Digital Transformation Maturity Assessment
+ctaSubtitle: Hiểu rõ mức độ trưởng thành số hóa của bạn và bước tiếp theo có ý nghĩa
 draft: false
 ---
 

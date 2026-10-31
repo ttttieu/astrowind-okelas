@@ -1,28 +1,31 @@
----
-title: "KVM là gì: lớp nằm giữa AI agent và organizational knowledge"
-description: "KVM là lớp nằm giữa AI agent và organizational knowledge của doanh nghiệp, giúp AI truy xuất evidence đúng, hiểu context và hoạt động trong boundary được xác định — không phải chatbot, không phải RAG thông thường."
-publishDate: 2026-09-23T00:00:00Z
-coverImage: '~/assets/images/insights/kvm-la-gi/akvm-00-og-cover-vi.png'
-ogImage: '~/assets/images/insights/kvm-la-gi/akvm-00-og-cover-vi.png'
-coverImageAlt: "Ba khối nối bằng mũi tên: AI agent, KVM được tô nổi bật ở giữa, và tri thức tổ chức; dưới KVM có dòng chú thích."
+﻿---
+title: 'KVM là gì: lớp nằm giữa AI agent và organizational knowledge'
+description: KVM là lớp nằm giữa AI agent và organizational knowledge của doanh nghiệp,
+  giúp AI truy xuất evidence đúng, hiểu context và hoạt động trong boundary được xác
+  định — không phải chatbot, không phải RAG thông thường.
+publishDate: 2026-09-23 00:00:00+00:00
+coverImage: ~/assets/images/insights/kvm-la-gi/akvm-00-og-cover-vi.png
+ogImage: ~/assets/images/insights/kvm-la-gi/akvm-00-og-cover-vi.png
+coverImageAlt: 'Ba khối nối bằng mũi tên: AI agent, KVM được tô nổi bật ở giữa, và
+  tri thức tổ chức; dưới KVM có dòng chú thích.'
 translationId: article-6-14-what-is-kvm
 lang: vi
 category: ai
 contentType: Analysis
 funnelStage:
-  - Consideration
+- Consideration
 audience:
-  - CIO
-  - CEO
-primaryKeyword: "KVM Knowledge Virtual Machine"
+- CIO
+- CEO
+primaryKeyword: KVM Knowledge Virtual Machine
 secondaryKeywords:
-  - "KVM là gì"
-  - "AI organizational knowledge layer"
-  - "AI evidence retrieval"
-  - "knowledge management AI control"
+- KVM là gì
+- AI organizational knowledge layer
+- AI evidence retrieval
+- knowledge management AI control
 assessmentHref: /readiness/ai
-ctaPrimaryText: 'Assess your AI readiness'
-ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
+ctaPrimaryText: Làm AI Readiness Assessment
+ctaSubtitle: Xác định mức độ sẵn sàng AI của doanh nghiệp bạn
 draft: false
 ---
 

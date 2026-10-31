@@ -1,26 +1,39 @@
 ﻿---
-title: "AI Productivity và Organizational Intelligence — Hai Khái Niệm Khác Nhau Mà CEO Cần Phân Biệt"
-description: "AI giúp cá nhân làm việc nhanh hơn. Nhưng một tổ chức gồm nhiều cá nhân dùng AI không tự nhiên trở thành tổ chức thông minh hơn. Đây là sự khác biệt quan trọng."
-publishDate: 2025-09-24T00:00:00Z
-coverImage: '~/assets/images/insights/ai-nang-suat-va-tri-thuc-tong-the/aiop-00-og-cover-vi.png'
-ogImage: '~/assets/images/insights/ai-nang-suat-va-tri-thuc-tong-the/aiop-00-og-cover-vi.png'
-coverImageAlt: "Năm cột xanh tăng dần ở bên trái đại diện cho năng suất từng cá nhân; năm cột viền đứt nét tím ở bên phải còn trống, đại diện cho kết quả tổ chức không tự động đi theo."
-category: 'ai'
-tags: ['AI Productivity', 'Organizational Intelligence', 'Business Impact', 'Strategy']
-translationId: 'ai-productivity-vs-organizational-intelligence'
-lang: 'vi'
-contentType: 'Analysis'
+title: AI Productivity và Organizational Intelligence — Hai Khái Niệm Khác Nhau Mà
+  CEO Cần Phân Biệt
+description: AI giúp cá nhân làm việc nhanh hơn. Nhưng một tổ chức gồm nhiều cá nhân
+  dùng AI không tự nhiên trở thành tổ chức thông minh hơn. Đây là sự khác biệt quan
+  trọng.
+publishDate: 2025-09-24 00:00:00+00:00
+coverImage: ~/assets/images/insights/ai-nang-suat-va-tri-thuc-tong-the/aiop-00-og-cover-vi.png
+ogImage: ~/assets/images/insights/ai-nang-suat-va-tri-thuc-tong-the/aiop-00-og-cover-vi.png
+coverImageAlt: Năm cột xanh tăng dần ở bên trái đại diện cho năng suất từng cá nhân;
+  năm cột viền đứt nét tím ở bên phải còn trống, đại diện cho kết quả tổ chức không
+  tự động đi theo.
+category: ai
+tags:
+- AI Productivity
+- Organizational Intelligence
+- Business Impact
+- Strategy
+translationId: ai-productivity-vs-organizational-intelligence
+lang: vi
+contentType: Analysis
 funnelStage:
-  - Understanding
-audience: ['CEO', 'COO', 'CIO', 'Operations Director']
-primaryKeyword: 'AI productivity và organizational intelligence'
+- Understanding
+audience:
+- CEO
+- COO
+- CIO
+- Operations Director
+primaryKeyword: AI productivity và organizational intelligence
 secondaryKeywords:
-  - 'tổ chức thông minh AI'
-  - 'AI cho vận hành doanh nghiệp'
-  - 'AI cá nhân vs AI tổ chức'
-assessmentHref: '/readiness/ai'
-ctaPrimaryText: 'Assess your AI readiness'
-ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
+- tổ chức thông minh AI
+- AI cho vận hành doanh nghiệp
+- AI cá nhân vs AI tổ chức
+assessmentHref: /readiness/ai
+ctaPrimaryText: Làm AI Readiness Assessment
+ctaSubtitle: Xác định mức độ sẵn sàng AI của doanh nghiệp bạn
 draft: false
 ---
 

@@ -1,29 +1,32 @@
----
-title: "Quy trình chưa chuẩn hóa — rủi ro lớn nhất trước khi triển khai ERP"
-description: "ERP không thể tự chuẩn hóa quy trình của doanh nghiệp. Bài viết phân tích tại sao process readiness là điều kiện tiên quyết — và cách đánh giá mức độ sẵn sàng. |"
-publishDate: 2026-09-24T00:00:00Z
+﻿---
+title: Quy trình chưa chuẩn hóa — rủi ro lớn nhất trước khi triển khai ERP
+description: ERP không thể tự chuẩn hóa quy trình của doanh nghiệp. Bài viết phân
+  tích tại sao process readiness là điều kiện tiên quyết — và cách đánh giá mức độ
+  sẵn sàng. |
+publishDate: 2026-09-24 00:00:00+00:00
 translationId: process-standardization-erp
 lang: vi
 category: erp
 contentType: Analysis
 funnelStage:
-  - Understanding
+- Understanding
 audience:
-  - CEO
-  - COO
-  - Operations Director
-primaryKeyword: "chuẩn hóa quy trình trước khi triển khai ERP |"
+- CEO
+- COO
+- Operations Director
+primaryKeyword: chuẩn hóa quy trình trước khi triển khai ERP |
 secondaryKeywords:
-  - "quy trình doanh nghiệp sản xuất"
-  - "process readiness ERP"
-  - "tài liệu hóa quy trình"
-  - "SOP trước ERP |"
+- quy trình doanh nghiệp sản xuất
+- process readiness ERP
+- tài liệu hóa quy trình
+- SOP trước ERP |
 assessmentHref: /readiness/erp
-ctaPrimaryText: 'Assess your ERP readiness'
-ctaSubtitle: 'Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn'
-coverImage: '~/assets/images/insights/erps-00-og-cover-vi.png'
-ogImage: '~/assets/images/insights/erps-00-og-cover-vi.png'
-coverImageAlt: "Bốn đường đi khác nhau cho cùng một việc hội tụ thành một đường nhất quán trước khi vào khối ERP."
+ctaPrimaryText: Làm ERP Readiness Assessment
+ctaSubtitle: Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn
+coverImage: ~/assets/images/insights/erps-00-og-cover-vi.png
+ogImage: ~/assets/images/insights/erps-00-og-cover-vi.png
+coverImageAlt: Bốn đường đi khác nhau cho cùng một việc hội tụ thành một đường nhất
+  quán trước khi vào khối ERP.
 draft: false
 ---
 

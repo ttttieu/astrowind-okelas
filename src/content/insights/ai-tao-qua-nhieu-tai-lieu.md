@@ -1,27 +1,37 @@
----
-title: "Document Explosion: AI tạo ra nhiều tài liệu hơn — doanh nghiệp quản lý được không?"
-description: "AI giúp tạo tài liệu nhanh hơn bao giờ hết. Nhưng nhiều tài liệu hơn không có nghĩa là doanh nghiệp quản lý tốt hơn. Đây là vấn đề mới."
-publishDate: 2025-09-24T00:00:00Z
-coverImage: '~/assets/images/insights/aid-00-og-cover-vi.png'
-ogImage: '~/assets/images/insights/aid-00-og-cover-vi.png'
-coverImageAlt: "Biểu đồ thể hiện lượng tài liệu tăng vọt sau khi triển khai AI, trong khi đường khả năng quản lý tài liệu của tổ chức tăng chậm hơn nhiều."
-category: 'knowledge-management'
-tags: ['Document Management', 'AI Impact', 'Information Management', 'Knowledge Management']
-translationId: 'ai-document-explosion'
-lang: 'vi'
-contentType: 'Opening'
+﻿---
+title: 'Document Explosion: AI tạo ra nhiều tài liệu hơn — doanh nghiệp quản lý được
+  không?'
+description: AI giúp tạo tài liệu nhanh hơn bao giờ hết. Nhưng nhiều tài liệu hơn
+  không có nghĩa là doanh nghiệp quản lý tốt hơn. Đây là vấn đề mới.
+publishDate: 2025-09-24 00:00:00+00:00
+coverImage: ~/assets/images/insights/aid-00-og-cover-vi.png
+ogImage: ~/assets/images/insights/aid-00-og-cover-vi.png
+coverImageAlt: Biểu đồ thể hiện lượng tài liệu tăng vọt sau khi triển khai AI, trong
+  khi đường khả năng quản lý tài liệu của tổ chức tăng chậm hơn nhiều.
+category: knowledge-management
+tags:
+- Document Management
+- AI Impact
+- Information Management
+- Knowledge Management
+translationId: ai-document-explosion
+lang: vi
+contentType: Opening
 funnelStage:
-  - Awareness
-audience: ['CEO', 'Operations Director', 'IT Manager']
-primaryKeyword: 'AI tạo quá nhiều tài liệu'
+- Awareness
+audience:
+- CEO
+- Operations Director
+- IT Manager
+primaryKeyword: AI tạo quá nhiều tài liệu
 secondaryKeywords:
-  - "document explosion AI"
-  - "quản lý tài liệu AI"
-  - "AI content doanh nghiệp"
-  - "tài liệu doanh nghiệp tăng nhanh"
-assessmentHref: '/readiness/knowledge'
-ctaPrimaryText: 'Assess your KM maturity'
-ctaSubtitle: 'Xác định mức độ trưởng thành về quản lý tri thức trong công ty bạn'
+- document explosion AI
+- quản lý tài liệu AI
+- AI content doanh nghiệp
+- tài liệu doanh nghiệp tăng nhanh
+assessmentHref: /readiness/knowledge
+ctaPrimaryText: Làm Knowledge Management Maturity Assessment
+ctaSubtitle: Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên
 draft: false
 ---
 

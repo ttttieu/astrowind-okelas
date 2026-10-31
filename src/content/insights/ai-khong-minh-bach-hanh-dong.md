@@ -1,29 +1,32 @@
----
-title: "AI có thể không minh bạch về cách nó hoàn thành nhiệm vụ"
-description: "Trong một số nghiên cứu có kiểm soát, AI agent đã không báo cáo đầy đủ quá trình ra quyết định. Đây không phải là hành vi phổ biến — nhưng là lý do tại sao audit trail và transparency layer là cần thiết."
-publishDate: 2026-09-23T00:00:00Z
-coverImage: '~/assets/images/insights/ai-khong-minh-bach-hanh-dong/atrn-00-og-cover-vi.png'
-ogImage: '~/assets/images/insights/ai-khong-minh-bach-hanh-dong/atrn-00-og-cover-vi.png'
-coverImageAlt: "Bên trái là hộp lời tự báo cáo; bên phải là hộp bằng chứng độc lập, nối bằng mũi tên nét đứt có nhãn ưu tiên hơn."
+﻿---
+title: AI có thể không minh bạch về cách nó hoàn thành nhiệm vụ
+description: Trong một số nghiên cứu có kiểm soát, AI agent đã không báo cáo đầy đủ
+  quá trình ra quyết định. Đây không phải là hành vi phổ biến — nhưng là lý do tại
+  sao audit trail và transparency layer là cần thiết.
+publishDate: 2026-09-23 00:00:00+00:00
+coverImage: ~/assets/images/insights/ai-khong-minh-bach-hanh-dong/atrn-00-og-cover-vi.png
+ogImage: ~/assets/images/insights/ai-khong-minh-bach-hanh-dong/atrn-00-og-cover-vi.png
+coverImageAlt: Bên trái là hộp lời tự báo cáo; bên phải là hộp bằng chứng độc lập,
+  nối bằng mũi tên nét đứt có nhãn ưu tiên hơn.
 translationId: article-6-7-ai-transparency
 lang: vi
 category: ai
 contentType: Analysis
 funnelStage:
-  - Understanding
+- Understanding
 audience:
-  - CIO
-  - CEO
-  - Risk
-primaryKeyword: "AI không minh bạch hành động"
+- CIO
+- CEO
+- Risk
+primaryKeyword: AI không minh bạch hành động
 secondaryKeywords:
-  - "AI deception research"
-  - "AI transparency"
-  - "AI audit trail"
-  - "AI alignment research"
+- AI deception research
+- AI transparency
+- AI audit trail
+- AI alignment research
 assessmentHref: /readiness/ai
-ctaPrimaryText: 'Assess your AI readiness'
-ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
+ctaPrimaryText: Làm AI Readiness Assessment
+ctaSubtitle: Xác định mức độ sẵn sàng AI của doanh nghiệp bạn
 draft: false
 ---
 

@@ -1,29 +1,32 @@
----
-title: "Scope creep trong ERP — khi dự án ngày càng lớn hơn dự kiến"
-description: "Scope creep là một trong những nguyên nhân phổ biến nhất khiến dự án ERP vượt ngân sách và kéo dài. Bài viết phân tích cơ chế và cách kiểm soát từ đầu. |"
-publishDate: 2026-09-24T00:00:00Z
+﻿---
+title: Scope creep trong ERP — khi dự án ngày càng lớn hơn dự kiến
+description: Scope creep là một trong những nguyên nhân phổ biến nhất khiến dự án
+  ERP vượt ngân sách và kéo dài. Bài viết phân tích cơ chế và cách kiểm soát từ đầu.
+  |
+publishDate: 2026-09-24 00:00:00+00:00
 translationId: erp-scope-creep
 lang: vi
 category: erp
 contentType: Analysis
 funnelStage:
-  - Understanding
+- Understanding
 audience:
-  - COO
-  - Project Manager
-  - IT Director
-primaryKeyword: "scope creep ERP |"
+- COO
+- Project Manager
+- IT Director
+primaryKeyword: scope creep ERP |
 secondaryKeywords:
-  - "ERP project kéo dài"
-  - "ngân sách ERP vượt dự kiến"
-  - "quản lý scope ERP"
-  - "kiểm soát yêu cầu ERP |"
+- ERP project kéo dài
+- ngân sách ERP vượt dự kiến
+- quản lý scope ERP
+- kiểm soát yêu cầu ERP |
 assessmentHref: /readiness/erp
-ctaPrimaryText: 'Assess your ERP readiness'
-ctaSubtitle: 'Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn'
-coverImage: '~/assets/images/insights/erpc-00-og-cover-vi.png'
-ogImage: '~/assets/images/insights/erpc-00-og-cover-vi.png'
-coverImageAlt: "Một khối phạm vi ban đầu và các khối nhỏ cộng dồn thêm, mỗi khối cao hơn khối trước, thể hiện phạm vi dự án lớn dần qua từng yêu cầu."
+ctaPrimaryText: Làm ERP Readiness Assessment
+ctaSubtitle: Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn
+coverImage: ~/assets/images/insights/erpc-00-og-cover-vi.png
+ogImage: ~/assets/images/insights/erpc-00-og-cover-vi.png
+coverImageAlt: Một khối phạm vi ban đầu và các khối nhỏ cộng dồn thêm, mỗi khối cao
+  hơn khối trước, thể hiện phạm vi dự án lớn dần qua từng yêu cầu.
 draft: false
 ---
 

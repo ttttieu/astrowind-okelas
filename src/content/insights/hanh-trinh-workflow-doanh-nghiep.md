@@ -1,32 +1,36 @@
----
-title: "Doanh nghiệp đang ở đâu trên hành trình workflow? Năm cấp và bước tiếp theo có ý nghĩa"
-description: "Năm cấp để CEO/COO tự xác định từng quy trình quan trọng đang ở đâu: thủ công, số hóa, tự động theo rule, biết context, AI hỗ trợ có quản trị. Kèm một câu hỏi chẩn đoán đơn giản và cách chọn bước tiếp theo có ý nghĩa kinh tế."
-publishDate: 2026-10-07T00:00:00Z
+﻿---
+title: Doanh nghiệp đang ở đâu trên hành trình workflow? Năm cấp và bước tiếp theo
+  có ý nghĩa
+description: 'Năm cấp để CEO/COO tự xác định từng quy trình quan trọng đang ở đâu:
+  thủ công, số hóa, tự động theo rule, biết context, AI hỗ trợ có quản trị. Kèm một
+  câu hỏi chẩn đoán đơn giản và cách chọn bước tiếp theo có ý nghĩa kinh tế.'
+publishDate: 2026-10-07 00:00:00+00:00
 translationId: article-5-20-workflow-journey
 lang: vi
 category: workflow
 contentType: Analysis
 funnelStage:
-  - Awareness
-  - Understanding
-  - Consideration
+- Awareness
+- Understanding
+- Consideration
 audience:
-  - CEO
-  - COO
-  - Operations Director
-primaryKeyword: "hành trình workflow doanh nghiệp"
+- CEO
+- COO
+- Operations Director
+primaryKeyword: hành trình workflow doanh nghiệp
 secondaryKeywords:
-  - "mức độ trưởng thành workflow"
-  - "cấp độ tự động hóa workflow"
-  - "workflow rule context AI"
-  - "số hóa quy trình sản xuất SME"
-  - "chọn bước tiếp theo workflow"
+- mức độ trưởng thành workflow
+- cấp độ tự động hóa workflow
+- workflow rule context AI
+- số hóa quy trình sản xuất SME
+- chọn bước tiếp theo workflow
 assessmentHref: /readiness/workflow
-coverImage: '~/assets/images/insights/hanh-trinh-workflow-doanh-nghiep/wfj-00-og-cover-vi.png'
-ogImage: '~/assets/images/insights/hanh-trinh-workflow-doanh-nghiep/wfj-00-og-cover-vi.png'
-coverImageAlt: "Câu hỏi thường gặp 'workflow của mình đang ở mức nào' và câu hỏi hữu ích hơn 'bước tiếp theo có ý nghĩa kinh tế cho quy trình này là gì'."
-ctaPrimaryText: 'Workflow Readiness Assessment'
-ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
+coverImage: ~/assets/images/insights/hanh-trinh-workflow-doanh-nghiep/wfj-00-og-cover-vi.png
+ogImage: ~/assets/images/insights/hanh-trinh-workflow-doanh-nghiep/wfj-00-og-cover-vi.png
+coverImageAlt: Câu hỏi thường gặp 'workflow của mình đang ở mức nào' và câu hỏi hữu
+  ích hơn 'bước tiếp theo có ý nghĩa kinh tế cho quy trình này là gì'.
+ctaPrimaryText: Làm Workflow Readiness Assessment
+ctaSubtitle: Workflow của bạn đang vận hành như thế nào?
 draft: false
 ---
 

@@ -1,28 +1,31 @@
----
-title: "Workflow đã nhanh — còn có thể nhanh hơn không?"
-description: "Nhiều doanh nghiệp đã có workflow tốt. Nhưng 'tốt' không phải là giới hạn. AI và event-driven architecture đang mở ra một tầng mới của tốc độ và độ chính xác trong workflow."
-publishDate: 2026-09-23T00:00:00Z
+﻿---
+title: Workflow đã nhanh — còn có thể nhanh hơn không?
+description: Nhiều doanh nghiệp đã có workflow tốt. Nhưng 'tốt' không phải là giới
+  hạn. AI và event-driven architecture đang mở ra một tầng mới của tốc độ và độ chính
+  xác trong workflow.
+publishDate: 2026-09-23 00:00:00+00:00
 translationId: article-5-7-workflow-next-level
 lang: vi
 category: workflow
 contentType: Opening
 funnelStage:
-  - Awareness
+- Awareness
 audience:
-  - CEO
-  - COO
-primaryKeyword: "cải thiện workflow doanh nghiệp"
+- CEO
+- COO
+primaryKeyword: cải thiện workflow doanh nghiệp
 secondaryKeywords:
-  - "tối ưu workflow"
-  - "workflow nhanh hơn"
-  - "nâng cấp workflow"
-  - "workflow next level"
+- tối ưu workflow
+- workflow nhanh hơn
+- nâng cấp workflow
+- workflow next level
 assessmentHref: /readiness/workflow
-coverImage: '~/assets/images/insights/workflow-co-the-nhanh-hon/wfn-00-og-cover-vi.png'
-ogImage: '~/assets/images/insights/workflow-co-the-nhanh-hon/wfn-00-og-cover-vi.png'
-coverImageAlt: "Một workflow khởi động khi có người tạo yêu cầu, so với một workflow được kích hoạt theo sự kiện với ngữ cảnh chuẩn bị sẵn."
-ctaPrimaryText: 'Workflow Readiness Assessment'
-ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
+coverImage: ~/assets/images/insights/workflow-co-the-nhanh-hon/wfn-00-og-cover-vi.png
+ogImage: ~/assets/images/insights/workflow-co-the-nhanh-hon/wfn-00-og-cover-vi.png
+coverImageAlt: Một workflow khởi động khi có người tạo yêu cầu, so với một workflow
+  được kích hoạt theo sự kiện với ngữ cảnh chuẩn bị sẵn.
+ctaPrimaryText: Làm Workflow Readiness Assessment
+ctaSubtitle: Workflow của bạn đang vận hành như thế nào?
 draft: false
 ---
 

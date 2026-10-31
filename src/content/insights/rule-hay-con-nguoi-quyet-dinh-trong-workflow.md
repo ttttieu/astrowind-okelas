@@ -1,30 +1,33 @@
----
-title: "Rule hay con người: quyết định nào nên tự động hóa trong quy trình"
-description: "Không phải mọi quyết định đều cần con người phán đoán, không phải mọi thứ đủ ổn định để encode thành rule. Khung của Herbert Simon (1960) vẫn là công cụ thực tế nhất để phân định ranh giới này."
-publishDate: 2026-09-23T00:00:00Z
+﻿---
+title: 'Rule hay con người: quyết định nào nên tự động hóa trong quy trình'
+description: Không phải mọi quyết định đều cần con người phán đoán, không phải mọi
+  thứ đủ ổn định để encode thành rule. Khung của Herbert Simon (1960) vẫn là công
+  cụ thực tế nhất để phân định ranh giới này.
+publishDate: 2026-09-23 00:00:00+00:00
 translationId: workflow-rule-human-decision
 lang: vi
 category: workflow
 contentType: Analysis
 funnelStage:
-  - Understanding
+- Understanding
 audience:
-  - COO
-  - CIO
-  - Operations Director
-primaryKeyword: "quyết định nào nên tự động hóa trong quy trình"
+- COO
+- CIO
+- Operations Director
+primaryKeyword: quyết định nào nên tự động hóa trong quy trình
 secondaryKeywords:
-  - "quyết định có thể lập trình"
-  - "rule-based workflow"
-  - "phán đoán của con người trong quy trình"
-  - "ngoại lệ workflow"
-  - "Herbert Simon quản trị quyết định"
+- quyết định có thể lập trình
+- rule-based workflow
+- phán đoán của con người trong quy trình
+- ngoại lệ workflow
+- Herbert Simon quản trị quyết định
 assessmentHref: /readiness/workflow
-coverImage: '~/assets/images/insights/rule-hay-con-nguoi-quyet-dinh-trong-workflow/wfd-00-og-cover-vi.png'
-ogImage: '~/assets/images/insights/rule-hay-con-nguoi-quyet-dinh-trong-workflow/wfd-00-og-cover-vi.png'
-coverImageAlt: "Dải liên tục từ quyết định lặp lại (encode thành rule) tới quyết định phức tạp (cần con người phán đoán); AI hỗ trợ đầu vào ở cả hai đầu."
-ctaPrimaryText: 'Workflow Readiness Assessment'
-ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
+coverImage: ~/assets/images/insights/rule-hay-con-nguoi-quyet-dinh-trong-workflow/wfd-00-og-cover-vi.png
+ogImage: ~/assets/images/insights/rule-hay-con-nguoi-quyet-dinh-trong-workflow/wfd-00-og-cover-vi.png
+coverImageAlt: Dải liên tục từ quyết định lặp lại (encode thành rule) tới quyết định
+  phức tạp (cần con người phán đoán); AI hỗ trợ đầu vào ở cả hai đầu.
+ctaPrimaryText: Làm Workflow Readiness Assessment
+ctaSubtitle: Workflow của bạn đang vận hành như thế nào?
 draft: false
 ---
 

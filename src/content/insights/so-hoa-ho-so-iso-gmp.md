@@ -1,26 +1,35 @@
----
-title: "ISO và GMP trong bối cảnh số hóa — những gì cần thay đổi"
-description: "Số hóa hồ sơ ISO/GMP không chỉ là chuyển từ giấy sang PDF. Bài viết phân tích yêu cầu của tiêu chuẩn và cách xây dựng hệ thống quản lý hồ sơ phù hợp."
-publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/iso-gmp-records-management.png'
-category: 'business-operations'
-tags: ['ISO', 'GMP', 'Compliance', 'Quản lý hồ sơ', 'Document Control']
-translationId: 'biz-ops-iso-gmp-records-management'
-lang: 'vi'
-contentType: 'Analysis'
+﻿---
+title: ISO và GMP trong bối cảnh số hóa — những gì cần thay đổi
+description: Số hóa hồ sơ ISO/GMP không chỉ là chuyển từ giấy sang PDF. Bài viết phân
+  tích yêu cầu của tiêu chuẩn và cách xây dựng hệ thống quản lý hồ sơ phù hợp.
+publishDate: 2025-09-24 00:00:00+00:00
+image: ~/assets/images/insights/iso-gmp-records-management.png
+category: business-operations
+tags:
+- ISO
+- GMP
+- Compliance
+- Quản lý hồ sơ
+- Document Control
+translationId: biz-ops-iso-gmp-records-management
+lang: vi
+contentType: Analysis
 funnelStage:
-  - Understanding
-audience: ['Quality Director', 'CEO', 'Compliance Officer']
-primaryKeyword: 'số hóa hồ sơ ISO GMP'
+- Understanding
+audience:
+- Quality Director
+- CEO
+- Compliance Officer
+primaryKeyword: số hóa hồ sơ ISO GMP
 secondaryKeywords:
-  - "quản lý hồ sơ ISO"
-  - "eQMS ISO"
-  - "GMP số hóa"
-  - "tài liệu ISO điện tử"
-  - "document control ISO"
-assessmentHref: '/readiness/digitalization'
-ctaPrimaryText: 'Digital Transformation Maturity Assessment'
-ctaSubtitle: 'Hiểu rõ mức độ trưởng thành số hóa của bạn và bước tiếp theo có ý nghĩa'
+- quản lý hồ sơ ISO
+- eQMS ISO
+- GMP số hóa
+- tài liệu ISO điện tử
+- document control ISO
+assessmentHref: /readiness/digitalization
+ctaPrimaryText: Làm Digital Transformation Maturity Assessment
+ctaSubtitle: Hiểu rõ mức độ trưởng thành số hóa của bạn và bước tiếp theo có ý nghĩa
 draft: false
 ---
 

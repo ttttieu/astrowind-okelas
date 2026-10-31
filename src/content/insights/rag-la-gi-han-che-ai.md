@@ -1,27 +1,36 @@
 ﻿---
-title: "RAG Là Gì — Và Tại Sao Chatbot \"Biết Nhiều\" Vẫn Không Đủ"
-description: "RAG giúp chatbot tìm kiếm trong tài liệu của doanh nghiệp — nhưng không đủ để trả lời câu hỏi vận hành thực sự. Bài viết giải thích tại sao và cần gì thêm."
-publishDate: 2025-09-24T00:00:00Z
-coverImage: '~/assets/images/insights/rag-la-gi-han-che-ai/rag-00-og-cover-vi.png'
-ogImage: '~/assets/images/insights/rag-la-gi-han-che-ai/rag-00-og-cover-vi.png'
-coverImageAlt: "Bên trái là ba tài liệu chatbot đọc được; bên phải là ba hệ thống dữ liệu vận hành (ERP, QMS, Excel) nằm ngoài kho tài liệu, ngăn cách bằng vạch đứt."
-category: 'ai'
-tags: ['RAG', 'Enterprise AI', 'Chatbots', 'Limitations']
-translationId: 'rag-limitations-enterprise-ai'
-lang: 'vi'
-contentType: 'Analysis'
+title: RAG Là Gì — Và Tại Sao Chatbot "Biết Nhiều" Vẫn Không Đủ
+description: RAG giúp chatbot tìm kiếm trong tài liệu của doanh nghiệp — nhưng không
+  đủ để trả lời câu hỏi vận hành thực sự. Bài viết giải thích tại sao và cần gì thêm.
+publishDate: 2025-09-24 00:00:00+00:00
+coverImage: ~/assets/images/insights/rag-la-gi-han-che-ai/rag-00-og-cover-vi.png
+ogImage: ~/assets/images/insights/rag-la-gi-han-che-ai/rag-00-og-cover-vi.png
+coverImageAlt: Bên trái là ba tài liệu chatbot đọc được; bên phải là ba hệ thống dữ
+  liệu vận hành (ERP, QMS, Excel) nằm ngoài kho tài liệu, ngăn cách bằng vạch đứt.
+category: ai
+tags:
+- RAG
+- Enterprise AI
+- Chatbots
+- Limitations
+translationId: rag-limitations-enterprise-ai
+lang: vi
+contentType: Analysis
 funnelStage:
-  - Understanding
-audience: ['CIO', 'IT Manager', 'CEO']
-primaryKeyword: 'RAG là gì doanh nghiệp'
+- Understanding
+audience:
+- CIO
+- IT Manager
+- CEO
+primaryKeyword: RAG là gì doanh nghiệp
 secondaryKeywords:
-  - 'RAG AI'
-  - 'retrieval augmented generation'
-  - 'chatbot doanh nghiệp hạn chế'
-  - 'AI không hiểu context'
-assessmentHref: '/readiness/ai'
-ctaPrimaryText: 'Assess your AI readiness'
-ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
+- RAG AI
+- retrieval augmented generation
+- chatbot doanh nghiệp hạn chế
+- AI không hiểu context
+assessmentHref: /readiness/ai
+ctaPrimaryText: Làm AI Readiness Assessment
+ctaSubtitle: Xác định mức độ sẵn sàng AI của doanh nghiệp bạn
 draft: false
 ---
 
