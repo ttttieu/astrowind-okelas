@@ -1,6 +1,6 @@
 site:
   name: OKELAS
-  site: 'https://okelas.com'
+  site: 'https://www.okelas.com'
   base: '/'
   trailingSlash: false
 
