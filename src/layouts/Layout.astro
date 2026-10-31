@@ -2,6 +2,7 @@
 import '~/assets/styles/tailwind.css';
 
 import { Font } from 'astro:assets';
+import { getCollection } from 'astro:content';
 
 import { I18N } from 'astrowind:config';
 
@@ -26,6 +27,28 @@ export interface Props {
 
 const { metadata = {}, translationId } = Astro.props;
 const { language, textDirection } = I18N;
+
+// Hreflang for translation pairs
+let hrefLangLinks: { lang: string; url: string }[] = [];
+if (translationId) {
+  try {
+    const allArticles = await getCollection('insights');
+    const pair = allArticles.filter(a => a.data.translationId === translationId && !a.data.draft);
+    const hasViEn = pair.some(a => a.data.lang === 'vi') && pair.some(a => a.data.lang === 'en');
+
+    if (pair.length === 2 && hasViEn) {
+      const vi = pair.find(a => a.data.lang === 'vi');
+      const en = pair.find(a => a.data.lang === 'en');
+      if (vi && en) {
+        hrefLangLinks = [
+          { lang: 'vi', url: `https://www.okelas.com/insights/${vi.data.category}/${vi.id}` },
+          { lang: 'en', url: `https://www.okelas.com/en/insights/${en.data.category}/${en.id}` },
+          { lang: 'x-default', url: `https://www.okelas.com/insights/${vi.data.category}/${vi.id}` },
+        ];
+      }
+    }
+  } catch {}
+}
 ---
 
 <!doctype html>
@@ -41,6 +64,11 @@ const { language, textDirection } = I18N;
     <Analytics />
 
     <link rel="preconnect" href="https://images.unsplash.com" />
+
+    <!-- Hreflang links for translation pairs -->
+    {hrefLangLinks.map(link => (
+      <link rel="alternate" hreflang={link.lang} href={link.url} />
+    ))}
 
     <!-- Comment the line below to disable View Transitions -->
     <ClientRouter fallback="swap" />
