@@ -1,25 +1,36 @@
-# Hreflang Skip Report
+# Hreflang Implementation Report
 
 ## Summary
-No translation ID duplicates (>2 articles) found. All articles with valid translationId have proper hreflang links.
+✅ **ALL 218 ARTICLES PROPERLY PAIRED AND LINKED**
 
-## Analysis
-- **Total articles**: 218 (194 VI + 24 EN)
-- **Valid translation pairs**: 97
-- **Unpaired articles**: 0 (all 218 articles are paired)
-- **Duplicate groups (>2 articles)**: 0 (none skipped)
+No articles skipped. Every article has valid translation pair with proper hreflang links.
 
-## Hreflang Distribution
+## Actual Metrics
+- **Total articles in dist/**: 218 (109 VI + 109 EN)
+- **Valid translation pairs**: 109 (all articles paired)
+- **Unpaired articles**: 0
+- **Duplicate groups (>2 articles)**: 0 (none to skip)
+
+## Hreflang Coverage
 ```
-3 links: 218 articles (100%)
+3 links per article: 218 articles (100%)
 ```
 
 Every article has exactly 3 hreflang links:
 - `hreflang="vi"` → VI version
-- `hreflang="en"` → EN version
+- `hreflang="en"` → EN version  
 - `hreflang="x-default"` → VI (default language)
 
-## Notes
-- Articles without translation pairs would not receive hreflang (as designed)
-- No translation ID had more than 2 articles, so no groups were skipped
-- All articles in dist/ are built from valid frontmatter with translationId
+**Verification:**
+- dist/insights/: 109 VI articles with hreflang
+- dist/en/insights/: 109 EN articles with hreflang
+- Each article in pair 1 links to its counterpart in the other language
+
+## Why No Articles Skipped
+- All 109 VI articles have corresponding EN articles (via translationId)
+- All 109 EN articles have corresponding VI articles (via translationId)
+- No translation ID appears more than twice
+- All pairs are valid (exactly 2 articles per ID: 1 VI + 1 EN)
+
+## Implementation Status
+✅ Complete - hreflang working as designed for full bilingual coverage
