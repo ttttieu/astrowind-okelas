@@ -169,7 +169,7 @@ So the question for leadership isn't whether AI will find problems in your organ
 **Next steps**
 
 - Take the [AI Readiness Assessment](/en/readiness/ai) to see which foundation is weakest.
-- Read the pillar: [Why AI doesn't make an organization intelligent unless it's ready](/en/insights/why-ai-does-not-make-organizations-intelligent)
+- Read the pillar: [Why AI doesn't make an organization intelligent unless it's ready](/en/insights/ai)
 - Continue with: [AI readiness: six conditions for AI to be useful in operations](/en/insights/ai/ai-readiness-checklist)
 - Related: [Evidence-based AI](/en/insights/ai/evidence-based-ai) · [AI and compliance in ISO/GMP environments](/en/insights/ai/ai-compliance-iso-gmp-manufacturing) · [Why audit preparation takes weeks](/en/insights/knowledge-management/why-audit-preparation-takes-so-long)
 

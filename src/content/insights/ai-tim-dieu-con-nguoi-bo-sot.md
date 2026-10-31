@@ -172,7 +172,7 @@ Vì vậy, câu hỏi cho CEO không phải là AI có tìm ra vấn đề trong
 **Bước tiếp theo**
 
 - Làm [AI Readiness Assessment](/readiness/ai) để xem doanh nghiệp đang yếu ở nền tảng nào.
-- Đọc bài trụ cột: [AI không làm doanh nghiệp thông minh hơn, trừ khi doanh nghiệp đã sẵn sàng](/insights/ai-khong-lam-doanh-nghiep-thong-minh-hon)
+- Đọc bài trụ cột: [AI không làm doanh nghiệp thông minh hơn, trừ khi doanh nghiệp đã sẵn sàng](/insights/ai)
 - Đọc tiếp: [AI readiness: 6 điều kiện để AI thực sự có ích trong vận hành](/insights/ai/dieu-kien-trien-khai-ai-van-hanh)
 - Liên quan: [Evidence-based AI: khi câu trả lời cần có khả năng kiểm chứng](/insights/ai/evidence-based-ai-kiem-chung) · [AI và compliance: doanh nghiệp ISO/GMP cần lưu ý gì](/insights/ai/ai-iso-gmp-compliance) · [Vì sao chuẩn bị audit mất nhiều tuần](/insights/knowledge-management/chuan-bi-audit-iso-mat-nhieu-thoi-gian)
 
