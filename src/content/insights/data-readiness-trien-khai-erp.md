@@ -1,4 +1,4 @@
----
+﻿---
 title: "Data readiness: tại sao dữ liệu \"sạch\" khó hơn doanh nghiệp nghĩ"
 description: "Data migration là một trong những phần tốn kém và rủi ro nhất của dự án ERP. Bài viết phân tích tại sao dữ liệu doanh nghiệp hiếm khi sẵn sàng — và cần làm gì trước. |"
 publishDate: 2026-09-24T00:00:00Z
@@ -19,7 +19,7 @@ secondaryKeywords:
   - "chuẩn bị dữ liệu ERP"
   - "làm sạch dữ liệu trước ERP |"
 assessmentHref: /readiness/erp
-ctaPrimaryText: 'Assess your ERP readiness'
+ctaPrimaryText: 'Làm ERP Readiness Assessment'
 ctaSubtitle: 'Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn'
 coverImage: '~/assets/images/insights/erpd-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/erpd-00-og-cover-vi.png'

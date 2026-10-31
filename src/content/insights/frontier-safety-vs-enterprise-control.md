@@ -1,4 +1,4 @@
----
+﻿---
 title: "Frontier AI cần Safety Layer — Enterprise AI cần Control Layer"
 description: "Câu hỏi của frontier AI: làm sao kiểm soát AI ngày càng mạnh? Câu hỏi của enterprise AI: làm sao cho AI làm được nhiều hơn mà không làm được tất cả? Hai câu hỏi khác nhau, cùng một nhu cầu về control."
 publishDate: 2026-09-23T00:00:00Z
@@ -21,7 +21,7 @@ secondaryKeywords:
   - "AI control layer enterprise"
   - "AI governance framework"
 assessmentHref: /readiness/ai
-ctaPrimaryText: 'Assess your AI readiness'
+ctaPrimaryText: 'Làm AI Readiness Assessment'
 ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---

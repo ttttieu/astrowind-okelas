@@ -1,4 +1,4 @@
----
+﻿---
 title: "Từ DMS đến eQMS đến Knowledge OS — lộ trình số hóa từng bước"
 description: "Doanh nghiệp không cần nhảy thẳng từ giấy tờ lên hệ thống phức tạp. Bài viết mô tả lộ trình từng bước: DMS → eQMS → Knowledge Operating System — và khi nào mỗi bước có ý nghĩa."
 publishDate: 2025-09-24T00:00:00Z
@@ -18,7 +18,7 @@ secondaryKeywords:
   - "eQMS là gì"
   - "knowledge operating system"
 assessmentHref: '/readiness/digitalization'
-ctaPrimaryText: 'Digital Transformation Maturity Assessment'
+ctaPrimaryText: 'Làm Digital Transformation Maturity Assessment'
 ctaSubtitle: 'Hiểu rõ mức độ trưởng thành số hóa của bạn và bước tiếp theo có ý nghĩa'
 draft: false
 ---

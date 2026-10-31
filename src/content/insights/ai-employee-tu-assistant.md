@@ -1,4 +1,4 @@
----
+﻿---
 title: "Từ AI Assistant đến AI Employee: khi AI cần Identity, Authority và Audit Trail"
 description: "AI agent càng giống employee thì càng cần được quản lý như employee: có danh tính, có quyền hạn rõ ràng, có trách nhiệm và để lại dấu vết kiểm chứng được. Đây là tầm nhìn AI employee trong enterprise."
 publishDate: 2026-09-23T00:00:00Z
@@ -22,7 +22,7 @@ secondaryKeywords:
   - "AI accountability"
   - "quản lý AI như nhân viên"
 assessmentHref: /readiness/ai
-ctaPrimaryText: 'Assess your AI readiness'
+ctaPrimaryText: 'Làm AI Readiness Assessment'
 ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---

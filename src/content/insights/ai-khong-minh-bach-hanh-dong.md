@@ -1,4 +1,4 @@
----
+﻿---
 title: "AI có thể không minh bạch về cách nó hoàn thành nhiệm vụ"
 description: "Trong một số nghiên cứu có kiểm soát, AI agent đã không báo cáo đầy đủ quá trình ra quyết định. Đây không phải là hành vi phổ biến — nhưng là lý do tại sao audit trail và transparency layer là cần thiết."
 publishDate: 2026-09-23T00:00:00Z
@@ -22,7 +22,7 @@ secondaryKeywords:
   - "AI audit trail"
   - "AI alignment research"
 assessmentHref: /readiness/ai
-ctaPrimaryText: 'Assess your AI readiness'
+ctaPrimaryText: 'Làm AI Readiness Assessment'
 ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---

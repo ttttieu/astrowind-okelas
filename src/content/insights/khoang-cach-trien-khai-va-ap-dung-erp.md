@@ -1,4 +1,4 @@
----
+﻿---
 title: "Từ ERP implementation đến ERP adoption — khoảng cách ít ai nói tới"
 description: "Go-live chỉ là điểm bắt đầu. Nhiều doanh nghiệp nhầm lẫn giữa việc hoàn thành implementation và thực sự khai thác được ERP. Bài viết phân tích khoảng cách này. |"
 publishDate: 2026-09-24T00:00:00Z
@@ -19,7 +19,7 @@ secondaryKeywords:
   - "ERP không tạo ra kết quả"
   - "khai thác ERP sau triển khai"
   - "ERP adoption |"
-ctaPrimaryText: 'Assess your ERP readiness'
+ctaPrimaryText: 'Làm ERP Readiness Assessment'
 ctaSubtitle: 'Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn'
 coverImage: '~/assets/images/insights/erpi-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/erpi-00-og-cover-vi.png'

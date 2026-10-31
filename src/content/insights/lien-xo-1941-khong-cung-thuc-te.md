@@ -1,4 +1,4 @@
----
+﻿---
 title: "Liên Xô 1941: Khi người giỏi không còn nhìn thấy cùng một thực tế"
 description: "Năm 1941, Hồng quân có lực lượng lớn nhất thế giới nhưng mất liên lạc, mất bức tranh thực tế và ra lệnh sai thời điểm. Bài học cho CEO về phối hợp và AI readiness."
 publishDate: 2026-10-24T05:00:00Z
@@ -128,7 +128,7 @@ Với doanh nghiệp, câu hỏi đáng đặt ra trước khi đầu tư thêm 
 **Bước tiếp theo**
 
 - [Làm bài đánh giá AI Readiness](/readiness/ai) để xem doanh nghiệp đang mạnh và yếu ở tầng nào.
-- Đọc tiếp: [Dữ liệu có nhưng không có context — tại sao AI không thể dùng?](/insights/du-lieu-khong-co-context-ai)
+- Đọc tiếp: [Dữ liệu có nhưng không có context — tại sao AI không thể dùng?](/insights/ai/du-lieu-khong-co-context-ai)
 
 ---
 

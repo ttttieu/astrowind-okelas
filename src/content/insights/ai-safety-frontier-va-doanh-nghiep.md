@@ -1,4 +1,4 @@
----
+﻿---
 title: "Tại sao những người xây dựng frontier AI cũng quan tâm đến control"
 description: "Các tổ chức hàng đầu xây dựng AI đang đầu tư nghiêm túc vào kiểm soát và safety. Không phải vì AI nguy hiểm theo nghĩa sensational — mà vì capability tăng đòi hỏi control tăng theo."
 publishDate: 2026-09-23T00:00:00Z
@@ -21,7 +21,7 @@ secondaryKeywords:
   - "AI safety enterprise"
   - "tại sao cần kiểm soát AI"
 assessmentHref: /readiness/ai
-ctaPrimaryText: 'Assess your AI readiness'
+ctaPrimaryText: 'Làm AI Readiness Assessment'
 ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---

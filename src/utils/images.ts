@@ -24,6 +24,7 @@ const loadLocalImages = () => {
  *   - `ImageMetadata`              → returned as-is (already imported)
  *   - `"http(s)://…"` or `"/path"` → returned as-is (external or public/)
  *   - `"~/assets/images/…"`        → resolved to its ImageMetadata via the glob
+ *     (supports both exact paths and fallback to filename-only lookup)
  */
 export const findImage = async (
   imagePath?: string | ImageMetadata | null
@@ -35,7 +36,16 @@ export const findImage = async (
 
   const images = loadLocalImages();
   const key = imagePath.replace('~/', '/src/');
-  const loader = images[key];
+  let loader = images[key];
+
+  // Fallback: if exact path not found, try filename-only in insights folder
+  if (typeof loader !== 'function' && imagePath.includes('insights/')) {
+    const filename = imagePath.split('/').pop();
+    if (filename) {
+      const insightsKey = `/src/assets/images/insights/${filename}`;
+      loader = images[insightsKey];
+    }
+  }
 
   if (typeof loader !== 'function') return null;
   return ((await loader()) as { default: ImageMetadata }).default;
@@ -61,19 +71,33 @@ export const adaptOpenGraphImages = async (
       const resolved = await findImage(image.url);
       if (!resolved) return { url: '' };
 
-      // Generate an optimized JPG via Astro's image service (Sharp by default).
-      const optimized = await getImage({
-        src: resolved,
-        width: OG_WIDTH,
-        height: OG_HEIGHT,
-        format: 'jpg',
-      });
+      // If resolved is a string path (public or external), use it directly
+      if (typeof resolved === 'string') {
+        return {
+          url: String(new URL(resolved, astroSite)),
+          width: OG_WIDTH,
+          height: OG_HEIGHT,
+        };
+      }
 
-      return {
-        url: String(new URL(optimized.src, astroSite)),
-        width: Number(optimized.attributes.width) || OG_WIDTH,
-        height: Number(optimized.attributes.height) || OG_HEIGHT,
-      };
+      // Generate an optimized JPG via Astro's image service (Sharp by default).
+      try {
+        const optimized = await getImage({
+          src: resolved,
+          width: OG_WIDTH,
+          height: OG_HEIGHT,
+          format: 'jpg',
+        });
+
+        return {
+          url: String(new URL(optimized.src, astroSite)),
+          width: Number(optimized.attributes.width) || OG_WIDTH,
+          height: Number(optimized.attributes.height) || OG_HEIGHT,
+        };
+      } catch {
+        // Fallback if optimization fails
+        return { url: '' };
+      }
     })
   );
 

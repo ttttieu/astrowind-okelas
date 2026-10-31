@@ -1,4 +1,4 @@
----
+﻿---
 title: "AI chuẩn bị evidence, con người quyết định: thế nào là một bộ hồ sơ tốt"
 description: "Thời gian của người ra quyết định thường tốn ở việc gom và đối chiếu thông tin, không ở việc quyết định. AI có thể chuẩn bị hồ sơ, nhưng hồ sơ kém có thể dẫn người quyết định đi sai. Bài này mô tả một bộ evidence tốt gồm những gì, tiêu chí chất lượng, và cách giảm rủi ro người quyết định tin theo máy."
 publishDate: 2026-10-06T00:00:00Z
@@ -24,7 +24,7 @@ assessmentHref: /readiness/workflow
 coverImage: '~/assets/images/insights/ai-chuan-bi-evidence-con-nguoi-quyet-dinh/wfp-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/ai-chuan-bi-evidence-con-nguoi-quyet-dinh/wfp-00-og-cover-vi.png'
 coverImageAlt: "Hồ sơ kém dẫn người quyết định đi sai; hồ sơ tốt truy vết được, cân bằng và không thay người quyết định kết luận."
-ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaPrimaryText: 'Làm Workflow Readiness Assessment'
 ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---

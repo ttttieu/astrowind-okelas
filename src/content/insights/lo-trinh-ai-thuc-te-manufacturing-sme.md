@@ -1,4 +1,4 @@
----
+﻿---
 title: "Từ AI Hype đến AI Có Thể Triển Khai — lộ trình thực tế cho manufacturing SME"
 description: "AI hype không thiếu. Nhưng đối với doanh nghiệp sản xuất SME, lộ trình AI thực tế trông như thế nào? Bài viết cung cấp framework từ điểm bắt đầu đến triển khai có kết quả."
 publishDate: 2025-09-24T00:00:00Z
@@ -20,7 +20,7 @@ secondaryKeywords:
   - "bắt đầu AI doanh nghiệp"
   - "AI thực tế không phải hype"
 assessmentHref: '/readiness/ai'
-ctaPrimaryText: 'Assess your AI readiness'
+ctaPrimaryText: 'Làm AI Readiness Assessment'
 ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---

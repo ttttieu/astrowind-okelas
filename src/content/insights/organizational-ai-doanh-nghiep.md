@@ -1,4 +1,4 @@
----
+﻿---
 title: "Organizational AI: khi AI hiểu doanh nghiệp thay vì chỉ trả lời câu hỏi"
 description: "Bước tiếp theo sau AI tools cá nhân là AI hiểu được context tổ chức — quy trình, tri thức, evidence và cách doanh nghiệp thực sự vận hành. Đây là organizational AI."
 publishDate: 2025-09-24T00:00:00Z
@@ -20,7 +20,7 @@ secondaryKeywords:
   - "AI vận hành doanh nghiệp"
   - "organizational intelligence"
 assessmentHref: '/readiness/ai'
-ctaPrimaryText: 'Assess your AI readiness'
+ctaPrimaryText: 'Làm AI Readiness Assessment'
 ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---

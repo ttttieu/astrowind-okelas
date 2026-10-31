@@ -1,4 +1,4 @@
----
+﻿---
 title: "Khi các AI Agent bắt đầu phối hợp: multi-agent behavior và những điều cần lưu ý"
 description: "Một agent có giới hạn quyền hạn. Nhiều agent phối hợp có thể tạo ra hành vi và tác động lớn hơn tổng quyền được cấp. Đây là lý do multi-agent system cần một lớp kiểm soát riêng."
 publishDate: 2026-09-23T00:00:00Z
@@ -21,7 +21,7 @@ secondaryKeywords:
   - "multi-agent behavior"
   - "AI agent communication"
 assessmentHref: /readiness/ai
-ctaPrimaryText: 'Assess your AI readiness'
+ctaPrimaryText: 'Làm AI Readiness Assessment'
 ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---

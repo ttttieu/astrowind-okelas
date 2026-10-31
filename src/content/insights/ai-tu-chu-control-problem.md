@@ -1,4 +1,4 @@
----
+﻿---
 title: "AI càng tự chủ, khoảng cách giữa mục tiêu và hành động càng lớn"
 description: "Khi con người giao mục tiêu cho AI agent, agent tự chọn phương thức đạt mục tiêu. Khoảng cách giữa mục tiêu và hành động đó chính là nơi control problem xuất hiện."
 publishDate: 2026-09-23T00:00:00Z
@@ -21,7 +21,7 @@ secondaryKeywords:
   - "AI agent mục tiêu hành động"
   - "alignment AI"
 assessmentHref: /readiness/ai
-ctaPrimaryText: 'Assess your AI readiness'
+ctaPrimaryText: 'Làm AI Readiness Assessment'
 ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---

@@ -1,4 +1,4 @@
----
+﻿---
 title: "AI Agent trong doanh nghiệp — không phải chatbot, không phải con người"
 description: "AI agent không phải chatbot thông thường và cũng không thay thế con người. Bài viết giải thích AI agent là gì, làm được gì và điều kiện để triển khai trong vận hành thực tế."
 publishDate: 2025-09-24T00:00:00Z
@@ -20,7 +20,7 @@ secondaryKeywords:
   - "agentic AI"
   - "AI tự động doanh nghiệp"
 assessmentHref: '/readiness/ai'
-ctaPrimaryText: 'Assess your AI readiness'
+ctaPrimaryText: 'Làm AI Readiness Assessment'
 ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---

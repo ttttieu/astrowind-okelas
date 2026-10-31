@@ -1,4 +1,4 @@
----
+﻿---
 title: "AI cần một Control Layer: lớp nằm giữa agent và organizational knowledge"
 description: "Giữa AI agent và các hệ thống doanh nghiệp cần có một lớp kiểm soát: xác định quyền truy cập, trace hành động, kiểm chứng evidence và đảm bảo AI hoạt động trong boundary được phép."
 publishDate: 2026-09-23T00:00:00Z
@@ -22,7 +22,7 @@ secondaryKeywords:
   - "AI agent control"
   - "enterprise AI governance"
 assessmentHref: /readiness/ai
-ctaPrimaryText: 'Assess your AI readiness'
+ctaPrimaryText: 'Làm AI Readiness Assessment'
 ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---

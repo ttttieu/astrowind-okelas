@@ -1,4 +1,4 @@
----
+﻿---
 title: "Nếu AI có thể tự hành động — doanh nghiệp có nên cho AI toàn quyền?"
 description: "Khi AI agent có khả năng tự thực hiện công việc trong ERP, email và workflow, câu hỏi quan trọng không phải là AI có làm được không — mà là doanh nghiệp có nên cho phép không và đến mức nào."
 publishDate: 2026-09-23T00:00:00Z
@@ -21,7 +21,7 @@ secondaryKeywords:
   - "cho phép AI làm gì"
   - "AI authority"
 assessmentHref: /readiness/ai
-ctaPrimaryText: 'Assess your AI readiness'
+ctaPrimaryText: 'Làm AI Readiness Assessment'
 ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---

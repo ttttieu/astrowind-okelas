@@ -1,4 +1,4 @@
----
+﻿---
 title: "Ứng dụng AI: vấn đề thực sự không nằm ở công cụ"
 seo_title: "Tại sao ứng dụng AI không tăng năng suất — và doanh nghiệp cần chuẩn bị gì"
 description: "Doanh nghiệp đầu tư vào AI nhưng năng suất không tăng. Bài phân tích chỉ ra ba tầng vấn đề — công nghệ, con người, hệ thống tổ chức — và năm chiều đánh giá AI readiness mà CEO cần xem xét trước khi mở rộng triển khai."
@@ -210,9 +210,9 @@ Bài học không phải là chờ AI hoàn hảo mới sử dụng. Bài học 
 ---
 
 **Đọc tiếp:**
-- [AI Readiness là gì — 6 điều kiện để AI thực sự có ích trong vận hành](/insights/ai-readiness-la-gi)
-- [Sự khác biệt giữa AI productivity và organizational intelligence](/insights/ai-productivity-vs-organizational-intelligence)
-- [Khi nhân sự chủ chốt nghỉ việc, họ mang đi thứ gì?](/insights/nhan-su-chu-chot-nghi-viec-mang-di-gi)
+- [AI Readiness là gì — 6 điều kiện để AI thực sự có ích trong vận hành](/insights/ai/dieu-kien-trien-khai-ai-van-hanh)
+- [Sự khác biệt giữa AI productivity và organizational intelligence](/insights/ai/ai-nang-suat-va-tri-thuc-tong-the)
+- [Khi nhân sự chủ chốt nghỉ việc, họ mang đi thứ gì?](/insights/knowledge-management/nhan-su-nghi-viec-mang-di-tri-thuc)
 
 **Tự đánh giá:**
 → Doanh nghiệp của bạn đã sẵn sàng cho AI chưa? [Làm bài đánh giá AI Readiness](/readiness/ai)

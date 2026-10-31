@@ -1,4 +1,4 @@
----
+﻿---
 title: "Tại sao dự án ERP không đạt mục tiêu — và vấn đề thực sự không nằm ở phần mềm"
 description: "Nhiều doanh nghiệp sản xuất đầu tư ERP nhưng không đạt mục tiêu. Bài viết phân tích các nguyên nhân thực sự — và cách tự đánh giá trước khi bắt đầu."
 publishDate: 2026-09-24T00:00:00Z
@@ -24,7 +24,7 @@ secondaryKeywords:
   - "doanh nghiệp sản xuất ERP"
   - "ERP readiness"
 assessmentHref: /readiness/erp
-ctaPrimaryText: 'Assess your ERP readiness'
+ctaPrimaryText: 'Làm ERP Readiness Assessment'
 ctaSubtitle: 'Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn'
 coverImage: '~/assets/images/insights/erpf-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/erpf-00-og-cover-vi.png'

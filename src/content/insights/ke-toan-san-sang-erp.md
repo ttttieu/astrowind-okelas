@@ -1,4 +1,4 @@
----
+﻿---
 title: "Accounting readiness trước ERP — những gì CFO cần biết"
 description: "Hệ thống kế toán chưa chuẩn là một trong những rủi ro ẩn lớn nhất trong ERP. Bài viết dành riêng cho CFO và kế toán trưởng đang chuẩn bị triển khai. |"
 publishDate: 2026-09-24T00:00:00Z
@@ -19,7 +19,7 @@ secondaryKeywords:
   - "chart of accounts ERP"
   - "CFO chuẩn bị ERP |"
 assessmentHref: /readiness/erp
-ctaPrimaryText: 'Assess your ERP readiness'
+ctaPrimaryText: 'Làm ERP Readiness Assessment'
 ctaSubtitle: 'Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn'
 coverImage: '~/assets/images/insights/erpa-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/erpa-00-og-cover-vi.png'

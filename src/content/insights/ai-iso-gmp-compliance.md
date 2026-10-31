@@ -1,4 +1,4 @@
----
+﻿---
 title: "AI và ISO/GMP: những gì doanh nghiệp compliance cần lưu ý"
 description: "Doanh nghiệp có ISO/GMP không thể áp dụng AI một cách tùy tiện. Bài viết phân tích những yêu cầu compliance đặc thù và cách tiếp cận AI phù hợp."
 publishDate: 2025-09-24T00:00:00Z
@@ -21,7 +21,7 @@ secondaryKeywords:
   - "AI compliance"
   - "dùng AI trong nhà máy có ISO"
 assessmentHref: '/readiness/ai'
-ctaPrimaryText: 'Assess your AI readiness'
+ctaPrimaryText: 'Làm AI Readiness Assessment'
 ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---

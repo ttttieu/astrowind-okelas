@@ -1,4 +1,4 @@
----
+﻿---
 title: "Document Explosion: AI tạo ra nhiều tài liệu hơn — doanh nghiệp quản lý được không?"
 description: "AI giúp tạo tài liệu nhanh hơn bao giờ hết. Nhưng nhiều tài liệu hơn không có nghĩa là doanh nghiệp quản lý tốt hơn. Đây là vấn đề mới."
 publishDate: 2025-09-24T00:00:00Z
@@ -20,8 +20,8 @@ secondaryKeywords:
   - "AI content doanh nghiệp"
   - "tài liệu doanh nghiệp tăng nhanh"
 assessmentHref: '/readiness/knowledge'
-ctaPrimaryText: 'Assess your KM maturity'
-ctaSubtitle: 'Xác định mức độ trưởng thành về quản lý tri thức trong công ty bạn'
+ctaPrimaryText: 'Làm Knowledge Management Maturity Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 

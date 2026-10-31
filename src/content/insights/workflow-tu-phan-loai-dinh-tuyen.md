@@ -1,4 +1,4 @@
----
+﻿---
 title: "Phân loại và định tuyến trong workflow: AI hiểu nội dung, rule quyết định tuyến"
 description: "Rule từ khóa định tuyến sai khi người viết diễn đạt khác dự đoán. AI có thể đọc nội dung để đề xuất loại yêu cầu, nhưng tuyến đi vẫn do rule của người có thẩm quyền quyết định, và ca không chắc chắn phải đến người phân loại. Bài này phân tích cách thiết kế để giảm số lần chuyển tay mà không chuyển quyền quyết định cho AI."
 publishDate: 2026-10-06T00:00:00Z
@@ -23,7 +23,7 @@ assessmentHref: /readiness/workflow
 coverImage: '~/assets/images/insights/workflow-tu-phan-loai-dinh-tuyen/wfc-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/workflow-tu-phan-loai-dinh-tuyen/wfc-00-og-cover-vi.png'
 coverImageAlt: "Rule từ khóa định tuyến sai khi ngôn ngữ không khớp; AI đọc ý định và đề xuất loại yêu cầu, bảng tuyến do người có thẩm quyền ban hành quyết định tuyến đi."
-ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaPrimaryText: 'Làm Workflow Readiness Assessment'
 ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Workflow có cần AI agent không? Năm mức dùng AI và bốn câu hỏi để chọn mức vừa đủ"
 description: "Không phải workflow nào cũng cần AI agent, và phần lớn chỉ cần rule cùng AI diễn giải đầu vào hoặc chuẩn bị evidence. Bài này đưa ra thang năm mức và bốn câu hỏi giúp COO/CIO chọn mức vừa đủ, mà quyền quyết định vẫn ở rule hoặc con người."
 publishDate: 2026-10-07T00:00:00Z
@@ -24,7 +24,7 @@ assessmentHref: /readiness/workflow
 coverImage: '~/assets/images/insights/workflow-co-can-ai-agent/wfg-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/workflow-co-can-ai-agent/wfg-00-og-cover-vi.png'
 coverImageAlt: "Câu hỏi thường gặp 'workflow có nên thay bằng AI agent không' so với câu hỏi hữu ích 'mức AI nào vừa đủ cho quy trình này'."
-ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaPrimaryText: 'Làm Workflow Readiness Assessment'
 ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---

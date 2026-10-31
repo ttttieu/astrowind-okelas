@@ -1,4 +1,4 @@
----
+﻿---
 title: "Khi AI bắt đầu tự giải quyết những bài toán phức tạp"
 description: "AI hiện đại không chỉ trả lời câu hỏi. Trong các lĩnh vực như lập trình, nghiên cứu khoa học và toán học, AI đang đạt được kết quả mà trước đây chỉ con người làm được. Bài viết nhìn vào năng lực thực tế."
 publishDate: 2025-09-24T00:00:00Z
@@ -23,7 +23,7 @@ secondaryKeywords:
   - "AI reasoning"
   - "AI năng lực thực tế"
 assessmentHref: /readiness/ai
-ctaPrimaryText: 'Assess your AI readiness'
+ctaPrimaryText: 'Làm AI Readiness Assessment'
 ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Quy trình chưa chuẩn hóa — rủi ro lớn nhất trước khi triển khai ERP"
 description: "ERP không thể tự chuẩn hóa quy trình của doanh nghiệp. Bài viết phân tích tại sao process readiness là điều kiện tiên quyết — và cách đánh giá mức độ sẵn sàng. |"
 publishDate: 2026-09-24T00:00:00Z
@@ -19,7 +19,7 @@ secondaryKeywords:
   - "tài liệu hóa quy trình"
   - "SOP trước ERP |"
 assessmentHref: /readiness/erp
-ctaPrimaryText: 'Assess your ERP readiness'
+ctaPrimaryText: 'Làm ERP Readiness Assessment'
 ctaSubtitle: 'Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn'
 coverImage: '~/assets/images/insights/erps-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/erps-00-og-cover-vi.png'

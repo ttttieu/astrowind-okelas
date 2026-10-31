@@ -1,4 +1,4 @@
----
+﻿---
 title: "The Red Army in 1941: When Capable People Stop Seeing the Same Reality"
 description: "In 1941 the Red Army was the world's largest military, yet it lost contact, lost the picture and issued orders for a war that no longer existed. Lessons for CEOs about coordination and AI readiness."
 publishDate: 2026-10-24T05:00:00Z
@@ -132,7 +132,7 @@ For a business, the question to ask before investing in more software or AI is n
 **Next steps**
 
 - [Take the AI Readiness Assessment](/en/readiness/ai) to see where your organization is strong or exposed.
-- Read next: [Data without context: why AI can't use what you already have](/en/insights/data-without-context-ai)
+- Read next: [Data without context: why AI can't use what you already have](/en/insights/ai/data-without-context-ai-problem)
 
 ---
 

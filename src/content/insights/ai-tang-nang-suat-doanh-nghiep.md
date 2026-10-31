@@ -20,7 +20,7 @@ secondaryKeywords:
   - 'AI tạo văn bản'
   - 'năng suất AI'
 assessmentHref: '/readiness/ai'
-ctaPrimaryText: 'Assess your AI readiness'
+ctaPrimaryText: 'Làm AI Readiness Assessment'
 ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---

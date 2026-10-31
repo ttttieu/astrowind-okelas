@@ -1,4 +1,4 @@
----
+﻿---
 title: "Chatbot sai một câu. Agent sai một hành động. Tại sao sự khác biệt này quan trọng?"
 description: "Khi chatbot sai, con người kiểm tra và sửa. Khi agent sai, nó có thể đã thay đổi trạng thái hệ thống — trong ERP, trong workflow, trong database. Đây là lý do enterprise AI cần evidence, authorization và audit."
 publishDate: 2026-09-23T00:00:00Z
@@ -23,7 +23,7 @@ secondaryKeywords:
   - "AI action error"
   - "chatbot error vs agent error"
 assessmentHref: /readiness/ai
-ctaPrimaryText: 'Assess your AI readiness'
+ctaPrimaryText: 'Làm AI Readiness Assessment'
 ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---

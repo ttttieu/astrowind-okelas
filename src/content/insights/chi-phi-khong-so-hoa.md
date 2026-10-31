@@ -1,4 +1,4 @@
----
+﻿---
 title: "Chi phí thực sự của việc không số hóa — những thứ ít ai tính vào"
 description: "Doanh nghiệp thường lo ngại chi phí đầu tư số hóa. Nhưng ít ai tính đầy đủ chi phí của việc không số hóa. Bài viết phân tích các chi phí ẩn này."
 publishDate: 2025-09-24T00:00:00Z
@@ -18,7 +18,7 @@ secondaryKeywords:
   - "tại sao cần số hóa"
   - "ROI số hóa"
 assessmentHref: '/readiness/digitalization'
-ctaPrimaryText: 'Digital Transformation Maturity Assessment'
+ctaPrimaryText: 'Làm Digital Transformation Maturity Assessment'
 ctaSubtitle: 'Hiểu rõ mức độ trưởng thành số hóa của bạn và bước tiếp theo có ý nghĩa'
 draft: false
 ---

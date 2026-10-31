@@ -1,4 +1,4 @@
----
+﻿---
 title: "Agentic AI khác AI Assistant như thế nào?"
 description: "AI assistant nhận prompt và trả lời. Agentic AI nhận goal, lập kế hoạch, chọn tool và thực hiện action. Đây là sự khác biệt căn bản tạo ra control problem hoàn toàn khác."
 publishDate: 2025-09-24T00:00:00Z
@@ -21,7 +21,7 @@ secondaryKeywords:
   - "prompt response vs goal action"
   - "AI tự chủ"
 assessmentHref: /readiness/ai
-ctaPrimaryText: 'Assess your AI readiness'
+ctaPrimaryText: 'Làm AI Readiness Assessment'
 ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Workflow cho doanh nghiệp sản xuất: từ phê duyệt đến vận hành có context, evidence và AI hỗ trợ"
 description: "Bản đồ tổng quan về workflow trong doanh nghiệp sản xuất vừa và nhỏ: vì sao có workflow vẫn chậm, đi từ request/approval sang event/action, rule và con người quyết định thế nào, AI chỉ làm hai việc, và cách chọn bước tiếp theo có ý nghĩa kinh tế."
 publishDate: 2026-10-07T00:00:00Z
@@ -25,7 +25,7 @@ assessmentHref: /readiness/workflow
 coverImage: '~/assets/images/insights/workflow-doanh-nghiep-san-xuat/wfq-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/workflow-doanh-nghiep-san-xuat/wfq-00-og-cover-vi.png'
 coverImageAlt: "Câu hỏi thường gặp so với câu hỏi hữu ích về workflow doanh nghiệp sản xuất."
-ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaPrimaryText: 'Làm Workflow Readiness Assessment'
 ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---

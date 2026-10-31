@@ -1,4 +1,4 @@
----
+﻿---
 title: "KVM là gì: lớp nằm giữa AI agent và organizational knowledge"
 description: "KVM là lớp nằm giữa AI agent và organizational knowledge của doanh nghiệp, giúp AI truy xuất evidence đúng, hiểu context và hoạt động trong boundary được xác định — không phải chatbot, không phải RAG thông thường."
 publishDate: 2026-09-23T00:00:00Z
@@ -21,7 +21,7 @@ secondaryKeywords:
   - "AI evidence retrieval"
   - "knowledge management AI control"
 assessmentHref: /readiness/ai
-ctaPrimaryText: 'Assess your AI readiness'
+ctaPrimaryText: 'Làm AI Readiness Assessment'
 ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---

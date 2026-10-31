@@ -1,4 +1,4 @@
----
+﻿---
 title: "Manufacturing readiness: ERP cho doanh nghiệp sản xuất khác gì?"
 description: "ERP cho sản xuất không giống ERP thương mại hay dịch vụ. Bài viết phân tích những yêu cầu đặc thù của manufacturing SME trước khi chọn và triển khai ERP. |"
 publishDate: 2026-09-24T00:00:00Z
@@ -19,7 +19,7 @@ secondaryKeywords:
   - "phần mềm quản lý sản xuất ERP"
   - "ERP chế biến thực phẩm |"
 assessmentHref: /readiness/erp
-ctaPrimaryText: 'Assess your ERP readiness'
+ctaPrimaryText: 'Làm ERP Readiness Assessment'
 ctaSubtitle: 'Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn'
 coverImage: '~/assets/images/insights/erpm-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/erpm-00-og-cover-vi.png'

@@ -1,4 +1,4 @@
----
+﻿---
 title: "AI cần Authority, không chỉ Intelligence"
 description: "AI biết cách làm một việc không có nghĩa AI được phép làm việc đó. Intelligence và Authority là hai chiều khác nhau — và doanh nghiệp cần quản lý cả hai."
 publishDate: 2026-09-23T00:00:00Z
@@ -22,7 +22,7 @@ secondaryKeywords:
   - "AI được phép làm gì"
   - "AI authorization"
 assessmentHref: /readiness/ai
-ctaPrimaryText: 'Assess your AI readiness'
+ctaPrimaryText: 'Làm AI Readiness Assessment'
 ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---

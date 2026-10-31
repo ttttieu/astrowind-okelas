@@ -1,4 +1,4 @@
----
+﻿---
 title: "Dữ liệu có nhưng AI không dùng được — vấn đề thực sự là gì?"
 description: "Nhiều doanh nghiệp có đủ dữ liệu nhưng AI vẫn không trả lời được câu hỏi vận hành. Vấn đề không phải là thiếu dữ liệu mà là thiếu context. Bài viết giải thích sự khác biệt."
 publishDate: 2025-09-24T00:00:00Z
@@ -20,7 +20,7 @@ secondaryKeywords:
   - 'AI cần gì từ dữ liệu'
   - 'organizational context AI'
 assessmentHref: '/readiness/ai'
-ctaPrimaryText: 'Assess your AI readiness'
+ctaPrimaryText: 'Làm AI Readiness Assessment'
 ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---

@@ -1,4 +1,4 @@
----
+﻿---
 title: "AI Readiness: 6 điều kiện để AI thực sự có ích trong vận hành"
 description: "Không phải doanh nghiệp nào cũng sẵn sàng cho AI ở cấp vận hành. Bài viết trình bày 6 điều kiện cụ thể mà CEO/CIO cần đánh giá trước khi đầu tư."
 publishDate: 2025-09-24T00:00:00Z
@@ -20,7 +20,7 @@ secondaryKeywords:
   - 'yêu cầu AI vận hành'
   - 'organizational AI preparation'
 assessmentHref: '/readiness/ai'
-ctaPrimaryText: 'Assess your AI readiness'
+ctaPrimaryText: 'Làm AI Readiness Assessment'
 ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---

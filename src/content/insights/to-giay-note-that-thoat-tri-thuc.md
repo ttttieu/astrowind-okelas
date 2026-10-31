@@ -1,4 +1,4 @@
----
+﻿---
 title: "Tờ giấy note đang làm doanh nghiệp mất tri thức như thế nào?"
 description: "Tờ note kẹp trên hồ sơ trình ký ghi lại cách nhân viên đọc bằng chứng và lý do lãnh đạo quyết định. Vì sao nó thường vào sọt rác, và doanh nghiệp mất gì?"
 publishDate: 2026-10-24T08:00:00Z
@@ -129,7 +129,7 @@ Và kết thúc trong sọt rác.
 **Bước tiếp theo**
 
 - Làm [Đánh giá mức độ trưởng thành quản trị tri thức](/readiness/knowledge) để xem doanh nghiệp đang giữ lại bao nhiêu phần tri thức mình tạo ra.
-- Đọc bài trụ cột: [Từ tri thức cá nhân đến tri thức tổ chức](/insights/tu-tri-thuc-ca-nhan-den-tri-thuc-to-chuc).
+- Đọc bài trụ cột: [Từ tri thức cá nhân đến tri thức tổ chức](/insights/knowledge-management/quan-ly-tri-thuc-doanh-nghiep-san-xuat).
 
 **Nguồn tham khảo**
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Tại sao nhân viên vẫn dùng email và Excel để theo dõi công việc?"
 description: "Nếu nhân viên vẫn gửi email hỏi 'việc này tới đâu rồi?' hay dùng Excel để track công việc — đó là dấu hiệu workflow chưa cung cấp đủ visibility. Bài viết phân tích tại sao."
 publishDate: 2026-09-23T00:00:00Z
@@ -21,7 +21,7 @@ assessmentHref: /readiness/workflow
 coverImage: '~/assets/images/insights/theo-doi-cong-viec-email-excel/wft-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/theo-doi-cong-viec-email-excel/wft-00-og-cover-vi.png'
 coverImageAlt: "Hệ thống chính thức ghi nhận trạng thái, trong khi một hệ thống theo dõi song song gồm Excel, email và Zalo mọc lên để lấp khoảng trống."
-ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaPrimaryText: 'Làm Workflow Readiness Assessment'
 ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---

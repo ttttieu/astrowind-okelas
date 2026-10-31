@@ -1,4 +1,4 @@
----
+﻿---
 title: "Doanh nghiệp đã có ERP nhưng vẫn chạy bằng Excel — tại sao?"
 description: "Nhiều doanh nghiệp đầu tư ERP nhưng nhân viên vẫn làm việc bằng Excel. Đây không phải vấn đề phần mềm — đây là dấu hiệu của một vấn đề sâu hơn. |"
 publishDate: 2026-09-24T00:00:00Z
@@ -19,7 +19,7 @@ secondaryKeywords:
   - "ERP không được dùng"
   - "sau khi triển khai ERP |"
 assessmentHref: /readiness/erp
-ctaPrimaryText: 'Assess your ERP readiness'
+ctaPrimaryText: 'Làm ERP Readiness Assessment'
 ctaSubtitle: 'Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn'
 coverImage: '~/assets/images/insights/erpx-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/erpx-00-og-cover-vi.png'

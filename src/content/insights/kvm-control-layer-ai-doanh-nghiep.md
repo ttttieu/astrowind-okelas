@@ -1,4 +1,4 @@
----
+﻿---
 title: "KVM: Control Layer cho AI trong doanh nghiệp"
 description: "Từ AI capability đến agentic behavior đến unexpected action đến enterprise risk — và cách KVM tạo ra một lớp kiểm soát giúp doanh nghiệp triển khai AI có trách nhiệm."
 publishDate: 2026-09-23T00:00:00Z
@@ -22,7 +22,7 @@ secondaryKeywords:
   - "enterprise AI governance platform"
   - "kiểm soát AI vận hành"
 assessmentHref: /readiness/ai
-ctaPrimaryText: 'Assess your AI readiness'
+ctaPrimaryText: 'Làm AI Readiness Assessment'
 ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---

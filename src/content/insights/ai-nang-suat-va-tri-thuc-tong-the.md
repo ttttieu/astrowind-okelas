@@ -19,7 +19,7 @@ secondaryKeywords:
   - 'AI cho vận hành doanh nghiệp'
   - 'AI cá nhân vs AI tổ chức'
 assessmentHref: '/readiness/ai'
-ctaPrimaryText: 'Assess your AI readiness'
+ctaPrimaryText: 'Làm AI Readiness Assessment'
 ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---

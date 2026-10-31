@@ -1,4 +1,4 @@
----
+﻿---
 title: "Từ Approval Workflow đến End-to-End Workflow"
 description: "Hầu hết doanh nghiệp bắt đầu với approval workflow — quy trình phê duyệt. Nhưng end-to-end workflow bao phủ toàn bộ luồng công việc từ sự kiện đầu tiên đến kết quả cuối cùng."
 publishDate: 2026-09-23T00:00:00Z
@@ -21,7 +21,7 @@ assessmentHref: /readiness/workflow
 coverImage: '~/assets/images/insights/approval-workflow-den-end-to-end/wfe-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/approval-workflow-den-end-to-end/wfe-00-og-cover-vi.png'
 coverImageAlt: "Approval workflow chỉ phủ một đoạn giữa; end-to-end workflow phủ cả hành trình từ sự kiện khởi phát đến kết quả cuối."
-ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaPrimaryText: 'Làm Workflow Readiness Assessment'
 ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---

@@ -1,4 +1,4 @@
----
+﻿---
 title: "AI Agent và Cybersecurity: khi AI có khả năng tác động lên hệ thống"
 description: "AI agent không chỉ trả lời câu hỏi — nó có thể truy cập API, database, email và hệ thống nội bộ. Trong ngữ cảnh enterprise, điều này tạo ra mặt tấn công mới cần được kiểm soát."
 publishDate: 2026-09-23T00:00:00Z
@@ -22,7 +22,7 @@ secondaryKeywords:
   - "AI cybersecurity risk"
   - "AI network access"
 assessmentHref: /readiness/ai
-ctaPrimaryText: 'Assess your AI readiness'
+ctaPrimaryText: 'Làm AI Readiness Assessment'
 ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---

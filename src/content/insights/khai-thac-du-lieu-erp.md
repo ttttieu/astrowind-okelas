@@ -1,4 +1,4 @@
----
+﻿---
 title: "Sau ERP: doanh nghiệp cần làm gì để khai thác dữ liệu ERP?"
 description: "ERP tạo ra rất nhiều dữ liệu. Nhưng hầu hết doanh nghiệp chỉ dùng ERP để nhập liệu, không phải để phân tích và ra quyết định. Bài viết chỉ ra cách tiếp cận."
 publishDate: 2026-09-24T00:00:00Z
@@ -20,7 +20,7 @@ secondaryKeywords:
   - "ERP và AI"
   - "dữ liệu ERP ra quyết định"
 assessmentHref: /readiness/erp
-ctaPrimaryText: 'Assess your ERP readiness'
+ctaPrimaryText: 'Làm ERP Readiness Assessment'
 ctaSubtitle: 'Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn'
 coverImage: '~/assets/images/insights/erpt-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/erpt-00-og-cover-vi.png'

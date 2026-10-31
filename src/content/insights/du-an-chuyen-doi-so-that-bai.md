@@ -1,4 +1,4 @@
----
+﻿---
 title: "Bẫy của 'dự án chuyển đổi số lớn' — và cách tránh nó"
 description: "Nhiều doanh nghiệp đầu tư lớn vào chuyển đổi số nhưng không đạt kết quả. Bài viết phân tích những bẫy phổ biến và cách tiếp cận thực tế hơn."
 publishDate: 2025-09-24T00:00:00Z
@@ -18,7 +18,7 @@ secondaryKeywords:
   - "rủi ro dự án số hóa"
   - "bài học chuyển đổi số"
 assessmentHref: '/readiness/digitalization'
-ctaPrimaryText: 'Digital Transformation Maturity Assessment'
+ctaPrimaryText: 'Làm Digital Transformation Maturity Assessment'
 ctaSubtitle: 'Hiểu rõ mức độ trưởng thành số hóa của bạn và bước tiếp theo có ý nghĩa'
 draft: false
 ---

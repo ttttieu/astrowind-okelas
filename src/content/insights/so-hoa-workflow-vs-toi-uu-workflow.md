@@ -1,4 +1,4 @@
----
+﻿---
 title: "Workflow được số hóa không có nghĩa là workflow đã được tối ưu"
 description: "Chuyển workflow từ giấy sang phần mềm là bước đầu tiên — không phải đích đến. Bài viết phân tích sự khác biệt giữa workflow được số hóa và workflow thực sự tối ưu."
 publishDate: 2026-09-23T00:00:00Z
@@ -22,7 +22,7 @@ assessmentHref: /readiness/workflow
 coverImage: '~/assets/images/insights/so-hoa-workflow-vs-toi-uu-workflow/wfo-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/so-hoa-workflow-vs-toi-uu-workflow/wfo-00-og-cover-vi.png'
 coverImageAlt: "Ba bảng giấy, số hóa và tối ưu: hai bảng đầu cùng một chuỗi tuần tự, bảng thứ ba là chuỗi đã gộp và chạy song song."
-ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaPrimaryText: 'Làm Workflow Readiness Assessment'
 ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---

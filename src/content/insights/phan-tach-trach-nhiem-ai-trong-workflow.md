@@ -1,4 +1,4 @@
----
+﻿---
 title: "Phân tách trách nhiệm cho AI trong workflow: ai diễn giải, ai quyết định, ai thực thi, ai ghi nhận"
 description: "Khi AI agent và workflow cùng vận hành, câu hỏi quản trị đầu tiên là ai quyết định và ai thực thi. Bài này áp nguyên tắc phân tách nhiệm vụ của kiểm soát nội bộ vào thiết kế workflow có AI: bốn vai tách biệt, ba câu hỏi cho mỗi loại hành động, và giới hạn kỹ thuật cần đặt cho agent."
 publishDate: 2026-10-06T00:00:00Z
@@ -24,7 +24,7 @@ assessmentHref: /readiness/workflow
 coverImage: '~/assets/images/insights/phan-tach-trach-nhiem-ai-trong-workflow/wfm-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/phan-tach-trach-nhiem-ai-trong-workflow/wfm-00-og-cover-vi.png'
 coverImageAlt: "Gộp vai so với tách vai trong workflow có AI: khi một thực thể làm cả bốn vai, kiểm soát mất tác dụng."
-ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaPrimaryText: 'Làm Workflow Readiness Assessment'
 ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---

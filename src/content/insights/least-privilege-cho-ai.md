@@ -1,4 +1,4 @@
----
+﻿---
 title: "Least Privilege cho AI Agent: nguyên tắc thiết kế quyền hạn AI"
 description: "AI agent chỉ nên được cấp quyền tối thiểu cần thiết cho task cụ thể — không hơn. Bài viết phân tích nguyên tắc least privilege trong ngữ cảnh AI và cách áp dụng trong enterprise."
 publishDate: 2026-09-23T00:00:00Z
@@ -22,7 +22,7 @@ secondaryKeywords:
   - "AI access control"
   - "AI privilege management"
 assessmentHref: /readiness/ai
-ctaPrimaryText: 'Assess your AI readiness'
+ctaPrimaryText: 'Làm AI Readiness Assessment'
 ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---

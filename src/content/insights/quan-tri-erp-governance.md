@@ -1,4 +1,4 @@
----
+﻿---
 title: "ERP governance: ai chịu trách nhiệm khi ERP không hoạt động đúng?"
 description: "ERP không tự vận hành. Nhiều doanh nghiệp sau khi go-live không có cấu trúc quản trị rõ ràng — và đó là lý do chất lượng dữ liệu và hệ thống xuống cấp theo thời gian. |"
 publishDate: 2026-09-24T00:00:00Z
@@ -20,7 +20,7 @@ secondaryKeywords:
   - "ERP maintenance"
   - "duy trì hệ thống ERP |"
 assessmentHref: /readiness/erp
-ctaPrimaryText: 'Assess your ERP readiness'
+ctaPrimaryText: 'Làm ERP Readiness Assessment'
 ctaSubtitle: 'Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn'
 coverImage: '~/assets/images/insights/erpg-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/erpg-00-og-cover-vi.png'

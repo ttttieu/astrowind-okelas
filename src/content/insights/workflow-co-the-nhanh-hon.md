@@ -1,4 +1,4 @@
----
+﻿---
 title: "Workflow đã nhanh — còn có thể nhanh hơn không?"
 description: "Nhiều doanh nghiệp đã có workflow tốt. Nhưng 'tốt' không phải là giới hạn. AI và event-driven architecture đang mở ra một tầng mới của tốc độ và độ chính xác trong workflow."
 publishDate: 2026-09-23T00:00:00Z
@@ -21,7 +21,7 @@ assessmentHref: /readiness/workflow
 coverImage: '~/assets/images/insights/workflow-co-the-nhanh-hon/wfn-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/workflow-co-the-nhanh-hon/wfn-00-og-cover-vi.png'
 coverImageAlt: "Một workflow khởi động khi có người tạo yêu cầu, so với một workflow được kích hoạt theo sự kiện với ngữ cảnh chuẩn bị sẵn."
-ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaPrimaryText: 'Làm Workflow Readiness Assessment'
 ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---

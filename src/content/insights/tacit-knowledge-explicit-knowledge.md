@@ -1,4 +1,4 @@
----
+﻿---
 title: "Tacit Knowledge và Explicit Knowledge — tại sao cần phân biệt và ứng dụng gì"
 description: "Không phải mọi tri thức đều có thể viết thành tài liệu. Hiểu sự khác biệt là bước đầu tiên để xây dựng knowledge management phù hợp."
 publishDate: 2025-09-24T00:00:00Z
@@ -20,8 +20,8 @@ secondaryKeywords:
   - "quản lý tri thức doanh nghiệp"
   - "knowledge management framework"
 assessmentHref: '/readiness/knowledge'
-ctaPrimaryText: 'Assess your KM maturity'
-ctaSubtitle: 'Xác định mức độ trưởng thành về quản lý tri thức trong công ty bạn'
+ctaPrimaryText: 'Làm Knowledge Management Maturity Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 

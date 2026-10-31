@@ -20,7 +20,7 @@ secondaryKeywords:
   - 'chatbot doanh nghiệp hạn chế'
   - 'AI không hiểu context'
 assessmentHref: '/readiness/ai'
-ctaPrimaryText: 'Assess your AI readiness'
+ctaPrimaryText: 'Làm AI Readiness Assessment'
 ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---

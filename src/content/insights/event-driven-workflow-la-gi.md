@@ -1,4 +1,4 @@
----
+﻿---
 title: "Event-Driven Workflow: khi workflow tự nhận biết sự kiện để bắt đầu công việc"
 description: "Thay vì chờ người khởi động, event-driven workflow tự nhận biết sự kiện và kích hoạt đúng quy trình vào đúng thời điểm. Bài viết giải thích cơ chế và ứng dụng thực tế."
 publishDate: 2026-09-23T00:00:00Z
@@ -22,7 +22,7 @@ assessmentHref: /readiness/workflow
 coverImage: '~/assets/images/insights/event-driven-workflow-la-gi/wfv-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/event-driven-workflow-la-gi/wfv-00-og-cover-vi.png'
 coverImageAlt: "Trên trục thời gian, workflow request-based chờ một khoảng trễ phát hiện trước khi bắt đầu, còn event-driven workflow bắt đầu gần như ngay khi sự việc xảy ra."
-ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaPrimaryText: 'Làm Workflow Readiness Assessment'
 ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---

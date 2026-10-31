@@ -1,4 +1,4 @@
----
+﻿---
 title: "Workflow Automation và Intelligent Workflow: Hai Khái Niệm Khác Nhau"
 description: "Automation giúp workflow chạy tự động — nhưng không giúp workflow xử lý exception, hiểu context hay ra quyết định. Đó là vai trò của intelligent workflow."
 publishDate: 2026-09-23T00:00:00Z
@@ -22,7 +22,7 @@ assessmentHref: /readiness/workflow
 coverImage: '~/assets/images/insights/workflow-automation-vs-intelligent/wfa-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/workflow-automation-vs-intelligent/wfa-00-og-cover-vi.png'
 coverImageAlt: "Một chuỗi automation dừng lại ở tình huống lạ, so với một chuỗi intelligent workflow phân loại ngoại lệ và chuyển người đúng ca."
-ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaPrimaryText: 'Làm Workflow Readiness Assessment'
 ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---

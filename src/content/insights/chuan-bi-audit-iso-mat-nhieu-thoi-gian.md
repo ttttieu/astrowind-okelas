@@ -1,4 +1,4 @@
----
+﻿---
 title: "Tại sao chuẩn bị audit lại tốn nhiều công sức đến vậy?"
 description: "Nếu mỗi lần audit bạn phải huy động cả phòng để tìm hồ sơ, vấn đề không phải là audit khó — mà là hệ thống chưa sẵn sàng."
 publishDate: 2025-09-24T00:00:00Z
@@ -20,8 +20,8 @@ secondaryKeywords:
   - "audit readiness"
   - "bằng chứng documentation"
 assessmentHref: '/readiness/knowledge'
-ctaPrimaryText: 'Assess your KM maturity'
-ctaSubtitle: 'Xác định mức độ trưởng thành về quản lý tri thức trong công ty bạn'
+ctaPrimaryText: 'Làm Knowledge Management Maturity Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 

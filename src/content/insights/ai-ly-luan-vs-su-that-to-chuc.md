@@ -1,4 +1,4 @@
----
+﻿---
 title: "AI lập luận dựa trên gì? Khi AI reason xung đột với organizational truth"
 description: "AI có thể giải thích, suy luận và đề xuất. Nhưng organizational truth cần phải có thể truy xuất, quy kết và kiểm chứng được. Đây là lý do AI reasoning không thể thay thế organizational evidence."
 publishDate: 2026-09-23T00:00:00Z
@@ -22,7 +22,7 @@ secondaryKeywords:
   - "organizational evidence"
   - "AI traceable"
 assessmentHref: /readiness/ai
-ctaPrimaryText: 'Assess your AI readiness'
+ctaPrimaryText: 'Làm AI Readiness Assessment'
 ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---

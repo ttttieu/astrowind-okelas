@@ -1,4 +1,4 @@
----
+﻿---
 title: "Mỗi AI Agent cần một hồ sơ quyền hạn: từ AI Assistant đến AI Employee"
 description: "Khi AI agent ngày càng giống một nhân viên — có nhiệm vụ, có quyền hạn, có trách nhiệm — nó cần một hồ sơ rõ ràng: được đọc gì, gọi tool nào, tác động lên entity nào, cần approval ở đâu."
 publishDate: 2026-09-23T00:00:00Z
@@ -22,7 +22,7 @@ secondaryKeywords:
   - "AI agent responsibility"
   - "AI agent audit trail"
 assessmentHref: /readiness/ai
-ctaPrimaryText: 'Assess your AI readiness'
+ctaPrimaryText: 'Làm AI Readiness Assessment'
 ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---

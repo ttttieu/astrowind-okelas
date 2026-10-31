@@ -1,4 +1,4 @@
----
+﻿---
 title: "Evidence-Based AI: khi câu trả lời cần có khả năng kiểm chứng"
 description: "Trong môi trường ISO, GMP hay regulated industry, AI không thể chỉ đưa ra câu trả lời — câu trả lời đó phải có evidence, trace và audit trail. Bài viết phân tích yêu cầu này."
 publishDate: 2025-09-24T00:00:00Z
@@ -21,7 +21,7 @@ secondaryKeywords:
   - "AI trong ISO GMP"
   - "AI audit trail"
 assessmentHref: '/readiness/ai'
-ctaPrimaryText: 'Assess your AI readiness'
+ctaPrimaryText: 'Làm AI Readiness Assessment'
 ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---

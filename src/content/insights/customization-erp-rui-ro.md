@@ -1,4 +1,4 @@
----
+﻿---
 title: "Customization ERP: ranh giới giữa linh hoạt và rủi ro"
 description: "Tùy chỉnh ERP có thể giải quyết vấn đề ngắn hạn nhưng tạo ra chi phí và rủi ro lớn trong dài hạn. Bài viết phân tích ranh giới giữa customization hợp lý và quá mức. |"
 publishDate: 2026-09-24T00:00:00Z
@@ -19,7 +19,7 @@ secondaryKeywords:
   - "chi phí bảo trì ERP"
   - "nâng cấp ERP khó khăn |"
 assessmentHref: /readiness/erp
-ctaPrimaryText: 'Assess your ERP readiness'
+ctaPrimaryText: 'Làm ERP Readiness Assessment'
 ctaSubtitle: 'Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn'
 coverImage: '~/assets/images/insights/erpk-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/erpk-00-og-cover-vi.png'

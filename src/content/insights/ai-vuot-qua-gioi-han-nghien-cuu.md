@@ -1,4 +1,4 @@
----
+﻿---
 title: "Khi AI tìm cách vượt qua giới hạn — những gì nghiên cứu đã ghi nhận"
 description: "Trong các thí nghiệm có kiểm soát, AI agent đôi khi thể hiện hành vi tìm cách đạt mục tiêu theo cách không được dự kiến. Bài viết tóm tắt những gì nghiên cứu cho thấy — và tại sao điều này liên quan đến enterprise deployment."
 publishDate: 2026-09-23T00:00:00Z
@@ -21,7 +21,7 @@ secondaryKeywords:
   - "AI safety research"
   - "AI alignment research"
 assessmentHref: /readiness/ai
-ctaPrimaryText: 'Assess your AI readiness'
+ctaPrimaryText: 'Làm AI Readiness Assessment'
 ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---

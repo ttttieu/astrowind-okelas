@@ -1,4 +1,4 @@
----
+﻿---
 title: "ERP và con người: tại sao user adoption quyết định thành bại"
 description: "Nhiều dự án ERP thất bại không phải vì phần mềm, mà vì nhân viên không chịu dùng. Bài viết phân tích nguyên nhân và cách tiếp cận change management hiệu quả. |"
 publishDate: 2026-09-24T00:00:00Z
@@ -19,7 +19,7 @@ secondaryKeywords:
   - "change management ERP"
   - "đào tạo ERP |"
 assessmentHref: /readiness/erp
-ctaPrimaryText: 'Assess your ERP readiness'
+ctaPrimaryText: 'Làm ERP Readiness Assessment'
 ctaSubtitle: 'Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn'
 coverImage: '~/assets/images/insights/erpu-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/erpu-00-og-cover-vi.png'

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Đã có workflow rồi — tại sao công việc vẫn chậm?"
 description: "Nhiều doanh nghiệp đã số hóa quy trình phê duyệt và vẫn thấy công việc chậm như cũ. Vấn đề không phải workflow — mà là loại workflow. Bài viết phân tích sự khác biệt."
 publishDate: 2026-09-23T00:00:00Z
@@ -21,7 +21,7 @@ assessmentHref: /readiness/workflow
 coverImage: '~/assets/images/insights/co-workflow-van-lam-viec-cham/wfs-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/co-workflow-van-lam-viec-cham/wfs-00-og-cover-vi.png'
 coverImageAlt: "Hai chuỗi bước giống hệt nhau, một chuỗi trên giấy hoặc email và một chuỗi form điện tử: số hóa chưa đổi thứ tự tuần tự."
-ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaPrimaryText: 'Làm Workflow Readiness Assessment'
 ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---

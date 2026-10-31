@@ -1,4 +1,4 @@
----
+﻿---
 title: "Doanh nghiệp bạn đã thực sự sẵn sàng triển khai ERP chưa?"
 description: "Trước khi chọn phần mềm ERP, có 8 câu hỏi quan trọng hơn mà CEO cần tự trả lời. Bài viết giúp bạn tự đánh giá mức độ sẵn sàng. |"
 publishDate: 2026-09-24T00:00:00Z
@@ -19,7 +19,7 @@ secondaryKeywords:
   - "doanh nghiệp có nên dùng ERP"
   - "điều kiện triển khai ERP |"
 assessmentHref: /readiness/erp
-ctaPrimaryText: 'Assess your ERP readiness'
+ctaPrimaryText: 'Làm ERP Readiness Assessment'
 ctaSubtitle: 'Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn'
 coverImage: '~/assets/images/insights/erpr-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/erpr-00-og-cover-vi.png'

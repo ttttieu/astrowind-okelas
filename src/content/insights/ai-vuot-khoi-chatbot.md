@@ -1,4 +1,4 @@
----
+﻿---
 title: "AI đã vượt khỏi chatbot — từ assistant đến agentic"
 description: "Nhiều tổ chức vẫn nghĩ về AI như một chatbot thông minh. Nhưng thực tế đã tiến xa hơn: từ prompt/response đến goal/plan/action. Đây là khoảng cách quan trọng cần nhận ra."
 publishDate: 2025-09-24T00:00:00Z
@@ -21,7 +21,7 @@ secondaryKeywords:
   - "từ chatbot đến AI agent"
   - "AI tự chủ"
 assessmentHref: /readiness/ai
-ctaPrimaryText: 'Assess your AI readiness'
+ctaPrimaryText: 'Làm AI Readiness Assessment'
 ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---

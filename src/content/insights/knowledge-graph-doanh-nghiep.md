@@ -1,4 +1,4 @@
----
+﻿---
 title: "Knowledge Graph trong doanh nghiệp — không phải công nghệ, là cách tổ chức tri thức"
 description: "Knowledge graph không chỉ là công nghệ — đây là cách tổ chức tri thức có cấu trúc để có thể truy vấn, liên kết và dùng cho AI."
 publishDate: 2025-09-24T00:00:00Z
@@ -20,8 +20,8 @@ secondaryKeywords:
   - "knowledge graph AI"
   - "tri thức có cấu trúc"
 assessmentHref: '/readiness/knowledge'
-ctaPrimaryText: 'Assess your KM maturity'
-ctaSubtitle: 'Xác định mức độ trưởng thành về quản lý tri thức trong công ty bạn'
+ctaPrimaryText: 'Làm Knowledge Management Maturity Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 

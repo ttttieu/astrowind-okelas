@@ -1,4 +1,4 @@
----
+﻿---
 title: "Giao việc cho AI theo từng bước workflow: nhìn ở cấp hoạt động, quản trị như một participant"
 description: "Thay vì hỏi AI có thay được một vị trí không, hãy hỏi bước nào trong workflow của vị trí đó có thể giao cho AI, với nhiệm vụ, quyền hạn và dấu vết rõ ràng. Bài này gộp hai cách nhìn thành một khung: giao bước chứ không giao quyết định."
 publishDate: 2026-10-06T00:00:00Z
@@ -24,7 +24,7 @@ assessmentHref: /readiness/workflow
 coverImage: '~/assets/images/insights/giao-viec-cho-ai-theo-buoc-workflow/wfl-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/giao-viec-cho-ai-theo-buoc-workflow/wfl-00-og-cover-vi.png'
 coverImageAlt: "Câu hỏi thường gặp 'AI thay được ai' so với câu hỏi hữu ích 'bước nào nên giao cho AI'."
-ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaPrimaryText: 'Làm Workflow Readiness Assessment'
 ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---

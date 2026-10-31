@@ -1,4 +1,4 @@
----
+﻿---
 title: "SOP có nhưng không được thực thi — tại sao điều này xảy ra?"
 description: "Nhiều doanh nghiệp đầu tư viết SOP nhưng nhân viên không làm đúng. Vấn đề không phải nhân viên — mà là thiết kế."
 publishDate: 2025-09-24T00:00:00Z
@@ -20,8 +20,8 @@ secondaryKeywords:
   - "SOP doanh nghiệp sản xuất"
   - "quy trình không được thực hiện"
 assessmentHref: '/readiness/knowledge'
-ctaPrimaryText: 'Assess your KM maturity'
-ctaSubtitle: 'Xác định mức độ trưởng thành về quản lý tri thức trong công ty bạn'
+ctaPrimaryText: 'Làm Knowledge Management Maturity Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 

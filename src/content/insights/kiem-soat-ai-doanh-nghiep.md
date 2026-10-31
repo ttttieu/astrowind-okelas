@@ -1,4 +1,4 @@
----
+﻿---
 title: "AI được phép làm đến đâu — và tại sao doanh nghiệp cần một control layer"
 description: "Khi AI từ chatbot trở thành agent có khả năng tự hành động, câu hỏi không còn là AI biết gì mà là AI được phép làm gì. Bài viết phân tích vấn đề kiểm soát AI trong doanh nghiệp."
 publishDate: 2025-09-24T00:00:00Z
@@ -25,7 +25,7 @@ secondaryKeywords:
   - "AI governance doanh nghiệp"
   - "AI được phép làm gì"
 assessmentHref: /readiness/ai
-ctaPrimaryText: 'Assess your AI readiness'
+ctaPrimaryText: 'Làm AI Readiness Assessment'
 ctaSubtitle: 'Xác định mức độ sẵn sàng AI của doanh nghiệp bạn'
 draft: false
 ---

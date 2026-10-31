@@ -1,4 +1,4 @@
----
+﻿---
 title: "AI làm hai việc trong workflow: diễn giải đầu vào và chuẩn bị evidence"
 description: "AI không phải một lớp phán đoán mới trong workflow. Bài này dùng khung bốn giai đoạn của Parasuraman, Sheridan và Wickens (2000) để chỉ ra AI nên hỗ trợ ở đâu, và quyền quyết định thuộc về rule hay con người."
 publishDate: 2026-09-23T00:00:00Z
@@ -24,7 +24,7 @@ assessmentHref: /readiness/workflow
 coverImage: '~/assets/images/insights/ai-tich-hop-vao-workflow/wfi-00-og-cover-vi.png'
 ogImage: '~/assets/images/insights/ai-tich-hop-vao-workflow/wfi-00-og-cover-vi.png'
 coverImageAlt: "Bốn giai đoạn xử lý thông tin của một workflow; AI diễn giải đầu vào và chuẩn bị evidence, còn quyền quyết định thuộc về rule hoặc con người."
-ctaPrimaryText: 'Workflow Readiness Assessment'
+ctaPrimaryText: 'Làm Workflow Readiness Assessment'
 ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
 ---

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Bước tiếp theo có nghĩa kinh tế là gì — framework tự đánh giá cho CEO"
 description: "Không phải mọi đầu tư số hóa đều có giá trị như nhau ở mọi giai đoạn. Bài viết cung cấp framework để CEO tự đánh giá bước tiếp theo phù hợp nhất với doanh nghiệp."
 publishDate: 2025-09-24T00:00:00Z
@@ -18,7 +18,7 @@ secondaryKeywords:
   - "ROI số hóa SME"
   - "framework số hóa CEO"
 assessmentHref: '/readiness/digitalization'
-ctaPrimaryText: 'Digital Transformation Maturity Assessment'
+ctaPrimaryText: 'Làm Digital Transformation Maturity Assessment'
 ctaSubtitle: 'Hiểu rõ mức độ trưởng thành số hóa của bạn và bước tiếp theo có ý nghĩa'
 draft: false
 ---
