@@ -2,11 +2,6 @@ backend:
   name: git-gateway
   branch: main
 
-i18n:
-  structure: folder
-  locales: [vi, en]
-  default_locale: vi
-
 media_folder: "public/uploads"
 public_folder: "/uploads"
 
@@ -98,33 +93,3 @@ collections:
         widget: "list"
         field: { label: "Link", name: "link", widget: "string" }
         required: false
-
-  # 2. Readiness Assessments (Cấu hình cho các bài chẩn đoán)
-  - name: "assessments"
-    label: "Readiness Assessments"
-    folder: "src/content/assessments"
-    create: true
-    i18n: true
-    slug: "{{locale}}/{{slug}}"
-    fields:
-      - { label: "Assessment Title", name: "title", widget: "string", i18n: true }
-      - { label: "Target Pillar", name: "pillar", widget: "select", options: ["erp", "digitalization", "ai", "knowledge"] }
-      - label: "Diagnostic Questions"
-        name: "questions"
-        widget: "list"
-        fields:
-          - { label: "Question Text", name: "question", widget: "string", i18n: true }
-          - label: "Options & Scores"
-            name: "options"
-            widget: "list"
-            fields:
-              - { label: "Option Label", name: "label", widget: "string", i18n: true }
-              - { label: "Score (1-5)", name: "score", widget: "number", value_type: "int" }
-      - label: "Maturity Tiers / Recommendations"
-        name: "tiers"
-        widget: "list"
-        fields:
-          - { label: "Tier Name", name: "tier_name", widget: "string", i18n: true } # e.g. "Ad-hoc / Document-Centric"
-          - { label: "Min Score", name: "min_score", widget: "number" }
-          - { label: "Max Score", name: "max_score", widget: "number" }
-          - { label: "Advisory Next Steps", name: "recommendation", widget: "markdown", i18n: true }

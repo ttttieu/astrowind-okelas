@@ -64,12 +64,20 @@ This matches actual storage: flat files with `lang` field in frontmatter.
 
 ## Assessments Collection Status
 
-**Status:** ⚠️ **MISMATCH**
-- Decap config includes "assessments" collection
-- srcacontent/assessments folder does **NOT** exist
-- src/content.config.ts does **NOT** define assessments schema
+**Status:** ✅ **REMOVED**
+
+**Original Issue:**
+- Decap config included "assessments" collection
+- src/content/assessments folder does NOT exist
+- src/content.config.ts does NOT define assessments schema
 - Only "insights" and "post" collections defined in content.config.ts
 
-**Action Needed:**
-Either create assessments collection in src/content.config.ts and corresponding folder,
-or remove assessments from Decap config to match actual schema.
+**Action Taken:**
+Removed entire "assessments" collection from public/decapcms/config.yml
+to match actual schema in src/content.config.ts
+
+**Decision Rationale:**
+- Assessments feature not yet implemented
+- No schema or folder exists
+- Better to remove from CMS until feature is ready
+- Can be re-added when corresponding Astro content collection is created
