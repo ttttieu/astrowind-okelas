@@ -19,7 +19,7 @@ secondaryKeywords:
   - 'retrieval augmented generation limitations'
   - 'why chatbots fail operations'
   - 'enterprise chatbot problems'
-assessmentHref: /readiness/workflow
+assessmentHref: /en/readiness/workflow
 ctaPrimaryText: 'Workflow Readiness Assessment'
 ctaSubtitle: 'Workflow của bạn đang vận hành như thế nào?'
 draft: false
