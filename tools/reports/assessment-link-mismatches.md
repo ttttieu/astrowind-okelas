@@ -7,57 +7,51 @@
 
 ## Detailed List
 
-| File | assessmentHref | Link in Body | Note |
-|------|---|---|---|
-| approval-to-end-to-end-workflow | /en/readiness/workflow | /en/readiness/digitalization | Workflow article, body links to digitalization |
-| approval-workflow-den-end-to-end | /readiness/workflow | /readiness/digitalization | VI version of above |
-| co-workflow-van-lam-viec-cham | /readiness/workflow | /readiness/digitalization | Workflow article, body links to digitalization |
-| digitized-vs-optimized-workflow | /en/readiness/workflow | /en/readiness/digitalization | Workflow article, body links to digitalization |
-| email-spreadsheet-work-tracking | /en/readiness/workflow | /en/readiness/digitalization | Workflow article, body links to digitalization |
-| event-driven-workflow | /en/readiness/workflow | /en/readiness/digitalization | Workflow article, body links to digitalization |
-| event-driven-workflow-la-gi | /readiness/workflow | /readiness/digitalization | VI version of above |
-| how-to-use-erp-data | /en/readiness/erp | /en/readiness/ai | ERP article, body links to AI |
-| khai-thac-du-lieu-erp | /readiness/erp | /readiness/ai | VI version of above |
-| programmed-vs-nonprogrammed-decisions | /en/readiness/workflow | /en/readiness/digitalization | Workflow article, body links to digitalization |
-| rag-limitations-enterprise-ai | /en/readiness/workflow | /en/readiness/ai | Workflow/AI article, just fixed in 2.1 |
-| rule-hay-con-nguoi-quyet-dinh-trong-workflow | /readiness/workflow | /readiness/digitalization | Workflow article, body links to digitalization |
-| so-hoa-workflow-vs-toi-uu-workflow | /readiness/workflow | /readiness/digitalization | Workflow article, body links to digitalization |
-| theo-doi-cong-viec-email-excel | /readiness/workflow | /readiness/digitalization | Workflow article, body links to digitalization |
-| workflow-automation-vs-intelligent | /readiness/workflow | /readiness/digitalization | Workflow article, body links to digitalization |
-| workflow-automation-vs-intelligent-workflow | /en/readiness/workflow | /en/readiness/digitalization | EN version of above |
-| workflow-co-the-nhanh-hon | /readiness/workflow | /readiness/digitalization | Workflow article, body links to digitalization |
-| workflow-digitized-still-slow | /en/readiness/workflow | /en/readiness/digitalization | Workflow article, body links to digitalization |
-| workflow-human-bottleneck | /en/readiness/workflow | /en/readiness/digitalization | Workflow article, body links to digitalization |
-| workflow-improvement-next-level | /en/readiness/workflow | /en/readiness/digitalization | Workflow article, body links to digitalization |
-| workflow-phu-thuoc-con-nguoi | /readiness/workflow | /readiness/digitalization | VI version of workflow article |
+| File | assessmentHref | Link in Body | Type | Reason |
+|------|---|---|---|---|
+| approval-to-end-to-end-workflow (VI) | /readiness/workflow | /readiness/digitalization | (a) Cross-reference | Article discusses workflow improvement then suggests digitalization assessment as next level |
+| approval-workflow-den-end-to-end (EN) | /en/readiness/workflow | /en/readiness/digitalization | (a) Cross-reference | Article discusses workflow improvement then suggests digitalization assessment as next level |
+| co-workflow-van-lam-viec-cham | /readiness/workflow | /readiness/digitalization | (a) Cross-reference | Article content links to digitalization for process optimization context |
+| digitized-vs-optimized-workflow (EN) | /en/readiness/workflow | /en/readiness/digitalization | (a) Cross-reference | Compares workflow digitization with optimization; digitalization assessment mentioned in body |
+| email-spreadsheet-work-tracking (EN) | /en/readiness/workflow | /en/readiness/digitalization | (a) Cross-reference | Discusses email/spreadsheet workflows; digitalization assessment referenced as related topic |
+| event-driven-workflow (EN) | /en/readiness/workflow | /en/readiness/digitalization | (a) Cross-reference | Event-driven systems require digital infrastructure; digitalization link in body |
+| event-driven-workflow-la-gi (VI) | /readiness/workflow | /readiness/digitalization | (a) Cross-reference | VI version of above |
+| how-to-use-erp-data (EN) | /en/readiness/erp | /en/readiness/ai | (a) Cross-reference | ERP article discusses AI use cases with data; AI assessment mentioned |
+| khai-thac-du-lieu-erp (VI) | /readiness/erp | /readiness/ai | (a) Cross-reference | VI version of above |
+| programmed-vs-nonprogrammed-decisions (EN) | /en/readiness/workflow | /en/readiness/digitalization | (a) Cross-reference | Decision frameworks in workflows; digitalization assessment mentioned |
+| rag-limitations-enterprise-ai (EN) | /en/readiness/workflow | /en/readiness/ai | (b) CTA mismatch | **FIXED in 2.1**: assessmentHref corrected from /readiness/workflow to /en/readiness/workflow. Body link to AI assessment now aligns. |
+| rule-hay-con-nguoi-quyet-dinh-trong-workflow (VI) | /readiness/workflow | /readiness/digitalization | (a) Cross-reference | Human decision-making in workflows; digitalization assessment referenced |
+| so-hoa-workflow-vs-toi-uu-workflow (VI) | /readiness/workflow | /readiness/digitalization | (a) Cross-reference | Workflow digitization vs. optimization; digitalization assessment mentioned |
+| theo-doi-cong-viec-email-excel (VI) | /readiness/workflow | /readiness/digitalization | (a) Cross-reference | Email/Excel workflow tracking; digitalization assessment in body |
+| workflow-automation-vs-intelligent (VI) | /readiness/workflow | /readiness/digitalization | (a) Cross-reference | Workflow automation vs. intelligent processes; digitalization context |
+| workflow-automation-vs-intelligent-workflow (EN) | /en/readiness/workflow | /en/readiness/digitalization | (a) Cross-reference | EN version of above |
+| workflow-co-the-nhanh-hon (VI) | /readiness/workflow | /readiness/digitalization | (a) Cross-reference | Workflow speed optimization; digitalization assessment mentioned |
+| workflow-digitized-still-slow (EN) | /en/readiness/workflow | /en/readiness/digitalization | (a) Cross-reference | Digitized workflows still inefficient; digitalization assessment in body |
+| workflow-human-bottleneck (EN) | /en/readiness/workflow | /en/readiness/digitalization | (a) Cross-reference | Human bottlenecks in workflow; digitalization as mitigation |
+| workflow-improvement-next-level (EN) | /en/readiness/workflow | /en/readiness/digitalization | (a) Cross-reference | Workflow improvement roadmap; digitalization as next level |
+| workflow-phu-thuoc-con-nguoi (VI) | /readiness/workflow | /readiness/digitalization | (a) Cross-reference | Human-dependent workflows; digitalization assessment mentioned |
 
-## Pattern Analysis
+## Analysis by Type
 
-### Workflow → Digitalization (18 articles)
-**Pattern**: Articles with `assessmentHref: /readiness/workflow` contain links to `/readiness/digitalization` in body.
+### Type (a): Cross-Assessment References (20 articles)
+**Pattern**: Articles intentionally link to a *related* assessment in body content, while CTA points to the primary assessment.
 
-**Likely reason**: Articles discuss both workflow optimization AND digital transformation as next steps. The CTA links to Workflow assessment, but body discusses Digitalization path.
+**Workflow → Digitalization (18 articles)**: Articles discuss workflow optimization with references to digital transformation as a broader context or next step. Body assessment links are intentional, not errors.
 
-**Examples**:
-- "email-spreadsheet-work-tracking" 
-- "workflow-automation-vs-intelligent"
-- Multiple workflow-related articles
+**ERP → AI (2 articles)**: ERP data management articles reference AI use cases.
 
-### ERP ↔ AI (3 articles)
-- "how-to-use-erp-data" and "khai-thac-du-lieu-erp": ERP assessmentHref but link to AI in body
-- "rag-limitations-enterprise-ai": Workflow assessmentHref but links to AI in body
+**Assessment**: These are NOT mismatches — they are intentional cross-references showing related assessment topics. The body provides context about adjacent assessment areas.
 
-**Likely reason**: Articles discuss both ERP/AI aspects or downstream implications.
+### Type (b): Actual CTA Mismatches (1 article)
+**rag-limitations-enterprise-ai (EN)**: 
+- **Status**: FIXED in Phase 2.1 — assessmentHref was /readiness/workflow but body linked to /readiness/ai
+- **Fix applied**: assessmentHref corrected to /en/readiness/workflow in 2.1
+- **Outcome**: Now aligned
 
-## Notes for Editor
+## Conclusion
 
-These mismatches indicate intentional cross-assessment links within articles. The discrepancy between frontmatter and body suggests:
-1. Article scope covers multiple assessment areas
-2. CTA focuses on primary assessment (assessmentHref)
-3. Body content provides options to related assessment paths
+Of 21 articles with differing body links:
+- **20 are intentional cross-references** (Type a) — articles discuss related assessments for context
+- **1 was a true mismatch** — fixed in Phase 2.1
 
-**No corrections recommended** without editorial review to understand intent behind each mismatch.
-
-## For Phase 2.2 Cross-Check
-
-One of these articles (rag-limitations-enterprise-ai) was also modified in Phase 2.1. Verify that the fixed assessmentHref (/en/readiness/workflow) aligns with content intentions.
+**Recommendation**: No editorial action needed. The cross-references are intentional and provide valuable assessment discovery for readers.
