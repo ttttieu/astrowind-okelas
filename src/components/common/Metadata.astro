@@ -12,10 +12,6 @@ import { adaptOpenGraphImages } from '~/utils/images';
 
 export interface Props extends MetaData {
   dontUseTitleTemplate?: boolean;
-  ogImage?: string;
-  coverImage?: string;
-  coverImageAlt?: string;
-  lang?: 'en' | 'vi';
 }
 
 const {
@@ -26,27 +22,12 @@ const {
   description,
   openGraph = {},
   twitter = {},
-  ogImage,
-  coverImage,
-  coverImageAlt,
-  lang,
 } = Astro.props;
-
-const localeMap: Record<string, string> = {
-  vi: 'vi_VN',
-  en: 'en_US',
-};
-
-// Fallback: ogImage → coverImage → okelas-diagram (default)
-// okelas-diagram is the default og:image used site-wide
-const imageForOg = ogImage || coverImage || undefined;
 
 const mergedOg: MetaDataOpenGraph = merge(
   {
     url: canonical,
     siteName: SITE?.name,
-    images: imageForOg ? [{ url: imageForOg }] : [],
-    locale: lang ? localeMap[lang] : I18N?.language || 'en',
     type: 'website',
   },
   METADATA?.openGraph,
@@ -79,7 +60,7 @@ function buildOpenGraph(og: MetaDataOpenGraph): SEOProps['openGraph'] | undefine
       url: imageUrl,
       width: firstImage?.width,
       height: firstImage?.height,
-      alt: coverImageAlt || title || METADATA?.title?.default || '',
+      alt: firstImage?.alt || title || METADATA?.title?.default || '',
     },
     ...(og.type === 'article' && og.article ? { article: og.article } : {}),
   };

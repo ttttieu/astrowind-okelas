@@ -1,0 +1,18 @@
+[repo] 218 URL, schema có; enum category=7, contentType=4, funnelStage=3
+
+218 file: 28 sạch, 14 có FAIL, 176 chỉ có WARN
+
+FAIL LINK-NOCAT           25 file | ví dụ: ai-adoption-real-problem.md: link /insights/<slug> thiếu category (sẽ 404): /en/insights/ai-readiness-framework
+FAIL CTA-BODY-LINK         5 file | ví dụ: does-your-workflow-need-an-ai-agent.md: CTA trong bài có câu hỏi nhưng không có link tới assessmentHref «/en/readiness/workflow»
+FAIL ASSESS-LANG           1 file | ví dụ: rag-limitations-enterprise-ai.md: bài EN phải dùng assessmentHref có /en
+WARN FM-STRAY             96 file | ví dụ: ai-adoption-real-problem.md: field ngoài schema (bị bỏ khi build): seo_title
+WARN CTA-LANG             86 file | ví dụ: agentic-ai-vs-ai-assistant-vi.md: bài VI nhưng ctaPrimaryText là tiếng Anh: «Assess your AI readiness»
+WARN DESC-LONG            48 file | ví dụ: agentic-ai-vs-ai-assistant.md: description dài 209 ký tự (>200)
+WARN LABEL                31 file | ví dụ: ai-agent-doanh-nghiep.md: nhãn «Đọc thêm» sai: liên quan
+WARN CTA-KM-PRESET        26 file | ví dụ: ai-document-explosion.md: CTA của assessment KM khác chuẩn (05 §4.2)
+WARN CTA-BODY-MISMATCH    21 file | ví dụ: approval-to-end-to-end-workflow.md: link assessment trong bài «/en/readiness/digitalization» khác assessmentHref «/en/readiness/workflow»
+WARN KW-PLACE             10 file | ví dụ: ai-bypassing-restrictions-research.md: chỉ 50% từ của primaryKeyword xuất hiện trong title, description hoặc 150 từ đầu
+WARN LINK-FORM             2 file | ví dụ: chuyen-doi-so-doanh-nghiep-san-xuat.md: link nội bộ ngoài khuôn đã biết: /solutions/progressive-eqms
+WARN CONTACT-STAGE         2 file | ví dụ: document-control-iso-9001-eqms.md: có dòng liên hệ nhưng funnelStage không có Consideration
+
+RESULT: FAIL

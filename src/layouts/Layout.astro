@@ -22,13 +22,9 @@ import type { MetaData as MetaDataType } from '~/types';
 export interface Props {
   metadata?: MetaDataType;
   translationId?: string;
-  ogImage?: string;
-  coverImage?: string;
-  coverImageAlt?: string;
-  lang?: 'en' | 'vi';
 }
 
-const { metadata = {}, translationId, ogImage, coverImage, coverImageAlt, lang } = Astro.props;
+const { metadata = {}, translationId } = Astro.props;
 const { language, textDirection } = I18N;
 ---
 
@@ -40,18 +36,7 @@ const { language, textDirection } = I18N;
     <Font cssVariable="--font-inter" preload />
     <CustomStyles />
     <ApplyColorMode />
-    <Metadata
-      title={metadata?.title}
-      description={metadata?.description}
-      canonical={metadata?.canonical}
-      robots={metadata?.robots}
-      openGraph={metadata?.openGraph}
-      twitter={metadata?.twitter}
-      ogImage={ogImage}
-      coverImage={coverImage}
-      coverImageAlt={coverImageAlt}
-      lang={lang}
-    />
+    <Metadata {...metadata} />
     <SiteVerification />
     <Analytics />
 
