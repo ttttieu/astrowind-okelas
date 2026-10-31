@@ -1,4 +1,4 @@
----
+﻿---
 title: "AI có thể tìm ra điều con người bỏ sót. Doanh nghiệp đã sẵn sàng chưa?"
 seo_title: "AI readiness: Bài học từ lỗ hổng PHP2Shell cho doanh nghiệp"
 lang: vi
@@ -173,8 +173,8 @@ Vì vậy, câu hỏi cho CEO không phải là AI có tìm ra vấn đề trong
 
 - Làm [AI Readiness Assessment](/readiness/ai) để xem doanh nghiệp đang yếu ở nền tảng nào.
 - Đọc bài trụ cột: [AI không làm doanh nghiệp thông minh hơn, trừ khi doanh nghiệp đã sẵn sàng](/insights/ai-khong-lam-doanh-nghiep-thong-minh-hon)
-- Đọc tiếp: [AI readiness: 6 điều kiện để AI thực sự có ích trong vận hành](/insights/ai-readiness-6-dieu-kien)
-- Liên quan: [Evidence-based AI: khi câu trả lời cần có khả năng kiểm chứng](/insights/evidence-based-ai) · [AI và compliance: doanh nghiệp ISO/GMP cần lưu ý gì](/insights/ai-va-compliance-iso-gmp) · [Vì sao chuẩn bị audit mất nhiều tuần](/insights/audit-preparation-mat-nhieu-tuan)
+- Đọc tiếp: [AI readiness: 6 điều kiện để AI thực sự có ích trong vận hành](/insights/ai/dieu-kien-trien-khai-ai-van-hanh)
+- Liên quan: [Evidence-based AI: khi câu trả lời cần có khả năng kiểm chứng](/insights/ai/evidence-based-ai-kiem-chung) · [AI và compliance: doanh nghiệp ISO/GMP cần lưu ý gì](/insights/ai-va-compliance-iso-gmp) · [Vì sao chuẩn bị audit mất nhiều tuần](/insights/audit-preparation-mat-nhieu-tuan)
 
 *Bài viết phân tích từ góc độ quản trị, không phải tư vấn bảo mật, tuân thủ hay pháp lý.*
 

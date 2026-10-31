@@ -1,4 +1,4 @@
----
+﻿---
 title: "AI Adoption: The Real Problem Is Not the Tool"
 seo_title: "Why AI Isn't Boosting Productivity — And What Your Organization Needs Before Scaling"
 description: "Companies invest in AI but productivity doesn't follow. This analysis identifies three layers of failure — technology, people, and organizational systems — and proposes five dimensions of AI readiness that CEOs should evaluate before expanding deployment."
@@ -212,7 +212,7 @@ The lesson is not to wait until AI is perfect. The lesson is to build organizati
 **Read next:**
 - [What Is AI Readiness — Six Conditions for AI to Actually Work in Operations](/en/insights/ai-readiness-framework)
 - [The Difference Between AI Productivity and Organizational Intelligence](/en/insights/ai/ai-productivity-vs-organizational-intelligence)
-- [When Key Employees Leave, What Do They Take with Them?](/en/insights/what-key-people-take)
+- [When Key Employees Leave, What Do They Take with Them?](/en/insights/knowledge-management/knowledge-loss-when-employees-leave)
 
 **Self-assessment:**
 → Is your organization ready for AI? [Take the AI Readiness Assessment](/en/readiness/ai)

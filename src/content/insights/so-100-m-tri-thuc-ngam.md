@@ -1,4 +1,4 @@
----
+﻿---
 title: "Con số 100 m: Khi tri thức ngầm trở thành \"quy định\""
 description: "Một quy tắc ai cũng tuân theo nhưng không ai nhớ lý do. Cách tri thức ngầm biến thành \"quy định\" trong doanh nghiệp sản xuất, và cái giá tổ chức phải trả."
 publishDate: 2026-10-24T07:00:00Z
@@ -100,8 +100,8 @@ Mục tiêu của quản trị tri thức không phải là để mọi người
 **Bước tiếp theo**
 
 - Đánh giá mức độ trưởng thành quản trị tri thức của doanh nghiệp: [Knowledge Management Maturity Assessment](/readiness/knowledge)
-- Đọc bài trụ cột: [Từ tri thức cá nhân đến tri thức tổ chức](/insights/tu-tri-thuc-ca-nhan-den-tri-thuc-to-chuc)
-- Đọc tiếp: [Tri thức ngầm và tri thức hiện](/insights/tri-thuc-ngam-va-tri-thuc-hien) · [Khi nhân sự chủ chốt nghỉ việc, họ mang đi thứ gì?](/insights/nhan-su-chu-chot-nghi-viec-mang-di-gi)
+- Đọc bài trụ cột: [Từ tri thức cá nhân đến tri thức tổ chức](/insights/knowledge-management/quan-ly-tri-thuc-doanh-nghiep-san-xuat)
+- Đọc tiếp: [Tri thức ngầm và tri thức hiện](/insights/tri-thuc-ngam-va-tri-thuc-hien) · [Khi nhân sự chủ chốt nghỉ việc, họ mang đi thứ gì?](/insights/knowledge-management/nhan-su-nghi-viec-mang-di-tri-thuc)
 
 ---
 
