@@ -125,7 +125,7 @@ const ctaTertiaryHrefWithLang = ctaTertiaryHref ? addLanguagePrefix(ctaTertiaryH
 const selfAssessmentHrefWithLang = selfAssessmentHref ? addLanguagePrefix(selfAssessmentHref) : undefined;
 ---
 
-<Layout metadata={{ title, description, ogImage, coverImage, coverImageAlt, lang }} translationId={translationId}>
+<Layout metadata={{ title, description }} translationId={translationId} {ogImage} {coverImage} {coverImageAlt} {lang}>
   {translationId && lang && (
     <script define:vars={{ translationId, lang }}>
       // Make translation info available to the language switcher

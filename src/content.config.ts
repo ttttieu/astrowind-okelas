@@ -10,6 +10,9 @@ const insightsCollection = defineCollection({
     publishDate: z.date().optional(),
     updatedDate: z.date().optional(),
     image: z.string().optional(),
+    coverImage: z.string().optional(),
+    ogImage: z.string().optional(),
+    coverImageAlt: z.string().optional(),
     translationId: z.string(),
     lang: z.enum(['en', 'vi']),
     category: z.enum([
