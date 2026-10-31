@@ -18,6 +18,8 @@ export interface Props {
   // --- SEO ---
   title: string;
   description?: string;
+  ogImage?: string;
+  coverImage?: string;
 
   // --- Bilingual linking ---
   translationId?: string;
@@ -57,6 +59,8 @@ export interface Props {
 const {
   title,
   description,
+  ogImage,
+  coverImage,
   translationId,
   lang,
   contentType,
@@ -117,9 +121,21 @@ const ctaPrimaryHrefWithLang = ctaPrimaryHref ? addLanguagePrefix(ctaPrimaryHref
 const ctaSecondaryHrefWithLang = ctaSecondaryHref ? addLanguagePrefix(ctaSecondaryHref) : undefined;
 const ctaTertiaryHrefWithLang = ctaTertiaryHref ? addLanguagePrefix(ctaTertiaryHref) : undefined;
 const selfAssessmentHrefWithLang = selfAssessmentHref ? addLanguagePrefix(selfAssessmentHref) : undefined;
+
+// Build metadata with og:image if available
+const metadata: any = {
+  title,
+  description,
+};
+
+if (ogImage) {
+  metadata.openGraph = {
+    images: [{ url: ogImage }],
+  };
+}
 ---
 
-<Layout metadata={{ title, description }} translationId={translationId}>
+<Layout metadata={metadata} translationId={translationId}>
   {translationId && lang && (
     <script define:vars={{ translationId, lang }}>
       // Make translation info available to the language switcher

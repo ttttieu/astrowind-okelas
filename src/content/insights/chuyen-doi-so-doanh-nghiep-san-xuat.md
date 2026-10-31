@@ -2,7 +2,9 @@
 title: "Chuyển đổi số với Manufacturing SME — thực sự là gì và bắt đầu từ đâu"
 description: "Chuyển đổi số không phải là mua phần mềm hay số hóa tài liệu. Bài viết giải thích chuyển đổi số thực sự có nghĩa là gì với manufacturing SME — và lộ trình phù hợp."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/dt-01b-og-cover-vi.png'
+image: '/assets/images/insights/chuyen-doi-so-doanh-nghiep-san-xuat/dt-01b-og-cover-vi.png'
+coverImage: '/assets/images/insights/chuyen-doi-so-doanh-nghiep-san-xuat/dt-01b-og-cover-vi.png'
+ogImage: '/assets/images/insights/chuyen-doi-so-doanh-nghiep-san-xuat/dt-01b-og-cover-vi.png'
 category: 'business-operations'
 tags: ['Chuyển đổi số', 'Số hóa', 'Manufacturing SME', 'Chiến lược']
 translationId: 'biz-ops-pillar-digital-transformation'

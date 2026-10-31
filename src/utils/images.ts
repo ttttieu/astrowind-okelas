@@ -58,6 +58,15 @@ export const adaptOpenGraphImages = async (
     openGraph.images.map(async (image) => {
       if (!image?.url) return { url: '' };
 
+      // Public paths (start with /) are served as-is without optimization
+      if (typeof image.url === 'string' && image.url.startsWith('/')) {
+        return {
+          url: String(new URL(image.url, astroSite)),
+          width: image.width || OG_WIDTH,
+          height: image.height || OG_HEIGHT,
+        };
+      }
+
       const resolved = await findImage(image.url);
       if (!resolved) return { url: '' };
 
