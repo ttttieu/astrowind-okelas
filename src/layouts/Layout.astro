@@ -87,9 +87,8 @@ if (translationId) {
       // Supports multiple article series by matching image prefixes
       function swapDarkModeImages() {
         const isDark = document.documentElement.classList.contains('dark');
-        // Match images from eQMS series (anc, aia, aet, aoe, amr, arm, asq, atrc, akos)
-        // and workflow series (wfa-wfx: workflow fundamentals, barriers, context, decisions, examples, gaps, handoffs, insights, journeys, knowledge, layers, management, navigation, protocols, queries, routing, traffic, visibility, exceptions)
-        const prefixes = ['anc-', 'aia-', 'aet-', 'aoe-', 'amr-', 'arm-', 'asq-', 'atrc-', 'akos-', 'wfa-', 'wfb-', 'wfc-', 'wfd-', 'wfe-', 'wfg-', 'wfh-', 'wfi-', 'wfj-', 'wfk-', 'wfl-', 'wfm-', 'wfn-', 'wfp-', 'wfq-', 'wfr-', 'wft-', 'wfv-', 'wfx-'];
+        // Match images from multiple article series: anc (nonconformance), aia (internal audit), atrc (training records), asq (supplier qualification), arm (risk management), amr (management review), aoe (okelas eqms approach), aet (evidence traceability), akos (knowledge os), etc.
+        const prefixes = ['anc-', 'aia-', 'atrc-', 'asq-', 'arm-', 'amr-', 'aoe-', 'aet-', 'akos-'];
         const selector = prefixes.map(p => `img[src*="${p}"]`).join(', ');
         const images = document.querySelectorAll(selector);
 
