@@ -1,39 +1,28 @@
 ﻿---
-title: 'Evidence-Based AI: khi câu trả lời cần có khả năng kiểm chứng'
-description: Trong môi trường ISO, GMP hay regulated industry, AI không thể chỉ đưa
-  ra câu trả lời — câu trả lời đó phải có evidence, trace và audit trail. Bài viết
-  phân tích yêu cầu này.
-publishDate: 2025-09-24 00:00:00+00:00
-coverImage: ~/assets/images/insights/evidence-based-ai-kiem-chung/ebai-00-og-cover-vi.png
-ogImage: ~/assets/images/insights/evidence-based-ai-kiem-chung/ebai-00-og-cover-vi.png
-coverImageAlt: 'Bên trái là câu trả lời đúng nhưng không chứng minh được; bên phải
-  là ba bước có bằng chứng: đầu vào, giải thích, người duyệt.'
-category: ai
-tags:
-- Evidence-Based AI
-- Compliance
-- AI Governance
-- Regulated Industries
-translationId: evidence-based-ai
-lang: vi
-contentType: Analysis
+title: "Evidence-Based AI: khi câu trả lời cần có khả năng kiểm chứng"
+description: "Trong môi trường ISO, GMP hay regulated industry, AI không thể chỉ đưa ra câu trả lời — câu trả lời đó phải có evidence, trace và audit trail. Bài viết phân tích yêu cầu này."
+publishDate: 2025-09-24T00:00:00Z
+coverImage: '~/assets/images/insights/evidence-based-ai-kiem-chung/ebai-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/evidence-based-ai-kiem-chung/ebai-00-og-cover-vi.png'
+coverImageAlt: "Bên trái là câu trả lời đúng nhưng không chứng minh được; bên phải là ba bước có bằng chứng: đầu vào, giải thích, người duyệt."
+category: 'ai'
+tags: ['Evidence-Based AI', 'Compliance', 'AI Governance', 'Regulated Industries']
+translationId: 'evidence-based-ai'
+lang: 'vi'
+contentType: 'Analysis'
 funnelStage:
-- Consideration
-audience:
-- CEO
-- Quality Director
-- Compliance Officer
-- CIO
-primaryKeyword: AI có thể kiểm chứng được
+  - Consideration
+audience: ['CEO', 'Quality Director', 'Compliance Officer', 'CIO']
+primaryKeyword: 'AI có thể kiểm chứng được'
 secondaryKeywords:
-- evidence-based AI
-- AI compliance
-- AI traceability
-- AI trong ISO GMP
-- AI audit trail
-assessmentHref: /readiness/ai
-ctaPrimaryText: Làm AI Readiness Assessment
-ctaSubtitle: Xác định mức độ sẵn sàng AI của doanh nghiệp bạn
+  - "evidence-based AI"
+  - "AI compliance"
+  - "AI traceability"
+  - "AI trong ISO GMP"
+  - "AI audit trail"
+assessmentHref: '/readiness/ai'
+ctaPrimaryText: 'Làm AI Readiness Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 

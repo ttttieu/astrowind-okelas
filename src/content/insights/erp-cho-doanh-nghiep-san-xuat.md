@@ -1,32 +1,29 @@
 ﻿---
-title: 'Manufacturing readiness: ERP cho doanh nghiệp sản xuất khác gì?'
-description: ERP cho sản xuất không giống ERP thương mại hay dịch vụ. Bài viết phân
-  tích những yêu cầu đặc thù của manufacturing SME trước khi chọn và triển khai ERP.
-  |
-publishDate: 2026-09-24 00:00:00+00:00
+title: "Manufacturing readiness: ERP cho doanh nghiệp sản xuất khác gì?"
+description: "ERP cho sản xuất không giống ERP thương mại hay dịch vụ. Bài viết phân tích những yêu cầu đặc thù của manufacturing SME trước khi chọn và triển khai ERP. |"
+publishDate: 2026-09-24T00:00:00Z
 translationId: erp-manufacturing-readiness
 lang: vi
 category: erp
 contentType: Analysis
 funnelStage:
-- Understanding
+  - Understanding
 audience:
-- COO
-- Operations Director
-- Manufacturing Manager
-primaryKeyword: ERP cho doanh nghiệp sản xuất |
+  - COO
+  - Operations Director
+  - Manufacturing Manager
+primaryKeyword: "ERP cho doanh nghiệp sản xuất |"
 secondaryKeywords:
-- manufacturing ERP
-- ERP nhà máy
-- phần mềm quản lý sản xuất ERP
-- ERP chế biến thực phẩm |
+  - "manufacturing ERP"
+  - "ERP nhà máy"
+  - "phần mềm quản lý sản xuất ERP"
+  - "ERP chế biến thực phẩm |"
 assessmentHref: /readiness/erp
-ctaPrimaryText: Làm ERP Readiness Assessment
-ctaSubtitle: Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn
-coverImage: ~/assets/images/insights/erpm-00-og-cover-vi.png
-ogImage: ~/assets/images/insights/erpm-00-og-cover-vi.png
-coverImageAlt: Nguyên liệu đi vào khối ERP có các chip BOM, Routing, Lot và QC, rồi
-  ra thành phẩm.
+ctaPrimaryText: 'Làm ERP Readiness Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
+coverImage: '~/assets/images/insights/erpm-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/erpm-00-og-cover-vi.png'
+coverImageAlt: "Nguyên liệu đi vào khối ERP có các chip BOM, Routing, Lot và QC, rồi ra thành phẩm."
 draft: false
 ---
 

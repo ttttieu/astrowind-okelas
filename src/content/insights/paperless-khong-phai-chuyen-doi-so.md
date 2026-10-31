@@ -1,33 +1,25 @@
 ﻿---
-title: Paperless không phải chuyển đổi số — và đây là sự khác biệt
-description: Văn phòng không giấy là bước đầu tiên — nhưng không phải chuyển đổi số.
-  Bài viết phân tích tại sao paperless chưa đủ và những gì cần làm tiếp theo.
-publishDate: 2025-09-24 00:00:00+00:00
-image: ~/assets/images/insights/pl-04-og-cover-vi.png
-category: business-operations
-tags:
-- Paperless
-- Chuyển đổi số
-- Digital Operations
-- Manufacturing
-translationId: biz-ops-paperless-vs-digital
-lang: vi
-contentType: Analysis
+title: "Paperless không phải chuyển đổi số — và đây là sự khác biệt"
+description: "Văn phòng không giấy là bước đầu tiên — nhưng không phải chuyển đổi số. Bài viết phân tích tại sao paperless chưa đủ và những gì cần làm tiếp theo."
+publishDate: 2025-09-24T00:00:00Z
+image: '~/assets/images/insights/pl-04-og-cover-vi.png'
+category: 'business-operations'
+tags: ['Paperless', 'Chuyển đổi số', 'Digital Operations', 'Manufacturing']
+translationId: 'biz-ops-paperless-vs-digital'
+lang: 'vi'
+contentType: 'Analysis'
 funnelStage:
-- Understanding
-audience:
-- CEO
-- COO
-- IT Manager
-primaryKeyword: paperless khác chuyển đổi số
+  - Understanding
+audience: ['CEO', 'COO', 'IT Manager']
+primaryKeyword: 'paperless khác chuyển đổi số'
 secondaryKeywords:
-- paperless office
-- văn phòng không giấy
-- số hóa tài liệu
-- digitalization là gì
-assessmentHref: /readiness/digitalization
-ctaPrimaryText: Làm Digital Transformation Maturity Assessment
-ctaSubtitle: Hiểu rõ mức độ trưởng thành số hóa của bạn và bước tiếp theo có ý nghĩa
+  - "paperless office"
+  - "văn phòng không giấy"
+  - "số hóa tài liệu"
+  - "digitalization là gì"
+assessmentHref: '/readiness/digitalization'
+ctaPrimaryText: 'Làm Digitalization Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 

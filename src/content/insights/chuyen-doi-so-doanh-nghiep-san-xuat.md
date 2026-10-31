@@ -1,36 +1,27 @@
 ﻿---
-title: Chuyển đổi số với Manufacturing SME — thực sự là gì và bắt đầu từ đâu
-description: Chuyển đổi số không phải là mua phần mềm hay số hóa tài liệu. Bài viết
-  giải thích chuyển đổi số thực sự có nghĩa là gì với manufacturing SME — và lộ trình
-  phù hợp.
-publishDate: 2025-09-24 00:00:00+00:00
-image: ~/assets/images/insights/dt-01b-og-cover-vi.png
-category: business-operations
-tags:
-- Chuyển đổi số
-- Số hóa
-- Manufacturing SME
-- Chiến lược
-translationId: biz-ops-pillar-digital-transformation
-lang: vi
-contentType: Pillar
+title: "Chuyển đổi số với Manufacturing SME — thực sự là gì và bắt đầu từ đâu"
+description: "Chuyển đổi số không phải là mua phần mềm hay số hóa tài liệu. Bài viết giải thích chuyển đổi số thực sự có nghĩa là gì với manufacturing SME — và lộ trình phù hợp."
+publishDate: 2025-09-24T00:00:00Z
+image: '~/assets/images/insights/dt-01b-og-cover-vi.png'
+category: 'business-operations'
+tags: ['Chuyển đổi số', 'Số hóa', 'Manufacturing SME', 'Chiến lược']
+translationId: 'biz-ops-pillar-digital-transformation'
+lang: 'vi'
+contentType: 'Pillar'
 funnelStage:
-- Awareness
-- Understanding
-- Consideration
-audience:
-- CEO
-- COO
-- General Director
-primaryKeyword: chuyển đổi số doanh nghiệp sản xuất vừa và nhỏ
+  - Awareness
+  - Understanding
+  - Consideration
+audience: ['CEO', 'COO', 'General Director']
+primaryKeyword: 'chuyển đổi số doanh nghiệp sản xuất vừa và nhỏ'
 secondaryKeywords:
-- digital transformation SME
-- số hóa sản xuất
-- chuyển đổi số thực sự là gì
-- digitalization manufacturing
-assessmentHref: /readiness/digitalization
-ctaPrimaryText: Làm Digital Transformation Maturity Assessment
-ctaSubtitle: Hiểu rõ mức độ trưởng thành số hóa của bạn và bước tiếp theo có ý nghĩa
+  - "digital transformation SME"
+  - "số hóa sản xuất"
+  - "chuyển đổi số thực sự là gì"
+  - "digitalization manufacturing"
+assessmentHref: '/readiness/digitalization'
+ctaPrimaryText: 'Làm Digitalization Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 

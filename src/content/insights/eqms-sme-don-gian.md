@@ -1,4 +1,4 @@
----
+﻿---
 title: "eQMS cho manufacturing SME — không cần phức tạp như bạn nghĩ"
 description: "Nhiều SME nhìn vào eQMS của các tập đoàn lớn và nghĩ đó không dành cho mình. Nhưng eQMS phù hợp với SME không cần trăm tính năng — chỉ cần đúng thành phần, đúng thứ tự."
 publishDate: 2026-10-04T00:00:00Z
@@ -20,8 +20,8 @@ secondaryKeywords:
   - "hệ thống QMS phù hợp SME"
   - "triển khai eQMS nhỏ"
 assessmentHref: '/readiness/digitalization'
-ctaPrimaryText: 'Đánh giá mức độ số hóa'
-ctaSubtitle: 'Xác định mức độ số hóa hiện tại và bước tiếp theo hợp lý'
+ctaPrimaryText: 'Làm Digitalization Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 

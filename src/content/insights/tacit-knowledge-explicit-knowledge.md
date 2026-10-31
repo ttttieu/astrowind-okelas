@@ -1,36 +1,27 @@
 ﻿---
-title: Tacit Knowledge và Explicit Knowledge — tại sao cần phân biệt và ứng dụng gì
-description: Không phải mọi tri thức đều có thể viết thành tài liệu. Hiểu sự khác
-  biệt là bước đầu tiên để xây dựng knowledge management phù hợp.
-publishDate: 2025-09-24 00:00:00+00:00
-coverImage: ~/assets/images/insights/tek-00-og-cover-vi.png
-ogImage: ~/assets/images/insights/tek-00-og-cover-vi.png
-coverImageAlt: Một chồng tài liệu bên trái đại diện cho explicit knowledge, một người
-  bên phải đại diện cho tacit knowledge, và một mũi tên chỉ chuyển được một phần.
-category: knowledge-management
-tags:
-- Tacit Knowledge
-- Explicit Knowledge
-- Knowledge Types
-- Knowledge Management Strategy
-translationId: tacit-vs-explicit-knowledge
-lang: vi
-contentType: Analysis
+title: "Tacit Knowledge và Explicit Knowledge — tại sao cần phân biệt và ứng dụng gì"
+description: "Không phải mọi tri thức đều có thể viết thành tài liệu. Hiểu sự khác biệt là bước đầu tiên để xây dựng knowledge management phù hợp."
+publishDate: 2025-09-24T00:00:00Z
+coverImage: '~/assets/images/insights/tek-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/tek-00-og-cover-vi.png'
+coverImageAlt: "Một chồng tài liệu bên trái đại diện cho explicit knowledge, một người bên phải đại diện cho tacit knowledge, và một mũi tên chỉ chuyển được một phần."
+category: 'knowledge-management'
+tags: ['Tacit Knowledge', 'Explicit Knowledge', 'Knowledge Types', 'Knowledge Management Strategy']
+translationId: 'tacit-vs-explicit-knowledge'
+lang: 'vi'
+contentType: 'Analysis'
 funnelStage:
-- Understanding
-audience:
-- CEO
-- HR Director
-- Operations Director
-primaryKeyword: tacit knowledge explicit knowledge
+  - Understanding
+audience: ['CEO', 'HR Director', 'Operations Director']
+primaryKeyword: 'tacit knowledge explicit knowledge'
 secondaryKeywords:
-- tri thức ẩn
-- tri thức hiện
-- quản lý tri thức doanh nghiệp
-- knowledge management framework
-assessmentHref: /readiness/knowledge
-ctaPrimaryText: Làm Knowledge Management Maturity Assessment
-ctaSubtitle: Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên
+  - "tri thức ẩn"
+  - "tri thức hiện"
+  - "quản lý tri thức doanh nghiệp"
+  - "knowledge management framework"
+assessmentHref: '/readiness/knowledge'
+ctaPrimaryText: 'Làm Knowledge Management Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 

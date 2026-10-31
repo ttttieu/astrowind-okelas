@@ -1,4 +1,4 @@
----
+﻿---
 title: "Từ eQMS đến Knowledge OS — bước tiến tự nhiên tiếp theo sau hệ thống chất lượng"
 description: "eQMS giải quyết bài toán compliance và hồ sơ. Nhưng knowledge tổ chức — quy trình, tri thức chất lượng, evidence — cần được khai thác thêm. Đây là bước tiếp theo sau eQMS."
 publishDate: 2026-10-04T00:00:00Z
@@ -22,7 +22,7 @@ secondaryKeywords:
   - "eQMS bước tiếp theo"
 assessmentHref: '/readiness/ai'
 ctaPrimaryText: 'Làm AI Readiness Assessment'
-ctaSubtitle: 'Đánh giá sẵn sàng của tổ chức cho các hoạt động hỗ trợ AI'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 

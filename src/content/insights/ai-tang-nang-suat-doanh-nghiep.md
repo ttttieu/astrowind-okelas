@@ -1,38 +1,27 @@
 ﻿---
-title: AI Giúp Nhân Viên Viết Nhanh Hơn — Nhưng Doanh Nghiệp Có Xử Lý Được Nhiều Hơn
-  Không?
-description: AI có thể giúp một nhóm 50 người tạo ra lượng tài liệu như 500 người.
-  Nhưng điều đó không có nghĩa là họ xử lý được nhiều việc hơn. Đây là nghịch lý mà
-  nhiều CEO đang bỏ qua.
-publishDate: 2025-09-24 00:00:00+00:00
-coverImage: ~/assets/images/insights/ai-tang-nang-suat-doanh-nghiep/aipp-00-og-cover-vi.png
-ogImage: ~/assets/images/insights/ai-tang-nang-suat-doanh-nghiep/aipp-00-og-cover-vi.png
-coverImageAlt: Ba mũi tên nhanh đi tới một khe hẹp; chỉ một đường mảnh đi qua, đại
-  diện cho năng lực xử lý của tổ chức.
-category: ai
-tags:
-- AI Productivity
-- Organizational Capacity
-- AI Implementation
-- Business Value
-translationId: ai-productivity-paradox
-lang: vi
-contentType: Opening
+title: "AI Giúp Nhân Viên Viết Nhanh Hơn — Nhưng Doanh Nghiệp Có Xử Lý Được Nhiều Hơn Không?"
+description: "AI có thể giúp một nhóm 50 người tạo ra lượng tài liệu như 500 người. Nhưng điều đó không có nghĩa là họ xử lý được nhiều việc hơn. Đây là nghịch lý mà nhiều CEO đang bỏ qua."
+publishDate: 2025-09-24T00:00:00Z
+coverImage: '~/assets/images/insights/ai-tang-nang-suat-doanh-nghiep/aipp-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/ai-tang-nang-suat-doanh-nghiep/aipp-00-og-cover-vi.png'
+coverImageAlt: "Ba mũi tên nhanh đi tới một khe hẹp; chỉ một đường mảnh đi qua, đại diện cho năng lực xử lý của tổ chức."
+category: 'ai'
+tags: ['AI Productivity', 'Organizational Capacity', 'AI Implementation', 'Business Value']
+translationId: 'ai-productivity-paradox'
+lang: 'vi'
+contentType: 'Opening'
 funnelStage:
-- Awareness
-audience:
-- CEO
-- COO
-- Operations Director
-primaryKeyword: AI tăng năng suất doanh nghiệp
+  - Awareness
+audience: ['CEO', 'COO', 'Operations Director']
+primaryKeyword: 'AI tăng năng suất doanh nghiệp'
 secondaryKeywords:
-- AI productivity
-- ChatGPT doanh nghiệp
-- AI tạo văn bản
-- năng suất AI
-assessmentHref: /readiness/ai
-ctaPrimaryText: Làm AI Readiness Assessment
-ctaSubtitle: Xác định mức độ sẵn sàng AI của doanh nghiệp bạn
+  - 'AI productivity'
+  - 'ChatGPT doanh nghiệp'
+  - 'AI tạo văn bản'
+  - 'năng suất AI'
+assessmentHref: '/readiness/ai'
+ctaPrimaryText: 'Làm AI Readiness Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 

@@ -1,31 +1,28 @@
 ﻿---
-title: AI càng tự chủ, khoảng cách giữa mục tiêu và hành động càng lớn
-description: Khi con người giao mục tiêu cho AI agent, agent tự chọn phương thức đạt
-  mục tiêu. Khoảng cách giữa mục tiêu và hành động đó chính là nơi control problem
-  xuất hiện.
-publishDate: 2026-09-23 00:00:00+00:00
-coverImage: ~/assets/images/insights/ai-tu-chu-control-problem/agac-00-og-cover-vi.png
-ogImage: ~/assets/images/insights/ai-tu-chu-control-problem/agac-00-og-cover-vi.png
-coverImageAlt: Bên trái là hộp chỉ số được ghi; bên phải là hộp ý định thật, nối bằng
-  mũi tên nét đứt có nhãn khoảng cách.
+title: "AI càng tự chủ, khoảng cách giữa mục tiêu và hành động càng lớn"
+description: "Khi con người giao mục tiêu cho AI agent, agent tự chọn phương thức đạt mục tiêu. Khoảng cách giữa mục tiêu và hành động đó chính là nơi control problem xuất hiện."
+publishDate: 2026-09-23T00:00:00Z
+coverImage: '~/assets/images/insights/ai-tu-chu-control-problem/agac-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/ai-tu-chu-control-problem/agac-00-og-cover-vi.png'
+coverImageAlt: "Bên trái là hộp chỉ số được ghi; bên phải là hộp ý định thật, nối bằng mũi tên nét đứt có nhãn khoảng cách."
 translationId: article-6-4-autonomy-control-problem
 lang: vi
 category: ai
 contentType: Analysis
 funnelStage:
-- Understanding
+  - Understanding
 audience:
-- CIO
-- CEO
-primaryKeyword: AI tự chủ control problem
+  - CIO
+  - CEO
+primaryKeyword: "AI tự chủ control problem"
 secondaryKeywords:
-- AI autonomy rủi ro
-- kiểm soát AI tự chủ
-- AI agent mục tiêu hành động
-- alignment AI
+  - "AI autonomy rủi ro"
+  - "kiểm soát AI tự chủ"
+  - "AI agent mục tiêu hành động"
+  - "alignment AI"
 assessmentHref: /readiness/ai
-ctaPrimaryText: Làm AI Readiness Assessment
-ctaSubtitle: Xác định mức độ sẵn sàng AI của doanh nghiệp bạn
+ctaPrimaryText: 'Làm AI Readiness Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 

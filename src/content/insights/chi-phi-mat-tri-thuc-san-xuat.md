@@ -1,37 +1,27 @@
 ﻿---
-title: Chi phí ẩn của knowledge loss trong sản xuất — những thứ ít ai tính
-description: Khi nhân viên giỏi nghỉ, doanh nghiệp tính được chi phí tuyển dụng. Nhưng
-  còn nhiều chi phí ẩn khác từ việc mất tri thức vận hành mà ít ai đo lường.
-publishDate: 2025-09-24 00:00:00+00:00
-coverImage: ~/assets/images/insights/ckl-00-og-cover-vi.png
-ogImage: ~/assets/images/insights/ckl-00-og-cover-vi.png
-coverImageAlt: Một khối chi phí hiển thị nhỏ phía trên đường mặt nước và một khối
-  chi phí ẩn lớn hơn nhiều phía dưới.
-category: knowledge-management
-tags:
-- Knowledge Loss
-- Tài Chính Doanh Nghiệp
-- Nhân Sự
-- Chi Phí Ẩn
-translationId: hidden-cost-knowledge-loss
-lang: vi
-contentType: Case & Evidence
+title: "Chi phí ẩn của knowledge loss trong sản xuất — những thứ ít ai tính"
+description: "Khi nhân viên giỏi nghỉ, doanh nghiệp tính được chi phí tuyển dụng. Nhưng còn nhiều chi phí ẩn khác từ việc mất tri thức vận hành mà ít ai đo lường."
+publishDate: 2025-09-24T00:00:00Z
+coverImage: '~/assets/images/insights/ckl-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/ckl-00-og-cover-vi.png'
+coverImageAlt: "Một khối chi phí hiển thị nhỏ phía trên đường mặt nước và một khối chi phí ẩn lớn hơn nhiều phía dưới."
+category: 'knowledge-management'
+tags: ['Knowledge Loss', 'Tài Chính Doanh Nghiệp', 'Nhân Sự', 'Chi Phí Ẩn']
+translationId: 'hidden-cost-knowledge-loss'
+lang: 'vi'
+contentType: 'Case & Evidence'
 funnelStage:
-- Understanding
-audience:
-- CEO
-- COO
-- CFO
-- Operations Director
-primaryKeyword: chi phí ẩn knowledge loss sản xuất
+  - Understanding
+audience: ['CEO', 'COO', 'CFO', 'Operations Director']
+primaryKeyword: 'chi phí ẩn knowledge loss sản xuất'
 secondaryKeywords:
-- chi phí nhân sự nghỉ việc
-- knowledge loss ROI
-- chi phí mất tri thức
-- cost of knowledge retention
-assessmentHref: /readiness/knowledge
-ctaPrimaryText: Làm Knowledge Management Maturity Assessment
-ctaSubtitle: Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên
+  - "chi phí nhân sự nghỉ việc"
+  - "knowledge loss ROI"
+  - "chi phí mất tri thức"
+  - "cost of knowledge retention"
+assessmentHref: '/readiness/knowledge'
+ctaPrimaryText: 'Làm Knowledge Management Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 

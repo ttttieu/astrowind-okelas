@@ -1,31 +1,28 @@
 ﻿---
-title: Tại sao những người xây dựng frontier AI cũng quan tâm đến control
-description: Các tổ chức hàng đầu xây dựng AI đang đầu tư nghiêm túc vào kiểm soát
-  và safety. Không phải vì AI nguy hiểm theo nghĩa sensational — mà vì capability
-  tăng đòi hỏi control tăng theo.
-publishDate: 2026-09-23 00:00:00+00:00
-coverImage: ~/assets/images/insights/ai-safety-frontier-va-doanh-nghiep/afse-00-og-cover-vi.png
-ogImage: ~/assets/images/insights/ai-safety-frontier-va-doanh-nghiep/afse-00-og-cover-vi.png
-coverImageAlt: 'Năng lực tăng thì kiểm soát cũng phải tăng: bốn cặp cột tăng dần,
-  xanh là năng lực, tím là kiểm soát.'
+title: "Tại sao những người xây dựng frontier AI cũng quan tâm đến control"
+description: "Các tổ chức hàng đầu xây dựng AI đang đầu tư nghiêm túc vào kiểm soát và safety. Không phải vì AI nguy hiểm theo nghĩa sensational — mà vì capability tăng đòi hỏi control tăng theo."
+publishDate: 2026-09-23T00:00:00Z
+coverImage: '~/assets/images/insights/ai-safety-frontier-va-doanh-nghiep/afse-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/ai-safety-frontier-va-doanh-nghiep/afse-00-og-cover-vi.png'
+coverImageAlt: "Năng lực tăng thì kiểm soát cũng phải tăng: bốn cặp cột tăng dần, xanh là năng lực, tím là kiểm soát."
 translationId: article-6-18-frontier-safety-enterprise
 lang: vi
 category: ai
 contentType: Analysis
 funnelStage:
-- Understanding
+  - Understanding
 audience:
-- CEO
-- CIO
-primaryKeyword: AI safety frontier và doanh nghiệp
+  - CEO
+  - CIO
+primaryKeyword: "AI safety frontier và doanh nghiệp"
 secondaryKeywords:
-- AI safety là gì
-- frontier AI control
-- AI safety enterprise
-- tại sao cần kiểm soát AI
+  - "AI safety là gì"
+  - "frontier AI control"
+  - "AI safety enterprise"
+  - "tại sao cần kiểm soát AI"
 assessmentHref: /readiness/ai
-ctaPrimaryText: Làm AI Readiness Assessment
-ctaSubtitle: Xác định mức độ sẵn sàng AI của doanh nghiệp bạn
+ctaPrimaryText: 'Làm AI Readiness Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Internal audit không phải kỳ thi — cách tổ chức audit ISO 9001 có giá trị thực"
 description: "Internal audit thường bị tổ chức như một kỳ kiểm tra định kỳ — nhân viên lo lắng, kết quả được dọn dẹp trước. Bài viết phân tích cách tổ chức audit tạo ra cải tiến thực sự, không chỉ hồ sơ đẹp."
 publishDate: 2026-10-04T00:00:00Z
@@ -20,7 +20,7 @@ secondaryKeywords:
   - "tổ chức internal audit"
   - "audit chương trình ISO"
 assessmentHref: '/readiness/knowledge'
-ctaPrimaryText: 'Làm Knowledge Management Maturity Assessment'
+ctaPrimaryText: 'Làm Knowledge Management Assessment'
 ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---

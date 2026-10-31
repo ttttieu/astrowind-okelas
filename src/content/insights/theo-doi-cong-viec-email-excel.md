@@ -1,31 +1,28 @@
 ﻿---
-title: Tại sao nhân viên vẫn dùng email và Excel để theo dõi công việc?
-description: Nếu nhân viên vẫn gửi email hỏi 'việc này tới đâu rồi?' hay dùng Excel
-  để track công việc — đó là dấu hiệu workflow chưa cung cấp đủ visibility. Bài viết
-  phân tích tại sao.
-publishDate: 2026-09-23 00:00:00+00:00
+title: "Tại sao nhân viên vẫn dùng email và Excel để theo dõi công việc?"
+description: "Nếu nhân viên vẫn gửi email hỏi 'việc này tới đâu rồi?' hay dùng Excel để track công việc — đó là dấu hiệu workflow chưa cung cấp đủ visibility. Bài viết phân tích tại sao."
+publishDate: 2026-09-23T00:00:00Z
 translationId: article-5-5-visibility-gap
 lang: vi
 category: workflow
 contentType: Opening
 funnelStage:
-- Awareness
+  - Awareness
 audience:
-- CEO
-- Operations Manager
-primaryKeyword: theo dõi công việc bằng email Excel
+  - CEO
+  - Operations Manager
+primaryKeyword: "theo dõi công việc bằng email Excel"
 secondaryKeywords:
-- task tracking email
-- status tracking Excel
-- workflow visibility
-- theo dõi tiến độ công việc
+  - "task tracking email"
+  - "status tracking Excel"
+  - "workflow visibility"
+  - "theo dõi tiến độ công việc"
 assessmentHref: /readiness/workflow
-coverImage: ~/assets/images/insights/theo-doi-cong-viec-email-excel/wft-00-og-cover-vi.png
-ogImage: ~/assets/images/insights/theo-doi-cong-viec-email-excel/wft-00-og-cover-vi.png
-coverImageAlt: Hệ thống chính thức ghi nhận trạng thái, trong khi một hệ thống theo
-  dõi song song gồm Excel, email và Zalo mọc lên để lấp khoảng trống.
-ctaPrimaryText: Làm Workflow Readiness Assessment
-ctaSubtitle: Workflow của bạn đang vận hành như thế nào?
+coverImage: '~/assets/images/insights/theo-doi-cong-viec-email-excel/wft-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/theo-doi-cong-viec-email-excel/wft-00-og-cover-vi.png'
+coverImageAlt: "Hệ thống chính thức ghi nhận trạng thái, trong khi một hệ thống theo dõi song song gồm Excel, email và Zalo mọc lên để lấp khoảng trống."
+ctaPrimaryText: 'Làm Workflow Readiness Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 

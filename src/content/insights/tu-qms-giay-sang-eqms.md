@@ -1,4 +1,4 @@
----
+﻿---
 title: "Từ QMS giấy đến eQMS — doanh nghiệp được gì và cần chuẩn bị gì"
 description: "Chuyển từ hồ sơ giấy sang eQMS không phải chỉ là số hóa tài liệu. Bài viết phân tích thực tế những gì thay đổi, những gì doanh nghiệp cần chuẩn bị và những rủi ro cần tránh."
 publishDate: 2026-10-04T00:00:00Z
@@ -20,8 +20,8 @@ secondaryKeywords:
   - "từ giấy lên phần mềm QMS"
   - "eQMS vs paper QMS"
 assessmentHref: '/readiness/digitalization'
-ctaPrimaryText: 'Đánh giá mức độ số hóa'
-ctaSubtitle: 'Xác định mức độ số hóa hiện tại và bước tiếp theo hợp lý'
+ctaPrimaryText: 'Làm Digitalization Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 

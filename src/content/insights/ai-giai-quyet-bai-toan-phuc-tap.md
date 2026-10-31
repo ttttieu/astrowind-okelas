@@ -1,33 +1,30 @@
 ﻿---
-title: Khi AI bắt đầu tự giải quyết những bài toán phức tạp
-description: AI hiện đại không chỉ trả lời câu hỏi. Trong các lĩnh vực như lập trình,
-  nghiên cứu khoa học và toán học, AI đang đạt được kết quả mà trước đây chỉ con người
-  làm được. Bài viết nhìn vào năng lực thực tế.
-publishDate: 2025-09-24 00:00:00+00:00
-coverImage: ~/assets/images/insights/ai-giai-quyet-bai-toan-phuc-tap/afc-00-og-cover-vi.png
-ogImage: ~/assets/images/insights/ai-giai-quyet-bai-toan-phuc-tap/afc-00-og-cover-vi.png
-coverImageAlt: Bên trái là nút chạy nhanh đại diện cho năng lực benchmark; bên phải
-  là đường zigzag cho vận hành lởm chởm, kèm ba nhãn.
+title: "Khi AI bắt đầu tự giải quyết những bài toán phức tạp"
+description: "AI hiện đại không chỉ trả lời câu hỏi. Trong các lĩnh vực như lập trình, nghiên cứu khoa học và toán học, AI đang đạt được kết quả mà trước đây chỉ con người làm được. Bài viết nhìn vào năng lực thực tế."
+publishDate: 2025-09-24T00:00:00Z
+coverImage: '~/assets/images/insights/ai-giai-quyet-bai-toan-phuc-tap/afc-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/ai-giai-quyet-bai-toan-phuc-tap/afc-00-og-cover-vi.png'
+coverImageAlt: "Bên trái là nút chạy nhanh đại diện cho năng lực benchmark; bên phải là đường zigzag cho vận hành lởm chởm, kèm ba nhãn."
 translationId: article-6-2-frontier-capabilities
 lang: vi
 category: ai
 contentType: Analysis
 funnelStage:
-- Awareness
-- Understanding
+  - Awareness
+  - Understanding
 audience:
-- CEO
-- CIO
-primaryKeyword: AI giải quyết bài toán phức tạp
+  - CEO
+  - CIO
+primaryKeyword: "AI giải quyết bài toán phức tạp"
 secondaryKeywords:
-- frontier AI capabilities
-- AI scientific discovery
-- AI coding
-- AI reasoning
-- AI năng lực thực tế
+  - "frontier AI capabilities"
+  - "AI scientific discovery"
+  - "AI coding"
+  - "AI reasoning"
+  - "AI năng lực thực tế"
 assessmentHref: /readiness/ai
-ctaPrimaryText: Làm AI Readiness Assessment
-ctaSubtitle: Xác định mức độ sẵn sàng AI của doanh nghiệp bạn
+ctaPrimaryText: 'Làm AI Readiness Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 

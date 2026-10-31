@@ -1,34 +1,30 @@
 ﻿---
-title: 'ERP governance: ai chịu trách nhiệm khi ERP không hoạt động đúng?'
-description: ERP không tự vận hành. Nhiều doanh nghiệp sau khi go-live không có cấu
-  trúc quản trị rõ ràng — và đó là lý do chất lượng dữ liệu và hệ thống xuống cấp
-  theo thời gian. |
-publishDate: 2026-09-24 00:00:00+00:00
+title: "ERP governance: ai chịu trách nhiệm khi ERP không hoạt động đúng?"
+description: "ERP không tự vận hành. Nhiều doanh nghiệp sau khi go-live không có cấu trúc quản trị rõ ràng — và đó là lý do chất lượng dữ liệu và hệ thống xuống cấp theo thời gian. |"
+publishDate: 2026-09-24T00:00:00Z
 translationId: erp-governance-ownership
 lang: vi
 category: erp
 contentType: Analysis
 funnelStage:
-- Understanding
+  - Understanding
 audience:
-- CEO
-- CIO
-- COO
-primaryKeyword: quản trị ERP |
+  - CEO
+  - CIO
+  - COO
+primaryKeyword: "quản trị ERP |"
 secondaryKeywords:
-- ERP governance
-- ai chịu trách nhiệm ERP
-- ERP owner
-- ERP maintenance
-- duy trì hệ thống ERP |
+  - "ERP governance"
+  - "ai chịu trách nhiệm ERP"
+  - "ERP owner"
+  - "ERP maintenance"
+  - "duy trì hệ thống ERP |"
 assessmentHref: /readiness/erp
-ctaPrimaryText: Làm ERP Readiness Assessment
-ctaSubtitle: Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn
-coverImage: ~/assets/images/insights/erpg-00-og-cover-vi.png
-ogImage: ~/assets/images/insights/erpg-00-og-cover-vi.png
-coverImageAlt: Một đường go-live ngăn cách nhà triển khai ở bên trái với khối ERP
-  ở bên phải, bên dưới là bốn vai trò System Owner, Master Data, Key Users và IT chịu
-  trách nhiệm sau go-live.
+ctaPrimaryText: 'Làm ERP Readiness Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
+coverImage: '~/assets/images/insights/erpg-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/erpg-00-og-cover-vi.png'
+coverImageAlt: "Một đường go-live ngăn cách nhà triển khai ở bên trái với khối ERP ở bên phải, bên dưới là bốn vai trò System Owner, Master Data, Key Users và IT chịu trách nhiệm sau go-live."
 draft: false
 ---
 

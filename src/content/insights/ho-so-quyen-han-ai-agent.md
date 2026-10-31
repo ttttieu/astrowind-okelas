@@ -1,32 +1,29 @@
 ﻿---
-title: 'Mỗi AI Agent cần một hồ sơ quyền hạn: từ AI Assistant đến AI Employee'
-description: 'Khi AI agent ngày càng giống một nhân viên — có nhiệm vụ, có quyền hạn,
-  có trách nhiệm — nó cần một hồ sơ rõ ràng: được đọc gì, gọi tool nào, tác động lên
-  entity nào, cần approval ở đâu.'
-publishDate: 2026-09-23 00:00:00+00:00
-coverImage: ~/assets/images/insights/ho-so-quyen-han-ai-agent/aaprof-00-og-cover-vi.png
-ogImage: ~/assets/images/insights/ho-so-quyen-han-ai-agent/aaprof-00-og-cover-vi.png
-coverImageAlt: Một bảng chia đôi so sánh AI assistant (bên trái, chỉ trả lời một câu
-  hỏi) và AI employee (bên phải, có vai trò liên tục với quyền hạn và trách nhiệm).
+title: "Mỗi AI Agent cần một hồ sơ quyền hạn: từ AI Assistant đến AI Employee"
+description: "Khi AI agent ngày càng giống một nhân viên — có nhiệm vụ, có quyền hạn, có trách nhiệm — nó cần một hồ sơ rõ ràng: được đọc gì, gọi tool nào, tác động lên entity nào, cần approval ở đâu."
+publishDate: 2026-09-23T00:00:00Z
+coverImage: '~/assets/images/insights/ho-so-quyen-han-ai-agent/aaprof-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/ho-so-quyen-han-ai-agent/aaprof-00-og-cover-vi.png'
+coverImageAlt: "Một bảng chia đôi so sánh AI assistant (bên trái, chỉ trả lời một câu hỏi) và AI employee (bên phải, có vai trò liên tục với quyền hạn và trách nhiệm)."
 translationId: article-6-16-agent-authority-profile
 lang: vi
 category: ai
 contentType: Analysis
 funnelStage:
-- Consideration
+  - Consideration
 audience:
-- CIO
-- COO
-- HR
-primaryKeyword: hồ sơ quyền hạn AI agent
+  - CIO
+  - COO
+  - HR
+primaryKeyword: "hồ sơ quyền hạn AI agent"
 secondaryKeywords:
-- AI employee profile
-- AI agent identity
-- AI agent responsibility
-- AI agent audit trail
+  - "AI employee profile"
+  - "AI agent identity"
+  - "AI agent responsibility"
+  - "AI agent audit trail"
 assessmentHref: /readiness/ai
-ctaPrimaryText: Làm AI Readiness Assessment
-ctaSubtitle: Xác định mức độ sẵn sàng AI của doanh nghiệp bạn
+ctaPrimaryText: 'Làm AI Readiness Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 

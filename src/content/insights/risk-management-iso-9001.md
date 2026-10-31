@@ -1,4 +1,4 @@
----
+﻿---
 title: "Risk Management trong ISO 9001 — không phức tạp như nhiều người nghĩ"
 description: "ISO 9001:2015 yêu cầu risk-based thinking, không yêu cầu một hệ thống risk management phức tạp. Bài viết giải thích clause 6 theo ngôn ngữ thực hành — và cách áp dụng phù hợp với SME."
 publishDate: 2026-10-04T00:00:00Z
@@ -21,7 +21,7 @@ secondaryKeywords:
   - "risk based thinking"
   - "clause 6 ISO 9001"
 assessmentHref: '/readiness/knowledge'
-ctaPrimaryText: 'Làm Knowledge Management Maturity Assessment'
+ctaPrimaryText: 'Làm Knowledge Management Assessment'
 ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---

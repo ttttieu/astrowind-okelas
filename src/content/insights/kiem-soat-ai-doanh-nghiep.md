@@ -1,35 +1,32 @@
 ﻿---
-title: AI được phép làm đến đâu — và tại sao doanh nghiệp cần một control layer
-description: Khi AI từ chatbot trở thành agent có khả năng tự hành động, câu hỏi không
-  còn là AI biết gì mà là AI được phép làm gì. Bài viết phân tích vấn đề kiểm soát
-  AI trong doanh nghiệp.
-publishDate: 2025-09-24 00:00:00+00:00
-coverImage: ~/assets/images/insights/kiem-soat-ai-doanh-nghiep/ctl-00-og-cover-vi.png
-ogImage: ~/assets/images/insights/kiem-soat-ai-doanh-nghiep/ctl-00-og-cover-vi.png
-coverImageAlt: 'Bên trái là agent hành động, khó đảo ngược; bên phải là control layer
-  với ba kiểm soát: định danh, quyền tối thiểu, nhật ký.'
+title: "AI được phép làm đến đâu — và tại sao doanh nghiệp cần một control layer"
+description: "Khi AI từ chatbot trở thành agent có khả năng tự hành động, câu hỏi không còn là AI biết gì mà là AI được phép làm gì. Bài viết phân tích vấn đề kiểm soát AI trong doanh nghiệp."
+publishDate: 2025-09-24T00:00:00Z
+coverImage: '~/assets/images/insights/kiem-soat-ai-doanh-nghiep/ctl-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/kiem-soat-ai-doanh-nghiep/ctl-00-og-cover-vi.png'
+coverImageAlt: "Bên trái là agent hành động, khó đảo ngược; bên phải là control layer với ba kiểm soát: định danh, quyền tối thiểu, nhật ký."
 translationId: pillar-6-ai-control-layer
 lang: vi
 category: ai
 contentType: Pillar
 funnelStage:
-- Awareness
-- Understanding
-- Consideration
+  - Awareness
+  - Understanding
+  - Consideration
 audience:
-- CEO
-- CIO
-- COO
-primaryKeyword: kiểm soát AI doanh nghiệp
+  - CEO
+  - CIO
+  - COO
+primaryKeyword: "kiểm soát AI doanh nghiệp"
 secondaryKeywords:
-- AI control layer
-- AI agent kiểm soát
-- quyền hạn AI
-- AI governance doanh nghiệp
-- AI được phép làm gì
+  - "AI control layer"
+  - "AI agent kiểm soát"
+  - "quyền hạn AI"
+  - "AI governance doanh nghiệp"
+  - "AI được phép làm gì"
 assessmentHref: /readiness/ai
-ctaPrimaryText: Làm AI Readiness Assessment
-ctaSubtitle: Xác định mức độ sẵn sàng AI của doanh nghiệp bạn
+ctaPrimaryText: 'Làm AI Readiness Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 

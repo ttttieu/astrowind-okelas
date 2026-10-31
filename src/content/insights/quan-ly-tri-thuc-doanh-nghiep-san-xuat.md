@@ -1,38 +1,27 @@
 ﻿---
-title: Từ tri thức cá nhân đến tri thức tổ chức — bài toán không thể né trong sản
-  xuất
-description: Khi nhân viên giỏi nghỉ việc, họ mang đi thứ gì? Bài toán tri thức tổ
-  chức trong doanh nghiệp sản xuất và cách tiếp cận có hệ thống.
-publishDate: 2025-09-24 00:00:00+00:00
-coverImage: ~/assets/images/insights/kmp-00-og-cover-vi.png
-ogImage: ~/assets/images/insights/kmp-00-og-cover-vi.png
-coverImageAlt: Một nút tri thức cá nhân đơn lẻ ở bên trái, một mạng lưới các nút liên
-  kết ở bên phải đại diện cho tri thức tổ chức.
-category: knowledge-management
-tags:
-- Knowledge Management
-- Manufacturing
-- Organizational Learning
-- Tacit Knowledge
-translationId: knowledge-management-manufacturing
-lang: vi
-contentType: Pillar
+title: "Từ tri thức cá nhân đến tri thức tổ chức — bài toán không thể né trong sản xuất"
+description: "Khi nhân viên giỏi nghỉ việc, họ mang đi thứ gì? Bài toán tri thức tổ chức trong doanh nghiệp sản xuất và cách tiếp cận có hệ thống."
+publishDate: 2025-09-24T00:00:00Z
+coverImage: '~/assets/images/insights/kmp-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/kmp-00-og-cover-vi.png'
+coverImageAlt: "Một nút tri thức cá nhân đơn lẻ ở bên trái, một mạng lưới các nút liên kết ở bên phải đại diện cho tri thức tổ chức."
+category: 'knowledge-management'
+tags: ['Knowledge Management', 'Manufacturing', 'Organizational Learning', 'Tacit Knowledge']
+translationId: 'knowledge-management-manufacturing'
+lang: 'vi'
+contentType: 'Pillar'
 funnelStage:
-- Awareness
-audience:
-- CEO
-- COO
-- Operations Director
-- HR Director
-primaryKeyword: quản lý tri thức doanh nghiệp sản xuất
+  - Awareness
+audience: ['CEO', 'COO', 'Operations Director', 'HR Director']
+primaryKeyword: 'quản lý tri thức doanh nghiệp sản xuất'
 secondaryKeywords:
-- tri thức tổ chức sản xuất
-- ghi nhận tri thức ngầm
-- giữ chân tri thức nhân sự
-- knowledge management SME
-assessmentHref: /readiness/knowledge
-ctaPrimaryText: Làm Knowledge Management Maturity Assessment
-ctaSubtitle: Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên
+  - "tri thức tổ chức sản xuất"
+  - "ghi nhận tri thức ngầm"
+  - "giữ chân tri thức nhân sự"
+  - "knowledge management SME"
+assessmentHref: '/readiness/knowledge'
+ctaPrimaryText: 'Làm Knowledge Management Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 

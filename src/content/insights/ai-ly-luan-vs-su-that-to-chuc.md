@@ -1,32 +1,29 @@
 ﻿---
-title: AI lập luận dựa trên gì? Khi AI reason xung đột với organizational truth
-description: AI có thể giải thích, suy luận và đề xuất. Nhưng organizational truth
-  cần phải có thể truy xuất, quy kết và kiểm chứng được. Đây là lý do AI reasoning
-  không thể thay thế organizational evidence.
-publishDate: 2026-09-23 00:00:00+00:00
-coverImage: ~/assets/images/insights/ai-ly-luan-vs-su-that-to-chuc/arot-00-og-cover-vi.png
-ogImage: ~/assets/images/insights/ai-ly-luan-vs-su-that-to-chuc/arot-00-og-cover-vi.png
-coverImageAlt: 'Một khung chia đôi: bên trái là AI reasoning, bên phải là bằng chứng
-  tổ chức; ở giữa có dấu ≠.'
+title: "AI lập luận dựa trên gì? Khi AI reason xung đột với organizational truth"
+description: "AI có thể giải thích, suy luận và đề xuất. Nhưng organizational truth cần phải có thể truy xuất, quy kết và kiểm chứng được. Đây là lý do AI reasoning không thể thay thế organizational evidence."
+publishDate: 2026-09-23T00:00:00Z
+coverImage: '~/assets/images/insights/ai-ly-luan-vs-su-that-to-chuc/arot-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/ai-ly-luan-vs-su-that-to-chuc/arot-00-og-cover-vi.png'
+coverImageAlt: "Một khung chia đôi: bên trái là AI reasoning, bên phải là bằng chứng tổ chức; ở giữa có dấu ≠."
 translationId: article-6-15-reasoning-vs-truth
 lang: vi
 category: ai
 contentType: Analysis
 funnelStage:
-- Consideration
+  - Consideration
 audience:
-- CIO
-- CEO
-- Quality Director
-primaryKeyword: AI reasoning vs organizational evidence
+  - CIO
+  - CEO
+  - Quality Director
+primaryKeyword: "AI reasoning vs organizational evidence"
 secondaryKeywords:
-- AI suy luận vs bằng chứng
-- AI truth enterprise
-- organizational evidence
-- AI traceable
+  - "AI suy luận vs bằng chứng"
+  - "AI truth enterprise"
+  - "organizational evidence"
+  - "AI traceable"
 assessmentHref: /readiness/ai
-ctaPrimaryText: Làm AI Readiness Assessment
-ctaSubtitle: Xác định mức độ sẵn sàng AI của doanh nghiệp bạn
+ctaPrimaryText: 'Làm AI Readiness Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 

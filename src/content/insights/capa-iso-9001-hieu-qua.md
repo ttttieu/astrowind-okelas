@@ -1,4 +1,4 @@
----
+﻿---
 title: "CAPA hiệu quả — tại sao corrective action hay bị xử lý sai và cách làm đúng"
 description: "Nhiều doanh nghiệp có CAPA trên giấy nhưng vấn đề vẫn tái phát. Nguyên nhân thường không phải thiếu form mà thiếu root cause analysis thực sự. Bài viết phân tích cách CAPA đúng nghĩa hoạt động."
 publishDate: 2026-10-04T00:00:00Z
@@ -20,7 +20,7 @@ secondaryKeywords:
   - "xử lý CAPA đúng cách"
   - "root cause analysis CAPA"
 assessmentHref: '/readiness/knowledge'
-ctaPrimaryText: 'Làm Knowledge Management Maturity Assessment'
+ctaPrimaryText: 'Làm Knowledge Management Assessment'
 ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---

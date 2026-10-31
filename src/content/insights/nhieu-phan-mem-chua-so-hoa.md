@@ -1,33 +1,25 @@
 ﻿---
-title: Nhiều phần mềm không có nghĩa là doanh nghiệp đã số hóa
-description: Nhiều doanh nghiệp đã đầu tư hàng chục phần mềm nhưng vẫn chưa thực sự
-  số hóa. Vấn đề không phải là thiếu công cụ — mà là thiếu sự liên kết và strategy.
-publishDate: 2025-09-24 00:00:00+00:00
-image: ~/assets/images/insights/sw-04-og-cover-vi.png
-category: business-operations
-tags:
-- Phần mềm
-- Số hóa
-- Integration
-- Strategy
-translationId: biz-ops-software-not-digitalization
-lang: vi
-contentType: Opening
+title: "Nhiều phần mềm không có nghĩa là doanh nghiệp đã số hóa"
+description: "Nhiều doanh nghiệp đã đầu tư hàng chục phần mềm nhưng vẫn chưa thực sự số hóa. Vấn đề không phải là thiếu công cụ — mà là thiếu sự liên kết và strategy."
+publishDate: 2025-09-24T00:00:00Z
+image: '~/assets/images/insights/sw-04-og-cover-vi.png'
+category: 'business-operations'
+tags: ['Phần mềm', 'Số hóa', 'Integration', 'Strategy']
+translationId: 'biz-ops-software-not-digitalization'
+lang: 'vi'
+contentType: 'Opening'
 funnelStage:
-- Awareness
-audience:
-- CEO
-- COO
-- IT Manager
-primaryKeyword: nhiều phần mềm nhưng chưa số hóa
+  - Awareness
+audience: ['CEO', 'COO', 'IT Manager']
+primaryKeyword: 'nhiều phần mềm nhưng chưa số hóa'
 secondaryKeywords:
-- phần mềm không liên thông
-- software silos
-- doanh nghiệp mua nhiều phần mềm
-- integration phần mềm
-assessmentHref: /readiness/digitalization
-ctaPrimaryText: Làm Digital Transformation Maturity Assessment
-ctaSubtitle: Hiểu rõ mức độ trưởng thành số hóa của bạn và bước tiếp theo có ý nghĩa
+  - "phần mềm không liên thông"
+  - "software silos"
+  - "doanh nghiệp mua nhiều phần mềm"
+  - "integration phần mềm"
+assessmentHref: '/readiness/digitalization'
+ctaPrimaryText: 'Làm Digitalization Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 

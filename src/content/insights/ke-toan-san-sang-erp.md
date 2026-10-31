@@ -1,31 +1,29 @@
 ﻿---
-title: Accounting readiness trước ERP — những gì CFO cần biết
-description: Hệ thống kế toán chưa chuẩn là một trong những rủi ro ẩn lớn nhất trong
-  ERP. Bài viết dành riêng cho CFO và kế toán trưởng đang chuẩn bị triển khai. |
-publishDate: 2026-09-24 00:00:00+00:00
+title: "Accounting readiness trước ERP — những gì CFO cần biết"
+description: "Hệ thống kế toán chưa chuẩn là một trong những rủi ro ẩn lớn nhất trong ERP. Bài viết dành riêng cho CFO và kế toán trưởng đang chuẩn bị triển khai. |"
+publishDate: 2026-09-24T00:00:00Z
 translationId: accounting-readiness-erp
 lang: vi
 category: erp
 contentType: Analysis
 funnelStage:
-- Understanding
+  - Understanding
 audience:
-- CFO
-- Accounting Manager
-- Finance Director
-primaryKeyword: kế toán sẵn sàng triển khai ERP |
+  - CFO
+  - Accounting Manager
+  - Finance Director
+primaryKeyword: "kế toán sẵn sàng triển khai ERP |"
 secondaryKeywords:
-- accounting readiness ERP
-- hệ thống kế toán trước ERP
-- chart of accounts ERP
-- CFO chuẩn bị ERP |
+  - "accounting readiness ERP"
+  - "hệ thống kế toán trước ERP"
+  - "chart of accounts ERP"
+  - "CFO chuẩn bị ERP |"
 assessmentHref: /readiness/erp
-ctaPrimaryText: Làm ERP Readiness Assessment
-ctaSubtitle: Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn
-coverImage: ~/assets/images/insights/erpa-00-og-cover-vi.png
-ogImage: ~/assets/images/insights/erpa-00-og-cover-vi.png
-coverImageAlt: Khối ERP nằm trên ba trụ cột là chart of accounts, phân bổ chi phí
-  và số dư đầu kỳ, thể hiện ba điểm cần chuẩn hóa trước khi bắt đầu dự án.
+ctaPrimaryText: 'Làm ERP Readiness Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
+coverImage: '~/assets/images/insights/erpa-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/erpa-00-og-cover-vi.png'
+coverImageAlt: "Khối ERP nằm trên ba trụ cột là chart of accounts, phân bổ chi phí và số dư đầu kỳ, thể hiện ba điểm cần chuẩn hóa trước khi bắt đầu dự án."
 draft: false
 ---
 

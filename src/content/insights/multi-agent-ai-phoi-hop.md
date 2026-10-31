@@ -1,32 +1,28 @@
 ﻿---
-title: 'Khi các AI Agent bắt đầu phối hợp: multi-agent behavior và những điều cần
-  lưu ý'
-description: Một agent có giới hạn quyền hạn. Nhiều agent phối hợp có thể tạo ra hành
-  vi và tác động lớn hơn tổng quyền được cấp. Đây là lý do multi-agent system cần
-  một lớp kiểm soát riêng.
-publishDate: 2026-09-23 00:00:00+00:00
-coverImage: ~/assets/images/insights/multi-agent-ai-phoi-hop/amas-00-og-cover-vi.png
-ogImage: ~/assets/images/insights/multi-agent-ai-phoi-hop/amas-00-og-cover-vi.png
-coverImageAlt: Bên trái là ba agent có quyền riêng hẹp; bên phải là một khối quyền
-  hiệu dụng lớn hơn, nối bằng mũi tên nét đứt có nhãn có thể vượt tổng.
+title: "Khi các AI Agent bắt đầu phối hợp: multi-agent behavior và những điều cần lưu ý"
+description: "Một agent có giới hạn quyền hạn. Nhiều agent phối hợp có thể tạo ra hành vi và tác động lớn hơn tổng quyền được cấp. Đây là lý do multi-agent system cần một lớp kiểm soát riêng."
+publishDate: 2026-09-23T00:00:00Z
+coverImage: '~/assets/images/insights/multi-agent-ai-phoi-hop/amas-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/multi-agent-ai-phoi-hop/amas-00-og-cover-vi.png'
+coverImageAlt: "Bên trái là ba agent có quyền riêng hẹp; bên phải là một khối quyền hiệu dụng lớn hơn, nối bằng mũi tên nét đứt có nhãn có thể vượt tổng."
 translationId: article-6-6-multi-agent-systems
 lang: vi
 category: ai
 contentType: Analysis
 funnelStage:
-- Understanding
+  - Understanding
 audience:
-- CIO
-- IT Architect
-primaryKeyword: multi-agent AI phối hợp
+  - CIO
+  - IT Architect
+primaryKeyword: "multi-agent AI phối hợp"
 secondaryKeywords:
-- multi-agent system
-- AI agents phối hợp
-- multi-agent behavior
-- AI agent communication
+  - "multi-agent system"
+  - "AI agents phối hợp"
+  - "multi-agent behavior"
+  - "AI agent communication"
 assessmentHref: /readiness/ai
-ctaPrimaryText: Làm AI Readiness Assessment
-ctaSubtitle: Xác định mức độ sẵn sàng AI của doanh nghiệp bạn
+ctaPrimaryText: 'Làm AI Readiness Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 

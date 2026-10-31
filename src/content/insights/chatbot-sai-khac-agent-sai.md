@@ -1,34 +1,30 @@
 ﻿---
-title: Chatbot sai một câu. Agent sai một hành động. Tại sao sự khác biệt này quan
-  trọng?
-description: Khi chatbot sai, con người kiểm tra và sửa. Khi agent sai, nó có thể
-  đã thay đổi trạng thái hệ thống — trong ERP, trong workflow, trong database. Đây
-  là lý do enterprise AI cần evidence, authorization và audit.
-publishDate: 2026-09-23 00:00:00+00:00
-coverImage: ~/assets/images/insights/chatbot-sai-khac-agent-sai/aaer-00-og-cover-vi.png
-ogImage: ~/assets/images/insights/chatbot-sai-khac-agent-sai/aaer-00-og-cover-vi.png
-coverImageAlt: Hộp "Lỗi bị bắt trước" nối với hộp "Lỗi đã xảy ra" bằng mũi tên nét
-  đứt ghi "khác loại rủi ro".
+title: "Chatbot sai một câu. Agent sai một hành động. Tại sao sự khác biệt này quan trọng?"
+description: "Khi chatbot sai, con người kiểm tra và sửa. Khi agent sai, nó có thể đã thay đổi trạng thái hệ thống — trong ERP, trong workflow, trong database. Đây là lý do enterprise AI cần evidence, authorization và audit."
+publishDate: 2026-09-23T00:00:00Z
+coverImage: '~/assets/images/insights/chatbot-sai-khac-agent-sai/aaer-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/chatbot-sai-khac-agent-sai/aaer-00-og-cover-vi.png'
+coverImageAlt: "Hộp \"Lỗi bị bắt trước\" nối với hộp \"Lỗi đã xảy ra\" bằng mũi tên nét đứt ghi \"khác loại rủi ro\"."
 translationId: article-6-10-chatbot-vs-agent-error
 lang: vi
 category: ai
 contentType: Analysis
 funnelStage:
-- Understanding
+  - Understanding
 audience:
-- CEO
-- CIO
-- COO
-- Risk
-primaryKeyword: AI chatbot sai khác AI agent sai
+  - CEO
+  - CIO
+  - COO
+  - Risk
+primaryKeyword: "AI chatbot sai khác AI agent sai"
 secondaryKeywords:
-- rủi ro AI agent
-- AI agent lỗi
-- AI action error
-- chatbot error vs agent error
+  - "rủi ro AI agent"
+  - "AI agent lỗi"
+  - "AI action error"
+  - "chatbot error vs agent error"
 assessmentHref: /readiness/ai
-ctaPrimaryText: Làm AI Readiness Assessment
-ctaSubtitle: Xác định mức độ sẵn sàng AI của doanh nghiệp bạn
+ctaPrimaryText: 'Làm AI Readiness Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 

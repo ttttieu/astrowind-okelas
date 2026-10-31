@@ -1,36 +1,31 @@
 ﻿---
-title: 'Giao việc cho AI theo từng bước workflow: nhìn ở cấp hoạt động, quản trị như
-  một participant'
-description: 'Thay vì hỏi AI có thay được một vị trí không, hãy hỏi bước nào trong
-  workflow của vị trí đó có thể giao cho AI, với nhiệm vụ, quyền hạn và dấu vết rõ
-  ràng. Bài này gộp hai cách nhìn thành một khung: giao bước chứ không giao quyết
-  định.'
-publishDate: 2026-10-06 00:00:00+00:00
+title: "Giao việc cho AI theo từng bước workflow: nhìn ở cấp hoạt động, quản trị như một participant"
+description: "Thay vì hỏi AI có thay được một vị trí không, hãy hỏi bước nào trong workflow của vị trí đó có thể giao cho AI, với nhiệm vụ, quyền hạn và dấu vết rõ ràng. Bài này gộp hai cách nhìn thành một khung: giao bước chứ không giao quyết định."
+publishDate: 2026-10-06T00:00:00Z
 translationId: article-5-18-delegating-steps-workflow
 lang: vi
 category: workflow
 contentType: Analysis
 funnelStage:
-- Understanding
-- Consideration
+  - Understanding
+  - Consideration
 audience:
-- COO
-- CIO
-- Operations Director
-primaryKeyword: giao việc cho AI theo bước workflow
+  - COO
+  - CIO
+  - Operations Director
+primaryKeyword: "giao việc cho AI theo bước workflow"
 secondaryKeywords:
-- AI participant workflow
-- task-level automation AI
-- non-human identity workflow
-- giao việc AI quản trị
-- AI employee workflow
+  - "AI participant workflow"
+  - "task-level automation AI"
+  - "non-human identity workflow"
+  - "giao việc AI quản trị"
+  - "AI employee workflow"
 assessmentHref: /readiness/workflow
-coverImage: ~/assets/images/insights/giao-viec-cho-ai-theo-buoc-workflow/wfl-00-og-cover-vi.png
-ogImage: ~/assets/images/insights/giao-viec-cho-ai-theo-buoc-workflow/wfl-00-og-cover-vi.png
-coverImageAlt: Câu hỏi thường gặp 'AI thay được ai' so với câu hỏi hữu ích 'bước nào
-  nên giao cho AI'.
-ctaPrimaryText: Làm Workflow Readiness Assessment
-ctaSubtitle: Workflow của bạn đang vận hành như thế nào?
+coverImage: '~/assets/images/insights/giao-viec-cho-ai-theo-buoc-workflow/wfl-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/giao-viec-cho-ai-theo-buoc-workflow/wfl-00-og-cover-vi.png'
+coverImageAlt: "Câu hỏi thường gặp 'AI thay được ai' so với câu hỏi hữu ích 'bước nào nên giao cho AI'."
+ctaPrimaryText: 'Làm Workflow Readiness Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 

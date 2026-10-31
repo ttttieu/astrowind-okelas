@@ -212,7 +212,7 @@ The lesson is not to wait until AI is perfect. The lesson is to build organizati
 **Read next:**
 - [What Is AI Readiness — Six Conditions for AI to Actually Work in Operations](/en/insights/ai/ai-readiness-checklist)
 - [The Difference Between AI Productivity and Organizational Intelligence](/en/insights/ai/ai-productivity-vs-organizational-intelligence)
-- [When Key Employees Leave, What Do They Take with Them?](/en/insights/knowledge-management/knowledge-loss-when-employees-leave)
+- [When Key Employees Leave, What Do They Take with Them?](/en/insights/what-key-people-take)
 
 **Self-assessment:**
 → Is your organization ready for AI? [Take the AI Readiness Assessment](/en/readiness/ai)

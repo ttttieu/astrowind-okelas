@@ -1,35 +1,30 @@
 ﻿---
-title: 'Xử lý ngoại lệ trong workflow: khi quyết định không có rule sẵn'
-description: 'Ngoại lệ không phải bất thường cần che đi, mà là nơi tri thức vận hành
-  được tạo ra. Bài này phân tích cách doanh nghiệp thường xử lý ngoại lệ, cái giá
-  phải trả, và một đường ngoại lệ được thiết kế: chuyển đúng người, kèm evidence,
-  ghi lại quyết định, rồi mới thành tiền lệ.'
-publishDate: 2026-10-06 00:00:00+00:00
+title: "Xử lý ngoại lệ trong workflow: khi quyết định không có rule sẵn"
+description: "Ngoại lệ không phải bất thường cần che đi, mà là nơi tri thức vận hành được tạo ra. Bài này phân tích cách doanh nghiệp thường xử lý ngoại lệ, cái giá phải trả, và một đường ngoại lệ được thiết kế: chuyển đúng người, kèm evidence, ghi lại quyết định, rồi mới thành tiền lệ."
+publishDate: 2026-10-06T00:00:00Z
 translationId: article-5-11-exception-handling-workflow
 lang: vi
 category: workflow
 contentType: Analysis
 funnelStage:
-- Understanding
+  - Understanding
 audience:
-- COO
-- CIO
-- Operations Director
-primaryKeyword: xử lý ngoại lệ trong workflow
+  - COO
+  - CIO
+  - Operations Director
+primaryKeyword: "xử lý ngoại lệ trong workflow"
 secondaryKeywords:
-- exception workflow design
-- xử lý ngoại lệ quy trình
-- tiền lệ workflow
-- evidence trong workflow
-- workflow ngoại lệ
+  - "exception workflow design"
+  - "xử lý ngoại lệ quy trình"
+  - "tiền lệ workflow"
+  - "evidence trong workflow"
+  - "workflow ngoại lệ"
 assessmentHref: /readiness/workflow
-coverImage: ~/assets/images/insights/xu-ly-ngoai-le-trong-workflow/wfx-00-og-cover-vi.png
-ogImage: ~/assets/images/insights/xu-ly-ngoai-le-trong-workflow/wfx-00-og-cover-vi.png
-coverImageAlt: Ngoại lệ xử lý tắt qua Zalo hoặc email không để lại evidence; đường
-  ngoại lệ được thiết kế chuyển ca tới người có thẩm quyền kèm evidence, ghi lại quyết
-  định và tích lũy thành tiền lệ.
-ctaPrimaryText: Làm Workflow Readiness Assessment
-ctaSubtitle: Workflow của bạn đang vận hành như thế nào?
+coverImage: '~/assets/images/insights/xu-ly-ngoai-le-trong-workflow/wfx-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/xu-ly-ngoai-le-trong-workflow/wfx-00-og-cover-vi.png'
+coverImageAlt: "Ngoại lệ xử lý tắt qua Zalo hoặc email không để lại evidence; đường ngoại lệ được thiết kế chuyển ca tới người có thẩm quyền kèm evidence, ghi lại quyết định và tích lũy thành tiền lệ."
+ctaPrimaryText: 'Làm Workflow Readiness Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 

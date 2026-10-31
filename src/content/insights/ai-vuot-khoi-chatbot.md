@@ -1,31 +1,28 @@
 ﻿---
-title: AI đã vượt khỏi chatbot — từ assistant đến agentic
-description: 'Nhiều tổ chức vẫn nghĩ về AI như một chatbot thông minh. Nhưng thực
-  tế đã tiến xa hơn: từ prompt/response đến goal/plan/action. Đây là khoảng cách quan
-  trọng cần nhận ra.'
-publishDate: 2025-09-24 00:00:00+00:00
-coverImage: ~/assets/images/insights/ai-vuot-khoi-chatbot/agv-00-og-cover-vi.png
-ogImage: ~/assets/images/insights/ai-vuot-khoi-chatbot/agv-00-og-cover-vi.png
-coverImageAlt: Bên trái là chatbot tạo văn bản và dừng lại; bên phải là agent đọc
-  dữ liệu, gọi hệ thống và tự quyết định bước tiếp theo.
+title: "AI đã vượt khỏi chatbot — từ assistant đến agentic"
+description: "Nhiều tổ chức vẫn nghĩ về AI như một chatbot thông minh. Nhưng thực tế đã tiến xa hơn: từ prompt/response đến goal/plan/action. Đây là khoảng cách quan trọng cần nhận ra."
+publishDate: 2025-09-24T00:00:00Z
+coverImage: '~/assets/images/insights/ai-vuot-khoi-chatbot/agv-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/ai-vuot-khoi-chatbot/agv-00-og-cover-vi.png'
+coverImageAlt: "Bên trái là chatbot tạo văn bản và dừng lại; bên phải là agent đọc dữ liệu, gọi hệ thống và tự quyết định bước tiếp theo."
 translationId: article-6-1-beyond-chatbot
 lang: vi
 category: ai
 contentType: Opening
 funnelStage:
-- Awareness
+  - Awareness
 audience:
-- CEO
-- CIO
-primaryKeyword: AI vượt khỏi chatbot
+  - CEO
+  - CIO
+primaryKeyword: "AI vượt khỏi chatbot"
 secondaryKeywords:
-- agentic AI
-- AI agent là gì
-- từ chatbot đến AI agent
-- AI tự chủ
+  - "agentic AI"
+  - "AI agent là gì"
+  - "từ chatbot đến AI agent"
+  - "AI tự chủ"
 assessmentHref: /readiness/ai
-ctaPrimaryText: Làm AI Readiness Assessment
-ctaSubtitle: Xác định mức độ sẵn sàng AI của doanh nghiệp bạn
+ctaPrimaryText: 'Làm AI Readiness Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 

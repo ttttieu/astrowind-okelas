@@ -1,31 +1,29 @@
 ﻿---
-title: Doanh nghiệp bạn đã thực sự sẵn sàng triển khai ERP chưa?
-description: Trước khi chọn phần mềm ERP, có 8 câu hỏi quan trọng hơn mà CEO cần tự
-  trả lời. Bài viết giúp bạn tự đánh giá mức độ sẵn sàng. |
-publishDate: 2026-09-24 00:00:00+00:00
+title: "Doanh nghiệp bạn đã thực sự sẵn sàng triển khai ERP chưa?"
+description: "Trước khi chọn phần mềm ERP, có 8 câu hỏi quan trọng hơn mà CEO cần tự trả lời. Bài viết giúp bạn tự đánh giá mức độ sẵn sàng. |"
+publishDate: 2026-09-24T00:00:00Z
 translationId: erp-opening-readiness-assessment
 lang: vi
 category: erp
 contentType: Opening
 funnelStage:
-- Awareness
+  - Awareness
 audience:
-- CEO
-- COO
-- General Director
-primaryKeyword: sẵn sàng triển khai ERP |
+  - CEO
+  - COO
+  - General Director
+primaryKeyword: "sẵn sàng triển khai ERP |"
 secondaryKeywords:
-- chuẩn bị triển khai ERP
-- ERP readiness
-- doanh nghiệp có nên dùng ERP
-- điều kiện triển khai ERP |
+  - "chuẩn bị triển khai ERP"
+  - "ERP readiness"
+  - "doanh nghiệp có nên dùng ERP"
+  - "điều kiện triển khai ERP |"
 assessmentHref: /readiness/erp
-ctaPrimaryText: Làm ERP Readiness Assessment
-ctaSubtitle: Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn
-coverImage: ~/assets/images/insights/erpr-00-og-cover-vi.png
-ogImage: ~/assets/images/insights/erpr-00-og-cover-vi.png
-coverImageAlt: Tám chấm, một nửa đặc và một nửa viền đứt, phải đi qua một cổng sẵn
-  sàng trước khi tới khối ERP.
+ctaPrimaryText: 'Làm ERP Readiness Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
+coverImage: '~/assets/images/insights/erpr-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/erpr-00-og-cover-vi.png'
+coverImageAlt: "Tám chấm, một nửa đặc và một nửa viền đứt, phải đi qua một cổng sẵn sàng trước khi tới khối ERP."
 draft: false
 ---
 

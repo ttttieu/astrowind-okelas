@@ -1,31 +1,29 @@
 ﻿---
-title: 'Workflow Automation và Intelligent Workflow: Hai Khái Niệm Khác Nhau'
-description: Automation giúp workflow chạy tự động — nhưng không giúp workflow xử
-  lý exception, hiểu context hay ra quyết định. Đó là vai trò của intelligent workflow.
-publishDate: 2026-09-23 00:00:00+00:00
+title: "Workflow Automation và Intelligent Workflow: Hai Khái Niệm Khác Nhau"
+description: "Automation giúp workflow chạy tự động — nhưng không giúp workflow xử lý exception, hiểu context hay ra quyết định. Đó là vai trò của intelligent workflow."
+publishDate: 2026-09-23T00:00:00Z
 translationId: article-5-6-automation-vs-intelligent
 lang: vi
 category: workflow
 contentType: Analysis
 funnelStage:
-- Understanding
+  - Understanding
 audience:
-- COO
-- CIO
-- Operations Director
-primaryKeyword: workflow automation vs intelligent workflow
+  - COO
+  - CIO
+  - Operations Director
+primaryKeyword: "workflow automation vs intelligent workflow"
 secondaryKeywords:
-- intelligent workflow là gì
-- workflow tự động
-- workflow thông minh
-- workflow exception handling
+  - "intelligent workflow là gì"
+  - "workflow tự động"
+  - "workflow thông minh"
+  - "workflow exception handling"
 assessmentHref: /readiness/workflow
-coverImage: ~/assets/images/insights/workflow-automation-vs-intelligent/wfa-00-og-cover-vi.png
-ogImage: ~/assets/images/insights/workflow-automation-vs-intelligent/wfa-00-og-cover-vi.png
-coverImageAlt: Một chuỗi automation dừng lại ở tình huống lạ, so với một chuỗi intelligent
-  workflow phân loại ngoại lệ và chuyển người đúng ca.
-ctaPrimaryText: Làm Workflow Readiness Assessment
-ctaSubtitle: Workflow của bạn đang vận hành như thế nào?
+coverImage: '~/assets/images/insights/workflow-automation-vs-intelligent/wfa-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/workflow-automation-vs-intelligent/wfa-00-og-cover-vi.png'
+coverImageAlt: "Một chuỗi automation dừng lại ở tình huống lạ, so với một chuỗi intelligent workflow phân loại ngoại lệ và chuyển người đúng ca."
+ctaPrimaryText: 'Làm Workflow Readiness Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 

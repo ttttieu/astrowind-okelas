@@ -1,36 +1,27 @@
 ﻿---
-title: 'Organizational AI: khi AI hiểu doanh nghiệp thay vì chỉ trả lời câu hỏi'
-description: Bước tiếp theo sau AI tools cá nhân là AI hiểu được context tổ chức —
-  quy trình, tri thức, evidence và cách doanh nghiệp thực sự vận hành. Đây là organizational
-  AI.
-publishDate: 2025-09-24 00:00:00+00:00
-coverImage: ~/assets/images/insights/organizational-ai-doanh-nghiep/oai-00-og-cover-vi.png
-ogImage: ~/assets/images/insights/organizational-ai-doanh-nghiep/oai-00-og-cover-vi.png
-coverImageAlt: 'Bên trái là AI cá nhân chỉ trả lời câu hỏi; bên phải là ba lớp của
-  tổ chức: quy trình, dữ liệu, governance.'
-category: ai
-tags:
-- Organizational AI
-- AI Strategy
-- Enterprise AI
-- Knowledge Management
-translationId: organizational-ai
-lang: vi
-contentType: Analysis
+title: "Organizational AI: khi AI hiểu doanh nghiệp thay vì chỉ trả lời câu hỏi"
+description: "Bước tiếp theo sau AI tools cá nhân là AI hiểu được context tổ chức — quy trình, tri thức, evidence và cách doanh nghiệp thực sự vận hành. Đây là organizational AI."
+publishDate: 2025-09-24T00:00:00Z
+coverImage: '~/assets/images/insights/organizational-ai-doanh-nghiep/oai-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/organizational-ai-doanh-nghiep/oai-00-og-cover-vi.png'
+coverImageAlt: "Bên trái là AI cá nhân chỉ trả lời câu hỏi; bên phải là ba lớp của tổ chức: quy trình, dữ liệu, governance."
+category: 'ai'
+tags: ['Organizational AI', 'AI Strategy', 'Enterprise AI', 'Knowledge Management']
+translationId: 'organizational-ai'
+lang: 'vi'
+contentType: 'Analysis'
 funnelStage:
-- Consideration
-audience:
-- CEO
-- CIO
-primaryKeyword: organizational AI doanh nghiệp
+  - Consideration
+audience: ['CEO', 'CIO']
+primaryKeyword: 'organizational AI doanh nghiệp'
 secondaryKeywords:
-- AI hiểu doanh nghiệp
-- AI tổ chức
-- AI vận hành doanh nghiệp
-- organizational intelligence
-assessmentHref: /readiness/ai
-ctaPrimaryText: Làm AI Readiness Assessment
-ctaSubtitle: Xác định mức độ sẵn sàng AI của doanh nghiệp bạn
+  - "AI hiểu doanh nghiệp"
+  - "AI tổ chức"
+  - "AI vận hành doanh nghiệp"
+  - "organizational intelligence"
+assessmentHref: '/readiness/ai'
+ctaPrimaryText: 'Làm AI Readiness Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 

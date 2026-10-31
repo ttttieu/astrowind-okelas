@@ -1,36 +1,27 @@
 ﻿---
-title: Tại sao chuẩn bị audit lại tốn nhiều công sức đến vậy?
-description: Nếu mỗi lần audit bạn phải huy động cả phòng để tìm hồ sơ, vấn đề không
-  phải là audit khó — mà là hệ thống chưa sẵn sàng.
-publishDate: 2025-09-24 00:00:00+00:00
-coverImage: ~/assets/images/insights/aud-00-og-cover-vi.png
-ogImage: ~/assets/images/insights/aud-00-og-cover-vi.png
-coverImageAlt: Một bên là đội ngũ chạy đua tìm hồ sơ trước audit; bên kia là tổ chức
-  tổng hợp nhanh bằng chứng đã được ghi nhận sẵn trong vận hành.
-category: knowledge-management
-tags:
-- Audit
-- Compliance
-- Documentation
-- Process Management
-translationId: audit-preparation-readiness
-lang: vi
-contentType: Opening
+title: "Tại sao chuẩn bị audit lại tốn nhiều công sức đến vậy?"
+description: "Nếu mỗi lần audit bạn phải huy động cả phòng để tìm hồ sơ, vấn đề không phải là audit khó — mà là hệ thống chưa sẵn sàng."
+publishDate: 2025-09-24T00:00:00Z
+coverImage: '~/assets/images/insights/aud-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/aud-00-og-cover-vi.png'
+coverImageAlt: "Một bên là đội ngũ chạy đua tìm hồ sơ trước audit; bên kia là tổ chức tổng hợp nhanh bằng chứng đã được ghi nhận sẵn trong vận hành."
+category: 'knowledge-management'
+tags: ['Audit', 'Compliance', 'Documentation', 'Process Management']
+translationId: 'audit-preparation-readiness'
+lang: 'vi'
+contentType: 'Opening'
 funnelStage:
-- Awareness
-audience:
-- CEO
-- Quality Director
-- Operations Director
-primaryKeyword: chuẩn bị audit ISO mất thời gian
+  - Awareness
+audience: ['CEO', 'Quality Director', 'Operations Director']
+primaryKeyword: 'chuẩn bị audit ISO mất thời gian'
 secondaryKeywords:
-- audit preparation ISO
-- kiểm toán GMP
-- audit readiness
-- bằng chứng documentation
-assessmentHref: /readiness/knowledge
-ctaPrimaryText: Làm Knowledge Management Maturity Assessment
-ctaSubtitle: Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên
+  - "audit preparation ISO"
+  - "kiểm toán GMP"
+  - "audit readiness"
+  - "bằng chứng documentation"
+assessmentHref: '/readiness/knowledge'
+ctaPrimaryText: 'Làm Knowledge Management Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 

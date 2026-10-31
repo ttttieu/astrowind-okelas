@@ -1,34 +1,25 @@
 ﻿---
-title: Doanh nghiệp của bạn đang ở giai đoạn số hóa nào?
-description: Số hóa không phải chỉ có hay không có — mà là một hành trình nhiều cấp
-  độ. Bài viết giúp CEO tự xác định doanh nghiệp đang ở đâu và bước tiếp theo hợp
-  lý là gì.
-publishDate: 2025-09-24 00:00:00+00:00
-image: ~/assets/images/insights/lv-04-og-cover-vi.png
-category: business-operations
-tags:
-- Số hóa
-- Cấp độ số hóa
-- Đánh giá doanh nghiệp
-- Manufacturing SME
-translationId: biz-ops-digitalization-stages
-lang: vi
-contentType: Opening
+title: "Doanh nghiệp của bạn đang ở giai đoạn số hóa nào?"
+description: "Số hóa không phải chỉ có hay không có — mà là một hành trình nhiều cấp độ. Bài viết giúp CEO tự xác định doanh nghiệp đang ở đâu và bước tiếp theo hợp lý là gì."
+publishDate: 2025-09-24T00:00:00Z
+image: '~/assets/images/insights/lv-04-og-cover-vi.png'
+category: 'business-operations'
+tags: ['Số hóa', 'Cấp độ số hóa', 'Đánh giá doanh nghiệp', 'Manufacturing SME']
+translationId: 'biz-ops-digitalization-stages'
+lang: 'vi'
+contentType: 'Opening'
 funnelStage:
-- Awareness
-audience:
-- CEO
-- COO
-- General Director
-primaryKeyword: giai đoạn số hóa doanh nghiệp
+  - Awareness
+audience: ['CEO', 'COO', 'General Director']
+primaryKeyword: 'giai đoạn số hóa doanh nghiệp'
 secondaryKeywords:
-- mức độ số hóa doanh nghiệp
-- digitalization level
-- đánh giá số hóa
-- doanh nghiệp đang ở đâu số hóa
-assessmentHref: /readiness/digitalization
-ctaPrimaryText: Làm Digital Transformation Maturity Assessment
-ctaSubtitle: Hiểu rõ mức độ trưởng thành số hóa của bạn và bước tiếp theo có ý nghĩa
+  - "mức độ số hóa doanh nghiệp"
+  - "digitalization level"
+  - "đánh giá số hóa"
+  - "doanh nghiệp đang ở đâu số hóa"
+assessmentHref: '/readiness/digitalization'
+ctaPrimaryText: 'Làm Digitalization Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 

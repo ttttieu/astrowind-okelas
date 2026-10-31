@@ -1,33 +1,30 @@
 ﻿---
-title: 'Sau ERP: doanh nghiệp cần làm gì để khai thác dữ liệu ERP?'
-description: ERP tạo ra rất nhiều dữ liệu. Nhưng hầu hết doanh nghiệp chỉ dùng ERP
-  để nhập liệu, không phải để phân tích và ra quyết định. Bài viết chỉ ra cách tiếp
-  cận.
-publishDate: 2026-09-24 00:00:00+00:00
+title: "Sau ERP: doanh nghiệp cần làm gì để khai thác dữ liệu ERP?"
+description: "ERP tạo ra rất nhiều dữ liệu. Nhưng hầu hết doanh nghiệp chỉ dùng ERP để nhập liệu, không phải để phân tích và ra quyết định. Bài viết chỉ ra cách tiếp cận."
+publishDate: 2026-09-24T00:00:00Z
 translationId: erp-data-utilization-reporting
 lang: vi
 category: erp
 contentType: Analysis
 funnelStage:
-- Consideration
+  - Consideration
 audience:
-- CEO
-- COO
-- CIO
-primaryKeyword: khai thác dữ liệu ERP
+  - CEO
+  - COO
+  - CIO
+primaryKeyword: "khai thác dữ liệu ERP"
 secondaryKeywords:
-- phân tích dữ liệu ERP
-- 'ERP reporting '
-- BI từ ERP
-- ERP và AI
-- dữ liệu ERP ra quyết định
+  - "phân tích dữ liệu ERP"
+  - "ERP reporting "
+  - "BI từ ERP"
+  - "ERP và AI"
+  - "dữ liệu ERP ra quyết định"
 assessmentHref: /readiness/erp
-ctaPrimaryText: Làm ERP Readiness Assessment
-ctaSubtitle: Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn
-coverImage: ~/assets/images/insights/erpt-00-og-cover-vi.png
-ogImage: ~/assets/images/insights/erpt-00-og-cover-vi.png
-coverImageAlt: Bốn bậc thang tăng dần thể hiện bốn cấp độ khai thác dữ liệu ERP, từ
-  ghi nhận giao dịch đến dự báo và hỗ trợ quyết định.
+ctaPrimaryText: 'Làm ERP Readiness Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
+coverImage: '~/assets/images/insights/erpt-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/erpt-00-og-cover-vi.png'
+coverImageAlt: "Bốn bậc thang tăng dần thể hiện bốn cấp độ khai thác dữ liệu ERP, từ ghi nhận giao dịch đến dự báo và hỗ trợ quyết định."
 draft: false
 ---
 

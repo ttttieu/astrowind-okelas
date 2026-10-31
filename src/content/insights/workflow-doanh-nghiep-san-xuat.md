@@ -1,37 +1,32 @@
 ﻿---
-title: 'Workflow cho doanh nghiệp sản xuất: từ phê duyệt đến vận hành có context,
-  evidence và AI hỗ trợ'
-description: 'Bản đồ tổng quan về workflow trong doanh nghiệp sản xuất vừa và nhỏ:
-  vì sao có workflow vẫn chậm, đi từ request/approval sang event/action, rule và con
-  người quyết định thế nào, AI chỉ làm hai việc, và cách chọn bước tiếp theo có ý
-  nghĩa kinh tế.'
-publishDate: 2026-10-07 00:00:00+00:00
+title: "Workflow cho doanh nghiệp sản xuất: từ phê duyệt đến vận hành có context, evidence và AI hỗ trợ"
+description: "Bản đồ tổng quan về workflow trong doanh nghiệp sản xuất vừa và nhỏ: vì sao có workflow vẫn chậm, đi từ request/approval sang event/action, rule và con người quyết định thế nào, AI chỉ làm hai việc, và cách chọn bước tiếp theo có ý nghĩa kinh tế."
+publishDate: 2026-10-07T00:00:00Z
 translationId: workflow-pillar-manufacturing-sme
 lang: vi
 category: workflow
 contentType: Pillar
 funnelStage:
-- Awareness
-- Understanding
-- Consideration
+  - Awareness
+  - Understanding
+  - Consideration
 audience:
-- CEO
-- COO
-- Operations Director
-primaryKeyword: workflow doanh nghiệp sản xuất
+  - CEO
+  - COO
+  - Operations Director
+primaryKeyword: "workflow doanh nghiệp sản xuất"
 secondaryKeywords:
-- workflow manufacturing SME
-- event-driven workflow
-- rule workflow AI
-- context evidence workflow
-- tối ưu workflow sản xuất
+  - "workflow manufacturing SME"
+  - "event-driven workflow"
+  - "rule workflow AI"
+  - "context evidence workflow"
+  - "tối ưu workflow sản xuất"
 assessmentHref: /readiness/workflow
-coverImage: ~/assets/images/insights/workflow-doanh-nghiep-san-xuat/wfq-00-og-cover-vi.png
-ogImage: ~/assets/images/insights/workflow-doanh-nghiep-san-xuat/wfq-00-og-cover-vi.png
-coverImageAlt: Câu hỏi thường gặp so với câu hỏi hữu ích về workflow doanh nghiệp
-  sản xuất.
-ctaPrimaryText: Làm Workflow Readiness Assessment
-ctaSubtitle: Workflow của bạn đang vận hành như thế nào?
+coverImage: '~/assets/images/insights/workflow-doanh-nghiep-san-xuat/wfq-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/workflow-doanh-nghiep-san-xuat/wfq-00-og-cover-vi.png'
+coverImageAlt: "Câu hỏi thường gặp so với câu hỏi hữu ích về workflow doanh nghiệp sản xuất."
+ctaPrimaryText: 'Làm Workflow Readiness Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 

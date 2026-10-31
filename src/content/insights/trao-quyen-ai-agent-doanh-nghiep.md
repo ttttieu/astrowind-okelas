@@ -1,31 +1,28 @@
 ﻿---
-title: Nếu AI có thể tự hành động — doanh nghiệp có nên cho AI toàn quyền?
-description: Khi AI agent có khả năng tự thực hiện công việc trong ERP, email và workflow,
-  câu hỏi quan trọng không phải là AI có làm được không — mà là doanh nghiệp có nên
-  cho phép không và đến mức nào.
-publishDate: 2026-09-23 00:00:00+00:00
-coverImage: ~/assets/images/insights/trao-quyen-ai-agent-doanh-nghiep/aagt-00-og-cover-vi.png
-ogImage: ~/assets/images/insights/trao-quyen-ai-agent-doanh-nghiep/aagt-00-og-cover-vi.png
-coverImageAlt: Hộp "Năng lực" nối với hộp "Quyền hạn" bằng mũi tên nét đứt ghi "không
-  tự động đi theo".
+title: "Nếu AI có thể tự hành động — doanh nghiệp có nên cho AI toàn quyền?"
+description: "Khi AI agent có khả năng tự thực hiện công việc trong ERP, email và workflow, câu hỏi quan trọng không phải là AI có làm được không — mà là doanh nghiệp có nên cho phép không và đến mức nào."
+publishDate: 2026-09-23T00:00:00Z
+coverImage: '~/assets/images/insights/trao-quyen-ai-agent-doanh-nghiep/aagt-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/trao-quyen-ai-agent-doanh-nghiep/aagt-00-og-cover-vi.png'
+coverImageAlt: "Hộp \"Năng lực\" nối với hộp \"Quyền hạn\" bằng mũi tên nét đứt ghi \"không tự động đi theo\"."
 translationId: article-6-9-should-ai-have-authority
 lang: vi
 category: ai
 contentType: Opening
 funnelStage:
-- Awareness
+  - Awareness
 audience:
-- CEO
-- CIO
-primaryKeyword: trao quyền AI agent doanh nghiệp
+  - CEO
+  - CIO
+primaryKeyword: "trao quyền AI agent doanh nghiệp"
 secondaryKeywords:
-- AI agent quyền hạn
-- kiểm soát AI agent
-- cho phép AI làm gì
-- AI authority
+  - "AI agent quyền hạn"
+  - "kiểm soát AI agent"
+  - "cho phép AI làm gì"
+  - "AI authority"
 assessmentHref: /readiness/ai
-ctaPrimaryText: Làm AI Readiness Assessment
-ctaSubtitle: Xác định mức độ sẵn sàng AI của doanh nghiệp bạn
+ctaPrimaryText: 'Làm AI Readiness Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 

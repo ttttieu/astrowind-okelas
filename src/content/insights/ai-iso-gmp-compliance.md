@@ -1,37 +1,28 @@
 ﻿---
-title: 'AI và ISO/GMP: những gì doanh nghiệp compliance cần lưu ý'
-description: Doanh nghiệp có ISO/GMP không thể áp dụng AI một cách tùy tiện. Bài viết
-  phân tích những yêu cầu compliance đặc thù và cách tiếp cận AI phù hợp.
-publishDate: 2025-09-24 00:00:00+00:00
-coverImage: ~/assets/images/insights/ai-iso-gmp-compliance/icg-00-og-cover-vi.png
-ogImage: ~/assets/images/insights/ai-iso-gmp-compliance/icg-00-og-cover-vi.png
-coverImageAlt: 'Bên trái là AI dùng tùy tiện, chưa rõ phạm vi và kiểm soát; bên phải
-  là ba kiểm soát: phạm vi, audit trail, người duyệt.'
-category: ai
-tags:
-- AI Compliance
-- ISO
-- GMP
-- Quality Management
-translationId: ai-compliance-iso-gmp-manufacturing
-lang: vi
-contentType: Analysis
+title: "AI và ISO/GMP: những gì doanh nghiệp compliance cần lưu ý"
+description: "Doanh nghiệp có ISO/GMP không thể áp dụng AI một cách tùy tiện. Bài viết phân tích những yêu cầu compliance đặc thù và cách tiếp cận AI phù hợp."
+publishDate: 2025-09-24T00:00:00Z
+coverImage: '~/assets/images/insights/ai-iso-gmp-compliance/icg-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/ai-iso-gmp-compliance/icg-00-og-cover-vi.png'
+coverImageAlt: "Bên trái là AI dùng tùy tiện, chưa rõ phạm vi và kiểm soát; bên phải là ba kiểm soát: phạm vi, audit trail, người duyệt."
+category: 'ai'
+tags: ['AI Compliance', 'ISO', 'GMP', 'Quality Management']
+translationId: 'ai-compliance-iso-gmp-manufacturing'
+lang: 'vi'
+contentType: 'Analysis'
 funnelStage:
-- Consideration
-audience:
-- Quality Director
-- CEO
-- Compliance Officer
-primaryKeyword: AI và ISO GMP compliance
+  - Consideration
+audience: ['Quality Director', 'CEO', 'Compliance Officer']
+primaryKeyword: 'AI và ISO GMP compliance'
 secondaryKeywords:
-- AI trong sản xuất ISO
-- AI GMP
-- AI quality management
-- AI compliance
-- dùng AI trong nhà máy có ISO
-assessmentHref: /readiness/ai
-ctaPrimaryText: Làm AI Readiness Assessment
-ctaSubtitle: Xác định mức độ sẵn sàng AI của doanh nghiệp bạn
+  - "AI trong sản xuất ISO"
+  - "AI GMP"
+  - "AI quality management"
+  - "AI compliance"
+  - "dùng AI trong nhà máy có ISO"
+assessmentHref: '/readiness/ai'
+ctaPrimaryText: 'Làm AI Readiness Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 

@@ -1,32 +1,29 @@
 ﻿---
-title: 'ERP và con người: tại sao user adoption quyết định thành bại'
-description: Nhiều dự án ERP thất bại không phải vì phần mềm, mà vì nhân viên không
-  chịu dùng. Bài viết phân tích nguyên nhân và cách tiếp cận change management hiệu
-  quả. |
-publishDate: 2026-09-24 00:00:00+00:00
+title: "ERP và con người: tại sao user adoption quyết định thành bại"
+description: "Nhiều dự án ERP thất bại không phải vì phần mềm, mà vì nhân viên không chịu dùng. Bài viết phân tích nguyên nhân và cách tiếp cận change management hiệu quả. |"
+publishDate: 2026-09-24T00:00:00Z
 translationId: erp-user-adoption
 lang: vi
 category: erp
 contentType: Analysis
 funnelStage:
-- Understanding
+  - Understanding
 audience:
-- COO
-- HR Director
-- Operations Manager
-primaryKeyword: user adoption ERP |
+  - COO
+  - HR Director
+  - Operations Manager
+primaryKeyword: "user adoption ERP |"
 secondaryKeywords:
-- nhân viên không dùng ERP
-- thay đổi thói quen ERP
-- change management ERP
-- đào tạo ERP |
+  - "nhân viên không dùng ERP"
+  - "thay đổi thói quen ERP"
+  - "change management ERP"
+  - "đào tạo ERP |"
 assessmentHref: /readiness/erp
-ctaPrimaryText: Làm ERP Readiness Assessment
-ctaSubtitle: Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn
-coverImage: ~/assets/images/insights/erpu-00-og-cover-vi.png
-ogImage: ~/assets/images/insights/erpu-00-og-cover-vi.png
-coverImageAlt: Một vòng tròn công việc thực tế gửi nhiều luồng tới Excel, email và
-  tin nhắn, chỉ một luồng mảnh đi vào khối ERP.
+ctaPrimaryText: 'Làm ERP Readiness Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
+coverImage: '~/assets/images/insights/erpu-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/erpu-00-og-cover-vi.png'
+coverImageAlt: "Một vòng tròn công việc thực tế gửi nhiều luồng tới Excel, email và tin nhắn, chỉ một luồng mảnh đi vào khối ERP."
 draft: false
 ---
 

@@ -1,36 +1,34 @@
 ﻿---
-title: Tại sao dự án ERP không đạt mục tiêu — và vấn đề thực sự không nằm ở phần mềm
-description: Nhiều doanh nghiệp sản xuất đầu tư ERP nhưng không đạt mục tiêu. Bài
-  viết phân tích các nguyên nhân thực sự — và cách tự đánh giá trước khi bắt đầu.
-publishDate: 2026-09-24 00:00:00+00:00
+title: "Tại sao dự án ERP không đạt mục tiêu — và vấn đề thực sự không nằm ở phần mềm"
+description: "Nhiều doanh nghiệp sản xuất đầu tư ERP nhưng không đạt mục tiêu. Bài viết phân tích các nguyên nhân thực sự — và cách tự đánh giá trước khi bắt đầu."
+publishDate: 2026-09-24T00:00:00Z
 translationId: erp-pillar-why-fail
 lang: vi
 category: erp
 contentType: Pillar
 funnelStage:
-- Awareness
-- Understanding
-- Consideration
+  - Awareness
+  - Understanding
+  - Consideration
 audience:
-- CEO
-- General Director
-- COO
-- CFO
-primaryKeyword: tại sao dự án ERP thất bại
+  - CEO
+  - General Director
+  - COO
+  - CFO
+primaryKeyword: "tại sao dự án ERP thất bại"
 secondaryKeywords:
-- ERP thất bại nguyên nhân
-- triển khai ERP không thành công
-- rủi ro ERP
-- ERP implementation Việt Nam
-- doanh nghiệp sản xuất ERP
-- ERP readiness
+  - "ERP thất bại nguyên nhân"
+  - "triển khai ERP không thành công"
+  - "rủi ro ERP"
+  - "ERP implementation Việt Nam"
+  - "doanh nghiệp sản xuất ERP"
+  - "ERP readiness"
 assessmentHref: /readiness/erp
-ctaPrimaryText: Làm ERP Readiness Assessment
-ctaSubtitle: Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn
-coverImage: ~/assets/images/insights/erpf-00-og-cover-vi.png
-ogImage: ~/assets/images/insights/erpf-00-og-cover-vi.png
-coverImageAlt: 'Hai chuỗi đầu vào đi qua cùng một khối ERP: chuỗi có trật tự cho ra
-  kết quả có trật tự được nhân lên, chuỗi lộn xộn cho ra sự lộn xộn được nhân lên.'
+ctaPrimaryText: 'Làm ERP Readiness Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
+coverImage: '~/assets/images/insights/erpf-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/erpf-00-og-cover-vi.png'
+coverImageAlt: "Hai chuỗi đầu vào đi qua cùng một khối ERP: chuỗi có trật tự cho ra kết quả có trật tự được nhân lên, chuỗi lộn xộn cho ra sự lộn xộn được nhân lên."
 draft: false
 ---
 

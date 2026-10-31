@@ -1,32 +1,29 @@
 ﻿---
-title: 'Customization ERP: ranh giới giữa linh hoạt và rủi ro'
-description: Tùy chỉnh ERP có thể giải quyết vấn đề ngắn hạn nhưng tạo ra chi phí
-  và rủi ro lớn trong dài hạn. Bài viết phân tích ranh giới giữa customization hợp
-  lý và quá mức. |
-publishDate: 2026-09-24 00:00:00+00:00
+title: "Customization ERP: ranh giới giữa linh hoạt và rủi ro"
+description: "Tùy chỉnh ERP có thể giải quyết vấn đề ngắn hạn nhưng tạo ra chi phí và rủi ro lớn trong dài hạn. Bài viết phân tích ranh giới giữa customization hợp lý và quá mức. |"
+publishDate: 2026-09-24T00:00:00Z
 translationId: erp-customization-risks
 lang: vi
 category: erp
 contentType: Analysis
 funnelStage:
-- Understanding
+  - Understanding
 audience:
-- CIO
-- IT Director
-- Project Manager
-primaryKeyword: customization ERP rủi ro |
+  - CIO
+  - IT Director
+  - Project Manager
+primaryKeyword: "customization ERP rủi ro |"
 secondaryKeywords:
-- tùy chỉnh ERP
-- ERP customization vs configuration
-- chi phí bảo trì ERP
-- nâng cấp ERP khó khăn |
+  - "tùy chỉnh ERP"
+  - "ERP customization vs configuration"
+  - "chi phí bảo trì ERP"
+  - "nâng cấp ERP khó khăn |"
 assessmentHref: /readiness/erp
-ctaPrimaryText: Làm ERP Readiness Assessment
-ctaSubtitle: Xác định mức độ sẵn sàng triển khai ERP của doanh nghiệp bạn
-coverImage: ~/assets/images/insights/erpk-00-og-cover-vi.png
-ogImage: ~/assets/images/insights/erpk-00-og-cover-vi.png
-coverImageAlt: 'Khối ERP ở giữa: bên trái là các mục configuration nằm trong phạm
-  vi phần mềm, bên phải là các khối customization đứt nét thêm code và nợ kỹ thuật.'
+ctaPrimaryText: 'Làm ERP Readiness Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
+coverImage: '~/assets/images/insights/erpk-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/erpk-00-og-cover-vi.png'
+coverImageAlt: "Khối ERP ở giữa: bên trái là các mục configuration nằm trong phạm vi phần mềm, bên phải là các khối customization đứt nét thêm code và nợ kỹ thuật."
 draft: false
 ---
 

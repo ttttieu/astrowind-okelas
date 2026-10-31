@@ -1,37 +1,27 @@
 ﻿---
-title: Từ DMS đến Knowledge Management — sự khác biệt mà nhiều doanh nghiệp bỏ qua
-description: Lưu trữ tài liệu tốt không có nghĩa là quản lý tri thức tốt. Bài viết
-  phân tích sự khác biệt quan trọng giữa DMS và knowledge management.
-publishDate: 2025-09-24 00:00:00+00:00
-coverImage: ~/assets/images/insights/dkm-00-og-cover-vi.png
-ogImage: ~/assets/images/insights/dkm-00-og-cover-vi.png
-coverImageAlt: Một màn hình DMS lưu trữ tài liệu độc lập bên trái và một mạng lưới
-  tri thức kết nối ngữ cảnh, quy trình và con người bên phải.
-category: knowledge-management
-tags:
-- DMS
-- Knowledge Management
-- Quản Lý Tài Liệu
-- Vận Hành Kinh Doanh
-translationId: dms-knowledge-management-distinction
-lang: vi
-contentType: Analysis
+title: "Từ DMS đến Knowledge Management — sự khác biệt mà nhiều doanh nghiệp bỏ qua"
+description: "Lưu trữ tài liệu tốt không có nghĩa là quản lý tri thức tốt. Bài viết phân tích sự khác biệt quan trọng giữa DMS và knowledge management."
+publishDate: 2025-09-24T00:00:00Z
+coverImage: '~/assets/images/insights/dkm-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/dkm-00-og-cover-vi.png'
+coverImageAlt: "Một màn hình DMS lưu trữ tài liệu độc lập bên trái và một mạng lưới tri thức kết nối ngữ cảnh, quy trình và con người bên phải."
+category: 'knowledge-management'
+tags: ['DMS', 'Knowledge Management', 'Quản Lý Tài Liệu', 'Vận Hành Kinh Doanh']
+translationId: 'dms-knowledge-management-distinction'
+lang: 'vi'
+contentType: 'Analysis'
 funnelStage:
-- Consideration
-audience:
-- CEO
-- IT Manager
-- Operations Director
-- Quality Director
-primaryKeyword: DMS khác biệt knowledge management
+  - Consideration
+audience: ['CEO', 'IT Manager', 'Operations Director', 'Quality Director']
+primaryKeyword: 'DMS khác biệt knowledge management'
 secondaryKeywords:
-- hệ thống quản lý tài liệu
-- hệ thống quản lý tri thức
-- vượt ra ngoài lưu trữ tài liệu
-- knowledge graph doanh nghiệp
-assessmentHref: /readiness/knowledge
-ctaPrimaryText: Làm Knowledge Management Maturity Assessment
-ctaSubtitle: Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên
+  - "hệ thống quản lý tài liệu"
+  - "hệ thống quản lý tri thức"
+  - "vượt ra ngoài lưu trữ tài liệu"
+  - "knowledge graph doanh nghiệp"
+assessmentHref: '/readiness/knowledge'
+ctaPrimaryText: 'Làm Knowledge Management Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 

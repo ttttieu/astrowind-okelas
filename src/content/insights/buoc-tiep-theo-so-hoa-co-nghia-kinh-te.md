@@ -1,34 +1,25 @@
 ﻿---
-title: Bước tiếp theo có nghĩa kinh tế là gì — framework tự đánh giá cho CEO
-description: Không phải mọi đầu tư số hóa đều có giá trị như nhau ở mọi giai đoạn.
-  Bài viết cung cấp framework để CEO tự đánh giá bước tiếp theo phù hợp nhất với doanh
-  nghiệp.
-publishDate: 2025-09-24 00:00:00+00:00
-image: ~/assets/images/insights/next-step-digitalization.png
-category: business-operations
-tags:
-- Đầu tư số hóa
-- ROI
-- Chiến lược
-- Framework quyết định
-- Kinh doanh
-translationId: biz-ops-next-step-digitalization
-lang: vi
-contentType: Analysis
+title: "Bước tiếp theo có nghĩa kinh tế là gì — framework tự đánh giá cho CEO"
+description: "Không phải mọi đầu tư số hóa đều có giá trị như nhau ở mọi giai đoạn. Bài viết cung cấp framework để CEO tự đánh giá bước tiếp theo phù hợp nhất với doanh nghiệp."
+publishDate: 2025-09-24T00:00:00Z
+image: '~/assets/images/insights/next-step-digitalization.png'
+category: 'business-operations'
+tags: ['Đầu tư số hóa', 'ROI', 'Chiến lược', 'Framework quyết định', 'Kinh doanh']
+translationId: 'biz-ops-next-step-digitalization'
+lang: 'vi'
+contentType: 'Analysis'
 funnelStage:
-- Consideration
-audience:
-- CEO
-- COO
-primaryKeyword: đầu tư số hóa tiếp theo cho doanh nghiệp
+  - Consideration
+audience: ['CEO', 'COO']
+primaryKeyword: 'đầu tư số hóa tiếp theo cho doanh nghiệp'
 secondaryKeywords:
-- ưu tiên số hóa
-- bước tiếp theo chuyển đổi số
-- ROI số hóa SME
-- framework số hóa CEO
-assessmentHref: /readiness/digitalization
-ctaPrimaryText: Làm Digital Transformation Maturity Assessment
-ctaSubtitle: Hiểu rõ mức độ trưởng thành số hóa của bạn và bước tiếp theo có ý nghĩa
+  - "ưu tiên số hóa"
+  - "bước tiếp theo chuyển đổi số"
+  - "ROI số hóa SME"
+  - "framework số hóa CEO"
+assessmentHref: '/readiness/digitalization'
+ctaPrimaryText: 'Làm Digitalization Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 

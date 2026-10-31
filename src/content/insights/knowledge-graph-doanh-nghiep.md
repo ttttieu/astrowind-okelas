@@ -1,38 +1,27 @@
 ﻿---
-title: Knowledge Graph trong doanh nghiệp — không phải công nghệ, là cách tổ chức
-  tri thức
-description: Knowledge graph không chỉ là công nghệ — đây là cách tổ chức tri thức
-  có cấu trúc để có thể truy vấn, liên kết và dùng cho AI.
-publishDate: 2025-09-24 00:00:00+00:00
-coverImage: ~/assets/images/insights/kgb-00-og-cover-vi.png
-ogImage: ~/assets/images/insights/kgb-00-og-cover-vi.png
-coverImageAlt: Thư viện file với tài liệu độc lập bên trái và mạng lưới tri thức kết
-  nối thực thể, quan hệ bên phải.
-category: knowledge-management
-tags:
-- Knowledge Graph
-- Knowledge Management
-- Cấu Trúc Dữ Liệu
-- AI Ready
-translationId: knowledge-graph-business-structure
-lang: vi
-contentType: Analysis
+title: "Knowledge Graph trong doanh nghiệp — không phải công nghệ, là cách tổ chức tri thức"
+description: "Knowledge graph không chỉ là công nghệ — đây là cách tổ chức tri thức có cấu trúc để có thể truy vấn, liên kết và dùng cho AI."
+publishDate: 2025-09-24T00:00:00Z
+coverImage: '~/assets/images/insights/kgb-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/kgb-00-og-cover-vi.png'
+coverImageAlt: "Thư viện file với tài liệu độc lập bên trái và mạng lưới tri thức kết nối thực thể, quan hệ bên phải."
+category: 'knowledge-management'
+tags: ['Knowledge Graph', 'Knowledge Management', 'Cấu Trúc Dữ Liệu', 'AI Ready']
+translationId: 'knowledge-graph-business-structure'
+lang: 'vi'
+contentType: 'Analysis'
 funnelStage:
-- Consideration
-audience:
-- CEO
-- CIO
-- IT Manager
-- Operations Director
-primaryKeyword: knowledge graph doanh nghiệp
+  - Consideration
+audience: ['CEO', 'CIO', 'IT Manager', 'Operations Director']
+primaryKeyword: 'knowledge graph doanh nghiệp'
 secondaryKeywords:
-- knowledge graph là gì
-- tổ chức tri thức doanh nghiệp
-- knowledge graph AI
-- tri thức có cấu trúc
-assessmentHref: /readiness/knowledge
-ctaPrimaryText: Làm Knowledge Management Maturity Assessment
-ctaSubtitle: Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên
+  - "knowledge graph là gì"
+  - "tổ chức tri thức doanh nghiệp"
+  - "knowledge graph AI"
+  - "tri thức có cấu trúc"
+assessmentHref: '/readiness/knowledge'
+ctaPrimaryText: 'Làm Knowledge Management Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 

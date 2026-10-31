@@ -1,37 +1,27 @@
 ﻿---
-title: Tại sao Excel và email trở thành hệ thống vận hành ngầm
-description: Nhiều doanh nghiệp đã đầu tư phần mềm nhưng vẫn vận hành bằng Excel và
-  email. Đây không phải thói quen — đây là triệu chứng của vấn đề sâu hơn.
-publishDate: 2025-09-24 00:00:00+00:00
-coverImage: ~/assets/images/insights/xsi-00-og-cover-vi.png
-ogImage: ~/assets/images/insights/xsi-00-og-cover-vi.png
-coverImageAlt: Một màn hình hệ thống chính thức bên trái và nhiều bảng tính nét đứt
-  bên phải đại diện cho hệ thống vận hành ngầm.
-category: knowledge-management
-tags:
-- Shadow IT
-- Excel Systems
-- Vận Hành Hiệu Quả
-- Knowledge Management
-translationId: excel-shadow-it-systems
-lang: vi
-contentType: Analysis
+title: "Tại sao Excel và email trở thành hệ thống vận hành ngầm"
+description: "Nhiều doanh nghiệp đã đầu tư phần mềm nhưng vẫn vận hành bằng Excel và email. Đây không phải thói quen — đây là triệu chứng của vấn đề sâu hơn."
+publishDate: 2025-09-24T00:00:00Z
+coverImage: '~/assets/images/insights/xsi-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/xsi-00-og-cover-vi.png'
+coverImageAlt: "Một màn hình hệ thống chính thức bên trái và nhiều bảng tính nét đứt bên phải đại diện cho hệ thống vận hành ngầm."
+category: 'knowledge-management'
+tags: ['Shadow IT', 'Excel Systems', 'Vận Hành Hiệu Quả', 'Knowledge Management']
+translationId: 'excel-shadow-it-systems'
+lang: 'vi'
+contentType: 'Analysis'
 funnelStage:
-- Understanding
-audience:
-- CEO
-- COO
-- IT Manager
-- Operations Director
-primaryKeyword: shadow IT Excel email hệ thống
+  - Understanding
+audience: ['CEO', 'COO', 'IT Manager', 'Operations Director']
+primaryKeyword: 'shadow IT Excel email hệ thống'
 secondaryKeywords:
-- tại sao doanh nghiệp chạy Excel
-- shadow IT là gì
-- Excel làm hệ thống vận hành
-- rủi ro file Excel
-assessmentHref: /readiness/knowledge
-ctaPrimaryText: Làm Knowledge Management Maturity Assessment
-ctaSubtitle: Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên
+  - "tại sao doanh nghiệp chạy Excel"
+  - "shadow IT là gì"
+  - "Excel làm hệ thống vận hành"
+  - "rủi ro file Excel"
+assessmentHref: '/readiness/knowledge'
+ctaPrimaryText: 'Làm Knowledge Management Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 

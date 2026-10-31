@@ -1,36 +1,31 @@
 ﻿---
-title: 'Khi workflow biết context của tổ chức: tri thức được duy trì, quyết định vẫn
-  thuộc về người'
-description: Cùng một dữ liệu có thể mang nghĩa khác nhau tùy bối cảnh. Workflow 'biết
-  context' không có nghĩa là hệ thống tự nới rule, mà là đưa đúng bối cảnh do tổ chức
-  duy trì đến đúng rule hoặc đúng người. Bài này phân tích context gồm gì, đi vào
-  workflow bằng ba con đường nào, và doanh nghiệp sản xuất cần chuẩn bị gì trước.
-publishDate: 2026-10-06 00:00:00+00:00
+title: "Khi workflow biết context của tổ chức: tri thức được duy trì, quyết định vẫn thuộc về người"
+description: "Cùng một dữ liệu có thể mang nghĩa khác nhau tùy bối cảnh. Workflow 'biết context' không có nghĩa là hệ thống tự nới rule, mà là đưa đúng bối cảnh do tổ chức duy trì đến đúng rule hoặc đúng người. Bài này phân tích context gồm gì, đi vào workflow bằng ba con đường nào, và doanh nghiệp sản xuất cần chuẩn bị gì trước."
+publishDate: 2026-10-06T00:00:00Z
 translationId: article-5-16-context-aware-workflow
 lang: vi
 category: workflow
 contentType: Analysis
 funnelStage:
-- Understanding
-- Consideration
+  - Understanding
+  - Consideration
 audience:
-- COO
-- CIO
-- Operations Director
-primaryKeyword: workflow biết context tổ chức
+  - COO
+  - CIO
+  - Operations Director
+primaryKeyword: "workflow biết context tổ chức"
 secondaryKeywords:
-- tri thức tổ chức workflow
-- context trong workflow
-- bối cảnh quyết định workflow
-- knowledge management workflow
-- Ba Nonaka workflow
+  - "tri thức tổ chức workflow"
+  - "context trong workflow"
+  - "bối cảnh quyết định workflow"
+  - "knowledge management workflow"
+  - "Ba Nonaka workflow"
 assessmentHref: /readiness/workflow
-coverImage: ~/assets/images/insights/workflow-biet-context-to-chuc/wfb-00-og-cover-vi.png
-ogImage: ~/assets/images/insights/workflow-biet-context-to-chuc/wfb-00-og-cover-vi.png
-coverImageAlt: 'Rule đơn thuần so với workflow có bối cảnh: cùng dữ liệu giao dịch,
-  ý nghĩa khác nhau tùy bối cảnh tổ chức duy trì.'
-ctaPrimaryText: Làm Workflow Readiness Assessment
-ctaSubtitle: Workflow của bạn đang vận hành như thế nào?
+coverImage: '~/assets/images/insights/workflow-biet-context-to-chuc/wfb-00-og-cover-vi.png'
+ogImage: '~/assets/images/insights/workflow-biet-context-to-chuc/wfb-00-og-cover-vi.png'
+coverImageAlt: "Rule đơn thuần so với workflow có bối cảnh: cùng dữ liệu giao dịch, ý nghĩa khác nhau tùy bối cảnh tổ chức duy trì."
+ctaPrimaryText: 'Làm Workflow Readiness Assessment'
+ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
 draft: false
 ---
 
