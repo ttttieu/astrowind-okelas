@@ -128,7 +128,7 @@ Với doanh nghiệp, câu hỏi đáng đặt ra trước khi đầu tư thêm 
 **Bước tiếp theo**
 
 - [Làm bài đánh giá AI Readiness](/readiness/ai) để xem doanh nghiệp đang mạnh và yếu ở tầng nào.
-- Đọc tiếp: [Dữ liệu có nhưng không có context — tại sao AI không thể dùng?](/insights/du-lieu-khong-co-context-ai)
+- Đọc tiếp: [Dữ liệu có nhưng không có context — tại sao AI không thể dùng?](/insights/ai/du-lieu-khong-co-context-ai)
 
 ---
 
