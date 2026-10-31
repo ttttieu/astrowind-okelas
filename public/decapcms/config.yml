@@ -11,24 +11,93 @@ media_folder: "public/uploads"
 public_folder: "/uploads"
 
 collections:
-  # 1. Insights & Knowledge Hub (Gồm toàn bộ danh mục SEO chìm)
+  # 1. Insights & Knowledge Hub
   - name: "insights"
     label: "Insights & Knowledge Hub"
     folder: "src/content/insights"
     create: true
-    i18n: true
-    slug: "{{locale}}/{{slug}}"
+    i18n: false
     fields:
-      - { label: "Title", name: "title", widget: "string", i18n: true }
-      - { label: "Description", name: "description", widget: "text", i18n: true }
-      - label: "Pillar / Category"
+      # Required fields
+      - { label: "Title", name: "title", widget: "string", required: true }
+      - label: "Language"
+        name: "lang"
+        widget: "select"
+        options: [{ label: "Vietnamese", value: "vi" }, { label: "English", value: "en" }]
+        required: true
+      - { label: "Translation ID", name: "translationId", widget: "string", required: true, help: "Shared ID between VI and EN versions of same article" }
+      - label: "Category"
         name: "category"
         widget: "select"
-        options: ["operations", "erp", "ai", "knowledge", "compliance", "industry"]
-        i18n: duplicate
-      - { label: "Publish Date", name: "publishDate", widget: "datetime", i18n: duplicate }
-      - { label: "Author", name: "author", widget: "string", default: "OKELAS Advisory", i18n: duplicate }
-      - { label: "Content", name: "body", widget: "markdown", i18n: true }
+        options:
+          - { label: "Business Operations", value: "business-operations" }
+          - { label: "Knowledge Management", value: "knowledge-management" }
+          - { label: "ERP", value: "erp" }
+          - { label: "AI", value: "ai" }
+          - { label: "Compliance", value: "compliance" }
+          - { label: "Workflow", value: "workflow" }
+          - { label: "Trending", value: "trending" }
+        required: true
+      - label: "Content Type"
+        name: "contentType"
+        widget: "select"
+        options:
+          - { label: "Opening", value: "Opening" }
+          - { label: "Analysis", value: "Analysis" }
+          - { label: "Case & Evidence", value: "Case & Evidence" }
+          - { label: "Pillar", value: "Pillar" }
+        required: true
+
+      # Optional fields - Content
+      - { label: "Description", name: "description", widget: "text", required: false }
+      - { label: "Content", name: "body", widget: "markdown", required: false }
+
+      # Optional fields - Publishing
+      - { label: "Publish Date", name: "publishDate", widget: "datetime", required: false }
+      - { label: "Updated Date", name: "updatedDate", widget: "datetime", required: false }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false, required: false }
+
+      # Optional fields - Images
+      - { label: "Main Image", name: "image", widget: "image", required: false }
+      - { label: "Cover Image", name: "coverImage", widget: "image", required: false }
+      - { label: "OG Image", name: "ogImage", widget: "image", required: false }
+      - { label: "Cover Image Alt Text", name: "coverImageAlt", widget: "string", required: false }
+
+      # Optional fields - SEO & Keywords
+      - { label: "Primary Keyword", name: "primaryKeyword", widget: "string", required: false }
+      - label: "Secondary Keywords"
+        name: "secondaryKeywords"
+        widget: "list"
+        field: { label: "Keyword", name: "keyword", widget: "string" }
+        required: false
+
+      # Optional fields - Funnel
+      - label: "Funnel Stage"
+        name: "funnelStage"
+        widget: "select"
+        multiple: true
+        options:
+          - { label: "Awareness", value: "Awareness" }
+          - { label: "Understanding", value: "Understanding" }
+          - { label: "Consideration", value: "Consideration" }
+        required: false
+
+      # Optional fields - Audience & CTA
+      - label: "Target Audience"
+        name: "audience"
+        widget: "list"
+        field: { label: "Role/Title", name: "role", widget: "string" }
+        required: false
+      - { label: "Assessment Link", name: "assessmentHref", widget: "string", required: false, hint: "e.g. /readiness/erp or /en/readiness/erp" }
+      - { label: "CTA Primary Text", name: "ctaPrimaryText", widget: "string", required: false }
+      - { label: "CTA Subtitle", name: "ctaSubtitle", widget: "string", required: false }
+
+      # Optional fields - Linking
+      - label: "Internal Links"
+        name: "internalLinks"
+        widget: "list"
+        field: { label: "Link", name: "link", widget: "string" }
+        required: false
 
   # 2. Readiness Assessments (Cấu hình cho các bài chẩn đoán)
   - name: "assessments"
