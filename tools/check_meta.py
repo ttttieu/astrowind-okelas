@@ -248,11 +248,21 @@ def check_file(path, args, repo):
 
     links = LINK_RE.findall(body)
     urls = [u for _, u in links]
-    has_q = bool(re.search(r"^\*\*[^*\n]{8,}\?\*\*\s*$", body, re.M))
     ready_links = [u for u in urls if READINESS_RE.match(u)]
-    if has_q:
-        if ah and ah not in urls:
-            add("FAIL", "CTA-BODY-LINK", f"CTA trong bài có câu hỏi nhưng không có link tới assessmentHref «{ah}»")
+    # CTA trong bài = câu hỏi in đậm kết thúc bằng "?" nằm ở ~25% cuối bài, KHÔNG phải mục đánh số kiểu "**1. …?**"
+    blines = body.split("\n")
+    cut = int(len(blines) * 0.75)
+    cta_q = [i for i, l in enumerate(blines)
+             if i >= cut and re.match(r"^\*\*(?!\d+[.)]\s)[^*\n]{8,}\?\*\*\s*$", l)]
+    for i in cta_q[-1:]:
+        near = "\n".join(blines[i + 1:i + 8])
+        near_urls = [u for _, u in LINK_RE.findall(near)]
+        if ah and ah in near_urls:
+            pass
+        elif any(u.startswith(("/insights/", "/en/insights/")) for u in near_urls):
+            add("WARN", "CTA-BODY-ARTICLE", "CTA trong bài trỏ tới bài viết, không tới assessment (hợp lệ; khối 'Next step' của layout vẫn dẫn tới assessment)")
+        elif ah:
+            add("FAIL", "CTA-BODY-LINK", f"CTA trong bài có câu hỏi nhưng không có link ngay sau câu hỏi (assessmentHref «{ah}» hoặc bài viết)")
     for u in ready_links:
         if ah and u != ah and READINESS_RE.match(u):
             add("WARN", "CTA-BODY-MISMATCH", f"link assessment trong bài «{u}» khác assessmentHref «{ah}»")
