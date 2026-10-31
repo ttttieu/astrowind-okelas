@@ -52,6 +52,11 @@ export interface MetaData {
 
   openGraph?: MetaDataOpenGraph;
   twitter?: MetaDataTwitter;
+
+  // Image fields for insights articles
+  ogImage?: string;
+  coverImageAlt?: string;
+  lang?: 'en' | 'vi';
 }
 
 export interface MetaDataRobots {

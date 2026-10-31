@@ -35,11 +35,14 @@ const localeMap: Record<string, string> = {
   en: 'en_US',
 };
 
+// Use og Image if provided, otherwise use default okelas-diagram
+const ogImageUrl = ogImage ? { url: ogImage } : undefined;
+
 const mergedOg: MetaDataOpenGraph = merge(
   {
     url: canonical,
     siteName: SITE?.name,
-    images: ogImage ? [{ url: ogImage }] : [],
+    images: ogImageUrl ? [ogImageUrl] : [],
     locale: lang ? localeMap[lang] : I18N?.language || 'en',
     type: 'website',
   },
