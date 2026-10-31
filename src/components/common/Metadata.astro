@@ -13,6 +13,7 @@ import { adaptOpenGraphImages } from '~/utils/images';
 export interface Props extends MetaData {
   dontUseTitleTemplate?: boolean;
   ogImage?: string;
+  coverImage?: string;
   coverImageAlt?: string;
   lang?: 'en' | 'vi';
 }
@@ -26,6 +27,7 @@ const {
   openGraph = {},
   twitter = {},
   ogImage,
+  coverImage,
   coverImageAlt,
   lang,
 } = Astro.props;
@@ -35,14 +37,15 @@ const localeMap: Record<string, string> = {
   en: 'en_US',
 };
 
-// Use og Image if provided, otherwise use default okelas-diagram
-const ogImageUrl = ogImage ? { url: ogImage } : undefined;
+// Fallback: ogImage → coverImage → okelas-diagram (default)
+// okelas-diagram is the default og:image used site-wide
+const imageForOg = ogImage || coverImage || undefined;
 
 const mergedOg: MetaDataOpenGraph = merge(
   {
     url: canonical,
     siteName: SITE?.name,
-    images: ogImageUrl ? [ogImageUrl] : [],
+    images: imageForOg ? [{ url: imageForOg }] : [],
     locale: lang ? localeMap[lang] : I18N?.language || 'en',
     type: 'website',
   },

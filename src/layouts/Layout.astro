@@ -25,6 +25,10 @@ export interface Props {
 }
 
 const { metadata = {}, translationId } = Astro.props;
+const ogImage = (metadata as any)?.ogImage;
+const coverImage = (metadata as any)?.coverImage;
+const coverImageAlt = (metadata as any)?.coverImageAlt;
+const lang = (metadata as any)?.lang;
 const { language, textDirection } = I18N;
 ---
 
@@ -36,7 +40,7 @@ const { language, textDirection } = I18N;
     <Font cssVariable="--font-inter" preload />
     <CustomStyles />
     <ApplyColorMode />
-    <Metadata {...metadata} />
+    <Metadata {...metadata} ogImage={ogImage} coverImage={coverImage} coverImageAlt={coverImageAlt} lang={lang} />
     <SiteVerification />
     <Analytics />
 

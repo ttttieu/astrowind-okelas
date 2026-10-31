@@ -55,6 +55,7 @@ export interface MetaData {
 
   // Image fields for insights articles
   ogImage?: string;
+  coverImage?: string;
   coverImageAlt?: string;
   lang?: 'en' | 'vi';
 }
