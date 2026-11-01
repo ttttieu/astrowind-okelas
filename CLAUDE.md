@@ -1,235 +1,106 @@
-# Claude Code Configuration
 # OKELAS Website — Claude Code CLI Guidelines
 
-## 1. Project Overview & Brand Positioning
-- **Brand**: OKELAS (Organization Knowledge Operating System)
-- **Positioning**: High-performance B2B knowledge management & operation system focusing on Process Standardization, Progressive eQMS, ERP Readiness, and AI Readiness.
-- **Target Audience**: C-Level executives, Operations Directors, Quality Directors (Manufacturing & SMEs).
+Last verified against `main` on 2026-11-01. See [AGENTS.md](./AGENTS.md) for the generic AstroWind template notes (components, Tailwind v4, config.yaml) and `.agents/skills/` for task-specific skills. This file describes what is **specific to OKELAS** and takes precedence where the two differ.
 
-## 2. Tech Stack & Commands
-- **Framework**: Astro (AstroWind starter theme)
-- **Styling**: Tailwind CSS
-- **Language**: TypeScript
-- **CMS / Content**: Markdown / MDX via Content Collections
-- **Commands**:
-  - Dev Server: `npm run dev`
-  - Production Build: `npm run build`
-  - Type & Syntax Check: `npm run astro check`
+## 1. Project Overview
 
-## 3. Protected Files & Directories (DO NOT OVERWRITE)
-- **DO NOT modify or overwrite stable production pages** unless explicitly instructed in the prompt.
-- **DO NOT delete or rewrite existing articles** inside `src/content/post/vi/` or `src/content/post/en/`.
-- **Core Layout Protection**: Preserve `src/layouts/PageLayout.astro` and `src/layouts/Layout.astro`.
+- **Brand**: OKELAS (Organization Knowledge Operating System).
+- **Positioning**: B2B knowledge-management and operations system for Vietnamese manufacturing SMEs: process standardization, progressive eQMS, ERP readiness, AI readiness.
+- **Audience**: C-level, operations and quality directors.
+- **Site**: https://www.okelas.com — static Astro site deployed on Vercel (`vercel.json`), bilingual Vietnamese (default, no prefix) and English (`/en`).
+- **Stack**: Astro 7, Tailwind CSS v4, TypeScript, MDX, Sharp. Node >= 22. Decap CMS (`public/decapcms/`) edits articles through git.
+- `api/` (assessment backend) and the root `*.py`, `*.log`, `questions_*.json` files belong to the assessment tooling. Do not touch them unless the task is about assessments.
 
-## 4. UI/UX & Design System
-- **Components**: Strictly reuse existing AstroWind UI widgets (`Hero`, `Features`, `Content`, `CallToAction`, `Steps`, `Stats`).
-- **Color Palette**: Enterprise B2B theme — Navy Blue (Primary), Slate Gray, Tech Accent Blue.
-- **Header**: Contains OKELAS text logo, main navigation, and language picker (`VI / EN`). Announcement bar is disabled.
+## 2. Commands
 
-## 5. Bilingual Architecture & Content Guidelines (Insights / Blog)
-- **Independent Bilingual Files**: Each article MUST be an independent `.md` or `.mdx` file located in its designated language folder:
-  - Vietnamese: `src/content/post/vi/`
-  - English: `src/content/post/en/`
-- **Translation Slug Linkage**:
-  - Articles covering the same topic in both languages MUST link to each other using the `translationSlug` field in the frontmatter.
-  - Example (VI): `translationSlug: 'process-standardization-eqms'`
-  - Example (EN): `translationSlug: 'chuan-hoa-quy-trinh-eqms'`
-- **Frontmatter Schema Requirements**:
-  All blog/insight markdown files must strictly comply with `src/content/config.ts`:
-  ```yaml
-  ---
-  title: 'Tên bài viết chuẩn SEO (dưới 60 ký tự)'
-  excerpt: 'Mô tả ngắn gọn thu hút C-Level (150-160 ký tự)'
-  publishDate: 2026-09-24T00:00:00Z
-  image: '~/assets/images/sample.png'
-  category: 'eQMS' # Choose from: Process, eQMS, ERP Readiness, AI Readiness, Knowledge
-  tags: ['Process', 'Quality', 'ERP']
-  translationSlug: 'corresponding-article-slug'
-  ---
-  SEO & Tag Policy:
+| Command | Purpose |
+| --- | --- |
+| `npm run dev` | Dev server at localhost:4321 |
+| `npm run build` | Production build to `dist/` (expect 292 pages at the time of writing) |
+| `npm run check` | `astro check` + ESLint + Prettier |
+| `npm ci` | Clean install. The lockfile must stay in sync with `package.json`; if `npm ci` fails, fix the lockfile in its own PR. |
 
-File name & slug MUST be in lowercase kebab-case without Vietnamese accents (e.g., chuan-hoa-quy-trinh-eqms.md).
+## 3. Protected Files (do not modify unless the prompt says so)
 
-Keep tag pages set to robots: index: false in site config to avoid thin-content issues.
+- Infrastructure: `astro.config.ts`, `vercel.json`, `package.json`, `package-lock.json`, `src/layouts/*`, `src/components/CustomStyles.astro`, `src/content.config.ts`, `vendor/`.
+- Approved article text. Follow `docs/05_OKELAS_Article_Editing_Guard.md`: do not rewrite or shorten an approved article; only insert links, images with a short caption, and fill the EDITABLE blocks.
+- Stable pages (`src/pages/**`) unless explicitly requested.
 
-## 6. Pillar Article Format Standard
-All pillar articles in `src/content/insights/` MUST follow this strict format:
+## 4. Content Architecture (Insights)
 
-**File Structure:**
-```
----
-[frontmatter only - no metadata tables]
----
+- **Single collection**: `insights`, defined in `src/content.config.ts` (the active schema). `src/content/config.ts` is a legacy file that Astro ignores; do not edit it or rely on it.
+- **One flat folder**: `src/content/insights/<slug>.md`. There are no `vi/` or `en/` subfolders, and no `src/content/post/`. The file name is the article id and the URL slug: lowercase kebab-case, no accents. VI and EN versions are **separate files with different slugs**.
+- **Pairing**: both versions share the same `translationId` and differ in `lang` (`vi` | `en`).
+- **Routes**:
+  - Vietnamese: `/insights/<category>/<slug>`
+  - English: `/en/insights/<category>/<slug>`
+  - Category hubs: `/insights/<category>` and `/en/insights/<category>` (files in `src/pages/insights/*.astro` and `src/pages/en/insights/*.astro`). Shared helper: `src/lib/insights.ts`.
+- **Categories** (enum): `business-operations`, `knowledge-management`, `erp`, `ai`, `compliance`, `workflow`, `trending`. Current size: 218 articles = 109 VI + 109 EN pairs.
+- **Frontmatter schema** (authoritative: `src/content.config.ts`):
 
----
-
-> **Tóm tắt cho CEO** / **Executive Summary**
->
-> - Bullet point 1
-> - Bullet point 2
-> - Bullet point 3
-
----
-
-## Main Section (H2)
-
-Content starts here with H2/H3 hierarchy only.
-
-### Subsection (H3)
-
-No H1 headings in body — title comes from frontmatter only.
-```
-
-**Common Issues to Avoid:**
-1. ❌ H2 summary sections (`## Tóm tắt`) — must be blockquote format (`> **Tóm tắt**`)
-2. ❌ Duplicate H1 headings in body matching frontmatter title
-3. ❌ Metadata/information tables (Thông tin chung, SEO sections) — remove before publishing
-4. ❌ Missing summary sections — all pillars must have one
-5. ❌ Character encoding errors (mojibake like `â€"`) — use proper em-dash `—`
-6. ❌ Missing article content — must include full body text after summary
-7. ❌ Inconsistent summary blockquote style — always use `> **Title**` format
-
-**Frontmatter Schema for Pillars:**
 ```yaml
 ---
-title: "Article Title with Proper — Em-Dash"
-description: "Clear description text"
-publishDate: 2026-09-24T00:00:00Z
-translationId: pillar-name-identifier
-lang: en / vi
-category: [business-operations | ai | erp | compliance | knowledge-management]
-contentType: Pillar
-funnelStage:
-  - Awareness
-  - Understanding
-  - Consideration
-audience: [CEO, COO, CIO, etc]
-primaryKeyword: "main keyword"
-secondaryKeywords: ["keyword1", "keyword2"]
-assessmentHref: /readiness/[assessment-type]
+title: "Title (no trailing — OKELAS; the site appends it)"
+description: "Meta description, <= 180 characters"
+publishDate: 2026-10-24T07:00:00Z
+image: '~/assets/images/insights/<slug>/<file>.png'       # cover
+coverImage: '~/assets/images/insights/<slug>/<file>.png'  # shown on list pages
+ogImage: '~/assets/images/insights/<slug>/<file>.png'     # og:image / social share
+coverImageAlt: "Alt text for the cover"
+translationId: shared-id-for-vi-and-en
+lang: vi            # or en
+category: trending  # one of the 7 enum values
+contentType: Opening   # Opening | Analysis | Case & Evidence | Pillar
+funnelStage: [Awareness]   # Awareness | Understanding | Consideration
+audience: [CEO, COO]
+primaryKeyword: "..."
+secondaryKeywords: [..., ...]
+ctaPrimaryText: "..."
+ctaSubtitle: "..."
+assessmentHref: /readiness/knowledge     # EN files: /en/readiness/...
 draft: false
 ---
 ```
 
-**Routing & Localization:**
-- Vietnamese pillars: `/insights/{category}/{vi-slug}` (bare route)
-- English pillars: `/en/insights/{category}/{en-slug}` (prefixed route)
-- Bilingual linkage uses `translationId` field for language switcher (not just URL prefix toggling)
+- The body has **no `# H1`** (the layout renders the title). Start with prose or the summary blockquote (`> **Tóm tắt cho CEO**` / `> **Executive summary**`).
+- **Validation**: `python tools/check_meta.py src/content/insights/<file>.md --repo .` checks frontmatter, CTA, links, images and the VI/EN pair against the live schema. Run it for every article you touch.
 
-## 7. Language-Aware Routing & Navigation Principles
+## 5. Images
 
-### Core Principle
-**All navigation (logo, menu links, buttons) MUST respect the current language and maintain language context during navigation.**
+- **Where**: article images live in `src/assets/images/insights/<slug>/` (Astro optimizes and hashes them). Legacy images may still be under `public/assets/images/insights/`; they work but are not optimized. Put new images in `src/assets/`.
+- **Reference**: `![alt](~/assets/images/insights/<slug>/<file>)` in the body, and `~/assets/...` in frontmatter.
+- **Social cover**: every article needs `image`, `coverImage` and `ogImage` (1200x630 PNG). If `ogImage`/`coverImage` is missing the site falls back to the default hero image, which is wrong for sharing. Trending covers are named `tr-NN-og-cover-<lang>.png`.
+- **Body figures**: SVG, `viewBox` 1200 x H, `role="img"` + `aria-label`, Inter font, brand palette, one message per figure, text >= 12 px. Always write the alt text. Do not put unsourced numbers on figures. Label illustrative examples as such.
+- **Light/dark**: the theme is the site toggle (`html.dark`), not the OS.
+  - A markdown image that points to `...-dark.svg|png` is rendered as a light + dark pair (`src/utils/dark-image-remark.ts`, CSS in `CustomStyles.astro`). Reference only the `-dark` file; the light twin must exist next to it.
+  - SVGs that use `@media (prefers-color-scheme: dark)` follow the toggle through `html.dark img { color-scheme: dark }`.
+  - Do not reintroduce client-side `src` swapping.
+- **Generators** (reproducible, spec-driven):
+  - `tools/covers/` — trending covers. `node tools/covers/gen_covers.js`, then `python3 tools/covers/apply_frontmatter.py`.
+  - `tools/figures/` — trending body figures. `node tools/figures/gen_figures.js`, then `python3 tools/figures/insert_figures.py` (idempotent).
+  - They need `npm i --no-save @fontsource-variable/inter playwright` in **one** command (separate `--no-save` installs prune each other).
 
-### URL Language Detection
-- **Language indicator**: URL pathname prefix
-  - English: URL starts with `/en` → English version
-  - Vietnamese: URL does not start with `/en` → Vietnamese version
-  - Example: `/en/insights/erp` (English) vs. `/insights/erp` (Vietnamese)
+## 6. Bilingual and Link Rules
 
-### Navigation Rules
+- **Vietnamese is the primary version.** The English version is adapted (terms, SEO keywords, headings, CTA), not translated sentence by sentence.
+- **Every internal link in English content must start with `/en`** (body, `assessmentHref`, CTAs). Never link an English article to a Vietnamese path.
+- Language is detected from the URL (`/en...` = English). Header, logo and menu links must keep the current language (`src/components/widgets/Header.astro`); the switcher uses `translationId` (`src/components/common/LanguageSwitcher.astro`).
+- English-only pages (Why, Solutions, Readiness, About) need an alias under `src/pages/en/` that mirrors the Vietnamese page.
 
-#### Logo Link
-- **Vietnamese version (/)**: Logo links to `/`
-- **English version (/en)**: Logo links to `/en`
-- **Rule**: Always preserve current language when clicking logo
+## 7. Content Standards
 
-#### Menu Links
-- **Server-side logic** (`src/components/widgets/Header.astro`):
-  1. Detect current language from URL pathname: `const currentLanguage = currentPath.startsWith('/en') ? 'en' : 'vi';`
-  2. Transform all menu links to include `/en` prefix if on English version
-  3. Use helper function: `const addLanguagePrefix = (href: string) => currentLanguage === 'en' && !href.startsWith('/en') ? `/en${href}` : href;`
-  4. Apply to ALL menu sections: Why OKELAS, Solutions, Readiness, Insights, About
+Authoritative project documents live in the claude.ai Project "OKELAS content": `01_OKELAS_Content_System_Context`, `02_..._Production_Standard`, `03_..._Pillar_Map`, `04_..._Image_Production_Standard`, `05_..._Article_Editing_Guard`. Only `05` is mirrored in the repo (`docs/05_OKELAS_Article_Editing_Guard.md`). Follow them; if a prompt cites one you cannot read, ask for it instead of guessing.
 
-#### Language Switcher Button
-- **Display logic**: 
-  - On Vietnamese pages: show "EN" (switch to English option)
-  - On English pages: show "VI" (switch to Vietnamese option)
-- **State update** (`src/components/common/LanguageSwitcher.astro`):
-  - Must listen to `astro:page-load` event for client-side navigation (header persists across view transitions)
-  - Update button text: `updateButtonState()` method
-  - Detect language from `window.location.pathname`
+- Do not invent statistics, customer cases, ROI or product capabilities. Mark illustrative examples as illustrative. Name the source and period for important figures.
+- Tool disclaimer for OKELAS-coined frameworks: "discussion framework proposed by OKELAS, not a certified methodology".
+- ISO/GMP/compliance topics carry: "governance perspective, not compliance or legal advice".
 
-### Page Structure Requirements
+## 8. Working Rules for the CLI
 
-#### For English-only Pages (Why OKELAS, Solutions, Readiness, etc.)
-- **Create alias pages** at `/en/{section}/` that mirror Vietnamese versions
-- Example structure:
-  - Vietnamese: `src/pages/why/the-problem.astro`
-  - English alias: `src/pages/en/why/the-problem.astro` (copy of Vietnamese file)
-- **Why**: Enables language-aware routing to work correctly without duplication or conditional rendering
-
-#### For Bilingual Content (Insights)
-- Maintain separate source files:
-  - `src/content/insights/` with `lang: vi` or `lang: en` frontmatter
-- Routing handled automatically:
-  - Vietnamese: `/insights/{category}/{slug}`
-  - English: `/en/insights/{category}/{slug}`
-
-### Link Policy for English Articles
-
-**CRITICAL RULE:** All internal links in English-language article content MUST include `/en` prefix.
-
-#### Apply to:
-- **Markdown body content** — links in article text
-- **Frontmatter fields** — `assessmentHref`, CTA links, cluster links
-- **Page content components** — links in Content widgets, CallToAction blocks, self-assessment blocks
-
-#### Examples of correct link format:
-
-**❌ Incorrect (missing /en):**
-```markdown
-[Assessment](/readiness/erp)
-[Solution](/solutions/erp-readiness)
-[Why article](/why/why-before-erp)
-```
-
-**✅ Correct (with /en):**
-```markdown
-[Assessment](/en/readiness/erp)
-[Solution](/en/solutions/erp-readiness)  
-[Why article](/en/why/why-before-erp)
-```
-
-#### Frontmatter examples:
-```yaml
----
-lang: en
-assessmentHref: /en/readiness/erp  # ← Always include /en
----
-```
-
-#### Why this rule exists:
-- Layout components automatically add `/en` prefix to dynamically-generated links (menu, footer, CTA buttons)
-- Article content links are rendered as-is from markdown/frontmatter — no automatic transformation
-- Without `/en` prefix in article links, users are redirected from English (`/en/insights/...`) to Vietnamese (`/insights/...`)
-- This breaks language consistency and user experience
-
-#### When to break this rule:
-- **Never.** Article links must ALWAYS have `/en` prefix for English content
-- If linking to external sites or root paths that are language-agnostic, use full URLs instead
-
-### Verification Checklist
-When implementing language-aware features:
-- [ ] Logo link tested on both `/` and `/en` versions
-- [ ] All menu links tested from both language versions
-- [ ] Language switcher button displays correct text (EN ↔ VI)
-- [ ] Clicking logo from `/en` stays on `/en` (not revert to `/`)
-- [ ] Clicking menu items from `/en` stays in `/en` prefix
-- [ ] Language switcher updates after page navigation
-- [ ] New English pages exist at `/en/{section}/` if creating English-only sections
-- [ ] **All links in English article content have `/en` prefix** (markdown body, frontmatter, CTA links)
-- [ ] For English-language `.md` files: verify `lang: en` and all internal links use `/en/*` format
-- [ ] Test article page on `/en/insights/{category}/{slug}` — verify all links maintain `/en` context
-- [ ] Build completes without errors: `npm run build`
-
-## 8. Safety & Verification Workflow
-Before finalizing any task, Claude Code CLI must perform the following:
-
-- Validate all new frontmatter schemas against `src/content/config.ts`
-- Run `npm run astro check` and `npm run build` to confirm zero build or TypeScript errors
-- Ensure no unauthorized files were modified via `git status`
-- For language-aware features: verify routing works on both `/` and `/en` versions
-- Test build with `npm run build` after any navigation/routing changes
-
-See [AGENTS.md](./AGENTS.md) for all project documentation and AI agent instructions.
+- Work on a new branch from `origin/main`; never commit to `main`. Open a PR and **do not merge**.
+- Change only the files the task names. No drive-by edits to infrastructure, layouts, config or other articles.
+- Do not invent alt text, captions or frontmatter values; use the supplied spec.
+- Report **raw command output** (not "done" or a checkmark). If a command fails, stop and paste the error.
+- Before finishing: `git status --short` shows only the intended files; `npm ci` and `npm run build` succeed; run `tools/check_meta.py` on touched articles.
+- Built HTML is minified (astro-compress). Meta tags can be unquoted and attribute order can differ, so match with tolerant regexes (e.g. `grep -oE '<meta [^>]*og:image"[^>]*>'`).
+- Commit messages: short imperative, no claims that were not verified.
