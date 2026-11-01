@@ -16,6 +16,7 @@ import type { AstroIntegration } from 'astro';
 import astrowind from './vendor/integration';
 
 import { readingTimeRemarkPlugin, responsiveTablesRehypePlugin } from './src/utils/frontmatter';
+import { darkImageRemarkPlugin } from './src/utils/dark-image-remark';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -129,7 +130,7 @@ export default defineConfig({
 
   markdown: {
     processor: unified({
-      remarkPlugins: [readingTimeRemarkPlugin],
+      remarkPlugins: [readingTimeRemarkPlugin, darkImageRemarkPlugin],
       rehypePlugins: [responsiveTablesRehypePlugin],
     }),
     shikiConfig: {

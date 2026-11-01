@@ -53,4 +53,23 @@
       color: snow;
     }
   }
+
+  /* Images follow the site theme (html.dark), not the OS setting.
+     1) "-dark" twins: markdown renders a light + dark pair (see src/utils/dark-image-remark.ts).
+     2) SVGs using @media (prefers-color-scheme) inside an <img> take the color-scheme of the element. */
+  .img-dark {
+    display: none;
+  }
+  html.dark .img-light {
+    display: none;
+  }
+  html.dark .img-dark {
+    display: revert;
+  }
+  html.dark img {
+    color-scheme: dark;
+  }
+  html:not(.dark) img {
+    color-scheme: light;
+  }
 </style>
