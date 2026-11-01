@@ -1793,6 +1793,19 @@
         "category": "trending",
         "url": "/en/insights/trending/right-data-wrong-conclusion"
       }
+    },
+    {
+      "translationId": "laptop-access-blast-radius",
+      "vi": {
+        "slug": "mot-chiec-laptop-pham-vi-anh-huong",
+        "category": "trending",
+        "url": "/insights/trending/mot-chiec-laptop-pham-vi-anh-huong"
+      },
+      "en": {
+        "slug": "one-laptop-blast-radius",
+        "category": "trending",
+        "url": "/en/insights/trending/one-laptop-blast-radius"
+      }
     }
   ]
 }
