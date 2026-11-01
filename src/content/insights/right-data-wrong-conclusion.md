@@ -42,6 +42,10 @@ Inside companies, the same errors exist. They are just harder to see because the
 
 It helps to separate two layers. The five errors below are well established in survey methodology. Reading them as five failure points in a chain that creates knowledge is **OKELAS's analysis**, not a conclusion from the academic literature.
 
+![Table of five survey errors, each with how it appears in the children’s survey and a matching example in a company.](~/assets/images/insights/right-data-wrong-conclusion/tr09-01-five-errors-in-company-en.svg)
+
+*Figure 1. Five survey errors and matching company examples (illustrative).*
+
 ## Five errors, read as knowledge failures
 
 ### 1. You only hear from people who are easy to reach
@@ -77,6 +81,10 @@ Suppose a child is asked: *"Would you agree to donate your organs to save others
 
 The survey records the same value: "Yes." But these are four entirely different states of knowledge.
 
+![One “Yes” can come from four different states of understanding; the survey records only the final value.](~/assets/images/insights/right-data-wrong-conclusion/tr09-02-one-answer-four-states-en.svg)
+
+*Figure 2. One answer, several states of understanding (illustrative example).*
+
 The equivalent in a company is: *"Does your unit use AI in its work?"* "Yes" might mean a few people use a chatbot to translate emails, or it might mean AI sits inside a controlled process with someone accountable for it. The same word hides very different readiness. (See also [AI Reasoning vs. Organizational Truth](/en/insights/ai/ai-reasoning-vs-organizational-truth).)
 
 If you do not know how respondents understood the question, an answer is still data, but it cannot yet be called knowledge.
@@ -106,6 +114,10 @@ In a company: a post-incident interview run like an inquiry into who is to blame
 
 ## When one link breaks, the chain breaks
 
+![A six-link chain that turns a survey into knowledge: acquisition, capture, validation, provenance, governance, synthesis and decision; the first five links match the five errors.](~/assets/images/insights/right-data-wrong-conclusion/tr09-03-knowledge-chain-en.svg)
+
+*Figure 3. The chain that creates knowledge, and five points where it can break (OKELAS discussion framework).*
+
 The five errors correspond to five links in a chain that creates knowledge from a survey. The sixth link is where it is synthesized into a decision.
 
 | Link | Question | Corresponding error |
@@ -132,6 +144,10 @@ In the organ donation case, there are at least four bodies of knowledge, held by
 | Experiential | Patients, families, donors and recipients | Loss, hope, conflict, choice |
 | Social and ethical | Children, parents, the community | Beliefs about life, death and social responsibility |
 
+![Two boxes with a not-equal sign: decision capacity is not the same as knowledge value; the four bodies of knowledge are medical, legal, experiential, and social and ethical.](~/assets/images/insights/right-data-wrong-conclusion/tr09-04-who-decides-vs-who-knows-en.svg)
+
+*Figure 4. Decision capacity is not the same as knowledge value.*
+
 None can replace another. A physician understands brain death but cannot stand in for a family living through it. A legislator does not automatically speak for a community's ethical views. A child may lack the capacity to make a legal decision, but that does not mean the child's voice has no knowledge value.
 
 **Decision capacity and knowledge value are different things.** When an organization fails to separate them, it tends to make two opposite mistakes: giving one group authority beyond its role, or discounting a group simply because it holds no authority.
@@ -150,6 +166,10 @@ Consider an illustrative results table:
 | No opinion | 50 |
 
 *Illustrative figures, not real statistics.*
+
+![Two boxes joined by an arrow: on the left the recorded 850 of 1,000 chose yes; on the right the conclusion being drawn, which holds only if the sample is representative, children understood, adults did not sway them and participation was voluntary.](~/assets/images/insights/right-data-wrong-conclusion/tr09-05-claim-vs-proof-en.svg)
+
+*Figure 5. The gap between what the data records and what the organization wants to prove (illustrative figures).*
 
 An organization might conclude "85% of children support organ donation." That holds only if the sample is representative, age groups are stratified appropriately, children understood the question, adults did not sway them, participation was voluntary, and the question did not create moral pressure.
 

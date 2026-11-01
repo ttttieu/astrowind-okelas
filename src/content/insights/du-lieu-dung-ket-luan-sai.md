@@ -42,6 +42,10 @@ Trong doanh nghiệp, các lỗi tương tự vẫn có mặt, chỉ khó thấy
 
 Cần phân biệt hai lớp. Năm lỗi dưới đây là những vấn đề đã được nói đến nhiều trong phương pháp nghiên cứu khảo sát. Cách đọc chúng như năm điểm thất bại của một chuỗi tạo lập tri thức là **phân tích của OKELAS**, không phải một kết luận của tài liệu học thuật.
 
+![Bảng năm lỗi khi khảo sát, mỗi lỗi kèm biểu hiện trong khảo sát trẻ em và một ví dụ tương ứng trong doanh nghiệp.](~/assets/images/insights/du-lieu-dung-ket-luan-sai/tr09-01-five-errors-in-company-vi.svg)
+
+*Hình 1. Năm lỗi khi khảo sát và ví dụ tương ứng trong doanh nghiệp (minh họa).*
+
 ## Năm lỗi, đọc dưới góc độ tri thức
 
 ### 1. Chỉ nghe được những người dễ tiếp cận
@@ -77,6 +81,10 @@ Giả sử em được hỏi: *"Em có đồng ý hiến tạng để cứu ngư
 
 Bảng khảo sát ghi cùng một giá trị: "Đồng ý". Nhưng đó là bốn trạng thái tri thức hoàn toàn khác nhau.
 
+![Một câu trả lời “Đồng ý” có thể đến từ bốn trạng thái hiểu biết khác nhau; bảng khảo sát chỉ ghi lại giá trị cuối.](~/assets/images/insights/du-lieu-dung-ket-luan-sai/tr09-02-one-answer-four-states-vi.svg)
+
+*Hình 2. Một câu trả lời, nhiều trạng thái hiểu biết (ví dụ minh họa).*
+
 Trong doanh nghiệp, câu hỏi tương đương là: *"Đơn vị của anh/chị có dùng AI trong công việc không?"* Câu trả lời "Có" có thể nghĩa là vài người dùng ChatGPT để dịch email, hoặc AI đã nằm trong quy trình có kiểm soát và có người chịu trách nhiệm. Cùng một chữ "Có", mức sẵn sàng khác nhau rất xa. (Xem thêm [AI lập luận dựa trên gì? Khi AI reason xung đột với organizational truth](/insights/ai/ai-ly-luan-vs-su-that-to-chuc).)
 
 Nếu không biết người trả lời hiểu câu hỏi thế nào, một câu trả lời vẫn là dữ liệu, nhưng chưa thể gọi là tri thức.
@@ -106,6 +114,10 @@ Trong doanh nghiệp: cuộc phỏng vấn "tìm nguyên nhân" sau một sự c
 
 ## Mắt xích nào đứt thì cả chuỗi đứt
 
+![Chuỗi sáu mắt xích tạo tri thức từ khảo sát: thu nhận, ghi nhận, kiểm chứng, nguồn gốc, quản trị, tổng hợp và quyết định; năm mắt xích đầu ứng với năm lỗi.](~/assets/images/insights/du-lieu-dung-ket-luan-sai/tr09-03-knowledge-chain-vi.svg)
+
+*Hình 3. Chuỗi tạo lập tri thức và năm điểm có thể đứt (khung thảo luận do OKELAS đề xuất).*
+
 Năm lỗi trên ứng với năm mắt xích của một chuỗi tạo lập tri thức từ khảo sát. Mắt xích thứ sáu là nơi tổng hợp và ra quyết định.
 
 | Mắt xích | Câu hỏi | Lỗi tương ứng |
@@ -132,6 +144,10 @@ Trong câu chuyện hiến tạng, ít nhất có bốn nhóm tri thức, mỗi 
 | Trải nghiệm | Bệnh nhân, gia đình, người hiến và người nhận | Mất mát, hy vọng, xung đột, lựa chọn |
 | Xã hội và đạo đức | Trẻ em, cha mẹ, cộng đồng | Niềm tin về sự sống, cái chết, trách nhiệm xã hội |
 
+![Hai ô đặt cạnh nhau với dấu không bằng: năng lực ra quyết định khác với giá trị tri thức; bốn nhóm tri thức là y khoa, pháp lý, trải nghiệm, xã hội và đạo đức.](~/assets/images/insights/du-lieu-dung-ket-luan-sai/tr09-04-who-decides-vs-who-knows-vi.svg)
+
+*Hình 4. Năng lực ra quyết định không đồng nghĩa với giá trị tri thức.*
+
 Không nhóm nào thay thế được nhóm nào. Bác sĩ hiểu rõ chết não nhưng không thay được trải nghiệm của một gia đình đang trải qua. Nhà lập pháp không mặc nhiên đại diện cho quan điểm đạo đức của cộng đồng. Một đứa trẻ có thể chưa đủ năng lực đưa ra quyết định pháp lý, nhưng điều đó không có nghĩa tiếng nói của em không có giá trị tri thức.
 
 Cần tách **năng lực ra quyết định** khỏi **giá trị tri thức của một chủ thể**. Khi không tách, tổ chức dễ mắc hai sai lầm ngược nhau: trao cho một nhóm thẩm quyền vượt quá vai trò của họ, hoặc gạt tiếng nói của một nhóm chỉ vì họ không có thẩm quyền.
@@ -150,6 +166,10 @@ Hãy xem một bảng kết quả minh họa:
 | Không có ý kiến | 50 |
 
 *Số liệu minh họa giả định, không phải thống kê thực tế.*
+
+![Hai ô nối bằng mũi tên: bên trái là số liệu ghi nhận 850 trên 1.000 chọn đồng ý; bên phải là kết luận muốn rút ra, chỉ đứng được nếu mẫu đại diện, trẻ hiểu câu hỏi, không bị người lớn tác động và tham gia tự nguyện.](~/assets/images/insights/du-lieu-dung-ket-luan-sai/tr09-05-claim-vs-proof-vi.svg)
+
+*Hình 5. Khoảng cách giữa điều dữ liệu ghi nhận và điều tổ chức muốn chứng minh (số liệu minh họa).*
 
 Tổ chức có thể kết luận "85% trẻ em ủng hộ hiến tạng". Kết luận ấy chỉ đứng được nếu mẫu đại diện, các nhóm tuổi được phân tầng phù hợp, trẻ hiểu đúng câu hỏi, không chịu ảnh hưởng của người lớn, tham gia tự nguyện và câu hỏi không tạo áp lực đạo đức.
 
