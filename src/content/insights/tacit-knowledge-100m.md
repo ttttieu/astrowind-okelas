@@ -36,6 +36,10 @@ That does not make 100 meters wrong. It may well have been a sound answer for on
 
 ## What travels, and what stays behind
 
+![Three layers of a decision: the conclusion travels, while the reason and conditions stay in the decision-maker’s head.](~/assets/images/insights/tacit-knowledge-100m/tr08-01-three-layers-of-decision-en.svg)
+
+*Figure 1. The conclusion travels; reason and conditions stay behind (illustrative example).*
+
 Any operational decision really has three layers:
 
 - **The conclusion:** 100 meters.
@@ -46,11 +50,19 @@ The conclusion is short and easy to repeat. The reasoning and conditions are lon
 
 So every time the knowledge is handed on, the lightest layer travels and the heaviest stays behind. After a few handovers, from designer to shift lead, from shift lead to new hire, the conclusion has come loose from its reasoning. It is no longer "the answer to situation X". It is simply "the rule".
 
+![A handoff chain from designer to shift lead to new staff; the conclusion drifts from its reason and becomes a rule.](~/assets/images/insights/tacit-knowledge-100m/tr08-02-handoff-chain-en.svg)
+
+*Figure 2. The handoff chain separates the conclusion from its reason.*
+
 Seniority speeds this up. A statement from a respected veteran is easily received as if it were written policy, and few people want to be the one asking "says who?"
 
 This is where many knowledge management programs fall short. Converting tacit knowledge into documents often captures only the conclusion. Putting "minimum distance: 100 m" into an SOP does not make the knowledge clearer. It just makes the conclusion harder to challenge, because now it carries an approval stamp.
 
 ## Three costs the organization pays
+
+![Three costs: self-imposed constraints, false safety, lost ability to adjust.](~/assets/images/insights/tacit-knowledge-100m/tr08-03-three-costs-en.svg)
+
+*Figure 3. Three costs of losing the reason behind a rule.*
 
 **Self-imposed constraints.** A number with no known basis can rule out site layouts, designs or investments that might have been better. Nobody accounts for this cost, because nobody knows a choice was ever made.
 
@@ -74,6 +86,10 @@ Each may have a perfectly good reason. The more important question is: **who in 
 The processes are still there. The documents are complete. But the ability to explain, and therefore the ability to change, may have been lost long ago without anyone noticing.
 
 ## Self-check: five questions for any "rule"
+
+![Five questions to test a rule: type of requirement, basis, conditions, still valid, and evidence and authority to change it.](~/assets/images/insights/tacit-knowledge-100m/tr08-04-five-questions-en.svg)
+
+*Figure 4. Five questions to test a rule.*
 
 Pick one important rule in your company and ask:
 

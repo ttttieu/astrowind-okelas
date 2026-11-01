@@ -49,6 +49,10 @@ A battlefield and a factory are worlds apart in what is at stake. The point here
 
 ## On a factory floor, what counts as "speed"?
 
+![Two rhythms: the reporting rhythm runs hourly, by shift, weekly, monthly; the incident rhythm can strike at any time; a gap lies between them.](~/assets/images/insights/system-running-not-in-control/tr07-01-rhythm-gap-en.svg)
+
+*Figure 1. The gap between the reporting rhythm and the incident rhythm.*
+
 Most small and mid-sized manufacturers have a reporting system. The trouble is that the cadence of that system rarely matches the cadence of incidents.
 
 A seafood processing plant records temperatures at a critical control point on paper forms. Operators fill them in hourly, the shift lead signs at the end of the shift, QA consolidates the sheets into Excel at the end of the week, and leadership reads a monthly report. At 2 a.m., the temperature exceeds its limit for a period of time. The operator writes it down, but nobody with decision authority knows until the next morning, by which time the batch has moved on to the next stage.
@@ -59,6 +63,10 @@ This is the same structure as the Starshield episode: the system performs well "
 
 ## Three things leaders tend to confuse
 
+![Three confused pairs: having resources versus knowing where to use them; having data versus seeing reality; departments working versus the organization being in control.](~/assets/images/insights/system-running-not-in-control/tr07-02-three-confusions-en.svg)
+
+*Figure 2. Three pairs of ideas that get confused.*
+
 When assessing management capability, it is easy to treat three pairs of ideas as if they were the same:
 
 1. **Having resources ≠ knowing where to deploy them.** A plant can be full of capable people, but if information does not reach the right person at the right time, they cannot act.
@@ -68,6 +76,10 @@ When assessing management capability, it is easy to treat three pairs of ideas a
 None of these conditions stops the plant. Production continues, reports go out, meetings happen. An organization can keep operating while gradually losing control of its own operations.
 
 ## Four questions to test operational control
+
+![Four consecutive layers: see, connect, direct, control, each with a question for leadership.](~/assets/images/insights/system-running-not-in-control/tr07-03-four-layers-en.svg)
+
+*Figure 3. Four layers of operational control; each layer matters only once the previous one exists.*
 
 Operational control can be framed as four layers, each of which only matters once the one before it is in place:
 
@@ -94,6 +106,10 @@ How many of these sound familiar?
 This is not a scored test. But if three or more apply, the issue may not be a lack of software or people. It may be **the connection between people, process, data and action.**
 
 ## Digitizing departments is not the same as controlling the whole
+
+![Three digitized departments, accounting, warehouse and QA; the joins between them are owned by no one.](~/assets/images/insights/system-running-not-in-control/tr07-04-department-vs-system-en.svg)
+
+*Figure 4. Each department runs well; the joins are left open.*
 
 Many manufacturers have bought software function by function: accounting has its package, the warehouse has its own, QA has its spreadsheets. Each part is "digital". But control lives **in the connections between the parts**, and those are usually the parts nobody owns.
 

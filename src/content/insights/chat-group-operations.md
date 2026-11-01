@@ -39,6 +39,10 @@ The real question is this: **even when the message lands in the right group, doe
 > - The largest long-term cost is fragmented knowledge: the decision survives, but the reasoning and context do not.
 > - The fix isn't banning chat. It's a clear division: chat for conversation, workflow for execution, records for outcomes.
 
+![Three paradox cards: more convenient but harder to control information; faster talk but work not necessarily faster; more conversation but more fragmented knowledge.](~/assets/images/insights/chat-group-operations/tr02-01-three-paradoxes-en.svg)
+
+*Figure 1. Three paradoxes of assigning work in chat groups.*
+
 ## Paradox 1: The more convenient it is, the harder information is to control
 
 In our scenario, the message was a single sentence. Had the report been attached, a group of neighbours would now hold sales figures, customer names and perhaps internal issues nobody had announced yet.
@@ -48,6 +52,10 @@ The misdirected message is a symptom. The underlying issue is that sensitive inf
 For a manufacturer with export customers, quality records or contractual confidentiality obligations, this is more than an embarrassing moment. It is a question of where the organization's **information control boundary** actually sits.
 
 ## Paradox 2: Communication gets faster, but work doesn't necessarily finish faster
+
+![Five questions work needs that a message does not answer: who is accountable, who approves, what evidence, is it settled, whose next step.](~/assets/images/insights/chat-group-operations/tr02-02-what-chat-cant-answer-en.svg)
+
+*Figure 2. What work needs and a message does not hold.*
 
 A message can settle a question instantly. What it doesn't do, by itself, is answer what the work needs:
 
@@ -72,6 +80,10 @@ Follow the same "redo the report" request through the organization:
 3. **The report is revised and resent.** There are now three files: "report_final", "final2", "final_revised". Which is the real one? Who signed off? Why did the figures change?
 4. **The work still isn't finished.** It needs approval, an update to the official figures, and a heads-up to other teams.
 
+![Four steps of a request in a chat group: request, questions and files, three “final” files, work not finished.](~/assets/images/insights/chat-group-operations/tr02-03-request-journey-en.svg)
+
+*Figure 3. Journey of a request in a chat group (illustrative scenario).*
+
 Six months later, a new department head asks: "Why did we revise the Q3 forecast last year?" The answer is somewhere between a team chat, an email, a few spreadsheets and the memory of two people, one of whom has since left.
 
 A group chat records the conversation. But **recording a conversation is not the same as managing the work**. An operating system for a business needs to know:
@@ -95,6 +107,10 @@ When those answers aren't tied together in a structured work record, the company
 These aren't three separate problems. They share one root: information, decisions and work progress aren't managed as connected parts of a single system.
 
 ## Don't ban chat. Put it in its place.
+
+![Three layers: chat for discussion, workflow for execution, records and knowledge for keeping outcomes.](~/assets/images/insights/chat-group-operations/tr02-04-three-layers-en.svg)
+
+*Figure 4. Putting chat in its place among three layers.*
 
 The lazy conclusion is "stop using WhatsApp (or Zalo, or Teams chat) for work". It's neither realistic nor right.
 

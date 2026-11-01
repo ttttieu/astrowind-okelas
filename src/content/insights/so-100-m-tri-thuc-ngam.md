@@ -36,6 +36,10 @@ Các văn bản GMP thường được viện dẫn, như quy định của FDA 
 
 ## Phần được truyền đi và phần ở lại
 
+![Ba lớp của một quyết định: kết luận được truyền đi, lý do và điều kiện ở lại trong đầu người ra quyết định.](~/assets/images/insights/so-100-m-tri-thuc-ngam/tr08-01-three-layers-of-decision-vi.svg)
+
+*Hình 1. Kết luận được truyền đi; lý do và điều kiện ở lại (ví dụ minh họa).*
+
 Mỗi quyết định trong vận hành thực ra có ba lớp:
 
 - **Kết luận:** 100 m.
@@ -46,11 +50,19 @@ Kết luận ngắn, dễ nhớ, dễ nhắc lại. Lý do và điều kiện th
 
 Vì vậy mỗi lần truyền đạt, phần nhẹ nhất được mang đi, phần nặng nhất ở lại. Sau vài lần chuyển giao, từ người thiết kế sang trưởng ca, từ trưởng ca sang nhân viên mới, kết luận đã tách khỏi lý do. Nó không còn là "lời giải cho tình huống X" mà trở thành "quy định".
 
+![Chuỗi chuyển giao từ người thiết kế sang trưởng ca rồi nhân viên mới; kết luận tách dần khỏi lý do và trở thành quy định.](~/assets/images/insights/so-100-m-tri-thuc-ngam/tr08-02-handoff-chain-vi.svg)
+
+*Hình 2. Chuỗi chuyển giao làm kết luận tách khỏi lý do.*
+
 Thâm niên của người nói càng làm quá trình này nhanh hơn. Một câu nói từ người có uy tín dễ được tiếp nhận như văn bản, và ít ai muốn là người hỏi lại.
 
 Đây là điểm nhiều chương trình quản trị tri thức bỏ sót. Chuyển tri thức ngầm thành tài liệu thường chỉ chuyển được lớp kết luận. Ghi "khoảng cách tối thiểu 100 m" vào SOP không làm tri thức rõ hơn. Nó chỉ làm kết luận khó bị chất vấn hơn, vì giờ đây nó đã có dấu đóng.
 
 ## Ba cái giá tổ chức phải trả
+
+![Ba cái giá: ràng buộc tự đặt ra, an toàn giả, mất khả năng tự điều chỉnh.](~/assets/images/insights/so-100-m-tri-thuc-ngam/tr08-03-three-costs-vi.svg)
+
+*Hình 3. Ba cái giá khi mất lý do của một quy tắc.*
 
 **Thứ nhất, ràng buộc tự đặt ra.** Một con số không rõ căn cứ có thể loại bỏ sớm những phương án mặt bằng, thiết kế hay đầu tư hợp lý hơn. Không ai tính khoản chi phí này, vì không ai biết đó là một lựa chọn.
 
@@ -74,6 +86,10 @@ Rất có thể mỗi câu đều có lý do chính đáng. Câu hỏi quan tr�
 Quy trình vẫn còn. Tài liệu vẫn đủ. Nhưng năng lực giải thích, và do đó năng lực thay đổi, có thể đã mất từ lâu mà không ai nhận ra.
 
 ## Tự kiểm tra: 5 câu hỏi cho một "quy định" bất kỳ
+
+![Năm câu hỏi kiểm tra một quy định: loại yêu cầu, căn cứ, điều kiện, còn đúng không, bằng chứng và thẩm quyền để thay đổi.](~/assets/images/insights/so-100-m-tri-thuc-ngam/tr08-04-five-questions-vi.svg)
+
+*Hình 4. Năm câu hỏi kiểm tra một quy định.*
 
 Chọn một quy tắc quan trọng trong doanh nghiệp của bạn và hỏi:
 

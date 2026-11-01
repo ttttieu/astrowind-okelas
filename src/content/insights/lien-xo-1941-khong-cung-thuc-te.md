@@ -32,6 +32,10 @@ Nếu anh/chị đang điều hành một doanh nghiệp có nhiều phòng ban,
 > - Họ phục hồi một phần bằng cách **đơn giản hóa** cấu trúc cho khớp năng lực thật, không phải bằng cách thêm tầng báo cáo.
 > - AI chỉ khuếch đại bức tranh mà tổ chức đưa cho nó. Nếu bức tranh bị lọc, trễ hoặc mất ngữ cảnh, AI làm sai nhanh hơn.
 
+![Ba tầng mất kết nối: nhìn thấy thực tế, quyết định đúng thời điểm, điều chỉnh.](~/assets/images/insights/lien-xo-1941-khong-cung-thuc-te/tr06-01-three-levels-vi.svg)
+
+*Hình 1. Mô hình ba tầng dùng cho cả bài.*
+
 ## Một tổ chức khổng lồ, nhưng mắt xích yếu nhất là phần kết nối
 
 Trong nghiên cứu được xem là nền tảng về Hồng quân trước chiến tranh, sử gia David Glantz kết luận rằng quân đội này khi đó được huấn luyện kém, trang bị thiếu và tổ chức chưa phù hợp để điều hành các chiến dịch quy mô lớn.[^1] Trong số các binh chủng, Glantz đánh giá lực lượng thông tin liên lạc là bộ phận yếu nhất: thiếu trang bị, thiếu người, không đủ năng lực thực hiện nhiệm vụ thời chiến.[^3]
@@ -43,6 +47,10 @@ Cụ thể hơn, liên lạc phụ thuộc nhiều vào đường dây điện t
 Nhiều doanh nghiệp có cấu trúc tương tự: quy trình chạy được khi đơn hàng ổn định, nhân sự đủ, nhà cung cấp đúng hẹn. Đến khi có biến động, thông tin lại đi bằng điện thoại, Zalo và trí nhớ của vài người chủ chốt.
 
 ## Tầng 1 — Mất khả năng nhìn thấy thực tế
+
+![Hai kiểu mù: do bộ lọc, khi cảnh báo bị lọc trên đường đi lên; và do đứt mạch, khi số liệu trễ hoặc mất ngữ cảnh.](~/assets/images/insights/lien-xo-1941-khong-cung-thuc-te/tr06-02-two-kinds-of-blind-vi.svg)
+
+*Hình 2. Hai kiểu “mù” ở tầng nhìn thấy thực tế.*
 
 ### Thông tin đã có, nhưng bị lọc trước khi đến người quyết định
 
@@ -63,6 +71,10 @@ Trong ngày đầu tiên, hai Phương diện quân Tây và Tây Bắc ngày c�
 
 ## Tầng 2 — Ra quyết định trên một bức tranh đã cũ
 
+![Hai bức tranh: giả định cũ trong kế hoạch và điều đang thực sự xảy ra; quyết định theo kế hoạch cũ sẽ lệch khỏi thực tế.](~/assets/images/insights/lien-xo-1941-khong-cung-thuc-te/tr06-03-plan-vs-reality-vi.svg)
+
+*Hình 3. Bức tranh của kế hoạch và bức tranh thực tế.*
+
 Tối 22/6, Moskva ban hành Chỉ thị số 3: phản công trên toàn tuyến. Phương diện quân Tây Nam được lệnh dùng ít nhất năm quân đoàn cơ giới bao vây cánh quân Đức và chiếm khu vực Lublin, trên lãnh thổ Ba Lan bị Đức chiếm đóng, trước cuối ngày 24/6.[^9]
 
 Mệnh lệnh này phù hợp với kế hoạch tác chiến trước chiến tranh. Nó không phù hợp với chiến trường. Chính Zhukov, Tổng tham mưu trưởng, khi đến sở chỉ huy Tây Nam tối hôm đó, cho rằng không nên phản công hay thực hiện bất kỳ hành động phối hợp nào cho đến khi nắm được bức tranh rõ ràng về mặt trận.[^2] Nhiều sĩ quan tham mưu tại đây cũng đã nghĩ chiến lược hợp lý là phòng ngự cho đến khi tình hình rõ hơn.[^9]
@@ -81,6 +93,10 @@ Trận Kiev cuối mùa hè 1941 cho thấy một dạng mất kết nối khác
 
 ## Hồng quân đã kết nối lại như thế nào?
 
+![Bốn cách kết nối lại: làm rõ ai quyết định, giảm tầng cho khớp năng lực, đưa người quyết định đến gần thực tế, phục hồi kỷ luật thông tin.](~/assets/images/insights/lien-xo-1941-khong-cung-thuc-te/tr06-04-recovery-vi.svg)
+
+*Hình 4. Bốn cách kết nối lại.*
+
 Câu chuyện năm 1941 không dừng ở thất bại. Phần phục hồi mới là phần đáng học.
 
 - **Làm rõ ai quyết định.** Ngày 23/6, cơ quan tổng hành dinh Stavka được thành lập; chỉ vài ngày sau, chiến lược chuyển sang "phòng ngự chiến lược tích cực": chặn, giữ, làm hao mòn đối phương trong khi tập hợp lực lượng dự bị.[^2]
@@ -91,6 +107,10 @@ Câu chuyện năm 1941 không dừng ở thất bại. Phần phục hồi mớ
 Moskva đứng vững vào cuối năm 1941. Điều đó không chỉ nhờ những thay đổi trên: thời tiết mùa thu, hậu cần kiệt quệ và tổn thất lớn của quân Đức cũng đóng vai trò quyết định.[^2] Nhưng có một bài học rõ: **họ không sửa sự mất kết nối bằng cách thêm tầng, thêm báo cáo. Họ đơn giản hóa cấu trúc cho vừa với năng lực thật, và đưa quyết định về gần nơi có thông tin.**
 
 ## Ba tầng mất kết nối trong doanh nghiệp
+
+![Bảng ba tầng mất kết nối trong doanh nghiệp, kèm biểu hiện và câu hỏi dành cho CEO ở mỗi tầng.](~/assets/images/insights/lien-xo-1941-khong-cung-thuc-te/tr06-05-enterprise-map-vi.svg)
+
+*Hình 5. Ba tầng, biểu hiện và câu hỏi cho CEO.*
 
 | Tầng | Hồng quân 1941 | Biểu hiện trong doanh nghiệp | Câu hỏi cho CEO |
 |---|---|---|---|

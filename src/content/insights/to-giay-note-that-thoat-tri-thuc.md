@@ -35,6 +35,10 @@ Bài này không bàn chuyện có nên dùng note hay không. Note là một th
 
 ## Tờ giấy nhỏ nhất lại là phần tốn công nhất
 
+![Chuỗi ba bước: hồ sơ là dữ liệu, tờ note là nhận định, ý kiến của sếp là quyết định.](~/assets/images/insights/to-giay-note-that-thoat-tri-thuc/tr03-01-note-is-judgment-vi.svg)
+
+*Hình 1. Từ dữ liệu đến nhận định và quyết định.*
+
 Hãy nhìn vào những gì cần có để viết được năm dòng trên tờ note.
 
 Người viết phải đọc toàn bộ hồ sơ. Đối chiếu với quy định, hợp đồng, kết quả kiểm tra hoặc lần xử lý trước. Bỏ qua những chi tiết không quan trọng. Chọn ra hai, ba bằng chứng then chốt. Và cuối cùng, đưa ra một nhận định: nên duyệt, nên từ chối, hay duyệt có điều kiện.
@@ -46,6 +50,10 @@ Trong quản trị tri thức, đây là khoảnh khắc kinh nghiệm và phán
 Nếu tập hồ sơ là dữ liệu, thì tờ note là lần đầu tiên dữ liệu đó được biến thành nhận định dùng được để ra quyết định. Ý kiến sếp viết đè lên nó là lần thứ hai.
 
 ## Hệ thống lưu kết quả, nhưng không lưu lý do
+
+![Chuỗi hồ sơ, nhận định, quyết định, hành động; hai đầu được lưu, phần giữa thường không được lưu.](~/assets/images/insights/to-giay-note-that-thoat-tri-thuc/tr03-02-what-gets-stored-vi.svg)
+
+*Hình 2. Hai đầu được lưu, phần ở giữa thường mất.*
 
 Một quyết định trong doanh nghiệp thường đi qua chuỗi:
 
@@ -65,6 +73,10 @@ Sau vài tháng, những câu hỏi sau thường không còn ai trả lời đ�
 
 ## Cái giá không đến ngay hôm nay
 
+![Ba thời điểm cái giá xuất hiện: gặp lại tình huống tương tự, người cũ rời đi, cần giải trình.](~/assets/images/insights/to-giay-note-that-thoat-tri-thuc/tr03-03-three-moments-vi.svg)
+
+*Hình 3. Cái giá không đến ngay, mà đến ở ba thời điểm.*
+
 Vứt một tờ note không gây thiệt hại gì trong ngày. Đó là lý do vấn đề này khó nhìn thấy. Cái giá đến muộn hơn.
 
 Những tình huống này thường quay lại ở ba thời điểm:
@@ -76,6 +88,10 @@ Những tình huống này thường quay lại ở ba thời điểm:
 Kết quả là một nghịch lý quen thuộc: doanh nghiệp có hàng nghìn hồ sơ được lưu cẩn thận, nhưng vẫn phải "hỏi lại anh A, chị B".
 
 ## Note không phải vấn đề
+
+![Bốn loại quyết định cần giữ lý do: ngoại lệ, rủi ro chất lượng an toàn pháp lý, quyết định lặp lại, quyết định có thể bị hỏi lại.](~/assets/images/insights/to-giay-note-that-thoat-tri-thuc/tr03-04-which-decisions-vi.svg)
+
+*Hình 4. Không lưu mọi tờ note, chỉ lưu đúng loại quyết định.*
 
 Phản ứng dễ nhất là: vậy thì lưu hết các tờ note lại. Scan, đính kèm, đánh số.
 
