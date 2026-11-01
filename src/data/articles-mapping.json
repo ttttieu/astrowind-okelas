@@ -1780,6 +1780,19 @@
         "category": "trending",
         "url": "/en/insights/trending/cover-note-institutional-knowledge-loss"
       }
+    },
+    {
+      "translationId": "right-data-wrong-conclusion",
+      "vi": {
+        "slug": "du-lieu-dung-ket-luan-sai",
+        "category": "trending",
+        "url": "/insights/trending/du-lieu-dung-ket-luan-sai"
+      },
+      "en": {
+        "slug": "right-data-wrong-conclusion",
+        "category": "trending",
+        "url": "/en/insights/trending/right-data-wrong-conclusion"
+      }
     }
   ]
 }
