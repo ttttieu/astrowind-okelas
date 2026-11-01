@@ -1,8 +1,8 @@
-﻿---
+---
 title: "Paperless không phải chuyển đổi số — và đây là sự khác biệt"
 description: "Văn phòng không giấy là bước đầu tiên — nhưng không phải chuyển đổi số. Bài viết phân tích tại sao paperless chưa đủ và những gì cần làm tiếp theo."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/pl-04-og-cover-vi.png'
+image: '~/assets/images/insights/paperless-khong-phai-chuyen-doi-so/pl-04-og-cover-vi.png'
 category: 'business-operations'
 tags: ['Paperless', 'Chuyển đổi số', 'Digital Operations', 'Manufacturing']
 translationId: 'biz-ops-paperless-vs-digital'
