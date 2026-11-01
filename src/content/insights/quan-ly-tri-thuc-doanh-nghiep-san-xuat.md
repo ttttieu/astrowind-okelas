@@ -251,7 +251,7 @@ Doanh nghiệp nào tiếp tục để tri thức nằm trong đầu người s�
 **Đọc thêm:**
 
 - [AI Readiness: tại sao AI không tự động làm doanh nghiệp thông minh hơn](/insights/ai/ai-readiness-doanh-nghiep) *(AI Readiness Pillar)*
-- [Chuan hóa quy trình trước ERP: tại sao nền tảng phải đến trước](/insights/erp/chuan-hoa-quy-trinh-truoc-erp) *(ERP Readiness)*
+- [Chuẩn hóa quy trình trước ERP: tại sao nền tảng phải đến trước](/insights/erp/chuan-hoa-quy-trinh-truoc-erp) *(ERP Readiness)*
 - [Chuyển đổi số doanh nghiệp sản xuất: lộ trình thực tế](/insights/business-operations/chuyen-doi-so-doanh-nghiep-san-xuat) *(Business Operations)*
 
 ---
