@@ -2,6 +2,10 @@
 title: "The Boss Sent It to the Building Group Chat: A Funny Slip or a Management Problem?"
 description: "A misdirected message is only the visible part. When instructions, approvals and decisions live in group chats, a company loses control of information, work and knowledge."
 publishDate: 2026-10-24T02:00:00Z
+image: '~/assets/images/insights/chat-group-operations/tr-02-og-cover-en.png'
+coverImage: '~/assets/images/insights/chat-group-operations/tr-02-og-cover-en.png'
+ogImage: '~/assets/images/insights/chat-group-operations/tr-02-og-cover-en.png'
+coverImageAlt: "Three chat messages (instruction, approval, decision) lead to the question of where the record lives."
 translationId: giao-viec-qua-nhom-chat
 lang: en
 category: trending

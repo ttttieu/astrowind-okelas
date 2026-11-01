@@ -1,8 +1,12 @@
-﻿---
+---
 title: "AI Adoption: The Real Problem Is Not the Tool"
 seo_title: "Why AI Isn't Boosting Productivity — And What Your Organization Needs Before Scaling"
 description: "Companies invest in AI but productivity doesn't follow. This analysis identifies three layers of failure — technology, people, and organizational systems — and proposes five dimensions of AI readiness that CEOs should evaluate before expanding deployment."
 publishDate: 2026-10-24T01:00:00Z
+image: '~/assets/images/insights/ai-adoption-real-problem/tr-01-og-cover-en.png'
+coverImage: '~/assets/images/insights/ai-adoption-real-problem/tr-01-og-cover-en.png'
+ogImage: '~/assets/images/insights/ai-adoption-real-problem/tr-01-og-cover-en.png'
+coverImageAlt: "Three layers of the AI adoption problem: technology, people, organizational system; technology is only the first layer."
 translationId: ung-dung-ai-van-de-thuc-su
 lang: en
 category: trending

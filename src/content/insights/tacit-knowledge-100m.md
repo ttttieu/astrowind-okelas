@@ -1,7 +1,11 @@
-﻿---
+---
 title: "The 100-Meter Rule: When Tribal Knowledge Becomes Policy"
 description: "A rule everyone follows but no one can explain. How tribal knowledge hardens into policy in manufacturing companies, and what it quietly costs the organization."
 publishDate: 2026-10-24T07:00:00Z
+image: '~/assets/images/insights/tacit-knowledge-100m/tr-08-og-cover-en.png'
+coverImage: '~/assets/images/insights/tacit-knowledge-100m/tr-08-og-cover-en.png'
+ogImage: '~/assets/images/insights/tacit-knowledge-100m/tr-08-og-cover-en.png'
+coverImageAlt: "Word-of-mouth experience gradually comes to be treated as policy without being written down."
 translationId: tacit-knowledge-100m
 lang: en
 category: trending

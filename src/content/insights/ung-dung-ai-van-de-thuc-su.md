@@ -1,8 +1,12 @@
-﻿---
+---
 title: "Ứng dụng AI: vấn đề thực sự không nằm ở công cụ"
 seo_title: "Tại sao ứng dụng AI không tăng năng suất — và doanh nghiệp cần chuẩn bị gì"
 description: "Doanh nghiệp đầu tư vào AI nhưng năng suất không tăng. Bài phân tích chỉ ra ba tầng vấn đề — công nghệ, con người, hệ thống tổ chức — và năm chiều đánh giá AI readiness mà CEO cần xem xét trước khi mở rộng triển khai."
 publishDate: 2026-10-24T01:00:00Z
+image: '~/assets/images/insights/ung-dung-ai-van-de-thuc-su/tr-01-og-cover-vi.png'
+coverImage: '~/assets/images/insights/ung-dung-ai-van-de-thuc-su/tr-01-og-cover-vi.png'
+ogImage: '~/assets/images/insights/ung-dung-ai-van-de-thuc-su/tr-01-og-cover-vi.png'
+coverImageAlt: "Ba tầng vấn đề khi ứng dụng AI: công nghệ, con người, hệ thống tổ chức; công nghệ chỉ là tầng đầu tiên."
 translationId: ung-dung-ai-van-de-thuc-su
 lang: vi
 category: trending

@@ -1,7 +1,11 @@
-﻿---
+---
 title: "Con số 100 m: Khi tri thức ngầm trở thành \"quy định\""
 description: "Một quy tắc ai cũng tuân theo nhưng không ai nhớ lý do. Cách tri thức ngầm biến thành \"quy định\" trong doanh nghiệp sản xuất, và cái giá tổ chức phải trả."
 publishDate: 2026-10-24T07:00:00Z
+image: '~/assets/images/insights/so-100-m-tri-thuc-ngam/tr-08-og-cover-vi.png'
+coverImage: '~/assets/images/insights/so-100-m-tri-thuc-ngam/tr-08-og-cover-vi.png'
+ogImage: '~/assets/images/insights/so-100-m-tri-thuc-ngam/tr-08-og-cover-vi.png'
+coverImageAlt: "Kinh nghiệm truyền miệng dần được coi là quy định dù chưa được viết ra."
 translationId: tacit-knowledge-100m
 lang: vi
 category: trending

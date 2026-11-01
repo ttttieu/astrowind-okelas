@@ -2,6 +2,10 @@
 title: "What Gets Thrown Away With the Cover Note"
 description: "The cover note on an approval file records how staff read the evidence and why leadership decided. Why it usually ends up in the bin, and what that costs."
 publishDate: 2026-10-24T08:00:00Z
+image: '~/assets/images/insights/cover-note-institutional-knowledge-loss/tr-03-og-cover-en.png'
+coverImage: '~/assets/images/insights/cover-note-institutional-knowledge-loss/tr-03-og-cover-en.png'
+ogImage: '~/assets/images/insights/cover-note-institutional-knowledge-loss/tr-03-og-cover-en.png'
+coverImageAlt: "Systems keep the outcome of a file, while the reasoning sits in the cover note and is easily lost."
 translationId: cover-note-knowledge-loss
 lang: en
 category: trending

@@ -1,10 +1,14 @@
-﻿---
+---
 title: "AI có thể tìm ra điều con người bỏ sót. Doanh nghiệp đã sẵn sàng chưa?"
 seo_title: "AI readiness: Bài học từ lỗ hổng PHP2Shell cho doanh nghiệp"
 lang: vi
 translationId: ai-tim-dieu-con-nguoi-bo-sot
 description: "Lỗ hổng PHP tồn tại khoảng 14 năm được tìm ra nhờ AI. Bài học cho CEO: AI readiness không nằm ở công cụ, mà ở tri thức, bằng chứng và cơ chế xử lý phát hiện."
 publishDate: 2026-10-24T04:00:00Z
+image: '~/assets/images/insights/ai-tim-dieu-con-nguoi-bo-sot/tr-05-og-cover-vi.png'
+coverImage: '~/assets/images/insights/ai-tim-dieu-con-nguoi-bo-sot/tr-05-og-cover-vi.png'
+ogImage: '~/assets/images/insights/ai-tim-dieu-con-nguoi-bo-sot/tr-05-og-cover-vi.png'
+coverImageAlt: "AI tìm ra điều con người bỏ sót, câu hỏi tiếp theo là tổ chức đã sẵn sàng tiếp nhận chưa."
 category: trending
 contentType: Analysis
 funnelStage: [Understanding]

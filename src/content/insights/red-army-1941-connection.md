@@ -1,7 +1,11 @@
-﻿---
+---
 title: "The Red Army in 1941: When Capable People Stop Seeing the Same Reality"
 description: "In 1941 the Red Army was the world's largest military, yet it lost contact, lost the picture and issued orders for a war that no longer existed. Lessons for CEOs about coordination and AI readiness."
 publishDate: 2026-10-24T05:00:00Z
+image: '~/assets/images/insights/red-army-1941-connection/tr-06-og-cover-en.png'
+coverImage: '~/assets/images/insights/red-army-1941-connection/tr-06-og-cover-en.png'
+ogImage: '~/assets/images/insights/red-army-1941-connection/tr-06-og-cover-en.png'
+coverImageAlt: "Two capable people look at the same facts but no longer see the same reality."
 translationId: lien-xo-1941-khong-cung-thuc-te
 lang: en
 category: trending
