@@ -22,16 +22,13 @@ const trendingArticles = allInsights
     return dateB.getTime() - dateA.getTime();
   });
 
-// Import all EN cover images from src/assets
-const enCoverGlob = import.meta.glob<{ default: ImageMetadata }>(
-  '/src/assets/images/insights/*/trending*-00-og-cover.png',
+// Cover images (src/assets), keyed by the path declared in each article's `coverImage` frontmatter.
+const coverGlob = import.meta.glob<{ default: ImageMetadata }>(
+  '/src/assets/images/insights/*/tr-*-og-cover-*.png',
   { eager: true }
 );
-const enCovers: Record<string, ImageMetadata> = {};
-for (const [path, mod] of Object.entries(enCoverGlob)) {
-  const match = path.match(/\/insights\/([^/]+)\//);
-  if (match) enCovers[match[1]] = mod.default;
-}
+const getCover = (coverImage?: string): ImageMetadata | undefined =>
+  coverImage ? coverGlob[coverImage.replace(/^~/, '/src')]?.default : undefined;
 
 // Badge colors
 const typeBadgeClass: Record<string, string> = {
@@ -62,43 +59,45 @@ const typeBadgeClass: Record<string, string> = {
         {trendingArticles.length > 0 ? (
           <ul class="space-y-6">
             {trendingArticles.map((article) => {
-              const coverImg = enCovers[article.id];
+              const coverImg = getCover(article.data.coverImage);
+              const href = `/en/insights/${article.data.category}/${article.id}`;
               return (
-              <li key={article.id} class="flex items-start gap-6 group">
-                {coverImg && (
-                  <div class="flex-shrink-0 w-60 rounded overflow-hidden">
-                    <Image
-                      src={coverImg}
-                      alt={article.data.title}
-                      class="w-full h-auto block"
-                    />
-                  </div>
-                )}
-                <a
-                  href={`/en/insights/${article.data.category}/${article.id}`}
-                  class="flex-1 hover:underline"
-                >
-                  <div class="font-medium text-slate-900 dark:text-white group-hover:text-primary transition-colors">
-                    {article.data.title}
-                  </div>
-                  <p class="text-sm text-slate-600 dark:text-slate-400 mt-2">
-                    {article.data.description}
-                  </p>
-                  <div class="flex flex-wrap gap-2 mt-3">
-                    {article.data.contentType && (
-                      <span class="text-xs bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-400 px-2 py-0.5 rounded">
-                        {article.data.contentType}
-                      </span>
-                    )}
-                    {article.data.funnelStage?.[0] && (
-                      <span class="text-xs bg-gray-50 text-gray-500 dark:bg-gray-800 dark:text-gray-400 px-2 py-0.5 rounded">
-                        {article.data.funnelStage[0]}
-                      </span>
-                    )}
-                  </div>
-                </a>
-              </li>
-            );
+                <li class="group">
+                  <a href={href} class="flex flex-col sm:flex-row items-start gap-4 sm:gap-6">
+                    <div class="flex-shrink-0 w-full sm:w-60 sm:h-32 overflow-hidden rounded bg-slate-100 dark:bg-slate-800">
+                      {coverImg && (
+                        <Image
+                          src={coverImg}
+                          width={480}
+                          height={252}
+                          alt={article.data.coverImageAlt || article.data.title}
+                          class="w-full h-full object-cover"
+                        />
+                      )}
+                    </div>
+                    <div class="flex-1">
+                      <div class="font-medium text-slate-900 dark:text-white group-hover:text-primary group-hover:underline transition-colors">
+                        {article.data.title}
+                      </div>
+                      <p class="text-sm text-slate-600 dark:text-slate-400 mt-2">
+                        {article.data.description}
+                      </p>
+                      <div class="flex flex-wrap gap-2 mt-3">
+                        {article.data.contentType && (
+                          <span class="text-xs bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-400 px-2 py-0.5 rounded">
+                            {article.data.contentType}
+                          </span>
+                        )}
+                        {article.data.funnelStage?.[0] && (
+                          <span class="text-xs bg-gray-50 text-gray-500 dark:bg-gray-800 dark:text-gray-400 px-2 py-0.5 rounded">
+                            {article.data.funnelStage[0]}
+                          </span>
+                        )}
+                      </div>
+                    </div>
+                  </a>
+                </li>
+              );
             })}
           </ul>
         ) : (
