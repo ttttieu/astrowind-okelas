@@ -1,7 +1,11 @@
-﻿---
+---
 title: "Tờ giấy note đang làm doanh nghiệp mất tri thức như thế nào?"
 description: "Tờ note kẹp trên hồ sơ trình ký ghi lại cách nhân viên đọc bằng chứng và lý do lãnh đạo quyết định. Vì sao nó thường vào sọt rác, và doanh nghiệp mất gì?"
 publishDate: 2026-10-24T08:00:00Z
+image: '~/assets/images/insights/to-giay-note-that-thoat-tri-thuc/tr-03-og-cover-vi.png'
+coverImage: '~/assets/images/insights/to-giay-note-that-thoat-tri-thuc/tr-03-og-cover-vi.png'
+ogImage: '~/assets/images/insights/to-giay-note-that-thoat-tri-thuc/tr-03-og-cover-vi.png'
+coverImageAlt: "Hệ thống lưu kết quả của hồ sơ, còn lý do quyết định nằm trong tờ note và dễ bị mất."
 translationId: cover-note-knowledge-loss
 lang: vi
 category: trending

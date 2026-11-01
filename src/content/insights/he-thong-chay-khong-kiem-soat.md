@@ -2,6 +2,10 @@
 title: "Khi hệ thống vẫn chạy nhưng doanh nghiệp đã mất khả năng kiểm soát"
 description: "Gián đoạn Starlink ở Ukraine cho thấy một tổ chức có thể còn đủ người và công cụ nhưng mất khả năng phối hợp. Bốn câu hỏi giúp CEO kiểm tra khả năng kiểm soát vận hành."
 publishDate: 2026-10-24T06:00:00Z
+image: '~/assets/images/insights/he-thong-chay-khong-kiem-soat/tr-07-og-cover-vi.png'
+coverImage: '~/assets/images/insights/he-thong-chay-khong-kiem-soat/tr-07-og-cover-vi.png'
+ogImage: '~/assets/images/insights/he-thong-chay-khong-kiem-soat/tr-07-og-cover-vi.png'
+coverImageAlt: "Hệ thống đang chạy đầy đủ nhưng khả năng kiểm soát vẫn là câu hỏi mở."
 translationId: he-thong-chay-khong-kiem-soat
 lang: vi
 category: trending

@@ -1,7 +1,11 @@
-﻿---
+---
 title: "Liên Xô 1941: Khi người giỏi không còn nhìn thấy cùng một thực tế"
 description: "Năm 1941, Hồng quân có lực lượng lớn nhất thế giới nhưng mất liên lạc, mất bức tranh thực tế và ra lệnh sai thời điểm. Bài học cho CEO về phối hợp và AI readiness."
 publishDate: 2026-10-24T05:00:00Z
+image: '~/assets/images/insights/lien-xo-1941-khong-cung-thuc-te/tr-06-og-cover-vi.png'
+coverImage: '~/assets/images/insights/lien-xo-1941-khong-cung-thuc-te/tr-06-og-cover-vi.png'
+ogImage: '~/assets/images/insights/lien-xo-1941-khong-cung-thuc-te/tr-06-og-cover-vi.png'
+coverImageAlt: "Hai người giỏi nhìn cùng dữ kiện nhưng không còn thấy cùng một thực tế."
 translationId: lien-xo-1941-khong-cung-thuc-te
 lang: vi
 category: trending

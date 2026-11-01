@@ -2,6 +2,10 @@
 title: "Running Is Not the Same as Being in Control"
 description: "Ukraine's Starshield disruption shows how an organization can keep its people and tools yet lose coordination. Four questions to test your operational visibility and control."
 publishDate: 2026-10-24T06:00:00Z
+image: '~/assets/images/insights/system-running-not-in-control/tr-07-og-cover-en.png'
+coverImage: '~/assets/images/insights/system-running-not-in-control/tr-07-og-cover-en.png'
+ogImage: '~/assets/images/insights/system-running-not-in-control/tr-07-og-cover-en.png'
+coverImageAlt: "The system runs fully while control remains an open question."
 translationId: he-thong-chay-khong-kiem-soat
 lang: en
 category: trending

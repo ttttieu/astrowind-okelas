@@ -2,6 +2,10 @@
 title: "The Tiger Tally Problem: Why a Valid Signature Doesn't Explain a Decision"
 description: "A digital signature proves who signed and that nothing changed. It doesn't show why. What an ancient tiger tally teaches manufacturers about decision audit trails."
 publishDate: 2026-10-24T03:00:00Z
+image: '~/assets/images/insights/ho-phu-decision-audit-trail/tr-04-og-cover-en.png'
+coverImage: '~/assets/images/insights/ho-phu-decision-audit-trail/tr-04-og-cover-en.png'
+ogImage: '~/assets/images/insights/ho-phu-decision-audit-trail/tr-04-og-cover-en.png'
+coverImageAlt: "The order and signature are authenticated, but how the decision was formed remains an open question."
 translationId: ho-phu-quyet-dinh-chi-dau
 lang: en
 category: trending
