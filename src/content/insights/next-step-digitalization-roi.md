@@ -2,7 +2,9 @@
 title: "The Next Economically Meaningful Digital Step: A Self-Assessment Framework for CEOs"
 description: "Not every digital investment delivers equal value at every stage. This article provides a framework for CEOs to evaluate which next step makes the most sense for their organization."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/next-step-digitalization.png'
+image: '~/assets/images/insights/next-step-digitalization-roi/nx-05-og-cover-en.png'
+coverImage: '~/assets/images/insights/next-step-digitalization-roi/nx-05-og-cover-en.png'
+ogImage: '~/assets/images/insights/next-step-digitalization-roi/nx-05-og-cover-en.png'
 category: 'business-operations'
 tags: ['Digital Investment', 'ROI', 'Strategy', 'Decision Framework', 'Business Decision']
 translationId: 'biz-ops-next-step-digitalization'

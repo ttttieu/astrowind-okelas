@@ -2,7 +2,9 @@
 title: "The True Cost of Not Digitalizing Your Business"
 description: "Businesses often focus on the cost of digital investment. Few calculate the full cost of staying manual. This article examines the hidden costs of non-digitalization."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/cost-of-not-digitalizing.png'
+image: '~/assets/images/insights/cost-of-not-digitalizing/cn-05-og-cover-en.png'
+coverImage: '~/assets/images/insights/cost-of-not-digitalizing/cn-05-og-cover-en.png'
+ogImage: '~/assets/images/insights/cost-of-not-digitalizing/cn-05-og-cover-en.png'
 category: 'business-operations'
 tags: ['Cost Analysis', 'Digitalization', 'ROI', 'Business Operations', 'Financial Impact']
 translationId: 'biz-ops-cost-of-not-digitalizing'

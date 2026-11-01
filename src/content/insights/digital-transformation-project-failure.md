@@ -2,7 +2,9 @@
 title: "The Big Bang Digital Transformation Trap: Why It Fails and What to Do Instead"
 description: "Many businesses invest heavily in large-scale digital transformation and don't achieve the expected results. This article examines common failure patterns and a more practical alternative."
 publishDate: 2025-09-24T00:00:00Z
-image: '~/assets/images/insights/digital-transformation-failure.png'
+image: '~/assets/images/insights/digital-transformation-project-failure/dp-06-og-cover-en.png'
+coverImage: '~/assets/images/insights/digital-transformation-project-failure/dp-06-og-cover-en.png'
+ogImage: '~/assets/images/insights/digital-transformation-project-failure/dp-06-og-cover-en.png'
 category: 'business-operations'
 tags: ['Digital Transformation', 'Project Failure', 'Risk Management', 'Implementation', 'Strategy']
 translationId: 'biz-ops-digital-transformation-failure'
