@@ -41,6 +41,10 @@ One clarification up front: this article **does not assess how Binance runs its 
 
 The information below is current as of November 1, 2026, based on Binance statements and independent reporting. The investigation is ongoing.
 
+![Three cards: what Binance stated early on, third-party analysis that is not confirmed, and what is still unknown such as the root cause.](~/assets/images/insights/one-laptop-blast-radius/tr10-01-published-vs-unknown-en.svg)
+
+*Figure 1. Three levels of certainty in the reporting on the incident, as of November 1, 2026.*
+
 **Stated by Binance or reported by multiple independent outlets:**
 
 - Binance estimates the impact at about $6.3 billion, which it describes as preliminary and unaudited. Blockchain analytics firms cite different figures, from just under $6 billion to more than $6.4 billion. The figure should not be read as the final net loss.
@@ -69,6 +73,10 @@ But their job requires logging into servers, reading configuration, deploying se
 That is the core point:
 
 **A person's real authority is not only what they are allowed to decide, but what the systems let them affect.**
+
+![Two boxes with a not-equal sign: authority to decide on the org chart is not the same as what the systems let a person affect in practice.](~/assets/images/insights/one-laptop-blast-radius/tr10-02-decide-vs-affect-en.svg)
+
+*Figure 2. Decision authority and the ability to affect are two different things.*
 
 From a knowledge-management view, four layers need to be separated, and they are seldom modeled together:
 
@@ -116,6 +124,10 @@ This is the difference between **having data about a system** and **having knowl
 
 Picture a generalized chain of impact. This is an **illustrative model for risk analysis, not a technical diagram that Binance has confirmed.**
 
+![A chain of five links from person, endpoint, service or container, and processing system to assets and records, each with a question the organization must answer.](~/assets/images/insights/one-laptop-blast-radius/tr10-03-chain-of-impact-en.svg)
+
+*Figure 3. A generalized chain of impact, with a question for each link (illustrative model).*
+
 | Link | Meaning | Question the organization must answer |
 |---|---|---|
 | Person | Knowledge, accounts, access | What does this person hold and what are they granted? |
@@ -153,6 +165,10 @@ The two views differ in the kind of question they ask:
 | Is there an incident response procedure? | Does the organization know which procedure to trigger, and on what evidence? |
 | Have employees been trained? | Has their real capability been assessed? |
 
+![Two boxes joined by an arrow: cybersecurity protects the system, knowledge management helps the organization understand and control it; neither replaces the other.](~/assets/images/insights/one-laptop-blast-radius/tr10-04-security-plus-km-en.svg)
+
+*Figure 4. Two layers both needed, each answering a different kind of question.*
+
 This **does not mean knowledge management can replace cybersecurity**. Access control, multi-factor authentication, endpoint management, secrets management, network segmentation, the principle of least privilege (described since the mid-1970s), transaction controls and monitoring remain mandatory technical layers. This article offers no technical security recommendations.
 
 What knowledge management adds is *reason and context*: why each protective layer exists, what it protects, how the layers connect, and what the scope of impact is when one fails.
@@ -162,6 +178,10 @@ In short: **cybersecurity protects the system; knowledge management helps the or
 ## Three states of knowledge when assessing blast radius
 
 As an organization starts answering these questions, one discipline is worth keeping, especially if AI is used to support the queries. Each risk conclusion should carry one of three states:
+
+![Three cards: verified, possible and unknown, each with its condition; do not turn a technical relationship into a confident conclusion.](~/assets/images/insights/one-laptop-blast-radius/tr10-05-three-states-en.svg)
+
+*Figure 5. Three states of knowledge when assessing blast radius.*
 
 - **Verified:** supported by evidence (configuration, logs, permission records).
 - **Possible:** a technical relationship exists, but exploitability has not been verified.

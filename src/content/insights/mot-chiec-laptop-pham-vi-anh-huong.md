@@ -41,6 +41,10 @@ Cần nói rõ ngay một điều: bài này **không đánh giá cách Binance 
 
 Thông tin dưới đây tính đến ngày 01/11/2026, dựa trên các thông báo của Binance và các bản tin độc lập. Sự cố vẫn đang được điều tra.
 
+![Ba thẻ: điều Binance công bố ở giai đoạn đầu, phân tích của bên thứ ba chưa được xác nhận, và những điều chưa biết như nguyên nhân gốc.](~/assets/images/insights/mot-chiec-laptop-pham-vi-anh-huong/tr10-01-published-vs-unknown-vi.svg)
+
+*Hình 1. Ba mức độ chắc chắn của thông tin về sự cố, tính đến 01/11/2026.*
+
 **Đã được Binance hoặc nhiều nguồn độc lập đưa ra:**
 
 - Binance ước tính tác động khoảng 6,3 tỷ USD. Họ gọi đây là ước tính sơ bộ, chưa kiểm toán. Các hãng phân tích blockchain đưa ra con số khác nhau, trong khoảng gần 6 đến hơn 6,4 tỷ USD. Số này không nên được hiểu là thiệt hại ròng cuối cùng.
@@ -69,6 +73,10 @@ Nhưng công việc của họ cần đăng nhập vào máy chủ, đọc cấu
 Đây là điểm cốt lõi:
 
 **Quyền hạn thực tế của một cá nhân không chỉ nằm ở những gì họ được phép quyết định, mà còn ở những gì hệ thống cho phép họ tác động.**
+
+![Hai ô với dấu không bằng: quyền được phép quyết định trên sơ đồ tổ chức khác với những gì hệ thống cho phép một người tác động trong thực tế.](~/assets/images/insights/mot-chiec-laptop-pham-vi-anh-huong/tr10-02-decide-vs-affect-vi.svg)
+
+*Hình 2. Quyền quyết định và khả năng tác động là hai việc khác nhau.*
 
 Từ góc độ quản trị tri thức, có bốn lớp cần phân biệt và hiếm khi được mô hình hóa cùng nhau:
 
@@ -116,6 +124,10 @@ Một doanh nghiệp có thể lưu hàng triệu dòng log, hàng nghìn trang 
 
 Hãy hình dung một chuỗi tác động khái quát. Đây là **mô hình minh họa để phân tích rủi ro, không phải sơ đồ kỹ thuật mà Binance đã xác nhận.**
 
+![Chuỗi năm mắt xích từ con người, thiết bị đầu cuối, dịch vụ hoặc container, hệ thống xử lý đến tài sản và hồ sơ, mỗi mắt xích kèm một câu hỏi tổ chức cần trả lời.](~/assets/images/insights/mot-chiec-laptop-pham-vi-anh-huong/tr10-03-chain-of-impact-vi.svg)
+
+*Hình 3. Chuỗi tác động khái quát và câu hỏi cho từng mắt xích (mô hình minh họa).*
+
 | Mắt xích | Ý nghĩa | Câu hỏi tổ chức cần trả lời |
 |---|---|---|
 | Con người | Tri thức, tài khoản, quyền truy cập | Người này nắm gì, được cấp gì? |
@@ -153,6 +165,10 @@ Hai góc nhìn dưới đây khác nhau ở loại câu hỏi mà chúng đặt 
 | Có quy trình xử lý sự cố không? | Tổ chức có biết phải kích hoạt quy trình nào, dựa trên bằng chứng nào? |
 | Nhân viên đã được đào tạo chưa? | Năng lực thực tế của nhân viên đã được đánh giá chưa? |
 
+![Hai ô nối bằng mũi tên: an ninh mạng bảo vệ hệ thống, quản trị tri thức giúp tổ chức hiểu và kiểm soát hệ thống đó; lớp này không thay thế lớp kia.](~/assets/images/insights/mot-chiec-laptop-pham-vi-anh-huong/tr10-04-security-plus-km-vi.svg)
+
+*Hình 4. Hai lớp cùng cần có, mỗi lớp trả lời một loại câu hỏi.*
+
 Điều này **không có nghĩa quản trị tri thức thay được an ninh mạng**. Phân quyền, xác thực đa yếu tố, quản lý thiết bị đầu cuối, quản lý bí mật (secrets), phân đoạn mạng, nguyên tắc đặc quyền tối thiểu (least privilege, vốn đã được mô tả từ giữa thập niên 1970), kiểm soát giao dịch và giám sát vẫn là các lớp kỹ thuật bắt buộc. Chúng tôi không đưa ra khuyến nghị kỹ thuật bảo mật trong bài này.
 
 Điều quản trị tri thức bổ sung là *lý do và bối cảnh*: vì sao mỗi lớp bảo vệ tồn tại, nó bảo vệ cái gì, các lớp nối với nhau ra sao, và khi một lớp thất bại thì phạm vi ảnh hưởng là gì.
@@ -162,6 +178,10 @@ Nói ngắn gọn: **an ninh mạng bảo vệ hệ thống; quản trị tri th
 ## Ba trạng thái tri thức khi đánh giá phạm vi ảnh hưởng
 
 Khi tổ chức bắt đầu trả lời các câu hỏi trên, có một nguyên tắc đáng giữ, đặc biệt nếu dùng AI để hỗ trợ truy vấn. Mỗi kết luận về rủi ro nên được gắn một trong ba trạng thái:
+
+![Ba thẻ: đã xác minh, có khả năng và chưa biết, kèm điều kiện của từng trạng thái; không biến quan hệ kỹ thuật thành kết luận chắc chắn.](~/assets/images/insights/mot-chiec-laptop-pham-vi-anh-huong/tr10-05-three-states-vi.svg)
+
+*Hình 5. Ba trạng thái tri thức khi đánh giá phạm vi ảnh hưởng.*
 
 - **Đã xác minh:** có bằng chứng (cấu hình, nhật ký, hồ sơ cấp quyền).
 - **Có khả năng:** có quan hệ về mặt kỹ thuật nhưng chưa xác minh được khả năng bị khai thác.
