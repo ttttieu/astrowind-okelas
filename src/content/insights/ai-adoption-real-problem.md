@@ -23,10 +23,12 @@ draft: false
 
 
 
-- AI can speed up individual tasks, but without adequate processes, data quality, and oversight mechanisms, that speed can amplify disorder rather than reduce it.
-- Individual productivity gains from AI do not automatically translate into organizational productivity. One employee saving 30 minutes may create verification work for several others.
-- The question is not whether to adopt AI. The question is whether the organization is ready to extract real value from it.
-- Before scaling AI deployment, CEOs should evaluate five dimensions: workflow clarity, knowledge structure, data reliability, control mechanisms, and people capability.
+> **Executive summary**
+>
+> - AI can speed up individual tasks, but without adequate processes, data quality, and oversight mechanisms, that speed can amplify disorder rather than reduce it.
+> - Individual productivity gains from AI do not automatically translate into organizational productivity. One employee saving 30 minutes may create verification work for several others.
+> - The question is not whether to adopt AI. The question is whether the organization is ready to extract real value from it.
+> - Before scaling AI deployment, CEOs should evaluate five dimensions: workflow clarity, knowledge structure, data reliability, control mechanisms, and people capability.
 
 ---
 
