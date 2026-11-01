@@ -5,7 +5,6 @@ publishDate: 2025-09-24T00:00:00Z
 image: '~/assets/images/insights/next-step-digitalization-roi/nx-05-og-cover-en.png'
 coverImage: '~/assets/images/insights/next-step-digitalization-roi/nx-05-og-cover-en.png'
 ogImage: '~/assets/images/insights/next-step-digitalization-roi/nx-05-og-cover-en.png'
-coverImageAlt: 'The Next Economically Meaningful Digital Step framework'
 category: 'business-operations'
 tags: ['Digital Investment', 'ROI', 'Strategy', 'Decision Framework', 'Business Decision']
 translationId: 'biz-ops-next-step-digitalization'

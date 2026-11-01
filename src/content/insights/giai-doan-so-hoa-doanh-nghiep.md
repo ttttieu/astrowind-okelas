@@ -3,6 +3,8 @@ title: "Doanh nghiệp của bạn đang ở giai đoạn số hóa nào?"
 description: "Số hóa không phải chỉ có hay không có — mà là một hành trình nhiều cấp độ. Bài viết giúp CEO tự xác định doanh nghiệp đang ở đâu và bước tiếp theo hợp lý là gì."
 publishDate: 2025-09-24T00:00:00Z
 image: '~/assets/images/insights/giai-doan-so-hoa-doanh-nghiep/lv-04-og-cover-vi.png'
+coverImage: '~/assets/images/insights/giai-doan-so-hoa-doanh-nghiep/lv-04-og-cover-vi.png'
+ogImage: '~/assets/images/insights/giai-doan-so-hoa-doanh-nghiep/lv-04-og-cover-vi.png'
 category: 'business-operations'
 tags: ['Số hóa', 'Cấp độ số hóa', 'Đánh giá doanh nghiệp', 'Manufacturing SME']
 translationId: 'biz-ops-digitalization-stages'

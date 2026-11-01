@@ -5,7 +5,6 @@ publishDate: 2025-09-24T00:00:00Z
 image: '~/assets/images/insights/software-tools-not-digitalization/sw-04-og-cover-en.png'
 coverImage: '~/assets/images/insights/software-tools-not-digitalization/sw-04-og-cover-en.png'
 ogImage: '~/assets/images/insights/software-tools-not-digitalization/sw-04-og-cover-en.png'
-coverImageAlt: 'More Software Does Not Mean More Digitalization'
 category: 'business-operations'
 tags: ['Software Tools', 'Digitalization', 'Integration', 'Strategy']
 translationId: 'biz-ops-software-not-digitalization'

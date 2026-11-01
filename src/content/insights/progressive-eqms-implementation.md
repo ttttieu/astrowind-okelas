@@ -5,7 +5,6 @@ publishDate: 2025-09-24T00:00:00Z
 image: '~/assets/images/insights/progressive-eqms-implementation/pe-05-og-cover-en.png'
 coverImage: '~/assets/images/insights/progressive-eqms-implementation/pe-05-og-cover-en.png'
 ogImage: '~/assets/images/insights/progressive-eqms-implementation/pe-05-og-cover-en.png'
-coverImageAlt: 'Progressive eQMS implementation'
 category: 'business-operations'
 tags: ['eQMS', 'Implementation', 'Progressive', 'Quality System', 'Incremental']
 translationId: 'biz-ops-progressive-eqms-implementation'
