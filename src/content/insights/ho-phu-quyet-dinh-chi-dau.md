@@ -34,6 +34,10 @@ Rồi một năm sau, một chuyên gia đánh giá hỏi: *"Tại sao lô nguy�
 > - Doanh nghiệp cần một lớp thứ ba: lịch sử hình thành quyết định có thể truy vết. Đây là một phần của bộ nhớ tổ chức, không chỉ là log hệ thống.
 > - Phần cuối bài có 7 câu hỏi để tự kiểm tra doanh nghiệp đang nhớ được bao nhiêu về quyết định của chính mình.
 
+![Bảng ba lớp xác thực: hổ phù, chữ ký số và lịch sử hình thành quyết định, với câu hỏi mỗi lớp trả lời được và chưa trả lời được.](~/assets/images/insights/ho-phu-quyet-dinh-chi-dau/tr04-01-three-checks-vi.svg)
+
+*Hình 1. Mỗi lớp xác thực trả lời một câu hỏi khác nhau.*
+
 ## "Phù hợp": một từ bắt nguồn từ hai nửa con hổ
 
 Người Việt dùng chữ "phù hợp" hằng ngày mà ít khi nghĩ đến gốc của nó. Theo cách giải thích từ nguyên phổ biến, "phù hợp" (符合) vốn chỉ việc hai nửa của một tín vật gọi là "phù" ghép lại khớp nhau, chứng tỏ không có giả mạo trong việc điều binh. Tín vật đó thường được đúc hình con hổ, nên gọi là **hổ phù** (虎符).
@@ -50,6 +54,10 @@ Một hiện vật cụ thể giúp hiểu rõ hơn. **Đỗ hổ phù** (杜虎
 
 ## Từ hai nửa con hổ đến cặp khóa của chữ ký số
 
+![Bảng so sánh hổ phù và chữ ký số về phần phát lệnh, phần kiểm tra và mức gắn với nội dung.](~/assets/images/insights/ho-phu-quyet-dinh-chi-dau/tr04-02-tally-vs-signature-vi.svg)
+
+*Hình 2. Hổ phù và chữ ký số: giống ở logic, khác ở mức gắn với nội dung.*
+
 Chữ ký số hiện đại cũng dựa trên một cặp. Luật Giao dịch điện tử 2023 (số 20/2023/QH15, hiệu lực từ 1/7/2024) định nghĩa chữ ký số là chữ ký điện tử dùng thuật toán khóa không đối xứng, gồm khóa bí mật để ký và khóa công khai để kiểm tra chữ ký. Tiêu chuẩn chữ ký số của Mỹ (NIST FIPS 186-5) mô tả cùng nguyên lý: chỉ người nắm khóa bí mật mới tạo được chữ ký, còn bất kỳ ai có khóa công khai tương ứng đều kiểm tra được.
 
 Nghe rất giống hổ phù: một phần để "phát lệnh", một phần để "kiểm tra", và hai phần chỉ khớp với nhau. Nhưng nếu dừng ở đó, phép so sánh sẽ sai ở ba chỗ quan trọng:
@@ -63,6 +71,10 @@ Nghe rất giống hổ phù: một phần để "phát lệnh", một phần đ
 Vì vậy, nói chính xác: **hổ phù và chữ ký số chia sẻ một nguyên lý xác thực bằng hai phần tương ứng, không chia sẻ thuật toán**. Hổ phù không phải "chữ ký số thời xưa". Chữ ký số đã giải quyết được những điểm yếu mà hổ phù có. Điểm yếu đầu tiên trong bảng trên, nửa tín vật phải di chuyển, chính là nơi lịch sử để lại một câu chuyện rất đáng suy ngẫm.
 
 ## Khi tín vật khớp, nhưng quyết định vẫn sai
+
+![Hai khối: tín vật khớp là hợp lệ về hình thức, nhưng câu hỏi người có quyền có thực sự ra lệnh vẫn chưa được trả lời.](~/assets/images/insights/ho-phu-quyet-dinh-chi-dau/tr04-03-valid-but-wrong-vi.svg)
+
+*Hình 3. Khớp về hình thức chưa trả lời câu hỏi về ý định.*
 
 Năm 257 trước Công nguyên, quân Tần vây Hàm Đan, kinh đô nước Triệu. Theo *Sử ký* của Tư Mã Thiên, vua Ngụy là An Ly vương sai tướng Tấn Bỉ đem mười vạn quân đi cứu. Nhưng khi Tần đe dọa, vua Ngụy sợ, ra lệnh cho Tấn Bỉ đóng quân ở đất Nghiệp, danh nghĩa là cứu Triệu, thực tế là chờ xem.
 
@@ -98,6 +110,10 @@ Trong các ngành bị quản lý chặt, một phần của lớp này đã là
 
 ### Một tình huống minh họa
 
+![Sáu bước hình thành quyết định: yêu cầu, bằng chứng, đánh giá, quyết định, hành động, kết quả; bước đánh giá thường không được lưu lại.](~/assets/images/insights/ho-phu-quyet-dinh-chi-dau/tr04-04-decision-chain-vi.svg)
+
+*Hình 4. Chuỗi hình thành quyết định (tình huống minh họa).*
+
 *Tình huống dưới đây là ví dụ giả định, không phải case khách hàng.*
 
 Một nhà máy chế biến thủy sản nhận lô nguyên liệu có một chỉ tiêu vượt ngưỡng nhẹ so với tiêu chuẩn nội bộ. Đơn hàng xuất khẩu đang gấp. Giám đốc ký phê duyệt chấp nhận có điều kiện.
@@ -118,6 +134,10 @@ Khi nhà cung cấp đó lặp lại vấn đề, trưởng QA mới không ph�
 Đỗ hổ phù cho phép hành động trước khi xác thực khi có lửa báo động. Doanh nghiệp hiện đại cũng cần ngoại lệ, vì vận hành thật không bao giờ chạy đúng quy trình 100%. Điều khác biệt là: **ngoại lệ phải để lại dấu vết về lý do**, nếu không nó sẽ dần trở thành quy trình ngầm mà không ai nhớ đã bắt đầu từ đâu.
 
 ## Từ log hệ thống đến bộ nhớ tổ chức
+
+![Ba loại ghi vết: log hệ thống cho IT, audit trail hồ sơ cho chất lượng, lịch sử hình thành quyết định cho ban điều hành.](~/assets/images/insights/ho-phu-quyet-dinh-chi-dau/tr04-05-log-vs-memory-vi.svg)
+
+*Hình 5. Ba loại ghi vết, mỗi loại phục vụ một người đọc.*
 
 Ba khái niệm hay bị dùng lẫn với nhau:
 

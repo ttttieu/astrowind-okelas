@@ -50,6 +50,10 @@ Với CEO một doanh nghiệp sản xuất, đây không chỉ là tin công ng
 
 ## Chi tiết đáng suy nghĩ nhất: lỗi đã từng được nhìn thấy
 
+![Ba dạng bỏ sót: không nhìn thấy, nhìn thấy nhưng đánh giá thấp, nhìn thấy từng mảnh nhưng không nối lại.](~/assets/images/insights/ai-tim-dieu-con-nguoi-bo-sot/tr05-01-three-ways-to-miss-vi.svg)
+
+*Hình 1. Ba dạng bỏ sót khác nhau.*
+
 Câu chuyện dễ được kể theo kiểu "AI giỏi hơn chuyên gia". Nhưng có một chi tiết làm câu chuyện khác đi.
 
 Theo chủ tịch OpenAI Greg Brockman, lỗi đã có trong PHP khoảng 14 năm. **Một phiên bản hạn chế của nó từng được phát hiện năm 2024, nhưng khi đó không được coi là đáng kể** (Fortune). Calif cũng cho biết họ không kỳ vọng tìm thấy gì nghiêm trọng, vì PHP vốn đã bị cộng đồng bảo mật soi xét rất kỹ. Wiz tóm lại rằng đoạn mã có lỗi đã nằm đó hơn mười năm; điều AI thay đổi là khả năng hiểu điểm yếu và biến nó thành một chuỗi khai thác chạy được.
@@ -65,6 +69,10 @@ Theo các báo cáo hiện có, PHP2Shell nghiêng về dạng 2 và dạng 3. �
 Trong doanh nghiệp, dạng 2 và dạng 3 thường phổ biến hơn dạng 1. Sai lệch đã được ghi vào biên bản. CAPA đã được đóng. Khiếu nại đã được trả lời. Mọi thứ đều có hồ sơ. Chỉ là không ai đặt chúng cạnh nhau.
 
 ## Con người có năng lực, nhưng năng lực không đồng nghĩa với bao quát
+
+![Bốn giới hạn của kiểm tra bằng người: sự chú ý, trường hợp hiếm, thời gian ngân sách phạm vi, ưu tiên rủi ro đã biết.](~/assets/images/insights/ai-tim-dieu-con-nguoi-bo-sot/tr05-02-human-limits-vi.svg)
+
+*Hình 2. Bốn giới hạn tự nhiên của kiểm tra bằng người.*
 
 Một kỹ sư bảo mật giỏi có thể đọc mã, hiểu kiến trúc và nhận ra vấn đề phức tạp. Một chuyên viên QA giỏi có thể soát một bộ hồ sơ GMP rất kỹ. Vấn đề không nằm ở năng lực, mà ở quy mô.
 
@@ -87,6 +95,10 @@ Vì vậy câu hỏi đúng không phải "AI có thay thế chuyên gia không"
 
 ## "Đã kiểm tra nhiều lần" không có nghĩa là "có đủ bằng chứng"
 
+![So sánh đã thực hiện kiểm tra với đã có đủ bằng chứng, áp dụng ở QMS, GMP, audit và phân quyền.](~/assets/images/insights/ai-tim-dieu-con-nguoi-bo-sot/tr05-03-checked-vs-evidenced-vi.svg)
+
+*Hình 3. Đã kiểm tra nhiều lần không có nghĩa là có đủ bằng chứng.*
+
 PHP là một trong những phần mềm được soi xét nhiều nhất thế giới. Nó vẫn có lỗi tồn tại hơn một thập kỷ. Bài học quản trị ở đây là sự khác biệt giữa **đã thực hiện việc kiểm tra** và **đã có đủ bằng chứng để tin rằng hệ thống ổn**.
 
 Nghịch lý này xuất hiện ở nhiều nơi trong doanh nghiệp sản xuất:
@@ -95,6 +107,10 @@ Nghịch lý này xuất hiện ở nhiều nơi trong doanh nghiệp sản xu�
 - bộ hồ sơ GMP đã qua nhiều vòng phê duyệt nhưng vẫn có mâu thuẫn giữa các tài liệu;
 - quy trình được audit định kỳ nhưng sai lệch nhỏ giữa các phiên bản vẫn lọt qua;
 - phân quyền được thiết kế đúng nhưng quyền truy cập thực tế tích lũy dần mà không ai nhận ra.
+
+![Bốn mảnh riêng đều đúng: SOP mới, biểu mẫu cũ, đào tạo chưa cập nhật, hai khiếu nại xử lý riêng; chưa ai nhìn cả bốn cùng lúc.](~/assets/images/insights/ai-tim-dieu-con-nguoi-bo-sot/tr05-04-four-pieces-vi.svg)
+
+*Hình 4. Bốn mảnh đều đúng nhưng chưa được nối lại (tình huống minh họa).*
 
 > **Tình huống minh họa** *(giả định, không phải case thực tế)*
 >
@@ -123,6 +139,10 @@ Thứ hai, năng lực này **dùng được cho cả hai phía**. OpenAI tự t
 *Nhận định của OKELAS:* trong bối cảnh tuân thủ, điều này có thể dẫn tới một thay đổi đáng chú ý. Khi khách hàng lớn hoặc đơn vị đánh giá cũng có thể dùng AI để đối chiếu hồ sơ, những mâu thuẫn trước đây "khó ai thấy" sẽ dễ bị phát hiện hơn. Doanh nghiệp không nên giả định rằng hồ sơ chỉ cần qua được một lần lấy mẫu.
 
 ## Vậy AI readiness thực sự là gì?
+
+![Năm nền tảng của AI readiness: tri thức, tài liệu, bằng chứng, trách nhiệm, lưu vết; cộng nền tảng thứ sáu là năng lực tiêu hóa phát hiện.](~/assets/images/insights/ai-tim-dieu-con-nguoi-bo-sot/tr05-05-readiness-foundations-vi.svg)
+
+*Hình 5. Nền tảng của AI readiness.*
 
 Khi AI có thể tìm ra những điều trước đây rất khó phát hiện, câu hỏi không còn là doanh nghiệp đã mua công cụ AI hay chưa. Câu hỏi là **tổ chức đã sẵn sàng khai thác năng lực đó hay chưa**.
 

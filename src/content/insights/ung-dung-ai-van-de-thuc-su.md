@@ -32,6 +32,10 @@ draft: false
 
 ## Bối cảnh: khi thực tế không như kỳ vọng
 
+![Hai cột so sánh: báo cáo thấy AI đã được triển khai, còn trong công việc thực tế là thêm một lớp việc cần kiểm tra và xử lý.](~/assets/images/insights/ung-dung-ai-van-de-thuc-su/tr01-01-tool-vs-system-vi.svg)
+
+*Hình 1. Cùng một thực tế, nhìn từ báo cáo và nhìn từ công việc.*
+
 Một [bài viết trên VnExpress](https://vnexpress.net/vo-mong-vi-voi-ung-dung-ai-5137139.html) gần đây đã phản ánh một hiện tượng ngày càng rõ nét: nhiều doanh nghiệp triển khai AI nhanh, đầu tư đáng kể, nhưng kết quả không tương xứng với kỳ vọng. Thay vì giảm việc, AI đôi khi tạo thêm việc. Thay vì nâng cao chất lượng, AI có thể tạo ra nội dung trông hoàn chỉnh nhưng thiếu chiều sâu hoặc chứa lỗi khó phát hiện.
 
 Đáng chú ý hơn cả bài viết là phần bình luận phía dưới. Hàng trăm người — từ nhân viên văn phòng đến quản lý, từ người trực tiếp sử dụng AI đến người phải tiếp nhận sản phẩm do AI tạo ra — đã chia sẻ trải nghiệm thực tế của mình. Những bình luận này không đơn giản là ủng hộ hay phản đối AI. Chúng phản ánh một bức tranh phức tạp hơn về khoảng cách giữa khả năng công nghệ và năng lực tổ chức.
@@ -41,6 +45,10 @@ Bài phân tích này tổng hợp các vấn đề từ bài báo và phần b�
 ---
 
 ## Sáu vấn đề nổi bật khi doanh nghiệp vội triển khai AI
+
+![Sáu thẻ: AI tạo thêm việc, rác AI, thiếu phán đoán, sai sót lan truyền, thiếu đào tạo và kiểm soát, cắt giảm nhân sự không đồng nghĩa với tăng năng suất.](~/assets/images/insights/ung-dung-ai-van-de-thuc-su/tr01-02-six-problems-vi.svg)
+
+*Hình 2. Sáu vấn đề nổi bật khi triển khai AI quá nhanh.*
 
 ### 1. AI tạo thêm việc thay vì giảm việc
 
@@ -100,6 +108,10 @@ Mèo Ú và khoaphamduy dự đoán người dùng có thể dần mệt mỏi v
 
 ## Ba tầng vấn đề: công nghệ, con người và hệ thống
 
+![Ba tầng xếp chồng: công nghệ, con người, hệ thống tổ chức; tầng hệ thống tổ chức là tầng sâu nhất.](~/assets/images/insights/ung-dung-ai-van-de-thuc-su/tr01-03-three-layers-vi.svg)
+
+*Hình 3. Ba tầng của vấn đề khi triển khai AI.*
+
 Nếu nhìn cả bài viết và các bình luận qua lăng kính quản trị, có thể nhận ra ba tầng vấn đề chồng lên nhau.
 
 **Tầng 1 — Công nghệ:** AI có thể sai, thiếu ổn định hoặc tạo ra kết quả khó kiểm chứng. Đây là vấn đề kỹ thuật và sẽ dần được cải thiện theo thời gian.
@@ -113,6 +125,10 @@ Tầng thứ ba có ý nghĩa đặc biệt quan trọng. AI không tự sửa c
 ---
 
 ## Nghịch lý năng suất: tối ưu công đoạn, tổn thất hệ thống
+
+![Chuỗi ba bước: chi phí tạo nội dung giảm, chi phí kiểm chứng và lọc tăng, niềm tin vào thông tin giảm.](~/assets/images/insights/ung-dung-ai-van-de-thuc-su/tr01-04-productivity-paradox-vi.svg)
+
+*Hình 4. Nghịch lý năng suất (minh họa định tính, không có số liệu).*
 
 Các bình luận về "rác AI" phản ánh một vấn đề kinh tế đáng chú ý.
 
@@ -175,6 +191,10 @@ Tuy nhiên, cần bổ sung: câu lệnh tốt và người dùng giỏi vẫn c
 ---
 
 ## Năm chiều đánh giá AI readiness cho doanh nghiệp
+
+![Năm chiều đánh giá mức sẵn sàng cho AI: Workflow, Knowledge, Data, Control, People.](~/assets/images/insights/ung-dung-ai-van-de-thuc-su/tr01-05-five-dimensions-vi.svg)
+
+*Hình 5. Năm chiều của AI readiness.*
 
 Từ những vấn đề mà cả bài báo và người dùng phản ánh, có thể phát triển năm câu hỏi tự đánh giá. Đây là khung đánh giá định hướng, không phải tiêu chí đã được kiểm chứng bằng nghiên cứu.
 

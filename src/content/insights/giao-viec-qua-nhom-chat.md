@@ -43,6 +43,10 @@ Câu hỏi thực sự là: **kể cả khi gửi đúng nhóm, cách làm đó 
 > - Tổn thất lớn nhất về dài hạn là tri thức phân mảnh: quyết định còn đó, nhưng lý do và bối cảnh thì thất lạc.
 > - Hướng xử lý không phải cấm chat, mà là phân định: chat để trao đổi, workflow để thực thi, hồ sơ để giữ kết quả.
 
+![Ba thẻ nghịch lý: càng tiện càng khó kiểm soát thông tin; trao đổi nhanh hơn nhưng việc chưa chắc xong nhanh hơn; càng nhiều trao đổi tri thức càng phân mảnh.](~/assets/images/insights/giao-viec-qua-nhom-chat/tr02-01-three-paradoxes-vi.svg)
+
+*Hình 1. Ba nghịch lý của giao việc qua nhóm chat.*
+
 ## Nghịch lý 1: Càng tiện, càng khó kiểm soát thông tin
 
 Trong tình huống trên, tin nhắn chỉ có một câu. Nhưng nếu kèm theo là file báo cáo, nhóm cư dân vừa nhận được doanh số, tên khách hàng, có khi cả những vấn đề nội bộ chưa được công bố.
@@ -52,6 +56,10 @@ Cú gửi nhầm chỉ là triệu chứng. Gốc rễ là thông tin nhạy c�
 Với doanh nghiệp sản xuất có khách hàng xuất khẩu, hồ sơ chất lượng hay cam kết bảo mật trong hợp đồng, đây không chỉ là chuyện ngượng ngùng. Đó là câu hỏi về **ranh giới kiểm soát thông tin** của tổ chức.
 
 ## Nghịch lý 2: Trao đổi nhanh hơn, nhưng công việc chưa chắc xong nhanh hơn
+
+![Năm câu hỏi công việc cần mà tin nhắn không tự trả lời: ai chịu trách nhiệm, ai phê duyệt, bằng chứng nào, đã chốt chưa, bước tiếp theo của ai.](~/assets/images/insights/giao-viec-qua-nhom-chat/tr02-02-what-chat-cant-answer-vi.svg)
+
+*Hình 2. Những điều công việc cần mà tin nhắn không tự giữ.*
 
 Một tin nhắn có thể giải quyết ngay một câu hỏi. Nhưng nó không tự trả lời những điều mà công việc cần:
 
@@ -76,6 +84,10 @@ Hãy theo chính yêu cầu "làm lại báo cáo" đi qua tổ chức:
 3. **Báo cáo được sửa và gửi lại.** Có ba file: "baocao_final", "final2", "final_sua". Bản nào là bản cuối? Ai xác nhận? Vì sao số liệu thay đổi?
 4. **Công việc vẫn chưa kết thúc.** Còn phê duyệt, cập nhật số liệu chính thức, thông báo cho bộ phận khác.
 
+![Bốn bước của một yêu cầu trong nhóm chat: giao việc, hỏi lại và gửi file, xuất hiện ba file final, việc chưa kết thúc.](~/assets/images/insights/giao-viec-qua-nhom-chat/tr02-03-request-journey-vi.svg)
+
+*Hình 3. Hành trình của một yêu cầu trong nhóm chat (tình huống minh họa).*
+
 Sáu tháng sau, một trưởng phòng mới tiếp nhận và hỏi: "Vì sao năm ngoái mình điều chỉnh dự báo quý III?" Câu trả lời nằm đâu đó giữa nhóm chat phòng ban, một email, vài file Excel và trí nhớ của hai người, một trong hai đã nghỉ việc.
 
 Nhóm chat ghi lại được cuộc trò chuyện. Nhưng **ghi lại cuộc trò chuyện không đồng nghĩa với quản lý được công việc**. Một hệ thống vận hành cần biết:
@@ -99,6 +111,10 @@ Khi những câu trả lời này không được gắn với nhau trong một h
 Ba vấn đề này không độc lập. Chúng có chung một gốc: thông tin, quyết định và tiến trình công việc không được quản lý như những phần liên kết của cùng một hệ thống.
 
 ## Không phải cấm chat, mà là đặt chat đúng chỗ
+
+![Ba lớp: chat để trao đổi, workflow để thực thi, hồ sơ và tri thức để giữ kết quả.](~/assets/images/insights/giao-viec-qua-nhom-chat/tr02-04-three-layers-vi.svg)
+
+*Hình 4. Đặt chat đúng chỗ trong ba lớp.*
 
 Kết luận dễ dãi nhất là "đừng dùng Zalo cho công việc". Kết luận đó vừa không thực tế, vừa không đúng.
 

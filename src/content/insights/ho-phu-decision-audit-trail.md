@@ -34,6 +34,10 @@ Both are early answers to a question every organization still faces: *how do we 
 > - Organizations need a third layer: a traceable history of how decisions are formed. That is organizational memory, not just a system log.
 > - A seven-question self-check at the end helps you see how much your company actually remembers about its own decisions.
 
+![Table of three verification layers: tiger tally, digital signature and decision history, showing what each can and cannot answer.](~/assets/images/insights/ho-phu-decision-audit-trail/tr04-01-three-checks-en.svg)
+
+*Figure 1. Each layer of verification answers a different question.*
+
 ## How a tiger tally worked
 
 A tiger tally (*hufu*, 虎符) was a small bronze tiger cut lengthwise into two halves, with interlocking pins and notches on the inner faces. The ruler kept one half. A garrison commander kept the other. An order to mobilize troops was carried by an envoy along with the ruler's half; the commander fitted it against his own. If the halves interlocked, he obeyed.
@@ -45,6 +49,10 @@ One surviving example, the **Du tiger tally** from the state of Qin, was found n
 Read it as a manager would, and it is a **delegation-of-authority policy**. Below fifty soldiers, the local commander decides. Above fifty, central authorization is required. In an emergency, act first and verify later. Thresholds, approval levels and exceptions — the same elements that appear in a modern approval matrix.
 
 ## From two halves of a tiger to a key pair
+
+![Table comparing the tiger tally and digital signature on the issuing side, the checking side and the link to content.](~/assets/images/insights/ho-phu-decision-audit-trail/tr04-02-tally-vs-signature-en.svg)
+
+*Figure 2. Same logic, different link to content.*
 
 A digital signature also relies on a matched pair. As NIST's Digital Signature Standard (FIPS 186-5) describes it, only the holder of the private key can generate a signature, while anyone with the corresponding public key can verify it.
 
@@ -59,6 +67,10 @@ The parallel with the tiger tally is tempting: one part to issue, one part to ch
 So the accurate claim is this: **the tiger tally and the digital signature share a principle of verification by corresponding parts, not an algorithm.** A digital signature fixes weaknesses the tally had. The first of them — the ruler's half had to travel — is exactly where history left a revealing story.
 
 ## When the tally matches but the decision is wrong
+
+![Two blocks: a matching token is formally valid, but whether the authority truly gave the order remains unanswered.](~/assets/images/insights/ho-phu-decision-audit-trail/tr04-03-valid-but-wrong-en.svg)
+
+*Figure 3. A formal match does not answer the question of intent.*
 
 In 257 BCE, Qin forces besieged Handan, capital of the state of Zhao. According to Sima Qian's *Records of the Grand Historian*, King Anxi of Wei sent his general Jin Bi with 100,000 troops to help — then, under threat from Qin, ordered him to halt at Ye and wait.
 
@@ -94,6 +106,10 @@ In regulated industries, part of this is already mandatory. FDA's 21 CFR Part 11
 
 ### An illustrative scenario
 
+![Six steps in forming a decision: request, evidence, assessment, decision, action, outcome; the assessment step is often not kept.](~/assets/images/insights/ho-phu-decision-audit-trail/tr04-04-decision-chain-en.svg)
+
+*Figure 4. The decision-formation chain (illustrative scenario).*
+
 *The scenario below is hypothetical, not a customer case.*
 
 A seafood processing plant receives a batch of raw material with one parameter slightly above its internal specification. An export order is due. The plant director signs a conditional acceptance.
@@ -114,6 +130,10 @@ When the same supplier has the same problem again, the new QA manager doesn't ha
 The Du tally allowed action before verification when the beacon fires were lit. Modern operations need exceptions too — real work never follows procedure 100% of the time. The difference is that **an exception should leave a trace of its reasoning**. Otherwise it quietly becomes an unwritten procedure that nobody remembers starting.
 
 ## From system logs to organizational memory
+
+![Three kinds of trace: system log for IT, record audit trail for quality, decision history for executives.](~/assets/images/insights/ho-phu-decision-audit-trail/tr04-05-log-vs-memory-en.svg)
+
+*Figure 5. Three kinds of trace, each for a different reader.*
 
 Three terms are often used interchangeably:
 

@@ -32,6 +32,10 @@ draft: false
 
 ## When Reality Falls Short of Expectations
 
+![Two columns: reports show AI as deployed, while in actual work it adds a layer of checking and handling tasks.](~/assets/images/insights/ai-adoption-real-problem/tr01-01-tool-vs-system-en.svg)
+
+*Figure 1. The same reality, seen from the report and from the work.*
+
 A recent article in VnExpress — one of Vietnam's most widely read news outlets — documented a growing pattern of disillusionment among businesses that rushed to adopt AI. Instead of reducing workloads, AI sometimes adds new ones. Instead of improving quality, it produces output that looked polished but contained hard-to-detect errors.
 
 What made the article especially revealing was not the reporting itself, but the hundreds of public comments beneath it. Employees, managers, business owners, and technical professionals shared firsthand accounts of what AI adoption actually looks like inside organizations. Their perspectives were neither uniformly optimistic nor pessimistic — they reflected a nuanced reality that most vendor marketing overlooks.
@@ -41,6 +45,10 @@ This analysis draws on both the article and the public discussion to examine a q
 ---
 
 ## Six Problems That Emerge When AI Is Deployed Too Fast
+
+![Six cards: AI creates work, AI noise, lack of judgment, error propagation, training and oversight gaps, and headcount cuts that do not equal productivity.](~/assets/images/insights/ai-adoption-real-problem/tr01-02-six-problems-en.svg)
+
+*Figure 2. Six problems that emerge when AI is deployed too fast.*
 
 ### 1. AI Creates Work Instead of Eliminating It
 
@@ -100,6 +108,10 @@ Many predicted that users may eventually grow tired of AI-generated content and 
 
 ## Three Layers of the Problem
 
+![Three stacked layers: technology, people, organizational system; the organizational system is the deepest.](~/assets/images/insights/ai-adoption-real-problem/tr01-03-three-layers-en.svg)
+
+*Figure 3. Three layers of the AI adoption problem.*
+
 Viewed through a management lens, both the article and the discussion reveal three distinct layers.
 
 **Layer 1 — Technology.** AI can produce errors, behave inconsistently, or generate outputs that are difficult to verify. This is a technical limitation that will gradually improve.
@@ -113,6 +125,10 @@ Layer 3 deserves particular attention. AI cannot fix a work system that already 
 ---
 
 ## The Productivity Paradox: Optimizing a Step, Damaging the System
+
+![A three-step chain: cost of creating falls, cost of verifying and filtering rises, trust in information falls.](~/assets/images/insights/ai-adoption-real-problem/tr01-04-productivity-paradox-en.svg)
+
+*Figure 4. The productivity paradox (qualitative illustration, no data).*
 
 The "AI noise" complaints reflect an economic pattern worth examining carefully.
 
@@ -175,6 +191,10 @@ However, good prompts and skilled users are necessary but not sufficient. AI als
 ---
 
 ## Five Dimensions of AI Readiness
+
+![Five dimensions of AI readiness: Workflow, Knowledge, Data, Control, People.](~/assets/images/insights/ai-adoption-real-problem/tr01-05-five-dimensions-en.svg)
+
+*Figure 5. The five dimensions of AI readiness.*
 
 Drawing from the issues raised by both the article and public discussion, five evaluation questions emerge. These form a directional assessment framework, not empirically validated criteria.
 

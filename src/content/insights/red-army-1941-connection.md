@@ -36,6 +36,10 @@ If you run a manufacturing business with several departments, several systems an
 > - Recovery came partly from **simplifying** the structure to match real capability, not from adding reporting layers.
 > - AI amplifies whatever picture an organization feeds it. If that picture is filtered, late or stripped of context, AI just gets it wrong faster.
 
+![Three layers of lost connection: seeing reality, deciding in time, adjusting.](~/assets/images/insights/red-army-1941-connection/tr06-01-three-levels-en.svg)
+
+*Figure 1. The three-layer model used throughout this article.*
+
 ## A giant organization whose weakest link was the connection
 
 Historian David Glantz, whose study of the pre-war Red Army remains a standard reference, concluded that it was poorly trained, under-equipped and badly organized for large-scale campaigns.[^1] He singled out the signal troops as the weakest part of the entire force: short of equipment and people, and unable to perform their wartime mission.[^3]
@@ -47,6 +51,10 @@ Communications relied heavily on fixed telephone lines, most of them unprotected
 Plenty of companies look the same. Processes work when orders are steady and suppliers deliver on time. When disruption hits, the real information flows through phone calls, private chats and the memory of a few key people.
 
 ## Layer 1 — Losing sight of reality
+
+![Two kinds of blindness: by filter, when warnings are filtered upward; and by broken link, when data is late or loses context.](~/assets/images/insights/red-army-1941-connection/tr06-02-two-kinds-of-blind-en.svg)
+
+*Figure 2. Two kinds of blindness at the seeing-reality layer.*
 
 ### The information existed. It was filtered on the way up.
 
@@ -64,6 +72,10 @@ On the first day, the Western and Northwestern Fronts grew steadily more confuse
 - **Disconnected blindness:** the information does not arrive in time, or arrives as an aggregate with no context. That is the dashboard updated at month-end, or the inventory figure that is correct in the system and wrong on the shelf.
 
 ## Layer 2 — Deciding on an outdated picture
+
+![Two pictures: outdated assumptions in the plan and what is really happening; decisions following the old plan drift from reality.](~/assets/images/insights/red-army-1941-connection/tr06-03-plan-vs-reality-en.svg)
+
+*Figure 3. The plan’s picture and the real picture.*
 
 On the night of 22 June, Moscow issued Directive No. 3: a general counteroffensive. The Southwestern Front was told to use at least five mechanized corps to encircle the German forces and take the Lublin area, inside German-occupied Poland, by the end of 24 June.[^9]
 
@@ -87,6 +99,10 @@ This is the part of "connection" that is easiest to miss: **connection is not on
 
 ## How the Red Army reconnected
 
+![Four ways to reconnect: clarify who decides, cut layers to match capacity, bring decision-makers closer to reality, restore information discipline.](~/assets/images/insights/red-army-1941-connection/tr06-04-recovery-en.svg)
+
+*Figure 4. Four ways to reconnect.*
+
 The 1941 story does not end with failure, and the recovery is the more useful part.
 
 - **Clarify who decides.** The Stavka (general headquarters) was set up on 23 June, and within days the strategy shifted to an "active strategic defense": stop, hold and wear down the enemy while reserves were assembled.[^2]
@@ -97,6 +113,10 @@ The 1941 story does not end with failure, and the recovery is the more useful pa
 Moscow held at the end of 1941. That was not due to these changes alone: autumn weather, overstretched German logistics and heavy German losses mattered a great deal.[^2] But one lesson is clear: **they did not fix the disconnect by adding layers and reports. They simplified the structure to fit their real capability, and moved decisions closer to where the information was.**
 
 ## From the front line to the plant floor
+
+![Table of three layers of lost connection in a company, with how each shows up and a question for the CEO.](~/assets/images/insights/red-army-1941-connection/tr06-05-enterprise-map-en.svg)
+
+*Figure 5. Three layers, how they show up, and questions for the CEO.*
 
 | Layer | Red Army, 1941 | What it looks like in a company | Question for the CEO |
 |---|---|---|---|

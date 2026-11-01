@@ -53,6 +53,10 @@ Hai bối cảnh, chiến trường và nhà máy, khác xa nhau về mức đ�
 
 ## Trong nhà máy, "tốc độ" là gì?
 
+![Hai nhịp: nhịp báo cáo đi từ giờ, ca, tuần đến tháng; nhịp sự cố có thể xuất hiện bất cứ lúc nào; giữa hai nhịp là khoảng trống.](~/assets/images/insights/he-thong-chay-khong-kiem-soat/tr07-01-rhythm-gap-vi.svg)
+
+*Hình 1. Khoảng trống giữa nhịp báo cáo và nhịp sự cố.*
+
 Hầu hết doanh nghiệp sản xuất vừa và nhỏ đều có hệ thống báo cáo. Vấn đề là nhịp của hệ thống thường không khớp với nhịp của sự cố.
 
 Một nhà máy chế biến ghi nhiệt độ tại điểm kiểm soát tới hạn trên biểu mẫu giấy. Công nhân điền theo giờ, tổ trưởng ký cuối ca, phòng QA tổng hợp vào Excel cuối tuần, ban giám đốc xem báo cáo tháng. Lúc 2 giờ sáng, nhiệt độ vượt ngưỡng trong một khoảng thời gian. Công nhân ghi lại, nhưng không ai ở vị trí ra quyết định biết cho đến sáng hôm sau, khi lô hàng đã đi tiếp sang công đoạn khác.
@@ -63,6 +67,10 @@ Báo cáo tháng của nhà máy này có thể vẫn đẹp. Hồ sơ đầy đ
 
 ## Ba thứ thường bị đánh đồng
 
+![Ba cặp bị đánh đồng: có nguồn lực khác biết dùng vào đâu; có dữ liệu khác nhìn thấy thực tế; bộ phận hoạt động khác tổ chức được kiểm soát.](~/assets/images/insights/he-thong-chay-khong-kiem-soat/tr07-02-three-confusions-vi.svg)
+
+*Hình 2. Ba cặp khái niệm thường bị đánh đồng.*
+
 Khi đánh giá năng lực quản trị, ban lãnh đạo dễ nhầm lẫn ba cặp khái niệm:
 
 1. **Có nguồn lực ≠ biết dùng nguồn lực vào đâu.** Nhà máy có đủ người giỏi, nhưng nếu thông tin không đến đúng người, đúng lúc, họ không thể hành động.
@@ -72,6 +80,10 @@ Khi đánh giá năng lực quản trị, ban lãnh đạo dễ nhầm lẫn ba 
 Điều đáng lo nhất là không dấu hiệu nào trong số này khiến nhà máy ngừng chạy. Sản xuất vẫn tiếp tục, báo cáo vẫn được gửi, các cuộc họp vẫn diễn ra. Tổ chức có thể tiếp tục vận hành trong khi dần mất khả năng kiểm soát chính hoạt động của mình.
 
 ## Bốn câu hỏi để kiểm tra khả năng kiểm soát
+
+![Bốn tầng nối tiếp: nhìn thấy, kết nối, định hướng, kiểm soát, mỗi tầng kèm một câu hỏi cho ban lãnh đạo.](~/assets/images/insights/he-thong-chay-khong-kiem-soat/tr07-03-four-layers-vi.svg)
+
+*Hình 3. Bốn tầng kiểm soát vận hành; tầng sau chỉ có ý nghĩa khi tầng trước đã có.*
 
 Có thể đặt khả năng kiểm soát vận hành thành bốn tầng nối tiếp nhau. Tầng sau chỉ có ý nghĩa khi tầng trước đã có:
 
@@ -100,6 +112,10 @@ Doanh nghiệp của bạn có bao nhiêu dấu hiệu dưới đây?
 Đây không phải thang điểm chuẩn. Nhưng nếu bạn đánh dấu từ ba ô trở lên, vấn đề có thể không nằm ở việc thiếu phần mềm hay thiếu người, mà ở **luồng kết nối giữa con người, quy trình, dữ liệu và hành động.**
 
 ## Số hóa từng bộ phận chưa phải là kiểm soát toàn hệ thống
+
+![Ba bộ phận đã số hóa là kế toán, kho, QA; vùng nối giữa các bộ phận không ai sở hữu.](~/assets/images/insights/he-thong-chay-khong-kiem-soat/tr07-04-department-vs-system-vi.svg)
+
+*Hình 4. Mỗi bộ phận chạy tốt, vùng nối thì bị bỏ ngỏ.*
 
 Nhiều doanh nghiệp đã đầu tư phần mềm cho từng phòng ban: kế toán có phần mềm kế toán, kho có phần mềm kho, QA có bảng tính riêng. Mỗi phần đều "đã số hóa". Nhưng khả năng kiểm soát nằm ở **chỗ nối giữa các phần**, và đó lại là chỗ thường không ai sở hữu.
 

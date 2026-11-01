@@ -51,6 +51,10 @@ If you run a manufacturing business, this is more than a technology headline. PH
 
 ## The most important detail: the flaw had been seen before
 
+![Three ways of missing a flaw: never seen, seen but underrated, seen in pieces but never connected.](~/assets/images/insights/php2shell-ai-readiness/tr05-01-three-ways-to-miss-en.svg)
+
+*Figure 1. Three different ways of missing something.*
+
 It's tempting to tell this as "AI beats human experts." One detail complicates that story.
 
 According to OpenAI president Greg Brockman, the flaw had been in PHP for about 14 years, and **a limited version of it had been found in 2024 but wasn't considered significant at the time** (Fortune). Calif said it didn't expect to find anything critical, given how heavily PHP has been reviewed. Wiz put it plainly: the vulnerable code had been there for over a decade, and "what AI changed was the ability to understand the weaknesses."
@@ -66,6 +70,10 @@ Based on the available reporting, PHP2Shell looks closest to forms 2 and 3. That
 Inside a business, forms 2 and 3 are usually more common than form 1. The deviation was recorded. The CAPA was closed. The complaint was answered. Everything has a record. Nobody put the records side by side.
 
 ## Expertise is not the same as coverage
+
+![Four limits of human review: attention, rare cases, time budget and scope, priority on known risks.](~/assets/images/insights/php2shell-ai-readiness/tr05-02-human-limits-en.svg)
+
+*Figure 2. Four natural limits of human-only review.*
 
 A strong security engineer can read code, grasp architecture and spot subtle problems. A strong QA manager can review a GMP file thoroughly. The constraint isn't skill. It's scale.
 
@@ -87,6 +95,10 @@ Calif noted that before AI, this kind of manual work was hard to do and harder s
 So the useful question isn't "Will AI replace our experts?" It's this: **if your experts gained a review capability they never had before, should the organization keep operating the same way?**
 
 ## "Checked many times" is not "enough evidence"
+
+![Comparing checks performed with enough evidence, relevant to QMS, GMP, audit and access rights.](~/assets/images/insights/php2shell-ai-readiness/tr05-03-checked-vs-evidenced-en.svg)
+
+*Figure 3. Checked many times is not the same as enough evidence.*
 
 PHP is among the most reviewed software on the planet, and it still carried a flaw for over a decade. The management lesson is the difference between **having performed checks** and **having enough evidence to trust the system**.
 
@@ -118,6 +130,10 @@ Second, **the capability cuts both ways**. OpenAI itself acknowledged that the s
 In compliance, this may shift expectations. If major customers or auditors can also use AI to cross-check records, inconsistencies that used to be "hard to spot" become easier to surface. It's unwise to assume your records only need to survive one round of sampling.
 
 ## So what is AI readiness, really?
+
+![Five foundations of AI readiness: knowledge, documents, evidence, accountability, traceability; plus a sixth, capacity to absorb findings.](~/assets/images/insights/php2shell-ai-readiness/tr05-05-readiness-foundations-en.svg)
+
+*Figure 5. The foundations of AI readiness.*
 
 Once AI can surface what used to be nearly invisible, the question is no longer whether you've bought AI tools. It's **whether your organization is ready to use what AI finds**.
 

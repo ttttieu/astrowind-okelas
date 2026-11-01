@@ -39,6 +39,10 @@ This is not an argument against cover notes. Writing one is good practice. The q
 
 ## The smallest page is the most expensive one
 
+![A three-step chain: the file is data, the cover note is judgment, the leader’s comment is the decision.](~/assets/images/insights/cover-note-institutional-knowledge-loss/tr03-01-note-is-judgment-en.svg)
+
+*Figure 1. From data to judgment and decision.*
+
 Consider what it takes to write those five lines.
 
 The writer reads the whole file. Checks it against procedures, contracts, test results or how a previous case was handled. Discards what doesn't matter. Picks the two or three pieces of evidence that do. Then forms a judgment: approve, reject, or approve with conditions.
@@ -50,6 +54,10 @@ In knowledge management terms, this is the moment when one person's experience a
 If the file is data, the cover note is the first point where that data becomes a judgment someone can act on. The director's handwritten decision is the second.
 
 ## Systems keep the outcome, not the reason
+
+![The chain file, judgment, decision, action; both ends are stored, the middle usually is not.](~/assets/images/insights/cover-note-institutional-knowledge-loss/tr03-02-what-gets-stored-en.svg)
+
+*Figure 2. Both ends are stored; the middle is usually lost.*
 
 A business decision typically moves through:
 
@@ -69,6 +77,10 @@ Moving approvals into software doesn't automatically fix this. In many companies
 
 ## The cost arrives later
 
+![Three moments the cost appears: a similar case returns, the person leaves, accountability is needed.](~/assets/images/insights/cover-note-institutional-knowledge-loss/tr03-03-three-moments-en.svg)
+
+*Figure 3. The cost arrives later, at three moments.*
+
 Throwing away one cover note does no harm on the day. That is exactly why the problem is easy to miss.
 
 Situations like this tend to resurface at three points:
@@ -80,6 +92,10 @@ Situations like this tend to resurface at three points:
 The result is a familiar paradox: thousands of carefully archived files, and a company that still has to ask key people for the reasoning.
 
 ## The note is not the problem
+
+![Four decision types worth keeping reasons for: exceptions, quality safety or legal risk, recurring decisions, decisions likely to be questioned.](~/assets/images/insights/cover-note-institutional-knowledge-loss/tr03-04-which-decisions-en.svg)
+
+*Figure 4. Not every note, only the right kinds of decisions.*
 
 The obvious reaction is to keep every cover note. Scan it, attach it, number it.
 
