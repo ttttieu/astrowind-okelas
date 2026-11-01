@@ -5,7 +5,6 @@ publishDate: 2025-09-24T00:00:00Z
 image: '~/assets/images/insights/paperless-khong-phai-chuyen-doi-so/pl-04-og-cover-vi.png'
 coverImage: '~/assets/images/insights/paperless-khong-phai-chuyen-doi-so/pl-04-og-cover-vi.png'
 ogImage: '~/assets/images/insights/paperless-khong-phai-chuyen-doi-so/pl-04-og-cover-vi.png'
-coverImageAlt: 'Paperless không phải chuyển đổi số - và đây là sự khác biệt'
 category: 'business-operations'
 tags: ['Paperless', 'Chuyển đổi số', 'Digital Operations', 'Manufacturing']
 translationId: 'biz-ops-paperless-vs-digital'

@@ -5,7 +5,6 @@ publishDate: 2025-09-24T00:00:00Z
 image: '~/assets/images/insights/chi-phi-khong-so-hoa/cn-05-og-cover-vi.png'
 coverImage: '~/assets/images/insights/chi-phi-khong-so-hoa/cn-05-og-cover-vi.png'
 ogImage: '~/assets/images/insights/chi-phi-khong-so-hoa/cn-05-og-cover-vi.png'
-coverImageAlt: 'Chi phí thực sự của việc không số hóa - những thứ ít ai tính vào'
 category: 'business-operations'
 tags: ['Phân tích chi phí', 'Số hóa', 'ROI', 'Vận hành', 'Tác động tài chính']
 translationId: 'biz-ops-cost-of-not-digitalizing'

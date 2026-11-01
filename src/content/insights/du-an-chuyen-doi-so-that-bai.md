@@ -5,7 +5,6 @@ publishDate: 2025-09-24T00:00:00Z
 image: '~/assets/images/insights/du-an-chuyen-doi-so-that-bai/dp-06-og-cover-vi.png'
 coverImage: '~/assets/images/insights/du-an-chuyen-doi-so-that-bai/dp-06-og-cover-vi.png'
 ogImage: '~/assets/images/insights/du-an-chuyen-doi-so-that-bai/dp-06-og-cover-vi.png'
-coverImageAlt: 'Bẫy của'
 category: 'business-operations'
 tags: ['Chuyển đổi số', 'Dự án', 'Rủi ro', 'Triển khai', 'Chiến lược']
 translationId: 'biz-ops-digital-transformation-failure'

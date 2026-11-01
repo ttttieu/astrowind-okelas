@@ -5,7 +5,6 @@ publishDate: 2025-09-24T00:00:00Z
 image: '~/assets/images/insights/digital-maturity-levels/lv-04-og-cover-en.png'
 coverImage: '~/assets/images/insights/digital-maturity-levels/lv-04-og-cover-en.png'
 ogImage: '~/assets/images/insights/digital-maturity-levels/lv-04-og-cover-en.png'
-coverImageAlt: 'The 5 Stages of Business Digitalization: Where Are You?'
 category: 'business-operations'
 tags: ['Digitalization', 'Digital Maturity', 'Business Assessment', 'Manufacturing SME']
 translationId: 'biz-ops-digitalization-stages'

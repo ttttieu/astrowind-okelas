@@ -5,7 +5,6 @@ publishDate: 2025-09-24T00:00:00Z
 image: '~/assets/images/insights/dms-eqms-knowledge-os-roadmap/rm-05-og-cover-en.png'
 coverImage: '~/assets/images/insights/dms-eqms-knowledge-os-roadmap/rm-05-og-cover-en.png'
 ogImage: '~/assets/images/insights/dms-eqms-knowledge-os-roadmap/rm-05-og-cover-en.png'
-coverImageAlt: 'From DMS to eQMS to Knowledge OS: Your Digitalization Roadmap'
 category: 'business-operations'
 tags: ['DMS', 'eQMS', 'Knowledge OS', 'Roadmap', 'Quality System']
 translationId: 'biz-ops-dms-eqms-knowledge-os'

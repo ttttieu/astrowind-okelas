@@ -5,7 +5,6 @@ publishDate: 2025-09-24T00:00:00Z
 image: '~/assets/images/insights/giai-doan-so-hoa-doanh-nghiep/lv-04-og-cover-vi.png'
 coverImage: '~/assets/images/insights/giai-doan-so-hoa-doanh-nghiep/lv-04-og-cover-vi.png'
 ogImage: '~/assets/images/insights/giai-doan-so-hoa-doanh-nghiep/lv-04-og-cover-vi.png'
-coverImageAlt: 'Doanh nghiệp của bạn đang ở giai đoạn số hóa nào?'
 category: 'business-operations'
 tags: ['Số hóa', 'Cấp độ số hóa', 'Đánh giá doanh nghiệp', 'Manufacturing SME']
 translationId: 'biz-ops-digitalization-stages'
