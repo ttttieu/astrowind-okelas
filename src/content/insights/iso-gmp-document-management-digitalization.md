@@ -5,6 +5,7 @@ publishDate: 2025-09-24T00:00:00Z
 image: '~/assets/images/insights/iso-gmp-document-management-digitalization/iso-05-og-cover-en.png'
 coverImage: '~/assets/images/insights/iso-gmp-document-management-digitalization/iso-05-og-cover-en.png'
 ogImage: '~/assets/images/insights/iso-gmp-document-management-digitalization/iso-05-og-cover-en.png'
+coverImageAlt: 'ISO and GMP Records Management in a Digital Environment'
 category: 'business-operations'
 tags: ['ISO', 'GMP', 'Compliance', 'Records Management', 'Document Control']
 translationId: 'biz-ops-iso-gmp-records-management'

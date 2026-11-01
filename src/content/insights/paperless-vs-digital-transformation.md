@@ -5,6 +5,7 @@ publishDate: 2025-09-24T00:00:00Z
 image: '~/assets/images/insights/paperless-vs-digital-transformation/pl-04-og-cover-en.png'
 coverImage: '~/assets/images/insights/paperless-vs-digital-transformation/pl-04-og-cover-en.png'
 ogImage: '~/assets/images/insights/paperless-vs-digital-transformation/pl-04-og-cover-en.png'
+coverImageAlt: 'Paperless Is Not Digital Transformation: Here'
 category: 'business-operations'
 tags: ['Paperless', 'Digital Transformation', 'Digital Operations', 'Manufacturing']
 translationId: 'biz-ops-paperless-vs-digital'

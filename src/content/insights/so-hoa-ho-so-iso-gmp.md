@@ -5,6 +5,7 @@ publishDate: 2025-09-24T00:00:00Z
 image: '~/assets/images/insights/so-hoa-ho-so-iso-gmp/iso-05-og-cover-vi.png'
 coverImage: '~/assets/images/insights/so-hoa-ho-so-iso-gmp/iso-05-og-cover-vi.png'
 ogImage: '~/assets/images/insights/so-hoa-ho-so-iso-gmp/iso-05-og-cover-vi.png'
+coverImageAlt: 'ISO và GMP trong bối cảnh số hóa - những gì cần thay đổi'
 category: 'business-operations'
 tags: ['ISO', 'GMP', 'Compliance', 'Quản lý hồ sơ', 'Document Control']
 translationId: 'biz-ops-iso-gmp-records-management'

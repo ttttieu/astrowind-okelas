@@ -5,6 +5,7 @@ publishDate: 2025-09-24T00:00:00Z
 image: '~/assets/images/insights/lo-trinh-dms-eqms-knowledge-os/rm-05-og-cover-vi.png'
 coverImage: '~/assets/images/insights/lo-trinh-dms-eqms-knowledge-os/rm-05-og-cover-vi.png'
 ogImage: '~/assets/images/insights/lo-trinh-dms-eqms-knowledge-os/rm-05-og-cover-vi.png'
+coverImageAlt: 'Từ DMS đến eQMS đến Knowledge OS - lộ trình số hóa từng bước'
 category: 'business-operations'
 tags: ['DMS', 'eQMS', 'Knowledge OS', 'Lộ trình', 'Hệ thống chất lượng']
 translationId: 'biz-ops-dms-eqms-knowledge-os'

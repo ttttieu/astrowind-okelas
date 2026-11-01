@@ -5,6 +5,7 @@ publishDate: 2025-09-24T00:00:00Z
 image: '~/assets/images/insights/nhieu-phan-mem-chua-so-hoa/sw-04-og-cover-vi.png'
 coverImage: '~/assets/images/insights/nhieu-phan-mem-chua-so-hoa/sw-04-og-cover-vi.png'
 ogImage: '~/assets/images/insights/nhieu-phan-mem-chua-so-hoa/sw-04-og-cover-vi.png'
+coverImageAlt: 'Nhiều phần mềm không có nghĩa là doanh nghiệp đã số hóa'
 category: 'business-operations'
 tags: ['Phần mềm', 'Số hóa', 'Integration', 'Strategy']
 translationId: 'biz-ops-software-not-digitalization'

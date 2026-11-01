@@ -5,6 +5,7 @@ publishDate: 2025-09-24T00:00:00Z
 image: '~/assets/images/insights/progressive-eqms-la-gi/pe-05-og-cover-vi.png'
 coverImage: '~/assets/images/insights/progressive-eqms-la-gi/pe-05-og-cover-vi.png'
 ogImage: '~/assets/images/insights/progressive-eqms-la-gi/pe-05-og-cover-vi.png'
+coverImageAlt: 'Progressive eQMS là gì - và tại sao đây là cách tiếp cận phù hợp cho SME'
 category: 'business-operations'
 tags: ['eQMS', 'Triển khai', 'Progressive', 'Hệ thống chất lượng', 'Incremental']
 translationId: 'biz-ops-progressive-eqms-implementation'
