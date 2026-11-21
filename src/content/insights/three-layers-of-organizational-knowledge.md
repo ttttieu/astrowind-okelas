@@ -22,7 +22,7 @@ secondaryKeywords:
 assessmentHref: '/en/readiness/knowledge'
 ctaPrimaryText: 'Take the Knowledge Management Maturity Assessment'
 ctaSubtitle: 'Identify your maturity level and the first improvement to make'
-draft: true
+draft: false
 ---
 
 <!-- BODY:START id=main -->
@@ -239,13 +239,3 @@ Separate them so each is managed for what it is, then connect them so you can tr
 *The three-layer model is a classification proposed by OKELAS for discussion. It is not an industry-standard term or a certified methodology. This article is written from a governance perspective, not as compliance or legal advice. Situations described are illustrative examples, not real cases.*
 
 <!-- BODY:END -->
-
-<!-- EDITABLE:notes START
-Notes for the reviewer (REMOVE before publishing):
-- MODE: WRITE per the request to rewrite the source article. EN is adapted from the VI version, not translated sentence by sentence: new title and headings, different primary keyword, "OKELAS viewpoint" section kept.
-- EN primary keyword "types of organizational knowledge" is a hypothesis about search intent; search volume was not checked. Revisit with Search Console data.
-- The "three or more" threshold in the self-check is an OKELAS discussion threshold, not a statistic.
-- publishDate is a placeholder; draft: true.
-- Confirm the on-premise sentence matches current deployment capability.
--->
-<!-- EDITABLE:notes END -->

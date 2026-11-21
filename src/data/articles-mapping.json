@@ -1806,6 +1806,19 @@
         "category": "trending",
         "url": "/en/insights/trending/one-laptop-blast-radius"
       }
+    },
+    {
+      "translationId": "three-layers-organizational-knowledge",
+      "vi": {
+        "slug": "ba-lop-tri-thuc-doanh-nghiep",
+        "category": "knowledge-management",
+        "url": "/insights/knowledge-management/ba-lop-tri-thuc-doanh-nghiep"
+      },
+      "en": {
+        "slug": "three-layers-of-organizational-knowledge",
+        "category": "knowledge-management",
+        "url": "/en/insights/knowledge-management/three-layers-of-organizational-knowledge"
+      }
     }
   ]
 }
