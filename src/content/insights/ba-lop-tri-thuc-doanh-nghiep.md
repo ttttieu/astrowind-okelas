@@ -22,7 +22,7 @@ secondaryKeywords:
 assessmentHref: '/readiness/knowledge'
 ctaPrimaryText: 'Làm Knowledge Management Maturity Assessment'
 ctaSubtitle: 'Xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên'
-draft: true
+draft: false
 ---
 
 <!-- BODY:START id=main -->
@@ -239,15 +239,3 @@ Tách ra để quản trị đúng bản chất, rồi nối lại để truy v�
 *Mô hình ba lớp là cách phân loại do OKELAS đề xuất để thảo luận, không phải thuật ngữ chuẩn ngành hay phương pháp luận được chứng nhận. Bài viết phân tích từ góc độ quản trị, không phải tư vấn tuân thủ hay pháp lý. Các tình huống là ví dụ minh họa, không phải case thực.*
 
 <!-- BODY:END -->
-
-<!-- EDITABLE:notes START
-Ghi chú cho người duyệt (XÓA trước khi publish):
-- MODE: WRITE theo yêu cầu viết lại bài gốc. Giữ nguyên toàn bộ ý của bài gốc (3 lớp, danh mục từng lớp, ví dụ 3 phiên bản SOP, ví dụ kiểm tra chất lượng, bảng công cụ, 3 giai đoạn, phần kết).
-- Thay đổi so với bài gốc: thêm tóm tắt CEO, mở đầu theo chuẩn 02, căn cứ ISO 9001:2015 điều 7.1.6, ALCOA (WHO), mục "Ranh giới giữa các lớp", mục tự kiểm tra, mục "Cách OKELAS tiếp cận", chuỗi Process→...→Action.
-- Bài gốc để "Lessons Learned" ở lớp Internal và "Operational Experience" ở lớp Operational mà không phân ranh; bản này làm rõ bằng bảng ranh giới.
-- Bài gốc gọi "phần mềm KM chuyên dụng" chung chung; bản này chuyển thành "hệ thống có cấu trúc" và đặt OKELAS ở mục riêng, có nhãn quan điểm.
-- Ngưỡng "ba câu trở lên" ở mục tự kiểm tra là ngưỡng thảo luận do OKELAS đặt, không có nguồn thống kê.
-- publishDate là giá trị tạm; draft: true. Cần quyết định ngày publish.
-- Cần xác nhận: câu "triển khai tại chỗ là một lựa chọn cần được cân nhắc" khớp năng lực triển khai hiện tại.
--->
-<!-- EDITABLE:notes END -->
