@@ -37,6 +37,7 @@ const articleCoverPrefix: Record<string, string> = {
   'excel-email-he-thong-van-hanh-ngam': 'xsi',
   'chi-phi-mat-tri-thuc-san-xuat': 'ckl',
   'dms-va-knowledge-management': 'dkm',
+  'ba-lop-tri-thuc-doanh-nghiep': 'tlk',
   'knowledge-graph-doanh-nghiep': 'kgb',
   'chuan-bi-audit-iso-mat-nhieu-thoi-gian': 'aud',
 };
@@ -51,6 +52,7 @@ const articleOrder: Record<string, number> = {
   'excel-email-he-thong-van-hanh-ngam': 5, // 3.5
   'chi-phi-mat-tri-thuc-san-xuat': 6, // 3.6
   'dms-va-knowledge-management': 7, // 3.7
+  'ba-lop-tri-thuc-doanh-nghiep': 7.5, // ba lớp tri thức (giữa 3.7 và 3.8)
   'knowledge-graph-doanh-nghiep': 8, // 3.8
   'chuan-bi-audit-iso-mat-nhieu-thoi-gian': 9, // 3.9
 };
@@ -92,13 +94,14 @@ const typeBadgeClass: Record<string, string> = {
 
       <p class="mt-3">
         <strong>Tự đánh giá:</strong>
-        <a href="/readiness/knowledge-management" class="text-primary hover:underline ml-1">Làm bài Knowledge Readiness Assessment →</a>
+        <a href="/readiness/knowledge" class="text-primary hover:underline ml-1">Làm bài Knowledge Readiness Assessment →</a>
       </p>
 
       <div class="mt-8">
         <p class="font-semibold mb-3">Các chủ đề đang được khai thác <span class="font-normal text-muted">(sẽ tiếp tục cập nhật):</span></p>
         <ul class="space-y-2 text-muted">
           <li>Tri thức tổ chức — khi định nghĩa được cụ thể hóa thay vì chỉ là khái niệm chung chung</li>
+          <li>Ba lớp tri thức — bên ngoài, nội bộ và vận hành: <a href="/insights/knowledge-management/ba-lop-tri-thuc-doanh-nghiep" class="text-primary hover:underline">phân loại để biết cần kiểm soát gì và bắt đầu từ đâu</a></li>
           <li>Từ tri thức ngầm sang tri thức tường minh — bước chuyển mà phần lớn doanh nghiệp bỏ qua</li>
           <li>Chia sẻ tri thức — vì sao "để lên thư mục chung" không giải quyết được vấn đề</li>
           <li>Giữ chân tri thức — chi phí thực sự khi một nhân sự chủ chốt ra đi</li>
@@ -161,7 +164,7 @@ const typeBadgeClass: Record<string, string> = {
       {
         variant: 'primary',
         text: 'Knowledge Readiness Assessment',
-        href: '/readiness/knowledge-management',
+        href: '/readiness/knowledge',
         icon: 'tabler:clipboard-check',
       },
       {
