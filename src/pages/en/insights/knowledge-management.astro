@@ -37,6 +37,7 @@ const articleCoverPrefix: Record<string, string> = {
   'excel-shadow-it': 'xsi',
   'cost-of-knowledge-loss': 'ckl',
   'dms-vs-knowledge-management': 'dkm',
+  'three-layers-of-organizational-knowledge': 'tlk',
   'knowledge-graph-for-business': 'kgb',
   'why-audit-preparation-takes-so-long': 'aud',
 };
@@ -51,6 +52,7 @@ const articleOrder: Record<string, number> = {
   'excel-shadow-it': 5, // 3.5
   'cost-of-knowledge-loss': 6, // 3.6
   'dms-vs-knowledge-management': 7, // 3.7
+  'three-layers-of-organizational-knowledge': 7.5, // three layers of knowledge (between 3.7 and 3.8)
   'knowledge-graph-for-business': 8, // 3.8
   'why-audit-preparation-takes-so-long': 9, // 3.9
 };
@@ -92,13 +94,14 @@ const typeBadgeClass: Record<string, string> = {
 
       <p class="mt-3">
         <strong>Assess it:</strong>
-        <a href="/en/readiness/knowledge-management" class="text-primary hover:underline ml-1">Take the Knowledge Readiness Assessment →</a>
+        <a href="/en/readiness/knowledge" class="text-primary hover:underline ml-1">Take the Knowledge Readiness Assessment →</a>
       </p>
 
       <div class="mt-8">
         <p class="font-semibold mb-3">Topics we're covering here <span class="font-normal text-muted">(more added regularly):</span></p>
         <ul class="space-y-2 text-muted">
           <li>Organizational knowledge — what it is once you get specific about it</li>
+          <li>Three layers of knowledge — external, internal and operational: <a href="/en/insights/knowledge-management/three-layers-of-organizational-knowledge" class="text-primary hover:underline">a way to classify what to control and where to start</a></li>
           <li>Tacit → explicit knowledge — the conversion that most companies skip</li>
           <li>Knowledge sharing — why "put it on the shared drive" doesn't count</li>
           <li>Knowledge retention — the real cost of a key employee leaving</li>
@@ -161,7 +164,7 @@ const typeBadgeClass: Record<string, string> = {
       {
         variant: 'primary',
         text: 'Knowledge Readiness Assessment',
-        href: '/en/readiness/knowledge-management',
+        href: '/en/readiness/knowledge',
         icon: 'tabler:clipboard-check',
       },
       {
