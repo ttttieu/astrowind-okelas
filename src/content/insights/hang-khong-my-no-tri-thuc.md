@@ -37,7 +37,7 @@ Cần nói rõ phạm vi. Bài này **không kết luận** rằng các sự c�
 
 Dưới đây là những gì đã được ghi nhận công khai. Chúng tôi tách rõ điều đã xác nhận và điều chưa.
 
-![Ba thẻ: sự cố NOTAM ngày 11/01/2023, sự cố Newark ngày 28/04/2025 và lệnh dừng cất cánh toàn quốc ngày 13/11/2026 với nguyên nhân gốc chưa công bố.](~/assets/images/insights/hang-khong-my-no-tri-thuc/tr11-01-three-incidents-vi.svg)
+![Ba thẻ: sự cố NOTAM ngày 11/01/2023, sự cố Newark ngày 28/04/2025 và lệnh dừng cất cánh trên toàn nước Mỹ ngày 13/11/2026 với nguyên nhân gốc chưa công bố.](~/assets/images/insights/hang-khong-my-no-tri-thuc/tr11-01-three-incidents-vi.svg)
 
 *Hình 1. Ba sự cố công khai và điều đã được ghi nhận về từng sự cố.*
 
@@ -45,7 +45,7 @@ Dưới đây là những gì đã được ghi nhận công khai. Chúng tôi t
 
 **Ngày 28/04/2025, Newark.** Kiểm soát viên mất hình ảnh radar và liên lạc vô tuyến với máy bay trong khoảng 60 đến 90 giây. Các bản tin ghi nhận nguyên nhân liên quan đến một sợi cáp đồng cũ trong đường truyền viễn thông, và hơn một nghìn chuyến bay bị hủy sau đó theo CNN.
 
-**Ngày 13/11/2026, lệnh dừng cất cánh trên toàn quốc.** Theo các bản tin, FAA ban hành lệnh dừng cất cánh sau khi mất ổn định ở 17 trong số 22 trung tâm kiểm soát đường dài. Công việc viễn thông đang diễn ra tại một cơ sở ở El Dorado, bang Arkansas, trong khuôn khổ việc chuyển đường truyền từ cáp đồng sang cáp quang. Bộ trưởng Giao thông Sean Duffy nói rằng các thiết bị chuyển mạch và định tuyến cũ đã quá tải dữ liệu. FAA đã tạm dừng lắp đặt một loại router mới trong khi điều tra vì sao một chức năng mạng lẽ ra phải tắt lại hoạt động. **Nguyên nhân gốc chưa được công bố.** Chúng tôi không dùng các giả thuyết chưa xác nhận, chẳng hạn các tin nói về lỗi của một nhà thầu cụ thể.
+**Ngày 13/11/2026, lệnh dừng cất cánh trên toàn nước Mỹ.** Theo các bản tin, FAA ban hành lệnh dừng cất cánh sau khi mất ổn định ở 17 trong số 22 trung tâm kiểm soát đường dài. Công việc viễn thông đang diễn ra tại một cơ sở ở El Dorado, bang Arkansas, trong khuôn khổ việc chuyển đường truyền từ cáp đồng sang cáp quang. Bộ trưởng Giao thông Sean Duffy nói rằng các thiết bị chuyển mạch và định tuyến cũ đã quá tải dữ liệu. FAA đã tạm dừng lắp đặt một loại router mới trong khi điều tra vì sao một chức năng mạng lẽ ra phải tắt lại hoạt động. **Nguyên nhân gốc chưa được công bố.** Chúng tôi không dùng các giả thuyết chưa xác nhận, chẳng hạn các tin nói về lỗi của một nhà thầu cụ thể.
 
 Ngoài ra, ngày 22/11/2026, một hệ thống của riêng Delta, ALIS (Automated Load Instruction System), dùng để tính khối lượng và cân bằng tải trước khi cất cánh, ngừng hoạt động. Delta cho biết đội ngũ dùng quy trình thủ công để tiếp tục khởi hành, rồi báo đã khôi phục trong cùng ngày. Nguyên nhân chưa được nêu. Đây là sự cố của một hãng bay, không phải của FAA.
 
@@ -93,11 +93,11 @@ Chúng tôi đề xuất mượn cách nghĩ đó cho một khoảng trống kh�
 Khoản nợ này tích tụ theo một cơ chế khá quen thuộc:
 
 1. Hệ thống chạy ổn, nên không ai thấy lý do ghi lại vì sao nó chạy như vậy.
-2. Người hiểu nó nghỉ việc, chuyển bộ phận hoặc nghỉ hưu. Tài liệu còn lại lỗi thời dần.
+2. Người hiểu nó nghỉ việc, chuyển bộ phận hoặc nghỉ hưu. Tài liệu còn lại tích tụ lỗi theo thời gian.
 3. Hệ thống được vá, nối thêm, chuyển hạ tầng. Mỗi lần thay đổi thêm một phụ thuộc mà không ai ghi.
 4. Một sự cố hoặc một thay đổi bình thường chạm vào phụ thuộc đó. Chẩn đoán kéo dài vì phải khám phá lại điều lẽ ra đã biết.
 
-![Chuỗi bốn bước: hệ thống chạy ổn, người hiểu rời đi, hệ thống được vá và chuyển hạ tầng, rồi sự cố chạm vào phụ thuộc chưa ghi, khiến chẩn đoán kéo dài.](~/assets/images/insights/hang-khong-my-no-tri-thuc/tr11-03-debt-buildup-vi.svg)
+![Chuỗi bốn bước: hệ thống chạy ổn, người hiểu rời đi, hệ thống được vá và chuyển hạ tầng, rồi sự cố xảy ra ở một phụ thuộc chưa ghi, khiến chẩn đoán kéo dài.](~/assets/images/insights/hang-khong-my-no-tri-thuc/tr11-03-debt-buildup-vi.svg)
 
 *Hình 3. Cơ chế tích tụ nợ tri thức (khung thảo luận định tính, không có số liệu).*
 
@@ -105,7 +105,7 @@ Khoản nợ này tích tụ theo một cơ chế khá quen thuộc:
 
 ### Thay phần mềm cũ bằng phần mềm mới chưa phải là lời giải
 
-Phản ứng tự nhiên sau mỗi sự cố là thay hệ thống. Thay là cần, nhưng chưa đủ. FAA đã chuyển hệ thống NOTAM sang nền tảng đám mây vào tháng 4/2026 và dự kiến gỡ nốt hệ thống cũ còn lại trong năm đó. Nhưng cũng trong tháng 11/2026, các quan chức mô tả sự cố trên toàn quốc là sự tương tác giữa thiết bị mới được lắp và hạ tầng cũ. Điều tra chưa kết luận, nên chúng tôi không nói thiết bị mới là nguyên nhân. Điều tình huống này gợi ra là một nguyên tắc chung hơn:
+Phản ứng tự nhiên sau mỗi sự cố là thay hệ thống. Thay là cần, nhưng chưa đủ. FAA đã chuyển hệ thống NOTAM sang nền tảng đám mây vào tháng 4/2026 và dự kiến gỡ nốt hệ thống cũ còn lại trong năm đó. Nhưng cũng trong tháng 11/2026, các quan chức mô tả sự cố trên toàn nước Mỹ là sự tương tác giữa thiết bị mới được lắp và hạ tầng cũ. Điều tra chưa kết luận, nên chúng tôi không nói thiết bị mới là nguyên nhân. Điều tình huống này gợi ra là một nguyên tắc chung hơn:
 
 **Không phải cứ thay phần mềm cũ bằng phần mềm mới là giải quyết được vấn đề. Nếu không chuyển giao tri thức nghiệp vụ, không hiểu các dependency và không duy trì năng lực vận hành độc lập, doanh nghiệp chỉ chuyển nợ tri thức từ hệ thống cũ sang hệ thống mới.**
 
