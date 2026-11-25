@@ -143,6 +143,8 @@ Nhiều SME nghĩ DMS là một hệ thống lớn: cần dự án triển khai,
 
 OKELAS Free Edition cung cấp nền tảng quản lý artifact và lịch sử phiên bản. Doanh nghiệp có thể bắt đầu từ vài tài liệu công việc thông thường: tập trung chúng lại và giữ lịch sử hình thành. Không cần thay đổi toàn bộ quy trình, và không cần yêu cầu nhân viên viết thêm nhật ký công việc.
 
+Cần nói rõ một điều: Free Edition chạy on-premise chứ không phải dịch vụ SaaS đăng ký là dùng. Việc triển khai cần một chút kiến thức kỹ thuật, và OKELAS team có thể hỗ trợ nếu doanh nghiệp muốn bắt đầu.
+
 Khi nhu cầu tăng, có thể bổ sung dần phân quyền theo phòng ban và vai trò, quy trình review và approval, đăng ký tài liệu, kiểm soát phiên bản phát hành, liên kết với SOP và quy trình, và audit trail.
 
 Một ranh giới cần giữ rõ: version history phục vụ quản lý quá trình làm việc **không tự động thay thế** kiểm soát tài liệu chính thức theo GMP hoặc ISO. Tài liệu đã duyệt vẫn cần quy trình phát hành, kiểm soát thay đổi và lưu trữ phù hợp. *Đây là góc nhìn quản trị, không phải tư vấn tuân thủ hay pháp lý.*
@@ -162,6 +164,8 @@ Bài về tờ giấy note nói rằng doanh nghiệp đang đánh mất tri th�
 **Doanh nghiệp bạn đang giữ lại kết quả công việc, hay cả quá trình hình thành nó?**
 
 → [Làm Knowledge Management Maturity Assessment](/readiness/knowledge) để xác định mức độ trưởng thành và điểm cần cải thiện đầu tiên.
+
+→ Nếu muốn triển khai OKELAS Free Edition, [liên hệ OKELAS team](/contact). Free Edition chạy on-premise nên cần một chút kiến thức kỹ thuật khi cài đặt; chúng tôi sẽ cùng trao đổi để triển khai phù hợp với doanh nghiệp bạn.
 
 <!-- EDITABLE:cta END -->
 

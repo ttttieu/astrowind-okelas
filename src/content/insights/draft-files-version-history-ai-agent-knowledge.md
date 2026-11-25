@@ -143,6 +143,8 @@ Many SMEs think of document management as a large system with a rollout project,
 
 The OKELAS Free Edition provides an artifact management foundation with version history. A company can begin with a few ordinary work documents: gather them in one place and keep the history of how they came about. No need to change every process, and no need to ask staff for extra work logs.
 
+One thing to be clear about: the Free Edition runs on-premise. It is not a SaaS service you sign up for and use. Deployment takes some technical knowledge, and the OKELAS team can help if you want to get started.
+
 As needs grow, you can add department and role permissions, review and approval flows, document registration, release version control, links to SOPs and workflows, and audit trails.
 
 One boundary should stay clear: version history for managing the work process does **not automatically replace** formal document control under GMP or ISO. Approved documents still need proper release, change control and archiving. *This is a governance perspective, not compliance or legal advice.*
@@ -162,6 +164,8 @@ The cover-note article said companies are losing knowledge. This one says they c
 **Is your company keeping the result of the work, or also how it came to be?**
 
 → [Take the Knowledge Management Maturity Assessment](/en/readiness/knowledge) to identify your maturity level and the first improvement to make.
+
+→ If you would like to deploy the OKELAS Free Edition, [contact the OKELAS team](/en/contact). Because it runs on-premise, installation needs some technical knowledge; we will work through a deployment that fits your company.
 
 <!-- EDITABLE:cta END -->
 
