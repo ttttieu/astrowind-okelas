@@ -491,4 +491,48 @@ module.exports=[
  alt:['Năm thẻ: lập bản đồ phụ thuộc, giữ tri thức chuyên gia, phương án dự phòng, kiểm thử phục hồi và để lại bằng chứng sau mỗi thay đổi.','Five cards: map dependencies, retain expert knowledge, keep a fallback, test recovery and leave evidence after each change.'],
  cap:['Hình 5. Năm việc của quản trị tri thức phòng ngừa.','Figure 5. Five practices of preventive knowledge management.'],
  anchor:A('after','Quản trị tri thức phòng ngừa không bắt đầu','Preventive knowledge management does not start')}
+,
+// ---------- 12 (business-operations: Office workspace) ----------
+{slug:{vi:'siet-ban-quyen-phan-mem-khong-chi-tim-office-re-hon',en:'software-license-crackdown-cheaper-office-alternative'},id:'wsp-01-ide-role-shift',
+ title:['Công cụ lập trình không biến mất; vai trò dịch chuyển','Coding tools are not vanishing; their role is shifting'],tpl:'cols2',
+ data:{arrow:true,items:[
+  {tag:['TRƯỚC ĐÂY','BEFORE'],text:['IDE là nơi viết code','The IDE is where code is written'],sub:['Gõ, chạy thử và tìm lỗi từng bước.','Typing, running and debugging step by step.'],style:'grey'},
+  {tag:['ĐANG DỊCH CHUYỂN','SHIFTING'],text:['IDE là nơi giao việc và kiểm tra kết quả','The IDE is where work is assigned and checked'],sub:['Quản lý phiên làm việc của AI, xem khác biệt, rà soát phần nhạy cảm.','Managing AI sessions, reviewing diffs, checking sensitive parts.'],style:'purple'}],
+  need:{text:['Khi AI tạo ra, giá trị chuyển sang xem, kiểm tra và kiểm soát.','When AI creates, the value moves to viewing, checking and control.']}},
+ footer:[['Nguồn: GenK, 24/11/2026, thuật lại phỏng vấn Satya Nadella. Chưa đọc nguyên bản.','Source: GenK, Nov 24, 2026, reporting an interview with Satya Nadella. Original not read.']],
+ alt:['Hai ô nối bằng mũi tên: trước đây IDE là nơi viết code, đang dịch chuyển thành nơi giao việc cho AI và kiểm tra kết quả.','Two boxes joined by an arrow: the IDE used to be where code is written and is shifting toward where work is assigned to AI and results are checked.'],
+ cap:['Hình 1. Vai trò của công cụ lập trình đang dịch chuyển, theo GenK thuật lại.','Figure 1. The role of coding tools is shifting, as reported by GenK.'],
+ anchor:A('after','Điểm đáng chú ý không phải là VS Code biến mất.','The point is not that VS Code disappears.')},
+{slug:{vi:'siet-ban-quyen-phan-mem-khong-chi-tim-office-re-hon',en:'software-license-crackdown-cheaper-office-alternative'},id:'wsp-02-office-role-hypothesis',
+ title:['Word, Excel, PowerPoint: một giả thuyết về vai trò mới','Word, Excel, PowerPoint: a hypothesis about a new role'],tpl:'cards',
+ data:{cols:3,gap:16,items:[
+  {tag:['WORD','WORD'],text:['Từ viết sang xem và hiệu chỉnh','From writing to reviewing and refining'],sub:['Tài liệu do AI soạn, con người sửa và duyệt.','AI drafts, people edit and approve.'],style:'purple'},
+  {tag:['EXCEL','EXCEL'],text:['Từ nhập liệu sang kiểm tra và phân tích','From data entry to checking and analysis'],sub:['AI dựng bảng và công thức, con người kiểm tra kết quả.','AI builds tables and formulas, people check results.'],style:'purple'},
+  {tag:['POWERPOINT','POWERPOINT'],text:['Từ thiết kế từng slide sang hoàn thiện','From designing each slide to finishing'],sub:['AI tạo bản trình bày, con người chỉnh và chốt.','AI creates the deck, people adjust and finalize.'],style:'purple'}]},
+ footer:[['Hình dung của OKELAS cho 1 đến 3 năm tới, chưa được chứng minh.','OKELAS’s view for the next 1 to 3 years; not proven.']],
+ alt:['Ba thẻ: Word từ viết sang xem và hiệu chỉnh, Excel từ nhập liệu sang kiểm tra và phân tích, PowerPoint từ thiết kế từng slide sang hoàn thiện; đây là giả thuyết của OKELAS.','Three cards: Word from writing to reviewing and refining, Excel from data entry to checking and analysis, PowerPoint from designing each slide to finishing; this is an OKELAS hypothesis.'],
+ cap:['Hình 2. Giả thuyết về vai trò mới của ba ứng dụng Office (nhận định, chưa phải kết quả).','Figure 2. A hypothesis about the new role of the three Office apps (a view, not an outcome).'],
+ anchor:A('after','- **PowerPoint:**','- **PowerPoint:**')},
+{slug:{vi:'siet-ban-quyen-phan-mem-khong-chi-tim-office-re-hon',en:'software-license-crackdown-cheaper-office-alternative'},id:'wsp-03-three-choices',
+ title:['Ba hướng của CEO khi bản quyền được siết','Three paths for a CEO as licensing is enforced'],tpl:'cards',
+ data:{cols:3,gap:16,items:[
+  {tag:['HƯỚNG 1','PATH 1'],text:['Mua đủ license cho mọi người','Buy licenses for everyone'],sub:['Giữ nguyên cách làm việc và chi phí bản quyền.','Keeps the working style and the license cost.'],style:'grey'},
+  {tag:['HƯỚNG 2','PATH 2'],text:['Đổi sang bộ văn phòng rẻ hơn','Move to a cheaper office suite'],sub:['Tiết kiệm bản quyền; thao tác thủ công vẫn còn.','Saves license fees; manual handling remains.'],style:'blue'},
+  {tag:['HƯỚNG 3','PATH 3'],text:['Đổi cách làm việc','Change how work is done'],sub:['Giảm nhu cầu soạn thủ công; cần quy trình và tri thức sẵn sàng.','Less manual drafting; needs ready processes and knowledge.'],style:'purple'}]},
+ footer:[GOV],
+ alt:['Ba thẻ: mua đủ license cho mọi người, đổi sang bộ văn phòng rẻ hơn, hoặc đổi cách làm việc; hướng thứ ba cần quy trình và tri thức sẵn sàng.','Three cards: buy licenses for everyone, move to a cheaper office suite, or change how work is done; the third needs ready processes and knowledge.'],
+ cap:['Hình 3. Ba hướng cân nhắc; chỉ đổi bộ công cụ chưa giải quyết chi phí lao động.','Figure 3. Three paths to weigh; changing the toolset alone does not address labor cost.'],
+ anchor:A('after','3. Thay đổi cách làm việc để giảm nhu cầu','3. Change how work is done so')},
+{slug:{vi:'siet-ban-quyen-phan-mem-khong-chi-tim-office-re-hon',en:'software-license-crackdown-cheaper-office-alternative'},id:'wsp-04-consumption-steps',
+ title:['Workspace tiếp nhận tri thức: bốn bước','A knowledge-consuming workspace: four steps'],tpl:'flow',
+ data:{arrowGap:44,items:[
+  {tag:['BƯỚC 1','STEP 1'],text:['Tiếp nhận','Ingest'],sub:['Tài liệu và dữ liệu vào một nơi.','Documents and data in one place.'],style:'blue'},
+  {tag:['BƯỚC 2','STEP 2'],text:['Hiểu và trích xuất','Understand and extract'],sub:['Nắm nội dung, ngữ cảnh, thông tin chính.','Grasp content, context, key facts.'],style:'blue'},
+  {tag:['BƯỚC 3','STEP 3'],text:['Liên kết và phân tích','Connect and analyze'],sub:['Đối chiếu với tri thức và dữ liệu khác.','Cross-check against other knowledge and data.'],style:'blue'},
+  {tag:['BƯỚC 4','STEP 4'],text:['Thực hiện và tạo đầu ra','Execute and generate'],sub:['Dùng kết quả cho công việc, tạo tài liệu khi cần.','Use results in the work, generate documents when needed.'],style:'purple'}],
+  need:{text:['Con người kiểm tra, phê duyệt và chịu trách nhiệm.','People review, approve and stay accountable.']}},
+ footer:[TOOL],
+ alt:['Chuỗi bốn bước: tiếp nhận, hiểu và trích xuất, liên kết và phân tích, thực hiện và tạo đầu ra; con người kiểm tra, phê duyệt và chịu trách nhiệm.','A chain of four steps: ingest, understand and extract, connect and analyze, execute and generate; people review, approve and stay accountable.'],
+ cap:['Hình 4. Bảy năng lực của workspace tiếp nhận tri thức, gộp thành bốn bước.','Figure 4. Seven capabilities of a knowledge-consuming workspace, grouped into four steps.'],
+ anchor:A('after','Với một CEO SME, có thể diễn đạt đơn giản hơn','For an SME owner, it can be put more simply')}
 ];

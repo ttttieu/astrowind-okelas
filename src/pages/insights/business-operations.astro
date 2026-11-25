@@ -4,6 +4,16 @@ import HeroText from '~/components/widgets/HeroText.astro';
 import Content from '~/components/widgets/Content.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 import { getArticlesByCategory } from '~/lib/insights';
+import type { ImageMetadata } from 'astro';
+
+// Covers for newer articles live in src/assets (keyed by each article's `coverImage` frontmatter);
+// the legacy map below still serves the older articles from public/.
+const coverGlob = import.meta.glob<{ default: ImageMetadata }>(
+  '/src/assets/images/insights/*/wsp-*-og-cover-*.png',
+  { eager: true }
+);
+const getCover = (coverImage?: string): ImageMetadata | undefined =>
+  coverImage ? coverGlob[coverImage.replace(/^~/, '/src')]?.default : undefined;
 
 const metadata = {
   title: 'Business & Operations — OKELAS Insights',
@@ -26,6 +36,7 @@ const articleOrder: Record<string, number> = {
   'chi-phi-khong-so-hoa': 7, // 4.7
   'du-an-chuyen-doi-so-that-bai': 8, // 4.8
   'buoc-tiep-theo-so-hoa-co-nghia-kinh-te': 9, // 4.9
+  'siet-ban-quyen-phan-mem-khong-chi-tim-office-re-hon': 10, // workspace / license article
 };
 
 // Sort articles by order
@@ -89,7 +100,8 @@ const typeBadgeClass: Record<string, string> = {
             'buoc-tiep-theo-so-hoa-co-nghia-kinh-te': 'nx-05-og-cover-vi.png',
           };
           const imageName = coverImages[article.id] || '';
-          const coverImagePath = `/assets/images/insights/${article.id}/${imageName}`;
+          const newCover = getCover(article.data.coverImage);
+          const coverImagePath = newCover ? newCover.src : `/assets/images/insights/${article.id}/${imageName}`;
 
           return (
           <li key={article.id} class="flex items-start gap-6 group">
