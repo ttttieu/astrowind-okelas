@@ -1832,6 +1832,19 @@
         "category": "trending",
         "url": "/en/insights/trending/aviation-knowledge-debt-legacy-systems"
       }
+    },
+    {
+      "translationId": "office-license-workspace-shift",
+      "vi": {
+        "slug": "siet-ban-quyen-phan-mem-khong-chi-tim-office-re-hon",
+        "category": "business-operations",
+        "url": "/insights/business-operations/siet-ban-quyen-phan-mem-khong-chi-tim-office-re-hon"
+      },
+      "en": {
+        "slug": "software-license-crackdown-cheaper-office-alternative",
+        "category": "business-operations",
+        "url": "/en/insights/business-operations/software-license-crackdown-cheaper-office-alternative"
+      }
     }
   ]
 }
