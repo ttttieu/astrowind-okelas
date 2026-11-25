@@ -1845,6 +1845,19 @@
         "category": "business-operations",
         "url": "/en/insights/business-operations/software-license-crackdown-cheaper-office-alternative"
       }
+    },
+    {
+      "translationId": "drafts-version-history-knowledge-asset",
+      "vi": {
+        "slug": "dung-vut-ban-nhap-bien-file-thanh-tai-san-tri-thuc",
+        "category": "business-operations",
+        "url": "/insights/business-operations/dung-vut-ban-nhap-bien-file-thanh-tai-san-tri-thuc"
+      },
+      "en": {
+        "slug": "draft-files-version-history-ai-agent-knowledge",
+        "category": "business-operations",
+        "url": "/en/insights/business-operations/draft-files-version-history-ai-agent-knowledge"
+      }
     }
   ]
 }
