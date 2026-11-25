@@ -535,4 +535,46 @@ module.exports=[
  alt:['Chuỗi bốn bước: tiếp nhận, hiểu và trích xuất, liên kết và phân tích, thực hiện và tạo đầu ra; con người kiểm tra, phê duyệt và chịu trách nhiệm.','A chain of four steps: ingest, understand and extract, connect and analyze, execute and generate; people review, approve and stay accountable.'],
  cap:['Hình 4. Bảy năng lực của workspace tiếp nhận tri thức, gộp thành bốn bước.','Figure 4. Seven capabilities of a knowledge-consuming workspace, grouped into four steps.'],
  anchor:A('after','Với một CEO SME, có thể diễn đạt đơn giản hơn','For an SME owner, it can be put more simply')}
+,
+// ---------- 13 (business-operations: drafts / version history) ----------
+{slug:{vi:'dung-vut-ban-nhap-bien-file-thanh-tai-san-tri-thuc',en:'draft-files-version-history-ai-agent-knowledge'},id:'wsp-05-final-vs-versions',
+ title:['Bản cuối cho biết quyết định gì; các phiên bản cho biết vì sao','The final shows what was decided; the versions show why'],tpl:'cols2',
+ data:{arrow:true,items:[
+  {tag:['BẢN CUỐI','THE FINAL'],text:['Quyết định gì','What was decided'],sub:['Kết quả đã được duyệt và lưu lại.','The approved result, which is kept.'],style:'blue'},
+  {tag:['CÁC PHIÊN BẢN','THE VERSIONS'],text:['Vì sao quyết định như vậy','Why it was decided'],sub:['Phương án đã cân nhắc, điều kiện ràng buộc, ngoại lệ.','Options weighed, constraints, exceptions.'],style:'purple'}],
+  need:{text:['Doanh nghiệp thường chỉ giữ cột bên trái.','Companies usually keep only the left side.']}},
+ alt:['Hai khối nối bằng mũi tên: bản cuối cho biết quyết định gì, các phiên bản trung gian cho biết vì sao quyết định như vậy; doanh nghiệp thường chỉ giữ khối thứ nhất.','Two blocks joined by an arrow: the final shows what was decided, the intermediate versions show why; companies usually keep only the first.'],
+ cap:['Hình 1. Bản cuối và các phiên bản trả lời hai câu hỏi khác nhau.','Figure 1. The final and the versions answer two different questions.'],
+ anchor:A('after','Những thông tin này thường không nằm trong tài liệu chính thức.','This information often never appears in official documents.')},
+{slug:{vi:'dung-vut-ban-nhap-bien-file-thanh-tai-san-tri-thuc',en:'draft-files-version-history-ai-agent-knowledge'},id:'wsp-06-version-chain',
+ title:['Năm phiên bản của một kế hoạch sản xuất (ví dụ minh họa)','Five versions of a production plan (illustrative example)'],tpl:'flow',
+ data:{perRow:3,arrowGap:44,rowGap:36,items:[
+  {tag:['V1','V1'],text:['Dữ liệu ban đầu','Starting data'],sub:['Đơn hàng, tồn kho, năng lực máy.','Orders, inventory, machine capacity.'],style:'blue'},
+  {tag:['V2','V2'],text:['Phương án A','Option A'],sub:['Phân bổ theo năng lực hiện tại.','Allocated to current capacity.'],style:'blue'},
+  {tag:['V3','V3'],text:['Điều chỉnh','Adjustment'],sub:['Sửa sau khi phát hiện máy có lịch bảo trì.','Revised after a machine maintenance date surfaced.'],style:'purple'},
+  {tag:['V4','V4'],text:['Phương án B','Option B'],sub:['Phân bổ lại, thêm phương án tăng ca.','Reallocated, overtime option added.'],style:'purple'},
+  {tag:['V5','V5'],text:['Kết quả','Result'],sub:['Phương án được chọn, trình phê duyệt.','Chosen option sent for approval.'],style:'blue'}]},
+ footer:[['Ví dụ minh họa của OKELAS, không phải trường hợp của khách hàng.','Illustrative example by OKELAS, not a customer case.']],
+ alt:['Chuỗi năm phiên bản: dữ liệu ban đầu, phương án A, điều chỉnh sau khi phát hiện máy có lịch bảo trì, phương án B có thêm tăng ca, và kết quả trình phê duyệt.','A chain of five versions: starting data, option A, an adjustment after a machine maintenance date surfaced, option B with overtime added, and the result sent for approval.'],
+ cap:['Hình 2. Chuỗi phiên bản giữ lại dấu vết của quá trình cân nhắc.','Figure 2. The version chain keeps the trace of the weighing process.'],
+ anchor:A('after','5. **Version 5','5. **Version 5')},
+{slug:{vi:'dung-vut-ban-nhap-bien-file-thanh-tai-san-tri-thuc',en:'draft-files-version-history-ai-agent-knowledge'},id:'wsp-07-loose-vs-artifact',
+ title:['File rời rạc và artifact có phiên bản','Loose files and a versioned artifact'],tpl:'cols2',
+ data:{arrow:'neq',items:[
+  {tag:['FILE PHÂN TÁN','LOOSE FILES'],text:['Nhiều file, nhiều tên','Many files, many names'],sub:['Không rõ bản nào đúng, không có lịch sử thay đổi.','Unclear which is correct, no change history.'],style:'grey'},
+  {tag:['ARTIFACT QUẢN LÝ','MANAGED ARTIFACT'],text:['Một artifact, nhiều phiên bản','One artifact, many versions'],sub:['Có người sửa, thời điểm, trạng thái; truy xuất và khai thác lại được.','Editors, timestamps, status; retrievable and reusable.'],style:'blue'}],
+  need:{text:['Nhân viên vẫn làm việc như cũ; hệ thống ghi nhận quá trình.','Staff work as before; the system records the process.']}},
+ alt:['Hai khối khác nhau: nhiều file phân tán với nhiều tên, và một artifact có nhiều phiên bản được quản lý; nhân viên vẫn làm việc như cũ còn hệ thống ghi nhận quá trình.','Two different blocks: many scattered files with many names, and one managed artifact with many versions; staff work as before while the system records the process.'],
+ cap:['Hình 3. Từ file rời rạc đến artifact có lịch sử.','Figure 3. From loose files to an artifact with history.'],
+ anchor:A('after','Điều quan trọng là **không yêu cầu','The point is that **no one has to')},
+{slug:{vi:'dung-vut-ban-nhap-bien-file-thanh-tai-san-tri-thuc',en:'draft-files-version-history-ai-agent-knowledge'},id:'wsp-08-three-sources',
+ title:['Ba nguồn tri thức cho AI Agent','Three knowledge sources for an AI agent'],tpl:'cards',
+ data:{cols:3,gap:16,items:[
+  {tag:['NGUỒN 1','SOURCE 1'],text:['Tri thức được quy định','Prescribed knowledge'],sub:['SOP, quy chế, tiêu chuẩn. Công việc cần làm thế nào.','SOPs, policies, standards. How work should be done.'],style:'blue'},
+  {tag:['NGUỒN 2','SOURCE 2'],text:['Tri thức từ vận hành','Operational knowledge'],sub:['Sự kiện quy trình, dữ liệu, kết quả. Điều gì đã xảy ra.','Process events, data, outcomes. What happened.'],style:'blue'},
+  {tag:['NGUỒN 3','SOURCE 3'],text:['Dấu vết hình thành công việc','Process artifacts'],sub:['Bản nháp, phiên bản, nhận xét. Những lựa chọn và điều chỉnh.','Drafts, versions, comments. The choices and adjustments.'],style:'purple'}]},
+ footer:[TOOL],
+ alt:['Ba thẻ: tri thức được quy định, tri thức từ vận hành, và dấu vết hình thành công việc như bản nháp và phiên bản; thẻ thứ ba thường bị bỏ sót.','Three cards: prescribed knowledge, operational knowledge, and process artifacts such as drafts and versions; the third is usually missed.'],
+ cap:['Hình 4. Ba nguồn tri thức; nguồn thứ ba thường không được giữ lại.','Figure 4. Three knowledge sources; the third is usually not kept.'],
+ anchor:A('after','Thay vì chỉ huấn luyện AI trên','Rather than training an AI only on')}
 ];
